@@ -4,12 +4,12 @@
 
 ### LightsailCertificate <a name="LightsailCertificate" id="@cdktn/provider-awscc.lightsailCertificate.LightsailCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_certificate awscc_lightsail_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_certificate awscc_lightsail_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailCertificate.LightsailCertificate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcertificate"
 
 lightsailcertificate.NewLightsailCertificate(scope Construct, id *string, config LightsailCertificateConfig) LightsailCertificate
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailCertificate.LightsailCertificate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcertificate"
 
 lightsailcertificate.LightsailCertificate_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailCertificate.LightsailCertificate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcertificate"
 
 lightsailcertificate.LightsailCertificate_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ lightsailcertificate.LightsailCertificate_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailCertificate.LightsailCertificate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcertificate"
 
 lightsailcertificate.LightsailCertificate_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ lightsailcertificate.LightsailCertificate_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailCertificate.LightsailCertificate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcertificate"
 
 lightsailcertificate.LightsailCertificate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the LightsailCertificate to im
 
 The id of the existing LightsailCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -837,7 +837,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailCertificate.LightsailCertificateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcertificate"
 
 &lightsailcertificate.LightsailCertificateConfig {
 	Connection: interface{},
@@ -952,7 +952,7 @@ CertificateName *string
 
 The name for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_certificate#certificate_name LightsailCertificate#certificate_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_certificate#certificate_name LightsailCertificate#certificate_name}
 
 ---
 
@@ -966,7 +966,7 @@ DomainName *string
 
 The domain name (e.g., example.com ) for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_certificate#domain_name LightsailCertificate#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_certificate#domain_name LightsailCertificate#domain_name}
 
 ---
 
@@ -980,7 +980,7 @@ SubjectAlternativeNames *[]*string
 
 An array of strings that specify the alternate domains (e.g., example2.com) and subdomains (e.g., blog.example.com) for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_certificate#subject_alternative_names LightsailCertificate#subject_alternative_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_certificate#subject_alternative_names LightsailCertificate#subject_alternative_names}
 
 ---
 
@@ -994,7 +994,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_certificate#tags LightsailCertificate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_certificate#tags LightsailCertificate#tags}
 
 ---
 
@@ -1003,7 +1003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailCertificate.LightsailCertificateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcertificate"
 
 &lightsailcertificate.LightsailCertificateTags {
 	Key: *string,
@@ -1032,7 +1032,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_certificate#key LightsailCertificate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_certificate#key LightsailCertificate#key}
 
 ---
 
@@ -1048,7 +1048,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_certificate#value LightsailCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_certificate#value LightsailCertificate#value}
 
 ---
 
@@ -1059,7 +1059,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailCertificate.LightsailCertificateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcertificate"
 
 lightsailcertificate.NewLightsailCertificateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailCertificateTagsList
 ```
@@ -1219,7 +1219,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailCertificate.LightsailCertificateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcertificate"
 
 lightsailcertificate.NewLightsailCertificateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailCertificateTagsOutputReference
 ```

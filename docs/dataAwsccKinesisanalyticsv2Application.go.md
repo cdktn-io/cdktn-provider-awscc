@@ -4,12 +4,12 @@
 
 ### DataAwsccKinesisanalyticsv2Application <a name="DataAwsccKinesisanalyticsv2Application" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2Application"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2Application.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2Application(scope Construct, id *string, config DataAwsccKinesisanalyticsv2ApplicationConfig) DataAwsccKinesisanalyticsv2Application
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2Application.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2Application_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2Application.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2Application_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2Application_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2Application.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2Application_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2Application_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2Application.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2Application_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKinesisanalyticsv
 
 The id of the existing DataAwsccKinesisanalyticsv2Application that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisanalyticsv2_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisanalyticsv2_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfiguration {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfiguration {
 
@@ -712,7 +712,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationCodeContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationCodeContent {
 
@@ -725,7 +725,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationCodeContentS3ContentLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationCodeContentS3ContentLocation {
 
@@ -738,7 +738,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfiguration {
 
@@ -751,7 +751,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfiguration {
 
@@ -764,7 +764,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSystemRollbackConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSystemRollbackConfiguration {
 
@@ -777,7 +777,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentProperties {
 
@@ -790,7 +790,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPropertiesPropertyGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPropertiesPropertyGroups {
 
@@ -803,7 +803,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfiguration {
 
@@ -816,7 +816,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationCheckpointConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationCheckpointConfiguration {
 
@@ -829,7 +829,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationMonitoringConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationMonitoringConfiguration {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationParallelismConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationParallelismConfiguration {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfiguration {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputs {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputParallelism.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputParallelism {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputProcessingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputProcessingConfiguration {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputProcessingConfigurationInputLambdaProcessor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputProcessingConfigurationInputLambdaProcessor {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchema {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordColumns {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormat {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParameters {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersCsvMappingParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersCsvMappingParameters {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersJsonMappingParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersJsonMappingParameters {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsKinesisFirehoseInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsKinesisFirehoseInput {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsKinesisStreamsInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsKinesisStreamsInput {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurations {
 
@@ -1037,7 +1037,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfiguration {
 
@@ -1050,7 +1050,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCatalogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCatalogConfiguration {
 
@@ -1063,7 +1063,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCatalogConfigurationGlueDataCatalogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCatalogConfigurationGlueDataCatalogConfiguration {
 
@@ -1076,7 +1076,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfiguration {
 
@@ -1089,7 +1089,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationMavenReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationMavenReference {
 
@@ -1102,7 +1102,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationS3ContentLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationS3ContentLocation {
 
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationDeployAsApplicationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationDeployAsApplicationConfiguration {
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationDeployAsApplicationConfigurationS3ContentLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationDeployAsApplicationConfigurationS3ContentLocation {
 
@@ -1141,7 +1141,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationMonitoringConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationMonitoringConfiguration {
 
@@ -1154,7 +1154,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationMaintenanceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationApplicationMaintenanceConfiguration {
 
@@ -1167,7 +1167,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationConfig {
 	Connection: interface{},
@@ -1276,7 +1276,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisanalyticsv2_application#id DataAwsccKinesisanalyticsv2Application#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisanalyticsv2_application#id DataAwsccKinesisanalyticsv2Application#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1288,7 +1288,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationRunConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationRunConfiguration {
 
@@ -1301,7 +1301,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfiguration {
 
@@ -1314,7 +1314,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationRunConfigurationFlinkRunConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationRunConfigurationFlinkRunConfiguration {
 
@@ -1327,7 +1327,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 &dataawscckinesisanalyticsv2application.DataAwsccKinesisanalyticsv2ApplicationTags {
 
@@ -1342,7 +1342,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationCodeContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationCodeContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationCodeContentOutputReference
 ```
@@ -1624,7 +1624,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationCodeContentS3ContentLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationCodeContentS3ContentLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationCodeContentS3ContentLocationOutputReference
 ```
@@ -1906,7 +1906,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationOutputReference
 ```
@@ -2177,7 +2177,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfigurationOutputReference
 ```
@@ -2448,7 +2448,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference
 ```
@@ -2708,7 +2708,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSystemRollbackConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSystemRollbackConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSystemRollbackConfigurationOutputReference
 ```
@@ -2968,7 +2968,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPropertiesOutputReference
 ```
@@ -3228,7 +3228,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPropertiesPropertyGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPropertiesPropertyGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPropertiesPropertyGroupsList
 ```
@@ -3377,7 +3377,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPropertiesPropertyGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPropertiesPropertyGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPropertiesPropertyGroupsOutputReference
 ```
@@ -3666,7 +3666,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationCheckpointConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationCheckpointConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationCheckpointConfigurationOutputReference
 ```
@@ -3959,7 +3959,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationMonitoringConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationMonitoringConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationMonitoringConfigurationOutputReference
 ```
@@ -4241,7 +4241,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationOutputReference
 ```
@@ -4523,7 +4523,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationParallelismConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationParallelismConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfigurationParallelismConfigurationOutputReference
 ```
@@ -4816,7 +4816,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationOutputReference
 ```
@@ -5164,7 +5164,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputParallelismOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputParallelismOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputParallelismOutputReference
 ```
@@ -5424,7 +5424,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputProcessingConfigurationInputLambdaProcessorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputProcessingConfigurationInputLambdaProcessorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputProcessingConfigurationInputLambdaProcessorOutputReference
 ```
@@ -5684,7 +5684,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputProcessingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputProcessingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputProcessingConfigurationOutputReference
 ```
@@ -5944,7 +5944,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaOutputReference
 ```
@@ -6226,7 +6226,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordColumnsList
 ```
@@ -6375,7 +6375,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordColumnsOutputReference
 ```
@@ -6675,7 +6675,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersCsvMappingParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersCsvMappingParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersCsvMappingParametersOutputReference
 ```
@@ -6946,7 +6946,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersJsonMappingParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersJsonMappingParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersJsonMappingParametersOutputReference
 ```
@@ -7206,7 +7206,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatMappingParametersOutputReference
 ```
@@ -7477,7 +7477,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsInputSchemaRecordFormatOutputReference
 ```
@@ -7748,7 +7748,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsKinesisFirehoseInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsKinesisFirehoseInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsKinesisFirehoseInputOutputReference
 ```
@@ -8008,7 +8008,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsKinesisStreamsInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsKinesisStreamsInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsKinesisStreamsInputOutputReference
 ```
@@ -8268,7 +8268,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsList
 ```
@@ -8417,7 +8417,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationInputsOutputReference
 ```
@@ -8750,7 +8750,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationOutputReference
 ```
@@ -9010,7 +9010,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationsList
 ```
@@ -9159,7 +9159,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationsOutputReference
 ```
@@ -9448,7 +9448,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCatalogConfigurationGlueDataCatalogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCatalogConfigurationGlueDataCatalogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCatalogConfigurationGlueDataCatalogConfigurationOutputReference
 ```
@@ -9708,7 +9708,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCatalogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCatalogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCatalogConfigurationOutputReference
 ```
@@ -9968,7 +9968,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationList
 ```
@@ -10117,7 +10117,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationMavenReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationMavenReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationMavenReferenceOutputReference
 ```
@@ -10399,7 +10399,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationOutputReference
 ```
@@ -10699,7 +10699,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationS3ContentLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationS3ContentLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationCustomArtifactsConfigurationS3ContentLocationOutputReference
 ```
@@ -10981,7 +10981,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationDeployAsApplicationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationDeployAsApplicationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationDeployAsApplicationConfigurationOutputReference
 ```
@@ -11241,7 +11241,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationDeployAsApplicationConfigurationS3ContentLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationDeployAsApplicationConfigurationS3ContentLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationDeployAsApplicationConfigurationS3ContentLocationOutputReference
 ```
@@ -11512,7 +11512,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationMonitoringConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationMonitoringConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationMonitoringConfigurationOutputReference
 ```
@@ -11772,7 +11772,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfigurationOutputReference
 ```
@@ -12065,7 +12065,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationApplicationMaintenanceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationApplicationMaintenanceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationApplicationMaintenanceConfigurationOutputReference
 ```
@@ -12325,7 +12325,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationApplicationMaintenanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference
 ```
@@ -12596,7 +12596,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationRunConfigurationAppli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationRunConfigurationFlinkRunConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationRunConfigurationFlinkRunConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationRunConfigurationFlinkRunConfigurationOutputReference
 ```
@@ -12856,7 +12856,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationRunConfigurationFlink
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationRunConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationRunConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisanalyticsv2ApplicationRunConfigurationOutputReference
 ```
@@ -13127,7 +13127,7 @@ func InternalValue() DataAwsccKinesisanalyticsv2ApplicationRunConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisanalyticsv2ApplicationTagsList
 ```
@@ -13276,7 +13276,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Application.DataAwsccKinesisanalyticsv2ApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2application"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2application"
 
 dataawscckinesisanalyticsv2application.NewDataAwsccKinesisanalyticsv2ApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisanalyticsv2ApplicationTagsOutputReference
 ```

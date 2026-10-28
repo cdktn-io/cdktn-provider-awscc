@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockKnowledgeBase <a name="DataAwsccBedrockKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_knowledge_base awscc_bedrock_knowledge_base}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_knowledge_base awscc_bedrock_knowledge_base}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBase(scope Construct, id *string, config DataAwsccBedrockKnowledgeBaseConfig) DataAwsccBedrockKnowledgeBase
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBase_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBase_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBase_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBase.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBase_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBase_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockKnowledgeB
 
 The id of the existing DataAwsccBedrockKnowledgeBase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_knowledge_base#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_knowledge_base#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_knowledge_base#id DataAwsccBedrockKnowledgeBase#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_knowledge_base#id DataAwsccBedrockKnowledgeBase#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfiguration {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfiguration {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfiguration {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfiguration {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudio {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideo {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration {
 
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfiguration {
 
@@ -970,7 +970,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfiguration {
 
@@ -983,7 +983,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocations {
 
@@ -996,7 +996,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location {
 
@@ -1009,7 +1009,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfiguration {
 
@@ -1022,7 +1022,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfiguration {
 
@@ -1035,7 +1035,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfiguration {
 
@@ -1048,7 +1048,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfiguration {
 
@@ -1061,7 +1061,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfiguration {
 
@@ -1074,7 +1074,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfiguration {
 
@@ -1087,7 +1087,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfiguration {
 
@@ -1100,7 +1100,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfiguration {
 
@@ -1113,7 +1113,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContext.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContext {
 
@@ -1126,7 +1126,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueries {
 
@@ -1139,7 +1139,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTables {
 
@@ -1152,7 +1152,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumns {
 
@@ -1165,7 +1165,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurations {
 
@@ -1178,7 +1178,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfiguration {
 
@@ -1191,7 +1191,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfiguration {
 
@@ -1204,7 +1204,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfiguration {
 
@@ -1217,7 +1217,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfiguration {
 
@@ -1230,7 +1230,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration {
 
@@ -1243,7 +1243,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudio {
 
@@ -1256,7 +1256,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration {
 
@@ -1269,7 +1269,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideo {
 
@@ -1282,7 +1282,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration {
 
@@ -1295,7 +1295,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfiguration {
 
@@ -1308,7 +1308,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocations {
 
@@ -1321,7 +1321,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location {
 
@@ -1334,7 +1334,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfiguration {
 
@@ -1347,7 +1347,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration {
 
@@ -1360,7 +1360,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMapping {
 
@@ -1373,7 +1373,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration {
 
@@ -1386,7 +1386,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMapping {
 
@@ -1399,7 +1399,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration {
 
@@ -1412,7 +1412,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMapping {
 
@@ -1425,7 +1425,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfiguration {
 
@@ -1438,7 +1438,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMapping {
 
@@ -1451,7 +1451,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeConfiguration {
 
@@ -1464,7 +1464,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMapping {
 
@@ -1477,7 +1477,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfiguration {
 
@@ -1490,7 +1490,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMapping {
 
@@ -1503,7 +1503,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationS3VectorsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 &dataawsccbedrockknowledgebase.DataAwsccBedrockKnowledgeBaseStorageConfigurationS3VectorsConfiguration {
 
@@ -1518,7 +1518,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowle
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfigurationOutputReference
 ```
@@ -1778,7 +1778,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationKend
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList
 ```
@@ -1927,7 +1927,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference
 ```
@@ -2205,7 +2205,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationMana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference
 ```
@@ -2465,7 +2465,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationMana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference
 ```
@@ -2769,7 +2769,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationMana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList
 ```
@@ -2918,7 +2918,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference
 ```
@@ -3196,7 +3196,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationMana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference
 ```
@@ -3456,7 +3456,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationMana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference
 ```
@@ -3716,7 +3716,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationMana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationOutputReference
 ```
@@ -4020,7 +4020,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationMana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfigurationOutputReference
 ```
@@ -4280,7 +4280,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationMana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference
 ```
@@ -4540,7 +4540,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationMana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList
 ```
@@ -4689,7 +4689,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference
 ```
@@ -4978,7 +4978,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationMana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference
 ```
@@ -5238,7 +5238,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationMana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationOutputReference
 ```
@@ -5542,7 +5542,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationOutputReference
 ```
@@ -5813,7 +5813,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationOutputReference
 ```
@@ -6095,7 +6095,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationOutputReference
 ```
@@ -6377,7 +6377,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfigurationOutputReference
 ```
@@ -6659,7 +6659,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationOutputReference
 ```
@@ -6930,7 +6930,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfigurationOutputReference
 ```
@@ -7201,7 +7201,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationOutputReference
 ```
@@ -7472,7 +7472,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesList
 ```
@@ -7621,7 +7621,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesOutputReference
 ```
@@ -7910,7 +7910,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextOutputReference
 ```
@@ -8181,7 +8181,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsList
 ```
@@ -8330,7 +8330,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsOutputReference
 ```
@@ -8630,7 +8630,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesList
 ```
@@ -8779,7 +8779,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesOutputReference
 ```
@@ -9090,7 +9090,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationOutputReference
 ```
@@ -9361,7 +9361,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfigurationOutputReference
 ```
@@ -9621,7 +9621,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsList
 ```
@@ -9770,7 +9770,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsOutputReference
 ```
@@ -10070,7 +10070,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfigurationOutputReference
 ```
@@ -10330,7 +10330,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList
 ```
@@ -10479,7 +10479,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference
 ```
@@ -10757,7 +10757,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference
 ```
@@ -11017,7 +11017,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference
 ```
@@ -11321,7 +11321,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList
 ```
@@ -11470,7 +11470,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference
 ```
@@ -11748,7 +11748,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference
 ```
@@ -12008,7 +12008,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference
 ```
@@ -12268,7 +12268,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationOutputReference
 ```
@@ -12550,7 +12550,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference
 ```
@@ -12810,7 +12810,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList
 ```
@@ -12959,7 +12959,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference
 ```
@@ -13248,7 +13248,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference
 ```
@@ -13508,7 +13508,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseKnowledgeBaseConfigurationVect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMappingOutputReference
 ```
@@ -13790,7 +13790,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOutputReference
 ```
@@ -14127,7 +14127,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationMongoDbAtl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference
 ```
@@ -14398,7 +14398,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAna
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationOutputReference
 ```
@@ -14669,7 +14669,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAna
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference
 ```
@@ -14951,7 +14951,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationOutputReference
 ```
@@ -15244,7 +15244,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference
 ```
@@ -15526,7 +15526,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationOutputReference
 ```
@@ -15808,7 +15808,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationOpensearch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationOutputReference
 ```
@@ -16145,7 +16145,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference
 ```
@@ -16416,7 +16416,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeConfigurationOutputReference
 ```
@@ -16709,7 +16709,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationPineconeCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappingOutputReference
 ```
@@ -17013,7 +17013,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfigurationOutputReference
 ```
@@ -17317,7 +17317,7 @@ func InternalValue() DataAwsccBedrockKnowledgeBaseStorageConfigurationRdsConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBase.DataAwsccBedrockKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockknowledgebase"
 
 dataawsccbedrockknowledgebase.NewDataAwsccBedrockKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsConnections <a name="DataAwsccEventsConnections" id="@cdktn/provider-awscc.dataAwsccEventsConnections.DataAwsccEventsConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_connections awscc_events_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_connections awscc_events_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnections.DataAwsccEventsConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnections"
 
 dataawscceventsconnections.NewDataAwsccEventsConnections(scope Construct, id *string, config DataAwsccEventsConnectionsConfig) DataAwsccEventsConnections
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsConnections.DataAwsccEventsConnections.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnections"
 
 dataawscceventsconnections.DataAwsccEventsConnections_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsConnections.DataAwsccEventsConnections.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnections"
 
 dataawscceventsconnections.DataAwsccEventsConnections_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsconnections.DataAwsccEventsConnections_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsConnections.DataAwsccEventsConnections.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnections"
 
 dataawscceventsconnections.DataAwsccEventsConnections_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsconnections.DataAwsccEventsConnections_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsConnections.DataAwsccEventsConnections.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnections"
 
 dataawscceventsconnections.DataAwsccEventsConnections_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsConnections
 
 The id of the existing DataAwsccEventsConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnections.DataAwsccEventsConnectionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnections"
 
 &dataawscceventsconnections.DataAwsccEventsConnectionsConfig {
 	Connection: interface{},

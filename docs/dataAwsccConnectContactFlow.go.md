@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectContactFlow <a name="DataAwsccConnectContactFlow" id="@cdktn/provider-awscc.dataAwsccConnectContactFlow.DataAwsccConnectContactFlow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_contact_flow awscc_connect_contact_flow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_contact_flow awscc_connect_contact_flow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectContactFlow.DataAwsccConnectContactFlow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflow"
 
 dataawsccconnectcontactflow.NewDataAwsccConnectContactFlow(scope Construct, id *string, config DataAwsccConnectContactFlowConfig) DataAwsccConnectContactFlow
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectContactFlow.DataAwsccConnectContactFlow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflow"
 
 dataawsccconnectcontactflow.DataAwsccConnectContactFlow_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectContactFlow.DataAwsccConnectContactFlow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflow"
 
 dataawsccconnectcontactflow.DataAwsccConnectContactFlow_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectcontactflow.DataAwsccConnectContactFlow_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectContactFlow.DataAwsccConnectContactFlow.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflow"
 
 dataawsccconnectcontactflow.DataAwsccConnectContactFlow_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectcontactflow.DataAwsccConnectContactFlow_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectContactFlow.DataAwsccConnectContactFlow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflow"
 
 dataawsccconnectcontactflow.DataAwsccConnectContactFlow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectContactFlo
 
 The id of the existing DataAwsccConnectContactFlow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_contact_flow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_contact_flow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectContactFlow.DataAwsccConnectContactFlowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflow"
 
 &dataawsccconnectcontactflow.DataAwsccConnectContactFlowConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_contact_flow#id DataAwsccConnectContactFlow#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_contact_flow#id DataAwsccConnectContactFlow#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectContactFlow.DataAwsccConnectContactFlowTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflow"
 
 &dataawsccconnectcontactflow.DataAwsccConnectContactFlowTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontac
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectContactFlow.DataAwsccConnectContactFlowTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflow"
 
 dataawsccconnectcontactflow.NewDataAwsccConnectContactFlowTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectContactFlowTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectContactFlow.DataAwsccConnectContactFlowTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflow"
 
 dataawsccconnectcontactflow.NewDataAwsccConnectContactFlowTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectContactFlowTagsOutputReference
 ```

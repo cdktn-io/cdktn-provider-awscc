@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsApiDestinations <a name="DataAwsccEventsApiDestinations" id="@cdktn/provider-awscc.dataAwsccEventsApiDestinations.DataAwsccEventsApiDestinations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_api_destinations awscc_events_api_destinations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_api_destinations awscc_events_api_destinations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsApiDestinations.DataAwsccEventsApiDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsapidestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsapidestinations"
 
 dataawscceventsapidestinations.NewDataAwsccEventsApiDestinations(scope Construct, id *string, config DataAwsccEventsApiDestinationsConfig) DataAwsccEventsApiDestinations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsApiDestinations.DataAwsccEventsApiDestinations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsapidestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsapidestinations"
 
 dataawscceventsapidestinations.DataAwsccEventsApiDestinations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsApiDestinations.DataAwsccEventsApiDestinations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsapidestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsapidestinations"
 
 dataawscceventsapidestinations.DataAwsccEventsApiDestinations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsapidestinations.DataAwsccEventsApiDestinations_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsApiDestinations.DataAwsccEventsApiDestinations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsapidestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsapidestinations"
 
 dataawscceventsapidestinations.DataAwsccEventsApiDestinations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsapidestinations.DataAwsccEventsApiDestinations_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsApiDestinations.DataAwsccEventsApiDestinations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsapidestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsapidestinations"
 
 dataawscceventsapidestinations.DataAwsccEventsApiDestinations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsApiDestinat
 
 The id of the existing DataAwsccEventsApiDestinations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_api_destinations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_api_destinations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsApiDestinations.DataAwsccEventsApiDestinationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsapidestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsapidestinations"
 
 &dataawscceventsapidestinations.DataAwsccEventsApiDestinationsConfig {
 	Connection: interface{},

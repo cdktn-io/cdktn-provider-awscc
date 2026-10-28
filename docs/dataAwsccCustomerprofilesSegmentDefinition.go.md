@@ -4,12 +4,12 @@
 
 ### DataAwsccCustomerprofilesSegmentDefinition <a name="DataAwsccCustomerprofilesSegmentDefinition" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinition(scope Construct, id *string, config DataAwsccCustomerprofilesSegmentDefinitionConfig) DataAwsccCustomerprofilesSegmentDefinition
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefin
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinition.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinition_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefin
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCustomerprofilesS
 
 The id of the existing DataAwsccCustomerprofilesSegmentDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_segment_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_segment_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_segment_definition#id DataAwsccCustomerprofilesSegmentDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_segment_definition#id DataAwsccCustomerprofilesSegmentDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroups {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroups {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensions {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributes {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverrides {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRange {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributes {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumber {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformation {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddress {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCity {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountry {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCounty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCounty {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCode {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvince.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvince {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressState {
 
@@ -1037,7 +1037,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributes {
 
@@ -1050,7 +1050,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddress {
 
@@ -1063,7 +1063,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCity {
 
@@ -1076,7 +1076,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountry {
 
@@ -1089,7 +1089,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCounty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCounty {
 
@@ -1102,7 +1102,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCode {
 
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvince.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvince {
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressState {
 
@@ -1141,7 +1141,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDate {
 
@@ -1154,7 +1154,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddress {
 
@@ -1167,7 +1167,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessName {
 
@@ -1180,7 +1180,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumber {
 
@@ -1193,7 +1193,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddress {
 
@@ -1206,7 +1206,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstName {
 
@@ -1219,7 +1219,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderString.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderString {
 
@@ -1232,7 +1232,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumber {
 
@@ -1245,7 +1245,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastName {
 
@@ -1258,7 +1258,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddress {
 
@@ -1271,7 +1271,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCity {
 
@@ -1284,7 +1284,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountry {
 
@@ -1297,7 +1297,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCounty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCounty {
 
@@ -1310,7 +1310,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCode {
 
@@ -1323,7 +1323,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvince.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvince {
 
@@ -1336,7 +1336,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressState {
 
@@ -1349,7 +1349,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleName {
 
@@ -1362,7 +1362,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumber {
 
@@ -1375,7 +1375,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeString.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeString {
 
@@ -1388,7 +1388,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddress {
 
@@ -1401,7 +1401,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumber {
 
@@ -1414,7 +1414,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileType {
 
@@ -1427,7 +1427,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddress {
 
@@ -1440,7 +1440,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCity {
 
@@ -1453,7 +1453,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountry {
 
@@ -1466,7 +1466,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCounty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCounty {
 
@@ -1479,7 +1479,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCode {
 
@@ -1492,7 +1492,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvince.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvince {
 
@@ -1505,7 +1505,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressState {
 
@@ -1518,7 +1518,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegments {
 
@@ -1531,7 +1531,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentSort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentSort {
 
@@ -1544,7 +1544,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentSortAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentSortAttributes {
 
@@ -1557,7 +1557,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 &dataawscccustomerprofilessegmentdefinition.DataAwsccCustomerprofilesSegmentDefinitionTags {
 
@@ -1572,7 +1572,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesOutputReference
 ```
@@ -1832,7 +1832,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRangeOutputReference
 ```
@@ -2114,7 +2114,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesMap
 ```
@@ -2250,7 +2250,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesOutputReference
 ```
@@ -2541,7 +2541,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsList
 ```
@@ -2690,7 +2690,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsOutputReference
 ```
@@ -2979,7 +2979,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumberOutputReference
 ```
@@ -3250,7 +3250,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformationOutputReference
 ```
@@ -3521,7 +3521,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCityOutputReference
 ```
@@ -3792,7 +3792,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountryOutputReference
 ```
@@ -4063,7 +4063,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountyOutputReference
 ```
@@ -4334,7 +4334,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressOutputReference
 ```
@@ -4649,7 +4649,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCodeOutputReference
 ```
@@ -4920,7 +4920,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvinceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvinceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvinceOutputReference
 ```
@@ -5191,7 +5191,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressStateOutputReference
 ```
@@ -5462,7 +5462,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesMap
 ```
@@ -5598,7 +5598,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesOutputReference
 ```
@@ -5878,7 +5878,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCityOutputReference
 ```
@@ -6149,7 +6149,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountryOutputReference
 ```
@@ -6420,7 +6420,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountyOutputReference
 ```
@@ -6691,7 +6691,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressOutputReference
 ```
@@ -7006,7 +7006,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCodeOutputReference
 ```
@@ -7277,7 +7277,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvinceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvinceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvinceOutputReference
 ```
@@ -7548,7 +7548,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressStateOutputReference
 ```
@@ -7819,7 +7819,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDateOutputReference
 ```
@@ -8090,7 +8090,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddressOutputReference
 ```
@@ -8361,7 +8361,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessNameOutputReference
 ```
@@ -8632,7 +8632,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumberOutputReference
 ```
@@ -8903,7 +8903,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddressOutputReference
 ```
@@ -9174,7 +9174,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstNameOutputReference
 ```
@@ -9445,7 +9445,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderStringOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderStringOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderStringOutputReference
 ```
@@ -9716,7 +9716,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumberOutputReference
 ```
@@ -9987,7 +9987,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastNameOutputReference
 ```
@@ -10258,7 +10258,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCityOutputReference
 ```
@@ -10529,7 +10529,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountryOutputReference
 ```
@@ -10800,7 +10800,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountyOutputReference
 ```
@@ -11071,7 +11071,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressOutputReference
 ```
@@ -11386,7 +11386,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCodeOutputReference
 ```
@@ -11657,7 +11657,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvinceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvinceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvinceOutputReference
 ```
@@ -11928,7 +11928,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressStateOutputReference
 ```
@@ -12199,7 +12199,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleNameOutputReference
 ```
@@ -12470,7 +12470,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumberOutputReference
 ```
@@ -12741,7 +12741,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesOutputReference
 ```
@@ -13232,7 +13232,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeStringOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeStringOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeStringOutputReference
 ```
@@ -13503,7 +13503,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddressOutputReference
 ```
@@ -13774,7 +13774,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumberOutputReference
 ```
@@ -14045,7 +14045,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileTypeOutputReference
 ```
@@ -14316,7 +14316,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCityOutputReference
 ```
@@ -14587,7 +14587,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountryOutputReference
 ```
@@ -14858,7 +14858,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountyOutputReference
 ```
@@ -15129,7 +15129,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressOutputReference
 ```
@@ -15444,7 +15444,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCodeOutputReference
 ```
@@ -15715,7 +15715,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvinceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvinceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvinceOutputReference
 ```
@@ -15986,7 +15986,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressStateOutputReference
 ```
@@ -16257,7 +16257,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsList
 ```
@@ -16406,7 +16406,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsOutputReference
 ```
@@ -16717,7 +16717,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsList
 ```
@@ -16866,7 +16866,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsOutputReference
 ```
@@ -17144,7 +17144,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsGrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentGroupsOutputReference
 ```
@@ -17415,7 +17415,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentGroups
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentSortAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentSortAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesSegmentDefinitionSegmentSortAttributesList
 ```
@@ -17564,7 +17564,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentSortAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentSortAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesSegmentDefinitionSegmentSortAttributesOutputReference
 ```
@@ -17875,7 +17875,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentSortAttrib
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionSegmentSortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionSegmentSortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesSegmentDefinitionSegmentSortOutputReference
 ```
@@ -18135,7 +18135,7 @@ func InternalValue() DataAwsccCustomerprofilesSegmentDefinitionSegmentSort
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesSegmentDefinitionTagsList
 ```
@@ -18284,7 +18284,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesSegmentDefinition.DataAwsccCustomerprofilesSegmentDefinitionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilessegmentdefinition"
 
 dataawscccustomerprofilessegmentdefinition.NewDataAwsccCustomerprofilesSegmentDefinitionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesSegmentDefinitionTagsOutputReference
 ```

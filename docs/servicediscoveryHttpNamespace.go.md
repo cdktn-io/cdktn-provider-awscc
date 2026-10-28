@@ -4,12 +4,12 @@
 
 ### ServicediscoveryHttpNamespace <a name="ServicediscoveryHttpNamespace" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryhttpnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicediscoveryhttpnamespace"
 
 servicediscoveryhttpnamespace.NewServicediscoveryHttpNamespace(scope Construct, id *string, config ServicediscoveryHttpNamespaceConfig) ServicediscoveryHttpNamespace
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryhttpnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicediscoveryhttpnamespace"
 
 servicediscoveryhttpnamespace.ServicediscoveryHttpNamespace_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryhttpnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicediscoveryhttpnamespace"
 
 servicediscoveryhttpnamespace.ServicediscoveryHttpNamespace_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ servicediscoveryhttpnamespace.ServicediscoveryHttpNamespace_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespace.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryhttpnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicediscoveryhttpnamespace"
 
 servicediscoveryhttpnamespace.ServicediscoveryHttpNamespace_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ servicediscoveryhttpnamespace.ServicediscoveryHttpNamespace_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryhttpnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicediscoveryhttpnamespace"
 
 servicediscoveryhttpnamespace.ServicediscoveryHttpNamespace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ServicediscoveryHttpNamesp
 
 The id of the existing ServicediscoveryHttpNamespace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -815,7 +815,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryhttpnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicediscoveryhttpnamespace"
 
 &servicediscoveryhttpnamespace.ServicediscoveryHttpNamespaceConfig {
 	Connection: interface{},
@@ -928,7 +928,7 @@ Name *string
 
 The name that you want to assign to this namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace#name ServicediscoveryHttpNamespace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace#name ServicediscoveryHttpNamespace#name}
 
 ---
 
@@ -942,7 +942,7 @@ Description *string
 
 A description for the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace#description ServicediscoveryHttpNamespace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace#description ServicediscoveryHttpNamespace#description}
 
 ---
 
@@ -958,7 +958,7 @@ The tags for the namespace.
 
 Each tag consists of a key and an optional value, both of which you define. Tag keys can have a maximum character length of 128 characters, and tag values can have a maximum length of 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace#tags ServicediscoveryHttpNamespace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace#tags ServicediscoveryHttpNamespace#tags}
 
 ---
 
@@ -967,7 +967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryhttpnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicediscoveryhttpnamespace"
 
 &servicediscoveryhttpnamespace.ServicediscoveryHttpNamespaceTags {
 	Key: *string,
@@ -979,8 +979,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryhttpna
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace#key ServicediscoveryHttpNamespace#key}. |
-| <code><a href="#@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace#value ServicediscoveryHttpNamespace#value}. |
+| <code><a href="#@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace#key ServicediscoveryHttpNamespace#key}. |
+| <code><a href="#@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace#value ServicediscoveryHttpNamespace#value}. |
 
 ---
 
@@ -992,7 +992,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace#key ServicediscoveryHttpNamespace#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace#key ServicediscoveryHttpNamespace#key}.
 
 ---
 
@@ -1004,7 +1004,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace#value ServicediscoveryHttpNamespace#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace#value ServicediscoveryHttpNamespace#value}.
 
 ---
 
@@ -1015,7 +1015,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryhttpnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicediscoveryhttpnamespace"
 
 servicediscoveryhttpnamespace.NewServicediscoveryHttpNamespaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ServicediscoveryHttpNamespaceTagsList
 ```
@@ -1175,7 +1175,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryhttpnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicediscoveryhttpnamespace"
 
 servicediscoveryhttpnamespace.NewServicediscoveryHttpNamespaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ServicediscoveryHttpNamespaceTagsOutputReference
 ```

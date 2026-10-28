@@ -4,12 +4,12 @@
 
 ### CustomerprofilesEventStream <a name="CustomerprofilesEventStream" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_event_stream awscc_customerprofiles_event_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_event_stream awscc_customerprofiles_event_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofileseventstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofileseventstream"
 
 customerprofileseventstream.NewCustomerprofilesEventStream(scope Construct, id *string, config CustomerprofilesEventStreamConfig) CustomerprofilesEventStream
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStream.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofileseventstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofileseventstream"
 
 customerprofileseventstream.CustomerprofilesEventStream_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStream.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofileseventstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofileseventstream"
 
 customerprofileseventstream.CustomerprofilesEventStream_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ customerprofileseventstream.CustomerprofilesEventStream_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStream.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofileseventstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofileseventstream"
 
 customerprofileseventstream.CustomerprofilesEventStream_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ customerprofileseventstream.CustomerprofilesEventStream_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStream.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofileseventstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofileseventstream"
 
 customerprofileseventstream.CustomerprofilesEventStream_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the CustomerprofilesEventStrea
 
 The id of the existing CustomerprofilesEventStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_event_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_event_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -852,7 +852,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStreamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofileseventstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofileseventstream"
 
 &customerprofileseventstream.CustomerprofilesEventStreamConfig {
 	Connection: interface{},
@@ -967,7 +967,7 @@ DomainName *string
 
 The unique name of the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_event_stream#domain_name CustomerprofilesEventStream#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_event_stream#domain_name CustomerprofilesEventStream#domain_name}
 
 ---
 
@@ -981,7 +981,7 @@ EventStreamName *string
 
 The name of the event stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_event_stream#event_stream_name CustomerprofilesEventStream#event_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_event_stream#event_stream_name CustomerprofilesEventStream#event_stream_name}
 
 ---
 
@@ -995,7 +995,7 @@ Uri *string
 
 The StreamARN of the destination to deliver profile events to. For example, arn:aws:kinesis:region:account-id:stream/stream-name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_event_stream#uri CustomerprofilesEventStream#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_event_stream#uri CustomerprofilesEventStream#uri}
 
 ---
 
@@ -1009,7 +1009,7 @@ Tags interface{}
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_event_stream#tags CustomerprofilesEventStream#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_event_stream#tags CustomerprofilesEventStream#tags}
 
 ---
 
@@ -1018,7 +1018,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStreamDestinationDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofileseventstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofileseventstream"
 
 &customerprofileseventstream.CustomerprofilesEventStreamDestinationDetails {
 
@@ -1031,7 +1031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilesevents
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStreamTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofileseventstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofileseventstream"
 
 &customerprofileseventstream.CustomerprofilesEventStreamTags {
 	Key: *string,
@@ -1060,7 +1060,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_event_stream#key CustomerprofilesEventStream#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_event_stream#key CustomerprofilesEventStream#key}
 
 ---
 
@@ -1076,7 +1076,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_event_stream#value CustomerprofilesEventStream#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_event_stream#value CustomerprofilesEventStream#value}
 
 ---
 
@@ -1087,7 +1087,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStreamDestinationDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofileseventstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofileseventstream"
 
 customerprofileseventstream.NewCustomerprofilesEventStreamDestinationDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesEventStreamDestinationDetailsOutputReference
 ```
@@ -1358,7 +1358,7 @@ func InternalValue() CustomerprofilesEventStreamDestinationDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStreamTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofileseventstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofileseventstream"
 
 customerprofileseventstream.NewCustomerprofilesEventStreamTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CustomerprofilesEventStreamTagsList
 ```
@@ -1518,7 +1518,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStreamTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofileseventstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofileseventstream"
 
 customerprofileseventstream.NewCustomerprofilesEventStreamTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CustomerprofilesEventStreamTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontConnectionGroups <a name="DataAwsccCloudfrontConnectionGroups" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroups.DataAwsccCloudfrontConnectionGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_connection_groups awscc_cloudfront_connection_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_connection_groups awscc_cloudfront_connection_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroups.DataAwsccCloudfrontConnectionGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectiongroups"
 
 dataawscccloudfrontconnectiongroups.NewDataAwsccCloudfrontConnectionGroups(scope Construct, id *string, config DataAwsccCloudfrontConnectionGroupsConfig) DataAwsccCloudfrontConnectionGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroups.DataAwsccCloudfrontConnectionGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectiongroups"
 
 dataawscccloudfrontconnectiongroups.DataAwsccCloudfrontConnectionGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroups.DataAwsccCloudfrontConnectionGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectiongroups"
 
 dataawscccloudfrontconnectiongroups.DataAwsccCloudfrontConnectionGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontconnectiongroups.DataAwsccCloudfrontConnectionGroups_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroups.DataAwsccCloudfrontConnectionGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectiongroups"
 
 dataawscccloudfrontconnectiongroups.DataAwsccCloudfrontConnectionGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontconnectiongroups.DataAwsccCloudfrontConnectionGroups_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroups.DataAwsccCloudfrontConnectionGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectiongroups"
 
 dataawscccloudfrontconnectiongroups.DataAwsccCloudfrontConnectionGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontConnect
 
 The id of the existing DataAwsccCloudfrontConnectionGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_connection_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_connection_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroups.DataAwsccCloudfrontConnectionGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectiongroups"
 
 &dataawscccloudfrontconnectiongroups.DataAwsccCloudfrontConnectionGroupsConfig {
 	Connection: interface{},

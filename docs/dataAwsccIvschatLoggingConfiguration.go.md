@@ -4,12 +4,12 @@
 
 ### DataAwsccIvschatLoggingConfiguration <a name="DataAwsccIvschatLoggingConfiguration" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivschat_logging_configuration awscc_ivschat_logging_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivschat_logging_configuration awscc_ivschat_logging_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 dataawsccivschatloggingconfiguration.NewDataAwsccIvschatLoggingConfiguration(scope Construct, id *string, config DataAwsccIvschatLoggingConfigurationConfig) DataAwsccIvschatLoggingConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfiguration_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfiguration_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvschatLoggingCon
 
 The id of the existing DataAwsccIvschatLoggingConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivschat_logging_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivschat_logging_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 &dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfigurationConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivschat_logging_configuration#id DataAwsccIvschatLoggingConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivschat_logging_configuration#id DataAwsccIvschatLoggingConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 &dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfiguration {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfigurationCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 &dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfigurationCloudwatchLogs {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfigurationFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 &dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfigurationFirehose {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfigurationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 &dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfigurationS3 {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 &dataawsccivschatloggingconfiguration.DataAwsccIvschatLoggingConfigurationTags {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 dataawsccivschatloggingconfiguration.NewDataAwsccIvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReference
 ```
@@ -1101,7 +1101,7 @@ func InternalValue() DataAwsccIvschatLoggingConfigurationDestinationConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfigurationFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 dataawsccivschatloggingconfiguration.NewDataAwsccIvschatLoggingConfigurationDestinationConfigurationFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvschatLoggingConfigurationDestinationConfigurationFirehoseOutputReference
 ```
@@ -1361,7 +1361,7 @@ func InternalValue() DataAwsccIvschatLoggingConfigurationDestinationConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 dataawsccivschatloggingconfiguration.NewDataAwsccIvschatLoggingConfigurationDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvschatLoggingConfigurationDestinationConfigurationOutputReference
 ```
@@ -1643,7 +1643,7 @@ func InternalValue() DataAwsccIvschatLoggingConfigurationDestinationConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationDestinationConfigurationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 dataawsccivschatloggingconfiguration.NewDataAwsccIvschatLoggingConfigurationDestinationConfigurationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvschatLoggingConfigurationDestinationConfigurationS3OutputReference
 ```
@@ -1903,7 +1903,7 @@ func InternalValue() DataAwsccIvschatLoggingConfigurationDestinationConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 dataawsccivschatloggingconfiguration.NewDataAwsccIvschatLoggingConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIvschatLoggingConfigurationTagsList
 ```
@@ -2052,7 +2052,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvschatLoggingConfiguration.DataAwsccIvschatLoggingConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatloggingconfiguration"
 
 dataawsccivschatloggingconfiguration.NewDataAwsccIvschatLoggingConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIvschatLoggingConfigurationTagsOutputReference
 ```

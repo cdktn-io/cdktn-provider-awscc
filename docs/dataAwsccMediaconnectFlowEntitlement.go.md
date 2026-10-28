@@ -4,12 +4,12 @@
 
 ### DataAwsccMediaconnectFlowEntitlement <a name="DataAwsccMediaconnectFlowEntitlement" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_entitlement awscc_mediaconnect_flow_entitlement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_entitlement awscc_mediaconnect_flow_entitlement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowentitlement"
 
 dataawsccmediaconnectflowentitlement.NewDataAwsccMediaconnectFlowEntitlement(scope Construct, id *string, config DataAwsccMediaconnectFlowEntitlementConfig) DataAwsccMediaconnectFlowEntitlement
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlement.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowentitlement"
 
 dataawsccmediaconnectflowentitlement.DataAwsccMediaconnectFlowEntitlement_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlement.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowentitlement"
 
 dataawsccmediaconnectflowentitlement.DataAwsccMediaconnectFlowEntitlement_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediaconnectflowentitlement.DataAwsccMediaconnectFlowEntitlement_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlement.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowentitlement"
 
 dataawsccmediaconnectflowentitlement.DataAwsccMediaconnectFlowEntitlement_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediaconnectflowentitlement.DataAwsccMediaconnectFlowEntitlement_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlement.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowentitlement"
 
 dataawsccmediaconnectflowentitlement.DataAwsccMediaconnectFlowEntitlement_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediaconnectFlowE
 
 The id of the existing DataAwsccMediaconnectFlowEntitlement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_entitlement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_entitlement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowentitlement"
 
 &dataawsccmediaconnectflowentitlement.DataAwsccMediaconnectFlowEntitlementConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_entitlement#id DataAwsccMediaconnectFlowEntitlement#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_entitlement#id DataAwsccMediaconnectFlowEntitlement#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlementEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowentitlement"
 
 &dataawsccmediaconnectflowentitlement.DataAwsccMediaconnectFlowEntitlementEncryption {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlementTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowentitlement"
 
 &dataawsccmediaconnectflowentitlement.DataAwsccMediaconnectFlowEntitlementTags {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlementEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowentitlement"
 
 dataawsccmediaconnectflowentitlement.NewDataAwsccMediaconnectFlowEntitlementEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediaconnectFlowEntitlementEncryptionOutputReference
 ```
@@ -1183,7 +1183,7 @@ func InternalValue() DataAwsccMediaconnectFlowEntitlementEncryption
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlementTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowentitlement"
 
 dataawsccmediaconnectflowentitlement.NewDataAwsccMediaconnectFlowEntitlementTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediaconnectFlowEntitlementTagsList
 ```
@@ -1332,7 +1332,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowEntitlement.DataAwsccMediaconnectFlowEntitlementTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowentitlement"
 
 dataawsccmediaconnectflowentitlement.NewDataAwsccMediaconnectFlowEntitlementTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediaconnectFlowEntitlementTagsOutputReference
 ```

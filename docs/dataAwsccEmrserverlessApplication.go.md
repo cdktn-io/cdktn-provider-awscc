@@ -4,12 +4,12 @@
 
 ### DataAwsccEmrserverlessApplication <a name="DataAwsccEmrserverlessApplication" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emrserverless_application awscc_emrserverless_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emrserverless_application awscc_emrserverless_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplication(scope Construct, id *string, config DataAwsccEmrserverlessApplicationConfig) DataAwsccEmrserverlessApplication
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplication_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplication_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplication.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplication_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplication_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEmrserverlessAppl
 
 The id of the existing DataAwsccEmrserverlessApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emrserverless_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emrserverless_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationAutoStartConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationAutoStartConfiguration {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationAutoStopConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationAutoStopConfiguration {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationConfig {
 	Connection: interface{},
@@ -876,7 +876,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emrserverless_application#id DataAwsccEmrserverlessApplication#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emrserverless_application#id DataAwsccEmrserverlessApplication#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -888,7 +888,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationImageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationImageConfiguration {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationInitialCapacity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationInitialCapacity {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationInitialCapacityValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationInitialCapacityValue {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationInitialCapacityValueWorkerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationInitialCapacityValueWorkerConfiguration {
 
@@ -940,7 +940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationMaximumCapacity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationMaximumCapacity {
 
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationNetworkConfiguration {
 
@@ -966,7 +966,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationTags {
 
@@ -979,7 +979,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationWorkerTypeSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationWorkerTypeSpecifications {
 
@@ -992,7 +992,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationWorkerTypeSpecificationsImageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 &dataawsccemrserverlessapplication.DataAwsccEmrserverlessApplicationWorkerTypeSpecificationsImageConfiguration {
 
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverless
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationAutoStartConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationAutoStartConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEmrserverlessApplicationAutoStartConfigurationOutputReference
 ```
@@ -1267,7 +1267,7 @@ func InternalValue() DataAwsccEmrserverlessApplicationAutoStartConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationAutoStopConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationAutoStopConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEmrserverlessApplicationAutoStopConfigurationOutputReference
 ```
@@ -1538,7 +1538,7 @@ func InternalValue() DataAwsccEmrserverlessApplicationAutoStopConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationImageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationImageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEmrserverlessApplicationImageConfigurationOutputReference
 ```
@@ -1798,7 +1798,7 @@ func InternalValue() DataAwsccEmrserverlessApplicationImageConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationInitialCapacityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationInitialCapacityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEmrserverlessApplicationInitialCapacityList
 ```
@@ -1947,7 +1947,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationInitialCapacityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationInitialCapacityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEmrserverlessApplicationInitialCapacityOutputReference
 ```
@@ -2236,7 +2236,7 @@ func InternalValue() DataAwsccEmrserverlessApplicationInitialCapacity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationInitialCapacityValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationInitialCapacityValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEmrserverlessApplicationInitialCapacityValueOutputReference
 ```
@@ -2507,7 +2507,7 @@ func InternalValue() DataAwsccEmrserverlessApplicationInitialCapacityValue
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationInitialCapacityValueWorkerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationInitialCapacityValueWorkerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEmrserverlessApplicationInitialCapacityValueWorkerConfigurationOutputReference
 ```
@@ -2789,7 +2789,7 @@ func InternalValue() DataAwsccEmrserverlessApplicationInitialCapacityValueWorker
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationMaximumCapacityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationMaximumCapacityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEmrserverlessApplicationMaximumCapacityOutputReference
 ```
@@ -3071,7 +3071,7 @@ func InternalValue() DataAwsccEmrserverlessApplicationMaximumCapacity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEmrserverlessApplicationNetworkConfigurationOutputReference
 ```
@@ -3342,7 +3342,7 @@ func InternalValue() DataAwsccEmrserverlessApplicationNetworkConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEmrserverlessApplicationTagsList
 ```
@@ -3491,7 +3491,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEmrserverlessApplicationTagsOutputReference
 ```
@@ -3780,7 +3780,7 @@ func InternalValue() DataAwsccEmrserverlessApplicationTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationWorkerTypeSpecificationsImageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationWorkerTypeSpecificationsImageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEmrserverlessApplicationWorkerTypeSpecificationsImageConfigurationOutputReference
 ```
@@ -4040,7 +4040,7 @@ func InternalValue() DataAwsccEmrserverlessApplicationWorkerTypeSpecificationsIm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationWorkerTypeSpecificationsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationWorkerTypeSpecificationsMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEmrserverlessApplicationWorkerTypeSpecificationsMap
 ```
@@ -4176,7 +4176,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplication.DataAwsccEmrserverlessApplicationWorkerTypeSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplication"
 
 dataawsccemrserverlessapplication.NewDataAwsccEmrserverlessApplicationWorkerTypeSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccEmrserverlessApplicationWorkerTypeSpecificationsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### NetworkmanagerSiteToSiteVpnAttachment <a name="NetworkmanagerSiteToSiteVpnAttachment" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NewNetworkmanagerSiteToSiteVpnAttachment(scope Construct, id *string, config NetworkmanagerSiteToSiteVpnAttachmentConfig) NetworkmanagerSiteToSiteVpnAttachment
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachment_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachment_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the NetworkmanagerSiteToSiteVp
 
 The id of the existing NetworkmanagerSiteToSiteVpnAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site_to_site_vpn_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site_to_site_vpn_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -998,7 +998,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 &networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachmentConfig {
 	Connection: interface{},
@@ -1115,7 +1115,7 @@ CoreNetworkId *string
 
 The ID of a core network where you're creating a site-to-site VPN attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site_to_site_vpn_attachment#core_network_id NetworkmanagerSiteToSiteVpnAttachment#core_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site_to_site_vpn_attachment#core_network_id NetworkmanagerSiteToSiteVpnAttachment#core_network_id}
 
 ---
 
@@ -1129,7 +1129,7 @@ VpnConnectionArn *string
 
 The ARN of the site-to-site VPN attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site_to_site_vpn_attachment#vpn_connection_arn NetworkmanagerSiteToSiteVpnAttachment#vpn_connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site_to_site_vpn_attachment#vpn_connection_arn NetworkmanagerSiteToSiteVpnAttachment#vpn_connection_arn}
 
 ---
 
@@ -1143,7 +1143,7 @@ NetworkFunctionGroupName *string
 
 The name of the network function group attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site_to_site_vpn_attachment#network_function_group_name NetworkmanagerSiteToSiteVpnAttachment#network_function_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site_to_site_vpn_attachment#network_function_group_name NetworkmanagerSiteToSiteVpnAttachment#network_function_group_name}
 
 ---
 
@@ -1157,7 +1157,7 @@ RoutingPolicyLabel *string
 
 Routing policy label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site_to_site_vpn_attachment#routing_policy_label NetworkmanagerSiteToSiteVpnAttachment#routing_policy_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site_to_site_vpn_attachment#routing_policy_label NetworkmanagerSiteToSiteVpnAttachment#routing_policy_label}
 
 ---
 
@@ -1171,7 +1171,7 @@ Tags interface{}
 
 Tags for the attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site_to_site_vpn_attachment#tags NetworkmanagerSiteToSiteVpnAttachment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site_to_site_vpn_attachment#tags NetworkmanagerSiteToSiteVpnAttachment#tags}
 
 ---
 
@@ -1180,7 +1180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 &networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange {
 
@@ -1193,7 +1193,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetosi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 &networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags {
 
@@ -1206,7 +1206,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetosi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 &networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange {
 
@@ -1219,7 +1219,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetosi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 &networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTags {
 
@@ -1232,7 +1232,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetosi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 &networkmanagersitetositevpnattachment.NetworkmanagerSiteToSiteVpnAttachmentTags {
 	Key: *string,
@@ -1261,7 +1261,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site_to_site_vpn_attachment#key NetworkmanagerSiteToSiteVpnAttachment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site_to_site_vpn_attachment#key NetworkmanagerSiteToSiteVpnAttachment#key}
 
 ---
 
@@ -1277,7 +1277,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site_to_site_vpn_attachment#value NetworkmanagerSiteToSiteVpnAttachment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site_to_site_vpn_attachment#value NetworkmanagerSiteToSiteVpnAttachment#value}
 
 ---
 
@@ -1288,7 +1288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NewNetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeOutputReference
 ```
@@ -1570,7 +1570,7 @@ func InternalValue() NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NewNetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsList
 ```
@@ -1719,7 +1719,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NewNetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference
 ```
@@ -2008,7 +2008,7 @@ func InternalValue() NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NewNetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference
 ```
@@ -2290,7 +2290,7 @@ func InternalValue() NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NewNetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTagsList
 ```
@@ -2439,7 +2439,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NewNetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTagsOutputReference
 ```
@@ -2728,7 +2728,7 @@ func InternalValue() NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NewNetworkmanagerSiteToSiteVpnAttachmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerSiteToSiteVpnAttachmentTagsList
 ```
@@ -2888,7 +2888,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersitetositevpnattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersitetositevpnattachment"
 
 networkmanagersitetositevpnattachment.NewNetworkmanagerSiteToSiteVpnAttachmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerSiteToSiteVpnAttachmentTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccAccountaccessApplications <a name="DataAwsccAccountaccessApplications" id="@cdktn/provider-awscc.dataAwsccAccountaccessApplications.DataAwsccAccountaccessApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accountaccess_applications awscc_accountaccess_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accountaccess_applications awscc_accountaccess_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccountaccessApplications.DataAwsccAccountaccessApplications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessapplications"
 
 dataawsccaccountaccessapplications.NewDataAwsccAccountaccessApplications(scope Construct, id *string, config DataAwsccAccountaccessApplicationsConfig) DataAwsccAccountaccessApplications
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAccountaccessApplications.DataAwsccAccountaccessApplications.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessapplications"
 
 dataawsccaccountaccessapplications.DataAwsccAccountaccessApplications_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAccountaccessApplications.DataAwsccAccountaccessApplications.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessapplications"
 
 dataawsccaccountaccessapplications.DataAwsccAccountaccessApplications_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccaccountaccessapplications.DataAwsccAccountaccessApplications_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAccountaccessApplications.DataAwsccAccountaccessApplications.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessapplications"
 
 dataawsccaccountaccessapplications.DataAwsccAccountaccessApplications_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccaccountaccessapplications.DataAwsccAccountaccessApplications_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAccountaccessApplications.DataAwsccAccountaccessApplications.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessapplications"
 
 dataawsccaccountaccessapplications.DataAwsccAccountaccessApplications_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAccountaccessAppl
 
 The id of the existing DataAwsccAccountaccessApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accountaccess_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accountaccess_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccountaccessApplications.DataAwsccAccountaccessApplicationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessapplications"
 
 &dataawsccaccountaccessapplications.DataAwsccAccountaccessApplicationsConfig {
 	Connection: interface{},

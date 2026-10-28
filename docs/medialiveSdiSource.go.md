@@ -4,12 +4,12 @@
 
 ### MedialiveSdiSource <a name="MedialiveSdiSource" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source awscc_medialive_sdi_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source awscc_medialive_sdi_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesdisource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesdisource"
 
 medialivesdisource.NewMedialiveSdiSource(scope Construct, id *string, config MedialiveSdiSourceConfig) MedialiveSdiSource
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesdisource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesdisource"
 
 medialivesdisource.MedialiveSdiSource_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesdisource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesdisource"
 
 medialivesdisource.MedialiveSdiSource_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ medialivesdisource.MedialiveSdiSource_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSource.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesdisource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesdisource"
 
 medialivesdisource.MedialiveSdiSource_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ medialivesdisource.MedialiveSdiSource_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesdisource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesdisource"
 
 medialivesdisource.MedialiveSdiSource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the MedialiveSdiSource to impo
 
 The id of the existing MedialiveSdiSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -859,7 +859,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesdisource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesdisource"
 
 &medialivesdisource.MedialiveSdiSourceConfig {
 	Connection: interface{},
@@ -974,7 +974,7 @@ Name *string
 
 The name of the SdiSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source#name MedialiveSdiSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source#name MedialiveSdiSource#name}
 
 ---
 
@@ -988,7 +988,7 @@ Type *string
 
 The interface mode of the SdiSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source#type MedialiveSdiSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source#type MedialiveSdiSource#type}
 
 ---
 
@@ -1002,7 +1002,7 @@ Mode *string
 
 The current state of the SdiSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source#mode MedialiveSdiSource#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source#mode MedialiveSdiSource#mode}
 
 ---
 
@@ -1016,7 +1016,7 @@ Tags interface{}
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source#tags MedialiveSdiSource#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source#tags MedialiveSdiSource#tags}
 
 ---
 
@@ -1025,7 +1025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesdisource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesdisource"
 
 &medialivesdisource.MedialiveSdiSourceTags {
 	Key: *string,
@@ -1037,8 +1037,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesdisource"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source#key MedialiveSdiSource#key}. |
-| <code><a href="#@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source#value MedialiveSdiSource#value}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source#key MedialiveSdiSource#key}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source#value MedialiveSdiSource#value}. |
 
 ---
 
@@ -1050,7 +1050,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source#key MedialiveSdiSource#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source#key MedialiveSdiSource#key}.
 
 ---
 
@@ -1062,7 +1062,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source#value MedialiveSdiSource#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source#value MedialiveSdiSource#value}.
 
 ---
 
@@ -1073,7 +1073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesdisource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesdisource"
 
 medialivesdisource.NewMedialiveSdiSourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveSdiSourceTagsList
 ```
@@ -1233,7 +1233,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSdiSource.MedialiveSdiSourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesdisource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesdisource"
 
 medialivesdisource.NewMedialiveSdiSourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveSdiSourceTagsOutputReference
 ```

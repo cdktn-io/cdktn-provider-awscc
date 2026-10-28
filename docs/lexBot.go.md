@@ -4,12 +4,12 @@
 
 ### LexBot <a name="LexBot" id="@cdktn/provider-awscc.lexBot.LexBot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot awscc_lex_bot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot awscc_lex_bot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBot(scope Construct, id *string, config LexBotConfig) LexBot
 ```
@@ -527,7 +527,7 @@ func ResetTestBotAliasTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lexBot.LexBot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.LexBot_IsConstruct(x interface{}) *bool
 ```
@@ -559,7 +559,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lexBot.LexBot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.LexBot_IsTerraformElement(x interface{}) *bool
 ```
@@ -573,7 +573,7 @@ lexbot.LexBot_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lexBot.LexBot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.LexBot_IsTerraformResource(x interface{}) *bool
 ```
@@ -587,7 +587,7 @@ lexbot.LexBot_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lexBot.LexBot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.LexBot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -616,7 +616,7 @@ The construct id used in the generated config for the LexBot to import.
 
 The id of the existing LexBot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1091,7 +1091,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotFileS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotFileS3Location {
 	S3Bucket: *string,
@@ -1122,7 +1122,7 @@ An Amazon S3 bucket in the same AWS Region as your function.
 
 The bucket can be in a different AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#s3_bucket LexBot#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#s3_bucket LexBot#s3_bucket}
 
 ---
 
@@ -1136,7 +1136,7 @@ S3ObjectKey *string
 
 The Amazon S3 key of the deployment package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#s3_object_key LexBot#s3_object_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#s3_object_key LexBot#s3_object_key}
 
 ---
 
@@ -1152,7 +1152,7 @@ For versioned objects, the version of the deployment package object to use.
 
 If not specified, the current object version will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#s3_object_version LexBot#s3_object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#s3_object_version LexBot#s3_object_version}
 
 ---
 
@@ -1161,16 +1161,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocales.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocales {
-	CustomVocabulary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesCustomVocabulary,
+	CustomVocabulary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesCustomVocabulary,
 	Description: *string,
 	Intents: interface{},
 	LocaleId: *string,
 	NluConfidenceThreshold: *f64,
 	SlotTypes: interface{},
-	VoiceSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesVoiceSettings,
+	VoiceSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesVoiceSettings,
 }
 ```
 
@@ -1198,7 +1198,7 @@ CustomVocabulary LexBotBotLocalesCustomVocabulary
 
 A custom vocabulary is a list of specific phrases that you want Amazon Lex V2 to recognize in the audio input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_vocabulary LexBot#custom_vocabulary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_vocabulary LexBot#custom_vocabulary}
 
 ---
 
@@ -1212,7 +1212,7 @@ Description *string
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -1226,7 +1226,7 @@ Intents interface{}
 
 List of intents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#intents LexBot#intents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#intents LexBot#intents}
 
 ---
 
@@ -1240,7 +1240,7 @@ LocaleId *string
 
 The identifier of the language and locale that the bot will be used in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#locale_id LexBot#locale_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#locale_id LexBot#locale_id}
 
 ---
 
@@ -1254,7 +1254,7 @@ NluConfidenceThreshold *f64
 
 The specified confidence threshold for inserting the AMAZON.FallbackIntent and AMAZON.KendraSearchIntent intents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#nlu_confidence_threshold LexBot#nlu_confidence_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#nlu_confidence_threshold LexBot#nlu_confidence_threshold}
 
 ---
 
@@ -1268,7 +1268,7 @@ SlotTypes interface{}
 
 List of SlotTypes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#slot_types LexBot#slot_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#slot_types LexBot#slot_types}
 
 ---
 
@@ -1282,7 +1282,7 @@ VoiceSettings LexBotBotLocalesVoiceSettings
 
 Settings for using an Amazon Polly voice to communicate with a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#voice_settings LexBot#voice_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#voice_settings LexBot#voice_settings}
 
 ---
 
@@ -1291,7 +1291,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabulary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesCustomVocabulary {
 	CustomVocabularyItems: interface{},
@@ -1302,7 +1302,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabulary.property.customVocabularyItems">CustomVocabularyItems</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_vocabulary_items LexBot#custom_vocabulary_items}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabulary.property.customVocabularyItems">CustomVocabularyItems</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_vocabulary_items LexBot#custom_vocabulary_items}. |
 
 ---
 
@@ -1314,7 +1314,7 @@ CustomVocabularyItems interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_vocabulary_items LexBot#custom_vocabulary_items}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_vocabulary_items LexBot#custom_vocabulary_items}.
 
 ---
 
@@ -1323,7 +1323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabularyCustomVocabularyItems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesCustomVocabularyCustomVocabularyItems {
 	Phrase: *string,
@@ -1350,7 +1350,7 @@ Phrase *string
 
 Phrase that should be recognized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#phrase LexBot#phrase}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#phrase LexBot#phrase}
 
 ---
 
@@ -1364,7 +1364,7 @@ Weight *f64
 
 The degree to which the phrase recognition is boosted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#weight LexBot#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#weight LexBot#weight}
 
 ---
 
@@ -1373,16 +1373,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntents {
 	Description: *string,
-	DialogCodeHook: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsDialogCodeHook,
-	FulfillmentCodeHook: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHook,
+	DialogCodeHook: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsDialogCodeHook,
+	FulfillmentCodeHook: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHook,
 	InputContexts: interface{},
-	IntentClosingSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSetting,
-	IntentConfirmationSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSetting,
-	KendraConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsKendraConfiguration,
+	IntentClosingSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentClosingSetting,
+	IntentConfirmationSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSetting,
+	KendraConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsKendraConfiguration,
 	Name: *string,
 	OutputContexts: interface{},
 	ParentIntentSignature: *string,
@@ -1422,7 +1422,7 @@ Description *string
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -1436,7 +1436,7 @@ DialogCodeHook LexBotBotLocalesIntentsDialogCodeHook
 
 Settings that determine the Lambda function that Amazon Lex uses for processing user responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#dialog_code_hook LexBot#dialog_code_hook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#dialog_code_hook LexBot#dialog_code_hook}
 
 ---
 
@@ -1450,7 +1450,7 @@ FulfillmentCodeHook LexBotBotLocalesIntentsFulfillmentCodeHook
 
 Settings that determine if a Lambda function should be invoked to fulfill a specific intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#fulfillment_code_hook LexBot#fulfillment_code_hook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#fulfillment_code_hook LexBot#fulfillment_code_hook}
 
 ---
 
@@ -1464,7 +1464,7 @@ InputContexts interface{}
 
 The list of input contexts specified for the intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#input_contexts LexBot#input_contexts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#input_contexts LexBot#input_contexts}
 
 ---
 
@@ -1478,7 +1478,7 @@ IntentClosingSetting LexBotBotLocalesIntentsIntentClosingSetting
 
 Response that Amazon Lex sends to the user when the intent is closed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#intent_closing_setting LexBot#intent_closing_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#intent_closing_setting LexBot#intent_closing_setting}
 
 ---
 
@@ -1492,7 +1492,7 @@ IntentConfirmationSetting LexBotBotLocalesIntentsIntentConfirmationSetting
 
 Prompts that Amazon Lex sends to the user to confirm the completion of an intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#intent_confirmation_setting LexBot#intent_confirmation_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#intent_confirmation_setting LexBot#intent_confirmation_setting}
 
 ---
 
@@ -1506,7 +1506,7 @@ KendraConfiguration LexBotBotLocalesIntentsKendraConfiguration
 
 Configuration for searching a Amazon Kendra index specified for the intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#kendra_configuration LexBot#kendra_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#kendra_configuration LexBot#kendra_configuration}
 
 ---
 
@@ -1520,7 +1520,7 @@ Name *string
 
 Unique name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -1534,7 +1534,7 @@ OutputContexts interface{}
 
 A list of contexts that the intent activates when it is fulfilled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#output_contexts LexBot#output_contexts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#output_contexts LexBot#output_contexts}
 
 ---
 
@@ -1548,7 +1548,7 @@ ParentIntentSignature *string
 
 A unique identifier for the built-in intent to base this intent on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#parent_intent_signature LexBot#parent_intent_signature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#parent_intent_signature LexBot#parent_intent_signature}
 
 ---
 
@@ -1562,7 +1562,7 @@ SampleUtterances interface{}
 
 An array of sample utterances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#sample_utterances LexBot#sample_utterances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#sample_utterances LexBot#sample_utterances}
 
 ---
 
@@ -1576,7 +1576,7 @@ SlotPriorities interface{}
 
 List for slot priorities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#slot_priorities LexBot#slot_priorities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#slot_priorities LexBot#slot_priorities}
 
 ---
 
@@ -1590,7 +1590,7 @@ Slots interface{}
 
 List of slots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#slots LexBot#slots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#slots LexBot#slots}
 
 ---
 
@@ -1599,7 +1599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsDialogCodeHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsDialogCodeHook {
 	Enabled: interface{},
@@ -1610,7 +1610,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsDialogCodeHook.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsDialogCodeHook.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
 
 ---
 
@@ -1622,7 +1622,7 @@ Enabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#enabled LexBot#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#enabled LexBot#enabled}.
 
 ---
 
@@ -1631,12 +1631,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHook {
 	Enabled: interface{},
-	FulfillmentUpdatesSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecification,
-	PostFulfillmentStatusSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecification,
+	FulfillmentUpdatesSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecification,
+	PostFulfillmentStatusSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecification,
 }
 ```
 
@@ -1644,7 +1644,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHook.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHook.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHook.property.fulfillmentUpdatesSpecification">FulfillmentUpdatesSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecification">LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecification</a></code> | Provides information for updating the user on the progress of fulfilling an intent. |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHook.property.postFulfillmentStatusSpecification">PostFulfillmentStatusSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecification">LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecification</a></code> | Provides information for updating the user on the progress of fulfilling an intent. |
 
@@ -1658,7 +1658,7 @@ Enabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#enabled LexBot#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#enabled LexBot#enabled}.
 
 ---
 
@@ -1672,7 +1672,7 @@ FulfillmentUpdatesSpecification LexBotBotLocalesIntentsFulfillmentCodeHookFulfil
 
 Provides information for updating the user on the progress of fulfilling an intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#fulfillment_updates_specification LexBot#fulfillment_updates_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#fulfillment_updates_specification LexBot#fulfillment_updates_specification}
 
 ---
 
@@ -1686,7 +1686,7 @@ PostFulfillmentStatusSpecification LexBotBotLocalesIntentsFulfillmentCodeHookPos
 
 Provides information for updating the user on the progress of fulfilling an intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#post_fulfillment_status_specification LexBot#post_fulfillment_status_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#post_fulfillment_status_specification LexBot#post_fulfillment_status_specification}
 
 ---
 
@@ -1695,13 +1695,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecification {
 	Active: interface{},
-	StartResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponse,
+	StartResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponse,
 	TimeoutInSeconds: *f64,
-	UpdateResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponse,
+	UpdateResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponse,
 }
 ```
 
@@ -1726,7 +1726,7 @@ Active interface{}
 
 Determines whether fulfillment updates are sent to the user. When this field is true, updates are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#active LexBot#active}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#active LexBot#active}
 
 ---
 
@@ -1740,7 +1740,7 @@ StartResponse LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecif
 
 Provides settings for a message that is sent to the user when a fulfillment Lambda function starts running.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#start_response LexBot#start_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#start_response LexBot#start_response}
 
 ---
 
@@ -1754,7 +1754,7 @@ TimeoutInSeconds *f64
 
 The length of time that the fulfillment Lambda function should run before it times out.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#timeout_in_seconds LexBot#timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#timeout_in_seconds LexBot#timeout_in_seconds}
 
 ---
 
@@ -1768,7 +1768,7 @@ UpdateResponse LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpeci
 
 Provides settings for a message that is sent periodically to the user while a fulfillment Lambda function is running.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#update_response LexBot#update_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#update_response LexBot#update_response}
 
 ---
 
@@ -1777,7 +1777,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponse {
 	AllowInterrupt: interface{},
@@ -1806,7 +1806,7 @@ AllowInterrupt interface{}
 
 Determines whether the user can interrupt the start message while it is playing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -1822,7 +1822,7 @@ The delay between when the Lambda fulfillment function starts running and the st
 
 If the Lambda function returns before the delay is over, the start message isn't played.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#delay_in_seconds LexBot#delay_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#delay_in_seconds LexBot#delay_in_seconds}
 
 ---
 
@@ -1838,7 +1838,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
 
 ---
 
@@ -1847,10 +1847,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroups {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessage,
 	Variations: interface{},
 }
 ```
@@ -1874,7 +1874,7 @@ Message LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificatio
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -1888,7 +1888,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -1897,13 +1897,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessage,
 }
 ```
 
@@ -1928,7 +1928,7 @@ CustomPayload LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecif
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -1942,7 +1942,7 @@ ImageResponseCard LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSp
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -1956,7 +1956,7 @@ PlainTextMessage LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -1970,7 +1970,7 @@ SsmlMessage LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecific
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -1979,7 +1979,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayload {
 	Value: *string,
@@ -2004,7 +2004,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2013,7 +2013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCard {
 	Buttons: interface{},
@@ -2044,7 +2044,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -2058,7 +2058,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -2072,7 +2072,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -2086,7 +2086,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -2095,7 +2095,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtons {
 	Text: *string,
@@ -2122,7 +2122,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -2136,7 +2136,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2145,7 +2145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessage {
 	Value: *string,
@@ -2170,7 +2170,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2179,7 +2179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessage {
 	Value: *string,
@@ -2204,7 +2204,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2213,13 +2213,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessage,
 }
 ```
 
@@ -2244,7 +2244,7 @@ CustomPayload LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecif
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -2258,7 +2258,7 @@ ImageResponseCard LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSp
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -2272,7 +2272,7 @@ PlainTextMessage LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -2286,7 +2286,7 @@ SsmlMessage LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecific
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -2295,7 +2295,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayload {
 	Value: *string,
@@ -2320,7 +2320,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2329,7 +2329,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCard {
 	Buttons: interface{},
@@ -2360,7 +2360,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -2374,7 +2374,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -2388,7 +2388,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -2402,7 +2402,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -2411,7 +2411,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtons {
 	Text: *string,
@@ -2438,7 +2438,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -2452,7 +2452,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2461,7 +2461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessage {
 	Value: *string,
@@ -2486,7 +2486,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2495,7 +2495,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessage {
 	Value: *string,
@@ -2520,7 +2520,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2529,7 +2529,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponse {
 	AllowInterrupt: interface{},
@@ -2558,7 +2558,7 @@ AllowInterrupt interface{}
 
 Determines whether the user can interrupt an update message while it is playing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -2574,7 +2574,7 @@ The frequency that a message is sent to the user.
 
 When the period ends, Amazon Lex chooses a message from the message groups and plays it to the user. If the fulfillment Lambda returns before the first period ends, an update message is not played to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#frequency_in_seconds LexBot#frequency_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#frequency_in_seconds LexBot#frequency_in_seconds}
 
 ---
 
@@ -2590,7 +2590,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups LexBot#message_groups}
 
 ---
 
@@ -2599,10 +2599,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroups {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessage,
 	Variations: interface{},
 }
 ```
@@ -2626,7 +2626,7 @@ Message LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificatio
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -2640,7 +2640,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -2649,13 +2649,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessage,
 }
 ```
 
@@ -2680,7 +2680,7 @@ CustomPayload LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecif
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -2694,7 +2694,7 @@ ImageResponseCard LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSp
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -2708,7 +2708,7 @@ PlainTextMessage LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -2722,7 +2722,7 @@ SsmlMessage LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecific
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -2731,7 +2731,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayload {
 	Value: *string,
@@ -2756,7 +2756,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2765,7 +2765,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCard {
 	Buttons: interface{},
@@ -2796,7 +2796,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -2810,7 +2810,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -2824,7 +2824,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -2838,7 +2838,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -2847,7 +2847,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtons {
 	Text: *string,
@@ -2874,7 +2874,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -2888,7 +2888,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2897,7 +2897,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessage {
 	Value: *string,
@@ -2922,7 +2922,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2931,7 +2931,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessage {
 	Value: *string,
@@ -2956,7 +2956,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -2965,13 +2965,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessage,
 }
 ```
 
@@ -2996,7 +2996,7 @@ CustomPayload LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecif
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -3010,7 +3010,7 @@ ImageResponseCard LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSp
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -3024,7 +3024,7 @@ PlainTextMessage LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpe
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -3038,7 +3038,7 @@ SsmlMessage LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecific
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -3047,7 +3047,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayload {
 	Value: *string,
@@ -3072,7 +3072,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3081,7 +3081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCard {
 	Buttons: interface{},
@@ -3112,7 +3112,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -3126,7 +3126,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -3140,7 +3140,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -3154,7 +3154,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -3163,7 +3163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtons {
 	Text: *string,
@@ -3190,7 +3190,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -3204,7 +3204,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3213,7 +3213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessage {
 	Value: *string,
@@ -3238,7 +3238,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3247,7 +3247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessage {
 	Value: *string,
@@ -3272,7 +3272,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3281,12 +3281,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecification {
-	FailureResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponse,
-	SuccessResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponse,
-	TimeoutResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponse,
+	FailureResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponse,
+	SuccessResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponse,
+	TimeoutResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponse,
 }
 ```
 
@@ -3310,7 +3310,7 @@ FailureResponse LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusS
 
 A list of message groups that Amazon Lex uses to respond the user input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#failure_response LexBot#failure_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#failure_response LexBot#failure_response}
 
 ---
 
@@ -3324,7 +3324,7 @@ SuccessResponse LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusS
 
 A list of message groups that Amazon Lex uses to respond the user input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#success_response LexBot#success_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#success_response LexBot#success_response}
 
 ---
 
@@ -3338,7 +3338,7 @@ TimeoutResponse LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusS
 
 A list of message groups that Amazon Lex uses to respond the user input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#timeout_response LexBot#timeout_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#timeout_response LexBot#timeout_response}
 
 ---
 
@@ -3347,7 +3347,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponse {
 	AllowInterrupt: interface{},
@@ -3374,7 +3374,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -3390,7 +3390,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -3399,13 +3399,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessage,
 }
 ```
 
@@ -3430,7 +3430,7 @@ CustomPayload LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpe
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -3444,7 +3444,7 @@ ImageResponseCard LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatu
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -3458,7 +3458,7 @@ PlainTextMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -3472,7 +3472,7 @@ SsmlMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpeci
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -3481,7 +3481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayload {
 	Value: *string,
@@ -3506,7 +3506,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3515,7 +3515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCard {
 	Buttons: interface{},
@@ -3546,7 +3546,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -3560,7 +3560,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -3574,7 +3574,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -3588,7 +3588,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -3597,7 +3597,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtons {
 	Text: *string,
@@ -3624,7 +3624,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -3638,7 +3638,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3647,7 +3647,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessage {
 	Value: *string,
@@ -3672,7 +3672,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3681,7 +3681,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessage {
 	Value: *string,
@@ -3706,7 +3706,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3715,10 +3715,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStruct {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessage,
 	Variations: interface{},
 }
 ```
@@ -3742,7 +3742,7 @@ Message LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecifica
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -3756,7 +3756,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -3765,13 +3765,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessage,
 }
 ```
 
@@ -3796,7 +3796,7 @@ CustomPayload LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpe
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -3810,7 +3810,7 @@ ImageResponseCard LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatu
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -3824,7 +3824,7 @@ PlainTextMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -3838,7 +3838,7 @@ SsmlMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpeci
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -3847,7 +3847,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayload {
 	Value: *string,
@@ -3872,7 +3872,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -3881,7 +3881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCard {
 	Buttons: interface{},
@@ -3912,7 +3912,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -3926,7 +3926,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -3940,7 +3940,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -3954,7 +3954,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -3963,7 +3963,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtons {
 	Text: *string,
@@ -3990,7 +3990,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -4004,7 +4004,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4013,7 +4013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessage {
 	Value: *string,
@@ -4038,7 +4038,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4047,7 +4047,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessage {
 	Value: *string,
@@ -4072,7 +4072,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4081,7 +4081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponse {
 	AllowInterrupt: interface{},
@@ -4108,7 +4108,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -4124,7 +4124,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -4133,13 +4133,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessage,
 }
 ```
 
@@ -4164,7 +4164,7 @@ CustomPayload LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpe
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -4178,7 +4178,7 @@ ImageResponseCard LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatu
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -4192,7 +4192,7 @@ PlainTextMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -4206,7 +4206,7 @@ SsmlMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpeci
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -4215,7 +4215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayload {
 	Value: *string,
@@ -4240,7 +4240,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4249,7 +4249,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCard {
 	Buttons: interface{},
@@ -4280,7 +4280,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -4294,7 +4294,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -4308,7 +4308,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -4322,7 +4322,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -4331,7 +4331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtons {
 	Text: *string,
@@ -4358,7 +4358,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -4372,7 +4372,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4381,7 +4381,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessage {
 	Value: *string,
@@ -4406,7 +4406,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4415,7 +4415,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessage {
 	Value: *string,
@@ -4440,7 +4440,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4449,10 +4449,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStruct {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessage,
 	Variations: interface{},
 }
 ```
@@ -4476,7 +4476,7 @@ Message LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecifica
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -4490,7 +4490,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -4499,13 +4499,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessage,
 }
 ```
 
@@ -4530,7 +4530,7 @@ CustomPayload LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpe
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -4544,7 +4544,7 @@ ImageResponseCard LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatu
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -4558,7 +4558,7 @@ PlainTextMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -4572,7 +4572,7 @@ SsmlMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpeci
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -4581,7 +4581,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayload {
 	Value: *string,
@@ -4606,7 +4606,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4615,7 +4615,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCard {
 	Buttons: interface{},
@@ -4646,7 +4646,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -4660,7 +4660,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -4674,7 +4674,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -4688,7 +4688,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -4697,7 +4697,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtons {
 	Text: *string,
@@ -4724,7 +4724,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -4738,7 +4738,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4747,7 +4747,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessage {
 	Value: *string,
@@ -4772,7 +4772,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4781,7 +4781,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessage {
 	Value: *string,
@@ -4806,7 +4806,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4815,7 +4815,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponse {
 	AllowInterrupt: interface{},
@@ -4842,7 +4842,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -4858,7 +4858,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -4867,13 +4867,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessage,
 }
 ```
 
@@ -4898,7 +4898,7 @@ CustomPayload LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpe
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -4912,7 +4912,7 @@ ImageResponseCard LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatu
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -4926,7 +4926,7 @@ PlainTextMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -4940,7 +4940,7 @@ SsmlMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpeci
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -4949,7 +4949,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayload {
 	Value: *string,
@@ -4974,7 +4974,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -4983,7 +4983,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCard {
 	Buttons: interface{},
@@ -5014,7 +5014,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -5028,7 +5028,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -5042,7 +5042,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -5056,7 +5056,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -5065,7 +5065,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtons {
 	Text: *string,
@@ -5092,7 +5092,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -5106,7 +5106,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5115,7 +5115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessage {
 	Value: *string,
@@ -5140,7 +5140,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5149,7 +5149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessage {
 	Value: *string,
@@ -5174,7 +5174,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5183,10 +5183,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStruct {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessage,
 	Variations: interface{},
 }
 ```
@@ -5210,7 +5210,7 @@ Message LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecifica
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -5224,7 +5224,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -5233,13 +5233,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessage,
 }
 ```
 
@@ -5264,7 +5264,7 @@ CustomPayload LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpe
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -5278,7 +5278,7 @@ ImageResponseCard LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatu
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -5292,7 +5292,7 @@ PlainTextMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatus
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -5306,7 +5306,7 @@ SsmlMessage LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpeci
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -5315,7 +5315,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayload {
 	Value: *string,
@@ -5340,7 +5340,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5349,7 +5349,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCard {
 	Buttons: interface{},
@@ -5380,7 +5380,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -5394,7 +5394,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -5408,7 +5408,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -5422,7 +5422,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -5431,7 +5431,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtons {
 	Text: *string,
@@ -5458,7 +5458,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -5472,7 +5472,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5481,7 +5481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessage {
 	Value: *string,
@@ -5506,7 +5506,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5515,7 +5515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessage {
 	Value: *string,
@@ -5540,7 +5540,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5549,7 +5549,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsInputContexts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsInputContexts {
 	Name: *string,
@@ -5574,7 +5574,7 @@ Name *string
 
 The name of the context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -5583,10 +5583,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSetting {
-	ClosingResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponse,
+	ClosingResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponse,
 	IsActive: interface{},
 }
 ```
@@ -5596,7 +5596,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSetting.property.closingResponse">ClosingResponse</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponse">LexBotBotLocalesIntentsIntentClosingSettingClosingResponse</a></code> | A list of message groups that Amazon Lex uses to respond the user input. |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSetting.property.isActive">IsActive</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#is_active LexBot#is_active}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSetting.property.isActive">IsActive</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#is_active LexBot#is_active}. |
 
 ---
 
@@ -5610,7 +5610,7 @@ ClosingResponse LexBotBotLocalesIntentsIntentClosingSettingClosingResponse
 
 A list of message groups that Amazon Lex uses to respond the user input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#closing_response LexBot#closing_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#closing_response LexBot#closing_response}
 
 ---
 
@@ -5622,7 +5622,7 @@ IsActive interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#is_active LexBot#is_active}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#is_active LexBot#is_active}.
 
 ---
 
@@ -5631,7 +5631,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponse {
 	AllowInterrupt: interface{},
@@ -5658,7 +5658,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -5674,7 +5674,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -5683,13 +5683,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessage,
 }
 ```
 
@@ -5714,7 +5714,7 @@ CustomPayload LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageG
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -5728,7 +5728,7 @@ ImageResponseCard LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMess
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -5742,7 +5742,7 @@ PlainTextMessage LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -5756,7 +5756,7 @@ SsmlMessage LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGro
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -5765,7 +5765,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayload {
 	Value: *string,
@@ -5790,7 +5790,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5799,7 +5799,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCard {
 	Buttons: interface{},
@@ -5830,7 +5830,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -5844,7 +5844,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -5858,7 +5858,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -5872,7 +5872,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -5881,7 +5881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtons {
 	Text: *string,
@@ -5908,7 +5908,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -5922,7 +5922,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5931,7 +5931,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessage {
 	Value: *string,
@@ -5956,7 +5956,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5965,7 +5965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessage {
 	Value: *string,
@@ -5990,7 +5990,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -5999,10 +5999,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStruct {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessage,
 	Variations: interface{},
 }
 ```
@@ -6026,7 +6026,7 @@ Message LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsL
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -6040,7 +6040,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -6049,13 +6049,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessage,
 }
 ```
 
@@ -6080,7 +6080,7 @@ CustomPayload LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageG
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -6094,7 +6094,7 @@ ImageResponseCard LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMess
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -6108,7 +6108,7 @@ PlainTextMessage LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessa
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -6122,7 +6122,7 @@ SsmlMessage LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGro
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -6131,7 +6131,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayload {
 	Value: *string,
@@ -6156,7 +6156,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6165,7 +6165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCard {
 	Buttons: interface{},
@@ -6196,7 +6196,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -6210,7 +6210,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -6224,7 +6224,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -6238,7 +6238,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -6247,7 +6247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtons {
 	Text: *string,
@@ -6274,7 +6274,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -6288,7 +6288,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6297,7 +6297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessage {
 	Value: *string,
@@ -6322,7 +6322,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6331,7 +6331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessage {
 	Value: *string,
@@ -6356,7 +6356,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6365,12 +6365,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSetting {
-	DeclinationResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse,
+	DeclinationResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse,
 	IsActive: interface{},
-	PromptSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification,
+	PromptSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification,
 }
 ```
 
@@ -6379,7 +6379,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSetting.property.declinationResponse">DeclinationResponse</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse">LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse</a></code> | A list of message groups that Amazon Lex uses to respond the user input. |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSetting.property.isActive">IsActive</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#is_active LexBot#is_active}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSetting.property.isActive">IsActive</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#is_active LexBot#is_active}. |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSetting.property.promptSpecification">PromptSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification">LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification</a></code> | Prompts the user to confirm the intent. |
 
 ---
@@ -6394,7 +6394,7 @@ DeclinationResponse LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationR
 
 A list of message groups that Amazon Lex uses to respond the user input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#declination_response LexBot#declination_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#declination_response LexBot#declination_response}
 
 ---
 
@@ -6406,7 +6406,7 @@ IsActive interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#is_active LexBot#is_active}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#is_active LexBot#is_active}.
 
 ---
 
@@ -6420,7 +6420,7 @@ PromptSpecification LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecif
 
 Prompts the user to confirm the intent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#prompt_specification LexBot#prompt_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#prompt_specification LexBot#prompt_specification}
 
 ---
 
@@ -6429,7 +6429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse {
 	AllowInterrupt: interface{},
@@ -6456,7 +6456,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -6472,7 +6472,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -6481,13 +6481,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessage,
 }
 ```
 
@@ -6512,7 +6512,7 @@ CustomPayload LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationRespons
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -6526,7 +6526,7 @@ ImageResponseCard LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationRes
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -6540,7 +6540,7 @@ PlainTextMessage LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -6554,7 +6554,7 @@ SsmlMessage LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseM
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -6563,7 +6563,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayload {
 	Value: *string,
@@ -6588,7 +6588,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6597,7 +6597,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCard {
 	Buttons: interface{},
@@ -6628,7 +6628,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -6642,7 +6642,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -6656,7 +6656,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -6670,7 +6670,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -6679,7 +6679,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtons {
 	Text: *string,
@@ -6706,7 +6706,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -6720,7 +6720,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6729,7 +6729,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessage {
 	Value: *string,
@@ -6754,7 +6754,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6763,7 +6763,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessage {
 	Value: *string,
@@ -6788,7 +6788,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6797,10 +6797,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStruct {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessage,
 	Variations: interface{},
 }
 ```
@@ -6824,7 +6824,7 @@ Message LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessa
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -6838,7 +6838,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -6847,13 +6847,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessage,
 }
 ```
 
@@ -6878,7 +6878,7 @@ CustomPayload LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationRespons
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -6892,7 +6892,7 @@ ImageResponseCard LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationRes
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -6906,7 +6906,7 @@ PlainTextMessage LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResp
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -6920,7 +6920,7 @@ SsmlMessage LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseM
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -6929,7 +6929,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayload {
 	Value: *string,
@@ -6954,7 +6954,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -6963,7 +6963,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCard {
 	Buttons: interface{},
@@ -6994,7 +6994,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -7008,7 +7008,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -7022,7 +7022,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -7036,7 +7036,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -7045,7 +7045,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtons {
 	Text: *string,
@@ -7072,7 +7072,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -7086,7 +7086,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7095,7 +7095,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessage {
 	Value: *string,
@@ -7120,7 +7120,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7129,7 +7129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessage {
 	Value: *string,
@@ -7154,7 +7154,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7163,7 +7163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification {
 	AllowInterrupt: interface{},
@@ -7196,7 +7196,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -7210,7 +7210,7 @@ MaxRetries *f64
 
 The maximum number of times the bot tries to elicit a resonse from the user using this prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
 
 ---
 
@@ -7226,7 +7226,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -7240,7 +7240,7 @@ MessageSelectionStrategy *string
 
 Indicates how a message is selected from a message group among retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
 
 ---
 
@@ -7254,7 +7254,7 @@ PromptAttemptsSpecification interface{}
 
 Specifies the advanced settings on each attempt of the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
 
 ---
 
@@ -7263,13 +7263,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage,
 }
 ```
 
@@ -7294,7 +7294,7 @@ CustomPayload LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificatio
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -7308,7 +7308,7 @@ ImageResponseCard LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecific
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -7322,7 +7322,7 @@ PlainTextMessage LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -7336,7 +7336,7 @@ SsmlMessage LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationM
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -7345,7 +7345,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayload {
 	Value: *string,
@@ -7370,7 +7370,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7379,7 +7379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard {
 	Buttons: interface{},
@@ -7410,7 +7410,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -7424,7 +7424,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -7438,7 +7438,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -7452,7 +7452,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -7461,7 +7461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtons {
 	Text: *string,
@@ -7488,7 +7488,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -7502,7 +7502,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7511,7 +7511,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage {
 	Value: *string,
@@ -7536,7 +7536,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7545,7 +7545,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage {
 	Value: *string,
@@ -7570,7 +7570,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7579,10 +7579,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStruct {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessage,
 	Variations: interface{},
 }
 ```
@@ -7606,7 +7606,7 @@ Message LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessa
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -7620,7 +7620,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -7629,13 +7629,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage,
 }
 ```
 
@@ -7660,7 +7660,7 @@ CustomPayload LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificatio
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -7674,7 +7674,7 @@ ImageResponseCard LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecific
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -7688,7 +7688,7 @@ PlainTextMessage LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifica
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -7702,7 +7702,7 @@ SsmlMessage LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationM
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -7711,7 +7711,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload {
 	Value: *string,
@@ -7736,7 +7736,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7745,7 +7745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard {
 	Buttons: interface{},
@@ -7776,7 +7776,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -7790,7 +7790,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -7804,7 +7804,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -7818,7 +7818,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -7827,7 +7827,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtons {
 	Text: *string,
@@ -7854,7 +7854,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -7868,7 +7868,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7877,7 +7877,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage {
 	Value: *string,
@@ -7902,7 +7902,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7911,7 +7911,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage {
 	Value: *string,
@@ -7936,7 +7936,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -7945,13 +7945,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecification {
-	AllowedInputTypes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes,
+	AllowedInputTypes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes,
 	AllowInterrupt: interface{},
-	AudioAndDtmfInputSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification,
-	TextInputSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification,
+	AudioAndDtmfInputSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification,
+	TextInputSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification,
 }
 ```
 
@@ -7976,7 +7976,7 @@ AllowedInputTypes LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecific
 
 Specifies the allowed input types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
 
 ---
 
@@ -7990,7 +7990,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt attempt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -8004,7 +8004,7 @@ AudioAndDtmfInputSpecification LexBotBotLocalesIntentsIntentConfirmationSettingP
 
 Specifies the audio and DTMF input specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
 
 ---
 
@@ -8018,7 +8018,7 @@ TextInputSpecification LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpe
 
 Specifies the text input specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
 
 ---
 
@@ -8027,7 +8027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes {
 	AllowAudioInput: interface{},
@@ -8054,7 +8054,7 @@ AllowAudioInput interface{}
 
 Indicates whether audio input is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
 
 ---
 
@@ -8068,7 +8068,7 @@ AllowDtmfInput interface{}
 
 Indicates whether DTMF input is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
 
 ---
 
@@ -8077,11 +8077,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification {
-	AudioSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification,
-	DtmfSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification,
+	AudioSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification,
+	DtmfSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification,
 	StartTimeoutMs: *f64,
 }
 ```
@@ -8106,7 +8106,7 @@ AudioSpecification LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecifi
 
 Specifies the audio input specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
 
 ---
 
@@ -8120,7 +8120,7 @@ DtmfSpecification LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecific
 
 Specifies the settings on DTMF input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
 
 ---
 
@@ -8136,7 +8136,7 @@ Time for which a bot waits before assuming that the customer isn't going to spea
 
 This timeout is shared between Audio and DTMF inputs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
 
 ---
 
@@ -8145,7 +8145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification {
 	EndTimeoutMs: *f64,
@@ -8172,7 +8172,7 @@ EndTimeoutMs *f64
 
 Time for which a bot waits after the customer stops speaking to assume the utterance is finished.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
 
 ---
 
@@ -8186,7 +8186,7 @@ MaxLengthMs *f64
 
 Time for how long Amazon Lex waits before speech input is truncated and the speech is returned to application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
 
 ---
 
@@ -8195,7 +8195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification {
 	DeletionCharacter: *string,
@@ -8226,7 +8226,7 @@ DeletionCharacter *string
 
 The DTMF character that clears the accumulated DTMF digits and immediately ends the input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
 
 ---
 
@@ -8242,7 +8242,7 @@ The DTMF character that immediately ends input.
 
 If the user does not press this character, the input ends after the end timeout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#end_character LexBot#end_character}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#end_character LexBot#end_character}
 
 ---
 
@@ -8256,7 +8256,7 @@ EndTimeoutMs *f64
 
 How long the bot should wait after the last DTMF character input before assuming that the input has concluded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
 
 ---
 
@@ -8270,7 +8270,7 @@ MaxLength *f64
 
 The maximum number of DTMF digits allowed in an utterance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#max_length LexBot#max_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#max_length LexBot#max_length}
 
 ---
 
@@ -8279,7 +8279,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification {
 	StartTimeoutMs: *f64,
@@ -8304,7 +8304,7 @@ StartTimeoutMs *f64
 
 Time for which a bot waits before re-prompting a customer for text input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
 
 ---
 
@@ -8313,7 +8313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsKendraConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsKendraConfiguration {
 	KendraIndex: *string,
@@ -8342,7 +8342,7 @@ KendraIndex *string
 
 The Amazon Resource Name (ARN) of the Amazon Kendra index that you want the AMAZON.KendraSearchIntent intent to search.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#kendra_index LexBot#kendra_index}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#kendra_index LexBot#kendra_index}
 
 ---
 
@@ -8356,7 +8356,7 @@ QueryFilterString *string
 
 A query filter that Amazon Lex sends to Amazon Kendra to filter the response from a query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#query_filter_string LexBot#query_filter_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#query_filter_string LexBot#query_filter_string}
 
 ---
 
@@ -8370,7 +8370,7 @@ QueryFilterStringEnabled interface{}
 
 Determines whether the AMAZON.KendraSearchIntent intent uses a custom query string to query the Amazon Kendra index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#query_filter_string_enabled LexBot#query_filter_string_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#query_filter_string_enabled LexBot#query_filter_string_enabled}
 
 ---
 
@@ -8379,7 +8379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsOutputContexts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsOutputContexts {
 	Name: *string,
@@ -8408,7 +8408,7 @@ Name *string
 
 Unique name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -8422,7 +8422,7 @@ TimeToLiveInSeconds *f64
 
 The amount of time, in seconds, that the output context should remain active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#time_to_live_in_seconds LexBot#time_to_live_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#time_to_live_in_seconds LexBot#time_to_live_in_seconds}
 
 ---
 
@@ -8436,7 +8436,7 @@ TurnsToLive *f64
 
 The number of conversation turns that the output context should remain active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#turns_to_live LexBot#turns_to_live}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#turns_to_live LexBot#turns_to_live}
 
 ---
 
@@ -8445,7 +8445,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSampleUtterances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSampleUtterances {
 	Utterance: *string,
@@ -8470,7 +8470,7 @@ Utterance *string
 
 The sample utterance that Amazon Lex uses to build its machine-learning model to recognize intents/slots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#utterance LexBot#utterance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#utterance LexBot#utterance}
 
 ---
 
@@ -8479,7 +8479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotPriorities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotPriorities {
 	Priority: *f64,
@@ -8506,7 +8506,7 @@ Priority *f64
 
 The priority that a slot should be elicited.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#priority LexBot#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#priority LexBot#priority}
 
 ---
 
@@ -8520,7 +8520,7 @@ SlotName *string
 
 The name of the slot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#slot_name LexBot#slot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#slot_name LexBot#slot_name}
 
 ---
 
@@ -8529,15 +8529,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlots.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlots {
 	Description: *string,
-	MultipleValuesSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsMultipleValuesSetting,
+	MultipleValuesSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsMultipleValuesSetting,
 	Name: *string,
-	ObfuscationSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsObfuscationSetting,
+	ObfuscationSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsObfuscationSetting,
 	SlotTypeName: *string,
-	ValueElicitationSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSetting,
+	ValueElicitationSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSetting,
 }
 ```
 
@@ -8564,7 +8564,7 @@ Description *string
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -8578,7 +8578,7 @@ MultipleValuesSetting LexBotBotLocalesIntentsSlotsMultipleValuesSetting
 
 Indicates whether a slot can return multiple values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#multiple_values_setting LexBot#multiple_values_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#multiple_values_setting LexBot#multiple_values_setting}
 
 ---
 
@@ -8592,7 +8592,7 @@ Name *string
 
 Unique name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -8606,7 +8606,7 @@ ObfuscationSetting LexBotBotLocalesIntentsSlotsObfuscationSetting
 
 Determines whether Amazon Lex obscures slot values in conversation logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#obfuscation_setting LexBot#obfuscation_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#obfuscation_setting LexBot#obfuscation_setting}
 
 ---
 
@@ -8620,7 +8620,7 @@ SlotTypeName *string
 
 The slot type name that is used in the slot. Allows for custom and built-in slot type names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#slot_type_name LexBot#slot_type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#slot_type_name LexBot#slot_type_name}
 
 ---
 
@@ -8634,7 +8634,7 @@ ValueElicitationSetting LexBotBotLocalesIntentsSlotsValueElicitationSetting
 
 Settings that you can use for eliciting a slot value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value_elicitation_setting LexBot#value_elicitation_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value_elicitation_setting LexBot#value_elicitation_setting}
 
 ---
 
@@ -8643,7 +8643,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsMultipleValuesSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsMultipleValuesSetting {
 	AllowMultipleValues: interface{},
@@ -8654,7 +8654,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsMultipleValuesSetting.property.allowMultipleValues">AllowMultipleValues</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_multiple_values LexBot#allow_multiple_values}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsMultipleValuesSetting.property.allowMultipleValues">AllowMultipleValues</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_multiple_values LexBot#allow_multiple_values}. |
 
 ---
 
@@ -8666,7 +8666,7 @@ AllowMultipleValues interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_multiple_values LexBot#allow_multiple_values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_multiple_values LexBot#allow_multiple_values}.
 
 ---
 
@@ -8675,7 +8675,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsObfuscationSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsObfuscationSetting {
 	ObfuscationSettingType: *string,
@@ -8700,7 +8700,7 @@ ObfuscationSettingType *string
 
 Value that determines whether Amazon Lex obscures slot values in conversation logs. The default is to obscure the values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#obfuscation_setting_type LexBot#obfuscation_setting_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#obfuscation_setting_type LexBot#obfuscation_setting_type}
 
 ---
 
@@ -8709,14 +8709,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSetting {
-	DefaultValueSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecification,
-	PromptSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecification,
+	DefaultValueSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecification,
+	PromptSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecification,
 	SampleUtterances: interface{},
 	SlotConstraint: *string,
-	WaitAndContinueSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecification,
+	WaitAndContinueSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecification,
 }
 ```
 
@@ -8742,7 +8742,7 @@ DefaultValueSpecification LexBotBotLocalesIntentsSlotsValueElicitationSettingDef
 
 A list of default values for a slot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#default_value_specification LexBot#default_value_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#default_value_specification LexBot#default_value_specification}
 
 ---
 
@@ -8756,7 +8756,7 @@ PromptSpecification LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpe
 
 The prompt that Amazon Lex uses to elicit the slot value from the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#prompt_specification LexBot#prompt_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#prompt_specification LexBot#prompt_specification}
 
 ---
 
@@ -8770,7 +8770,7 @@ SampleUtterances interface{}
 
 If you know a specific pattern that users might respond to an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#sample_utterances LexBot#sample_utterances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#sample_utterances LexBot#sample_utterances}
 
 ---
 
@@ -8784,7 +8784,7 @@ SlotConstraint *string
 
 Specifies whether the slot is required or optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#slot_constraint LexBot#slot_constraint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#slot_constraint LexBot#slot_constraint}
 
 ---
 
@@ -8798,7 +8798,7 @@ WaitAndContinueSpecification LexBotBotLocalesIntentsSlotsValueElicitationSetting
 
 Specifies the prompts that Amazon Lex uses while a bot is waiting for customer input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#wait_and_continue_specification LexBot#wait_and_continue_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#wait_and_continue_specification LexBot#wait_and_continue_specification}
 
 ---
 
@@ -8807,7 +8807,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecification {
 	DefaultValueList: interface{},
@@ -8832,7 +8832,7 @@ DefaultValueList interface{}
 
 A list of slot default values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#default_value_list LexBot#default_value_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#default_value_list LexBot#default_value_list}
 
 ---
 
@@ -8841,7 +8841,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStruct {
 	DefaultValue: *string,
@@ -8866,7 +8866,7 @@ DefaultValue *string
 
 The default value to use when a user doesn't provide a value for a slot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#default_value LexBot#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#default_value LexBot#default_value}
 
 ---
 
@@ -8875,7 +8875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecification {
 	AllowInterrupt: interface{},
@@ -8908,7 +8908,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -8922,7 +8922,7 @@ MaxRetries *f64
 
 The maximum number of times the bot tries to elicit a resonse from the user using this prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#max_retries LexBot#max_retries}
 
 ---
 
@@ -8938,7 +8938,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -8952,7 +8952,7 @@ MessageSelectionStrategy *string
 
 Indicates how a message is selected from a message group among retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_selection_strategy LexBot#message_selection_strategy}
 
 ---
 
@@ -8966,7 +8966,7 @@ PromptAttemptsSpecification interface{}
 
 Specifies the advanced settings on each attempt of the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#prompt_attempts_specification LexBot#prompt_attempts_specification}
 
 ---
 
@@ -8975,13 +8975,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage,
 }
 ```
 
@@ -9006,7 +9006,7 @@ CustomPayload LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecifica
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -9020,7 +9020,7 @@ ImageResponseCard LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpeci
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -9034,7 +9034,7 @@ PlainTextMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -9048,7 +9048,7 @@ SsmlMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificati
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -9057,7 +9057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayload {
 	Value: *string,
@@ -9082,7 +9082,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9091,7 +9091,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard {
 	Buttons: interface{},
@@ -9122,7 +9122,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -9136,7 +9136,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -9150,7 +9150,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -9164,7 +9164,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -9173,7 +9173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtons {
 	Text: *string,
@@ -9200,7 +9200,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -9214,7 +9214,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9223,7 +9223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage {
 	Value: *string,
@@ -9248,7 +9248,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9257,7 +9257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage {
 	Value: *string,
@@ -9282,7 +9282,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9291,10 +9291,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStruct {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessage,
 	Variations: interface{},
 }
 ```
@@ -9318,7 +9318,7 @@ Message LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMe
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -9332,7 +9332,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -9341,13 +9341,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage,
 }
 ```
 
@@ -9372,7 +9372,7 @@ CustomPayload LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecifica
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -9386,7 +9386,7 @@ ImageResponseCard LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpeci
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -9400,7 +9400,7 @@ PlainTextMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecif
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -9414,7 +9414,7 @@ SsmlMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificati
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -9423,7 +9423,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload {
 	Value: *string,
@@ -9448,7 +9448,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9457,7 +9457,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard {
 	Buttons: interface{},
@@ -9488,7 +9488,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -9502,7 +9502,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -9516,7 +9516,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -9530,7 +9530,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -9539,7 +9539,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtons {
 	Text: *string,
@@ -9566,7 +9566,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -9580,7 +9580,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9589,7 +9589,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage {
 	Value: *string,
@@ -9614,7 +9614,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9623,7 +9623,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage {
 	Value: *string,
@@ -9648,7 +9648,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -9657,13 +9657,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecification {
-	AllowedInputTypes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes,
+	AllowedInputTypes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes,
 	AllowInterrupt: interface{},
-	AudioAndDtmfInputSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification,
-	TextInputSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification,
+	AudioAndDtmfInputSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification,
+	TextInputSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification,
 }
 ```
 
@@ -9688,7 +9688,7 @@ AllowedInputTypes LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpeci
 
 Specifies the allowed input types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allowed_input_types LexBot#allowed_input_types}
 
 ---
 
@@ -9702,7 +9702,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt attempt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -9716,7 +9716,7 @@ AudioAndDtmfInputSpecification LexBotBotLocalesIntentsSlotsValueElicitationSetti
 
 Specifies the audio and DTMF input specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#audio_and_dtmf_input_specification LexBot#audio_and_dtmf_input_specification}
 
 ---
 
@@ -9730,7 +9730,7 @@ TextInputSpecification LexBotBotLocalesIntentsSlotsValueElicitationSettingPrompt
 
 Specifies the text input specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text_input_specification LexBot#text_input_specification}
 
 ---
 
@@ -9739,7 +9739,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes {
 	AllowAudioInput: interface{},
@@ -9766,7 +9766,7 @@ AllowAudioInput interface{}
 
 Indicates whether audio input is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_audio_input LexBot#allow_audio_input}
 
 ---
 
@@ -9780,7 +9780,7 @@ AllowDtmfInput interface{}
 
 Indicates whether DTMF input is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_dtmf_input LexBot#allow_dtmf_input}
 
 ---
 
@@ -9789,11 +9789,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification {
-	AudioSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification,
-	DtmfSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification,
+	AudioSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification,
+	DtmfSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification,
 	StartTimeoutMs: *f64,
 }
 ```
@@ -9818,7 +9818,7 @@ AudioSpecification LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpec
 
 Specifies the audio input specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#audio_specification LexBot#audio_specification}
 
 ---
 
@@ -9832,7 +9832,7 @@ DtmfSpecification LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpeci
 
 Specifies the settings on DTMF input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#dtmf_specification LexBot#dtmf_specification}
 
 ---
 
@@ -9848,7 +9848,7 @@ Time for which a bot waits before assuming that the customer isn't going to spea
 
 This timeout is shared between Audio and DTMF inputs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
 
 ---
 
@@ -9857,7 +9857,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification {
 	EndTimeoutMs: *f64,
@@ -9884,7 +9884,7 @@ EndTimeoutMs *f64
 
 Time for which a bot waits after the customer stops speaking to assume the utterance is finished.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
 
 ---
 
@@ -9898,7 +9898,7 @@ MaxLengthMs *f64
 
 Time for how long Amazon Lex waits before speech input is truncated and the speech is returned to application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#max_length_ms LexBot#max_length_ms}
 
 ---
 
@@ -9907,7 +9907,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification {
 	DeletionCharacter: *string,
@@ -9938,7 +9938,7 @@ DeletionCharacter *string
 
 The DTMF character that clears the accumulated DTMF digits and immediately ends the input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#deletion_character LexBot#deletion_character}
 
 ---
 
@@ -9954,7 +9954,7 @@ The DTMF character that immediately ends input.
 
 If the user does not press this character, the input ends after the end timeout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#end_character LexBot#end_character}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#end_character LexBot#end_character}
 
 ---
 
@@ -9968,7 +9968,7 @@ EndTimeoutMs *f64
 
 How long the bot should wait after the last DTMF character input before assuming that the input has concluded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#end_timeout_ms LexBot#end_timeout_ms}
 
 ---
 
@@ -9982,7 +9982,7 @@ MaxLength *f64
 
 The maximum number of DTMF digits allowed in an utterance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#max_length LexBot#max_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#max_length LexBot#max_length}
 
 ---
 
@@ -9991,7 +9991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification {
 	StartTimeoutMs: *f64,
@@ -10016,7 +10016,7 @@ StartTimeoutMs *f64
 
 Time for which a bot waits before re-prompting a customer for text input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#start_timeout_ms LexBot#start_timeout_ms}
 
 ---
 
@@ -10025,7 +10025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterances {
 	Utterance: *string,
@@ -10050,7 +10050,7 @@ Utterance *string
 
 The sample utterance that Amazon Lex uses to build its machine-learning model to recognize intents/slots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#utterance LexBot#utterance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#utterance LexBot#utterance}
 
 ---
 
@@ -10059,13 +10059,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecification {
-	ContinueResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponse,
+	ContinueResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponse,
 	IsActive: interface{},
-	StillWaitingResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponse,
-	WaitingResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponse,
+	StillWaitingResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponse,
+	WaitingResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponse,
 }
 ```
 
@@ -10090,7 +10090,7 @@ ContinueResponse LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndConti
 
 The response that Amazon Lex sends to indicate that the bot is ready to continue the conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#continue_response LexBot#continue_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#continue_response LexBot#continue_response}
 
 ---
 
@@ -10104,7 +10104,7 @@ IsActive interface{}
 
 Specifies whether the bot will wait for a user to respond.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#is_active LexBot#is_active}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#is_active LexBot#is_active}
 
 ---
 
@@ -10118,7 +10118,7 @@ StillWaitingResponse LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndC
 
 The response that Amazon Lex sends periodically to the user to indicate that the bot is still waiting for input from the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#still_waiting_response LexBot#still_waiting_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#still_waiting_response LexBot#still_waiting_response}
 
 ---
 
@@ -10132,7 +10132,7 @@ WaitingResponse LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContin
 
 The response that Amazon Lex sends to indicate that the bot is waiting for the conversation to continue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#waiting_response LexBot#waiting_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#waiting_response LexBot#waiting_response}
 
 ---
 
@@ -10141,7 +10141,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponse {
 	AllowInterrupt: interface{},
@@ -10168,7 +10168,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -10184,7 +10184,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -10193,13 +10193,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessage,
 }
 ```
 
@@ -10224,7 +10224,7 @@ CustomPayload LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinue
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -10238,7 +10238,7 @@ ImageResponseCard LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndCont
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -10252,7 +10252,7 @@ PlainTextMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndConti
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -10266,7 +10266,7 @@ SsmlMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSp
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -10275,7 +10275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayload {
 	Value: *string,
@@ -10300,7 +10300,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10309,7 +10309,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCard {
 	Buttons: interface{},
@@ -10340,7 +10340,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -10354,7 +10354,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -10368,7 +10368,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -10382,7 +10382,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -10391,7 +10391,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtons {
 	Text: *string,
@@ -10418,7 +10418,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -10432,7 +10432,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10441,7 +10441,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessage {
 	Value: *string,
@@ -10466,7 +10466,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10475,7 +10475,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessage {
 	Value: *string,
@@ -10500,7 +10500,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10509,10 +10509,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStruct {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessage,
 	Variations: interface{},
 }
 ```
@@ -10536,7 +10536,7 @@ Message LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecif
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -10550,7 +10550,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -10559,13 +10559,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessage,
 }
 ```
 
@@ -10590,7 +10590,7 @@ CustomPayload LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinue
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -10604,7 +10604,7 @@ ImageResponseCard LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndCont
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -10618,7 +10618,7 @@ PlainTextMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndConti
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -10632,7 +10632,7 @@ SsmlMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSp
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -10641,7 +10641,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayload {
 	Value: *string,
@@ -10666,7 +10666,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10675,7 +10675,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCard {
 	Buttons: interface{},
@@ -10706,7 +10706,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -10720,7 +10720,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -10734,7 +10734,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -10748,7 +10748,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -10757,7 +10757,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtons {
 	Text: *string,
@@ -10784,7 +10784,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -10798,7 +10798,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10807,7 +10807,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessage {
 	Value: *string,
@@ -10832,7 +10832,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10841,7 +10841,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessage {
 	Value: *string,
@@ -10866,7 +10866,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -10875,7 +10875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponse {
 	AllowInterrupt: interface{},
@@ -10906,7 +10906,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -10920,7 +10920,7 @@ FrequencyInSeconds *f64
 
 How often a message should be sent to the user in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#frequency_in_seconds LexBot#frequency_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#frequency_in_seconds LexBot#frequency_in_seconds}
 
 ---
 
@@ -10936,7 +10936,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -10950,7 +10950,7 @@ TimeoutInSeconds *f64
 
 If Amazon Lex waits longer than this length of time in seconds for a response, it will stop sending messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#timeout_in_seconds LexBot#timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#timeout_in_seconds LexBot#timeout_in_seconds}
 
 ---
 
@@ -10959,13 +10959,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessage,
 }
 ```
 
@@ -10990,7 +10990,7 @@ CustomPayload LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinue
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -11004,7 +11004,7 @@ ImageResponseCard LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndCont
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -11018,7 +11018,7 @@ PlainTextMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndConti
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -11032,7 +11032,7 @@ SsmlMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSp
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -11041,7 +11041,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayload {
 	Value: *string,
@@ -11066,7 +11066,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11075,7 +11075,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCard {
 	Buttons: interface{},
@@ -11106,7 +11106,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -11120,7 +11120,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -11134,7 +11134,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -11148,7 +11148,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -11157,7 +11157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtons {
 	Text: *string,
@@ -11184,7 +11184,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -11198,7 +11198,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11207,7 +11207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessage {
 	Value: *string,
@@ -11232,7 +11232,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11241,7 +11241,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessage {
 	Value: *string,
@@ -11266,7 +11266,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11275,10 +11275,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStruct {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessage,
 	Variations: interface{},
 }
 ```
@@ -11302,7 +11302,7 @@ Message LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecif
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -11316,7 +11316,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -11325,13 +11325,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessage,
 }
 ```
 
@@ -11356,7 +11356,7 @@ CustomPayload LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinue
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -11370,7 +11370,7 @@ ImageResponseCard LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndCont
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -11384,7 +11384,7 @@ PlainTextMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndConti
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -11398,7 +11398,7 @@ SsmlMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSp
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -11407,7 +11407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayload {
 	Value: *string,
@@ -11432,7 +11432,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11441,7 +11441,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCard {
 	Buttons: interface{},
@@ -11472,7 +11472,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -11486,7 +11486,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -11500,7 +11500,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -11514,7 +11514,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -11523,7 +11523,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtons {
 	Text: *string,
@@ -11550,7 +11550,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -11564,7 +11564,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11573,7 +11573,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessage {
 	Value: *string,
@@ -11598,7 +11598,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11607,7 +11607,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessage {
 	Value: *string,
@@ -11632,7 +11632,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11641,7 +11641,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponse {
 	AllowInterrupt: interface{},
@@ -11668,7 +11668,7 @@ AllowInterrupt interface{}
 
 Indicates whether the user can interrupt a speech prompt from the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#allow_interrupt LexBot#allow_interrupt}
 
 ---
 
@@ -11684,7 +11684,7 @@ One to 5 message groups that contain update messages.
 
 Amazon Lex chooses one of the messages to play to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message_groups_list LexBot#message_groups_list}
 
 ---
 
@@ -11693,13 +11693,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessage {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessage,
 }
 ```
 
@@ -11724,7 +11724,7 @@ CustomPayload LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinue
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -11738,7 +11738,7 @@ ImageResponseCard LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndCont
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -11752,7 +11752,7 @@ PlainTextMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndConti
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -11766,7 +11766,7 @@ SsmlMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSp
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -11775,7 +11775,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayload {
 	Value: *string,
@@ -11800,7 +11800,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11809,7 +11809,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCard {
 	Buttons: interface{},
@@ -11840,7 +11840,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -11854,7 +11854,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -11868,7 +11868,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -11882,7 +11882,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -11891,7 +11891,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtons {
 	Text: *string,
@@ -11918,7 +11918,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -11932,7 +11932,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11941,7 +11941,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessage {
 	Value: *string,
@@ -11966,7 +11966,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -11975,7 +11975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessage {
 	Value: *string,
@@ -12000,7 +12000,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -12009,10 +12009,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStruct {
-	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessage,
+	Message: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessage,
 	Variations: interface{},
 }
 ```
@@ -12036,7 +12036,7 @@ Message LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecif
 
 The primary message that Amazon Lex should send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#message LexBot#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#message LexBot#message}
 
 ---
 
@@ -12050,7 +12050,7 @@ Variations interface{}
 
 Message variations to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#variations LexBot#variations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#variations LexBot#variations}
 
 ---
 
@@ -12059,13 +12059,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariations {
-	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayload,
-	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCard,
-	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessage,
-	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessage,
+	CustomPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayload,
+	ImageResponseCard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCard,
+	PlainTextMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessage,
+	SsmlMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessage,
 }
 ```
 
@@ -12090,7 +12090,7 @@ CustomPayload LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinue
 
 A message in a custom format defined by the client application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#custom_payload LexBot#custom_payload}
 
 ---
 
@@ -12104,7 +12104,7 @@ ImageResponseCard LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndCont
 
 A message that defines a response card that the client application can show to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_response_card LexBot#image_response_card}
 
 ---
 
@@ -12118,7 +12118,7 @@ PlainTextMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndConti
 
 A message in plain text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#plain_text_message LexBot#plain_text_message}
 
 ---
 
@@ -12132,7 +12132,7 @@ SsmlMessage LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSp
 
 A message in Speech Synthesis Markup Language (SSML).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#ssml_message LexBot#ssml_message}
 
 ---
 
@@ -12141,7 +12141,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayload {
 	Value: *string,
@@ -12166,7 +12166,7 @@ Value *string
 
 The string that is sent to your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -12175,7 +12175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCard {
 	Buttons: interface{},
@@ -12206,7 +12206,7 @@ Buttons interface{}
 
 A list of buttons that should be displayed on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#buttons LexBot#buttons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#buttons LexBot#buttons}
 
 ---
 
@@ -12220,7 +12220,7 @@ ImageUrl *string
 
 The URL of an image to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#image_url LexBot#image_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#image_url LexBot#image_url}
 
 ---
 
@@ -12234,7 +12234,7 @@ Subtitle *string
 
 The subtitle to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#subtitle LexBot#subtitle}
 
 ---
 
@@ -12248,7 +12248,7 @@ Title *string
 
 The title to display on the response card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#title LexBot#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#title LexBot#title}
 
 ---
 
@@ -12257,7 +12257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtons {
 	Text: *string,
@@ -12284,7 +12284,7 @@ Text *string
 
 The text that appears on the button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text LexBot#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text LexBot#text}
 
 ---
 
@@ -12298,7 +12298,7 @@ Value *string
 
 The value returned to Amazon Lex when the user chooses this button.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -12307,7 +12307,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessage {
 	Value: *string,
@@ -12332,7 +12332,7 @@ Value *string
 
 The message to send to the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -12341,7 +12341,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessage {
 	Value: *string,
@@ -12366,7 +12366,7 @@ Value *string
 
 The SSML text that defines the prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -12375,15 +12375,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesSlotTypes {
 	Description: *string,
-	ExternalSourceSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesSlotTypesExternalSourceSetting,
+	ExternalSourceSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesSlotTypesExternalSourceSetting,
 	Name: *string,
 	ParentSlotTypeSignature: *string,
 	SlotTypeValues: interface{},
-	ValueSelectionSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSetting,
+	ValueSelectionSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesSlotTypesValueSelectionSetting,
 }
 ```
 
@@ -12410,7 +12410,7 @@ Description *string
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -12424,7 +12424,7 @@ ExternalSourceSetting LexBotBotLocalesSlotTypesExternalSourceSetting
 
 Provides information about the external source of the slot type's definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#external_source_setting LexBot#external_source_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#external_source_setting LexBot#external_source_setting}
 
 ---
 
@@ -12438,7 +12438,7 @@ Name *string
 
 Unique name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -12452,7 +12452,7 @@ ParentSlotTypeSignature *string
 
 The built-in slot type used as a parent of this slot type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#parent_slot_type_signature LexBot#parent_slot_type_signature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#parent_slot_type_signature LexBot#parent_slot_type_signature}
 
 ---
 
@@ -12466,7 +12466,7 @@ SlotTypeValues interface{}
 
 A List of slot type values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#slot_type_values LexBot#slot_type_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#slot_type_values LexBot#slot_type_values}
 
 ---
 
@@ -12480,7 +12480,7 @@ ValueSelectionSetting LexBotBotLocalesSlotTypesValueSelectionSetting
 
 Contains settings used by Amazon Lex to select a slot value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value_selection_setting LexBot#value_selection_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value_selection_setting LexBot#value_selection_setting}
 
 ---
 
@@ -12489,10 +12489,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesExternalSourceSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesSlotTypesExternalSourceSetting {
-	GrammarSlotTypeSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSetting,
+	GrammarSlotTypeSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSetting,
 }
 ```
 
@@ -12514,7 +12514,7 @@ GrammarSlotTypeSetting LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlot
 
 Settings required for a slot type based on a grammar that you provide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#grammar_slot_type_setting LexBot#grammar_slot_type_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#grammar_slot_type_setting LexBot#grammar_slot_type_setting}
 
 ---
 
@@ -12523,10 +12523,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSetting {
-	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSource,
+	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSource,
 }
 ```
 
@@ -12548,7 +12548,7 @@ Source LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSourc
 
 Describes the Amazon S3 bucket name and location for the grammar that is the source for the slot type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#source LexBot#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#source LexBot#source}
 
 ---
 
@@ -12557,7 +12557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSource {
 	KmsKeyArn: *string,
@@ -12586,7 +12586,7 @@ KmsKeyArn *string
 
 The Amazon KMS key required to decrypt the contents of the grammar, if any.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#kms_key_arn LexBot#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#kms_key_arn LexBot#kms_key_arn}
 
 ---
 
@@ -12600,7 +12600,7 @@ S3BucketName *string
 
 The name of the S3 bucket that contains the grammar source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#s3_bucket_name LexBot#s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#s3_bucket_name LexBot#s3_bucket_name}
 
 ---
 
@@ -12614,7 +12614,7 @@ S3ObjectKey *string
 
 The path to the grammar in the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#s3_object_key LexBot#s3_object_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#s3_object_key LexBot#s3_object_key}
 
 ---
 
@@ -12623,10 +12623,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesSlotTypeValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesSlotTypesSlotTypeValues {
-	SampleValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesSlotTypesSlotTypeValuesSampleValue,
+	SampleValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesSlotTypesSlotTypeValuesSampleValue,
 	Synonyms: interface{},
 }
 ```
@@ -12650,7 +12650,7 @@ SampleValue LexBotBotLocalesSlotTypesSlotTypeValuesSampleValue
 
 Defines one of the values for a slot type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#sample_value LexBot#sample_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#sample_value LexBot#sample_value}
 
 ---
 
@@ -12664,7 +12664,7 @@ Synonyms interface{}
 
 Additional values related to the slot type entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#synonyms LexBot#synonyms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#synonyms LexBot#synonyms}
 
 ---
 
@@ -12673,7 +12673,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesSlotTypeValuesSampleValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesSlotTypesSlotTypeValuesSampleValue {
 	Value: *string,
@@ -12698,7 +12698,7 @@ Value *string
 
 The value that can be used for a slot type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -12707,7 +12707,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesSlotTypeValuesSynonyms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesSlotTypesSlotTypeValuesSynonyms {
 	Value: *string,
@@ -12732,7 +12732,7 @@ Value *string
 
 The value that can be used for a slot type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -12741,11 +12741,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesSlotTypesValueSelectionSetting {
-	AdvancedRecognitionSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSetting,
-	RegexFilter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilter,
+	AdvancedRecognitionSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSetting,
+	RegexFilter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilter,
 	ResolutionStrategy: *string,
 }
 ```
@@ -12756,7 +12756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSetting.property.advancedRecognitionSetting">AdvancedRecognitionSetting</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSetting">LexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSetting</a></code> | Provides settings that enable advanced recognition settings for slot values. |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSetting.property.regexFilter">RegexFilter</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilter">LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilter</a></code> | A regular expression used to validate the value of a slot. |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSetting.property.resolutionStrategy">ResolutionStrategy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#resolution_strategy LexBot#resolution_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSetting.property.resolutionStrategy">ResolutionStrategy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#resolution_strategy LexBot#resolution_strategy}. |
 
 ---
 
@@ -12770,7 +12770,7 @@ AdvancedRecognitionSetting LexBotBotLocalesSlotTypesValueSelectionSettingAdvance
 
 Provides settings that enable advanced recognition settings for slot values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#advanced_recognition_setting LexBot#advanced_recognition_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#advanced_recognition_setting LexBot#advanced_recognition_setting}
 
 ---
 
@@ -12784,7 +12784,7 @@ RegexFilter LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilter
 
 A regular expression used to validate the value of a slot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#regex_filter LexBot#regex_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#regex_filter LexBot#regex_filter}
 
 ---
 
@@ -12796,7 +12796,7 @@ ResolutionStrategy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#resolution_strategy LexBot#resolution_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#resolution_strategy LexBot#resolution_strategy}.
 
 ---
 
@@ -12805,7 +12805,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSetting {
 	AudioRecognitionStrategy: *string,
@@ -12830,7 +12830,7 @@ AudioRecognitionStrategy *string
 
 Enables using slot values as a custom vocabulary when recognizing user utterances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#audio_recognition_strategy LexBot#audio_recognition_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#audio_recognition_strategy LexBot#audio_recognition_strategy}
 
 ---
 
@@ -12839,7 +12839,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilter {
 	Pattern: *string,
@@ -12864,7 +12864,7 @@ Pattern *string
 
 Regex pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#pattern LexBot#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#pattern LexBot#pattern}
 
 ---
 
@@ -12873,7 +12873,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesVoiceSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotLocalesVoiceSettings {
 	Engine: *string,
@@ -12902,7 +12902,7 @@ Indicates the type of Amazon Polly voice that Amazon Lex should use for voice in
 
 For more information, see the engine parameter of the SynthesizeSpeech operation in the Amazon Polly developer guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#engine LexBot#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#engine LexBot#engine}
 
 ---
 
@@ -12916,7 +12916,7 @@ VoiceId *string
 
 The Amazon Polly voice ID that Amazon Lex uses for voice interaction with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#voice_id LexBot#voice_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#voice_id LexBot#voice_id}
 
 ---
 
@@ -12925,7 +12925,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotBotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotBotTags {
 	Key: *string,
@@ -12954,7 +12954,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#key LexBot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#key LexBot#key}
 
 ---
 
@@ -12970,7 +12970,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -12979,7 +12979,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotConfig {
 	Connection: interface{},
@@ -12989,16 +12989,16 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	DataPrivacy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotDataPrivacy,
+	DataPrivacy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotDataPrivacy,
 	IdleSessionTtlInSeconds: *f64,
 	Name: *string,
 	RoleArn: *string,
 	AutoBuildBotLocales: interface{},
-	BotFileS3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotBotFileS3Location,
+	BotFileS3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotBotFileS3Location,
 	BotLocales: interface{},
 	BotTags: interface{},
 	Description: *string,
-	TestBotAliasSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotTestBotAliasSettings,
+	TestBotAliasSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotTestBotAliasSettings,
 	TestBotAliasTags: interface{},
 }
 ```
@@ -13108,7 +13108,7 @@ DataPrivacy LexBotDataPrivacy
 
 Data privacy setting of the Bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#data_privacy LexBot#data_privacy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#data_privacy LexBot#data_privacy}
 
 ---
 
@@ -13122,7 +13122,7 @@ IdleSessionTtlInSeconds *f64
 
 IdleSessionTTLInSeconds of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#idle_session_ttl_in_seconds LexBot#idle_session_ttl_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#idle_session_ttl_in_seconds LexBot#idle_session_ttl_in_seconds}
 
 ---
 
@@ -13136,7 +13136,7 @@ Name *string
 
 Unique name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#name LexBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#name LexBot#name}
 
 ---
 
@@ -13150,7 +13150,7 @@ RoleArn *string
 
 The Amazon Resource Name (ARN) of an IAM role that has permission to access the bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#role_arn LexBot#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#role_arn LexBot#role_arn}
 
 ---
 
@@ -13164,7 +13164,7 @@ AutoBuildBotLocales interface{}
 
 Specifies whether to build the bot locales after bot creation completes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#auto_build_bot_locales LexBot#auto_build_bot_locales}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#auto_build_bot_locales LexBot#auto_build_bot_locales}
 
 ---
 
@@ -13178,7 +13178,7 @@ BotFileS3Location LexBotBotFileS3Location
 
 S3 location of bot definitions zip file, if it's not defined inline in CloudFormation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#bot_file_s3_location LexBot#bot_file_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#bot_file_s3_location LexBot#bot_file_s3_location}
 
 ---
 
@@ -13192,7 +13192,7 @@ BotLocales interface{}
 
 List of bot locales.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#bot_locales LexBot#bot_locales}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#bot_locales LexBot#bot_locales}
 
 ---
 
@@ -13206,7 +13206,7 @@ BotTags interface{}
 
 A list of tags to add to the bot, which can only be added at bot creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#bot_tags LexBot#bot_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#bot_tags LexBot#bot_tags}
 
 ---
 
@@ -13220,7 +13220,7 @@ Description *string
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -13234,7 +13234,7 @@ TestBotAliasSettings LexBotTestBotAliasSettings
 
 Configuring the test bot alias settings for a given bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#test_bot_alias_settings LexBot#test_bot_alias_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#test_bot_alias_settings LexBot#test_bot_alias_settings}
 
 ---
 
@@ -13248,7 +13248,7 @@ TestBotAliasTags interface{}
 
 A list of tags to add to the test alias for a bot, , which can only be added at bot/bot alias creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#test_bot_alias_tags LexBot#test_bot_alias_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#test_bot_alias_tags LexBot#test_bot_alias_tags}
 
 ---
 
@@ -13257,7 +13257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotDataPrivacy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotDataPrivacy {
 	ChildDirected: interface{},
@@ -13268,7 +13268,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotDataPrivacy.property.childDirected">ChildDirected</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#child_directed LexBot#child_directed}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotDataPrivacy.property.childDirected">ChildDirected</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#child_directed LexBot#child_directed}. |
 
 ---
 
@@ -13280,7 +13280,7 @@ ChildDirected interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#child_directed LexBot#child_directed}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#child_directed LexBot#child_directed}.
 
 ---
 
@@ -13289,13 +13289,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettings {
 	BotAliasLocaleSettings: interface{},
-	ConversationLogSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettings,
+	ConversationLogSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotTestBotAliasSettingsConversationLogSettings,
 	Description: *string,
-	SentimentAnalysisSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotTestBotAliasSettingsSentimentAnalysisSettings,
+	SentimentAnalysisSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotTestBotAliasSettingsSentimentAnalysisSettings,
 }
 ```
 
@@ -13320,7 +13320,7 @@ BotAliasLocaleSettings interface{}
 
 A list of bot alias locale settings to add to the bot alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#bot_alias_locale_settings LexBot#bot_alias_locale_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#bot_alias_locale_settings LexBot#bot_alias_locale_settings}
 
 ---
 
@@ -13334,7 +13334,7 @@ ConversationLogSettings LexBotTestBotAliasSettingsConversationLogSettings
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#conversation_log_settings LexBot#conversation_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#conversation_log_settings LexBot#conversation_log_settings}
 
 ---
 
@@ -13348,7 +13348,7 @@ Description *string
 
 A description of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#description LexBot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#description LexBot#description}
 
 ---
 
@@ -13362,7 +13362,7 @@ SentimentAnalysisSettings LexBotTestBotAliasSettingsSentimentAnalysisSettings
 
 Determines whether Amazon Lex will use Amazon Comprehend to detect the sentiment of user utterances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#sentiment_analysis_settings LexBot#sentiment_analysis_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#sentiment_analysis_settings LexBot#sentiment_analysis_settings}
 
 ---
 
@@ -13371,10 +13371,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsBotAliasLocaleSettings {
-	BotAliasLocaleSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSetting,
+	BotAliasLocaleSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSetting,
 	LocaleId: *string,
 }
 ```
@@ -13398,7 +13398,7 @@ BotAliasLocaleSetting LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLo
 
 You can use this parameter to specify a specific Lambda function to run different functions in different locales.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#bot_alias_locale_setting LexBot#bot_alias_locale_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#bot_alias_locale_setting LexBot#bot_alias_locale_setting}
 
 ---
 
@@ -13412,7 +13412,7 @@ LocaleId *string
 
 A string used to identify the locale.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#locale_id LexBot#locale_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#locale_id LexBot#locale_id}
 
 ---
 
@@ -13421,10 +13421,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSetting {
-	CodeHookSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification,
+	CodeHookSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification,
 	Enabled: interface{},
 }
 ```
@@ -13448,7 +13448,7 @@ CodeHookSpecification LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLo
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#code_hook_specification LexBot#code_hook_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#code_hook_specification LexBot#code_hook_specification}
 
 ---
 
@@ -13462,7 +13462,7 @@ Enabled interface{}
 
 Whether the Lambda code hook is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#enabled LexBot#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#enabled LexBot#enabled}
 
 ---
 
@@ -13471,10 +13471,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification {
-	LambdaCodeHook: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook,
+	LambdaCodeHook: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook,
 }
 ```
 
@@ -13496,7 +13496,7 @@ LambdaCodeHook LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSet
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#lambda_code_hook LexBot#lambda_code_hook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#lambda_code_hook LexBot#lambda_code_hook}
 
 ---
 
@@ -13505,7 +13505,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook {
 	CodeHookInterfaceVersion: *string,
@@ -13532,7 +13532,7 @@ CodeHookInterfaceVersion *string
 
 The version of the request-response that you want Amazon Lex to use to invoke your Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#code_hook_interface_version LexBot#code_hook_interface_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#code_hook_interface_version LexBot#code_hook_interface_version}
 
 ---
 
@@ -13546,7 +13546,7 @@ LambdaArn *string
 
 The Amazon Resource Name (ARN) of the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#lambda_arn LexBot#lambda_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#lambda_arn LexBot#lambda_arn}
 
 ---
 
@@ -13555,7 +13555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsConversationLogSettings {
 	AudioLogSettings: interface{},
@@ -13582,7 +13582,7 @@ AudioLogSettings interface{}
 
 List of audio log settings that pertain to the conversation log settings for the bot's TestBotAlias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#audio_log_settings LexBot#audio_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#audio_log_settings LexBot#audio_log_settings}
 
 ---
 
@@ -13596,7 +13596,7 @@ TextLogSettings interface{}
 
 List of text log settings that pertain to the conversation log settings for the bot's TestBotAlias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#text_log_settings LexBot#text_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#text_log_settings LexBot#text_log_settings}
 
 ---
 
@@ -13605,10 +13605,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettings {
-	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestination,
+	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestination,
 	Enabled: interface{},
 }
 ```
@@ -13618,7 +13618,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettings.property.destination">Destination</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestination">LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestination</a></code> | The location of audio log files collected when conversation logging is enabled for a bot. |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettings.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettings.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
 
 ---
 
@@ -13632,7 +13632,7 @@ Destination LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDes
 
 The location of audio log files collected when conversation logging is enabled for a bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#destination LexBot#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#destination LexBot#destination}
 
 ---
 
@@ -13644,7 +13644,7 @@ Enabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#enabled LexBot#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#enabled LexBot#enabled}.
 
 ---
 
@@ -13653,10 +13653,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestination {
-	S3Bucket: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3Bucket,
+	S3Bucket: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3Bucket,
 }
 ```
 
@@ -13678,7 +13678,7 @@ S3Bucket LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestin
 
 Specifies an Amazon S3 bucket for logging audio conversations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#s3_bucket LexBot#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#s3_bucket LexBot#s3_bucket}
 
 ---
 
@@ -13687,7 +13687,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3Bucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3Bucket {
 	KmsKeyArn: *string,
@@ -13716,7 +13716,7 @@ KmsKeyArn *string
 
 The Amazon Resource Name (ARN) of an AWS Key Management Service (KMS) key for encrypting audio log files stored in an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#kms_key_arn LexBot#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#kms_key_arn LexBot#kms_key_arn}
 
 ---
 
@@ -13730,7 +13730,7 @@ LogPrefix *string
 
 The Amazon S3 key of the deployment package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#log_prefix LexBot#log_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#log_prefix LexBot#log_prefix}
 
 ---
 
@@ -13744,7 +13744,7 @@ S3BucketArn *string
 
 The Amazon Resource Name (ARN) of an Amazon S3 bucket where audio log files are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#s3_bucket_arn LexBot#s3_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#s3_bucket_arn LexBot#s3_bucket_arn}
 
 ---
 
@@ -13753,10 +13753,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettings {
-	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination,
+	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination,
 	Enabled: interface{},
 }
 ```
@@ -13766,7 +13766,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettings.property.destination">Destination</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination">LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination</a></code> | Defines the Amazon CloudWatch Logs destination log group for conversation text logs. |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettings.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettings.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#enabled LexBot#enabled}. |
 
 ---
 
@@ -13780,7 +13780,7 @@ Destination LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDest
 
 Defines the Amazon CloudWatch Logs destination log group for conversation text logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#destination LexBot#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#destination LexBot#destination}
 
 ---
 
@@ -13792,7 +13792,7 @@ Enabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#enabled LexBot#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#enabled LexBot#enabled}.
 
 ---
 
@@ -13801,10 +13801,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination {
-	Cloudwatch: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch,
+	Cloudwatch: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch,
 }
 ```
 
@@ -13812,7 +13812,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination.property.cloudwatch">Cloudwatch</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#cloudwatch LexBot#cloudwatch}. |
+| <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination.property.cloudwatch">Cloudwatch</a></code> | <code><a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#cloudwatch LexBot#cloudwatch}. |
 
 ---
 
@@ -13824,7 +13824,7 @@ Cloudwatch LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDesti
 
 - *Type:* <a href="#@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#cloudwatch LexBot#cloudwatch}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#cloudwatch LexBot#cloudwatch}.
 
 ---
 
@@ -13833,7 +13833,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch {
 	CloudwatchLogGroupArn: *string,
@@ -13860,7 +13860,7 @@ CloudwatchLogGroupArn *string
 
 A string used to identify the groupArn for the Cloudwatch Log Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#cloudwatch_log_group_arn LexBot#cloudwatch_log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#cloudwatch_log_group_arn LexBot#cloudwatch_log_group_arn}
 
 ---
 
@@ -13874,7 +13874,7 @@ LogPrefix *string
 
 A string containing the value for the Log Prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#log_prefix LexBot#log_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#log_prefix LexBot#log_prefix}
 
 ---
 
@@ -13883,7 +13883,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsSentimentAnalysisSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasSettingsSentimentAnalysisSettings {
 	DetectSentiment: interface{},
@@ -13908,7 +13908,7 @@ DetectSentiment interface{}
 
 Enable to call Amazon Comprehend for Sentiment natively within Lex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#detect_sentiment LexBot#detect_sentiment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#detect_sentiment LexBot#detect_sentiment}
 
 ---
 
@@ -13917,7 +13917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 &lexbot.LexBotTestBotAliasTags {
 	Key: *string,
@@ -13946,7 +13946,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#key LexBot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#key LexBot#key}
 
 ---
 
@@ -13962,7 +13962,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot#value LexBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot#value LexBot#value}
 
 ---
 
@@ -13973,7 +13973,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotFileS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotFileS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotFileS3LocationOutputReference
 ```
@@ -14309,7 +14309,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabularyCustomVocabularyItemsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesCustomVocabularyCustomVocabularyItemsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesCustomVocabularyCustomVocabularyItemsList
 ```
@@ -14469,7 +14469,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabularyCustomVocabularyItemsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesCustomVocabularyCustomVocabularyItemsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesCustomVocabularyCustomVocabularyItemsOutputReference
 ```
@@ -14794,7 +14794,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesCustomVocabularyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesCustomVocabularyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesCustomVocabularyOutputReference
 ```
@@ -15085,7 +15085,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsDialogCodeHookOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsDialogCodeHookOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsDialogCodeHookOutputReference
 ```
@@ -15363,7 +15363,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationOutputReference
 ```
@@ -15754,7 +15754,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsList
 ```
@@ -15914,7 +15914,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayloadOutputReference
 ```
@@ -16192,7 +16192,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsList
 ```
@@ -16352,7 +16352,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsOutputReference
 ```
@@ -16677,7 +16677,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardOutputReference
 ```
@@ -17055,7 +17055,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageOutputReference
 ```
@@ -17472,7 +17472,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessageOutputReference
 ```
@@ -17750,7 +17750,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessageOutputReference
 ```
@@ -18028,7 +18028,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsOutputReference
 ```
@@ -18379,7 +18379,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayloadOutputReference
 ```
@@ -18657,7 +18657,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsList
 ```
@@ -18817,7 +18817,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference
 ```
@@ -19142,7 +19142,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardOutputReference
 ```
@@ -19520,7 +19520,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsList
 ```
@@ -19680,7 +19680,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsOutputReference
 ```
@@ -20115,7 +20115,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessageOutputReference
 ```
@@ -20393,7 +20393,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessageOutputReference
 ```
@@ -20671,7 +20671,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseOutputReference
 ```
@@ -21020,7 +21020,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsList
 ```
@@ -21180,7 +21180,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayloadOutputReference
 ```
@@ -21458,7 +21458,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsList
 ```
@@ -21618,7 +21618,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsOutputReference
 ```
@@ -21943,7 +21943,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardOutputReference
 ```
@@ -22321,7 +22321,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageOutputReference
 ```
@@ -22738,7 +22738,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessageOutputReference
 ```
@@ -23016,7 +23016,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessageOutputReference
 ```
@@ -23294,7 +23294,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsOutputReference
 ```
@@ -23645,7 +23645,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayloadOutputReference
 ```
@@ -23923,7 +23923,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsList
 ```
@@ -24083,7 +24083,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference
 ```
@@ -24408,7 +24408,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardOutputReference
 ```
@@ -24786,7 +24786,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsList
 ```
@@ -24946,7 +24946,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsOutputReference
 ```
@@ -25381,7 +25381,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessageOutputReference
 ```
@@ -25659,7 +25659,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessageOutputReference
 ```
@@ -25937,7 +25937,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseOutputReference
 ```
@@ -26286,7 +26286,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookOutputReference
 ```
@@ -26648,7 +26648,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -26926,7 +26926,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -27086,7 +27086,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -27411,7 +27411,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -27789,7 +27789,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageOutputReference
 ```
@@ -28206,7 +28206,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -28484,7 +28484,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -28762,7 +28762,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructList
 ```
@@ -28922,7 +28922,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructOutputReference
 ```
@@ -29273,7 +29273,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -29551,7 +29551,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -29711,7 +29711,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -30036,7 +30036,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -30414,7 +30414,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsList
 ```
@@ -30574,7 +30574,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsOutputReference
 ```
@@ -31009,7 +31009,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -31287,7 +31287,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -31565,7 +31565,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseOutputReference
 ```
@@ -31885,7 +31885,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationOutputReference
 ```
@@ -32260,7 +32260,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -32538,7 +32538,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -32698,7 +32698,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -33023,7 +33023,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -33401,7 +33401,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageOutputReference
 ```
@@ -33818,7 +33818,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -34096,7 +34096,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -34374,7 +34374,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructList
 ```
@@ -34534,7 +34534,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructOutputReference
 ```
@@ -34885,7 +34885,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -35163,7 +35163,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -35323,7 +35323,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -35648,7 +35648,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -36026,7 +36026,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsList
 ```
@@ -36186,7 +36186,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsOutputReference
 ```
@@ -36621,7 +36621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -36899,7 +36899,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -37177,7 +37177,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseOutputReference
 ```
@@ -37497,7 +37497,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -37775,7 +37775,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -37935,7 +37935,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -38260,7 +38260,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -38638,7 +38638,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageOutputReference
 ```
@@ -39055,7 +39055,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -39333,7 +39333,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -39611,7 +39611,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructList
 ```
@@ -39771,7 +39771,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructOutputReference
 ```
@@ -40122,7 +40122,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -40400,7 +40400,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -40560,7 +40560,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -40885,7 +40885,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -41263,7 +41263,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsList
 ```
@@ -41423,7 +41423,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsOutputReference
 ```
@@ -41858,7 +41858,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -42136,7 +42136,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -42414,7 +42414,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseOutputReference
 ```
@@ -42734,7 +42734,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsInputContextsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsInputContextsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsInputContextsList
 ```
@@ -42894,7 +42894,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsInputContextsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsInputContextsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsInputContextsOutputReference
 ```
@@ -43190,7 +43190,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -43468,7 +43468,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -43628,7 +43628,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -43953,7 +43953,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -44331,7 +44331,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageOutputReference
 ```
@@ -44748,7 +44748,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -45026,7 +45026,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -45304,7 +45304,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructList
 ```
@@ -45464,7 +45464,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructOutputReference
 ```
@@ -45815,7 +45815,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -46093,7 +46093,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -46253,7 +46253,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -46578,7 +46578,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -46956,7 +46956,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsList
 ```
@@ -47116,7 +47116,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsOutputReference
 ```
@@ -47551,7 +47551,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -47829,7 +47829,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -48107,7 +48107,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingClosingResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingClosingResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentClosingSettingClosingResponseOutputReference
 ```
@@ -48427,7 +48427,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentClosingSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentClosingSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentClosingSettingOutputReference
 ```
@@ -48747,7 +48747,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -49025,7 +49025,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -49185,7 +49185,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -49510,7 +49510,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -49888,7 +49888,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageOutputReference
 ```
@@ -50305,7 +50305,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -50583,7 +50583,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -50861,7 +50861,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructList
 ```
@@ -51021,7 +51021,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference
 ```
@@ -51372,7 +51372,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -51650,7 +51650,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -51810,7 +51810,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -52135,7 +52135,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -52513,7 +52513,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsList
 ```
@@ -52673,7 +52673,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsOutputReference
 ```
@@ -53108,7 +53108,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -53386,7 +53386,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -53664,7 +53664,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseOutputReference
 ```
@@ -53984,7 +53984,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingOutputReference
 ```
@@ -54346,7 +54346,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -54624,7 +54624,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -54784,7 +54784,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -55109,7 +55109,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -55487,7 +55487,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageOutputReference
 ```
@@ -55904,7 +55904,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -56182,7 +56182,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -56460,7 +56460,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructList
 ```
@@ -56620,7 +56620,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructOutputReference
 ```
@@ -56971,7 +56971,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -57249,7 +57249,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -57409,7 +57409,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -57734,7 +57734,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -58112,7 +58112,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsList
 ```
@@ -58272,7 +58272,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsOutputReference
 ```
@@ -58707,7 +58707,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -58985,7 +58985,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -59263,7 +59263,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationOutputReference
 ```
@@ -59683,7 +59683,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference
 ```
@@ -59990,7 +59990,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference
 ```
@@ -60297,7 +60297,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference
 ```
@@ -60662,7 +60662,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference
 ```
@@ -61024,7 +61024,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationMap(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationMap
 ```
@@ -61171,7 +61171,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference
 ```
@@ -61584,7 +61584,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference
 ```
@@ -61862,7 +61862,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsKendraConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsKendraConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsKendraConfigurationOutputReference
 ```
@@ -62198,7 +62198,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsList
 ```
@@ -62358,7 +62358,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsOutputContextsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsOutputContextsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsOutputContextsList
 ```
@@ -62518,7 +62518,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsOutputContextsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsOutputContextsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsOutputContextsOutputReference
 ```
@@ -62872,7 +62872,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsOutputReference
 ```
@@ -63646,7 +63646,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSampleUtterancesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSampleUtterancesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSampleUtterancesList
 ```
@@ -63806,7 +63806,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSampleUtterancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSampleUtterancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSampleUtterancesOutputReference
 ```
@@ -64102,7 +64102,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotPrioritiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotPrioritiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotPrioritiesList
 ```
@@ -64262,7 +64262,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotPrioritiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotPrioritiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotPrioritiesOutputReference
 ```
@@ -64587,7 +64587,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsList
 ```
@@ -64747,7 +64747,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsMultipleValuesSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsMultipleValuesSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsMultipleValuesSettingOutputReference
 ```
@@ -65025,7 +65025,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsObfuscationSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsObfuscationSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsObfuscationSettingOutputReference
 ```
@@ -65303,7 +65303,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsOutputReference
 ```
@@ -65783,7 +65783,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructList
 ```
@@ -65943,7 +65943,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructOutputReference
 ```
@@ -66239,7 +66239,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationOutputReference
 ```
@@ -66530,7 +66530,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingOutputReference
 ```
@@ -66976,7 +66976,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -67254,7 +67254,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -67414,7 +67414,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -67739,7 +67739,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -68117,7 +68117,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageOutputReference
 ```
@@ -68534,7 +68534,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -68812,7 +68812,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -69090,7 +69090,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructList
 ```
@@ -69250,7 +69250,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructOutputReference
 ```
@@ -69601,7 +69601,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -69879,7 +69879,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -70039,7 +70039,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -70364,7 +70364,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -70742,7 +70742,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsList
 ```
@@ -70902,7 +70902,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsOutputReference
 ```
@@ -71337,7 +71337,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -71615,7 +71615,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -71893,7 +71893,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationOutputReference
 ```
@@ -72313,7 +72313,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference
 ```
@@ -72620,7 +72620,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference
 ```
@@ -72927,7 +72927,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference
 ```
@@ -73292,7 +73292,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference
 ```
@@ -73654,7 +73654,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationMap(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationMap
 ```
@@ -73801,7 +73801,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference
 ```
@@ -74214,7 +74214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference
 ```
@@ -74492,7 +74492,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesList
 ```
@@ -74652,7 +74652,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesOutputReference
 ```
@@ -74948,7 +74948,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -75226,7 +75226,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -75386,7 +75386,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -75711,7 +75711,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -76089,7 +76089,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageOutputReference
 ```
@@ -76506,7 +76506,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -76784,7 +76784,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -77062,7 +77062,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructList
 ```
@@ -77222,7 +77222,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructOutputReference
 ```
@@ -77573,7 +77573,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -77851,7 +77851,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -78011,7 +78011,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -78336,7 +78336,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -78714,7 +78714,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsList
 ```
@@ -78874,7 +78874,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsOutputReference
 ```
@@ -79309,7 +79309,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -79587,7 +79587,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -79865,7 +79865,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseOutputReference
 ```
@@ -80185,7 +80185,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationOutputReference
 ```
@@ -80589,7 +80589,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -80867,7 +80867,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -81027,7 +81027,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -81352,7 +81352,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -81730,7 +81730,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageOutputReference
 ```
@@ -82147,7 +82147,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -82425,7 +82425,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -82703,7 +82703,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructList
 ```
@@ -82863,7 +82863,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructOutputReference
 ```
@@ -83214,7 +83214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -83492,7 +83492,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -83652,7 +83652,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -83977,7 +83977,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -84355,7 +84355,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsList
 ```
@@ -84515,7 +84515,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsOutputReference
 ```
@@ -84950,7 +84950,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -85228,7 +85228,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -85506,7 +85506,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseOutputReference
 ```
@@ -85884,7 +85884,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -86162,7 +86162,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -86322,7 +86322,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -86647,7 +86647,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -87025,7 +87025,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageOutputReference
 ```
@@ -87442,7 +87442,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -87720,7 +87720,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -87998,7 +87998,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructList
 ```
@@ -88158,7 +88158,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructOutputReference
 ```
@@ -88509,7 +88509,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -88787,7 +88787,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -88947,7 +88947,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -89272,7 +89272,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -89650,7 +89650,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsList
 ```
@@ -89810,7 +89810,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsOutputReference
 ```
@@ -90245,7 +90245,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -90523,7 +90523,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -90801,7 +90801,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseOutputReference
 ```
@@ -91121,7 +91121,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesList
 ```
@@ -91281,7 +91281,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesOutputReference
 ```
@@ -91803,7 +91803,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingOutputReference
 ```
@@ -92094,7 +92094,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSourceOutputReference
 ```
@@ -92430,7 +92430,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesExternalSourceSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesExternalSourceSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesSlotTypesExternalSourceSettingOutputReference
 ```
@@ -92721,7 +92721,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesSlotTypesList
 ```
@@ -92881,7 +92881,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesSlotTypesOutputReference
 ```
@@ -93361,7 +93361,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesSlotTypeValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesSlotTypeValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesSlotTypesSlotTypeValuesList
 ```
@@ -93521,7 +93521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesSlotTypeValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesSlotTypeValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesSlotTypesSlotTypeValuesOutputReference
 ```
@@ -93872,7 +93872,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesSlotTypeValuesSampleValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesSlotTypeValuesSampleValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesSlotTypesSlotTypeValuesSampleValueOutputReference
 ```
@@ -94150,7 +94150,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesSlotTypeValuesSynonymsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesSlotTypeValuesSynonymsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotLocalesSlotTypesSlotTypeValuesSynonymsList
 ```
@@ -94310,7 +94310,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesSlotTypeValuesSynonymsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesSlotTypeValuesSynonymsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotLocalesSlotTypesSlotTypeValuesSynonymsOutputReference
 ```
@@ -94606,7 +94606,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSettingOutputReference
 ```
@@ -94884,7 +94884,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesValueSelectionSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesSlotTypesValueSelectionSettingOutputReference
 ```
@@ -95246,7 +95246,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesSlotTypesValueSelectionSettingRegexFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilterOutputReference
 ```
@@ -95524,7 +95524,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotLocalesVoiceSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotLocalesVoiceSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotBotLocalesVoiceSettingsOutputReference
 ```
@@ -95831,7 +95831,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotBotTagsList
 ```
@@ -95991,7 +95991,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotBotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotBotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotBotTagsOutputReference
 ```
@@ -96316,7 +96316,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotDataPrivacyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotDataPrivacyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotDataPrivacyOutputReference
 ```
@@ -96587,7 +96587,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference
 ```
@@ -96894,7 +96894,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference
 ```
@@ -97185,7 +97185,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference
 ```
@@ -97505,7 +97505,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsBotAliasLocaleSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotTestBotAliasSettingsBotAliasLocaleSettingsList
 ```
@@ -97665,7 +97665,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsBotAliasLocaleSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsBotAliasLocaleSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotTestBotAliasSettingsBotAliasLocaleSettingsOutputReference
 ```
@@ -98003,7 +98003,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationOutputReference
 ```
@@ -98294,7 +98294,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference
 ```
@@ -98630,7 +98630,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsList
 ```
@@ -98790,7 +98790,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsOutputReference
 ```
@@ -99128,7 +99128,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsConversationLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotTestBotAliasSettingsConversationLogSettingsOutputReference
 ```
@@ -99461,7 +99461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference
 ```
@@ -99768,7 +99768,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationOutputReference
 ```
@@ -100059,7 +100059,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsList
 ```
@@ -100219,7 +100219,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsOutputReference
 ```
@@ -100557,7 +100557,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotTestBotAliasSettingsOutputReference
 ```
@@ -100961,7 +100961,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasSettingsSentimentAnalysisSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasSettingsSentimentAnalysisSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotTestBotAliasSettingsSentimentAnalysisSettingsOutputReference
 ```
@@ -101239,7 +101239,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotTestBotAliasTagsList
 ```
@@ -101399,7 +101399,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBot.LexBotTestBotAliasTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbot"
 
 lexbot.NewLexBotTestBotAliasTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotTestBotAliasTagsOutputReference
 ```

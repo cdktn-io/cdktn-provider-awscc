@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspaceswebTrustStores <a name="DataAwsccWorkspaceswebTrustStores" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebTrustStores.DataAwsccWorkspaceswebTrustStores"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_trust_stores awscc_workspacesweb_trust_stores}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_trust_stores awscc_workspacesweb_trust_stores}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebTrustStores.DataAwsccWorkspaceswebTrustStores.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebtruststores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebtruststores"
 
 dataawsccworkspaceswebtruststores.NewDataAwsccWorkspaceswebTrustStores(scope Construct, id *string, config DataAwsccWorkspaceswebTrustStoresConfig) DataAwsccWorkspaceswebTrustStores
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebTrustStores.DataAwsccWorkspaceswebTrustStores.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebtruststores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebtruststores"
 
 dataawsccworkspaceswebtruststores.DataAwsccWorkspaceswebTrustStores_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebTrustStores.DataAwsccWorkspaceswebTrustStores.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebtruststores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebtruststores"
 
 dataawsccworkspaceswebtruststores.DataAwsccWorkspaceswebTrustStores_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspaceswebtruststores.DataAwsccWorkspaceswebTrustStores_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebTrustStores.DataAwsccWorkspaceswebTrustStores.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebtruststores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebtruststores"
 
 dataawsccworkspaceswebtruststores.DataAwsccWorkspaceswebTrustStores_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspaceswebtruststores.DataAwsccWorkspaceswebTrustStores_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebTrustStores.DataAwsccWorkspaceswebTrustStores.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebtruststores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebtruststores"
 
 dataawsccworkspaceswebtruststores.DataAwsccWorkspaceswebTrustStores_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebTrus
 
 The id of the existing DataAwsccWorkspaceswebTrustStores that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_trust_stores#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_trust_stores#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebTrustStores.DataAwsccWorkspaceswebTrustStoresConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebtruststores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebtruststores"
 
 &dataawsccworkspaceswebtruststores.DataAwsccWorkspaceswebTrustStoresConfig {
 	Connection: interface{},

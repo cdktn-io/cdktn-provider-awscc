@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudwatchInsightRule <a name="DataAwsccCloudwatchInsightRule" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRule.DataAwsccCloudwatchInsightRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRule.DataAwsccCloudwatchInsightRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchinsightrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchinsightrule"
 
 dataawscccloudwatchinsightrule.NewDataAwsccCloudwatchInsightRule(scope Construct, id *string, config DataAwsccCloudwatchInsightRuleConfig) DataAwsccCloudwatchInsightRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRule.DataAwsccCloudwatchInsightRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchinsightrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchinsightrule"
 
 dataawscccloudwatchinsightrule.DataAwsccCloudwatchInsightRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRule.DataAwsccCloudwatchInsightRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchinsightrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchinsightrule"
 
 dataawscccloudwatchinsightrule.DataAwsccCloudwatchInsightRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudwatchinsightrule.DataAwsccCloudwatchInsightRule_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRule.DataAwsccCloudwatchInsightRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchinsightrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchinsightrule"
 
 dataawscccloudwatchinsightrule.DataAwsccCloudwatchInsightRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudwatchinsightrule.DataAwsccCloudwatchInsightRule_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRule.DataAwsccCloudwatchInsightRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchinsightrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchinsightrule"
 
 dataawscccloudwatchinsightrule.DataAwsccCloudwatchInsightRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchInsight
 
 The id of the existing DataAwsccCloudwatchInsightRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_insight_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_insight_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRule.DataAwsccCloudwatchInsightRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchinsightrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchinsightrule"
 
 &dataawscccloudwatchinsightrule.DataAwsccCloudwatchInsightRuleConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_insight_rule#id DataAwsccCloudwatchInsightRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_insight_rule#id DataAwsccCloudwatchInsightRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRule.DataAwsccCloudwatchInsightRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchinsightrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchinsightrule"
 
 &dataawscccloudwatchinsightrule.DataAwsccCloudwatchInsightRuleTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchins
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRule.DataAwsccCloudwatchInsightRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchinsightrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchinsightrule"
 
 dataawscccloudwatchinsightrule.NewDataAwsccCloudwatchInsightRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudwatchInsightRuleTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchInsightRule.DataAwsccCloudwatchInsightRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchinsightrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchinsightrule"
 
 dataawscccloudwatchinsightrule.NewDataAwsccCloudwatchInsightRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudwatchInsightRuleTagsOutputReference
 ```

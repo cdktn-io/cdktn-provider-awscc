@@ -4,12 +4,12 @@
 
 ### ServicecatalogPortfolioShare <a name="ServicecatalogPortfolioShare" id="@cdktn/provider-awscc.servicecatalogPortfolioShare.ServicecatalogPortfolioShare"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogPortfolioShare.ServicecatalogPortfolioShare.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioshare"
 
 servicecatalogportfolioshare.NewServicecatalogPortfolioShare(scope Construct, id *string, config ServicecatalogPortfolioShareConfig) ServicecatalogPortfolioShare
 ```
@@ -414,7 +414,7 @@ func ResetShareTagOptions()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.servicecatalogPortfolioShare.ServicecatalogPortfolioShare.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioshare"
 
 servicecatalogportfolioshare.ServicecatalogPortfolioShare_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.servicecatalogPortfolioShare.ServicecatalogPortfolioShare.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioshare"
 
 servicecatalogportfolioshare.ServicecatalogPortfolioShare_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ servicecatalogportfolioshare.ServicecatalogPortfolioShare_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.servicecatalogPortfolioShare.ServicecatalogPortfolioShare.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioshare"
 
 servicecatalogportfolioshare.ServicecatalogPortfolioShare_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ servicecatalogportfolioshare.ServicecatalogPortfolioShare_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.servicecatalogPortfolioShare.ServicecatalogPortfolioShare.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioshare"
 
 servicecatalogportfolioshare.ServicecatalogPortfolioShare_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the ServicecatalogPortfolioSha
 
 The id of the existing ServicecatalogPortfolioShare that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_share#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_share#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -802,7 +802,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.servicecatalogPortfolioShare.ServicecatalogPortfolioShareConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioshare"
 
 &servicecatalogportfolioshare.ServicecatalogPortfolioShareConfig {
 	Connection: interface{},
@@ -917,7 +917,7 @@ AccountId *string
 
 The AWS account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_share#account_id ServicecatalogPortfolioShare#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_share#account_id ServicecatalogPortfolioShare#account_id}
 
 ---
 
@@ -931,7 +931,7 @@ PortfolioId *string
 
 The portfolio identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_share#portfolio_id ServicecatalogPortfolioShare#portfolio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_share#portfolio_id ServicecatalogPortfolioShare#portfolio_id}
 
 ---
 
@@ -945,7 +945,7 @@ AcceptLanguage *string
 
 The language code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_share#accept_language ServicecatalogPortfolioShare#accept_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_share#accept_language ServicecatalogPortfolioShare#accept_language}
 
 ---
 
@@ -959,7 +959,7 @@ ShareTagOptions interface{}
 
 Enables or disables TagOptions sharing when creating the portfolio share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_share#share_tag_options ServicecatalogPortfolioShare#share_tag_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_share#share_tag_options ServicecatalogPortfolioShare#share_tag_options}
 
 ---
 

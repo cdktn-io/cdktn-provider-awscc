@@ -4,12 +4,12 @@
 
 ### IotSoftwarePackageVersion <a name="IotSoftwarePackageVersion" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version awscc_iot_software_package_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version awscc_iot_software_package_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 iotsoftwarepackageversion.NewIotSoftwarePackageVersion(scope Construct, id *string, config IotSoftwarePackageVersionConfig) IotSoftwarePackageVersion
 ```
@@ -488,7 +488,7 @@ func ResetVersionName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 iotsoftwarepackageversion.IotSoftwarePackageVersion_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 iotsoftwarepackageversion.IotSoftwarePackageVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ iotsoftwarepackageversion.IotSoftwarePackageVersion_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 iotsoftwarepackageversion.IotSoftwarePackageVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ iotsoftwarepackageversion.IotSoftwarePackageVersion_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 iotsoftwarepackageversion.IotSoftwarePackageVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the IotSoftwarePackageVersion 
 
 The id of the existing IotSoftwarePackageVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1008,10 +1008,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionArtifact.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 &iotsoftwarepackageversion.IotSoftwarePackageVersionArtifact {
-	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionArtifactS3Location,
+	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotSoftwarePackageVersion.IotSoftwarePackageVersionArtifactS3Location,
 }
 ```
 
@@ -1033,7 +1033,7 @@ S3Location IotSoftwarePackageVersionArtifactS3Location
 
 The Amazon S3 location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
 
 ---
 
@@ -1042,7 +1042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionArtifactS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 &iotsoftwarepackageversion.IotSoftwarePackageVersionArtifactS3Location {
 	Bucket: *string,
@@ -1071,7 +1071,7 @@ Bucket *string
 
 The S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
 
 ---
 
@@ -1085,7 +1085,7 @@ Key *string
 
 The S3 key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
 
 ---
 
@@ -1099,7 +1099,7 @@ Version *string
 
 The S3 version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
 
 ---
 
@@ -1108,7 +1108,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 &iotsoftwarepackageversion.IotSoftwarePackageVersionConfig {
 	Connection: interface{},
@@ -1119,11 +1119,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackagevers
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	PackageName: *string,
-	Artifact: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionArtifact,
+	Artifact: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotSoftwarePackageVersion.IotSoftwarePackageVersionArtifact,
 	Attributes: *map[string]*string,
 	Description: *string,
 	Recipe: *string,
-	Sbom: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionSbom,
+	Sbom: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotSoftwarePackageVersion.IotSoftwarePackageVersionSbom,
 	Tags: interface{},
 	VersionName: *string,
 }
@@ -1140,14 +1140,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackagevers
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.packageName">PackageName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#package_name IotSoftwarePackageVersion#package_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.packageName">PackageName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#package_name IotSoftwarePackageVersion#package_name}. |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.artifact">Artifact</a></code> | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionArtifact">IotSoftwarePackageVersionArtifact</a></code> | The artifact location of the package version. |
-| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.attributes">Attributes</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#attributes IotSoftwarePackageVersion#attributes}. |
-| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#description IotSoftwarePackageVersion#description}. |
+| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.attributes">Attributes</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#attributes IotSoftwarePackageVersion#attributes}. |
+| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#description IotSoftwarePackageVersion#description}. |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.recipe">Recipe</a></code> | <code>*string</code> | The inline json job document associated with a software package version. |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.sbom">Sbom</a></code> | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionSbom">IotSoftwarePackageVersionSbom</a></code> | The sbom zip archive location of the package version. |
 | <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this resource. |
-| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.versionName">VersionName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#version_name IotSoftwarePackageVersion#version_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionConfig.property.versionName">VersionName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#version_name IotSoftwarePackageVersion#version_name}. |
 
 ---
 
@@ -1229,7 +1229,7 @@ PackageName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#package_name IotSoftwarePackageVersion#package_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#package_name IotSoftwarePackageVersion#package_name}.
 
 ---
 
@@ -1243,7 +1243,7 @@ Artifact IotSoftwarePackageVersionArtifact
 
 The artifact location of the package version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#artifact IotSoftwarePackageVersion#artifact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#artifact IotSoftwarePackageVersion#artifact}
 
 ---
 
@@ -1255,7 +1255,7 @@ Attributes *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#attributes IotSoftwarePackageVersion#attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#attributes IotSoftwarePackageVersion#attributes}.
 
 ---
 
@@ -1267,7 +1267,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#description IotSoftwarePackageVersion#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#description IotSoftwarePackageVersion#description}.
 
 ---
 
@@ -1281,7 +1281,7 @@ Recipe *string
 
 The inline json job document associated with a software package version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#recipe IotSoftwarePackageVersion#recipe}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#recipe IotSoftwarePackageVersion#recipe}
 
 ---
 
@@ -1295,7 +1295,7 @@ Sbom IotSoftwarePackageVersionSbom
 
 The sbom zip archive location of the package version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#sbom IotSoftwarePackageVersion#sbom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#sbom IotSoftwarePackageVersion#sbom}
 
 ---
 
@@ -1309,7 +1309,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#tags IotSoftwarePackageVersion#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#tags IotSoftwarePackageVersion#tags}
 
 ---
 
@@ -1321,7 +1321,7 @@ VersionName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#version_name IotSoftwarePackageVersion#version_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#version_name IotSoftwarePackageVersion#version_name}.
 
 ---
 
@@ -1330,10 +1330,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionSbom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 &iotsoftwarepackageversion.IotSoftwarePackageVersionSbom {
-	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionSbomS3Location,
+	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotSoftwarePackageVersion.IotSoftwarePackageVersionSbomS3Location,
 }
 ```
 
@@ -1355,7 +1355,7 @@ S3Location IotSoftwarePackageVersionSbomS3Location
 
 The Amazon S3 location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#s3_location IotSoftwarePackageVersion#s3_location}
 
 ---
 
@@ -1364,7 +1364,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionSbomS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 &iotsoftwarepackageversion.IotSoftwarePackageVersionSbomS3Location {
 	Bucket: *string,
@@ -1393,7 +1393,7 @@ Bucket *string
 
 The S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#bucket IotSoftwarePackageVersion#bucket}
 
 ---
 
@@ -1407,7 +1407,7 @@ Key *string
 
 The S3 key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
 
 ---
 
@@ -1421,7 +1421,7 @@ Version *string
 
 The S3 version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#version IotSoftwarePackageVersion#version}
 
 ---
 
@@ -1430,7 +1430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 &iotsoftwarepackageversion.IotSoftwarePackageVersionTags {
 	Key: *string,
@@ -1459,7 +1459,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
 
 ---
 
@@ -1475,7 +1475,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package_version#value IotSoftwarePackageVersion#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package_version#value IotSoftwarePackageVersion#value}
 
 ---
 
@@ -1486,7 +1486,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionArtifactOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 iotsoftwarepackageversion.NewIotSoftwarePackageVersionArtifactOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotSoftwarePackageVersionArtifactOutputReference
 ```
@@ -1777,7 +1777,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionArtifactS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 iotsoftwarepackageversion.NewIotSoftwarePackageVersionArtifactS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotSoftwarePackageVersionArtifactS3LocationOutputReference
 ```
@@ -2113,7 +2113,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionSbomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 iotsoftwarepackageversion.NewIotSoftwarePackageVersionSbomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotSoftwarePackageVersionSbomOutputReference
 ```
@@ -2404,7 +2404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionSbomS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 iotsoftwarepackageversion.NewIotSoftwarePackageVersionSbomS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotSoftwarePackageVersionSbomS3LocationOutputReference
 ```
@@ -2740,7 +2740,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 iotsoftwarepackageversion.NewIotSoftwarePackageVersionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotSoftwarePackageVersionTagsList
 ```
@@ -2900,7 +2900,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotSoftwarePackageVersion.IotSoftwarePackageVersionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackageversion"
 
 iotsoftwarepackageversion.NewIotSoftwarePackageVersionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotSoftwarePackageVersionTagsOutputReference
 ```

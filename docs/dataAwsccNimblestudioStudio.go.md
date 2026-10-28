@@ -4,12 +4,12 @@
 
 ### DataAwsccNimblestudioStudio <a name="DataAwsccNimblestudioStudio" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudio.DataAwsccNimblestudioStudio"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_studio awscc_nimblestudio_studio}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_studio awscc_nimblestudio_studio}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudio.DataAwsccNimblestudioStudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudio"
 
 dataawsccnimblestudiostudio.NewDataAwsccNimblestudioStudio(scope Construct, id *string, config DataAwsccNimblestudioStudioConfig) DataAwsccNimblestudioStudio
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudio.DataAwsccNimblestudioStudio.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudio"
 
 dataawsccnimblestudiostudio.DataAwsccNimblestudioStudio_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudio.DataAwsccNimblestudioStudio.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudio"
 
 dataawsccnimblestudiostudio.DataAwsccNimblestudioStudio_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnimblestudiostudio.DataAwsccNimblestudioStudio_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudio.DataAwsccNimblestudioStudio.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudio"
 
 dataawsccnimblestudiostudio.DataAwsccNimblestudioStudio_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnimblestudiostudio.DataAwsccNimblestudioStudio_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudio.DataAwsccNimblestudioStudio.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudio"
 
 dataawsccnimblestudiostudio.DataAwsccNimblestudioStudio_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNimblestudioStudi
 
 The id of the existing DataAwsccNimblestudioStudio that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_studio#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_studio#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudio.DataAwsccNimblestudioStudioConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudio"
 
 &dataawsccnimblestudiostudio.DataAwsccNimblestudioStudioConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_studio#id DataAwsccNimblestudioStudio#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_studio#id DataAwsccNimblestudioStudio#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudio.DataAwsccNimblestudioStudioStudioEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudio"
 
 &dataawsccnimblestudiostudio.DataAwsccNimblestudioStudioStudioEncryptionConfiguration {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudios
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudio.DataAwsccNimblestudioStudioStudioEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudio"
 
 dataawsccnimblestudiostudio.NewDataAwsccNimblestudioStudioStudioEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioStudioStudioEncryptionConfigurationOutputReference
 ```

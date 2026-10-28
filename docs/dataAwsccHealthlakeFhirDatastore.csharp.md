@@ -4,7 +4,7 @@
 
 ### DataAwsccHealthlakeFhirDatastore <a name="DataAwsccHealthlakeFhirDatastore" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccHealthlakeFhirDat
 
 The id of the existing DataAwsccHealthlakeFhirDatastore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_fhir_datastore#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_fhir_datastore#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -415,6 +415,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.forEach">ForEach</a></code> | <code>Io.Cdktn.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.analyticsConfiguration">AnalyticsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference">DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.createdAt">CreatedAt</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreCreatedAtOutputReference">DataAwsccHealthlakeFhirDatastoreCreatedAtOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.datastoreArn">DatastoreArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.datastoreEndpoint">DatastoreEndpoint</a></code> | <code>string</code> | *No description.* |
@@ -423,7 +424,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.datastoreStatus">DatastoreStatus</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.datastoreTypeVersion">DatastoreTypeVersion</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.identityProviderConfiguration">IdentityProviderConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreIdentityProviderConfigurationOutputReference">DataAwsccHealthlakeFhirDatastoreIdentityProviderConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.nlpConfiguration">NlpConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference">DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.preloadDataConfig">PreloadDataConfig</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastorePreloadDataConfigOutputReference">DataAwsccHealthlakeFhirDatastorePreloadDataConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.profileConfiguration">ProfileConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference">DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.sseConfiguration">SseConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreSseConfigurationOutputReference">DataAwsccHealthlakeFhirDatastoreSseConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreTagsList">DataAwsccHealthlakeFhirDatastoreTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
@@ -553,6 +556,16 @@ public TerraformProvider Provider { get; }
 
 ---
 
+##### `AnalyticsConfiguration`<sup>Required</sup> <a name="AnalyticsConfiguration" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.analyticsConfiguration"></a>
+
+```csharp
+public DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference AnalyticsConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference">DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference</a>
+
+---
+
 ##### `CreatedAt`<sup>Required</sup> <a name="CreatedAt" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.createdAt"></a>
 
 ```csharp
@@ -633,6 +646,16 @@ public DataAwsccHealthlakeFhirDatastoreIdentityProviderConfigurationOutputRefere
 
 ---
 
+##### `NlpConfiguration`<sup>Required</sup> <a name="NlpConfiguration" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.nlpConfiguration"></a>
+
+```csharp
+public DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference NlpConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference">DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference</a>
+
+---
+
 ##### `PreloadDataConfig`<sup>Required</sup> <a name="PreloadDataConfig" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.preloadDataConfig"></a>
 
 ```csharp
@@ -640,6 +663,16 @@ public DataAwsccHealthlakeFhirDatastorePreloadDataConfigOutputReference PreloadD
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastorePreloadDataConfigOutputReference">DataAwsccHealthlakeFhirDatastorePreloadDataConfigOutputReference</a>
+
+---
+
+##### `ProfileConfiguration`<sup>Required</sup> <a name="ProfileConfiguration" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastore.property.profileConfiguration"></a>
+
+```csharp
+public DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference ProfileConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference">DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference</a>
 
 ---
 
@@ -702,6 +735,19 @@ public string TfResourceType { get; }
 ---
 
 ## Structs <a name="Structs" id="Structs"></a>
+
+### DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration <a name="DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration {
+
+};
+```
+
 
 ### DataAwsccHealthlakeFhirDatastoreConfig <a name="DataAwsccHealthlakeFhirDatastoreConfig" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreConfig"></a>
 
@@ -817,7 +863,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_fhir_datastore#id DataAwsccHealthlakeFhirDatastore#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_fhir_datastore#id DataAwsccHealthlakeFhirDatastore#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -850,6 +896,19 @@ new DataAwsccHealthlakeFhirDatastoreIdentityProviderConfiguration {
 ```
 
 
+### DataAwsccHealthlakeFhirDatastoreNlpConfiguration <a name="DataAwsccHealthlakeFhirDatastoreNlpConfiguration" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccHealthlakeFhirDatastoreNlpConfiguration {
+
+};
+```
+
+
 ### DataAwsccHealthlakeFhirDatastorePreloadDataConfig <a name="DataAwsccHealthlakeFhirDatastorePreloadDataConfig" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastorePreloadDataConfig"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastorePreloadDataConfig.Initializer"></a>
@@ -858,6 +917,19 @@ new DataAwsccHealthlakeFhirDatastoreIdentityProviderConfiguration {
 using Io.Cdktn.Providers.Awscc;
 
 new DataAwsccHealthlakeFhirDatastorePreloadDataConfig {
+
+};
+```
+
+
+### DataAwsccHealthlakeFhirDatastoreProfileConfiguration <a name="DataAwsccHealthlakeFhirDatastoreProfileConfiguration" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccHealthlakeFhirDatastoreProfileConfiguration {
 
 };
 ```
@@ -903,6 +975,266 @@ new DataAwsccHealthlakeFhirDatastoreTags {
 
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference <a name="DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.property.status">Status</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration">DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.property.status"></a>
+
+```csharp
+public string Status { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration">DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration</a>
+
+---
+
 
 ### DataAwsccHealthlakeFhirDatastoreCreatedAtOutputReference <a name="DataAwsccHealthlakeFhirDatastoreCreatedAtOutputReference" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreCreatedAtOutputReference"></a>
 
@@ -1468,6 +1800,266 @@ public DataAwsccHealthlakeFhirDatastoreIdentityProviderConfiguration InternalVal
 ---
 
 
+### DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference <a name="DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.property.status">Status</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfiguration">DataAwsccHealthlakeFhirDatastoreNlpConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.property.status"></a>
+
+```csharp
+public string Status { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccHealthlakeFhirDatastoreNlpConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreNlpConfiguration">DataAwsccHealthlakeFhirDatastoreNlpConfiguration</a>
+
+---
+
+
 ### DataAwsccHealthlakeFhirDatastorePreloadDataConfigOutputReference <a name="DataAwsccHealthlakeFhirDatastorePreloadDataConfigOutputReference" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastorePreloadDataConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastorePreloadDataConfigOutputReference.Initializer"></a>
@@ -1724,6 +2316,266 @@ public DataAwsccHealthlakeFhirDatastorePreloadDataConfig InternalValue { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastorePreloadDataConfig">DataAwsccHealthlakeFhirDatastorePreloadDataConfig</a>
+
+---
+
+
+### DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference <a name="DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.property.defaultProfiles">DefaultProfiles</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfiguration">DataAwsccHealthlakeFhirDatastoreProfileConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DefaultProfiles`<sup>Required</sup> <a name="DefaultProfiles" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.property.defaultProfiles"></a>
+
+```csharp
+public string[] DefaultProfiles { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccHealthlakeFhirDatastoreProfileConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastore.DataAwsccHealthlakeFhirDatastoreProfileConfiguration">DataAwsccHealthlakeFhirDatastoreProfileConfiguration</a>
 
 ---
 

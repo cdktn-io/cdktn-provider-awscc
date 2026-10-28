@@ -4,12 +4,12 @@
 
 ### DataAwsccBillingconductorCustomLineItems <a name="DataAwsccBillingconductorCustomLineItems" id="@cdktn/provider-awscc.dataAwsccBillingconductorCustomLineItems.DataAwsccBillingconductorCustomLineItems"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billingconductor_custom_line_items awscc_billingconductor_custom_line_items}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billingconductor_custom_line_items awscc_billingconductor_custom_line_items}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorCustomLineItems.DataAwsccBillingconductorCustomLineItems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorcustomlineitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorcustomlineitems"
 
 dataawsccbillingconductorcustomlineitems.NewDataAwsccBillingconductorCustomLineItems(scope Construct, id *string, config DataAwsccBillingconductorCustomLineItemsConfig) DataAwsccBillingconductorCustomLineItems
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBillingconductorCustomLineItems.DataAwsccBillingconductorCustomLineItems.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorcustomlineitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorcustomlineitems"
 
 dataawsccbillingconductorcustomlineitems.DataAwsccBillingconductorCustomLineItems_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBillingconductorCustomLineItems.DataAwsccBillingconductorCustomLineItems.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorcustomlineitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorcustomlineitems"
 
 dataawsccbillingconductorcustomlineitems.DataAwsccBillingconductorCustomLineItems_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbillingconductorcustomlineitems.DataAwsccBillingconductorCustomLineItem
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBillingconductorCustomLineItems.DataAwsccBillingconductorCustomLineItems.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorcustomlineitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorcustomlineitems"
 
 dataawsccbillingconductorcustomlineitems.DataAwsccBillingconductorCustomLineItems_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbillingconductorcustomlineitems.DataAwsccBillingconductorCustomLineItem
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBillingconductorCustomLineItems.DataAwsccBillingconductorCustomLineItems.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorcustomlineitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorcustomlineitems"
 
 dataawsccbillingconductorcustomlineitems.DataAwsccBillingconductorCustomLineItems_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBillingconductorC
 
 The id of the existing DataAwsccBillingconductorCustomLineItems that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billingconductor_custom_line_items#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billingconductor_custom_line_items#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorCustomLineItems.DataAwsccBillingconductorCustomLineItemsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorcustomlineitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorcustomlineitems"
 
 &dataawsccbillingconductorcustomlineitems.DataAwsccBillingconductorCustomLineItemsConfig {
 	Connection: interface{},

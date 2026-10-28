@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspaceswebSessionLogger <a name="DataAwsccWorkspaceswebSessionLogger" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLogger"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_session_logger awscc_workspacesweb_session_logger}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_session_logger awscc_workspacesweb_session_logger}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLogger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 dataawsccworkspaceswebsessionlogger.NewDataAwsccWorkspaceswebSessionLogger(scope Construct, id *string, config DataAwsccWorkspaceswebSessionLoggerConfig) DataAwsccWorkspaceswebSessionLogger
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLogger.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 dataawsccworkspaceswebsessionlogger.DataAwsccWorkspaceswebSessionLogger_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLogger.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 dataawsccworkspaceswebsessionlogger.DataAwsccWorkspaceswebSessionLogger_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspaceswebsessionlogger.DataAwsccWorkspaceswebSessionLogger_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLogger.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 dataawsccworkspaceswebsessionlogger.DataAwsccWorkspaceswebSessionLogger_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspaceswebsessionlogger.DataAwsccWorkspaceswebSessionLogger_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLogger.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 dataawsccworkspaceswebsessionlogger.DataAwsccWorkspaceswebSessionLogger_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebSess
 
 The id of the existing DataAwsccWorkspaceswebSessionLogger that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_session_logger#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_session_logger#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLoggerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 &dataawsccworkspaceswebsessionlogger.DataAwsccWorkspaceswebSessionLoggerConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_session_logger#id DataAwsccWorkspaceswebSessionLogger#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_session_logger#id DataAwsccWorkspaceswebSessionLogger#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLoggerEventFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 &dataawsccworkspaceswebsessionlogger.DataAwsccWorkspaceswebSessionLoggerEventFilter {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLoggerLogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 &dataawsccworkspaceswebsessionlogger.DataAwsccWorkspaceswebSessionLoggerLogConfiguration {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLoggerLogConfigurationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 &dataawsccworkspaceswebsessionlogger.DataAwsccWorkspaceswebSessionLoggerLogConfigurationS3 {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLoggerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 &dataawsccworkspaceswebsessionlogger.DataAwsccWorkspaceswebSessionLoggerTags {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLoggerEventFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 dataawsccworkspaceswebsessionlogger.NewDataAwsccWorkspaceswebSessionLoggerEventFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspaceswebSessionLoggerEventFilterOutputReference
 ```
@@ -1132,7 +1132,7 @@ func InternalValue() DataAwsccWorkspaceswebSessionLoggerEventFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLoggerLogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 dataawsccworkspaceswebsessionlogger.NewDataAwsccWorkspaceswebSessionLoggerLogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspaceswebSessionLoggerLogConfigurationOutputReference
 ```
@@ -1392,7 +1392,7 @@ func InternalValue() DataAwsccWorkspaceswebSessionLoggerLogConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLoggerLogConfigurationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 dataawsccworkspaceswebsessionlogger.NewDataAwsccWorkspaceswebSessionLoggerLogConfigurationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspaceswebSessionLoggerLogConfigurationS3OutputReference
 ```
@@ -1696,7 +1696,7 @@ func InternalValue() DataAwsccWorkspaceswebSessionLoggerLogConfigurationS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLoggerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 dataawsccworkspaceswebsessionlogger.NewDataAwsccWorkspaceswebSessionLoggerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspaceswebSessionLoggerTagsList
 ```
@@ -1845,7 +1845,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebSessionLogger.DataAwsccWorkspaceswebSessionLoggerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebsessionlogger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebsessionlogger"
 
 dataawsccworkspaceswebsessionlogger.NewDataAwsccWorkspaceswebSessionLoggerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspaceswebSessionLoggerTagsOutputReference
 ```

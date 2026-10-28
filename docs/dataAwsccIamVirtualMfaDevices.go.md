@@ -4,12 +4,12 @@
 
 ### DataAwsccIamVirtualMfaDevices <a name="DataAwsccIamVirtualMfaDevices" id="@cdktn/provider-awscc.dataAwsccIamVirtualMfaDevices.DataAwsccIamVirtualMfaDevices"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_virtual_mfa_devices awscc_iam_virtual_mfa_devices}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_virtual_mfa_devices awscc_iam_virtual_mfa_devices}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamVirtualMfaDevices.DataAwsccIamVirtualMfaDevices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamvirtualmfadevices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamvirtualmfadevices"
 
 dataawscciamvirtualmfadevices.NewDataAwsccIamVirtualMfaDevices(scope Construct, id *string, config DataAwsccIamVirtualMfaDevicesConfig) DataAwsccIamVirtualMfaDevices
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIamVirtualMfaDevices.DataAwsccIamVirtualMfaDevices.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamvirtualmfadevices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamvirtualmfadevices"
 
 dataawscciamvirtualmfadevices.DataAwsccIamVirtualMfaDevices_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIamVirtualMfaDevices.DataAwsccIamVirtualMfaDevices.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamvirtualmfadevices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamvirtualmfadevices"
 
 dataawscciamvirtualmfadevices.DataAwsccIamVirtualMfaDevices_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciamvirtualmfadevices.DataAwsccIamVirtualMfaDevices_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIamVirtualMfaDevices.DataAwsccIamVirtualMfaDevices.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamvirtualmfadevices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamvirtualmfadevices"
 
 dataawscciamvirtualmfadevices.DataAwsccIamVirtualMfaDevices_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciamvirtualmfadevices.DataAwsccIamVirtualMfaDevices_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIamVirtualMfaDevices.DataAwsccIamVirtualMfaDevices.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamvirtualmfadevices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamvirtualmfadevices"
 
 dataawscciamvirtualmfadevices.DataAwsccIamVirtualMfaDevices_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIamVirtualMfaDevi
 
 The id of the existing DataAwsccIamVirtualMfaDevices that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_virtual_mfa_devices#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_virtual_mfa_devices#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamVirtualMfaDevices.DataAwsccIamVirtualMfaDevicesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamvirtualmfadevices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamvirtualmfadevices"
 
 &dataawscciamvirtualmfadevices.DataAwsccIamVirtualMfaDevicesConfig {
 	Connection: interface{},

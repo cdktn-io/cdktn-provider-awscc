@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightOAuthClientApplication <a name="DataAwsccQuicksightOAuthClientApplication" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_o_auth_client_application awscc_quicksight_o_auth_client_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_o_auth_client_application awscc_quicksight_o_auth_client_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplication"
 
 dataawsccquicksightoauthclientapplication.NewDataAwsccQuicksightOAuthClientApplication(scope Construct, id *string, config DataAwsccQuicksightOAuthClientApplicationConfig) DataAwsccQuicksightOAuthClientApplication
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplication"
 
 dataawsccquicksightoauthclientapplication.DataAwsccQuicksightOAuthClientApplication_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplication"
 
 dataawsccquicksightoauthclientapplication.DataAwsccQuicksightOAuthClientApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksightoauthclientapplication.DataAwsccQuicksightOAuthClientApplicat
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplication.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplication"
 
 dataawsccquicksightoauthclientapplication.DataAwsccQuicksightOAuthClientApplication_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksightoauthclientapplication.DataAwsccQuicksightOAuthClientApplicat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplication"
 
 dataawsccquicksightoauthclientapplication.DataAwsccQuicksightOAuthClientApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightOAuthCl
 
 The id of the existing DataAwsccQuicksightOAuthClientApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_o_auth_client_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_o_auth_client_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplication"
 
 &dataawsccquicksightoauthclientapplication.DataAwsccQuicksightOAuthClientApplicationConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_o_auth_client_application#id DataAwsccQuicksightOAuthClientApplication#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_o_auth_client_application#id DataAwsccQuicksightOAuthClientApplication#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplication"
 
 &dataawsccquicksightoauthclientapplication.DataAwsccQuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplication"
 
 &dataawsccquicksightoauthclientapplication.DataAwsccQuicksightOAuthClientApplicationTags {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoau
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplicationIdentityProviderVpcConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplication"
 
 dataawsccquicksightoauthclientapplication.NewDataAwsccQuicksightOAuthClientApplicationIdentityProviderVpcConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightOAuthClientApplicationIdentityProviderVpcConnectionPropertiesOutputReference
 ```
@@ -1150,7 +1150,7 @@ func InternalValue() DataAwsccQuicksightOAuthClientApplicationIdentityProviderVp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplication"
 
 dataawsccquicksightoauthclientapplication.NewDataAwsccQuicksightOAuthClientApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightOAuthClientApplicationTagsList
 ```
@@ -1299,7 +1299,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightOAuthClientApplication.DataAwsccQuicksightOAuthClientApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplication"
 
 dataawsccquicksightoauthclientapplication.NewDataAwsccQuicksightOAuthClientApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightOAuthClientApplicationTagsOutputReference
 ```

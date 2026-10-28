@@ -4,12 +4,12 @@
 
 ### DatasyncLocationObjectStorage <a name="DatasyncLocationObjectStorage" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.NewDatasyncLocationObjectStorage(scope Construct, id *string, config DatasyncLocationObjectStorageConfig) DatasyncLocationObjectStorage
 ```
@@ -543,7 +543,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.DatasyncLocationObjectStorage_IsConstruct(x interface{}) *bool
 ```
@@ -575,7 +575,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.DatasyncLocationObjectStorage_IsTerraformElement(x interface{}) *bool
 ```
@@ -589,7 +589,7 @@ datasynclocationobjectstorage.DatasyncLocationObjectStorage_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.DatasyncLocationObjectStorage_IsTerraformResource(x interface{}) *bool
 ```
@@ -603,7 +603,7 @@ datasynclocationobjectstorage.DatasyncLocationObjectStorage_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.DatasyncLocationObjectStorage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -632,7 +632,7 @@ The construct id used in the generated config for the DatasyncLocationObjectStor
 
 The id of the existing DatasyncLocationObjectStorage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1162,7 +1162,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCmkSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 &datasynclocationobjectstorage.DatasyncLocationObjectStorageCmkSecretConfig {
 	KmsKeyArn: *string,
@@ -1189,7 +1189,7 @@ Specifies the ARN for the customer-managed AWS KMS key used to encrypt the secre
 
 DataSync provides this key to AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#kms_key_arn DatasyncLocationObjectStorage#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#kms_key_arn DatasyncLocationObjectStorage#kms_key_arn}
 
 ---
 
@@ -1198,7 +1198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 &datasynclocationobjectstorage.DatasyncLocationObjectStorageConfig {
 	Connection: interface{},
@@ -1211,9 +1211,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobject
 	AccessKey: *string,
 	AgentArns: *[]*string,
 	BucketName: *string,
-	CmkSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCmkSecretConfig,
-	CustomSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCustomSecretConfig,
-	FederatedIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity,
+	CmkSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCmkSecretConfig,
+	CustomSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCustomSecretConfig,
+	FederatedIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity,
 	SecretKey: *string,
 	ServerCertificate: *string,
 	ServerHostname: *string,
@@ -1331,7 +1331,7 @@ AccessKey *string
 
 Optional. The access key is used if credentials are required to access the self-managed object storage server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#access_key DatasyncLocationObjectStorage#access_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#access_key DatasyncLocationObjectStorage#access_key}
 
 ---
 
@@ -1347,7 +1347,7 @@ Specifies the Amazon Resource Names (ARNs) of the DataSync agents that can conne
 
 If you are setting up an agentless cross-cloud transfer, you do not need to specify a value for this parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#agent_arns DatasyncLocationObjectStorage#agent_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#agent_arns DatasyncLocationObjectStorage#agent_arns}
 
 ---
 
@@ -1361,7 +1361,7 @@ BucketName *string
 
 The name of the bucket on the self-managed object storage server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#bucket_name DatasyncLocationObjectStorage#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#bucket_name DatasyncLocationObjectStorage#bucket_name}
 
 ---
 
@@ -1375,7 +1375,7 @@ CmkSecretConfig DatasyncLocationObjectStorageCmkSecretConfig
 
 Specifies configuration information for a DataSync-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and a customer-managed AWS KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#cmk_secret_config DatasyncLocationObjectStorage#cmk_secret_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#cmk_secret_config DatasyncLocationObjectStorage#cmk_secret_config}
 
 ---
 
@@ -1389,7 +1389,7 @@ CustomSecretConfig DatasyncLocationObjectStorageCustomSecretConfig
 
 Specifies configuration information for a customer-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and an IAM role that DataSync can assume and access the customer-managed secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#custom_secret_config DatasyncLocationObjectStorage#custom_secret_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#custom_secret_config DatasyncLocationObjectStorage#custom_secret_config}
 
 ---
 
@@ -1403,7 +1403,7 @@ FederatedIdentity DatasyncLocationObjectStorageFederatedIdentity
 
 Specifies the identity federation configuration that DataSync uses to access your object storage location using an OpenID Connect (OIDC) token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#federated_identity DatasyncLocationObjectStorage#federated_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#federated_identity DatasyncLocationObjectStorage#federated_identity}
 
 ---
 
@@ -1417,7 +1417,7 @@ SecretKey *string
 
 Optional. The secret key is used if credentials are required to access the self-managed object storage server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#secret_key DatasyncLocationObjectStorage#secret_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#secret_key DatasyncLocationObjectStorage#secret_key}
 
 ---
 
@@ -1431,7 +1431,7 @@ ServerCertificate *string
 
 X.509 PEM content containing a certificate authority or chain to trust.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#server_certificate DatasyncLocationObjectStorage#server_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#server_certificate DatasyncLocationObjectStorage#server_certificate}
 
 ---
 
@@ -1447,7 +1447,7 @@ The name of the self-managed object storage server.
 
 This value is the IP address or Domain Name Service (DNS) name of the object storage server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#server_hostname DatasyncLocationObjectStorage#server_hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#server_hostname DatasyncLocationObjectStorage#server_hostname}
 
 ---
 
@@ -1461,7 +1461,7 @@ ServerPort *f64
 
 The port that your self-managed server accepts inbound network traffic on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#server_port DatasyncLocationObjectStorage#server_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#server_port DatasyncLocationObjectStorage#server_port}
 
 ---
 
@@ -1475,7 +1475,7 @@ ServerProtocol *string
 
 The protocol that the object storage server uses to communicate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#server_protocol DatasyncLocationObjectStorage#server_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#server_protocol DatasyncLocationObjectStorage#server_protocol}
 
 ---
 
@@ -1489,7 +1489,7 @@ Subdirectory *string
 
 The subdirectory in the self-managed object storage server that is used to read data from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#subdirectory DatasyncLocationObjectStorage#subdirectory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#subdirectory DatasyncLocationObjectStorage#subdirectory}
 
 ---
 
@@ -1503,7 +1503,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#tags DatasyncLocationObjectStorage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#tags DatasyncLocationObjectStorage#tags}
 
 ---
 
@@ -1512,7 +1512,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCustomSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 &datasynclocationobjectstorage.DatasyncLocationObjectStorageCustomSecretConfig {
 	SecretAccessRoleArn: *string,
@@ -1539,7 +1539,7 @@ SecretAccessRoleArn *string
 
 Specifies the ARN for the AWS Identity and Access Management role that DataSync uses to access the secret specified for SecretArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#secret_access_role_arn DatasyncLocationObjectStorage#secret_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#secret_access_role_arn DatasyncLocationObjectStorage#secret_access_role_arn}
 
 ---
 
@@ -1553,7 +1553,7 @@ SecretArn *string
 
 Specifies the ARN for a customer created AWS Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#secret_arn DatasyncLocationObjectStorage#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#secret_arn DatasyncLocationObjectStorage#secret_arn}
 
 ---
 
@@ -1562,11 +1562,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 &datasynclocationobjectstorage.DatasyncLocationObjectStorageFederatedIdentity {
 	AwsIamRole: *string,
-	ExternalIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity,
+	ExternalIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity,
 }
 ```
 
@@ -1589,7 +1589,7 @@ AwsIamRole *string
 
 Specifies the ARN of the AWS Identity and Access Management (IAM) role that DataSync assumes to mint the OIDC token used to authenticate with the identity provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#aws_iam_role DatasyncLocationObjectStorage#aws_iam_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#aws_iam_role DatasyncLocationObjectStorage#aws_iam_role}
 
 ---
 
@@ -1603,7 +1603,7 @@ ExternalIdentity DatasyncLocationObjectStorageFederatedIdentityExternalIdentity
 
 Specifies the external (non-AWS) identity provider that DataSync federates with to access your object storage location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#external_identity DatasyncLocationObjectStorage#external_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#external_identity DatasyncLocationObjectStorage#external_identity}
 
 ---
 
@@ -1612,10 +1612,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 &datasynclocationobjectstorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity {
-	GoogleOidc: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc,
+	GoogleOidc: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc,
 }
 ```
 
@@ -1637,7 +1637,7 @@ GoogleOidc DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleO
 
 Specifies the Google Cloud workload identity federation configuration that DataSync uses to obtain an access token for your Google Cloud Storage bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#google_oidc DatasyncLocationObjectStorage#google_oidc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#google_oidc DatasyncLocationObjectStorage#google_oidc}
 
 ---
 
@@ -1646,7 +1646,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 &datasynclocationobjectstorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc {
 	IdentityPoolName: *string,
@@ -1677,7 +1677,7 @@ IdentityPoolName *string
 
 The name of the Google Cloud workload identity pool that DataSync federates with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#identity_pool_name DatasyncLocationObjectStorage#identity_pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#identity_pool_name DatasyncLocationObjectStorage#identity_pool_name}
 
 ---
 
@@ -1691,7 +1691,7 @@ IdentityProviderName *string
 
 The name of the OIDC identity provider configured in the Google Cloud workload identity pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#identity_provider_name DatasyncLocationObjectStorage#identity_provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#identity_provider_name DatasyncLocationObjectStorage#identity_provider_name}
 
 ---
 
@@ -1705,7 +1705,7 @@ ProjectName *string
 
 The human-readable Google Cloud project name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#project_name DatasyncLocationObjectStorage#project_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#project_name DatasyncLocationObjectStorage#project_name}
 
 ---
 
@@ -1719,7 +1719,7 @@ ProjectNumber *string
 
 The numeric Google Cloud project ID, as a string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#project_number DatasyncLocationObjectStorage#project_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#project_number DatasyncLocationObjectStorage#project_number}
 
 ---
 
@@ -1728,7 +1728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageManagedSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 &datasynclocationobjectstorage.DatasyncLocationObjectStorageManagedSecretConfig {
 
@@ -1741,7 +1741,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobject
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 &datasynclocationobjectstorage.DatasyncLocationObjectStorageTags {
 	Key: *string,
@@ -1768,7 +1768,7 @@ Key *string
 
 The key for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#key DatasyncLocationObjectStorage#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#key DatasyncLocationObjectStorage#key}
 
 ---
 
@@ -1782,7 +1782,7 @@ Value *string
 
 The value for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage#value DatasyncLocationObjectStorage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage#value DatasyncLocationObjectStorage#value}
 
 ---
 
@@ -1793,7 +1793,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCmkSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.NewDatasyncLocationObjectStorageCmkSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationObjectStorageCmkSecretConfigOutputReference
 ```
@@ -2082,7 +2082,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCustomSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.NewDatasyncLocationObjectStorageCustomSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationObjectStorageCustomSecretConfigOutputReference
 ```
@@ -2389,7 +2389,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.NewDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference
 ```
@@ -2754,7 +2754,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.NewDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference
 ```
@@ -3045,7 +3045,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.NewDatasyncLocationObjectStorageFederatedIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationObjectStorageFederatedIdentityOutputReference
 ```
@@ -3365,7 +3365,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageManagedSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.NewDatasyncLocationObjectStorageManagedSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationObjectStorageManagedSecretConfigOutputReference
 ```
@@ -3625,7 +3625,7 @@ func InternalValue() DatasyncLocationObjectStorageManagedSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.NewDatasyncLocationObjectStorageTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatasyncLocationObjectStorageTagsList
 ```
@@ -3785,7 +3785,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage"
 
 datasynclocationobjectstorage.NewDatasyncLocationObjectStorageTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatasyncLocationObjectStorageTagsOutputReference
 ```

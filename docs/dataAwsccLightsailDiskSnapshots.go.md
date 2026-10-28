@@ -4,12 +4,12 @@
 
 ### DataAwsccLightsailDiskSnapshots <a name="DataAwsccLightsailDiskSnapshots" id="@cdktn/provider-awscc.dataAwsccLightsailDiskSnapshots.DataAwsccLightsailDiskSnapshots"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_disk_snapshots awscc_lightsail_disk_snapshots}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_disk_snapshots awscc_lightsail_disk_snapshots}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDiskSnapshots.DataAwsccLightsailDiskSnapshots.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildisksnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildisksnapshots"
 
 dataawscclightsaildisksnapshots.NewDataAwsccLightsailDiskSnapshots(scope Construct, id *string, config DataAwsccLightsailDiskSnapshotsConfig) DataAwsccLightsailDiskSnapshots
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLightsailDiskSnapshots.DataAwsccLightsailDiskSnapshots.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildisksnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildisksnapshots"
 
 dataawscclightsaildisksnapshots.DataAwsccLightsailDiskSnapshots_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLightsailDiskSnapshots.DataAwsccLightsailDiskSnapshots.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildisksnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildisksnapshots"
 
 dataawscclightsaildisksnapshots.DataAwsccLightsailDiskSnapshots_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclightsaildisksnapshots.DataAwsccLightsailDiskSnapshots_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLightsailDiskSnapshots.DataAwsccLightsailDiskSnapshots.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildisksnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildisksnapshots"
 
 dataawscclightsaildisksnapshots.DataAwsccLightsailDiskSnapshots_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclightsaildisksnapshots.DataAwsccLightsailDiskSnapshots_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLightsailDiskSnapshots.DataAwsccLightsailDiskSnapshots.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildisksnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildisksnapshots"
 
 dataawscclightsaildisksnapshots.DataAwsccLightsailDiskSnapshots_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailDiskSnap
 
 The id of the existing DataAwsccLightsailDiskSnapshots that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_disk_snapshots#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_disk_snapshots#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDiskSnapshots.DataAwsccLightsailDiskSnapshotsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildisksnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildisksnapshots"
 
 &dataawscclightsaildisksnapshots.DataAwsccLightsailDiskSnapshotsConfig {
 	Connection: interface{},

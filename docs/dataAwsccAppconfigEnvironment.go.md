@@ -4,12 +4,12 @@
 
 ### DataAwsccAppconfigEnvironment <a name="DataAwsccAppconfigEnvironment" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_environment awscc_appconfig_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_environment awscc_appconfig_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 dataawsccappconfigenvironment.NewDataAwsccAppconfigEnvironment(scope Construct, id *string, config DataAwsccAppconfigEnvironmentConfig) DataAwsccAppconfigEnvironment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 dataawsccappconfigenvironment.DataAwsccAppconfigEnvironment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 dataawsccappconfigenvironment.DataAwsccAppconfigEnvironment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappconfigenvironment.DataAwsccAppconfigEnvironment_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 dataawsccappconfigenvironment.DataAwsccAppconfigEnvironment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappconfigenvironment.DataAwsccAppconfigEnvironment_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 dataawsccappconfigenvironment.DataAwsccAppconfigEnvironment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppconfigEnvironm
 
 The id of the existing DataAwsccAppconfigEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 &dataawsccappconfigenvironment.DataAwsccAppconfigEnvironmentConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_environment#id DataAwsccAppconfigEnvironment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_environment#id DataAwsccAppconfigEnvironment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironmentMonitors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 &dataawsccappconfigenvironment.DataAwsccAppconfigEnvironmentMonitors {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 &dataawsccappconfigenvironment.DataAwsccAppconfigEnvironmentTags {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironmentMonitorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 dataawsccappconfigenvironment.NewDataAwsccAppconfigEnvironmentMonitorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppconfigEnvironmentMonitorsList
 ```
@@ -962,7 +962,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironmentMonitorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 dataawsccappconfigenvironment.NewDataAwsccAppconfigEnvironmentMonitorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppconfigEnvironmentMonitorsOutputReference
 ```
@@ -1251,7 +1251,7 @@ func InternalValue() DataAwsccAppconfigEnvironmentMonitors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 dataawsccappconfigenvironment.NewDataAwsccAppconfigEnvironmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppconfigEnvironmentTagsList
 ```
@@ -1400,7 +1400,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigEnvironment.DataAwsccAppconfigEnvironmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigenvironment"
 
 dataawsccappconfigenvironment.NewDataAwsccAppconfigEnvironmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppconfigEnvironmentTagsOutputReference
 ```

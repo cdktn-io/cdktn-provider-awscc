@@ -4,12 +4,12 @@
 
 ### DataAwsccKendraIndex <a name="DataAwsccKendraIndex" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_index awscc_kendra_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_index awscc_kendra_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndex.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndex(scope Construct, id *string, config DataAwsccKendraIndexConfig) DataAwsccKendraIndex
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndex.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.DataAwsccKendraIndex_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndex.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.DataAwsccKendraIndex_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckendraindex.DataAwsccKendraIndex_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndex.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.DataAwsccKendraIndex_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckendraindex.DataAwsccKendraIndex_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndex.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.DataAwsccKendraIndex_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKendraIndex to im
 
 The id of the existing DataAwsccKendraIndex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexCapacityUnits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 &dataawscckendraindex.DataAwsccKendraIndexCapacityUnits {
 
@@ -732,7 +732,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 &dataawscckendraindex.DataAwsccKendraIndexConfig {
 	Connection: interface{},
@@ -841,7 +841,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_index#id DataAwsccKendraIndex#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_index#id DataAwsccKendraIndex#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -853,7 +853,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexDocumentMetadataConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 &dataawscckendraindex.DataAwsccKendraIndexDocumentMetadataConfigurations {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexDocumentMetadataConfigurationsRelevance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 &dataawscckendraindex.DataAwsccKendraIndexDocumentMetadataConfigurationsRelevance {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexDocumentMetadataConfigurationsRelevanceValueImportanceItems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 &dataawscckendraindex.DataAwsccKendraIndexDocumentMetadataConfigurationsRelevanceValueImportanceItems {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexDocumentMetadataConfigurationsSearch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 &dataawscckendraindex.DataAwsccKendraIndexDocumentMetadataConfigurationsSearch {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexServerSideEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 &dataawscckendraindex.DataAwsccKendraIndexServerSideEncryptionConfiguration {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 &dataawscckendraindex.DataAwsccKendraIndexTags {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexUserTokenConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 &dataawscckendraindex.DataAwsccKendraIndexUserTokenConfigurations {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexUserTokenConfigurationsJsonTokenTypeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 &dataawscckendraindex.DataAwsccKendraIndexUserTokenConfigurationsJsonTokenTypeConfiguration {
 
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexUserTokenConfigurationsJwtTokenTypeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 &dataawscckendraindex.DataAwsccKendraIndexUserTokenConfigurationsJwtTokenTypeConfiguration {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexCapacityUnitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexCapacityUnitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraIndexCapacityUnitsOutputReference
 ```
@@ -1243,7 +1243,7 @@ func InternalValue() DataAwsccKendraIndexCapacityUnits
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexDocumentMetadataConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexDocumentMetadataConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraIndexDocumentMetadataConfigurationsList
 ```
@@ -1392,7 +1392,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexDocumentMetadataConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexDocumentMetadataConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraIndexDocumentMetadataConfigurationsOutputReference
 ```
@@ -1703,7 +1703,7 @@ func InternalValue() DataAwsccKendraIndexDocumentMetadataConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexDocumentMetadataConfigurationsRelevanceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexDocumentMetadataConfigurationsRelevanceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraIndexDocumentMetadataConfigurationsRelevanceOutputReference
 ```
@@ -2007,7 +2007,7 @@ func InternalValue() DataAwsccKendraIndexDocumentMetadataConfigurationsRelevance
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexDocumentMetadataConfigurationsRelevanceValueImportanceItemsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexDocumentMetadataConfigurationsRelevanceValueImportanceItemsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraIndexDocumentMetadataConfigurationsRelevanceValueImportanceItemsList
 ```
@@ -2156,7 +2156,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexDocumentMetadataConfigurationsRelevanceValueImportanceItemsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexDocumentMetadataConfigurationsRelevanceValueImportanceItemsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraIndexDocumentMetadataConfigurationsRelevanceValueImportanceItemsOutputReference
 ```
@@ -2445,7 +2445,7 @@ func InternalValue() DataAwsccKendraIndexDocumentMetadataConfigurationsRelevance
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexDocumentMetadataConfigurationsSearchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexDocumentMetadataConfigurationsSearchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraIndexDocumentMetadataConfigurationsSearchOutputReference
 ```
@@ -2738,7 +2738,7 @@ func InternalValue() DataAwsccKendraIndexDocumentMetadataConfigurationsSearch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexServerSideEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexServerSideEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraIndexServerSideEncryptionConfigurationOutputReference
 ```
@@ -2998,7 +2998,7 @@ func InternalValue() DataAwsccKendraIndexServerSideEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraIndexTagsList
 ```
@@ -3147,7 +3147,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraIndexTagsOutputReference
 ```
@@ -3436,7 +3436,7 @@ func InternalValue() DataAwsccKendraIndexTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexUserTokenConfigurationsJsonTokenTypeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexUserTokenConfigurationsJsonTokenTypeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraIndexUserTokenConfigurationsJsonTokenTypeConfigurationOutputReference
 ```
@@ -3707,7 +3707,7 @@ func InternalValue() DataAwsccKendraIndexUserTokenConfigurationsJsonTokenTypeCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputReference
 ```
@@ -4033,7 +4033,7 @@ func InternalValue() DataAwsccKendraIndexUserTokenConfigurationsJwtTokenTypeConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexUserTokenConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexUserTokenConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraIndexUserTokenConfigurationsList
 ```
@@ -4182,7 +4182,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraIndex.DataAwsccKendraIndexUserTokenConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraindex"
 
 dataawscckendraindex.NewDataAwsccKendraIndexUserTokenConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraIndexUserTokenConfigurationsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53RecoverycontrolRoutingControl <a name="DataAwsccRoute53RecoverycontrolRoutingControl" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolRoutingControl.DataAwsccRoute53RecoverycontrolRoutingControl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolRoutingControl.DataAwsccRoute53RecoverycontrolRoutingControl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolroutingcontrol"
 
 dataawsccroute53recoverycontrolroutingcontrol.NewDataAwsccRoute53RecoverycontrolRoutingControl(scope Construct, id *string, config DataAwsccRoute53RecoverycontrolRoutingControlConfig) DataAwsccRoute53RecoverycontrolRoutingControl
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolRoutingControl.DataAwsccRoute53RecoverycontrolRoutingControl.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolroutingcontrol"
 
 dataawsccroute53recoverycontrolroutingcontrol.DataAwsccRoute53RecoverycontrolRoutingControl_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolRoutingControl.DataAwsccRoute53RecoverycontrolRoutingControl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolroutingcontrol"
 
 dataawsccroute53recoverycontrolroutingcontrol.DataAwsccRoute53RecoverycontrolRoutingControl_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53recoverycontrolroutingcontrol.DataAwsccRoute53RecoverycontrolRou
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolRoutingControl.DataAwsccRoute53RecoverycontrolRoutingControl.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolroutingcontrol"
 
 dataawsccroute53recoverycontrolroutingcontrol.DataAwsccRoute53RecoverycontrolRoutingControl_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53recoverycontrolroutingcontrol.DataAwsccRoute53RecoverycontrolRou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolRoutingControl.DataAwsccRoute53RecoverycontrolRoutingControl.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolroutingcontrol"
 
 dataawsccroute53recoverycontrolroutingcontrol.DataAwsccRoute53RecoverycontrolRoutingControl_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Recoveryco
 
 The id of the existing DataAwsccRoute53RecoverycontrolRoutingControl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_routing_control#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_routing_control#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolRoutingControl.DataAwsccRoute53RecoverycontrolRoutingControlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolroutingcontrol"
 
 &dataawsccroute53recoverycontrolroutingcontrol.DataAwsccRoute53RecoverycontrolRoutingControlConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_routing_control#id DataAwsccRoute53RecoverycontrolRoutingControl#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_routing_control#id DataAwsccRoute53RecoverycontrolRoutingControl#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

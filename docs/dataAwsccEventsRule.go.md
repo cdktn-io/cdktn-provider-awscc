@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsRule <a name="DataAwsccEventsRule" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_rule awscc_events_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_rule awscc_events_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRule(scope Construct, id *string, config DataAwsccEventsRuleConfig) DataAwsccEventsRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.DataAwsccEventsRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.DataAwsccEventsRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsrule.DataAwsccEventsRule_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.DataAwsccEventsRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsrule.DataAwsccEventsRule_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.DataAwsccEventsRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsRule to imp
 
 The id of the existing DataAwsccEventsRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_rule#id DataAwsccEventsRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_rule#id DataAwsccEventsRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTags {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargets {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsAppSyncParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsAppSyncParameters {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsBatchParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsBatchParameters {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsBatchParametersArrayProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsBatchParametersArrayProperties {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsBatchParametersRetryStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsBatchParametersRetryStrategy {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsDeadLetterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsDeadLetterConfig {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsEcsParameters {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersCapacityProviderStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsEcsParametersCapacityProviderStrategy {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsEcsParametersNetworkConfiguration {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersPlacementConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsEcsParametersPlacementConstraints {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersPlacementStrategies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsEcsParametersPlacementStrategies {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersTagListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsEcsParametersTagListStruct {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsHttpParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsHttpParameters {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsInputTransformer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsInputTransformer {
 
@@ -1037,7 +1037,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsKinesisParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsKinesisParameters {
 
@@ -1050,7 +1050,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsRedshiftDataParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsRedshiftDataParameters {
 
@@ -1063,7 +1063,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsRetryPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsRetryPolicy {
 
@@ -1076,7 +1076,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsRunCommandParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsRunCommandParameters {
 
@@ -1089,7 +1089,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsRunCommandParametersRunCommandTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsRunCommandParametersRunCommandTargets {
 
@@ -1102,7 +1102,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsSageMakerPipelineParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsSageMakerPipelineParameters {
 
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStruct {
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsSqsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 &dataawscceventsrule.DataAwsccEventsRuleTargetsSqsParameters {
 
@@ -1143,7 +1143,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsRuleTagsList
 ```
@@ -1292,7 +1292,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsRuleTagsOutputReference
 ```
@@ -1581,7 +1581,7 @@ func InternalValue() DataAwsccEventsRuleTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsAppSyncParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsAppSyncParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsAppSyncParametersOutputReference
 ```
@@ -1841,7 +1841,7 @@ func InternalValue() DataAwsccEventsRuleTargetsAppSyncParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsBatchParametersArrayPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsBatchParametersArrayPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsBatchParametersArrayPropertiesOutputReference
 ```
@@ -2101,7 +2101,7 @@ func InternalValue() DataAwsccEventsRuleTargetsBatchParametersArrayProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsBatchParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsBatchParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsBatchParametersOutputReference
 ```
@@ -2394,7 +2394,7 @@ func InternalValue() DataAwsccEventsRuleTargetsBatchParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsBatchParametersRetryStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsBatchParametersRetryStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsBatchParametersRetryStrategyOutputReference
 ```
@@ -2654,7 +2654,7 @@ func InternalValue() DataAwsccEventsRuleTargetsBatchParametersRetryStrategy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsDeadLetterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsDeadLetterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsDeadLetterConfigOutputReference
 ```
@@ -2914,7 +2914,7 @@ func InternalValue() DataAwsccEventsRuleTargetsDeadLetterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersCapacityProviderStrategyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsEcsParametersCapacityProviderStrategyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsRuleTargetsEcsParametersCapacityProviderStrategyList
 ```
@@ -3063,7 +3063,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersCapacityProviderStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsEcsParametersCapacityProviderStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsRuleTargetsEcsParametersCapacityProviderStrategyOutputReference
 ```
@@ -3363,7 +3363,7 @@ func InternalValue() DataAwsccEventsRuleTargetsEcsParametersCapacityProviderStra
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfigurationOutputReference
 ```
@@ -3645,7 +3645,7 @@ func InternalValue() DataAwsccEventsRuleTargetsEcsParametersNetworkConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsEcsParametersNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsEcsParametersNetworkConfigurationOutputReference
 ```
@@ -3905,7 +3905,7 @@ func InternalValue() DataAwsccEventsRuleTargetsEcsParametersNetworkConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsEcsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsEcsParametersOutputReference
 ```
@@ -4308,7 +4308,7 @@ func InternalValue() DataAwsccEventsRuleTargetsEcsParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersPlacementConstraintsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsEcsParametersPlacementConstraintsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsRuleTargetsEcsParametersPlacementConstraintsList
 ```
@@ -4457,7 +4457,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersPlacementConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsEcsParametersPlacementConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsRuleTargetsEcsParametersPlacementConstraintsOutputReference
 ```
@@ -4746,7 +4746,7 @@ func InternalValue() DataAwsccEventsRuleTargetsEcsParametersPlacementConstraints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersPlacementStrategiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsEcsParametersPlacementStrategiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsRuleTargetsEcsParametersPlacementStrategiesList
 ```
@@ -4895,7 +4895,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersPlacementStrategiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsEcsParametersPlacementStrategiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsRuleTargetsEcsParametersPlacementStrategiesOutputReference
 ```
@@ -5184,7 +5184,7 @@ func InternalValue() DataAwsccEventsRuleTargetsEcsParametersPlacementStrategies
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersTagListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsEcsParametersTagListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsRuleTargetsEcsParametersTagListStructList
 ```
@@ -5333,7 +5333,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsEcsParametersTagListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsEcsParametersTagListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsRuleTargetsEcsParametersTagListStructOutputReference
 ```
@@ -5622,7 +5622,7 @@ func InternalValue() DataAwsccEventsRuleTargetsEcsParametersTagListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsHttpParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsHttpParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsHttpParametersOutputReference
 ```
@@ -5904,7 +5904,7 @@ func InternalValue() DataAwsccEventsRuleTargetsHttpParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsInputTransformerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsInputTransformerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsInputTransformerOutputReference
 ```
@@ -6175,7 +6175,7 @@ func InternalValue() DataAwsccEventsRuleTargetsInputTransformer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsKinesisParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsKinesisParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsKinesisParametersOutputReference
 ```
@@ -6435,7 +6435,7 @@ func InternalValue() DataAwsccEventsRuleTargetsKinesisParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsRuleTargetsList
 ```
@@ -6584,7 +6584,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsRuleTargetsOutputReference
 ```
@@ -7038,7 +7038,7 @@ func InternalValue() DataAwsccEventsRuleTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsRedshiftDataParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsRedshiftDataParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsRedshiftDataParametersOutputReference
 ```
@@ -7364,7 +7364,7 @@ func InternalValue() DataAwsccEventsRuleTargetsRedshiftDataParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsRetryPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsRetryPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsRetryPolicyOutputReference
 ```
@@ -7635,7 +7635,7 @@ func InternalValue() DataAwsccEventsRuleTargetsRetryPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsRunCommandParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsRunCommandParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsRunCommandParametersOutputReference
 ```
@@ -7895,7 +7895,7 @@ func InternalValue() DataAwsccEventsRuleTargetsRunCommandParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsRunCommandParametersRunCommandTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsRunCommandParametersRunCommandTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsRuleTargetsRunCommandParametersRunCommandTargetsList
 ```
@@ -8044,7 +8044,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsRunCommandParametersRunCommandTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsRunCommandParametersRunCommandTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsRuleTargetsRunCommandParametersRunCommandTargetsOutputReference
 ```
@@ -8333,7 +8333,7 @@ func InternalValue() DataAwsccEventsRuleTargetsRunCommandParametersRunCommandTar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsSageMakerPipelineParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsSageMakerPipelineParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsSageMakerPipelineParametersOutputReference
 ```
@@ -8593,7 +8593,7 @@ func InternalValue() DataAwsccEventsRuleTargetsSageMakerPipelineParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructList
 ```
@@ -8742,7 +8742,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructOutputReference
 ```
@@ -9031,7 +9031,7 @@ func InternalValue() DataAwsccEventsRuleTargetsSageMakerPipelineParametersPipeli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRule.DataAwsccEventsRuleTargetsSqsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrule"
 
 dataawscceventsrule.NewDataAwsccEventsRuleTargetsSqsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsRuleTargetsSqsParametersOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccMediatailorVodSource <a name="DataAwsccMediatailorVodSource" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_vod_source awscc_mediatailor_vod_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_vod_source awscc_mediatailor_vod_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 dataawsccmediatailorvodsource.NewDataAwsccMediatailorVodSource(scope Construct, id *string, config DataAwsccMediatailorVodSourceConfig) DataAwsccMediatailorVodSource
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 dataawsccmediatailorvodsource.DataAwsccMediatailorVodSource_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 dataawsccmediatailorvodsource.DataAwsccMediatailorVodSource_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediatailorvodsource.DataAwsccMediatailorVodSource_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSource.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 dataawsccmediatailorvodsource.DataAwsccMediatailorVodSource_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediatailorvodsource.DataAwsccMediatailorVodSource_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 dataawsccmediatailorvodsource.DataAwsccMediatailorVodSource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediatailorVodSou
 
 The id of the existing DataAwsccMediatailorVodSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_vod_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_vod_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 &dataawsccmediatailorvodsource.DataAwsccMediatailorVodSourceConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_vod_source#id DataAwsccMediatailorVodSource#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_vod_source#id DataAwsccMediatailorVodSource#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSourceHttpPackageConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 &dataawsccmediatailorvodsource.DataAwsccMediatailorVodSourceHttpPackageConfigurations {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 &dataawsccmediatailorvodsource.DataAwsccMediatailorVodSourceTags {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSourceHttpPackageConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 dataawsccmediatailorvodsource.NewDataAwsccMediatailorVodSourceHttpPackageConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorVodSourceHttpPackageConfigurationsList
 ```
@@ -940,7 +940,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSourceHttpPackageConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 dataawsccmediatailorvodsource.NewDataAwsccMediatailorVodSourceHttpPackageConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorVodSourceHttpPackageConfigurationsOutputReference
 ```
@@ -1240,7 +1240,7 @@ func InternalValue() DataAwsccMediatailorVodSourceHttpPackageConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 dataawsccmediatailorvodsource.NewDataAwsccMediatailorVodSourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorVodSourceTagsList
 ```
@@ -1389,7 +1389,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorVodSource.DataAwsccMediatailorVodSourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorvodsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorvodsource"
 
 dataawsccmediatailorvodsource.NewDataAwsccMediatailorVodSourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorVodSourceTagsOutputReference
 ```

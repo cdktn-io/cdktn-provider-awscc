@@ -4,12 +4,12 @@
 
 ### Ec2Vpc <a name="Ec2Vpc" id="@cdktn/provider-awscc.ec2Vpc.Ec2Vpc"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc awscc_ec2_vpc}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc awscc_ec2_vpc}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2Vpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2Vpc(scope Construct, id *string, config Ec2VpcConfig) Ec2Vpc
 ```
@@ -482,7 +482,7 @@ func ResetVpcEncryptionControl()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2Vpc.Ec2Vpc.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.Ec2Vpc_IsConstruct(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2Vpc.Ec2Vpc.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.Ec2Vpc_IsTerraformElement(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ ec2vpc.Ec2Vpc_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2Vpc.Ec2Vpc.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.Ec2Vpc_IsTerraformResource(x interface{}) *bool
 ```
@@ -542,7 +542,7 @@ ec2vpc.Ec2Vpc_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2Vpc.Ec2Vpc.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.Ec2Vpc_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -571,7 +571,7 @@ The construct id used in the generated config for the Ec2Vpc to import.
 
 The id of the existing Ec2Vpc that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1013,7 +1013,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcConfig {
 	Connection: interface{},
@@ -1030,7 +1030,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
 	Ipv4IpamPoolId: *string,
 	Ipv4NetmaskLength: *f64,
 	Tags: interface{},
-	VpcEncryptionControl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2Vpc.Ec2VpcVpcEncryptionControl,
+	VpcEncryptionControl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2Vpc.Ec2VpcVpcEncryptionControl,
 }
 ```
 
@@ -1139,7 +1139,7 @@ The IPv4 network range for the VPC, in CIDR notation.
 For example, `10.0.0.0/16`. We modify the specified CIDR block to its canonical form; for example, if you specify `100.68.0.18/18`, we modify it to `100.68.0.0/18`.
 You must specify either`CidrBlock` or `Ipv4IpamPoolId`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#cidr_block Ec2Vpc#cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#cidr_block Ec2Vpc#cidr_block}
 
 ---
 
@@ -1156,7 +1156,7 @@ Indicates whether the instances launched in the VPC get DNS hostnames.
 If enabled, instances in the VPC get DNS hostnames; otherwise, they do not. Disabled by default for nondefault VPCs. For more information, see [DNS attributes in your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-dns.html#vpc-dns-support).
 You can only enable DNS hostnames if you've enabled DNS support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#enable_dns_hostnames Ec2Vpc#enable_dns_hostnames}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#enable_dns_hostnames Ec2Vpc#enable_dns_hostnames}
 
 ---
 
@@ -1172,7 +1172,7 @@ Indicates whether the DNS resolution is supported for the VPC.
 
 If enabled, queries to the Amazon provided DNS server at the 169.254.169.253 IP address, or the reserved IP address at the base of the VPC network range "plus two" succeed. If disabled, the Amazon provided DNS service in the VPC that resolves public DNS hostnames to IP addresses is not enabled. Enabled by default. For more information, see [DNS attributes in your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-dns.html#vpc-dns-support).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#enable_dns_support Ec2Vpc#enable_dns_support}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#enable_dns_support Ec2Vpc#enable_dns_support}
 
 ---
 
@@ -1191,7 +1191,7 @@ The allowed tenancy of instances launched into the VPC.
 
 Updating `InstanceTenancy` requires no replacement only if you are updating its value from `dedicated` to `default`. Updating `InstanceTenancy` from `default` to `dedicated` requires replacement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#instance_tenancy Ec2Vpc#instance_tenancy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#instance_tenancy Ec2Vpc#instance_tenancy}
 
 ---
 
@@ -1208,7 +1208,7 @@ The ID of an IPv4 IPAM pool you want to use for allocating this VPC's CIDR.
 For more information, see [What is IPAM?](https://docs.aws.amazon.com//vpc/latest/ipam/what-is-it-ipam.html) in the *Amazon VPC IPAM User Guide*.
 You must specify either`CidrBlock` or `Ipv4IpamPoolId`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#ipv_4_ipam_pool_id Ec2Vpc#ipv_4_ipam_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#ipv_4_ipam_pool_id Ec2Vpc#ipv_4_ipam_pool_id}
 
 ---
 
@@ -1224,7 +1224,7 @@ The netmask length of the IPv4 CIDR you want to allocate to this VPC from an Ama
 
 For more information about IPAM, see [What is IPAM?](https://docs.aws.amazon.com//vpc/latest/ipam/what-is-it-ipam.html) in the *Amazon VPC IPAM User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#ipv_4_netmask_length Ec2Vpc#ipv_4_netmask_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#ipv_4_netmask_length Ec2Vpc#ipv_4_netmask_length}
 
 ---
 
@@ -1238,7 +1238,7 @@ Tags interface{}
 
 The tags for the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#tags Ec2Vpc#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#tags Ec2Vpc#tags}
 
 ---
 
@@ -1254,7 +1254,7 @@ Describes the configuration and state of VPC encryption controls.
 
 For more information, see [Enforce VPC encryption in transit](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-encryption-controls.html) in the *Amazon VPC User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#vpc_encryption_control Ec2Vpc#vpc_encryption_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#vpc_encryption_control Ec2Vpc#vpc_encryption_control}
 
 ---
 
@@ -1263,7 +1263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcTags {
 	Key: *string,
@@ -1290,7 +1290,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#key Ec2Vpc#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#key Ec2Vpc#key}
 
 ---
 
@@ -1304,7 +1304,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#value Ec2Vpc#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#value Ec2Vpc#value}
 
 ---
 
@@ -1313,7 +1313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcVpcEncryptionControl {
 	EgressOnlyInternetGatewayExclusion: *string,
@@ -1332,15 +1332,15 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.egressOnlyInternetGatewayExclusion">EgressOnlyInternetGatewayExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#egress_only_internet_gateway_exclusion Ec2Vpc#egress_only_internet_gateway_exclusion}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.elasticFileSystemExclusion">ElasticFileSystemExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#elastic_file_system_exclusion Ec2Vpc#elastic_file_system_exclusion}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.internetGatewayExclusion">InternetGatewayExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#internet_gateway_exclusion Ec2Vpc#internet_gateway_exclusion}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.lambdaExclusion">LambdaExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#lambda_exclusion Ec2Vpc#lambda_exclusion}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.egressOnlyInternetGatewayExclusion">EgressOnlyInternetGatewayExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#egress_only_internet_gateway_exclusion Ec2Vpc#egress_only_internet_gateway_exclusion}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.elasticFileSystemExclusion">ElasticFileSystemExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#elastic_file_system_exclusion Ec2Vpc#elastic_file_system_exclusion}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.internetGatewayExclusion">InternetGatewayExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#internet_gateway_exclusion Ec2Vpc#internet_gateway_exclusion}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.lambdaExclusion">LambdaExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#lambda_exclusion Ec2Vpc#lambda_exclusion}. |
 | <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.mode">Mode</a></code> | <code>*string</code> | The encryption mode for the VPC Encryption Control configuration. |
-| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.natGatewayExclusion">NatGatewayExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#nat_gateway_exclusion Ec2Vpc#nat_gateway_exclusion}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.virtualPrivateGatewayExclusion">VirtualPrivateGatewayExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#virtual_private_gateway_exclusion Ec2Vpc#virtual_private_gateway_exclusion}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.vpcLatticeExclusion">VpcLatticeExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#vpc_lattice_exclusion Ec2Vpc#vpc_lattice_exclusion}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.vpcPeeringExclusion">VpcPeeringExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#vpc_peering_exclusion Ec2Vpc#vpc_peering_exclusion}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.natGatewayExclusion">NatGatewayExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#nat_gateway_exclusion Ec2Vpc#nat_gateway_exclusion}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.virtualPrivateGatewayExclusion">VirtualPrivateGatewayExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#virtual_private_gateway_exclusion Ec2Vpc#virtual_private_gateway_exclusion}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.vpcLatticeExclusion">VpcLatticeExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#vpc_lattice_exclusion Ec2Vpc#vpc_lattice_exclusion}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControl.property.vpcPeeringExclusion">VpcPeeringExclusion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#vpc_peering_exclusion Ec2Vpc#vpc_peering_exclusion}. |
 
 ---
 
@@ -1352,7 +1352,7 @@ EgressOnlyInternetGatewayExclusion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#egress_only_internet_gateway_exclusion Ec2Vpc#egress_only_internet_gateway_exclusion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#egress_only_internet_gateway_exclusion Ec2Vpc#egress_only_internet_gateway_exclusion}.
 
 ---
 
@@ -1364,7 +1364,7 @@ ElasticFileSystemExclusion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#elastic_file_system_exclusion Ec2Vpc#elastic_file_system_exclusion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#elastic_file_system_exclusion Ec2Vpc#elastic_file_system_exclusion}.
 
 ---
 
@@ -1376,7 +1376,7 @@ InternetGatewayExclusion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#internet_gateway_exclusion Ec2Vpc#internet_gateway_exclusion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#internet_gateway_exclusion Ec2Vpc#internet_gateway_exclusion}.
 
 ---
 
@@ -1388,7 +1388,7 @@ LambdaExclusion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#lambda_exclusion Ec2Vpc#lambda_exclusion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#lambda_exclusion Ec2Vpc#lambda_exclusion}.
 
 ---
 
@@ -1402,7 +1402,7 @@ Mode *string
 
 The encryption mode for the VPC Encryption Control configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#mode Ec2Vpc#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#mode Ec2Vpc#mode}
 
 ---
 
@@ -1414,7 +1414,7 @@ NatGatewayExclusion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#nat_gateway_exclusion Ec2Vpc#nat_gateway_exclusion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#nat_gateway_exclusion Ec2Vpc#nat_gateway_exclusion}.
 
 ---
 
@@ -1426,7 +1426,7 @@ VirtualPrivateGatewayExclusion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#virtual_private_gateway_exclusion Ec2Vpc#virtual_private_gateway_exclusion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#virtual_private_gateway_exclusion Ec2Vpc#virtual_private_gateway_exclusion}.
 
 ---
 
@@ -1438,7 +1438,7 @@ VpcLatticeExclusion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#vpc_lattice_exclusion Ec2Vpc#vpc_lattice_exclusion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#vpc_lattice_exclusion Ec2Vpc#vpc_lattice_exclusion}.
 
 ---
 
@@ -1450,7 +1450,7 @@ VpcPeeringExclusion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc#vpc_peering_exclusion Ec2Vpc#vpc_peering_exclusion}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc#vpc_peering_exclusion Ec2Vpc#vpc_peering_exclusion}.
 
 ---
 
@@ -1459,7 +1459,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcVpcEncryptionControlResourceExclusions {
 
@@ -1472,7 +1472,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGateway {
 
@@ -1485,7 +1485,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystem {
 
@@ -1498,7 +1498,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsInternetGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcVpcEncryptionControlResourceExclusionsInternetGateway {
 
@@ -1511,7 +1511,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcVpcEncryptionControlResourceExclusionsLambda {
 
@@ -1524,7 +1524,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsNatGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcVpcEncryptionControlResourceExclusionsNatGateway {
 
@@ -1537,7 +1537,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGateway {
 
@@ -1550,7 +1550,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsVpcLattice.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcVpcEncryptionControlResourceExclusionsVpcLattice {
 
@@ -1563,7 +1563,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsVpcPeering.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 &ec2vpc.Ec2VpcVpcEncryptionControlResourceExclusionsVpcPeering {
 
@@ -1578,7 +1578,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2VpcTagsList
 ```
@@ -1738,7 +1738,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2VpcTagsOutputReference
 ```
@@ -2063,7 +2063,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcVpcEncryptionControlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VpcVpcEncryptionControlOutputReference
 ```
@@ -2628,7 +2628,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference
 ```
@@ -2899,7 +2899,7 @@ func InternalValue() Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcVpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference
 ```
@@ -3170,7 +3170,7 @@ func InternalValue() Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSyst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsInternetGatewayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcVpcEncryptionControlResourceExclusionsInternetGatewayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VpcVpcEncryptionControlResourceExclusionsInternetGatewayOutputReference
 ```
@@ -3441,7 +3441,7 @@ func InternalValue() Ec2VpcVpcEncryptionControlResourceExclusionsInternetGateway
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcVpcEncryptionControlResourceExclusionsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VpcVpcEncryptionControlResourceExclusionsLambdaOutputReference
 ```
@@ -3712,7 +3712,7 @@ func InternalValue() Ec2VpcVpcEncryptionControlResourceExclusionsLambda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsNatGatewayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcVpcEncryptionControlResourceExclusionsNatGatewayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VpcVpcEncryptionControlResourceExclusionsNatGatewayOutputReference
 ```
@@ -3983,7 +3983,7 @@ func InternalValue() Ec2VpcVpcEncryptionControlResourceExclusionsNatGateway
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcVpcEncryptionControlResourceExclusionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VpcVpcEncryptionControlResourceExclusionsOutputReference
 ```
@@ -4320,7 +4320,7 @@ func InternalValue() Ec2VpcVpcEncryptionControlResourceExclusions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference
 ```
@@ -4591,7 +4591,7 @@ func InternalValue() Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateG
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsVpcLatticeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcVpcEncryptionControlResourceExclusionsVpcLatticeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VpcVpcEncryptionControlResourceExclusionsVpcLatticeOutputReference
 ```
@@ -4862,7 +4862,7 @@ func InternalValue() Ec2VpcVpcEncryptionControlResourceExclusionsVpcLattice
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Vpc.Ec2VpcVpcEncryptionControlResourceExclusionsVpcPeeringOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpc"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpc"
 
 ec2vpc.NewEc2VpcVpcEncryptionControlResourceExclusionsVpcPeeringOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VpcVpcEncryptionControlResourceExclusionsVpcPeeringOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### WorkspacesinstancesVolume <a name="WorkspacesinstancesVolume" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolume"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume awscc_workspacesinstances_volume}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume awscc_workspacesinstances_volume}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolume.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 workspacesinstancesvolume.NewWorkspacesinstancesVolume(scope Construct, id *string, config WorkspacesinstancesVolumeConfig) WorkspacesinstancesVolume
 ```
@@ -469,7 +469,7 @@ func ResetVolumeType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolume.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 workspacesinstancesvolume.WorkspacesinstancesVolume_IsConstruct(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolume.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 workspacesinstancesvolume.WorkspacesinstancesVolume_IsTerraformElement(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ workspacesinstancesvolume.WorkspacesinstancesVolume_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolume.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 workspacesinstancesvolume.WorkspacesinstancesVolume_IsTerraformResource(x interface{}) *bool
 ```
@@ -529,7 +529,7 @@ workspacesinstancesvolume.WorkspacesinstancesVolume_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolume.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 workspacesinstancesvolume.WorkspacesinstancesVolume_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -558,7 +558,7 @@ The construct id used in the generated config for the WorkspacesinstancesVolume 
 
 The id of the existing WorkspacesinstancesVolume that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -978,7 +978,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolumeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 &workspacesinstancesvolume.WorkspacesinstancesVolumeConfig {
 	Connection: interface{},
@@ -1103,7 +1103,7 @@ AvailabilityZone *string
 
 The Availability Zone in which to create the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#availability_zone WorkspacesinstancesVolume#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#availability_zone WorkspacesinstancesVolume#availability_zone}
 
 ---
 
@@ -1117,7 +1117,7 @@ Encrypted interface{}
 
 Indicates whether the volume should be encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#encrypted WorkspacesinstancesVolume#encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#encrypted WorkspacesinstancesVolume#encrypted}
 
 ---
 
@@ -1131,7 +1131,7 @@ Iops *f64
 
 The number of I/O operations per second (IOPS).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#iops WorkspacesinstancesVolume#iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#iops WorkspacesinstancesVolume#iops}
 
 ---
 
@@ -1145,7 +1145,7 @@ KmsKeyId *string
 
 The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to use for Amazon EBS encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#kms_key_id WorkspacesinstancesVolume#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#kms_key_id WorkspacesinstancesVolume#kms_key_id}
 
 ---
 
@@ -1159,7 +1159,7 @@ SizeInGb *f64
 
 The size of the volume, in GiBs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#size_in_gb WorkspacesinstancesVolume#size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#size_in_gb WorkspacesinstancesVolume#size_in_gb}
 
 ---
 
@@ -1173,7 +1173,7 @@ SnapshotId *string
 
 The snapshot from which to create the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#snapshot_id WorkspacesinstancesVolume#snapshot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#snapshot_id WorkspacesinstancesVolume#snapshot_id}
 
 ---
 
@@ -1187,7 +1187,7 @@ TagSpecifications interface{}
 
 The tags passed to EBS volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#tag_specifications WorkspacesinstancesVolume#tag_specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#tag_specifications WorkspacesinstancesVolume#tag_specifications}
 
 ---
 
@@ -1201,7 +1201,7 @@ Throughput *f64
 
 The throughput to provision for a volume, with a maximum of 1,000 MiB/s.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#throughput WorkspacesinstancesVolume#throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#throughput WorkspacesinstancesVolume#throughput}
 
 ---
 
@@ -1215,7 +1215,7 @@ VolumeType *string
 
 The volume type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#volume_type WorkspacesinstancesVolume#volume_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#volume_type WorkspacesinstancesVolume#volume_type}
 
 ---
 
@@ -1224,7 +1224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolumeTagSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 &workspacesinstancesvolume.WorkspacesinstancesVolumeTagSpecifications {
 	ResourceType: *string,
@@ -1236,7 +1236,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvol
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolumeTagSpecifications.property.resourceType">ResourceType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#resource_type WorkspacesinstancesVolume#resource_type}. |
+| <code><a href="#@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolumeTagSpecifications.property.resourceType">ResourceType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#resource_type WorkspacesinstancesVolume#resource_type}. |
 | <code><a href="#@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolumeTagSpecifications.property.tags">Tags</a></code> | <code>interface{}</code> | The tags to apply to the resource. |
 
 ---
@@ -1249,7 +1249,7 @@ ResourceType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#resource_type WorkspacesinstancesVolume#resource_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#resource_type WorkspacesinstancesVolume#resource_type}.
 
 ---
 
@@ -1263,7 +1263,7 @@ Tags interface{}
 
 The tags to apply to the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#tags WorkspacesinstancesVolume#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#tags WorkspacesinstancesVolume#tags}
 
 ---
 
@@ -1272,7 +1272,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolumeTagSpecificationsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 &workspacesinstancesvolume.WorkspacesinstancesVolumeTagSpecificationsTags {
 	Key: *string,
@@ -1299,7 +1299,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#key WorkspacesinstancesVolume#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#key WorkspacesinstancesVolume#key}
 
 ---
 
@@ -1313,7 +1313,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume#value WorkspacesinstancesVolume#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume#value WorkspacesinstancesVolume#value}
 
 ---
 
@@ -1324,7 +1324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolumeTagSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 workspacesinstancesvolume.NewWorkspacesinstancesVolumeTagSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WorkspacesinstancesVolumeTagSpecificationsList
 ```
@@ -1484,7 +1484,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolumeTagSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 workspacesinstancesvolume.NewWorkspacesinstancesVolumeTagSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WorkspacesinstancesVolumeTagSpecificationsOutputReference
 ```
@@ -1822,7 +1822,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolumeTagSpecificationsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 workspacesinstancesvolume.NewWorkspacesinstancesVolumeTagSpecificationsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WorkspacesinstancesVolumeTagSpecificationsTagsList
 ```
@@ -1982,7 +1982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesinstancesVolume.WorkspacesinstancesVolumeTagSpecificationsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolume"
 
 workspacesinstancesvolume.NewWorkspacesinstancesVolumeTagSpecificationsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WorkspacesinstancesVolumeTagSpecificationsTagsOutputReference
 ```

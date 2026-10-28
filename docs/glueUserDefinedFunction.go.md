@@ -4,12 +4,12 @@
 
 ### GlueUserDefinedFunction <a name="GlueUserDefinedFunction" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_user_defined_function awscc_glue_user_defined_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_user_defined_function awscc_glue_user_defined_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueuserdefinedfunction"
 
 glueuserdefinedfunction.NewGlueUserDefinedFunction(scope Construct, id *string, config GlueUserDefinedFunctionConfig) GlueUserDefinedFunction
 ```
@@ -448,7 +448,7 @@ func ResetResourceUris()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueuserdefinedfunction"
 
 glueuserdefinedfunction.GlueUserDefinedFunction_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueuserdefinedfunction"
 
 glueuserdefinedfunction.GlueUserDefinedFunction_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ glueuserdefinedfunction.GlueUserDefinedFunction_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueuserdefinedfunction"
 
 glueuserdefinedfunction.GlueUserDefinedFunction_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ glueuserdefinedfunction.GlueUserDefinedFunction_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueuserdefinedfunction"
 
 glueuserdefinedfunction.GlueUserDefinedFunction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GlueUserDefinedFunction to
 
 The id of the existing GlueUserDefinedFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -913,7 +913,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueuserdefinedfunction"
 
 &glueuserdefinedfunction.GlueUserDefinedFunctionConfig {
 	Connection: interface{},
@@ -1034,7 +1034,7 @@ DatabaseName *string
 
 The name of the catalog database in which the function is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_user_defined_function#database_name GlueUserDefinedFunction#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_user_defined_function#database_name GlueUserDefinedFunction#database_name}
 
 ---
 
@@ -1048,7 +1048,7 @@ FunctionName *string
 
 The name of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_user_defined_function#function_name GlueUserDefinedFunction#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_user_defined_function#function_name GlueUserDefinedFunction#function_name}
 
 ---
 
@@ -1062,7 +1062,7 @@ ClassName *string
 
 The Java class that contains the function code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_user_defined_function#class_name GlueUserDefinedFunction#class_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_user_defined_function#class_name GlueUserDefinedFunction#class_name}
 
 ---
 
@@ -1076,7 +1076,7 @@ FunctionType *string
 
 The type of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_user_defined_function#function_type GlueUserDefinedFunction#function_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_user_defined_function#function_type GlueUserDefinedFunction#function_type}
 
 ---
 
@@ -1090,7 +1090,7 @@ OwnerName *string
 
 The owner of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_user_defined_function#owner_name GlueUserDefinedFunction#owner_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_user_defined_function#owner_name GlueUserDefinedFunction#owner_name}
 
 ---
 
@@ -1104,7 +1104,7 @@ OwnerType *string
 
 The owner type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_user_defined_function#owner_type GlueUserDefinedFunction#owner_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_user_defined_function#owner_type GlueUserDefinedFunction#owner_type}
 
 ---
 
@@ -1118,7 +1118,7 @@ ResourceUris interface{}
 
 The resource URIs for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_user_defined_function#resource_uris GlueUserDefinedFunction#resource_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_user_defined_function#resource_uris GlueUserDefinedFunction#resource_uris}
 
 ---
 
@@ -1127,7 +1127,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueuserdefinedfunction"
 
 &glueuserdefinedfunction.GlueUserDefinedFunctionResourceUris {
 	ResourceType: *string,
@@ -1154,7 +1154,7 @@ ResourceType *string
 
 The type of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_user_defined_function#resource_type GlueUserDefinedFunction#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_user_defined_function#resource_type GlueUserDefinedFunction#resource_type}
 
 ---
 
@@ -1168,7 +1168,7 @@ Uri *string
 
 The URI for accessing the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_user_defined_function#uri GlueUserDefinedFunction#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_user_defined_function#uri GlueUserDefinedFunction#uri}
 
 ---
 
@@ -1179,7 +1179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueuserdefinedfunction"
 
 glueuserdefinedfunction.NewGlueUserDefinedFunctionResourceUrisList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueUserDefinedFunctionResourceUrisList
 ```
@@ -1339,7 +1339,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueuserdefinedfunction"
 
 glueuserdefinedfunction.NewGlueUserDefinedFunctionResourceUrisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueUserDefinedFunctionResourceUrisOutputReference
 ```

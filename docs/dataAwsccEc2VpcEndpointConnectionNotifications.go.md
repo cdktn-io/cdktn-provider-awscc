@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VpcEndpointConnectionNotifications <a name="DataAwsccEc2VpcEndpointConnectionNotifications" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointConnectionNotifications.DataAwsccEc2VpcEndpointConnectionNotifications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications awscc_ec2_vpc_endpoint_connection_notifications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications awscc_ec2_vpc_endpoint_connection_notifications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointConnectionNotifications.DataAwsccEc2VpcEndpointConnectionNotifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointconnectionnotifications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointconnectionnotifications"
 
 dataawsccec2vpcendpointconnectionnotifications.NewDataAwsccEc2VpcEndpointConnectionNotifications(scope Construct, id *string, config DataAwsccEc2VpcEndpointConnectionNotificationsConfig) DataAwsccEc2VpcEndpointConnectionNotifications
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointConnectionNotifications.DataAwsccEc2VpcEndpointConnectionNotifications.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointconnectionnotifications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointconnectionnotifications"
 
 dataawsccec2vpcendpointconnectionnotifications.DataAwsccEc2VpcEndpointConnectionNotifications_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointConnectionNotifications.DataAwsccEc2VpcEndpointConnectionNotifications.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointconnectionnotifications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointconnectionnotifications"
 
 dataawsccec2vpcendpointconnectionnotifications.DataAwsccEc2VpcEndpointConnectionNotifications_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2vpcendpointconnectionnotifications.DataAwsccEc2VpcEndpointConnection
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointConnectionNotifications.DataAwsccEc2VpcEndpointConnectionNotifications.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointconnectionnotifications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointconnectionnotifications"
 
 dataawsccec2vpcendpointconnectionnotifications.DataAwsccEc2VpcEndpointConnectionNotifications_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2vpcendpointconnectionnotifications.DataAwsccEc2VpcEndpointConnection
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointConnectionNotifications.DataAwsccEc2VpcEndpointConnectionNotifications.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointconnectionnotifications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointconnectionnotifications"
 
 dataawsccec2vpcendpointconnectionnotifications.DataAwsccEc2VpcEndpointConnectionNotifications_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpcEndpointCon
 
 The id of the existing DataAwsccEc2VpcEndpointConnectionNotifications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointConnectionNotifications.DataAwsccEc2VpcEndpointConnectionNotificationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointconnectionnotifications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointconnectionnotifications"
 
 &dataawsccec2vpcendpointconnectionnotifications.DataAwsccEc2VpcEndpointConnectionNotificationsConfig {
 	Connection: interface{},

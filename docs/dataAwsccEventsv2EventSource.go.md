@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsv2EventSource <a name="DataAwsccEventsv2EventSource" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_event_source awscc_eventsv2_event_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_event_source awscc_eventsv2_event_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.NewDataAwsccEventsv2EventSource(scope Construct, id *string, config DataAwsccEventsv2EventSourceConfig) DataAwsccEventsv2EventSource
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.DataAwsccEventsv2EventSource_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.DataAwsccEventsv2EventSource_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsv2eventsource.DataAwsccEventsv2EventSource_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSource.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.DataAwsccEventsv2EventSource_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsv2eventsource.DataAwsccEventsv2EventSource_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.DataAwsccEventsv2EventSource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsv2EventSour
 
 The id of the existing DataAwsccEventsv2EventSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_event_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_event_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 &dataawscceventsv2eventsource.DataAwsccEventsv2EventSourceConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_event_source#id DataAwsccEventsv2EventSource#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_event_source#id DataAwsccEventsv2EventSource#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 &dataawscceventsv2eventsource.DataAwsccEventsv2EventSourceConfiguration {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2event
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceConfigurationAwsServiceEventsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 &dataawscceventsv2eventsource.DataAwsccEventsv2EventSourceConfigurationAwsServiceEventsConfiguration {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2event
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceConfigurationAwsServiceEventsConfigurationOnFailureConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 &dataawscceventsv2eventsource.DataAwsccEventsv2EventSourceConfigurationAwsServiceEventsConfigurationOnFailureConfiguration {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2event
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceConfigurationPartnerEventsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 &dataawscceventsv2eventsource.DataAwsccEventsv2EventSourceConfigurationPartnerEventsConfiguration {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2event
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceConfigurationPartnerEventsConfigurationOnFailureConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 &dataawscceventsv2eventsource.DataAwsccEventsv2EventSourceConfigurationPartnerEventsConfigurationOnFailureConfiguration {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2event
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 &dataawscceventsv2eventsource.DataAwsccEventsv2EventSourceTags {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2event
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceConfigurationAwsServiceEventsConfigurationOnFailureConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.NewDataAwsccEventsv2EventSourceConfigurationAwsServiceEventsConfigurationOnFailureConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsv2EventSourceConfigurationAwsServiceEventsConfigurationOnFailureConfigurationOutputReference
 ```
@@ -1158,7 +1158,7 @@ func InternalValue() DataAwsccEventsv2EventSourceConfigurationAwsServiceEventsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceConfigurationAwsServiceEventsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.NewDataAwsccEventsv2EventSourceConfigurationAwsServiceEventsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsv2EventSourceConfigurationAwsServiceEventsConfigurationOutputReference
 ```
@@ -1440,7 +1440,7 @@ func InternalValue() DataAwsccEventsv2EventSourceConfigurationAwsServiceEventsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.NewDataAwsccEventsv2EventSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsv2EventSourceConfigurationOutputReference
 ```
@@ -1711,7 +1711,7 @@ func InternalValue() DataAwsccEventsv2EventSourceConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceConfigurationPartnerEventsConfigurationOnFailureConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.NewDataAwsccEventsv2EventSourceConfigurationPartnerEventsConfigurationOnFailureConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsv2EventSourceConfigurationPartnerEventsConfigurationOnFailureConfigurationOutputReference
 ```
@@ -1971,7 +1971,7 @@ func InternalValue() DataAwsccEventsv2EventSourceConfigurationPartnerEventsConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceConfigurationPartnerEventsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.NewDataAwsccEventsv2EventSourceConfigurationPartnerEventsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsv2EventSourceConfigurationPartnerEventsConfigurationOutputReference
 ```
@@ -2264,7 +2264,7 @@ func InternalValue() DataAwsccEventsv2EventSourceConfigurationPartnerEventsConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.NewDataAwsccEventsv2EventSourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsv2EventSourceTagsList
 ```
@@ -2413,7 +2413,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSource.DataAwsccEventsv2EventSourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventsource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventsource"
 
 dataawscceventsv2eventsource.NewDataAwsccEventsv2EventSourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsv2EventSourceTagsOutputReference
 ```

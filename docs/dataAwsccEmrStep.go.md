@@ -4,12 +4,12 @@
 
 ### DataAwsccEmrStep <a name="DataAwsccEmrStep" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStep"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_step awscc_emr_step}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_step awscc_emr_step}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStep.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstep"
 
 dataawsccemrstep.NewDataAwsccEmrStep(scope Construct, id *string, config DataAwsccEmrStepConfig) DataAwsccEmrStep
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStep.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstep"
 
 dataawsccemrstep.DataAwsccEmrStep_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStep.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstep"
 
 dataawsccemrstep.DataAwsccEmrStep_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccemrstep.DataAwsccEmrStep_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStep.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstep"
 
 dataawsccemrstep.DataAwsccEmrStep_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccemrstep.DataAwsccEmrStep_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStep.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstep"
 
 dataawsccemrstep.DataAwsccEmrStep_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEmrStep to import
 
 The id of the existing DataAwsccEmrStep that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_step#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_step#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStepConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstep"
 
 &dataawsccemrstep.DataAwsccEmrStepConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_step#id DataAwsccEmrStep#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_step#id DataAwsccEmrStep#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStepHadoopJarStep.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstep"
 
 &dataawsccemrstep.DataAwsccEmrStepHadoopJarStep {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStepHadoopJarStepStepProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstep"
 
 &dataawsccemrstep.DataAwsccEmrStepHadoopJarStepStepProperties {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStepHadoopJarStepOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstep"
 
 dataawsccemrstep.NewDataAwsccEmrStepHadoopJarStepOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEmrStepHadoopJarStepOutputReference
 ```
@@ -1106,7 +1106,7 @@ func InternalValue() DataAwsccEmrStepHadoopJarStep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStepHadoopJarStepStepPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstep"
 
 dataawsccemrstep.NewDataAwsccEmrStepHadoopJarStepStepPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEmrStepHadoopJarStepStepPropertiesList
 ```
@@ -1255,7 +1255,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrStep.DataAwsccEmrStepHadoopJarStepStepPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstep"
 
 dataawsccemrstep.NewDataAwsccEmrStepHadoopJarStepStepPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEmrStepHadoopJarStepStepPropertiesOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccRedshiftQev2IdcApplication <a name="DataAwsccRedshiftQev2IdcApplication" id="@cdktn/provider-awscc.dataAwsccRedshiftQev2IdcApplication.DataAwsccRedshiftQev2IdcApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_qev2_idc_application awscc_redshift_qev2_idc_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_qev2_idc_application awscc_redshift_qev2_idc_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftQev2IdcApplication.DataAwsccRedshiftQev2IdcApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftqev2idcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftqev2idcapplication"
 
 dataawsccredshiftqev2idcapplication.NewDataAwsccRedshiftQev2IdcApplication(scope Construct, id *string, config DataAwsccRedshiftQev2IdcApplicationConfig) DataAwsccRedshiftQev2IdcApplication
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRedshiftQev2IdcApplication.DataAwsccRedshiftQev2IdcApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftqev2idcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftqev2idcapplication"
 
 dataawsccredshiftqev2idcapplication.DataAwsccRedshiftQev2IdcApplication_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRedshiftQev2IdcApplication.DataAwsccRedshiftQev2IdcApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftqev2idcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftqev2idcapplication"
 
 dataawsccredshiftqev2idcapplication.DataAwsccRedshiftQev2IdcApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccredshiftqev2idcapplication.DataAwsccRedshiftQev2IdcApplication_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRedshiftQev2IdcApplication.DataAwsccRedshiftQev2IdcApplication.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftqev2idcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftqev2idcapplication"
 
 dataawsccredshiftqev2idcapplication.DataAwsccRedshiftQev2IdcApplication_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccredshiftqev2idcapplication.DataAwsccRedshiftQev2IdcApplication_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRedshiftQev2IdcApplication.DataAwsccRedshiftQev2IdcApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftqev2idcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftqev2idcapplication"
 
 dataawsccredshiftqev2idcapplication.DataAwsccRedshiftQev2IdcApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftQev2IdcAp
 
 The id of the existing DataAwsccRedshiftQev2IdcApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_qev2_idc_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_qev2_idc_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftQev2IdcApplication.DataAwsccRedshiftQev2IdcApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftqev2idcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftqev2idcapplication"
 
 &dataawsccredshiftqev2idcapplication.DataAwsccRedshiftQev2IdcApplicationConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_qev2_idc_application#id DataAwsccRedshiftQev2IdcApplication#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_qev2_idc_application#id DataAwsccRedshiftQev2IdcApplication#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftQev2IdcApplication.DataAwsccRedshiftQev2IdcApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftqev2idcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftqev2idcapplication"
 
 &dataawsccredshiftqev2idcapplication.DataAwsccRedshiftQev2IdcApplicationTags {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftqev2i
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftQev2IdcApplication.DataAwsccRedshiftQev2IdcApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftqev2idcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftqev2idcapplication"
 
 dataawsccredshiftqev2idcapplication.NewDataAwsccRedshiftQev2IdcApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRedshiftQev2IdcApplicationTagsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftQev2IdcApplication.DataAwsccRedshiftQev2IdcApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftqev2idcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftqev2idcapplication"
 
 dataawsccredshiftqev2idcapplication.NewDataAwsccRedshiftQev2IdcApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRedshiftQev2IdcApplicationTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### IotFleetMetric <a name="IotFleetMetric" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetric"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric awscc_iot_fleet_metric}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric awscc_iot_fleet_metric}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetmetric"
 
 iotfleetmetric.NewIotFleetMetric(scope Construct, id *string, config IotFleetMetricConfig) IotFleetMetric
 ```
@@ -489,7 +489,7 @@ func ResetUnit()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetric.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetmetric"
 
 iotfleetmetric.IotFleetMetric_IsConstruct(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetric.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetmetric"
 
 iotfleetmetric.IotFleetMetric_IsTerraformElement(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ iotfleetmetric.IotFleetMetric_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetric.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetmetric"
 
 iotfleetmetric.IotFleetMetric_IsTerraformResource(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ iotfleetmetric.IotFleetMetric_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetric.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetmetric"
 
 iotfleetmetric.IotFleetMetric_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -578,7 +578,7 @@ The construct id used in the generated config for the IotFleetMetric to import.
 
 The id of the existing IotFleetMetric that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1053,7 +1053,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetricAggregationType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetmetric"
 
 &iotfleetmetric.IotFleetMetricAggregationType {
 	Name: *string,
@@ -1080,7 +1080,7 @@ Name *string
 
 Fleet Indexing aggregation type names such as Statistics, Percentiles and Cardinality.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#name IotFleetMetric#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#name IotFleetMetric#name}
 
 ---
 
@@ -1094,7 +1094,7 @@ Values *[]*string
 
 Fleet Indexing aggregation type values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#values IotFleetMetric#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#values IotFleetMetric#values}
 
 ---
 
@@ -1103,7 +1103,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetricConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetmetric"
 
 &iotfleetmetric.IotFleetMetricConfig {
 	Connection: interface{},
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
 	Provisioners: *[]interface{},
 	MetricName: *string,
 	AggregationField: *string,
-	AggregationType: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotFleetMetric.IotFleetMetricAggregationType,
+	AggregationType: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotFleetMetric.IotFleetMetricAggregationType,
 	Description: *string,
 	IndexName: *string,
 	Period: *f64,
@@ -1230,7 +1230,7 @@ MetricName *string
 
 The name of the fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#metric_name IotFleetMetric#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#metric_name IotFleetMetric#metric_name}
 
 ---
 
@@ -1244,7 +1244,7 @@ AggregationField *string
 
 The aggregation field to perform aggregation and metric emission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#aggregation_field IotFleetMetric#aggregation_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#aggregation_field IotFleetMetric#aggregation_field}
 
 ---
 
@@ -1258,7 +1258,7 @@ AggregationType IotFleetMetricAggregationType
 
 Aggregation types supported by Fleet Indexing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#aggregation_type IotFleetMetric#aggregation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#aggregation_type IotFleetMetric#aggregation_type}
 
 ---
 
@@ -1272,7 +1272,7 @@ Description *string
 
 The description of a fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#description IotFleetMetric#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#description IotFleetMetric#description}
 
 ---
 
@@ -1286,7 +1286,7 @@ IndexName *string
 
 The index name of a fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#index_name IotFleetMetric#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#index_name IotFleetMetric#index_name}
 
 ---
 
@@ -1300,7 +1300,7 @@ Period *f64
 
 The period of metric emission in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#period IotFleetMetric#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#period IotFleetMetric#period}
 
 ---
 
@@ -1314,7 +1314,7 @@ QueryString *string
 
 The Fleet Indexing query used by a fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#query_string IotFleetMetric#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#query_string IotFleetMetric#query_string}
 
 ---
 
@@ -1328,7 +1328,7 @@ QueryVersion *string
 
 The version of a Fleet Indexing query used by a fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#query_version IotFleetMetric#query_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#query_version IotFleetMetric#query_version}
 
 ---
 
@@ -1342,7 +1342,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#tags IotFleetMetric#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#tags IotFleetMetric#tags}
 
 ---
 
@@ -1356,7 +1356,7 @@ Unit *string
 
 The unit of data points emitted by a fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#unit IotFleetMetric#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#unit IotFleetMetric#unit}
 
 ---
 
@@ -1365,7 +1365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetricTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetmetric"
 
 &iotfleetmetric.IotFleetMetricTags {
 	Key: *string,
@@ -1392,7 +1392,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#key IotFleetMetric#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#key IotFleetMetric#key}
 
 ---
 
@@ -1406,7 +1406,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_fleet_metric#value IotFleetMetric#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_fleet_metric#value IotFleetMetric#value}
 
 ---
 
@@ -1417,7 +1417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetricAggregationTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetmetric"
 
 iotfleetmetric.NewIotFleetMetricAggregationTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotFleetMetricAggregationTypeOutputReference
 ```
@@ -1724,7 +1724,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetricTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetmetric"
 
 iotfleetmetric.NewIotFleetMetricTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotFleetMetricTagsList
 ```
@@ -1884,7 +1884,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetricTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetmetric"
 
 iotfleetmetric.NewIotFleetMetricTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotFleetMetricTagsOutputReference
 ```

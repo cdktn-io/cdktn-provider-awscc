@@ -4,12 +4,12 @@
 
 ### DataAwsccPersonalizeSolution <a name="DataAwsccPersonalizeSolution" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolution"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_solution awscc_personalize_solution}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_solution awscc_personalize_solution}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolution.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolution(scope Construct, id *string, config DataAwsccPersonalizeSolutionConfig) DataAwsccPersonalizeSolution
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolution.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.DataAwsccPersonalizeSolution_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolution.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.DataAwsccPersonalizeSolution_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpersonalizesolution.DataAwsccPersonalizeSolution_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolution.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.DataAwsccPersonalizeSolution_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpersonalizesolution.DataAwsccPersonalizeSolution_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolution.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.DataAwsccPersonalizeSolution_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPersonalizeSoluti
 
 The id of the existing DataAwsccPersonalizeSolution that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_solution#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_solution#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 &dataawsccpersonalizesolution.DataAwsccPersonalizeSolutionConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_solution#id DataAwsccPersonalizeSolution#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_solution#id DataAwsccPersonalizeSolution#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 &dataawsccpersonalizesolution.DataAwsccPersonalizeSolutionSolutionConfig {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigAutoMlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 &dataawsccpersonalizesolution.DataAwsccPersonalizeSolutionSolutionConfigAutoMlConfig {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 &dataawsccpersonalizesolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfig {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 &dataawsccpersonalizesolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRanges {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesCategoricalHyperParameterRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 &dataawsccpersonalizesolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesCategoricalHyperParameterRanges {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesContinuousHyperParameterRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 &dataawsccpersonalizesolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesContinuousHyperParameterRanges {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesIntegerHyperParameterRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 &dataawsccpersonalizesolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesIntegerHyperParameterRanges {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoObjective.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 &dataawsccpersonalizesolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoObjective {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoResourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 &dataawsccpersonalizesolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoResourceConfig {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 &dataawsccpersonalizesolution.DataAwsccPersonalizeSolutionTags {
 
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeso
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigAutoMlConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigAutoMlConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPersonalizeSolutionSolutionConfigAutoMlConfigOutputReference
 ```
@@ -1210,7 +1210,7 @@ func InternalValue() DataAwsccPersonalizeSolutionSolutionConfigAutoMlConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesCategoricalHyperParameterRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesCategoricalHyperParameterRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesCategoricalHyperParameterRangesList
 ```
@@ -1359,7 +1359,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesCategoricalHyperParameterRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesCategoricalHyperParameterRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesCategoricalHyperParameterRangesOutputReference
 ```
@@ -1648,7 +1648,7 @@ func InternalValue() DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorith
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesContinuousHyperParameterRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesContinuousHyperParameterRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesContinuousHyperParameterRangesList
 ```
@@ -1797,7 +1797,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesContinuousHyperParameterRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesContinuousHyperParameterRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesContinuousHyperParameterRangesOutputReference
 ```
@@ -2097,7 +2097,7 @@ func InternalValue() DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorith
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesIntegerHyperParameterRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesIntegerHyperParameterRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesIntegerHyperParameterRangesList
 ```
@@ -2246,7 +2246,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesIntegerHyperParameterRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesIntegerHyperParameterRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesIntegerHyperParameterRangesOutputReference
 ```
@@ -2546,7 +2546,7 @@ func InternalValue() DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorith
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesOutputReference
 ```
@@ -2828,7 +2828,7 @@ func InternalValue() DataAwsccPersonalizeSolutionSolutionConfigHpoConfigAlgorith
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoObjectiveOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoObjectiveOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoObjectiveOutputReference
 ```
@@ -3110,7 +3110,7 @@ func InternalValue() DataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoObjec
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoResourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoResourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoResourceConfigOutputReference
 ```
@@ -3381,7 +3381,7 @@ func InternalValue() DataAwsccPersonalizeSolutionSolutionConfigHpoConfigHpoResou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigHpoConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigHpoConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPersonalizeSolutionSolutionConfigHpoConfigOutputReference
 ```
@@ -3663,7 +3663,7 @@ func InternalValue() DataAwsccPersonalizeSolutionSolutionConfigHpoConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionSolutionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionSolutionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPersonalizeSolutionSolutionConfigOutputReference
 ```
@@ -3967,7 +3967,7 @@ func InternalValue() DataAwsccPersonalizeSolutionSolutionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPersonalizeSolutionTagsList
 ```
@@ -4116,7 +4116,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolution.DataAwsccPersonalizeSolutionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution"
 
 dataawsccpersonalizesolution.NewDataAwsccPersonalizeSolutionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPersonalizeSolutionTagsOutputReference
 ```

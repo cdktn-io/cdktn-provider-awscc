@@ -4,12 +4,12 @@
 
 ### DataAwsccMediaconnectFlowVpcInterface <a name="DataAwsccMediaconnectFlowVpcInterface" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowVpcInterface.DataAwsccMediaconnectFlowVpcInterface"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_vpc_interface awscc_mediaconnect_flow_vpc_interface}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_vpc_interface awscc_mediaconnect_flow_vpc_interface}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowVpcInterface.DataAwsccMediaconnectFlowVpcInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowvpcinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowvpcinterface"
 
 dataawsccmediaconnectflowvpcinterface.NewDataAwsccMediaconnectFlowVpcInterface(scope Construct, id *string, config DataAwsccMediaconnectFlowVpcInterfaceConfig) DataAwsccMediaconnectFlowVpcInterface
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowVpcInterface.DataAwsccMediaconnectFlowVpcInterface.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowvpcinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowvpcinterface"
 
 dataawsccmediaconnectflowvpcinterface.DataAwsccMediaconnectFlowVpcInterface_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowVpcInterface.DataAwsccMediaconnectFlowVpcInterface.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowvpcinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowvpcinterface"
 
 dataawsccmediaconnectflowvpcinterface.DataAwsccMediaconnectFlowVpcInterface_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediaconnectflowvpcinterface.DataAwsccMediaconnectFlowVpcInterface_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowVpcInterface.DataAwsccMediaconnectFlowVpcInterface.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowvpcinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowvpcinterface"
 
 dataawsccmediaconnectflowvpcinterface.DataAwsccMediaconnectFlowVpcInterface_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediaconnectflowvpcinterface.DataAwsccMediaconnectFlowVpcInterface_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowVpcInterface.DataAwsccMediaconnectFlowVpcInterface.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowvpcinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowvpcinterface"
 
 dataawsccmediaconnectflowvpcinterface.DataAwsccMediaconnectFlowVpcInterface_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediaconnectFlowV
 
 The id of the existing DataAwsccMediaconnectFlowVpcInterface that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_vpc_interface#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_vpc_interface#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowVpcInterface.DataAwsccMediaconnectFlowVpcInterfaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowvpcinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowvpcinterface"
 
 &dataawsccmediaconnectflowvpcinterface.DataAwsccMediaconnectFlowVpcInterfaceConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_vpc_interface#id DataAwsccMediaconnectFlowVpcInterface#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_vpc_interface#id DataAwsccMediaconnectFlowVpcInterface#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowVpcInterface.DataAwsccMediaconnectFlowVpcInterfaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowvpcinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowvpcinterface"
 
 &dataawsccmediaconnectflowvpcinterface.DataAwsccMediaconnectFlowVpcInterfaceTags {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowVpcInterface.DataAwsccMediaconnectFlowVpcInterfaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowvpcinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowvpcinterface"
 
 dataawsccmediaconnectflowvpcinterface.NewDataAwsccMediaconnectFlowVpcInterfaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediaconnectFlowVpcInterfaceTagsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowVpcInterface.DataAwsccMediaconnectFlowVpcInterfaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowvpcinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowvpcinterface"
 
 dataawsccmediaconnectflowvpcinterface.NewDataAwsccMediaconnectFlowVpcInterfaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediaconnectFlowVpcInterfaceTagsOutputReference
 ```

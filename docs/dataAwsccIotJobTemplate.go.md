@@ -4,12 +4,12 @@
 
 ### DataAwsccIotJobTemplate <a name="DataAwsccIotJobTemplate" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_job_template awscc_iot_job_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_job_template awscc_iot_job_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplate(scope Construct, id *string, config DataAwsccIotJobTemplateConfig) DataAwsccIotJobTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.DataAwsccIotJobTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.DataAwsccIotJobTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotjobtemplate.DataAwsccIotJobTemplate_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.DataAwsccIotJobTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotjobtemplate.DataAwsccIotJobTemplate_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.DataAwsccIotJobTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotJobTemplate to
 
 The id of the existing DataAwsccIotJobTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_job_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_job_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateAbortConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplateAbortConfig {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateAbortConfigCriteriaListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplateAbortConfigCriteriaListStruct {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplateConfig {
 	Connection: interface{},
@@ -876,7 +876,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_job_template#id DataAwsccIotJobTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_job_template#id DataAwsccIotJobTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -888,7 +888,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateJobExecutionsRetryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplateJobExecutionsRetryConfig {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStruct {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateJobExecutionsRolloutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplateJobExecutionsRolloutConfig {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRate {
 
@@ -940,7 +940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateRateIncreaseCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateRateIncreaseCriteria {
 
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateMaintenanceWindows.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplateMaintenanceWindows {
 
@@ -966,7 +966,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplatePresignedUrlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplatePresignedUrlConfig {
 
@@ -979,7 +979,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplateTags {
 
@@ -992,7 +992,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateTimeoutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 &dataawscciotjobtemplate.DataAwsccIotJobTemplateTimeoutConfig {
 
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateAbortConfigCriteriaListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateAbortConfigCriteriaListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotJobTemplateAbortConfigCriteriaListStructList
 ```
@@ -1156,7 +1156,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateAbortConfigCriteriaListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateAbortConfigCriteriaListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotJobTemplateAbortConfigCriteriaListStructOutputReference
 ```
@@ -1467,7 +1467,7 @@ func InternalValue() DataAwsccIotJobTemplateAbortConfigCriteriaListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateAbortConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateAbortConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotJobTemplateAbortConfigOutputReference
 ```
@@ -1727,7 +1727,7 @@ func InternalValue() DataAwsccIotJobTemplateAbortConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateJobExecutionsRetryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateJobExecutionsRetryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotJobTemplateJobExecutionsRetryConfigOutputReference
 ```
@@ -1987,7 +1987,7 @@ func InternalValue() DataAwsccIotJobTemplateJobExecutionsRetryConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStructList
 ```
@@ -2136,7 +2136,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotJobTemplateJobExecutionsRetryConfigRetryCriteriaListStructOutputReference
 ```
@@ -2425,7 +2425,7 @@ func InternalValue() DataAwsccIotJobTemplateJobExecutionsRetryConfigRetryCriteri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateOutputReference
 ```
@@ -2707,7 +2707,7 @@ func InternalValue() DataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentia
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateRateIncreaseCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateRateIncreaseCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateRateIncreaseCriteriaOutputReference
 ```
@@ -2978,7 +2978,7 @@ func InternalValue() DataAwsccIotJobTemplateJobExecutionsRolloutConfigExponentia
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateJobExecutionsRolloutConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateJobExecutionsRolloutConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotJobTemplateJobExecutionsRolloutConfigOutputReference
 ```
@@ -3249,7 +3249,7 @@ func InternalValue() DataAwsccIotJobTemplateJobExecutionsRolloutConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateMaintenanceWindowsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateMaintenanceWindowsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotJobTemplateMaintenanceWindowsList
 ```
@@ -3398,7 +3398,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateMaintenanceWindowsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateMaintenanceWindowsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotJobTemplateMaintenanceWindowsOutputReference
 ```
@@ -3687,7 +3687,7 @@ func InternalValue() DataAwsccIotJobTemplateMaintenanceWindows
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplatePresignedUrlConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplatePresignedUrlConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotJobTemplatePresignedUrlConfigOutputReference
 ```
@@ -3958,7 +3958,7 @@ func InternalValue() DataAwsccIotJobTemplatePresignedUrlConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotJobTemplateTagsList
 ```
@@ -4107,7 +4107,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotJobTemplateTagsOutputReference
 ```
@@ -4396,7 +4396,7 @@ func InternalValue() DataAwsccIotJobTemplateTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplate.DataAwsccIotJobTemplateTimeoutConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplate"
 
 dataawscciotjobtemplate.NewDataAwsccIotJobTemplateTimeoutConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotJobTemplateTimeoutConfigOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontRealtimeLogConfig <a name="DataAwsccCloudfrontRealtimeLogConfig" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_realtime_log_config awscc_cloudfront_realtime_log_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_realtime_log_config awscc_cloudfront_realtime_log_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrealtimelogconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontrealtimelogconfig"
 
 dataawscccloudfrontrealtimelogconfig.NewDataAwsccCloudfrontRealtimeLogConfig(scope Construct, id *string, config DataAwsccCloudfrontRealtimeLogConfigConfig) DataAwsccCloudfrontRealtimeLogConfig
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrealtimelogconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontrealtimelogconfig"
 
 dataawscccloudfrontrealtimelogconfig.DataAwsccCloudfrontRealtimeLogConfig_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrealtimelogconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontrealtimelogconfig"
 
 dataawscccloudfrontrealtimelogconfig.DataAwsccCloudfrontRealtimeLogConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontrealtimelogconfig.DataAwsccCloudfrontRealtimeLogConfig_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfig.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrealtimelogconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontrealtimelogconfig"
 
 dataawscccloudfrontrealtimelogconfig.DataAwsccCloudfrontRealtimeLogConfig_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontrealtimelogconfig.DataAwsccCloudfrontRealtimeLogConfig_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrealtimelogconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontrealtimelogconfig"
 
 dataawscccloudfrontrealtimelogconfig.DataAwsccCloudfrontRealtimeLogConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontRealtim
 
 The id of the existing DataAwsccCloudfrontRealtimeLogConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_realtime_log_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_realtime_log_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrealtimelogconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontrealtimelogconfig"
 
 &dataawscccloudfrontrealtimelogconfig.DataAwsccCloudfrontRealtimeLogConfigConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_realtime_log_config#id DataAwsccCloudfrontRealtimeLogConfig#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_realtime_log_config#id DataAwsccCloudfrontRealtimeLogConfig#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfigEndPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrealtimelogconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontrealtimelogconfig"
 
 &dataawscccloudfrontrealtimelogconfig.DataAwsccCloudfrontRealtimeLogConfigEndPoints {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrea
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfigEndPointsKinesisStreamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrealtimelogconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontrealtimelogconfig"
 
 &dataawscccloudfrontrealtimelogconfig.DataAwsccCloudfrontRealtimeLogConfigEndPointsKinesisStreamConfig {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrea
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfigEndPointsKinesisStreamConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrealtimelogconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontrealtimelogconfig"
 
 dataawscccloudfrontrealtimelogconfig.NewDataAwsccCloudfrontRealtimeLogConfigEndPointsKinesisStreamConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontRealtimeLogConfigEndPointsKinesisStreamConfigOutputReference
 ```
@@ -1062,7 +1062,7 @@ func InternalValue() DataAwsccCloudfrontRealtimeLogConfigEndPointsKinesisStreamC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfigEndPointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrealtimelogconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontrealtimelogconfig"
 
 dataawscccloudfrontrealtimelogconfig.NewDataAwsccCloudfrontRealtimeLogConfigEndPointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudfrontRealtimeLogConfigEndPointsList
 ```
@@ -1211,7 +1211,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfigEndPointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontrealtimelogconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontrealtimelogconfig"
 
 dataawscccloudfrontrealtimelogconfig.NewDataAwsccCloudfrontRealtimeLogConfigEndPointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudfrontRealtimeLogConfigEndPointsOutputReference
 ```

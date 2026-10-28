@@ -4,12 +4,12 @@
 
 ### WorkspacesinstancesVolumeAssociation <a name="WorkspacesinstancesVolumeAssociation" id="@cdktn/provider-awscc.workspacesinstancesVolumeAssociation.WorkspacesinstancesVolumeAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesinstancesVolumeAssociation.WorkspacesinstancesVolumeAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolumeassociation"
 
 workspacesinstancesvolumeassociation.NewWorkspacesinstancesVolumeAssociation(scope Construct, id *string, config WorkspacesinstancesVolumeAssociationConfig) WorkspacesinstancesVolumeAssociation
 ```
@@ -407,7 +407,7 @@ func ResetDisassociateMode()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.workspacesinstancesVolumeAssociation.WorkspacesinstancesVolumeAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolumeassociation"
 
 workspacesinstancesvolumeassociation.WorkspacesinstancesVolumeAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.workspacesinstancesVolumeAssociation.WorkspacesinstancesVolumeAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolumeassociation"
 
 workspacesinstancesvolumeassociation.WorkspacesinstancesVolumeAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ workspacesinstancesvolumeassociation.WorkspacesinstancesVolumeAssociation_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.workspacesinstancesVolumeAssociation.WorkspacesinstancesVolumeAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolumeassociation"
 
 workspacesinstancesvolumeassociation.WorkspacesinstancesVolumeAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ workspacesinstancesvolumeassociation.WorkspacesinstancesVolumeAssociation_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.workspacesinstancesVolumeAssociation.WorkspacesinstancesVolumeAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolumeassociation"
 
 workspacesinstancesvolumeassociation.WorkspacesinstancesVolumeAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the WorkspacesinstancesVolumeA
 
 The id of the existing WorkspacesinstancesVolumeAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesinstancesVolumeAssociation.WorkspacesinstancesVolumeAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesinstancesvolumeassociation"
 
 &workspacesinstancesvolumeassociation.WorkspacesinstancesVolumeAssociationConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ Device *string
 
 The device name for the volume attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume_association#device WorkspacesinstancesVolumeAssociation#device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume_association#device WorkspacesinstancesVolumeAssociation#device}
 
 ---
 
@@ -924,7 +924,7 @@ VolumeId *string
 
 ID of the volume to attach to the workspace instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume_association#volume_id WorkspacesinstancesVolumeAssociation#volume_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume_association#volume_id WorkspacesinstancesVolumeAssociation#volume_id}
 
 ---
 
@@ -938,7 +938,7 @@ WorkspaceInstanceId *string
 
 ID of the workspace instance to associate with the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume_association#workspace_instance_id WorkspacesinstancesVolumeAssociation#workspace_instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume_association#workspace_instance_id WorkspacesinstancesVolumeAssociation#workspace_instance_id}
 
 ---
 
@@ -952,7 +952,7 @@ DisassociateMode *string
 
 Mode to use when disassociating the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesinstances_volume_association#disassociate_mode WorkspacesinstancesVolumeAssociation#disassociate_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesinstances_volume_association#disassociate_mode WorkspacesinstancesVolumeAssociation#disassociate_mode}
 
 ---
 

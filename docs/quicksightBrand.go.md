@@ -4,12 +4,12 @@
 
 ### QuicksightBrand <a name="QuicksightBrand" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrand"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand awscc_quicksight_brand}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand awscc_quicksight_brand}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrand.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrand(scope Construct, id *string, config QuicksightBrandConfig) QuicksightBrand
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrand.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.QuicksightBrand_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrand.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.QuicksightBrand_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ quicksightbrand.QuicksightBrand_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrand.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.QuicksightBrand_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ quicksightbrand.QuicksightBrand_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrand.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.QuicksightBrand_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the QuicksightBrand to import.
 
 The id of the existing QuicksightBrand that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -883,10 +883,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinition {
-	ApplicationTheme: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationTheme,
+	ApplicationTheme: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationTheme,
 	BrandName: *string,
 	Description: *string,
 }
@@ -912,7 +912,7 @@ ApplicationTheme QuicksightBrandBrandDefinitionApplicationTheme
 
 The application theme.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#application_theme QuicksightBrand#application_theme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#application_theme QuicksightBrand#application_theme}
 
 ---
 
@@ -926,7 +926,7 @@ BrandName *string
 
 The name of the brand.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#brand_name QuicksightBrand#brand_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_name QuicksightBrand#brand_name}
 
 ---
 
@@ -940,7 +940,7 @@ Description *string
 
 The description of the brand.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#description QuicksightBrand#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#description QuicksightBrand#description}
 
 ---
 
@@ -949,11 +949,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationTheme.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationTheme {
-	BrandColorPalette: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalette,
-	BrandElementStyle: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyle,
+	BrandColorPalette: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalette,
+	BrandElementStyle: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyle,
 }
 ```
 
@@ -976,7 +976,7 @@ BrandColorPalette QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalett
 
 The color palette.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#brand_color_palette QuicksightBrand#brand_color_palette}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_color_palette QuicksightBrand#brand_color_palette}
 
 ---
 
@@ -990,7 +990,7 @@ BrandElementStyle QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyl
 
 The element style.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#brand_element_style QuicksightBrand#brand_element_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_element_style QuicksightBrand#brand_element_style}
 
 ---
 
@@ -999,18 +999,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalette.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalette {
-	Accent: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccent,
-	Danger: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDanger,
-	Dimension: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimension,
-	Info: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfo,
-	Measure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasure,
-	Primary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimary,
-	Secondary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondary,
-	Success: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccess,
-	Warning: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarning,
+	Accent: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccent,
+	Danger: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDanger,
+	Dimension: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimension,
+	Info: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfo,
+	Measure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasure,
+	Primary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimary,
+	Secondary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondary,
+	Success: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccess,
+	Warning: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarning,
 }
 ```
 
@@ -1040,7 +1040,7 @@ Accent QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccent
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#accent QuicksightBrand#accent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#accent QuicksightBrand#accent}
 
 ---
 
@@ -1054,7 +1054,7 @@ Danger QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDanger
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#danger QuicksightBrand#danger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#danger QuicksightBrand#danger}
 
 ---
 
@@ -1068,7 +1068,7 @@ Dimension QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimensi
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#dimension QuicksightBrand#dimension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#dimension QuicksightBrand#dimension}
 
 ---
 
@@ -1082,7 +1082,7 @@ Info QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfo
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#info QuicksightBrand#info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#info QuicksightBrand#info}
 
 ---
 
@@ -1096,7 +1096,7 @@ Measure QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasure
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#measure QuicksightBrand#measure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#measure QuicksightBrand#measure}
 
 ---
 
@@ -1110,7 +1110,7 @@ Primary QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimary
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#primary QuicksightBrand#primary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#primary QuicksightBrand#primary}
 
 ---
 
@@ -1124,7 +1124,7 @@ Secondary QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSeconda
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#secondary QuicksightBrand#secondary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#secondary QuicksightBrand#secondary}
 
 ---
 
@@ -1138,7 +1138,7 @@ Success QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccess
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#success QuicksightBrand#success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#success QuicksightBrand#success}
 
 ---
 
@@ -1152,7 +1152,7 @@ Warning QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarning
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#warning QuicksightBrand#warning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#warning QuicksightBrand#warning}
 
 ---
 
@@ -1161,7 +1161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccent {
 	Background: *string,
@@ -1188,7 +1188,7 @@ Background *string
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1202,7 +1202,7 @@ Foreground *string
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1211,7 +1211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDanger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDanger {
 	Background: *string,
@@ -1238,7 +1238,7 @@ Background *string
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1252,7 +1252,7 @@ Foreground *string
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1261,7 +1261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimension.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimension {
 	Background: *string,
@@ -1288,7 +1288,7 @@ Background *string
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1302,7 +1302,7 @@ Foreground *string
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1311,7 +1311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfo {
 	Background: *string,
@@ -1338,7 +1338,7 @@ Background *string
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1352,7 +1352,7 @@ Foreground *string
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1361,7 +1361,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasure {
 	Background: *string,
@@ -1388,7 +1388,7 @@ Background *string
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1402,7 +1402,7 @@ Foreground *string
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1411,7 +1411,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimary {
 	Background: *string,
@@ -1438,7 +1438,7 @@ Background *string
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1452,7 +1452,7 @@ Foreground *string
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1461,7 +1461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondary {
 	Background: *string,
@@ -1488,7 +1488,7 @@ Background *string
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1502,7 +1502,7 @@ Foreground *string
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1511,7 +1511,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccess {
 	Background: *string,
@@ -1538,7 +1538,7 @@ Background *string
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1552,7 +1552,7 @@ Foreground *string
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1561,7 +1561,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarning.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarning {
 	Background: *string,
@@ -1588,7 +1588,7 @@ Background *string
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1602,7 +1602,7 @@ Foreground *string
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1611,10 +1611,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyle {
-	NavbarStyle: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyle,
+	NavbarStyle: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyle,
 }
 ```
 
@@ -1636,7 +1636,7 @@ NavbarStyle QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavba
 
 The navigation bar style.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#navbar_style QuicksightBrand#navbar_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#navbar_style QuicksightBrand#navbar_style}
 
 ---
 
@@ -1645,11 +1645,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyle {
-	ContextualNavbar: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbar,
-	GlobalNavbar: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbar,
+	ContextualNavbar: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbar,
+	GlobalNavbar: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbar,
 }
 ```
 
@@ -1672,7 +1672,7 @@ ContextualNavbar QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyle
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#contextual_navbar QuicksightBrand#contextual_navbar}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#contextual_navbar QuicksightBrand#contextual_navbar}
 
 ---
 
@@ -1686,7 +1686,7 @@ GlobalNavbar QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavb
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#global_navbar QuicksightBrand#global_navbar}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#global_navbar QuicksightBrand#global_navbar}
 
 ---
 
@@ -1695,7 +1695,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbar.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbar {
 	Background: *string,
@@ -1722,7 +1722,7 @@ Background *string
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1736,7 +1736,7 @@ Foreground *string
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1745,7 +1745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbar.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbar {
 	Background: *string,
@@ -1772,7 +1772,7 @@ Background *string
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1786,7 +1786,7 @@ Foreground *string
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1795,7 +1795,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandConfig {
 	Connection: interface{},
@@ -1806,7 +1806,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	BrandId: *string,
-	BrandDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightBrand.QuicksightBrandBrandDefinition,
+	BrandDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightBrand.QuicksightBrandBrandDefinition,
 	Tags: interface{},
 }
 ```
@@ -1823,7 +1823,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
 | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.brandId">BrandId</a></code> | <code>*string</code> | The ID of the QuickSight brand. |
-| <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.brandDefinition">BrandDefinition</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinition">QuicksightBrandBrandDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#brand_definition QuicksightBrand#brand_definition}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.brandDefinition">BrandDefinition</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinition">QuicksightBrandBrandDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_definition QuicksightBrand#brand_definition}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.tags">Tags</a></code> | <code>interface{}</code> | The tags for the brand. |
 
 ---
@@ -1908,7 +1908,7 @@ BrandId *string
 
 The ID of the QuickSight brand.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#brand_id QuicksightBrand#brand_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_id QuicksightBrand#brand_id}
 
 ---
 
@@ -1920,7 +1920,7 @@ BrandDefinition QuicksightBrandBrandDefinition
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinition">QuicksightBrandBrandDefinition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#brand_definition QuicksightBrand#brand_definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_definition QuicksightBrand#brand_definition}.
 
 ---
 
@@ -1934,7 +1934,7 @@ Tags interface{}
 
 The tags for the brand.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#tags QuicksightBrand#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#tags QuicksightBrand#tags}
 
 ---
 
@@ -1943,7 +1943,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 &quicksightbrand.QuicksightBrandTags {
 	Key: *string,
@@ -1970,7 +1970,7 @@ Key *string
 
 Tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#key QuicksightBrand#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#key QuicksightBrand#key}
 
 ---
 
@@ -1984,7 +1984,7 @@ Value *string
 
 Tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#value QuicksightBrand#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#value QuicksightBrand#value}
 
 ---
 
@@ -1995,7 +1995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccentOutputReference
 ```
@@ -2302,7 +2302,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDangerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDangerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDangerOutputReference
 ```
@@ -2609,7 +2609,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimensionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimensionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimensionOutputReference
 ```
@@ -2916,7 +2916,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfoOutputReference
 ```
@@ -3223,7 +3223,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasureOutputReference
 ```
@@ -3530,7 +3530,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteOutputReference
 ```
@@ -4157,7 +4157,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimaryOutputReference
 ```
@@ -4464,7 +4464,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondaryOutputReference
 ```
@@ -4771,7 +4771,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccessOutputReference
 ```
@@ -5078,7 +5078,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarningOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarningOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarningOutputReference
 ```
@@ -5385,7 +5385,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbarOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbarOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbarOutputReference
 ```
@@ -5692,7 +5692,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbarOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbarOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbarOutputReference
 ```
@@ -5999,7 +5999,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleOutputReference
 ```
@@ -6332,7 +6332,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleOutputReference
 ```
@@ -6623,7 +6623,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionApplicationThemeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionApplicationThemeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionApplicationThemeOutputReference
 ```
@@ -6956,7 +6956,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandBrandDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightBrandBrandDefinitionOutputReference
 ```
@@ -7305,7 +7305,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightBrandTagsList
 ```
@@ -7465,7 +7465,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrandTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightbrand"
 
 quicksightbrand.NewQuicksightBrandTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightBrandTagsOutputReference
 ```

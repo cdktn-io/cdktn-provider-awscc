@@ -4,12 +4,12 @@
 
 ### DataAwsccOdbOdbNetwork <a name="DataAwsccOdbOdbNetwork" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_odb_network awscc_odb_odb_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_odb_network awscc_odb_odb_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetwork(scope Construct, id *string, config DataAwsccOdbOdbNetworkConfig) DataAwsccOdbOdbNetwork
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.DataAwsccOdbOdbNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.DataAwsccOdbOdbNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccodbodbnetwork.DataAwsccOdbOdbNetwork_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetwork.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.DataAwsccOdbOdbNetwork_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccodbodbnetwork.DataAwsccOdbOdbNetwork_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.DataAwsccOdbOdbNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOdbOdbNetwork to 
 
 The id of the existing DataAwsccOdbOdbNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_odb_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_odb_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -851,7 +851,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 &dataawsccodbodbnetwork.DataAwsccOdbOdbNetworkConfig {
 	Connection: interface{},
@@ -960,7 +960,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_odb_network#id DataAwsccOdbOdbNetwork#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_odb_network#id DataAwsccOdbOdbNetwork#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -972,7 +972,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 &dataawsccodbodbnetwork.DataAwsccOdbOdbNetworkManagedServices {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 &dataawsccodbodbnetwork.DataAwsccOdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccess {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesKmsAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 &dataawsccodbodbnetwork.DataAwsccOdbOdbNetworkManagedServicesKmsAccess {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesManagedS3BackupAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 &dataawsccodbodbnetwork.DataAwsccOdbOdbNetworkManagedServicesManagedS3BackupAccess {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesS3Access.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 &dataawsccodbodbnetwork.DataAwsccOdbOdbNetworkManagedServicesS3Access {
 
@@ -1037,7 +1037,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesServiceNetworkEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 &dataawsccodbodbnetwork.DataAwsccOdbOdbNetworkManagedServicesServiceNetworkEndpoint {
 
@@ -1050,7 +1050,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesStsAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 &dataawsccodbodbnetwork.DataAwsccOdbOdbNetworkManagedServicesStsAccess {
 
@@ -1063,7 +1063,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesZeroEtlAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 &dataawsccodbodbnetwork.DataAwsccOdbOdbNetworkManagedServicesZeroEtlAccess {
 
@@ -1076,7 +1076,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 &dataawsccodbodbnetwork.DataAwsccOdbOdbNetworkTags {
 
@@ -1091,7 +1091,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList
 ```
@@ -1240,7 +1240,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessOutputReference
 ```
@@ -1540,7 +1540,7 @@ func InternalValue() DataAwsccOdbOdbNetworkManagedServicesCrossRegionS3RestoreSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesKmsAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetworkManagedServicesKmsAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOdbOdbNetworkManagedServicesKmsAccessOutputReference
 ```
@@ -1833,7 +1833,7 @@ func InternalValue() DataAwsccOdbOdbNetworkManagedServicesKmsAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesManagedS3BackupAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetworkManagedServicesManagedS3BackupAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOdbOdbNetworkManagedServicesManagedS3BackupAccessOutputReference
 ```
@@ -2104,7 +2104,7 @@ func InternalValue() DataAwsccOdbOdbNetworkManagedServicesManagedS3BackupAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetworkManagedServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOdbOdbNetworkManagedServicesOutputReference
 ```
@@ -2463,7 +2463,7 @@ func InternalValue() DataAwsccOdbOdbNetworkManagedServices
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesS3AccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetworkManagedServicesS3AccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOdbOdbNetworkManagedServicesS3AccessOutputReference
 ```
@@ -2756,7 +2756,7 @@ func InternalValue() DataAwsccOdbOdbNetworkManagedServicesS3Access
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesServiceNetworkEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetworkManagedServicesServiceNetworkEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOdbOdbNetworkManagedServicesServiceNetworkEndpointOutputReference
 ```
@@ -3027,7 +3027,7 @@ func InternalValue() DataAwsccOdbOdbNetworkManagedServicesServiceNetworkEndpoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesStsAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetworkManagedServicesStsAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOdbOdbNetworkManagedServicesStsAccessOutputReference
 ```
@@ -3320,7 +3320,7 @@ func InternalValue() DataAwsccOdbOdbNetworkManagedServicesStsAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkManagedServicesZeroEtlAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetworkManagedServicesZeroEtlAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOdbOdbNetworkManagedServicesZeroEtlAccessOutputReference
 ```
@@ -3591,7 +3591,7 @@ func InternalValue() DataAwsccOdbOdbNetworkManagedServicesZeroEtlAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOdbOdbNetworkTagsList
 ```
@@ -3740,7 +3740,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbNetwork.DataAwsccOdbOdbNetworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetwork"
 
 dataawsccodbodbnetwork.NewDataAwsccOdbOdbNetworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOdbOdbNetworkTagsOutputReference
 ```

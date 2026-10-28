@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmOpsItems <a name="DataAwsccSsmOpsItems" id="@cdktn/provider-awscc.dataAwsccSsmOpsItems.DataAwsccSsmOpsItems"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_ops_items awscc_ssm_ops_items}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_ops_items awscc_ssm_ops_items}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmOpsItems.DataAwsccSsmOpsItems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmopsitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmopsitems"
 
 dataawsccssmopsitems.NewDataAwsccSsmOpsItems(scope Construct, id *string, config DataAwsccSsmOpsItemsConfig) DataAwsccSsmOpsItems
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmOpsItems.DataAwsccSsmOpsItems.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmopsitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmopsitems"
 
 dataawsccssmopsitems.DataAwsccSsmOpsItems_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmOpsItems.DataAwsccSsmOpsItems.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmopsitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmopsitems"
 
 dataawsccssmopsitems.DataAwsccSsmOpsItems_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmopsitems.DataAwsccSsmOpsItems_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmOpsItems.DataAwsccSsmOpsItems.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmopsitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmopsitems"
 
 dataawsccssmopsitems.DataAwsccSsmOpsItems_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmopsitems.DataAwsccSsmOpsItems_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmOpsItems.DataAwsccSsmOpsItems.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmopsitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmopsitems"
 
 dataawsccssmopsitems.DataAwsccSsmOpsItems_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmOpsItems to im
 
 The id of the existing DataAwsccSsmOpsItems that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_ops_items#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_ops_items#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmOpsItems.DataAwsccSsmOpsItemsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmopsitems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmopsitems"
 
 &dataawsccssmopsitems.DataAwsccSsmOpsItemsConfig {
 	Connection: interface{},

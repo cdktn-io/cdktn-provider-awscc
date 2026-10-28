@@ -4,12 +4,12 @@
 
 ### CloudtrailResourcePolicy <a name="CloudtrailResourcePolicy" id="@cdktn/provider-awscc.cloudtrailResourcePolicy.CloudtrailResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailResourcePolicy.CloudtrailResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtrailresourcepolicy"
 
 cloudtrailresourcepolicy.NewCloudtrailResourcePolicy(scope Construct, id *string, config CloudtrailResourcePolicyConfig) CloudtrailResourcePolicy
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudtrailResourcePolicy.CloudtrailResourcePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtrailresourcepolicy"
 
 cloudtrailresourcepolicy.CloudtrailResourcePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudtrailResourcePolicy.CloudtrailResourcePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtrailresourcepolicy"
 
 cloudtrailresourcepolicy.CloudtrailResourcePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ cloudtrailresourcepolicy.CloudtrailResourcePolicy_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudtrailResourcePolicy.CloudtrailResourcePolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtrailresourcepolicy"
 
 cloudtrailresourcepolicy.CloudtrailResourcePolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ cloudtrailresourcepolicy.CloudtrailResourcePolicy_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudtrailResourcePolicy.CloudtrailResourcePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtrailresourcepolicy"
 
 cloudtrailresourcepolicy.CloudtrailResourcePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the CloudtrailResourcePolicy t
 
 The id of the existing CloudtrailResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudtrailResourcePolicy.CloudtrailResourcePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtrailresourcepolicy"
 
 &cloudtrailresourcepolicy.CloudtrailResourcePolicyConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ ResourceArn *string
 
 The ARN of the AWS CloudTrail resource to which the policy applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_resource_policy#resource_arn CloudtrailResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_resource_policy#resource_arn CloudtrailResourcePolicy#resource_arn}
 
 ---
 
@@ -871,7 +871,7 @@ A policy document containing permissions to add to the specified resource.
 
 In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_resource_policy#resource_policy CloudtrailResourcePolicy#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_resource_policy#resource_policy CloudtrailResourcePolicy#resource_policy}
 
 ---
 

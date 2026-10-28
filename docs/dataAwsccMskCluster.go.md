@@ -4,12 +4,12 @@
 
 ### DataAwsccMskCluster <a name="DataAwsccMskCluster" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_cluster awscc_msk_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_cluster awscc_msk_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskCluster(scope Construct, id *string, config DataAwsccMskClusterConfig) DataAwsccMskCluster
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.DataAwsccMskCluster_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.DataAwsccMskCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmskcluster.DataAwsccMskCluster_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskCluster.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.DataAwsccMskCluster_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmskcluster.DataAwsccMskCluster_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.DataAwsccMskCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMskCluster to imp
 
 The id of the existing DataAwsccMskCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfo {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfo {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccess {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivity {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthentication {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSasl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSasl {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslIam.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslIam {
 
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslScram.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslScram {
 
@@ -867,7 +867,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationTls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationTls {
 
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoStorageInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfoStorageInfo {
 
@@ -893,7 +893,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfo {
 
@@ -906,7 +906,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedThroughput {
 
@@ -919,7 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterClientAuthentication {
 
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthenticationSasl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterClientAuthenticationSasl {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthenticationSaslIam.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterClientAuthenticationSaslIam {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthenticationSaslScram.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterClientAuthenticationSaslScram {
 
@@ -971,7 +971,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthenticationTls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterClientAuthenticationTls {
 
@@ -984,7 +984,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthenticationUnauthenticated.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterClientAuthenticationUnauthenticated {
 
@@ -997,7 +997,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterConfig {
 	Connection: interface{},
@@ -1106,7 +1106,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_cluster#id DataAwsccMskCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_cluster#id DataAwsccMskCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1118,7 +1118,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterConfigurationInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterConfigurationInfo {
 
@@ -1131,7 +1131,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterEncryptionInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterEncryptionInfo {
 
@@ -1144,7 +1144,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterEncryptionInfoEncryptionAtRest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterEncryptionInfoEncryptionAtRest {
 
@@ -1157,7 +1157,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterEncryptionInfoEncryptionInTransit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterEncryptionInfoEncryptionInTransit {
 
@@ -1170,7 +1170,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterLoggingInfo {
 
@@ -1183,7 +1183,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoAuthorizerLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterLoggingInfoAuthorizerLogs {
 
@@ -1196,7 +1196,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogs {
 
@@ -1209,7 +1209,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehose {
 
@@ -1222,7 +1222,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoAuthorizerLogsS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterLoggingInfoAuthorizerLogsS3 {
 
@@ -1235,7 +1235,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoBrokerLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterLoggingInfoBrokerLogs {
 
@@ -1248,7 +1248,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoBrokerLogsCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterLoggingInfoBrokerLogsCloudwatchLogs {
 
@@ -1261,7 +1261,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoBrokerLogsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterLoggingInfoBrokerLogsFirehose {
 
@@ -1274,7 +1274,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoBrokerLogsS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterLoggingInfoBrokerLogsS3 {
 
@@ -1287,7 +1287,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterOpenMonitoring.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterOpenMonitoring {
 
@@ -1300,7 +1300,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterOpenMonitoringPrometheus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterOpenMonitoringPrometheus {
 
@@ -1313,7 +1313,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterOpenMonitoringPrometheusJmxExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterOpenMonitoringPrometheusJmxExporter {
 
@@ -1326,7 +1326,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterOpenMonitoringPrometheusNodeExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterOpenMonitoringPrometheusNodeExporter {
 
@@ -1339,7 +1339,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterRebalancing.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterRebalancing {
 
@@ -1352,7 +1352,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterZookeeperAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 &dataawsccmskcluster.DataAwsccMskClusterZookeeperAccess {
 
@@ -1367,7 +1367,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference
 ```
@@ -1649,7 +1649,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccessOutputReference
 ```
@@ -1909,7 +1909,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoPubli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationOutputReference
 ```
@@ -2180,7 +2180,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslIamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslIamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslIamOutputReference
 ```
@@ -2440,7 +2440,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslOutputReference
 ```
@@ -2711,7 +2711,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslScramOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslScramOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslScramOutputReference
 ```
@@ -2971,7 +2971,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationTlsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationTlsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationTlsOutputReference
 ```
@@ -3231,7 +3231,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityOutputReference
 ```
@@ -3491,7 +3491,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfoConnectivityInfoVpcCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoOutputReference
 ```
@@ -3806,7 +3806,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoOutputReference
 ```
@@ -4077,7 +4077,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedThroughputOutputReference
 ```
@@ -4348,7 +4348,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoEbsStorage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterBrokerNodeGroupInfoStorageInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterBrokerNodeGroupInfoStorageInfoOutputReference
 ```
@@ -4608,7 +4608,7 @@ func InternalValue() DataAwsccMskClusterBrokerNodeGroupInfoStorageInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterClientAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterClientAuthenticationOutputReference
 ```
@@ -4890,7 +4890,7 @@ func InternalValue() DataAwsccMskClusterClientAuthentication
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthenticationSaslIamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterClientAuthenticationSaslIamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterClientAuthenticationSaslIamOutputReference
 ```
@@ -5150,7 +5150,7 @@ func InternalValue() DataAwsccMskClusterClientAuthenticationSaslIam
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthenticationSaslOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterClientAuthenticationSaslOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterClientAuthenticationSaslOutputReference
 ```
@@ -5421,7 +5421,7 @@ func InternalValue() DataAwsccMskClusterClientAuthenticationSasl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthenticationSaslScramOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterClientAuthenticationSaslScramOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterClientAuthenticationSaslScramOutputReference
 ```
@@ -5681,7 +5681,7 @@ func InternalValue() DataAwsccMskClusterClientAuthenticationSaslScram
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthenticationTlsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterClientAuthenticationTlsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterClientAuthenticationTlsOutputReference
 ```
@@ -5952,7 +5952,7 @@ func InternalValue() DataAwsccMskClusterClientAuthenticationTls
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterClientAuthenticationUnauthenticatedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterClientAuthenticationUnauthenticatedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterClientAuthenticationUnauthenticatedOutputReference
 ```
@@ -6212,7 +6212,7 @@ func InternalValue() DataAwsccMskClusterClientAuthenticationUnauthenticated
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterConfigurationInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterConfigurationInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterConfigurationInfoOutputReference
 ```
@@ -6483,7 +6483,7 @@ func InternalValue() DataAwsccMskClusterConfigurationInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterEncryptionInfoEncryptionAtRestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterEncryptionInfoEncryptionAtRestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterEncryptionInfoEncryptionAtRestOutputReference
 ```
@@ -6743,7 +6743,7 @@ func InternalValue() DataAwsccMskClusterEncryptionInfoEncryptionAtRest
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterEncryptionInfoEncryptionInTransitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterEncryptionInfoEncryptionInTransitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterEncryptionInfoEncryptionInTransitOutputReference
 ```
@@ -7014,7 +7014,7 @@ func InternalValue() DataAwsccMskClusterEncryptionInfoEncryptionInTransit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterEncryptionInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterEncryptionInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterEncryptionInfoOutputReference
 ```
@@ -7285,7 +7285,7 @@ func InternalValue() DataAwsccMskClusterEncryptionInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogsOutputReference
 ```
@@ -7556,7 +7556,7 @@ func InternalValue() DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterLoggingInfoAuthorizerLogsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehoseOutputReference
 ```
@@ -7827,7 +7827,7 @@ func InternalValue() DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehose
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoAuthorizerLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterLoggingInfoAuthorizerLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterLoggingInfoAuthorizerLogsOutputReference
 ```
@@ -8109,7 +8109,7 @@ func InternalValue() DataAwsccMskClusterLoggingInfoAuthorizerLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoAuthorizerLogsS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterLoggingInfoAuthorizerLogsS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterLoggingInfoAuthorizerLogsS3OutputReference
 ```
@@ -8391,7 +8391,7 @@ func InternalValue() DataAwsccMskClusterLoggingInfoAuthorizerLogsS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoBrokerLogsCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterLoggingInfoBrokerLogsCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterLoggingInfoBrokerLogsCloudwatchLogsOutputReference
 ```
@@ -8662,7 +8662,7 @@ func InternalValue() DataAwsccMskClusterLoggingInfoBrokerLogsCloudwatchLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoBrokerLogsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterLoggingInfoBrokerLogsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterLoggingInfoBrokerLogsFirehoseOutputReference
 ```
@@ -8933,7 +8933,7 @@ func InternalValue() DataAwsccMskClusterLoggingInfoBrokerLogsFirehose
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoBrokerLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterLoggingInfoBrokerLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterLoggingInfoBrokerLogsOutputReference
 ```
@@ -9215,7 +9215,7 @@ func InternalValue() DataAwsccMskClusterLoggingInfoBrokerLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoBrokerLogsS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterLoggingInfoBrokerLogsS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterLoggingInfoBrokerLogsS3OutputReference
 ```
@@ -9497,7 +9497,7 @@ func InternalValue() DataAwsccMskClusterLoggingInfoBrokerLogsS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterLoggingInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterLoggingInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterLoggingInfoOutputReference
 ```
@@ -9768,7 +9768,7 @@ func InternalValue() DataAwsccMskClusterLoggingInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterOpenMonitoringOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterOpenMonitoringOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterOpenMonitoringOutputReference
 ```
@@ -10028,7 +10028,7 @@ func InternalValue() DataAwsccMskClusterOpenMonitoring
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterOpenMonitoringPrometheusJmxExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterOpenMonitoringPrometheusJmxExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterOpenMonitoringPrometheusJmxExporterOutputReference
 ```
@@ -10288,7 +10288,7 @@ func InternalValue() DataAwsccMskClusterOpenMonitoringPrometheusJmxExporter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterOpenMonitoringPrometheusNodeExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterOpenMonitoringPrometheusNodeExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterOpenMonitoringPrometheusNodeExporterOutputReference
 ```
@@ -10548,7 +10548,7 @@ func InternalValue() DataAwsccMskClusterOpenMonitoringPrometheusNodeExporter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterOpenMonitoringPrometheusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterOpenMonitoringPrometheusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterOpenMonitoringPrometheusOutputReference
 ```
@@ -10819,7 +10819,7 @@ func InternalValue() DataAwsccMskClusterOpenMonitoringPrometheus
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterRebalancingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterRebalancingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterRebalancingOutputReference
 ```
@@ -11079,7 +11079,7 @@ func InternalValue() DataAwsccMskClusterRebalancing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskCluster.DataAwsccMskClusterZookeeperAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster"
 
 dataawsccmskcluster.NewDataAwsccMskClusterZookeeperAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskClusterZookeeperAccessOutputReference
 ```

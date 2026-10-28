@@ -4,12 +4,12 @@
 
 ### GlueConnectionType <a name="GlueConnectionType" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type awscc_glue_connection_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type awscc_glue_connection_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionType(scope Construct, id *string, config GlueConnectionTypeConfig) GlueConnectionType
 ```
@@ -487,7 +487,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionType.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.GlueConnectionType_IsConstruct(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionType.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.GlueConnectionType_IsTerraformElement(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ glueconnectiontype.GlueConnectionType_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionType.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.GlueConnectionType_IsTerraformResource(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ glueconnectiontype.GlueConnectionType_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionType.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.GlueConnectionType_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -576,7 +576,7 @@ The construct id used in the generated config for the GlueConnectionType to impo
 
 The id of the existing GlueConnectionType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -952,7 +952,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConfig {
 	Connection: interface{},
@@ -963,9 +963,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ConnectionType: *string,
-	RestConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfiguration,
-	ConnectionProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectionProperties,
-	ConnectorAuthenticationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfiguration,
+	RestConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfiguration,
+	ConnectionProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectionProperties,
+	ConnectorAuthenticationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfiguration,
 	Description: *string,
 	IntegrationType: *string,
 	Tags: interface{},
@@ -1073,7 +1073,7 @@ ConnectionType *string
 
 The name of the connection type. Must be prefixed with REST-.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#connection_type GlueConnectionType#connection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#connection_type GlueConnectionType#connection_type}
 
 ---
 
@@ -1087,7 +1087,7 @@ RestConfiguration GlueConnectionTypeRestConfiguration
 
 Configuration for HTTP request and response handling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#rest_configuration GlueConnectionType#rest_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#rest_configuration GlueConnectionType#rest_configuration}
 
 ---
 
@@ -1101,7 +1101,7 @@ ConnectionProperties GlueConnectionTypeConnectionProperties
 
 Configuration that defines the base URL and additional request parameters needed during connection creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#connection_properties GlueConnectionType#connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#connection_properties GlueConnectionType#connection_properties}
 
 ---
 
@@ -1115,7 +1115,7 @@ ConnectorAuthenticationConfiguration GlueConnectionTypeConnectorAuthenticationCo
 
 Configuration that defines supported authentication types and required properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#connector_authentication_configuration GlueConnectionType#connector_authentication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#connector_authentication_configuration GlueConnectionType#connector_authentication_configuration}
 
 ---
 
@@ -1129,7 +1129,7 @@ Description *string
 
 A description of the connection type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#description GlueConnectionType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#description GlueConnectionType#description}
 
 ---
 
@@ -1143,7 +1143,7 @@ IntegrationType *string
 
 The integration type for the connection. Currently only REST is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#integration_type GlueConnectionType#integration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#integration_type GlueConnectionType#integration_type}
 
 ---
 
@@ -1157,7 +1157,7 @@ Tags interface{}
 
 Tags to assign to the connection type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#tags GlueConnectionType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#tags GlueConnectionType#tags}
 
 ---
 
@@ -1166,11 +1166,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectionProperties {
 	AdditionalRequestParameters: interface{},
-	Url: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectionPropertiesUrl,
+	Url: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectionPropertiesUrl,
 }
 ```
 
@@ -1193,7 +1193,7 @@ AdditionalRequestParameters interface{}
 
 Key-value pairs of additional request parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#additional_request_parameters GlueConnectionType#additional_request_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#additional_request_parameters GlueConnectionType#additional_request_parameters}
 
 ---
 
@@ -1207,7 +1207,7 @@ Url GlueConnectionTypeConnectionPropertiesUrl
 
 Defines a property configuration for connection types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#url GlueConnectionType#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#url GlueConnectionType#url}
 
 ---
 
@@ -1216,7 +1216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectionPropertiesAdditionalRequestParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectionPropertiesAdditionalRequestParameters {
 	AllowedValues: *[]*string,
@@ -1253,7 +1253,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -1267,7 +1267,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -1281,7 +1281,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -1295,7 +1295,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -1309,7 +1309,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -1323,7 +1323,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -1337,7 +1337,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -1346,7 +1346,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectionPropertiesUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectionPropertiesUrl {
 	AllowedValues: *[]*string,
@@ -1383,7 +1383,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -1397,7 +1397,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -1411,7 +1411,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -1425,7 +1425,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -1439,7 +1439,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -1453,7 +1453,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -1467,7 +1467,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -1476,13 +1476,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfiguration {
 	AuthenticationTypes: *[]*string,
-	BasicAuthenticationProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationProperties,
-	CustomAuthenticationProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationProperties,
-	OAuth2Properties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Properties,
+	BasicAuthenticationProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationProperties,
+	CustomAuthenticationProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationProperties,
+	OAuth2Properties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Properties,
 }
 ```
 
@@ -1507,7 +1507,7 @@ AuthenticationTypes *[]*string
 
 A list of authentication types supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#authentication_types GlueConnectionType#authentication_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#authentication_types GlueConnectionType#authentication_types}
 
 ---
 
@@ -1521,7 +1521,7 @@ BasicAuthenticationProperties GlueConnectionTypeConnectorAuthenticationConfigura
 
 Basic authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#basic_authentication_properties GlueConnectionType#basic_authentication_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#basic_authentication_properties GlueConnectionType#basic_authentication_properties}
 
 ---
 
@@ -1535,7 +1535,7 @@ CustomAuthenticationProperties GlueConnectionTypeConnectorAuthenticationConfigur
 
 Custom authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#custom_authentication_properties GlueConnectionType#custom_authentication_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#custom_authentication_properties GlueConnectionType#custom_authentication_properties}
 
 ---
 
@@ -1549,7 +1549,7 @@ OAuth2Properties GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
 
 OAuth2 configuration container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#o_auth_2_properties GlueConnectionType#o_auth_2_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#o_auth_2_properties GlueConnectionType#o_auth_2_properties}
 
 ---
 
@@ -1558,11 +1558,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationProperties {
-	Password: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesPassword,
-	Username: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesUsername,
+	Password: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesPassword,
+	Username: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesUsername,
 }
 ```
 
@@ -1585,7 +1585,7 @@ Password GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticati
 
 Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#password GlueConnectionType#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#password GlueConnectionType#password}
 
 ---
 
@@ -1599,7 +1599,7 @@ Username GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticati
 
 Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#username GlueConnectionType#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#username GlueConnectionType#username}
 
 ---
 
@@ -1608,7 +1608,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesPassword.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesPassword {
 	KeyOverride: *string,
@@ -1641,7 +1641,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -1655,7 +1655,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -1669,7 +1669,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -1683,7 +1683,7 @@ PropertyType *string
 
 The data type of this property. Must be SECRET for secret properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -1697,7 +1697,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -1706,7 +1706,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesUsername.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesUsername {
 	KeyOverride: *string,
@@ -1739,7 +1739,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -1753,7 +1753,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -1767,7 +1767,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -1781,7 +1781,7 @@ PropertyType *string
 
 The data type of this property. Must be SECRET for secret properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -1795,7 +1795,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -1804,7 +1804,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationProperties {
 	AuthenticationParameters: interface{},
@@ -1815,7 +1815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationProperties.property.authenticationParameters">AuthenticationParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#authentication_parameters GlueConnectionType#authentication_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationProperties.property.authenticationParameters">AuthenticationParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#authentication_parameters GlueConnectionType#authentication_parameters}. |
 
 ---
 
@@ -1827,7 +1827,7 @@ AuthenticationParameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#authentication_parameters GlueConnectionType#authentication_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#authentication_parameters GlueConnectionType#authentication_parameters}.
 
 ---
 
@@ -1836,7 +1836,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesAuthenticationParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesAuthenticationParameters {
 	KeyOverride: *string,
@@ -1869,7 +1869,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -1883,7 +1883,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -1897,7 +1897,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -1911,7 +1911,7 @@ PropertyType *string
 
 The data type of this property. Must be SECRET for secret properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -1925,7 +1925,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -1934,12 +1934,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Properties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Properties {
-	AuthorizationCodeProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties,
-	ClientCredentialsProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties,
-	JwtBearerProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties,
+	AuthorizationCodeProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties,
+	ClientCredentialsProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties,
+	JwtBearerProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties,
 	OAuth2GrantType: *string,
 }
 ```
@@ -1965,7 +1965,7 @@ AuthorizationCodeProperties GlueConnectionTypeConnectorAuthenticationConfigurati
 
 OAuth2 authorization code configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#authorization_code_properties GlueConnectionType#authorization_code_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#authorization_code_properties GlueConnectionType#authorization_code_properties}
 
 ---
 
@@ -1979,7 +1979,7 @@ ClientCredentialsProperties GlueConnectionTypeConnectorAuthenticationConfigurati
 
 OAuth2 client credentials configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#client_credentials_properties GlueConnectionType#client_credentials_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#client_credentials_properties GlueConnectionType#client_credentials_properties}
 
 ---
 
@@ -1993,7 +1993,7 @@ JwtBearerProperties GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2
 
 JWT bearer token configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#jwt_bearer_properties GlueConnectionType#jwt_bearer_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#jwt_bearer_properties GlueConnectionType#jwt_bearer_properties}
 
 ---
 
@@ -2007,7 +2007,7 @@ OAuth2GrantType *string
 
 The OAuth2 grant type to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#o_auth_2_grant_type GlueConnectionType#o_auth_2_grant_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#o_auth_2_grant_type GlueConnectionType#o_auth_2_grant_type}
 
 ---
 
@@ -2016,19 +2016,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties {
-	AuthorizationCode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCode,
-	AuthorizationCodeUrl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeUrl,
-	ClientId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientId,
-	ClientSecret: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientSecret,
+	AuthorizationCode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCode,
+	AuthorizationCodeUrl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeUrl,
+	ClientId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientId,
+	ClientSecret: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientSecret,
 	ContentType: *string,
-	Prompt: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesPrompt,
-	RedirectUri: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesRedirectUri,
+	Prompt: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesPrompt,
+	RedirectUri: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesRedirectUri,
 	RequestMethod: *string,
-	Scope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesScope,
-	TokenUrl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrl,
+	Scope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesScope,
+	TokenUrl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrl,
 	TokenUrlParameters: interface{},
 }
 ```
@@ -2041,13 +2041,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.authorizationCodeUrl">AuthorizationCodeUrl</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeUrl">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeUrl</a></code> | Defines a property configuration for connection types. |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.clientId">ClientId</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientId">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientId</a></code> | Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues. |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.clientSecret">ClientSecret</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientSecret">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientSecret</a></code> | Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues. |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.contentType">ContentType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.contentType">ContentType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}. |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.prompt">Prompt</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesPrompt">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesPrompt</a></code> | Defines a property configuration for connection types. |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.redirectUri">RedirectUri</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesRedirectUri">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesRedirectUri</a></code> | Defines a property configuration for connection types. |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.requestMethod">RequestMethod</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.requestMethod">RequestMethod</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}. |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.scope">Scope</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesScope">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesScope</a></code> | Defines a property configuration for connection types. |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.tokenUrl">TokenUrl</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrl">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrl</a></code> | Defines a property configuration for connection types. |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.tokenUrlParameters">TokenUrlParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.property.tokenUrlParameters">TokenUrlParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}. |
 
 ---
 
@@ -2061,7 +2061,7 @@ AuthorizationCode GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pr
 
 Defines a property configuration for connection types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#authorization_code GlueConnectionType#authorization_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#authorization_code GlueConnectionType#authorization_code}
 
 ---
 
@@ -2075,7 +2075,7 @@ AuthorizationCodeUrl GlueConnectionTypeConnectorAuthenticationConfigurationOAuth
 
 Defines a property configuration for connection types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#authorization_code_url GlueConnectionType#authorization_code_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#authorization_code_url GlueConnectionType#authorization_code_url}
 
 ---
 
@@ -2089,7 +2089,7 @@ ClientId GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesA
 
 Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#client_id GlueConnectionType#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#client_id GlueConnectionType#client_id}
 
 ---
 
@@ -2103,7 +2103,7 @@ ClientSecret GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Propert
 
 Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#client_secret GlueConnectionType#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#client_secret GlueConnectionType#client_secret}
 
 ---
 
@@ -2115,7 +2115,7 @@ ContentType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}.
 
 ---
 
@@ -2129,7 +2129,7 @@ Prompt GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAut
 
 Defines a property configuration for connection types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#prompt GlueConnectionType#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#prompt GlueConnectionType#prompt}
 
 ---
 
@@ -2143,7 +2143,7 @@ RedirectUri GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Properti
 
 Defines a property configuration for connection types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#redirect_uri GlueConnectionType#redirect_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#redirect_uri GlueConnectionType#redirect_uri}
 
 ---
 
@@ -2155,7 +2155,7 @@ RequestMethod *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}.
 
 ---
 
@@ -2169,7 +2169,7 @@ Scope GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuth
 
 Defines a property configuration for connection types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#scope GlueConnectionType#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#scope GlueConnectionType#scope}
 
 ---
 
@@ -2183,7 +2183,7 @@ TokenUrl GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesA
 
 Defines a property configuration for connection types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
 
 ---
 
@@ -2195,7 +2195,7 @@ TokenUrlParameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}.
 
 ---
 
@@ -2204,7 +2204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCode {
 	AllowedValues: *[]*string,
@@ -2241,7 +2241,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -2255,7 +2255,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -2269,7 +2269,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -2283,7 +2283,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -2297,7 +2297,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -2311,7 +2311,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -2325,7 +2325,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -2334,7 +2334,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeUrl {
 	AllowedValues: *[]*string,
@@ -2371,7 +2371,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -2385,7 +2385,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -2399,7 +2399,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -2413,7 +2413,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -2427,7 +2427,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -2441,7 +2441,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -2455,7 +2455,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -2464,7 +2464,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientId {
 	KeyOverride: *string,
@@ -2497,7 +2497,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -2511,7 +2511,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -2525,7 +2525,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -2539,7 +2539,7 @@ PropertyType *string
 
 The data type of this property. Must be SECRET for secret properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -2553,7 +2553,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -2562,7 +2562,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientSecret.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientSecret {
 	KeyOverride: *string,
@@ -2595,7 +2595,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -2609,7 +2609,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -2623,7 +2623,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -2637,7 +2637,7 @@ PropertyType *string
 
 The data type of this property. Must be SECRET for secret properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -2651,7 +2651,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -2660,7 +2660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesPrompt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesPrompt {
 	AllowedValues: *[]*string,
@@ -2697,7 +2697,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -2711,7 +2711,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -2725,7 +2725,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -2739,7 +2739,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -2753,7 +2753,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -2767,7 +2767,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -2781,7 +2781,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -2790,7 +2790,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesRedirectUri.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesRedirectUri {
 	AllowedValues: *[]*string,
@@ -2827,7 +2827,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -2841,7 +2841,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -2855,7 +2855,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -2869,7 +2869,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -2883,7 +2883,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -2897,7 +2897,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -2911,7 +2911,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -2920,7 +2920,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesScope {
 	AllowedValues: *[]*string,
@@ -2957,7 +2957,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -2971,7 +2971,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -2985,7 +2985,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -2999,7 +2999,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -3013,7 +3013,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -3027,7 +3027,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -3041,7 +3041,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -3050,7 +3050,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrl {
 	AllowedValues: *[]*string,
@@ -3087,7 +3087,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -3101,7 +3101,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -3115,7 +3115,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -3129,7 +3129,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -3143,7 +3143,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -3157,7 +3157,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -3171,7 +3171,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -3180,7 +3180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlParameters {
 	AllowedValues: *[]*string,
@@ -3217,7 +3217,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -3231,7 +3231,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -3245,7 +3245,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -3259,7 +3259,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -3273,7 +3273,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -3287,7 +3287,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -3301,7 +3301,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -3310,15 +3310,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties {
-	ClientId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientId,
-	ClientSecret: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientSecret,
+	ClientId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientId,
+	ClientSecret: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientSecret,
 	ContentType: *string,
 	RequestMethod: *string,
-	Scope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesScope,
-	TokenUrl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrl,
+	Scope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesScope,
+	TokenUrl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrl,
 	TokenUrlParameters: interface{},
 }
 ```
@@ -3329,11 +3329,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties.property.clientId">ClientId</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientId">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientId</a></code> | Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues. |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties.property.clientSecret">ClientSecret</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientSecret">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientSecret</a></code> | Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues. |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties.property.contentType">ContentType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}. |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties.property.requestMethod">RequestMethod</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties.property.contentType">ContentType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties.property.requestMethod">RequestMethod</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}. |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties.property.scope">Scope</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesScope">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesScope</a></code> | Defines a property configuration for connection types. |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties.property.tokenUrl">TokenUrl</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrl">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrl</a></code> | Defines a property configuration for connection types. |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties.property.tokenUrlParameters">TokenUrlParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties.property.tokenUrlParameters">TokenUrlParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}. |
 
 ---
 
@@ -3347,7 +3347,7 @@ ClientId GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesC
 
 Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#client_id GlueConnectionType#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#client_id GlueConnectionType#client_id}
 
 ---
 
@@ -3361,7 +3361,7 @@ ClientSecret GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Propert
 
 Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#client_secret GlueConnectionType#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#client_secret GlueConnectionType#client_secret}
 
 ---
 
@@ -3373,7 +3373,7 @@ ContentType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}.
 
 ---
 
@@ -3385,7 +3385,7 @@ RequestMethod *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}.
 
 ---
 
@@ -3399,7 +3399,7 @@ Scope GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClie
 
 Defines a property configuration for connection types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#scope GlueConnectionType#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#scope GlueConnectionType#scope}
 
 ---
 
@@ -3413,7 +3413,7 @@ TokenUrl GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesC
 
 Defines a property configuration for connection types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
 
 ---
 
@@ -3425,7 +3425,7 @@ TokenUrlParameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}.
 
 ---
 
@@ -3434,7 +3434,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientId {
 	KeyOverride: *string,
@@ -3467,7 +3467,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -3481,7 +3481,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -3495,7 +3495,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -3509,7 +3509,7 @@ PropertyType *string
 
 The data type of this property. Must be SECRET for secret properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -3523,7 +3523,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -3532,7 +3532,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientSecret.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientSecret {
 	KeyOverride: *string,
@@ -3565,7 +3565,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -3579,7 +3579,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -3593,7 +3593,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -3607,7 +3607,7 @@ PropertyType *string
 
 The data type of this property. Must be SECRET for secret properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -3621,7 +3621,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -3630,7 +3630,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesScope {
 	AllowedValues: *[]*string,
@@ -3667,7 +3667,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -3681,7 +3681,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -3695,7 +3695,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -3709,7 +3709,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -3723,7 +3723,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -3737,7 +3737,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -3751,7 +3751,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -3760,7 +3760,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrl {
 	AllowedValues: *[]*string,
@@ -3797,7 +3797,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -3811,7 +3811,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -3825,7 +3825,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -3839,7 +3839,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -3853,7 +3853,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -3867,7 +3867,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -3881,7 +3881,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -3890,7 +3890,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlParameters {
 	AllowedValues: *[]*string,
@@ -3927,7 +3927,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -3941,7 +3941,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -3955,7 +3955,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -3969,7 +3969,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -3983,7 +3983,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -3997,7 +3997,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -4011,7 +4011,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -4020,13 +4020,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties {
 	ContentType: *string,
-	JwtToken: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesJwtToken,
+	JwtToken: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesJwtToken,
 	RequestMethod: *string,
-	TokenUrl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrl,
+	TokenUrl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrl,
 	TokenUrlParameters: interface{},
 }
 ```
@@ -4035,11 +4035,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties.property.contentType">ContentType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties.property.contentType">ContentType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}. |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties.property.jwtToken">JwtToken</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesJwtToken">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesJwtToken</a></code> | Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues. |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties.property.requestMethod">RequestMethod</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties.property.requestMethod">RequestMethod</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}. |
 | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties.property.tokenUrl">TokenUrl</a></code> | <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrl">GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrl</a></code> | Defines a property configuration for connection types. |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties.property.tokenUrlParameters">TokenUrlParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties.property.tokenUrlParameters">TokenUrlParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}. |
 
 ---
 
@@ -4051,7 +4051,7 @@ ContentType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}.
 
 ---
 
@@ -4065,7 +4065,7 @@ JwtToken GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJ
 
 Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#jwt_token GlueConnectionType#jwt_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#jwt_token GlueConnectionType#jwt_token}
 
 ---
 
@@ -4077,7 +4077,7 @@ RequestMethod *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}.
 
 ---
 
@@ -4091,7 +4091,7 @@ TokenUrl GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJ
 
 Defines a property configuration for connection types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
 
 ---
 
@@ -4103,7 +4103,7 @@ TokenUrlParameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}.
 
 ---
 
@@ -4112,7 +4112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesJwtToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesJwtToken {
 	KeyOverride: *string,
@@ -4145,7 +4145,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -4159,7 +4159,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -4173,7 +4173,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -4187,7 +4187,7 @@ PropertyType *string
 
 The data type of this property. Must be SECRET for secret properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -4201,7 +4201,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -4210,7 +4210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrl {
 	AllowedValues: *[]*string,
@@ -4247,7 +4247,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -4261,7 +4261,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -4275,7 +4275,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -4289,7 +4289,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -4303,7 +4303,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -4317,7 +4317,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -4331,7 +4331,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -4340,7 +4340,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlParameters {
 	AllowedValues: *[]*string,
@@ -4377,7 +4377,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -4391,7 +4391,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -4405,7 +4405,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -4419,7 +4419,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -4433,7 +4433,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -4447,7 +4447,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -4461,7 +4461,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -4470,12 +4470,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfiguration {
 	EntityConfigurations: interface{},
-	GlobalSourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfiguration,
-	ValidationEndpointConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationValidationEndpointConfiguration,
+	GlobalSourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfiguration,
+	ValidationEndpointConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationValidationEndpointConfiguration,
 }
 ```
 
@@ -4499,7 +4499,7 @@ EntityConfigurations interface{}
 
 A map of entity configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#entity_configurations GlueConnectionType#entity_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#entity_configurations GlueConnectionType#entity_configurations}
 
 ---
 
@@ -4513,7 +4513,7 @@ GlobalSourceConfiguration GlueConnectionTypeRestConfigurationGlobalSourceConfigu
 
 Configuration that defines how to make requests to endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#global_source_configuration GlueConnectionType#global_source_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#global_source_configuration GlueConnectionType#global_source_configuration}
 
 ---
 
@@ -4527,7 +4527,7 @@ ValidationEndpointConfiguration GlueConnectionTypeRestConfigurationValidationEnd
 
 Configuration for the validation endpoint. Only supports RequestMethod and RequestPath.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#validation_endpoint_configuration GlueConnectionType#validation_endpoint_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#validation_endpoint_configuration GlueConnectionType#validation_endpoint_configuration}
 
 ---
 
@@ -4536,11 +4536,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurations {
 	Schema: interface{},
-	SourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfiguration,
+	SourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfiguration,
 }
 ```
 
@@ -4563,7 +4563,7 @@ Schema interface{}
 
 The schema definition for this entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#schema GlueConnectionType#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#schema GlueConnectionType#schema}
 
 ---
 
@@ -4577,7 +4577,7 @@ SourceConfiguration GlueConnectionTypeRestConfigurationEntityConfigurationsSourc
 
 Configuration that defines how to make requests to endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#source_configuration GlueConnectionType#source_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#source_configuration GlueConnectionType#source_configuration}
 
 ---
 
@@ -4586,11 +4586,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSchema {
 	FieldDataType: *string,
-	FilterOverrides: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverrides,
+	FilterOverrides: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverrides,
 	IsNullable: interface{},
 	IsOrderable: interface{},
 	IsPartitionable: interface{},
@@ -4625,7 +4625,7 @@ FieldDataType *string
 
 The data type of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#field_data_type GlueConnectionType#field_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#field_data_type GlueConnectionType#field_data_type}
 
 ---
 
@@ -4639,7 +4639,7 @@ FilterOverrides GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFil
 
 Configuration that defines per-field overrides for filter behavior, allowing individual fields to customize how filter operations are applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#filter_overrides GlueConnectionType#filter_overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#filter_overrides GlueConnectionType#filter_overrides}
 
 ---
 
@@ -4653,7 +4653,7 @@ IsNullable interface{}
 
 Indicates whether this field can contain null values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#is_nullable GlueConnectionType#is_nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#is_nullable GlueConnectionType#is_nullable}
 
 ---
 
@@ -4667,7 +4667,7 @@ IsOrderable interface{}
 
 Indicates whether this field can be used for ordering results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#is_orderable GlueConnectionType#is_orderable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#is_orderable GlueConnectionType#is_orderable}
 
 ---
 
@@ -4681,7 +4681,7 @@ IsPartitionable interface{}
 
 Indicates whether this field can be used for partitioning queries to the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#is_partitionable GlueConnectionType#is_partitionable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#is_partitionable GlueConnectionType#is_partitionable}
 
 ---
 
@@ -4695,7 +4695,7 @@ IsQueryable interface{}
 
 Indicates whether this field can be used in filter predicates when querying data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#is_queryable GlueConnectionType#is_queryable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#is_queryable GlueConnectionType#is_queryable}
 
 ---
 
@@ -4709,7 +4709,7 @@ Name *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -4723,7 +4723,7 @@ ResponseDateFormat *string
 
 The format pattern for parsing date values from API responses. Accepts Java DateTimeFormatter patterns, EPOCH_SECONDS, or EPOCH_MILLIS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#response_date_format GlueConnectionType#response_date_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#response_date_format GlueConnectionType#response_date_format}
 
 ---
 
@@ -4732,10 +4732,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverrides {
-	BetweenConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverridesBetweenConfiguration,
+	BetweenConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverridesBetweenConfiguration,
 	DateTimeFormat: *string,
 	FieldName: *string,
 	OperatorMappings: *map[string]*string,
@@ -4763,7 +4763,7 @@ BetweenConfiguration GlueConnectionTypeRestConfigurationEntityConfigurationsSche
 
 Configuration that defines how BETWEEN range filter operations are translated into REST API request parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
 
 ---
 
@@ -4777,7 +4777,7 @@ DateTimeFormat *string
 
 The date and time format for filter expressions on this field, overriding the global DateTimeFormat.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
 
 ---
 
@@ -4791,7 +4791,7 @@ FieldName *string
 
 An override for the field name to use in filter expressions, if different from the schema field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#field_name GlueConnectionType#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#field_name GlueConnectionType#field_name}
 
 ---
 
@@ -4805,7 +4805,7 @@ OperatorMappings *map[string]*string
 
 A map of logical filter operators to their field-specific API representations, overriding the global operator mappings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
 
 ---
 
@@ -4814,7 +4814,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverridesBetweenConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverridesBetweenConfiguration {
 	HighBoundKey: *string,
@@ -4843,7 +4843,7 @@ HighBoundKey *string
 
 The parameter name used for the upper bound value in a BETWEEN filter operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
 
 ---
 
@@ -4857,7 +4857,7 @@ LowBoundKey *string
 
 The parameter name used for the lower bound value in a BETWEEN filter operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
 
 ---
 
@@ -4871,7 +4871,7 @@ Template *string
 
 A template string for constructing the BETWEEN filter expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
 
 ---
 
@@ -4880,15 +4880,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfiguration {
-	FilterConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfiguration,
-	PaginationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfiguration,
+	FilterConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfiguration,
+	PaginationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfiguration,
 	RequestMethod: *string,
 	RequestParameters: interface{},
 	RequestPath: *string,
-	ResponseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationResponseConfiguration,
+	ResponseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationResponseConfiguration,
 }
 ```
 
@@ -4915,7 +4915,7 @@ FilterConfiguration GlueConnectionTypeRestConfigurationEntityConfigurationsSourc
 
 Configuration that defines how filter predicates are applied to REST API requests, supporting both query parameter and filter string strategies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#filter_configuration GlueConnectionType#filter_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#filter_configuration GlueConnectionType#filter_configuration}
 
 ---
 
@@ -4929,7 +4929,7 @@ PaginationConfiguration GlueConnectionTypeRestConfigurationEntityConfigurationsS
 
 Configuration for handling paginated responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#pagination_configuration GlueConnectionType#pagination_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#pagination_configuration GlueConnectionType#pagination_configuration}
 
 ---
 
@@ -4943,7 +4943,7 @@ RequestMethod *string
 
 The HTTP method to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
 
 ---
 
@@ -4957,7 +4957,7 @@ RequestParameters interface{}
 
 Request parameters configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_parameters GlueConnectionType#request_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_parameters GlueConnectionType#request_parameters}
 
 ---
 
@@ -4971,7 +4971,7 @@ RequestPath *string
 
 The URL path for the REST endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
 
 ---
 
@@ -4985,7 +4985,7 @@ ResponseConfiguration GlueConnectionTypeRestConfigurationEntityConfigurationsSou
 
 Configuration for parsing JSON responses from REST API calls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#response_configuration GlueConnectionType#response_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#response_configuration GlueConnectionType#response_configuration}
 
 ---
 
@@ -4994,13 +4994,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfiguration {
-	BetweenConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationBetweenConfiguration,
+	BetweenConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationBetweenConfiguration,
 	DateTimeFormat: *string,
 	FilterMode: *string,
-	FilterStringConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationFilterStringConfiguration,
+	FilterStringConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationFilterStringConfiguration,
 	OperatorMappings: *map[string]*string,
 	StripQuotes: interface{},
 }
@@ -5029,7 +5029,7 @@ BetweenConfiguration GlueConnectionTypeRestConfigurationEntityConfigurationsSour
 
 Configuration that defines how BETWEEN range filter operations are translated into REST API request parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
 
 ---
 
@@ -5043,7 +5043,7 @@ DateTimeFormat *string
 
 The global date and time format for filter expressions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
 
 ---
 
@@ -5057,7 +5057,7 @@ FilterMode *string
 
 The strategy for applying filters to requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#filter_mode GlueConnectionType#filter_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#filter_mode GlueConnectionType#filter_mode}
 
 ---
 
@@ -5071,7 +5071,7 @@ FilterStringConfiguration GlueConnectionTypeRestConfigurationEntityConfiguration
 
 Configuration for constructing filter expression strings when using the FILTER_STRING filter mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#filter_string_configuration GlueConnectionType#filter_string_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#filter_string_configuration GlueConnectionType#filter_string_configuration}
 
 ---
 
@@ -5085,7 +5085,7 @@ OperatorMappings *map[string]*string
 
 A map of logical filter operators to their API-specific string representations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
 
 ---
 
@@ -5099,7 +5099,7 @@ StripQuotes interface{}
 
 Indicates whether surrounding double quotes should be stripped from filter values before processing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#strip_quotes GlueConnectionType#strip_quotes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#strip_quotes GlueConnectionType#strip_quotes}
 
 ---
 
@@ -5108,7 +5108,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationBetweenConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationBetweenConfiguration {
 	HighBoundKey: *string,
@@ -5137,7 +5137,7 @@ HighBoundKey *string
 
 The parameter name used for the upper bound value in a BETWEEN filter operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
 
 ---
 
@@ -5151,7 +5151,7 @@ LowBoundKey *string
 
 The parameter name used for the lower bound value in a BETWEEN filter operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
 
 ---
 
@@ -5165,7 +5165,7 @@ Template *string
 
 A template string for constructing the BETWEEN filter expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
 
 ---
 
@@ -5174,7 +5174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationFilterStringConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationFilterStringConfiguration {
 	QueryParameterName: *string,
@@ -5203,7 +5203,7 @@ QueryParameterName *string
 
 The query parameter name used to send the constructed filter expression string in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#query_parameter_name GlueConnectionType#query_parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#query_parameter_name GlueConnectionType#query_parameter_name}
 
 ---
 
@@ -5217,7 +5217,7 @@ QuoteCharacter *string
 
 The character used to quote values when QuoteStringValues is true. Defaults to double quotes if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#quote_character GlueConnectionType#quote_character}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#quote_character GlueConnectionType#quote_character}
 
 ---
 
@@ -5231,7 +5231,7 @@ QuoteStringValues interface{}
 
 Indicates whether string and date values should be wrapped with a quote character in the filter expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#quote_string_values GlueConnectionType#quote_string_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#quote_string_values GlueConnectionType#quote_string_values}
 
 ---
 
@@ -5240,11 +5240,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfiguration {
-	CursorConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfiguration,
-	OffsetConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfiguration,
+	CursorConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfiguration,
+	OffsetConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfiguration,
 }
 ```
 
@@ -5267,7 +5267,7 @@ CursorConfiguration GlueConnectionTypeRestConfigurationEntityConfigurationsSourc
 
 Cursor-based pagination configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#cursor_configuration GlueConnectionType#cursor_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#cursor_configuration GlueConnectionType#cursor_configuration}
 
 ---
 
@@ -5281,7 +5281,7 @@ OffsetConfiguration GlueConnectionTypeRestConfigurationEntityConfigurationsSourc
 
 Offset-based pagination configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#offset_configuration GlueConnectionType#offset_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#offset_configuration GlueConnectionType#offset_configuration}
 
 ---
 
@@ -5290,11 +5290,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfiguration {
-	LimitParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameter,
-	NextPage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPage,
+	LimitParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameter,
+	NextPage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPage,
 }
 ```
 
@@ -5317,7 +5317,7 @@ LimitParameter GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConf
 
 Parameter extraction configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
 
 ---
 
@@ -5331,7 +5331,7 @@ NextPage GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurat
 
 Parameter extraction configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#next_page GlueConnectionType#next_page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#next_page GlueConnectionType#next_page}
 
 ---
 
@@ -5340,13 +5340,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameter {
 	DefaultValue: *string,
 	Key: *string,
 	PropertyLocation: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValue,
 }
 ```
 
@@ -5371,7 +5371,7 @@ DefaultValue *string
 
 The default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -5385,7 +5385,7 @@ Key *string
 
 The parameter key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
 
 ---
 
@@ -5399,7 +5399,7 @@ PropertyLocation *string
 
 Specifies where to place the parameter in requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -5413,7 +5413,7 @@ Value GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfiguration
 
 Defines how to extract values from HTTP responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
 
 ---
 
@@ -5422,7 +5422,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValue {
 	ContentPath: *string,
@@ -5449,7 +5449,7 @@ ContentPath *string
 
 A JSON path expression to extract a value from response body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
 
 ---
 
@@ -5463,7 +5463,7 @@ HeaderKey *string
 
 The name of an HTTP response header from which to extract the value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
 
 ---
 
@@ -5472,13 +5472,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPage {
 	DefaultValue: *string,
 	Key: *string,
 	PropertyLocation: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValue,
 }
 ```
 
@@ -5503,7 +5503,7 @@ DefaultValue *string
 
 The default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -5517,7 +5517,7 @@ Key *string
 
 The parameter key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
 
 ---
 
@@ -5531,7 +5531,7 @@ PropertyLocation *string
 
 Specifies where to place the parameter in requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -5545,7 +5545,7 @@ Value GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfiguration
 
 Defines how to extract values from HTTP responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
 
 ---
 
@@ -5554,7 +5554,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValue {
 	ContentPath: *string,
@@ -5581,7 +5581,7 @@ ContentPath *string
 
 A JSON path expression to extract a value from response body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
 
 ---
 
@@ -5595,7 +5595,7 @@ HeaderKey *string
 
 The name of an HTTP response header from which to extract the value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
 
 ---
 
@@ -5604,11 +5604,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfiguration {
-	LimitParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameter,
-	OffsetParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameter,
+	LimitParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameter,
+	OffsetParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameter,
 }
 ```
 
@@ -5631,7 +5631,7 @@ LimitParameter GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConf
 
 Parameter extraction configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
 
 ---
 
@@ -5645,7 +5645,7 @@ OffsetParameter GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCon
 
 Parameter extraction configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#offset_parameter GlueConnectionType#offset_parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#offset_parameter GlueConnectionType#offset_parameter}
 
 ---
 
@@ -5654,13 +5654,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameter {
 	DefaultValue: *string,
 	Key: *string,
 	PropertyLocation: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValue,
 }
 ```
 
@@ -5685,7 +5685,7 @@ DefaultValue *string
 
 The default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -5699,7 +5699,7 @@ Key *string
 
 The parameter key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
 
 ---
 
@@ -5713,7 +5713,7 @@ PropertyLocation *string
 
 Specifies where to place the parameter in requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -5727,7 +5727,7 @@ Value GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfiguration
 
 Defines how to extract values from HTTP responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
 
 ---
 
@@ -5736,7 +5736,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValue {
 	ContentPath: *string,
@@ -5763,7 +5763,7 @@ ContentPath *string
 
 A JSON path expression to extract a value from response body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
 
 ---
 
@@ -5777,7 +5777,7 @@ HeaderKey *string
 
 The name of an HTTP response header from which to extract the value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
 
 ---
 
@@ -5786,13 +5786,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameter {
 	DefaultValue: *string,
 	Key: *string,
 	PropertyLocation: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValue,
 }
 ```
 
@@ -5817,7 +5817,7 @@ DefaultValue *string
 
 The default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -5831,7 +5831,7 @@ Key *string
 
 The parameter key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
 
 ---
 
@@ -5845,7 +5845,7 @@ PropertyLocation *string
 
 Specifies where to place the parameter in requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -5859,7 +5859,7 @@ Value GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfiguration
 
 Defines how to extract values from HTTP responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
 
 ---
 
@@ -5868,7 +5868,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValue {
 	ContentPath: *string,
@@ -5895,7 +5895,7 @@ ContentPath *string
 
 A JSON path expression to extract a value from response body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
 
 ---
 
@@ -5909,7 +5909,7 @@ HeaderKey *string
 
 The name of an HTTP response header from which to extract the value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
 
 ---
 
@@ -5918,7 +5918,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationRequestParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationRequestParameters {
 	AllowedValues: *[]*string,
@@ -5955,7 +5955,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -5969,7 +5969,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -5983,7 +5983,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -5997,7 +5997,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -6011,7 +6011,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -6025,7 +6025,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -6039,7 +6039,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -6048,7 +6048,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationResponseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationResponseConfiguration {
 	ErrorPath: *string,
@@ -6075,7 +6075,7 @@ ErrorPath *string
 
 JSON path expression for error information location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#error_path GlueConnectionType#error_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#error_path GlueConnectionType#error_path}
 
 ---
 
@@ -6089,7 +6089,7 @@ ResultPath *string
 
 JSON path expression for result data location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#result_path GlueConnectionType#result_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#result_path GlueConnectionType#result_path}
 
 ---
 
@@ -6098,15 +6098,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfiguration {
-	FilterConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfiguration,
-	PaginationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfiguration,
+	FilterConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfiguration,
+	PaginationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfiguration,
 	RequestMethod: *string,
 	RequestParameters: interface{},
 	RequestPath: *string,
-	ResponseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationResponseConfiguration,
+	ResponseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationResponseConfiguration,
 }
 ```
 
@@ -6133,7 +6133,7 @@ FilterConfiguration GlueConnectionTypeRestConfigurationGlobalSourceConfiguration
 
 Configuration that defines how filter predicates are applied to REST API requests, supporting both query parameter and filter string strategies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#filter_configuration GlueConnectionType#filter_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#filter_configuration GlueConnectionType#filter_configuration}
 
 ---
 
@@ -6147,7 +6147,7 @@ PaginationConfiguration GlueConnectionTypeRestConfigurationGlobalSourceConfigura
 
 Configuration for handling paginated responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#pagination_configuration GlueConnectionType#pagination_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#pagination_configuration GlueConnectionType#pagination_configuration}
 
 ---
 
@@ -6161,7 +6161,7 @@ RequestMethod *string
 
 The HTTP method to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
 
 ---
 
@@ -6175,7 +6175,7 @@ RequestParameters interface{}
 
 Request parameters configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_parameters GlueConnectionType#request_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_parameters GlueConnectionType#request_parameters}
 
 ---
 
@@ -6189,7 +6189,7 @@ RequestPath *string
 
 The URL path for the REST endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
 
 ---
 
@@ -6203,7 +6203,7 @@ ResponseConfiguration GlueConnectionTypeRestConfigurationGlobalSourceConfigurati
 
 Configuration for parsing JSON responses from REST API calls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#response_configuration GlueConnectionType#response_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#response_configuration GlueConnectionType#response_configuration}
 
 ---
 
@@ -6212,13 +6212,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfiguration {
-	BetweenConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationBetweenConfiguration,
+	BetweenConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationBetweenConfiguration,
 	DateTimeFormat: *string,
 	FilterMode: *string,
-	FilterStringConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationFilterStringConfiguration,
+	FilterStringConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationFilterStringConfiguration,
 	OperatorMappings: *map[string]*string,
 	StripQuotes: interface{},
 }
@@ -6247,7 +6247,7 @@ BetweenConfiguration GlueConnectionTypeRestConfigurationGlobalSourceConfiguratio
 
 Configuration that defines how BETWEEN range filter operations are translated into REST API request parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
 
 ---
 
@@ -6261,7 +6261,7 @@ DateTimeFormat *string
 
 The global date and time format for filter expressions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
 
 ---
 
@@ -6275,7 +6275,7 @@ FilterMode *string
 
 The strategy for applying filters to requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#filter_mode GlueConnectionType#filter_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#filter_mode GlueConnectionType#filter_mode}
 
 ---
 
@@ -6289,7 +6289,7 @@ FilterStringConfiguration GlueConnectionTypeRestConfigurationGlobalSourceConfigu
 
 Configuration for constructing filter expression strings when using the FILTER_STRING filter mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#filter_string_configuration GlueConnectionType#filter_string_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#filter_string_configuration GlueConnectionType#filter_string_configuration}
 
 ---
 
@@ -6303,7 +6303,7 @@ OperatorMappings *map[string]*string
 
 A map of logical filter operators to their API-specific string representations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
 
 ---
 
@@ -6317,7 +6317,7 @@ StripQuotes interface{}
 
 Indicates whether surrounding double quotes should be stripped from filter values before processing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#strip_quotes GlueConnectionType#strip_quotes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#strip_quotes GlueConnectionType#strip_quotes}
 
 ---
 
@@ -6326,7 +6326,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationBetweenConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationBetweenConfiguration {
 	HighBoundKey: *string,
@@ -6355,7 +6355,7 @@ HighBoundKey *string
 
 The parameter name used for the upper bound value in a BETWEEN filter operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
 
 ---
 
@@ -6369,7 +6369,7 @@ LowBoundKey *string
 
 The parameter name used for the lower bound value in a BETWEEN filter operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
 
 ---
 
@@ -6383,7 +6383,7 @@ Template *string
 
 A template string for constructing the BETWEEN filter expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
 
 ---
 
@@ -6392,7 +6392,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationFilterStringConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationFilterStringConfiguration {
 	QueryParameterName: *string,
@@ -6421,7 +6421,7 @@ QueryParameterName *string
 
 The query parameter name used to send the constructed filter expression string in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#query_parameter_name GlueConnectionType#query_parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#query_parameter_name GlueConnectionType#query_parameter_name}
 
 ---
 
@@ -6435,7 +6435,7 @@ QuoteCharacter *string
 
 The character used to quote values when QuoteStringValues is true. Defaults to double quotes if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#quote_character GlueConnectionType#quote_character}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#quote_character GlueConnectionType#quote_character}
 
 ---
 
@@ -6449,7 +6449,7 @@ QuoteStringValues interface{}
 
 Indicates whether string and date values should be wrapped with a quote character in the filter expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#quote_string_values GlueConnectionType#quote_string_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#quote_string_values GlueConnectionType#quote_string_values}
 
 ---
 
@@ -6458,11 +6458,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfiguration {
-	CursorConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfiguration,
-	OffsetConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfiguration,
+	CursorConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfiguration,
+	OffsetConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfiguration,
 }
 ```
 
@@ -6485,7 +6485,7 @@ CursorConfiguration GlueConnectionTypeRestConfigurationGlobalSourceConfiguration
 
 Cursor-based pagination configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#cursor_configuration GlueConnectionType#cursor_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#cursor_configuration GlueConnectionType#cursor_configuration}
 
 ---
 
@@ -6499,7 +6499,7 @@ OffsetConfiguration GlueConnectionTypeRestConfigurationGlobalSourceConfiguration
 
 Offset-based pagination configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#offset_configuration GlueConnectionType#offset_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#offset_configuration GlueConnectionType#offset_configuration}
 
 ---
 
@@ -6508,11 +6508,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfiguration {
-	LimitParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameter,
-	NextPage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPage,
+	LimitParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameter,
+	NextPage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPage,
 }
 ```
 
@@ -6535,7 +6535,7 @@ LimitParameter GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPagin
 
 Parameter extraction configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
 
 ---
 
@@ -6549,7 +6549,7 @@ NextPage GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationC
 
 Parameter extraction configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#next_page GlueConnectionType#next_page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#next_page GlueConnectionType#next_page}
 
 ---
 
@@ -6558,13 +6558,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameter {
 	DefaultValue: *string,
 	Key: *string,
 	PropertyLocation: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValue,
 }
 ```
 
@@ -6589,7 +6589,7 @@ DefaultValue *string
 
 The default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -6603,7 +6603,7 @@ Key *string
 
 The parameter key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
 
 ---
 
@@ -6617,7 +6617,7 @@ PropertyLocation *string
 
 Specifies where to place the parameter in requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -6631,7 +6631,7 @@ Value GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConf
 
 Defines how to extract values from HTTP responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
 
 ---
 
@@ -6640,7 +6640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValue {
 	ContentPath: *string,
@@ -6667,7 +6667,7 @@ ContentPath *string
 
 A JSON path expression to extract a value from response body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
 
 ---
 
@@ -6681,7 +6681,7 @@ HeaderKey *string
 
 The name of an HTTP response header from which to extract the value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
 
 ---
 
@@ -6690,13 +6690,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPage {
 	DefaultValue: *string,
 	Key: *string,
 	PropertyLocation: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValue,
 }
 ```
 
@@ -6721,7 +6721,7 @@ DefaultValue *string
 
 The default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -6735,7 +6735,7 @@ Key *string
 
 The parameter key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
 
 ---
 
@@ -6749,7 +6749,7 @@ PropertyLocation *string
 
 Specifies where to place the parameter in requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -6763,7 +6763,7 @@ Value GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConf
 
 Defines how to extract values from HTTP responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
 
 ---
 
@@ -6772,7 +6772,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValue {
 	ContentPath: *string,
@@ -6799,7 +6799,7 @@ ContentPath *string
 
 A JSON path expression to extract a value from response body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
 
 ---
 
@@ -6813,7 +6813,7 @@ HeaderKey *string
 
 The name of an HTTP response header from which to extract the value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
 
 ---
 
@@ -6822,11 +6822,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfiguration {
-	LimitParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameter,
-	OffsetParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameter,
+	LimitParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameter,
+	OffsetParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameter,
 }
 ```
 
@@ -6849,7 +6849,7 @@ LimitParameter GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPagin
 
 Parameter extraction configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
 
 ---
 
@@ -6863,7 +6863,7 @@ OffsetParameter GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPagi
 
 Parameter extraction configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#offset_parameter GlueConnectionType#offset_parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#offset_parameter GlueConnectionType#offset_parameter}
 
 ---
 
@@ -6872,13 +6872,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameter {
 	DefaultValue: *string,
 	Key: *string,
 	PropertyLocation: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValue,
 }
 ```
 
@@ -6903,7 +6903,7 @@ DefaultValue *string
 
 The default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -6917,7 +6917,7 @@ Key *string
 
 The parameter key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
 
 ---
 
@@ -6931,7 +6931,7 @@ PropertyLocation *string
 
 Specifies where to place the parameter in requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -6945,7 +6945,7 @@ Value GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConf
 
 Defines how to extract values from HTTP responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
 
 ---
 
@@ -6954,7 +6954,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValue {
 	ContentPath: *string,
@@ -6981,7 +6981,7 @@ ContentPath *string
 
 A JSON path expression to extract a value from response body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
 
 ---
 
@@ -6995,7 +6995,7 @@ HeaderKey *string
 
 The name of an HTTP response header from which to extract the value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
 
 ---
 
@@ -7004,13 +7004,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameter {
 	DefaultValue: *string,
 	Key: *string,
 	PropertyLocation: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValue,
 }
 ```
 
@@ -7035,7 +7035,7 @@ DefaultValue *string
 
 The default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -7049,7 +7049,7 @@ Key *string
 
 The parameter key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
 
 ---
 
@@ -7063,7 +7063,7 @@ PropertyLocation *string
 
 Specifies where to place the parameter in requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -7077,7 +7077,7 @@ Value GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConf
 
 Defines how to extract values from HTTP responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
 
 ---
 
@@ -7086,7 +7086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValue {
 	ContentPath: *string,
@@ -7113,7 +7113,7 @@ ContentPath *string
 
 A JSON path expression to extract a value from response body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
 
 ---
 
@@ -7127,7 +7127,7 @@ HeaderKey *string
 
 The name of an HTTP response header from which to extract the value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
 
 ---
 
@@ -7136,7 +7136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationRequestParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationRequestParameters {
 	AllowedValues: *[]*string,
@@ -7173,7 +7173,7 @@ AllowedValues *[]*string
 
 A list of allowed values for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
 
 ---
 
@@ -7187,7 +7187,7 @@ DefaultValue *string
 
 The default value for the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
 
 ---
 
@@ -7201,7 +7201,7 @@ KeyOverride *string
 
 A key name to use when sending this property in API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
 
 ---
 
@@ -7215,7 +7215,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
 
 ---
 
@@ -7229,7 +7229,7 @@ PropertyLocation *string
 
 Specifies where this property should be included in REST requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
 
 ---
 
@@ -7243,7 +7243,7 @@ PropertyType *string
 
 The data type of this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
 
 ---
 
@@ -7257,7 +7257,7 @@ Required interface{}
 
 Indicates whether the property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
 
 ---
 
@@ -7266,7 +7266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationResponseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationResponseConfiguration {
 	ErrorPath: *string,
@@ -7293,7 +7293,7 @@ ErrorPath *string
 
 JSON path expression for error information location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#error_path GlueConnectionType#error_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#error_path GlueConnectionType#error_path}
 
 ---
 
@@ -7307,7 +7307,7 @@ ResultPath *string
 
 JSON path expression for result data location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#result_path GlueConnectionType#result_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#result_path GlueConnectionType#result_path}
 
 ---
 
@@ -7316,7 +7316,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationValidationEndpointConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeRestConfigurationValidationEndpointConfiguration {
 	RequestMethod: *string,
@@ -7343,7 +7343,7 @@ RequestMethod *string
 
 The HTTP method to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
 
 ---
 
@@ -7357,7 +7357,7 @@ RequestPath *string
 
 The URL path for the REST endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
 
 ---
 
@@ -7366,7 +7366,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 &glueconnectiontype.GlueConnectionTypeTags {
 	Key: *string,
@@ -7378,8 +7378,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key GlueConnectionType#key}. |
-| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#value GlueConnectionType#value}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key GlueConnectionType#key}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#value GlueConnectionType#value}. |
 
 ---
 
@@ -7391,7 +7391,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#key GlueConnectionType#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#key GlueConnectionType#key}.
 
 ---
 
@@ -7403,7 +7403,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type#value GlueConnectionType#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type#value GlueConnectionType#value}.
 
 ---
 
@@ -7414,7 +7414,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectionPropertiesAdditionalRequestParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectionPropertiesAdditionalRequestParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueConnectionTypeConnectionPropertiesAdditionalRequestParametersList
 ```
@@ -7574,7 +7574,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectionPropertiesAdditionalRequestParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectionPropertiesAdditionalRequestParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueConnectionTypeConnectionPropertiesAdditionalRequestParametersOutputReference
 ```
@@ -8044,7 +8044,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectionPropertiesOutputReference
 ```
@@ -8377,7 +8377,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectionPropertiesUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectionPropertiesUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectionPropertiesUrlOutputReference
 ```
@@ -8829,7 +8829,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesOutputReference
 ```
@@ -9162,7 +9162,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesPasswordOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesPasswordOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesPasswordOutputReference
 ```
@@ -9556,7 +9556,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesUsernameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesUsernameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesUsernameOutputReference
 ```
@@ -9950,7 +9950,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesAuthenticationParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesAuthenticationParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesAuthenticationParametersList
 ```
@@ -10110,7 +10110,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesAuthenticationParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesAuthenticationParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesAuthenticationParametersOutputReference
 ```
@@ -10522,7 +10522,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference
 ```
@@ -10813,7 +10813,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeOutputReference
 ```
@@ -11265,7 +11265,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeUrlOutputReference
 ```
@@ -11717,7 +11717,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientIdOutputReference
 ```
@@ -12111,7 +12111,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientSecretOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientSecretOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientSecretOutputReference
 ```
@@ -12505,7 +12505,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesOutputReference
 ```
@@ -13190,7 +13190,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesPromptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesPromptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesPromptOutputReference
 ```
@@ -13642,7 +13642,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesRedirectUriOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesRedirectUriOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesRedirectUriOutputReference
 ```
@@ -14094,7 +14094,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesScopeOutputReference
 ```
@@ -14546,7 +14546,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlOutputReference
 ```
@@ -14998,7 +14998,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlParametersList
 ```
@@ -15158,7 +15158,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlParametersOutputReference
 ```
@@ -15628,7 +15628,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientIdOutputReference
 ```
@@ -16022,7 +16022,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientSecretOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientSecretOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientSecretOutputReference
 ```
@@ -16416,7 +16416,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesOutputReference
 ```
@@ -16933,7 +16933,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesScopeOutputReference
 ```
@@ -17385,7 +17385,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlOutputReference
 ```
@@ -17837,7 +17837,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlParametersList
 ```
@@ -17997,7 +17997,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlParametersOutputReference
 ```
@@ -18467,7 +18467,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesJwtTokenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesJwtTokenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesJwtTokenOutputReference
 ```
@@ -18861,7 +18861,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesOutputReference
 ```
@@ -19294,7 +19294,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlOutputReference
 ```
@@ -19746,7 +19746,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlParametersList
 ```
@@ -19906,7 +19906,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlParametersOutputReference
 ```
@@ -20376,7 +20376,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesOutputReference
 ```
@@ -20780,7 +20780,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeConnectorAuthenticationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeConnectorAuthenticationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeConnectorAuthenticationConfigurationOutputReference
 ```
@@ -21184,7 +21184,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsMap(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsMap
 ```
@@ -21331,7 +21331,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) GlueConnectionTypeRestConfigurationEntityConfigurationsOutputReference
 ```
@@ -21673,7 +21673,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverridesBetweenConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverridesBetweenConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverridesBetweenConfigurationOutputReference
 ```
@@ -22009,7 +22009,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverridesOutputReference
 ```
@@ -22387,7 +22387,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSchemaMap(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaMap
 ```
@@ -22534,7 +22534,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaOutputReference
 ```
@@ -23037,7 +23037,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationBetweenConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationBetweenConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationBetweenConfigurationOutputReference
 ```
@@ -23373,7 +23373,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationFilterStringConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationFilterStringConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationFilterStringConfigurationOutputReference
 ```
@@ -23709,7 +23709,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationOutputReference
 ```
@@ -24158,7 +24158,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationOutputReference
 ```
@@ -24633,7 +24633,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterOutputReference
 ```
@@ -25011,7 +25011,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValueOutputReference
 ```
@@ -25318,7 +25318,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPageOutputReference
 ```
@@ -25696,7 +25696,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValueOutputReference
 ```
@@ -26003,7 +26003,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationOutputReference
 ```
@@ -26336,7 +26336,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterOutputReference
 ```
@@ -26714,7 +26714,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValueOutputReference
 ```
@@ -27021,7 +27021,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterOutputReference
 ```
@@ -27399,7 +27399,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValueOutputReference
 ```
@@ -27706,7 +27706,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOutputReference
 ```
@@ -28039,7 +28039,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOutputReference
 ```
@@ -28372,7 +28372,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationRequestParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationRequestParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationRequestParametersList
 ```
@@ -28532,7 +28532,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationRequestParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationRequestParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationRequestParametersOutputReference
 ```
@@ -29002,7 +29002,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationResponseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationResponseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationResponseConfigurationOutputReference
 ```
@@ -29309,7 +29309,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationBetweenConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationBetweenConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationBetweenConfigurationOutputReference
 ```
@@ -29645,7 +29645,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationFilterStringConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationFilterStringConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationFilterStringConfigurationOutputReference
 ```
@@ -29981,7 +29981,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationOutputReference
 ```
@@ -30430,7 +30430,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationOutputReference
 ```
@@ -30905,7 +30905,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterOutputReference
 ```
@@ -31283,7 +31283,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValueOutputReference
 ```
@@ -31590,7 +31590,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPageOutputReference
 ```
@@ -31968,7 +31968,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValueOutputReference
 ```
@@ -32275,7 +32275,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationOutputReference
 ```
@@ -32608,7 +32608,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterOutputReference
 ```
@@ -32986,7 +32986,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValueOutputReference
 ```
@@ -33293,7 +33293,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterOutputReference
 ```
@@ -33671,7 +33671,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValueOutputReference
 ```
@@ -33978,7 +33978,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOutputReference
 ```
@@ -34311,7 +34311,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOutputReference
 ```
@@ -34644,7 +34644,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationRequestParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationRequestParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationRequestParametersList
 ```
@@ -34804,7 +34804,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationRequestParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationRequestParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationRequestParametersOutputReference
 ```
@@ -35274,7 +35274,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationGlobalSourceConfigurationResponseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationGlobalSourceConfigurationResponseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationGlobalSourceConfigurationResponseConfigurationOutputReference
 ```
@@ -35581,7 +35581,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationOutputReference
 ```
@@ -35956,7 +35956,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeRestConfigurationValidationEndpointConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeRestConfigurationValidationEndpointConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionTypeRestConfigurationValidationEndpointConfigurationOutputReference
 ```
@@ -36263,7 +36263,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueConnectionTypeTagsList
 ```
@@ -36423,7 +36423,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnectionType.GlueConnectionTypeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype"
 
 glueconnectiontype.NewGlueConnectionTypeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueConnectionTypeTagsOutputReference
 ```

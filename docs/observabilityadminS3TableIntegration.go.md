@@ -4,12 +4,12 @@
 
 ### ObservabilityadminS3TableIntegration <a name="ObservabilityadminS3TableIntegration" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration awscc_observabilityadmin_s3_table_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration awscc_observabilityadmin_s3_table_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 observabilityadmins3tableintegration.NewObservabilityadminS3TableIntegration(scope Construct, id *string, config ObservabilityadminS3TableIntegrationConfig) ObservabilityadminS3TableIntegration
 ```
@@ -453,7 +453,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 observabilityadmins3tableintegration.ObservabilityadminS3TableIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -485,7 +485,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 observabilityadmins3tableintegration.ObservabilityadminS3TableIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ observabilityadmins3tableintegration.ObservabilityadminS3TableIntegration_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 observabilityadmins3tableintegration.ObservabilityadminS3TableIntegration_IsTerraformResource(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ observabilityadmins3tableintegration.ObservabilityadminS3TableIntegration_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 observabilityadmins3tableintegration.ObservabilityadminS3TableIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -542,7 +542,7 @@ The construct id used in the generated config for the ObservabilityadminS3TableI
 
 The id of the existing ObservabilityadminS3TableIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -852,7 +852,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 &observabilityadmins3tableintegration.ObservabilityadminS3TableIntegrationConfig {
 	Connection: interface{},
@@ -862,7 +862,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3ta
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Encryption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationEncryption,
+	Encryption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationEncryption,
 	RoleArn: *string,
 	LogSources: interface{},
 	Tags: interface{},
@@ -967,7 +967,7 @@ Encryption ObservabilityadminS3TableIntegrationEncryption
 
 Encryption configuration for the S3 Table Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#encryption ObservabilityadminS3TableIntegration#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#encryption ObservabilityadminS3TableIntegration#encryption}
 
 ---
 
@@ -981,7 +981,7 @@ RoleArn *string
 
 The ARN of the role used to access the S3 Table Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#role_arn ObservabilityadminS3TableIntegration#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#role_arn ObservabilityadminS3TableIntegration#role_arn}
 
 ---
 
@@ -995,7 +995,7 @@ LogSources interface{}
 
 The CloudWatch Logs data sources to associate with the S3 Table Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#log_sources ObservabilityadminS3TableIntegration#log_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#log_sources ObservabilityadminS3TableIntegration#log_sources}
 
 ---
 
@@ -1009,7 +1009,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#tags ObservabilityadminS3TableIntegration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#tags ObservabilityadminS3TableIntegration#tags}
 
 ---
 
@@ -1018,7 +1018,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 &observabilityadmins3tableintegration.ObservabilityadminS3TableIntegrationEncryption {
 	SseAlgorithm: *string,
@@ -1045,7 +1045,7 @@ SseAlgorithm *string
 
 The server-side encryption algorithm used to encrypt the S3 Table(s) data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#sse_algorithm ObservabilityadminS3TableIntegration#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#sse_algorithm ObservabilityadminS3TableIntegration#sse_algorithm}
 
 ---
 
@@ -1059,7 +1059,7 @@ KmsKeyArn *string
 
 The ARN of the KMS key used to encrypt the S3 Table Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#kms_key_arn ObservabilityadminS3TableIntegration#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#kms_key_arn ObservabilityadminS3TableIntegration#kms_key_arn}
 
 ---
 
@@ -1068,7 +1068,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationLogSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 &observabilityadmins3tableintegration.ObservabilityadminS3TableIntegrationLogSources {
 	Identifier: *string,
@@ -1097,7 +1097,7 @@ Identifier *string
 
 The ID of the CloudWatch Logs data source association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#identifier ObservabilityadminS3TableIntegration#identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#identifier ObservabilityadminS3TableIntegration#identifier}
 
 ---
 
@@ -1111,7 +1111,7 @@ Name *string
 
 The name of the CloudWatch Logs data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#name ObservabilityadminS3TableIntegration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#name ObservabilityadminS3TableIntegration#name}
 
 ---
 
@@ -1125,7 +1125,7 @@ Type *string
 
 The type of the CloudWatch Logs data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#type ObservabilityadminS3TableIntegration#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#type ObservabilityadminS3TableIntegration#type}
 
 ---
 
@@ -1134,7 +1134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 &observabilityadmins3tableintegration.ObservabilityadminS3TableIntegrationTags {
 	Key: *string,
@@ -1163,7 +1163,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#key ObservabilityadminS3TableIntegration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#key ObservabilityadminS3TableIntegration#key}
 
 ---
 
@@ -1179,7 +1179,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_s3_table_integration#value ObservabilityadminS3TableIntegration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_s3_table_integration#value ObservabilityadminS3TableIntegration#value}
 
 ---
 
@@ -1190,7 +1190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 observabilityadmins3tableintegration.NewObservabilityadminS3TableIntegrationEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ObservabilityadminS3TableIntegrationEncryptionOutputReference
 ```
@@ -1490,7 +1490,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationLogSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 observabilityadmins3tableintegration.NewObservabilityadminS3TableIntegrationLogSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ObservabilityadminS3TableIntegrationLogSourcesList
 ```
@@ -1650,7 +1650,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationLogSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 observabilityadmins3tableintegration.NewObservabilityadminS3TableIntegrationLogSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ObservabilityadminS3TableIntegrationLogSourcesOutputReference
 ```
@@ -2004,7 +2004,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 observabilityadmins3tableintegration.NewObservabilityadminS3TableIntegrationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ObservabilityadminS3TableIntegrationTagsList
 ```
@@ -2164,7 +2164,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmins3tableintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmins3tableintegration"
 
 observabilityadmins3tableintegration.NewObservabilityadminS3TableIntegrationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ObservabilityadminS3TableIntegrationTagsOutputReference
 ```

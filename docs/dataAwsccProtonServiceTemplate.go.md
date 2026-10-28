@@ -4,12 +4,12 @@
 
 ### DataAwsccProtonServiceTemplate <a name="DataAwsccProtonServiceTemplate" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplate.DataAwsccProtonServiceTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_service_template awscc_proton_service_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_service_template awscc_proton_service_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplate.DataAwsccProtonServiceTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonservicetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonservicetemplate"
 
 dataawsccprotonservicetemplate.NewDataAwsccProtonServiceTemplate(scope Construct, id *string, config DataAwsccProtonServiceTemplateConfig) DataAwsccProtonServiceTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplate.DataAwsccProtonServiceTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonservicetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonservicetemplate"
 
 dataawsccprotonservicetemplate.DataAwsccProtonServiceTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplate.DataAwsccProtonServiceTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonservicetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonservicetemplate"
 
 dataawsccprotonservicetemplate.DataAwsccProtonServiceTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccprotonservicetemplate.DataAwsccProtonServiceTemplate_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplate.DataAwsccProtonServiceTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonservicetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonservicetemplate"
 
 dataawsccprotonservicetemplate.DataAwsccProtonServiceTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccprotonservicetemplate.DataAwsccProtonServiceTemplate_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplate.DataAwsccProtonServiceTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonservicetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonservicetemplate"
 
 dataawsccprotonservicetemplate.DataAwsccProtonServiceTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccProtonServiceTemp
 
 The id of the existing DataAwsccProtonServiceTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_service_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_service_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplate.DataAwsccProtonServiceTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonservicetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonservicetemplate"
 
 &dataawsccprotonservicetemplate.DataAwsccProtonServiceTemplateConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_service_template#id DataAwsccProtonServiceTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_service_template#id DataAwsccProtonServiceTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplate.DataAwsccProtonServiceTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonservicetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonservicetemplate"
 
 &dataawsccprotonservicetemplate.DataAwsccProtonServiceTemplateTags {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonservice
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplate.DataAwsccProtonServiceTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonservicetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonservicetemplate"
 
 dataawsccprotonservicetemplate.NewDataAwsccProtonServiceTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccProtonServiceTemplateTagsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplate.DataAwsccProtonServiceTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonservicetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonservicetemplate"
 
 dataawsccprotonservicetemplate.NewDataAwsccProtonServiceTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccProtonServiceTemplateTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccOmicsConfigurations <a name="DataAwsccOmicsConfigurations" id="@cdktn/provider-awscc.dataAwsccOmicsConfigurations.DataAwsccOmicsConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_configurations awscc_omics_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_configurations awscc_omics_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsConfigurations.DataAwsccOmicsConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsconfigurations"
 
 dataawsccomicsconfigurations.NewDataAwsccOmicsConfigurations(scope Construct, id *string, config DataAwsccOmicsConfigurationsConfig) DataAwsccOmicsConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOmicsConfigurations.DataAwsccOmicsConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsconfigurations"
 
 dataawsccomicsconfigurations.DataAwsccOmicsConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOmicsConfigurations.DataAwsccOmicsConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsconfigurations"
 
 dataawsccomicsconfigurations.DataAwsccOmicsConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccomicsconfigurations.DataAwsccOmicsConfigurations_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOmicsConfigurations.DataAwsccOmicsConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsconfigurations"
 
 dataawsccomicsconfigurations.DataAwsccOmicsConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccomicsconfigurations.DataAwsccOmicsConfigurations_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOmicsConfigurations.DataAwsccOmicsConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsconfigurations"
 
 dataawsccomicsconfigurations.DataAwsccOmicsConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOmicsConfiguratio
 
 The id of the existing DataAwsccOmicsConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOmicsConfigurations.DataAwsccOmicsConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsconfigurations"
 
 &dataawsccomicsconfigurations.DataAwsccOmicsConfigurationsConfig {
 	Connection: interface{},

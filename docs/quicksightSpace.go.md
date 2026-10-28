@@ -4,12 +4,12 @@
 
 ### QuicksightSpace <a name="QuicksightSpace" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space awscc_quicksight_space}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space awscc_quicksight_space}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 quicksightspace.NewQuicksightSpace(scope Construct, id *string, config QuicksightSpaceConfig) QuicksightSpace
 ```
@@ -467,7 +467,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 quicksightspace.QuicksightSpace_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 quicksightspace.QuicksightSpace_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ quicksightspace.QuicksightSpace_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpace.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 quicksightspace.QuicksightSpace_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ quicksightspace.QuicksightSpace_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 quicksightspace.QuicksightSpace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the QuicksightSpace to import.
 
 The id of the existing QuicksightSpace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,7 +965,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 &quicksightspace.QuicksightSpaceConfig {
 	Connection: interface{},
@@ -1086,7 +1086,7 @@ AwsAccountId *string
 
 The ID of the Amazon Web Services account where the space is being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#aws_account_id QuicksightSpace#aws_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#aws_account_id QuicksightSpace#aws_account_id}
 
 ---
 
@@ -1100,7 +1100,7 @@ Name *string
 
 The display name of the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#name QuicksightSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#name QuicksightSpace#name}
 
 ---
 
@@ -1114,7 +1114,7 @@ SpaceId *string
 
 The unique identifier for the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#space_id QuicksightSpace#space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#space_id QuicksightSpace#space_id}
 
 ---
 
@@ -1128,7 +1128,7 @@ Description *string
 
 A description of the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#description QuicksightSpace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#description QuicksightSpace#description}
 
 ---
 
@@ -1142,7 +1142,7 @@ Permissions interface{}
 
 A list of permissions granted on the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#permissions QuicksightSpace#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#permissions QuicksightSpace#permissions}
 
 ---
 
@@ -1156,7 +1156,7 @@ Resources interface{}
 
 A list of QuickSight resources attached to the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#resources QuicksightSpace#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#resources QuicksightSpace#resources}
 
 ---
 
@@ -1170,7 +1170,7 @@ Tags interface{}
 
 A list of key-value pairs to associate with the space resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#tags QuicksightSpace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#tags QuicksightSpace#tags}
 
 ---
 
@@ -1179,7 +1179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpacePermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 &quicksightspace.QuicksightSpacePermissions {
 	Actions: *[]*string,
@@ -1206,7 +1206,7 @@ Actions *[]*string
 
 The list of actions granted to the principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#actions QuicksightSpace#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#actions QuicksightSpace#actions}
 
 ---
 
@@ -1220,7 +1220,7 @@ Principal *string
 
 The ARN of the principal (user or group) receiving the permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#principal QuicksightSpace#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#principal QuicksightSpace#principal}
 
 ---
 
@@ -1229,7 +1229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpaceResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 &quicksightspace.QuicksightSpaceResources {
 	ResourceArn: *string,
@@ -1256,7 +1256,7 @@ ResourceArn *string
 
 The ARN of the QuickSight resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#resource_arn QuicksightSpace#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#resource_arn QuicksightSpace#resource_arn}
 
 ---
 
@@ -1270,7 +1270,7 @@ ResourceType *string
 
 The type of QuickSight resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#resource_type QuicksightSpace#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#resource_type QuicksightSpace#resource_type}
 
 ---
 
@@ -1279,7 +1279,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 &quicksightspace.QuicksightSpaceTags {
 	Key: *string,
@@ -1306,7 +1306,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#key QuicksightSpace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#key QuicksightSpace#key}
 
 ---
 
@@ -1320,7 +1320,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_space#value QuicksightSpace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_space#value QuicksightSpace#value}
 
 ---
 
@@ -1331,7 +1331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpacePermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 quicksightspace.NewQuicksightSpacePermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightSpacePermissionsList
 ```
@@ -1491,7 +1491,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpacePermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 quicksightspace.NewQuicksightSpacePermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightSpacePermissionsOutputReference
 ```
@@ -1816,7 +1816,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpaceResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 quicksightspace.NewQuicksightSpaceResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightSpaceResourcesList
 ```
@@ -1976,7 +1976,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpaceResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 quicksightspace.NewQuicksightSpaceResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightSpaceResourcesOutputReference
 ```
@@ -2301,7 +2301,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 quicksightspace.NewQuicksightSpaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightSpaceTagsList
 ```
@@ -2461,7 +2461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightSpace.QuicksightSpaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightspace"
 
 quicksightspace.NewQuicksightSpaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightSpaceTagsOutputReference
 ```

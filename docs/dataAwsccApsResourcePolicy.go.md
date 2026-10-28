@@ -4,12 +4,12 @@
 
 ### DataAwsccApsResourcePolicy <a name="DataAwsccApsResourcePolicy" id="@cdktn/provider-awscc.dataAwsccApsResourcePolicy.DataAwsccApsResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_resource_policy awscc_aps_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_resource_policy awscc_aps_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsResourcePolicy.DataAwsccApsResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsresourcepolicy"
 
 dataawsccapsresourcepolicy.NewDataAwsccApsResourcePolicy(scope Construct, id *string, config DataAwsccApsResourcePolicyConfig) DataAwsccApsResourcePolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApsResourcePolicy.DataAwsccApsResourcePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsresourcepolicy"
 
 dataawsccapsresourcepolicy.DataAwsccApsResourcePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApsResourcePolicy.DataAwsccApsResourcePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsresourcepolicy"
 
 dataawsccapsresourcepolicy.DataAwsccApsResourcePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapsresourcepolicy.DataAwsccApsResourcePolicy_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApsResourcePolicy.DataAwsccApsResourcePolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsresourcepolicy"
 
 dataawsccapsresourcepolicy.DataAwsccApsResourcePolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapsresourcepolicy.DataAwsccApsResourcePolicy_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApsResourcePolicy.DataAwsccApsResourcePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsresourcepolicy"
 
 dataawsccapsresourcepolicy.DataAwsccApsResourcePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApsResourcePolicy
 
 The id of the existing DataAwsccApsResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsResourcePolicy.DataAwsccApsResourcePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsresourcepolicy"
 
 &dataawsccapsresourcepolicy.DataAwsccApsResourcePolicyConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_resource_policy#id DataAwsccApsResourcePolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_resource_policy#id DataAwsccApsResourcePolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

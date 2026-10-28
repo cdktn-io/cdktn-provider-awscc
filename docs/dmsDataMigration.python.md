@@ -4,7 +4,7 @@
 
 ### DmsDataMigration <a name="DmsDataMigration" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration awscc_dms_data_migration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration awscc_dms_data_migration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.Initializer"></a>
 
@@ -46,7 +46,7 @@ dmsDataMigration.DmsDataMigration(
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.Initializer.parameter.dataMigrationType">data_migration_type</a></code> | <code>str</code> | The property describes the type of migration. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.Initializer.parameter.migrationProjectIdentifier">migration_project_identifier</a></code> | <code>str</code> | The property describes an identifier for the migration project. It is used for describing/deleting/modifying can be name/arn. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.Initializer.parameter.serviceAccessRoleArn">service_access_role_arn</a></code> | <code>str</code> | The property describes Amazon Resource Name (ARN) of the service access role. |
-| <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.Initializer.parameter.dataMigrationIdentifier">data_migration_identifier</a></code> | <code>str</code> | The property describes an ARN of the data migration. |
+| <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.Initializer.parameter.dataMigrationIdentifier">data_migration_identifier</a></code> | <code>str</code> | [DEPRECATED] This property is unused and will be ignored. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.Initializer.parameter.dataMigrationName">data_migration_name</a></code> | <code>str</code> | The property describes a name to identify the data migration. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.Initializer.parameter.dataMigrationSettings">data_migration_settings</a></code> | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationDataMigrationSettings">DmsDataMigrationDataMigrationSettings</a></code> | The property describes the settings for the data migration. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.Initializer.parameter.sourceDataSettings">source_data_settings</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationSourceDataSettings">DmsDataMigrationSourceDataSettings</a>]</code> | The property describes the settings for the data migration. |
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The property describes the type of migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_type DmsDataMigration#data_migration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_type DmsDataMigration#data_migration_type}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property describes an identifier for the migration project. It is used for describing/deleting/modifying can be name/arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#migration_project_identifier DmsDataMigration#migration_project_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#migration_project_identifier DmsDataMigration#migration_project_identifier}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property describes Amazon Resource Name (ARN) of the service access role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#service_access_role_arn DmsDataMigration#service_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#service_access_role_arn DmsDataMigration#service_access_role_arn}
 
 ---
 
@@ -148,9 +148,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-The property describes an ARN of the data migration.
+[DEPRECATED] This property is unused and will be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_identifier DmsDataMigration#data_migration_identifier}
+Identity is managed via the resource ARN (primaryIdentifier) and Name (additionalIdentifier).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_identifier DmsDataMigration#data_migration_identifier}
 
 ---
 
@@ -160,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property describes a name to identify the data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_name DmsDataMigration#data_migration_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_name DmsDataMigration#data_migration_name}
 
 ---
 
@@ -170,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property describes the settings for the data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_settings DmsDataMigration#data_migration_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_settings DmsDataMigration#data_migration_settings}
 
 ---
 
@@ -180,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property describes the settings for the data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#source_data_settings DmsDataMigration#source_data_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#source_data_settings DmsDataMigration#source_data_settings}
 
 ---
 
@@ -190,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#tags DmsDataMigration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#tags DmsDataMigration#tags}
 
 ---
 
@@ -597,7 +599,7 @@ def put_data_migration_settings(
 
 The property specifies whether to enable the CloudWatch log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#cloudwatch_logs_enabled DmsDataMigration#cloudwatch_logs_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#cloudwatch_logs_enabled DmsDataMigration#cloudwatch_logs_enabled}
 
 ---
 
@@ -607,7 +609,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The number of parallel jobs that trigger parallel threads to unload the tables from the source, and then load them to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#number_of_jobs DmsDataMigration#number_of_jobs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#number_of_jobs DmsDataMigration#number_of_jobs}
 
 ---
 
@@ -617,7 +619,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property specifies the rules of selecting objects for data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#selection_rules DmsDataMigration#selection_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#selection_rules DmsDataMigration#selection_rules}
 
 ---
 
@@ -793,7 +795,7 @@ The construct id used in the generated config for the DmsDataMigration to import
 
 The id of the existing DmsDataMigration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1237,7 +1239,7 @@ dmsDataMigration.DmsDataMigrationConfig(
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.dataMigrationType">data_migration_type</a></code> | <code>str</code> | The property describes the type of migration. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.migrationProjectIdentifier">migration_project_identifier</a></code> | <code>str</code> | The property describes an identifier for the migration project. It is used for describing/deleting/modifying can be name/arn. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.serviceAccessRoleArn">service_access_role_arn</a></code> | <code>str</code> | The property describes Amazon Resource Name (ARN) of the service access role. |
-| <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.dataMigrationIdentifier">data_migration_identifier</a></code> | <code>str</code> | The property describes an ARN of the data migration. |
+| <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.dataMigrationIdentifier">data_migration_identifier</a></code> | <code>str</code> | [DEPRECATED] This property is unused and will be ignored. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.dataMigrationName">data_migration_name</a></code> | <code>str</code> | The property describes a name to identify the data migration. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.dataMigrationSettings">data_migration_settings</a></code> | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationDataMigrationSettings">DmsDataMigrationDataMigrationSettings</a></code> | The property describes the settings for the data migration. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.sourceDataSettings">source_data_settings</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationSourceDataSettings">DmsDataMigrationSourceDataSettings</a>]</code> | The property describes the settings for the data migration. |
@@ -1325,7 +1327,7 @@ data_migration_type: str
 
 The property describes the type of migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_type DmsDataMigration#data_migration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_type DmsDataMigration#data_migration_type}
 
 ---
 
@@ -1339,7 +1341,7 @@ migration_project_identifier: str
 
 The property describes an identifier for the migration project. It is used for describing/deleting/modifying can be name/arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#migration_project_identifier DmsDataMigration#migration_project_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#migration_project_identifier DmsDataMigration#migration_project_identifier}
 
 ---
 
@@ -1353,7 +1355,7 @@ service_access_role_arn: str
 
 The property describes Amazon Resource Name (ARN) of the service access role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#service_access_role_arn DmsDataMigration#service_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#service_access_role_arn DmsDataMigration#service_access_role_arn}
 
 ---
 
@@ -1365,9 +1367,11 @@ data_migration_identifier: str
 
 - *Type:* str
 
-The property describes an ARN of the data migration.
+[DEPRECATED] This property is unused and will be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_identifier DmsDataMigration#data_migration_identifier}
+Identity is managed via the resource ARN (primaryIdentifier) and Name (additionalIdentifier).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_identifier DmsDataMigration#data_migration_identifier}
 
 ---
 
@@ -1381,7 +1385,7 @@ data_migration_name: str
 
 The property describes a name to identify the data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_name DmsDataMigration#data_migration_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_name DmsDataMigration#data_migration_name}
 
 ---
 
@@ -1395,7 +1399,7 @@ data_migration_settings: DmsDataMigrationDataMigrationSettings
 
 The property describes the settings for the data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_settings DmsDataMigration#data_migration_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_settings DmsDataMigration#data_migration_settings}
 
 ---
 
@@ -1409,7 +1413,7 @@ source_data_settings: IResolvable | typing.List[DmsDataMigrationSourceDataSettin
 
 The property describes the settings for the data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#source_data_settings DmsDataMigration#source_data_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#source_data_settings DmsDataMigration#source_data_settings}
 
 ---
 
@@ -1423,7 +1427,7 @@ tags: IResolvable | typing.List[DmsDataMigrationTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#tags DmsDataMigration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#tags DmsDataMigration#tags}
 
 ---
 
@@ -1461,7 +1465,7 @@ cloudwatch_logs_enabled: bool | IResolvable
 
 The property specifies whether to enable the CloudWatch log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#cloudwatch_logs_enabled DmsDataMigration#cloudwatch_logs_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#cloudwatch_logs_enabled DmsDataMigration#cloudwatch_logs_enabled}
 
 ---
 
@@ -1475,7 +1479,7 @@ number_of_jobs: typing.Union[int, float]
 
 The number of parallel jobs that trigger parallel threads to unload the tables from the source, and then load them to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#number_of_jobs DmsDataMigration#number_of_jobs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#number_of_jobs DmsDataMigration#number_of_jobs}
 
 ---
 
@@ -1489,7 +1493,7 @@ selection_rules: str
 
 The property specifies the rules of selecting objects for data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#selection_rules DmsDataMigration#selection_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#selection_rules DmsDataMigration#selection_rules}
 
 ---
 
@@ -1529,7 +1533,7 @@ cdc_start_position: str
 
 The property is a point in the database engine's log that defines a time where you can begin CDC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#cdc_start_position DmsDataMigration#cdc_start_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#cdc_start_position DmsDataMigration#cdc_start_position}
 
 ---
 
@@ -1545,7 +1549,7 @@ The property indicates the start time for a change data capture (CDC) operation.
 
 The value is server time in UTC format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#cdc_start_time DmsDataMigration#cdc_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#cdc_start_time DmsDataMigration#cdc_start_time}
 
 ---
 
@@ -1561,7 +1565,7 @@ The property indicates the stop time for a change data capture (CDC) operation.
 
 The value is server time in UTC format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#cdc_stop_time DmsDataMigration#cdc_stop_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#cdc_stop_time DmsDataMigration#cdc_stop_time}
 
 ---
 
@@ -1575,7 +1579,7 @@ slot_name: str
 
 The property sets the name of a previously created logical replication slot for a change data capture (CDC) load of the source instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#slot_name DmsDataMigration#slot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#slot_name DmsDataMigration#slot_name}
 
 ---
 
@@ -1613,7 +1617,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#key DmsDataMigration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#key DmsDataMigration#key}
 
 ---
 
@@ -1629,7 +1633,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#value DmsDataMigration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#value DmsDataMigration#value}
 
 ---
 

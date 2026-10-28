@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticloadbalancingv2TrustStore <a name="DataAwsccElasticloadbalancingv2TrustStore" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStore.DataAwsccElasticloadbalancingv2TrustStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancingv2_trust_store awscc_elasticloadbalancingv2_trust_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancingv2_trust_store awscc_elasticloadbalancingv2_trust_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStore.DataAwsccElasticloadbalancingv2TrustStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststore"
 
 dataawsccelasticloadbalancingv2truststore.NewDataAwsccElasticloadbalancingv2TrustStore(scope Construct, id *string, config DataAwsccElasticloadbalancingv2TrustStoreConfig) DataAwsccElasticloadbalancingv2TrustStore
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStore.DataAwsccElasticloadbalancingv2TrustStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststore"
 
 dataawsccelasticloadbalancingv2truststore.DataAwsccElasticloadbalancingv2TrustStore_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStore.DataAwsccElasticloadbalancingv2TrustStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststore"
 
 dataawsccelasticloadbalancingv2truststore.DataAwsccElasticloadbalancingv2TrustStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticloadbalancingv2truststore.DataAwsccElasticloadbalancingv2TrustSt
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStore.DataAwsccElasticloadbalancingv2TrustStore.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststore"
 
 dataawsccelasticloadbalancingv2truststore.DataAwsccElasticloadbalancingv2TrustStore_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticloadbalancingv2truststore.DataAwsccElasticloadbalancingv2TrustSt
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStore.DataAwsccElasticloadbalancingv2TrustStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststore"
 
 dataawsccelasticloadbalancingv2truststore.DataAwsccElasticloadbalancingv2TrustStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticloadbalanc
 
 The id of the existing DataAwsccElasticloadbalancingv2TrustStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancingv2_trust_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancingv2_trust_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStore.DataAwsccElasticloadbalancingv2TrustStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststore"
 
 &dataawsccelasticloadbalancingv2truststore.DataAwsccElasticloadbalancingv2TrustStoreConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancingv2_trust_store#id DataAwsccElasticloadbalancingv2TrustStore#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancingv2_trust_store#id DataAwsccElasticloadbalancingv2TrustStore#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStore.DataAwsccElasticloadbalancingv2TrustStoreTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststore"
 
 &dataawsccelasticloadbalancingv2truststore.DataAwsccElasticloadbalancingv2TrustStoreTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStore.DataAwsccElasticloadbalancingv2TrustStoreTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststore"
 
 dataawsccelasticloadbalancingv2truststore.NewDataAwsccElasticloadbalancingv2TrustStoreTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2TrustStoreTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStore.DataAwsccElasticloadbalancingv2TrustStoreTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststore"
 
 dataawsccelasticloadbalancingv2truststore.NewDataAwsccElasticloadbalancingv2TrustStoreTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2TrustStoreTagsOutputReference
 ```

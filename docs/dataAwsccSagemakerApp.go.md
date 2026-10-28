@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerApp <a name="DataAwsccSagemakerApp" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_app awscc_sagemaker_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_app awscc_sagemaker_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerapp"
 
 dataawsccsagemakerapp.NewDataAwsccSagemakerApp(scope Construct, id *string, config DataAwsccSagemakerAppConfig) DataAwsccSagemakerApp
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerApp.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerapp"
 
 dataawsccsagemakerapp.DataAwsccSagemakerApp_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerApp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerapp"
 
 dataawsccsagemakerapp.DataAwsccSagemakerApp_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerapp.DataAwsccSagemakerApp_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerApp.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerapp"
 
 dataawsccsagemakerapp.DataAwsccSagemakerApp_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerapp.DataAwsccSagemakerApp_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerApp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerapp"
 
 dataawsccsagemakerapp.DataAwsccSagemakerApp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerApp to i
 
 The id of the existing DataAwsccSagemakerApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerAppConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerapp"
 
 &dataawsccsagemakerapp.DataAwsccSagemakerAppConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_app#id DataAwsccSagemakerApp#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_app#id DataAwsccSagemakerApp#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerAppResourceSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerapp"
 
 &dataawsccsagemakerapp.DataAwsccSagemakerAppResourceSpec {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerAppTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerapp"
 
 &dataawsccsagemakerapp.DataAwsccSagemakerAppTags {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerAppResourceSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerapp"
 
 dataawsccsagemakerapp.NewDataAwsccSagemakerAppResourceSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerAppResourceSpecOutputReference
 ```
@@ -1128,7 +1128,7 @@ func InternalValue() DataAwsccSagemakerAppResourceSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerAppTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerapp"
 
 dataawsccsagemakerapp.NewDataAwsccSagemakerAppTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerAppTagsList
 ```
@@ -1277,7 +1277,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerAppTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerapp"
 
 dataawsccsagemakerapp.NewDataAwsccSagemakerAppTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerAppTagsOutputReference
 ```

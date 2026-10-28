@@ -4,12 +4,12 @@
 
 ### DataAwsccServicediscoveryServices <a name="DataAwsccServicediscoveryServices" id="@cdktn/provider-awscc.dataAwsccServicediscoveryServices.DataAwsccServicediscoveryServices"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicediscovery_services awscc_servicediscovery_services}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicediscovery_services awscc_servicediscovery_services}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicediscoveryServices.DataAwsccServicediscoveryServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryservices"
 
 dataawsccservicediscoveryservices.NewDataAwsccServicediscoveryServices(scope Construct, id *string, config DataAwsccServicediscoveryServicesConfig) DataAwsccServicediscoveryServices
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicediscoveryServices.DataAwsccServicediscoveryServices.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryservices"
 
 dataawsccservicediscoveryservices.DataAwsccServicediscoveryServices_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicediscoveryServices.DataAwsccServicediscoveryServices.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryservices"
 
 dataawsccservicediscoveryservices.DataAwsccServicediscoveryServices_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicediscoveryservices.DataAwsccServicediscoveryServices_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicediscoveryServices.DataAwsccServicediscoveryServices.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryservices"
 
 dataawsccservicediscoveryservices.DataAwsccServicediscoveryServices_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicediscoveryservices.DataAwsccServicediscoveryServices_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicediscoveryServices.DataAwsccServicediscoveryServices.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryservices"
 
 dataawsccservicediscoveryservices.DataAwsccServicediscoveryServices_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicediscoveryS
 
 The id of the existing DataAwsccServicediscoveryServices that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicediscovery_services#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicediscovery_services#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicediscoveryServices.DataAwsccServicediscoveryServicesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryservices"
 
 &dataawsccservicediscoveryservices.DataAwsccServicediscoveryServicesConfig {
 	Connection: interface{},

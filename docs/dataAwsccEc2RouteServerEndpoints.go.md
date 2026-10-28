@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2RouteServerEndpoints <a name="DataAwsccEc2RouteServerEndpoints" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerEndpoints.DataAwsccEc2RouteServerEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_server_endpoints awscc_ec2_route_server_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_server_endpoints awscc_ec2_route_server_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerEndpoints.DataAwsccEc2RouteServerEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverendpoints"
 
 dataawsccec2routeserverendpoints.NewDataAwsccEc2RouteServerEndpoints(scope Construct, id *string, config DataAwsccEc2RouteServerEndpointsConfig) DataAwsccEc2RouteServerEndpoints
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerEndpoints.DataAwsccEc2RouteServerEndpoints.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverendpoints"
 
 dataawsccec2routeserverendpoints.DataAwsccEc2RouteServerEndpoints_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerEndpoints.DataAwsccEc2RouteServerEndpoints.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverendpoints"
 
 dataawsccec2routeserverendpoints.DataAwsccEc2RouteServerEndpoints_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2routeserverendpoints.DataAwsccEc2RouteServerEndpoints_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerEndpoints.DataAwsccEc2RouteServerEndpoints.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverendpoints"
 
 dataawsccec2routeserverendpoints.DataAwsccEc2RouteServerEndpoints_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2routeserverendpoints.DataAwsccEc2RouteServerEndpoints_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerEndpoints.DataAwsccEc2RouteServerEndpoints.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverendpoints"
 
 dataawsccec2routeserverendpoints.DataAwsccEc2RouteServerEndpoints_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2RouteServerEnd
 
 The id of the existing DataAwsccEc2RouteServerEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_server_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_server_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerEndpoints.DataAwsccEc2RouteServerEndpointsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverendpoints"
 
 &dataawsccec2routeserverendpoints.DataAwsccEc2RouteServerEndpointsConfig {
 	Connection: interface{},

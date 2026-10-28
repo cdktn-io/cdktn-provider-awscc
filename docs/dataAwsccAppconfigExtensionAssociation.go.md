@@ -4,12 +4,12 @@
 
 ### DataAwsccAppconfigExtensionAssociation <a name="DataAwsccAppconfigExtensionAssociation" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensionAssociation.DataAwsccAppconfigExtensionAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_extension_association awscc_appconfig_extension_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_extension_association awscc_appconfig_extension_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensionAssociation.DataAwsccAppconfigExtensionAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigextensionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigextensionassociation"
 
 dataawsccappconfigextensionassociation.NewDataAwsccAppconfigExtensionAssociation(scope Construct, id *string, config DataAwsccAppconfigExtensionAssociationConfig) DataAwsccAppconfigExtensionAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensionAssociation.DataAwsccAppconfigExtensionAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigextensionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigextensionassociation"
 
 dataawsccappconfigextensionassociation.DataAwsccAppconfigExtensionAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensionAssociation.DataAwsccAppconfigExtensionAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigextensionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigextensionassociation"
 
 dataawsccappconfigextensionassociation.DataAwsccAppconfigExtensionAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappconfigextensionassociation.DataAwsccAppconfigExtensionAssociation_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensionAssociation.DataAwsccAppconfigExtensionAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigextensionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigextensionassociation"
 
 dataawsccappconfigextensionassociation.DataAwsccAppconfigExtensionAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappconfigextensionassociation.DataAwsccAppconfigExtensionAssociation_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensionAssociation.DataAwsccAppconfigExtensionAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigextensionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigextensionassociation"
 
 dataawsccappconfigextensionassociation.DataAwsccAppconfigExtensionAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppconfigExtensio
 
 The id of the existing DataAwsccAppconfigExtensionAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_extension_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_extension_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensionAssociation.DataAwsccAppconfigExtensionAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigextensionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigextensionassociation"
 
 &dataawsccappconfigextensionassociation.DataAwsccAppconfigExtensionAssociationConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_extension_association#id DataAwsccAppconfigExtensionAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_extension_association#id DataAwsccAppconfigExtensionAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensionAssociation.DataAwsccAppconfigExtensionAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigextensionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigextensionassociation"
 
 &dataawsccappconfigextensionassociation.DataAwsccAppconfigExtensionAssociationTags {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigexte
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensionAssociation.DataAwsccAppconfigExtensionAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigextensionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigextensionassociation"
 
 dataawsccappconfigextensionassociation.NewDataAwsccAppconfigExtensionAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppconfigExtensionAssociationTagsList
 ```
@@ -971,7 +971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigExtensionAssociation.DataAwsccAppconfigExtensionAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigextensionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigextensionassociation"
 
 dataawsccappconfigextensionassociation.NewDataAwsccAppconfigExtensionAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppconfigExtensionAssociationTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### TimestreamDatabase <a name="TimestreamDatabase" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_database awscc_timestream_database}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_database awscc_timestream_database}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamdatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamdatabase"
 
 timestreamdatabase.NewTimestreamDatabase(scope Construct, id *string, config TimestreamDatabaseConfig) TimestreamDatabase
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamdatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamdatabase"
 
 timestreamdatabase.TimestreamDatabase_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamdatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamdatabase"
 
 timestreamdatabase.TimestreamDatabase_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ timestreamdatabase.TimestreamDatabase_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabase.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamdatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamdatabase"
 
 timestreamdatabase.TimestreamDatabase_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ timestreamdatabase.TimestreamDatabase_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamdatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamdatabase"
 
 timestreamdatabase.TimestreamDatabase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the TimestreamDatabase to impo
 
 The id of the existing TimestreamDatabase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_database#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_database#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -811,7 +811,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamdatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamdatabase"
 
 &timestreamdatabase.TimestreamDatabaseConfig {
 	Connection: interface{},
@@ -926,7 +926,7 @@ The name for the database.
 
 If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_database#database_name TimestreamDatabase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_database#database_name TimestreamDatabase#database_name}
 
 ---
 
@@ -942,7 +942,7 @@ The KMS key for the database.
 
 If the KMS key is not specified, the database will be encrypted with a Timestream managed KMS key located in your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_database#kms_key_id TimestreamDatabase#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_database#kms_key_id TimestreamDatabase#kms_key_id}
 
 ---
 
@@ -956,7 +956,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_database#tags TimestreamDatabase#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_database#tags TimestreamDatabase#tags}
 
 ---
 
@@ -965,7 +965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamdatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamdatabase"
 
 &timestreamdatabase.TimestreamDatabaseTags {
 	Key: *string,
@@ -977,8 +977,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamdatabase"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_database#key TimestreamDatabase#key}. |
-| <code><a href="#@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_database#value TimestreamDatabase#value}. |
+| <code><a href="#@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_database#key TimestreamDatabase#key}. |
+| <code><a href="#@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_database#value TimestreamDatabase#value}. |
 
 ---
 
@@ -990,7 +990,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_database#key TimestreamDatabase#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_database#key TimestreamDatabase#key}.
 
 ---
 
@@ -1002,7 +1002,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_database#value TimestreamDatabase#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_database#value TimestreamDatabase#value}.
 
 ---
 
@@ -1013,7 +1013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamdatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamdatabase"
 
 timestreamdatabase.NewTimestreamDatabaseTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TimestreamDatabaseTagsList
 ```
@@ -1173,7 +1173,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamdatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamdatabase"
 
 timestreamdatabase.NewTimestreamDatabaseTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TimestreamDatabaseTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccCodebuildSourceCredentials <a name="DataAwsccCodebuildSourceCredentials" id="@cdktn/provider-awscc.dataAwsccCodebuildSourceCredentials.DataAwsccCodebuildSourceCredentials"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_source_credentials awscc_codebuild_source_credentials}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_source_credentials awscc_codebuild_source_credentials}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodebuildSourceCredentials.DataAwsccCodebuildSourceCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildsourcecredentials"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildsourcecredentials"
 
 dataawscccodebuildsourcecredentials.NewDataAwsccCodebuildSourceCredentials(scope Construct, id *string, config DataAwsccCodebuildSourceCredentialsConfig) DataAwsccCodebuildSourceCredentials
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodebuildSourceCredentials.DataAwsccCodebuildSourceCredentials.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildsourcecredentials"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildsourcecredentials"
 
 dataawscccodebuildsourcecredentials.DataAwsccCodebuildSourceCredentials_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodebuildSourceCredentials.DataAwsccCodebuildSourceCredentials.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildsourcecredentials"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildsourcecredentials"
 
 dataawscccodebuildsourcecredentials.DataAwsccCodebuildSourceCredentials_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodebuildsourcecredentials.DataAwsccCodebuildSourceCredentials_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodebuildSourceCredentials.DataAwsccCodebuildSourceCredentials.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildsourcecredentials"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildsourcecredentials"
 
 dataawscccodebuildsourcecredentials.DataAwsccCodebuildSourceCredentials_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodebuildsourcecredentials.DataAwsccCodebuildSourceCredentials_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodebuildSourceCredentials.DataAwsccCodebuildSourceCredentials.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildsourcecredentials"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildsourcecredentials"
 
 dataawscccodebuildsourcecredentials.DataAwsccCodebuildSourceCredentials_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodebuildSourceCr
 
 The id of the existing DataAwsccCodebuildSourceCredentials that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_source_credentials#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_source_credentials#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodebuildSourceCredentials.DataAwsccCodebuildSourceCredentialsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildsourcecredentials"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildsourcecredentials"
 
 &dataawscccodebuildsourcecredentials.DataAwsccCodebuildSourceCredentialsConfig {
 	Connection: interface{},

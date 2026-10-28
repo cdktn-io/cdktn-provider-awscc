@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerClusters <a name="DataAwsccSagemakerClusters" id="@cdktn/provider-awscc.dataAwsccSagemakerClusters.DataAwsccSagemakerClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_clusters awscc_sagemaker_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_clusters awscc_sagemaker_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerClusters.DataAwsccSagemakerClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusters"
 
 dataawsccsagemakerclusters.NewDataAwsccSagemakerClusters(scope Construct, id *string, config DataAwsccSagemakerClustersConfig) DataAwsccSagemakerClusters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerClusters.DataAwsccSagemakerClusters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusters"
 
 dataawsccsagemakerclusters.DataAwsccSagemakerClusters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerClusters.DataAwsccSagemakerClusters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusters"
 
 dataawsccsagemakerclusters.DataAwsccSagemakerClusters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerclusters.DataAwsccSagemakerClusters_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerClusters.DataAwsccSagemakerClusters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusters"
 
 dataawsccsagemakerclusters.DataAwsccSagemakerClusters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerclusters.DataAwsccSagemakerClusters_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerClusters.DataAwsccSagemakerClusters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusters"
 
 dataawsccsagemakerclusters.DataAwsccSagemakerClusters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerClusters
 
 The id of the existing DataAwsccSagemakerClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerClusters.DataAwsccSagemakerClustersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusters"
 
 &dataawsccsagemakerclusters.DataAwsccSagemakerClustersConfig {
 	Connection: interface{},

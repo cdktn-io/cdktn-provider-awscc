@@ -4,12 +4,12 @@
 
 ### DataAwsccApsAnomalyDetector <a name="DataAwsccApsAnomalyDetector" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_anomaly_detector awscc_aps_anomaly_detector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_anomaly_detector awscc_aps_anomaly_detector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.NewDataAwsccApsAnomalyDetector(scope Construct, id *string, config DataAwsccApsAnomalyDetectorConfig) DataAwsccApsAnomalyDetector
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.DataAwsccApsAnomalyDetector_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.DataAwsccApsAnomalyDetector_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapsanomalydetector.DataAwsccApsAnomalyDetector_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetector.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.DataAwsccApsAnomalyDetector_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapsanomalydetector.DataAwsccApsAnomalyDetector_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.DataAwsccApsAnomalyDetector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApsAnomalyDetecto
 
 The id of the existing DataAwsccApsAnomalyDetector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_anomaly_detector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_anomaly_detector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 &dataawsccapsanomalydetector.DataAwsccApsAnomalyDetectorConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_anomaly_detector#id DataAwsccApsAnomalyDetector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_anomaly_detector#id DataAwsccApsAnomalyDetector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 &dataawsccapsanomalydetector.DataAwsccApsAnomalyDetectorConfiguration {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorConfigurationRandomCutForest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 &dataawsccapsanomalydetector.DataAwsccApsAnomalyDetectorConfigurationRandomCutForest {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromAbove.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 &dataawsccapsanomalydetector.DataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromAbove {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromBelow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 &dataawsccapsanomalydetector.DataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromBelow {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 &dataawsccapsanomalydetector.DataAwsccApsAnomalyDetectorLabels {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorMissingDataAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 &dataawsccapsanomalydetector.DataAwsccApsAnomalyDetectorMissingDataAction {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 &dataawsccapsanomalydetector.DataAwsccApsAnomalyDetectorTags {
 
@@ -889,7 +889,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.NewDataAwsccApsAnomalyDetectorConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsAnomalyDetectorConfigurationOutputReference
 ```
@@ -1149,7 +1149,7 @@ func InternalValue() DataAwsccApsAnomalyDetectorConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromAboveOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.NewDataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromAboveOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromAboveOutputReference
 ```
@@ -1420,7 +1420,7 @@ func InternalValue() DataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgno
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromBelowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.NewDataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromBelowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromBelowOutputReference
 ```
@@ -1691,7 +1691,7 @@ func InternalValue() DataAwsccApsAnomalyDetectorConfigurationRandomCutForestIgno
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorConfigurationRandomCutForestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.NewDataAwsccApsAnomalyDetectorConfigurationRandomCutForestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsAnomalyDetectorConfigurationRandomCutForestOutputReference
 ```
@@ -1995,7 +1995,7 @@ func InternalValue() DataAwsccApsAnomalyDetectorConfigurationRandomCutForest
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.NewDataAwsccApsAnomalyDetectorLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApsAnomalyDetectorLabelsList
 ```
@@ -2144,7 +2144,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.NewDataAwsccApsAnomalyDetectorLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApsAnomalyDetectorLabelsOutputReference
 ```
@@ -2433,7 +2433,7 @@ func InternalValue() DataAwsccApsAnomalyDetectorLabels
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorMissingDataActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.NewDataAwsccApsAnomalyDetectorMissingDataActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsAnomalyDetectorMissingDataActionOutputReference
 ```
@@ -2704,7 +2704,7 @@ func InternalValue() DataAwsccApsAnomalyDetectorMissingDataAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.NewDataAwsccApsAnomalyDetectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApsAnomalyDetectorTagsList
 ```
@@ -2853,7 +2853,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsAnomalyDetector.DataAwsccApsAnomalyDetectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsanomalydetector"
 
 dataawsccapsanomalydetector.NewDataAwsccApsAnomalyDetectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApsAnomalyDetectorTagsOutputReference
 ```

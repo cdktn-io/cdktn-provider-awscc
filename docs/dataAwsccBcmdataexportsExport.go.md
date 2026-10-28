@@ -4,12 +4,12 @@
 
 ### DataAwsccBcmdataexportsExport <a name="DataAwsccBcmdataexportsExport" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExport"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcmdataexports_export awscc_bcmdataexports_export}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcmdataexports_export awscc_bcmdataexports_export}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.NewDataAwsccBcmdataexportsExport(scope Construct, id *string, config DataAwsccBcmdataexportsExportConfig) DataAwsccBcmdataexportsExport
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExport.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExport_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExport.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExport_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExport_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExport.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExport_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExport_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExport.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExport_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBcmdataexportsExp
 
 The id of the existing DataAwsccBcmdataexportsExport that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcmdataexports_export#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcmdataexports_export#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 &dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExportConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcmdataexports_export#id DataAwsccBcmdataexportsExport#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcmdataexports_export#id DataAwsccBcmdataexportsExport#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 &dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExportExport {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexport
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExportDataQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 &dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExportExportDataQuery {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexport
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExportDestinationConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 &dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExportExportDestinationConfigurations {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexport
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExportDestinationConfigurationsS3Destination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 &dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExportExportDestinationConfigurationsS3Destination {
 
@@ -793,7 +793,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexport
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 &dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurations {
 
@@ -806,7 +806,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexport
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExportRefreshCadence.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 &dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExportExportRefreshCadence {
 
@@ -819,7 +819,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexport
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 &dataawsccbcmdataexportsexport.DataAwsccBcmdataexportsExportTags {
 
@@ -834,7 +834,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexport
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExportDataQueryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.NewDataAwsccBcmdataexportsExportExportDataQueryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmdataexportsExportExportDataQueryOutputReference
 ```
@@ -1105,7 +1105,7 @@ func InternalValue() DataAwsccBcmdataexportsExportExportDataQuery
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExportDestinationConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.NewDataAwsccBcmdataexportsExportExportDestinationConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmdataexportsExportExportDestinationConfigurationsOutputReference
 ```
@@ -1365,7 +1365,7 @@ func InternalValue() DataAwsccBcmdataexportsExportExportDestinationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.NewDataAwsccBcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference
 ```
@@ -1669,7 +1669,7 @@ func InternalValue() DataAwsccBcmdataexportsExportExportDestinationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.NewDataAwsccBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsOutputReference
 ```
@@ -1962,7 +1962,7 @@ func InternalValue() DataAwsccBcmdataexportsExportExportDestinationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.NewDataAwsccBcmdataexportsExportExportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmdataexportsExportExportOutputReference
 ```
@@ -2277,7 +2277,7 @@ func InternalValue() DataAwsccBcmdataexportsExportExport
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportExportRefreshCadenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.NewDataAwsccBcmdataexportsExportExportRefreshCadenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmdataexportsExportExportRefreshCadenceOutputReference
 ```
@@ -2537,7 +2537,7 @@ func InternalValue() DataAwsccBcmdataexportsExportExportRefreshCadence
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.NewDataAwsccBcmdataexportsExportTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBcmdataexportsExportTagsList
 ```
@@ -2686,7 +2686,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExport.DataAwsccBcmdataexportsExportTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexport"
 
 dataawsccbcmdataexportsexport.NewDataAwsccBcmdataexportsExportTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBcmdataexportsExportTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccCustomerprofilesEventTrigger <a name="DataAwsccCustomerprofilesEventTrigger" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTrigger"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTrigger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTrigger(scope Construct, id *string, config DataAwsccCustomerprofilesEventTriggerConfig) DataAwsccCustomerprofilesEventTrigger
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTrigger.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTrigger_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTrigger.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTrigger_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTrigger_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTrigger.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTrigger_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTrigger_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTrigger.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTrigger_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCustomerprofilesE
 
 The id of the existing DataAwsccCustomerprofilesEventTrigger that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_event_trigger#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_event_trigger#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 &dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTriggerConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_event_trigger#id DataAwsccCustomerprofilesEventTrigger#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_event_trigger#id DataAwsccCustomerprofilesEventTrigger#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 &dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditions {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 &dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensions {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsObjectAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 &dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsObjectAttributes {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 &dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerLimits {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerLimitsPeriods.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 &dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerLimitsPeriods {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 &dataawscccustomerprofileseventtrigger.DataAwsccCustomerprofilesEventTriggerTags {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsList
 ```
@@ -1047,7 +1047,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsObjectAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsObjectAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsObjectAttributesList
 ```
@@ -1196,7 +1196,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsObjectAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsObjectAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsObjectAttributesOutputReference
 ```
@@ -1507,7 +1507,7 @@ func InternalValue() DataAwsccCustomerprofilesEventTriggerEventTriggerConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsOutputReference
 ```
@@ -1785,7 +1785,7 @@ func InternalValue() DataAwsccCustomerprofilesEventTriggerEventTriggerConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTriggerEventTriggerConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsList
 ```
@@ -1934,7 +1934,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTriggerEventTriggerConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesEventTriggerEventTriggerConditionsOutputReference
 ```
@@ -2223,7 +2223,7 @@ func InternalValue() DataAwsccCustomerprofilesEventTriggerEventTriggerConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTriggerEventTriggerLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesEventTriggerEventTriggerLimitsOutputReference
 ```
@@ -2494,7 +2494,7 @@ func InternalValue() DataAwsccCustomerprofilesEventTriggerEventTriggerLimits
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerLimitsPeriodsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTriggerEventTriggerLimitsPeriodsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesEventTriggerEventTriggerLimitsPeriodsList
 ```
@@ -2643,7 +2643,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerEventTriggerLimitsPeriodsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTriggerEventTriggerLimitsPeriodsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesEventTriggerEventTriggerLimitsPeriodsOutputReference
 ```
@@ -2954,7 +2954,7 @@ func InternalValue() DataAwsccCustomerprofilesEventTriggerEventTriggerLimitsPeri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTriggerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesEventTriggerTagsList
 ```
@@ -3103,7 +3103,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesEventTrigger.DataAwsccCustomerprofilesEventTriggerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventtrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventtrigger"
 
 dataawscccustomerprofileseventtrigger.NewDataAwsccCustomerprofilesEventTriggerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesEventTriggerTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### OmicsRunCache <a name="OmicsRunCache" id="@cdktn/provider-awscc.omicsRunCache.OmicsRunCache"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache awscc_omics_run_cache}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache awscc_omics_run_cache}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsRunCache.OmicsRunCache.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsruncache"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsruncache"
 
 omicsruncache.NewOmicsRunCache(scope Construct, id *string, config OmicsRunCacheConfig) OmicsRunCache
 ```
@@ -455,7 +455,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.omicsRunCache.OmicsRunCache.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsruncache"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsruncache"
 
 omicsruncache.OmicsRunCache_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.omicsRunCache.OmicsRunCache.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsruncache"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsruncache"
 
 omicsruncache.OmicsRunCache_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ omicsruncache.OmicsRunCache_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.omicsRunCache.OmicsRunCache.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsruncache"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsruncache"
 
 omicsruncache.OmicsRunCache_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ omicsruncache.OmicsRunCache_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.omicsRunCache.OmicsRunCache.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsruncache"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsruncache"
 
 omicsruncache.OmicsRunCache_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the OmicsRunCache to import.
 
 The id of the existing OmicsRunCache that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.omicsRunCache.OmicsRunCacheConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsruncache"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsruncache"
 
 &omicsruncache.OmicsRunCacheConfig {
 	Connection: interface{},
@@ -1050,7 +1050,7 @@ CacheBehavior *string
 
 The default cache behavior for runs using this cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache#cache_behavior OmicsRunCache#cache_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache#cache_behavior OmicsRunCache#cache_behavior}
 
 ---
 
@@ -1064,7 +1064,7 @@ CacheBucketOwnerId *string
 
 The AWS account ID of the expected owner of the S3 bucket for the run cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache#cache_bucket_owner_id OmicsRunCache#cache_bucket_owner_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache#cache_bucket_owner_id OmicsRunCache#cache_bucket_owner_id}
 
 ---
 
@@ -1078,7 +1078,7 @@ CacheS3Location *string
 
 The S3 location for storing the cached task outputs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache#cache_s3_location OmicsRunCache#cache_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache#cache_s3_location OmicsRunCache#cache_s3_location}
 
 ---
 
@@ -1092,7 +1092,7 @@ Description *string
 
 A description of the run cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache#description OmicsRunCache#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache#description OmicsRunCache#description}
 
 ---
 
@@ -1106,7 +1106,7 @@ Name *string
 
 A name for the run cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache#name OmicsRunCache#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache#name OmicsRunCache#name}
 
 ---
 
@@ -1120,7 +1120,7 @@ Tags interface{}
 
 Tags for the run cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache#tags OmicsRunCache#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache#tags OmicsRunCache#tags}
 
 ---
 
@@ -1129,7 +1129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.omicsRunCache.OmicsRunCacheTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsruncache"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsruncache"
 
 &omicsruncache.OmicsRunCacheTags {
 	Key: *string,
@@ -1156,7 +1156,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache#key OmicsRunCache#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache#key OmicsRunCache#key}
 
 ---
 
@@ -1170,7 +1170,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache#value OmicsRunCache#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache#value OmicsRunCache#value}
 
 ---
 
@@ -1181,7 +1181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsRunCache.OmicsRunCacheTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsruncache"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsruncache"
 
 omicsruncache.NewOmicsRunCacheTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OmicsRunCacheTagsList
 ```
@@ -1341,7 +1341,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsRunCache.OmicsRunCacheTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsruncache"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsruncache"
 
 omicsruncache.NewOmicsRunCacheTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OmicsRunCacheTagsOutputReference
 ```

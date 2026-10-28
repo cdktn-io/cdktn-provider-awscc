@@ -4,12 +4,12 @@
 
 ### DataAwsccConfigRemediationConfiguration <a name="DataAwsccConfigRemediationConfiguration" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfiguration.DataAwsccConfigRemediationConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_remediation_configuration awscc_config_remediation_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_remediation_configuration awscc_config_remediation_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfiguration.DataAwsccConfigRemediationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremediationconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigremediationconfiguration"
 
 dataawsccconfigremediationconfiguration.NewDataAwsccConfigRemediationConfiguration(scope Construct, id *string, config DataAwsccConfigRemediationConfigurationConfig) DataAwsccConfigRemediationConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfiguration.DataAwsccConfigRemediationConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremediationconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigremediationconfiguration"
 
 dataawsccconfigremediationconfiguration.DataAwsccConfigRemediationConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfiguration.DataAwsccConfigRemediationConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremediationconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigremediationconfiguration"
 
 dataawsccconfigremediationconfiguration.DataAwsccConfigRemediationConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconfigremediationconfiguration.DataAwsccConfigRemediationConfiguration_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfiguration.DataAwsccConfigRemediationConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremediationconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigremediationconfiguration"
 
 dataawsccconfigremediationconfiguration.DataAwsccConfigRemediationConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconfigremediationconfiguration.DataAwsccConfigRemediationConfiguration_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfiguration.DataAwsccConfigRemediationConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremediationconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigremediationconfiguration"
 
 dataawsccconfigremediationconfiguration.DataAwsccConfigRemediationConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConfigRemediation
 
 The id of the existing DataAwsccConfigRemediationConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_remediation_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_remediation_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfiguration.DataAwsccConfigRemediationConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremediationconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigremediationconfiguration"
 
 &dataawsccconfigremediationconfiguration.DataAwsccConfigRemediationConfigurationConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_remediation_configuration#id DataAwsccConfigRemediationConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_remediation_configuration#id DataAwsccConfigRemediationConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfiguration.DataAwsccConfigRemediationConfigurationExecutionControls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremediationconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigremediationconfiguration"
 
 &dataawsccconfigremediationconfiguration.DataAwsccConfigRemediationConfigurationExecutionControls {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremedia
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfiguration.DataAwsccConfigRemediationConfigurationExecutionControlsSsmControls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremediationconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigremediationconfiguration"
 
 &dataawsccconfigremediationconfiguration.DataAwsccConfigRemediationConfigurationExecutionControlsSsmControls {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremedia
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfiguration.DataAwsccConfigRemediationConfigurationExecutionControlsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremediationconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigremediationconfiguration"
 
 dataawsccconfigremediationconfiguration.NewDataAwsccConfigRemediationConfigurationExecutionControlsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigRemediationConfigurationExecutionControlsOutputReference
 ```
@@ -1106,7 +1106,7 @@ func InternalValue() DataAwsccConfigRemediationConfigurationExecutionControls
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfiguration.DataAwsccConfigRemediationConfigurationExecutionControlsSsmControlsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigremediationconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigremediationconfiguration"
 
 dataawsccconfigremediationconfiguration.NewDataAwsccConfigRemediationConfigurationExecutionControlsSsmControlsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigRemediationConfigurationExecutionControlsSsmControlsOutputReference
 ```

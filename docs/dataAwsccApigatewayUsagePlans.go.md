@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayUsagePlans <a name="DataAwsccApigatewayUsagePlans" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlans.DataAwsccApigatewayUsagePlans"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_usage_plans awscc_apigateway_usage_plans}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_usage_plans awscc_apigateway_usage_plans}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlans.DataAwsccApigatewayUsagePlans.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplans"
 
 dataawsccapigatewayusageplans.NewDataAwsccApigatewayUsagePlans(scope Construct, id *string, config DataAwsccApigatewayUsagePlansConfig) DataAwsccApigatewayUsagePlans
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlans.DataAwsccApigatewayUsagePlans.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplans"
 
 dataawsccapigatewayusageplans.DataAwsccApigatewayUsagePlans_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlans.DataAwsccApigatewayUsagePlans.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplans"
 
 dataawsccapigatewayusageplans.DataAwsccApigatewayUsagePlans_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewayusageplans.DataAwsccApigatewayUsagePlans_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlans.DataAwsccApigatewayUsagePlans.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplans"
 
 dataawsccapigatewayusageplans.DataAwsccApigatewayUsagePlans_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewayusageplans.DataAwsccApigatewayUsagePlans_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlans.DataAwsccApigatewayUsagePlans.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplans"
 
 dataawsccapigatewayusageplans.DataAwsccApigatewayUsagePlans_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayUsagePl
 
 The id of the existing DataAwsccApigatewayUsagePlans that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_usage_plans#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_usage_plans#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlans.DataAwsccApigatewayUsagePlansConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplans"
 
 &dataawsccapigatewayusageplans.DataAwsccApigatewayUsagePlansConfig {
 	Connection: interface{},

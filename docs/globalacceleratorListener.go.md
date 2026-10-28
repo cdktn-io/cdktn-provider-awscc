@@ -4,12 +4,12 @@
 
 ### GlobalacceleratorListener <a name="GlobalacceleratorListener" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListener"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListener.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/globalacceleratorlistener"
 
 globalacceleratorlistener.NewGlobalacceleratorListener(scope Construct, id *string, config GlobalacceleratorListenerConfig) GlobalacceleratorListener
 ```
@@ -427,7 +427,7 @@ func ResetProtocol()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListener.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/globalacceleratorlistener"
 
 globalacceleratorlistener.GlobalacceleratorListener_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListener.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/globalacceleratorlistener"
 
 globalacceleratorlistener.GlobalacceleratorListener_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ globalacceleratorlistener.GlobalacceleratorListener_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListener.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/globalacceleratorlistener"
 
 globalacceleratorlistener.GlobalacceleratorListener_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ globalacceleratorlistener.GlobalacceleratorListener_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListener.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/globalacceleratorlistener"
 
 globalacceleratorlistener.GlobalacceleratorListener_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GlobalacceleratorListener 
 
 The id of the existing GlobalacceleratorListener that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -826,7 +826,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/globalacceleratorlistener"
 
 &globalacceleratorlistener.GlobalacceleratorListenerConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorliste
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.acceleratorArn">AcceleratorArn</a></code> | <code>*string</code> | The Amazon Resource Name (ARN) of the accelerator. |
-| <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.portRanges">PortRanges</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}. |
+| <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.portRanges">PortRanges</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}. |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.clientAffinity">ClientAffinity</a></code> | <code>*string</code> | Client affinity lets you direct all requests from a user to the same endpoint. |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.protocol">Protocol</a></code> | <code>*string</code> | The protocol for the listener. |
 
@@ -941,7 +941,7 @@ AcceleratorArn *string
 
 The Amazon Resource Name (ARN) of the accelerator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener#accelerator_arn GlobalacceleratorListener#accelerator_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener#accelerator_arn GlobalacceleratorListener#accelerator_arn}
 
 ---
 
@@ -953,7 +953,7 @@ PortRanges interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}.
 
 ---
 
@@ -967,7 +967,7 @@ ClientAffinity *string
 
 Client affinity lets you direct all requests from a user to the same endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener#client_affinity GlobalacceleratorListener#client_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener#client_affinity GlobalacceleratorListener#client_affinity}
 
 ---
 
@@ -981,7 +981,7 @@ Protocol *string
 
 The protocol for the listener.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener#protocol GlobalacceleratorListener#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener#protocol GlobalacceleratorListener#protocol}
 
 ---
 
@@ -990,7 +990,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerPortRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/globalacceleratorlistener"
 
 &globalacceleratorlistener.GlobalacceleratorListenerPortRanges {
 	FromPort: *f64,
@@ -1017,7 +1017,7 @@ FromPort *f64
 
 A network port number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}
 
 ---
 
@@ -1031,7 +1031,7 @@ ToPort *f64
 
 A network port number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}
 
 ---
 
@@ -1042,7 +1042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerPortRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/globalacceleratorlistener"
 
 globalacceleratorlistener.NewGlobalacceleratorListenerPortRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlobalacceleratorListenerPortRangesList
 ```
@@ -1202,7 +1202,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerPortRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/globalacceleratorlistener"
 
 globalacceleratorlistener.NewGlobalacceleratorListenerPortRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlobalacceleratorListenerPortRangesOutputReference
 ```

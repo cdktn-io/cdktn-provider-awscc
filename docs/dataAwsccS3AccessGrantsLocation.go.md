@@ -4,12 +4,12 @@
 
 ### DataAwsccS3AccessGrantsLocation <a name="DataAwsccS3AccessGrantsLocation" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_grants_location awscc_s3_access_grants_location}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_grants_location awscc_s3_access_grants_location}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantslocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantslocation"
 
 dataawsccs3accessgrantslocation.NewDataAwsccS3AccessGrantsLocation(scope Construct, id *string, config DataAwsccS3AccessGrantsLocationConfig) DataAwsccS3AccessGrantsLocation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantslocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantslocation"
 
 dataawsccs3accessgrantslocation.DataAwsccS3AccessGrantsLocation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantslocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantslocation"
 
 dataawsccs3accessgrantslocation.DataAwsccS3AccessGrantsLocation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3accessgrantslocation.DataAwsccS3AccessGrantsLocation_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantslocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantslocation"
 
 dataawsccs3accessgrantslocation.DataAwsccS3AccessGrantsLocation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3accessgrantslocation.DataAwsccS3AccessGrantsLocation_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantslocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantslocation"
 
 dataawsccs3accessgrantslocation.DataAwsccS3AccessGrantsLocation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3AccessGrantsLoc
 
 The id of the existing DataAwsccS3AccessGrantsLocation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_grants_location#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_grants_location#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantslocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantslocation"
 
 &dataawsccs3accessgrantslocation.DataAwsccS3AccessGrantsLocationConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_grants_location#id DataAwsccS3AccessGrantsLocation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_grants_location#id DataAwsccS3AccessGrantsLocation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantslocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantslocation"
 
 &dataawsccs3accessgrantslocation.DataAwsccS3AccessGrantsLocationTags {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrant
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantslocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantslocation"
 
 dataawsccs3accessgrantslocation.NewDataAwsccS3AccessGrantsLocationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3AccessGrantsLocationTagsList
 ```
@@ -927,7 +927,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsLocation.DataAwsccS3AccessGrantsLocationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantslocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantslocation"
 
 dataawsccs3accessgrantslocation.NewDataAwsccS3AccessGrantsLocationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3AccessGrantsLocationTagsOutputReference
 ```

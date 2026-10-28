@@ -4,12 +4,12 @@
 
 ### AppconfigEnvironment <a name="AppconfigEnvironment" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment awscc_appconfig_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment awscc_appconfig_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 appconfigenvironment.NewAppconfigEnvironment(scope Construct, id *string, config AppconfigEnvironmentConfig) AppconfigEnvironment
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 appconfigenvironment.AppconfigEnvironment_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 appconfigenvironment.AppconfigEnvironment_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ appconfigenvironment.AppconfigEnvironment_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 appconfigenvironment.AppconfigEnvironment_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ appconfigenvironment.AppconfigEnvironment_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 appconfigenvironment.AppconfigEnvironment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the AppconfigEnvironment to im
 
 The id of the existing AppconfigEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -897,7 +897,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 &appconfigenvironment.AppconfigEnvironmentConfig {
 	Connection: interface{},
@@ -1016,7 +1016,7 @@ ApplicationId *string
 
 The application ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment#application_id AppconfigEnvironment#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment#application_id AppconfigEnvironment#application_id}
 
 ---
 
@@ -1030,7 +1030,7 @@ Name *string
 
 A name for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment#name AppconfigEnvironment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment#name AppconfigEnvironment#name}
 
 ---
 
@@ -1046,7 +1046,7 @@ On resource deletion this controls whether the Deletion Protection check should 
 
 See https://docs.aws.amazon.com/appconfig/latest/userguide/deletion-protection.html
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment#deletion_protection_check AppconfigEnvironment#deletion_protection_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment#deletion_protection_check AppconfigEnvironment#deletion_protection_check}
 
 ---
 
@@ -1060,7 +1060,7 @@ Description *string
 
 A description of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment#description AppconfigEnvironment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment#description AppconfigEnvironment#description}
 
 ---
 
@@ -1074,7 +1074,7 @@ Monitors interface{}
 
 Amazon CloudWatch alarms to monitor during the deployment process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment#monitors AppconfigEnvironment#monitors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment#monitors AppconfigEnvironment#monitors}
 
 ---
 
@@ -1090,7 +1090,7 @@ Metadata to assign to the environment.
 
 Tags help organize and categorize your AWS AppConfig resources. Each tag consists of a key and an optional value, both of which you define.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment#tags AppconfigEnvironment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment#tags AppconfigEnvironment#tags}
 
 ---
 
@@ -1099,7 +1099,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironmentMonitors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 &appconfigenvironment.AppconfigEnvironmentMonitors {
 	AlarmArn: *string,
@@ -1126,7 +1126,7 @@ AlarmArn *string
 
 Amazon Resource Name (ARN) of the Amazon CloudWatch alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment#alarm_arn AppconfigEnvironment#alarm_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment#alarm_arn AppconfigEnvironment#alarm_arn}
 
 ---
 
@@ -1140,7 +1140,7 @@ AlarmRoleArn *string
 
 ARN of an AWS Identity and Access Management (IAM) role for AWS AppConfig to monitor AlarmArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment#alarm_role_arn AppconfigEnvironment#alarm_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment#alarm_role_arn AppconfigEnvironment#alarm_role_arn}
 
 ---
 
@@ -1149,7 +1149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 &appconfigenvironment.AppconfigEnvironmentTags {
 	Key: *string,
@@ -1178,7 +1178,7 @@ The key-value string map.
 
 The valid character set is [a-zA-Z1-9+-=._:/]. The tag key can be up to 128 characters and must not start with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment#key AppconfigEnvironment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment#key AppconfigEnvironment#key}
 
 ---
 
@@ -1192,7 +1192,7 @@ Value *string
 
 The tag value can be up to 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment#value AppconfigEnvironment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment#value AppconfigEnvironment#value}
 
 ---
 
@@ -1203,7 +1203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironmentMonitorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 appconfigenvironment.NewAppconfigEnvironmentMonitorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppconfigEnvironmentMonitorsList
 ```
@@ -1363,7 +1363,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironmentMonitorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 appconfigenvironment.NewAppconfigEnvironmentMonitorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AppconfigEnvironmentMonitorsOutputReference
 ```
@@ -1688,7 +1688,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 appconfigenvironment.NewAppconfigEnvironmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppconfigEnvironmentTagsList
 ```
@@ -1848,7 +1848,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment"
 
 appconfigenvironment.NewAppconfigEnvironmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AppconfigEnvironmentTagsOutputReference
 ```

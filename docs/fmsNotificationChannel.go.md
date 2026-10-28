@@ -4,12 +4,12 @@
 
 ### FmsNotificationChannel <a name="FmsNotificationChannel" id="@cdktn/provider-awscc.fmsNotificationChannel.FmsNotificationChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_notification_channel awscc_fms_notification_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_notification_channel awscc_fms_notification_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsNotificationChannel.FmsNotificationChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsnotificationchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsnotificationchannel"
 
 fmsnotificationchannel.NewFmsNotificationChannel(scope Construct, id *string, config FmsNotificationChannelConfig) FmsNotificationChannel
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.fmsNotificationChannel.FmsNotificationChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsnotificationchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsnotificationchannel"
 
 fmsnotificationchannel.FmsNotificationChannel_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.fmsNotificationChannel.FmsNotificationChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsnotificationchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsnotificationchannel"
 
 fmsnotificationchannel.FmsNotificationChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ fmsnotificationchannel.FmsNotificationChannel_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.fmsNotificationChannel.FmsNotificationChannel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsnotificationchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsnotificationchannel"
 
 fmsnotificationchannel.FmsNotificationChannel_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ fmsnotificationchannel.FmsNotificationChannel_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.fmsNotificationChannel.FmsNotificationChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsnotificationchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsnotificationchannel"
 
 fmsnotificationchannel.FmsNotificationChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the FmsNotificationChannel to 
 
 The id of the existing FmsNotificationChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_notification_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_notification_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fmsNotificationChannel.FmsNotificationChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsnotificationchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsnotificationchannel"
 
 &fmsnotificationchannel.FmsNotificationChannelConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ SnsRoleName *string
 
 A resource ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_notification_channel#sns_role_name FmsNotificationChannel#sns_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_notification_channel#sns_role_name FmsNotificationChannel#sns_role_name}
 
 ---
 
@@ -869,7 +869,7 @@ SnsTopicArn *string
 
 A resource ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_notification_channel#sns_topic_arn FmsNotificationChannel#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_notification_channel#sns_topic_arn FmsNotificationChannel#sns_topic_arn}
 
 ---
 

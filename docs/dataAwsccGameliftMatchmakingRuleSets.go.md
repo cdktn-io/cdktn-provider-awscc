@@ -4,12 +4,12 @@
 
 ### DataAwsccGameliftMatchmakingRuleSets <a name="DataAwsccGameliftMatchmakingRuleSets" id="@cdktn/provider-awscc.dataAwsccGameliftMatchmakingRuleSets.DataAwsccGameliftMatchmakingRuleSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_matchmaking_rule_sets awscc_gamelift_matchmaking_rule_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_matchmaking_rule_sets awscc_gamelift_matchmaking_rule_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftMatchmakingRuleSets.DataAwsccGameliftMatchmakingRuleSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftmatchmakingrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftmatchmakingrulesets"
 
 dataawsccgameliftmatchmakingrulesets.NewDataAwsccGameliftMatchmakingRuleSets(scope Construct, id *string, config DataAwsccGameliftMatchmakingRuleSetsConfig) DataAwsccGameliftMatchmakingRuleSets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGameliftMatchmakingRuleSets.DataAwsccGameliftMatchmakingRuleSets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftmatchmakingrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftmatchmakingrulesets"
 
 dataawsccgameliftmatchmakingrulesets.DataAwsccGameliftMatchmakingRuleSets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGameliftMatchmakingRuleSets.DataAwsccGameliftMatchmakingRuleSets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftmatchmakingrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftmatchmakingrulesets"
 
 dataawsccgameliftmatchmakingrulesets.DataAwsccGameliftMatchmakingRuleSets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgameliftmatchmakingrulesets.DataAwsccGameliftMatchmakingRuleSets_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGameliftMatchmakingRuleSets.DataAwsccGameliftMatchmakingRuleSets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftmatchmakingrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftmatchmakingrulesets"
 
 dataawsccgameliftmatchmakingrulesets.DataAwsccGameliftMatchmakingRuleSets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgameliftmatchmakingrulesets.DataAwsccGameliftMatchmakingRuleSets_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGameliftMatchmakingRuleSets.DataAwsccGameliftMatchmakingRuleSets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftmatchmakingrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftmatchmakingrulesets"
 
 dataawsccgameliftmatchmakingrulesets.DataAwsccGameliftMatchmakingRuleSets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGameliftMatchmaki
 
 The id of the existing DataAwsccGameliftMatchmakingRuleSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_matchmaking_rule_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_matchmaking_rule_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftMatchmakingRuleSets.DataAwsccGameliftMatchmakingRuleSetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftmatchmakingrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftmatchmakingrulesets"
 
 &dataawsccgameliftmatchmakingrulesets.DataAwsccGameliftMatchmakingRuleSetsConfig {
 	Connection: interface{},

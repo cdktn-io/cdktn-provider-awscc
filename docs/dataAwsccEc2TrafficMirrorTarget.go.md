@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2TrafficMirrorTarget <a name="DataAwsccEc2TrafficMirrorTarget" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorTarget.DataAwsccEc2TrafficMirrorTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_traffic_mirror_target awscc_ec2_traffic_mirror_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_traffic_mirror_target awscc_ec2_traffic_mirror_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorTarget.DataAwsccEc2TrafficMirrorTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmirrortarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2trafficmirrortarget"
 
 dataawsccec2trafficmirrortarget.NewDataAwsccEc2TrafficMirrorTarget(scope Construct, id *string, config DataAwsccEc2TrafficMirrorTargetConfig) DataAwsccEc2TrafficMirrorTarget
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorTarget.DataAwsccEc2TrafficMirrorTarget.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmirrortarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2trafficmirrortarget"
 
 dataawsccec2trafficmirrortarget.DataAwsccEc2TrafficMirrorTarget_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorTarget.DataAwsccEc2TrafficMirrorTarget.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmirrortarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2trafficmirrortarget"
 
 dataawsccec2trafficmirrortarget.DataAwsccEc2TrafficMirrorTarget_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2trafficmirrortarget.DataAwsccEc2TrafficMirrorTarget_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorTarget.DataAwsccEc2TrafficMirrorTarget.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmirrortarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2trafficmirrortarget"
 
 dataawsccec2trafficmirrortarget.DataAwsccEc2TrafficMirrorTarget_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2trafficmirrortarget.DataAwsccEc2TrafficMirrorTarget_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorTarget.DataAwsccEc2TrafficMirrorTarget.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmirrortarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2trafficmirrortarget"
 
 dataawsccec2trafficmirrortarget.DataAwsccEc2TrafficMirrorTarget_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2TrafficMirrorT
 
 The id of the existing DataAwsccEc2TrafficMirrorTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_traffic_mirror_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_traffic_mirror_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorTarget.DataAwsccEc2TrafficMirrorTargetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmirrortarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2trafficmirrortarget"
 
 &dataawsccec2trafficmirrortarget.DataAwsccEc2TrafficMirrorTargetConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_traffic_mirror_target#id DataAwsccEc2TrafficMirrorTarget#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_traffic_mirror_target#id DataAwsccEc2TrafficMirrorTarget#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorTarget.DataAwsccEc2TrafficMirrorTargetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmirrortarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2trafficmirrortarget"
 
 &dataawsccec2trafficmirrortarget.DataAwsccEc2TrafficMirrorTargetTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmir
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorTarget.DataAwsccEc2TrafficMirrorTargetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmirrortarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2trafficmirrortarget"
 
 dataawsccec2trafficmirrortarget.NewDataAwsccEc2TrafficMirrorTargetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2TrafficMirrorTargetTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorTarget.DataAwsccEc2TrafficMirrorTargetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmirrortarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2trafficmirrortarget"
 
 dataawsccec2trafficmirrortarget.NewDataAwsccEc2TrafficMirrorTargetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2TrafficMirrorTargetTagsOutputReference
 ```

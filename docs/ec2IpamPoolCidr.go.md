@@ -4,12 +4,12 @@
 
 ### Ec2IpamPoolCidr <a name="Ec2IpamPoolCidr" id="@cdktn/provider-awscc.ec2IpamPoolCidr.Ec2IpamPoolCidr"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IpamPoolCidr.Ec2IpamPoolCidr.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipampoolcidr"
 
 ec2ipampoolcidr.NewEc2IpamPoolCidr(scope Construct, id *string, config Ec2IpamPoolCidrConfig) Ec2IpamPoolCidr
 ```
@@ -414,7 +414,7 @@ func ResetNetmaskLength()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2IpamPoolCidr.Ec2IpamPoolCidr.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipampoolcidr"
 
 ec2ipampoolcidr.Ec2IpamPoolCidr_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2IpamPoolCidr.Ec2IpamPoolCidr.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipampoolcidr"
 
 ec2ipampoolcidr.Ec2IpamPoolCidr_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2ipampoolcidr.Ec2IpamPoolCidr_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2IpamPoolCidr.Ec2IpamPoolCidr.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipampoolcidr"
 
 ec2ipampoolcidr.Ec2IpamPoolCidr_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ ec2ipampoolcidr.Ec2IpamPoolCidr_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2IpamPoolCidr.Ec2IpamPoolCidr.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipampoolcidr"
 
 ec2ipampoolcidr.Ec2IpamPoolCidr_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Ec2IpamPoolCidr to import.
 
 The id of the existing Ec2IpamPoolCidr that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_pool_cidr#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_pool_cidr#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -802,7 +802,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2IpamPoolCidr.Ec2IpamPoolCidrConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipampoolcidr"
 
 &ec2ipampoolcidr.Ec2IpamPoolCidrConfig {
 	Connection: interface{},
@@ -915,7 +915,7 @@ IpamPoolId *string
 
 Id of the IPAM Pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_pool_cidr#ipam_pool_id Ec2IpamPoolCidr#ipam_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_pool_cidr#ipam_pool_id Ec2IpamPoolCidr#ipam_pool_id}
 
 ---
 
@@ -929,7 +929,7 @@ Cidr *string
 
 Represents a single IPv4 or IPv6 CIDR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_pool_cidr#cidr Ec2IpamPoolCidr#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_pool_cidr#cidr Ec2IpamPoolCidr#cidr}
 
 ---
 
@@ -945,7 +945,7 @@ The desired netmask length of the provision.
 
 If set, IPAM will choose a block of free space with this size and return the CIDR representing it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_pool_cidr#netmask_length Ec2IpamPoolCidr#netmask_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_pool_cidr#netmask_length Ec2IpamPoolCidr#netmask_length}
 
 ---
 

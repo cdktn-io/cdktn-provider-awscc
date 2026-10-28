@@ -4,12 +4,12 @@
 
 ### DataAwsccMedialiveMultiplexes <a name="DataAwsccMedialiveMultiplexes" id="@cdktn/provider-awscc.dataAwsccMedialiveMultiplexes.DataAwsccMedialiveMultiplexes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveMultiplexes.DataAwsccMedialiveMultiplexes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivemultiplexes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivemultiplexes"
 
 dataawsccmedialivemultiplexes.NewDataAwsccMedialiveMultiplexes(scope Construct, id *string, config DataAwsccMedialiveMultiplexesConfig) DataAwsccMedialiveMultiplexes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMedialiveMultiplexes.DataAwsccMedialiveMultiplexes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivemultiplexes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivemultiplexes"
 
 dataawsccmedialivemultiplexes.DataAwsccMedialiveMultiplexes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMedialiveMultiplexes.DataAwsccMedialiveMultiplexes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivemultiplexes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivemultiplexes"
 
 dataawsccmedialivemultiplexes.DataAwsccMedialiveMultiplexes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmedialivemultiplexes.DataAwsccMedialiveMultiplexes_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMedialiveMultiplexes.DataAwsccMedialiveMultiplexes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivemultiplexes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivemultiplexes"
 
 dataawsccmedialivemultiplexes.DataAwsccMedialiveMultiplexes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmedialivemultiplexes.DataAwsccMedialiveMultiplexes_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMedialiveMultiplexes.DataAwsccMedialiveMultiplexes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivemultiplexes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivemultiplexes"
 
 dataawsccmedialivemultiplexes.DataAwsccMedialiveMultiplexes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMedialiveMultiple
 
 The id of the existing DataAwsccMedialiveMultiplexes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_multiplexes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_multiplexes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMedialiveMultiplexes.DataAwsccMedialiveMultiplexesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivemultiplexes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivemultiplexes"
 
 &dataawsccmedialivemultiplexes.DataAwsccMedialiveMultiplexesConfig {
 	Connection: interface{},

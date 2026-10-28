@@ -4,12 +4,12 @@
 
 ### DataAwsccDatasyncTask <a name="DataAwsccDatasyncTask" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTask"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_task awscc_datasync_task}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_task awscc_datasync_task}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTask.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTask(scope Construct, id *string, config DataAwsccDatasyncTaskConfig) DataAwsccDatasyncTask
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTask.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.DataAwsccDatasyncTask_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTask.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.DataAwsccDatasyncTask_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatasynctask.DataAwsccDatasyncTask_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTask.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.DataAwsccDatasyncTask_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatasynctask.DataAwsccDatasyncTask_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTask.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.DataAwsccDatasyncTask_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncTask to i
 
 The id of the existing DataAwsccDatasyncTask that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_task#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_task#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskConfig {
 	Connection: interface{},
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_task#id DataAwsccDatasyncTask#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_task#id DataAwsccDatasyncTask#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskExcludes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskExcludes {
 
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskIncludes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskIncludes {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskManifestConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskManifestConfig {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskManifestConfigSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskManifestConfigSource {
 
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskManifestConfigSourceS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskManifestConfigSourceS3 {
 
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskOptions {
 
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskSchedule {
 
@@ -975,7 +975,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskTags {
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskTaskReportConfig {
 
@@ -1001,7 +1001,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskTaskReportConfigDestination {
 
@@ -1014,7 +1014,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigDestinationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskTaskReportConfigDestinationS3 {
 
@@ -1027,7 +1027,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskTaskReportConfigOverrides {
 
@@ -1040,7 +1040,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigOverridesDeleted.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskTaskReportConfigOverridesDeleted {
 
@@ -1053,7 +1053,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigOverridesSkipped.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskTaskReportConfigOverridesSkipped {
 
@@ -1066,7 +1066,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigOverridesTransferred.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskTaskReportConfigOverridesTransferred {
 
@@ -1079,7 +1079,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigOverridesVerified.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 &dataawsccdatasynctask.DataAwsccDatasyncTaskTaskReportConfigOverridesVerified {
 
@@ -1094,7 +1094,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskExcludesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskExcludesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatasyncTaskExcludesList
 ```
@@ -1243,7 +1243,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskExcludesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskExcludesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatasyncTaskExcludesOutputReference
 ```
@@ -1532,7 +1532,7 @@ func InternalValue() DataAwsccDatasyncTaskExcludes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskIncludesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskIncludesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatasyncTaskIncludesList
 ```
@@ -1681,7 +1681,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskIncludesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskIncludesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatasyncTaskIncludesOutputReference
 ```
@@ -1970,7 +1970,7 @@ func InternalValue() DataAwsccDatasyncTaskIncludes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskManifestConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskManifestConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskManifestConfigOutputReference
 ```
@@ -2252,7 +2252,7 @@ func InternalValue() DataAwsccDatasyncTaskManifestConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskManifestConfigSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskManifestConfigSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskManifestConfigSourceOutputReference
 ```
@@ -2512,7 +2512,7 @@ func InternalValue() DataAwsccDatasyncTaskManifestConfigSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskManifestConfigSourceS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskManifestConfigSourceS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskManifestConfigSourceS3OutputReference
 ```
@@ -2805,7 +2805,7 @@ func InternalValue() DataAwsccDatasyncTaskManifestConfigSourceS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskOptionsOutputReference
 ```
@@ -3230,7 +3230,7 @@ func InternalValue() DataAwsccDatasyncTaskOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskScheduleOutputReference
 ```
@@ -3501,7 +3501,7 @@ func InternalValue() DataAwsccDatasyncTaskSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatasyncTaskTagsList
 ```
@@ -3650,7 +3650,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatasyncTaskTagsOutputReference
 ```
@@ -3939,7 +3939,7 @@ func InternalValue() DataAwsccDatasyncTaskTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskTaskReportConfigDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskTaskReportConfigDestinationOutputReference
 ```
@@ -4199,7 +4199,7 @@ func InternalValue() DataAwsccDatasyncTaskTaskReportConfigDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigDestinationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskTaskReportConfigDestinationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskTaskReportConfigDestinationS3OutputReference
 ```
@@ -4481,7 +4481,7 @@ func InternalValue() DataAwsccDatasyncTaskTaskReportConfigDestinationS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskTaskReportConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskTaskReportConfigOutputReference
 ```
@@ -4785,7 +4785,7 @@ func InternalValue() DataAwsccDatasyncTaskTaskReportConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigOverridesDeletedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskTaskReportConfigOverridesDeletedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskTaskReportConfigOverridesDeletedOutputReference
 ```
@@ -5045,7 +5045,7 @@ func InternalValue() DataAwsccDatasyncTaskTaskReportConfigOverridesDeleted
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskTaskReportConfigOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskTaskReportConfigOverridesOutputReference
 ```
@@ -5338,7 +5338,7 @@ func InternalValue() DataAwsccDatasyncTaskTaskReportConfigOverrides
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigOverridesSkippedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskTaskReportConfigOverridesSkippedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskTaskReportConfigOverridesSkippedOutputReference
 ```
@@ -5598,7 +5598,7 @@ func InternalValue() DataAwsccDatasyncTaskTaskReportConfigOverridesSkipped
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigOverridesTransferredOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskTaskReportConfigOverridesTransferredOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskTaskReportConfigOverridesTransferredOutputReference
 ```
@@ -5858,7 +5858,7 @@ func InternalValue() DataAwsccDatasyncTaskTaskReportConfigOverridesTransferred
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskTaskReportConfigOverridesVerifiedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynctask"
 
 dataawsccdatasynctask.NewDataAwsccDatasyncTaskTaskReportConfigOverridesVerifiedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncTaskTaskReportConfigOverridesVerifiedOutputReference
 ```

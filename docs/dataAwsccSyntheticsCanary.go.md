@@ -4,12 +4,12 @@
 
 ### DataAwsccSyntheticsCanary <a name="DataAwsccSyntheticsCanary" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/synthetics_canary awscc_synthetics_canary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/synthetics_canary awscc_synthetics_canary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanary(scope Construct, id *string, config DataAwsccSyntheticsCanaryConfig) DataAwsccSyntheticsCanary
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanary.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.DataAwsccSyntheticsCanary_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanary.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.DataAwsccSyntheticsCanary_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsyntheticscanary.DataAwsccSyntheticsCanary_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanary.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.DataAwsccSyntheticsCanary_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsyntheticscanary.DataAwsccSyntheticsCanary_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanary.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.DataAwsccSyntheticsCanary_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSyntheticsCanary 
 
 The id of the existing DataAwsccSyntheticsCanary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/synthetics_canary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/synthetics_canary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -829,7 +829,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryArtifactConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryArtifactConfig {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryArtifactConfigS3Encryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryArtifactConfigS3Encryption {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryBrowserConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryBrowserConfigs {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryCode {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryCodeDependencies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryCodeDependencies {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryConfig {
 	Connection: interface{},
@@ -1003,7 +1003,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/synthetics_canary#id DataAwsccSyntheticsCanary#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/synthetics_canary#id DataAwsccSyntheticsCanary#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1015,7 +1015,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryRunConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryRunConfig {
 
@@ -1028,7 +1028,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanarySchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanarySchedule {
 
@@ -1041,7 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryScheduleRetryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryScheduleRetryConfig {
 
@@ -1054,7 +1054,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryTags {
 
@@ -1067,7 +1067,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVisualReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryVisualReference {
 
@@ -1080,7 +1080,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVisualReferenceBaseScreenshots.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryVisualReferenceBaseScreenshots {
 
@@ -1093,7 +1093,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVisualReferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryVisualReferences {
 
@@ -1106,7 +1106,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVisualReferencesBaseScreenshots.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryVisualReferencesBaseScreenshots {
 
@@ -1119,7 +1119,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 &dataawsccsyntheticscanary.DataAwsccSyntheticsCanaryVpcConfig {
 
@@ -1134,7 +1134,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryArtifactConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryArtifactConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSyntheticsCanaryArtifactConfigOutputReference
 ```
@@ -1394,7 +1394,7 @@ func InternalValue() DataAwsccSyntheticsCanaryArtifactConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryArtifactConfigS3EncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryArtifactConfigS3EncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSyntheticsCanaryArtifactConfigS3EncryptionOutputReference
 ```
@@ -1665,7 +1665,7 @@ func InternalValue() DataAwsccSyntheticsCanaryArtifactConfigS3Encryption
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryBrowserConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryBrowserConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSyntheticsCanaryBrowserConfigsList
 ```
@@ -1814,7 +1814,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryBrowserConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryBrowserConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSyntheticsCanaryBrowserConfigsOutputReference
 ```
@@ -2092,7 +2092,7 @@ func InternalValue() DataAwsccSyntheticsCanaryBrowserConfigs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryCodeDependenciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryCodeDependenciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSyntheticsCanaryCodeDependenciesList
 ```
@@ -2241,7 +2241,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryCodeDependenciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryCodeDependenciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSyntheticsCanaryCodeDependenciesOutputReference
 ```
@@ -2530,7 +2530,7 @@ func InternalValue() DataAwsccSyntheticsCanaryCodeDependencies
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSyntheticsCanaryCodeOutputReference
 ```
@@ -2867,7 +2867,7 @@ func InternalValue() DataAwsccSyntheticsCanaryCode
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryRunConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryRunConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSyntheticsCanaryRunConfigOutputReference
 ```
@@ -3171,7 +3171,7 @@ func InternalValue() DataAwsccSyntheticsCanaryRunConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSyntheticsCanaryScheduleOutputReference
 ```
@@ -3453,7 +3453,7 @@ func InternalValue() DataAwsccSyntheticsCanarySchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryScheduleRetryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryScheduleRetryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSyntheticsCanaryScheduleRetryConfigOutputReference
 ```
@@ -3713,7 +3713,7 @@ func InternalValue() DataAwsccSyntheticsCanaryScheduleRetryConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSyntheticsCanaryTagsList
 ```
@@ -3862,7 +3862,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSyntheticsCanaryTagsOutputReference
 ```
@@ -4151,7 +4151,7 @@ func InternalValue() DataAwsccSyntheticsCanaryTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVisualReferenceBaseScreenshotsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryVisualReferenceBaseScreenshotsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSyntheticsCanaryVisualReferenceBaseScreenshotsList
 ```
@@ -4300,7 +4300,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVisualReferenceBaseScreenshotsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryVisualReferenceBaseScreenshotsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSyntheticsCanaryVisualReferenceBaseScreenshotsOutputReference
 ```
@@ -4589,7 +4589,7 @@ func InternalValue() DataAwsccSyntheticsCanaryVisualReferenceBaseScreenshots
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVisualReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryVisualReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSyntheticsCanaryVisualReferenceOutputReference
 ```
@@ -4871,7 +4871,7 @@ func InternalValue() DataAwsccSyntheticsCanaryVisualReference
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVisualReferencesBaseScreenshotsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryVisualReferencesBaseScreenshotsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSyntheticsCanaryVisualReferencesBaseScreenshotsList
 ```
@@ -5020,7 +5020,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVisualReferencesBaseScreenshotsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryVisualReferencesBaseScreenshotsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSyntheticsCanaryVisualReferencesBaseScreenshotsOutputReference
 ```
@@ -5309,7 +5309,7 @@ func InternalValue() DataAwsccSyntheticsCanaryVisualReferencesBaseScreenshots
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVisualReferencesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryVisualReferencesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSyntheticsCanaryVisualReferencesList
 ```
@@ -5458,7 +5458,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVisualReferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryVisualReferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSyntheticsCanaryVisualReferencesOutputReference
 ```
@@ -5758,7 +5758,7 @@ func InternalValue() DataAwsccSyntheticsCanaryVisualReferences
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsCanary.DataAwsccSyntheticsCanaryVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticscanary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticscanary"
 
 dataawsccsyntheticscanary.NewDataAwsccSyntheticsCanaryVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSyntheticsCanaryVpcConfigOutputReference
 ```

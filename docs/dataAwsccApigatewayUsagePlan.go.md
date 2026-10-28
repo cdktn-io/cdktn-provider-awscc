@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayUsagePlan <a name="DataAwsccApigatewayUsagePlan" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_usage_plan awscc_apigateway_usage_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_usage_plan awscc_apigateway_usage_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.NewDataAwsccApigatewayUsagePlan(scope Construct, id *string, config DataAwsccApigatewayUsagePlanConfig) DataAwsccApigatewayUsagePlan
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlan.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlan_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlan.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlan_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlan_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlan.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlan_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlan_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlan.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlan_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayUsagePl
 
 The id of the existing DataAwsccApigatewayUsagePlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_usage_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_usage_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanApiStages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 &dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlanApiStages {
 
@@ -677,7 +677,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanApiStagesThrottle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 &dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlanApiStagesThrottle {
 
@@ -690,7 +690,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 &dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlanConfig {
 	Connection: interface{},
@@ -799,7 +799,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_usage_plan#id DataAwsccApigatewayUsagePlan#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_usage_plan#id DataAwsccApigatewayUsagePlan#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -811,7 +811,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanQuota.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 &dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlanQuota {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 &dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlanTags {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanThrottle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 &dataawsccapigatewayusageplan.DataAwsccApigatewayUsagePlanThrottle {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanApiStagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.NewDataAwsccApigatewayUsagePlanApiStagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApigatewayUsagePlanApiStagesList
 ```
@@ -1001,7 +1001,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanApiStagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.NewDataAwsccApigatewayUsagePlanApiStagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApigatewayUsagePlanApiStagesOutputReference
 ```
@@ -1301,7 +1301,7 @@ func InternalValue() DataAwsccApigatewayUsagePlanApiStages
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanApiStagesThrottleMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.NewDataAwsccApigatewayUsagePlanApiStagesThrottleMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayUsagePlanApiStagesThrottleMap
 ```
@@ -1437,7 +1437,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanApiStagesThrottleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.NewDataAwsccApigatewayUsagePlanApiStagesThrottleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccApigatewayUsagePlanApiStagesThrottleOutputReference
 ```
@@ -1717,7 +1717,7 @@ func InternalValue() DataAwsccApigatewayUsagePlanApiStagesThrottle
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanQuotaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.NewDataAwsccApigatewayUsagePlanQuotaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayUsagePlanQuotaOutputReference
 ```
@@ -1999,7 +1999,7 @@ func InternalValue() DataAwsccApigatewayUsagePlanQuota
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.NewDataAwsccApigatewayUsagePlanTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApigatewayUsagePlanTagsList
 ```
@@ -2148,7 +2148,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.NewDataAwsccApigatewayUsagePlanTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApigatewayUsagePlanTagsOutputReference
 ```
@@ -2437,7 +2437,7 @@ func InternalValue() DataAwsccApigatewayUsagePlanTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayUsagePlan.DataAwsccApigatewayUsagePlanThrottleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplan"
 
 dataawsccapigatewayusageplan.NewDataAwsccApigatewayUsagePlanThrottleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayUsagePlanThrottleOutputReference
 ```

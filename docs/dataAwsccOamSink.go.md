@@ -4,12 +4,12 @@
 
 ### DataAwsccOamSink <a name="DataAwsccOamSink" id="@cdktn/provider-awscc.dataAwsccOamSink.DataAwsccOamSink"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/oam_sink awscc_oam_sink}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/oam_sink awscc_oam_sink}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOamSink.DataAwsccOamSink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsink"
 
 dataawsccoamsink.NewDataAwsccOamSink(scope Construct, id *string, config DataAwsccOamSinkConfig) DataAwsccOamSink
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOamSink.DataAwsccOamSink.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsink"
 
 dataawsccoamsink.DataAwsccOamSink_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOamSink.DataAwsccOamSink.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsink"
 
 dataawsccoamsink.DataAwsccOamSink_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccoamsink.DataAwsccOamSink_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOamSink.DataAwsccOamSink.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsink"
 
 dataawsccoamsink.DataAwsccOamSink_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccoamsink.DataAwsccOamSink_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOamSink.DataAwsccOamSink.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsink"
 
 dataawsccoamsink.DataAwsccOamSink_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOamSink to import
 
 The id of the existing DataAwsccOamSink that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/oam_sink#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/oam_sink#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOamSink.DataAwsccOamSinkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsink"
 
 &dataawsccoamsink.DataAwsccOamSinkConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/oam_sink#id DataAwsccOamSink#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/oam_sink#id DataAwsccOamSink#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

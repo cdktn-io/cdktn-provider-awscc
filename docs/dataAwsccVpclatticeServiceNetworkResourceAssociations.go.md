@@ -4,12 +4,12 @@
 
 ### DataAwsccVpclatticeServiceNetworkResourceAssociations <a name="DataAwsccVpclatticeServiceNetworkResourceAssociations" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetworkResourceAssociations.DataAwsccVpclatticeServiceNetworkResourceAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service_network_resource_associations awscc_vpclattice_service_network_resource_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service_network_resource_associations awscc_vpclattice_service_network_resource_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetworkResourceAssociations.DataAwsccVpclatticeServiceNetworkResourceAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetworkresourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetworkresourceassociations"
 
 dataawsccvpclatticeservicenetworkresourceassociations.NewDataAwsccVpclatticeServiceNetworkResourceAssociations(scope Construct, id *string, config DataAwsccVpclatticeServiceNetworkResourceAssociationsConfig) DataAwsccVpclatticeServiceNetworkResourceAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetworkResourceAssociations.DataAwsccVpclatticeServiceNetworkResourceAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetworkresourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetworkresourceassociations"
 
 dataawsccvpclatticeservicenetworkresourceassociations.DataAwsccVpclatticeServiceNetworkResourceAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetworkResourceAssociations.DataAwsccVpclatticeServiceNetworkResourceAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetworkresourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetworkresourceassociations"
 
 dataawsccvpclatticeservicenetworkresourceassociations.DataAwsccVpclatticeServiceNetworkResourceAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccvpclatticeservicenetworkresourceassociations.DataAwsccVpclatticeService
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetworkResourceAssociations.DataAwsccVpclatticeServiceNetworkResourceAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetworkresourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetworkresourceassociations"
 
 dataawsccvpclatticeservicenetworkresourceassociations.DataAwsccVpclatticeServiceNetworkResourceAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccvpclatticeservicenetworkresourceassociations.DataAwsccVpclatticeService
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetworkResourceAssociations.DataAwsccVpclatticeServiceNetworkResourceAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetworkresourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetworkresourceassociations"
 
 dataawsccvpclatticeservicenetworkresourceassociations.DataAwsccVpclatticeServiceNetworkResourceAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccVpclatticeService
 
 The id of the existing DataAwsccVpclatticeServiceNetworkResourceAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service_network_resource_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service_network_resource_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetworkResourceAssociations.DataAwsccVpclatticeServiceNetworkResourceAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetworkresourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetworkresourceassociations"
 
 &dataawsccvpclatticeservicenetworkresourceassociations.DataAwsccVpclatticeServiceNetworkResourceAssociationsConfig {
 	Connection: interface{},

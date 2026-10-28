@@ -4,12 +4,12 @@
 
 ### ConnectUserHierarchyStructure <a name="ConnectUserHierarchyStructure" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructure"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 connectuserhierarchystructure.NewConnectUserHierarchyStructure(scope Construct, id *string, config ConnectUserHierarchyStructureConfig) ConnectUserHierarchyStructure
 ```
@@ -420,7 +420,7 @@ func ResetUserHierarchyStructure()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructure.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 connectuserhierarchystructure.ConnectUserHierarchyStructure_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructure.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 connectuserhierarchystructure.ConnectUserHierarchyStructure_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ connectuserhierarchystructure.ConnectUserHierarchyStructure_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructure.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 connectuserhierarchystructure.ConnectUserHierarchyStructure_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ connectuserhierarchystructure.ConnectUserHierarchyStructure_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructure.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 connectuserhierarchystructure.ConnectUserHierarchyStructure_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the ConnectUserHierarchyStruct
 
 The id of the existing ConnectUserHierarchyStructure that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -775,7 +775,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 &connectuserhierarchystructure.ConnectUserHierarchyStructureConfig {
 	Connection: interface{},
@@ -786,7 +786,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchyst
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	InstanceArn: *string,
-	UserHierarchyStructure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructure,
+	UserHierarchyStructure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructure,
 }
 ```
 
@@ -886,7 +886,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#instance_arn ConnectUserHierarchyStructure#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#instance_arn ConnectUserHierarchyStructure#instance_arn}
 
 ---
 
@@ -900,7 +900,7 @@ UserHierarchyStructure ConnectUserHierarchyStructureUserHierarchyStructure
 
 Information about the hierarchy structure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#user_hierarchy_structure ConnectUserHierarchyStructure#user_hierarchy_structure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#user_hierarchy_structure ConnectUserHierarchyStructure#user_hierarchy_structure}
 
 ---
 
@@ -909,14 +909,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 &connectuserhierarchystructure.ConnectUserHierarchyStructureUserHierarchyStructure {
-	LevelFive: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelFive,
-	LevelFour: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelFour,
-	LevelOne: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelOne,
-	LevelThree: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelThree,
-	LevelTwo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelTwo,
+	LevelFive: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelFive,
+	LevelFour: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelFour,
+	LevelOne: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelOne,
+	LevelThree: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelThree,
+	LevelTwo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelTwo,
 }
 ```
 
@@ -942,7 +942,7 @@ LevelFive ConnectUserHierarchyStructureUserHierarchyStructureLevelFive
 
 Information about level five.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#level_five ConnectUserHierarchyStructure#level_five}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#level_five ConnectUserHierarchyStructure#level_five}
 
 ---
 
@@ -956,7 +956,7 @@ LevelFour ConnectUserHierarchyStructureUserHierarchyStructureLevelFour
 
 Information about level four.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#level_four ConnectUserHierarchyStructure#level_four}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#level_four ConnectUserHierarchyStructure#level_four}
 
 ---
 
@@ -970,7 +970,7 @@ LevelOne ConnectUserHierarchyStructureUserHierarchyStructureLevelOne
 
 Information about level one.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#level_one ConnectUserHierarchyStructure#level_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#level_one ConnectUserHierarchyStructure#level_one}
 
 ---
 
@@ -984,7 +984,7 @@ LevelThree ConnectUserHierarchyStructureUserHierarchyStructureLevelThree
 
 Information about level three.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#level_three ConnectUserHierarchyStructure#level_three}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#level_three ConnectUserHierarchyStructure#level_three}
 
 ---
 
@@ -998,7 +998,7 @@ LevelTwo ConnectUserHierarchyStructureUserHierarchyStructureLevelTwo
 
 Information about level two.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#level_two ConnectUserHierarchyStructure#level_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#level_two ConnectUserHierarchyStructure#level_two}
 
 ---
 
@@ -1007,7 +1007,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelFive.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 &connectuserhierarchystructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelFive {
 	HierarchyLevelArn: *string,
@@ -1036,7 +1036,7 @@ HierarchyLevelArn *string
 
 The Amazon Resource Name (ARN) of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_arn ConnectUserHierarchyStructure#hierarchy_level_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_arn ConnectUserHierarchyStructure#hierarchy_level_arn}
 
 ---
 
@@ -1050,7 +1050,7 @@ HierarchyLevelId *string
 
 The identifier of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_id ConnectUserHierarchyStructure#hierarchy_level_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_id ConnectUserHierarchyStructure#hierarchy_level_id}
 
 ---
 
@@ -1064,7 +1064,7 @@ Name *string
 
 The name of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
 
 ---
 
@@ -1073,7 +1073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelFour.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 &connectuserhierarchystructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelFour {
 	HierarchyLevelArn: *string,
@@ -1102,7 +1102,7 @@ HierarchyLevelArn *string
 
 The Amazon Resource Name (ARN) of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_arn ConnectUserHierarchyStructure#hierarchy_level_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_arn ConnectUserHierarchyStructure#hierarchy_level_arn}
 
 ---
 
@@ -1116,7 +1116,7 @@ HierarchyLevelId *string
 
 The identifier of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_id ConnectUserHierarchyStructure#hierarchy_level_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_id ConnectUserHierarchyStructure#hierarchy_level_id}
 
 ---
 
@@ -1130,7 +1130,7 @@ Name *string
 
 The name of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
 
 ---
 
@@ -1139,7 +1139,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelOne.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 &connectuserhierarchystructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelOne {
 	HierarchyLevelArn: *string,
@@ -1168,7 +1168,7 @@ HierarchyLevelArn *string
 
 The Amazon Resource Name (ARN) of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_arn ConnectUserHierarchyStructure#hierarchy_level_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_arn ConnectUserHierarchyStructure#hierarchy_level_arn}
 
 ---
 
@@ -1182,7 +1182,7 @@ HierarchyLevelId *string
 
 The identifier of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_id ConnectUserHierarchyStructure#hierarchy_level_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_id ConnectUserHierarchyStructure#hierarchy_level_id}
 
 ---
 
@@ -1196,7 +1196,7 @@ Name *string
 
 The name of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
 
 ---
 
@@ -1205,7 +1205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelThree.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 &connectuserhierarchystructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelThree {
 	HierarchyLevelArn: *string,
@@ -1234,7 +1234,7 @@ HierarchyLevelArn *string
 
 The Amazon Resource Name (ARN) of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_arn ConnectUserHierarchyStructure#hierarchy_level_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_arn ConnectUserHierarchyStructure#hierarchy_level_arn}
 
 ---
 
@@ -1248,7 +1248,7 @@ HierarchyLevelId *string
 
 The identifier of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_id ConnectUserHierarchyStructure#hierarchy_level_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_id ConnectUserHierarchyStructure#hierarchy_level_id}
 
 ---
 
@@ -1262,7 +1262,7 @@ Name *string
 
 The name of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
 
 ---
 
@@ -1271,7 +1271,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelTwo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 &connectuserhierarchystructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelTwo {
 	HierarchyLevelArn: *string,
@@ -1300,7 +1300,7 @@ HierarchyLevelArn *string
 
 The Amazon Resource Name (ARN) of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_arn ConnectUserHierarchyStructure#hierarchy_level_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_arn ConnectUserHierarchyStructure#hierarchy_level_arn}
 
 ---
 
@@ -1314,7 +1314,7 @@ HierarchyLevelId *string
 
 The identifier of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_id ConnectUserHierarchyStructure#hierarchy_level_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#hierarchy_level_id ConnectUserHierarchyStructure#hierarchy_level_id}
 
 ---
 
@@ -1328,7 +1328,7 @@ Name *string
 
 The name of the hierarchy level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
 
 ---
 
@@ -1339,7 +1339,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelFiveOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 connectuserhierarchystructure.NewConnectUserHierarchyStructureUserHierarchyStructureLevelFiveOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectUserHierarchyStructureUserHierarchyStructureLevelFiveOutputReference
 ```
@@ -1675,7 +1675,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelFourOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 connectuserhierarchystructure.NewConnectUserHierarchyStructureUserHierarchyStructureLevelFourOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectUserHierarchyStructureUserHierarchyStructureLevelFourOutputReference
 ```
@@ -2011,7 +2011,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelOneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 connectuserhierarchystructure.NewConnectUserHierarchyStructureUserHierarchyStructureLevelOneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectUserHierarchyStructureUserHierarchyStructureLevelOneOutputReference
 ```
@@ -2347,7 +2347,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelThreeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 connectuserhierarchystructure.NewConnectUserHierarchyStructureUserHierarchyStructureLevelThreeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectUserHierarchyStructureUserHierarchyStructureLevelThreeOutputReference
 ```
@@ -2683,7 +2683,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureLevelTwoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 connectuserhierarchystructure.NewConnectUserHierarchyStructureUserHierarchyStructureLevelTwoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectUserHierarchyStructureUserHierarchyStructureLevelTwoOutputReference
 ```
@@ -3019,7 +3019,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectUserHierarchyStructure.ConnectUserHierarchyStructureUserHierarchyStructureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure"
 
 connectuserhierarchystructure.NewConnectUserHierarchyStructureUserHierarchyStructureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectUserHierarchyStructureUserHierarchyStructureOutputReference
 ```

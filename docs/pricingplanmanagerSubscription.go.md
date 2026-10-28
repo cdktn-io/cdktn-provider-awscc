@@ -4,12 +4,12 @@
 
 ### PricingplanmanagerSubscription <a name="PricingplanmanagerSubscription" id="@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pricingplanmanager_subscription awscc_pricingplanmanager_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pricingplanmanager_subscription awscc_pricingplanmanager_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pricingplanmanagersubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pricingplanmanagersubscription"
 
 pricingplanmanagersubscription.NewPricingplanmanagerSubscription(scope Construct, id *string, config PricingplanmanagerSubscriptionConfig) PricingplanmanagerSubscription
 ```
@@ -407,7 +407,7 @@ func ResetUsageLevel()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pricingplanmanagersubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pricingplanmanagersubscription"
 
 pricingplanmanagersubscription.PricingplanmanagerSubscription_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pricingplanmanagersubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pricingplanmanagersubscription"
 
 pricingplanmanagersubscription.PricingplanmanagerSubscription_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ pricingplanmanagersubscription.PricingplanmanagerSubscription_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pricingplanmanagersubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pricingplanmanagersubscription"
 
 pricingplanmanagersubscription.PricingplanmanagerSubscription_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ pricingplanmanagersubscription.PricingplanmanagerSubscription_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscription.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pricingplanmanagersubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pricingplanmanagersubscription"
 
 pricingplanmanagersubscription.PricingplanmanagerSubscription_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the PricingplanmanagerSubscrip
 
 The id of the existing PricingplanmanagerSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pricingplanmanager_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pricingplanmanager_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -861,7 +861,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pricingplanmanagersubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pricingplanmanagersubscription"
 
 &pricingplanmanagersubscription.PricingplanmanagerSubscriptionConfig {
 	Connection: interface{},
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pricingplanmanagersubs
 | <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig.property.planFamily">PlanFamily</a></code> | <code>*string</code> | The name of the pricing plan family. |
 | <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig.property.planTier">PlanTier</a></code> | <code>*string</code> | The tier of the pricing plan. |
 | <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig.property.resourceArns">ResourceArns</a></code> | <code>*[]*string</code> | The ARNs of resources associated with the subscription. |
-| <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig.property.usageLevel">UsageLevel</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}. |
+| <code><a href="#@cdktn/provider-awscc.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig.property.usageLevel">UsageLevel</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}. |
 
 ---
 
@@ -976,7 +976,7 @@ PlanFamily *string
 
 The name of the pricing plan family.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pricingplanmanager_subscription#plan_family PricingplanmanagerSubscription#plan_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pricingplanmanager_subscription#plan_family PricingplanmanagerSubscription#plan_family}
 
 ---
 
@@ -992,7 +992,7 @@ The tier of the pricing plan.
 
 CloudFormation does not change the tier of an existing subscription; a stack update that changes the tier, upgrading or downgrading it, is rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pricingplanmanager_subscription#plan_tier PricingplanmanagerSubscription#plan_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pricingplanmanager_subscription#plan_tier PricingplanmanagerSubscription#plan_tier}
 
 ---
 
@@ -1006,7 +1006,7 @@ ResourceArns *[]*string
 
 The ARNs of resources associated with the subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pricingplanmanager_subscription#resource_arns PricingplanmanagerSubscription#resource_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pricingplanmanager_subscription#resource_arns PricingplanmanagerSubscription#resource_arns}
 
 ---
 
@@ -1018,7 +1018,7 @@ UsageLevel *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}.
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccInspectorAssessmentTemplates <a name="DataAwsccInspectorAssessmentTemplates" id="@cdktn/provider-awscc.dataAwsccInspectorAssessmentTemplates.DataAwsccInspectorAssessmentTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspector_assessment_templates awscc_inspector_assessment_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspector_assessment_templates awscc_inspector_assessment_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorAssessmentTemplates.DataAwsccInspectorAssessmentTemplates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorassessmenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorassessmenttemplates"
 
 dataawsccinspectorassessmenttemplates.NewDataAwsccInspectorAssessmentTemplates(scope Construct, id *string, config DataAwsccInspectorAssessmentTemplatesConfig) DataAwsccInspectorAssessmentTemplates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccInspectorAssessmentTemplates.DataAwsccInspectorAssessmentTemplates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorassessmenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorassessmenttemplates"
 
 dataawsccinspectorassessmenttemplates.DataAwsccInspectorAssessmentTemplates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccInspectorAssessmentTemplates.DataAwsccInspectorAssessmentTemplates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorassessmenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorassessmenttemplates"
 
 dataawsccinspectorassessmenttemplates.DataAwsccInspectorAssessmentTemplates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccinspectorassessmenttemplates.DataAwsccInspectorAssessmentTemplates_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccInspectorAssessmentTemplates.DataAwsccInspectorAssessmentTemplates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorassessmenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorassessmenttemplates"
 
 dataawsccinspectorassessmenttemplates.DataAwsccInspectorAssessmentTemplates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccinspectorassessmenttemplates.DataAwsccInspectorAssessmentTemplates_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccInspectorAssessmentTemplates.DataAwsccInspectorAssessmentTemplates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorassessmenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorassessmenttemplates"
 
 dataawsccinspectorassessmenttemplates.DataAwsccInspectorAssessmentTemplates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInspectorAssessme
 
 The id of the existing DataAwsccInspectorAssessmentTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspector_assessment_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspector_assessment_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorAssessmentTemplates.DataAwsccInspectorAssessmentTemplatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorassessmenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorassessmenttemplates"
 
 &dataawsccinspectorassessmenttemplates.DataAwsccInspectorAssessmentTemplatesConfig {
 	Connection: interface{},

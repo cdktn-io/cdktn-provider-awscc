@@ -4,12 +4,12 @@
 
 ### IotDimension <a name="IotDimension" id="@cdktn/provider-awscc.iotDimension.IotDimension"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_dimension awscc_iot_dimension}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_dimension awscc_iot_dimension}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotDimension.IotDimension.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotdimension"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotdimension"
 
 iotdimension.NewIotDimension(scope Construct, id *string, config IotDimensionConfig) IotDimension
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotDimension.IotDimension.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotdimension"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotdimension"
 
 iotdimension.IotDimension_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotDimension.IotDimension.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotdimension"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotdimension"
 
 iotdimension.IotDimension_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ iotdimension.IotDimension_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotDimension.IotDimension.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotdimension"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotdimension"
 
 iotdimension.IotDimension_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ iotdimension.IotDimension_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotDimension.IotDimension.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotdimension"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotdimension"
 
 iotdimension.IotDimension_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the IotDimension to import.
 
 The id of the existing IotDimension that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_dimension#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_dimension#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -826,7 +826,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotDimension.IotDimensionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotdimension"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotdimension"
 
 &iotdimension.IotDimensionConfig {
 	Connection: interface{},
@@ -941,7 +941,7 @@ StringValues *[]*string
 
 Specifies the value or list of values for the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_dimension#string_values IotDimension#string_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_dimension#string_values IotDimension#string_values}
 
 ---
 
@@ -955,7 +955,7 @@ Type *string
 
 Specifies the type of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_dimension#type IotDimension#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_dimension#type IotDimension#type}
 
 ---
 
@@ -969,7 +969,7 @@ Name *string
 
 A unique identifier for the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_dimension#name IotDimension#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_dimension#name IotDimension#name}
 
 ---
 
@@ -983,7 +983,7 @@ Tags interface{}
 
 Metadata that can be used to manage the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_dimension#tags IotDimension#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_dimension#tags IotDimension#tags}
 
 ---
 
@@ -992,7 +992,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotDimension.IotDimensionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotdimension"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotdimension"
 
 &iotdimension.IotDimensionTags {
 	Key: *string,
@@ -1019,7 +1019,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_dimension#key IotDimension#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_dimension#key IotDimension#key}
 
 ---
 
@@ -1033,7 +1033,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_dimension#value IotDimension#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_dimension#value IotDimension#value}
 
 ---
 
@@ -1044,7 +1044,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotDimension.IotDimensionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotdimension"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotdimension"
 
 iotdimension.NewIotDimensionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotDimensionTagsList
 ```
@@ -1204,7 +1204,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotDimension.IotDimensionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotdimension"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotdimension"
 
 iotdimension.NewIotDimensionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotDimensionTagsOutputReference
 ```

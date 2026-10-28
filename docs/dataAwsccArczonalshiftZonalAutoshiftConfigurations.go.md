@@ -4,12 +4,12 @@
 
 ### DataAwsccArczonalshiftZonalAutoshiftConfigurations <a name="DataAwsccArczonalshiftZonalAutoshiftConfigurations" id="@cdktn/provider-awscc.dataAwsccArczonalshiftZonalAutoshiftConfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/arczonalshift_zonal_autoshift_configurations awscc_arczonalshift_zonal_autoshift_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/arczonalshift_zonal_autoshift_configurations awscc_arczonalshift_zonal_autoshift_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccArczonalshiftZonalAutoshiftConfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftzonalautoshiftconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftzonalautoshiftconfigurations"
 
 dataawsccarczonalshiftzonalautoshiftconfigurations.NewDataAwsccArczonalshiftZonalAutoshiftConfigurations(scope Construct, id *string, config DataAwsccArczonalshiftZonalAutoshiftConfigurationsConfig) DataAwsccArczonalshiftZonalAutoshiftConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccArczonalshiftZonalAutoshiftConfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftzonalautoshiftconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftzonalautoshiftconfigurations"
 
 dataawsccarczonalshiftzonalautoshiftconfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccArczonalshiftZonalAutoshiftConfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftzonalautoshiftconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftzonalautoshiftconfigurations"
 
 dataawsccarczonalshiftzonalautoshiftconfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccarczonalshiftzonalautoshiftconfigurations.DataAwsccArczonalshiftZonalAu
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccArczonalshiftZonalAutoshiftConfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftzonalautoshiftconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftzonalautoshiftconfigurations"
 
 dataawsccarczonalshiftzonalautoshiftconfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccarczonalshiftzonalautoshiftconfigurations.DataAwsccArczonalshiftZonalAu
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccArczonalshiftZonalAutoshiftConfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftzonalautoshiftconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftzonalautoshiftconfigurations"
 
 dataawsccarczonalshiftzonalautoshiftconfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccArczonalshiftZona
 
 The id of the existing DataAwsccArczonalshiftZonalAutoshiftConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/arczonalshift_zonal_autoshift_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/arczonalshift_zonal_autoshift_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccArczonalshiftZonalAutoshiftConfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftzonalautoshiftconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftzonalautoshiftconfigurations"
 
 &dataawsccarczonalshiftzonalautoshiftconfigurations.DataAwsccArczonalshiftZonalAutoshiftConfigurationsConfig {
 	Connection: interface{},

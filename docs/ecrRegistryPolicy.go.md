@@ -4,12 +4,12 @@
 
 ### EcrRegistryPolicy <a name="EcrRegistryPolicy" id="@cdktn/provider-awscc.ecrRegistryPolicy.EcrRegistryPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_registry_policy awscc_ecr_registry_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_registry_policy awscc_ecr_registry_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrRegistryPolicy.EcrRegistryPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrregistrypolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrregistrypolicy"
 
 ecrregistrypolicy.NewEcrRegistryPolicy(scope Construct, id *string, config EcrRegistryPolicyConfig) EcrRegistryPolicy
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ecrRegistryPolicy.EcrRegistryPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrregistrypolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrregistrypolicy"
 
 ecrregistrypolicy.EcrRegistryPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ecrRegistryPolicy.EcrRegistryPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrregistrypolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrregistrypolicy"
 
 ecrregistrypolicy.EcrRegistryPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ecrregistrypolicy.EcrRegistryPolicy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ecrRegistryPolicy.EcrRegistryPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrregistrypolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrregistrypolicy"
 
 ecrregistrypolicy.EcrRegistryPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ecrregistrypolicy.EcrRegistryPolicy_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ecrRegistryPolicy.EcrRegistryPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrregistrypolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrregistrypolicy"
 
 ecrregistrypolicy.EcrRegistryPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the EcrRegistryPolicy to impor
 
 The id of the existing EcrRegistryPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_registry_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_registry_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -733,7 +733,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ecrRegistryPolicy.EcrRegistryPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrregistrypolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrregistrypolicy"
 
 &ecrregistrypolicy.EcrRegistryPolicyConfig {
 	Connection: interface{},
@@ -842,7 +842,7 @@ PolicyText *string
 
 The JSON policy text for your registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_registry_policy#policy_text EcrRegistryPolicy#policy_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_registry_policy#policy_text EcrRegistryPolicy#policy_text}
 
 ---
 

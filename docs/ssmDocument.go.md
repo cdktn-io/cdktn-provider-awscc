@@ -4,12 +4,12 @@
 
 ### SsmDocument <a name="SsmDocument" id="@cdktn/provider-awscc.ssmDocument.SsmDocument"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document awscc_ssm_document}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document awscc_ssm_document}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmDocument.SsmDocument.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 ssmdocument.NewSsmDocument(scope Construct, id *string, config SsmDocumentConfig) SsmDocument
 ```
@@ -502,7 +502,7 @@ func ResetVersionName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssmDocument.SsmDocument.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 ssmdocument.SsmDocument_IsConstruct(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssmDocument.SsmDocument.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 ssmdocument.SsmDocument_IsTerraformElement(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ ssmdocument.SsmDocument_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssmDocument.SsmDocument.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 ssmdocument.SsmDocument_IsTerraformResource(x interface{}) *bool
 ```
@@ -562,7 +562,7 @@ ssmdocument.SsmDocument_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssmDocument.SsmDocument.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 ssmdocument.SsmDocument_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -591,7 +591,7 @@ The construct id used in the generated config for the SsmDocument to import.
 
 The id of the existing SsmDocument that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1022,7 +1022,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmDocument.SsmDocumentAttachments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 &ssmdocument.SsmDocumentAttachments {
 	Key: *string,
@@ -1051,7 +1051,7 @@ Key *string
 
 The key of a key-value pair that identifies the location of an attachment to a document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#key SsmDocument#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#key SsmDocument#key}
 
 ---
 
@@ -1065,7 +1065,7 @@ Name *string
 
 The name of the document attachment file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#name SsmDocument#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#name SsmDocument#name}
 
 ---
 
@@ -1081,7 +1081,7 @@ The value of a key-value pair that identifies the location of an attachment to a
 
 The format for Value depends on the type of key you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#values SsmDocument#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#values SsmDocument#values}
 
 ---
 
@@ -1090,7 +1090,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmDocument.SsmDocumentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 &ssmdocument.SsmDocumentConfig {
 	Connection: interface{},
@@ -1217,7 +1217,7 @@ Content *string
 
 The content for the Systems Manager document in JSON, YAML or String format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#content SsmDocument#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#content SsmDocument#content}
 
 ---
 
@@ -1231,7 +1231,7 @@ Attachments interface{}
 
 A list of key and value pairs that describe attachments to a version of a document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#attachments SsmDocument#attachments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#attachments SsmDocument#attachments}
 
 ---
 
@@ -1247,7 +1247,7 @@ Specify the document format for the request.
 
 The document format can be either JSON or YAML. JSON is the default format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#document_format SsmDocument#document_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#document_format SsmDocument#document_format}
 
 ---
 
@@ -1261,7 +1261,7 @@ DocumentType *string
 
 The type of document to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#document_type SsmDocument#document_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#document_type SsmDocument#document_type}
 
 ---
 
@@ -1275,7 +1275,7 @@ Name *string
 
 A name for the Systems Manager document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#name SsmDocument#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#name SsmDocument#name}
 
 ---
 
@@ -1289,7 +1289,7 @@ Requires interface{}
 
 A list of SSM documents required by a document. For example, an ApplicationConfiguration document requires an ApplicationConfigurationSchema document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#requires SsmDocument#requires}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#requires SsmDocument#requires}
 
 ---
 
@@ -1305,7 +1305,7 @@ Optional metadata that you assign to a resource.
 
 Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#tags SsmDocument#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#tags SsmDocument#tags}
 
 ---
 
@@ -1319,7 +1319,7 @@ TargetType *string
 
 Specify a target type to define the kinds of resources the document can run on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#target_type SsmDocument#target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#target_type SsmDocument#target_type}
 
 ---
 
@@ -1335,7 +1335,7 @@ Update method - when set to 'Replace', the update will replace the existing docu
 
 when set to 'NewVersion', the update will create a new version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#update_method SsmDocument#update_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#update_method SsmDocument#update_method}
 
 ---
 
@@ -1351,7 +1351,7 @@ An optional field specifying the version of the artifact you are creating with t
 
 This value is unique across all versions of a document, and cannot be changed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#version_name SsmDocument#version_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#version_name SsmDocument#version_name}
 
 ---
 
@@ -1360,7 +1360,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmDocument.SsmDocumentRequires.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 &ssmdocument.SsmDocumentRequires {
 	Name: *string,
@@ -1387,7 +1387,7 @@ Name *string
 
 The name of the required SSM document. The name can be an Amazon Resource Name (ARN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#name SsmDocument#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#name SsmDocument#name}
 
 ---
 
@@ -1401,7 +1401,7 @@ Version *string
 
 The document version required by the current document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#version SsmDocument#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#version SsmDocument#version}
 
 ---
 
@@ -1410,7 +1410,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmDocument.SsmDocumentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 &ssmdocument.SsmDocumentTags {
 	Key: *string,
@@ -1437,7 +1437,7 @@ Key *string
 
 The name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#key SsmDocument#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#key SsmDocument#key}
 
 ---
 
@@ -1451,7 +1451,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_document#value SsmDocument#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_document#value SsmDocument#value}
 
 ---
 
@@ -1462,7 +1462,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmDocument.SsmDocumentAttachmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 ssmdocument.NewSsmDocumentAttachmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmDocumentAttachmentsList
 ```
@@ -1622,7 +1622,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmDocument.SsmDocumentAttachmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 ssmdocument.NewSsmDocumentAttachmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmDocumentAttachmentsOutputReference
 ```
@@ -1976,7 +1976,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmDocument.SsmDocumentRequiresList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 ssmdocument.NewSsmDocumentRequiresList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmDocumentRequiresList
 ```
@@ -2136,7 +2136,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmDocument.SsmDocumentRequiresOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 ssmdocument.NewSsmDocumentRequiresOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmDocumentRequiresOutputReference
 ```
@@ -2461,7 +2461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmDocument.SsmDocumentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 ssmdocument.NewSsmDocumentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmDocumentTagsList
 ```
@@ -2621,7 +2621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmDocument.SsmDocumentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmdocument"
 
 ssmdocument.NewSsmDocumentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmDocumentTagsOutputReference
 ```

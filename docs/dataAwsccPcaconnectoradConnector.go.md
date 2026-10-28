@@ -4,12 +4,12 @@
 
 ### DataAwsccPcaconnectoradConnector <a name="DataAwsccPcaconnectoradConnector" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradConnector.DataAwsccPcaconnectoradConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_connector awscc_pcaconnectorad_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_connector awscc_pcaconnectorad_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradConnector.DataAwsccPcaconnectoradConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradconnector"
 
 dataawsccpcaconnectoradconnector.NewDataAwsccPcaconnectoradConnector(scope Construct, id *string, config DataAwsccPcaconnectoradConnectorConfig) DataAwsccPcaconnectoradConnector
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradConnector.DataAwsccPcaconnectoradConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradconnector"
 
 dataawsccpcaconnectoradconnector.DataAwsccPcaconnectoradConnector_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradConnector.DataAwsccPcaconnectoradConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradconnector"
 
 dataawsccpcaconnectoradconnector.DataAwsccPcaconnectoradConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpcaconnectoradconnector.DataAwsccPcaconnectoradConnector_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradConnector.DataAwsccPcaconnectoradConnector.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradconnector"
 
 dataawsccpcaconnectoradconnector.DataAwsccPcaconnectoradConnector_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpcaconnectoradconnector.DataAwsccPcaconnectoradConnector_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradConnector.DataAwsccPcaconnectoradConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradconnector"
 
 dataawsccpcaconnectoradconnector.DataAwsccPcaconnectoradConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPcaconnectoradCon
 
 The id of the existing DataAwsccPcaconnectoradConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradConnector.DataAwsccPcaconnectoradConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradconnector"
 
 &dataawsccpcaconnectoradconnector.DataAwsccPcaconnectoradConnectorConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_connector#id DataAwsccPcaconnectoradConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_connector#id DataAwsccPcaconnectoradConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradConnector.DataAwsccPcaconnectoradConnectorVpcInformation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradconnector"
 
 &dataawsccpcaconnectoradconnector.DataAwsccPcaconnectoradConnectorVpcInformation {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradConnector.DataAwsccPcaconnectoradConnectorVpcInformationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradconnector"
 
 dataawsccpcaconnectoradconnector.NewDataAwsccPcaconnectoradConnectorVpcInformationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradConnectorVpcInformationOutputReference
 ```

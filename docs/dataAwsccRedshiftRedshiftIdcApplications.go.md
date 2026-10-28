@@ -4,12 +4,12 @@
 
 ### DataAwsccRedshiftRedshiftIdcApplications <a name="DataAwsccRedshiftRedshiftIdcApplications" id="@cdktn/provider-awscc.dataAwsccRedshiftRedshiftIdcApplications.DataAwsccRedshiftRedshiftIdcApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_redshift_idc_applications awscc_redshift_redshift_idc_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_redshift_idc_applications awscc_redshift_redshift_idc_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftRedshiftIdcApplications.DataAwsccRedshiftRedshiftIdcApplications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftredshiftidcapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftredshiftidcapplications"
 
 dataawsccredshiftredshiftidcapplications.NewDataAwsccRedshiftRedshiftIdcApplications(scope Construct, id *string, config DataAwsccRedshiftRedshiftIdcApplicationsConfig) DataAwsccRedshiftRedshiftIdcApplications
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRedshiftRedshiftIdcApplications.DataAwsccRedshiftRedshiftIdcApplications.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftredshiftidcapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftredshiftidcapplications"
 
 dataawsccredshiftredshiftidcapplications.DataAwsccRedshiftRedshiftIdcApplications_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRedshiftRedshiftIdcApplications.DataAwsccRedshiftRedshiftIdcApplications.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftredshiftidcapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftredshiftidcapplications"
 
 dataawsccredshiftredshiftidcapplications.DataAwsccRedshiftRedshiftIdcApplications_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccredshiftredshiftidcapplications.DataAwsccRedshiftRedshiftIdcApplication
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRedshiftRedshiftIdcApplications.DataAwsccRedshiftRedshiftIdcApplications.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftredshiftidcapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftredshiftidcapplications"
 
 dataawsccredshiftredshiftidcapplications.DataAwsccRedshiftRedshiftIdcApplications_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccredshiftredshiftidcapplications.DataAwsccRedshiftRedshiftIdcApplication
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRedshiftRedshiftIdcApplications.DataAwsccRedshiftRedshiftIdcApplications.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftredshiftidcapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftredshiftidcapplications"
 
 dataawsccredshiftredshiftidcapplications.DataAwsccRedshiftRedshiftIdcApplications_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftRedshiftI
 
 The id of the existing DataAwsccRedshiftRedshiftIdcApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_redshift_idc_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_redshift_idc_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftRedshiftIdcApplications.DataAwsccRedshiftRedshiftIdcApplicationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftredshiftidcapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftredshiftidcapplications"
 
 &dataawsccredshiftredshiftidcapplications.DataAwsccRedshiftRedshiftIdcApplicationsConfig {
 	Connection: interface{},

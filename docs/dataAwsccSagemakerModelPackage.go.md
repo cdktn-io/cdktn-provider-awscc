@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerModelPackage <a name="DataAwsccSagemakerModelPackage" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_package awscc_sagemaker_model_package}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_package awscc_sagemaker_model_package}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackage(scope Construct, id *string, config DataAwsccSagemakerModelPackageConfig) DataAwsccSagemakerModelPackage
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackage_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackage_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackage_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackage.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackage_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackage_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerModelPac
 
 The id of the existing DataAwsccSagemakerModelPackage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_package#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_package#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -917,7 +917,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecifications {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainers {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSource {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSource {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceModelAccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceModelAccessConfig {
 
@@ -982,7 +982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInput {
 
@@ -995,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAdd {
 
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainers {
 
@@ -1021,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSource {
 
@@ -1034,7 +1034,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceS3DataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceS3DataSource {
 
@@ -1047,7 +1047,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceS3DataSourceModelAccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceS3DataSourceModelAccessConfig {
 
@@ -1060,7 +1060,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInput {
 
@@ -1073,7 +1073,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageConfig {
 	Connection: interface{},
@@ -1182,7 +1182,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_package#id DataAwsccSagemakerModelPackage#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_package#id DataAwsccSagemakerModelPackage#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1194,7 +1194,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselines.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselines {
 
@@ -1207,7 +1207,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBias {
 
@@ -1220,7 +1220,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasConfigFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasConfigFile {
 
@@ -1233,7 +1233,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPostTrainingConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPostTrainingConstraints {
 
@@ -1246,7 +1246,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPreTrainingConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPreTrainingConstraints {
 
@@ -1259,7 +1259,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainability.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainability {
 
@@ -1272,7 +1272,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityConfigFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityConfigFile {
 
@@ -1285,7 +1285,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityConstraints {
 
@@ -1298,7 +1298,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQuality.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQuality {
 
@@ -1311,7 +1311,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityConstraints {
 
@@ -1324,7 +1324,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityStatistics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityStatistics {
 
@@ -1337,7 +1337,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQuality.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQuality {
 
@@ -1350,7 +1350,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityConstraints {
 
@@ -1363,7 +1363,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityStatistics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityStatistics {
 
@@ -1376,7 +1376,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageInferenceSpecification {
 
@@ -1389,7 +1389,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainers {
 
@@ -1402,7 +1402,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSource {
 
@@ -1415,7 +1415,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3DataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3DataSource {
 
@@ -1428,7 +1428,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfig {
 
@@ -1441,7 +1441,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelInput {
 
@@ -1454,7 +1454,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageMetadataProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageMetadataProperties {
 
@@ -1467,7 +1467,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelCard {
 
@@ -1480,7 +1480,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetrics {
 
@@ -1493,7 +1493,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsBias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsBias {
 
@@ -1506,7 +1506,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsBiasPostTrainingReport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsBiasPostTrainingReport {
 
@@ -1519,7 +1519,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsBiasPreTrainingReport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsBiasPreTrainingReport {
 
@@ -1532,7 +1532,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsBiasReport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsBiasReport {
 
@@ -1545,7 +1545,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsExplainability.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsExplainability {
 
@@ -1558,7 +1558,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsExplainabilityReport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsExplainabilityReport {
 
@@ -1571,7 +1571,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelDataQuality.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsModelDataQuality {
 
@@ -1584,7 +1584,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelDataQualityConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsModelDataQualityConstraints {
 
@@ -1597,7 +1597,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelDataQualityStatistics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsModelDataQualityStatistics {
 
@@ -1610,7 +1610,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelQuality.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsModelQuality {
 
@@ -1623,7 +1623,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelQualityConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsModelQualityConstraints {
 
@@ -1636,7 +1636,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelQualityStatistics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelMetricsModelQualityStatistics {
 
@@ -1649,7 +1649,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelPackageStatusDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelPackageStatusDetails {
 
@@ -1662,7 +1662,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelPackageStatusDetailsValidationStatuses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageModelPackageStatusDetailsValidationStatuses {
 
@@ -1675,7 +1675,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageSecurityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageSecurityConfig {
 
@@ -1688,7 +1688,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageSourceAlgorithmSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageSourceAlgorithmSpecification {
 
@@ -1701,7 +1701,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageSourceAlgorithmSpecificationSourceAlgorithms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageSourceAlgorithmSpecificationSourceAlgorithms {
 
@@ -1714,7 +1714,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageTags {
 
@@ -1727,7 +1727,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageValidationSpecification {
 
@@ -1740,7 +1740,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfiles {
 
@@ -1753,7 +1753,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinition {
 
@@ -1766,7 +1766,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInput {
 
@@ -1779,7 +1779,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSource {
 
@@ -1792,7 +1792,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSource {
 
@@ -1805,7 +1805,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformOutput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformOutput {
 
@@ -1818,7 +1818,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 &dataawsccsagemakermodelpackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformResources {
 
@@ -1833,7 +1833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersList
 ```
@@ -1982,7 +1982,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceOutputReference
 ```
@@ -2242,7 +2242,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceModelAccessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceModelAccessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceModelAccessConfigOutputReference
 ```
@@ -2502,7 +2502,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference
 ```
@@ -2795,7 +2795,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInputOutputReference
 ```
@@ -3055,7 +3055,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersOutputReference
 ```
@@ -3432,7 +3432,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsList
 ```
@@ -3581,7 +3581,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsOutputReference
 ```
@@ -3925,7 +3925,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersList
 ```
@@ -4074,7 +4074,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceOutputReference
 ```
@@ -4334,7 +4334,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceS3DataSourceModelAccessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceS3DataSourceModelAccessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceS3DataSourceModelAccessConfigOutputReference
 ```
@@ -4594,7 +4594,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceS3DataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceS3DataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSourceS3DataSourceOutputReference
 ```
@@ -4887,7 +4887,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference
 ```
@@ -5147,7 +5147,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersOutputReference
 ```
@@ -5524,7 +5524,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddList
 ```
@@ -5673,7 +5673,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddOutputReference
 ```
@@ -6017,7 +6017,7 @@ func InternalValue() DataAwsccSagemakerModelPackageAdditionalInferenceSpecificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasConfigFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesBiasConfigFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasConfigFileOutputReference
 ```
@@ -6299,7 +6299,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesBiasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasOutputReference
 ```
@@ -6581,7 +6581,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesBias
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPostTrainingConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPostTrainingConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPostTrainingConstraintsOutputReference
 ```
@@ -6863,7 +6863,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPostTr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPreTrainingConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPreTrainingConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPreTrainingConstraintsOutputReference
 ```
@@ -7145,7 +7145,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesBiasPreTra
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityConfigFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityConfigFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityConfigFileOutputReference
 ```
@@ -7427,7 +7427,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityConstraintsOutputReference
 ```
@@ -7709,7 +7709,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabilityOutputReference
 ```
@@ -7980,7 +7980,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesExplainabi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityConstraintsOutputReference
 ```
@@ -8262,7 +8262,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQ
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityOutputReference
 ```
@@ -8533,7 +8533,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQ
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityStatisticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityStatisticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQualityStatisticsOutputReference
 ```
@@ -8815,7 +8815,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesModelDataQ
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityConstraintsOutputReference
 ```
@@ -9097,7 +9097,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQuali
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityOutputReference
 ```
@@ -9368,7 +9368,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQuali
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityStatisticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityStatisticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQualityStatisticsOutputReference
 ```
@@ -9650,7 +9650,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselinesModelQuali
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageDriftCheckBaselinesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageDriftCheckBaselinesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageDriftCheckBaselinesOutputReference
 ```
@@ -9943,7 +9943,7 @@ func InternalValue() DataAwsccSagemakerModelPackageDriftCheckBaselines
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageInferenceSpecificationContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerModelPackageInferenceSpecificationContainersList
 ```
@@ -10092,7 +10092,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceOutputReference
 ```
@@ -10352,7 +10352,7 @@ func InternalValue() DataAwsccSagemakerModelPackageInferenceSpecificationContain
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigOutputReference
 ```
@@ -10612,7 +10612,7 @@ func InternalValue() DataAwsccSagemakerModelPackageInferenceSpecificationContain
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3DataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3DataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3DataSourceOutputReference
 ```
@@ -10905,7 +10905,7 @@ func InternalValue() DataAwsccSagemakerModelPackageInferenceSpecificationContain
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageInferenceSpecificationContainersModelInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageInferenceSpecificationContainersModelInputOutputReference
 ```
@@ -11165,7 +11165,7 @@ func InternalValue() DataAwsccSagemakerModelPackageInferenceSpecificationContain
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageInferenceSpecificationContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerModelPackageInferenceSpecificationContainersOutputReference
 ```
@@ -11542,7 +11542,7 @@ func InternalValue() DataAwsccSagemakerModelPackageInferenceSpecificationContain
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageInferenceSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageInferenceSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageInferenceSpecificationOutputReference
 ```
@@ -11846,7 +11846,7 @@ func InternalValue() DataAwsccSagemakerModelPackageInferenceSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageMetadataPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageMetadataPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageMetadataPropertiesOutputReference
 ```
@@ -12139,7 +12139,7 @@ func InternalValue() DataAwsccSagemakerModelPackageMetadataProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelCardOutputReference
 ```
@@ -12410,7 +12410,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelCard
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsBiasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsBiasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsBiasOutputReference
 ```
@@ -12692,7 +12692,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsBias
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsBiasPostTrainingReportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsBiasPostTrainingReportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsBiasPostTrainingReportOutputReference
 ```
@@ -12974,7 +12974,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsBiasPostTrainingR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsBiasPreTrainingReportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsBiasPreTrainingReportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsBiasPreTrainingReportOutputReference
 ```
@@ -13256,7 +13256,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsBiasPreTrainingRe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsBiasReportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsBiasReportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsBiasReportOutputReference
 ```
@@ -13538,7 +13538,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsBiasReport
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsExplainabilityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsExplainabilityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsExplainabilityOutputReference
 ```
@@ -13798,7 +13798,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsExplainability
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsExplainabilityReportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsExplainabilityReportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsExplainabilityReportOutputReference
 ```
@@ -14080,7 +14080,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsExplainabilityRep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelDataQualityConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsModelDataQualityConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsModelDataQualityConstraintsOutputReference
 ```
@@ -14362,7 +14362,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsModelDataQualityC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelDataQualityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsModelDataQualityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsModelDataQualityOutputReference
 ```
@@ -14633,7 +14633,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsModelDataQuality
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelDataQualityStatisticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsModelDataQualityStatisticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsModelDataQualityStatisticsOutputReference
 ```
@@ -14915,7 +14915,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsModelDataQualityS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelQualityConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsModelQualityConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsModelQualityConstraintsOutputReference
 ```
@@ -15197,7 +15197,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsModelQualityConst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelQualityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsModelQualityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsModelQualityOutputReference
 ```
@@ -15468,7 +15468,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsModelQuality
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsModelQualityStatisticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsModelQualityStatisticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsModelQualityStatisticsOutputReference
 ```
@@ -15750,7 +15750,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetricsModelQualityStati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelMetricsOutputReference
 ```
@@ -16043,7 +16043,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelMetrics
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelPackageStatusDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelPackageStatusDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageModelPackageStatusDetailsOutputReference
 ```
@@ -16303,7 +16303,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelPackageStatusDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelPackageStatusDetailsValidationStatusesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelPackageStatusDetailsValidationStatusesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerModelPackageModelPackageStatusDetailsValidationStatusesList
 ```
@@ -16452,7 +16452,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageModelPackageStatusDetailsValidationStatusesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageModelPackageStatusDetailsValidationStatusesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerModelPackageModelPackageStatusDetailsValidationStatusesOutputReference
 ```
@@ -16752,7 +16752,7 @@ func InternalValue() DataAwsccSagemakerModelPackageModelPackageStatusDetailsVali
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageSecurityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageSecurityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageSecurityConfigOutputReference
 ```
@@ -17012,7 +17012,7 @@ func InternalValue() DataAwsccSagemakerModelPackageSecurityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageSourceAlgorithmSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageSourceAlgorithmSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageSourceAlgorithmSpecificationOutputReference
 ```
@@ -17272,7 +17272,7 @@ func InternalValue() DataAwsccSagemakerModelPackageSourceAlgorithmSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageSourceAlgorithmSpecificationSourceAlgorithmsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageSourceAlgorithmSpecificationSourceAlgorithmsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerModelPackageSourceAlgorithmSpecificationSourceAlgorithmsList
 ```
@@ -17421,7 +17421,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageSourceAlgorithmSpecificationSourceAlgorithmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageSourceAlgorithmSpecificationSourceAlgorithmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerModelPackageSourceAlgorithmSpecificationSourceAlgorithmsOutputReference
 ```
@@ -17710,7 +17710,7 @@ func InternalValue() DataAwsccSagemakerModelPackageSourceAlgorithmSpecificationS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerModelPackageTagsList
 ```
@@ -17859,7 +17859,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerModelPackageTagsOutputReference
 ```
@@ -18148,7 +18148,7 @@ func InternalValue() DataAwsccSagemakerModelPackageTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageValidationSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageValidationSpecificationOutputReference
 ```
@@ -18419,7 +18419,7 @@ func InternalValue() DataAwsccSagemakerModelPackageValidationSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesList
 ```
@@ -18568,7 +18568,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesOutputReference
 ```
@@ -18857,7 +18857,7 @@ func InternalValue() DataAwsccSagemakerModelPackageValidationSpecificationValida
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionOutputReference
 ```
@@ -19183,7 +19183,7 @@ func InternalValue() DataAwsccSagemakerModelPackageValidationSpecificationValida
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceOutputReference
 ```
@@ -19443,7 +19443,7 @@ func InternalValue() DataAwsccSagemakerModelPackageValidationSpecificationValida
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourceOutputReference
 ```
@@ -19714,7 +19714,7 @@ func InternalValue() DataAwsccSagemakerModelPackageValidationSpecificationValida
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference
 ```
@@ -20007,7 +20007,7 @@ func InternalValue() DataAwsccSagemakerModelPackageValidationSpecificationValida
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformOutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformOutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformOutputOutputReference
 ```
@@ -20300,7 +20300,7 @@ func InternalValue() DataAwsccSagemakerModelPackageValidationSpecificationValida
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackage.DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackage"
 
 dataawsccsagemakermodelpackage.NewDataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformResourcesOutputReference
 ```

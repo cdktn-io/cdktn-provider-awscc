@@ -4,12 +4,12 @@
 
 ### S3OutpostsEndpoint <a name="S3OutpostsEndpoint" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint awscc_s3outposts_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint awscc_s3outposts_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint"
 
 s3outpostsendpoint.NewS3OutpostsEndpoint(scope Construct, id *string, config S3OutpostsEndpointConfig) S3OutpostsEndpoint
 ```
@@ -434,7 +434,7 @@ func ResetFailedReason()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint"
 
 s3outpostsendpoint.S3OutpostsEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint"
 
 s3outpostsendpoint.S3OutpostsEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ s3outpostsendpoint.S3OutpostsEndpoint_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint"
 
 s3outpostsendpoint.S3OutpostsEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ s3outpostsendpoint.S3OutpostsEndpoint_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint"
 
 s3outpostsendpoint.S3OutpostsEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the S3OutpostsEndpoint to impo
 
 The id of the existing S3OutpostsEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -932,7 +932,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint"
 
 &s3outpostsendpoint.S3OutpostsEndpointConfig {
 	Connection: interface{},
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
 	SubnetId: *string,
 	AccessType: *string,
 	CustomerOwnedIpv4Pool: *string,
-	FailedReason: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3OutpostsEndpoint.S3OutpostsEndpointFailedReason,
+	FailedReason: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3OutpostsEndpoint.S3OutpostsEndpointFailedReason,
 }
 ```
 
@@ -1051,7 +1051,7 @@ OutpostId *string
 
 The id of the customer outpost on which the bucket resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint#outpost_id S3OutpostsEndpoint#outpost_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint#outpost_id S3OutpostsEndpoint#outpost_id}
 
 ---
 
@@ -1065,7 +1065,7 @@ SecurityGroupId *string
 
 The ID of the security group to use with the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint#security_group_id S3OutpostsEndpoint#security_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint#security_group_id S3OutpostsEndpoint#security_group_id}
 
 ---
 
@@ -1079,7 +1079,7 @@ SubnetId *string
 
 The ID of the subnet in the selected VPC. The subnet must belong to the Outpost.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint#subnet_id S3OutpostsEndpoint#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint#subnet_id S3OutpostsEndpoint#subnet_id}
 
 ---
 
@@ -1095,7 +1095,7 @@ The type of access for the on-premise network connectivity for the Outpost endpo
 
 To access endpoint from an on-premises network, you must specify the access type and provide the customer owned Ipv4 pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint#access_type S3OutpostsEndpoint#access_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint#access_type S3OutpostsEndpoint#access_type}
 
 ---
 
@@ -1111,7 +1111,7 @@ The ID of the customer-owned IPv4 pool for the Endpoint.
 
 IP addresses will be allocated from this pool for the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint#customer_owned_ipv_4_pool S3OutpostsEndpoint#customer_owned_ipv_4_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint#customer_owned_ipv_4_pool S3OutpostsEndpoint#customer_owned_ipv_4_pool}
 
 ---
 
@@ -1125,7 +1125,7 @@ FailedReason S3OutpostsEndpointFailedReason
 
 The failure reason, if any, for a create or delete endpoint operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint#failed_reason S3OutpostsEndpoint#failed_reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint#failed_reason S3OutpostsEndpoint#failed_reason}
 
 ---
 
@@ -1134,7 +1134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpointFailedReason.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint"
 
 &s3outpostsendpoint.S3OutpostsEndpointFailedReason {
 	ErrorCode: *string,
@@ -1161,7 +1161,7 @@ ErrorCode *string
 
 The failure code, if any, for a create or delete endpoint operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint#error_code S3OutpostsEndpoint#error_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint#error_code S3OutpostsEndpoint#error_code}
 
 ---
 
@@ -1175,7 +1175,7 @@ Message *string
 
 Additional error details describing the endpoint failure and recommended action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint#message S3OutpostsEndpoint#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint#message S3OutpostsEndpoint#message}
 
 ---
 
@@ -1184,7 +1184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint"
 
 &s3outpostsendpoint.S3OutpostsEndpointNetworkInterfaces {
 
@@ -1199,7 +1199,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpointFailedReasonOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint"
 
 s3outpostsendpoint.NewS3OutpostsEndpointFailedReasonOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3OutpostsEndpointFailedReasonOutputReference
 ```
@@ -1506,7 +1506,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint"
 
 s3outpostsendpoint.NewS3OutpostsEndpointNetworkInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3OutpostsEndpointNetworkInterfacesList
 ```
@@ -1655,7 +1655,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint"
 
 s3outpostsendpoint.NewS3OutpostsEndpointNetworkInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) S3OutpostsEndpointNetworkInterfacesOutputReference
 ```

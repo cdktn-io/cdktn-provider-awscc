@@ -4,12 +4,12 @@
 
 ### DataAwsccBatchSchedulingPolicy <a name="DataAwsccBatchSchedulingPolicy" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_scheduling_policy awscc_batch_scheduling_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_scheduling_policy awscc_batch_scheduling_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 dataawsccbatchschedulingpolicy.NewDataAwsccBatchSchedulingPolicy(scope Construct, id *string, config DataAwsccBatchSchedulingPolicyConfig) DataAwsccBatchSchedulingPolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 dataawsccbatchschedulingpolicy.DataAwsccBatchSchedulingPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 dataawsccbatchschedulingpolicy.DataAwsccBatchSchedulingPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbatchschedulingpolicy.DataAwsccBatchSchedulingPolicy_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 dataawsccbatchschedulingpolicy.DataAwsccBatchSchedulingPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbatchschedulingpolicy.DataAwsccBatchSchedulingPolicy_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 dataawsccbatchschedulingpolicy.DataAwsccBatchSchedulingPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBatchSchedulingPo
 
 The id of the existing DataAwsccBatchSchedulingPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_scheduling_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_scheduling_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 &dataawsccbatchschedulingpolicy.DataAwsccBatchSchedulingPolicyConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_scheduling_policy#id DataAwsccBatchSchedulingPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_scheduling_policy#id DataAwsccBatchSchedulingPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicyFairsharePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 &dataawsccbatchschedulingpolicy.DataAwsccBatchSchedulingPolicyFairsharePolicy {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchscheduli
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicyFairsharePolicyShareDistribution.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 &dataawsccbatchschedulingpolicy.DataAwsccBatchSchedulingPolicyFairsharePolicyShareDistribution {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchscheduli
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicyQuotaSharePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 &dataawsccbatchschedulingpolicy.DataAwsccBatchSchedulingPolicyQuotaSharePolicy {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchscheduli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicyFairsharePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 dataawsccbatchschedulingpolicy.NewDataAwsccBatchSchedulingPolicyFairsharePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchSchedulingPolicyFairsharePolicyOutputReference
 ```
@@ -1086,7 +1086,7 @@ func InternalValue() DataAwsccBatchSchedulingPolicyFairsharePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicyFairsharePolicyShareDistributionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 dataawsccbatchschedulingpolicy.NewDataAwsccBatchSchedulingPolicyFairsharePolicyShareDistributionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchSchedulingPolicyFairsharePolicyShareDistributionList
 ```
@@ -1235,7 +1235,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicyFairsharePolicyShareDistributionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 dataawsccbatchschedulingpolicy.NewDataAwsccBatchSchedulingPolicyFairsharePolicyShareDistributionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchSchedulingPolicyFairsharePolicyShareDistributionOutputReference
 ```
@@ -1524,7 +1524,7 @@ func InternalValue() DataAwsccBatchSchedulingPolicyFairsharePolicyShareDistribut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicy.DataAwsccBatchSchedulingPolicyQuotaSharePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicy"
 
 dataawsccbatchschedulingpolicy.NewDataAwsccBatchSchedulingPolicyQuotaSharePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchSchedulingPolicyQuotaSharePolicyOutputReference
 ```

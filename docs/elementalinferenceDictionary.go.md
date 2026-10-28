@@ -4,12 +4,12 @@
 
 ### ElementalinferenceDictionary <a name="ElementalinferenceDictionary" id="@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_dictionary awscc_elementalinference_dictionary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_dictionary awscc_elementalinference_dictionary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elementalinferencedictionary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elementalinferencedictionary"
 
 elementalinferencedictionary.NewElementalinferenceDictionary(scope Construct, id *string, config ElementalinferenceDictionaryConfig) ElementalinferenceDictionary
 ```
@@ -414,7 +414,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elementalinferencedictionary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elementalinferencedictionary"
 
 elementalinferencedictionary.ElementalinferenceDictionary_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elementalinferencedictionary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elementalinferencedictionary"
 
 elementalinferencedictionary.ElementalinferenceDictionary_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ elementalinferencedictionary.ElementalinferenceDictionary_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elementalinferencedictionary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elementalinferencedictionary"
 
 elementalinferencedictionary.ElementalinferenceDictionary_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ elementalinferencedictionary.ElementalinferenceDictionary_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elementalinferencedictionary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elementalinferencedictionary"
 
 elementalinferencedictionary.ElementalinferenceDictionary_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the ElementalinferenceDictiona
 
 The id of the existing ElementalinferenceDictionary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_dictionary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_dictionary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -824,7 +824,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elementalinferencedictionary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elementalinferencedictionary"
 
 &elementalinferencedictionary.ElementalinferenceDictionaryConfig {
 	Connection: interface{},
@@ -852,10 +852,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elementalinferencedict
 | <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.language">Language</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}. |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}. |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.entries">Entries</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}. |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.language">Language</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.entries">Entries</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}. |
 
 ---
 
@@ -937,7 +937,7 @@ Language *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}.
 
 ---
 
@@ -949,7 +949,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}.
 
 ---
 
@@ -961,7 +961,7 @@ Entries *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}.
 
 ---
 
@@ -973,7 +973,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}.
 
 ---
 

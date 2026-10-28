@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VpnConnectionRoutes <a name="DataAwsccEc2VpnConnectionRoutes" id="@cdktn/provider-awscc.dataAwsccEc2VpnConnectionRoutes.DataAwsccEc2VpnConnectionRoutes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpn_connection_routes awscc_ec2_vpn_connection_routes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpn_connection_routes awscc_ec2_vpn_connection_routes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpnConnectionRoutes.DataAwsccEc2VpnConnectionRoutes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconnectionroutes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconnectionroutes"
 
 dataawsccec2vpnconnectionroutes.NewDataAwsccEc2VpnConnectionRoutes(scope Construct, id *string, config DataAwsccEc2VpnConnectionRoutesConfig) DataAwsccEc2VpnConnectionRoutes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VpnConnectionRoutes.DataAwsccEc2VpnConnectionRoutes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconnectionroutes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconnectionroutes"
 
 dataawsccec2vpnconnectionroutes.DataAwsccEc2VpnConnectionRoutes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VpnConnectionRoutes.DataAwsccEc2VpnConnectionRoutes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconnectionroutes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconnectionroutes"
 
 dataawsccec2vpnconnectionroutes.DataAwsccEc2VpnConnectionRoutes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2vpnconnectionroutes.DataAwsccEc2VpnConnectionRoutes_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VpnConnectionRoutes.DataAwsccEc2VpnConnectionRoutes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconnectionroutes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconnectionroutes"
 
 dataawsccec2vpnconnectionroutes.DataAwsccEc2VpnConnectionRoutes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2vpnconnectionroutes.DataAwsccEc2VpnConnectionRoutes_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VpnConnectionRoutes.DataAwsccEc2VpnConnectionRoutes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconnectionroutes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconnectionroutes"
 
 dataawsccec2vpnconnectionroutes.DataAwsccEc2VpnConnectionRoutes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpnConnectionR
 
 The id of the existing DataAwsccEc2VpnConnectionRoutes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpn_connection_routes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpn_connection_routes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpnConnectionRoutes.DataAwsccEc2VpnConnectionRoutesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconnectionroutes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconnectionroutes"
 
 &dataawsccec2vpnconnectionroutes.DataAwsccEc2VpnConnectionRoutesConfig {
 	Connection: interface{},

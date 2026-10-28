@@ -4,12 +4,12 @@
 
 ### DataAwsccMediaconnectRouterNetworkInterfaces <a name="DataAwsccMediaconnectRouterNetworkInterfaces" id="@cdktn/provider-awscc.dataAwsccMediaconnectRouterNetworkInterfaces.DataAwsccMediaconnectRouterNetworkInterfaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectRouterNetworkInterfaces.DataAwsccMediaconnectRouterNetworkInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectrouternetworkinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectrouternetworkinterfaces"
 
 dataawsccmediaconnectrouternetworkinterfaces.NewDataAwsccMediaconnectRouterNetworkInterfaces(scope Construct, id *string, config DataAwsccMediaconnectRouterNetworkInterfacesConfig) DataAwsccMediaconnectRouterNetworkInterfaces
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediaconnectRouterNetworkInterfaces.DataAwsccMediaconnectRouterNetworkInterfaces.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectrouternetworkinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectrouternetworkinterfaces"
 
 dataawsccmediaconnectrouternetworkinterfaces.DataAwsccMediaconnectRouterNetworkInterfaces_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediaconnectRouterNetworkInterfaces.DataAwsccMediaconnectRouterNetworkInterfaces.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectrouternetworkinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectrouternetworkinterfaces"
 
 dataawsccmediaconnectrouternetworkinterfaces.DataAwsccMediaconnectRouterNetworkInterfaces_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediaconnectrouternetworkinterfaces.DataAwsccMediaconnectRouterNetworkI
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediaconnectRouterNetworkInterfaces.DataAwsccMediaconnectRouterNetworkInterfaces.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectrouternetworkinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectrouternetworkinterfaces"
 
 dataawsccmediaconnectrouternetworkinterfaces.DataAwsccMediaconnectRouterNetworkInterfaces_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediaconnectrouternetworkinterfaces.DataAwsccMediaconnectRouterNetworkI
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediaconnectRouterNetworkInterfaces.DataAwsccMediaconnectRouterNetworkInterfaces.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectrouternetworkinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectrouternetworkinterfaces"
 
 dataawsccmediaconnectrouternetworkinterfaces.DataAwsccMediaconnectRouterNetworkInterfaces_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediaconnectRoute
 
 The id of the existing DataAwsccMediaconnectRouterNetworkInterfaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_router_network_interfaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_router_network_interfaces#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectRouterNetworkInterfaces.DataAwsccMediaconnectRouterNetworkInterfacesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectrouternetworkinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectrouternetworkinterfaces"
 
 &dataawsccmediaconnectrouternetworkinterfaces.DataAwsccMediaconnectRouterNetworkInterfacesConfig {
 	Connection: interface{},

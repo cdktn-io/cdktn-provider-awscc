@@ -4,12 +4,12 @@
 
 ### NeptunegraphPrivateGraphEndpoint <a name="NeptunegraphPrivateGraphEndpoint" id="@cdktn/provider-awscc.neptunegraphPrivateGraphEndpoint.NeptunegraphPrivateGraphEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_private_graph_endpoint awscc_neptunegraph_private_graph_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_private_graph_endpoint awscc_neptunegraph_private_graph_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptunegraphPrivateGraphEndpoint.NeptunegraphPrivateGraphEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphprivategraphendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphprivategraphendpoint"
 
 neptunegraphprivategraphendpoint.NewNeptunegraphPrivateGraphEndpoint(scope Construct, id *string, config NeptunegraphPrivateGraphEndpointConfig) NeptunegraphPrivateGraphEndpoint
 ```
@@ -414,7 +414,7 @@ func ResetSubnetIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.neptunegraphPrivateGraphEndpoint.NeptunegraphPrivateGraphEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphprivategraphendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphprivategraphendpoint"
 
 neptunegraphprivategraphendpoint.NeptunegraphPrivateGraphEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.neptunegraphPrivateGraphEndpoint.NeptunegraphPrivateGraphEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphprivategraphendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphprivategraphendpoint"
 
 neptunegraphprivategraphendpoint.NeptunegraphPrivateGraphEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ neptunegraphprivategraphendpoint.NeptunegraphPrivateGraphEndpoint_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.neptunegraphPrivateGraphEndpoint.NeptunegraphPrivateGraphEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphprivategraphendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphprivategraphendpoint"
 
 neptunegraphprivategraphendpoint.NeptunegraphPrivateGraphEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ neptunegraphprivategraphendpoint.NeptunegraphPrivateGraphEndpoint_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.neptunegraphPrivateGraphEndpoint.NeptunegraphPrivateGraphEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphprivategraphendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphprivategraphendpoint"
 
 neptunegraphprivategraphendpoint.NeptunegraphPrivateGraphEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the NeptunegraphPrivateGraphEn
 
 The id of the existing NeptunegraphPrivateGraphEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_private_graph_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_private_graph_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -824,7 +824,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.neptunegraphPrivateGraphEndpoint.NeptunegraphPrivateGraphEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphprivategraphendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphprivategraphendpoint"
 
 &neptunegraphprivategraphendpoint.NeptunegraphPrivateGraphEndpointConfig {
 	Connection: interface{},
@@ -939,7 +939,7 @@ GraphIdentifier *string
 
 The auto-generated Graph Id assigned by the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_private_graph_endpoint#graph_identifier NeptunegraphPrivateGraphEndpoint#graph_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_private_graph_endpoint#graph_identifier NeptunegraphPrivateGraphEndpoint#graph_identifier}
 
 ---
 
@@ -953,7 +953,7 @@ VpcId *string
 
 The VPC where you want the private graph endpoint to be created, ie, the graph will be reachable from within the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_private_graph_endpoint#vpc_id NeptunegraphPrivateGraphEndpoint#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_private_graph_endpoint#vpc_id NeptunegraphPrivateGraphEndpoint#vpc_id}
 
 ---
 
@@ -967,7 +967,7 @@ SecurityGroupIds *[]*string
 
 The security group Ids associated with the VPC where you want the private graph endpoint to be created, ie, the graph will be reachable from within the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_private_graph_endpoint#security_group_ids NeptunegraphPrivateGraphEndpoint#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_private_graph_endpoint#security_group_ids NeptunegraphPrivateGraphEndpoint#security_group_ids}
 
 ---
 
@@ -981,7 +981,7 @@ SubnetIds *[]*string
 
 The subnet Ids associated with the VPC where you want the private graph endpoint to be created, ie, the graph will be reachable from within the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_private_graph_endpoint#subnet_ids NeptunegraphPrivateGraphEndpoint#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_private_graph_endpoint#subnet_ids NeptunegraphPrivateGraphEndpoint#subnet_ids}
 
 ---
 

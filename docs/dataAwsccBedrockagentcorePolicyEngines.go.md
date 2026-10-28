@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcorePolicyEngines <a name="DataAwsccBedrockagentcorePolicyEngines" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePolicyEngines.DataAwsccBedrockagentcorePolicyEngines"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_policy_engines awscc_bedrockagentcore_policy_engines}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_policy_engines awscc_bedrockagentcore_policy_engines}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePolicyEngines.DataAwsccBedrockagentcorePolicyEngines.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepolicyengines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepolicyengines"
 
 dataawsccbedrockagentcorepolicyengines.NewDataAwsccBedrockagentcorePolicyEngines(scope Construct, id *string, config DataAwsccBedrockagentcorePolicyEnginesConfig) DataAwsccBedrockagentcorePolicyEngines
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePolicyEngines.DataAwsccBedrockagentcorePolicyEngines.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepolicyengines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepolicyengines"
 
 dataawsccbedrockagentcorepolicyengines.DataAwsccBedrockagentcorePolicyEngines_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePolicyEngines.DataAwsccBedrockagentcorePolicyEngines.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepolicyengines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepolicyengines"
 
 dataawsccbedrockagentcorepolicyengines.DataAwsccBedrockagentcorePolicyEngines_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcorepolicyengines.DataAwsccBedrockagentcorePolicyEngines_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePolicyEngines.DataAwsccBedrockagentcorePolicyEngines.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepolicyengines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepolicyengines"
 
 dataawsccbedrockagentcorepolicyengines.DataAwsccBedrockagentcorePolicyEngines_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcorepolicyengines.DataAwsccBedrockagentcorePolicyEngines_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePolicyEngines.DataAwsccBedrockagentcorePolicyEngines.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepolicyengines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepolicyengines"
 
 dataawsccbedrockagentcorepolicyengines.DataAwsccBedrockagentcorePolicyEngines_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreP
 
 The id of the existing DataAwsccBedrockagentcorePolicyEngines that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_policy_engines#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_policy_engines#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePolicyEngines.DataAwsccBedrockagentcorePolicyEnginesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepolicyengines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepolicyengines"
 
 &dataawsccbedrockagentcorepolicyengines.DataAwsccBedrockagentcorePolicyEnginesConfig {
 	Connection: interface{},

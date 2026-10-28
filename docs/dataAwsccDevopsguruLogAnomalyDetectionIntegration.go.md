@@ -4,12 +4,12 @@
 
 ### DataAwsccDevopsguruLogAnomalyDetectionIntegration <a name="DataAwsccDevopsguruLogAnomalyDetectionIntegration" id="@cdktn/provider-awscc.dataAwsccDevopsguruLogAnomalyDetectionIntegration.DataAwsccDevopsguruLogAnomalyDetectionIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsguruLogAnomalyDetectionIntegration.DataAwsccDevopsguruLogAnomalyDetectionIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsguruloganomalydetectionintegration"
 
 dataawsccdevopsguruloganomalydetectionintegration.NewDataAwsccDevopsguruLogAnomalyDetectionIntegration(scope Construct, id *string, config DataAwsccDevopsguruLogAnomalyDetectionIntegrationConfig) DataAwsccDevopsguruLogAnomalyDetectionIntegration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDevopsguruLogAnomalyDetectionIntegration.DataAwsccDevopsguruLogAnomalyDetectionIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsguruloganomalydetectionintegration"
 
 dataawsccdevopsguruloganomalydetectionintegration.DataAwsccDevopsguruLogAnomalyDetectionIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDevopsguruLogAnomalyDetectionIntegration.DataAwsccDevopsguruLogAnomalyDetectionIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsguruloganomalydetectionintegration"
 
 dataawsccdevopsguruloganomalydetectionintegration.DataAwsccDevopsguruLogAnomalyDetectionIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdevopsguruloganomalydetectionintegration.DataAwsccDevopsguruLogAnomalyD
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDevopsguruLogAnomalyDetectionIntegration.DataAwsccDevopsguruLogAnomalyDetectionIntegration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsguruloganomalydetectionintegration"
 
 dataawsccdevopsguruloganomalydetectionintegration.DataAwsccDevopsguruLogAnomalyDetectionIntegration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdevopsguruloganomalydetectionintegration.DataAwsccDevopsguruLogAnomalyD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDevopsguruLogAnomalyDetectionIntegration.DataAwsccDevopsguruLogAnomalyDetectionIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsguruloganomalydetectionintegration"
 
 dataawsccdevopsguruloganomalydetectionintegration.DataAwsccDevopsguruLogAnomalyDetectionIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDevopsguruLogAnom
 
 The id of the existing DataAwsccDevopsguruLogAnomalyDetectionIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsguru_log_anomaly_detection_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsguru_log_anomaly_detection_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -598,7 +598,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsguruLogAnomalyDetectionIntegration.DataAwsccDevopsguruLogAnomalyDetectionIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsguruloganomalydetectionintegration"
 
 &dataawsccdevopsguruloganomalydetectionintegration.DataAwsccDevopsguruLogAnomalyDetectionIntegrationConfig {
 	Connection: interface{},
@@ -707,7 +707,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsguru_log_anomaly_detection_integration#id DataAwsccDevopsguruLogAnomalyDetectionIntegration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsguru_log_anomaly_detection_integration#id DataAwsccDevopsguruLogAnomalyDetectionIntegration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

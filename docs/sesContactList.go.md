@@ -4,12 +4,12 @@
 
 ### SesContactList <a name="SesContactList" id="@cdktn/provider-awscc.sesContactList.SesContactList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list awscc_ses_contact_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list awscc_ses_contact_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesContactList.SesContactList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 sescontactlist.NewSesContactList(scope Construct, id *string, config SesContactListConfig) SesContactList
 ```
@@ -454,7 +454,7 @@ func ResetTopics()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sesContactList.SesContactList.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 sescontactlist.SesContactList_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sesContactList.SesContactList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 sescontactlist.SesContactList_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ sescontactlist.SesContactList_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sesContactList.SesContactList.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 sescontactlist.SesContactList_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ sescontactlist.SesContactList_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sesContactList.SesContactList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 sescontactlist.SesContactList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the SesContactList to import.
 
 The id of the existing SesContactList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -842,7 +842,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesContactList.SesContactListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 &sescontactlist.SesContactListConfig {
 	Connection: interface{},
@@ -957,7 +957,7 @@ ContactListName *string
 
 The name of the contact list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#contact_list_name SesContactList#contact_list_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#contact_list_name SesContactList#contact_list_name}
 
 ---
 
@@ -971,7 +971,7 @@ Description *string
 
 The description of the contact list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#description SesContactList#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#description SesContactList#description}
 
 ---
 
@@ -985,7 +985,7 @@ Tags interface{}
 
 The tags (keys and values) associated with the contact list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#tags SesContactList#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#tags SesContactList#tags}
 
 ---
 
@@ -999,7 +999,7 @@ Topics interface{}
 
 The topics associated with the contact list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#topics SesContactList#topics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#topics SesContactList#topics}
 
 ---
 
@@ -1008,7 +1008,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesContactList.SesContactListTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 &sescontactlist.SesContactListTags {
 	Key: *string,
@@ -1020,8 +1020,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#key SesContactList#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#value SesContactList#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#key SesContactList#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#value SesContactList#value}. |
 
 ---
 
@@ -1033,7 +1033,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#key SesContactList#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#key SesContactList#key}.
 
 ---
 
@@ -1045,7 +1045,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#value SesContactList#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#value SesContactList#value}.
 
 ---
 
@@ -1054,7 +1054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesContactList.SesContactListTopics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 &sescontactlist.SesContactListTopics {
 	DefaultSubscriptionStatus: *string,
@@ -1068,7 +1068,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTopics.property.defaultSubscriptionStatus">DefaultSubscriptionStatus</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#default_subscription_status SesContactList#default_subscription_status}. |
+| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTopics.property.defaultSubscriptionStatus">DefaultSubscriptionStatus</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#default_subscription_status SesContactList#default_subscription_status}. |
 | <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTopics.property.description">Description</a></code> | <code>*string</code> | The description of the topic. |
 | <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTopics.property.displayName">DisplayName</a></code> | <code>*string</code> | The display name of the topic. |
 | <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTopics.property.topicName">TopicName</a></code> | <code>*string</code> | The name of the topic. |
@@ -1083,7 +1083,7 @@ DefaultSubscriptionStatus *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#default_subscription_status SesContactList#default_subscription_status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#default_subscription_status SesContactList#default_subscription_status}.
 
 ---
 
@@ -1097,7 +1097,7 @@ Description *string
 
 The description of the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#description SesContactList#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#description SesContactList#description}
 
 ---
 
@@ -1111,7 +1111,7 @@ DisplayName *string
 
 The display name of the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#display_name SesContactList#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#display_name SesContactList#display_name}
 
 ---
 
@@ -1125,7 +1125,7 @@ TopicName *string
 
 The name of the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_contact_list#topic_name SesContactList#topic_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_contact_list#topic_name SesContactList#topic_name}
 
 ---
 
@@ -1136,7 +1136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesContactList.SesContactListTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 sescontactlist.NewSesContactListTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SesContactListTagsList
 ```
@@ -1296,7 +1296,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesContactList.SesContactListTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 sescontactlist.NewSesContactListTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SesContactListTagsOutputReference
 ```
@@ -1621,7 +1621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesContactList.SesContactListTopicsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 sescontactlist.NewSesContactListTopicsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SesContactListTopicsList
 ```
@@ -1781,7 +1781,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesContactList.SesContactListTopicsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sescontactlist"
 
 sescontactlist.NewSesContactListTopicsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SesContactListTopicsOutputReference
 ```

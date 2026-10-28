@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkflowmonitorScopes <a name="DataAwsccNetworkflowmonitorScopes" id="@cdktn/provider-awscc.dataAwsccNetworkflowmonitorScopes.DataAwsccNetworkflowmonitorScopes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkflowmonitorScopes.DataAwsccNetworkflowmonitorScopes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkflowmonitorscopes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkflowmonitorscopes"
 
 dataawsccnetworkflowmonitorscopes.NewDataAwsccNetworkflowmonitorScopes(scope Construct, id *string, config DataAwsccNetworkflowmonitorScopesConfig) DataAwsccNetworkflowmonitorScopes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkflowmonitorScopes.DataAwsccNetworkflowmonitorScopes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkflowmonitorscopes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkflowmonitorscopes"
 
 dataawsccnetworkflowmonitorscopes.DataAwsccNetworkflowmonitorScopes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkflowmonitorScopes.DataAwsccNetworkflowmonitorScopes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkflowmonitorscopes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkflowmonitorscopes"
 
 dataawsccnetworkflowmonitorscopes.DataAwsccNetworkflowmonitorScopes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkflowmonitorscopes.DataAwsccNetworkflowmonitorScopes_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkflowmonitorScopes.DataAwsccNetworkflowmonitorScopes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkflowmonitorscopes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkflowmonitorscopes"
 
 dataawsccnetworkflowmonitorscopes.DataAwsccNetworkflowmonitorScopes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkflowmonitorscopes.DataAwsccNetworkflowmonitorScopes_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkflowmonitorScopes.DataAwsccNetworkflowmonitorScopes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkflowmonitorscopes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkflowmonitorscopes"
 
 dataawsccnetworkflowmonitorscopes.DataAwsccNetworkflowmonitorScopes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkflowmonito
 
 The id of the existing DataAwsccNetworkflowmonitorScopes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkflowmonitor_scopes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkflowmonitor_scopes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkflowmonitorScopes.DataAwsccNetworkflowmonitorScopesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkflowmonitorscopes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkflowmonitorscopes"
 
 &dataawsccnetworkflowmonitorscopes.DataAwsccNetworkflowmonitorScopesConfig {
 	Connection: interface{},

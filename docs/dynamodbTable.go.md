@@ -4,12 +4,12 @@
 
 ### DynamodbTable <a name="DynamodbTable" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table awscc_dynamodb_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table awscc_dynamodb_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTable(scope Construct, id *string, config DynamodbTableConfig) DynamodbTable
 ```
@@ -748,7 +748,7 @@ func ResetWarmThroughput()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.DynamodbTable_IsConstruct(x interface{}) *bool
 ```
@@ -780,7 +780,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.DynamodbTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -794,7 +794,7 @@ dynamodbtable.DynamodbTable_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.DynamodbTable_IsTerraformResource(x interface{}) *bool
 ```
@@ -808,7 +808,7 @@ dynamodbtable.DynamodbTable_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.DynamodbTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -837,7 +837,7 @@ The construct id used in the generated config for the DynamodbTable to import.
 
 The id of the existing DynamodbTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1532,7 +1532,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableAttributeDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableAttributeDefinitions {
 	AttributeName: *string,
@@ -1559,7 +1559,7 @@ AttributeName *string
 
 A name for the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
 
 ---
 
@@ -1573,7 +1573,7 @@ AttributeType *string
 
 The data type for the attribute, where:   +  ``S`` - the attribute is of type String   +  ``N`` - the attribute is of type Number   +  ``B`` - the attribute is of type Binary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#attribute_type DynamodbTable#attribute_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#attribute_type DynamodbTable#attribute_type}
 
 ---
 
@@ -1582,7 +1582,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableConfig {
 	Connection: interface{},
@@ -1595,24 +1595,24 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
 	KeySchema: *string,
 	AttributeDefinitions: interface{},
 	BillingMode: *string,
-	ContributorInsightsSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableContributorInsightsSpecification,
+	ContributorInsightsSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableContributorInsightsSpecification,
 	DeletionProtectionEnabled: interface{},
 	GlobalSecondaryIndexes: interface{},
-	ImportSourceSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableImportSourceSpecification,
-	KinesisStreamSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableKinesisStreamSpecification,
+	ImportSourceSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableImportSourceSpecification,
+	KinesisStreamSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableKinesisStreamSpecification,
 	LocalSecondaryIndexes: interface{},
-	OnDemandThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableOnDemandThroughput,
-	PointInTimeRecoverySpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTablePointInTimeRecoverySpecification,
-	ProvisionedThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableProvisionedThroughput,
-	ResourcePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableResourcePolicy,
-	SseSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableSseSpecification,
-	StreamSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableStreamSpecification,
+	OnDemandThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableOnDemandThroughput,
+	PointInTimeRecoverySpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTablePointInTimeRecoverySpecification,
+	ProvisionedThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableProvisionedThroughput,
+	ResourcePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableResourcePolicy,
+	SseSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableSseSpecification,
+	StreamSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableStreamSpecification,
 	TableClass: *string,
 	TableName: *string,
 	Tags: interface{},
-	TimeToLiveSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableTimeToLiveSpecification,
+	TimeToLiveSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableTimeToLiveSpecification,
 	VectorIndexes: interface{},
-	WarmThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableWarmThroughput,
+	WarmThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableWarmThroughput,
 }
 ```
 
@@ -1646,7 +1646,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.tableName">TableName</a></code> | <code>*string</code> | A name for the table. |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this resource.  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html). |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.timeToLiveSpecification">TimeToLiveSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableTimeToLiveSpecification">DynamodbTableTimeToLiveSpecification</a></code> | Specifies the Time to Live (TTL) settings for the table. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.vectorIndexes">VectorIndexes</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#vector_indexes DynamodbTable#vector_indexes}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.vectorIndexes">VectorIndexes</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#vector_indexes DynamodbTable#vector_indexes}. |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableConfig.property.warmThroughput">WarmThroughput</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableWarmThroughput">DynamodbTableWarmThroughput</a></code> | Represents the warm throughput (in read units per second and write units per second) for creating a table. |
 
 ---
@@ -1733,7 +1733,7 @@ Specifies the attributes that make up the primary key for the table.
 
 The attributes in the `KeySchema` property must also be defined in the `AttributeDefinitions` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
 
 ---
 
@@ -1750,7 +1750,7 @@ A list of attributes that describe the key schema for the table and indexes.
 This property is required to create a DDB table.
 You can add an `AttributeDefinition` without interruption. Changing the type of an existing `AttributeDefinition` requires replacement of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#attribute_definitions DynamodbTable#attribute_definitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#attribute_definitions DynamodbTable#attribute_definitions}
 
 ---
 
@@ -1771,7 +1771,7 @@ Valid values include:
 
 If not specified, the default is `PROVISIONED`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#billing_mode DynamodbTable#billing_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#billing_mode DynamodbTable#billing_mode}
 
 ---
 
@@ -1785,7 +1785,7 @@ ContributorInsightsSpecification DynamodbTableContributorInsightsSpecification
 
 The settings used to specify whether to enable CloudWatch Contributor Insights for the table and define which events to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
 
 ---
 
@@ -1801,7 +1801,7 @@ Determines if a table is protected from deletion.
 
 When enabled, the table cannot be deleted by any user or process. This setting is disabled by default. For more information, see [Using deletion protection](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithTables.Basics.html#WorkingWithTables.Basics.DeletionProtection) in the *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}
 
 ---
 
@@ -1823,7 +1823,7 @@ Updates are not supported. The following are exceptions:
 * If you update either the contributor insights specification or the provisioned throughput values of global secondary indexes, you can update the table without interruption.
 * You can delete or add one global secondary index without interruption. If you do both in the same update (for example, by changing the index's logical ID), the update fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#global_secondary_indexes DynamodbTable#global_secondary_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#global_secondary_indexes DynamodbTable#global_secondary_indexes}
 
 ---
 
@@ -1839,7 +1839,7 @@ Specifies the properties of data being imported from the S3 bucket source to the
 
 If you specify the `ImportSourceSpecification` property, and also specify either the `StreamSpecification`, the `TableClass` property, the `DeletionProtectionEnabled` property, or the `WarmThroughput` property, the IAM entity creating/updating stack must have `UpdateTable` permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#import_source_specification DynamodbTable#import_source_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#import_source_specification DynamodbTable#import_source_specification}
 
 ---
 
@@ -1853,7 +1853,7 @@ KinesisStreamSpecification DynamodbTableKinesisStreamSpecification
 
 The Kinesis Data Streams configuration for the specified table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#kinesis_stream_specification DynamodbTable#kinesis_stream_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#kinesis_stream_specification DynamodbTable#kinesis_stream_specification}
 
 ---
 
@@ -1869,7 +1869,7 @@ Local secondary indexes to be created on the table.
 
 You can create up to 5 local secondary indexes. Each index is scoped to a given hash key value. The size of each hash key can be up to 10 gigabytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#local_secondary_indexes DynamodbTable#local_secondary_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#local_secondary_indexes DynamodbTable#local_secondary_indexes}
 
 ---
 
@@ -1885,7 +1885,7 @@ Sets the maximum number of read and write units for the specified on-demand tabl
 
 If you use this property, you must specify `MaxReadRequestUnits`, `MaxWriteRequestUnits`, or both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
 
 ---
 
@@ -1899,7 +1899,7 @@ PointInTimeRecoverySpecification DynamodbTablePointInTimeRecoverySpecification
 
 The settings used to enable point in time recovery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#point_in_time_recovery_specification DynamodbTable#point_in_time_recovery_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#point_in_time_recovery_specification DynamodbTable#point_in_time_recovery_specification}
 
 ---
 
@@ -1916,7 +1916,7 @@ Throughput for the specified table, which consists of values for ``ReadCapacityU
 For more information about the contents of a provisioned throughput structure, see [Amazon DynamoDB Table ProvisionedThroughput](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_ProvisionedThroughput.html).
 If you set `BillingMode` as `PROVISIONED`, you must specify this property. If you set `BillingMode` as `PAY_PER_REQUEST`, you cannot specify this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
 
 ---
 
@@ -1934,7 +1934,7 @@ When you attach a resource-based policy while creating a table, the policy appli
 The maximum size supported for a resource-based policy document is 20 KB. DynamoDB counts whitespaces when calculating the size of a policy against this limit. For a full list of all considerations that apply for resource-based policies, see [Resource-based policy considerations](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-considerations.html).
 You need to specify the `CreateTable` and `PutResourcePolicy` IAM actions for authorizing a user to create a table with a resource-based policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
 
 ---
 
@@ -1948,7 +1948,7 @@ SseSpecification DynamodbTableSseSpecification
 
 Specifies the settings to enable server-side encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#sse_specification DynamodbTable#sse_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#sse_specification DynamodbTable#sse_specification}
 
 ---
 
@@ -1964,7 +1964,7 @@ The settings for the DDB table stream, which captures changes to items stored in
 
 Including this property in your CFNlong template automatically enables streaming.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#stream_specification DynamodbTable#stream_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#stream_specification DynamodbTable#stream_specification}
 
 ---
 
@@ -1978,7 +1978,7 @@ TableClass *string
 
 The table class of the new table. Valid values are ``STANDARD`` and ``STANDARD_INFREQUENT_ACCESS``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#table_class DynamodbTable#table_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#table_class DynamodbTable#table_class}
 
 ---
 
@@ -1995,7 +1995,7 @@ A name for the table.
 If you don't specify a name, CFNlong generates a unique physical ID and uses that ID for the table name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
 If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#table_name DynamodbTable#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#table_name DynamodbTable#table_name}
 
 ---
 
@@ -2009,7 +2009,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
 
 ---
 
@@ -2025,7 +2025,7 @@ Specifies the Time to Live (TTL) settings for the table.
 
 For detailed information about the limits in DynamoDB, see [Limits in Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html) in the Amazon DynamoDB Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#time_to_live_specification DynamodbTable#time_to_live_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#time_to_live_specification DynamodbTable#time_to_live_specification}
 
 ---
 
@@ -2037,7 +2037,7 @@ VectorIndexes interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#vector_indexes DynamodbTable#vector_indexes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#vector_indexes DynamodbTable#vector_indexes}.
 
 ---
 
@@ -2051,7 +2051,7 @@ WarmThroughput DynamodbTableWarmThroughput
 
 Represents the warm throughput (in read units per second and write units per second) for creating a table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
 
 ---
 
@@ -2060,7 +2060,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableContributorInsightsSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableContributorInsightsSpecification {
 	Enabled: interface{},
@@ -2087,7 +2087,7 @@ Enabled interface{}
 
 Indicates whether CloudWatch Contributor Insights are to be enabled (true) or disabled (false).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
 
 ---
 
@@ -2103,7 +2103,7 @@ Specifies the CloudWatch Contributor Insights mode for a table.
 
 Valid values are `ACCESSED_AND_THROTTLED_KEYS` (tracks all access and throttled events) or `THROTTLED_KEYS` (tracks only throttled events). This setting determines what type of contributor insights data is collected for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
 
 ---
 
@@ -2112,16 +2112,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableGlobalSecondaryIndexes {
-	ContributorInsightsSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecification,
+	ContributorInsightsSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecification,
 	IndexName: *string,
 	KeySchema: interface{},
-	OnDemandThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesOnDemandThroughput,
-	Projection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesProjection,
-	ProvisionedThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesProvisionedThroughput,
-	WarmThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesWarmThroughput,
+	OnDemandThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableGlobalSecondaryIndexesOnDemandThroughput,
+	Projection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableGlobalSecondaryIndexesProjection,
+	ProvisionedThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableGlobalSecondaryIndexesProvisionedThroughput,
+	WarmThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableGlobalSecondaryIndexesWarmThroughput,
 }
 ```
 
@@ -2149,7 +2149,7 @@ ContributorInsightsSpecification DynamodbTableGlobalSecondaryIndexesContributorI
 
 The settings used to specify whether to enable CloudWatch Contributor Insights for the global table and define which events to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#contributor_insights_specification DynamodbTable#contributor_insights_specification}
 
 ---
 
@@ -2163,7 +2163,7 @@ IndexName *string
 
 The name of the global secondary index. The name must be unique among all other indexes on this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
 
 ---
 
@@ -2180,7 +2180,7 @@ The complete key schema for a global secondary index, which consists of one or m
 The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
 The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
 
 ---
 
@@ -2196,7 +2196,7 @@ The maximum number of read and write units for the specified global secondary in
 
 If you use this parameter, you must specify `MaxReadRequestUnits`, `MaxWriteRequestUnits`, or both. You must use either `OnDemandThroughput` or `ProvisionedThroughput` based on your table's capacity mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#on_demand_throughput DynamodbTable#on_demand_throughput}
 
 ---
 
@@ -2212,7 +2212,7 @@ Represents attributes that are copied (projected) from the table into the global
 
 These are in addition to the primary key attributes and index key attributes, which are automatically projected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
 
 ---
 
@@ -2229,7 +2229,7 @@ Represents the provisioned throughput settings for the specified global secondar
 You must use either `OnDemandThroughput` or `ProvisionedThroughput` based on your table's capacity mode.
 For current minimum and maximum provisioned throughput values, see [Service, Account, and Table Quotas](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html) in the *Amazon DynamoDB Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
 
 ---
 
@@ -2245,7 +2245,7 @@ Represents the warm throughput value (in read units per second and write units p
 
 If you use this parameter, you must specify `ReadUnitsPerSecond`, `WriteUnitsPerSecond`, or both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#warm_throughput DynamodbTable#warm_throughput}
 
 ---
 
@@ -2254,7 +2254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecification {
 	Enabled: interface{},
@@ -2281,7 +2281,7 @@ Enabled interface{}
 
 Indicates whether CloudWatch Contributor Insights are to be enabled (true) or disabled (false).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
 
 ---
 
@@ -2297,7 +2297,7 @@ Specifies the CloudWatch Contributor Insights mode for a table.
 
 Valid values are `ACCESSED_AND_THROTTLED_KEYS` (tracks all access and throttled events) or `THROTTLED_KEYS` (tracks only throttled events). This setting determines what type of contributor insights data is collected for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#mode DynamodbTable#mode}
 
 ---
 
@@ -2306,7 +2306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesKeySchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableGlobalSecondaryIndexesKeySchema {
 	AttributeName: *string,
@@ -2333,7 +2333,7 @@ AttributeName *string
 
 The name of a key attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
 
 ---
 
@@ -2350,7 +2350,7 @@ The role that this key attribute will assume:   +  ``HASH`` - partition key   + 
 The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
 The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
 
 ---
 
@@ -2359,7 +2359,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesOnDemandThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableGlobalSecondaryIndexesOnDemandThroughput {
 	MaxReadRequestUnits: *f64,
@@ -2388,7 +2388,7 @@ Maximum number of read request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxReadRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxReadRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
 
 ---
 
@@ -2404,7 +2404,7 @@ Maximum number of write request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxWriteRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxWriteRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
 
 ---
 
@@ -2413,7 +2413,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesProjection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableGlobalSecondaryIndexesProjection {
 	NonKeyAttributes: *[]*string,
@@ -2442,7 +2442,7 @@ Represents the non-key attribute names which will be projected into the index.
 
 For global and local secondary indexes, the total count of `NonKeyAttributes` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of `INCLUDE`. You still can specify the ProjectionType of `ALL` to project all attributes from the source table, even if the table has more than 100 attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
 
 ---
 
@@ -2462,7 +2462,7 @@ The set of attributes that are projected into the index:   +  ``KEYS_ONLY`` - On
 When using the DynamoDB console, `ALL` is selected by default.
 You can't modify the projection of an existing index. To change the projected attributes, you must delete the index and create a new one with the projection that you want.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
 
 ---
 
@@ -2471,7 +2471,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesProvisionedThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableGlobalSecondaryIndexesProvisionedThroughput {
 	ReadCapacityUnits: *f64,
@@ -2501,7 +2501,7 @@ The maximum number of strongly consistent reads consumed per second before Dynam
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
 
 ---
 
@@ -2518,7 +2518,7 @@ The maximum number of writes consumed per second before DynamoDB returns a ``Thr
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
 
 ---
 
@@ -2527,7 +2527,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesWarmThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableGlobalSecondaryIndexesWarmThroughput {
 	ReadUnitsPerSecond: *f64,
@@ -2554,7 +2554,7 @@ ReadUnitsPerSecond *f64
 
 Represents the number of read operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
 
 ---
 
@@ -2568,7 +2568,7 @@ WriteUnitsPerSecond *f64
 
 Represents the number of write operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
 
 ---
 
@@ -2577,13 +2577,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableImportSourceSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableImportSourceSpecification {
 	InputCompressionType: *string,
 	InputFormat: *string,
-	InputFormatOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableImportSourceSpecificationInputFormatOptions,
-	S3BucketSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableImportSourceSpecificationS3BucketSource,
+	InputFormatOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableImportSourceSpecificationInputFormatOptions,
+	S3BucketSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableImportSourceSpecificationS3BucketSource,
 }
 ```
 
@@ -2608,7 +2608,7 @@ InputCompressionType *string
 
 Type of compression to be used on the input coming from the imported table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}
 
 ---
 
@@ -2622,7 +2622,7 @@ InputFormat *string
 
 The format of the source data. Valid values for ``ImportFormat`` are ``CSV``, ``DYNAMODB_JSON`` or ``ION``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}
 
 ---
 
@@ -2636,7 +2636,7 @@ InputFormatOptions DynamodbTableImportSourceSpecificationInputFormatOptions
 
 Additional properties that specify how the input is formatted,.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
 
 ---
 
@@ -2650,7 +2650,7 @@ S3BucketSource DynamodbTableImportSourceSpecificationS3BucketSource
 
 The S3 bucket that provides the source for the import.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
 
 ---
 
@@ -2659,10 +2659,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableImportSourceSpecificationInputFormatOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableImportSourceSpecificationInputFormatOptions {
-	Csv: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableImportSourceSpecificationInputFormatOptionsCsv,
+	Csv: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableImportSourceSpecificationInputFormatOptionsCsv,
 }
 ```
 
@@ -2684,7 +2684,7 @@ Csv DynamodbTableImportSourceSpecificationInputFormatOptionsCsv
 
 The options for imported source files in CSV format. The values are Delimiter and HeaderList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#csv DynamodbTable#csv}
 
 ---
 
@@ -2693,7 +2693,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableImportSourceSpecificationInputFormatOptionsCsv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableImportSourceSpecificationInputFormatOptionsCsv {
 	Delimiter: *string,
@@ -2720,7 +2720,7 @@ Delimiter *string
 
 The delimiter used for separating items in the CSV file being imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#delimiter DynamodbTable#delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#delimiter DynamodbTable#delimiter}
 
 ---
 
@@ -2736,7 +2736,7 @@ List of the headers used to specify a common header for all source CSV files bei
 
 If this field is specified then the first line of each CSV file is treated as data instead of the header. If this field is not specified the the first line of each CSV file is treated as the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#header_list DynamodbTable#header_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#header_list DynamodbTable#header_list}
 
 ---
 
@@ -2745,7 +2745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableImportSourceSpecificationS3BucketSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableImportSourceSpecificationS3BucketSource {
 	S3Bucket: *string,
@@ -2774,7 +2774,7 @@ S3Bucket *string
 
 The S3 bucket that is being imported from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#s3_bucket DynamodbTable#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#s3_bucket DynamodbTable#s3_bucket}
 
 ---
 
@@ -2790,7 +2790,7 @@ The account number of the S3 bucket that is being imported from.
 
 If the bucket is owned by the requester this is optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#s3_bucket_owner DynamodbTable#s3_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#s3_bucket_owner DynamodbTable#s3_bucket_owner}
 
 ---
 
@@ -2804,7 +2804,7 @@ S3KeyPrefix *string
 
 The key prefix shared by all S3 Objects that are being imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#s3_key_prefix DynamodbTable#s3_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#s3_key_prefix DynamodbTable#s3_key_prefix}
 
 ---
 
@@ -2813,7 +2813,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableKinesisStreamSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableKinesisStreamSpecification {
 	ApproximateCreationDateTimePrecision: *string,
@@ -2840,7 +2840,7 @@ ApproximateCreationDateTimePrecision *string
 
 The precision for the time and date that the stream was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#approximate_creation_date_time_precision DynamodbTable#approximate_creation_date_time_precision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#approximate_creation_date_time_precision DynamodbTable#approximate_creation_date_time_precision}
 
 ---
 
@@ -2854,7 +2854,7 @@ StreamArn *string
 
 The ARN for a specific Kinesis data stream.  Length Constraints: Minimum length of 37. Maximum length of 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#stream_arn DynamodbTable#stream_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#stream_arn DynamodbTable#stream_arn}
 
 ---
 
@@ -2863,12 +2863,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableLocalSecondaryIndexes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableLocalSecondaryIndexes {
 	IndexName: *string,
 	KeySchema: interface{},
-	Projection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableLocalSecondaryIndexesProjection,
+	Projection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableLocalSecondaryIndexesProjection,
 }
 ```
 
@@ -2892,7 +2892,7 @@ IndexName *string
 
 The name of the local secondary index. The name must be unique among all other indexes on this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}
 
 ---
 
@@ -2909,7 +2909,7 @@ The complete key schema for the local secondary index, consisting of one or more
 The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
 The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#key_schema DynamodbTable#key_schema}
 
 ---
 
@@ -2925,7 +2925,7 @@ Represents attributes that are copied (projected) from the table into the local 
 
 These are in addition to the primary key attributes and index key attributes, which are automatically projected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
 
 ---
 
@@ -2934,7 +2934,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableLocalSecondaryIndexesKeySchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableLocalSecondaryIndexesKeySchema {
 	AttributeName: *string,
@@ -2961,7 +2961,7 @@ AttributeName *string
 
 The name of a key attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
 
 ---
 
@@ -2978,7 +2978,7 @@ The role that this key attribute will assume:   +  ``HASH`` - partition key   + 
 The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
 The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#key_type DynamodbTable#key_type}
 
 ---
 
@@ -2987,7 +2987,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableLocalSecondaryIndexesProjection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableLocalSecondaryIndexesProjection {
 	NonKeyAttributes: *[]*string,
@@ -3016,7 +3016,7 @@ Represents the non-key attribute names which will be projected into the index.
 
 For global and local secondary indexes, the total count of `NonKeyAttributes` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of `INCLUDE`. You still can specify the ProjectionType of `ALL` to project all attributes from the source table, even if the table has more than 100 attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
 
 ---
 
@@ -3036,7 +3036,7 @@ The set of attributes that are projected into the index:   +  ``KEYS_ONLY`` - On
 When using the DynamoDB console, `ALL` is selected by default.
 You can't modify the projection of an existing index. To change the projected attributes, you must delete the index and create a new one with the projection that you want.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
 
 ---
 
@@ -3045,7 +3045,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableOnDemandThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableOnDemandThroughput {
 	MaxReadRequestUnits: *f64,
@@ -3074,7 +3074,7 @@ Maximum number of read request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxReadRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxReadRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#max_read_request_units DynamodbTable#max_read_request_units}
 
 ---
 
@@ -3090,7 +3090,7 @@ Maximum number of write request units for the specified table.
 
 To specify a maximum `OnDemandThroughput` on your table, set the value of `MaxWriteRequestUnits` as greater than or equal to 1. To remove the maximum `OnDemandThroughput` that is currently set on your table, set the value of `MaxWriteRequestUnits` to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#max_write_request_units DynamodbTable#max_write_request_units}
 
 ---
 
@@ -3099,7 +3099,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTablePointInTimeRecoverySpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTablePointInTimeRecoverySpecification {
 	PointInTimeRecoveryEnabled: interface{},
@@ -3126,7 +3126,7 @@ PointInTimeRecoveryEnabled interface{}
 
 Indicates whether point in time recovery is enabled (true) or disabled (false) on the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#point_in_time_recovery_enabled DynamodbTable#point_in_time_recovery_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#point_in_time_recovery_enabled DynamodbTable#point_in_time_recovery_enabled}
 
 ---
 
@@ -3142,7 +3142,7 @@ The number of preceding days for which continuous backups are taken and maintain
 
 Your table data is only recoverable to any point-in-time from within the configured recovery period. This parameter is optional. If no value is provided, the value will default to 35.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}
 
 ---
 
@@ -3151,7 +3151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableProvisionedThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableProvisionedThroughput {
 	ReadCapacityUnits: *f64,
@@ -3181,7 +3181,7 @@ The maximum number of strongly consistent reads consumed per second before Dynam
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#read_capacity_units DynamodbTable#read_capacity_units}
 
 ---
 
@@ -3198,7 +3198,7 @@ The maximum number of writes consumed per second before DynamoDB returns a ``Thr
 For more information, see [Specifying Read and Write Requirements](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ProvisionedThroughput.html) in the *Amazon DynamoDB Developer Guide*.
 If read/write capacity mode is `PAY_PER_REQUEST` the value is set to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#write_capacity_units DynamodbTable#write_capacity_units}
 
 ---
 
@@ -3207,7 +3207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableResourcePolicy {
 	PolicyDocument: *string,
@@ -3234,7 +3234,7 @@ A resource-based policy document that contains permissions to add to the specifi
 
 In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
 
 ---
 
@@ -3243,7 +3243,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableSseSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableSseSpecification {
 	KmsMasterKeyId: *string,
@@ -3274,7 +3274,7 @@ The KMS key that should be used for the KMS encryption.
 
 To specify a key, use its key ID, Amazon Resource Name (ARN), alias name, or alias ARN. Note that you should only provide this parameter if the key is different from the default DynamoDB key `alias/aws/dynamodb`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#kms_master_key_id DynamodbTable#kms_master_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#kms_master_key_id DynamodbTable#kms_master_key_id}
 
 ---
 
@@ -3290,7 +3290,7 @@ Indicates whether server-side encryption is done using an AWS managed key or an 
 
 If enabled (true), server-side encryption type is set to `KMS` and an AWS managed key is used (KMS charges apply). If disabled (false) or not specified, server-side encryption is set to AWS owned key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#sse_enabled DynamodbTable#sse_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#sse_enabled DynamodbTable#sse_enabled}
 
 ---
 
@@ -3308,7 +3308,7 @@ The only supported value is:
 
 * `KMS` - Server-side encryption that uses KMSlong. The key is stored in your account and is managed by KMS (KMS charges apply).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#sse_type DynamodbTable#sse_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#sse_type DynamodbTable#sse_type}
 
 ---
 
@@ -3317,10 +3317,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableStreamSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableStreamSpecification {
-	ResourcePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableStreamSpecificationResourcePolicy,
+	ResourcePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableStreamSpecificationResourcePolicy,
 	StreamViewType: *string,
 	Tags: interface{},
 }
@@ -3350,7 +3350,7 @@ Resource-based policies let you define access permissions by specifying who has 
 When you remove the `StreamSpecification` property from the template, DynamoDB disables the stream but retains any attached resource policy until the stream is deleted after 24 hours. When you modify the `StreamViewType` property, DynamoDB creates a new stream and retains the old stream's resource policy. The old stream and its resource policy are deleted after the 24-hour retention period.
 In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#resource_policy DynamodbTable#resource_policy}
 
 ---
 
@@ -3371,7 +3371,7 @@ Valid values for `StreamViewType` are:
 * `OLD_IMAGE` - The entire item, as it appeared before it was modified, is written to the stream.
 * `NEW_AND_OLD_IMAGES` - Both the new and the old item images of the item are written to the stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#stream_view_type DynamodbTable#stream_view_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#stream_view_type DynamodbTable#stream_view_type}
 
 ---
 
@@ -3388,7 +3388,7 @@ Specifies the tags to apply to the DDB stream.
 Stream tags are independent of table tags.
 For an overview on tagging DynamoDB resources, see [Tagging for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Tagging.html) in the *Amazon DynamoDB Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#tags DynamodbTable#tags}
 
 ---
 
@@ -3397,7 +3397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableStreamSpecificationResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableStreamSpecificationResourcePolicy {
 	PolicyDocument: *string,
@@ -3424,7 +3424,7 @@ A resource-based policy document that contains permissions to add to the specifi
 
 In a CFNshort template, you can provide the policy in JSON or YAML format because CFNshort converts YAML to JSON before submitting it to DDB. For more information about resource-based policies, see [Using resource-based policies for](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-resource-based.html) and [Resource-based policy examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/rbac-examples.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#policy_document DynamodbTable#policy_document}
 
 ---
 
@@ -3433,7 +3433,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableStreamSpecificationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableStreamSpecificationTags {
 	Key: *string,
@@ -3462,7 +3462,7 @@ The key of the tag.
 
 Tag keys are case sensitive. Each DynamoDB table can only have up to one tag with the same key. If you try to add an existing tag (same key), the existing tag value will be updated to the new value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#key DynamodbTable#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#key DynamodbTable#key}
 
 ---
 
@@ -3476,7 +3476,7 @@ Value *string
 
 The value of the tag. Tag values are case-sensitive and can be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#value DynamodbTable#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#value DynamodbTable#value}
 
 ---
 
@@ -3485,7 +3485,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableTags {
 	Key: *string,
@@ -3514,7 +3514,7 @@ The key of the tag.
 
 Tag keys are case sensitive. Each DynamoDB table can only have up to one tag with the same key. If you try to add an existing tag (same key), the existing tag value will be updated to the new value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#key DynamodbTable#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#key DynamodbTable#key}
 
 ---
 
@@ -3528,7 +3528,7 @@ Value *string
 
 The value of the tag. Tag values are case-sensitive and can be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#value DynamodbTable#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#value DynamodbTable#value}
 
 ---
 
@@ -3537,7 +3537,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableTimeToLiveSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableTimeToLiveSpecification {
 	AttributeName: *string,
@@ -3567,7 +3567,7 @@ The name of the TTL attribute used to store the expiration time for items in the
 * The `AttributeName` property is required when enabling the TTL, or when TTL is already enabled.
 * To update this property, you must first disable TTL and then enable TTL with the new attribute name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}
 
 ---
 
@@ -3581,7 +3581,7 @@ Enabled interface{}
 
 Indicates whether TTL is to be enabled (true) or disabled (false) on the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}
 
 ---
 
@@ -3590,15 +3590,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableVectorIndexes {
 	Dimensions: *f64,
 	DistanceFunction: *string,
 	IndexName: *string,
-	Projection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableVectorIndexesProjection,
+	Projection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableVectorIndexesProjection,
 	SearchSchema: interface{},
-	VectorAttribute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute,
+	VectorAttribute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute,
 }
 ```
 
@@ -3606,12 +3606,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.dimensions">Dimensions</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#dimensions DynamodbTable#dimensions}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.distanceFunction">DistanceFunction</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#distance_function DynamodbTable#distance_function}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.indexName">IndexName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.dimensions">Dimensions</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#dimensions DynamodbTable#dimensions}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.distanceFunction">DistanceFunction</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#distance_function DynamodbTable#distance_function}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.indexName">IndexName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}. |
 | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.projection">Projection</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection">DynamodbTableVectorIndexesProjection</a></code> | Represents attributes that are copied (projected) from the table into an index. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.searchSchema">SearchSchema</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#search_schema DynamodbTable#search_schema}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.vectorAttribute">VectorAttribute</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute">DynamodbTableVectorIndexesVectorAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#vector_attribute DynamodbTable#vector_attribute}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.searchSchema">SearchSchema</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#search_schema DynamodbTable#search_schema}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexes.property.vectorAttribute">VectorAttribute</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute">DynamodbTableVectorIndexesVectorAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#vector_attribute DynamodbTable#vector_attribute}. |
 
 ---
 
@@ -3623,7 +3623,7 @@ Dimensions *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#dimensions DynamodbTable#dimensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#dimensions DynamodbTable#dimensions}.
 
 ---
 
@@ -3635,7 +3635,7 @@ DistanceFunction *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#distance_function DynamodbTable#distance_function}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#distance_function DynamodbTable#distance_function}.
 
 ---
 
@@ -3647,7 +3647,7 @@ IndexName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#index_name DynamodbTable#index_name}.
 
 ---
 
@@ -3663,7 +3663,7 @@ Represents attributes that are copied (projected) from the table into an index.
 
 These are in addition to the primary key attributes and index key attributes, which are automatically projected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#projection DynamodbTable#projection}
 
 ---
 
@@ -3675,7 +3675,7 @@ SearchSchema interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#search_schema DynamodbTable#search_schema}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#search_schema DynamodbTable#search_schema}.
 
 ---
 
@@ -3687,7 +3687,7 @@ VectorAttribute DynamodbTableVectorIndexesVectorAttribute
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute">DynamodbTableVectorIndexesVectorAttribute</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#vector_attribute DynamodbTable#vector_attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#vector_attribute DynamodbTable#vector_attribute}.
 
 ---
 
@@ -3696,7 +3696,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableVectorIndexesProjection {
 	NonKeyAttributes: *[]*string,
@@ -3725,7 +3725,7 @@ Represents the non-key attribute names which will be projected into the index.
 
 For global and local secondary indexes, the total count of `NonKeyAttributes` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of `INCLUDE`. You still can specify the ProjectionType of `ALL` to project all attributes from the source table, even if the table has more than 100 attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
 
 ---
 
@@ -3745,7 +3745,7 @@ The set of attributes that are projected into the index:   +  ``KEYS_ONLY`` - On
 When using the DynamoDB console, `ALL` is selected by default.
 You can't modify the projection of an existing index. To change the projected attributes, you must delete the index and create a new one with the projection that you want.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
 
 ---
 
@@ -3754,7 +3754,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableVectorIndexesSearchSchema {
 	AttributeName: *string,
@@ -3766,8 +3766,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema.property.attributeName">AttributeName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema.property.searchSchemaElementType">SearchSchemaElementType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#search_schema_element_type DynamodbTable#search_schema_element_type}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema.property.attributeName">AttributeName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchema.property.searchSchemaElementType">SearchSchemaElementType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#search_schema_element_type DynamodbTable#search_schema_element_type}. |
 
 ---
 
@@ -3779,7 +3779,7 @@ AttributeName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.
 
 ---
 
@@ -3791,7 +3791,7 @@ SearchSchemaElementType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#search_schema_element_type DynamodbTable#search_schema_element_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#search_schema_element_type DynamodbTable#search_schema_element_type}.
 
 ---
 
@@ -3800,7 +3800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableVectorIndexesVectorAttribute {
 	AttributeName: *string,
@@ -3811,7 +3811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute.property.attributeName">AttributeName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttribute.property.attributeName">AttributeName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}. |
 
 ---
 
@@ -3823,7 +3823,7 @@ AttributeName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.
 
 ---
 
@@ -3832,7 +3832,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableWarmThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 &dynamodbtable.DynamodbTableWarmThroughput {
 	ReadUnitsPerSecond: *f64,
@@ -3859,7 +3859,7 @@ ReadUnitsPerSecond *f64
 
 Represents the number of read operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#read_units_per_second DynamodbTable#read_units_per_second}
 
 ---
 
@@ -3873,7 +3873,7 @@ WriteUnitsPerSecond *f64
 
 Represents the number of write operations your base table can instantaneously support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table#write_units_per_second DynamodbTable#write_units_per_second}
 
 ---
 
@@ -3884,7 +3884,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableAttributeDefinitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableAttributeDefinitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DynamodbTableAttributeDefinitionsList
 ```
@@ -4044,7 +4044,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableAttributeDefinitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableAttributeDefinitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DynamodbTableAttributeDefinitionsOutputReference
 ```
@@ -4369,7 +4369,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableContributorInsightsSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableContributorInsightsSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableContributorInsightsSpecificationOutputReference
 ```
@@ -4676,7 +4676,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableGlobalSecondaryIndexesContributorInsightsSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecificationOutputReference
 ```
@@ -4983,7 +4983,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesKeySchemaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableGlobalSecondaryIndexesKeySchemaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DynamodbTableGlobalSecondaryIndexesKeySchemaList
 ```
@@ -5143,7 +5143,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesKeySchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableGlobalSecondaryIndexesKeySchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DynamodbTableGlobalSecondaryIndexesKeySchemaOutputReference
 ```
@@ -5468,7 +5468,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableGlobalSecondaryIndexesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DynamodbTableGlobalSecondaryIndexesList
 ```
@@ -5628,7 +5628,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesOnDemandThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableGlobalSecondaryIndexesOnDemandThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableGlobalSecondaryIndexesOnDemandThroughputOutputReference
 ```
@@ -5935,7 +5935,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableGlobalSecondaryIndexesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DynamodbTableGlobalSecondaryIndexesOutputReference
 ```
@@ -6483,7 +6483,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesProjectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableGlobalSecondaryIndexesProjectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableGlobalSecondaryIndexesProjectionOutputReference
 ```
@@ -6790,7 +6790,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesProvisionedThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableGlobalSecondaryIndexesProvisionedThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableGlobalSecondaryIndexesProvisionedThroughputOutputReference
 ```
@@ -7097,7 +7097,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableGlobalSecondaryIndexesWarmThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableGlobalSecondaryIndexesWarmThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableGlobalSecondaryIndexesWarmThroughputOutputReference
 ```
@@ -7404,7 +7404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableImportSourceSpecificationInputFormatOptionsCsvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableImportSourceSpecificationInputFormatOptionsCsvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableImportSourceSpecificationInputFormatOptionsCsvOutputReference
 ```
@@ -7711,7 +7711,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableImportSourceSpecificationInputFormatOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableImportSourceSpecificationInputFormatOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableImportSourceSpecificationInputFormatOptionsOutputReference
 ```
@@ -8002,7 +8002,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableImportSourceSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableImportSourceSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableImportSourceSpecificationOutputReference
 ```
@@ -8393,7 +8393,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableImportSourceSpecificationS3BucketSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableImportSourceSpecificationS3BucketSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableImportSourceSpecificationS3BucketSourceOutputReference
 ```
@@ -8729,7 +8729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableKinesisStreamSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableKinesisStreamSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableKinesisStreamSpecificationOutputReference
 ```
@@ -9036,7 +9036,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableLocalSecondaryIndexesKeySchemaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableLocalSecondaryIndexesKeySchemaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DynamodbTableLocalSecondaryIndexesKeySchemaList
 ```
@@ -9196,7 +9196,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableLocalSecondaryIndexesKeySchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableLocalSecondaryIndexesKeySchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DynamodbTableLocalSecondaryIndexesKeySchemaOutputReference
 ```
@@ -9521,7 +9521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableLocalSecondaryIndexesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableLocalSecondaryIndexesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DynamodbTableLocalSecondaryIndexesList
 ```
@@ -9681,7 +9681,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableLocalSecondaryIndexesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableLocalSecondaryIndexesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DynamodbTableLocalSecondaryIndexesOutputReference
 ```
@@ -10061,7 +10061,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableLocalSecondaryIndexesProjectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableLocalSecondaryIndexesProjectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableLocalSecondaryIndexesProjectionOutputReference
 ```
@@ -10368,7 +10368,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableOnDemandThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableOnDemandThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableOnDemandThroughputOutputReference
 ```
@@ -10675,7 +10675,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTablePointInTimeRecoverySpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTablePointInTimeRecoverySpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTablePointInTimeRecoverySpecificationOutputReference
 ```
@@ -10982,7 +10982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableProvisionedThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableProvisionedThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableProvisionedThroughputOutputReference
 ```
@@ -11289,7 +11289,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableResourcePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableResourcePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableResourcePolicyOutputReference
 ```
@@ -11567,7 +11567,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableSseSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableSseSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableSseSpecificationOutputReference
 ```
@@ -11903,7 +11903,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableStreamSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableStreamSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableStreamSpecificationOutputReference
 ```
@@ -12265,7 +12265,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableStreamSpecificationResourcePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableStreamSpecificationResourcePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableStreamSpecificationResourcePolicyOutputReference
 ```
@@ -12543,7 +12543,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableStreamSpecificationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableStreamSpecificationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DynamodbTableStreamSpecificationTagsList
 ```
@@ -12703,7 +12703,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableStreamSpecificationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableStreamSpecificationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DynamodbTableStreamSpecificationTagsOutputReference
 ```
@@ -13028,7 +13028,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DynamodbTableTagsList
 ```
@@ -13188,7 +13188,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DynamodbTableTagsOutputReference
 ```
@@ -13513,7 +13513,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableTimeToLiveSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableTimeToLiveSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableTimeToLiveSpecificationOutputReference
 ```
@@ -13820,7 +13820,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableVectorIndexesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DynamodbTableVectorIndexesList
 ```
@@ -13980,7 +13980,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableVectorIndexesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DynamodbTableVectorIndexesOutputReference
 ```
@@ -14460,7 +14460,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesProjectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableVectorIndexesProjectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableVectorIndexesProjectionOutputReference
 ```
@@ -14767,7 +14767,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableVectorIndexesSearchSchemaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DynamodbTableVectorIndexesSearchSchemaList
 ```
@@ -14927,7 +14927,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesSearchSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableVectorIndexesSearchSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DynamodbTableVectorIndexesSearchSchemaOutputReference
 ```
@@ -15252,7 +15252,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableVectorIndexesVectorAttributeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableVectorIndexesVectorAttributeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableVectorIndexesVectorAttributeOutputReference
 ```
@@ -15530,7 +15530,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbTable.DynamodbTableWarmThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable"
 
 dynamodbtable.NewDynamodbTableWarmThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DynamodbTableWarmThroughputOutputReference
 ```

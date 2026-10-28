@@ -4,12 +4,12 @@
 
 ### MgnNetworkMigrationDefinition <a name="MgnNetworkMigrationDefinition" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition awscc_mgn_network_migration_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition awscc_mgn_network_migration_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.NewMgnNetworkMigrationDefinition(scope Construct, id *string, config MgnNetworkMigrationDefinitionConfig) MgnNetworkMigrationDefinition
 ```
@@ -480,7 +480,7 @@ func ResetTargetDeployment()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -512,7 +512,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinition_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinition.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinition_IsTerraformResource(x interface{}) *bool
 ```
@@ -540,7 +540,7 @@ mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinition_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -569,7 +569,7 @@ The construct id used in the generated config for the MgnNetworkMigrationDefinit
 
 The id of the existing MgnNetworkMigrationDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1000,7 +1000,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 &mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinitionConfig {
 	Connection: interface{},
@@ -1012,8 +1012,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdef
 	Provisioners: *[]interface{},
 	Name: *string,
 	SourceConfigurations: interface{},
-	TargetNetwork: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionTargetNetwork,
-	TargetS3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionTargetS3Configuration,
+	TargetNetwork: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionTargetNetwork,
+	TargetS3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionTargetS3Configuration,
 	Description: *string,
 	ScopeTags: *map[string]*string,
 	Tags: interface{},
@@ -1123,7 +1123,7 @@ Name *string
 
 The name of the network migration definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#name MgnNetworkMigrationDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#name MgnNetworkMigrationDefinition#name}
 
 ---
 
@@ -1137,7 +1137,7 @@ SourceConfigurations interface{}
 
 A list of source configurations for the network migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#source_configurations MgnNetworkMigrationDefinition#source_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#source_configurations MgnNetworkMigrationDefinition#source_configurations}
 
 ---
 
@@ -1151,7 +1151,7 @@ TargetNetwork MgnNetworkMigrationDefinitionTargetNetwork
 
 The target network configuration including topology and CIDR ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#target_network MgnNetworkMigrationDefinition#target_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#target_network MgnNetworkMigrationDefinition#target_network}
 
 ---
 
@@ -1165,7 +1165,7 @@ TargetS3Configuration MgnNetworkMigrationDefinitionTargetS3Configuration
 
 The S3 configuration for storing the target network artifacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#target_s3_configuration MgnNetworkMigrationDefinition#target_s3_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#target_s3_configuration MgnNetworkMigrationDefinition#target_s3_configuration}
 
 ---
 
@@ -1179,7 +1179,7 @@ Description *string
 
 A description of the network migration definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#description MgnNetworkMigrationDefinition#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#description MgnNetworkMigrationDefinition#description}
 
 ---
 
@@ -1193,7 +1193,7 @@ ScopeTags *map[string]*string
 
 Scope tags for the network migration definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#scope_tags MgnNetworkMigrationDefinition#scope_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#scope_tags MgnNetworkMigrationDefinition#scope_tags}
 
 ---
 
@@ -1207,7 +1207,7 @@ Tags interface{}
 
 Tags to assign to the network migration definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#tags MgnNetworkMigrationDefinition#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#tags MgnNetworkMigrationDefinition#tags}
 
 ---
 
@@ -1221,7 +1221,7 @@ TargetDeployment *string
 
 The target deployment configuration for the migrated network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#target_deployment MgnNetworkMigrationDefinition#target_deployment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#target_deployment MgnNetworkMigrationDefinition#target_deployment}
 
 ---
 
@@ -1230,11 +1230,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionSourceConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 &mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinitionSourceConfigurations {
 	SourceEnvironment: *string,
-	SourceS3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionSourceConfigurationsSourceS3Configuration,
+	SourceS3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionSourceConfigurationsSourceS3Configuration,
 }
 ```
 
@@ -1257,7 +1257,7 @@ SourceEnvironment *string
 
 The source environment type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#source_environment MgnNetworkMigrationDefinition#source_environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#source_environment MgnNetworkMigrationDefinition#source_environment}
 
 ---
 
@@ -1271,7 +1271,7 @@ SourceS3Configuration MgnNetworkMigrationDefinitionSourceConfigurationsSourceS3C
 
 S3 configuration for source network data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#source_s3_configuration MgnNetworkMigrationDefinition#source_s3_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#source_s3_configuration MgnNetworkMigrationDefinition#source_s3_configuration}
 
 ---
 
@@ -1280,7 +1280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionSourceConfigurationsSourceS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 &mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinitionSourceConfigurationsSourceS3Configuration {
 	S3Bucket: *string,
@@ -1309,7 +1309,7 @@ S3Bucket *string
 
 The name of the S3 bucket containing source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#s3_bucket MgnNetworkMigrationDefinition#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#s3_bucket MgnNetworkMigrationDefinition#s3_bucket}
 
 ---
 
@@ -1323,7 +1323,7 @@ S3BucketOwner *string
 
 The AWS account ID of the S3 bucket owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#s3_bucket_owner MgnNetworkMigrationDefinition#s3_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#s3_bucket_owner MgnNetworkMigrationDefinition#s3_bucket_owner}
 
 ---
 
@@ -1337,7 +1337,7 @@ S3Key *string
 
 The S3 key (path) for the source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#s3_key MgnNetworkMigrationDefinition#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#s3_key MgnNetworkMigrationDefinition#s3_key}
 
 ---
 
@@ -1346,7 +1346,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 &mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinitionTags {
 	Key: *string,
@@ -1373,7 +1373,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#key MgnNetworkMigrationDefinition#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#key MgnNetworkMigrationDefinition#key}
 
 ---
 
@@ -1387,7 +1387,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#value MgnNetworkMigrationDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#value MgnNetworkMigrationDefinition#value}
 
 ---
 
@@ -1396,7 +1396,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionTargetNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 &mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinitionTargetNetwork {
 	Topology: *string,
@@ -1427,7 +1427,7 @@ Topology *string
 
 The network topology type for the target environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#topology MgnNetworkMigrationDefinition#topology}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#topology MgnNetworkMigrationDefinition#topology}
 
 ---
 
@@ -1441,7 +1441,7 @@ InboundCidr *string
 
 The CIDR block for inbound traffic in the target network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#inbound_cidr MgnNetworkMigrationDefinition#inbound_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#inbound_cidr MgnNetworkMigrationDefinition#inbound_cidr}
 
 ---
 
@@ -1455,7 +1455,7 @@ InspectionCidr *string
 
 The CIDR block for inspection traffic in the target network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#inspection_cidr MgnNetworkMigrationDefinition#inspection_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#inspection_cidr MgnNetworkMigrationDefinition#inspection_cidr}
 
 ---
 
@@ -1469,7 +1469,7 @@ OutboundCidr *string
 
 The CIDR block for outbound traffic in the target network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#outbound_cidr MgnNetworkMigrationDefinition#outbound_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#outbound_cidr MgnNetworkMigrationDefinition#outbound_cidr}
 
 ---
 
@@ -1478,7 +1478,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionTargetS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 &mgnnetworkmigrationdefinition.MgnNetworkMigrationDefinitionTargetS3Configuration {
 	S3Bucket: *string,
@@ -1505,7 +1505,7 @@ S3Bucket *string
 
 The name of the S3 bucket for target artifacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#s3_bucket MgnNetworkMigrationDefinition#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#s3_bucket MgnNetworkMigrationDefinition#s3_bucket}
 
 ---
 
@@ -1519,7 +1519,7 @@ S3BucketOwner *string
 
 The AWS account ID of the S3 bucket owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition#s3_bucket_owner MgnNetworkMigrationDefinition#s3_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition#s3_bucket_owner MgnNetworkMigrationDefinition#s3_bucket_owner}
 
 ---
 
@@ -1530,7 +1530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionSourceConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.NewMgnNetworkMigrationDefinitionSourceConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MgnNetworkMigrationDefinitionSourceConfigurationsList
 ```
@@ -1690,7 +1690,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionSourceConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.NewMgnNetworkMigrationDefinitionSourceConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MgnNetworkMigrationDefinitionSourceConfigurationsOutputReference
 ```
@@ -2014,7 +2014,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionSourceConfigurationsSourceS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.NewMgnNetworkMigrationDefinitionSourceConfigurationsSourceS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MgnNetworkMigrationDefinitionSourceConfigurationsSourceS3ConfigurationOutputReference
 ```
@@ -2329,7 +2329,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.NewMgnNetworkMigrationDefinitionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MgnNetworkMigrationDefinitionTagsList
 ```
@@ -2489,7 +2489,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.NewMgnNetworkMigrationDefinitionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MgnNetworkMigrationDefinitionTagsOutputReference
 ```
@@ -2814,7 +2814,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionTargetNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.NewMgnNetworkMigrationDefinitionTargetNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MgnNetworkMigrationDefinitionTargetNetworkOutputReference
 ```
@@ -3172,7 +3172,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnNetworkMigrationDefinition.MgnNetworkMigrationDefinitionTargetS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition"
 
 mgnnetworkmigrationdefinition.NewMgnNetworkMigrationDefinitionTargetS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MgnNetworkMigrationDefinitionTargetS3ConfigurationOutputReference
 ```

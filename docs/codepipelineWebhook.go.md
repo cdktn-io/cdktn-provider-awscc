@@ -4,12 +4,12 @@
 
 ### CodepipelineWebhook <a name="CodepipelineWebhook" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhook"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 codepipelinewebhook.NewCodepipelineWebhook(scope Construct, id *string, config CodepipelineWebhookConfig) CodepipelineWebhook
 ```
@@ -467,7 +467,7 @@ func ResetTargetPipelineVersion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhook.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 codepipelinewebhook.CodepipelineWebhook_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhook.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 codepipelinewebhook.CodepipelineWebhook_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ codepipelinewebhook.CodepipelineWebhook_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhook.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 codepipelinewebhook.CodepipelineWebhook_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ codepipelinewebhook.CodepipelineWebhook_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhook.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 codepipelinewebhook.CodepipelineWebhook_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the CodepipelineWebhook to imp
 
 The id of the existing CodepipelineWebhook that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -987,7 +987,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhookAuthenticationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 &codepipelinewebhook.CodepipelineWebhookAuthenticationConfiguration {
 	AllowedIpRange: *string,
@@ -1016,7 +1016,7 @@ The property used to configure acceptance of webhooks in an IP address range.
 
 For IP, only the AllowedIPRange property must be set. This property must be set to a valid CIDR range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#allowed_ip_range CodepipelineWebhook#allowed_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#allowed_ip_range CodepipelineWebhook#allowed_ip_range}
 
 ---
 
@@ -1030,7 +1030,7 @@ SecretToken *string
 
 The property used to configure GitHub authentication. For GITHUB_HMAC, only the SecretToken property must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#secret_token CodepipelineWebhook#secret_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#secret_token CodepipelineWebhook#secret_token}
 
 ---
 
@@ -1039,7 +1039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhookConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 &codepipelinewebhook.CodepipelineWebhookConfig {
 	Connection: interface{},
@@ -1050,7 +1050,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Authentication: *string,
-	AuthenticationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelineWebhook.CodepipelineWebhookAuthenticationConfiguration,
+	AuthenticationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelineWebhook.CodepipelineWebhookAuthenticationConfiguration,
 	Filters: interface{},
 	TargetAction: *string,
 	TargetPipeline: *string,
@@ -1164,7 +1164,7 @@ Authentication *string
 
 Supported options are GITHUB_HMAC, IP, and UNAUTHENTICATED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#authentication CodepipelineWebhook#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#authentication CodepipelineWebhook#authentication}
 
 ---
 
@@ -1178,7 +1178,7 @@ AuthenticationConfiguration CodepipelineWebhookAuthenticationConfiguration
 
 Properties that configure the authentication applied to incoming webhook trigger requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#authentication_configuration CodepipelineWebhook#authentication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#authentication_configuration CodepipelineWebhook#authentication_configuration}
 
 ---
 
@@ -1192,7 +1192,7 @@ Filters interface{}
 
 A list of rules applied to the body/payload sent in the POST request to a webhook URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#filters CodepipelineWebhook#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#filters CodepipelineWebhook#filters}
 
 ---
 
@@ -1206,7 +1206,7 @@ TargetAction *string
 
 The name of the action in a pipeline you want to connect to the webhook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#target_action CodepipelineWebhook#target_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#target_action CodepipelineWebhook#target_action}
 
 ---
 
@@ -1220,7 +1220,7 @@ TargetPipeline *string
 
 The name of the pipeline you want to connect to the webhook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#target_pipeline CodepipelineWebhook#target_pipeline}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#target_pipeline CodepipelineWebhook#target_pipeline}
 
 ---
 
@@ -1234,7 +1234,7 @@ Name *string
 
 The name of the webhook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#name CodepipelineWebhook#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#name CodepipelineWebhook#name}
 
 ---
 
@@ -1248,7 +1248,7 @@ RegisterWithThirdParty interface{}
 
 Configures a connection between the webhook that was created and the external tool with events to be detected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#register_with_third_party CodepipelineWebhook#register_with_third_party}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#register_with_third_party CodepipelineWebhook#register_with_third_party}
 
 ---
 
@@ -1262,7 +1262,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#tags CodepipelineWebhook#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#tags CodepipelineWebhook#tags}
 
 ---
 
@@ -1276,7 +1276,7 @@ TargetPipelineVersion *f64
 
 The version number of the pipeline to be connected to the trigger request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#target_pipeline_version CodepipelineWebhook#target_pipeline_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#target_pipeline_version CodepipelineWebhook#target_pipeline_version}
 
 ---
 
@@ -1285,7 +1285,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhookFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 &codepipelinewebhook.CodepipelineWebhookFilters {
 	JsonPath: *string,
@@ -1314,7 +1314,7 @@ A JsonPath expression that is applied to the body/payload of the webhook.
 
 The value selected by the JsonPath expression must match the value specified in the MatchEquals field. Otherwise, the request is ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}
 
 ---
 
@@ -1330,7 +1330,7 @@ The value selected by the JsonPath expression must match what is supplied in the
 
 Otherwise, the request is ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}
 
 ---
 
@@ -1339,7 +1339,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhookTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 &codepipelinewebhook.CodepipelineWebhookTags {
 	Key: *string,
@@ -1368,7 +1368,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#key CodepipelineWebhook#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#key CodepipelineWebhook#key}
 
 ---
 
@@ -1384,7 +1384,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook#value CodepipelineWebhook#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook#value CodepipelineWebhook#value}
 
 ---
 
@@ -1395,7 +1395,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhookAuthenticationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 codepipelinewebhook.NewCodepipelineWebhookAuthenticationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelineWebhookAuthenticationConfigurationOutputReference
 ```
@@ -1702,7 +1702,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhookFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 codepipelinewebhook.NewCodepipelineWebhookFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelineWebhookFiltersList
 ```
@@ -1862,7 +1862,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhookFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 codepipelinewebhook.NewCodepipelineWebhookFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelineWebhookFiltersOutputReference
 ```
@@ -2180,7 +2180,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhookTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 codepipelinewebhook.NewCodepipelineWebhookTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelineWebhookTagsList
 ```
@@ -2340,7 +2340,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelineWebhook.CodepipelineWebhookTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook"
 
 codepipelinewebhook.NewCodepipelineWebhookTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelineWebhookTagsOutputReference
 ```

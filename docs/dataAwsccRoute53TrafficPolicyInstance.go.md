@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53TrafficPolicyInstance <a name="DataAwsccRoute53TrafficPolicyInstance" id="@cdktn/provider-awscc.dataAwsccRoute53TrafficPolicyInstance.DataAwsccRoute53TrafficPolicyInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_traffic_policy_instance awscc_route53_traffic_policy_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_traffic_policy_instance awscc_route53_traffic_policy_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53TrafficPolicyInstance.DataAwsccRoute53TrafficPolicyInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53trafficpolicyinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53trafficpolicyinstance"
 
 dataawsccroute53trafficpolicyinstance.NewDataAwsccRoute53TrafficPolicyInstance(scope Construct, id *string, config DataAwsccRoute53TrafficPolicyInstanceConfig) DataAwsccRoute53TrafficPolicyInstance
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53TrafficPolicyInstance.DataAwsccRoute53TrafficPolicyInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53trafficpolicyinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53trafficpolicyinstance"
 
 dataawsccroute53trafficpolicyinstance.DataAwsccRoute53TrafficPolicyInstance_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53TrafficPolicyInstance.DataAwsccRoute53TrafficPolicyInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53trafficpolicyinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53trafficpolicyinstance"
 
 dataawsccroute53trafficpolicyinstance.DataAwsccRoute53TrafficPolicyInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53trafficpolicyinstance.DataAwsccRoute53TrafficPolicyInstance_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53TrafficPolicyInstance.DataAwsccRoute53TrafficPolicyInstance.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53trafficpolicyinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53trafficpolicyinstance"
 
 dataawsccroute53trafficpolicyinstance.DataAwsccRoute53TrafficPolicyInstance_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53trafficpolicyinstance.DataAwsccRoute53TrafficPolicyInstance_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53TrafficPolicyInstance.DataAwsccRoute53TrafficPolicyInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53trafficpolicyinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53trafficpolicyinstance"
 
 dataawsccroute53trafficpolicyinstance.DataAwsccRoute53TrafficPolicyInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53TrafficPol
 
 The id of the existing DataAwsccRoute53TrafficPolicyInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_traffic_policy_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_traffic_policy_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53TrafficPolicyInstance.DataAwsccRoute53TrafficPolicyInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53trafficpolicyinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53trafficpolicyinstance"
 
 &dataawsccroute53trafficpolicyinstance.DataAwsccRoute53TrafficPolicyInstanceConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_traffic_policy_instance#id DataAwsccRoute53TrafficPolicyInstance#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_traffic_policy_instance#id DataAwsccRoute53TrafficPolicyInstance#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

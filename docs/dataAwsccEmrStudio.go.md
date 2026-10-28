@@ -4,12 +4,12 @@
 
 ### DataAwsccEmrStudio <a name="DataAwsccEmrStudio" id="@cdktn/provider-awscc.dataAwsccEmrStudio.DataAwsccEmrStudio"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_studio awscc_emr_studio}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_studio awscc_emr_studio}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrStudio.DataAwsccEmrStudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudio"
 
 dataawsccemrstudio.NewDataAwsccEmrStudio(scope Construct, id *string, config DataAwsccEmrStudioConfig) DataAwsccEmrStudio
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEmrStudio.DataAwsccEmrStudio.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudio"
 
 dataawsccemrstudio.DataAwsccEmrStudio_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEmrStudio.DataAwsccEmrStudio.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudio"
 
 dataawsccemrstudio.DataAwsccEmrStudio_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccemrstudio.DataAwsccEmrStudio_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEmrStudio.DataAwsccEmrStudio.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudio"
 
 dataawsccemrstudio.DataAwsccEmrStudio_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccemrstudio.DataAwsccEmrStudio_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEmrStudio.DataAwsccEmrStudio.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudio"
 
 dataawsccemrstudio.DataAwsccEmrStudio_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEmrStudio to impo
 
 The id of the existing DataAwsccEmrStudio that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_studio#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_studio#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -807,7 +807,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrStudio.DataAwsccEmrStudioConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudio"
 
 &dataawsccemrstudio.DataAwsccEmrStudioConfig {
 	Connection: interface{},
@@ -916,7 +916,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_studio#id DataAwsccEmrStudio#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_studio#id DataAwsccEmrStudio#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -928,7 +928,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrStudio.DataAwsccEmrStudioTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudio"
 
 &dataawsccemrstudio.DataAwsccEmrStudioTags {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudio"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrStudio.DataAwsccEmrStudioTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudio"
 
 dataawsccemrstudio.NewDataAwsccEmrStudioTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEmrStudioTagsList
 ```
@@ -1092,7 +1092,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrStudio.DataAwsccEmrStudioTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudio"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudio"
 
 dataawsccemrstudio.NewDataAwsccEmrStudioTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEmrStudioTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccEfsAccessPoint <a name="DataAwsccEfsAccessPoint" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/efs_access_point awscc_efs_access_point}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/efs_access_point awscc_efs_access_point}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 dataawsccefsaccesspoint.NewDataAwsccEfsAccessPoint(scope Construct, id *string, config DataAwsccEfsAccessPointConfig) DataAwsccEfsAccessPoint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 dataawsccefsaccesspoint.DataAwsccEfsAccessPoint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 dataawsccefsaccesspoint.DataAwsccEfsAccessPoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccefsaccesspoint.DataAwsccEfsAccessPoint_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPoint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 dataawsccefsaccesspoint.DataAwsccEfsAccessPoint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccefsaccesspoint.DataAwsccEfsAccessPoint_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 dataawsccefsaccesspoint.DataAwsccEfsAccessPoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEfsAccessPoint to
 
 The id of the existing DataAwsccEfsAccessPoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/efs_access_point#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/efs_access_point#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPointAccessPointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 &dataawsccefsaccesspoint.DataAwsccEfsAccessPointAccessPointTags {
 
@@ -677,7 +677,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 &dataawsccefsaccesspoint.DataAwsccEfsAccessPointConfig {
 	Connection: interface{},
@@ -786,7 +786,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/efs_access_point#id DataAwsccEfsAccessPoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/efs_access_point#id DataAwsccEfsAccessPoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -798,7 +798,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPointPosixUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 &dataawsccefsaccesspoint.DataAwsccEfsAccessPointPosixUser {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPointRootDirectory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 &dataawsccefsaccesspoint.DataAwsccEfsAccessPointRootDirectory {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPointRootDirectoryCreationInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 &dataawsccefsaccesspoint.DataAwsccEfsAccessPointRootDirectoryCreationInfo {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPointAccessPointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 dataawsccefsaccesspoint.NewDataAwsccEfsAccessPointAccessPointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEfsAccessPointAccessPointTagsList
 ```
@@ -988,7 +988,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPointAccessPointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 dataawsccefsaccesspoint.NewDataAwsccEfsAccessPointAccessPointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEfsAccessPointAccessPointTagsOutputReference
 ```
@@ -1277,7 +1277,7 @@ func InternalValue() DataAwsccEfsAccessPointAccessPointTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPointPosixUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 dataawsccefsaccesspoint.NewDataAwsccEfsAccessPointPosixUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEfsAccessPointPosixUserOutputReference
 ```
@@ -1559,7 +1559,7 @@ func InternalValue() DataAwsccEfsAccessPointPosixUser
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPointRootDirectoryCreationInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 dataawsccefsaccesspoint.NewDataAwsccEfsAccessPointRootDirectoryCreationInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEfsAccessPointRootDirectoryCreationInfoOutputReference
 ```
@@ -1841,7 +1841,7 @@ func InternalValue() DataAwsccEfsAccessPointRootDirectoryCreationInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoint.DataAwsccEfsAccessPointRootDirectoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoint"
 
 dataawsccefsaccesspoint.NewDataAwsccEfsAccessPointRootDirectoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEfsAccessPointRootDirectoryOutputReference
 ```

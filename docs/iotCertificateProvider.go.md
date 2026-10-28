@@ -4,12 +4,12 @@
 
 ### IotCertificateProvider <a name="IotCertificateProvider" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_certificate_provider awscc_iot_certificate_provider}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_certificate_provider awscc_iot_certificate_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcertificateprovider"
 
 iotcertificateprovider.NewIotCertificateProvider(scope Construct, id *string, config IotCertificateProviderConfig) IotCertificateProvider
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcertificateprovider"
 
 iotcertificateprovider.IotCertificateProvider_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcertificateprovider"
 
 iotcertificateprovider.IotCertificateProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ iotcertificateprovider.IotCertificateProvider_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProvider.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcertificateprovider"
 
 iotcertificateprovider.IotCertificateProvider_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ iotcertificateprovider.IotCertificateProvider_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcertificateprovider"
 
 iotcertificateprovider.IotCertificateProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the IotCertificateProvider to 
 
 The id of the existing IotCertificateProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_certificate_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_certificate_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -826,7 +826,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcertificateprovider"
 
 &iotcertificateprovider.IotCertificateProviderConfig {
 	Connection: interface{},
@@ -854,9 +854,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcertificateprovider
 | <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.accountDefaultForOperations">AccountDefaultForOperations</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_certificate_provider#account_default_for_operations IotCertificateProvider#account_default_for_operations}. |
-| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.lambdaFunctionArn">LambdaFunctionArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_certificate_provider#lambda_function_arn IotCertificateProvider#lambda_function_arn}. |
-| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.certificateProviderName">CertificateProviderName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_certificate_provider#certificate_provider_name IotCertificateProvider#certificate_provider_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.accountDefaultForOperations">AccountDefaultForOperations</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_certificate_provider#account_default_for_operations IotCertificateProvider#account_default_for_operations}. |
+| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.lambdaFunctionArn">LambdaFunctionArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_certificate_provider#lambda_function_arn IotCertificateProvider#lambda_function_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.certificateProviderName">CertificateProviderName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_certificate_provider#certificate_provider_name IotCertificateProvider#certificate_provider_name}. |
 | <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -939,7 +939,7 @@ AccountDefaultForOperations *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_certificate_provider#account_default_for_operations IotCertificateProvider#account_default_for_operations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_certificate_provider#account_default_for_operations IotCertificateProvider#account_default_for_operations}.
 
 ---
 
@@ -951,7 +951,7 @@ LambdaFunctionArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_certificate_provider#lambda_function_arn IotCertificateProvider#lambda_function_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_certificate_provider#lambda_function_arn IotCertificateProvider#lambda_function_arn}.
 
 ---
 
@@ -963,7 +963,7 @@ CertificateProviderName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_certificate_provider#certificate_provider_name IotCertificateProvider#certificate_provider_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_certificate_provider#certificate_provider_name IotCertificateProvider#certificate_provider_name}.
 
 ---
 
@@ -977,7 +977,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_certificate_provider#tags IotCertificateProvider#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_certificate_provider#tags IotCertificateProvider#tags}
 
 ---
 
@@ -986,7 +986,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcertificateprovider"
 
 &iotcertificateprovider.IotCertificateProviderTags {
 	Key: *string,
@@ -1015,7 +1015,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_certificate_provider#key IotCertificateProvider#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_certificate_provider#key IotCertificateProvider#key}
 
 ---
 
@@ -1031,7 +1031,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_certificate_provider#value IotCertificateProvider#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_certificate_provider#value IotCertificateProvider#value}
 
 ---
 
@@ -1042,7 +1042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcertificateprovider"
 
 iotcertificateprovider.NewIotCertificateProviderTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotCertificateProviderTagsList
 ```
@@ -1202,7 +1202,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcertificateprovider"
 
 iotcertificateprovider.NewIotCertificateProviderTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotCertificateProviderTagsOutputReference
 ```

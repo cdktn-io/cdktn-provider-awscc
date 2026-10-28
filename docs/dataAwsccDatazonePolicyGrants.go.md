@@ -4,12 +4,12 @@
 
 ### DataAwsccDatazonePolicyGrants <a name="DataAwsccDatazonePolicyGrants" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrants.DataAwsccDatazonePolicyGrants"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_policy_grants awscc_datazone_policy_grants}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_policy_grants awscc_datazone_policy_grants}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrants.DataAwsccDatazonePolicyGrants.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrants"
 
 dataawsccdatazonepolicygrants.NewDataAwsccDatazonePolicyGrants(scope Construct, id *string, config DataAwsccDatazonePolicyGrantsConfig) DataAwsccDatazonePolicyGrants
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrants.DataAwsccDatazonePolicyGrants.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrants"
 
 dataawsccdatazonepolicygrants.DataAwsccDatazonePolicyGrants_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrants.DataAwsccDatazonePolicyGrants.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrants"
 
 dataawsccdatazonepolicygrants.DataAwsccDatazonePolicyGrants_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatazonepolicygrants.DataAwsccDatazonePolicyGrants_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrants.DataAwsccDatazonePolicyGrants.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrants"
 
 dataawsccdatazonepolicygrants.DataAwsccDatazonePolicyGrants_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatazonepolicygrants.DataAwsccDatazonePolicyGrants_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrants.DataAwsccDatazonePolicyGrants.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrants"
 
 dataawsccdatazonepolicygrants.DataAwsccDatazonePolicyGrants_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatazonePolicyGra
 
 The id of the existing DataAwsccDatazonePolicyGrants that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_policy_grants#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_policy_grants#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrants.DataAwsccDatazonePolicyGrantsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrants"
 
 &dataawsccdatazonepolicygrants.DataAwsccDatazonePolicyGrantsConfig {
 	Connection: interface{},

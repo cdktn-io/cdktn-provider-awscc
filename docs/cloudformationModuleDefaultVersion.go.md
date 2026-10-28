@@ -4,12 +4,12 @@
 
 ### CloudformationModuleDefaultVersion <a name="CloudformationModuleDefaultVersion" id="@cdktn/provider-awscc.cloudformationModuleDefaultVersion.CloudformationModuleDefaultVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationModuleDefaultVersion.CloudformationModuleDefaultVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduledefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduledefaultversion"
 
 cloudformationmoduledefaultversion.NewCloudformationModuleDefaultVersion(scope Construct, id *string, config CloudformationModuleDefaultVersionConfig) CloudformationModuleDefaultVersion
 ```
@@ -421,7 +421,7 @@ func ResetVersionId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudformationModuleDefaultVersion.CloudformationModuleDefaultVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduledefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduledefaultversion"
 
 cloudformationmoduledefaultversion.CloudformationModuleDefaultVersion_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudformationModuleDefaultVersion.CloudformationModuleDefaultVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduledefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduledefaultversion"
 
 cloudformationmoduledefaultversion.CloudformationModuleDefaultVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ cloudformationmoduledefaultversion.CloudformationModuleDefaultVersion_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudformationModuleDefaultVersion.CloudformationModuleDefaultVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduledefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduledefaultversion"
 
 cloudformationmoduledefaultversion.CloudformationModuleDefaultVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ cloudformationmoduledefaultversion.CloudformationModuleDefaultVersion_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudformationModuleDefaultVersion.CloudformationModuleDefaultVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduledefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduledefaultversion"
 
 cloudformationmoduledefaultversion.CloudformationModuleDefaultVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the CloudformationModuleDefaul
 
 The id of the existing CloudformationModuleDefaultVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_default_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_default_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -787,7 +787,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationModuleDefaultVersion.CloudformationModuleDefaultVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduledefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduledefaultversion"
 
 &cloudformationmoduledefaultversion.CloudformationModuleDefaultVersionConfig {
 	Connection: interface{},
@@ -900,7 +900,7 @@ Arn *string
 
 The Amazon Resource Name (ARN) of the module version to set as the default version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_default_version#arn CloudformationModuleDefaultVersion#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_default_version#arn CloudformationModuleDefaultVersion#arn}
 
 ---
 
@@ -914,7 +914,7 @@ ModuleName *string
 
 The name of a module existing in the registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_default_version#module_name CloudformationModuleDefaultVersion#module_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_default_version#module_name CloudformationModuleDefaultVersion#module_name}
 
 ---
 
@@ -928,7 +928,7 @@ VersionId *string
 
 The ID of an existing version of the named module to set as the default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_default_version#version_id CloudformationModuleDefaultVersion#version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_default_version#version_id CloudformationModuleDefaultVersion#version_id}
 
 ---
 

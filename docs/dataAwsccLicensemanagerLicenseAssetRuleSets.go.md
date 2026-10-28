@@ -4,12 +4,12 @@
 
 ### DataAwsccLicensemanagerLicenseAssetRuleSets <a name="DataAwsccLicensemanagerLicenseAssetRuleSets" id="@cdktn/provider-awscc.dataAwsccLicensemanagerLicenseAssetRuleSets.DataAwsccLicensemanagerLicenseAssetRuleSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanager_license_asset_rule_sets awscc_licensemanager_license_asset_rule_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_license_asset_rule_sets awscc_licensemanager_license_asset_rule_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerLicenseAssetRuleSets.DataAwsccLicensemanagerLicenseAssetRuleSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlicenseassetrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlicenseassetrulesets"
 
 dataawscclicensemanagerlicenseassetrulesets.NewDataAwsccLicensemanagerLicenseAssetRuleSets(scope Construct, id *string, config DataAwsccLicensemanagerLicenseAssetRuleSetsConfig) DataAwsccLicensemanagerLicenseAssetRuleSets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLicensemanagerLicenseAssetRuleSets.DataAwsccLicensemanagerLicenseAssetRuleSets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlicenseassetrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlicenseassetrulesets"
 
 dataawscclicensemanagerlicenseassetrulesets.DataAwsccLicensemanagerLicenseAssetRuleSets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLicensemanagerLicenseAssetRuleSets.DataAwsccLicensemanagerLicenseAssetRuleSets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlicenseassetrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlicenseassetrulesets"
 
 dataawscclicensemanagerlicenseassetrulesets.DataAwsccLicensemanagerLicenseAssetRuleSets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclicensemanagerlicenseassetrulesets.DataAwsccLicensemanagerLicenseAssetR
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLicensemanagerLicenseAssetRuleSets.DataAwsccLicensemanagerLicenseAssetRuleSets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlicenseassetrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlicenseassetrulesets"
 
 dataawscclicensemanagerlicenseassetrulesets.DataAwsccLicensemanagerLicenseAssetRuleSets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclicensemanagerlicenseassetrulesets.DataAwsccLicensemanagerLicenseAssetR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLicensemanagerLicenseAssetRuleSets.DataAwsccLicensemanagerLicenseAssetRuleSets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlicenseassetrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlicenseassetrulesets"
 
 dataawscclicensemanagerlicenseassetrulesets.DataAwsccLicensemanagerLicenseAssetRuleSets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLicensemanagerLic
 
 The id of the existing DataAwsccLicensemanagerLicenseAssetRuleSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanager_license_asset_rule_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_license_asset_rule_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLicensemanagerLicenseAssetRuleSets.DataAwsccLicensemanagerLicenseAssetRuleSetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlicenseassetrulesets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlicenseassetrulesets"
 
 &dataawscclicensemanagerlicenseassetrulesets.DataAwsccLicensemanagerLicenseAssetRuleSetsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkmanagerTransitGatewayRegistration <a name="DataAwsccNetworkmanagerTransitGatewayRegistration" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerTransitGatewayRegistration.DataAwsccNetworkmanagerTransitGatewayRegistration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_transit_gateway_registration awscc_networkmanager_transit_gateway_registration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_transit_gateway_registration awscc_networkmanager_transit_gateway_registration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerTransitGatewayRegistration.DataAwsccNetworkmanagerTransitGatewayRegistration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagertransitgatewayregistration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagertransitgatewayregistration"
 
 dataawsccnetworkmanagertransitgatewayregistration.NewDataAwsccNetworkmanagerTransitGatewayRegistration(scope Construct, id *string, config DataAwsccNetworkmanagerTransitGatewayRegistrationConfig) DataAwsccNetworkmanagerTransitGatewayRegistration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerTransitGatewayRegistration.DataAwsccNetworkmanagerTransitGatewayRegistration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagertransitgatewayregistration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagertransitgatewayregistration"
 
 dataawsccnetworkmanagertransitgatewayregistration.DataAwsccNetworkmanagerTransitGatewayRegistration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerTransitGatewayRegistration.DataAwsccNetworkmanagerTransitGatewayRegistration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagertransitgatewayregistration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagertransitgatewayregistration"
 
 dataawsccnetworkmanagertransitgatewayregistration.DataAwsccNetworkmanagerTransitGatewayRegistration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkmanagertransitgatewayregistration.DataAwsccNetworkmanagerTransit
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerTransitGatewayRegistration.DataAwsccNetworkmanagerTransitGatewayRegistration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagertransitgatewayregistration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagertransitgatewayregistration"
 
 dataawsccnetworkmanagertransitgatewayregistration.DataAwsccNetworkmanagerTransitGatewayRegistration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkmanagertransitgatewayregistration.DataAwsccNetworkmanagerTransit
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerTransitGatewayRegistration.DataAwsccNetworkmanagerTransitGatewayRegistration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagertransitgatewayregistration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagertransitgatewayregistration"
 
 dataawsccnetworkmanagertransitgatewayregistration.DataAwsccNetworkmanagerTransitGatewayRegistration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerTra
 
 The id of the existing DataAwsccNetworkmanagerTransitGatewayRegistration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_transit_gateway_registration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_transit_gateway_registration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerTransitGatewayRegistration.DataAwsccNetworkmanagerTransitGatewayRegistrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagertransitgatewayregistration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagertransitgatewayregistration"
 
 &dataawsccnetworkmanagertransitgatewayregistration.DataAwsccNetworkmanagerTransitGatewayRegistrationConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_transit_gateway_registration#id DataAwsccNetworkmanagerTransitGatewayRegistration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_transit_gateway_registration#id DataAwsccNetworkmanagerTransitGatewayRegistration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

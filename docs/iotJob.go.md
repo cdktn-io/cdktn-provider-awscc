@@ -4,12 +4,12 @@
 
 ### IotJob <a name="IotJob" id="@cdktn/provider-awscc.iotJob.IotJob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job awscc_iot_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job awscc_iot_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJob(scope Construct, id *string, config IotJobConfig) IotJob
 ```
@@ -589,7 +589,7 @@ func ResetTimeoutConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotJob.IotJob.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.IotJob_IsConstruct(x interface{}) *bool
 ```
@@ -621,7 +621,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotJob.IotJob.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.IotJob_IsTerraformElement(x interface{}) *bool
 ```
@@ -635,7 +635,7 @@ iotjob.IotJob_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotJob.IotJob.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.IotJob_IsTerraformResource(x interface{}) *bool
 ```
@@ -649,7 +649,7 @@ iotjob.IotJob_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotJob.IotJob.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.IotJob_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -678,7 +678,7 @@ The construct id used in the generated config for the IotJob to import.
 
 The id of the existing IotJob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1263,7 +1263,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobAbortConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobAbortConfig {
 	CriteriaList: interface{},
@@ -1288,7 +1288,7 @@ CriteriaList interface{}
 
 The list of criteria that determine when and how to abort the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
 
 ---
 
@@ -1297,7 +1297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobAbortConfigCriteriaListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobAbortConfigCriteriaListStruct {
 	Action: *string,
@@ -1328,7 +1328,7 @@ Action *string
 
 The type of job action to take to initiate the job abort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#action IotJob#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#action IotJob#action}
 
 ---
 
@@ -1342,7 +1342,7 @@ FailureType *string
 
 The type of job execution failures that can initiate a job abort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#failure_type IotJob#failure_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#failure_type IotJob#failure_type}
 
 ---
 
@@ -1356,7 +1356,7 @@ MinNumberOfExecutedThings *f64
 
 The minimum number of things which must receive job execution notifications before the job can be aborted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#min_number_of_executed_things IotJob#min_number_of_executed_things}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#min_number_of_executed_things IotJob#min_number_of_executed_things}
 
 ---
 
@@ -1370,7 +1370,7 @@ ThresholdPercentage *f64
 
 The minimum percentage of job execution failures that must occur to initiate the job abort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#threshold_percentage IotJob#threshold_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#threshold_percentage IotJob#threshold_percentage}
 
 ---
 
@@ -1379,7 +1379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobConfig {
 	Connection: interface{},
@@ -1391,20 +1391,20 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
 	Provisioners: *[]interface{},
 	JobId: *string,
 	Targets: *[]*string,
-	AbortConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotJob.IotJobAbortConfig,
+	AbortConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotJob.IotJobAbortConfig,
 	Description: *string,
 	DestinationPackageVersions: *[]*string,
 	Document: *string,
 	DocumentParameters: *map[string]*string,
 	DocumentSource: *string,
-	JobExecutionsRetryConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotJob.IotJobJobExecutionsRetryConfig,
-	JobExecutionsRolloutConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotJob.IotJobJobExecutionsRolloutConfig,
+	JobExecutionsRetryConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotJob.IotJobJobExecutionsRetryConfig,
+	JobExecutionsRolloutConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotJob.IotJobJobExecutionsRolloutConfig,
 	JobTemplateArn: *string,
-	PresignedUrlConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotJob.IotJobPresignedUrlConfig,
-	SchedulingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotJob.IotJobSchedulingConfig,
+	PresignedUrlConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotJob.IotJobPresignedUrlConfig,
+	SchedulingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotJob.IotJobSchedulingConfig,
 	Tags: interface{},
 	TargetSelection: *string,
-	TimeoutConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotJob.IotJobTimeoutConfig,
+	TimeoutConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotJob.IotJobTimeoutConfig,
 }
 ```
 
@@ -1520,7 +1520,7 @@ A job identifier which must be unique for your AWS account.
 
 We recommend using a UUID. Alpha-numeric characters, '-' and '_' are valid for use here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#job_id IotJob#job_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#job_id IotJob#job_id}
 
 ---
 
@@ -1534,7 +1534,7 @@ Targets *[]*string
 
 A list of things and thing groups to which the job should be sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#targets IotJob#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#targets IotJob#targets}
 
 ---
 
@@ -1548,7 +1548,7 @@ AbortConfig IotJobAbortConfig
 
 The criteria that determine when and how a job abort takes place.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#abort_config IotJob#abort_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#abort_config IotJob#abort_config}
 
 ---
 
@@ -1562,7 +1562,7 @@ Description *string
 
 A short text description of the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#description IotJob#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#description IotJob#description}
 
 ---
 
@@ -1576,7 +1576,7 @@ DestinationPackageVersions *[]*string
 
 The package version Amazon Resource Names (ARNs) that are installed on the device when the job successfully completes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#destination_package_versions IotJob#destination_package_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#destination_package_versions IotJob#destination_package_versions}
 
 ---
 
@@ -1590,7 +1590,7 @@ Document *string
 
 The job document. Required if you don't specify a value for documentSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#document IotJob#document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#document IotJob#document}
 
 ---
 
@@ -1604,7 +1604,7 @@ DocumentParameters *map[string]*string
 
 Parameters of an Amazon Web Services managed template that you can specify to create the job document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#document_parameters IotJob#document_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#document_parameters IotJob#document_parameters}
 
 ---
 
@@ -1620,7 +1620,7 @@ An S3 link, or S3 object URL, to the job document.
 
 The link is an Amazon S3 object URL and is required if you don't specify a value for document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#document_source IotJob#document_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#document_source IotJob#document_source}
 
 ---
 
@@ -1634,7 +1634,7 @@ JobExecutionsRetryConfig IotJobJobExecutionsRetryConfig
 
 The configuration that determines how many retries are allowed for each failure type for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#job_executions_retry_config IotJob#job_executions_retry_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#job_executions_retry_config IotJob#job_executions_retry_config}
 
 ---
 
@@ -1648,7 +1648,7 @@ JobExecutionsRolloutConfig IotJobJobExecutionsRolloutConfig
 
 Allows you to create a staged rollout of a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#job_executions_rollout_config IotJob#job_executions_rollout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#job_executions_rollout_config IotJob#job_executions_rollout_config}
 
 ---
 
@@ -1662,7 +1662,7 @@ JobTemplateArn *string
 
 The ARN of the job template used to create the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#job_template_arn IotJob#job_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#job_template_arn IotJob#job_template_arn}
 
 ---
 
@@ -1676,7 +1676,7 @@ PresignedUrlConfig IotJobPresignedUrlConfig
 
 Configuration for pre-signed S3 URLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#presigned_url_config IotJob#presigned_url_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#presigned_url_config IotJob#presigned_url_config}
 
 ---
 
@@ -1690,7 +1690,7 @@ SchedulingConfig IotJobSchedulingConfig
 
 Specifies the date and time that a job will begin the rollout of the job document to all devices in the target group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#scheduling_config IotJob#scheduling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#scheduling_config IotJob#scheduling_config}
 
 ---
 
@@ -1704,7 +1704,7 @@ Tags interface{}
 
 Metadata which can be used to manage the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#tags IotJob#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#tags IotJob#tags}
 
 ---
 
@@ -1718,7 +1718,7 @@ TargetSelection *string
 
 Specifies whether the job will continue to run (CONTINUOUS), or will be complete after all those things specified as targets have completed the job (SNAPSHOT).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#target_selection IotJob#target_selection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#target_selection IotJob#target_selection}
 
 ---
 
@@ -1732,7 +1732,7 @@ TimeoutConfig IotJobTimeoutConfig
 
 Specifies the amount of time each device has to finish its execution of the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#timeout_config IotJob#timeout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#timeout_config IotJob#timeout_config}
 
 ---
 
@@ -1741,7 +1741,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobJobExecutionsRetryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobJobExecutionsRetryConfig {
 	CriteriaList: interface{},
@@ -1766,7 +1766,7 @@ CriteriaList interface{}
 
 The list of criteria that determines how many retries are allowed for each failure type for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
 
 ---
 
@@ -1775,7 +1775,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobJobExecutionsRetryConfigCriteriaListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobJobExecutionsRetryConfigCriteriaListStruct {
 	FailureType: *string,
@@ -1802,7 +1802,7 @@ FailureType *string
 
 The type of job execution failures that can initiate a job retry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#failure_type IotJob#failure_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#failure_type IotJob#failure_type}
 
 ---
 
@@ -1816,7 +1816,7 @@ NumberOfRetries *f64
 
 The number of retries allowed for a failure type for the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#number_of_retries IotJob#number_of_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#number_of_retries IotJob#number_of_retries}
 
 ---
 
@@ -1825,10 +1825,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobJobExecutionsRolloutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobJobExecutionsRolloutConfig {
-	ExponentialRate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotJob.IotJobJobExecutionsRolloutConfigExponentialRate,
+	ExponentialRate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotJob.IotJobJobExecutionsRolloutConfigExponentialRate,
 	MaximumPerMinute: *f64,
 }
 ```
@@ -1852,7 +1852,7 @@ ExponentialRate IotJobJobExecutionsRolloutConfigExponentialRate
 
 Allows you to create an exponential rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#exponential_rate IotJob#exponential_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#exponential_rate IotJob#exponential_rate}
 
 ---
 
@@ -1868,7 +1868,7 @@ The maximum number of things that will be notified of a pending job, per minute.
 
 This parameter allows you to create a staged rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#maximum_per_minute IotJob#maximum_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#maximum_per_minute IotJob#maximum_per_minute}
 
 ---
 
@@ -1877,12 +1877,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobJobExecutionsRolloutConfigExponentialRate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobJobExecutionsRolloutConfigExponentialRate {
 	BaseRatePerMinute: *f64,
 	IncrementFactor: *f64,
-	RateIncreaseCriteria: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotJob.IotJobJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteria,
+	RateIncreaseCriteria: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotJob.IotJobJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteria,
 }
 ```
 
@@ -1906,7 +1906,7 @@ BaseRatePerMinute *f64
 
 The minimum number of things that will be notified of a pending job, per minute at the start of job rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#base_rate_per_minute IotJob#base_rate_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#base_rate_per_minute IotJob#base_rate_per_minute}
 
 ---
 
@@ -1920,7 +1920,7 @@ IncrementFactor *f64
 
 The exponential factor to increase the rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#increment_factor IotJob#increment_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#increment_factor IotJob#increment_factor}
 
 ---
 
@@ -1934,7 +1934,7 @@ RateIncreaseCriteria IotJobJobExecutionsRolloutConfigExponentialRateRateIncrease
 
 Allows you to define a criteria to initiate the increase in rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#rate_increase_criteria IotJob#rate_increase_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#rate_increase_criteria IotJob#rate_increase_criteria}
 
 ---
 
@@ -1943,7 +1943,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteria {
 	NumberOfNotifiedThings: *f64,
@@ -1970,7 +1970,7 @@ NumberOfNotifiedThings *f64
 
 The threshold for number of notified things that will initiate the increase in rate of rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#number_of_notified_things IotJob#number_of_notified_things}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#number_of_notified_things IotJob#number_of_notified_things}
 
 ---
 
@@ -1984,7 +1984,7 @@ NumberOfSucceededThings *f64
 
 The threshold for number of succeeded things that will initiate the increase in rate of rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#number_of_succeeded_things IotJob#number_of_succeeded_things}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#number_of_succeeded_things IotJob#number_of_succeeded_things}
 
 ---
 
@@ -1993,7 +1993,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobPresignedUrlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobPresignedUrlConfig {
 	ExpiresInSec: *f64,
@@ -2022,7 +2022,7 @@ How long (in seconds) pre-signed URLs are valid.
 
 Valid values are 60 - 3600, the default value is 3600 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#expires_in_sec IotJob#expires_in_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#expires_in_sec IotJob#expires_in_sec}
 
 ---
 
@@ -2036,7 +2036,7 @@ RoleArn *string
 
 The ARN of an IAM role that grants permission to download files from the S3 bucket where the job data/updates are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#role_arn IotJob#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#role_arn IotJob#role_arn}
 
 ---
 
@@ -2045,7 +2045,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobSchedulingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobSchedulingConfig {
 	EndBehavior: *string,
@@ -2076,7 +2076,7 @@ EndBehavior *string
 
 Specifies the end behavior for all job executions after a job reaches the selected endTime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#end_behavior IotJob#end_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#end_behavior IotJob#end_behavior}
 
 ---
 
@@ -2090,7 +2090,7 @@ EndTime *string
 
 The time a job will stop rollout of the job document to all devices in the target group for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#end_time IotJob#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#end_time IotJob#end_time}
 
 ---
 
@@ -2104,7 +2104,7 @@ MaintenanceWindows interface{}
 
 An optional configuration within the SchedulingConfig to setup a recurring maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#maintenance_windows IotJob#maintenance_windows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#maintenance_windows IotJob#maintenance_windows}
 
 ---
 
@@ -2118,7 +2118,7 @@ StartTime *string
 
 The time a job will begin rollout of the job document to all devices in the target group for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#start_time IotJob#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#start_time IotJob#start_time}
 
 ---
 
@@ -2127,7 +2127,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobSchedulingConfigMaintenanceWindows.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobSchedulingConfigMaintenanceWindows {
 	DurationInMinutes: *f64,
@@ -2154,7 +2154,7 @@ DurationInMinutes *f64
 
 Displays the duration of the next maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#duration_in_minutes IotJob#duration_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#duration_in_minutes IotJob#duration_in_minutes}
 
 ---
 
@@ -2168,7 +2168,7 @@ StartTime *string
 
 Displays the start time of the next maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#start_time IotJob#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#start_time IotJob#start_time}
 
 ---
 
@@ -2177,7 +2177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobTags {
 	Key: *string,
@@ -2204,7 +2204,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#key IotJob#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#key IotJob#key}
 
 ---
 
@@ -2218,7 +2218,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#value IotJob#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#value IotJob#value}
 
 ---
 
@@ -2227,7 +2227,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotJob.IotJobTimeoutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 &iotjob.IotJobTimeoutConfig {
 	InProgressTimeoutInMinutes: *f64,
@@ -2254,7 +2254,7 @@ Specifies the amount of time, in minutes, this device has to finish execution of
 
 The timeout interval can be anywhere between 1 minute and 7 days (1 to 10080 minutes).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_job#in_progress_timeout_in_minutes IotJob#in_progress_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_job#in_progress_timeout_in_minutes IotJob#in_progress_timeout_in_minutes}
 
 ---
 
@@ -2265,7 +2265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobAbortConfigCriteriaListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobAbortConfigCriteriaListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotJobAbortConfigCriteriaListStructList
 ```
@@ -2425,7 +2425,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobAbortConfigCriteriaListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobAbortConfigCriteriaListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotJobAbortConfigCriteriaListStructOutputReference
 ```
@@ -2808,7 +2808,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobAbortConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobAbortConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotJobAbortConfigOutputReference
 ```
@@ -3099,7 +3099,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobJobExecutionsRetryConfigCriteriaListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobJobExecutionsRetryConfigCriteriaListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotJobJobExecutionsRetryConfigCriteriaListStructList
 ```
@@ -3259,7 +3259,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobJobExecutionsRetryConfigCriteriaListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobJobExecutionsRetryConfigCriteriaListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotJobJobExecutionsRetryConfigCriteriaListStructOutputReference
 ```
@@ -3584,7 +3584,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobJobExecutionsRetryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobJobExecutionsRetryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotJobJobExecutionsRetryConfigOutputReference
 ```
@@ -3875,7 +3875,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobJobExecutionsRolloutConfigExponentialRateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobJobExecutionsRolloutConfigExponentialRateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotJobJobExecutionsRolloutConfigExponentialRateOutputReference
 ```
@@ -4224,7 +4224,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotJobJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteriaOutputReference
 ```
@@ -4531,7 +4531,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobJobExecutionsRolloutConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobJobExecutionsRolloutConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotJobJobExecutionsRolloutConfigOutputReference
 ```
@@ -4851,7 +4851,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobPresignedUrlConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobPresignedUrlConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotJobPresignedUrlConfigOutputReference
 ```
@@ -5158,7 +5158,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobSchedulingConfigMaintenanceWindowsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobSchedulingConfigMaintenanceWindowsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotJobSchedulingConfigMaintenanceWindowsList
 ```
@@ -5318,7 +5318,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobSchedulingConfigMaintenanceWindowsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobSchedulingConfigMaintenanceWindowsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotJobSchedulingConfigMaintenanceWindowsOutputReference
 ```
@@ -5643,7 +5643,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobSchedulingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobSchedulingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotJobSchedulingConfigOutputReference
 ```
@@ -6021,7 +6021,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotJobTagsList
 ```
@@ -6181,7 +6181,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotJobTagsOutputReference
 ```
@@ -6506,7 +6506,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJobTimeoutConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotjob"
 
 iotjob.NewIotJobTimeoutConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotJobTimeoutConfigOutputReference
 ```

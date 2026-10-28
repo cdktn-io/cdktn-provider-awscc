@@ -4,12 +4,12 @@
 
 ### DataAwsccSecretsmanagerResourcePolicies <a name="DataAwsccSecretsmanagerResourcePolicies" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerResourcePolicies.DataAwsccSecretsmanagerResourcePolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_resource_policies awscc_secretsmanager_resource_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_resource_policies awscc_secretsmanager_resource_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerResourcePolicies.DataAwsccSecretsmanagerResourcePolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerresourcepolicies"
 
 dataawsccsecretsmanagerresourcepolicies.NewDataAwsccSecretsmanagerResourcePolicies(scope Construct, id *string, config DataAwsccSecretsmanagerResourcePoliciesConfig) DataAwsccSecretsmanagerResourcePolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerResourcePolicies.DataAwsccSecretsmanagerResourcePolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerresourcepolicies"
 
 dataawsccsecretsmanagerresourcepolicies.DataAwsccSecretsmanagerResourcePolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerResourcePolicies.DataAwsccSecretsmanagerResourcePolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerresourcepolicies"
 
 dataawsccsecretsmanagerresourcepolicies.DataAwsccSecretsmanagerResourcePolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecretsmanagerresourcepolicies.DataAwsccSecretsmanagerResourcePolicies_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerResourcePolicies.DataAwsccSecretsmanagerResourcePolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerresourcepolicies"
 
 dataawsccsecretsmanagerresourcepolicies.DataAwsccSecretsmanagerResourcePolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecretsmanagerresourcepolicies.DataAwsccSecretsmanagerResourcePolicies_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerResourcePolicies.DataAwsccSecretsmanagerResourcePolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerresourcepolicies"
 
 dataawsccsecretsmanagerresourcepolicies.DataAwsccSecretsmanagerResourcePolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecretsmanagerRes
 
 The id of the existing DataAwsccSecretsmanagerResourcePolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_resource_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_resource_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerResourcePolicies.DataAwsccSecretsmanagerResourcePoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerresourcepolicies"
 
 &dataawsccsecretsmanagerresourcepolicies.DataAwsccSecretsmanagerResourcePoliciesConfig {
 	Connection: interface{},

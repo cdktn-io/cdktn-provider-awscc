@@ -4,12 +4,12 @@
 
 ### DataAwsccEcsCapacityProviders <a name="DataAwsccEcsCapacityProviders" id="@cdktn/provider-awscc.dataAwsccEcsCapacityProviders.DataAwsccEcsCapacityProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_capacity_providers awscc_ecs_capacity_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_capacity_providers awscc_ecs_capacity_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsCapacityProviders.DataAwsccEcsCapacityProviders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecscapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecscapacityproviders"
 
 dataawsccecscapacityproviders.NewDataAwsccEcsCapacityProviders(scope Construct, id *string, config DataAwsccEcsCapacityProvidersConfig) DataAwsccEcsCapacityProviders
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcsCapacityProviders.DataAwsccEcsCapacityProviders.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecscapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecscapacityproviders"
 
 dataawsccecscapacityproviders.DataAwsccEcsCapacityProviders_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcsCapacityProviders.DataAwsccEcsCapacityProviders.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecscapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecscapacityproviders"
 
 dataawsccecscapacityproviders.DataAwsccEcsCapacityProviders_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecscapacityproviders.DataAwsccEcsCapacityProviders_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcsCapacityProviders.DataAwsccEcsCapacityProviders.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecscapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecscapacityproviders"
 
 dataawsccecscapacityproviders.DataAwsccEcsCapacityProviders_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecscapacityproviders.DataAwsccEcsCapacityProviders_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcsCapacityProviders.DataAwsccEcsCapacityProviders.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecscapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecscapacityproviders"
 
 dataawsccecscapacityproviders.DataAwsccEcsCapacityProviders_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcsCapacityProvid
 
 The id of the existing DataAwsccEcsCapacityProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_capacity_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_capacity_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsCapacityProviders.DataAwsccEcsCapacityProvidersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecscapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecscapacityproviders"
 
 &dataawsccecscapacityproviders.DataAwsccEcsCapacityProvidersConfig {
 	Connection: interface{},

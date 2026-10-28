@@ -4,12 +4,12 @@
 
 ### DataAwsccFsxDataRepositoryAssociations <a name="DataAwsccFsxDataRepositoryAssociations" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociations.DataAwsccFsxDataRepositoryAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_data_repository_associations awscc_fsx_data_repository_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_data_repository_associations awscc_fsx_data_repository_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociations.DataAwsccFsxDataRepositoryAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociations"
 
 dataawsccfsxdatarepositoryassociations.NewDataAwsccFsxDataRepositoryAssociations(scope Construct, id *string, config DataAwsccFsxDataRepositoryAssociationsConfig) DataAwsccFsxDataRepositoryAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociations.DataAwsccFsxDataRepositoryAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociations"
 
 dataawsccfsxdatarepositoryassociations.DataAwsccFsxDataRepositoryAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociations.DataAwsccFsxDataRepositoryAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociations"
 
 dataawsccfsxdatarepositoryassociations.DataAwsccFsxDataRepositoryAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfsxdatarepositoryassociations.DataAwsccFsxDataRepositoryAssociations_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociations.DataAwsccFsxDataRepositoryAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociations"
 
 dataawsccfsxdatarepositoryassociations.DataAwsccFsxDataRepositoryAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfsxdatarepositoryassociations.DataAwsccFsxDataRepositoryAssociations_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociations.DataAwsccFsxDataRepositoryAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociations"
 
 dataawsccfsxdatarepositoryassociations.DataAwsccFsxDataRepositoryAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFsxDataRepository
 
 The id of the existing DataAwsccFsxDataRepositoryAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_data_repository_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_data_repository_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociations.DataAwsccFsxDataRepositoryAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociations"
 
 &dataawsccfsxdatarepositoryassociations.DataAwsccFsxDataRepositoryAssociationsConfig {
 	Connection: interface{},

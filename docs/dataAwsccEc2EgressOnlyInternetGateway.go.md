@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2EgressOnlyInternetGateway <a name="DataAwsccEc2EgressOnlyInternetGateway" id="@cdktn/provider-awscc.dataAwsccEc2EgressOnlyInternetGateway.DataAwsccEc2EgressOnlyInternetGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2EgressOnlyInternetGateway.DataAwsccEc2EgressOnlyInternetGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2egressonlyinternetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2egressonlyinternetgateway"
 
 dataawsccec2egressonlyinternetgateway.NewDataAwsccEc2EgressOnlyInternetGateway(scope Construct, id *string, config DataAwsccEc2EgressOnlyInternetGatewayConfig) DataAwsccEc2EgressOnlyInternetGateway
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2EgressOnlyInternetGateway.DataAwsccEc2EgressOnlyInternetGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2egressonlyinternetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2egressonlyinternetgateway"
 
 dataawsccec2egressonlyinternetgateway.DataAwsccEc2EgressOnlyInternetGateway_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2EgressOnlyInternetGateway.DataAwsccEc2EgressOnlyInternetGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2egressonlyinternetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2egressonlyinternetgateway"
 
 dataawsccec2egressonlyinternetgateway.DataAwsccEc2EgressOnlyInternetGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2egressonlyinternetgateway.DataAwsccEc2EgressOnlyInternetGateway_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2EgressOnlyInternetGateway.DataAwsccEc2EgressOnlyInternetGateway.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2egressonlyinternetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2egressonlyinternetgateway"
 
 dataawsccec2egressonlyinternetgateway.DataAwsccEc2EgressOnlyInternetGateway_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2egressonlyinternetgateway.DataAwsccEc2EgressOnlyInternetGateway_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2EgressOnlyInternetGateway.DataAwsccEc2EgressOnlyInternetGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2egressonlyinternetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2egressonlyinternetgateway"
 
 dataawsccec2egressonlyinternetgateway.DataAwsccEc2EgressOnlyInternetGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2EgressOnlyInte
 
 The id of the existing DataAwsccEc2EgressOnlyInternetGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_egress_only_internet_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_egress_only_internet_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2EgressOnlyInternetGateway.DataAwsccEc2EgressOnlyInternetGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2egressonlyinternetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2egressonlyinternetgateway"
 
 &dataawsccec2egressonlyinternetgateway.DataAwsccEc2EgressOnlyInternetGatewayConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_egress_only_internet_gateway#id DataAwsccEc2EgressOnlyInternetGateway#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_egress_only_internet_gateway#id DataAwsccEc2EgressOnlyInternetGateway#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2EgressOnlyInternetGateway.DataAwsccEc2EgressOnlyInternetGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2egressonlyinternetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2egressonlyinternetgateway"
 
 &dataawsccec2egressonlyinternetgateway.DataAwsccEc2EgressOnlyInternetGatewayTags {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2egressonly
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2EgressOnlyInternetGateway.DataAwsccEc2EgressOnlyInternetGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2egressonlyinternetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2egressonlyinternetgateway"
 
 dataawsccec2egressonlyinternetgateway.NewDataAwsccEc2EgressOnlyInternetGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2EgressOnlyInternetGatewayTagsList
 ```
@@ -905,7 +905,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2EgressOnlyInternetGateway.DataAwsccEc2EgressOnlyInternetGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2egressonlyinternetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2egressonlyinternetgateway"
 
 dataawsccec2egressonlyinternetgateway.NewDataAwsccEc2EgressOnlyInternetGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2EgressOnlyInternetGatewayTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspaceswebIpAccessSettingsPlural <a name="DataAwsccWorkspaceswebIpAccessSettingsPlural" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebIpAccessSettingsPlural.DataAwsccWorkspaceswebIpAccessSettingsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_ip_access_settings_plural awscc_workspacesweb_ip_access_settings_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_ip_access_settings_plural awscc_workspacesweb_ip_access_settings_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebIpAccessSettingsPlural.DataAwsccWorkspaceswebIpAccessSettingsPlural.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebipaccesssettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebipaccesssettingsplural"
 
 dataawsccworkspaceswebipaccesssettingsplural.NewDataAwsccWorkspaceswebIpAccessSettingsPlural(scope Construct, id *string, config DataAwsccWorkspaceswebIpAccessSettingsPluralConfig) DataAwsccWorkspaceswebIpAccessSettingsPlural
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebIpAccessSettingsPlural.DataAwsccWorkspaceswebIpAccessSettingsPlural.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebipaccesssettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebipaccesssettingsplural"
 
 dataawsccworkspaceswebipaccesssettingsplural.DataAwsccWorkspaceswebIpAccessSettingsPlural_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebIpAccessSettingsPlural.DataAwsccWorkspaceswebIpAccessSettingsPlural.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebipaccesssettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebipaccesssettingsplural"
 
 dataawsccworkspaceswebipaccesssettingsplural.DataAwsccWorkspaceswebIpAccessSettingsPlural_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspaceswebipaccesssettingsplural.DataAwsccWorkspaceswebIpAccessSetti
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebIpAccessSettingsPlural.DataAwsccWorkspaceswebIpAccessSettingsPlural.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebipaccesssettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebipaccesssettingsplural"
 
 dataawsccworkspaceswebipaccesssettingsplural.DataAwsccWorkspaceswebIpAccessSettingsPlural_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspaceswebipaccesssettingsplural.DataAwsccWorkspaceswebIpAccessSetti
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebIpAccessSettingsPlural.DataAwsccWorkspaceswebIpAccessSettingsPlural.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebipaccesssettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebipaccesssettingsplural"
 
 dataawsccworkspaceswebipaccesssettingsplural.DataAwsccWorkspaceswebIpAccessSettingsPlural_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebIpAc
 
 The id of the existing DataAwsccWorkspaceswebIpAccessSettingsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_ip_access_settings_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_ip_access_settings_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebIpAccessSettingsPlural.DataAwsccWorkspaceswebIpAccessSettingsPluralConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebipaccesssettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebipaccesssettingsplural"
 
 &dataawsccworkspaceswebipaccesssettingsplural.DataAwsccWorkspaceswebIpAccessSettingsPluralConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### CloudfrontOriginRequestPolicy <a name="CloudfrontOriginRequestPolicy" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy awscc_cloudfront_origin_request_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy awscc_cloudfront_origin_request_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 cloudfrontoriginrequestpolicy.NewCloudfrontOriginRequestPolicy(scope Construct, id *string, config CloudfrontOriginRequestPolicyConfig) CloudfrontOriginRequestPolicy
 ```
@@ -413,7 +413,7 @@ func PutOriginRequestPolicyConfig(value CloudfrontOriginRequestPolicyOriginReque
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 cloudfrontoriginrequestpolicy.CloudfrontOriginRequestPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 cloudfrontoriginrequestpolicy.CloudfrontOriginRequestPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ cloudfrontoriginrequestpolicy.CloudfrontOriginRequestPolicy_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 cloudfrontoriginrequestpolicy.CloudfrontOriginRequestPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ cloudfrontoriginrequestpolicy.CloudfrontOriginRequestPolicy_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 cloudfrontoriginrequestpolicy.CloudfrontOriginRequestPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the CloudfrontOriginRequestPol
 
 The id of the existing CloudfrontOriginRequestPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -757,7 +757,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 &cloudfrontoriginrequestpolicy.CloudfrontOriginRequestPolicyConfig {
 	Connection: interface{},
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginreques
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	OriginRequestPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfig,
+	OriginRequestPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfig,
 }
 ```
 
@@ -866,7 +866,7 @@ OriginRequestPolicyConfig CloudfrontOriginRequestPolicyOriginRequestPolicyConfig
 
 The origin request policy configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#origin_request_policy_config CloudfrontOriginRequestPolicy#origin_request_policy_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#origin_request_policy_config CloudfrontOriginRequestPolicy#origin_request_policy_config}
 
 ---
 
@@ -875,13 +875,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 &cloudfrontoriginrequestpolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfig {
-	CookiesConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigCookiesConfig,
-	HeadersConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigHeadersConfig,
+	CookiesConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigCookiesConfig,
+	HeadersConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigHeadersConfig,
 	Name: *string,
-	QueryStringsConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigQueryStringsConfig,
+	QueryStringsConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigQueryStringsConfig,
 	Comment: *string,
 }
 ```
@@ -908,7 +908,7 @@ CookiesConfig CloudfrontOriginRequestPolicyOriginRequestPolicyConfigCookiesConfi
 
 The cookies from viewer requests to include in origin requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#cookies_config CloudfrontOriginRequestPolicy#cookies_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#cookies_config CloudfrontOriginRequestPolicy#cookies_config}
 
 ---
 
@@ -924,7 +924,7 @@ The HTTP headers to include in origin requests.
 
 These can include headers from viewer requests and additional headers added by CloudFront.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#headers_config CloudfrontOriginRequestPolicy#headers_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#headers_config CloudfrontOriginRequestPolicy#headers_config}
 
 ---
 
@@ -938,7 +938,7 @@ Name *string
 
 A unique name to identify the origin request policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#name CloudfrontOriginRequestPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#name CloudfrontOriginRequestPolicy#name}
 
 ---
 
@@ -952,7 +952,7 @@ QueryStringsConfig CloudfrontOriginRequestPolicyOriginRequestPolicyConfigQuerySt
 
 The URL query strings from viewer requests to include in origin requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#query_strings_config CloudfrontOriginRequestPolicy#query_strings_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#query_strings_config CloudfrontOriginRequestPolicy#query_strings_config}
 
 ---
 
@@ -966,7 +966,7 @@ Comment *string
 
 A comment to describe the origin request policy. The comment cannot be longer than 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#comment CloudfrontOriginRequestPolicy#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#comment CloudfrontOriginRequestPolicy#comment}
 
 ---
 
@@ -975,7 +975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigCookiesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 &cloudfrontoriginrequestpolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigCookiesConfig {
 	CookieBehavior: *string,
@@ -1009,7 +1009,7 @@ Valid values are:
 * `all` ? All cookies in viewer requests are included in requests that CloudFront sends to the origin.
 * `allExcept` ? All cookies in viewer requests are included in requests that CloudFront sends to the origin, *except* for those listed in the `CookieNames` type, which are not included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#cookie_behavior CloudfrontOriginRequestPolicy#cookie_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#cookie_behavior CloudfrontOriginRequestPolicy#cookie_behavior}
 
 ---
 
@@ -1023,7 +1023,7 @@ Cookies *[]*string
 
 Contains a list of cookie names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#cookies CloudfrontOriginRequestPolicy#cookies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#cookies CloudfrontOriginRequestPolicy#cookies}
 
 ---
 
@@ -1032,7 +1032,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigHeadersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 &cloudfrontoriginrequestpolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigHeadersConfig {
 	HeaderBehavior: *string,
@@ -1067,7 +1067,7 @@ Valid values are:
 * `allViewerAndWhitelistCloudFront` ? All HTTP headers in viewer requests and the additional CloudFront headers that are listed in the `Headers` type are included in requests that CloudFront sends to the origin. The additional headers are added by CloudFront.
 * `allExcept` ? All HTTP headers in viewer requests are included in requests that CloudFront sends to the origin, *except* for those listed in the `Headers` type, which are not included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#header_behavior CloudfrontOriginRequestPolicy#header_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#header_behavior CloudfrontOriginRequestPolicy#header_behavior}
 
 ---
 
@@ -1081,7 +1081,7 @@ Headers *[]*string
 
 Contains a list of HTTP header names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#headers CloudfrontOriginRequestPolicy#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#headers CloudfrontOriginRequestPolicy#headers}
 
 ---
 
@@ -1090,7 +1090,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigQueryStringsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 &cloudfrontoriginrequestpolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigQueryStringsConfig {
 	QueryStringBehavior: *string,
@@ -1124,7 +1124,7 @@ Valid values are:
 * `all` ? All query strings in viewer requests are included in requests that CloudFront sends to the origin.
 * `allExcept` ? All query strings in viewer requests are included in requests that CloudFront sends to the origin, *except* for those listed in the `QueryStringNames` type, which are not included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#query_string_behavior CloudfrontOriginRequestPolicy#query_string_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#query_string_behavior CloudfrontOriginRequestPolicy#query_string_behavior}
 
 ---
 
@@ -1138,7 +1138,7 @@ QueryStrings *[]*string
 
 Contains a list of query string names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy#query_strings CloudfrontOriginRequestPolicy#query_strings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy#query_strings CloudfrontOriginRequestPolicy#query_strings}
 
 ---
 
@@ -1149,7 +1149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigCookiesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 cloudfrontoriginrequestpolicy.NewCloudfrontOriginRequestPolicyOriginRequestPolicyConfigCookiesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontOriginRequestPolicyOriginRequestPolicyConfigCookiesConfigOutputReference
 ```
@@ -1449,7 +1449,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigHeadersConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 cloudfrontoriginrequestpolicy.NewCloudfrontOriginRequestPolicyOriginRequestPolicyConfigHeadersConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontOriginRequestPolicyOriginRequestPolicyConfigHeadersConfigOutputReference
 ```
@@ -1749,7 +1749,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 cloudfrontoriginrequestpolicy.NewCloudfrontOriginRequestPolicyOriginRequestPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontOriginRequestPolicyOriginRequestPolicyConfigOutputReference
 ```
@@ -2154,7 +2154,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyOriginRequestPolicyConfigQueryStringsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy"
 
 cloudfrontoriginrequestpolicy.NewCloudfrontOriginRequestPolicyOriginRequestPolicyConfigQueryStringsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontOriginRequestPolicyOriginRequestPolicyConfigQueryStringsConfigOutputReference
 ```

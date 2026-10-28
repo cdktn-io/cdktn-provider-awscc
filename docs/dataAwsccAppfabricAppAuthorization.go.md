@@ -4,12 +4,12 @@
 
 ### DataAwsccAppfabricAppAuthorization <a name="DataAwsccAppfabricAppAuthorization" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorization"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appfabric_app_authorization awscc_appfabric_app_authorization}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appfabric_app_authorization awscc_appfabric_app_authorization}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 dataawsccappfabricappauthorization.NewDataAwsccAppfabricAppAuthorization(scope Construct, id *string, config DataAwsccAppfabricAppAuthorizationConfig) DataAwsccAppfabricAppAuthorization
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorization.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorization_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorization.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorization_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorization_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorization.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorization_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorization_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorization.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorization_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppfabricAppAutho
 
 The id of the existing DataAwsccAppfabricAppAuthorization that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appfabric_app_authorization#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appfabric_app_authorization#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 &dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorizationConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appfabric_app_authorization#id DataAwsccAppfabricAppAuthorization#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appfabric_app_authorization#id DataAwsccAppfabricAppAuthorization#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 &dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorizationCredential {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationCredentialApiKeyCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 &dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorizationCredentialApiKeyCredential {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationCredentialOauth2Credential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 &dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorizationCredentialOauth2Credential {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 &dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorizationTags {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationTenant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 &dataawsccappfabricappauthorization.DataAwsccAppfabricAppAuthorizationTenant {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 dataawsccappfabricappauthorization.NewDataAwsccAppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference
 ```
@@ -1178,7 +1178,7 @@ func InternalValue() DataAwsccAppfabricAppAuthorizationCredentialApiKeyCredentia
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationCredentialOauth2CredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 dataawsccappfabricappauthorization.NewDataAwsccAppfabricAppAuthorizationCredentialOauth2CredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppfabricAppAuthorizationCredentialOauth2CredentialOutputReference
 ```
@@ -1449,7 +1449,7 @@ func InternalValue() DataAwsccAppfabricAppAuthorizationCredentialOauth2Credentia
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 dataawsccappfabricappauthorization.NewDataAwsccAppfabricAppAuthorizationCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppfabricAppAuthorizationCredentialOutputReference
 ```
@@ -1720,7 +1720,7 @@ func InternalValue() DataAwsccAppfabricAppAuthorizationCredential
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 dataawsccappfabricappauthorization.NewDataAwsccAppfabricAppAuthorizationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppfabricAppAuthorizationTagsList
 ```
@@ -1869,7 +1869,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 dataawsccappfabricappauthorization.NewDataAwsccAppfabricAppAuthorizationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppfabricAppAuthorizationTagsOutputReference
 ```
@@ -2158,7 +2158,7 @@ func InternalValue() DataAwsccAppfabricAppAuthorizationTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppfabricAppAuthorization.DataAwsccAppfabricAppAuthorizationTenantOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization"
 
 dataawsccappfabricappauthorization.NewDataAwsccAppfabricAppAuthorizationTenantOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppfabricAppAuthorizationTenantOutputReference
 ```

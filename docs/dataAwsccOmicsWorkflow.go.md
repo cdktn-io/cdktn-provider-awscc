@@ -4,12 +4,12 @@
 
 ### DataAwsccOmicsWorkflow <a name="DataAwsccOmicsWorkflow" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflow.DataAwsccOmicsWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_workflow awscc_omics_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_workflow awscc_omics_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflow.DataAwsccOmicsWorkflow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflow"
 
 dataawsccomicsworkflow.NewDataAwsccOmicsWorkflow(scope Construct, id *string, config DataAwsccOmicsWorkflowConfig) DataAwsccOmicsWorkflow
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflow.DataAwsccOmicsWorkflow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflow"
 
 dataawsccomicsworkflow.DataAwsccOmicsWorkflow_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflow.DataAwsccOmicsWorkflow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflow"
 
 dataawsccomicsworkflow.DataAwsccOmicsWorkflow_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccomicsworkflow.DataAwsccOmicsWorkflow_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflow.DataAwsccOmicsWorkflow.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflow"
 
 dataawsccomicsworkflow.DataAwsccOmicsWorkflow_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccomicsworkflow.DataAwsccOmicsWorkflow_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflow.DataAwsccOmicsWorkflow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflow"
 
 dataawsccomicsworkflow.DataAwsccOmicsWorkflow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOmicsWorkflow to 
 
 The id of the existing DataAwsccOmicsWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflow.DataAwsccOmicsWorkflowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflow"
 
 &dataawsccomicsworkflow.DataAwsccOmicsWorkflowConfig {
 	Connection: interface{},
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_workflow#id DataAwsccOmicsWorkflow#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_workflow#id DataAwsccOmicsWorkflow#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflow.DataAwsccOmicsWorkflowParameterTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflow"
 
 &dataawsccomicsworkflow.DataAwsccOmicsWorkflowParameterTemplate {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflow
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflow.DataAwsccOmicsWorkflowParameterTemplateMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflow"
 
 dataawsccomicsworkflow.NewDataAwsccOmicsWorkflowParameterTemplateMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOmicsWorkflowParameterTemplateMap
 ```
@@ -1035,7 +1035,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflow.DataAwsccOmicsWorkflowParameterTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflow"
 
 dataawsccomicsworkflow.NewDataAwsccOmicsWorkflowParameterTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccOmicsWorkflowParameterTemplateOutputReference
 ```

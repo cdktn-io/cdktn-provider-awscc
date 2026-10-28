@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontContinuousDeploymentPolicy <a name="DataAwsccCloudfrontContinuousDeploymentPolicy" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_continuous_deployment_policy awscc_cloudfront_continuous_deployment_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_continuous_deployment_policy awscc_cloudfront_continuous_deployment_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.NewDataAwsccCloudfrontContinuousDeploymentPolicy(scope Construct, id *string, config DataAwsccCloudfrontContinuousDeploymentPolicyConfig) DataAwsccCloudfrontContinuousDeploymentPolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeplo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeplo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontContinu
 
 The id of the existing DataAwsccCloudfrontContinuousDeploymentPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_continuous_deployment_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_continuous_deployment_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 &dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicyConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_continuous_deployment_policy#id DataAwsccCloudfrontContinuousDeploymentPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_continuous_deployment_policy#id DataAwsccCloudfrontContinuousDeploymentPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 &dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfig {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleHeaderPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 &dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleHeaderPolicyConfig {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleWeightPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 &dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleWeightPolicyConfig {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleWeightPolicyConfigSessionStickinessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 &dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleWeightPolicyConfigSessionStickinessConfig {
 
@@ -793,7 +793,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 &dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfig {
 
@@ -806,7 +806,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleHeaderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 &dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleHeaderConfig {
 
@@ -819,7 +819,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleWeightConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 &dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleWeightConfig {
 
@@ -832,7 +832,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleWeightConfigSessionStickinessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 &dataawscccloudfrontcontinuousdeploymentpolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleWeightConfigSessionStickinessConfig {
 
@@ -847,7 +847,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.NewDataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigOutputReference
 ```
@@ -1162,7 +1162,7 @@ func InternalValue() DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDepl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleHeaderPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.NewDataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleHeaderPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleHeaderPolicyConfigOutputReference
 ```
@@ -1433,7 +1433,7 @@ func InternalValue() DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDepl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleWeightPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.NewDataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleWeightPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleWeightPolicyConfigOutputReference
 ```
@@ -1704,7 +1704,7 @@ func InternalValue() DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDepl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleWeightPolicyConfigSessionStickinessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.NewDataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleWeightPolicyConfigSessionStickinessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigSingleWeightPolicyConfigSessionStickinessConfigOutputReference
 ```
@@ -1975,7 +1975,7 @@ func InternalValue() DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDepl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.NewDataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigOutputReference
 ```
@@ -2257,7 +2257,7 @@ func InternalValue() DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDepl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleHeaderConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.NewDataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleHeaderConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleHeaderConfigOutputReference
 ```
@@ -2528,7 +2528,7 @@ func InternalValue() DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDepl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleWeightConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.NewDataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleWeightConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleWeightConfigOutputReference
 ```
@@ -2799,7 +2799,7 @@ func InternalValue() DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDepl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicy.DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleWeightConfigSessionStickinessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicy"
 
 dataawscccloudfrontcontinuousdeploymentpolicy.NewDataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleWeightConfigSessionStickinessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfigTrafficConfigSingleWeightConfigSessionStickinessConfigOutputReference
 ```

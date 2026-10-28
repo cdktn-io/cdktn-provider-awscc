@@ -4,12 +4,12 @@
 
 ### CodedeployDeploymentGroup <a name="CodedeployDeploymentGroup" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroup(scope Construct, id *string, config CodedeployDeploymentGroupConfig) CodedeployDeploymentGroup
 ```
@@ -695,7 +695,7 @@ func ResetTriggerConfigurations()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.CodedeployDeploymentGroup_IsConstruct(x interface{}) *bool
 ```
@@ -727,7 +727,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.CodedeployDeploymentGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -741,7 +741,7 @@ codedeploydeploymentgroup.CodedeployDeploymentGroup_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.CodedeployDeploymentGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -755,7 +755,7 @@ codedeploydeploymentgroup.CodedeployDeploymentGroup_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.CodedeployDeploymentGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -784,7 +784,7 @@ The construct id used in the generated config for the CodedeployDeploymentGroup 
 
 The id of the existing CodedeployDeploymentGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1435,7 +1435,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupAlarmConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupAlarmConfiguration {
 	Alarms: interface{},
@@ -1464,7 +1464,7 @@ Alarms interface{}
 
 A list of alarms configured for the deployment or deployment group. A maximum of 10 alarms can be added.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#alarms CodedeployDeploymentGroup#alarms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#alarms CodedeployDeploymentGroup#alarms}
 
 ---
 
@@ -1478,7 +1478,7 @@ Enabled interface{}
 
 Indicates whether the alarm configuration is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#enabled CodedeployDeploymentGroup#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#enabled CodedeployDeploymentGroup#enabled}
 
 ---
 
@@ -1494,7 +1494,7 @@ Indicates whether a deployment should continue if information about the current 
 
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#ignore_poll_alarm_failure CodedeployDeploymentGroup#ignore_poll_alarm_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ignore_poll_alarm_failure CodedeployDeploymentGroup#ignore_poll_alarm_failure}
 
 ---
 
@@ -1503,7 +1503,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupAlarmConfigurationAlarms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupAlarmConfigurationAlarms {
 	Name: *string,
@@ -1530,7 +1530,7 @@ The name of the alarm.
 
 Maximum length is 255 characters. Each alarm name can be used only once in a list of alarms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
 
 ---
 
@@ -1539,7 +1539,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupAutoRollbackConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupAutoRollbackConfiguration {
 	Enabled: interface{},
@@ -1566,7 +1566,7 @@ Enabled interface{}
 
 Indicates whether a defined automatic rollback configuration is currently enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#enabled CodedeployDeploymentGroup#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#enabled CodedeployDeploymentGroup#enabled}
 
 ---
 
@@ -1580,7 +1580,7 @@ Events *[]*string
 
 The event type or types that trigger a rollback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#events CodedeployDeploymentGroup#events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#events CodedeployDeploymentGroup#events}
 
 ---
 
@@ -1589,12 +1589,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupBlueGreenDeploymentConfiguration {
-	DeploymentReadyOption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOption,
-	GreenFleetProvisioningOption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOption,
-	TerminateBlueInstancesOnDeploymentSuccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccess,
+	DeploymentReadyOption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOption,
+	GreenFleetProvisioningOption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOption,
+	TerminateBlueInstancesOnDeploymentSuccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccess,
 }
 ```
 
@@ -1618,7 +1618,7 @@ DeploymentReadyOption CodedeployDeploymentGroupBlueGreenDeploymentConfigurationD
 
 Information about the action to take when newly provisioned instances are ready to receive traffic in a blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#deployment_ready_option CodedeployDeploymentGroup#deployment_ready_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_ready_option CodedeployDeploymentGroup#deployment_ready_option}
 
 ---
 
@@ -1632,7 +1632,7 @@ GreenFleetProvisioningOption CodedeployDeploymentGroupBlueGreenDeploymentConfigu
 
 Information about how instances are provisioned for a replacement environment in a blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#green_fleet_provisioning_option CodedeployDeploymentGroup#green_fleet_provisioning_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#green_fleet_provisioning_option CodedeployDeploymentGroup#green_fleet_provisioning_option}
 
 ---
 
@@ -1646,7 +1646,7 @@ TerminateBlueInstancesOnDeploymentSuccess CodedeployDeploymentGroupBlueGreenDepl
 
 Information about whether to terminate instances in the original fleet during a blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#terminate_blue_instances_on_deployment_success CodedeployDeploymentGroup#terminate_blue_instances_on_deployment_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#terminate_blue_instances_on_deployment_success CodedeployDeploymentGroup#terminate_blue_instances_on_deployment_success}
 
 ---
 
@@ -1655,7 +1655,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOption {
 	ActionOnTimeout: *string,
@@ -1684,7 +1684,7 @@ Information about when to reroute traffic from an original environment to a repl
 
 CONTINUE_DEPLOYMENT: Register new instances with the load balancer immediately after the new application revision is installed on the instances in the replacement environment. STOP_DEPLOYMENT: Do not register new instances with a load balancer unless traffic rerouting is started using ContinueDeployment . If traffic rerouting is not started before the end of the specified wait period, the deployment status is changed to Stopped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#action_on_timeout CodedeployDeploymentGroup#action_on_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#action_on_timeout CodedeployDeploymentGroup#action_on_timeout}
 
 ---
 
@@ -1700,7 +1700,7 @@ The number of minutes to wait before the status of a blue/green deployment is ch
 
 Applies only to the STOP_DEPLOYMENT option for actionOnTimeout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#wait_time_in_minutes CodedeployDeploymentGroup#wait_time_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#wait_time_in_minutes CodedeployDeploymentGroup#wait_time_in_minutes}
 
 ---
 
@@ -1709,7 +1709,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOption {
 	Action: *string,
@@ -1734,7 +1734,7 @@ Action *string
 
 The method used to add instances to a replacement environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}
 
 ---
 
@@ -1743,7 +1743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccess {
 	Action: *string,
@@ -1770,7 +1770,7 @@ Action *string
 
 The action to take on instances in the original environment after a successful blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}
 
 ---
 
@@ -1786,7 +1786,7 @@ For an Amazon EC2 deployment, the number of minutes to wait after a successful b
 
 For an Amazon ECS deployment, the number of minutes before deleting the original (blue) task set. During an Amazon ECS deployment, CodeDeploy shifts traffic from the original (blue) task set to a replacement (green) task set. The maximum setting is 2880 minutes (2 days).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#termination_wait_time_in_minutes CodedeployDeploymentGroup#termination_wait_time_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#termination_wait_time_in_minutes CodedeployDeploymentGroup#termination_wait_time_in_minutes}
 
 ---
 
@@ -1795,7 +1795,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupConfig {
 	Connection: interface{},
@@ -1807,20 +1807,20 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgr
 	Provisioners: *[]interface{},
 	ApplicationName: *string,
 	ServiceRoleArn: *string,
-	AlarmConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupAlarmConfiguration,
-	AutoRollbackConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupAutoRollbackConfiguration,
+	AlarmConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupAlarmConfiguration,
+	AutoRollbackConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupAutoRollbackConfiguration,
 	AutoScalingGroups: *[]*string,
-	BlueGreenDeploymentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfiguration,
-	Deployment: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeployment,
+	BlueGreenDeploymentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfiguration,
+	Deployment: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupDeployment,
 	DeploymentConfigName: *string,
 	DeploymentGroupName: *string,
-	DeploymentStyle: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentStyle,
+	DeploymentStyle: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentStyle,
 	Ec2TagFilters: interface{},
-	Ec2TagSet: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSet,
+	Ec2TagSet: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSet,
 	EcsServices: interface{},
-	LoadBalancerInfo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfo,
+	LoadBalancerInfo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfo,
 	OnPremisesInstanceTagFilters: interface{},
-	OnPremisesTagSet: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesTagSet,
+	OnPremisesTagSet: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesTagSet,
 	OutdatedInstancesStrategy: *string,
 	Tags: interface{},
 	TerminationHookEnabled: interface{},
@@ -1942,7 +1942,7 @@ ApplicationName *string
 
 The name of an existing CodeDeploy application to associate this deployment group with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#application_name CodedeployDeploymentGroup#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#application_name CodedeployDeploymentGroup#application_name}
 
 ---
 
@@ -1958,7 +1958,7 @@ A service role Amazon Resource Name (ARN) that grants CodeDeploy permission to m
 
 For more information, see 'Create a Service Role for AWS CodeDeploy' in the AWS CodeDeploy User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#service_role_arn CodedeployDeploymentGroup#service_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#service_role_arn CodedeployDeploymentGroup#service_role_arn}
 
 ---
 
@@ -1972,7 +1972,7 @@ AlarmConfiguration CodedeployDeploymentGroupAlarmConfiguration
 
 Information about the Amazon CloudWatch alarms that are associated with the deployment group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#alarm_configuration CodedeployDeploymentGroup#alarm_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#alarm_configuration CodedeployDeploymentGroup#alarm_configuration}
 
 ---
 
@@ -1988,7 +1988,7 @@ Information about the automatic rollback configuration that is associated with t
 
 If you specify this property, don't specify the Deployment property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#auto_rollback_configuration CodedeployDeploymentGroup#auto_rollback_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#auto_rollback_configuration CodedeployDeploymentGroup#auto_rollback_configuration}
 
 ---
 
@@ -2004,7 +2004,7 @@ A list of associated Auto Scaling groups that CodeDeploy automatically deploys r
 
 Duplicates are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#auto_scaling_groups CodedeployDeploymentGroup#auto_scaling_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#auto_scaling_groups CodedeployDeploymentGroup#auto_scaling_groups}
 
 ---
 
@@ -2018,7 +2018,7 @@ BlueGreenDeploymentConfiguration CodedeployDeploymentGroupBlueGreenDeploymentCon
 
 Information about blue/green deployment options for a deployment group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#blue_green_deployment_configuration CodedeployDeploymentGroup#blue_green_deployment_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#blue_green_deployment_configuration CodedeployDeploymentGroup#blue_green_deployment_configuration}
 
 ---
 
@@ -2034,7 +2034,7 @@ The application revision to deploy to this deployment group.
 
 If you specify this property, your target application revision is deployed as soon as the provisioning process is complete. If you specify this property, don't specify the AutoRollbackConfiguration property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#deployment CodedeployDeploymentGroup#deployment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment CodedeployDeploymentGroup#deployment}
 
 ---
 
@@ -2050,7 +2050,7 @@ A deployment configuration name or a predefined configuration name.
 
 With predefined configurations, you can deploy application revisions to one instance at a time (CodeDeployDefault.OneAtATime), half of the instances at a time (CodeDeployDefault.HalfAtATime), or all the instances at once (CodeDeployDefault.AllAtOnce).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#deployment_config_name CodedeployDeploymentGroup#deployment_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_config_name CodedeployDeploymentGroup#deployment_config_name}
 
 ---
 
@@ -2066,7 +2066,7 @@ A name for the deployment group.
 
 If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the deployment group name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#deployment_group_name CodedeployDeploymentGroup#deployment_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_group_name CodedeployDeploymentGroup#deployment_group_name}
 
 ---
 
@@ -2082,7 +2082,7 @@ Attributes that determine the type of deployment to run and whether to route dep
 
 If you specify this property with a blue/green deployment type, don't specify the AutoScalingGroups, LoadBalancerInfo, or Deployment properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#deployment_style CodedeployDeploymentGroup#deployment_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_style CodedeployDeploymentGroup#deployment_style}
 
 ---
 
@@ -2098,7 +2098,7 @@ The Amazon EC2 tags that are already applied to Amazon EC2 instances that you wa
 
 CodeDeploy includes all Amazon EC2 instances identified by any of the tags you specify in this deployment group. Duplicates are not allowed. You can specify EC2TagFilters or Ec2TagSet, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#ec_2_tag_filters CodedeployDeploymentGroup#ec_2_tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ec_2_tag_filters CodedeployDeploymentGroup#ec_2_tag_filters}
 
 ---
 
@@ -2114,7 +2114,7 @@ Information about groups of tags applied to Amazon EC2 instances.
 
 Use when the deployment group includes only Amazon EC2 instances identified by all the tag groups. Cannot be used in the same call as ec2TagFilter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#ec_2_tag_set CodedeployDeploymentGroup#ec_2_tag_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ec_2_tag_set CodedeployDeploymentGroup#ec_2_tag_set}
 
 ---
 
@@ -2130,7 +2130,7 @@ The target Amazon ECS services in the deployment group.
 
 This applies only to deployment groups that use the Amazon ECS compute platform. A target Amazon ECS service is specified as an Amazon ECS cluster and service name pair using the format <clustername>:<servicename>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#ecs_services CodedeployDeploymentGroup#ecs_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ecs_services CodedeployDeploymentGroup#ecs_services}
 
 ---
 
@@ -2144,7 +2144,7 @@ LoadBalancerInfo CodedeployDeploymentGroupLoadBalancerInfo
 
 Information about the load balancer to use in a deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#load_balancer_info CodedeployDeploymentGroup#load_balancer_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#load_balancer_info CodedeployDeploymentGroup#load_balancer_info}
 
 ---
 
@@ -2160,7 +2160,7 @@ The on-premises instance tags already applied to on-premises instances that you 
 
 CodeDeploy includes all on-premises instances identified by any of the tags you specify in this deployment group. Duplicates are not allowed. You can specify OnPremisesInstanceTagFilters or OnPremisesInstanceTagSet, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#on_premises_instance_tag_filters CodedeployDeploymentGroup#on_premises_instance_tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#on_premises_instance_tag_filters CodedeployDeploymentGroup#on_premises_instance_tag_filters}
 
 ---
 
@@ -2176,7 +2176,7 @@ Information about groups of tags applied to on-premises instances.
 
 The deployment group includes only on-premises instances identified by all the tag groups. You can specify OnPremisesInstanceTagFilters or OnPremisesInstanceTagSet, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#on_premises_tag_set CodedeployDeploymentGroup#on_premises_tag_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#on_premises_tag_set CodedeployDeploymentGroup#on_premises_tag_set}
 
 ---
 
@@ -2192,7 +2192,7 @@ Indicates what happens when new Amazon EC2 instances are launched mid-deployment
 
 If this option is set to UPDATE or is unspecified, CodeDeploy initiates one or more 'auto-update outdated instances' deployments to apply the deployed application revision to the new Amazon EC2 instances. If this option is set to IGNORE, CodeDeploy does not initiate a deployment to update the new Amazon EC2 instances. This may result in instances having different revisions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#outdated_instances_strategy CodedeployDeploymentGroup#outdated_instances_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#outdated_instances_strategy CodedeployDeploymentGroup#outdated_instances_strategy}
 
 ---
 
@@ -2208,7 +2208,7 @@ The metadata that you apply to CodeDeploy deployment groups to help you organize
 
 Each tag consists of a key and an optional value, both of which you define.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#tags CodedeployDeploymentGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#tags CodedeployDeploymentGroup#tags}
 
 ---
 
@@ -2222,7 +2222,7 @@ TerminationHookEnabled interface{}
 
 Indicates whether the deployment group was configured to have CodeDeploy install a termination hook into an Auto Scaling group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#termination_hook_enabled CodedeployDeploymentGroup#termination_hook_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#termination_hook_enabled CodedeployDeploymentGroup#termination_hook_enabled}
 
 ---
 
@@ -2236,7 +2236,7 @@ TriggerConfigurations interface{}
 
 Information about triggers associated with the deployment group. Duplicates are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#trigger_configurations CodedeployDeploymentGroup#trigger_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#trigger_configurations CodedeployDeploymentGroup#trigger_configurations}
 
 ---
 
@@ -2245,12 +2245,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupDeployment {
 	Description: *string,
 	IgnoreApplicationStopFailures: interface{},
-	Revision: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevision,
+	Revision: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevision,
 }
 ```
 
@@ -2274,7 +2274,7 @@ Description *string
 
 A description of the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#description CodedeployDeploymentGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#description CodedeployDeploymentGroup#description}
 
 ---
 
@@ -2290,7 +2290,7 @@ If true, then if an ApplicationStop, BeforeBlockTraffic, or AfterBlockTraffic de
 
 If false or not specified, then if a lifecycle event fails during a deployment to an instance, that deployment fails. If deployment to that instance is part of an overall deployment and the number of healthy hosts is not less than the minimum number of healthy hosts, then a deployment to the next instance is attempted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#ignore_application_stop_failures CodedeployDeploymentGroup#ignore_application_stop_failures}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ignore_application_stop_failures CodedeployDeploymentGroup#ignore_application_stop_failures}
 
 ---
 
@@ -2304,7 +2304,7 @@ Revision CodedeployDeploymentGroupDeploymentRevision
 
 Information about the location of stored application artifacts and the service from which to retrieve them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#revision CodedeployDeploymentGroup#revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#revision CodedeployDeploymentGroup#revision}
 
 ---
 
@@ -2313,12 +2313,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevision.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupDeploymentRevision {
-	GitHubLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevisionGitHubLocation,
+	GitHubLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevisionGitHubLocation,
 	RevisionType: *string,
-	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevisionS3Location,
+	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevisionS3Location,
 }
 ```
 
@@ -2342,7 +2342,7 @@ GitHubLocation CodedeployDeploymentGroupDeploymentRevisionGitHubLocation
 
 Specifies the location of an application revision that is stored in GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#git_hub_location CodedeployDeploymentGroup#git_hub_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#git_hub_location CodedeployDeploymentGroup#git_hub_location}
 
 ---
 
@@ -2356,7 +2356,7 @@ RevisionType *string
 
 The type of application revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#revision_type CodedeployDeploymentGroup#revision_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#revision_type CodedeployDeploymentGroup#revision_type}
 
 ---
 
@@ -2370,7 +2370,7 @@ S3Location CodedeployDeploymentGroupDeploymentRevisionS3Location
 
 Information about the location of application artifacts stored in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#s3_location CodedeployDeploymentGroup#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#s3_location CodedeployDeploymentGroup#s3_location}
 
 ---
 
@@ -2379,7 +2379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevisionGitHubLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupDeploymentRevisionGitHubLocation {
 	CommitId: *string,
@@ -2406,7 +2406,7 @@ CommitId *string
 
 The SHA1 commit ID of the GitHub commit that represents the bundled artifacts for the application revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#commit_id CodedeployDeploymentGroup#commit_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#commit_id CodedeployDeploymentGroup#commit_id}
 
 ---
 
@@ -2420,7 +2420,7 @@ Repository *string
 
 The GitHub account and repository pair that stores the application revision to be deployed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#repository CodedeployDeploymentGroup#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#repository CodedeployDeploymentGroup#repository}
 
 ---
 
@@ -2429,7 +2429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevisionS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupDeploymentRevisionS3Location {
 	Bucket: *string,
@@ -2462,7 +2462,7 @@ Bucket *string
 
 The name of the Amazon S3 bucket where the application revision is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#bucket CodedeployDeploymentGroup#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#bucket CodedeployDeploymentGroup#bucket}
 
 ---
 
@@ -2476,7 +2476,7 @@ BundleType *string
 
 The file type of the application revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#bundle_type CodedeployDeploymentGroup#bundle_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#bundle_type CodedeployDeploymentGroup#bundle_type}
 
 ---
 
@@ -2492,7 +2492,7 @@ The ETag of the Amazon S3 object that represents the bundled artifacts for the a
 
 If the ETag is not specified as an input parameter, ETag validation of the object is skipped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#e_tag CodedeployDeploymentGroup#e_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#e_tag CodedeployDeploymentGroup#e_tag}
 
 ---
 
@@ -2506,7 +2506,7 @@ Key *string
 
 The name of the Amazon S3 object that represents the bundled artifacts for the application revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -2522,7 +2522,7 @@ A specific version of the Amazon S3 object that represents the bundled artifacts
 
 If the version is not specified, the system uses the most recent version by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#version CodedeployDeploymentGroup#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#version CodedeployDeploymentGroup#version}
 
 ---
 
@@ -2531,7 +2531,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentStyle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupDeploymentStyle {
 	DeploymentOption: *string,
@@ -2558,7 +2558,7 @@ DeploymentOption *string
 
 Indicates whether to route deployment traffic behind a load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#deployment_option CodedeployDeploymentGroup#deployment_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_option CodedeployDeploymentGroup#deployment_option}
 
 ---
 
@@ -2572,7 +2572,7 @@ DeploymentType *string
 
 Indicates whether to run an in-place or blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#deployment_type CodedeployDeploymentGroup#deployment_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_type CodedeployDeploymentGroup#deployment_type}
 
 ---
 
@@ -2581,7 +2581,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupEc2TagFilters {
 	Key: *string,
@@ -2610,7 +2610,7 @@ Key *string
 
 The tag filter key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -2624,7 +2624,7 @@ Type *string
 
 The tag filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
 
 ---
 
@@ -2638,7 +2638,7 @@ Value *string
 
 The tag filter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
 
 ---
 
@@ -2647,7 +2647,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupEc2TagSet {
 	Ec2TagSetList: interface{},
@@ -2674,7 +2674,7 @@ The Amazon EC2 tags that are already applied to Amazon EC2 instances that you wa
 
 CodeDeploy includes all Amazon EC2 instances identified by any of the tags you specify in this deployment group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#ec_2_tag_set_list CodedeployDeploymentGroup#ec_2_tag_set_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ec_2_tag_set_list CodedeployDeploymentGroup#ec_2_tag_set_list}
 
 ---
 
@@ -2683,7 +2683,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroup {
 	Key: *string,
@@ -2712,7 +2712,7 @@ Key *string
 
 The tag filter key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -2726,7 +2726,7 @@ Type *string
 
 The tag filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
 
 ---
 
@@ -2740,7 +2740,7 @@ Value *string
 
 The tag filter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
 
 ---
 
@@ -2749,7 +2749,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagSetListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupEc2TagSetEc2TagSetListStruct {
 	Ec2TagGroup: interface{},
@@ -2776,7 +2776,7 @@ A list that contains other lists of Amazon EC2 instance tag groups.
 
 For an instance to be included in the deployment group, it must be identified by all of the tag groups in the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#ec_2_tag_group CodedeployDeploymentGroup#ec_2_tag_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ec_2_tag_group CodedeployDeploymentGroup#ec_2_tag_group}
 
 ---
 
@@ -2785,7 +2785,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEcsServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupEcsServices {
 	ClusterName: *string,
@@ -2812,7 +2812,7 @@ ClusterName *string
 
 The name of the cluster that the Amazon ECS service is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#cluster_name CodedeployDeploymentGroup#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#cluster_name CodedeployDeploymentGroup#cluster_name}
 
 ---
 
@@ -2826,7 +2826,7 @@ ServiceName *string
 
 The name of the target Amazon ECS service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#service_name CodedeployDeploymentGroup#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#service_name CodedeployDeploymentGroup#service_name}
 
 ---
 
@@ -2835,7 +2835,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupLoadBalancerInfo {
 	ElbInfoList: interface{},
@@ -2866,7 +2866,7 @@ An array that contains information about the load balancers to use for load bala
 
 If you're using Classic Load Balancers, specify those load balancers in this array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#elb_info_list CodedeployDeploymentGroup#elb_info_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#elb_info_list CodedeployDeploymentGroup#elb_info_list}
 
 ---
 
@@ -2882,7 +2882,7 @@ An array that contains information about the target groups to use for load balan
 
 If you're using Application Load Balancers and Network Load Balancers, specify their associated target groups in this array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#target_group_info_list CodedeployDeploymentGroup#target_group_info_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#target_group_info_list CodedeployDeploymentGroup#target_group_info_list}
 
 ---
 
@@ -2896,7 +2896,7 @@ TargetGroupPairInfoList interface{}
 
 The target group pair information. This is an array of TargeGroupPairInfo objects with a maximum size of one.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#target_group_pair_info_list CodedeployDeploymentGroup#target_group_pair_info_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#target_group_pair_info_list CodedeployDeploymentGroup#target_group_pair_info_list}
 
 ---
 
@@ -2905,7 +2905,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoElbInfoListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupLoadBalancerInfoElbInfoListStruct {
 	Name: *string,
@@ -2932,7 +2932,7 @@ For blue/green deployments, the name of the load balancer that is used to route 
 
 For in-place deployments, the name of the load balancer that instances are deregistered from so they are not serving traffic during a deployment, and then re-registered with after the deployment is complete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
 
 ---
 
@@ -2941,7 +2941,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStruct {
 	Name: *string,
@@ -2968,7 +2968,7 @@ For blue/green deployments, the name of the target group that instances in the o
 
 For in-place deployments, the name of the target group that instances are deregistered from, so they are not serving traffic during a deployment, and then re-registered with after the deployment completes. No duplicates allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
 
 ---
 
@@ -2977,7 +2977,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRoute {
 	ListenerArns: *[]*string,
@@ -3004,7 +3004,7 @@ The Amazon Resource Name (ARN) of one listener.
 
 The listener identifies the route between a target group and a load balancer. This is an array of strings with a maximum size of one.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#listener_arns CodedeployDeploymentGroup#listener_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#listener_arns CodedeployDeploymentGroup#listener_arns}
 
 ---
 
@@ -3013,12 +3013,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStruct {
-	ProdTrafficRoute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRoute,
+	ProdTrafficRoute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRoute,
 	TargetGroups: interface{},
-	TestTrafficRoute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRoute,
+	TestTrafficRoute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRoute,
 }
 ```
 
@@ -3042,7 +3042,7 @@ ProdTrafficRoute CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoLis
 
 The path used by a load balancer to route production traffic when an Amazon ECS deployment is complete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#prod_traffic_route CodedeployDeploymentGroup#prod_traffic_route}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#prod_traffic_route CodedeployDeploymentGroup#prod_traffic_route}
 
 ---
 
@@ -3058,7 +3058,7 @@ One pair of target groups.
 
 One is associated with the original task set. The second is associated with the task set that serves traffic after the deployment is complete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#target_groups CodedeployDeploymentGroup#target_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#target_groups CodedeployDeploymentGroup#target_groups}
 
 ---
 
@@ -3074,7 +3074,7 @@ An optional path used by a load balancer to route test traffic after an Amazon E
 
 Validation can occur while test traffic is served during a deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#test_traffic_route CodedeployDeploymentGroup#test_traffic_route}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#test_traffic_route CodedeployDeploymentGroup#test_traffic_route}
 
 ---
 
@@ -3083,7 +3083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroups {
 	Name: *string,
@@ -3110,7 +3110,7 @@ For blue/green deployments, the name of the target group that instances in the o
 
 For in-place deployments, the name of the target group that instances are deregistered from, so they are not serving traffic during a deployment, and then re-registered with after the deployment completes. No duplicates allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
 
 ---
 
@@ -3119,7 +3119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRoute {
 	ListenerArns: *[]*string,
@@ -3146,7 +3146,7 @@ The Amazon Resource Name (ARN) of one listener.
 
 The listener identifies the route between a target group and a load balancer. This is an array of strings with a maximum size of one.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#listener_arns CodedeployDeploymentGroup#listener_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#listener_arns CodedeployDeploymentGroup#listener_arns}
 
 ---
 
@@ -3155,7 +3155,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesInstanceTagFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupOnPremisesInstanceTagFilters {
 	Key: *string,
@@ -3184,7 +3184,7 @@ Key *string
 
 The on-premises instance tag filter key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -3198,7 +3198,7 @@ Type *string
 
 The on-premises instance tag filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
 
 ---
 
@@ -3212,7 +3212,7 @@ Value *string
 
 The on-premises instance tag filter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
 
 ---
 
@@ -3221,7 +3221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesTagSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupOnPremisesTagSet {
 	OnPremisesTagSetList: interface{},
@@ -3248,7 +3248,7 @@ A list that contains other lists of on-premises instance tag groups.
 
 For an instance to be included in the deployment group, it must be identified by all of the tag groups in the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#on_premises_tag_set_list CodedeployDeploymentGroup#on_premises_tag_set_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#on_premises_tag_set_list CodedeployDeploymentGroup#on_premises_tag_set_list}
 
 ---
 
@@ -3257,7 +3257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroup {
 	Key: *string,
@@ -3286,7 +3286,7 @@ Key *string
 
 The on-premises instance tag filter key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -3300,7 +3300,7 @@ Type *string
 
 The on-premises instance tag filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
 
 ---
 
@@ -3314,7 +3314,7 @@ Value *string
 
 The on-premises instance tag filter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
 
 ---
 
@@ -3323,7 +3323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStruct {
 	OnPremisesTagGroup: interface{},
@@ -3348,7 +3348,7 @@ OnPremisesTagGroup interface{}
 
 Information about groups of on-premises instance tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#on_premises_tag_group CodedeployDeploymentGroup#on_premises_tag_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#on_premises_tag_group CodedeployDeploymentGroup#on_premises_tag_group}
 
 ---
 
@@ -3357,7 +3357,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupTags {
 	Key: *string,
@@ -3384,7 +3384,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -3398,7 +3398,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
 
 ---
 
@@ -3407,7 +3407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupTriggerConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 &codedeploydeploymentgroup.CodedeployDeploymentGroupTriggerConfigurations {
 	TriggerEvents: *[]*string,
@@ -3436,7 +3436,7 @@ TriggerEvents *[]*string
 
 The event type or types that trigger notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#trigger_events CodedeployDeploymentGroup#trigger_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#trigger_events CodedeployDeploymentGroup#trigger_events}
 
 ---
 
@@ -3450,7 +3450,7 @@ TriggerName *string
 
 The name of the notification trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#trigger_name CodedeployDeploymentGroup#trigger_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#trigger_name CodedeployDeploymentGroup#trigger_name}
 
 ---
 
@@ -3464,7 +3464,7 @@ TriggerTargetArn *string
 
 The Amazon Resource Name (ARN) of the Amazon Simple Notification Service topic through which notifications about deployment or instance events are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_deployment_group#trigger_target_arn CodedeployDeploymentGroup#trigger_target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#trigger_target_arn CodedeployDeploymentGroup#trigger_target_arn}
 
 ---
 
@@ -3475,7 +3475,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupAlarmConfigurationAlarmsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupAlarmConfigurationAlarmsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupAlarmConfigurationAlarmsList
 ```
@@ -3635,7 +3635,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupAlarmConfigurationAlarmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupAlarmConfigurationAlarmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupAlarmConfigurationAlarmsOutputReference
 ```
@@ -3931,7 +3931,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupAlarmConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupAlarmConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupAlarmConfigurationOutputReference
 ```
@@ -4280,7 +4280,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupAutoRollbackConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupAutoRollbackConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupAutoRollbackConfigurationOutputReference
 ```
@@ -4587,7 +4587,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOptionOutputReference
 ```
@@ -4894,7 +4894,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOptionOutputReference
 ```
@@ -5172,7 +5172,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupBlueGreenDeploymentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupBlueGreenDeploymentConfigurationOutputReference
 ```
@@ -5547,7 +5547,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccessOutputReference
 ```
@@ -5854,7 +5854,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupDeploymentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupDeploymentOutputReference
 ```
@@ -6203,7 +6203,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevisionGitHubLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupDeploymentRevisionGitHubLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupDeploymentRevisionGitHubLocationOutputReference
 ```
@@ -6510,7 +6510,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevisionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupDeploymentRevisionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupDeploymentRevisionOutputReference
 ```
@@ -6872,7 +6872,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentRevisionS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupDeploymentRevisionS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupDeploymentRevisionS3LocationOutputReference
 ```
@@ -7266,7 +7266,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentStyleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupDeploymentStyleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupDeploymentStyleOutputReference
 ```
@@ -7573,7 +7573,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupEc2TagFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupEc2TagFiltersList
 ```
@@ -7733,7 +7733,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupEc2TagFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupEc2TagFiltersOutputReference
 ```
@@ -8087,7 +8087,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupList
 ```
@@ -8247,7 +8247,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupOutputReference
 ```
@@ -8601,7 +8601,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagSetListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupEc2TagSetEc2TagSetListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupEc2TagSetEc2TagSetListStructList
 ```
@@ -8761,7 +8761,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagSetListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupEc2TagSetEc2TagSetListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupEc2TagSetEc2TagSetListStructOutputReference
 ```
@@ -9070,7 +9070,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupEc2TagSetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupEc2TagSetOutputReference
 ```
@@ -9361,7 +9361,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEcsServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupEcsServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupEcsServicesList
 ```
@@ -9521,7 +9521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEcsServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupEcsServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupEcsServicesOutputReference
 ```
@@ -9846,7 +9846,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructList
 ```
@@ -10006,7 +10006,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructOutputReference
 ```
@@ -10302,7 +10302,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupLoadBalancerInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupLoadBalancerInfoOutputReference
 ```
@@ -10677,7 +10677,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructList
 ```
@@ -10837,7 +10837,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructOutputReference
 ```
@@ -11133,7 +11133,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRouteOutputReference
 ```
@@ -11411,7 +11411,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructList
 ```
@@ -11571,7 +11571,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructOutputReference
 ```
@@ -11964,7 +11964,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsList
 ```
@@ -12124,7 +12124,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsOutputReference
 ```
@@ -12420,7 +12420,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRouteOutputReference
 ```
@@ -12698,7 +12698,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesInstanceTagFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupOnPremisesInstanceTagFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupOnPremisesInstanceTagFiltersList
 ```
@@ -12858,7 +12858,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesInstanceTagFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupOnPremisesInstanceTagFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupOnPremisesInstanceTagFiltersOutputReference
 ```
@@ -13212,7 +13212,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupList
 ```
@@ -13372,7 +13372,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupOutputReference
 ```
@@ -13726,7 +13726,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructList
 ```
@@ -13886,7 +13886,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructOutputReference
 ```
@@ -14195,7 +14195,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupOnPremisesTagSetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupOnPremisesTagSetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupOnPremisesTagSetOutputReference
 ```
@@ -14486,7 +14486,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupTagsList
 ```
@@ -14646,7 +14646,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupTagsOutputReference
 ```
@@ -14971,7 +14971,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupTriggerConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupTriggerConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployDeploymentGroupTriggerConfigurationsList
 ```
@@ -15131,7 +15131,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupTriggerConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
 
 codedeploydeploymentgroup.NewCodedeployDeploymentGroupTriggerConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupTriggerConfigurationsOutputReference
 ```

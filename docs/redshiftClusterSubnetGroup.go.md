@@ -4,12 +4,12 @@
 
 ### RedshiftClusterSubnetGroup <a name="RedshiftClusterSubnetGroup" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftclustersubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftclustersubnetgroup"
 
 redshiftclustersubnetgroup.NewRedshiftClusterSubnetGroup(scope Construct, id *string, config RedshiftClusterSubnetGroupConfig) RedshiftClusterSubnetGroup
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftclustersubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftclustersubnetgroup"
 
 redshiftclustersubnetgroup.RedshiftClusterSubnetGroup_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftclustersubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftclustersubnetgroup"
 
 redshiftclustersubnetgroup.RedshiftClusterSubnetGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ redshiftclustersubnetgroup.RedshiftClusterSubnetGroup_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftclustersubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftclustersubnetgroup"
 
 redshiftclustersubnetgroup.RedshiftClusterSubnetGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ redshiftclustersubnetgroup.RedshiftClusterSubnetGroup_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftclustersubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftclustersubnetgroup"
 
 redshiftclustersubnetgroup.RedshiftClusterSubnetGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the RedshiftClusterSubnetGroup
 
 The id of the existing RedshiftClusterSubnetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_cluster_subnet_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_cluster_subnet_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -797,7 +797,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftclustersubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftclustersubnetgroup"
 
 &redshiftclustersubnetgroup.RedshiftClusterSubnetGroupConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ Description *string
 
 The description of the parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_cluster_subnet_group#description RedshiftClusterSubnetGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_cluster_subnet_group#description RedshiftClusterSubnetGroup#description}
 
 ---
 
@@ -924,7 +924,7 @@ SubnetIds *[]*string
 
 The list of VPC subnet IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_cluster_subnet_group#subnet_ids RedshiftClusterSubnetGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_cluster_subnet_group#subnet_ids RedshiftClusterSubnetGroup#subnet_ids}
 
 ---
 
@@ -938,7 +938,7 @@ Tags interface{}
 
 The list of tags for the cluster parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_cluster_subnet_group#tags RedshiftClusterSubnetGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_cluster_subnet_group#tags RedshiftClusterSubnetGroup#tags}
 
 ---
 
@@ -947,7 +947,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftclustersubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftclustersubnetgroup"
 
 &redshiftclustersubnetgroup.RedshiftClusterSubnetGroupTags {
 	Key: *string,
@@ -976,7 +976,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_cluster_subnet_group#key RedshiftClusterSubnetGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_cluster_subnet_group#key RedshiftClusterSubnetGroup#key}
 
 ---
 
@@ -992,7 +992,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_cluster_subnet_group#value RedshiftClusterSubnetGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_cluster_subnet_group#value RedshiftClusterSubnetGroup#value}
 
 ---
 
@@ -1003,7 +1003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftclustersubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftclustersubnetgroup"
 
 redshiftclustersubnetgroup.NewRedshiftClusterSubnetGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftClusterSubnetGroupTagsList
 ```
@@ -1163,7 +1163,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftclustersubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftclustersubnetgroup"
 
 redshiftclustersubnetgroup.NewRedshiftClusterSubnetGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftClusterSubnetGroupTagsOutputReference
 ```

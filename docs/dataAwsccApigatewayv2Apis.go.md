@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayv2Apis <a name="DataAwsccApigatewayv2Apis" id="@cdktn/provider-awscc.dataAwsccApigatewayv2Apis.DataAwsccApigatewayv2Apis"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_apis awscc_apigatewayv2_apis}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_apis awscc_apigatewayv2_apis}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2Apis.DataAwsccApigatewayv2Apis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apis"
 
 dataawsccapigatewayv2apis.NewDataAwsccApigatewayv2Apis(scope Construct, id *string, config DataAwsccApigatewayv2ApisConfig) DataAwsccApigatewayv2Apis
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayv2Apis.DataAwsccApigatewayv2Apis.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apis"
 
 dataawsccapigatewayv2apis.DataAwsccApigatewayv2Apis_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayv2Apis.DataAwsccApigatewayv2Apis.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apis"
 
 dataawsccapigatewayv2apis.DataAwsccApigatewayv2Apis_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewayv2apis.DataAwsccApigatewayv2Apis_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayv2Apis.DataAwsccApigatewayv2Apis.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apis"
 
 dataawsccapigatewayv2apis.DataAwsccApigatewayv2Apis_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewayv2apis.DataAwsccApigatewayv2Apis_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayv2Apis.DataAwsccApigatewayv2Apis.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apis"
 
 dataawsccapigatewayv2apis.DataAwsccApigatewayv2Apis_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayv2Apis 
 
 The id of the existing DataAwsccApigatewayv2Apis that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_apis#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_apis#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2Apis.DataAwsccApigatewayv2ApisConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apis"
 
 &dataawsccapigatewayv2apis.DataAwsccApigatewayv2ApisConfig {
 	Connection: interface{},

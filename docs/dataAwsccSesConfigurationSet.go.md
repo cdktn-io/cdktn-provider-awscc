@@ -4,12 +4,12 @@
 
 ### DataAwsccSesConfigurationSet <a name="DataAwsccSesConfigurationSet" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_configuration_set awscc_ses_configuration_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_configuration_set awscc_ses_configuration_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSet(scope Construct, id *string, config DataAwsccSesConfigurationSetConfig) DataAwsccSesConfigurationSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.DataAwsccSesConfigurationSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.DataAwsccSesConfigurationSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsesconfigurationset.DataAwsccSesConfigurationSet_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.DataAwsccSesConfigurationSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsesconfigurationset.DataAwsccSesConfigurationSet_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.DataAwsccSesConfigurationSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesConfigurationS
 
 The id of the existing DataAwsccSesConfigurationSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_configuration_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_configuration_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetArchivingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetArchivingOptions {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetConfig {
 	Connection: interface{},
@@ -808,7 +808,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_configuration_set#id DataAwsccSesConfigurationSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_configuration_set#id DataAwsccSesConfigurationSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -820,7 +820,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetDeliveryOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetDeliveryOptions {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetReputationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetReputationOptions {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetSendingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetSendingOptions {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetSuppressionOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetSuppressionOptions {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetSuppressionOptionsValidationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetSuppressionOptionsValidationOptions {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsConditionThreshold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsConditionThreshold {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThreshold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThreshold {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetTags {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetTrackingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetTrackingOptions {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetVdmOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetVdmOptions {
 
@@ -950,7 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetVdmOptionsDashboardOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetVdmOptionsDashboardOptions {
 
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetVdmOptionsGuardianOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 &dataawsccsesconfigurationset.DataAwsccSesConfigurationSetVdmOptionsGuardianOptions {
 
@@ -978,7 +978,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetArchivingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetArchivingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetArchivingOptionsOutputReference
 ```
@@ -1238,7 +1238,7 @@ func InternalValue() DataAwsccSesConfigurationSetArchivingOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetDeliveryOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetDeliveryOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetDeliveryOptionsOutputReference
 ```
@@ -1520,7 +1520,7 @@ func InternalValue() DataAwsccSesConfigurationSetDeliveryOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetReputationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetReputationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetReputationOptionsOutputReference
 ```
@@ -1780,7 +1780,7 @@ func InternalValue() DataAwsccSesConfigurationSetReputationOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetSendingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetSendingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetSendingOptionsOutputReference
 ```
@@ -2040,7 +2040,7 @@ func InternalValue() DataAwsccSesConfigurationSetSendingOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetSuppressionOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetSuppressionOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetSuppressionOptionsOutputReference
 ```
@@ -2311,7 +2311,7 @@ func InternalValue() DataAwsccSesConfigurationSetSuppressionOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOutputReference
 ```
@@ -2582,7 +2582,7 @@ func InternalValue() DataAwsccSesConfigurationSetSuppressionOptionsValidationOpt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThresholdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThresholdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThresholdOutputReference
 ```
@@ -2842,7 +2842,7 @@ func InternalValue() DataAwsccSesConfigurationSetSuppressionOptionsValidationOpt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetSuppressionOptionsValidationOptionsOutputReference
 ```
@@ -3102,7 +3102,7 @@ func InternalValue() DataAwsccSesConfigurationSetSuppressionOptionsValidationOpt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesConfigurationSetTagsList
 ```
@@ -3251,7 +3251,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesConfigurationSetTagsOutputReference
 ```
@@ -3540,7 +3540,7 @@ func InternalValue() DataAwsccSesConfigurationSetTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetTrackingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetTrackingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetTrackingOptionsOutputReference
 ```
@@ -3811,7 +3811,7 @@ func InternalValue() DataAwsccSesConfigurationSetTrackingOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetVdmOptionsDashboardOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetVdmOptionsDashboardOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetVdmOptionsDashboardOptionsOutputReference
 ```
@@ -4071,7 +4071,7 @@ func InternalValue() DataAwsccSesConfigurationSetVdmOptionsDashboardOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetVdmOptionsGuardianOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetVdmOptionsGuardianOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetVdmOptionsGuardianOptionsOutputReference
 ```
@@ -4331,7 +4331,7 @@ func InternalValue() DataAwsccSesConfigurationSetVdmOptionsGuardianOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSet.DataAwsccSesConfigurationSetVdmOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationset"
 
 dataawsccsesconfigurationset.NewDataAwsccSesConfigurationSetVdmOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetVdmOptionsOutputReference
 ```

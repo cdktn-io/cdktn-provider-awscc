@@ -4,12 +4,12 @@
 
 ### BedrockPromptVersion <a name="BedrockPromptVersion" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersion(scope Construct, id *string, config BedrockPromptVersionConfig) BedrockPromptVersion
 ```
@@ -414,7 +414,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.BedrockPromptVersion_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.BedrockPromptVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ bedrockpromptversion.BedrockPromptVersion_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.BedrockPromptVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ bedrockpromptversion.BedrockPromptVersion_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.BedrockPromptVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the BedrockPromptVersion to im
 
 The id of the existing BedrockPromptVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -879,7 +879,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionConfig {
 	Connection: interface{},
@@ -992,7 +992,7 @@ PromptArn *string
 
 ARN of a prompt resource possibly with a version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt_version#prompt_arn BedrockPromptVersion#prompt_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt_version#prompt_arn BedrockPromptVersion#prompt_arn}
 
 ---
 
@@ -1006,7 +1006,7 @@ Description *string
 
 Description for a prompt version resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt_version#description BedrockPromptVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt_version#description BedrockPromptVersion#description}
 
 ---
 
@@ -1020,7 +1020,7 @@ Tags *map[string]*string
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt_version#tags BedrockPromptVersion#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt_version#tags BedrockPromptVersion#tags}
 
 ---
 
@@ -1029,7 +1029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariants.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariants {
 
@@ -1042,7 +1042,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsGenAiResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsGenAiResource {
 
@@ -1055,7 +1055,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsGenAiResourceAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsGenAiResourceAgent {
 
@@ -1068,7 +1068,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsInferenceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsInferenceConfiguration {
 
@@ -1081,7 +1081,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsInferenceConfigurationText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsInferenceConfigurationText {
 
@@ -1094,7 +1094,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsMetadata {
 
@@ -1107,7 +1107,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfiguration {
 
@@ -1120,7 +1120,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChat {
 
@@ -1133,7 +1133,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatInputVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatInputVariables {
 
@@ -1146,7 +1146,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatMessages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatMessages {
 
@@ -1159,7 +1159,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatMessagesContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatMessagesContent {
 
@@ -1172,7 +1172,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatMessagesContentCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatMessagesContentCachePoint {
 
@@ -1185,7 +1185,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatSystem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatSystem {
 
@@ -1198,7 +1198,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatSystemCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatSystemCachePoint {
 
@@ -1211,7 +1211,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfiguration {
 
@@ -1224,7 +1224,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolChoice.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolChoice {
 
@@ -1237,7 +1237,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolChoiceTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolChoiceTool {
 
@@ -1250,7 +1250,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationTools.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationTools {
 
@@ -1263,7 +1263,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsCachePoint {
 
@@ -1276,7 +1276,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec {
 
@@ -1289,7 +1289,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema {
 
@@ -1302,7 +1302,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationText {
 
@@ -1315,7 +1315,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationTextCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationTextCachePoint {
 
@@ -1328,7 +1328,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationTextInputVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 &bedrockpromptversion.BedrockPromptVersionVariantsTemplateConfigurationTextInputVariables {
 
@@ -1343,7 +1343,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsGenAiResourceAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsGenAiResourceAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsGenAiResourceAgentOutputReference
 ```
@@ -1603,7 +1603,7 @@ func InternalValue() BedrockPromptVersionVariantsGenAiResourceAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsGenAiResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsGenAiResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsGenAiResourceOutputReference
 ```
@@ -1863,7 +1863,7 @@ func InternalValue() BedrockPromptVersionVariantsGenAiResource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsInferenceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsInferenceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsInferenceConfigurationOutputReference
 ```
@@ -2123,7 +2123,7 @@ func InternalValue() BedrockPromptVersionVariantsInferenceConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsInferenceConfigurationTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsInferenceConfigurationTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsInferenceConfigurationTextOutputReference
 ```
@@ -2416,7 +2416,7 @@ func InternalValue() BedrockPromptVersionVariantsInferenceConfigurationText
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVersionVariantsList
 ```
@@ -2565,7 +2565,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVersionVariantsMetadataList
 ```
@@ -2714,7 +2714,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVersionVariantsMetadataOutputReference
 ```
@@ -3003,7 +3003,7 @@ func InternalValue() BedrockPromptVersionVariantsMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVersionVariantsOutputReference
 ```
@@ -3358,7 +3358,7 @@ func InternalValue() BedrockPromptVersionVariants
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatInputVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatInputVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVersionVariantsTemplateConfigurationChatInputVariablesList
 ```
@@ -3507,7 +3507,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatInputVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatInputVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVersionVariantsTemplateConfigurationChatInputVariablesOutputReference
 ```
@@ -3785,7 +3785,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatInputV
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatMessagesContentCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatMessagesContentCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationChatMessagesContentCachePointOutputReference
 ```
@@ -4045,7 +4045,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatMessag
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatMessagesContentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatMessagesContentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVersionVariantsTemplateConfigurationChatMessagesContentList
 ```
@@ -4194,7 +4194,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatMessagesContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatMessagesContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVersionVariantsTemplateConfigurationChatMessagesContentOutputReference
 ```
@@ -4483,7 +4483,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatMessag
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatMessagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatMessagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVersionVariantsTemplateConfigurationChatMessagesList
 ```
@@ -4632,7 +4632,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatMessagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatMessagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVersionVariantsTemplateConfigurationChatMessagesOutputReference
 ```
@@ -4921,7 +4921,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatMessag
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationChatOutputReference
 ```
@@ -5214,7 +5214,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatSystemCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatSystemCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationChatSystemCachePointOutputReference
 ```
@@ -5474,7 +5474,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatSystem
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatSystemList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatSystemList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVersionVariantsTemplateConfigurationChatSystemList
 ```
@@ -5623,7 +5623,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatSystemOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatSystemOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVersionVariantsTemplateConfigurationChatSystemOutputReference
 ```
@@ -5912,7 +5912,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatSystem
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationOutputReference
 ```
@@ -6183,7 +6183,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatToolCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolChoiceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolChoiceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolChoiceOutputReference
 ```
@@ -6465,7 +6465,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatToolCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference
 ```
@@ -6725,7 +6725,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatToolCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsCachePointOutputReference
 ```
@@ -6985,7 +6985,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatToolCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsList
 ```
@@ -7134,7 +7134,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsOutputReference
 ```
@@ -7423,7 +7423,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatToolCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchemaOutputReference
 ```
@@ -7683,7 +7683,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatToolCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecOutputReference
 ```
@@ -7965,7 +7965,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationChatToolCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationOutputReference
 ```
@@ -8236,7 +8236,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationTextCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationTextCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationTextCachePointOutputReference
 ```
@@ -8496,7 +8496,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationTextCacheP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationTextInputVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationTextInputVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVersionVariantsTemplateConfigurationTextInputVariablesList
 ```
@@ -8645,7 +8645,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationTextInputVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationTextInputVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVersionVariantsTemplateConfigurationTextInputVariablesOutputReference
 ```
@@ -8923,7 +8923,7 @@ func InternalValue() BedrockPromptVersionVariantsTemplateConfigurationTextInputV
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersionVariantsTemplateConfigurationTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion"
 
 bedrockpromptversion.NewBedrockPromptVersionVariantsTemplateConfigurationTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVersionVariantsTemplateConfigurationTextOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccQbusinessRetriever <a name="DataAwsccQbusinessRetriever" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetriever"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_retriever awscc_qbusiness_retriever}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_retriever awscc_qbusiness_retriever}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetriever.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 dataawsccqbusinessretriever.NewDataAwsccQbusinessRetriever(scope Construct, id *string, config DataAwsccQbusinessRetrieverConfig) DataAwsccQbusinessRetriever
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetriever.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 dataawsccqbusinessretriever.DataAwsccQbusinessRetriever_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetriever.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 dataawsccqbusinessretriever.DataAwsccQbusinessRetriever_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccqbusinessretriever.DataAwsccQbusinessRetriever_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetriever.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 dataawsccqbusinessretriever.DataAwsccQbusinessRetriever_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccqbusinessretriever.DataAwsccQbusinessRetriever_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetriever.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 dataawsccqbusinessretriever.DataAwsccQbusinessRetriever_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQbusinessRetrieve
 
 The id of the existing DataAwsccQbusinessRetriever that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_retriever#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_retriever#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetrieverConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 &dataawsccqbusinessretriever.DataAwsccQbusinessRetrieverConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_retriever#id DataAwsccQbusinessRetriever#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_retriever#id DataAwsccQbusinessRetriever#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetrieverConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 &dataawsccqbusinessretriever.DataAwsccQbusinessRetrieverConfiguration {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetrieverConfigurationKendraIndexConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 &dataawsccqbusinessretriever.DataAwsccQbusinessRetrieverConfigurationKendraIndexConfiguration {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetrieverConfigurationNativeIndexConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 &dataawsccqbusinessretriever.DataAwsccQbusinessRetrieverConfigurationNativeIndexConfiguration {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetrieverTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 &dataawsccqbusinessretriever.DataAwsccQbusinessRetrieverTags {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetrieverConfigurationKendraIndexConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 dataawsccqbusinessretriever.NewDataAwsccQbusinessRetrieverConfigurationKendraIndexConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessRetrieverConfigurationKendraIndexConfigurationOutputReference
 ```
@@ -1143,7 +1143,7 @@ func InternalValue() DataAwsccQbusinessRetrieverConfigurationKendraIndexConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetrieverConfigurationNativeIndexConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 dataawsccqbusinessretriever.NewDataAwsccQbusinessRetrieverConfigurationNativeIndexConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessRetrieverConfigurationNativeIndexConfigurationOutputReference
 ```
@@ -1403,7 +1403,7 @@ func InternalValue() DataAwsccQbusinessRetrieverConfigurationNativeIndexConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetrieverConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 dataawsccqbusinessretriever.NewDataAwsccQbusinessRetrieverConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessRetrieverConfigurationOutputReference
 ```
@@ -1674,7 +1674,7 @@ func InternalValue() DataAwsccQbusinessRetrieverConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetrieverTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 dataawsccqbusinessretriever.NewDataAwsccQbusinessRetrieverTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQbusinessRetrieverTagsList
 ```
@@ -1823,7 +1823,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessRetriever.DataAwsccQbusinessRetrieverTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessretriever"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessretriever"
 
 dataawsccqbusinessretriever.NewDataAwsccQbusinessRetrieverTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQbusinessRetrieverTagsOutputReference
 ```

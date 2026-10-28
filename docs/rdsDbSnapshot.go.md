@@ -4,12 +4,12 @@
 
 ### RdsDbSnapshot <a name="RdsDbSnapshot" id="@cdktn/provider-awscc.rdsDbSnapshot.RdsDbSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbSnapshot.RdsDbSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsnapshot"
 
 rdsdbsnapshot.NewRdsDbSnapshot(scope Construct, id *string, config RdsDbSnapshotConfig) RdsDbSnapshot
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rdsDbSnapshot.RdsDbSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsnapshot"
 
 rdsdbsnapshot.RdsDbSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rdsDbSnapshot.RdsDbSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsnapshot"
 
 rdsdbsnapshot.RdsDbSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ rdsdbsnapshot.RdsDbSnapshot_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rdsDbSnapshot.RdsDbSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsnapshot"
 
 rdsdbsnapshot.RdsDbSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ rdsdbsnapshot.RdsDbSnapshot_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rdsDbSnapshot.RdsDbSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsnapshot"
 
 rdsdbsnapshot.RdsDbSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the RdsDbSnapshot to import.
 
 The id of the existing RdsDbSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1028,7 +1028,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsDbSnapshot.RdsDbSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsnapshot"
 
 &rdsdbsnapshot.RdsDbSnapshotConfig {
 	Connection: interface{},
@@ -1141,7 +1141,7 @@ DbInstanceIdentifier *string
 
 The identifier of the DB instance that you want to create the snapshot of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_snapshot#db_instance_identifier RdsDbSnapshot#db_instance_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_snapshot#db_instance_identifier RdsDbSnapshot#db_instance_identifier}
 
 ---
 
@@ -1157,7 +1157,7 @@ The identifier for the DB snapshot.
 
 Must contain from 1 to 255 letters, numbers, or hyphens. First character must be a letter. Can't end with a hyphen or contain two consecutive hyphens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_snapshot#db_snapshot_identifier RdsDbSnapshot#db_snapshot_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_snapshot#db_snapshot_identifier RdsDbSnapshot#db_snapshot_identifier}
 
 ---
 
@@ -1171,7 +1171,7 @@ Tags interface{}
 
 The tags to be assigned to the DB snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_snapshot#tags RdsDbSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_snapshot#tags RdsDbSnapshot#tags}
 
 ---
 
@@ -1180,7 +1180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsDbSnapshot.RdsDbSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsnapshot"
 
 &rdsdbsnapshot.RdsDbSnapshotTags {
 	Key: *string,
@@ -1207,7 +1207,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_snapshot#key RdsDbSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_snapshot#key RdsDbSnapshot#key}
 
 ---
 
@@ -1221,7 +1221,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_snapshot#value RdsDbSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_snapshot#value RdsDbSnapshot#value}
 
 ---
 
@@ -1232,7 +1232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbSnapshot.RdsDbSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsnapshot"
 
 rdsdbsnapshot.NewRdsDbSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RdsDbSnapshotTagsList
 ```
@@ -1392,7 +1392,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbSnapshot.RdsDbSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsnapshot"
 
 rdsdbsnapshot.NewRdsDbSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RdsDbSnapshotTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccServicecatalogLaunchNotificationConstraint <a name="DataAwsccServicecatalogLaunchNotificationConstraint" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraint.DataAwsccServicecatalogLaunchNotificationConstraint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_launch_notification_constraint awscc_servicecatalog_launch_notification_constraint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_launch_notification_constraint awscc_servicecatalog_launch_notification_constraint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraint.DataAwsccServicecatalogLaunchNotificationConstraint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraint"
 
 dataawsccservicecataloglaunchnotificationconstraint.NewDataAwsccServicecatalogLaunchNotificationConstraint(scope Construct, id *string, config DataAwsccServicecatalogLaunchNotificationConstraintConfig) DataAwsccServicecatalogLaunchNotificationConstraint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraint.DataAwsccServicecatalogLaunchNotificationConstraint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraint"
 
 dataawsccservicecataloglaunchnotificationconstraint.DataAwsccServicecatalogLaunchNotificationConstraint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraint.DataAwsccServicecatalogLaunchNotificationConstraint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraint"
 
 dataawsccservicecataloglaunchnotificationconstraint.DataAwsccServicecatalogLaunchNotificationConstraint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicecataloglaunchnotificationconstraint.DataAwsccServicecatalogLaunc
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraint.DataAwsccServicecatalogLaunchNotificationConstraint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraint"
 
 dataawsccservicecataloglaunchnotificationconstraint.DataAwsccServicecatalogLaunchNotificationConstraint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicecataloglaunchnotificationconstraint.DataAwsccServicecatalogLaunc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraint.DataAwsccServicecatalogLaunchNotificationConstraint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraint"
 
 dataawsccservicecataloglaunchnotificationconstraint.DataAwsccServicecatalogLaunchNotificationConstraint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogLau
 
 The id of the existing DataAwsccServicecatalogLaunchNotificationConstraint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_launch_notification_constraint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_launch_notification_constraint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraint.DataAwsccServicecatalogLaunchNotificationConstraintConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraint"
 
 &dataawsccservicecataloglaunchnotificationconstraint.DataAwsccServicecatalogLaunchNotificationConstraintConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_launch_notification_constraint#id DataAwsccServicecatalogLaunchNotificationConstraint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_launch_notification_constraint#id DataAwsccServicecatalogLaunchNotificationConstraint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

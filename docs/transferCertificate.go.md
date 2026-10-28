@@ -4,12 +4,12 @@
 
 ### TransferCertificate <a name="TransferCertificate" id="@cdktn/provider-awscc.transferCertificate.TransferCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate awscc_transfer_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate awscc_transfer_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferCertificate.TransferCertificate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transfercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transfercertificate"
 
 transfercertificate.NewTransferCertificate(scope Construct, id *string, config TransferCertificateConfig) TransferCertificate
 ```
@@ -455,7 +455,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.transferCertificate.TransferCertificate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transfercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transfercertificate"
 
 transfercertificate.TransferCertificate_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.transferCertificate.TransferCertificate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transfercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transfercertificate"
 
 transfercertificate.TransferCertificate_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ transfercertificate.TransferCertificate_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.transferCertificate.TransferCertificate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transfercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transfercertificate"
 
 transfercertificate.TransferCertificate_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ transfercertificate.TransferCertificate_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.transferCertificate.TransferCertificate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transfercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transfercertificate"
 
 transfercertificate.TransferCertificate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the TransferCertificate to imp
 
 The id of the existing TransferCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1008,7 +1008,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferCertificate.TransferCertificateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transfercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transfercertificate"
 
 &transfercertificate.TransferCertificateConfig {
 	Connection: interface{},
@@ -1131,7 +1131,7 @@ Certificate *string
 
 Specifies the certificate body to be imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate#certificate TransferCertificate#certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate#certificate TransferCertificate#certificate}
 
 ---
 
@@ -1145,7 +1145,7 @@ Usage *string
 
 Specifies the usage type for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate#usage TransferCertificate#usage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate#usage TransferCertificate#usage}
 
 ---
 
@@ -1159,7 +1159,7 @@ ActiveDate *string
 
 Specifies the active date for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate#active_date TransferCertificate#active_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate#active_date TransferCertificate#active_date}
 
 ---
 
@@ -1173,7 +1173,7 @@ CertificateChain *string
 
 Specifies the certificate chain to be imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate#certificate_chain TransferCertificate#certificate_chain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate#certificate_chain TransferCertificate#certificate_chain}
 
 ---
 
@@ -1187,7 +1187,7 @@ Description *string
 
 A textual description for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate#description TransferCertificate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate#description TransferCertificate#description}
 
 ---
 
@@ -1201,7 +1201,7 @@ InactiveDate *string
 
 Specifies the inactive date for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate#inactive_date TransferCertificate#inactive_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate#inactive_date TransferCertificate#inactive_date}
 
 ---
 
@@ -1215,7 +1215,7 @@ PrivateKey *string
 
 Specifies the private key for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate#private_key TransferCertificate#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate#private_key TransferCertificate#private_key}
 
 ---
 
@@ -1231,7 +1231,7 @@ Key-value pairs that can be used to group and search for certificates.
 
 Tags are metadata attached to certificates for any purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate#tags TransferCertificate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate#tags TransferCertificate#tags}
 
 ---
 
@@ -1240,7 +1240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferCertificate.TransferCertificateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transfercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transfercertificate"
 
 &transfercertificate.TransferCertificateTags {
 	Key: *string,
@@ -1269,7 +1269,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate#key TransferCertificate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate#key TransferCertificate#key}
 
 ---
 
@@ -1285,7 +1285,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_certificate#value TransferCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_certificate#value TransferCertificate#value}
 
 ---
 
@@ -1296,7 +1296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferCertificate.TransferCertificateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transfercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transfercertificate"
 
 transfercertificate.NewTransferCertificateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TransferCertificateTagsList
 ```
@@ -1456,7 +1456,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferCertificate.TransferCertificateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transfercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transfercertificate"
 
 transfercertificate.NewTransferCertificateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TransferCertificateTagsOutputReference
 ```

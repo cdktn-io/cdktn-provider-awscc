@@ -4,12 +4,12 @@
 
 ### DataAwsccEntityresolutionPolicyStatement <a name="DataAwsccEntityresolutionPolicyStatement" id="@cdktn/provider-awscc.dataAwsccEntityresolutionPolicyStatement.DataAwsccEntityresolutionPolicyStatement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/entityresolution_policy_statement awscc_entityresolution_policy_statement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/entityresolution_policy_statement awscc_entityresolution_policy_statement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionPolicyStatement.DataAwsccEntityresolutionPolicyStatement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionpolicystatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionpolicystatement"
 
 dataawsccentityresolutionpolicystatement.NewDataAwsccEntityresolutionPolicyStatement(scope Construct, id *string, config DataAwsccEntityresolutionPolicyStatementConfig) DataAwsccEntityresolutionPolicyStatement
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEntityresolutionPolicyStatement.DataAwsccEntityresolutionPolicyStatement.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionpolicystatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionpolicystatement"
 
 dataawsccentityresolutionpolicystatement.DataAwsccEntityresolutionPolicyStatement_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEntityresolutionPolicyStatement.DataAwsccEntityresolutionPolicyStatement.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionpolicystatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionpolicystatement"
 
 dataawsccentityresolutionpolicystatement.DataAwsccEntityresolutionPolicyStatement_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccentityresolutionpolicystatement.DataAwsccEntityresolutionPolicyStatemen
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEntityresolutionPolicyStatement.DataAwsccEntityresolutionPolicyStatement.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionpolicystatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionpolicystatement"
 
 dataawsccentityresolutionpolicystatement.DataAwsccEntityresolutionPolicyStatement_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccentityresolutionpolicystatement.DataAwsccEntityresolutionPolicyStatemen
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEntityresolutionPolicyStatement.DataAwsccEntityresolutionPolicyStatement.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionpolicystatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionpolicystatement"
 
 dataawsccentityresolutionpolicystatement.DataAwsccEntityresolutionPolicyStatement_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEntityresolutionP
 
 The id of the existing DataAwsccEntityresolutionPolicyStatement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/entityresolution_policy_statement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/entityresolution_policy_statement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEntityresolutionPolicyStatement.DataAwsccEntityresolutionPolicyStatementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionpolicystatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionpolicystatement"
 
 &dataawsccentityresolutionpolicystatement.DataAwsccEntityresolutionPolicyStatementConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/entityresolution_policy_statement#id DataAwsccEntityresolutionPolicyStatement#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/entityresolution_policy_statement#id DataAwsccEntityresolutionPolicyStatement#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

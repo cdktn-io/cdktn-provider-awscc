@@ -4,12 +4,12 @@
 
 ### DataAwsccLightsailDatabase <a name="DataAwsccLightsailDatabase" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_database awscc_lightsail_database}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_database awscc_lightsail_database}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 dataawscclightsaildatabase.NewDataAwsccLightsailDatabase(scope Construct, id *string, config DataAwsccLightsailDatabaseConfig) DataAwsccLightsailDatabase
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 dataawscclightsaildatabase.DataAwsccLightsailDatabase_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 dataawscclightsaildatabase.DataAwsccLightsailDatabase_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclightsaildatabase.DataAwsccLightsailDatabase_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabase.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 dataawscclightsaildatabase.DataAwsccLightsailDatabase_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclightsaildatabase.DataAwsccLightsailDatabase_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 dataawscclightsaildatabase.DataAwsccLightsailDatabase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailDatabase
 
 The id of the existing DataAwsccLightsailDatabase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_database#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_database#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 &dataawscclightsaildatabase.DataAwsccLightsailDatabaseConfig {
 	Connection: interface{},
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_database#id DataAwsccLightsailDatabase#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_database#id DataAwsccLightsailDatabase#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabaseRelationalDatabaseParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 &dataawscclightsaildatabase.DataAwsccLightsailDatabaseRelationalDatabaseParameters {
 
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabaseTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 &dataawscclightsaildatabase.DataAwsccLightsailDatabaseTags {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabaseRelationalDatabaseParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 dataawscclightsaildatabase.NewDataAwsccLightsailDatabaseRelationalDatabaseParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLightsailDatabaseRelationalDatabaseParametersList
 ```
@@ -1061,7 +1061,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabaseRelationalDatabaseParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 dataawscclightsaildatabase.NewDataAwsccLightsailDatabaseRelationalDatabaseParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLightsailDatabaseRelationalDatabaseParametersOutputReference
 ```
@@ -1416,7 +1416,7 @@ func InternalValue() DataAwsccLightsailDatabaseRelationalDatabaseParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabaseTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 dataawscclightsaildatabase.NewDataAwsccLightsailDatabaseTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLightsailDatabaseTagsList
 ```
@@ -1565,7 +1565,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDatabase.DataAwsccLightsailDatabaseTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabase"
 
 dataawscclightsaildatabase.NewDataAwsccLightsailDatabaseTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLightsailDatabaseTagsOutputReference
 ```

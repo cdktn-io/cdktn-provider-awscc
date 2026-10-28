@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsv2ResourcePolicy <a name="DataAwsccEventsv2ResourcePolicy" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicy.DataAwsccEventsv2ResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_resource_policy awscc_eventsv2_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_resource_policy awscc_eventsv2_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicy.DataAwsccEventsv2ResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicy"
 
 dataawscceventsv2resourcepolicy.NewDataAwsccEventsv2ResourcePolicy(scope Construct, id *string, config DataAwsccEventsv2ResourcePolicyConfig) DataAwsccEventsv2ResourcePolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicy.DataAwsccEventsv2ResourcePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicy"
 
 dataawscceventsv2resourcepolicy.DataAwsccEventsv2ResourcePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicy.DataAwsccEventsv2ResourcePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicy"
 
 dataawscceventsv2resourcepolicy.DataAwsccEventsv2ResourcePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsv2resourcepolicy.DataAwsccEventsv2ResourcePolicy_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicy.DataAwsccEventsv2ResourcePolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicy"
 
 dataawscceventsv2resourcepolicy.DataAwsccEventsv2ResourcePolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsv2resourcepolicy.DataAwsccEventsv2ResourcePolicy_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicy.DataAwsccEventsv2ResourcePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicy"
 
 dataawscceventsv2resourcepolicy.DataAwsccEventsv2ResourcePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsv2ResourceP
 
 The id of the existing DataAwsccEventsv2ResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicy.DataAwsccEventsv2ResourcePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicy"
 
 &dataawscceventsv2resourcepolicy.DataAwsccEventsv2ResourcePolicyConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_resource_policy#id DataAwsccEventsv2ResourcePolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_resource_policy#id DataAwsccEventsv2ResourcePolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

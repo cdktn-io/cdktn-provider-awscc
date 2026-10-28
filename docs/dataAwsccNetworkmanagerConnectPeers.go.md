@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkmanagerConnectPeers <a name="DataAwsccNetworkmanagerConnectPeers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectPeers.DataAwsccNetworkmanagerConnectPeers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_connect_peers awscc_networkmanager_connect_peers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_connect_peers awscc_networkmanager_connect_peers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectPeers.DataAwsccNetworkmanagerConnectPeers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerconnectpeers"
 
 dataawsccnetworkmanagerconnectpeers.NewDataAwsccNetworkmanagerConnectPeers(scope Construct, id *string, config DataAwsccNetworkmanagerConnectPeersConfig) DataAwsccNetworkmanagerConnectPeers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectPeers.DataAwsccNetworkmanagerConnectPeers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerconnectpeers"
 
 dataawsccnetworkmanagerconnectpeers.DataAwsccNetworkmanagerConnectPeers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectPeers.DataAwsccNetworkmanagerConnectPeers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerconnectpeers"
 
 dataawsccnetworkmanagerconnectpeers.DataAwsccNetworkmanagerConnectPeers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkmanagerconnectpeers.DataAwsccNetworkmanagerConnectPeers_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectPeers.DataAwsccNetworkmanagerConnectPeers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerconnectpeers"
 
 dataawsccnetworkmanagerconnectpeers.DataAwsccNetworkmanagerConnectPeers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkmanagerconnectpeers.DataAwsccNetworkmanagerConnectPeers_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectPeers.DataAwsccNetworkmanagerConnectPeers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerconnectpeers"
 
 dataawsccnetworkmanagerconnectpeers.DataAwsccNetworkmanagerConnectPeers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerCon
 
 The id of the existing DataAwsccNetworkmanagerConnectPeers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_connect_peers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_connect_peers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectPeers.DataAwsccNetworkmanagerConnectPeersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerconnectpeers"
 
 &dataawsccnetworkmanagerconnectpeers.DataAwsccNetworkmanagerConnectPeersConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccIotAccountAuditConfiguration <a name="DataAwsccIotAccountAuditConfiguration" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_account_audit_configuration awscc_iot_account_audit_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_account_audit_configuration awscc_iot_account_audit_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfiguration(scope Construct, id *string, config DataAwsccIotAccountAuditConfigurationConfig) DataAwsccIotAccountAuditConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfiguration_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfiguration_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotAccountAuditCo
 
 The id of the existing DataAwsccIotAccountAuditConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_account_audit_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_account_audit_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurations {
 
@@ -644,7 +644,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheck {
 
@@ -657,7 +657,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheck {
 
@@ -670,7 +670,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheck {
 
@@ -683,7 +683,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheck {
 
@@ -696,7 +696,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheck {
 
@@ -709,7 +709,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfiguration {
 
@@ -722,7 +722,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheck {
 
@@ -735,7 +735,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfiguration {
 
@@ -748,7 +748,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheck {
 
@@ -761,7 +761,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheck {
 
@@ -774,7 +774,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheck {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheck {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheck {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheck {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheck {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheck {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheck {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheck {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheck {
 
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditNotificationTargetConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditNotificationTargetConfigurations {
 
@@ -904,7 +904,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns {
 
@@ -917,7 +917,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountaud
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 &dataawscciotaccountauditconfiguration.DataAwsccIotAccountAuditConfigurationConfig {
 	Connection: interface{},
@@ -1026,7 +1026,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_account_audit_configuration#id DataAwsccIotAccountAuditConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_account_audit_configuration#id DataAwsccIotAccountAuditConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1040,7 +1040,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheckOutputReference
 ```
@@ -1300,7 +1300,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheckOutputReference
 ```
@@ -1560,7 +1560,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheckOutputReference
 ```
@@ -1820,7 +1820,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheckOutputReference
 ```
@@ -2080,7 +2080,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfigurationOutputReference
 ```
@@ -2340,7 +2340,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckOutputReference
 ```
@@ -2611,7 +2611,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfigurationOutputReference
 ```
@@ -2871,7 +2871,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckOutputReference
 ```
@@ -3142,7 +3142,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheckOutputReference
 ```
@@ -3402,7 +3402,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheckOutputReference
 ```
@@ -3662,7 +3662,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheckOutputReference
 ```
@@ -3922,7 +3922,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheckOutputReference
 ```
@@ -4182,7 +4182,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheckOutputReference
 ```
@@ -4442,7 +4442,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheckOutputReference
 ```
@@ -4702,7 +4702,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheckOutputReference
 ```
@@ -4962,7 +4962,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheckOutputReference
 ```
@@ -5222,7 +5222,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsOutputReference
 ```
@@ -5658,7 +5658,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheckOutputReference
 ```
@@ -5918,7 +5918,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheckOutputReference
 ```
@@ -6178,7 +6178,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheckOutputReference
 ```
@@ -6438,7 +6438,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditCheckConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditNotificationTargetConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditNotificationTargetConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditNotificationTargetConfigurationsOutputReference
 ```
@@ -6698,7 +6698,7 @@ func InternalValue() DataAwsccIotAccountAuditConfigurationAuditNotificationTarge
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfiguration.DataAwsccIotAccountAuditConfigurationAuditNotificationTargetConfigurationsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfiguration"
 
 dataawscciotaccountauditconfiguration.NewDataAwsccIotAccountAuditConfigurationAuditNotificationTargetConfigurationsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotAccountAuditConfigurationAuditNotificationTargetConfigurationsSnsOutputReference
 ```

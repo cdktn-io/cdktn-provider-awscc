@@ -4,12 +4,12 @@
 
 ### SmsvoiceResourcePolicy <a name="SmsvoiceResourcePolicy" id="@cdktn/provider-awscc.smsvoiceResourcePolicy.SmsvoiceResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceResourcePolicy.SmsvoiceResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceresourcepolicy"
 
 smsvoiceresourcepolicy.NewSmsvoiceResourcePolicy(scope Construct, id *string, config SmsvoiceResourcePolicyConfig) SmsvoiceResourcePolicy
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.smsvoiceResourcePolicy.SmsvoiceResourcePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceresourcepolicy"
 
 smsvoiceresourcepolicy.SmsvoiceResourcePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.smsvoiceResourcePolicy.SmsvoiceResourcePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceresourcepolicy"
 
 smsvoiceresourcepolicy.SmsvoiceResourcePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ smsvoiceresourcepolicy.SmsvoiceResourcePolicy_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.smsvoiceResourcePolicy.SmsvoiceResourcePolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceresourcepolicy"
 
 smsvoiceresourcepolicy.SmsvoiceResourcePolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ smsvoiceresourcepolicy.SmsvoiceResourcePolicy_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.smsvoiceResourcePolicy.SmsvoiceResourcePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceresourcepolicy"
 
 smsvoiceresourcepolicy.SmsvoiceResourcePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SmsvoiceResourcePolicy to 
 
 The id of the existing SmsvoiceResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceResourcePolicy.SmsvoiceResourcePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceresourcepolicy"
 
 &smsvoiceresourcepolicy.SmsvoiceResourcePolicyConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ PolicyDocument *string
 
 The JSON formatted resource-based policy to attach.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_resource_policy#policy_document SmsvoiceResourcePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_resource_policy#policy_document SmsvoiceResourcePolicy#policy_document}
 
 ---
 
@@ -869,7 +869,7 @@ ResourceArn *string
 
 The Amazon Resource Name (ARN) of the AWS End User Messaging SMS and Voice resource to attach the resource-based policy to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_resource_policy#resource_arn SmsvoiceResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_resource_policy#resource_arn SmsvoiceResourcePolicy#resource_arn}
 
 ---
 

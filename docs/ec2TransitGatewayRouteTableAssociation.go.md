@@ -4,12 +4,12 @@
 
 ### Ec2TransitGatewayRouteTableAssociation <a name="Ec2TransitGatewayRouteTableAssociation" id="@cdktn/provider-awscc.ec2TransitGatewayRouteTableAssociation.Ec2TransitGatewayRouteTableAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_route_table_association awscc_ec2_transit_gateway_route_table_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_route_table_association awscc_ec2_transit_gateway_route_table_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TransitGatewayRouteTableAssociation.Ec2TransitGatewayRouteTableAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayroutetableassociation"
 
 ec2transitgatewayroutetableassociation.NewEc2TransitGatewayRouteTableAssociation(scope Construct, id *string, config Ec2TransitGatewayRouteTableAssociationConfig) Ec2TransitGatewayRouteTableAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2TransitGatewayRouteTableAssociation.Ec2TransitGatewayRouteTableAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayroutetableassociation"
 
 ec2transitgatewayroutetableassociation.Ec2TransitGatewayRouteTableAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2TransitGatewayRouteTableAssociation.Ec2TransitGatewayRouteTableAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayroutetableassociation"
 
 ec2transitgatewayroutetableassociation.Ec2TransitGatewayRouteTableAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ec2transitgatewayroutetableassociation.Ec2TransitGatewayRouteTableAssociation_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2TransitGatewayRouteTableAssociation.Ec2TransitGatewayRouteTableAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayroutetableassociation"
 
 ec2transitgatewayroutetableassociation.Ec2TransitGatewayRouteTableAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2transitgatewayroutetableassociation.Ec2TransitGatewayRouteTableAssociation_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2TransitGatewayRouteTableAssociation.Ec2TransitGatewayRouteTableAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayroutetableassociation"
 
 ec2transitgatewayroutetableassociation.Ec2TransitGatewayRouteTableAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2TransitGatewayRouteTabl
 
 The id of the existing Ec2TransitGatewayRouteTableAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_route_table_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_route_table_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2TransitGatewayRouteTableAssociation.Ec2TransitGatewayRouteTableAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayroutetableassociation"
 
 &ec2transitgatewayroutetableassociation.Ec2TransitGatewayRouteTableAssociationConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ TransitGatewayAttachmentId *string
 
 The ID of transit gateway attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_route_table_association#transit_gateway_attachment_id Ec2TransitGatewayRouteTableAssociation#transit_gateway_attachment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_route_table_association#transit_gateway_attachment_id Ec2TransitGatewayRouteTableAssociation#transit_gateway_attachment_id}
 
 ---
 
@@ -869,7 +869,7 @@ TransitGatewayRouteTableId *string
 
 The ID of transit gateway route table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_route_table_association#transit_gateway_route_table_id Ec2TransitGatewayRouteTableAssociation#transit_gateway_route_table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_route_table_association#transit_gateway_route_table_id Ec2TransitGatewayRouteTableAssociation#transit_gateway_route_table_id}
 
 ---
 

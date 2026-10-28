@@ -4,12 +4,12 @@
 
 ### DataAwsccMskChannel <a name="DataAwsccMskChannel" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_channel awscc_msk_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_channel awscc_msk_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannel(scope Construct, id *string, config DataAwsccMskChannelConfig) DataAwsccMskChannel
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.DataAwsccMskChannel_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.DataAwsccMskChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmskchannel.DataAwsccMskChannel_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannel.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.DataAwsccMskChannel_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmskchannel.DataAwsccMskChannel_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.DataAwsccMskChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMskChannel to imp
 
 The id of the existing DataAwsccMskChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_channel#id DataAwsccMskChannel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_channel#id DataAwsccMskChannel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelEncryptionConfiguration {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelIcebergDestinationConfiguration {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelIcebergDestinationConfigurationCatalog {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationDeadLetterQueueS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelIcebergDestinationConfigurationDeadLetterQueueS3 {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpec {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecSourceListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecSourceListStruct {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListStruct {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationSchemaEvolution.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelIcebergDestinationConfigurationSchemaEvolution {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationTableCreation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelIcebergDestinationConfigurationTableCreation {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelLoggingInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelLoggingInfo {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelLoggingInfoCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelLoggingInfoCloudwatchLogs {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelLoggingInfoFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelLoggingInfoFirehose {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelLoggingInfoS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelLoggingInfoS3 {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelS3DestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelS3DestinationConfiguration {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelS3DestinationConfigurationDeadLetterQueueS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelS3DestinationConfigurationDeadLetterQueueS3 {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelS3DestinationConfigurationStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelS3DestinationConfigurationStorage {
 
@@ -1037,7 +1037,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelStateInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelStateInfo {
 
@@ -1050,7 +1050,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelTopicConfigurationListRecordConverter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelTopicConfigurationListRecordConverter {
 
@@ -1063,7 +1063,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelTopicConfigurationListRecordSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelTopicConfigurationListRecordSchema {
 
@@ -1076,7 +1076,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelTopicConfigurationListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 &dataawsccmskchannel.DataAwsccMskChannelTopicConfigurationListStruct {
 
@@ -1091,7 +1091,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelEncryptionConfigurationOutputReference
 ```
@@ -1351,7 +1351,7 @@ func InternalValue() DataAwsccMskChannelEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelIcebergDestinationConfigurationCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelIcebergDestinationConfigurationCatalogOutputReference
 ```
@@ -1622,7 +1622,7 @@ func InternalValue() DataAwsccMskChannelIcebergDestinationConfigurationCatalog
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationDeadLetterQueueS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelIcebergDestinationConfigurationDeadLetterQueueS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelIcebergDestinationConfigurationDeadLetterQueueS3OutputReference
 ```
@@ -1904,7 +1904,7 @@ func InternalValue() DataAwsccMskChannelIcebergDestinationConfigurationDeadLette
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecOutputReference
 ```
@@ -2175,7 +2175,7 @@ func InternalValue() DataAwsccMskChannelIcebergDestinationConfigurationDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecSourceListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecSourceListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecSourceListStructList
 ```
@@ -2324,7 +2324,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecSourceListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecSourceListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecSourceListStructOutputReference
 ```
@@ -2602,7 +2602,7 @@ func InternalValue() DataAwsccMskChannelIcebergDestinationConfigurationDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListStructList
 ```
@@ -2751,7 +2751,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMskChannelIcebergDestinationConfigurationDestinationTableListStructOutputReference
 ```
@@ -3051,7 +3051,7 @@ func InternalValue() DataAwsccMskChannelIcebergDestinationConfigurationDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelIcebergDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelIcebergDestinationConfigurationOutputReference
 ```
@@ -3399,7 +3399,7 @@ func InternalValue() DataAwsccMskChannelIcebergDestinationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationSchemaEvolutionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelIcebergDestinationConfigurationSchemaEvolutionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelIcebergDestinationConfigurationSchemaEvolutionOutputReference
 ```
@@ -3659,7 +3659,7 @@ func InternalValue() DataAwsccMskChannelIcebergDestinationConfigurationSchemaEvo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelIcebergDestinationConfigurationTableCreationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelIcebergDestinationConfigurationTableCreationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelIcebergDestinationConfigurationTableCreationOutputReference
 ```
@@ -3919,7 +3919,7 @@ func InternalValue() DataAwsccMskChannelIcebergDestinationConfigurationTableCrea
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelLoggingInfoCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelLoggingInfoCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelLoggingInfoCloudwatchLogsOutputReference
 ```
@@ -4190,7 +4190,7 @@ func InternalValue() DataAwsccMskChannelLoggingInfoCloudwatchLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelLoggingInfoFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelLoggingInfoFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelLoggingInfoFirehoseOutputReference
 ```
@@ -4461,7 +4461,7 @@ func InternalValue() DataAwsccMskChannelLoggingInfoFirehose
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelLoggingInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelLoggingInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelLoggingInfoOutputReference
 ```
@@ -4743,7 +4743,7 @@ func InternalValue() DataAwsccMskChannelLoggingInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelLoggingInfoS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelLoggingInfoS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelLoggingInfoS3OutputReference
 ```
@@ -5025,7 +5025,7 @@ func InternalValue() DataAwsccMskChannelLoggingInfoS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelS3DestinationConfigurationDeadLetterQueueS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelS3DestinationConfigurationDeadLetterQueueS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelS3DestinationConfigurationDeadLetterQueueS3OutputReference
 ```
@@ -5307,7 +5307,7 @@ func InternalValue() DataAwsccMskChannelS3DestinationConfigurationDeadLetterQueu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelS3DestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelS3DestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelS3DestinationConfigurationOutputReference
 ```
@@ -5600,7 +5600,7 @@ func InternalValue() DataAwsccMskChannelS3DestinationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelS3DestinationConfigurationStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelS3DestinationConfigurationStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelS3DestinationConfigurationStorageOutputReference
 ```
@@ -5915,7 +5915,7 @@ func InternalValue() DataAwsccMskChannelS3DestinationConfigurationStorage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelStateInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelStateInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelStateInfoOutputReference
 ```
@@ -6186,7 +6186,7 @@ func InternalValue() DataAwsccMskChannelStateInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelTopicConfigurationListRecordConverterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelTopicConfigurationListRecordConverterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelTopicConfigurationListRecordConverterOutputReference
 ```
@@ -6446,7 +6446,7 @@ func InternalValue() DataAwsccMskChannelTopicConfigurationListRecordConverter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelTopicConfigurationListRecordSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelTopicConfigurationListRecordSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskChannelTopicConfigurationListRecordSchemaOutputReference
 ```
@@ -6706,7 +6706,7 @@ func InternalValue() DataAwsccMskChannelTopicConfigurationListRecordSchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelTopicConfigurationListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelTopicConfigurationListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMskChannelTopicConfigurationListStructList
 ```
@@ -6855,7 +6855,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskChannel.DataAwsccMskChannelTopicConfigurationListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskchannel"
 
 dataawsccmskchannel.NewDataAwsccMskChannelTopicConfigurationListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMskChannelTopicConfigurationListStructOutputReference
 ```

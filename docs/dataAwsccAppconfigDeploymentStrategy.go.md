@@ -4,12 +4,12 @@
 
 ### DataAwsccAppconfigDeploymentStrategy <a name="DataAwsccAppconfigDeploymentStrategy" id="@cdktn/provider-awscc.dataAwsccAppconfigDeploymentStrategy.DataAwsccAppconfigDeploymentStrategy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_deployment_strategy awscc_appconfig_deployment_strategy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_deployment_strategy awscc_appconfig_deployment_strategy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigDeploymentStrategy.DataAwsccAppconfigDeploymentStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigdeploymentstrategy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigdeploymentstrategy"
 
 dataawsccappconfigdeploymentstrategy.NewDataAwsccAppconfigDeploymentStrategy(scope Construct, id *string, config DataAwsccAppconfigDeploymentStrategyConfig) DataAwsccAppconfigDeploymentStrategy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppconfigDeploymentStrategy.DataAwsccAppconfigDeploymentStrategy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigdeploymentstrategy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigdeploymentstrategy"
 
 dataawsccappconfigdeploymentstrategy.DataAwsccAppconfigDeploymentStrategy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppconfigDeploymentStrategy.DataAwsccAppconfigDeploymentStrategy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigdeploymentstrategy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigdeploymentstrategy"
 
 dataawsccappconfigdeploymentstrategy.DataAwsccAppconfigDeploymentStrategy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappconfigdeploymentstrategy.DataAwsccAppconfigDeploymentStrategy_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppconfigDeploymentStrategy.DataAwsccAppconfigDeploymentStrategy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigdeploymentstrategy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigdeploymentstrategy"
 
 dataawsccappconfigdeploymentstrategy.DataAwsccAppconfigDeploymentStrategy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappconfigdeploymentstrategy.DataAwsccAppconfigDeploymentStrategy_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppconfigDeploymentStrategy.DataAwsccAppconfigDeploymentStrategy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigdeploymentstrategy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigdeploymentstrategy"
 
 dataawsccappconfigdeploymentstrategy.DataAwsccAppconfigDeploymentStrategy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppconfigDeployme
 
 The id of the existing DataAwsccAppconfigDeploymentStrategy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_deployment_strategy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_deployment_strategy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppconfigDeploymentStrategy.DataAwsccAppconfigDeploymentStrategyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigdeploymentstrategy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigdeploymentstrategy"
 
 &dataawsccappconfigdeploymentstrategy.DataAwsccAppconfigDeploymentStrategyConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_deployment_strategy#id DataAwsccAppconfigDeploymentStrategy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_deployment_strategy#id DataAwsccAppconfigDeploymentStrategy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppconfigDeploymentStrategy.DataAwsccAppconfigDeploymentStrategyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigdeploymentstrategy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigdeploymentstrategy"
 
 &dataawsccappconfigdeploymentstrategy.DataAwsccAppconfigDeploymentStrategyTags {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigdepl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigDeploymentStrategy.DataAwsccAppconfigDeploymentStrategyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigdeploymentstrategy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigdeploymentstrategy"
 
 dataawsccappconfigdeploymentstrategy.NewDataAwsccAppconfigDeploymentStrategyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppconfigDeploymentStrategyTagsList
 ```
@@ -971,7 +971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigDeploymentStrategy.DataAwsccAppconfigDeploymentStrategyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigdeploymentstrategy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigdeploymentstrategy"
 
 dataawsccappconfigdeploymentstrategy.NewDataAwsccAppconfigDeploymentStrategyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppconfigDeploymentStrategyTagsOutputReference
 ```

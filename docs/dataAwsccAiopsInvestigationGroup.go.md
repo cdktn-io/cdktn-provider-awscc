@@ -4,12 +4,12 @@
 
 ### DataAwsccAiopsInvestigationGroup <a name="DataAwsccAiopsInvestigationGroup" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aiops_investigation_group awscc_aiops_investigation_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aiops_investigation_group awscc_aiops_investigation_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.NewDataAwsccAiopsInvestigationGroup(scope Construct, id *string, config DataAwsccAiopsInvestigationGroupConfig) DataAwsccAiopsInvestigationGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.DataAwsccAiopsInvestigationGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.DataAwsccAiopsInvestigationGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccaiopsinvestigationgroup.DataAwsccAiopsInvestigationGroup_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.DataAwsccAiopsInvestigationGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccaiopsinvestigationgroup.DataAwsccAiopsInvestigationGroup_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.DataAwsccAiopsInvestigationGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAiopsInvestigatio
 
 The id of the existing DataAwsccAiopsInvestigationGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aiops_investigation_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aiops_investigation_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupChatbotNotificationChannels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 &dataawsccaiopsinvestigationgroup.DataAwsccAiopsInvestigationGroupChatbotNotificationChannels {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestig
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 &dataawsccaiopsinvestigationgroup.DataAwsccAiopsInvestigationGroupConfig {
 	Connection: interface{},
@@ -874,7 +874,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aiops_investigation_group#id DataAwsccAiopsInvestigationGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aiops_investigation_group#id DataAwsccAiopsInvestigationGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -886,7 +886,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupCrossAccountConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 &dataawsccaiopsinvestigationgroup.DataAwsccAiopsInvestigationGroupCrossAccountConfigurations {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestig
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 &dataawsccaiopsinvestigationgroup.DataAwsccAiopsInvestigationGroupEncryptionConfig {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestig
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 &dataawsccaiopsinvestigationgroup.DataAwsccAiopsInvestigationGroupTags {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupChatbotNotificationChannelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.NewDataAwsccAiopsInvestigationGroupChatbotNotificationChannelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAiopsInvestigationGroupChatbotNotificationChannelsList
 ```
@@ -1076,7 +1076,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupChatbotNotificationChannelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.NewDataAwsccAiopsInvestigationGroupChatbotNotificationChannelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAiopsInvestigationGroupChatbotNotificationChannelsOutputReference
 ```
@@ -1365,7 +1365,7 @@ func InternalValue() DataAwsccAiopsInvestigationGroupChatbotNotificationChannels
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupCrossAccountConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.NewDataAwsccAiopsInvestigationGroupCrossAccountConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAiopsInvestigationGroupCrossAccountConfigurationsList
 ```
@@ -1514,7 +1514,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupCrossAccountConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.NewDataAwsccAiopsInvestigationGroupCrossAccountConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAiopsInvestigationGroupCrossAccountConfigurationsOutputReference
 ```
@@ -1792,7 +1792,7 @@ func InternalValue() DataAwsccAiopsInvestigationGroupCrossAccountConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.NewDataAwsccAiopsInvestigationGroupEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAiopsInvestigationGroupEncryptionConfigOutputReference
 ```
@@ -2063,7 +2063,7 @@ func InternalValue() DataAwsccAiopsInvestigationGroupEncryptionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.NewDataAwsccAiopsInvestigationGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAiopsInvestigationGroupTagsList
 ```
@@ -2212,7 +2212,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroup.DataAwsccAiopsInvestigationGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaiopsinvestigationgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaiopsinvestigationgroup"
 
 dataawsccaiopsinvestigationgroup.NewDataAwsccAiopsInvestigationGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAiopsInvestigationGroupTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccSqsQueue <a name="DataAwsccSqsQueue" id="@cdktn/provider-awscc.dataAwsccSqsQueue.DataAwsccSqsQueue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sqs_queue awscc_sqs_queue}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sqs_queue awscc_sqs_queue}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSqsQueue.DataAwsccSqsQueue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsqsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsqsqueue"
 
 dataawsccsqsqueue.NewDataAwsccSqsQueue(scope Construct, id *string, config DataAwsccSqsQueueConfig) DataAwsccSqsQueue
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSqsQueue.DataAwsccSqsQueue.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsqsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsqsqueue"
 
 dataawsccsqsqueue.DataAwsccSqsQueue_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSqsQueue.DataAwsccSqsQueue.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsqsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsqsqueue"
 
 dataawsccsqsqueue.DataAwsccSqsQueue_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsqsqueue.DataAwsccSqsQueue_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSqsQueue.DataAwsccSqsQueue.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsqsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsqsqueue"
 
 dataawsccsqsqueue.DataAwsccSqsQueue_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsqsqueue.DataAwsccSqsQueue_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSqsQueue.DataAwsccSqsQueue.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsqsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsqsqueue"
 
 dataawsccsqsqueue.DataAwsccSqsQueue_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSqsQueue to impor
 
 The id of the existing DataAwsccSqsQueue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sqs_queue#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sqs_queue#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -785,7 +785,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSqsQueue.DataAwsccSqsQueueConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsqsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsqsqueue"
 
 &dataawsccsqsqueue.DataAwsccSqsQueueConfig {
 	Connection: interface{},
@@ -894,7 +894,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sqs_queue#id DataAwsccSqsQueue#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sqs_queue#id DataAwsccSqsQueue#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -906,7 +906,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSqsQueue.DataAwsccSqsQueueTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsqsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsqsqueue"
 
 &dataawsccsqsqueue.DataAwsccSqsQueueTags {
 
@@ -921,7 +921,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsqsqueue"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSqsQueue.DataAwsccSqsQueueTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsqsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsqsqueue"
 
 dataawsccsqsqueue.NewDataAwsccSqsQueueTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSqsQueueTagsList
 ```
@@ -1070,7 +1070,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSqsQueue.DataAwsccSqsQueueTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsqsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsqsqueue"
 
 dataawsccsqsqueue.NewDataAwsccSqsQueueTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSqsQueueTagsOutputReference
 ```

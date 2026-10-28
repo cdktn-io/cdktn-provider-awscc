@@ -4,12 +4,12 @@
 
 ### DataAwsccIotanalyticsDataset <a name="DataAwsccIotanalyticsDataset" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_dataset awscc_iotanalytics_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_dataset awscc_iotanalytics_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDataset(scope Construct, id *string, config DataAwsccIotanalyticsDatasetConfig) DataAwsccIotanalyticsDataset
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.DataAwsccIotanalyticsDataset_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.DataAwsccIotanalyticsDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotanalyticsdataset.DataAwsccIotanalyticsDataset_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDataset.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.DataAwsccIotanalyticsDataset_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotanalyticsdataset.DataAwsccIotanalyticsDataset_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.DataAwsccIotanalyticsDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotanalyticsDatas
 
 The id of the existing DataAwsccIotanalyticsDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetActions {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsContainerAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetActionsContainerAction {
 
@@ -712,7 +712,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsContainerActionResourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetActionsContainerActionResourceConfiguration {
 
@@ -725,7 +725,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsContainerActionVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetActionsContainerActionVariables {
 
@@ -738,7 +738,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue {
 
@@ -751,7 +751,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue {
 
@@ -764,7 +764,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsQueryAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetActionsQueryAction {
 
@@ -777,7 +777,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsQueryActionFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetActionsQueryActionFilters {
 
@@ -790,7 +790,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsQueryActionFiltersDeltaTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetActionsQueryActionFiltersDeltaTime {
 
@@ -803,7 +803,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetConfig {
 	Connection: interface{},
@@ -912,7 +912,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_dataset#id DataAwsccIotanalyticsDataset#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_dataset#id DataAwsccIotanalyticsDataset#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -924,7 +924,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetContentDeliveryRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetContentDeliveryRules {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestination {
 
@@ -950,7 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration {
 
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration {
 
@@ -976,7 +976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetLateDataRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetLateDataRules {
 
@@ -1002,7 +1002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetLateDataRulesRuleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetLateDataRulesRuleConfiguration {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration {
 
@@ -1028,7 +1028,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetRetentionPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetRetentionPeriod {
 
@@ -1041,7 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetTags {
 
@@ -1054,7 +1054,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetTriggers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetTriggers {
 
@@ -1067,7 +1067,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetTriggersSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetTriggersSchedule {
 
@@ -1080,7 +1080,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetTriggersTriggeringDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetTriggersTriggeringDataset {
 
@@ -1093,7 +1093,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetVersioningConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 &dataawscciotanalyticsdataset.DataAwsccIotanalyticsDatasetVersioningConfiguration {
 
@@ -1108,7 +1108,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsContainerActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsContainerActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetActionsContainerActionOutputReference
 ```
@@ -1401,7 +1401,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetActionsContainerAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsContainerActionResourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsContainerActionResourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetActionsContainerActionResourceConfigurationOutputReference
 ```
@@ -1672,7 +1672,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetActionsContainerActionResourceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValueOutputReference
 ```
@@ -1932,7 +1932,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetActionsContainerActionVariables
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsContainerActionVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsContainerActionVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsDatasetActionsContainerActionVariablesList
 ```
@@ -2081,7 +2081,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValueOutputReference
 ```
@@ -2341,7 +2341,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetActionsContainerActionVariables
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsContainerActionVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsContainerActionVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsDatasetActionsContainerActionVariablesOutputReference
 ```
@@ -2663,7 +2663,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetActionsContainerActionVariables
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsDatasetActionsList
 ```
@@ -2812,7 +2812,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsDatasetActionsOutputReference
 ```
@@ -3112,7 +3112,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsQueryActionFiltersDeltaTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsQueryActionFiltersDeltaTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetActionsQueryActionFiltersDeltaTimeOutputReference
 ```
@@ -3383,7 +3383,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetActionsQueryActionFiltersDeltaT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsQueryActionFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsQueryActionFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsDatasetActionsQueryActionFiltersList
 ```
@@ -3532,7 +3532,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsQueryActionFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsQueryActionFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsDatasetActionsQueryActionFiltersOutputReference
 ```
@@ -3810,7 +3810,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetActionsQueryActionFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetActionsQueryActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetActionsQueryActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetActionsQueryActionOutputReference
 ```
@@ -4081,7 +4081,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetActionsQueryAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfigurationOutputReference
 ```
@@ -4352,7 +4352,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetContentDeliveryRulesDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationOutputReference
 ```
@@ -4623,7 +4623,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetContentDeliveryRulesDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfigurationOutputReference
 ```
@@ -4894,7 +4894,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetContentDeliveryRulesDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationOutputReference
 ```
@@ -5187,7 +5187,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetContentDeliveryRulesDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetContentDeliveryRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsDatasetContentDeliveryRulesList
 ```
@@ -5336,7 +5336,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetContentDeliveryRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetContentDeliveryRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsDatasetContentDeliveryRulesOutputReference
 ```
@@ -5625,7 +5625,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetContentDeliveryRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetLateDataRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetLateDataRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsDatasetLateDataRulesList
 ```
@@ -5774,7 +5774,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetLateDataRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetLateDataRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsDatasetLateDataRulesOutputReference
 ```
@@ -6063,7 +6063,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetLateDataRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfigurationOutputReference
 ```
@@ -6323,7 +6323,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetLateDataRulesRuleConfigurationD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetLateDataRulesRuleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetLateDataRulesRuleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetLateDataRulesRuleConfigurationOutputReference
 ```
@@ -6583,7 +6583,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetLateDataRulesRuleConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetRetentionPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetRetentionPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetRetentionPeriodOutputReference
 ```
@@ -6854,7 +6854,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetRetentionPeriod
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsDatasetTagsList
 ```
@@ -7003,7 +7003,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsDatasetTagsOutputReference
 ```
@@ -7292,7 +7292,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetTriggersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetTriggersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsDatasetTriggersList
 ```
@@ -7441,7 +7441,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetTriggersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetTriggersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsDatasetTriggersOutputReference
 ```
@@ -7730,7 +7730,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetTriggers
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetTriggersScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetTriggersScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetTriggersScheduleOutputReference
 ```
@@ -7990,7 +7990,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetTriggersSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetTriggersTriggeringDatasetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetTriggersTriggeringDatasetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetTriggersTriggeringDatasetOutputReference
 ```
@@ -8250,7 +8250,7 @@ func InternalValue() DataAwsccIotanalyticsDatasetTriggersTriggeringDataset
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDataset.DataAwsccIotanalyticsDatasetVersioningConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdataset"
 
 dataawscciotanalyticsdataset.NewDataAwsccIotanalyticsDatasetVersioningConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatasetVersioningConfigurationOutputReference
 ```

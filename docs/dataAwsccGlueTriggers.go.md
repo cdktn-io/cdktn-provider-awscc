@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueTriggers <a name="DataAwsccGlueTriggers" id="@cdktn/provider-awscc.dataAwsccGlueTriggers.DataAwsccGlueTriggers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_triggers awscc_glue_triggers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_triggers awscc_glue_triggers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTriggers.DataAwsccGlueTriggers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetriggers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetriggers"
 
 dataawsccgluetriggers.NewDataAwsccGlueTriggers(scope Construct, id *string, config DataAwsccGlueTriggersConfig) DataAwsccGlueTriggers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueTriggers.DataAwsccGlueTriggers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetriggers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetriggers"
 
 dataawsccgluetriggers.DataAwsccGlueTriggers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueTriggers.DataAwsccGlueTriggers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetriggers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetriggers"
 
 dataawsccgluetriggers.DataAwsccGlueTriggers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgluetriggers.DataAwsccGlueTriggers_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueTriggers.DataAwsccGlueTriggers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetriggers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetriggers"
 
 dataawsccgluetriggers.DataAwsccGlueTriggers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgluetriggers.DataAwsccGlueTriggers_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueTriggers.DataAwsccGlueTriggers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetriggers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetriggers"
 
 dataawsccgluetriggers.DataAwsccGlueTriggers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueTriggers to i
 
 The id of the existing DataAwsccGlueTriggers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_triggers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_triggers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTriggers.DataAwsccGlueTriggersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetriggers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetriggers"
 
 &dataawsccgluetriggers.DataAwsccGlueTriggersConfig {
 	Connection: interface{},

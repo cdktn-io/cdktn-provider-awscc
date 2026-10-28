@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightKnowledgeBases <a name="DataAwsccQuicksightKnowledgeBases" id="@cdktn/provider-awscc.dataAwsccQuicksightKnowledgeBases.DataAwsccQuicksightKnowledgeBases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_knowledge_bases awscc_quicksight_knowledge_bases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_knowledge_bases awscc_quicksight_knowledge_bases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightKnowledgeBases.DataAwsccQuicksightKnowledgeBases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightknowledgebases"
 
 dataawsccquicksightknowledgebases.NewDataAwsccQuicksightKnowledgeBases(scope Construct, id *string, config DataAwsccQuicksightKnowledgeBasesConfig) DataAwsccQuicksightKnowledgeBases
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightKnowledgeBases.DataAwsccQuicksightKnowledgeBases.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightknowledgebases"
 
 dataawsccquicksightknowledgebases.DataAwsccQuicksightKnowledgeBases_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightKnowledgeBases.DataAwsccQuicksightKnowledgeBases.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightknowledgebases"
 
 dataawsccquicksightknowledgebases.DataAwsccQuicksightKnowledgeBases_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksightknowledgebases.DataAwsccQuicksightKnowledgeBases_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightKnowledgeBases.DataAwsccQuicksightKnowledgeBases.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightknowledgebases"
 
 dataawsccquicksightknowledgebases.DataAwsccQuicksightKnowledgeBases_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksightknowledgebases.DataAwsccQuicksightKnowledgeBases_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightKnowledgeBases.DataAwsccQuicksightKnowledgeBases.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightknowledgebases"
 
 dataawsccquicksightknowledgebases.DataAwsccQuicksightKnowledgeBases_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightKnowled
 
 The id of the existing DataAwsccQuicksightKnowledgeBases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_knowledge_bases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_knowledge_bases#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightKnowledgeBases.DataAwsccQuicksightKnowledgeBasesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightknowledgebases"
 
 &dataawsccquicksightknowledgebases.DataAwsccQuicksightKnowledgeBasesConfig {
 	Connection: interface{},

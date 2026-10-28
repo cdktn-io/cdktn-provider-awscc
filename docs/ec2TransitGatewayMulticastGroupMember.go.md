@@ -4,12 +4,12 @@
 
 ### Ec2TransitGatewayMulticastGroupMember <a name="Ec2TransitGatewayMulticastGroupMember" id="@cdktn/provider-awscc.ec2TransitGatewayMulticastGroupMember.Ec2TransitGatewayMulticastGroupMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_multicast_group_member awscc_ec2_transit_gateway_multicast_group_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_multicast_group_member awscc_ec2_transit_gateway_multicast_group_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TransitGatewayMulticastGroupMember.Ec2TransitGatewayMulticastGroupMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewaymulticastgroupmember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewaymulticastgroupmember"
 
 ec2transitgatewaymulticastgroupmember.NewEc2TransitGatewayMulticastGroupMember(scope Construct, id *string, config Ec2TransitGatewayMulticastGroupMemberConfig) Ec2TransitGatewayMulticastGroupMember
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2TransitGatewayMulticastGroupMember.Ec2TransitGatewayMulticastGroupMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewaymulticastgroupmember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewaymulticastgroupmember"
 
 ec2transitgatewaymulticastgroupmember.Ec2TransitGatewayMulticastGroupMember_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2TransitGatewayMulticastGroupMember.Ec2TransitGatewayMulticastGroupMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewaymulticastgroupmember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewaymulticastgroupmember"
 
 ec2transitgatewaymulticastgroupmember.Ec2TransitGatewayMulticastGroupMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ec2transitgatewaymulticastgroupmember.Ec2TransitGatewayMulticastGroupMember_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2TransitGatewayMulticastGroupMember.Ec2TransitGatewayMulticastGroupMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewaymulticastgroupmember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewaymulticastgroupmember"
 
 ec2transitgatewaymulticastgroupmember.Ec2TransitGatewayMulticastGroupMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2transitgatewaymulticastgroupmember.Ec2TransitGatewayMulticastGroupMember_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2TransitGatewayMulticastGroupMember.Ec2TransitGatewayMulticastGroupMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewaymulticastgroupmember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewaymulticastgroupmember"
 
 ec2transitgatewaymulticastgroupmember.Ec2TransitGatewayMulticastGroupMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2TransitGatewayMulticast
 
 The id of the existing Ec2TransitGatewayMulticastGroupMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_multicast_group_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_multicast_group_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -843,7 +843,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2TransitGatewayMulticastGroupMember.Ec2TransitGatewayMulticastGroupMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewaymulticastgroupmember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewaymulticastgroupmember"
 
 &ec2transitgatewaymulticastgroupmember.Ec2TransitGatewayMulticastGroupMemberConfig {
 	Connection: interface{},
@@ -956,7 +956,7 @@ GroupIpAddress *string
 
 The IP address assigned to the transit gateway multicast group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_multicast_group_member#group_ip_address Ec2TransitGatewayMulticastGroupMember#group_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_multicast_group_member#group_ip_address Ec2TransitGatewayMulticastGroupMember#group_ip_address}
 
 ---
 
@@ -970,7 +970,7 @@ NetworkInterfaceId *string
 
 The ID of the transit gateway attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_multicast_group_member#network_interface_id Ec2TransitGatewayMulticastGroupMember#network_interface_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_multicast_group_member#network_interface_id Ec2TransitGatewayMulticastGroupMember#network_interface_id}
 
 ---
 
@@ -984,7 +984,7 @@ TransitGatewayMulticastDomainId *string
 
 The ID of the transit gateway multicast domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_multicast_group_member#transit_gateway_multicast_domain_id Ec2TransitGatewayMulticastGroupMember#transit_gateway_multicast_domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_multicast_group_member#transit_gateway_multicast_domain_id Ec2TransitGatewayMulticastGroupMember#transit_gateway_multicast_domain_id}
 
 ---
 

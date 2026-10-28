@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmincidentsReplicationSets <a name="DataAwsccSsmincidentsReplicationSets" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSets.DataAwsccSsmincidentsReplicationSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmincidents_replication_sets awscc_ssmincidents_replication_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmincidents_replication_sets awscc_ssmincidents_replication_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSets.DataAwsccSsmincidentsReplicationSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationsets"
 
 dataawsccssmincidentsreplicationsets.NewDataAwsccSsmincidentsReplicationSets(scope Construct, id *string, config DataAwsccSsmincidentsReplicationSetsConfig) DataAwsccSsmincidentsReplicationSets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSets.DataAwsccSsmincidentsReplicationSets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationsets"
 
 dataawsccssmincidentsreplicationsets.DataAwsccSsmincidentsReplicationSets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSets.DataAwsccSsmincidentsReplicationSets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationsets"
 
 dataawsccssmincidentsreplicationsets.DataAwsccSsmincidentsReplicationSets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmincidentsreplicationsets.DataAwsccSsmincidentsReplicationSets_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSets.DataAwsccSsmincidentsReplicationSets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationsets"
 
 dataawsccssmincidentsreplicationsets.DataAwsccSsmincidentsReplicationSets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmincidentsreplicationsets.DataAwsccSsmincidentsReplicationSets_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSets.DataAwsccSsmincidentsReplicationSets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationsets"
 
 dataawsccssmincidentsreplicationsets.DataAwsccSsmincidentsReplicationSets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmincidentsRepli
 
 The id of the existing DataAwsccSsmincidentsReplicationSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmincidents_replication_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmincidents_replication_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSets.DataAwsccSsmincidentsReplicationSetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationsets"
 
 &dataawsccssmincidentsreplicationsets.DataAwsccSsmincidentsReplicationSetsConfig {
 	Connection: interface{},

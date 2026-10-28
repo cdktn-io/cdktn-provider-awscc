@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53HostedZone <a name="DataAwsccRoute53HostedZone" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZone"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_hosted_zone awscc_route53_hosted_zone}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_hosted_zone awscc_route53_hosted_zone}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZone.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.NewDataAwsccRoute53HostedZone(scope Construct, id *string, config DataAwsccRoute53HostedZoneConfig) DataAwsccRoute53HostedZone
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZone.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.DataAwsccRoute53HostedZone_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZone.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.DataAwsccRoute53HostedZone_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53hostedzone.DataAwsccRoute53HostedZone_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZone.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.DataAwsccRoute53HostedZone_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53hostedzone.DataAwsccRoute53HostedZone_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZone.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.DataAwsccRoute53HostedZone_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53HostedZone
 
 The id of the existing DataAwsccRoute53HostedZone that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_hosted_zone#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_hosted_zone#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 &dataawsccroute53hostedzone.DataAwsccRoute53HostedZoneConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_hosted_zone#id DataAwsccRoute53HostedZone#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_hosted_zone#id DataAwsccRoute53HostedZone#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 &dataawsccroute53hostedzone.DataAwsccRoute53HostedZoneHostedZoneConfig {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hosted
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeatures.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 &dataawsccroute53hostedzone.DataAwsccRoute53HostedZoneHostedZoneFeatures {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hosted
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 &dataawsccroute53hostedzone.DataAwsccRoute53HostedZoneHostedZoneTags {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hosted
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneQueryLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 &dataawsccroute53hostedzone.DataAwsccRoute53HostedZoneQueryLoggingConfig {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hosted
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneVpCs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 &dataawsccroute53hostedzone.DataAwsccRoute53HostedZoneVpCs {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hosted
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.NewDataAwsccRoute53HostedZoneHostedZoneConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRoute53HostedZoneHostedZoneConfigOutputReference
 ```
@@ -1134,7 +1134,7 @@ func InternalValue() DataAwsccRoute53HostedZoneHostedZoneConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.NewDataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference
 ```
@@ -1394,7 +1394,7 @@ func InternalValue() DataAwsccRoute53HostedZoneHostedZoneFeatures
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.NewDataAwsccRoute53HostedZoneHostedZoneTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53HostedZoneHostedZoneTagsList
 ```
@@ -1543,7 +1543,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.NewDataAwsccRoute53HostedZoneHostedZoneTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53HostedZoneHostedZoneTagsOutputReference
 ```
@@ -1832,7 +1832,7 @@ func InternalValue() DataAwsccRoute53HostedZoneHostedZoneTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneQueryLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.NewDataAwsccRoute53HostedZoneQueryLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRoute53HostedZoneQueryLoggingConfigOutputReference
 ```
@@ -2092,7 +2092,7 @@ func InternalValue() DataAwsccRoute53HostedZoneQueryLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneVpCsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.NewDataAwsccRoute53HostedZoneVpCsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53HostedZoneVpCsList
 ```
@@ -2241,7 +2241,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneVpCsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53hostedzone"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53hostedzone"
 
 dataawsccroute53hostedzone.NewDataAwsccRoute53HostedZoneVpCsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53HostedZoneVpCsOutputReference
 ```

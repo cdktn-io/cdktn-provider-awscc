@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontContinuousDeploymentPolicies <a name="DataAwsccCloudfrontContinuousDeploymentPolicies" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicies.DataAwsccCloudfrontContinuousDeploymentPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_continuous_deployment_policies awscc_cloudfront_continuous_deployment_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_continuous_deployment_policies awscc_cloudfront_continuous_deployment_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicies.DataAwsccCloudfrontContinuousDeploymentPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicies"
 
 dataawscccloudfrontcontinuousdeploymentpolicies.NewDataAwsccCloudfrontContinuousDeploymentPolicies(scope Construct, id *string, config DataAwsccCloudfrontContinuousDeploymentPoliciesConfig) DataAwsccCloudfrontContinuousDeploymentPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicies.DataAwsccCloudfrontContinuousDeploymentPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicies"
 
 dataawscccloudfrontcontinuousdeploymentpolicies.DataAwsccCloudfrontContinuousDeploymentPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicies.DataAwsccCloudfrontContinuousDeploymentPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicies"
 
 dataawscccloudfrontcontinuousdeploymentpolicies.DataAwsccCloudfrontContinuousDeploymentPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontcontinuousdeploymentpolicies.DataAwsccCloudfrontContinuousDep
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicies.DataAwsccCloudfrontContinuousDeploymentPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicies"
 
 dataawscccloudfrontcontinuousdeploymentpolicies.DataAwsccCloudfrontContinuousDeploymentPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontcontinuousdeploymentpolicies.DataAwsccCloudfrontContinuousDep
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicies.DataAwsccCloudfrontContinuousDeploymentPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicies"
 
 dataawscccloudfrontcontinuousdeploymentpolicies.DataAwsccCloudfrontContinuousDeploymentPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontContinu
 
 The id of the existing DataAwsccCloudfrontContinuousDeploymentPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_continuous_deployment_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_continuous_deployment_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicies.DataAwsccCloudfrontContinuousDeploymentPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcontinuousdeploymentpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcontinuousdeploymentpolicies"
 
 &dataawscccloudfrontcontinuousdeploymentpolicies.DataAwsccCloudfrontContinuousDeploymentPoliciesConfig {
 	Connection: interface{},

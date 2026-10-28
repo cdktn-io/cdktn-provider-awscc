@@ -4,12 +4,12 @@
 
 ### DevopsagentTrigger <a name="DevopsagentTrigger" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTrigger"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTrigger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagenttrigger"
 
 devopsagenttrigger.NewDevopsagentTrigger(scope Construct, id *string, config DevopsagentTriggerConfig) DevopsagentTrigger
 ```
@@ -420,7 +420,7 @@ func ResetStatus()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTrigger.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagenttrigger"
 
 devopsagenttrigger.DevopsagentTrigger_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTrigger.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagenttrigger"
 
 devopsagenttrigger.DevopsagentTrigger_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ devopsagenttrigger.DevopsagentTrigger_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTrigger.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagenttrigger"
 
 devopsagenttrigger.DevopsagentTrigger_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ devopsagenttrigger.DevopsagentTrigger_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTrigger.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagenttrigger"
 
 devopsagenttrigger.DevopsagentTrigger_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the DevopsagentTrigger to impo
 
 The id of the existing DevopsagentTrigger that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -874,10 +874,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTriggerCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagenttrigger"
 
 &devopsagenttrigger.DevopsagentTriggerCondition {
-	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentTrigger.DevopsagentTriggerConditionSchedule,
+	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentTrigger.DevopsagentTriggerConditionSchedule,
 }
 ```
 
@@ -899,7 +899,7 @@ Schedule DevopsagentTriggerConditionSchedule
 
 Schedule configuration for a time-based trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger#schedule DevopsagentTrigger#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger#schedule DevopsagentTrigger#schedule}
 
 ---
 
@@ -908,7 +908,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTriggerConditionSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagenttrigger"
 
 &devopsagenttrigger.DevopsagentTriggerConditionSchedule {
 	Expression: *string,
@@ -933,7 +933,7 @@ Expression *string
 
 A cron or rate expression that defines when the trigger fires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger#expression DevopsagentTrigger#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger#expression DevopsagentTrigger#expression}
 
 ---
 
@@ -942,7 +942,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTriggerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagenttrigger"
 
 &devopsagenttrigger.DevopsagentTriggerConfig {
 	Connection: interface{},
@@ -954,7 +954,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger"
 	Provisioners: *[]interface{},
 	Action: *string,
 	AgentSpaceId: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentTrigger.DevopsagentTriggerCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentTrigger.DevopsagentTriggerCondition,
 	Type: *string,
 	Status: *string,
 }
@@ -1059,7 +1059,7 @@ Action *string
 
 The action to perform when the trigger fires. A JSON object containing actionType and task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger#action DevopsagentTrigger#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger#action DevopsagentTrigger#action}
 
 ---
 
@@ -1073,7 +1073,7 @@ AgentSpaceId *string
 
 The unique identifier of the parent Agent Space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger#agent_space_id DevopsagentTrigger#agent_space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger#agent_space_id DevopsagentTrigger#agent_space_id}
 
 ---
 
@@ -1087,7 +1087,7 @@ Condition DevopsagentTriggerCondition
 
 The condition that causes the trigger to fire.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger#condition DevopsagentTrigger#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger#condition DevopsagentTrigger#condition}
 
 ---
 
@@ -1101,7 +1101,7 @@ Type *string
 
 The type of trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger#type DevopsagentTrigger#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger#type DevopsagentTrigger#type}
 
 ---
 
@@ -1115,7 +1115,7 @@ Status *string
 
 The status of the trigger. Active triggers fire on schedule; Inactive triggers are paused.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger#status DevopsagentTrigger#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger#status DevopsagentTrigger#status}
 
 ---
 
@@ -1126,7 +1126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTriggerConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagenttrigger"
 
 devopsagenttrigger.NewDevopsagentTriggerConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentTriggerConditionOutputReference
 ```
@@ -1410,7 +1410,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentTrigger.DevopsagentTriggerConditionScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagenttrigger"
 
 devopsagenttrigger.NewDevopsagentTriggerConditionScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentTriggerConditionScheduleOutputReference
 ```

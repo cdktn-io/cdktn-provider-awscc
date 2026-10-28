@@ -4,12 +4,12 @@
 
 ### ServicecatalogPortfolioPrincipalAssociation <a name="ServicecatalogPortfolioPrincipalAssociation" id="@cdktn/provider-awscc.servicecatalogPortfolioPrincipalAssociation.ServicecatalogPortfolioPrincipalAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_principal_association awscc_servicecatalog_portfolio_principal_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_principal_association awscc_servicecatalog_portfolio_principal_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogPortfolioPrincipalAssociation.ServicecatalogPortfolioPrincipalAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioprincipalassociation"
 
 servicecatalogportfolioprincipalassociation.NewServicecatalogPortfolioPrincipalAssociation(scope Construct, id *string, config ServicecatalogPortfolioPrincipalAssociationConfig) ServicecatalogPortfolioPrincipalAssociation
 ```
@@ -421,7 +421,7 @@ func ResetPrincipalArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.servicecatalogPortfolioPrincipalAssociation.ServicecatalogPortfolioPrincipalAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioprincipalassociation"
 
 servicecatalogportfolioprincipalassociation.ServicecatalogPortfolioPrincipalAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.servicecatalogPortfolioPrincipalAssociation.ServicecatalogPortfolioPrincipalAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioprincipalassociation"
 
 servicecatalogportfolioprincipalassociation.ServicecatalogPortfolioPrincipalAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ servicecatalogportfolioprincipalassociation.ServicecatalogPortfolioPrincipalAsso
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.servicecatalogPortfolioPrincipalAssociation.ServicecatalogPortfolioPrincipalAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioprincipalassociation"
 
 servicecatalogportfolioprincipalassociation.ServicecatalogPortfolioPrincipalAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ servicecatalogportfolioprincipalassociation.ServicecatalogPortfolioPrincipalAsso
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.servicecatalogPortfolioPrincipalAssociation.ServicecatalogPortfolioPrincipalAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioprincipalassociation"
 
 servicecatalogportfolioprincipalassociation.ServicecatalogPortfolioPrincipalAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the ServicecatalogPortfolioPri
 
 The id of the existing ServicecatalogPortfolioPrincipalAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_principal_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_principal_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -809,7 +809,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.servicecatalogPortfolioPrincipalAssociation.ServicecatalogPortfolioPrincipalAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioprincipalassociation"
 
 &servicecatalogportfolioprincipalassociation.ServicecatalogPortfolioPrincipalAssociationConfig {
 	Connection: interface{},
@@ -926,7 +926,7 @@ The principal type.
 
 The supported value is IAM if you use a fully defined Amazon Resource Name (ARN), or IAM_PATTERN if you use an ARN with no accountID, with or without wildcard characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_principal_association#principal_type ServicecatalogPortfolioPrincipalAssociation#principal_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_principal_association#principal_type ServicecatalogPortfolioPrincipalAssociation#principal_type}
 
 ---
 
@@ -940,7 +940,7 @@ AcceptLanguage *string
 
 The language code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_principal_association#accept_language ServicecatalogPortfolioPrincipalAssociation#accept_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_principal_association#accept_language ServicecatalogPortfolioPrincipalAssociation#accept_language}
 
 ---
 
@@ -954,7 +954,7 @@ PortfolioId *string
 
 The portfolio identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_principal_association#portfolio_id ServicecatalogPortfolioPrincipalAssociation#portfolio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_principal_association#portfolio_id ServicecatalogPortfolioPrincipalAssociation#portfolio_id}
 
 ---
 
@@ -968,7 +968,7 @@ PrincipalArn *string
 
 The ARN of the principal (user, role, or group).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_principal_association#principal_arn ServicecatalogPortfolioPrincipalAssociation#principal_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_principal_association#principal_arn ServicecatalogPortfolioPrincipalAssociation#principal_arn}
 
 ---
 

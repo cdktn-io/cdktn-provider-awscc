@@ -4,12 +4,12 @@
 
 ### GlueWorkflow <a name="GlueWorkflow" id="@cdktn/provider-awscc.glueWorkflow.GlueWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_workflow awscc_glue_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_workflow awscc_glue_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueWorkflow.GlueWorkflow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueworkflow"
 
 glueworkflow.NewGlueWorkflow(scope Construct, id *string, config GlueWorkflowConfig) GlueWorkflow
 ```
@@ -435,7 +435,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueWorkflow.GlueWorkflow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueworkflow"
 
 glueworkflow.GlueWorkflow_IsConstruct(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueWorkflow.GlueWorkflow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueworkflow"
 
 glueworkflow.GlueWorkflow_IsTerraformElement(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ glueworkflow.GlueWorkflow_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueWorkflow.GlueWorkflow.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueworkflow"
 
 glueworkflow.GlueWorkflow_IsTerraformResource(x interface{}) *bool
 ```
@@ -495,7 +495,7 @@ glueworkflow.GlueWorkflow_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueWorkflow.GlueWorkflow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueworkflow"
 
 glueworkflow.GlueWorkflow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -524,7 +524,7 @@ The construct id used in the generated config for the GlueWorkflow to import.
 
 The id of the existing GlueWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -845,7 +845,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueWorkflow.GlueWorkflowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueworkflow"
 
 &glueworkflow.GlueWorkflowConfig {
 	Connection: interface{},
@@ -962,7 +962,7 @@ DefaultRunProperties *string
 
 A collection of properties to be used as part of each execution of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_workflow#default_run_properties GlueWorkflow#default_run_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_workflow#default_run_properties GlueWorkflow#default_run_properties}
 
 ---
 
@@ -976,7 +976,7 @@ Description *string
 
 A description of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_workflow#description GlueWorkflow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_workflow#description GlueWorkflow#description}
 
 ---
 
@@ -992,7 +992,7 @@ You can use this parameter to prevent unwanted multiple updates to data, to cont
 
 If you leave this parameter blank, there is no limit to the number of concurrent workflow runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_workflow#max_concurrent_runs GlueWorkflow#max_concurrent_runs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_workflow#max_concurrent_runs GlueWorkflow#max_concurrent_runs}
 
 ---
 
@@ -1006,7 +1006,7 @@ Name *string
 
 The name of the workflow representing the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_workflow#name GlueWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_workflow#name GlueWorkflow#name}
 
 ---
 
@@ -1020,7 +1020,7 @@ Tags *string
 
 The tags to use with this workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_workflow#tags GlueWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_workflow#tags GlueWorkflow#tags}
 
 ---
 

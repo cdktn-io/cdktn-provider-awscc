@@ -4,12 +4,12 @@
 
 ### DataAwsccEcsTaskSet <a name="DataAwsccEcsTaskSet" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_task_set awscc_ecs_task_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_task_set awscc_ecs_task_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSet(scope Construct, id *string, config DataAwsccEcsTaskSetConfig) DataAwsccEcsTaskSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.DataAwsccEcsTaskSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.DataAwsccEcsTaskSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecstaskset.DataAwsccEcsTaskSet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.DataAwsccEcsTaskSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecstaskset.DataAwsccEcsTaskSet_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.DataAwsccEcsTaskSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcsTaskSet to imp
 
 The id of the existing DataAwsccEcsTaskSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_task_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_task_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetCapacityProviderStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 &dataawsccecstaskset.DataAwsccEcsTaskSetCapacityProviderStrategy {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 &dataawsccecstaskset.DataAwsccEcsTaskSetConfig {
 	Connection: interface{},
@@ -852,7 +852,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_task_set#id DataAwsccEcsTaskSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_task_set#id DataAwsccEcsTaskSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -864,7 +864,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetLoadBalancers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 &dataawsccecstaskset.DataAwsccEcsTaskSetLoadBalancers {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 &dataawsccecstaskset.DataAwsccEcsTaskSetNetworkConfiguration {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetNetworkConfigurationAwsVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 &dataawsccecstaskset.DataAwsccEcsTaskSetNetworkConfigurationAwsVpcConfiguration {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetScale.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 &dataawsccecstaskset.DataAwsccEcsTaskSetScale {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetServiceRegistries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 &dataawsccecstaskset.DataAwsccEcsTaskSetServiceRegistries {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 &dataawsccecstaskset.DataAwsccEcsTaskSetTags {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetCapacityProviderStrategyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSetCapacityProviderStrategyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskSetCapacityProviderStrategyList
 ```
@@ -1093,7 +1093,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetCapacityProviderStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSetCapacityProviderStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskSetCapacityProviderStrategyOutputReference
 ```
@@ -1393,7 +1393,7 @@ func InternalValue() DataAwsccEcsTaskSetCapacityProviderStrategy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetLoadBalancersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSetLoadBalancersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskSetLoadBalancersList
 ```
@@ -1542,7 +1542,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetLoadBalancersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSetLoadBalancersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskSetLoadBalancersOutputReference
 ```
@@ -1842,7 +1842,7 @@ func InternalValue() DataAwsccEcsTaskSetLoadBalancers
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetNetworkConfigurationAwsVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSetNetworkConfigurationAwsVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskSetNetworkConfigurationAwsVpcConfigurationOutputReference
 ```
@@ -2124,7 +2124,7 @@ func InternalValue() DataAwsccEcsTaskSetNetworkConfigurationAwsVpcConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSetNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskSetNetworkConfigurationOutputReference
 ```
@@ -2384,7 +2384,7 @@ func InternalValue() DataAwsccEcsTaskSetNetworkConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetScaleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSetScaleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskSetScaleOutputReference
 ```
@@ -2655,7 +2655,7 @@ func InternalValue() DataAwsccEcsTaskSetScale
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetServiceRegistriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSetServiceRegistriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskSetServiceRegistriesList
 ```
@@ -2804,7 +2804,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetServiceRegistriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSetServiceRegistriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskSetServiceRegistriesOutputReference
 ```
@@ -3115,7 +3115,7 @@ func InternalValue() DataAwsccEcsTaskSetServiceRegistries
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskSetTagsList
 ```
@@ -3264,7 +3264,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskSet.DataAwsccEcsTaskSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskset"
 
 dataawsccecstaskset.NewDataAwsccEcsTaskSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskSetTagsOutputReference
 ```

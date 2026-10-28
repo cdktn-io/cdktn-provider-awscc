@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2IpamPoolCidr <a name="DataAwsccEc2IpamPoolCidr" id="@cdktn/provider-awscc.dataAwsccEc2IpamPoolCidr.DataAwsccEc2IpamPoolCidr"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamPoolCidr.DataAwsccEc2IpamPoolCidr.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampoolcidr"
 
 dataawsccec2ipampoolcidr.NewDataAwsccEc2IpamPoolCidr(scope Construct, id *string, config DataAwsccEc2IpamPoolCidrConfig) DataAwsccEc2IpamPoolCidr
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2IpamPoolCidr.DataAwsccEc2IpamPoolCidr.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampoolcidr"
 
 dataawsccec2ipampoolcidr.DataAwsccEc2IpamPoolCidr_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2IpamPoolCidr.DataAwsccEc2IpamPoolCidr.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampoolcidr"
 
 dataawsccec2ipampoolcidr.DataAwsccEc2IpamPoolCidr_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2ipampoolcidr.DataAwsccEc2IpamPoolCidr_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2IpamPoolCidr.DataAwsccEc2IpamPoolCidr.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampoolcidr"
 
 dataawsccec2ipampoolcidr.DataAwsccEc2IpamPoolCidr_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2ipampoolcidr.DataAwsccEc2IpamPoolCidr_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2IpamPoolCidr.DataAwsccEc2IpamPoolCidr.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampoolcidr"
 
 dataawsccec2ipampoolcidr.DataAwsccEc2IpamPoolCidr_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2IpamPoolCidr t
 
 The id of the existing DataAwsccEc2IpamPoolCidr that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_pool_cidr#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_pool_cidr#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamPoolCidr.DataAwsccEc2IpamPoolCidrConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampoolcidr"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampoolcidr"
 
 &dataawsccec2ipampoolcidr.DataAwsccEc2IpamPoolCidrConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_pool_cidr#id DataAwsccEc2IpamPoolCidr#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_pool_cidr#id DataAwsccEc2IpamPoolCidr#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

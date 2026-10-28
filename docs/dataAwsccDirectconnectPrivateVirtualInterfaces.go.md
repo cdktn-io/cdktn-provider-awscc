@@ -4,12 +4,12 @@
 
 ### DataAwsccDirectconnectPrivateVirtualInterfaces <a name="DataAwsccDirectconnectPrivateVirtualInterfaces" id="@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterfaces.DataAwsccDirectconnectPrivateVirtualInterfaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_private_virtual_interfaces awscc_directconnect_private_virtual_interfaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_private_virtual_interfaces awscc_directconnect_private_virtual_interfaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterfaces.DataAwsccDirectconnectPrivateVirtualInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectprivatevirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectprivatevirtualinterfaces"
 
 dataawsccdirectconnectprivatevirtualinterfaces.NewDataAwsccDirectconnectPrivateVirtualInterfaces(scope Construct, id *string, config DataAwsccDirectconnectPrivateVirtualInterfacesConfig) DataAwsccDirectconnectPrivateVirtualInterfaces
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterfaces.DataAwsccDirectconnectPrivateVirtualInterfaces.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectprivatevirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectprivatevirtualinterfaces"
 
 dataawsccdirectconnectprivatevirtualinterfaces.DataAwsccDirectconnectPrivateVirtualInterfaces_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterfaces.DataAwsccDirectconnectPrivateVirtualInterfaces.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectprivatevirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectprivatevirtualinterfaces"
 
 dataawsccdirectconnectprivatevirtualinterfaces.DataAwsccDirectconnectPrivateVirtualInterfaces_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdirectconnectprivatevirtualinterfaces.DataAwsccDirectconnectPrivateVirt
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterfaces.DataAwsccDirectconnectPrivateVirtualInterfaces.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectprivatevirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectprivatevirtualinterfaces"
 
 dataawsccdirectconnectprivatevirtualinterfaces.DataAwsccDirectconnectPrivateVirtualInterfaces_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdirectconnectprivatevirtualinterfaces.DataAwsccDirectconnectPrivateVirt
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterfaces.DataAwsccDirectconnectPrivateVirtualInterfaces.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectprivatevirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectprivatevirtualinterfaces"
 
 dataawsccdirectconnectprivatevirtualinterfaces.DataAwsccDirectconnectPrivateVirtualInterfaces_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDirectconnectPriv
 
 The id of the existing DataAwsccDirectconnectPrivateVirtualInterfaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_private_virtual_interfaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_private_virtual_interfaces#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterfaces.DataAwsccDirectconnectPrivateVirtualInterfacesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectprivatevirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectprivatevirtualinterfaces"
 
 &dataawsccdirectconnectprivatevirtualinterfaces.DataAwsccDirectconnectPrivateVirtualInterfacesConfig {
 	Connection: interface{},

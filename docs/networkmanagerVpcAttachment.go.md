@@ -4,12 +4,12 @@
 
 ### NetworkmanagerVpcAttachment <a name="NetworkmanagerVpcAttachment" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NewNetworkmanagerVpcAttachment(scope Construct, id *string, config NetworkmanagerVpcAttachmentConfig) NetworkmanagerVpcAttachment
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NetworkmanagerVpcAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NetworkmanagerVpcAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ networkmanagervpcattachment.NetworkmanagerVpcAttachment_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NetworkmanagerVpcAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ networkmanagervpcattachment.NetworkmanagerVpcAttachment_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NetworkmanagerVpcAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the NetworkmanagerVpcAttachmen
 
 The id of the existing NetworkmanagerVpcAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1044,7 +1044,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 &networkmanagervpcattachment.NetworkmanagerVpcAttachmentConfig {
 	Connection: interface{},
@@ -1057,7 +1057,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattac
 	CoreNetworkId: *string,
 	SubnetArns: *[]*string,
 	VpcArn: *string,
-	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentOptions,
+	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentOptions,
 	RoutingPolicyLabel: *string,
 	Tags: interface{},
 }
@@ -1163,7 +1163,7 @@ CoreNetworkId *string
 
 The ID of a core network for the VPC attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#core_network_id NetworkmanagerVpcAttachment#core_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#core_network_id NetworkmanagerVpcAttachment#core_network_id}
 
 ---
 
@@ -1177,7 +1177,7 @@ SubnetArns *[]*string
 
 Subnet Arn list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#subnet_arns NetworkmanagerVpcAttachment#subnet_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#subnet_arns NetworkmanagerVpcAttachment#subnet_arns}
 
 ---
 
@@ -1191,7 +1191,7 @@ VpcArn *string
 
 The ARN of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#vpc_arn NetworkmanagerVpcAttachment#vpc_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#vpc_arn NetworkmanagerVpcAttachment#vpc_arn}
 
 ---
 
@@ -1205,7 +1205,7 @@ Options NetworkmanagerVpcAttachmentOptions
 
 Vpc options of the attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#options NetworkmanagerVpcAttachment#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#options NetworkmanagerVpcAttachment#options}
 
 ---
 
@@ -1219,7 +1219,7 @@ RoutingPolicyLabel *string
 
 Routing policy label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#routing_policy_label NetworkmanagerVpcAttachment#routing_policy_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#routing_policy_label NetworkmanagerVpcAttachment#routing_policy_label}
 
 ---
 
@@ -1233,7 +1233,7 @@ Tags interface{}
 
 Tags for the attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#tags NetworkmanagerVpcAttachment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#tags NetworkmanagerVpcAttachment#tags}
 
 ---
 
@@ -1242,7 +1242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 &networkmanagervpcattachment.NetworkmanagerVpcAttachmentOptions {
 	ApplianceModeSupport: interface{},
@@ -1273,7 +1273,7 @@ ApplianceModeSupport interface{}
 
 Indicates whether to enable ApplianceModeSupport Support for Vpc Attachment. Valid Values: true | false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#appliance_mode_support NetworkmanagerVpcAttachment#appliance_mode_support}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#appliance_mode_support NetworkmanagerVpcAttachment#appliance_mode_support}
 
 ---
 
@@ -1287,7 +1287,7 @@ DnsSupport interface{}
 
 Indicates whether to enable private DNS Support for Vpc Attachment. Valid Values: true | false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#dns_support NetworkmanagerVpcAttachment#dns_support}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#dns_support NetworkmanagerVpcAttachment#dns_support}
 
 ---
 
@@ -1301,7 +1301,7 @@ Ipv6Support interface{}
 
 Indicates whether to enable Ipv6 Support for Vpc Attachment. Valid Values: enable | disable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#ipv_6_support NetworkmanagerVpcAttachment#ipv_6_support}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#ipv_6_support NetworkmanagerVpcAttachment#ipv_6_support}
 
 ---
 
@@ -1315,7 +1315,7 @@ SecurityGroupReferencingSupport interface{}
 
 Indicates whether to enable Security Group Referencing Support for Vpc Attachment. Valid Values: true | false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#security_group_referencing_support NetworkmanagerVpcAttachment#security_group_referencing_support}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#security_group_referencing_support NetworkmanagerVpcAttachment#security_group_referencing_support}
 
 ---
 
@@ -1324,7 +1324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 &networkmanagervpcattachment.NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange {
 
@@ -1337,7 +1337,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 &networkmanagervpcattachment.NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTags {
 
@@ -1350,7 +1350,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentProposedSegmentChange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 &networkmanagervpcattachment.NetworkmanagerVpcAttachmentProposedSegmentChange {
 
@@ -1363,7 +1363,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentProposedSegmentChangeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 &networkmanagervpcattachment.NetworkmanagerVpcAttachmentProposedSegmentChangeTags {
 
@@ -1376,7 +1376,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 &networkmanagervpcattachment.NetworkmanagerVpcAttachmentTags {
 	Key: *string,
@@ -1405,7 +1405,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#key NetworkmanagerVpcAttachment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#key NetworkmanagerVpcAttachment#key}
 
 ---
 
@@ -1421,7 +1421,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_vpc_attachment#value NetworkmanagerVpcAttachment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_vpc_attachment#value NetworkmanagerVpcAttachment#value}
 
 ---
 
@@ -1432,7 +1432,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NewNetworkmanagerVpcAttachmentOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerVpcAttachmentOptionsOutputReference
 ```
@@ -1797,7 +1797,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NewNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference
 ```
@@ -2079,7 +2079,7 @@ func InternalValue() NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NewNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsList
 ```
@@ -2228,7 +2228,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NewNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference
 ```
@@ -2517,7 +2517,7 @@ func InternalValue() NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NewNetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference
 ```
@@ -2799,7 +2799,7 @@ func InternalValue() NetworkmanagerVpcAttachmentProposedSegmentChange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentProposedSegmentChangeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NewNetworkmanagerVpcAttachmentProposedSegmentChangeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerVpcAttachmentProposedSegmentChangeTagsList
 ```
@@ -2948,7 +2948,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NewNetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference
 ```
@@ -3237,7 +3237,7 @@ func InternalValue() NetworkmanagerVpcAttachmentProposedSegmentChangeTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NewNetworkmanagerVpcAttachmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerVpcAttachmentTagsList
 ```
@@ -3397,7 +3397,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagervpcattachment"
 
 networkmanagervpcattachment.NewNetworkmanagerVpcAttachmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerVpcAttachmentTagsOutputReference
 ```

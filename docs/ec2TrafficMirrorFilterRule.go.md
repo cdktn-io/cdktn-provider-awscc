@@ -4,12 +4,12 @@
 
 ### Ec2TrafficMirrorFilterRule <a name="Ec2TrafficMirrorFilterRule" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule awscc_ec2_traffic_mirror_filter_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule awscc_ec2_traffic_mirror_filter_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 ec2trafficmirrorfilterrule.NewEc2TrafficMirrorFilterRule(scope Construct, id *string, config Ec2TrafficMirrorFilterRuleConfig) Ec2TrafficMirrorFilterRule
 ```
@@ -474,7 +474,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 ec2trafficmirrorfilterrule.Ec2TrafficMirrorFilterRule_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 ec2trafficmirrorfilterrule.Ec2TrafficMirrorFilterRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ ec2trafficmirrorfilterrule.Ec2TrafficMirrorFilterRule_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 ec2trafficmirrorfilterrule.Ec2TrafficMirrorFilterRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ ec2trafficmirrorfilterrule.Ec2TrafficMirrorFilterRule_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 ec2trafficmirrorfilterrule.Ec2TrafficMirrorFilterRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the Ec2TrafficMirrorFilterRule
 
 The id of the existing Ec2TrafficMirrorFilterRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1027,7 +1027,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 &ec2trafficmirrorfilterrule.Ec2TrafficMirrorFilterRuleConfig {
 	Connection: interface{},
@@ -1044,9 +1044,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilter
 	TrafficDirection: *string,
 	TrafficMirrorFilterId: *string,
 	Description: *string,
-	DestinationPortRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleDestinationPortRange,
+	DestinationPortRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleDestinationPortRange,
 	Protocol: *f64,
-	SourcePortRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleSourcePortRange,
+	SourcePortRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleSourcePortRange,
 	Tags: interface{},
 }
 ```
@@ -1156,7 +1156,7 @@ DestinationCidrBlock *string
 
 The destination CIDR block to assign to the Traffic Mirror rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#destination_cidr_block Ec2TrafficMirrorFilterRule#destination_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#destination_cidr_block Ec2TrafficMirrorFilterRule#destination_cidr_block}
 
 ---
 
@@ -1170,7 +1170,7 @@ RuleAction *string
 
 The action to take on the filtered traffic (accept/reject).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#rule_action Ec2TrafficMirrorFilterRule#rule_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#rule_action Ec2TrafficMirrorFilterRule#rule_action}
 
 ---
 
@@ -1184,7 +1184,7 @@ RuleNumber *f64
 
 The number of the Traffic Mirror rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#rule_number Ec2TrafficMirrorFilterRule#rule_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#rule_number Ec2TrafficMirrorFilterRule#rule_number}
 
 ---
 
@@ -1198,7 +1198,7 @@ SourceCidrBlock *string
 
 The source CIDR block to assign to the Traffic Mirror Filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#source_cidr_block Ec2TrafficMirrorFilterRule#source_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#source_cidr_block Ec2TrafficMirrorFilterRule#source_cidr_block}
 
 ---
 
@@ -1212,7 +1212,7 @@ TrafficDirection *string
 
 The direction of traffic (ingress/egress).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#traffic_direction Ec2TrafficMirrorFilterRule#traffic_direction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#traffic_direction Ec2TrafficMirrorFilterRule#traffic_direction}
 
 ---
 
@@ -1226,7 +1226,7 @@ TrafficMirrorFilterId *string
 
 The ID of the filter that this rule is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#traffic_mirror_filter_id Ec2TrafficMirrorFilterRule#traffic_mirror_filter_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#traffic_mirror_filter_id Ec2TrafficMirrorFilterRule#traffic_mirror_filter_id}
 
 ---
 
@@ -1240,7 +1240,7 @@ Description *string
 
 The description of the Traffic Mirror Filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#description Ec2TrafficMirrorFilterRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#description Ec2TrafficMirrorFilterRule#description}
 
 ---
 
@@ -1254,7 +1254,7 @@ DestinationPortRange Ec2TrafficMirrorFilterRuleDestinationPortRange
 
 The destination port range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#destination_port_range Ec2TrafficMirrorFilterRule#destination_port_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#destination_port_range Ec2TrafficMirrorFilterRule#destination_port_range}
 
 ---
 
@@ -1268,7 +1268,7 @@ Protocol *f64
 
 The number of protocol, for example 17 (UDP), to assign to the Traffic Mirror rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#protocol Ec2TrafficMirrorFilterRule#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#protocol Ec2TrafficMirrorFilterRule#protocol}
 
 ---
 
@@ -1282,7 +1282,7 @@ SourcePortRange Ec2TrafficMirrorFilterRuleSourcePortRange
 
 The source port range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#source_port_range Ec2TrafficMirrorFilterRule#source_port_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#source_port_range Ec2TrafficMirrorFilterRule#source_port_range}
 
 ---
 
@@ -1296,7 +1296,7 @@ Tags interface{}
 
 Any tags assigned to the Traffic Mirror Filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#tags Ec2TrafficMirrorFilterRule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#tags Ec2TrafficMirrorFilterRule#tags}
 
 ---
 
@@ -1305,7 +1305,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleDestinationPortRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 &ec2trafficmirrorfilterrule.Ec2TrafficMirrorFilterRuleDestinationPortRange {
 	FromPort: *f64,
@@ -1332,7 +1332,7 @@ FromPort *f64
 
 The first port in the Traffic Mirror port range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#from_port Ec2TrafficMirrorFilterRule#from_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#from_port Ec2TrafficMirrorFilterRule#from_port}
 
 ---
 
@@ -1346,7 +1346,7 @@ ToPort *f64
 
 The last port in the Traffic Mirror port range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#to_port Ec2TrafficMirrorFilterRule#to_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#to_port Ec2TrafficMirrorFilterRule#to_port}
 
 ---
 
@@ -1355,7 +1355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleSourcePortRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 &ec2trafficmirrorfilterrule.Ec2TrafficMirrorFilterRuleSourcePortRange {
 	FromPort: *f64,
@@ -1382,7 +1382,7 @@ FromPort *f64
 
 The first port in the Traffic Mirror port range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#from_port Ec2TrafficMirrorFilterRule#from_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#from_port Ec2TrafficMirrorFilterRule#from_port}
 
 ---
 
@@ -1396,7 +1396,7 @@ ToPort *f64
 
 The last port in the Traffic Mirror port range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#to_port Ec2TrafficMirrorFilterRule#to_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#to_port Ec2TrafficMirrorFilterRule#to_port}
 
 ---
 
@@ -1405,7 +1405,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 &ec2trafficmirrorfilterrule.Ec2TrafficMirrorFilterRuleTags {
 	Key: *string,
@@ -1417,8 +1417,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilter
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#key Ec2TrafficMirrorFilterRule#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#value Ec2TrafficMirrorFilterRule#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#key Ec2TrafficMirrorFilterRule#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#value Ec2TrafficMirrorFilterRule#value}. |
 
 ---
 
@@ -1430,7 +1430,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#key Ec2TrafficMirrorFilterRule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#key Ec2TrafficMirrorFilterRule#key}.
 
 ---
 
@@ -1442,7 +1442,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_traffic_mirror_filter_rule#value Ec2TrafficMirrorFilterRule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_traffic_mirror_filter_rule#value Ec2TrafficMirrorFilterRule#value}.
 
 ---
 
@@ -1453,7 +1453,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 ec2trafficmirrorfilterrule.NewEc2TrafficMirrorFilterRuleDestinationPortRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference
 ```
@@ -1760,7 +1760,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleSourcePortRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 ec2trafficmirrorfilterrule.NewEc2TrafficMirrorFilterRuleSourcePortRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2TrafficMirrorFilterRuleSourcePortRangeOutputReference
 ```
@@ -2067,7 +2067,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 ec2trafficmirrorfilterrule.NewEc2TrafficMirrorFilterRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2TrafficMirrorFilterRuleTagsList
 ```
@@ -2227,7 +2227,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrorfilterrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2trafficmirrorfilterrule"
 
 ec2trafficmirrorfilterrule.NewEc2TrafficMirrorFilterRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2TrafficMirrorFilterRuleTagsOutputReference
 ```

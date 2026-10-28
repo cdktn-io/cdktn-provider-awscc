@@ -4,12 +4,12 @@
 
 ### LocationRouteCalculator <a name="LocationRouteCalculator" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator awscc_location_route_calculator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator awscc_location_route_calculator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationroutecalculator"
 
 locationroutecalculator.NewLocationRouteCalculator(scope Construct, id *string, config LocationRouteCalculatorConfig) LocationRouteCalculator
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculator.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationroutecalculator"
 
 locationroutecalculator.LocationRouteCalculator_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculator.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationroutecalculator"
 
 locationroutecalculator.LocationRouteCalculator_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ locationroutecalculator.LocationRouteCalculator_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculator.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationroutecalculator"
 
 locationroutecalculator.LocationRouteCalculator_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ locationroutecalculator.LocationRouteCalculator_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculator.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationroutecalculator"
 
 locationroutecalculator.LocationRouteCalculator_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the LocationRouteCalculator to
 
 The id of the existing LocationRouteCalculator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -888,7 +888,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationroutecalculator"
 
 &locationroutecalculator.LocationRouteCalculatorConfig {
 	Connection: interface{},
@@ -917,10 +917,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationroutecalculato
 | <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.calculatorName">CalculatorName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#calculator_name LocationRouteCalculator#calculator_name}. |
-| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.dataSource">DataSource</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#data_source LocationRouteCalculator#data_source}. |
-| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#description LocationRouteCalculator#description}. |
-| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.pricingPlan">PricingPlan</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#pricing_plan LocationRouteCalculator#pricing_plan}. |
+| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.calculatorName">CalculatorName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#calculator_name LocationRouteCalculator#calculator_name}. |
+| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.dataSource">DataSource</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#data_source LocationRouteCalculator#data_source}. |
+| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#description LocationRouteCalculator#description}. |
+| <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.pricingPlan">PricingPlan</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#pricing_plan LocationRouteCalculator#pricing_plan}. |
 | <code><a href="#@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1003,7 +1003,7 @@ CalculatorName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#calculator_name LocationRouteCalculator#calculator_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#calculator_name LocationRouteCalculator#calculator_name}.
 
 ---
 
@@ -1015,7 +1015,7 @@ DataSource *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#data_source LocationRouteCalculator#data_source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#data_source LocationRouteCalculator#data_source}.
 
 ---
 
@@ -1027,7 +1027,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#description LocationRouteCalculator#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#description LocationRouteCalculator#description}.
 
 ---
 
@@ -1039,7 +1039,7 @@ PricingPlan *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#pricing_plan LocationRouteCalculator#pricing_plan}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#pricing_plan LocationRouteCalculator#pricing_plan}.
 
 ---
 
@@ -1053,7 +1053,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#tags LocationRouteCalculator#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#tags LocationRouteCalculator#tags}
 
 ---
 
@@ -1062,7 +1062,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationroutecalculator"
 
 &locationroutecalculator.LocationRouteCalculatorTags {
 	Key: *string,
@@ -1091,7 +1091,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#key LocationRouteCalculator#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#key LocationRouteCalculator#key}
 
 ---
 
@@ -1107,7 +1107,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_route_calculator#value LocationRouteCalculator#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_route_calculator#value LocationRouteCalculator#value}
 
 ---
 
@@ -1118,7 +1118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationroutecalculator"
 
 locationroutecalculator.NewLocationRouteCalculatorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LocationRouteCalculatorTagsList
 ```
@@ -1278,7 +1278,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.locationRouteCalculator.LocationRouteCalculatorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationroutecalculator"
 
 locationroutecalculator.NewLocationRouteCalculatorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LocationRouteCalculatorTagsOutputReference
 ```

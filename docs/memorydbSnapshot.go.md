@@ -4,12 +4,12 @@
 
 ### MemorydbSnapshot <a name="MemorydbSnapshot" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_snapshot awscc_memorydb_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_snapshot awscc_memorydb_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsnapshot"
 
 memorydbsnapshot.NewMemorydbSnapshot(scope Construct, id *string, config MemorydbSnapshotConfig) MemorydbSnapshot
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsnapshot"
 
 memorydbsnapshot.MemorydbSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsnapshot"
 
 memorydbsnapshot.MemorydbSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ memorydbsnapshot.MemorydbSnapshot_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsnapshot"
 
 memorydbsnapshot.MemorydbSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ memorydbsnapshot.MemorydbSnapshot_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsnapshot"
 
 memorydbsnapshot.MemorydbSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the MemorydbSnapshot to import
 
 The id of the existing MemorydbSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshotClusterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsnapshot"
 
 &memorydbsnapshot.MemorydbSnapshotClusterConfiguration {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsnapshot"
 
 &memorydbsnapshot.MemorydbSnapshotConfig {
 	Connection: interface{},
@@ -998,7 +998,7 @@ ClusterName *string
 
 The name of the cluster from which the snapshot was taken.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_snapshot#cluster_name MemorydbSnapshot#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_snapshot#cluster_name MemorydbSnapshot#cluster_name}
 
 ---
 
@@ -1012,7 +1012,7 @@ SnapshotName *string
 
 The name of the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_snapshot#snapshot_name MemorydbSnapshot#snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_snapshot#snapshot_name MemorydbSnapshot#snapshot_name}
 
 ---
 
@@ -1026,7 +1026,7 @@ KmsKeyId *string
 
 The ID of the KMS key used to encrypt the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_snapshot#kms_key_id MemorydbSnapshot#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_snapshot#kms_key_id MemorydbSnapshot#kms_key_id}
 
 ---
 
@@ -1040,7 +1040,7 @@ Tags interface{}
 
 A list of tags to be added to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_snapshot#tags MemorydbSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_snapshot#tags MemorydbSnapshot#tags}
 
 ---
 
@@ -1049,7 +1049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsnapshot"
 
 &memorydbsnapshot.MemorydbSnapshotTags {
 	Key: *string,
@@ -1076,7 +1076,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_snapshot#key MemorydbSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_snapshot#key MemorydbSnapshot#key}
 
 ---
 
@@ -1090,7 +1090,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_snapshot#value MemorydbSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_snapshot#value MemorydbSnapshot#value}
 
 ---
 
@@ -1101,7 +1101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshotClusterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsnapshot"
 
 memorydbsnapshot.NewMemorydbSnapshotClusterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MemorydbSnapshotClusterConfigurationOutputReference
 ```
@@ -1504,7 +1504,7 @@ func InternalValue() MemorydbSnapshotClusterConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsnapshot"
 
 memorydbsnapshot.NewMemorydbSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MemorydbSnapshotTagsList
 ```
@@ -1664,7 +1664,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsnapshot"
 
 memorydbsnapshot.NewMemorydbSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MemorydbSnapshotTagsOutputReference
 ```

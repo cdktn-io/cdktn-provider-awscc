@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueSchemas <a name="DataAwsccGlueSchemas" id="@cdktn/provider-awscc.dataAwsccGlueSchemas.DataAwsccGlueSchemas"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_schemas awscc_glue_schemas}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_schemas awscc_glue_schemas}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueSchemas.DataAwsccGlueSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschemas"
 
 dataawsccglueschemas.NewDataAwsccGlueSchemas(scope Construct, id *string, config DataAwsccGlueSchemasConfig) DataAwsccGlueSchemas
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueSchemas.DataAwsccGlueSchemas.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschemas"
 
 dataawsccglueschemas.DataAwsccGlueSchemas_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueSchemas.DataAwsccGlueSchemas.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschemas"
 
 dataawsccglueschemas.DataAwsccGlueSchemas_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccglueschemas.DataAwsccGlueSchemas_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueSchemas.DataAwsccGlueSchemas.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschemas"
 
 dataawsccglueschemas.DataAwsccGlueSchemas_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccglueschemas.DataAwsccGlueSchemas_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueSchemas.DataAwsccGlueSchemas.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschemas"
 
 dataawsccglueschemas.DataAwsccGlueSchemas_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueSchemas to im
 
 The id of the existing DataAwsccGlueSchemas that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_schemas#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_schemas#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueSchemas.DataAwsccGlueSchemasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschemas"
 
 &dataawsccglueschemas.DataAwsccGlueSchemasConfig {
 	Connection: interface{},

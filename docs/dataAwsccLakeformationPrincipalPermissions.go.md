@@ -4,12 +4,12 @@
 
 ### DataAwsccLakeformationPrincipalPermissions <a name="DataAwsccLakeformationPrincipalPermissions" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissions(scope Construct, id *string, config DataAwsccLakeformationPrincipalPermissionsConfig) DataAwsccLakeformationPrincipalPermissions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermis
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermis
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLakeformationPrin
 
 The id of the existing DataAwsccLakeformationPrincipalPermissions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lakeformation_principal_permissions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lakeformation_principal_permissions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lakeformation_principal_permissions#id DataAwsccLakeformationPrincipalPermissions#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lakeformation_principal_permissions#id DataAwsccLakeformationPrincipalPermissions#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsPrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsPrincipal {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsResource {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalog {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsResourceDatabase {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceDataCellsFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsResourceDataCellsFilter {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceDataLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsResourceDataLocation {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceLfTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsResourceLfTag {
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicy {
 
@@ -889,7 +889,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicyExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicyExpression {
 
@@ -902,7 +902,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsResourceTable {
 
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceTableWithColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsResourceTableWithColumns {
 
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 &dataawscclakeformationprincipalpermissions.DataAwsccLakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcard {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsPrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsPrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationPrincipalPermissionsPrincipalOutputReference
 ```
@@ -1203,7 +1203,7 @@ func InternalValue() DataAwsccLakeformationPrincipalPermissionsPrincipal
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference
 ```
@@ -1463,7 +1463,7 @@ func InternalValue() DataAwsccLakeformationPrincipalPermissionsResourceCatalog
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceDatabaseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceDatabaseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationPrincipalPermissionsResourceDatabaseOutputReference
 ```
@@ -1734,7 +1734,7 @@ func InternalValue() DataAwsccLakeformationPrincipalPermissionsResourceDatabase
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceDataCellsFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceDataCellsFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationPrincipalPermissionsResourceDataCellsFilterOutputReference
 ```
@@ -2027,7 +2027,7 @@ func InternalValue() DataAwsccLakeformationPrincipalPermissionsResourceDataCells
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceDataLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceDataLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationPrincipalPermissionsResourceDataLocationOutputReference
 ```
@@ -2298,7 +2298,7 @@ func InternalValue() DataAwsccLakeformationPrincipalPermissionsResourceDataLocat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceLfTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceLfTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationPrincipalPermissionsResourceLfTagOutputReference
 ```
@@ -2580,7 +2580,7 @@ func InternalValue() DataAwsccLakeformationPrincipalPermissionsResourceLfTag
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicyExpressionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicyExpressionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicyExpressionList
 ```
@@ -2729,7 +2729,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicyExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicyExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicyExpressionOutputReference
 ```
@@ -3018,7 +3018,7 @@ func InternalValue() DataAwsccLakeformationPrincipalPermissionsResourceLfTagPoli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationPrincipalPermissionsResourceLfTagPolicyOutputReference
 ```
@@ -3300,7 +3300,7 @@ func InternalValue() DataAwsccLakeformationPrincipalPermissionsResourceLfTagPoli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationPrincipalPermissionsResourceOutputReference
 ```
@@ -3637,7 +3637,7 @@ func InternalValue() DataAwsccLakeformationPrincipalPermissionsResource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceTableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceTableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationPrincipalPermissionsResourceTableOutputReference
 ```
@@ -3930,7 +3930,7 @@ func InternalValue() DataAwsccLakeformationPrincipalPermissionsResourceTable
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcardOutputReference
 ```
@@ -4190,7 +4190,7 @@ func InternalValue() DataAwsccLakeformationPrincipalPermissionsResourceTableWith
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationPrincipalPermissions.DataAwsccLakeformationPrincipalPermissionsResourceTableWithColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationprincipalpermissions"
 
 dataawscclakeformationprincipalpermissions.NewDataAwsccLakeformationPrincipalPermissionsResourceTableWithColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationPrincipalPermissionsResourceTableWithColumnsOutputReference
 ```

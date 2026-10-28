@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockmantleProjects <a name="DataAwsccBedrockmantleProjects" id="@cdktn/provider-awscc.dataAwsccBedrockmantleProjects.DataAwsccBedrockmantleProjects"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockmantle_projects awscc_bedrockmantle_projects}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockmantle_projects awscc_bedrockmantle_projects}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockmantleProjects.DataAwsccBedrockmantleProjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockmantleprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockmantleprojects"
 
 dataawsccbedrockmantleprojects.NewDataAwsccBedrockmantleProjects(scope Construct, id *string, config DataAwsccBedrockmantleProjectsConfig) DataAwsccBedrockmantleProjects
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockmantleProjects.DataAwsccBedrockmantleProjects.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockmantleprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockmantleprojects"
 
 dataawsccbedrockmantleprojects.DataAwsccBedrockmantleProjects_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockmantleProjects.DataAwsccBedrockmantleProjects.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockmantleprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockmantleprojects"
 
 dataawsccbedrockmantleprojects.DataAwsccBedrockmantleProjects_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockmantleprojects.DataAwsccBedrockmantleProjects_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockmantleProjects.DataAwsccBedrockmantleProjects.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockmantleprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockmantleprojects"
 
 dataawsccbedrockmantleprojects.DataAwsccBedrockmantleProjects_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockmantleprojects.DataAwsccBedrockmantleProjects_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockmantleProjects.DataAwsccBedrockmantleProjects.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockmantleprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockmantleprojects"
 
 dataawsccbedrockmantleprojects.DataAwsccBedrockmantleProjects_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockmantleProj
 
 The id of the existing DataAwsccBedrockmantleProjects that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockmantle_projects#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockmantle_projects#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockmantleProjects.DataAwsccBedrockmantleProjectsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockmantleprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockmantleprojects"
 
 &dataawsccbedrockmantleprojects.DataAwsccBedrockmantleProjectsConfig {
 	Connection: interface{},

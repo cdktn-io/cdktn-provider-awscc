@@ -4,12 +4,12 @@
 
 ### DatazoneOwner <a name="DatazoneOwner" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwner"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner awscc_datazone_owner}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner awscc_datazone_owner}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwner.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 datazoneowner.NewDatazoneOwner(scope Construct, id *string, config DatazoneOwnerConfig) DatazoneOwner
 ```
@@ -413,7 +413,7 @@ func PutOwner(value DatazoneOwnerOwner)
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwner.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 datazoneowner.DatazoneOwner_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwner.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 datazoneowner.DatazoneOwner_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ datazoneowner.DatazoneOwner_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwner.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 datazoneowner.DatazoneOwner_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ datazoneowner.DatazoneOwner_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwner.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 datazoneowner.DatazoneOwner_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the DatazoneOwner to import.
 
 The id of the existing DatazoneOwner that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -823,7 +823,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwnerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 &datazoneowner.DatazoneOwnerConfig {
 	Connection: interface{},
@@ -836,7 +836,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
 	DomainIdentifier: *string,
 	EntityIdentifier: *string,
 	EntityType: *string,
-	Owner: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datazoneOwner.DatazoneOwnerOwner,
+	Owner: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datazoneOwner.DatazoneOwnerOwner,
 }
 ```
 
@@ -938,7 +938,7 @@ DomainIdentifier *string
 
 The ID of the domain in which you want to add the entity owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner#domain_identifier DatazoneOwner#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner#domain_identifier DatazoneOwner#domain_identifier}
 
 ---
 
@@ -952,7 +952,7 @@ EntityIdentifier *string
 
 The ID of the entity to which you want to add an owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner#entity_identifier DatazoneOwner#entity_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner#entity_identifier DatazoneOwner#entity_identifier}
 
 ---
 
@@ -966,7 +966,7 @@ EntityType *string
 
 The type of an entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner#entity_type DatazoneOwner#entity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner#entity_type DatazoneOwner#entity_type}
 
 ---
 
@@ -980,7 +980,7 @@ Owner DatazoneOwnerOwner
 
 The owner that you want to add to the entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner#owner DatazoneOwner#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner#owner DatazoneOwner#owner}
 
 ---
 
@@ -989,11 +989,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwnerOwner.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 &datazoneowner.DatazoneOwnerOwner {
-	Group: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datazoneOwner.DatazoneOwnerOwnerGroup,
-	User: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datazoneOwner.DatazoneOwnerOwnerUser,
+	Group: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datazoneOwner.DatazoneOwnerOwnerGroup,
+	User: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datazoneOwner.DatazoneOwnerOwnerUser,
 }
 ```
 
@@ -1016,7 +1016,7 @@ Group DatazoneOwnerOwnerGroup
 
 The properties of the domain unit owners group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner#group DatazoneOwner#group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner#group DatazoneOwner#group}
 
 ---
 
@@ -1030,7 +1030,7 @@ User DatazoneOwnerOwnerUser
 
 The properties of the owner user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner#user DatazoneOwner#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner#user DatazoneOwner#user}
 
 ---
 
@@ -1039,7 +1039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwnerOwnerGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 &datazoneowner.DatazoneOwnerOwnerGroup {
 	GroupIdentifier: *string,
@@ -1064,7 +1064,7 @@ GroupIdentifier *string
 
 The ID of the domain unit owners group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner#group_identifier DatazoneOwner#group_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner#group_identifier DatazoneOwner#group_identifier}
 
 ---
 
@@ -1073,7 +1073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwnerOwnerUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 &datazoneowner.DatazoneOwnerOwnerUser {
 	UserIdentifier: *string,
@@ -1098,7 +1098,7 @@ UserIdentifier *string
 
 The ID of the owner user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner#user_identifier DatazoneOwner#user_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner#user_identifier DatazoneOwner#user_identifier}
 
 ---
 
@@ -1109,7 +1109,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwnerOwnerGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 datazoneowner.NewDatazoneOwnerOwnerGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatazoneOwnerOwnerGroupOutputReference
 ```
@@ -1387,7 +1387,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwnerOwnerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 datazoneowner.NewDatazoneOwnerOwnerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatazoneOwnerOwnerOutputReference
 ```
@@ -1720,7 +1720,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneOwner.DatazoneOwnerOwnerUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner"
 
 datazoneowner.NewDatazoneOwnerOwnerUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatazoneOwnerOwnerUserOutputReference
 ```

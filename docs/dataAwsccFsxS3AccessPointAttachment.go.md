@@ -4,12 +4,12 @@
 
 ### DataAwsccFsxS3AccessPointAttachment <a name="DataAwsccFsxS3AccessPointAttachment" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachment(scope Construct, id *string, config DataAwsccFsxS3AccessPointAttachmentConfig) DataAwsccFsxS3AccessPointAttachment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachment_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachment_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFsxS3AccessPointA
 
 The id of the existing DataAwsccFsxS3AccessPointAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_s3_access_point_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_s3_access_point_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 &dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachmentConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_s3_access_point_attachment#id DataAwsccFsxS3AccessPointAttachment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_s3_access_point_attachment#id DataAwsccFsxS3AccessPointAttachment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOntapConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 &dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachmentOntapConfiguration {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 &dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentity {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 &dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUser {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 &dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUser {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 &dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfiguration {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 &dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentity {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 &dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUser {
 
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGids.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 &dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGids {
 
@@ -867,7 +867,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentS3AccessPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 &dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachmentS3AccessPoint {
 
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentS3AccessPointVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 &dataawsccfsxs3accesspointattachment.DataAwsccFsxS3AccessPointAttachmentS3AccessPointVpcConfiguration {
 
@@ -895,7 +895,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityOutputReference
 ```
@@ -1177,7 +1177,7 @@ func InternalValue() DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUserOutputReference
 ```
@@ -1437,7 +1437,7 @@ func InternalValue() DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUserOutputReference
 ```
@@ -1697,7 +1697,7 @@ func InternalValue() DataAwsccFsxS3AccessPointAttachmentOntapConfigurationFileSy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOntapConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachmentOntapConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxS3AccessPointAttachmentOntapConfigurationOutputReference
 ```
@@ -1968,7 +1968,7 @@ func InternalValue() DataAwsccFsxS3AccessPointAttachmentOntapConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityOutputReference
 ```
@@ -2239,7 +2239,7 @@ func InternalValue() DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFile
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserOutputReference
 ```
@@ -2521,7 +2521,7 @@ func InternalValue() DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFile
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsList
 ```
@@ -2670,7 +2670,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsOutputReference
 ```
@@ -2948,7 +2948,7 @@ func InternalValue() DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationFile
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxS3AccessPointAttachmentOpenZfsConfigurationOutputReference
 ```
@@ -3219,7 +3219,7 @@ func InternalValue() DataAwsccFsxS3AccessPointAttachmentOpenZfsConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentS3AccessPointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachmentS3AccessPointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxS3AccessPointAttachmentS3AccessPointOutputReference
 ```
@@ -3512,7 +3512,7 @@ func InternalValue() DataAwsccFsxS3AccessPointAttachmentS3AccessPoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachment.DataAwsccFsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachment"
 
 dataawsccfsxs3accesspointattachment.NewDataAwsccFsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReference
 ```

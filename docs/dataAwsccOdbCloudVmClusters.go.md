@@ -4,12 +4,12 @@
 
 ### DataAwsccOdbCloudVmClusters <a name="DataAwsccOdbCloudVmClusters" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmClusters.DataAwsccOdbCloudVmClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_vm_clusters awscc_odb_cloud_vm_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_vm_clusters awscc_odb_cloud_vm_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmClusters.DataAwsccOdbCloudVmClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmclusters"
 
 dataawsccodbcloudvmclusters.NewDataAwsccOdbCloudVmClusters(scope Construct, id *string, config DataAwsccOdbCloudVmClustersConfig) DataAwsccOdbCloudVmClusters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmClusters.DataAwsccOdbCloudVmClusters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmclusters"
 
 dataawsccodbcloudvmclusters.DataAwsccOdbCloudVmClusters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmClusters.DataAwsccOdbCloudVmClusters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmclusters"
 
 dataawsccodbcloudvmclusters.DataAwsccOdbCloudVmClusters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccodbcloudvmclusters.DataAwsccOdbCloudVmClusters_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmClusters.DataAwsccOdbCloudVmClusters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmclusters"
 
 dataawsccodbcloudvmclusters.DataAwsccOdbCloudVmClusters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccodbcloudvmclusters.DataAwsccOdbCloudVmClusters_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmClusters.DataAwsccOdbCloudVmClusters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmclusters"
 
 dataawsccodbcloudvmclusters.DataAwsccOdbCloudVmClusters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOdbCloudVmCluster
 
 The id of the existing DataAwsccOdbCloudVmClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_vm_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_vm_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmClusters.DataAwsccOdbCloudVmClustersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmclusters"
 
 &dataawsccodbcloudvmclusters.DataAwsccOdbCloudVmClustersConfig {
 	Connection: interface{},

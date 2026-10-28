@@ -4,12 +4,12 @@
 
 ### SimspaceweaverSimulation <a name="SimspaceweaverSimulation" id="@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation awscc_simspaceweaver_simulation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation awscc_simspaceweaver_simulation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/simspaceweaversimulation"
 
 simspaceweaversimulation.NewSimspaceweaverSimulation(scope Construct, id *string, config SimspaceweaverSimulationConfig) SimspaceweaverSimulation
 ```
@@ -447,7 +447,7 @@ func ResetSnapshotS3Location()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/simspaceweaversimulation"
 
 simspaceweaversimulation.SimspaceweaverSimulation_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/simspaceweaversimulation"
 
 simspaceweaversimulation.SimspaceweaverSimulation_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ simspaceweaversimulation.SimspaceweaverSimulation_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/simspaceweaversimulation"
 
 simspaceweaversimulation.SimspaceweaverSimulation_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ simspaceweaversimulation.SimspaceweaverSimulation_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/simspaceweaversimulation"
 
 simspaceweaversimulation.SimspaceweaverSimulation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the SimspaceweaverSimulation t
 
 The id of the existing SimspaceweaverSimulation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -868,7 +868,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/simspaceweaversimulation"
 
 &simspaceweaversimulation.SimspaceweaverSimulationConfig {
 	Connection: interface{},
@@ -881,8 +881,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulati
 	Name: *string,
 	RoleArn: *string,
 	MaximumDuration: *string,
-	SchemaS3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.simspaceweaverSimulation.SimspaceweaverSimulationSchemaS3Location,
-	SnapshotS3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.simspaceweaverSimulation.SimspaceweaverSimulationSnapshotS3Location,
+	SchemaS3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.simspaceweaverSimulation.SimspaceweaverSimulationSchemaS3Location,
+	SnapshotS3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.simspaceweaverSimulation.SimspaceweaverSimulationSnapshotS3Location,
 }
 ```
 
@@ -900,8 +900,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulati
 | <code><a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationConfig.property.name">Name</a></code> | <code>*string</code> | The name of the simulation. |
 | <code><a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationConfig.property.roleArn">RoleArn</a></code> | <code>*string</code> | Role ARN. |
 | <code><a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationConfig.property.maximumDuration">MaximumDuration</a></code> | <code>*string</code> | The maximum running time of the simulation. |
-| <code><a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationConfig.property.schemaS3Location">SchemaS3Location</a></code> | <code><a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationSchemaS3Location">SimspaceweaverSimulationSchemaS3Location</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#schema_s3_location SimspaceweaverSimulation#schema_s3_location}. |
-| <code><a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationConfig.property.snapshotS3Location">SnapshotS3Location</a></code> | <code><a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationSnapshotS3Location">SimspaceweaverSimulationSnapshotS3Location</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#snapshot_s3_location SimspaceweaverSimulation#snapshot_s3_location}. |
+| <code><a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationConfig.property.schemaS3Location">SchemaS3Location</a></code> | <code><a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationSchemaS3Location">SimspaceweaverSimulationSchemaS3Location</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#schema_s3_location SimspaceweaverSimulation#schema_s3_location}. |
+| <code><a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationConfig.property.snapshotS3Location">SnapshotS3Location</a></code> | <code><a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationSnapshotS3Location">SimspaceweaverSimulationSnapshotS3Location</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#snapshot_s3_location SimspaceweaverSimulation#snapshot_s3_location}. |
 
 ---
 
@@ -985,7 +985,7 @@ Name *string
 
 The name of the simulation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#name SimspaceweaverSimulation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#name SimspaceweaverSimulation#name}
 
 ---
 
@@ -999,7 +999,7 @@ RoleArn *string
 
 Role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#role_arn SimspaceweaverSimulation#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#role_arn SimspaceweaverSimulation#role_arn}
 
 ---
 
@@ -1013,7 +1013,7 @@ MaximumDuration *string
 
 The maximum running time of the simulation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#maximum_duration SimspaceweaverSimulation#maximum_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#maximum_duration SimspaceweaverSimulation#maximum_duration}
 
 ---
 
@@ -1025,7 +1025,7 @@ SchemaS3Location SimspaceweaverSimulationSchemaS3Location
 
 - *Type:* <a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationSchemaS3Location">SimspaceweaverSimulationSchemaS3Location</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#schema_s3_location SimspaceweaverSimulation#schema_s3_location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#schema_s3_location SimspaceweaverSimulation#schema_s3_location}.
 
 ---
 
@@ -1037,7 +1037,7 @@ SnapshotS3Location SimspaceweaverSimulationSnapshotS3Location
 
 - *Type:* <a href="#@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationSnapshotS3Location">SimspaceweaverSimulationSnapshotS3Location</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#snapshot_s3_location SimspaceweaverSimulation#snapshot_s3_location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#snapshot_s3_location SimspaceweaverSimulation#snapshot_s3_location}.
 
 ---
 
@@ -1046,7 +1046,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationSchemaS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/simspaceweaversimulation"
 
 &simspaceweaversimulation.SimspaceweaverSimulationSchemaS3Location {
 	BucketName: *string,
@@ -1073,7 +1073,7 @@ BucketName *string
 
 The Schema S3 bucket name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#bucket_name SimspaceweaverSimulation#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#bucket_name SimspaceweaverSimulation#bucket_name}
 
 ---
 
@@ -1087,7 +1087,7 @@ ObjectKey *string
 
 This is the schema S3 object key, which includes the full path of "folders" from the bucket root to the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#object_key SimspaceweaverSimulation#object_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#object_key SimspaceweaverSimulation#object_key}
 
 ---
 
@@ -1096,7 +1096,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationSnapshotS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/simspaceweaversimulation"
 
 &simspaceweaversimulation.SimspaceweaverSimulationSnapshotS3Location {
 	BucketName: *string,
@@ -1123,7 +1123,7 @@ BucketName *string
 
 The Schema S3 bucket name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#bucket_name SimspaceweaverSimulation#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#bucket_name SimspaceweaverSimulation#bucket_name}
 
 ---
 
@@ -1137,7 +1137,7 @@ ObjectKey *string
 
 This is the schema S3 object key, which includes the full path of "folders" from the bucket root to the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/simspaceweaver_simulation#object_key SimspaceweaverSimulation#object_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/simspaceweaver_simulation#object_key SimspaceweaverSimulation#object_key}
 
 ---
 
@@ -1148,7 +1148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationSchemaS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/simspaceweaversimulation"
 
 simspaceweaversimulation.NewSimspaceweaverSimulationSchemaS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SimspaceweaverSimulationSchemaS3LocationOutputReference
 ```
@@ -1455,7 +1455,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.simspaceweaverSimulation.SimspaceweaverSimulationSnapshotS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/simspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/simspaceweaversimulation"
 
 simspaceweaversimulation.NewSimspaceweaverSimulationSnapshotS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SimspaceweaverSimulationSnapshotS3LocationOutputReference
 ```

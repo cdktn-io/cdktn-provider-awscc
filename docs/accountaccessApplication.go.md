@@ -4,12 +4,12 @@
 
 ### AccountaccessApplication <a name="AccountaccessApplication" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_application awscc_accountaccess_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_application awscc_accountaccess_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 accountaccessapplication.NewAccountaccessApplication(scope Construct, id *string, config AccountaccessApplicationConfig) AccountaccessApplication
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 accountaccessapplication.AccountaccessApplication_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 accountaccessapplication.AccountaccessApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ accountaccessapplication.AccountaccessApplication_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 accountaccessapplication.AccountaccessApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ accountaccessapplication.AccountaccessApplication_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 accountaccessapplication.AccountaccessApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the AccountaccessApplication t
 
 The id of the existing AccountaccessApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -832,7 +832,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 &accountaccessapplication.AccountaccessApplicationConfig {
 	Connection: interface{},
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplicati
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	IdentitySource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.accountaccessApplication.AccountaccessApplicationIdentitySource,
+	IdentitySource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.accountaccessApplication.AccountaccessApplicationIdentitySource,
 	Tags: interface{},
 }
 ```
@@ -943,7 +943,7 @@ IdentitySource AccountaccessApplicationIdentitySource
 
 The identity source for the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_application#identity_source AccountaccessApplication#identity_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_application#identity_source AccountaccessApplication#identity_source}
 
 ---
 
@@ -957,7 +957,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_application#tags AccountaccessApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_application#tags AccountaccessApplication#tags}
 
 ---
 
@@ -966,10 +966,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 &accountaccessapplication.AccountaccessApplicationIdentitySource {
-	IdentityCenter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.accountaccessApplication.AccountaccessApplicationIdentitySourceIdentityCenter,
+	IdentityCenter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.accountaccessApplication.AccountaccessApplicationIdentitySourceIdentityCenter,
 }
 ```
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplicati
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySource.property.identityCenter">IdentityCenter</a></code> | <code><a href="#@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySourceIdentityCenter">AccountaccessApplicationIdentitySourceIdentityCenter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}. |
+| <code><a href="#@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySource.property.identityCenter">IdentityCenter</a></code> | <code><a href="#@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySourceIdentityCenter">AccountaccessApplicationIdentitySourceIdentityCenter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}. |
 
 ---
 
@@ -989,7 +989,7 @@ IdentityCenter AccountaccessApplicationIdentitySourceIdentityCenter
 
 - *Type:* <a href="#@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySourceIdentityCenter">AccountaccessApplicationIdentitySourceIdentityCenter</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}.
 
 ---
 
@@ -998,7 +998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySourceIdentityCenter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 &accountaccessapplication.AccountaccessApplicationIdentitySourceIdentityCenter {
 	InstanceArn: *string,
@@ -1023,7 +1023,7 @@ InstanceArn *string
 
 The ARN of the Identity Center instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_application#instance_arn AccountaccessApplication#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_application#instance_arn AccountaccessApplication#instance_arn}
 
 ---
 
@@ -1032,7 +1032,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 &accountaccessapplication.AccountaccessApplicationTags {
 	Key: *string,
@@ -1061,7 +1061,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_application#key AccountaccessApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_application#key AccountaccessApplication#key}
 
 ---
 
@@ -1077,7 +1077,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_application#value AccountaccessApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_application#value AccountaccessApplication#value}
 
 ---
 
@@ -1088,7 +1088,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySourceIdentityCenterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 accountaccessapplication.NewAccountaccessApplicationIdentitySourceIdentityCenterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AccountaccessApplicationIdentitySourceIdentityCenterOutputReference
 ```
@@ -1370,7 +1370,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 accountaccessapplication.NewAccountaccessApplicationIdentitySourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AccountaccessApplicationIdentitySourceOutputReference
 ```
@@ -1654,7 +1654,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 accountaccessapplication.NewAccountaccessApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AccountaccessApplicationTagsList
 ```
@@ -1814,7 +1814,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessapplication"
 
 accountaccessapplication.NewAccountaccessApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AccountaccessApplicationTagsOutputReference
 ```

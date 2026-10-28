@@ -4,12 +4,12 @@
 
 ### DataAwsccSesDedicatedIpPool <a name="DataAwsccSesDedicatedIpPool" id="@cdktn/provider-awscc.dataAwsccSesDedicatedIpPool.DataAwsccSesDedicatedIpPool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesDedicatedIpPool.DataAwsccSesDedicatedIpPool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesdedicatedippool"
 
 dataawsccsesdedicatedippool.NewDataAwsccSesDedicatedIpPool(scope Construct, id *string, config DataAwsccSesDedicatedIpPoolConfig) DataAwsccSesDedicatedIpPool
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesDedicatedIpPool.DataAwsccSesDedicatedIpPool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesdedicatedippool"
 
 dataawsccsesdedicatedippool.DataAwsccSesDedicatedIpPool_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesDedicatedIpPool.DataAwsccSesDedicatedIpPool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesdedicatedippool"
 
 dataawsccsesdedicatedippool.DataAwsccSesDedicatedIpPool_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsesdedicatedippool.DataAwsccSesDedicatedIpPool_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesDedicatedIpPool.DataAwsccSesDedicatedIpPool.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesdedicatedippool"
 
 dataawsccsesdedicatedippool.DataAwsccSesDedicatedIpPool_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsesdedicatedippool.DataAwsccSesDedicatedIpPool_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesDedicatedIpPool.DataAwsccSesDedicatedIpPool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesdedicatedippool"
 
 dataawsccsesdedicatedippool.DataAwsccSesDedicatedIpPool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesDedicatedIpPoo
 
 The id of the existing DataAwsccSesDedicatedIpPool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_dedicated_ip_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_dedicated_ip_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesDedicatedIpPool.DataAwsccSesDedicatedIpPoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesdedicatedippool"
 
 &dataawsccsesdedicatedippool.DataAwsccSesDedicatedIpPoolConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_dedicated_ip_pool#id DataAwsccSesDedicatedIpPool#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_dedicated_ip_pool#id DataAwsccSesDedicatedIpPool#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesDedicatedIpPool.DataAwsccSesDedicatedIpPoolTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesdedicatedippool"
 
 &dataawsccsesdedicatedippool.DataAwsccSesDedicatedIpPoolTags {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesdedicatedi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesDedicatedIpPool.DataAwsccSesDedicatedIpPoolTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesdedicatedippool"
 
 dataawsccsesdedicatedippool.NewDataAwsccSesDedicatedIpPoolTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesDedicatedIpPoolTagsList
 ```
@@ -905,7 +905,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesDedicatedIpPool.DataAwsccSesDedicatedIpPoolTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesdedicatedippool"
 
 dataawsccsesdedicatedippool.NewDataAwsccSesDedicatedIpPoolTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesDedicatedIpPoolTagsOutputReference
 ```

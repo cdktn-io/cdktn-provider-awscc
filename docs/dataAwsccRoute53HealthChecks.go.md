@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53HealthChecks <a name="DataAwsccRoute53HealthChecks" id="@cdktn/provider-awscc.dataAwsccRoute53HealthChecks.DataAwsccRoute53HealthChecks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_health_checks awscc_route53_health_checks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_health_checks awscc_route53_health_checks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HealthChecks.DataAwsccRoute53HealthChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53healthchecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53healthchecks"
 
 dataawsccroute53healthchecks.NewDataAwsccRoute53HealthChecks(scope Construct, id *string, config DataAwsccRoute53HealthChecksConfig) DataAwsccRoute53HealthChecks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53HealthChecks.DataAwsccRoute53HealthChecks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53healthchecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53healthchecks"
 
 dataawsccroute53healthchecks.DataAwsccRoute53HealthChecks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53HealthChecks.DataAwsccRoute53HealthChecks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53healthchecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53healthchecks"
 
 dataawsccroute53healthchecks.DataAwsccRoute53HealthChecks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53healthchecks.DataAwsccRoute53HealthChecks_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53HealthChecks.DataAwsccRoute53HealthChecks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53healthchecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53healthchecks"
 
 dataawsccroute53healthchecks.DataAwsccRoute53HealthChecks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53healthchecks.DataAwsccRoute53HealthChecks_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53HealthChecks.DataAwsccRoute53HealthChecks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53healthchecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53healthchecks"
 
 dataawsccroute53healthchecks.DataAwsccRoute53HealthChecks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53HealthChec
 
 The id of the existing DataAwsccRoute53HealthChecks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_health_checks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_health_checks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53HealthChecks.DataAwsccRoute53HealthChecksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53healthchecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53healthchecks"
 
 &dataawsccroute53healthchecks.DataAwsccRoute53HealthChecksConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccOdbOdbPeeringConnections <a name="DataAwsccOdbOdbPeeringConnections" id="@cdktn/provider-awscc.dataAwsccOdbOdbPeeringConnections.DataAwsccOdbOdbPeeringConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_odb_peering_connections awscc_odb_odb_peering_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_odb_peering_connections awscc_odb_odb_peering_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbPeeringConnections.DataAwsccOdbOdbPeeringConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbpeeringconnections"
 
 dataawsccodbodbpeeringconnections.NewDataAwsccOdbOdbPeeringConnections(scope Construct, id *string, config DataAwsccOdbOdbPeeringConnectionsConfig) DataAwsccOdbOdbPeeringConnections
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOdbOdbPeeringConnections.DataAwsccOdbOdbPeeringConnections.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbpeeringconnections"
 
 dataawsccodbodbpeeringconnections.DataAwsccOdbOdbPeeringConnections_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOdbOdbPeeringConnections.DataAwsccOdbOdbPeeringConnections.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbpeeringconnections"
 
 dataawsccodbodbpeeringconnections.DataAwsccOdbOdbPeeringConnections_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccodbodbpeeringconnections.DataAwsccOdbOdbPeeringConnections_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOdbOdbPeeringConnections.DataAwsccOdbOdbPeeringConnections.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbpeeringconnections"
 
 dataawsccodbodbpeeringconnections.DataAwsccOdbOdbPeeringConnections_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccodbodbpeeringconnections.DataAwsccOdbOdbPeeringConnections_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOdbOdbPeeringConnections.DataAwsccOdbOdbPeeringConnections.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbpeeringconnections"
 
 dataawsccodbodbpeeringconnections.DataAwsccOdbOdbPeeringConnections_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOdbOdbPeeringConn
 
 The id of the existing DataAwsccOdbOdbPeeringConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_odb_peering_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_odb_peering_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbOdbPeeringConnections.DataAwsccOdbOdbPeeringConnectionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbpeeringconnections"
 
 &dataawsccodbodbpeeringconnections.DataAwsccOdbOdbPeeringConnectionsConfig {
 	Connection: interface{},

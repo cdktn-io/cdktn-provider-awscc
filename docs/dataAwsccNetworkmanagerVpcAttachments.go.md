@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkmanagerVpcAttachments <a name="DataAwsccNetworkmanagerVpcAttachments" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachments.DataAwsccNetworkmanagerVpcAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_vpc_attachments awscc_networkmanager_vpc_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_vpc_attachments awscc_networkmanager_vpc_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachments.DataAwsccNetworkmanagerVpcAttachments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachments"
 
 dataawsccnetworkmanagervpcattachments.NewDataAwsccNetworkmanagerVpcAttachments(scope Construct, id *string, config DataAwsccNetworkmanagerVpcAttachmentsConfig) DataAwsccNetworkmanagerVpcAttachments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachments.DataAwsccNetworkmanagerVpcAttachments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachments"
 
 dataawsccnetworkmanagervpcattachments.DataAwsccNetworkmanagerVpcAttachments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachments.DataAwsccNetworkmanagerVpcAttachments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachments"
 
 dataawsccnetworkmanagervpcattachments.DataAwsccNetworkmanagerVpcAttachments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkmanagervpcattachments.DataAwsccNetworkmanagerVpcAttachments_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachments.DataAwsccNetworkmanagerVpcAttachments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachments"
 
 dataawsccnetworkmanagervpcattachments.DataAwsccNetworkmanagerVpcAttachments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkmanagervpcattachments.DataAwsccNetworkmanagerVpcAttachments_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachments.DataAwsccNetworkmanagerVpcAttachments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachments"
 
 dataawsccnetworkmanagervpcattachments.DataAwsccNetworkmanagerVpcAttachments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerVpc
 
 The id of the existing DataAwsccNetworkmanagerVpcAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_vpc_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_vpc_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachments.DataAwsccNetworkmanagerVpcAttachmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachments"
 
 &dataawsccnetworkmanagervpcattachments.DataAwsccNetworkmanagerVpcAttachmentsConfig {
 	Connection: interface{},

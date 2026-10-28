@@ -4,12 +4,12 @@
 
 ### DataAwsccRamSourceAssociations <a name="DataAwsccRamSourceAssociations" id="@cdktn/provider-awscc.dataAwsccRamSourceAssociations.DataAwsccRamSourceAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_source_associations awscc_ram_source_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_source_associations awscc_ram_source_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRamSourceAssociations.DataAwsccRamSourceAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramsourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramsourceassociations"
 
 dataawsccramsourceassociations.NewDataAwsccRamSourceAssociations(scope Construct, id *string, config DataAwsccRamSourceAssociationsConfig) DataAwsccRamSourceAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRamSourceAssociations.DataAwsccRamSourceAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramsourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramsourceassociations"
 
 dataawsccramsourceassociations.DataAwsccRamSourceAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRamSourceAssociations.DataAwsccRamSourceAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramsourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramsourceassociations"
 
 dataawsccramsourceassociations.DataAwsccRamSourceAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccramsourceassociations.DataAwsccRamSourceAssociations_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRamSourceAssociations.DataAwsccRamSourceAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramsourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramsourceassociations"
 
 dataawsccramsourceassociations.DataAwsccRamSourceAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccramsourceassociations.DataAwsccRamSourceAssociations_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRamSourceAssociations.DataAwsccRamSourceAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramsourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramsourceassociations"
 
 dataawsccramsourceassociations.DataAwsccRamSourceAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRamSourceAssociat
 
 The id of the existing DataAwsccRamSourceAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_source_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_source_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRamSourceAssociations.DataAwsccRamSourceAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramsourceassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramsourceassociations"
 
 &dataawsccramsourceassociations.DataAwsccRamSourceAssociationsConfig {
 	Connection: interface{},

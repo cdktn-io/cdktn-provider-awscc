@@ -4,12 +4,12 @@
 
 ### DataAwsccCognitoUserPoolDomain <a name="DataAwsccCognitoUserPoolDomain" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_domain awscc_cognito_user_pool_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_domain awscc_cognito_user_pool_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 dataawscccognitouserpooldomain.NewDataAwsccCognitoUserPoolDomain(scope Construct, id *string, config DataAwsccCognitoUserPoolDomainConfig) DataAwsccCognitoUserPoolDomain
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 dataawscccognitouserpooldomain.DataAwsccCognitoUserPoolDomain_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 dataawscccognitouserpooldomain.DataAwsccCognitoUserPoolDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccognitouserpooldomain.DataAwsccCognitoUserPoolDomain_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomain.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 dataawscccognitouserpooldomain.DataAwsccCognitoUserPoolDomain_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccognitouserpooldomain.DataAwsccCognitoUserPoolDomain_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 dataawscccognitouserpooldomain.DataAwsccCognitoUserPoolDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCognitoUserPoolDo
 
 The id of the existing DataAwsccCognitoUserPoolDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 &dataawscccognitouserpooldomain.DataAwsccCognitoUserPoolDomainConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_domain#id DataAwsccCognitoUserPoolDomain#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_domain#id DataAwsccCognitoUserPoolDomain#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomainCustomDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 &dataawscccognitouserpooldomain.DataAwsccCognitoUserPoolDomainCustomDomainConfig {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomainRouting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 &dataawscccognitouserpooldomain.DataAwsccCognitoUserPoolDomainRouting {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomainRoutingFailover.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 &dataawscccognitouserpooldomain.DataAwsccCognitoUserPoolDomainRoutingFailover {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomainCustomDomainConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 dataawscccognitouserpooldomain.NewDataAwsccCognitoUserPoolDomainCustomDomainConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolDomainCustomDomainConfigOutputReference
 ```
@@ -1086,7 +1086,7 @@ func InternalValue() DataAwsccCognitoUserPoolDomainCustomDomainConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomainRoutingFailoverOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 dataawscccognitouserpooldomain.NewDataAwsccCognitoUserPoolDomainRoutingFailoverOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolDomainRoutingFailoverOutputReference
 ```
@@ -1357,7 +1357,7 @@ func InternalValue() DataAwsccCognitoUserPoolDomainRoutingFailover
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolDomain.DataAwsccCognitoUserPoolDomainRoutingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooldomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooldomain"
 
 dataawscccognitouserpooldomain.NewDataAwsccCognitoUserPoolDomainRoutingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolDomainRoutingOutputReference
 ```

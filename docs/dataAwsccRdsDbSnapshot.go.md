@@ -4,12 +4,12 @@
 
 ### DataAwsccRdsDbSnapshot <a name="DataAwsccRdsDbSnapshot" id="@cdktn/provider-awscc.dataAwsccRdsDbSnapshot.DataAwsccRdsDbSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_snapshot awscc_rds_db_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_snapshot awscc_rds_db_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbSnapshot.DataAwsccRdsDbSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbsnapshot"
 
 dataawsccrdsdbsnapshot.NewDataAwsccRdsDbSnapshot(scope Construct, id *string, config DataAwsccRdsDbSnapshotConfig) DataAwsccRdsDbSnapshot
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRdsDbSnapshot.DataAwsccRdsDbSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbsnapshot"
 
 dataawsccrdsdbsnapshot.DataAwsccRdsDbSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRdsDbSnapshot.DataAwsccRdsDbSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbsnapshot"
 
 dataawsccrdsdbsnapshot.DataAwsccRdsDbSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrdsdbsnapshot.DataAwsccRdsDbSnapshot_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRdsDbSnapshot.DataAwsccRdsDbSnapshot.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbsnapshot"
 
 dataawsccrdsdbsnapshot.DataAwsccRdsDbSnapshot_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrdsdbsnapshot.DataAwsccRdsDbSnapshot_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRdsDbSnapshot.DataAwsccRdsDbSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbsnapshot"
 
 dataawsccrdsdbsnapshot.DataAwsccRdsDbSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRdsDbSnapshot to 
 
 The id of the existing DataAwsccRdsDbSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -862,7 +862,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsDbSnapshot.DataAwsccRdsDbSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbsnapshot"
 
 &dataawsccrdsdbsnapshot.DataAwsccRdsDbSnapshotConfig {
 	Connection: interface{},
@@ -971,7 +971,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_snapshot#id DataAwsccRdsDbSnapshot#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_snapshot#id DataAwsccRdsDbSnapshot#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -983,7 +983,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsDbSnapshot.DataAwsccRdsDbSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbsnapshot"
 
 &dataawsccrdsdbsnapshot.DataAwsccRdsDbSnapshotTags {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshot
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbSnapshot.DataAwsccRdsDbSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbsnapshot"
 
 dataawsccrdsdbsnapshot.NewDataAwsccRdsDbSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRdsDbSnapshotTagsList
 ```
@@ -1147,7 +1147,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbSnapshot.DataAwsccRdsDbSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbsnapshot"
 
 dataawsccrdsdbsnapshot.NewDataAwsccRdsDbSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRdsDbSnapshotTagsOutputReference
 ```

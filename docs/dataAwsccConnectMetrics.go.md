@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectMetrics <a name="DataAwsccConnectMetrics" id="@cdktn/provider-awscc.dataAwsccConnectMetrics.DataAwsccConnectMetrics"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_metrics awscc_connect_metrics}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_metrics awscc_connect_metrics}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetrics.DataAwsccConnectMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetrics"
 
 dataawsccconnectmetrics.NewDataAwsccConnectMetrics(scope Construct, id *string, config DataAwsccConnectMetricsConfig) DataAwsccConnectMetrics
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectMetrics.DataAwsccConnectMetrics.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetrics"
 
 dataawsccconnectmetrics.DataAwsccConnectMetrics_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectMetrics.DataAwsccConnectMetrics.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetrics"
 
 dataawsccconnectmetrics.DataAwsccConnectMetrics_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectmetrics.DataAwsccConnectMetrics_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectMetrics.DataAwsccConnectMetrics.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetrics"
 
 dataawsccconnectmetrics.DataAwsccConnectMetrics_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectmetrics.DataAwsccConnectMetrics_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectMetrics.DataAwsccConnectMetrics.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetrics"
 
 dataawsccconnectmetrics.DataAwsccConnectMetrics_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectMetrics to
 
 The id of the existing DataAwsccConnectMetrics that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_metrics#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_metrics#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetrics.DataAwsccConnectMetricsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetrics"
 
 &dataawsccconnectmetrics.DataAwsccConnectMetricsConfig {
 	Connection: interface{},

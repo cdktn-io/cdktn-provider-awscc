@@ -4,12 +4,12 @@
 
 ### DataAwsccCodepipelineWebhook <a name="DataAwsccCodepipelineWebhook" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhook"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codepipeline_webhook awscc_codepipeline_webhook}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codepipeline_webhook awscc_codepipeline_webhook}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 dataawscccodepipelinewebhook.NewDataAwsccCodepipelineWebhook(scope Construct, id *string, config DataAwsccCodepipelineWebhookConfig) DataAwsccCodepipelineWebhook
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhook.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 dataawscccodepipelinewebhook.DataAwsccCodepipelineWebhook_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhook.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 dataawscccodepipelinewebhook.DataAwsccCodepipelineWebhook_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodepipelinewebhook.DataAwsccCodepipelineWebhook_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhook.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 dataawscccodepipelinewebhook.DataAwsccCodepipelineWebhook_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodepipelinewebhook.DataAwsccCodepipelineWebhook_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhook.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 dataawscccodepipelinewebhook.DataAwsccCodepipelineWebhook_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodepipelineWebho
 
 The id of the existing DataAwsccCodepipelineWebhook that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codepipeline_webhook#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codepipeline_webhook#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhookAuthenticationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 &dataawscccodepipelinewebhook.DataAwsccCodepipelineWebhookAuthenticationConfiguration {
 
@@ -721,7 +721,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinew
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhookConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 &dataawscccodepipelinewebhook.DataAwsccCodepipelineWebhookConfig {
 	Connection: interface{},
@@ -830,7 +830,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codepipeline_webhook#id DataAwsccCodepipelineWebhook#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codepipeline_webhook#id DataAwsccCodepipelineWebhook#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -842,7 +842,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhookFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 &dataawscccodepipelinewebhook.DataAwsccCodepipelineWebhookFilters {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinew
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhookTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 &dataawscccodepipelinewebhook.DataAwsccCodepipelineWebhookTags {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinew
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhookAuthenticationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 dataawscccodepipelinewebhook.NewDataAwsccCodepipelineWebhookAuthenticationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelineWebhookAuthenticationConfigurationOutputReference
 ```
@@ -1141,7 +1141,7 @@ func InternalValue() DataAwsccCodepipelineWebhookAuthenticationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhookFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 dataawscccodepipelinewebhook.NewDataAwsccCodepipelineWebhookFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelineWebhookFiltersList
 ```
@@ -1290,7 +1290,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhookFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 dataawscccodepipelinewebhook.NewDataAwsccCodepipelineWebhookFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelineWebhookFiltersOutputReference
 ```
@@ -1579,7 +1579,7 @@ func InternalValue() DataAwsccCodepipelineWebhookFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhookTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 dataawscccodepipelinewebhook.NewDataAwsccCodepipelineWebhookTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelineWebhookTagsList
 ```
@@ -1728,7 +1728,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineWebhook.DataAwsccCodepipelineWebhookTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinewebhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinewebhook"
 
 dataawscccodepipelinewebhook.NewDataAwsccCodepipelineWebhookTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelineWebhookTagsOutputReference
 ```

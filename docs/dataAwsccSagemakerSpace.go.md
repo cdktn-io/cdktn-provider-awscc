@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerSpace <a name="DataAwsccSagemakerSpace" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_space awscc_sagemaker_space}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_space awscc_sagemaker_space}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpace(scope Construct, id *string, config DataAwsccSagemakerSpaceConfig) DataAwsccSagemakerSpace
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.DataAwsccSagemakerSpace_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.DataAwsccSagemakerSpace_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerspace.DataAwsccSagemakerSpace_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpace.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.DataAwsccSagemakerSpace_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerspace.DataAwsccSagemakerSpace_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.DataAwsccSagemakerSpace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerSpace to
 
 The id of the existing DataAwsccSagemakerSpace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_space#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_space#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_space#id DataAwsccSagemakerSpace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_space#id DataAwsccSagemakerSpace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceOwnershipSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceOwnershipSettings {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettings {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettings {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagement {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettings {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpec {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystems {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsEfsFileSystem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsEfsFileSystem {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsFsxLustreFileSystem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsFsxLustreFileSystem {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsS3FileSystem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsS3FileSystem {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettings {
 
@@ -950,7 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagement {
 
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings {
 
@@ -976,7 +976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsCodeRepositories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsCodeRepositories {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsDefaultResourceSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsDefaultResourceSpec {
 
@@ -1002,7 +1002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSettings {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSettingsDefaultResourceSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSettingsDefaultResourceSpec {
 
@@ -1028,7 +1028,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettings {
 
@@ -1041,7 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImages {
 
@@ -1054,7 +1054,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpec {
 
@@ -1067,7 +1067,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettings {
 
@@ -1080,7 +1080,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettingsEbsStorageSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettingsEbsStorageSettings {
 
@@ -1093,7 +1093,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSharingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceSpaceSharingSettings {
 
@@ -1106,7 +1106,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 &dataawsccsagemakerspace.DataAwsccSagemakerSpaceTags {
 
@@ -1121,7 +1121,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspac
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceOwnershipSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceOwnershipSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceOwnershipSettingsOutputReference
 ```
@@ -1381,7 +1381,7 @@ func InternalValue() DataAwsccSagemakerSpaceOwnershipSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsOutputReference
 ```
@@ -1641,7 +1641,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagementOutputReference
 ```
@@ -1901,7 +1901,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsAp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpecOutputReference
 ```
@@ -2194,7 +2194,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettingsOutputReference
 ```
@@ -2465,7 +2465,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsCodeEditorAppSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsEfsFileSystemOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsEfsFileSystemOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsEfsFileSystemOutputReference
 ```
@@ -2725,7 +2725,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsEfsFil
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsFsxLustreFileSystemOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsFsxLustreFileSystemOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsFsxLustreFileSystemOutputReference
 ```
@@ -2985,7 +2985,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsFsxLus
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsList
 ```
@@ -3134,7 +3134,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsOutputReference
 ```
@@ -3434,7 +3434,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystems
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsS3FileSystemOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsS3FileSystemOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsS3FileSystemOutputReference
 ```
@@ -3694,7 +3694,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsCustomFileSystemsS3File
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsOutputReference
 ```
@@ -3954,7 +3954,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementOutputReference
 ```
@@ -4214,7 +4214,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsCodeRepositoriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsCodeRepositoriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsCodeRepositoriesList
 ```
@@ -4363,7 +4363,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsCodeRepositoriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsCodeRepositoriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsCodeRepositoriesOutputReference
 ```
@@ -4641,7 +4641,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecOutputReference
 ```
@@ -4934,7 +4934,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettingsOutputReference
 ```
@@ -5216,7 +5216,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsJupyterLabAppSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecOutputReference
 ```
@@ -5509,7 +5509,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSettingsOutputReference
 ```
@@ -5780,7 +5780,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsJupyterServerAppSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImagesList
 ```
@@ -5929,7 +5929,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImagesOutputReference
 ```
@@ -6229,7 +6229,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecOutputReference
 ```
@@ -6522,7 +6522,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsOutputReference
 ```
@@ -6804,7 +6804,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsKernelGatewayAppSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsOutputReference
 ```
@@ -7152,7 +7152,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettingsEbsStorageSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettingsEbsStorageSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettingsEbsStorageSettingsOutputReference
 ```
@@ -7412,7 +7412,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettingsEbs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettingsOutputReference
 ```
@@ -7672,7 +7672,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSettingsSpaceStorageSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceSpaceSharingSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceSpaceSharingSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerSpaceSpaceSharingSettingsOutputReference
 ```
@@ -7932,7 +7932,7 @@ func InternalValue() DataAwsccSagemakerSpaceSpaceSharingSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerSpaceTagsList
 ```
@@ -8081,7 +8081,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerSpace.DataAwsccSagemakerSpaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerspace"
 
 dataawsccsagemakerspace.NewDataAwsccSagemakerSpaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerSpaceTagsOutputReference
 ```

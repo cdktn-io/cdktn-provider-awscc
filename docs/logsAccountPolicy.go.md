@@ -4,12 +4,12 @@
 
 ### LogsAccountPolicy <a name="LogsAccountPolicy" id="@cdktn/provider-awscc.logsAccountPolicy.LogsAccountPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_account_policy awscc_logs_account_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_account_policy awscc_logs_account_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsAccountPolicy.LogsAccountPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsaccountpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsaccountpolicy"
 
 logsaccountpolicy.NewLogsAccountPolicy(scope Construct, id *string, config LogsAccountPolicyConfig) LogsAccountPolicy
 ```
@@ -414,7 +414,7 @@ func ResetSelectionCriteria()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.logsAccountPolicy.LogsAccountPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsaccountpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsaccountpolicy"
 
 logsaccountpolicy.LogsAccountPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.logsAccountPolicy.LogsAccountPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsaccountpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsaccountpolicy"
 
 logsaccountpolicy.LogsAccountPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ logsaccountpolicy.LogsAccountPolicy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.logsAccountPolicy.LogsAccountPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsaccountpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsaccountpolicy"
 
 logsaccountpolicy.LogsAccountPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ logsaccountpolicy.LogsAccountPolicy_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.logsAccountPolicy.LogsAccountPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsaccountpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsaccountpolicy"
 
 logsaccountpolicy.LogsAccountPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the LogsAccountPolicy to impor
 
 The id of the existing LogsAccountPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_account_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_account_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -835,7 +835,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsAccountPolicy.LogsAccountPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsaccountpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsaccountpolicy"
 
 &logsaccountpolicy.LogsAccountPolicyConfig {
 	Connection: interface{},
@@ -958,7 +958,7 @@ The policy must be in JSON string format.
 
 Length Constraints: Maximum length of 30720
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_account_policy#policy_document LogsAccountPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_account_policy#policy_document LogsAccountPolicy#policy_document}
 
 ---
 
@@ -972,7 +972,7 @@ PolicyName *string
 
 The name of the account policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_account_policy#policy_name LogsAccountPolicy#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_account_policy#policy_name LogsAccountPolicy#policy_name}
 
 ---
 
@@ -986,7 +986,7 @@ PolicyType *string
 
 Type of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_account_policy#policy_type LogsAccountPolicy#policy_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_account_policy#policy_type LogsAccountPolicy#policy_type}
 
 ---
 
@@ -1000,7 +1000,7 @@ Scope *string
 
 Scope for policy application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_account_policy#scope LogsAccountPolicy#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_account_policy#scope LogsAccountPolicy#scope}
 
 ---
 
@@ -1016,7 +1016,7 @@ Log group  selection criteria to apply policy only to a subset of log groups.
 
 SelectionCriteria string can be up to 25KB and cloudwatchlogs determines the length of selectionCriteria by using its UTF-8 bytes
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_account_policy#selection_criteria LogsAccountPolicy#selection_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_account_policy#selection_criteria LogsAccountPolicy#selection_criteria}
 
 ---
 

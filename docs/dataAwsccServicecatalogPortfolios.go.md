@@ -4,12 +4,12 @@
 
 ### DataAwsccServicecatalogPortfolios <a name="DataAwsccServicecatalogPortfolios" id="@cdktn/provider-awscc.dataAwsccServicecatalogPortfolios.DataAwsccServicecatalogPortfolios"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_portfolios awscc_servicecatalog_portfolios}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_portfolios awscc_servicecatalog_portfolios}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogPortfolios.DataAwsccServicecatalogPortfolios.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogportfolios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogportfolios"
 
 dataawsccservicecatalogportfolios.NewDataAwsccServicecatalogPortfolios(scope Construct, id *string, config DataAwsccServicecatalogPortfoliosConfig) DataAwsccServicecatalogPortfolios
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicecatalogPortfolios.DataAwsccServicecatalogPortfolios.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogportfolios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogportfolios"
 
 dataawsccservicecatalogportfolios.DataAwsccServicecatalogPortfolios_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicecatalogPortfolios.DataAwsccServicecatalogPortfolios.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogportfolios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogportfolios"
 
 dataawsccservicecatalogportfolios.DataAwsccServicecatalogPortfolios_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicecatalogportfolios.DataAwsccServicecatalogPortfolios_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicecatalogPortfolios.DataAwsccServicecatalogPortfolios.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogportfolios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogportfolios"
 
 dataawsccservicecatalogportfolios.DataAwsccServicecatalogPortfolios_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicecatalogportfolios.DataAwsccServicecatalogPortfolios_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicecatalogPortfolios.DataAwsccServicecatalogPortfolios.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogportfolios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogportfolios"
 
 dataawsccservicecatalogportfolios.DataAwsccServicecatalogPortfolios_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogPor
 
 The id of the existing DataAwsccServicecatalogPortfolios that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_portfolios#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_portfolios#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogPortfolios.DataAwsccServicecatalogPortfoliosConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogportfolios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogportfolios"
 
 &dataawsccservicecatalogportfolios.DataAwsccServicecatalogPortfoliosConfig {
 	Connection: interface{},

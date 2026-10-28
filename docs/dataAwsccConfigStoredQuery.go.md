@@ -4,12 +4,12 @@
 
 ### DataAwsccConfigStoredQuery <a name="DataAwsccConfigStoredQuery" id="@cdktn/provider-awscc.dataAwsccConfigStoredQuery.DataAwsccConfigStoredQuery"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_stored_query awscc_config_stored_query}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_stored_query awscc_config_stored_query}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigStoredQuery.DataAwsccConfigStoredQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigstoredquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigstoredquery"
 
 dataawsccconfigstoredquery.NewDataAwsccConfigStoredQuery(scope Construct, id *string, config DataAwsccConfigStoredQueryConfig) DataAwsccConfigStoredQuery
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConfigStoredQuery.DataAwsccConfigStoredQuery.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigstoredquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigstoredquery"
 
 dataawsccconfigstoredquery.DataAwsccConfigStoredQuery_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConfigStoredQuery.DataAwsccConfigStoredQuery.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigstoredquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigstoredquery"
 
 dataawsccconfigstoredquery.DataAwsccConfigStoredQuery_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconfigstoredquery.DataAwsccConfigStoredQuery_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConfigStoredQuery.DataAwsccConfigStoredQuery.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigstoredquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigstoredquery"
 
 dataawsccconfigstoredquery.DataAwsccConfigStoredQuery_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconfigstoredquery.DataAwsccConfigStoredQuery_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConfigStoredQuery.DataAwsccConfigStoredQuery.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigstoredquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigstoredquery"
 
 dataawsccconfigstoredquery.DataAwsccConfigStoredQuery_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConfigStoredQuery
 
 The id of the existing DataAwsccConfigStoredQuery that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_stored_query#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_stored_query#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigStoredQuery.DataAwsccConfigStoredQueryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigstoredquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigstoredquery"
 
 &dataawsccconfigstoredquery.DataAwsccConfigStoredQueryConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_stored_query#id DataAwsccConfigStoredQuery#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_stored_query#id DataAwsccConfigStoredQuery#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigStoredQuery.DataAwsccConfigStoredQueryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigstoredquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigstoredquery"
 
 &dataawsccconfigstoredquery.DataAwsccConfigStoredQueryTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigstoredq
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigStoredQuery.DataAwsccConfigStoredQueryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigstoredquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigstoredquery"
 
 dataawsccconfigstoredquery.NewDataAwsccConfigStoredQueryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConfigStoredQueryTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigStoredQuery.DataAwsccConfigStoredQueryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigstoredquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigstoredquery"
 
 dataawsccconfigstoredquery.NewDataAwsccConfigStoredQueryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConfigStoredQueryTagsOutputReference
 ```

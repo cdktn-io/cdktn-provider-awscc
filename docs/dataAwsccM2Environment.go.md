@@ -4,12 +4,12 @@
 
 ### DataAwsccM2Environment <a name="DataAwsccM2Environment" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2Environment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/m2_environment awscc_m2_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/m2_environment awscc_m2_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2Environment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 dataawsccm2environment.NewDataAwsccM2Environment(scope Construct, id *string, config DataAwsccM2EnvironmentConfig) DataAwsccM2Environment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2Environment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 dataawsccm2environment.DataAwsccM2Environment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2Environment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 dataawsccm2environment.DataAwsccM2Environment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccm2environment.DataAwsccM2Environment_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2Environment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 dataawsccm2environment.DataAwsccM2Environment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccm2environment.DataAwsccM2Environment_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2Environment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 dataawsccm2environment.DataAwsccM2Environment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccM2Environment to 
 
 The id of the existing DataAwsccM2Environment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/m2_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/m2_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2EnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 &dataawsccm2environment.DataAwsccM2EnvironmentConfig {
 	Connection: interface{},
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/m2_environment#id DataAwsccM2Environment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/m2_environment#id DataAwsccM2Environment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2EnvironmentHighAvailabilityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 &dataawsccm2environment.DataAwsccM2EnvironmentHighAvailabilityConfig {
 
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2EnvironmentStorageConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 &dataawsccm2environment.DataAwsccM2EnvironmentStorageConfigurations {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2EnvironmentStorageConfigurationsEfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 &dataawsccm2environment.DataAwsccM2EnvironmentStorageConfigurationsEfs {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2EnvironmentStorageConfigurationsFsx.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 &dataawsccm2environment.DataAwsccM2EnvironmentStorageConfigurationsFsx {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2EnvironmentHighAvailabilityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 dataawsccm2environment.NewDataAwsccM2EnvironmentHighAvailabilityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccM2EnvironmentHighAvailabilityConfigOutputReference
 ```
@@ -1198,7 +1198,7 @@ func InternalValue() DataAwsccM2EnvironmentHighAvailabilityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2EnvironmentStorageConfigurationsEfsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 dataawsccm2environment.NewDataAwsccM2EnvironmentStorageConfigurationsEfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccM2EnvironmentStorageConfigurationsEfsOutputReference
 ```
@@ -1469,7 +1469,7 @@ func InternalValue() DataAwsccM2EnvironmentStorageConfigurationsEfs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2EnvironmentStorageConfigurationsFsxOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 dataawsccm2environment.NewDataAwsccM2EnvironmentStorageConfigurationsFsxOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccM2EnvironmentStorageConfigurationsFsxOutputReference
 ```
@@ -1740,7 +1740,7 @@ func InternalValue() DataAwsccM2EnvironmentStorageConfigurationsFsx
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2EnvironmentStorageConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 dataawsccm2environment.NewDataAwsccM2EnvironmentStorageConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccM2EnvironmentStorageConfigurationsList
 ```
@@ -1889,7 +1889,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccM2Environment.DataAwsccM2EnvironmentStorageConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2environment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2environment"
 
 dataawsccm2environment.NewDataAwsccM2EnvironmentStorageConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccM2EnvironmentStorageConfigurationsOutputReference
 ```

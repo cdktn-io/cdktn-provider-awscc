@@ -4,12 +4,12 @@
 
 ### IotsitewiseAssetModel <a name="IotsitewiseAssetModel" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model awscc_iotsitewise_asset_model}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model awscc_iotsitewise_asset_model}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModel(scope Construct, id *string, config IotsitewiseAssetModelConfig) IotsitewiseAssetModel
 ```
@@ -521,7 +521,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.IotsitewiseAssetModel_IsConstruct(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.IotsitewiseAssetModel_IsTerraformElement(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ iotsitewiseassetmodel.IotsitewiseAssetModel_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.IotsitewiseAssetModel_IsTerraformResource(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ iotsitewiseassetmodel.IotsitewiseAssetModel_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.IotsitewiseAssetModel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -610,7 +610,7 @@ The construct id used in the generated config for the IotsitewiseAssetModel to i
 
 The id of the existing IotsitewiseAssetModel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1041,7 +1041,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModels {
 	ComposedAssetModelId: *string,
@@ -1082,7 +1082,7 @@ ComposedAssetModelId *string
 
 The component model ID for which the composite model is composed of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#composed_asset_model_id IotsitewiseAssetModel#composed_asset_model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#composed_asset_model_id IotsitewiseAssetModel#composed_asset_model_id}
 
 ---
 
@@ -1096,7 +1096,7 @@ CompositeModelProperties interface{}
 
 The property definitions of the asset model. You can specify up to 200 properties per asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#composite_model_properties IotsitewiseAssetModel#composite_model_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#composite_model_properties IotsitewiseAssetModel#composite_model_properties}
 
 ---
 
@@ -1110,7 +1110,7 @@ Description *string
 
 A description for the asset composite model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#description IotsitewiseAssetModel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#description IotsitewiseAssetModel#description}
 
 ---
 
@@ -1124,7 +1124,7 @@ ExternalId *string
 
 The External ID of the composite model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
 
 ---
 
@@ -1138,7 +1138,7 @@ Id *string
 
 The Actual ID of the composite model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1155,7 +1155,7 @@ Name *string
 
 A unique, friendly name for the asset composite model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -1169,7 +1169,7 @@ ParentAssetModelCompositeModelExternalId *string
 
 The parent composite model External ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#parent_asset_model_composite_model_external_id IotsitewiseAssetModel#parent_asset_model_composite_model_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#parent_asset_model_composite_model_external_id IotsitewiseAssetModel#parent_asset_model_composite_model_external_id}
 
 ---
 
@@ -1183,7 +1183,7 @@ Path *[]*string
 
 The path of the composite model. This is only for derived composite models.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#path IotsitewiseAssetModel#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#path IotsitewiseAssetModel#path}
 
 ---
 
@@ -1197,7 +1197,7 @@ Type *string
 
 The type of the composite model. For alarm composite models, this type is AWS/ALARM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
 
 ---
 
@@ -1206,7 +1206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelProperties {
 	DataType: *string,
@@ -1215,7 +1215,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
 	Id: *string,
 	LogicalId: *string,
 	Name: *string,
-	Type: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType,
+	Type: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType,
 	Unit: *string,
 }
 ```
@@ -1245,7 +1245,7 @@ DataType *string
 
 The data type of the asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#data_type IotsitewiseAssetModel#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#data_type IotsitewiseAssetModel#data_type}
 
 ---
 
@@ -1259,7 +1259,7 @@ DataTypeSpec *string
 
 The data type of the structure for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#data_type_spec IotsitewiseAssetModel#data_type_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#data_type_spec IotsitewiseAssetModel#data_type_spec}
 
 ---
 
@@ -1273,7 +1273,7 @@ ExternalId *string
 
 The External ID of the Asset Model Property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
 
 ---
 
@@ -1287,7 +1287,7 @@ Id *string
 
 The ID of the Asset Model Property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1304,7 +1304,7 @@ LogicalId *string
 
 Customer provided Logical ID for property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
 
 ---
 
@@ -1318,7 +1318,7 @@ Name *string
 
 The name of the asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -1332,7 +1332,7 @@ Type IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType
 
 The property type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
 
 ---
 
@@ -1346,7 +1346,7 @@ Unit *string
 
 The unit of the asset model property, such as Newtons or RPM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#unit IotsitewiseAssetModel#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#unit IotsitewiseAssetModel#unit}
 
 ---
 
@@ -1355,12 +1355,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType {
-	Attribute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute,
-	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric,
-	Transform: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform,
+	Attribute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute,
+	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric,
+	Transform: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform,
 	TypeName: *string,
 }
 ```
@@ -1369,10 +1369,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.attribute">Attribute</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.metric">Metric</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.transform">Transform</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.typeName">TypeName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.attribute">Attribute</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.metric">Metric</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.transform">Transform</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType.property.typeName">TypeName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}. |
 
 ---
 
@@ -1384,7 +1384,7 @@ Attribute IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelProperties
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}.
 
 ---
 
@@ -1396,7 +1396,7 @@ Metric IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTyp
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}.
 
 ---
 
@@ -1408,7 +1408,7 @@ Transform IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelProperties
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}.
 
 ---
 
@@ -1420,7 +1420,7 @@ TypeName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}.
 
 ---
 
@@ -1429,7 +1429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute {
 	DefaultValue: *string,
@@ -1440,7 +1440,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute.property.defaultValue">DefaultValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttribute.property.defaultValue">DefaultValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}. |
 
 ---
 
@@ -1452,7 +1452,7 @@ DefaultValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}.
 
 ---
 
@@ -1461,12 +1461,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetric {
 	Expression: *string,
 	Variables: interface{},
-	Window: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindow,
+	Window: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindow,
 }
 ```
 
@@ -1490,7 +1490,7 @@ Expression *string
 
 The mathematical expression that defines the metric aggregation function. You can specify up to 10 functions per expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
 
 ---
 
@@ -1504,7 +1504,7 @@ Variables interface{}
 
 The list of variables used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
 
 ---
 
@@ -1518,7 +1518,7 @@ Window IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTyp
 
 The window (time interval) over which AWS IoT SiteWise computes the metric's aggregation expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#window IotsitewiseAssetModel#window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#window IotsitewiseAssetModel#window}
 
 ---
 
@@ -1527,11 +1527,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariables {
 	Name: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue,
 }
 ```
 
@@ -1554,7 +1554,7 @@ Name *string
 
 The friendly name of the variable to be used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -1568,7 +1568,7 @@ Value IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType
 
 The variable that identifies an asset property from which to use values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
 
 ---
 
@@ -1577,7 +1577,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue {
 	HierarchyExternalId: *string,
@@ -1596,10 +1596,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.hierarchyExternalId">HierarchyExternalId</a></code> | <code>*string</code> | The External ID of the hierarchy that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.hierarchyId">HierarchyId</a></code> | <code>*string</code> | The ID of the hierarchy that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.hierarchyLogicalId">HierarchyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.hierarchyLogicalId">HierarchyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.propertyExternalId">PropertyExternalId</a></code> | <code>*string</code> | The External ID of the property that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.propertyId">PropertyId</a></code> | <code>*string</code> | The ID of the property that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.propertyLogicalId">PropertyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.propertyLogicalId">PropertyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValue.property.propertyPath">PropertyPath</a></code> | <code>interface{}</code> | The path of the property that is trying to be referenced. |
 
 ---
@@ -1614,7 +1614,7 @@ HierarchyExternalId *string
 
 The External ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
 
 ---
 
@@ -1628,7 +1628,7 @@ HierarchyId *string
 
 The ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
 
 ---
 
@@ -1640,7 +1640,7 @@ HierarchyLogicalId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
 
 ---
 
@@ -1654,7 +1654,7 @@ PropertyExternalId *string
 
 The External ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
 
 ---
 
@@ -1668,7 +1668,7 @@ PropertyId *string
 
 The ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
 
 ---
 
@@ -1680,7 +1680,7 @@ PropertyLogicalId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
 
 ---
 
@@ -1694,7 +1694,7 @@ PropertyPath interface{}
 
 The path of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
 
 ---
 
@@ -1703,7 +1703,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValuePropertyPath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValuePropertyPath {
 	Name: *string,
@@ -1728,7 +1728,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -1737,10 +1737,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindow {
-	Tumbling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindowTumbling,
+	Tumbling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindowTumbling,
 }
 ```
 
@@ -1764,7 +1764,7 @@ Contains a tumbling window, which is a repeating fixed-sized, non-overlapping, a
 
 This window is used in metric and aggregation computations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#tumbling IotsitewiseAssetModel#tumbling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#tumbling IotsitewiseAssetModel#tumbling}
 
 ---
 
@@ -1773,7 +1773,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindowTumbling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindowTumbling {
 	Interval: *string,
@@ -1800,7 +1800,7 @@ Interval *string
 
 The time interval for the tumbling window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#interval IotsitewiseAssetModel#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#interval IotsitewiseAssetModel#interval}
 
 ---
 
@@ -1814,7 +1814,7 @@ Offset *string
 
 The shift or reference point on timeline for the contiguous time intervals.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#offset IotsitewiseAssetModel#offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#offset IotsitewiseAssetModel#offset}
 
 ---
 
@@ -1823,7 +1823,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform {
 	Expression: *string,
@@ -1850,7 +1850,7 @@ Expression *string
 
 The mathematical expression that defines the transformation function. You can specify up to 10 functions per expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
 
 ---
 
@@ -1864,7 +1864,7 @@ Variables interface{}
 
 The list of variables used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
 
 ---
 
@@ -1873,11 +1873,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariables {
 	Name: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue,
 }
 ```
 
@@ -1900,7 +1900,7 @@ Name *string
 
 The friendly name of the variable to be used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -1914,7 +1914,7 @@ Value IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesType
 
 The variable that identifies an asset property from which to use values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
 
 ---
 
@@ -1923,7 +1923,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue {
 	HierarchyExternalId: *string,
@@ -1942,10 +1942,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.hierarchyExternalId">HierarchyExternalId</a></code> | <code>*string</code> | The External ID of the hierarchy that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.hierarchyId">HierarchyId</a></code> | <code>*string</code> | The ID of the hierarchy that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.hierarchyLogicalId">HierarchyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.hierarchyLogicalId">HierarchyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.propertyExternalId">PropertyExternalId</a></code> | <code>*string</code> | The External ID of the property that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.propertyId">PropertyId</a></code> | <code>*string</code> | The ID of the property that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.propertyLogicalId">PropertyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.propertyLogicalId">PropertyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValue.property.propertyPath">PropertyPath</a></code> | <code>interface{}</code> | The path of the property that is trying to be referenced. |
 
 ---
@@ -1960,7 +1960,7 @@ HierarchyExternalId *string
 
 The External ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
 
 ---
 
@@ -1974,7 +1974,7 @@ HierarchyId *string
 
 The ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
 
 ---
 
@@ -1986,7 +1986,7 @@ HierarchyLogicalId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
 
 ---
 
@@ -2000,7 +2000,7 @@ PropertyExternalId *string
 
 The External ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
 
 ---
 
@@ -2014,7 +2014,7 @@ PropertyId *string
 
 The ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
 
 ---
 
@@ -2026,7 +2026,7 @@ PropertyLogicalId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
 
 ---
 
@@ -2040,7 +2040,7 @@ PropertyPath interface{}
 
 The path of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
 
 ---
 
@@ -2049,7 +2049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValuePropertyPath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValuePropertyPath {
 	Name: *string,
@@ -2074,7 +2074,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2083,7 +2083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelHierarchies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelHierarchies {
 	ChildAssetModelId: *string,
@@ -2118,7 +2118,7 @@ The ID of the asset model.
 
 All assets in this hierarchy must be instances of the child AssetModelId asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#child_asset_model_id IotsitewiseAssetModel#child_asset_model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#child_asset_model_id IotsitewiseAssetModel#child_asset_model_id}
 
 ---
 
@@ -2132,7 +2132,7 @@ ExternalId *string
 
 Customer provided external ID for hierarchy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
 
 ---
 
@@ -2146,7 +2146,7 @@ Id *string
 
 Customer provided actual ID for hierarchy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2163,7 +2163,7 @@ LogicalId *string
 
 Customer provided logical ID for hierarchy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
 
 ---
 
@@ -2177,7 +2177,7 @@ Name *string
 
 The name of the asset model hierarchy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2186,7 +2186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelProperties {
 	DataType: *string,
@@ -2195,7 +2195,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
 	Id: *string,
 	LogicalId: *string,
 	Name: *string,
-	Type: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType,
+	Type: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType,
 	Unit: *string,
 }
 ```
@@ -2225,7 +2225,7 @@ DataType *string
 
 The data type of the asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#data_type IotsitewiseAssetModel#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#data_type IotsitewiseAssetModel#data_type}
 
 ---
 
@@ -2239,7 +2239,7 @@ DataTypeSpec *string
 
 The data type of the structure for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#data_type_spec IotsitewiseAssetModel#data_type_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#data_type_spec IotsitewiseAssetModel#data_type_spec}
 
 ---
 
@@ -2253,7 +2253,7 @@ ExternalId *string
 
 The External ID of the Asset Model Property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#external_id IotsitewiseAssetModel#external_id}
 
 ---
 
@@ -2267,7 +2267,7 @@ Id *string
 
 The ID of the Asset Model Property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#id IotsitewiseAssetModel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2284,7 +2284,7 @@ LogicalId *string
 
 Customer provided Logical ID for property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#logical_id IotsitewiseAssetModel#logical_id}
 
 ---
 
@@ -2298,7 +2298,7 @@ Name *string
 
 The name of the asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2312,7 +2312,7 @@ Type IotsitewiseAssetModelAssetModelPropertiesType
 
 The property type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#type IotsitewiseAssetModel#type}
 
 ---
 
@@ -2326,7 +2326,7 @@ Unit *string
 
 The unit of the asset model property, such as Newtons or RPM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#unit IotsitewiseAssetModel#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#unit IotsitewiseAssetModel#unit}
 
 ---
 
@@ -2335,12 +2335,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesType {
-	Attribute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute,
-	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetric,
-	Transform: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransform,
+	Attribute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute,
+	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetric,
+	Transform: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransform,
 	TypeName: *string,
 }
 ```
@@ -2349,10 +2349,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.attribute">Attribute</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelPropertiesTypeAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.metric">Metric</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelPropertiesTypeMetric</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.transform">Transform</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelPropertiesTypeTransform</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.typeName">TypeName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.attribute">Attribute</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelPropertiesTypeAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.metric">Metric</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelPropertiesTypeMetric</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.transform">Transform</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelPropertiesTypeTransform</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesType.property.typeName">TypeName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}. |
 
 ---
 
@@ -2364,7 +2364,7 @@ Attribute IotsitewiseAssetModelAssetModelPropertiesTypeAttribute
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute">IotsitewiseAssetModelAssetModelPropertiesTypeAttribute</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#attribute IotsitewiseAssetModel#attribute}.
 
 ---
 
@@ -2376,7 +2376,7 @@ Metric IotsitewiseAssetModelAssetModelPropertiesTypeMetric
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetric">IotsitewiseAssetModelAssetModelPropertiesTypeMetric</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#metric IotsitewiseAssetModel#metric}.
 
 ---
 
@@ -2388,7 +2388,7 @@ Transform IotsitewiseAssetModelAssetModelPropertiesTypeTransform
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransform">IotsitewiseAssetModelAssetModelPropertiesTypeTransform</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#transform IotsitewiseAssetModel#transform}.
 
 ---
 
@@ -2400,7 +2400,7 @@ TypeName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#type_name IotsitewiseAssetModel#type_name}.
 
 ---
 
@@ -2409,7 +2409,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute {
 	DefaultValue: *string,
@@ -2420,7 +2420,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute.property.defaultValue">DefaultValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttribute.property.defaultValue">DefaultValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}. |
 
 ---
 
@@ -2432,7 +2432,7 @@ DefaultValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#default_value IotsitewiseAssetModel#default_value}.
 
 ---
 
@@ -2441,12 +2441,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesTypeMetric {
 	Expression: *string,
 	Variables: interface{},
-	Window: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindow,
+	Window: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindow,
 }
 ```
 
@@ -2470,7 +2470,7 @@ Expression *string
 
 The mathematical expression that defines the metric aggregation function. You can specify up to 10 functions per expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
 
 ---
 
@@ -2484,7 +2484,7 @@ Variables interface{}
 
 The list of variables used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
 
 ---
 
@@ -2498,7 +2498,7 @@ Window IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindow
 
 The window (time interval) over which AWS IoT SiteWise computes the metric's aggregation expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#window IotsitewiseAssetModel#window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#window IotsitewiseAssetModel#window}
 
 ---
 
@@ -2507,11 +2507,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariables {
 	Name: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue,
 }
 ```
 
@@ -2534,7 +2534,7 @@ Name *string
 
 The friendly name of the variable to be used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2548,7 +2548,7 @@ Value IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue
 
 The variable that identifies an asset property from which to use values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
 
 ---
 
@@ -2557,7 +2557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue {
 	HierarchyExternalId: *string,
@@ -2576,10 +2576,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.hierarchyExternalId">HierarchyExternalId</a></code> | <code>*string</code> | The External ID of the hierarchy that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.hierarchyId">HierarchyId</a></code> | <code>*string</code> | The ID of the hierarchy that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.hierarchyLogicalId">HierarchyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.hierarchyLogicalId">HierarchyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.propertyExternalId">PropertyExternalId</a></code> | <code>*string</code> | The External ID of the property that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.propertyId">PropertyId</a></code> | <code>*string</code> | The ID of the property that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.propertyLogicalId">PropertyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.propertyLogicalId">PropertyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValue.property.propertyPath">PropertyPath</a></code> | <code>interface{}</code> | The path of the property that is trying to be referenced. |
 
 ---
@@ -2594,7 +2594,7 @@ HierarchyExternalId *string
 
 The External ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
 
 ---
 
@@ -2608,7 +2608,7 @@ HierarchyId *string
 
 The ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
 
 ---
 
@@ -2620,7 +2620,7 @@ HierarchyLogicalId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
 
 ---
 
@@ -2634,7 +2634,7 @@ PropertyExternalId *string
 
 The External ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
 
 ---
 
@@ -2648,7 +2648,7 @@ PropertyId *string
 
 The ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
 
 ---
 
@@ -2660,7 +2660,7 @@ PropertyLogicalId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
 
 ---
 
@@ -2674,7 +2674,7 @@ PropertyPath interface{}
 
 The path of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
 
 ---
 
@@ -2683,7 +2683,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValuePropertyPath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValuePropertyPath {
 	Name: *string,
@@ -2708,7 +2708,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2717,10 +2717,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindow {
-	Tumbling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindowTumbling,
+	Tumbling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindowTumbling,
 }
 ```
 
@@ -2744,7 +2744,7 @@ Contains a tumbling window, which is a repeating fixed-sized, non-overlapping, a
 
 This window is used in metric and aggregation computations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#tumbling IotsitewiseAssetModel#tumbling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#tumbling IotsitewiseAssetModel#tumbling}
 
 ---
 
@@ -2753,7 +2753,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindowTumbling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindowTumbling {
 	Interval: *string,
@@ -2780,7 +2780,7 @@ Interval *string
 
 The time interval for the tumbling window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#interval IotsitewiseAssetModel#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#interval IotsitewiseAssetModel#interval}
 
 ---
 
@@ -2794,7 +2794,7 @@ Offset *string
 
 The shift or reference point on timeline for the contiguous time intervals.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#offset IotsitewiseAssetModel#offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#offset IotsitewiseAssetModel#offset}
 
 ---
 
@@ -2803,7 +2803,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesTypeTransform {
 	Expression: *string,
@@ -2830,7 +2830,7 @@ Expression *string
 
 The mathematical expression that defines the transformation function. You can specify up to 10 functions per expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
 
 ---
 
@@ -2844,7 +2844,7 @@ Variables interface{}
 
 The list of variables used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
 
 ---
 
@@ -2853,11 +2853,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariables {
 	Name: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue,
 }
 ```
 
@@ -2880,7 +2880,7 @@ Name *string
 
 The friendly name of the variable to be used in the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -2894,7 +2894,7 @@ Value IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue
 
 The variable that identifies an asset property from which to use values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}
 
 ---
 
@@ -2903,7 +2903,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue {
 	HierarchyExternalId: *string,
@@ -2922,10 +2922,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.hierarchyExternalId">HierarchyExternalId</a></code> | <code>*string</code> | The External ID of the hierarchy that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.hierarchyId">HierarchyId</a></code> | <code>*string</code> | The ID of the hierarchy that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.hierarchyLogicalId">HierarchyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.hierarchyLogicalId">HierarchyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.propertyExternalId">PropertyExternalId</a></code> | <code>*string</code> | The External ID of the property that is trying to be referenced. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.propertyId">PropertyId</a></code> | <code>*string</code> | The ID of the property that is trying to be referenced. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.propertyLogicalId">PropertyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.propertyLogicalId">PropertyLogicalId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValue.property.propertyPath">PropertyPath</a></code> | <code>interface{}</code> | The path of the property that is trying to be referenced. |
 
 ---
@@ -2940,7 +2940,7 @@ HierarchyExternalId *string
 
 The External ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_external_id IotsitewiseAssetModel#hierarchy_external_id}
 
 ---
 
@@ -2954,7 +2954,7 @@ HierarchyId *string
 
 The ID of the hierarchy that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_id IotsitewiseAssetModel#hierarchy_id}
 
 ---
 
@@ -2966,7 +2966,7 @@ HierarchyLogicalId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#hierarchy_logical_id IotsitewiseAssetModel#hierarchy_logical_id}.
 
 ---
 
@@ -2980,7 +2980,7 @@ PropertyExternalId *string
 
 The External ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_external_id IotsitewiseAssetModel#property_external_id}
 
 ---
 
@@ -2994,7 +2994,7 @@ PropertyId *string
 
 The ID of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_id IotsitewiseAssetModel#property_id}
 
 ---
 
@@ -3006,7 +3006,7 @@ PropertyLogicalId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_logical_id IotsitewiseAssetModel#property_logical_id}.
 
 ---
 
@@ -3020,7 +3020,7 @@ PropertyPath interface{}
 
 The path of the property that is trying to be referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_path IotsitewiseAssetModel#property_path}
 
 ---
 
@@ -3029,7 +3029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValuePropertyPath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValuePropertyPath {
 	Name: *string,
@@ -3054,7 +3054,7 @@ Name *string
 
 The name of the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#name IotsitewiseAssetModel#name}
 
 ---
 
@@ -3063,7 +3063,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelConfig {
 	Connection: interface{},
@@ -3188,7 +3188,7 @@ AssetModelName *string
 
 A unique, friendly name for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#asset_model_name IotsitewiseAssetModel#asset_model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#asset_model_name IotsitewiseAssetModel#asset_model_name}
 
 ---
 
@@ -3204,7 +3204,7 @@ The composite asset models that are part of this asset model.
 
 Composite asset models are asset models that contain specific properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#asset_model_composite_models IotsitewiseAssetModel#asset_model_composite_models}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#asset_model_composite_models IotsitewiseAssetModel#asset_model_composite_models}
 
 ---
 
@@ -3218,7 +3218,7 @@ AssetModelDescription *string
 
 A description for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#asset_model_description IotsitewiseAssetModel#asset_model_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#asset_model_description IotsitewiseAssetModel#asset_model_description}
 
 ---
 
@@ -3232,7 +3232,7 @@ AssetModelExternalId *string
 
 The external ID of the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#asset_model_external_id IotsitewiseAssetModel#asset_model_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#asset_model_external_id IotsitewiseAssetModel#asset_model_external_id}
 
 ---
 
@@ -3248,7 +3248,7 @@ The hierarchy definitions of the asset model.
 
 Each hierarchy specifies an asset model whose assets can be children of any other assets created from this asset model. You can specify up to 10 hierarchies per asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#asset_model_hierarchies IotsitewiseAssetModel#asset_model_hierarchies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#asset_model_hierarchies IotsitewiseAssetModel#asset_model_hierarchies}
 
 ---
 
@@ -3262,7 +3262,7 @@ AssetModelProperties interface{}
 
 The property definitions of the asset model. You can specify up to 200 properties per asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#asset_model_properties IotsitewiseAssetModel#asset_model_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#asset_model_properties IotsitewiseAssetModel#asset_model_properties}
 
 ---
 
@@ -3276,7 +3276,7 @@ AssetModelType *string
 
 The type of the asset model (ASSET_MODEL OR COMPONENT_MODEL or INTERFACE).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#asset_model_type IotsitewiseAssetModel#asset_model_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#asset_model_type IotsitewiseAssetModel#asset_model_type}
 
 ---
 
@@ -3290,7 +3290,7 @@ EnforcedAssetModelInterfaceRelationships interface{}
 
 a list of asset model and interface relationships.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#enforced_asset_model_interface_relationships IotsitewiseAssetModel#enforced_asset_model_interface_relationships}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#enforced_asset_model_interface_relationships IotsitewiseAssetModel#enforced_asset_model_interface_relationships}
 
 ---
 
@@ -3304,7 +3304,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#tags IotsitewiseAssetModel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#tags IotsitewiseAssetModel#tags}
 
 ---
 
@@ -3313,7 +3313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationships.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationships {
 	InterfaceAssetModelId: *string,
@@ -3340,7 +3340,7 @@ InterfaceAssetModelId *string
 
 The ID of the interface that is enforced to the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#interface_asset_model_id IotsitewiseAssetModel#interface_asset_model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#interface_asset_model_id IotsitewiseAssetModel#interface_asset_model_id}
 
 ---
 
@@ -3354,7 +3354,7 @@ PropertyMappings interface{}
 
 Contains information about enforced interface property and asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#property_mappings IotsitewiseAssetModel#property_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#property_mappings IotsitewiseAssetModel#property_mappings}
 
 ---
 
@@ -3363,7 +3363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsPropertyMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsPropertyMappings {
 	AssetModelPropertyExternalId: *string,
@@ -3392,7 +3392,7 @@ AssetModelPropertyExternalId *string
 
 The external ID of the enforced asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#asset_model_property_external_id IotsitewiseAssetModel#asset_model_property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#asset_model_property_external_id IotsitewiseAssetModel#asset_model_property_external_id}
 
 ---
 
@@ -3406,7 +3406,7 @@ AssetModelPropertyLogicalId *string
 
 The logical ID of the enforced asset model property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#asset_model_property_logical_id IotsitewiseAssetModel#asset_model_property_logical_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#asset_model_property_logical_id IotsitewiseAssetModel#asset_model_property_logical_id}
 
 ---
 
@@ -3420,7 +3420,7 @@ InterfaceAssetModelPropertyExternalId *string
 
 The external ID of the enforced interface property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#interface_asset_model_property_external_id IotsitewiseAssetModel#interface_asset_model_property_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#interface_asset_model_property_external_id IotsitewiseAssetModel#interface_asset_model_property_external_id}
 
 ---
 
@@ -3429,7 +3429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 &iotsitewiseassetmodel.IotsitewiseAssetModelTags {
 	Key: *string,
@@ -3441,8 +3441,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#key IotsitewiseAssetModel#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#key IotsitewiseAssetModel#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}. |
 
 ---
 
@@ -3454,7 +3454,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#key IotsitewiseAssetModel#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#key IotsitewiseAssetModel#key}.
 
 ---
 
@@ -3466,7 +3466,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model#value IotsitewiseAssetModel#value}.
 
 ---
 
@@ -3477,7 +3477,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesList
 ```
@@ -3637,7 +3637,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesOutputReference
 ```
@@ -4149,7 +4149,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttributeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttributeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeAttributeOutputReference
 ```
@@ -4427,7 +4427,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricOutputReference
 ```
@@ -4789,7 +4789,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesList
 ```
@@ -4949,7 +4949,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesOutputReference
 ```
@@ -5287,7 +5287,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValueOutputReference
 ```
@@ -5752,7 +5752,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValuePropertyPathList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValuePropertyPathList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValuePropertyPathList
 ```
@@ -5912,7 +5912,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValuePropertyPathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValuePropertyPathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricVariablesValuePropertyPathOutputReference
 ```
@@ -6208,7 +6208,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindowOutputReference
 ```
@@ -6499,7 +6499,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindowTumblingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindowTumblingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindowTumblingOutputReference
 ```
@@ -6806,7 +6806,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeOutputReference
 ```
@@ -7210,7 +7210,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformOutputReference
 ```
@@ -7530,7 +7530,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesList
 ```
@@ -7690,7 +7690,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesOutputReference
 ```
@@ -8028,7 +8028,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValueOutputReference
 ```
@@ -8493,7 +8493,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValuePropertyPathList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValuePropertyPathList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValuePropertyPathList
 ```
@@ -8653,7 +8653,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValuePropertyPathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValuePropertyPathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransformVariablesValuePropertyPathOutputReference
 ```
@@ -8949,7 +8949,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsList
 ```
@@ -9109,7 +9109,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelCompositeModelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelCompositeModelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelCompositeModelsOutputReference
 ```
@@ -9650,7 +9650,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelHierarchiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelHierarchiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelHierarchiesList
 ```
@@ -9810,7 +9810,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelHierarchiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelHierarchiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelHierarchiesOutputReference
 ```
@@ -10222,7 +10222,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelPropertiesList
 ```
@@ -10382,7 +10382,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelPropertiesOutputReference
 ```
@@ -10894,7 +10894,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeAttributeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeAttributeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelPropertiesTypeAttributeOutputReference
 ```
@@ -11172,7 +11172,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelPropertiesTypeMetricOutputReference
 ```
@@ -11534,7 +11534,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesList
 ```
@@ -11694,7 +11694,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesOutputReference
 ```
@@ -12032,7 +12032,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValueOutputReference
 ```
@@ -12497,7 +12497,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValuePropertyPathList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValuePropertyPathList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValuePropertyPathList
 ```
@@ -12657,7 +12657,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValuePropertyPathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValuePropertyPathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelPropertiesTypeMetricVariablesValuePropertyPathOutputReference
 ```
@@ -12953,7 +12953,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeMetricWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindowOutputReference
 ```
@@ -13244,7 +13244,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindowTumblingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeMetricWindowTumblingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelPropertiesTypeMetricWindowTumblingOutputReference
 ```
@@ -13551,7 +13551,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelPropertiesTypeOutputReference
 ```
@@ -13955,7 +13955,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeTransformOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelPropertiesTypeTransformOutputReference
 ```
@@ -14275,7 +14275,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesList
 ```
@@ -14435,7 +14435,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesOutputReference
 ```
@@ -14773,7 +14773,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValueOutputReference
 ```
@@ -15238,7 +15238,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValuePropertyPathList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValuePropertyPathList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValuePropertyPathList
 ```
@@ -15398,7 +15398,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValuePropertyPathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValuePropertyPathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelAssetModelPropertiesTypeTransformVariablesValuePropertyPathOutputReference
 ```
@@ -15694,7 +15694,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsList
 ```
@@ -15854,7 +15854,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsOutputReference
 ```
@@ -16192,7 +16192,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsPropertyMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsPropertyMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsPropertyMappingsList
 ```
@@ -16352,7 +16352,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsPropertyMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsPropertyMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationshipsPropertyMappingsOutputReference
 ```
@@ -16706,7 +16706,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseAssetModelTagsList
 ```
@@ -16866,7 +16866,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAssetModel.IotsitewiseAssetModelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel"
 
 iotsitewiseassetmodel.NewIotsitewiseAssetModelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseAssetModelTagsOutputReference
 ```

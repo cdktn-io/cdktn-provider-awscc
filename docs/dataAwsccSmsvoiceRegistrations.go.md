@@ -4,12 +4,12 @@
 
 ### DataAwsccSmsvoiceRegistrations <a name="DataAwsccSmsvoiceRegistrations" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrations.DataAwsccSmsvoiceRegistrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_registrations awscc_smsvoice_registrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_registrations awscc_smsvoice_registrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrations.DataAwsccSmsvoiceRegistrations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrations"
 
 dataawsccsmsvoiceregistrations.NewDataAwsccSmsvoiceRegistrations(scope Construct, id *string, config DataAwsccSmsvoiceRegistrationsConfig) DataAwsccSmsvoiceRegistrations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrations.DataAwsccSmsvoiceRegistrations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrations"
 
 dataawsccsmsvoiceregistrations.DataAwsccSmsvoiceRegistrations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrations.DataAwsccSmsvoiceRegistrations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrations"
 
 dataawsccsmsvoiceregistrations.DataAwsccSmsvoiceRegistrations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsmsvoiceregistrations.DataAwsccSmsvoiceRegistrations_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrations.DataAwsccSmsvoiceRegistrations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrations"
 
 dataawsccsmsvoiceregistrations.DataAwsccSmsvoiceRegistrations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsmsvoiceregistrations.DataAwsccSmsvoiceRegistrations_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrations.DataAwsccSmsvoiceRegistrations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrations"
 
 dataawsccsmsvoiceregistrations.DataAwsccSmsvoiceRegistrations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSmsvoiceRegistrat
 
 The id of the existing DataAwsccSmsvoiceRegistrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_registrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_registrations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrations.DataAwsccSmsvoiceRegistrationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrations"
 
 &dataawsccsmsvoiceregistrations.DataAwsccSmsvoiceRegistrationsConfig {
 	Connection: interface{},

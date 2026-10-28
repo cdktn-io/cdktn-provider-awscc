@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueCrawler <a name="DataAwsccGlueCrawler" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawler"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_crawler awscc_glue_crawler}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_crawler awscc_glue_crawler}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawler.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawler(scope Construct, id *string, config DataAwsccGlueCrawlerConfig) DataAwsccGlueCrawler
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawler.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.DataAwsccGlueCrawler_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawler.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.DataAwsccGlueCrawler_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgluecrawler.DataAwsccGlueCrawler_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawler.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.DataAwsccGlueCrawler_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgluecrawler.DataAwsccGlueCrawler_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawler.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.DataAwsccGlueCrawler_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueCrawler to im
 
 The id of the existing DataAwsccGlueCrawler that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_crawler#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_crawler#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_crawler#id DataAwsccGlueCrawler#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_crawler#id DataAwsccGlueCrawler#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerLakeFormationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerLakeFormationConfiguration {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerRecrawlPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerRecrawlPolicy {
 
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerSchedule {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerSchemaChangePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerSchemaChangePolicy {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerTargets {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsCatalogTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerTargetsCatalogTargets {
 
@@ -940,7 +940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsDeltaTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerTargetsDeltaTargets {
 
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsDynamoDbTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerTargetsDynamoDbTargets {
 
@@ -966,7 +966,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsHudiTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerTargetsHudiTargets {
 
@@ -979,7 +979,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsIcebergTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerTargetsIcebergTargets {
 
@@ -992,7 +992,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsJdbcTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerTargetsJdbcTargets {
 
@@ -1005,7 +1005,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsMongoDbTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerTargetsMongoDbTargets {
 
@@ -1018,7 +1018,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsS3Targets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 &dataawsccgluecrawler.DataAwsccGlueCrawlerTargetsS3Targets {
 
@@ -1033,7 +1033,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerLakeFormationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerLakeFormationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueCrawlerLakeFormationConfigurationOutputReference
 ```
@@ -1304,7 +1304,7 @@ func InternalValue() DataAwsccGlueCrawlerLakeFormationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerRecrawlPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerRecrawlPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueCrawlerRecrawlPolicyOutputReference
 ```
@@ -1564,7 +1564,7 @@ func InternalValue() DataAwsccGlueCrawlerRecrawlPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueCrawlerScheduleOutputReference
 ```
@@ -1824,7 +1824,7 @@ func InternalValue() DataAwsccGlueCrawlerSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerSchemaChangePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerSchemaChangePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueCrawlerSchemaChangePolicyOutputReference
 ```
@@ -2095,7 +2095,7 @@ func InternalValue() DataAwsccGlueCrawlerSchemaChangePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsCatalogTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsCatalogTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueCrawlerTargetsCatalogTargetsList
 ```
@@ -2244,7 +2244,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsCatalogTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsCatalogTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueCrawlerTargetsCatalogTargetsOutputReference
 ```
@@ -2566,7 +2566,7 @@ func InternalValue() DataAwsccGlueCrawlerTargetsCatalogTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsDeltaTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsDeltaTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueCrawlerTargetsDeltaTargetsList
 ```
@@ -2715,7 +2715,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsDeltaTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsDeltaTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueCrawlerTargetsDeltaTargetsOutputReference
 ```
@@ -3026,7 +3026,7 @@ func InternalValue() DataAwsccGlueCrawlerTargetsDeltaTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsDynamoDbTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsDynamoDbTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueCrawlerTargetsDynamoDbTargetsList
 ```
@@ -3175,7 +3175,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsDynamoDbTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsDynamoDbTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueCrawlerTargetsDynamoDbTargetsOutputReference
 ```
@@ -3475,7 +3475,7 @@ func InternalValue() DataAwsccGlueCrawlerTargetsDynamoDbTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsHudiTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsHudiTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueCrawlerTargetsHudiTargetsList
 ```
@@ -3624,7 +3624,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsHudiTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsHudiTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueCrawlerTargetsHudiTargetsOutputReference
 ```
@@ -3935,7 +3935,7 @@ func InternalValue() DataAwsccGlueCrawlerTargetsHudiTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsIcebergTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsIcebergTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueCrawlerTargetsIcebergTargetsList
 ```
@@ -4084,7 +4084,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsIcebergTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsIcebergTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueCrawlerTargetsIcebergTargetsOutputReference
 ```
@@ -4395,7 +4395,7 @@ func InternalValue() DataAwsccGlueCrawlerTargetsIcebergTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsJdbcTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsJdbcTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueCrawlerTargetsJdbcTargetsList
 ```
@@ -4544,7 +4544,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsJdbcTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsJdbcTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueCrawlerTargetsJdbcTargetsOutputReference
 ```
@@ -4855,7 +4855,7 @@ func InternalValue() DataAwsccGlueCrawlerTargetsJdbcTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsMongoDbTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsMongoDbTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueCrawlerTargetsMongoDbTargetsList
 ```
@@ -5004,7 +5004,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsMongoDbTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsMongoDbTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueCrawlerTargetsMongoDbTargetsOutputReference
 ```
@@ -5293,7 +5293,7 @@ func InternalValue() DataAwsccGlueCrawlerTargetsMongoDbTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueCrawlerTargetsOutputReference
 ```
@@ -5630,7 +5630,7 @@ func InternalValue() DataAwsccGlueCrawlerTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsS3TargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsS3TargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueCrawlerTargetsS3TargetsList
 ```
@@ -5779,7 +5779,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCrawler.DataAwsccGlueCrawlerTargetsS3TargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluecrawler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluecrawler"
 
 dataawsccgluecrawler.NewDataAwsccGlueCrawlerTargetsS3TargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueCrawlerTargetsS3TargetsOutputReference
 ```

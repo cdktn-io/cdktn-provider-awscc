@@ -4,12 +4,12 @@
 
 ### DataAwsccDirectconnectConnections <a name="DataAwsccDirectconnectConnections" id="@cdktn/provider-awscc.dataAwsccDirectconnectConnections.DataAwsccDirectconnectConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_connections awscc_directconnect_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_connections awscc_directconnect_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectConnections.DataAwsccDirectconnectConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectconnections"
 
 dataawsccdirectconnectconnections.NewDataAwsccDirectconnectConnections(scope Construct, id *string, config DataAwsccDirectconnectConnectionsConfig) DataAwsccDirectconnectConnections
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDirectconnectConnections.DataAwsccDirectconnectConnections.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectconnections"
 
 dataawsccdirectconnectconnections.DataAwsccDirectconnectConnections_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDirectconnectConnections.DataAwsccDirectconnectConnections.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectconnections"
 
 dataawsccdirectconnectconnections.DataAwsccDirectconnectConnections_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdirectconnectconnections.DataAwsccDirectconnectConnections_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDirectconnectConnections.DataAwsccDirectconnectConnections.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectconnections"
 
 dataawsccdirectconnectconnections.DataAwsccDirectconnectConnections_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdirectconnectconnections.DataAwsccDirectconnectConnections_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDirectconnectConnections.DataAwsccDirectconnectConnections.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectconnections"
 
 dataawsccdirectconnectconnections.DataAwsccDirectconnectConnections_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDirectconnectConn
 
 The id of the existing DataAwsccDirectconnectConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDirectconnectConnections.DataAwsccDirectconnectConnectionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectconnections"
 
 &dataawsccdirectconnectconnections.DataAwsccDirectconnectConnectionsConfig {
 	Connection: interface{},

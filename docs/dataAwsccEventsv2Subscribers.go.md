@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsv2Subscribers <a name="DataAwsccEventsv2Subscribers" id="@cdktn/provider-awscc.dataAwsccEventsv2Subscribers.DataAwsccEventsv2Subscribers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_subscribers awscc_eventsv2_subscribers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_subscribers awscc_eventsv2_subscribers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2Subscribers.DataAwsccEventsv2Subscribers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2subscribers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2subscribers"
 
 dataawscceventsv2subscribers.NewDataAwsccEventsv2Subscribers(scope Construct, id *string, config DataAwsccEventsv2SubscribersConfig) DataAwsccEventsv2Subscribers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsv2Subscribers.DataAwsccEventsv2Subscribers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2subscribers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2subscribers"
 
 dataawscceventsv2subscribers.DataAwsccEventsv2Subscribers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsv2Subscribers.DataAwsccEventsv2Subscribers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2subscribers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2subscribers"
 
 dataawscceventsv2subscribers.DataAwsccEventsv2Subscribers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsv2subscribers.DataAwsccEventsv2Subscribers_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsv2Subscribers.DataAwsccEventsv2Subscribers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2subscribers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2subscribers"
 
 dataawscceventsv2subscribers.DataAwsccEventsv2Subscribers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsv2subscribers.DataAwsccEventsv2Subscribers_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsv2Subscribers.DataAwsccEventsv2Subscribers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2subscribers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2subscribers"
 
 dataawscceventsv2subscribers.DataAwsccEventsv2Subscribers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsv2Subscribe
 
 The id of the existing DataAwsccEventsv2Subscribers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_subscribers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_subscribers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2Subscribers.DataAwsccEventsv2SubscribersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2subscribers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2subscribers"
 
 &dataawscceventsv2subscribers.DataAwsccEventsv2SubscribersConfig {
 	Connection: interface{},

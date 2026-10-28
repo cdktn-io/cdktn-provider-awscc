@@ -4,12 +4,12 @@
 
 ### DataAwsccCodecommitRepository <a name="DataAwsccCodecommitRepository" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codecommit_repository awscc_codecommit_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codecommit_repository awscc_codecommit_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 dataawscccodecommitrepository.NewDataAwsccCodecommitRepository(scope Construct, id *string, config DataAwsccCodecommitRepositoryConfig) DataAwsccCodecommitRepository
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepository.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 dataawscccodecommitrepository.DataAwsccCodecommitRepository_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepository.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 dataawscccodecommitrepository.DataAwsccCodecommitRepository_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodecommitrepository.DataAwsccCodecommitRepository_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepository.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 dataawscccodecommitrepository.DataAwsccCodecommitRepository_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodecommitrepository.DataAwsccCodecommitRepository_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepository.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 dataawscccodecommitrepository.DataAwsccCodecommitRepository_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodecommitReposit
 
 The id of the existing DataAwsccCodecommitRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codecommit_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codecommit_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepositoryCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 &dataawscccodecommitrepository.DataAwsccCodecommitRepositoryCode {
 
@@ -721,7 +721,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepositoryCodeS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 &dataawscccodecommitrepository.DataAwsccCodecommitRepositoryCodeS3 {
 
@@ -734,7 +734,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepositoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 &dataawscccodecommitrepository.DataAwsccCodecommitRepositoryConfig {
 	Connection: interface{},
@@ -843,7 +843,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codecommit_repository#id DataAwsccCodecommitRepository#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codecommit_repository#id DataAwsccCodecommitRepository#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -855,7 +855,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepositoryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 &dataawscccodecommitrepository.DataAwsccCodecommitRepositoryTags {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepositoryTriggers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 &dataawscccodecommitrepository.DataAwsccCodecommitRepositoryTriggers {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepositoryCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 dataawscccodecommitrepository.NewDataAwsccCodecommitRepositoryCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodecommitRepositoryCodeOutputReference
 ```
@@ -1154,7 +1154,7 @@ func InternalValue() DataAwsccCodecommitRepositoryCode
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepositoryCodeS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 dataawscccodecommitrepository.NewDataAwsccCodecommitRepositoryCodeS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodecommitRepositoryCodeS3OutputReference
 ```
@@ -1436,7 +1436,7 @@ func InternalValue() DataAwsccCodecommitRepositoryCodeS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepositoryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 dataawscccodecommitrepository.NewDataAwsccCodecommitRepositoryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodecommitRepositoryTagsList
 ```
@@ -1585,7 +1585,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepositoryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 dataawscccodecommitrepository.NewDataAwsccCodecommitRepositoryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodecommitRepositoryTagsOutputReference
 ```
@@ -1874,7 +1874,7 @@ func InternalValue() DataAwsccCodecommitRepositoryTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepositoryTriggersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 dataawscccodecommitrepository.NewDataAwsccCodecommitRepositoryTriggersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodecommitRepositoryTriggersList
 ```
@@ -2023,7 +2023,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodecommitRepository.DataAwsccCodecommitRepositoryTriggersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepository"
 
 dataawscccodecommitrepository.NewDataAwsccCodecommitRepositoryTriggersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodecommitRepositoryTriggersOutputReference
 ```

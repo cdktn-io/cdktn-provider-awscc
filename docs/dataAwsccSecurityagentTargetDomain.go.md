@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityagentTargetDomain <a name="DataAwsccSecurityagentTargetDomain" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_target_domain awscc_securityagent_target_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_target_domain awscc_securityagent_target_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 dataawsccsecurityagenttargetdomain.NewDataAwsccSecurityagentTargetDomain(scope Construct, id *string, config DataAwsccSecurityagentTargetDomainConfig) DataAwsccSecurityagentTargetDomain
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 dataawsccsecurityagenttargetdomain.DataAwsccSecurityagentTargetDomain_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 dataawsccsecurityagenttargetdomain.DataAwsccSecurityagentTargetDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityagenttargetdomain.DataAwsccSecurityagentTargetDomain_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomain.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 dataawsccsecurityagenttargetdomain.DataAwsccSecurityagentTargetDomain_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityagenttargetdomain.DataAwsccSecurityagentTargetDomain_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 dataawsccsecurityagenttargetdomain.DataAwsccSecurityagentTargetDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityagentTarg
 
 The id of the existing DataAwsccSecurityagentTargetDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_target_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_target_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 &dataawsccsecurityagenttargetdomain.DataAwsccSecurityagentTargetDomainConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_target_domain#id DataAwsccSecurityagentTargetDomain#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_target_domain#id DataAwsccSecurityagentTargetDomain#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomainTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 &dataawsccsecurityagenttargetdomain.DataAwsccSecurityagentTargetDomainTags {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomainVerificationDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 &dataawsccsecurityagenttargetdomain.DataAwsccSecurityagentTargetDomainVerificationDetails {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomainVerificationDetailsDnsTxt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 &dataawsccsecurityagenttargetdomain.DataAwsccSecurityagentTargetDomainVerificationDetailsDnsTxt {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomainVerificationDetailsHttpRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 &dataawsccsecurityagenttargetdomain.DataAwsccSecurityagentTargetDomainVerificationDetailsHttpRoute {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomainTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 dataawsccsecurityagenttargetdomain.NewDataAwsccSecurityagentTargetDomainTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityagentTargetDomainTagsList
 ```
@@ -1010,7 +1010,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomainTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 dataawsccsecurityagenttargetdomain.NewDataAwsccSecurityagentTargetDomainTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityagentTargetDomainTagsOutputReference
 ```
@@ -1299,7 +1299,7 @@ func InternalValue() DataAwsccSecurityagentTargetDomainTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomainVerificationDetailsDnsTxtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 dataawsccsecurityagenttargetdomain.NewDataAwsccSecurityagentTargetDomainVerificationDetailsDnsTxtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityagentTargetDomainVerificationDetailsDnsTxtOutputReference
 ```
@@ -1581,7 +1581,7 @@ func InternalValue() DataAwsccSecurityagentTargetDomainVerificationDetailsDnsTxt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomainVerificationDetailsHttpRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 dataawsccsecurityagenttargetdomain.NewDataAwsccSecurityagentTargetDomainVerificationDetailsHttpRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityagentTargetDomainVerificationDetailsHttpRouteOutputReference
 ```
@@ -1852,7 +1852,7 @@ func InternalValue() DataAwsccSecurityagentTargetDomainVerificationDetailsHttpRo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomain.DataAwsccSecurityagentTargetDomainVerificationDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain"
 
 dataawsccsecurityagenttargetdomain.NewDataAwsccSecurityagentTargetDomainVerificationDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityagentTargetDomainVerificationDetailsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccAppstreamApplication <a name="DataAwsccAppstreamApplication" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_application awscc_appstream_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_application awscc_appstream_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplication"
 
 dataawsccappstreamapplication.NewDataAwsccAppstreamApplication(scope Construct, id *string, config DataAwsccAppstreamApplicationConfig) DataAwsccAppstreamApplication
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplication"
 
 dataawsccappstreamapplication.DataAwsccAppstreamApplication_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplication"
 
 dataawsccappstreamapplication.DataAwsccAppstreamApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappstreamapplication.DataAwsccAppstreamApplication_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplication.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplication"
 
 dataawsccappstreamapplication.DataAwsccAppstreamApplication_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappstreamapplication.DataAwsccAppstreamApplication_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplication"
 
 dataawsccappstreamapplication.DataAwsccAppstreamApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppstreamApplicat
 
 The id of the existing DataAwsccAppstreamApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplication"
 
 &dataawsccappstreamapplication.DataAwsccAppstreamApplicationConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_application#id DataAwsccAppstreamApplication#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_application#id DataAwsccAppstreamApplication#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplicationIconS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplication"
 
 &dataawsccappstreamapplication.DataAwsccAppstreamApplicationIconS3Location {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplication"
 
 &dataawsccappstreamapplication.DataAwsccAppstreamApplicationTags {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplicationIconS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplication"
 
 dataawsccappstreamapplication.NewDataAwsccAppstreamApplicationIconS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppstreamApplicationIconS3LocationOutputReference
 ```
@@ -1161,7 +1161,7 @@ func InternalValue() DataAwsccAppstreamApplicationIconS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplication"
 
 dataawsccappstreamapplication.NewDataAwsccAppstreamApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppstreamApplicationTagsList
 ```
@@ -1310,7 +1310,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamApplication.DataAwsccAppstreamApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplication"
 
 dataawsccappstreamapplication.NewDataAwsccAppstreamApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppstreamApplicationTagsOutputReference
 ```

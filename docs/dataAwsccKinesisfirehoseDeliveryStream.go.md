@@ -4,12 +4,12 @@
 
 ### DataAwsccKinesisfirehoseDeliveryStream <a name="DataAwsccKinesisfirehoseDeliveryStream" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStream(scope Construct, id *string, config DataAwsccKinesisfirehoseDeliveryStreamConfig) DataAwsccKinesisfirehoseDeliveryStream
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStream.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStream_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStream.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStream_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStream_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStream.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStream_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStream_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStream.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStream_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKinesisfirehoseDe
 
 The id of the existing DataAwsccKinesisfirehoseDeliveryStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisfirehose_delivery_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisfirehose_delivery_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -796,7 +796,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfiguration {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationBufferingHints {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationCloudwatchLoggingOptions {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfiguration {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessors {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsParameters {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationRetryOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationRetryOptions {
 
@@ -887,7 +887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3Configuration {
 
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationBufferingHints {
 
@@ -913,7 +913,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions {
 
@@ -926,7 +926,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationEncryptionConfiguration {
 
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationVpcConfiguration {
 
@@ -965,7 +965,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfiguration {
 
@@ -978,7 +978,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationBufferingHints {
 
@@ -991,7 +991,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationCloudwatchLoggingOptions {
 
@@ -1004,7 +1004,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationDocumentIdOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationDocumentIdOptions {
 
@@ -1017,7 +1017,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfiguration {
 
@@ -1030,7 +1030,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessors {
 
@@ -1043,7 +1043,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsParameters {
 
@@ -1056,7 +1056,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationRetryOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationRetryOptions {
 
@@ -1069,7 +1069,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3Configuration {
 
@@ -1082,7 +1082,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationBufferingHints {
 
@@ -1095,7 +1095,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions {
 
@@ -1108,7 +1108,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationEncryptionConfiguration {
 
@@ -1121,7 +1121,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -1134,7 +1134,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationVpcConfiguration {
 
@@ -1147,7 +1147,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamConfig {
 	Connection: interface{},
@@ -1256,7 +1256,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisfirehose_delivery_stream#id DataAwsccKinesisfirehoseDeliveryStream#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisfirehose_delivery_stream#id DataAwsccKinesisfirehoseDeliveryStream#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1268,7 +1268,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfiguration {
 
@@ -1281,7 +1281,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationColumns {
 
@@ -1294,7 +1294,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabases {
 
@@ -1307,7 +1307,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceAuthenticationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceAuthenticationConfiguration {
 
@@ -1320,7 +1320,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceAuthenticationConfigurationSecretsManagerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceAuthenticationConfigurationSecretsManagerConfiguration {
 
@@ -1333,7 +1333,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceVpcConfiguration {
 
@@ -1346,7 +1346,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationTables {
 
@@ -1359,7 +1359,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDeliveryStreamEncryptionConfigurationInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamDeliveryStreamEncryptionConfigurationInput {
 
@@ -1372,7 +1372,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDirectPutSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamDirectPutSourceConfiguration {
 
@@ -1385,7 +1385,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfiguration {
 
@@ -1398,7 +1398,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationBufferingHints {
 
@@ -1411,7 +1411,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationCloudwatchLoggingOptions {
 
@@ -1424,7 +1424,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationDocumentIdOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationDocumentIdOptions {
 
@@ -1437,7 +1437,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfiguration {
 
@@ -1450,7 +1450,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessors {
 
@@ -1463,7 +1463,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsParameters {
 
@@ -1476,7 +1476,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationRetryOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationRetryOptions {
 
@@ -1489,7 +1489,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3Configuration {
 
@@ -1502,7 +1502,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationBufferingHints {
 
@@ -1515,7 +1515,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions {
 
@@ -1528,7 +1528,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationEncryptionConfiguration {
 
@@ -1541,7 +1541,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -1554,7 +1554,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationVpcConfiguration {
 
@@ -1567,7 +1567,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfiguration {
 
@@ -1580,7 +1580,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationBufferingHints {
 
@@ -1593,7 +1593,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationCloudwatchLoggingOptions {
 
@@ -1606,7 +1606,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfiguration {
 
@@ -1619,7 +1619,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfiguration {
 
@@ -1632,7 +1632,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializer {
 
@@ -1645,7 +1645,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerHiveJsonSerDe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerHiveJsonSerDe {
 
@@ -1658,7 +1658,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerOpenXJsonSerDe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerOpenXJsonSerDe {
 
@@ -1671,7 +1671,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfiguration {
 
@@ -1684,7 +1684,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializer {
 
@@ -1697,7 +1697,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerOrcSerDe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerOrcSerDe {
 
@@ -1710,7 +1710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerParquetSerDe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerParquetSerDe {
 
@@ -1723,7 +1723,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationSchemaConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationSchemaConfiguration {
 
@@ -1736,7 +1736,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDynamicPartitioningConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDynamicPartitioningConfiguration {
 
@@ -1749,7 +1749,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDynamicPartitioningConfigurationRetryOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDynamicPartitioningConfigurationRetryOptions {
 
@@ -1762,7 +1762,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationEncryptionConfiguration {
 
@@ -1775,7 +1775,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -1788,7 +1788,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfiguration {
 
@@ -1801,7 +1801,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessors {
 
@@ -1814,7 +1814,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsParameters {
 
@@ -1827,7 +1827,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfiguration {
 
@@ -1840,7 +1840,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationBufferingHints {
 
@@ -1853,7 +1853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationCloudwatchLoggingOptions {
 
@@ -1866,7 +1866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationEncryptionConfiguration {
 
@@ -1879,7 +1879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -1892,7 +1892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfiguration {
 
@@ -1905,7 +1905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationBufferingHints {
 
@@ -1918,7 +1918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationCloudwatchLoggingOptions {
 
@@ -1931,7 +1931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationEndpointConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationEndpointConfiguration {
 
@@ -1944,7 +1944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfiguration {
 
@@ -1957,7 +1957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessors {
 
@@ -1970,7 +1970,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsParameters {
 
@@ -1983,7 +1983,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfiguration {
 
@@ -1996,7 +1996,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfigurationCommonAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfigurationCommonAttributes {
 
@@ -2009,7 +2009,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRetryOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRetryOptions {
 
@@ -2022,7 +2022,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3Configuration {
 
@@ -2035,7 +2035,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationBufferingHints {
 
@@ -2048,7 +2048,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions {
 
@@ -2061,7 +2061,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationEncryptionConfiguration {
 
@@ -2074,7 +2074,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -2087,7 +2087,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationSecretsManagerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationSecretsManagerConfiguration {
 
@@ -2100,7 +2100,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfiguration {
 
@@ -2113,7 +2113,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationBufferingHints {
 
@@ -2126,7 +2126,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationCatalogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationCatalogConfiguration {
 
@@ -2139,7 +2139,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationCloudwatchLoggingOptions {
 
@@ -2152,7 +2152,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpec {
 
@@ -2165,7 +2165,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpecIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpecIdentity {
 
@@ -2178,7 +2178,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListStruct {
 
@@ -2191,7 +2191,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfiguration {
 
@@ -2204,7 +2204,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessors {
 
@@ -2217,7 +2217,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsParameters {
 
@@ -2230,7 +2230,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationRetryOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationRetryOptions {
 
@@ -2243,7 +2243,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3Configuration {
 
@@ -2256,7 +2256,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationBufferingHints {
 
@@ -2269,7 +2269,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions {
 
@@ -2282,7 +2282,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationEncryptionConfiguration {
 
@@ -2295,7 +2295,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -2308,7 +2308,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationSchemaEvolutionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationSchemaEvolutionConfiguration {
 
@@ -2321,7 +2321,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationTableCreationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationTableCreationConfiguration {
 
@@ -2334,7 +2334,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamKinesisStreamSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamKinesisStreamSourceConfiguration {
 
@@ -2347,7 +2347,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamMskSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamMskSourceConfiguration {
 
@@ -2360,7 +2360,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfiguration {
 
@@ -2373,7 +2373,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfiguration {
 
@@ -2386,7 +2386,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationCloudwatchLoggingOptions {
 
@@ -2399,7 +2399,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationCopyCommand.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationCopyCommand {
 
@@ -2412,7 +2412,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfiguration {
 
@@ -2425,7 +2425,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessors {
 
@@ -2438,7 +2438,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsParameters {
 
@@ -2451,7 +2451,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationRetryOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationRetryOptions {
 
@@ -2464,7 +2464,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfiguration {
 
@@ -2477,7 +2477,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationBufferingHints {
 
@@ -2490,7 +2490,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationCloudwatchLoggingOptions {
 
@@ -2503,7 +2503,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationEncryptionConfiguration {
 
@@ -2516,7 +2516,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -2529,7 +2529,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3Configuration {
 
@@ -2542,7 +2542,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationBufferingHints {
 
@@ -2555,7 +2555,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions {
 
@@ -2568,7 +2568,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationEncryptionConfiguration {
 
@@ -2581,7 +2581,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -2594,7 +2594,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationSecretsManagerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationSecretsManagerConfiguration {
 
@@ -2607,7 +2607,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfiguration {
 
@@ -2620,7 +2620,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationBufferingHints {
 
@@ -2633,7 +2633,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationCloudwatchLoggingOptions {
 
@@ -2646,7 +2646,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationEncryptionConfiguration {
 
@@ -2659,7 +2659,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -2672,7 +2672,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfiguration {
 
@@ -2685,7 +2685,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationBufferingHints {
 
@@ -2698,7 +2698,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationCloudwatchLoggingOptions {
 
@@ -2711,7 +2711,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfiguration {
 
@@ -2724,7 +2724,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessors {
 
@@ -2737,7 +2737,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsParameters {
 
@@ -2750,7 +2750,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationRetryOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationRetryOptions {
 
@@ -2763,7 +2763,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3Configuration {
 
@@ -2776,7 +2776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationBufferingHints {
 
@@ -2789,7 +2789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions {
 
@@ -2802,7 +2802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationEncryptionConfiguration {
 
@@ -2815,7 +2815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -2828,7 +2828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSecretsManagerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSecretsManagerConfiguration {
 
@@ -2841,7 +2841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSnowflakeRoleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSnowflakeRoleConfiguration {
 
@@ -2854,7 +2854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSnowflakeVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSnowflakeVpcConfiguration {
 
@@ -2867,7 +2867,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfiguration {
 
@@ -2880,7 +2880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationBufferingHints {
 
@@ -2893,7 +2893,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationCloudwatchLoggingOptions {
 
@@ -2906,7 +2906,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfiguration {
 
@@ -2919,7 +2919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessors {
 
@@ -2932,7 +2932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsParameters {
 
@@ -2945,7 +2945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationRetryOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationRetryOptions {
 
@@ -2958,7 +2958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3Configuration {
 
@@ -2971,7 +2971,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationBufferingHints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationBufferingHints {
 
@@ -2984,7 +2984,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationCloudwatchLoggingOptions {
 
@@ -2997,7 +2997,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationEncryptionConfiguration {
 
@@ -3010,7 +3010,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfig {
 
@@ -3023,7 +3023,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationSecretsManagerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationSecretsManagerConfiguration {
 
@@ -3036,7 +3036,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 &dataawscckinesisfirehosedeliverystream.DataAwsccKinesisfirehoseDeliveryStreamTags {
 
@@ -3051,7 +3051,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfireho
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationBufferingHintsOutputReference
 ```
@@ -3322,7 +3322,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -3604,7 +3604,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationOutputReference
 ```
@@ -3963,7 +3963,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationOutputReference
 ```
@@ -4234,7 +4234,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsList
 ```
@@ -4383,7 +4383,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsOutputReference
 ```
@@ -4672,7 +4672,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsParametersList
 ```
@@ -4821,7 +4821,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference
 ```
@@ -5110,7 +5110,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationRetryOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationRetryOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationRetryOptionsOutputReference
 ```
@@ -5370,7 +5370,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationBufferingHintsOutputReference
 ```
@@ -5641,7 +5641,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -5923,7 +5923,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -6183,7 +6183,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference
 ```
@@ -6454,7 +6454,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationS3ConfigurationOutputReference
 ```
@@ -6791,7 +6791,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationVpcConfigurationOutputReference
 ```
@@ -7073,7 +7073,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationBufferingHintsOutputReference
 ```
@@ -7344,7 +7344,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -7626,7 +7626,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationDocumentIdOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationDocumentIdOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationDocumentIdOptionsOutputReference
 ```
@@ -7886,7 +7886,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationOutputReference
 ```
@@ -8289,7 +8289,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationOutputReference
 ```
@@ -8560,7 +8560,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsList
 ```
@@ -8709,7 +8709,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsOutputReference
 ```
@@ -8998,7 +8998,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsParametersList
 ```
@@ -9147,7 +9147,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference
 ```
@@ -9436,7 +9436,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationRetryOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationRetryOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationRetryOptionsOutputReference
 ```
@@ -9696,7 +9696,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationBufferingHintsOutputReference
 ```
@@ -9967,7 +9967,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -10249,7 +10249,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -10509,7 +10509,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference
 ```
@@ -10780,7 +10780,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationS3ConfigurationOutputReference
 ```
@@ -11117,7 +11117,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationVpcConfigurationOutputReference
 ```
@@ -11399,7 +11399,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamAmazonopensearchservi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationColumnsOutputReference
 ```
@@ -11670,7 +11670,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceAuthenticationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceAuthenticationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceAuthenticationConfigurationOutputReference
 ```
@@ -11930,7 +11930,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceAuthenticationConfigurationSecretsManagerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceAuthenticationConfigurationSecretsManagerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceAuthenticationConfigurationSecretsManagerConfigurationOutputReference
 ```
@@ -12212,7 +12212,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabaseSourceVpcConfigurationOutputReference
 ```
@@ -12472,7 +12472,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationDatabasesOutputReference
 ```
@@ -12743,7 +12743,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationOutputReference
 ```
@@ -13135,7 +13135,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigurationTablesOutputReference
 ```
@@ -13406,7 +13406,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamDatabaseSourceConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDeliveryStreamEncryptionConfigurationInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamDeliveryStreamEncryptionConfigurationInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamDeliveryStreamEncryptionConfigurationInputOutputReference
 ```
@@ -13677,7 +13677,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamDeliveryStreamEncrypt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamDirectPutSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamDirectPutSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamDirectPutSourceConfigurationOutputReference
 ```
@@ -13937,7 +13937,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamDirectPutSourceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationBufferingHintsOutputReference
 ```
@@ -14208,7 +14208,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -14490,7 +14490,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationDocumentIdOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationDocumentIdOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationDocumentIdOptionsOutputReference
 ```
@@ -14750,7 +14750,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationOutputReference
 ```
@@ -15153,7 +15153,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationOutputReference
 ```
@@ -15424,7 +15424,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsList
 ```
@@ -15573,7 +15573,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsOutputReference
 ```
@@ -15862,7 +15862,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsParametersList
 ```
@@ -16011,7 +16011,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference
 ```
@@ -16300,7 +16300,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationRetryOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationRetryOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationRetryOptionsOutputReference
 ```
@@ -16560,7 +16560,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationBufferingHintsOutputReference
 ```
@@ -16831,7 +16831,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -17113,7 +17113,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -17373,7 +17373,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference
 ```
@@ -17644,7 +17644,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationS3ConfigurationOutputReference
 ```
@@ -17981,7 +17981,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinationConfigurationVpcConfigurationOutputReference
 ```
@@ -18263,7 +18263,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamElasticsearchDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationBufferingHintsOutputReference
 ```
@@ -18534,7 +18534,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -18816,7 +18816,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerHiveJsonSerDeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerHiveJsonSerDeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerHiveJsonSerDeOutputReference
 ```
@@ -19076,7 +19076,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerOpenXJsonSerDeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerOpenXJsonSerDeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerOpenXJsonSerDeOutputReference
 ```
@@ -19358,7 +19358,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationDeserializerOutputReference
 ```
@@ -19629,7 +19629,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationInputFormatConfigurationOutputReference
 ```
@@ -19889,7 +19889,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationOutputReference
 ```
@@ -20149,7 +20149,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerOrcSerDeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerOrcSerDeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerOrcSerDeOutputReference
 ```
@@ -20508,7 +20508,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerOutputReference
 ```
@@ -20779,7 +20779,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerParquetSerDeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerParquetSerDeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializerParquetSerDeOutputReference
 ```
@@ -21094,7 +21094,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputReference
 ```
@@ -21387,7 +21387,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationSchemaConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationSchemaConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationSchemaConfigurationOutputReference
 ```
@@ -21702,7 +21702,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDynamicPartitioningConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDynamicPartitioningConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDynamicPartitioningConfigurationOutputReference
 ```
@@ -21973,7 +21973,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDynamicPartitioningConfigurationRetryOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDynamicPartitioningConfigurationRetryOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDynamicPartitioningConfigurationRetryOptionsOutputReference
 ```
@@ -22233,7 +22233,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -22493,7 +22493,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationEncryptionConfigurationOutputReference
 ```
@@ -22764,7 +22764,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationOutputReference
 ```
@@ -23178,7 +23178,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationOutputReference
 ```
@@ -23449,7 +23449,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsList
 ```
@@ -23598,7 +23598,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsOutputReference
 ```
@@ -23887,7 +23887,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsParametersList
 ```
@@ -24036,7 +24036,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference
 ```
@@ -24325,7 +24325,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationBufferingHintsOutputReference
 ```
@@ -24596,7 +24596,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -24878,7 +24878,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -25138,7 +25138,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationEncryptionConfigurationOutputReference
 ```
@@ -25409,7 +25409,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationS3BackupConfigurationOutputReference
 ```
@@ -25746,7 +25746,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamExtendedS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationBufferingHintsOutputReference
 ```
@@ -26017,7 +26017,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -26299,7 +26299,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationEndpointConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationEndpointConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationEndpointConfigurationOutputReference
 ```
@@ -26581,7 +26581,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationOutputReference
 ```
@@ -26940,7 +26940,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationOutputReference
 ```
@@ -27211,7 +27211,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsList
 ```
@@ -27360,7 +27360,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsOutputReference
 ```
@@ -27649,7 +27649,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsParametersList
 ```
@@ -27798,7 +27798,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference
 ```
@@ -28087,7 +28087,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfigurationCommonAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfigurationCommonAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfigurationCommonAttributesList
 ```
@@ -28236,7 +28236,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfigurationCommonAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfigurationCommonAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfigurationCommonAttributesOutputReference
 ```
@@ -28525,7 +28525,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRequestConfigurationOutputReference
 ```
@@ -28796,7 +28796,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRetryOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRetryOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationRetryOptionsOutputReference
 ```
@@ -29056,7 +29056,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationBufferingHintsOutputReference
 ```
@@ -29327,7 +29327,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -29609,7 +29609,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -29869,7 +29869,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference
 ```
@@ -30140,7 +30140,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationS3ConfigurationOutputReference
 ```
@@ -30477,7 +30477,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationSecretsManagerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationSecretsManagerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinationConfigurationSecretsManagerConfigurationOutputReference
 ```
@@ -30759,7 +30759,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamHttpEndpointDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationBufferingHintsOutputReference
 ```
@@ -31030,7 +31030,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationCatalogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationCatalogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationCatalogConfigurationOutputReference
 ```
@@ -31301,7 +31301,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -31583,7 +31583,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpecIdentityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpecIdentityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpecIdentityList
 ```
@@ -31732,7 +31732,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpecIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpecIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpecIdentityOutputReference
 ```
@@ -32010,7 +32010,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpecOutputReference
 ```
@@ -32270,7 +32270,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListStructList
 ```
@@ -32419,7 +32419,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListStructOutputReference
 ```
@@ -32741,7 +32741,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationOutputReference
 ```
@@ -33122,7 +33122,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationOutputReference
 ```
@@ -33393,7 +33393,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsList
 ```
@@ -33542,7 +33542,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsOutputReference
 ```
@@ -33831,7 +33831,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsParametersList
 ```
@@ -33980,7 +33980,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference
 ```
@@ -34269,7 +34269,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationRetryOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationRetryOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationRetryOptionsOutputReference
 ```
@@ -34529,7 +34529,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationBufferingHintsOutputReference
 ```
@@ -34800,7 +34800,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -35082,7 +35082,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -35342,7 +35342,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference
 ```
@@ -35613,7 +35613,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationS3ConfigurationOutputReference
 ```
@@ -35950,7 +35950,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationSchemaEvolutionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationSchemaEvolutionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationSchemaEvolutionConfigurationOutputReference
 ```
@@ -36210,7 +36210,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationTableCreationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationTableCreationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationConfigurationTableCreationConfigurationOutputReference
 ```
@@ -36470,7 +36470,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamIcebergDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamKinesisStreamSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamKinesisStreamSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamKinesisStreamSourceConfigurationOutputReference
 ```
@@ -36741,7 +36741,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamKinesisStreamSourceCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfigurationOutputReference
 ```
@@ -37012,7 +37012,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamMskSourceConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamMskSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamMskSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamMskSourceConfigurationOutputReference
 ```
@@ -37305,7 +37305,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamMskSourceConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -37587,7 +37587,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationCopyCommandOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationCopyCommandOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationCopyCommandOutputReference
 ```
@@ -37869,7 +37869,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationOutputReference
 ```
@@ -38250,7 +38250,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationOutputReference
 ```
@@ -38521,7 +38521,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsList
 ```
@@ -38670,7 +38670,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsOutputReference
 ```
@@ -38959,7 +38959,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsParametersList
 ```
@@ -39108,7 +39108,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference
 ```
@@ -39397,7 +39397,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationRetryOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationRetryOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationRetryOptionsOutputReference
 ```
@@ -39657,7 +39657,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationBufferingHintsOutputReference
 ```
@@ -39928,7 +39928,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -40210,7 +40210,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -40470,7 +40470,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationEncryptionConfigurationOutputReference
 ```
@@ -40741,7 +40741,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3BackupConfigurationOutputReference
 ```
@@ -41078,7 +41078,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationBufferingHintsOutputReference
 ```
@@ -41349,7 +41349,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -41631,7 +41631,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -41891,7 +41891,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference
 ```
@@ -42162,7 +42162,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationS3ConfigurationOutputReference
 ```
@@ -42499,7 +42499,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationSecretsManagerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationSecretsManagerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationConfigurationSecretsManagerConfigurationOutputReference
 ```
@@ -42781,7 +42781,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamRedshiftDestinationCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationBufferingHintsOutputReference
 ```
@@ -43052,7 +43052,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -43334,7 +43334,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -43594,7 +43594,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationEncryptionConfigurationOutputReference
 ```
@@ -43865,7 +43865,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigurationOutputReference
 ```
@@ -44202,7 +44202,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamS3DestinationConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationBufferingHintsOutputReference
 ```
@@ -44473,7 +44473,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -44755,7 +44755,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationOutputReference
 ```
@@ -45224,7 +45224,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationOutputReference
 ```
@@ -45495,7 +45495,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsList
 ```
@@ -45644,7 +45644,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsOutputReference
 ```
@@ -45933,7 +45933,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsParametersList
 ```
@@ -46082,7 +46082,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference
 ```
@@ -46371,7 +46371,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationRetryOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationRetryOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationRetryOptionsOutputReference
 ```
@@ -46631,7 +46631,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationBufferingHintsOutputReference
 ```
@@ -46902,7 +46902,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -47184,7 +47184,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -47444,7 +47444,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference
 ```
@@ -47715,7 +47715,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationS3ConfigurationOutputReference
 ```
@@ -48052,7 +48052,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSecretsManagerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSecretsManagerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSecretsManagerConfigurationOutputReference
 ```
@@ -48334,7 +48334,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSnowflakeRoleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSnowflakeRoleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSnowflakeRoleConfigurationOutputReference
 ```
@@ -48605,7 +48605,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSnowflakeVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSnowflakeVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationConfigurationSnowflakeVpcConfigurationOutputReference
 ```
@@ -48865,7 +48865,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSnowflakeDestinationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationBufferingHintsOutputReference
 ```
@@ -49136,7 +49136,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -49418,7 +49418,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationOutputReference
 ```
@@ -49788,7 +49788,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationOutputReference
 ```
@@ -50059,7 +50059,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsList
 ```
@@ -50208,7 +50208,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsOutputReference
 ```
@@ -50497,7 +50497,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsParametersList
 ```
@@ -50646,7 +50646,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationProcessingConfigurationProcessorsParametersOutputReference
 ```
@@ -50935,7 +50935,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationRetryOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationRetryOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationRetryOptionsOutputReference
 ```
@@ -51195,7 +51195,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationBufferingHintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationBufferingHintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationBufferingHintsOutputReference
 ```
@@ -51466,7 +51466,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationCloudwatchLoggingOptionsOutputReference
 ```
@@ -51748,7 +51748,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationEncryptionConfigurationKmsEncryptionConfigOutputReference
 ```
@@ -52008,7 +52008,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationEncryptionConfigurationOutputReference
 ```
@@ -52279,7 +52279,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationS3ConfigurationOutputReference
 ```
@@ -52616,7 +52616,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationSecretsManagerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationSecretsManagerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConfigurationSecretsManagerConfigurationOutputReference
 ```
@@ -52898,7 +52898,7 @@ func InternalValue() DataAwsccKinesisfirehoseDeliveryStreamSplunkDestinationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisfirehoseDeliveryStreamTagsList
 ```
@@ -53047,7 +53047,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStream.DataAwsccKinesisfirehoseDeliveryStreamTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystream"
 
 dataawscckinesisfirehosedeliverystream.NewDataAwsccKinesisfirehoseDeliveryStreamTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisfirehoseDeliveryStreamTagsOutputReference
 ```

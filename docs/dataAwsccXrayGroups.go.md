@@ -4,12 +4,12 @@
 
 ### DataAwsccXrayGroups <a name="DataAwsccXrayGroups" id="@cdktn/provider-awscc.dataAwsccXrayGroups.DataAwsccXrayGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_groups awscc_xray_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_groups awscc_xray_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXrayGroups.DataAwsccXrayGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraygroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraygroups"
 
 dataawsccxraygroups.NewDataAwsccXrayGroups(scope Construct, id *string, config DataAwsccXrayGroupsConfig) DataAwsccXrayGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccXrayGroups.DataAwsccXrayGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraygroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraygroups"
 
 dataawsccxraygroups.DataAwsccXrayGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccXrayGroups.DataAwsccXrayGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraygroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraygroups"
 
 dataawsccxraygroups.DataAwsccXrayGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccxraygroups.DataAwsccXrayGroups_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccXrayGroups.DataAwsccXrayGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraygroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraygroups"
 
 dataawsccxraygroups.DataAwsccXrayGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccxraygroups.DataAwsccXrayGroups_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccXrayGroups.DataAwsccXrayGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraygroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraygroups"
 
 dataawsccxraygroups.DataAwsccXrayGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccXrayGroups to imp
 
 The id of the existing DataAwsccXrayGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXrayGroups.DataAwsccXrayGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraygroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraygroups"
 
 &dataawsccxraygroups.DataAwsccXrayGroupsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccPcaconnectorscepChallenge <a name="DataAwsccPcaconnectorscepChallenge" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepChallenge.DataAwsccPcaconnectorscepChallenge"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepChallenge.DataAwsccPcaconnectorscepChallenge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepchallenge"
 
 dataawsccpcaconnectorscepchallenge.NewDataAwsccPcaconnectorscepChallenge(scope Construct, id *string, config DataAwsccPcaconnectorscepChallengeConfig) DataAwsccPcaconnectorscepChallenge
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepChallenge.DataAwsccPcaconnectorscepChallenge.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepchallenge"
 
 dataawsccpcaconnectorscepchallenge.DataAwsccPcaconnectorscepChallenge_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepChallenge.DataAwsccPcaconnectorscepChallenge.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepchallenge"
 
 dataawsccpcaconnectorscepchallenge.DataAwsccPcaconnectorscepChallenge_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpcaconnectorscepchallenge.DataAwsccPcaconnectorscepChallenge_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepChallenge.DataAwsccPcaconnectorscepChallenge.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepchallenge"
 
 dataawsccpcaconnectorscepchallenge.DataAwsccPcaconnectorscepChallenge_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpcaconnectorscepchallenge.DataAwsccPcaconnectorscepChallenge_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepChallenge.DataAwsccPcaconnectorscepChallenge.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepchallenge"
 
 dataawsccpcaconnectorscepchallenge.DataAwsccPcaconnectorscepChallenge_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPcaconnectorscepC
 
 The id of the existing DataAwsccPcaconnectorscepChallenge that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorscep_challenge#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorscep_challenge#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepChallenge.DataAwsccPcaconnectorscepChallengeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepchallenge"
 
 &dataawsccpcaconnectorscepchallenge.DataAwsccPcaconnectorscepChallengeConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorscep_challenge#id DataAwsccPcaconnectorscepChallenge#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorscep_challenge#id DataAwsccPcaconnectorscepChallenge#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

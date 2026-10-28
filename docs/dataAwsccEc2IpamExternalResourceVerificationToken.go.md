@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2IpamExternalResourceVerificationToken <a name="DataAwsccEc2IpamExternalResourceVerificationToken" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationToken"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_external_resource_verification_token awscc_ec2_ipam_external_resource_verification_token}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_external_resource_verification_token awscc_ec2_ipam_external_resource_verification_token}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamexternalresourceverificationtoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamexternalresourceverificationtoken"
 
 dataawsccec2ipamexternalresourceverificationtoken.NewDataAwsccEc2IpamExternalResourceVerificationToken(scope Construct, id *string, config DataAwsccEc2IpamExternalResourceVerificationTokenConfig) DataAwsccEc2IpamExternalResourceVerificationToken
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationToken.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamexternalresourceverificationtoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamexternalresourceverificationtoken"
 
 dataawsccec2ipamexternalresourceverificationtoken.DataAwsccEc2IpamExternalResourceVerificationToken_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationToken.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamexternalresourceverificationtoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamexternalresourceverificationtoken"
 
 dataawsccec2ipamexternalresourceverificationtoken.DataAwsccEc2IpamExternalResourceVerificationToken_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2ipamexternalresourceverificationtoken.DataAwsccEc2IpamExternalResour
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationToken.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamexternalresourceverificationtoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamexternalresourceverificationtoken"
 
 dataawsccec2ipamexternalresourceverificationtoken.DataAwsccEc2IpamExternalResourceVerificationToken_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2ipamexternalresourceverificationtoken.DataAwsccEc2IpamExternalResour
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationToken.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamexternalresourceverificationtoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamexternalresourceverificationtoken"
 
 dataawsccec2ipamexternalresourceverificationtoken.DataAwsccEc2IpamExternalResourceVerificationToken_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2IpamExternalRe
 
 The id of the existing DataAwsccEc2IpamExternalResourceVerificationToken that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_external_resource_verification_token#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_external_resource_verification_token#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationTokenConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamexternalresourceverificationtoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamexternalresourceverificationtoken"
 
 &dataawsccec2ipamexternalresourceverificationtoken.DataAwsccEc2IpamExternalResourceVerificationTokenConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_external_resource_verification_token#id DataAwsccEc2IpamExternalResourceVerificationToken#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_external_resource_verification_token#id DataAwsccEc2IpamExternalResourceVerificationToken#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationTokenTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamexternalresourceverificationtoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamexternalresourceverificationtoken"
 
 &dataawsccec2ipamexternalresourceverificationtoken.DataAwsccEc2IpamExternalResourceVerificationTokenTags {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamextern
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationTokenTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamexternalresourceverificationtoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamexternalresourceverificationtoken"
 
 dataawsccec2ipamexternalresourceverificationtoken.NewDataAwsccEc2IpamExternalResourceVerificationTokenTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2IpamExternalResourceVerificationTokenTagsList
 ```
@@ -993,7 +993,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamExternalResourceVerificationToken.DataAwsccEc2IpamExternalResourceVerificationTokenTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamexternalresourceverificationtoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamexternalresourceverificationtoken"
 
 dataawsccec2ipamexternalresourceverificationtoken.NewDataAwsccEc2IpamExternalResourceVerificationTokenTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2IpamExternalResourceVerificationTokenTagsOutputReference
 ```

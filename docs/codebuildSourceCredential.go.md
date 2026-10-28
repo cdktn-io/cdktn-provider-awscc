@@ -4,12 +4,12 @@
 
 ### CodebuildSourceCredential <a name="CodebuildSourceCredential" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codebuildsourcecredential"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codebuildsourcecredential"
 
 codebuildsourcecredential.NewCodebuildSourceCredential(scope Construct, id *string, config CodebuildSourceCredentialConfig) CodebuildSourceCredential
 ```
@@ -407,7 +407,7 @@ func ResetUsername()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codebuildsourcecredential"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codebuildsourcecredential"
 
 codebuildsourcecredential.CodebuildSourceCredential_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codebuildsourcecredential"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codebuildsourcecredential"
 
 codebuildsourcecredential.CodebuildSourceCredential_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ codebuildsourcecredential.CodebuildSourceCredential_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codebuildsourcecredential"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codebuildsourcecredential"
 
 codebuildsourcecredential.CodebuildSourceCredential_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ codebuildsourcecredential.CodebuildSourceCredential_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredential.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codebuildsourcecredential"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codebuildsourcecredential"
 
 codebuildsourcecredential.CodebuildSourceCredential_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the CodebuildSourceCredential 
 
 The id of the existing CodebuildSourceCredential that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codebuild_source_credential#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codebuild_source_credential#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -806,7 +806,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codebuildSourceCredential.CodebuildSourceCredentialConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codebuildsourcecredential"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codebuildsourcecredential"
 
 &codebuildsourcecredential.CodebuildSourceCredentialConfig {
 	Connection: interface{},
@@ -921,7 +921,7 @@ AuthType *string
 
 The type of authentication used by the credentials. Valid options are OAUTH, BASIC_AUTH, PERSONAL_ACCESS_TOKEN, CODECONNECTIONS, or SECRETS_MANAGER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codebuild_source_credential#auth_type CodebuildSourceCredential#auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codebuild_source_credential#auth_type CodebuildSourceCredential#auth_type}
 
 ---
 
@@ -935,7 +935,7 @@ ServerType *string
 
 The type of source provider. The valid options are GITHUB, GITHUB_ENTERPRISE, GITLAB, GITLAB_SELF_MANAGED, or BITBUCKET.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codebuild_source_credential#server_type CodebuildSourceCredential#server_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codebuild_source_credential#server_type CodebuildSourceCredential#server_type}
 
 ---
 
@@ -951,7 +951,7 @@ For GitHub or GitHub Enterprise, this is the personal access token.
 
 For Bitbucket, this is either the access token or the app password. For the authType CODECONNECTIONS, this is the connectionArn. For the authType SECRETS_MANAGER, this is the secretArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codebuild_source_credential#token CodebuildSourceCredential#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codebuild_source_credential#token CodebuildSourceCredential#token}
 
 ---
 
@@ -967,7 +967,7 @@ The Bitbucket username when the authType is BASIC_AUTH.
 
 This parameter is not valid for other types of source providers or connections.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codebuild_source_credential#username CodebuildSourceCredential#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codebuild_source_credential#username CodebuildSourceCredential#username}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccVpclatticeServiceNetwork <a name="DataAwsccVpclatticeServiceNetwork" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service_network awscc_vpclattice_service_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service_network awscc_vpclattice_service_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetwork"
 
 dataawsccvpclatticeservicenetwork.NewDataAwsccVpclatticeServiceNetwork(scope Construct, id *string, config DataAwsccVpclatticeServiceNetworkConfig) DataAwsccVpclatticeServiceNetwork
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetwork"
 
 dataawsccvpclatticeservicenetwork.DataAwsccVpclatticeServiceNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetwork"
 
 dataawsccvpclatticeservicenetwork.DataAwsccVpclatticeServiceNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccvpclatticeservicenetwork.DataAwsccVpclatticeServiceNetwork_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetwork.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetwork"
 
 dataawsccvpclatticeservicenetwork.DataAwsccVpclatticeServiceNetwork_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccvpclatticeservicenetwork.DataAwsccVpclatticeServiceNetwork_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetwork"
 
 dataawsccvpclatticeservicenetwork.DataAwsccVpclatticeServiceNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccVpclatticeService
 
 The id of the existing DataAwsccVpclatticeServiceNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetwork"
 
 &dataawsccvpclatticeservicenetwork.DataAwsccVpclatticeServiceNetworkConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service_network#id DataAwsccVpclatticeServiceNetwork#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service_network#id DataAwsccVpclatticeServiceNetwork#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetworkSharingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetwork"
 
 &dataawsccvpclatticeservicenetwork.DataAwsccVpclatticeServiceNetworkSharingConfig {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeser
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetwork"
 
 &dataawsccvpclatticeservicenetwork.DataAwsccVpclatticeServiceNetworkTags {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeser
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetworkSharingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetwork"
 
 dataawsccvpclatticeservicenetwork.NewDataAwsccVpclatticeServiceNetworkSharingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVpclatticeServiceNetworkSharingConfigOutputReference
 ```
@@ -1084,7 +1084,7 @@ func InternalValue() DataAwsccVpclatticeServiceNetworkSharingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetwork"
 
 dataawsccvpclatticeservicenetwork.NewDataAwsccVpclatticeServiceNetworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccVpclatticeServiceNetworkTagsList
 ```
@@ -1233,7 +1233,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeServiceNetwork.DataAwsccVpclatticeServiceNetworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetwork"
 
 dataawsccvpclatticeservicenetwork.NewDataAwsccVpclatticeServiceNetworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccVpclatticeServiceNetworkTagsOutputReference
 ```

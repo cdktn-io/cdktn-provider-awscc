@@ -4,12 +4,12 @@
 
 ### DataAwsccCertificatemanagerCertificate <a name="DataAwsccCertificatemanagerCertificate" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_certificate awscc_certificatemanager_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_certificate awscc_certificatemanager_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 dataawscccertificatemanagercertificate.NewDataAwsccCertificatemanagerCertificate(scope Construct, id *string, config DataAwsccCertificatemanagerCertificateConfig) DataAwsccCertificatemanagerCertificate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 dataawscccertificatemanagercertificate.DataAwsccCertificatemanagerCertificate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 dataawscccertificatemanagercertificate.DataAwsccCertificatemanagerCertificate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccertificatemanagercertificate.DataAwsccCertificatemanagerCertificate_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 dataawscccertificatemanagercertificate.DataAwsccCertificatemanagerCertificate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccertificatemanagercertificate.DataAwsccCertificatemanagerCertificate_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 dataawscccertificatemanagercertificate.DataAwsccCertificatemanagerCertificate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCertificatemanage
 
 The id of the existing DataAwsccCertificatemanagerCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 &dataawscccertificatemanagercertificate.DataAwsccCertificatemanagerCertificateConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_certificate#id DataAwsccCertificatemanagerCertificate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_certificate#id DataAwsccCertificatemanagerCertificate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificateDomainValidationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 &dataawscccertificatemanagercertificate.DataAwsccCertificatemanagerCertificateDomainValidationOptions {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatema
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 &dataawscccertificatemanagercertificate.DataAwsccCertificatemanagerCertificateTags {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificateDomainValidationOptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 dataawscccertificatemanagercertificate.NewDataAwsccCertificatemanagerCertificateDomainValidationOptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCertificatemanagerCertificateDomainValidationOptionsList
 ```
@@ -995,7 +995,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificateDomainValidationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 dataawscccertificatemanagercertificate.NewDataAwsccCertificatemanagerCertificateDomainValidationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCertificatemanagerCertificateDomainValidationOptionsOutputReference
 ```
@@ -1295,7 +1295,7 @@ func InternalValue() DataAwsccCertificatemanagerCertificateDomainValidationOptio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 dataawscccertificatemanagercertificate.NewDataAwsccCertificatemanagerCertificateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCertificatemanagerCertificateTagsList
 ```
@@ -1444,7 +1444,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificate"
 
 dataawscccertificatemanagercertificate.NewDataAwsccCertificatemanagerCertificateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCertificatemanagerCertificateTagsOutputReference
 ```

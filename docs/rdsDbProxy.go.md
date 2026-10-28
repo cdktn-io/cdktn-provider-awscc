@@ -4,12 +4,12 @@
 
 ### RdsDbProxy <a name="RdsDbProxy" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy awscc_rds_db_proxy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy awscc_rds_db_proxy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 rdsdbproxy.NewRdsDbProxy(scope Construct, id *string, config RdsDbProxyConfig) RdsDbProxy
 ```
@@ -489,7 +489,7 @@ func ResetVpcSecurityGroupIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 rdsdbproxy.RdsDbProxy_IsConstruct(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 rdsdbproxy.RdsDbProxy_IsTerraformElement(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ rdsdbproxy.RdsDbProxy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 rdsdbproxy.RdsDbProxy_IsTerraformResource(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ rdsdbproxy.RdsDbProxy_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 rdsdbproxy.RdsDbProxy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -578,7 +578,7 @@ The construct id used in the generated config for the RdsDbProxy to import.
 
 The id of the existing RdsDbProxy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1108,7 +1108,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyAuth.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 &rdsdbproxy.RdsDbProxyAuth {
 	AuthScheme: *string,
@@ -1141,7 +1141,7 @@ AuthScheme *string
 
 The type of authentication that the proxy uses for connections from the proxy to the underlying database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#auth_scheme RdsDbProxy#auth_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#auth_scheme RdsDbProxy#auth_scheme}
 
 ---
 
@@ -1155,7 +1155,7 @@ ClientPasswordAuthType *string
 
 The type of authentication the proxy uses for connections from clients.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#client_password_auth_type RdsDbProxy#client_password_auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#client_password_auth_type RdsDbProxy#client_password_auth_type}
 
 ---
 
@@ -1169,7 +1169,7 @@ Description *string
 
 A user-specified description about the authentication used by a proxy to log in as a specific database user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#description RdsDbProxy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#description RdsDbProxy#description}
 
 ---
 
@@ -1185,7 +1185,7 @@ Whether to require or disallow Amazon Web Services Identity and Access Managemen
 
 The ENABLED value is valid only for proxies with RDS for Microsoft SQL Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#iam_auth RdsDbProxy#iam_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#iam_auth RdsDbProxy#iam_auth}
 
 ---
 
@@ -1201,7 +1201,7 @@ The Amazon Resource Name (ARN) representing the secret that the proxy uses to au
 
 These secrets are stored within Amazon Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#secret_arn RdsDbProxy#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#secret_arn RdsDbProxy#secret_arn}
 
 ---
 
@@ -1210,7 +1210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 &rdsdbproxy.RdsDbProxyConfig {
 	Connection: interface{},
@@ -1345,7 +1345,7 @@ The identifier for the proxy.
 
 This name must be unique for all proxies owned by your AWS account in the specified AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#db_proxy_name RdsDbProxy#db_proxy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#db_proxy_name RdsDbProxy#db_proxy_name}
 
 ---
 
@@ -1359,7 +1359,7 @@ EngineFamily *string
 
 The kinds of databases that the proxy can connect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#engine_family RdsDbProxy#engine_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#engine_family RdsDbProxy#engine_family}
 
 ---
 
@@ -1373,7 +1373,7 @@ RoleArn *string
 
 The Amazon Resource Name (ARN) of the IAM role that the proxy uses to access secrets in AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#role_arn RdsDbProxy#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#role_arn RdsDbProxy#role_arn}
 
 ---
 
@@ -1387,7 +1387,7 @@ VpcSubnetIds *[]*string
 
 VPC subnet IDs to associate with the new proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#vpc_subnet_ids RdsDbProxy#vpc_subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#vpc_subnet_ids RdsDbProxy#vpc_subnet_ids}
 
 ---
 
@@ -1401,7 +1401,7 @@ Auth interface{}
 
 The authorization mechanism that the proxy uses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#auth RdsDbProxy#auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#auth RdsDbProxy#auth}
 
 ---
 
@@ -1415,7 +1415,7 @@ DebugLogging interface{}
 
 Whether the proxy includes detailed information about SQL statements in its logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#debug_logging RdsDbProxy#debug_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#debug_logging RdsDbProxy#debug_logging}
 
 ---
 
@@ -1429,7 +1429,7 @@ DefaultAuthScheme *string
 
 The default authentication scheme that the proxy uses for client connections to the proxy and connections from the proxy to the underlying database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#default_auth_scheme RdsDbProxy#default_auth_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#default_auth_scheme RdsDbProxy#default_auth_scheme}
 
 ---
 
@@ -1445,7 +1445,7 @@ The network type of the DB proxy endpoint.
 
 The network type determines the IP version that the proxy endpoint supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#endpoint_network_type RdsDbProxy#endpoint_network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#endpoint_network_type RdsDbProxy#endpoint_network_type}
 
 ---
 
@@ -1459,7 +1459,7 @@ IdleClientTimeout *f64
 
 The number of seconds that a connection to the proxy can be inactive before the proxy disconnects it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#idle_client_timeout RdsDbProxy#idle_client_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#idle_client_timeout RdsDbProxy#idle_client_timeout}
 
 ---
 
@@ -1473,7 +1473,7 @@ RequireTls interface{}
 
 A Boolean parameter that specifies whether Transport Layer Security (TLS) encryption is required for connections to the proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#require_tls RdsDbProxy#require_tls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#require_tls RdsDbProxy#require_tls}
 
 ---
 
@@ -1487,7 +1487,7 @@ Tags interface{}
 
 An optional set of key-value pairs to associate arbitrary data of your choosing with the proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#tags RdsDbProxy#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#tags RdsDbProxy#tags}
 
 ---
 
@@ -1503,7 +1503,7 @@ The network type that the proxy uses to connect to the target database.
 
 The network type determines the IP version that the proxy uses for connections to the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#target_connection_network_type RdsDbProxy#target_connection_network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#target_connection_network_type RdsDbProxy#target_connection_network_type}
 
 ---
 
@@ -1517,7 +1517,7 @@ VpcSecurityGroupIds *[]*string
 
 VPC security group IDs to associate with the new proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#vpc_security_group_ids RdsDbProxy#vpc_security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#vpc_security_group_ids RdsDbProxy#vpc_security_group_ids}
 
 ---
 
@@ -1526,7 +1526,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 &rdsdbproxy.RdsDbProxyTags {
 	Key: *string,
@@ -1538,8 +1538,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#key RdsDbProxy#key}. |
-| <code><a href="#@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#value RdsDbProxy#value}. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#key RdsDbProxy#key}. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#value RdsDbProxy#value}. |
 
 ---
 
@@ -1551,7 +1551,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#key RdsDbProxy#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#key RdsDbProxy#key}.
 
 ---
 
@@ -1563,7 +1563,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy#value RdsDbProxy#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy#value RdsDbProxy#value}.
 
 ---
 
@@ -1574,7 +1574,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyAuthList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 rdsdbproxy.NewRdsDbProxyAuthList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RdsDbProxyAuthList
 ```
@@ -1734,7 +1734,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyAuthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 rdsdbproxy.NewRdsDbProxyAuthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RdsDbProxyAuthOutputReference
 ```
@@ -2146,7 +2146,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 rdsdbproxy.NewRdsDbProxyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RdsDbProxyTagsList
 ```
@@ -2306,7 +2306,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy"
 
 rdsdbproxy.NewRdsDbProxyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RdsDbProxyTagsOutputReference
 ```

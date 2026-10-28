@@ -4,12 +4,12 @@
 
 ### DataAwsccOpensearchserverlessCollection <a name="DataAwsccOpensearchserverlessCollection" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchserverless_collection awscc_opensearchserverless_collection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchserverless_collection awscc_opensearchserverless_collection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 dataawsccopensearchserverlesscollection.NewDataAwsccOpensearchserverlessCollection(scope Construct, id *string, config DataAwsccOpensearchserverlessCollectionConfig) DataAwsccOpensearchserverlessCollection
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 dataawsccopensearchserverlesscollection.DataAwsccOpensearchserverlessCollection_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 dataawsccopensearchserverlesscollection.DataAwsccOpensearchserverlessCollection_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccopensearchserverlesscollection.DataAwsccOpensearchserverlessCollection_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollection.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 dataawsccopensearchserverlesscollection.DataAwsccOpensearchserverlessCollection_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccopensearchserverlesscollection.DataAwsccOpensearchserverlessCollection_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 dataawsccopensearchserverlesscollection.DataAwsccOpensearchserverlessCollection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOpensearchserverl
 
 The id of the existing DataAwsccOpensearchserverlessCollection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchserverless_collection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchserverless_collection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 &dataawsccopensearchserverlesscollection.DataAwsccOpensearchserverlessCollectionConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchserverless_collection#id DataAwsccOpensearchserverlessCollection#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchserverless_collection#id DataAwsccOpensearchserverlessCollection#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollectionEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 &dataawsccopensearchserverlesscollection.DataAwsccOpensearchserverlessCollectionEncryptionConfig {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchser
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollectionFipsEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 &dataawsccopensearchserverlesscollection.DataAwsccOpensearchserverlessCollectionFipsEndpoints {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchser
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollectionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 &dataawsccopensearchserverlesscollection.DataAwsccOpensearchserverlessCollectionTags {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchser
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollectionVectorOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 &dataawsccopensearchserverlesscollection.DataAwsccOpensearchserverlessCollectionVectorOptions {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchser
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollectionEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 dataawsccopensearchserverlesscollection.NewDataAwsccOpensearchserverlessCollectionEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOpensearchserverlessCollectionEncryptionConfigOutputReference
 ```
@@ -1198,7 +1198,7 @@ func InternalValue() DataAwsccOpensearchserverlessCollectionEncryptionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollectionFipsEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 dataawsccopensearchserverlesscollection.NewDataAwsccOpensearchserverlessCollectionFipsEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOpensearchserverlessCollectionFipsEndpointsOutputReference
 ```
@@ -1469,7 +1469,7 @@ func InternalValue() DataAwsccOpensearchserverlessCollectionFipsEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollectionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 dataawsccopensearchserverlesscollection.NewDataAwsccOpensearchserverlessCollectionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOpensearchserverlessCollectionTagsList
 ```
@@ -1618,7 +1618,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollectionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 dataawsccopensearchserverlesscollection.NewDataAwsccOpensearchserverlessCollectionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOpensearchserverlessCollectionTagsOutputReference
 ```
@@ -1907,7 +1907,7 @@ func InternalValue() DataAwsccOpensearchserverlessCollectionTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollection.DataAwsccOpensearchserverlessCollectionVectorOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollection"
 
 dataawsccopensearchserverlesscollection.NewDataAwsccOpensearchserverlessCollectionVectorOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOpensearchserverlessCollectionVectorOptionsOutputReference
 ```

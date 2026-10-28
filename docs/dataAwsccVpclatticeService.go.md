@@ -4,12 +4,12 @@
 
 ### DataAwsccVpclatticeService <a name="DataAwsccVpclatticeService" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service awscc_vpclattice_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service awscc_vpclattice_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservice"
 
 dataawsccvpclatticeservice.NewDataAwsccVpclatticeService(scope Construct, id *string, config DataAwsccVpclatticeServiceConfig) DataAwsccVpclatticeService
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeService.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservice"
 
 dataawsccvpclatticeservice.DataAwsccVpclatticeService_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeService.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservice"
 
 dataawsccvpclatticeservice.DataAwsccVpclatticeService_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccvpclatticeservice.DataAwsccVpclatticeService_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeService.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservice"
 
 dataawsccvpclatticeservice.DataAwsccVpclatticeService_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccvpclatticeservice.DataAwsccVpclatticeService_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeService.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservice"
 
 dataawsccvpclatticeservice.DataAwsccVpclatticeService_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccVpclatticeService
 
 The id of the existing DataAwsccVpclatticeService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservice"
 
 &dataawsccvpclatticeservice.DataAwsccVpclatticeServiceConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service#id DataAwsccVpclatticeService#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service#id DataAwsccVpclatticeService#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeServiceDnsEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservice"
 
 &dataawsccvpclatticeservice.DataAwsccVpclatticeServiceDnsEntry {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeser
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeServiceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservice"
 
 &dataawsccvpclatticeservice.DataAwsccVpclatticeServiceTags {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeser
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeServiceDnsEntryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservice"
 
 dataawsccvpclatticeservice.NewDataAwsccVpclatticeServiceDnsEntryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVpclatticeServiceDnsEntryOutputReference
 ```
@@ -1139,7 +1139,7 @@ func InternalValue() DataAwsccVpclatticeServiceDnsEntry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeServiceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservice"
 
 dataawsccvpclatticeservice.NewDataAwsccVpclatticeServiceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccVpclatticeServiceTagsList
 ```
@@ -1288,7 +1288,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeService.DataAwsccVpclatticeServiceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservice"
 
 dataawsccvpclatticeservice.NewDataAwsccVpclatticeServiceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccVpclatticeServiceTagsOutputReference
 ```

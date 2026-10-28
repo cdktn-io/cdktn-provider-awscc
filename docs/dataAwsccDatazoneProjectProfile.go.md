@@ -4,12 +4,12 @@
 
 ### DataAwsccDatazoneProjectProfile <a name="DataAwsccDatazoneProjectProfile" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfile(scope Construct, id *string, config DataAwsccDatazoneProjectProfileConfig) DataAwsccDatazoneProjectProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfile_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfile_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatazoneProjectPr
 
 The id of the existing DataAwsccDatazoneProjectProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_project_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_project_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 &dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfileConfig {
 	Connection: interface{},
@@ -883,7 +883,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_project_profile#id DataAwsccDatazoneProjectProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_project_profile#id DataAwsccDatazoneProjectProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -895,7 +895,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 &dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfileEnvironmentConfigurations {
 
@@ -908,7 +908,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsAwsAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 &dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsAwsAccount {
 
@@ -921,7 +921,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsAwsRegion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 &dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsAwsRegion {
 
@@ -934,7 +934,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 &dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters {
 
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 &dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides {
 
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 &dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileProjectResourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 &dataawsccdatazoneprojectprofile.DataAwsccDatazoneProjectProfileProjectResourceTags {
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsAwsAccountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfileEnvironmentConfigurationsAwsAccountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazoneProjectProfileEnvironmentConfigurationsAwsAccountOutputReference
 ```
@@ -1248,7 +1248,7 @@ func InternalValue() DataAwsccDatazoneProjectProfileEnvironmentConfigurationsAws
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsAwsRegionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfileEnvironmentConfigurationsAwsRegionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazoneProjectProfileEnvironmentConfigurationsAwsRegionOutputReference
 ```
@@ -1508,7 +1508,7 @@ func InternalValue() DataAwsccDatazoneProjectProfileEnvironmentConfigurationsAws
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersOutputReference
 ```
@@ -1790,7 +1790,7 @@ func InternalValue() DataAwsccDatazoneProjectProfileEnvironmentConfigurationsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverridesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverridesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverridesList
 ```
@@ -1939,7 +1939,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverridesOutputReference
 ```
@@ -2239,7 +2239,7 @@ func InternalValue() DataAwsccDatazoneProjectProfileEnvironmentConfigurationsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParametersList
 ```
@@ -2388,7 +2388,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParametersOutputReference
 ```
@@ -2688,7 +2688,7 @@ func InternalValue() DataAwsccDatazoneProjectProfileEnvironmentConfigurationsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfileEnvironmentConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatazoneProjectProfileEnvironmentConfigurationsList
 ```
@@ -2837,7 +2837,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileEnvironmentConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfileEnvironmentConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatazoneProjectProfileEnvironmentConfigurationsOutputReference
 ```
@@ -3203,7 +3203,7 @@ func InternalValue() DataAwsccDatazoneProjectProfileEnvironmentConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileProjectResourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfileProjectResourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatazoneProjectProfileProjectResourceTagsList
 ```
@@ -3352,7 +3352,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfile.DataAwsccDatazoneProjectProfileProjectResourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile"
 
 dataawsccdatazoneprojectprofile.NewDataAwsccDatazoneProjectProfileProjectResourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatazoneProjectProfileProjectResourceTagsOutputReference
 ```

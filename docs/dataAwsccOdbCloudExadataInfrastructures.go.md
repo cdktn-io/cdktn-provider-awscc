@@ -4,12 +4,12 @@
 
 ### DataAwsccOdbCloudExadataInfrastructures <a name="DataAwsccOdbCloudExadataInfrastructures" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructures.DataAwsccOdbCloudExadataInfrastructures"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_exadata_infrastructures awscc_odb_cloud_exadata_infrastructures}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_exadata_infrastructures awscc_odb_cloud_exadata_infrastructures}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructures.DataAwsccOdbCloudExadataInfrastructures.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructures"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructures"
 
 dataawsccodbcloudexadatainfrastructures.NewDataAwsccOdbCloudExadataInfrastructures(scope Construct, id *string, config DataAwsccOdbCloudExadataInfrastructuresConfig) DataAwsccOdbCloudExadataInfrastructures
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructures.DataAwsccOdbCloudExadataInfrastructures.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructures"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructures"
 
 dataawsccodbcloudexadatainfrastructures.DataAwsccOdbCloudExadataInfrastructures_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructures.DataAwsccOdbCloudExadataInfrastructures.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructures"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructures"
 
 dataawsccodbcloudexadatainfrastructures.DataAwsccOdbCloudExadataInfrastructures_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccodbcloudexadatainfrastructures.DataAwsccOdbCloudExadataInfrastructures_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructures.DataAwsccOdbCloudExadataInfrastructures.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructures"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructures"
 
 dataawsccodbcloudexadatainfrastructures.DataAwsccOdbCloudExadataInfrastructures_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccodbcloudexadatainfrastructures.DataAwsccOdbCloudExadataInfrastructures_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructures.DataAwsccOdbCloudExadataInfrastructures.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructures"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructures"
 
 dataawsccodbcloudexadatainfrastructures.DataAwsccOdbCloudExadataInfrastructures_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOdbCloudExadataIn
 
 The id of the existing DataAwsccOdbCloudExadataInfrastructures that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_exadata_infrastructures#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_exadata_infrastructures#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructures.DataAwsccOdbCloudExadataInfrastructuresConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructures"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructures"
 
 &dataawsccodbcloudexadatainfrastructures.DataAwsccOdbCloudExadataInfrastructuresConfig {
 	Connection: interface{},

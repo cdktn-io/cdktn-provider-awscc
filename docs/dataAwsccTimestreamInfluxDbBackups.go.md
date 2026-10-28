@@ -4,12 +4,12 @@
 
 ### DataAwsccTimestreamInfluxDbBackups <a name="DataAwsccTimestreamInfluxDbBackups" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbBackups.DataAwsccTimestreamInfluxDbBackups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_influx_db_backups awscc_timestream_influx_db_backups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_influx_db_backups awscc_timestream_influx_db_backups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbBackups.DataAwsccTimestreamInfluxDbBackups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbbackups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbbackups"
 
 dataawscctimestreaminfluxdbbackups.NewDataAwsccTimestreamInfluxDbBackups(scope Construct, id *string, config DataAwsccTimestreamInfluxDbBackupsConfig) DataAwsccTimestreamInfluxDbBackups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbBackups.DataAwsccTimestreamInfluxDbBackups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbbackups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbbackups"
 
 dataawscctimestreaminfluxdbbackups.DataAwsccTimestreamInfluxDbBackups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbBackups.DataAwsccTimestreamInfluxDbBackups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbbackups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbbackups"
 
 dataawscctimestreaminfluxdbbackups.DataAwsccTimestreamInfluxDbBackups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctimestreaminfluxdbbackups.DataAwsccTimestreamInfluxDbBackups_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbBackups.DataAwsccTimestreamInfluxDbBackups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbbackups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbbackups"
 
 dataawscctimestreaminfluxdbbackups.DataAwsccTimestreamInfluxDbBackups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctimestreaminfluxdbbackups.DataAwsccTimestreamInfluxDbBackups_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbBackups.DataAwsccTimestreamInfluxDbBackups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbbackups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbbackups"
 
 dataawscctimestreaminfluxdbbackups.DataAwsccTimestreamInfluxDbBackups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTimestreamInfluxD
 
 The id of the existing DataAwsccTimestreamInfluxDbBackups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_influx_db_backups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_influx_db_backups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbBackups.DataAwsccTimestreamInfluxDbBackupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbbackups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbbackups"
 
 &dataawscctimestreaminfluxdbbackups.DataAwsccTimestreamInfluxDbBackupsConfig {
 	Connection: interface{},

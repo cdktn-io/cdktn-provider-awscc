@@ -4,12 +4,12 @@
 
 ### Ec2FpgaImage <a name="Ec2FpgaImage" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 ec2fpgaimage.NewEc2FpgaImage(scope Construct, id *string, config Ec2FpgaImageConfig) Ec2FpgaImage
 ```
@@ -474,7 +474,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 ec2fpgaimage.Ec2FpgaImage_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 ec2fpgaimage.Ec2FpgaImage_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ ec2fpgaimage.Ec2FpgaImage_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImage.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 ec2fpgaimage.Ec2FpgaImage_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ ec2fpgaimage.Ec2FpgaImage_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 ec2fpgaimage.Ec2FpgaImage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the Ec2FpgaImage to import.
 
 The id of the existing Ec2FpgaImage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -983,7 +983,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 &ec2fpgaimage.Ec2FpgaImageConfig {
 	Connection: interface{},
@@ -994,8 +994,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Description: *string,
-	InputStorageLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2FpgaImage.Ec2FpgaImageInputStorageLocation,
-	LogsStorageLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2FpgaImage.Ec2FpgaImageLogsStorageLocation,
+	InputStorageLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2FpgaImage.Ec2FpgaImageInputStorageLocation,
+	LogsStorageLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2FpgaImage.Ec2FpgaImageLogsStorageLocation,
 	Name: *string,
 	Tags: interface{},
 }
@@ -1100,7 +1100,7 @@ Description *string
 
 A description for the AFI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#description Ec2FpgaImage#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#description Ec2FpgaImage#description}
 
 ---
 
@@ -1114,7 +1114,7 @@ InputStorageLocation Ec2FpgaImageInputStorageLocation
 
 The location of the encrypted design checkpoint in Amazon S3. The input must be a tarball.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#input_storage_location Ec2FpgaImage#input_storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#input_storage_location Ec2FpgaImage#input_storage_location}
 
 ---
 
@@ -1128,7 +1128,7 @@ LogsStorageLocation Ec2FpgaImageLogsStorageLocation
 
 The location in Amazon S3 for the output logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#logs_storage_location Ec2FpgaImage#logs_storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#logs_storage_location Ec2FpgaImage#logs_storage_location}
 
 ---
 
@@ -1142,7 +1142,7 @@ Name *string
 
 A name for the AFI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#name Ec2FpgaImage#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#name Ec2FpgaImage#name}
 
 ---
 
@@ -1156,7 +1156,7 @@ Tags interface{}
 
 The tags assigned to the FPGA image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#tags Ec2FpgaImage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#tags Ec2FpgaImage#tags}
 
 ---
 
@@ -1165,7 +1165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImageInputStorageLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 &ec2fpgaimage.Ec2FpgaImageInputStorageLocation {
 	Bucket: *string,
@@ -1192,7 +1192,7 @@ Bucket *string
 
 The name of the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#bucket Ec2FpgaImage#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#bucket Ec2FpgaImage#bucket}
 
 ---
 
@@ -1206,7 +1206,7 @@ Key *string
 
 The key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
 
 ---
 
@@ -1215,7 +1215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImageLogsStorageLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 &ec2fpgaimage.Ec2FpgaImageLogsStorageLocation {
 	Bucket: *string,
@@ -1242,7 +1242,7 @@ Bucket *string
 
 The name of the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#bucket Ec2FpgaImage#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#bucket Ec2FpgaImage#bucket}
 
 ---
 
@@ -1256,7 +1256,7 @@ Key *string
 
 The key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
 
 ---
 
@@ -1265,7 +1265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImageTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 &ec2fpgaimage.Ec2FpgaImageTags {
 	Key: *string,
@@ -1292,7 +1292,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
 
 ---
 
@@ -1306,7 +1306,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image#value Ec2FpgaImage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image#value Ec2FpgaImage#value}
 
 ---
 
@@ -1317,7 +1317,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImageInputStorageLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 ec2fpgaimage.NewEc2FpgaImageInputStorageLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2FpgaImageInputStorageLocationOutputReference
 ```
@@ -1624,7 +1624,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImageLogsStorageLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 ec2fpgaimage.NewEc2FpgaImageLogsStorageLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2FpgaImageLogsStorageLocationOutputReference
 ```
@@ -1931,7 +1931,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImageTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 ec2fpgaimage.NewEc2FpgaImageTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2FpgaImageTagsList
 ```
@@ -2091,7 +2091,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2FpgaImage.Ec2FpgaImageTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage"
 
 ec2fpgaimage.NewEc2FpgaImageTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2FpgaImageTagsOutputReference
 ```

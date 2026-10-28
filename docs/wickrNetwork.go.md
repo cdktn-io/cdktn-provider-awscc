@@ -4,12 +4,12 @@
 
 ### WickrNetwork <a name="WickrNetwork" id="@cdktn/provider-awscc.wickrNetwork.WickrNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wickr_network awscc_wickr_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wickr_network awscc_wickr_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wickrNetwork.WickrNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wickrnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wickrnetwork"
 
 wickrnetwork.NewWickrNetwork(scope Construct, id *string, config WickrNetworkConfig) WickrNetwork
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wickrNetwork.WickrNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wickrnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wickrnetwork"
 
 wickrnetwork.WickrNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wickrNetwork.WickrNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wickrnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wickrnetwork"
 
 wickrnetwork.WickrNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ wickrnetwork.WickrNetwork_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wickrNetwork.WickrNetwork.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wickrnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wickrnetwork"
 
 wickrnetwork.WickrNetwork_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ wickrnetwork.WickrNetwork_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wickrNetwork.WickrNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wickrnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wickrnetwork"
 
 wickrnetwork.WickrNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the WickrNetwork to import.
 
 The id of the existing WickrNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wickr_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wickr_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -799,7 +799,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wickrNetwork.WickrNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wickrnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wickrnetwork"
 
 &wickrnetwork.WickrNetworkConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ AccessLevel *string
 
 The access level of the network, which determines available features and capabilities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wickr_network#access_level WickrNetwork#access_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wickr_network#access_level WickrNetwork#access_level}
 
 ---
 
@@ -924,7 +924,7 @@ NetworkName *string
 
 The name of the network. Must be between 1 and 20 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wickr_network#network_name WickrNetwork#network_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wickr_network#network_name WickrNetwork#network_name}
 
 ---
 

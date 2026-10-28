@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2Eip <a name="DataAwsccEc2Eip" id="@cdktn/provider-awscc.dataAwsccEc2Eip.DataAwsccEc2Eip"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_eip awscc_ec2_eip}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_eip awscc_ec2_eip}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Eip.DataAwsccEc2Eip.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2eip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2eip"
 
 dataawsccec2eip.NewDataAwsccEc2Eip(scope Construct, id *string, config DataAwsccEc2EipConfig) DataAwsccEc2Eip
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2Eip.DataAwsccEc2Eip.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2eip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2eip"
 
 dataawsccec2eip.DataAwsccEc2Eip_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2Eip.DataAwsccEc2Eip.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2eip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2eip"
 
 dataawsccec2eip.DataAwsccEc2Eip_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2eip.DataAwsccEc2Eip_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2Eip.DataAwsccEc2Eip.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2eip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2eip"
 
 dataawsccec2eip.DataAwsccEc2Eip_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2eip.DataAwsccEc2Eip_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2Eip.DataAwsccEc2Eip.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2eip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2eip"
 
 dataawsccec2eip.DataAwsccEc2Eip_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2Eip to import.
 
 The id of the existing DataAwsccEc2Eip that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_eip#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_eip#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Eip.DataAwsccEc2EipConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2eip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2eip"
 
 &dataawsccec2eip.DataAwsccEc2EipConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_eip#id DataAwsccEc2Eip#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_eip#id DataAwsccEc2Eip#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Eip.DataAwsccEc2EipTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2eip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2eip"
 
 &dataawsccec2eip.DataAwsccEc2EipTags {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2eip"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Eip.DataAwsccEc2EipTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2eip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2eip"
 
 dataawsccec2eip.NewDataAwsccEc2EipTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2EipTagsList
 ```
@@ -982,7 +982,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Eip.DataAwsccEc2EipTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2eip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2eip"
 
 dataawsccec2eip.NewDataAwsccEc2EipTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2EipTagsOutputReference
 ```

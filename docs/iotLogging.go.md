@@ -4,12 +4,12 @@
 
 ### IotLogging <a name="IotLogging" id="@cdktn/provider-awscc.iotLogging.IotLogging"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging awscc_iot_logging}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging awscc_iot_logging}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotLogging.IotLogging.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotlogging"
 
 iotlogging.NewIotLogging(scope Construct, id *string, config IotLoggingConfig) IotLogging
 ```
@@ -420,7 +420,7 @@ func ResetEventConfigurations()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotLogging.IotLogging.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotlogging"
 
 iotlogging.IotLogging_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotLogging.IotLogging.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotlogging"
 
 iotlogging.IotLogging_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ iotlogging.IotLogging_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotLogging.IotLogging.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotlogging"
 
 iotlogging.IotLogging_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ iotlogging.IotLogging_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotLogging.IotLogging.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotlogging"
 
 iotlogging.IotLogging_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the IotLogging to import.
 
 The id of the existing IotLogging that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -808,7 +808,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotLogging.IotLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotlogging"
 
 &iotlogging.IotLoggingConfig {
 	Connection: interface{},
@@ -923,7 +923,7 @@ AccountId *string
 
 Your 12-digit account ID (used as the primary identifier for the CloudFormation resource).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging#account_id IotLogging#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging#account_id IotLogging#account_id}
 
 ---
 
@@ -937,7 +937,7 @@ DefaultLogLevel *string
 
 The log level to use. Valid values are: ERROR, WARN, INFO, DEBUG, or DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging#default_log_level IotLogging#default_log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging#default_log_level IotLogging#default_log_level}
 
 ---
 
@@ -951,7 +951,7 @@ RoleArn *string
 
 The ARN of the role that allows IoT to write to Cloudwatch logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging#role_arn IotLogging#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging#role_arn IotLogging#role_arn}
 
 ---
 
@@ -967,7 +967,7 @@ Configurations for event-based logging that specifies which event types to log a
 
 Overrides account-level logging for the specified event
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging#event_configurations IotLogging#event_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging#event_configurations IotLogging#event_configurations}
 
 ---
 
@@ -976,7 +976,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotLogging.IotLoggingEventConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotlogging"
 
 &iotlogging.IotLoggingEventConfigurations {
 	EventType: *string,
@@ -1005,7 +1005,7 @@ EventType *string
 
 The type of event to log. These include event types like Connect, Publish, and Disconnect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging#event_type IotLogging#event_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging#event_type IotLogging#event_type}
 
 ---
 
@@ -1021,7 +1021,7 @@ CloudWatch Log Group for event-based logging.
 
 Specifies where log events should be sent. The log destination for event-based logging overrides default Log Group for the specified event type and applies to all resources associated with that event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging#log_destination IotLogging#log_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging#log_destination IotLogging#log_destination}
 
 ---
 
@@ -1035,7 +1035,7 @@ LogLevel *string
 
 The logging level for the specified event type. Determines the verbosity of log messages generated for this event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging#log_level IotLogging#log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging#log_level IotLogging#log_level}
 
 ---
 
@@ -1046,7 +1046,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotLogging.IotLoggingEventConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotlogging"
 
 iotlogging.NewIotLoggingEventConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotLoggingEventConfigurationsList
 ```
@@ -1206,7 +1206,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotLogging.IotLoggingEventConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotlogging"
 
 iotlogging.NewIotLoggingEventConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotLoggingEventConfigurationsOutputReference
 ```

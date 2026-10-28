@@ -4,12 +4,12 @@
 
 ### DataAwsccPinpointInAppTemplates <a name="DataAwsccPinpointInAppTemplates" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplates.DataAwsccPinpointInAppTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pinpoint_in_app_templates awscc_pinpoint_in_app_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pinpoint_in_app_templates awscc_pinpoint_in_app_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplates.DataAwsccPinpointInAppTemplates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplates"
 
 dataawsccpinpointinapptemplates.NewDataAwsccPinpointInAppTemplates(scope Construct, id *string, config DataAwsccPinpointInAppTemplatesConfig) DataAwsccPinpointInAppTemplates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplates.DataAwsccPinpointInAppTemplates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplates"
 
 dataawsccpinpointinapptemplates.DataAwsccPinpointInAppTemplates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplates.DataAwsccPinpointInAppTemplates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplates"
 
 dataawsccpinpointinapptemplates.DataAwsccPinpointInAppTemplates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpinpointinapptemplates.DataAwsccPinpointInAppTemplates_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplates.DataAwsccPinpointInAppTemplates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplates"
 
 dataawsccpinpointinapptemplates.DataAwsccPinpointInAppTemplates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpinpointinapptemplates.DataAwsccPinpointInAppTemplates_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplates.DataAwsccPinpointInAppTemplates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplates"
 
 dataawsccpinpointinapptemplates.DataAwsccPinpointInAppTemplates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPinpointInAppTemp
 
 The id of the existing DataAwsccPinpointInAppTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pinpoint_in_app_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pinpoint_in_app_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplates.DataAwsccPinpointInAppTemplatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplates"
 
 &dataawsccpinpointinapptemplates.DataAwsccPinpointInAppTemplatesConfig {
 	Connection: interface{},

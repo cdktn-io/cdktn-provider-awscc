@@ -4,12 +4,12 @@
 
 ### DataAwsccIotwirelessWirelessDeviceImportTasks <a name="DataAwsccIotwirelessWirelessDeviceImportTasks" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessDeviceImportTasks.DataAwsccIotwirelessWirelessDeviceImportTasks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_wireless_device_import_tasks awscc_iotwireless_wireless_device_import_tasks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_wireless_device_import_tasks awscc_iotwireless_wireless_device_import_tasks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessDeviceImportTasks.DataAwsccIotwirelessWirelessDeviceImportTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessdeviceimporttasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessdeviceimporttasks"
 
 dataawscciotwirelesswirelessdeviceimporttasks.NewDataAwsccIotwirelessWirelessDeviceImportTasks(scope Construct, id *string, config DataAwsccIotwirelessWirelessDeviceImportTasksConfig) DataAwsccIotwirelessWirelessDeviceImportTasks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessDeviceImportTasks.DataAwsccIotwirelessWirelessDeviceImportTasks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessdeviceimporttasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessdeviceimporttasks"
 
 dataawscciotwirelesswirelessdeviceimporttasks.DataAwsccIotwirelessWirelessDeviceImportTasks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessDeviceImportTasks.DataAwsccIotwirelessWirelessDeviceImportTasks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessdeviceimporttasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessdeviceimporttasks"
 
 dataawscciotwirelesswirelessdeviceimporttasks.DataAwsccIotwirelessWirelessDeviceImportTasks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotwirelesswirelessdeviceimporttasks.DataAwsccIotwirelessWirelessDevice
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessDeviceImportTasks.DataAwsccIotwirelessWirelessDeviceImportTasks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessdeviceimporttasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessdeviceimporttasks"
 
 dataawscciotwirelesswirelessdeviceimporttasks.DataAwsccIotwirelessWirelessDeviceImportTasks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotwirelesswirelessdeviceimporttasks.DataAwsccIotwirelessWirelessDevice
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessDeviceImportTasks.DataAwsccIotwirelessWirelessDeviceImportTasks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessdeviceimporttasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessdeviceimporttasks"
 
 dataawscciotwirelesswirelessdeviceimporttasks.DataAwsccIotwirelessWirelessDeviceImportTasks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessWirele
 
 The id of the existing DataAwsccIotwirelessWirelessDeviceImportTasks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_wireless_device_import_tasks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_wireless_device_import_tasks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessDeviceImportTasks.DataAwsccIotwirelessWirelessDeviceImportTasksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessdeviceimporttasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessdeviceimporttasks"
 
 &dataawscciotwirelesswirelessdeviceimporttasks.DataAwsccIotwirelessWirelessDeviceImportTasksConfig {
 	Connection: interface{},

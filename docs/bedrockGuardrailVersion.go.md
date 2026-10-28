@@ -4,12 +4,12 @@
 
 ### BedrockGuardrailVersion <a name="BedrockGuardrailVersion" id="@cdktn/provider-awscc.bedrockGuardrailVersion.BedrockGuardrailVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_guardrail_version awscc_bedrock_guardrail_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_guardrail_version awscc_bedrock_guardrail_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockGuardrailVersion.BedrockGuardrailVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockguardrailversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockguardrailversion"
 
 bedrockguardrailversion.NewBedrockGuardrailVersion(scope Construct, id *string, config BedrockGuardrailVersionConfig) BedrockGuardrailVersion
 ```
@@ -407,7 +407,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockGuardrailVersion.BedrockGuardrailVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockguardrailversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockguardrailversion"
 
 bedrockguardrailversion.BedrockGuardrailVersion_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockGuardrailVersion.BedrockGuardrailVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockguardrailversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockguardrailversion"
 
 bedrockguardrailversion.BedrockGuardrailVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ bedrockguardrailversion.BedrockGuardrailVersion_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockGuardrailVersion.BedrockGuardrailVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockguardrailversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockguardrailversion"
 
 bedrockguardrailversion.BedrockGuardrailVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ bedrockguardrailversion.BedrockGuardrailVersion_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockGuardrailVersion.BedrockGuardrailVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockguardrailversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockguardrailversion"
 
 bedrockguardrailversion.BedrockGuardrailVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the BedrockGuardrailVersion to
 
 The id of the existing BedrockGuardrailVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_guardrail_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_guardrail_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -784,7 +784,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockGuardrailVersion.BedrockGuardrailVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockguardrailversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockguardrailversion"
 
 &bedrockguardrailversion.BedrockGuardrailVersionConfig {
 	Connection: interface{},
@@ -895,7 +895,7 @@ GuardrailIdentifier *string
 
 Identifier (GuardrailId or GuardrailArn) for the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_guardrail_version#guardrail_identifier BedrockGuardrailVersion#guardrail_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_guardrail_version#guardrail_identifier BedrockGuardrailVersion#guardrail_identifier}
 
 ---
 
@@ -909,7 +909,7 @@ Description *string
 
 Description of the Guardrail version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_guardrail_version#description BedrockGuardrailVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_guardrail_version#description BedrockGuardrailVersion#description}
 
 ---
 

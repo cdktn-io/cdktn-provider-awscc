@@ -4,12 +4,12 @@
 
 ### Ec2RouteServerPeer <a name="Ec2RouteServerPeer" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer"
 
 ec2routeserverpeer.NewEc2RouteServerPeer(scope Construct, id *string, config Ec2RouteServerPeerConfig) Ec2RouteServerPeer
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer"
 
 ec2routeserverpeer.Ec2RouteServerPeer_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer"
 
 ec2routeserverpeer.Ec2RouteServerPeer_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ ec2routeserverpeer.Ec2RouteServerPeer_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeer.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer"
 
 ec2routeserverpeer.Ec2RouteServerPeer_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ ec2routeserverpeer.Ec2RouteServerPeer_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer"
 
 ec2routeserverpeer.Ec2RouteServerPeer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the Ec2RouteServerPeer to impo
 
 The id of the existing Ec2RouteServerPeer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -898,7 +898,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeerBgpOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer"
 
 &ec2routeserverpeer.Ec2RouteServerPeerBgpOptions {
 	PeerAsn: *f64,
@@ -925,7 +925,7 @@ PeerAsn *f64
 
 BGP ASN of the Route Server Peer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer#peer_asn Ec2RouteServerPeer#peer_asn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer#peer_asn Ec2RouteServerPeer#peer_asn}
 
 ---
 
@@ -939,7 +939,7 @@ PeerLivenessDetection *string
 
 BGP Liveness Detection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer#peer_liveness_detection Ec2RouteServerPeer#peer_liveness_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer#peer_liveness_detection Ec2RouteServerPeer#peer_liveness_detection}
 
 ---
 
@@ -948,7 +948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer"
 
 &ec2routeserverpeer.Ec2RouteServerPeerConfig {
 	Connection: interface{},
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	BgpOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2RouteServerPeer.Ec2RouteServerPeerBgpOptions,
+	BgpOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2RouteServerPeer.Ec2RouteServerPeerBgpOptions,
 	PeerAddress: *string,
 	RouteServerEndpointId: *string,
 	Tags: interface{},
@@ -1063,7 +1063,7 @@ BgpOptions Ec2RouteServerPeerBgpOptions
 
 BGP Options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer#bgp_options Ec2RouteServerPeer#bgp_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer#bgp_options Ec2RouteServerPeer#bgp_options}
 
 ---
 
@@ -1077,7 +1077,7 @@ PeerAddress *string
 
 IP address of the Route Server Peer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer#peer_address Ec2RouteServerPeer#peer_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer#peer_address Ec2RouteServerPeer#peer_address}
 
 ---
 
@@ -1091,7 +1091,7 @@ RouteServerEndpointId *string
 
 Route Server Endpoint ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer#route_server_endpoint_id Ec2RouteServerPeer#route_server_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer#route_server_endpoint_id Ec2RouteServerPeer#route_server_endpoint_id}
 
 ---
 
@@ -1105,7 +1105,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer#tags Ec2RouteServerPeer#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer#tags Ec2RouteServerPeer#tags}
 
 ---
 
@@ -1114,7 +1114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer"
 
 &ec2routeserverpeer.Ec2RouteServerPeerTags {
 	Key: *string,
@@ -1143,7 +1143,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer#key Ec2RouteServerPeer#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer#key Ec2RouteServerPeer#key}
 
 ---
 
@@ -1159,7 +1159,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer#value Ec2RouteServerPeer#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer#value Ec2RouteServerPeer#value}
 
 ---
 
@@ -1170,7 +1170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeerBgpOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer"
 
 ec2routeserverpeer.NewEc2RouteServerPeerBgpOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2RouteServerPeerBgpOptionsOutputReference
 ```
@@ -1477,7 +1477,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer"
 
 ec2routeserverpeer.NewEc2RouteServerPeerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2RouteServerPeerTagsList
 ```
@@ -1637,7 +1637,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer"
 
 ec2routeserverpeer.NewEc2RouteServerPeerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2RouteServerPeerTagsOutputReference
 ```

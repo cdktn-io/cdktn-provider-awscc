@@ -4,12 +4,12 @@
 
 ### DataAwsccIotRoleAliases <a name="DataAwsccIotRoleAliases" id="@cdktn/provider-awscc.dataAwsccIotRoleAliases.DataAwsccIotRoleAliases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotRoleAliases.DataAwsccIotRoleAliases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealiases"
 
 dataawscciotrolealiases.NewDataAwsccIotRoleAliases(scope Construct, id *string, config DataAwsccIotRoleAliasesConfig) DataAwsccIotRoleAliases
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotRoleAliases.DataAwsccIotRoleAliases.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealiases"
 
 dataawscciotrolealiases.DataAwsccIotRoleAliases_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotRoleAliases.DataAwsccIotRoleAliases.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealiases"
 
 dataawscciotrolealiases.DataAwsccIotRoleAliases_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotrolealiases.DataAwsccIotRoleAliases_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotRoleAliases.DataAwsccIotRoleAliases.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealiases"
 
 dataawscciotrolealiases.DataAwsccIotRoleAliases_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotrolealiases.DataAwsccIotRoleAliases_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotRoleAliases.DataAwsccIotRoleAliases.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealiases"
 
 dataawscciotrolealiases.DataAwsccIotRoleAliases_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotRoleAliases to
 
 The id of the existing DataAwsccIotRoleAliases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_role_aliases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_role_aliases#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotRoleAliases.DataAwsccIotRoleAliasesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealiases"
 
 &dataawscciotrolealiases.DataAwsccIotRoleAliasesConfig {
 	Connection: interface{},

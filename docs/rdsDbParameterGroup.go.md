@@ -4,12 +4,12 @@
 
 ### RdsDbParameterGroup <a name="RdsDbParameterGroup" id="@cdktn/provider-awscc.rdsDbParameterGroup.RdsDbParameterGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbParameterGroup.RdsDbParameterGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbparametergroup"
 
 rdsdbparametergroup.NewRdsDbParameterGroup(scope Construct, id *string, config RdsDbParameterGroupConfig) RdsDbParameterGroup
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rdsDbParameterGroup.RdsDbParameterGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbparametergroup"
 
 rdsdbparametergroup.RdsDbParameterGroup_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rdsDbParameterGroup.RdsDbParameterGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbparametergroup"
 
 rdsdbparametergroup.RdsDbParameterGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ rdsdbparametergroup.RdsDbParameterGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rdsDbParameterGroup.RdsDbParameterGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbparametergroup"
 
 rdsdbparametergroup.RdsDbParameterGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ rdsdbparametergroup.RdsDbParameterGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rdsDbParameterGroup.RdsDbParameterGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbparametergroup"
 
 rdsdbparametergroup.RdsDbParameterGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the RdsDbParameterGroup to imp
 
 The id of the existing RdsDbParameterGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsDbParameterGroup.RdsDbParameterGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbparametergroup"
 
 &rdsdbparametergroup.RdsDbParameterGroupConfig {
 	Connection: interface{},
@@ -972,7 +972,7 @@ Description *string
 
 Provides the customer-specified description for this DB parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group#description RdsDbParameterGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group#description RdsDbParameterGroup#description}
 
 ---
 
@@ -1010,7 +1010,7 @@ The following are the valid DB engine values:
 * `sqlserver-ex`
 * `sqlserver-web`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group#family RdsDbParameterGroup#family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group#family RdsDbParameterGroup#family}
 
 ---
 
@@ -1033,7 +1033,7 @@ Constraints:
 If you don't specify a value for `DBParameterGroupName` property, a name is automatically created for the DB parameter group.
 This value is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group#db_parameter_group_name RdsDbParameterGroup#db_parameter_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group#db_parameter_group_name RdsDbParameterGroup#db_parameter_group_name}
 
 ---
 
@@ -1051,7 +1051,7 @@ You must specify at least one parameter name and value.
 For more information about parameter groups, see [Working with parameter groups](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithParamGroups.html) in the *Amazon RDS User Guide*, or [Working with parameter groups](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_WorkingWithParamGroups.html) in the *Amazon Aurora User Guide*.
 AWS CloudFormation doesn't support specifying an apply method for each individual parameter. The default apply method for each parameter is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group#parameters RdsDbParameterGroup#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group#parameters RdsDbParameterGroup#parameters}
 
 ---
 
@@ -1065,7 +1065,7 @@ Tags interface{}
 
 Tags to assign to the DB parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group#tags RdsDbParameterGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group#tags RdsDbParameterGroup#tags}
 
 ---
 
@@ -1074,7 +1074,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsDbParameterGroup.RdsDbParameterGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbparametergroup"
 
 &rdsdbparametergroup.RdsDbParameterGroupTags {
 	Key: *string,
@@ -1103,7 +1103,7 @@ A key is the required name of the tag.
 
 The string value can be from 1 to 128 Unicode characters in length and can't be prefixed with `aws:` or `rds:`. The string can only contain only the set of Unicode letters, digits, white-space, '*', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\p{L}\p{Z}\p{N}*.:/=+\-@]*)$").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group#key RdsDbParameterGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group#key RdsDbParameterGroup#key}
 
 ---
 
@@ -1119,7 +1119,7 @@ A value is the optional value of the tag.
 
 The string value can be from 1 to 256 Unicode characters in length and can't be prefixed with `aws:` or `rds:`. The string can only contain only the set of Unicode letters, digits, white-space, '*', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\p{L}\p{Z}\p{N}*.:/=+\-@]*)$").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group#value RdsDbParameterGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group#value RdsDbParameterGroup#value}
 
 ---
 
@@ -1130,7 +1130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbParameterGroup.RdsDbParameterGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbparametergroup"
 
 rdsdbparametergroup.NewRdsDbParameterGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RdsDbParameterGroupTagsList
 ```
@@ -1290,7 +1290,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbParameterGroup.RdsDbParameterGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbparametergroup"
 
 rdsdbparametergroup.NewRdsDbParameterGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RdsDbParameterGroupTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccAppstreamImageBuilder <a name="DataAwsccAppstreamImageBuilder" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.NewDataAwsccAppstreamImageBuilder(scope Construct, id *string, config DataAwsccAppstreamImageBuilderConfig) DataAwsccAppstreamImageBuilder
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilder_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilder_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilder_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilder_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilder_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilder.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilder_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppstreamImageBui
 
 The id of the existing DataAwsccAppstreamImageBuilder that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_image_builder#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_image_builder#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -785,7 +785,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderAccessEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 &dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilderAccessEndpoints {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimag
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 &dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilderConfig {
 	Connection: interface{},
@@ -907,7 +907,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_image_builder#id DataAwsccAppstreamImageBuilder#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_image_builder#id DataAwsccAppstreamImageBuilder#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -919,7 +919,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderDomainJoinInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 &dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilderDomainJoinInfo {
 
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimag
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderRootVolumeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 &dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilderRootVolumeConfig {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimag
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 &dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilderTags {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimag
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 &dataawsccappstreamimagebuilder.DataAwsccAppstreamImageBuilderVpcConfig {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimag
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderAccessEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.NewDataAwsccAppstreamImageBuilderAccessEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppstreamImageBuilderAccessEndpointsList
 ```
@@ -1122,7 +1122,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderAccessEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.NewDataAwsccAppstreamImageBuilderAccessEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppstreamImageBuilderAccessEndpointsOutputReference
 ```
@@ -1411,7 +1411,7 @@ func InternalValue() DataAwsccAppstreamImageBuilderAccessEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderDomainJoinInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.NewDataAwsccAppstreamImageBuilderDomainJoinInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppstreamImageBuilderDomainJoinInfoOutputReference
 ```
@@ -1682,7 +1682,7 @@ func InternalValue() DataAwsccAppstreamImageBuilderDomainJoinInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderRootVolumeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.NewDataAwsccAppstreamImageBuilderRootVolumeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppstreamImageBuilderRootVolumeConfigOutputReference
 ```
@@ -1942,7 +1942,7 @@ func InternalValue() DataAwsccAppstreamImageBuilderRootVolumeConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.NewDataAwsccAppstreamImageBuilderTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppstreamImageBuilderTagsList
 ```
@@ -2091,7 +2091,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.NewDataAwsccAppstreamImageBuilderTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppstreamImageBuilderTagsOutputReference
 ```
@@ -2380,7 +2380,7 @@ func InternalValue() DataAwsccAppstreamImageBuilderTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilder.DataAwsccAppstreamImageBuilderVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamimagebuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamimagebuilder"
 
 dataawsccappstreamimagebuilder.NewDataAwsccAppstreamImageBuilderVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppstreamImageBuilderVpcConfigOutputReference
 ```

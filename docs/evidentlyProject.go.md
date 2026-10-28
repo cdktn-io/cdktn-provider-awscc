@@ -4,12 +4,12 @@
 
 ### EvidentlyProject <a name="EvidentlyProject" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project awscc_evidently_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project awscc_evidently_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 evidentlyproject.NewEvidentlyProject(scope Construct, id *string, config EvidentlyProjectConfig) EvidentlyProject
 ```
@@ -467,7 +467,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProject.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 evidentlyproject.EvidentlyProject_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProject.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 evidentlyproject.EvidentlyProject_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ evidentlyproject.EvidentlyProject_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProject.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 evidentlyproject.EvidentlyProject_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ evidentlyproject.EvidentlyProject_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProject.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 evidentlyproject.EvidentlyProject_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the EvidentlyProject to import
 
 The id of the existing EvidentlyProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -888,7 +888,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectAppConfigResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 &evidentlyproject.EvidentlyProjectAppConfigResource {
 	ApplicationId: *string,
@@ -900,8 +900,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectAppConfigResource.property.applicationId">ApplicationId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#application_id EvidentlyProject#application_id}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectAppConfigResource.property.environmentId">EnvironmentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#environment_id EvidentlyProject#environment_id}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectAppConfigResource.property.applicationId">ApplicationId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#application_id EvidentlyProject#application_id}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectAppConfigResource.property.environmentId">EnvironmentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#environment_id EvidentlyProject#environment_id}. |
 
 ---
 
@@ -913,7 +913,7 @@ ApplicationId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#application_id EvidentlyProject#application_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#application_id EvidentlyProject#application_id}.
 
 ---
 
@@ -925,7 +925,7 @@ EnvironmentId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#environment_id EvidentlyProject#environment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#environment_id EvidentlyProject#environment_id}.
 
 ---
 
@@ -934,7 +934,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 &evidentlyproject.EvidentlyProjectConfig {
 	Connection: interface{},
@@ -945,8 +945,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	AppConfigResource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.evidentlyProject.EvidentlyProjectAppConfigResource,
-	DataDelivery: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.evidentlyProject.EvidentlyProjectDataDelivery,
+	AppConfigResource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.evidentlyProject.EvidentlyProjectAppConfigResource,
+	DataDelivery: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.evidentlyProject.EvidentlyProjectDataDelivery,
 	Description: *string,
 	Tags: interface{},
 }
@@ -963,10 +963,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
 | <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#name EvidentlyProject#name}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.property.appConfigResource">AppConfigResource</a></code> | <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectAppConfigResource">EvidentlyProjectAppConfigResource</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#app_config_resource EvidentlyProject#app_config_resource}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#name EvidentlyProject#name}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.property.appConfigResource">AppConfigResource</a></code> | <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectAppConfigResource">EvidentlyProjectAppConfigResource</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#app_config_resource EvidentlyProject#app_config_resource}. |
 | <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.property.dataDelivery">DataDelivery</a></code> | <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDelivery">EvidentlyProjectDataDelivery</a></code> | Destinations for data. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#description EvidentlyProject#description}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#description EvidentlyProject#description}. |
 | <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1049,7 +1049,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#name EvidentlyProject#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#name EvidentlyProject#name}.
 
 ---
 
@@ -1061,7 +1061,7 @@ AppConfigResource EvidentlyProjectAppConfigResource
 
 - *Type:* <a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectAppConfigResource">EvidentlyProjectAppConfigResource</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#app_config_resource EvidentlyProject#app_config_resource}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#app_config_resource EvidentlyProject#app_config_resource}.
 
 ---
 
@@ -1075,7 +1075,7 @@ DataDelivery EvidentlyProjectDataDelivery
 
 Destinations for data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#data_delivery EvidentlyProject#data_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#data_delivery EvidentlyProject#data_delivery}
 
 ---
 
@@ -1087,7 +1087,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#description EvidentlyProject#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#description EvidentlyProject#description}.
 
 ---
 
@@ -1101,7 +1101,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#tags EvidentlyProject#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#tags EvidentlyProject#tags}
 
 ---
 
@@ -1110,11 +1110,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDelivery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 &evidentlyproject.EvidentlyProjectDataDelivery {
 	LogGroup: *string,
-	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.evidentlyProject.EvidentlyProjectDataDeliveryS3,
+	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.evidentlyProject.EvidentlyProjectDataDeliveryS3,
 }
 ```
 
@@ -1122,8 +1122,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDelivery.property.logGroup">LogGroup</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#log_group EvidentlyProject#log_group}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDelivery.property.s3">S3</a></code> | <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDeliveryS3">EvidentlyProjectDataDeliveryS3</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#s3 EvidentlyProject#s3}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDelivery.property.logGroup">LogGroup</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#log_group EvidentlyProject#log_group}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDelivery.property.s3">S3</a></code> | <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDeliveryS3">EvidentlyProjectDataDeliveryS3</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#s3 EvidentlyProject#s3}. |
 
 ---
 
@@ -1135,7 +1135,7 @@ LogGroup *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#log_group EvidentlyProject#log_group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#log_group EvidentlyProject#log_group}.
 
 ---
 
@@ -1147,7 +1147,7 @@ S3 EvidentlyProjectDataDeliveryS3
 
 - *Type:* <a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDeliveryS3">EvidentlyProjectDataDeliveryS3</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#s3 EvidentlyProject#s3}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#s3 EvidentlyProject#s3}.
 
 ---
 
@@ -1156,7 +1156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDeliveryS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 &evidentlyproject.EvidentlyProjectDataDeliveryS3 {
 	BucketName: *string,
@@ -1168,8 +1168,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDeliveryS3.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#bucket_name EvidentlyProject#bucket_name}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDeliveryS3.property.prefix">Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#prefix EvidentlyProject#prefix}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDeliveryS3.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#bucket_name EvidentlyProject#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDeliveryS3.property.prefix">Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#prefix EvidentlyProject#prefix}. |
 
 ---
 
@@ -1181,7 +1181,7 @@ BucketName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#bucket_name EvidentlyProject#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#bucket_name EvidentlyProject#bucket_name}.
 
 ---
 
@@ -1193,7 +1193,7 @@ Prefix *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#prefix EvidentlyProject#prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#prefix EvidentlyProject#prefix}.
 
 ---
 
@@ -1202,7 +1202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 &evidentlyproject.EvidentlyProjectTags {
 	Key: *string,
@@ -1231,7 +1231,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#key EvidentlyProject#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#key EvidentlyProject#key}
 
 ---
 
@@ -1247,7 +1247,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_project#value EvidentlyProject#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_project#value EvidentlyProject#value}
 
 ---
 
@@ -1258,7 +1258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectAppConfigResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 evidentlyproject.NewEvidentlyProjectAppConfigResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EvidentlyProjectAppConfigResourceOutputReference
 ```
@@ -1565,7 +1565,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDeliveryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 evidentlyproject.NewEvidentlyProjectDataDeliveryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EvidentlyProjectDataDeliveryOutputReference
 ```
@@ -1885,7 +1885,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectDataDeliveryS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 evidentlyproject.NewEvidentlyProjectDataDeliveryS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EvidentlyProjectDataDeliveryS3OutputReference
 ```
@@ -2192,7 +2192,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 evidentlyproject.NewEvidentlyProjectTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EvidentlyProjectTagsList
 ```
@@ -2352,7 +2352,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyProject.EvidentlyProjectTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyproject"
 
 evidentlyproject.NewEvidentlyProjectTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EvidentlyProjectTagsOutputReference
 ```

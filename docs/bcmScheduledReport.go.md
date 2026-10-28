@@ -4,12 +4,12 @@
 
 ### BcmScheduledReport <a name="BcmScheduledReport" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReport"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report awscc_bcm_scheduled_report}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report awscc_bcm_scheduled_report}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.NewBcmScheduledReport(scope Construct, id *string, config BcmScheduledReportConfig) BcmScheduledReport
 ```
@@ -467,7 +467,7 @@ func ResetWidgetIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReport.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.BcmScheduledReport_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReport.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.BcmScheduledReport_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ bcmscheduledreport.BcmScheduledReport_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReport.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.BcmScheduledReport_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ bcmscheduledreport.BcmScheduledReport_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReport.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.BcmScheduledReport_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the BcmScheduledReport to impo
 
 The id of the existing BcmScheduledReport that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -987,7 +987,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 &bcmscheduledreport.BcmScheduledReportConfig {
 	Connection: interface{},
@@ -999,11 +999,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
 	Provisioners: *[]interface{},
 	DashboardArn: *string,
 	Name: *string,
-	ScheduleConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bcmScheduledReport.BcmScheduledReportScheduleConfig,
+	ScheduleConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bcmScheduledReport.BcmScheduledReportScheduleConfig,
 	ScheduledReportExecutionRoleArn: *string,
 	Description: *string,
 	Tags: interface{},
-	WidgetDateRangeOverride: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverride,
+	WidgetDateRangeOverride: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverride,
 	WidgetIds: *[]*string,
 }
 ```
@@ -1110,7 +1110,7 @@ DashboardArn *string
 
 The ARN of the dashboard associated with the scheduled report. Managed dashboards cannot be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#dashboard_arn BcmScheduledReport#dashboard_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#dashboard_arn BcmScheduledReport#dashboard_arn}
 
 ---
 
@@ -1124,7 +1124,7 @@ Name *string
 
 The name of the scheduled report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#name BcmScheduledReport#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#name BcmScheduledReport#name}
 
 ---
 
@@ -1138,7 +1138,7 @@ ScheduleConfig BcmScheduledReportScheduleConfig
 
 The schedule configuration that defines when and how often the report is generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#schedule_config BcmScheduledReport#schedule_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#schedule_config BcmScheduledReport#schedule_config}
 
 ---
 
@@ -1154,7 +1154,7 @@ The ARN of the IAM role that the scheduled report uses to execute.
 
 AWS Billing and Cost Management Dashboards assumes this IAM role while executing the scheduled report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#scheduled_report_execution_role_arn BcmScheduledReport#scheduled_report_execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#scheduled_report_execution_role_arn BcmScheduledReport#scheduled_report_execution_role_arn}
 
 ---
 
@@ -1168,7 +1168,7 @@ Description *string
 
 A description of the scheduled report's purpose or contents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#description BcmScheduledReport#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#description BcmScheduledReport#description}
 
 ---
 
@@ -1182,7 +1182,7 @@ Tags interface{}
 
 The tags applied to the scheduled report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#tags BcmScheduledReport#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#tags BcmScheduledReport#tags}
 
 ---
 
@@ -1196,7 +1196,7 @@ WidgetDateRangeOverride BcmScheduledReportWidgetDateRangeOverride
 
 The date range override applied to widgets in the scheduled report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#widget_date_range_override BcmScheduledReport#widget_date_range_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#widget_date_range_override BcmScheduledReport#widget_date_range_override}
 
 ---
 
@@ -1212,7 +1212,7 @@ The list of widget identifiers included in the scheduled report.
 
 If not specified, all widgets in the dashboard are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#widget_ids BcmScheduledReport#widget_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#widget_ids BcmScheduledReport#widget_ids}
 
 ---
 
@@ -1221,7 +1221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportHealthStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 &bcmscheduledreport.BcmScheduledReportHealthStatus {
 
@@ -1234,12 +1234,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 &bcmscheduledreport.BcmScheduledReportScheduleConfig {
 	ScheduleExpression: *string,
 	ScheduleExpressionTimeZone: *string,
-	SchedulePeriod: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bcmScheduledReport.BcmScheduledReportScheduleConfigSchedulePeriod,
+	SchedulePeriod: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bcmScheduledReport.BcmScheduledReportScheduleConfigSchedulePeriod,
 	State: *string,
 }
 ```
@@ -1267,7 +1267,7 @@ The schedule expression that specifies when to trigger the scheduled report run.
 
 This value must be a cron expression consisting of six fields separated by white spaces: cron(minutes hours day_of_month month day_of_week year).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#schedule_expression BcmScheduledReport#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#schedule_expression BcmScheduledReport#schedule_expression}
 
 ---
 
@@ -1281,7 +1281,7 @@ ScheduleExpressionTimeZone *string
 
 The time zone for the schedule expression, for example, UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#schedule_expression_time_zone BcmScheduledReport#schedule_expression_time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#schedule_expression_time_zone BcmScheduledReport#schedule_expression_time_zone}
 
 ---
 
@@ -1295,7 +1295,7 @@ SchedulePeriod BcmScheduledReportScheduleConfigSchedulePeriod
 
 The time period during which the schedule is active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#schedule_period BcmScheduledReport#schedule_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#schedule_period BcmScheduledReport#schedule_period}
 
 ---
 
@@ -1311,7 +1311,7 @@ The state of the schedule.
 
 ENABLED means the scheduled report runs according to its schedule expression. DISABLED means the scheduled report is paused and will not run until re-enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#state BcmScheduledReport#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#state BcmScheduledReport#state}
 
 ---
 
@@ -1320,7 +1320,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportScheduleConfigSchedulePeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 &bcmscheduledreport.BcmScheduledReportScheduleConfigSchedulePeriod {
 	EndTime: *string,
@@ -1347,7 +1347,7 @@ EndTime *string
 
 The time at which the schedule stops being active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#end_time BcmScheduledReport#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#end_time BcmScheduledReport#end_time}
 
 ---
 
@@ -1361,7 +1361,7 @@ StartTime *string
 
 The time at which the schedule becomes active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#start_time BcmScheduledReport#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#start_time BcmScheduledReport#start_time}
 
 ---
 
@@ -1370,7 +1370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 &bcmscheduledreport.BcmScheduledReportTags {
 	Key: *string,
@@ -1397,7 +1397,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#key BcmScheduledReport#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#key BcmScheduledReport#key}
 
 ---
 
@@ -1411,7 +1411,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
 
 ---
 
@@ -1420,11 +1420,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverride.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 &bcmscheduledreport.BcmScheduledReportWidgetDateRangeOverride {
-	EndTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverrideEndTime,
-	StartTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverrideStartTime,
+	EndTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverrideEndTime,
+	StartTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverrideStartTime,
 }
 ```
 
@@ -1447,7 +1447,7 @@ EndTime BcmScheduledReportWidgetDateRangeOverrideEndTime
 
 The end of the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#end_time BcmScheduledReport#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#end_time BcmScheduledReport#end_time}
 
 ---
 
@@ -1461,7 +1461,7 @@ StartTime BcmScheduledReportWidgetDateRangeOverrideStartTime
 
 The start of the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#start_time BcmScheduledReport#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#start_time BcmScheduledReport#start_time}
 
 ---
 
@@ -1470,7 +1470,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverrideEndTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 &bcmscheduledreport.BcmScheduledReportWidgetDateRangeOverrideEndTime {
 	Type: *string,
@@ -1497,7 +1497,7 @@ Type *string
 
 Whether Value is an absolute date or a duration relative to now.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#type BcmScheduledReport#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#type BcmScheduledReport#type}
 
 ---
 
@@ -1511,7 +1511,7 @@ Value *string
 
 The date, or an ISO 8601 duration when Type is RELATIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
 
 ---
 
@@ -1520,7 +1520,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverrideStartTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 &bcmscheduledreport.BcmScheduledReportWidgetDateRangeOverrideStartTime {
 	Type: *string,
@@ -1547,7 +1547,7 @@ Type *string
 
 Whether Value is an absolute date or a duration relative to now.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#type BcmScheduledReport#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#type BcmScheduledReport#type}
 
 ---
 
@@ -1561,7 +1561,7 @@ Value *string
 
 The date, or an ISO 8601 duration when Type is RELATIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
 
 ---
 
@@ -1572,7 +1572,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportHealthStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.NewBcmScheduledReportHealthStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BcmScheduledReportHealthStatusOutputReference
 ```
@@ -1843,7 +1843,7 @@ func InternalValue() BcmScheduledReportHealthStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportScheduleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.NewBcmScheduledReportScheduleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BcmScheduledReportScheduleConfigOutputReference
 ```
@@ -2221,7 +2221,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportScheduleConfigSchedulePeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.NewBcmScheduledReportScheduleConfigSchedulePeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BcmScheduledReportScheduleConfigSchedulePeriodOutputReference
 ```
@@ -2528,7 +2528,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.NewBcmScheduledReportTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BcmScheduledReportTagsList
 ```
@@ -2688,7 +2688,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.NewBcmScheduledReportTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BcmScheduledReportTagsOutputReference
 ```
@@ -3013,7 +3013,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverrideEndTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.NewBcmScheduledReportWidgetDateRangeOverrideEndTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BcmScheduledReportWidgetDateRangeOverrideEndTimeOutputReference
 ```
@@ -3320,7 +3320,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverrideOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.NewBcmScheduledReportWidgetDateRangeOverrideOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BcmScheduledReportWidgetDateRangeOverrideOutputReference
 ```
@@ -3653,7 +3653,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReportWidgetDateRangeOverrideStartTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmscheduledreport"
 
 bcmscheduledreport.NewBcmScheduledReportWidgetDateRangeOverrideStartTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BcmScheduledReportWidgetDateRangeOverrideStartTimeOutputReference
 ```

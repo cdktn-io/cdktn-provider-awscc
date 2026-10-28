@@ -4,12 +4,12 @@
 
 ### LightsailContactMethod <a name="LightsailContactMethod" id="@cdktn/provider-awscc.lightsailContactMethod.LightsailContactMethod"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_contact_method awscc_lightsail_contact_method}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_contact_method awscc_lightsail_contact_method}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContactMethod.LightsailContactMethod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontactmethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontactmethod"
 
 lightsailcontactmethod.NewLightsailContactMethod(scope Construct, id *string, config LightsailContactMethodConfig) LightsailContactMethod
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailContactMethod.LightsailContactMethod.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontactmethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontactmethod"
 
 lightsailcontactmethod.LightsailContactMethod_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailContactMethod.LightsailContactMethod.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontactmethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontactmethod"
 
 lightsailcontactmethod.LightsailContactMethod_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ lightsailcontactmethod.LightsailContactMethod_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailContactMethod.LightsailContactMethod.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontactmethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontactmethod"
 
 lightsailcontactmethod.LightsailContactMethod_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ lightsailcontactmethod.LightsailContactMethod_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailContactMethod.LightsailContactMethod.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontactmethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontactmethod"
 
 lightsailcontactmethod.LightsailContactMethod_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the LightsailContactMethod to 
 
 The id of the existing LightsailContactMethod that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_contact_method#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_contact_method#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -810,7 +810,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContactMethod.LightsailContactMethodConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontactmethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontactmethod"
 
 &lightsailcontactmethod.LightsailContactMethodConfig {
 	Connection: interface{},
@@ -921,7 +921,7 @@ ContactEndpoint *string
 
 The destination of the contact method, such as an email address or a mobile phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_contact_method#contact_endpoint LightsailContactMethod#contact_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_contact_method#contact_endpoint LightsailContactMethod#contact_endpoint}
 
 ---
 
@@ -935,7 +935,7 @@ Protocol *string
 
 The protocol of the contact method, such as Email or SMS (text messaging).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_contact_method#protocol LightsailContactMethod#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_contact_method#protocol LightsailContactMethod#protocol}
 
 ---
 

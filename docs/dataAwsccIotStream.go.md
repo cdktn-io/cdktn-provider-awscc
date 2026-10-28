@@ -4,12 +4,12 @@
 
 ### DataAwsccIotStream <a name="DataAwsccIotStream" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_stream awscc_iot_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_stream awscc_iot_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 dataawscciotstream.NewDataAwsccIotStream(scope Construct, id *string, config DataAwsccIotStreamConfig) DataAwsccIotStream
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStream.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 dataawscciotstream.DataAwsccIotStream_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStream.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 dataawscciotstream.DataAwsccIotStream_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotstream.DataAwsccIotStream_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStream.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 dataawscciotstream.DataAwsccIotStream_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotstream.DataAwsccIotStream_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStream.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 dataawscciotstream.DataAwsccIotStream_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotStream to impo
 
 The id of the existing DataAwsccIotStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStreamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 &dataawscciotstream.DataAwsccIotStreamConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_stream#id DataAwsccIotStream#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_stream#id DataAwsccIotStream#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStreamFiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 &dataawscciotstream.DataAwsccIotStreamFiles {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStreamFilesS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 &dataawscciotstream.DataAwsccIotStreamFilesS3Location {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStreamTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 &dataawscciotstream.DataAwsccIotStreamTags {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStreamFilesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 dataawscciotstream.NewDataAwsccIotStreamFilesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotStreamFilesList
 ```
@@ -997,7 +997,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStreamFilesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 dataawscciotstream.NewDataAwsccIotStreamFilesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotStreamFilesOutputReference
 ```
@@ -1286,7 +1286,7 @@ func InternalValue() DataAwsccIotStreamFiles
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStreamFilesS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 dataawscciotstream.NewDataAwsccIotStreamFilesS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotStreamFilesS3LocationOutputReference
 ```
@@ -1568,7 +1568,7 @@ func InternalValue() DataAwsccIotStreamFilesS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStreamTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 dataawscciotstream.NewDataAwsccIotStreamTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotStreamTagsList
 ```
@@ -1717,7 +1717,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotStream.DataAwsccIotStreamTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotstream"
 
 dataawscciotstream.NewDataAwsccIotStreamTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotStreamTagsOutputReference
 ```

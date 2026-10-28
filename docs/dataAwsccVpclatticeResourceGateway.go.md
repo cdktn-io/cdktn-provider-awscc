@@ -4,12 +4,12 @@
 
 ### DataAwsccVpclatticeResourceGateway <a name="DataAwsccVpclatticeResourceGateway" id="@cdktn/provider-awscc.dataAwsccVpclatticeResourceGateway.DataAwsccVpclatticeResourceGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_resource_gateway awscc_vpclattice_resource_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_resource_gateway awscc_vpclattice_resource_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeResourceGateway.DataAwsccVpclatticeResourceGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeresourcegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeresourcegateway"
 
 dataawsccvpclatticeresourcegateway.NewDataAwsccVpclatticeResourceGateway(scope Construct, id *string, config DataAwsccVpclatticeResourceGatewayConfig) DataAwsccVpclatticeResourceGateway
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccVpclatticeResourceGateway.DataAwsccVpclatticeResourceGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeresourcegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeresourcegateway"
 
 dataawsccvpclatticeresourcegateway.DataAwsccVpclatticeResourceGateway_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccVpclatticeResourceGateway.DataAwsccVpclatticeResourceGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeresourcegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeresourcegateway"
 
 dataawsccvpclatticeresourcegateway.DataAwsccVpclatticeResourceGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccvpclatticeresourcegateway.DataAwsccVpclatticeResourceGateway_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccVpclatticeResourceGateway.DataAwsccVpclatticeResourceGateway.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeresourcegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeresourcegateway"
 
 dataawsccvpclatticeresourcegateway.DataAwsccVpclatticeResourceGateway_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccvpclatticeresourcegateway.DataAwsccVpclatticeResourceGateway_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccVpclatticeResourceGateway.DataAwsccVpclatticeResourceGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeresourcegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeresourcegateway"
 
 dataawsccvpclatticeresourcegateway.DataAwsccVpclatticeResourceGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccVpclatticeResourc
 
 The id of the existing DataAwsccVpclatticeResourceGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_resource_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_resource_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeResourceGateway.DataAwsccVpclatticeResourceGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeresourcegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeresourcegateway"
 
 &dataawsccvpclatticeresourcegateway.DataAwsccVpclatticeResourceGatewayConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_resource_gateway#id DataAwsccVpclatticeResourceGateway#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_resource_gateway#id DataAwsccVpclatticeResourceGateway#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeResourceGateway.DataAwsccVpclatticeResourceGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeresourcegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeresourcegateway"
 
 &dataawsccvpclatticeresourcegateway.DataAwsccVpclatticeResourceGatewayTags {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeres
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeResourceGateway.DataAwsccVpclatticeResourceGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeresourcegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeresourcegateway"
 
 dataawsccvpclatticeresourcegateway.NewDataAwsccVpclatticeResourceGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccVpclatticeResourceGatewayTagsList
 ```
@@ -982,7 +982,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeResourceGateway.DataAwsccVpclatticeResourceGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeresourcegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeresourcegateway"
 
 dataawsccvpclatticeresourcegateway.NewDataAwsccVpclatticeResourceGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccVpclatticeResourceGatewayTagsOutputReference
 ```

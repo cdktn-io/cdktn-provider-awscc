@@ -4,12 +4,12 @@
 
 ### Ec2CarrierGateway <a name="Ec2CarrierGateway" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_carrier_gateway awscc_ec2_carrier_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_carrier_gateway awscc_ec2_carrier_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2carriergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2carriergateway"
 
 ec2carriergateway.NewEc2CarrierGateway(scope Construct, id *string, config Ec2CarrierGatewayConfig) Ec2CarrierGateway
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2carriergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2carriergateway"
 
 ec2carriergateway.Ec2CarrierGateway_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2carriergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2carriergateway"
 
 ec2carriergateway.Ec2CarrierGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ ec2carriergateway.Ec2CarrierGateway_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGateway.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2carriergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2carriergateway"
 
 ec2carriergateway.Ec2CarrierGateway_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ ec2carriergateway.Ec2CarrierGateway_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2carriergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2carriergateway"
 
 ec2carriergateway.Ec2CarrierGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Ec2CarrierGateway to impor
 
 The id of the existing Ec2CarrierGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_carrier_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_carrier_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -797,7 +797,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2carriergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2carriergateway"
 
 &ec2carriergateway.Ec2CarrierGatewayConfig {
 	Connection: interface{},
@@ -908,7 +908,7 @@ VpcId *string
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_carrier_gateway#vpc_id Ec2CarrierGateway#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_carrier_gateway#vpc_id Ec2CarrierGateway#vpc_id}
 
 ---
 
@@ -922,7 +922,7 @@ Tags interface{}
 
 The tags for the carrier gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_carrier_gateway#tags Ec2CarrierGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_carrier_gateway#tags Ec2CarrierGateway#tags}
 
 ---
 
@@ -931,7 +931,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2carriergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2carriergateway"
 
 &ec2carriergateway.Ec2CarrierGatewayTags {
 	Key: *string,
@@ -943,8 +943,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2carriergateway"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_carrier_gateway#key Ec2CarrierGateway#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_carrier_gateway#value Ec2CarrierGateway#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_carrier_gateway#key Ec2CarrierGateway#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_carrier_gateway#value Ec2CarrierGateway#value}. |
 
 ---
 
@@ -956,7 +956,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_carrier_gateway#key Ec2CarrierGateway#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_carrier_gateway#key Ec2CarrierGateway#key}.
 
 ---
 
@@ -968,7 +968,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_carrier_gateway#value Ec2CarrierGateway#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_carrier_gateway#value Ec2CarrierGateway#value}.
 
 ---
 
@@ -979,7 +979,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2carriergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2carriergateway"
 
 ec2carriergateway.NewEc2CarrierGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2CarrierGatewayTagsList
 ```
@@ -1139,7 +1139,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2CarrierGateway.Ec2CarrierGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2carriergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2carriergateway"
 
 ec2carriergateway.NewEc2CarrierGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2CarrierGatewayTagsOutputReference
 ```

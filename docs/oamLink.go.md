@@ -4,12 +4,12 @@
 
 ### OamLink <a name="OamLink" id="@cdktn/provider-awscc.oamLink.OamLink"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link awscc_oam_link}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link awscc_oam_link}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.oamLink.OamLink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 oamlink.NewOamLink(scope Construct, id *string, config OamLinkConfig) OamLink
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.oamLink.OamLink.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 oamlink.OamLink_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.oamLink.OamLink.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 oamlink.OamLink_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ oamlink.OamLink_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.oamLink.OamLink.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 oamlink.OamLink_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ oamlink.OamLink_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.oamLink.OamLink.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 oamlink.OamLink_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the OamLink to import.
 
 The id of the existing OamLink that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -866,7 +866,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.oamLink.OamLinkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 &oamlink.OamLinkConfig {
 	Connection: interface{},
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
 	ResourceTypes: *[]*string,
 	SinkIdentifier: *string,
 	LabelTemplate: *string,
-	LinkConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.oamLink.OamLinkLinkConfiguration,
+	LinkConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.oamLink.OamLinkLinkConfiguration,
 	Tags: *map[string]*string,
 }
 ```
@@ -895,10 +895,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
 | <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.resourceTypes">ResourceTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#resource_types OamLink#resource_types}. |
-| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.sinkIdentifier">SinkIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#sink_identifier OamLink#sink_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.labelTemplate">LabelTemplate</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#label_template OamLink#label_template}. |
-| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.linkConfiguration">LinkConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfiguration">OamLinkLinkConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#link_configuration OamLink#link_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.resourceTypes">ResourceTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#resource_types OamLink#resource_types}. |
+| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.sinkIdentifier">SinkIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#sink_identifier OamLink#sink_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.labelTemplate">LabelTemplate</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#label_template OamLink#label_template}. |
+| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.linkConfiguration">LinkConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfiguration">OamLinkLinkConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#link_configuration OamLink#link_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Tags to apply to the link. |
 
 ---
@@ -981,7 +981,7 @@ ResourceTypes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#resource_types OamLink#resource_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#resource_types OamLink#resource_types}.
 
 ---
 
@@ -993,7 +993,7 @@ SinkIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#sink_identifier OamLink#sink_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#sink_identifier OamLink#sink_identifier}.
 
 ---
 
@@ -1005,7 +1005,7 @@ LabelTemplate *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#label_template OamLink#label_template}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#label_template OamLink#label_template}.
 
 ---
 
@@ -1017,7 +1017,7 @@ LinkConfiguration OamLinkLinkConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfiguration">OamLinkLinkConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#link_configuration OamLink#link_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#link_configuration OamLink#link_configuration}.
 
 ---
 
@@ -1031,7 +1031,7 @@ Tags *map[string]*string
 
 Tags to apply to the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#tags OamLink#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#tags OamLink#tags}
 
 ---
 
@@ -1040,11 +1040,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.oamLink.OamLinkLinkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 &oamlink.OamLinkLinkConfiguration {
-	LogGroupConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.oamLink.OamLinkLinkConfigurationLogGroupConfiguration,
-	MetricConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.oamLink.OamLinkLinkConfigurationMetricConfiguration,
+	LogGroupConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.oamLink.OamLinkLinkConfigurationLogGroupConfiguration,
+	MetricConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.oamLink.OamLinkLinkConfigurationMetricConfiguration,
 }
 ```
 
@@ -1052,8 +1052,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfiguration.property.logGroupConfiguration">LogGroupConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationLogGroupConfiguration">OamLinkLinkConfigurationLogGroupConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#log_group_configuration OamLink#log_group_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfiguration.property.metricConfiguration">MetricConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationMetricConfiguration">OamLinkLinkConfigurationMetricConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#metric_configuration OamLink#metric_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfiguration.property.logGroupConfiguration">LogGroupConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationLogGroupConfiguration">OamLinkLinkConfigurationLogGroupConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#log_group_configuration OamLink#log_group_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfiguration.property.metricConfiguration">MetricConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationMetricConfiguration">OamLinkLinkConfigurationMetricConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#metric_configuration OamLink#metric_configuration}. |
 
 ---
 
@@ -1065,7 +1065,7 @@ LogGroupConfiguration OamLinkLinkConfigurationLogGroupConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationLogGroupConfiguration">OamLinkLinkConfigurationLogGroupConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#log_group_configuration OamLink#log_group_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#log_group_configuration OamLink#log_group_configuration}.
 
 ---
 
@@ -1077,7 +1077,7 @@ MetricConfiguration OamLinkLinkConfigurationMetricConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationMetricConfiguration">OamLinkLinkConfigurationMetricConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#metric_configuration OamLink#metric_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#metric_configuration OamLink#metric_configuration}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationLogGroupConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 &oamlink.OamLinkLinkConfigurationLogGroupConfiguration {
 	Filter: *string,
@@ -1097,7 +1097,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationLogGroupConfiguration.property.filter">Filter</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#filter OamLink#filter}. |
+| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationLogGroupConfiguration.property.filter">Filter</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#filter OamLink#filter}. |
 
 ---
 
@@ -1109,7 +1109,7 @@ Filter *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#filter OamLink#filter}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#filter OamLink#filter}.
 
 ---
 
@@ -1118,7 +1118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationMetricConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 &oamlink.OamLinkLinkConfigurationMetricConfiguration {
 	Filter: *string,
@@ -1129,7 +1129,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationMetricConfiguration.property.filter">Filter</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#filter OamLink#filter}. |
+| <code><a href="#@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationMetricConfiguration.property.filter">Filter</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#filter OamLink#filter}. |
 
 ---
 
@@ -1141,7 +1141,7 @@ Filter *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_link#filter OamLink#filter}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_link#filter OamLink#filter}.
 
 ---
 
@@ -1152,7 +1152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationLogGroupConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 oamlink.NewOamLinkLinkConfigurationLogGroupConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OamLinkLinkConfigurationLogGroupConfigurationOutputReference
 ```
@@ -1430,7 +1430,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationMetricConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 oamlink.NewOamLinkLinkConfigurationMetricConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OamLinkLinkConfigurationMetricConfigurationOutputReference
 ```
@@ -1708,7 +1708,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.oamLink.OamLinkLinkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamlink"
 
 oamlink.NewOamLinkLinkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OamLinkLinkConfigurationOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccBcmpricingcalculatorBillScenarios <a name="DataAwsccBcmpricingcalculatorBillScenarios" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorBillScenarios.DataAwsccBcmpricingcalculatorBillScenarios"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcmpricingcalculator_bill_scenarios awscc_bcmpricingcalculator_bill_scenarios}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcmpricingcalculator_bill_scenarios awscc_bcmpricingcalculator_bill_scenarios}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorBillScenarios.DataAwsccBcmpricingcalculatorBillScenarios.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorbillscenarios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorbillscenarios"
 
 dataawsccbcmpricingcalculatorbillscenarios.NewDataAwsccBcmpricingcalculatorBillScenarios(scope Construct, id *string, config DataAwsccBcmpricingcalculatorBillScenariosConfig) DataAwsccBcmpricingcalculatorBillScenarios
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorBillScenarios.DataAwsccBcmpricingcalculatorBillScenarios.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorbillscenarios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorbillscenarios"
 
 dataawsccbcmpricingcalculatorbillscenarios.DataAwsccBcmpricingcalculatorBillScenarios_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorBillScenarios.DataAwsccBcmpricingcalculatorBillScenarios.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorbillscenarios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorbillscenarios"
 
 dataawsccbcmpricingcalculatorbillscenarios.DataAwsccBcmpricingcalculatorBillScenarios_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbcmpricingcalculatorbillscenarios.DataAwsccBcmpricingcalculatorBillScen
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorBillScenarios.DataAwsccBcmpricingcalculatorBillScenarios.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorbillscenarios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorbillscenarios"
 
 dataawsccbcmpricingcalculatorbillscenarios.DataAwsccBcmpricingcalculatorBillScenarios_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbcmpricingcalculatorbillscenarios.DataAwsccBcmpricingcalculatorBillScen
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorBillScenarios.DataAwsccBcmpricingcalculatorBillScenarios.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorbillscenarios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorbillscenarios"
 
 dataawsccbcmpricingcalculatorbillscenarios.DataAwsccBcmpricingcalculatorBillScenarios_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBcmpricingcalcula
 
 The id of the existing DataAwsccBcmpricingcalculatorBillScenarios that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcmpricingcalculator_bill_scenarios#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcmpricingcalculator_bill_scenarios#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorBillScenarios.DataAwsccBcmpricingcalculatorBillScenariosConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorbillscenarios"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorbillscenarios"
 
 &dataawsccbcmpricingcalculatorbillscenarios.DataAwsccBcmpricingcalculatorBillScenariosConfig {
 	Connection: interface{},

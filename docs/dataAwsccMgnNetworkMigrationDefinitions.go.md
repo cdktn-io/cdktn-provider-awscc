@@ -4,12 +4,12 @@
 
 ### DataAwsccMgnNetworkMigrationDefinitions <a name="DataAwsccMgnNetworkMigrationDefinitions" id="@cdktn/provider-awscc.dataAwsccMgnNetworkMigrationDefinitions.DataAwsccMgnNetworkMigrationDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mgn_network_migration_definitions awscc_mgn_network_migration_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mgn_network_migration_definitions awscc_mgn_network_migration_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMgnNetworkMigrationDefinitions.DataAwsccMgnNetworkMigrationDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmgnnetworkmigrationdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmgnnetworkmigrationdefinitions"
 
 dataawsccmgnnetworkmigrationdefinitions.NewDataAwsccMgnNetworkMigrationDefinitions(scope Construct, id *string, config DataAwsccMgnNetworkMigrationDefinitionsConfig) DataAwsccMgnNetworkMigrationDefinitions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMgnNetworkMigrationDefinitions.DataAwsccMgnNetworkMigrationDefinitions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmgnnetworkmigrationdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmgnnetworkmigrationdefinitions"
 
 dataawsccmgnnetworkmigrationdefinitions.DataAwsccMgnNetworkMigrationDefinitions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMgnNetworkMigrationDefinitions.DataAwsccMgnNetworkMigrationDefinitions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmgnnetworkmigrationdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmgnnetworkmigrationdefinitions"
 
 dataawsccmgnnetworkmigrationdefinitions.DataAwsccMgnNetworkMigrationDefinitions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmgnnetworkmigrationdefinitions.DataAwsccMgnNetworkMigrationDefinitions_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMgnNetworkMigrationDefinitions.DataAwsccMgnNetworkMigrationDefinitions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmgnnetworkmigrationdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmgnnetworkmigrationdefinitions"
 
 dataawsccmgnnetworkmigrationdefinitions.DataAwsccMgnNetworkMigrationDefinitions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmgnnetworkmigrationdefinitions.DataAwsccMgnNetworkMigrationDefinitions_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMgnNetworkMigrationDefinitions.DataAwsccMgnNetworkMigrationDefinitions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmgnnetworkmigrationdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmgnnetworkmigrationdefinitions"
 
 dataawsccmgnnetworkmigrationdefinitions.DataAwsccMgnNetworkMigrationDefinitions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMgnNetworkMigrati
 
 The id of the existing DataAwsccMgnNetworkMigrationDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mgn_network_migration_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mgn_network_migration_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMgnNetworkMigrationDefinitions.DataAwsccMgnNetworkMigrationDefinitionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmgnnetworkmigrationdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmgnnetworkmigrationdefinitions"
 
 &dataawsccmgnnetworkmigrationdefinitions.DataAwsccMgnNetworkMigrationDefinitionsConfig {
 	Connection: interface{},

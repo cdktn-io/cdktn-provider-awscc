@@ -4,12 +4,12 @@
 
 ### ProtonEnvironmentAccountConnection <a name="ProtonEnvironmentAccountConnection" id="@cdktn/provider-awscc.protonEnvironmentAccountConnection.ProtonEnvironmentAccountConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_account_connection awscc_proton_environment_account_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_account_connection awscc_proton_environment_account_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.protonEnvironmentAccountConnection.ProtonEnvironmentAccountConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmentaccountconnection"
 
 protonenvironmentaccountconnection.NewProtonEnvironmentAccountConnection(scope Construct, id *string, config ProtonEnvironmentAccountConnectionConfig) ProtonEnvironmentAccountConnection
 ```
@@ -462,7 +462,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.protonEnvironmentAccountConnection.ProtonEnvironmentAccountConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmentaccountconnection"
 
 protonenvironmentaccountconnection.ProtonEnvironmentAccountConnection_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.protonEnvironmentAccountConnection.ProtonEnvironmentAccountConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmentaccountconnection"
 
 protonenvironmentaccountconnection.ProtonEnvironmentAccountConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ protonenvironmentaccountconnection.ProtonEnvironmentAccountConnection_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.protonEnvironmentAccountConnection.ProtonEnvironmentAccountConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmentaccountconnection"
 
 protonenvironmentaccountconnection.ProtonEnvironmentAccountConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ protonenvironmentaccountconnection.ProtonEnvironmentAccountConnection_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.protonEnvironmentAccountConnection.ProtonEnvironmentAccountConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmentaccountconnection"
 
 protonenvironmentaccountconnection.ProtonEnvironmentAccountConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -551,7 +551,7 @@ The construct id used in the generated config for the ProtonEnvironmentAccountCo
 
 The id of the existing ProtonEnvironmentAccountConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_account_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_account_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -949,7 +949,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.protonEnvironmentAccountConnection.ProtonEnvironmentAccountConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmentaccountconnection"
 
 &protonenvironmentaccountconnection.ProtonEnvironmentAccountConnectionConfig {
 	Connection: interface{},
@@ -1072,7 +1072,7 @@ The Amazon Resource Name (ARN) of an IAM service role in the environment account
 
 AWS Proton uses this role to provision infrastructure resources using CodeBuild-based provisioning in the associated environment account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_account_connection#codebuild_role_arn ProtonEnvironmentAccountConnection#codebuild_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_account_connection#codebuild_role_arn ProtonEnvironmentAccountConnection#codebuild_role_arn}
 
 ---
 
@@ -1088,7 +1088,7 @@ The Amazon Resource Name (ARN) of the IAM service role that AWS Proton uses when
 
 It determines the scope of infrastructure that a component can provision in the account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_account_connection#component_role_arn ProtonEnvironmentAccountConnection#component_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_account_connection#component_role_arn ProtonEnvironmentAccountConnection#component_role_arn}
 
 ---
 
@@ -1102,7 +1102,7 @@ EnvironmentAccountId *string
 
 The environment account that's connected to the environment account connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_account_connection#environment_account_id ProtonEnvironmentAccountConnection#environment_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_account_connection#environment_account_id ProtonEnvironmentAccountConnection#environment_account_id}
 
 ---
 
@@ -1116,7 +1116,7 @@ EnvironmentName *string
 
 The name of the AWS Proton environment that's created in the associated management account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_account_connection#environment_name ProtonEnvironmentAccountConnection#environment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_account_connection#environment_name ProtonEnvironmentAccountConnection#environment_name}
 
 ---
 
@@ -1132,7 +1132,7 @@ The ID of the management account that accepts or rejects the environment account
 
 You create an manage the AWS Proton environment in this account. If the management account accepts the environment account connection, AWS Proton can use the associated IAM role to provision environment infrastructure resources in the associated environment account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_account_connection#management_account_id ProtonEnvironmentAccountConnection#management_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_account_connection#management_account_id ProtonEnvironmentAccountConnection#management_account_id}
 
 ---
 
@@ -1148,7 +1148,7 @@ The Amazon Resource Name (ARN) of the IAM service role that's created in the env
 
 AWS Proton uses this role to provision infrastructure resources in the associated environment account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_account_connection#role_arn ProtonEnvironmentAccountConnection#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_account_connection#role_arn ProtonEnvironmentAccountConnection#role_arn}
 
 ---
 
@@ -1166,7 +1166,7 @@ A tag is a key-value pair.</p>
 <p>For more information, see <a href="https://docs.aws.amazon.com/proton/latest/userguide/resources.html">Proton resources and tagging</a> in the
 <i>Proton User Guide</i>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_account_connection#tags ProtonEnvironmentAccountConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_account_connection#tags ProtonEnvironmentAccountConnection#tags}
 
 ---
 
@@ -1175,7 +1175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.protonEnvironmentAccountConnection.ProtonEnvironmentAccountConnectionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmentaccountconnection"
 
 &protonenvironmentaccountconnection.ProtonEnvironmentAccountConnectionTags {
 	Key: *string,
@@ -1202,7 +1202,7 @@ Key *string
 
 <p>The key of the resource tag.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_account_connection#key ProtonEnvironmentAccountConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_account_connection#key ProtonEnvironmentAccountConnection#key}
 
 ---
 
@@ -1216,7 +1216,7 @@ Value *string
 
 <p>The value of the resource tag.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_account_connection#value ProtonEnvironmentAccountConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_account_connection#value ProtonEnvironmentAccountConnection#value}
 
 ---
 
@@ -1227,7 +1227,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.protonEnvironmentAccountConnection.ProtonEnvironmentAccountConnectionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmentaccountconnection"
 
 protonenvironmentaccountconnection.NewProtonEnvironmentAccountConnectionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ProtonEnvironmentAccountConnectionTagsList
 ```
@@ -1387,7 +1387,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.protonEnvironmentAccountConnection.ProtonEnvironmentAccountConnectionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmentaccountconnection"
 
 protonenvironmentaccountconnection.NewProtonEnvironmentAccountConnectionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ProtonEnvironmentAccountConnectionTagsOutputReference
 ```

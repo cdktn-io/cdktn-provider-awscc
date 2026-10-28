@@ -4,12 +4,12 @@
 
 ### DataAwsccEmrcontainersVirtualClusters <a name="DataAwsccEmrcontainersVirtualClusters" id="@cdktn/provider-awscc.dataAwsccEmrcontainersVirtualClusters.DataAwsccEmrcontainersVirtualClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emrcontainers_virtual_clusters awscc_emrcontainers_virtual_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emrcontainers_virtual_clusters awscc_emrcontainers_virtual_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrcontainersVirtualClusters.DataAwsccEmrcontainersVirtualClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainersvirtualclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainersvirtualclusters"
 
 dataawsccemrcontainersvirtualclusters.NewDataAwsccEmrcontainersVirtualClusters(scope Construct, id *string, config DataAwsccEmrcontainersVirtualClustersConfig) DataAwsccEmrcontainersVirtualClusters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEmrcontainersVirtualClusters.DataAwsccEmrcontainersVirtualClusters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainersvirtualclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainersvirtualclusters"
 
 dataawsccemrcontainersvirtualclusters.DataAwsccEmrcontainersVirtualClusters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEmrcontainersVirtualClusters.DataAwsccEmrcontainersVirtualClusters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainersvirtualclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainersvirtualclusters"
 
 dataawsccemrcontainersvirtualclusters.DataAwsccEmrcontainersVirtualClusters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccemrcontainersvirtualclusters.DataAwsccEmrcontainersVirtualClusters_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEmrcontainersVirtualClusters.DataAwsccEmrcontainersVirtualClusters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainersvirtualclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainersvirtualclusters"
 
 dataawsccemrcontainersvirtualclusters.DataAwsccEmrcontainersVirtualClusters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccemrcontainersvirtualclusters.DataAwsccEmrcontainersVirtualClusters_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEmrcontainersVirtualClusters.DataAwsccEmrcontainersVirtualClusters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainersvirtualclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainersvirtualclusters"
 
 dataawsccemrcontainersvirtualclusters.DataAwsccEmrcontainersVirtualClusters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEmrcontainersVirt
 
 The id of the existing DataAwsccEmrcontainersVirtualClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emrcontainers_virtual_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emrcontainers_virtual_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrcontainersVirtualClusters.DataAwsccEmrcontainersVirtualClustersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainersvirtualclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainersvirtualclusters"
 
 &dataawsccemrcontainersvirtualclusters.DataAwsccEmrcontainersVirtualClustersConfig {
 	Connection: interface{},

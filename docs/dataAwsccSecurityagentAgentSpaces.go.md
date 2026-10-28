@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityagentAgentSpaces <a name="DataAwsccSecurityagentAgentSpaces" id="@cdktn/provider-awscc.dataAwsccSecurityagentAgentSpaces.DataAwsccSecurityagentAgentSpaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_agent_spaces awscc_securityagent_agent_spaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_agent_spaces awscc_securityagent_agent_spaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentAgentSpaces.DataAwsccSecurityagentAgentSpaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentagentspaces"
 
 dataawsccsecurityagentagentspaces.NewDataAwsccSecurityagentAgentSpaces(scope Construct, id *string, config DataAwsccSecurityagentAgentSpacesConfig) DataAwsccSecurityagentAgentSpaces
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityagentAgentSpaces.DataAwsccSecurityagentAgentSpaces.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentagentspaces"
 
 dataawsccsecurityagentagentspaces.DataAwsccSecurityagentAgentSpaces_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityagentAgentSpaces.DataAwsccSecurityagentAgentSpaces.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentagentspaces"
 
 dataawsccsecurityagentagentspaces.DataAwsccSecurityagentAgentSpaces_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityagentagentspaces.DataAwsccSecurityagentAgentSpaces_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityagentAgentSpaces.DataAwsccSecurityagentAgentSpaces.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentagentspaces"
 
 dataawsccsecurityagentagentspaces.DataAwsccSecurityagentAgentSpaces_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityagentagentspaces.DataAwsccSecurityagentAgentSpaces_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityagentAgentSpaces.DataAwsccSecurityagentAgentSpaces.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentagentspaces"
 
 dataawsccsecurityagentagentspaces.DataAwsccSecurityagentAgentSpaces_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityagentAgen
 
 The id of the existing DataAwsccSecurityagentAgentSpaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_agent_spaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_agent_spaces#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentAgentSpaces.DataAwsccSecurityagentAgentSpacesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentagentspaces"
 
 &dataawsccsecurityagentagentspaces.DataAwsccSecurityagentAgentSpacesConfig {
 	Connection: interface{},

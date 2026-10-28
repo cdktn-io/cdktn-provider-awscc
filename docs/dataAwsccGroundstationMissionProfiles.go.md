@@ -4,12 +4,12 @@
 
 ### DataAwsccGroundstationMissionProfiles <a name="DataAwsccGroundstationMissionProfiles" id="@cdktn/provider-awscc.dataAwsccGroundstationMissionProfiles.DataAwsccGroundstationMissionProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_mission_profiles awscc_groundstation_mission_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_mission_profiles awscc_groundstation_mission_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationMissionProfiles.DataAwsccGroundstationMissionProfiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationmissionprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationmissionprofiles"
 
 dataawsccgroundstationmissionprofiles.NewDataAwsccGroundstationMissionProfiles(scope Construct, id *string, config DataAwsccGroundstationMissionProfilesConfig) DataAwsccGroundstationMissionProfiles
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGroundstationMissionProfiles.DataAwsccGroundstationMissionProfiles.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationmissionprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationmissionprofiles"
 
 dataawsccgroundstationmissionprofiles.DataAwsccGroundstationMissionProfiles_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGroundstationMissionProfiles.DataAwsccGroundstationMissionProfiles.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationmissionprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationmissionprofiles"
 
 dataawsccgroundstationmissionprofiles.DataAwsccGroundstationMissionProfiles_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgroundstationmissionprofiles.DataAwsccGroundstationMissionProfiles_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGroundstationMissionProfiles.DataAwsccGroundstationMissionProfiles.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationmissionprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationmissionprofiles"
 
 dataawsccgroundstationmissionprofiles.DataAwsccGroundstationMissionProfiles_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgroundstationmissionprofiles.DataAwsccGroundstationMissionProfiles_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGroundstationMissionProfiles.DataAwsccGroundstationMissionProfiles.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationmissionprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationmissionprofiles"
 
 dataawsccgroundstationmissionprofiles.DataAwsccGroundstationMissionProfiles_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGroundstationMiss
 
 The id of the existing DataAwsccGroundstationMissionProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_mission_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_mission_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationMissionProfiles.DataAwsccGroundstationMissionProfilesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationmissionprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationmissionprofiles"
 
 &dataawsccgroundstationmissionprofiles.DataAwsccGroundstationMissionProfilesConfig {
 	Connection: interface{},

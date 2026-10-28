@@ -4,12 +4,12 @@
 
 ### RedshiftEndpointAuthorization <a name="RedshiftEndpointAuthorization" id="@cdktn/provider-awscc.redshiftEndpointAuthorization.RedshiftEndpointAuthorization"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_authorization awscc_redshift_endpoint_authorization}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_authorization awscc_redshift_endpoint_authorization}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftEndpointAuthorization.RedshiftEndpointAuthorization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointauthorization"
 
 redshiftendpointauthorization.NewRedshiftEndpointAuthorization(scope Construct, id *string, config RedshiftEndpointAuthorizationConfig) RedshiftEndpointAuthorization
 ```
@@ -414,7 +414,7 @@ func ResetVpcIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.redshiftEndpointAuthorization.RedshiftEndpointAuthorization.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointauthorization"
 
 redshiftendpointauthorization.RedshiftEndpointAuthorization_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.redshiftEndpointAuthorization.RedshiftEndpointAuthorization.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointauthorization"
 
 redshiftendpointauthorization.RedshiftEndpointAuthorization_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ redshiftendpointauthorization.RedshiftEndpointAuthorization_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.redshiftEndpointAuthorization.RedshiftEndpointAuthorization.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointauthorization"
 
 redshiftendpointauthorization.RedshiftEndpointAuthorization_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ redshiftendpointauthorization.RedshiftEndpointAuthorization_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.redshiftEndpointAuthorization.RedshiftEndpointAuthorization.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointauthorization"
 
 redshiftendpointauthorization.RedshiftEndpointAuthorization_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the RedshiftEndpointAuthorizat
 
 The id of the existing RedshiftEndpointAuthorization that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_authorization#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_authorization#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -890,7 +890,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftEndpointAuthorization.RedshiftEndpointAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointauthorization"
 
 &redshiftendpointauthorization.RedshiftEndpointAuthorizationConfig {
 	Connection: interface{},
@@ -1005,7 +1005,7 @@ Account *string
 
 The target AWS account ID to grant or revoke access for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_authorization#account RedshiftEndpointAuthorization#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_authorization#account RedshiftEndpointAuthorization#account}
 
 ---
 
@@ -1019,7 +1019,7 @@ ClusterIdentifier *string
 
 The cluster identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_authorization#cluster_identifier RedshiftEndpointAuthorization#cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_authorization#cluster_identifier RedshiftEndpointAuthorization#cluster_identifier}
 
 ---
 
@@ -1035,7 +1035,7 @@ Indicates whether to force the revoke action.
 
 If true, the Redshift-managed VPC endpoints associated with the endpoint authorization are also deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_authorization#force RedshiftEndpointAuthorization#force}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_authorization#force RedshiftEndpointAuthorization#force}
 
 ---
 
@@ -1049,7 +1049,7 @@ VpcIds *[]*string
 
 The virtual private cloud (VPC) identifiers to grant or revoke access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_authorization#vpc_ids RedshiftEndpointAuthorization#vpc_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_authorization#vpc_ids RedshiftEndpointAuthorization#vpc_ids}
 
 ---
 

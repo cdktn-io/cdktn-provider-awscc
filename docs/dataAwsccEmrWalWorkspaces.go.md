@@ -4,12 +4,12 @@
 
 ### DataAwsccEmrWalWorkspaces <a name="DataAwsccEmrWalWorkspaces" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspaces.DataAwsccEmrWalWorkspaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_wal_workspaces awscc_emr_wal_workspaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_wal_workspaces awscc_emr_wal_workspaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspaces.DataAwsccEmrWalWorkspaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspaces"
 
 dataawsccemrwalworkspaces.NewDataAwsccEmrWalWorkspaces(scope Construct, id *string, config DataAwsccEmrWalWorkspacesConfig) DataAwsccEmrWalWorkspaces
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspaces.DataAwsccEmrWalWorkspaces.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspaces"
 
 dataawsccemrwalworkspaces.DataAwsccEmrWalWorkspaces_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspaces.DataAwsccEmrWalWorkspaces.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspaces"
 
 dataawsccemrwalworkspaces.DataAwsccEmrWalWorkspaces_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccemrwalworkspaces.DataAwsccEmrWalWorkspaces_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspaces.DataAwsccEmrWalWorkspaces.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspaces"
 
 dataawsccemrwalworkspaces.DataAwsccEmrWalWorkspaces_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccemrwalworkspaces.DataAwsccEmrWalWorkspaces_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspaces.DataAwsccEmrWalWorkspaces.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspaces"
 
 dataawsccemrwalworkspaces.DataAwsccEmrWalWorkspaces_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEmrWalWorkspaces 
 
 The id of the existing DataAwsccEmrWalWorkspaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_wal_workspaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_wal_workspaces#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspaces.DataAwsccEmrWalWorkspacesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspaces"
 
 &dataawsccemrwalworkspaces.DataAwsccEmrWalWorkspacesConfig {
 	Connection: interface{},

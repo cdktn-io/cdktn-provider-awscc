@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityhubConfigurationPolicy <a name="DataAwsccSecurityhubConfigurationPolicy" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_configuration_policy awscc_securityhub_configuration_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_configuration_policy awscc_securityhub_configuration_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.NewDataAwsccSecurityhubConfigurationPolicy(scope Construct, id *string, config DataAwsccSecurityhubConfigurationPolicyConfig) DataAwsccSecurityhubConfigurationPolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicy_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicy_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubConfig
 
 The id of the existing DataAwsccSecurityhubConfigurationPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_configuration_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_configuration_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 &dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicyConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_configuration_policy#id DataAwsccSecurityhubConfigurationPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_configuration_policy#id DataAwsccSecurityhubConfigurationPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 &dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicy {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 &dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHub {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 &dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfiguration {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 &dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParameters {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 &dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParameters {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 &dataawsccsecurityhubconfigurationpolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValue {
 
@@ -887,7 +887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubco
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.NewDataAwsccSecurityhubConfigurationPolicyConfigurationPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubConfigurationPolicyConfigurationPolicyOutputReference
 ```
@@ -1147,7 +1147,7 @@ func InternalValue() DataAwsccSecurityhubConfigurationPolicyConfigurationPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.NewDataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubOutputReference
 ```
@@ -1429,7 +1429,7 @@ func InternalValue() DataAwsccSecurityhubConfigurationPolicyConfigurationPolicyS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.NewDataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationOutputReference
 ```
@@ -1711,7 +1711,7 @@ func InternalValue() DataAwsccSecurityhubConfigurationPolicyConfigurationPolicyS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.NewDataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersList
 ```
@@ -1860,7 +1860,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.NewDataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersOutputReference
 ```
@@ -2149,7 +2149,7 @@ func InternalValue() DataAwsccSecurityhubConfigurationPolicyConfigurationPolicyS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.NewDataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersMap
 ```
@@ -2285,7 +2285,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.NewDataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersOutputReference
 ```
@@ -2565,7 +2565,7 @@ func InternalValue() DataAwsccSecurityhubConfigurationPolicyConfigurationPolicyS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicy.DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconfigurationpolicy"
 
 dataawsccsecurityhubconfigurationpolicy.NewDataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValueOutputReference
 ```

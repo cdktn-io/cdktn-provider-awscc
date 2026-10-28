@@ -4,12 +4,12 @@
 
 ### SecuritylakeSubscriberNotification <a name="SecuritylakeSubscriberNotification" id="@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification awscc_securitylake_subscriber_notification}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification awscc_securitylake_subscriber_notification}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakesubscribernotification"
 
 securitylakesubscribernotification.NewSecuritylakeSubscriberNotification(scope Construct, id *string, config SecuritylakeSubscriberNotificationConfig) SecuritylakeSubscriberNotification
 ```
@@ -413,7 +413,7 @@ func PutNotificationConfiguration(value SecuritylakeSubscriberNotificationNotifi
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakesubscribernotification"
 
 securitylakesubscribernotification.SecuritylakeSubscriberNotification_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakesubscribernotification"
 
 securitylakesubscribernotification.SecuritylakeSubscriberNotification_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ securitylakesubscribernotification.SecuritylakeSubscriberNotification_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakesubscribernotification"
 
 securitylakesubscribernotification.SecuritylakeSubscriberNotification_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ securitylakesubscribernotification.SecuritylakeSubscriberNotification_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakesubscribernotification"
 
 securitylakesubscribernotification.SecuritylakeSubscriberNotification_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the SecuritylakeSubscriberNoti
 
 The id of the existing SecuritylakeSubscriberNotification that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -768,7 +768,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakesubscribernotification"
 
 &securitylakesubscribernotification.SecuritylakeSubscriberNotificationConfig {
 	Connection: interface{},
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscriber
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	NotificationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationNotificationConfiguration,
+	NotificationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationNotificationConfiguration,
 	SubscriberArn: *string,
 }
 ```
@@ -794,7 +794,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscriber
 | <code><a href="#@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfig.property.notificationConfiguration">NotificationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationNotificationConfiguration">SecuritylakeSubscriberNotificationNotificationConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification#notification_configuration SecuritylakeSubscriberNotification#notification_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfig.property.notificationConfiguration">NotificationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationNotificationConfiguration">SecuritylakeSubscriberNotificationNotificationConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification#notification_configuration SecuritylakeSubscriberNotification#notification_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfig.property.subscriberArn">SubscriberArn</a></code> | <code>*string</code> | The ARN for the subscriber. |
 
 ---
@@ -877,7 +877,7 @@ NotificationConfiguration SecuritylakeSubscriberNotificationNotificationConfigur
 
 - *Type:* <a href="#@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationNotificationConfiguration">SecuritylakeSubscriberNotificationNotificationConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification#notification_configuration SecuritylakeSubscriberNotification#notification_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification#notification_configuration SecuritylakeSubscriberNotification#notification_configuration}.
 
 ---
 
@@ -891,7 +891,7 @@ SubscriberArn *string
 
 The ARN for the subscriber.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification#subscriber_arn SecuritylakeSubscriberNotification#subscriber_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification#subscriber_arn SecuritylakeSubscriberNotification#subscriber_arn}
 
 ---
 
@@ -900,10 +900,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationNotificationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakesubscribernotification"
 
 &securitylakesubscribernotification.SecuritylakeSubscriberNotificationNotificationConfiguration {
-	HttpsNotificationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfiguration,
+	HttpsNotificationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfiguration,
 	SqsNotificationConfiguration: *string,
 }
 ```
@@ -927,7 +927,7 @@ HttpsNotificationConfiguration SecuritylakeSubscriberNotificationNotificationCon
 
 The configuration for HTTPS subscriber notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification#https_notification_configuration SecuritylakeSubscriberNotification#https_notification_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification#https_notification_configuration SecuritylakeSubscriberNotification#https_notification_configuration}
 
 ---
 
@@ -941,7 +941,7 @@ SqsNotificationConfiguration *string
 
 The configurations for SQS subscriber notification. The members of this structure are context-dependent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification#sqs_notification_configuration SecuritylakeSubscriberNotification#sqs_notification_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification#sqs_notification_configuration SecuritylakeSubscriberNotification#sqs_notification_configuration}
 
 ---
 
@@ -950,7 +950,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakesubscribernotification"
 
 &securitylakesubscribernotification.SecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfiguration {
 	AuthorizationApiKeyName: *string,
@@ -983,7 +983,7 @@ AuthorizationApiKeyName *string
 
 The key name for the notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification#authorization_api_key_name SecuritylakeSubscriberNotification#authorization_api_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification#authorization_api_key_name SecuritylakeSubscriberNotification#authorization_api_key_name}
 
 ---
 
@@ -997,7 +997,7 @@ AuthorizationApiKeyValue *string
 
 The key value for the notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification#authorization_api_key_value SecuritylakeSubscriberNotification#authorization_api_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification#authorization_api_key_value SecuritylakeSubscriberNotification#authorization_api_key_value}
 
 ---
 
@@ -1011,7 +1011,7 @@ Endpoint *string
 
 The subscription endpoint in Security Lake.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification#endpoint SecuritylakeSubscriberNotification#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification#endpoint SecuritylakeSubscriberNotification#endpoint}
 
 ---
 
@@ -1025,7 +1025,7 @@ HttpMethod *string
 
 The HTTPS method used for the notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification#http_method SecuritylakeSubscriberNotification#http_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification#http_method SecuritylakeSubscriberNotification#http_method}
 
 ---
 
@@ -1039,7 +1039,7 @@ TargetRoleArn *string
 
 The Amazon Resource Name (ARN) of the EventBridge API destinations IAM role that you created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_subscriber_notification#target_role_arn SecuritylakeSubscriberNotification#target_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_subscriber_notification#target_role_arn SecuritylakeSubscriberNotification#target_role_arn}
 
 ---
 
@@ -1050,7 +1050,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakesubscribernotification"
 
 securitylakesubscribernotification.NewSecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfigurationOutputReference
 ```
@@ -1444,7 +1444,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationNotificationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakesubscribernotification"
 
 securitylakesubscribernotification.NewSecuritylakeSubscriberNotificationNotificationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecuritylakeSubscriberNotificationNotificationConfigurationOutputReference
 ```

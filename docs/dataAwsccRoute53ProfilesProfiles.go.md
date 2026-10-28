@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53ProfilesProfiles <a name="DataAwsccRoute53ProfilesProfiles" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfiles.DataAwsccRoute53ProfilesProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53profiles_profiles awscc_route53profiles_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53profiles_profiles awscc_route53profiles_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfiles.DataAwsccRoute53ProfilesProfiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53profilesprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53profilesprofiles"
 
 dataawsccroute53profilesprofiles.NewDataAwsccRoute53ProfilesProfiles(scope Construct, id *string, config DataAwsccRoute53ProfilesProfilesConfig) DataAwsccRoute53ProfilesProfiles
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfiles.DataAwsccRoute53ProfilesProfiles.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53profilesprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53profilesprofiles"
 
 dataawsccroute53profilesprofiles.DataAwsccRoute53ProfilesProfiles_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfiles.DataAwsccRoute53ProfilesProfiles.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53profilesprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53profilesprofiles"
 
 dataawsccroute53profilesprofiles.DataAwsccRoute53ProfilesProfiles_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53profilesprofiles.DataAwsccRoute53ProfilesProfiles_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfiles.DataAwsccRoute53ProfilesProfiles.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53profilesprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53profilesprofiles"
 
 dataawsccroute53profilesprofiles.DataAwsccRoute53ProfilesProfiles_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53profilesprofiles.DataAwsccRoute53ProfilesProfiles_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfiles.DataAwsccRoute53ProfilesProfiles.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53profilesprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53profilesprofiles"
 
 dataawsccroute53profilesprofiles.DataAwsccRoute53ProfilesProfiles_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53ProfilesPr
 
 The id of the existing DataAwsccRoute53ProfilesProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53profiles_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53profiles_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfiles.DataAwsccRoute53ProfilesProfilesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53profilesprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53profilesprofiles"
 
 &dataawsccroute53profilesprofiles.DataAwsccRoute53ProfilesProfilesConfig {
 	Connection: interface{},

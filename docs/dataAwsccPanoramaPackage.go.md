@@ -4,12 +4,12 @@
 
 ### DataAwsccPanoramaPackage <a name="DataAwsccPanoramaPackage" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/panorama_package awscc_panorama_package}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/panorama_package awscc_panorama_package}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramapackage"
 
 dataawsccpanoramapackage.NewDataAwsccPanoramaPackage(scope Construct, id *string, config DataAwsccPanoramaPackageConfig) DataAwsccPanoramaPackage
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramapackage"
 
 dataawsccpanoramapackage.DataAwsccPanoramaPackage_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramapackage"
 
 dataawsccpanoramapackage.DataAwsccPanoramaPackage_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpanoramapackage.DataAwsccPanoramaPackage_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackage.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramapackage"
 
 dataawsccpanoramapackage.DataAwsccPanoramaPackage_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpanoramapackage.DataAwsccPanoramaPackage_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramapackage"
 
 dataawsccpanoramapackage.DataAwsccPanoramaPackage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPanoramaPackage t
 
 The id of the existing DataAwsccPanoramaPackage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/panorama_package#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/panorama_package#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramapackage"
 
 &dataawsccpanoramapackage.DataAwsccPanoramaPackageConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/panorama_package#id DataAwsccPanoramaPackage#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/panorama_package#id DataAwsccPanoramaPackage#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackageStorageLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramapackage"
 
 &dataawsccpanoramapackage.DataAwsccPanoramaPackageStorageLocation {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapacka
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackageTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramapackage"
 
 &dataawsccpanoramapackage.DataAwsccPanoramaPackageTags {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapacka
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackageStorageLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramapackage"
 
 dataawsccpanoramapackage.NewDataAwsccPanoramaPackageStorageLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPanoramaPackageStorageLocationOutputReference
 ```
@@ -1106,7 +1106,7 @@ func InternalValue() DataAwsccPanoramaPackageStorageLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackageTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramapackage"
 
 dataawsccpanoramapackage.NewDataAwsccPanoramaPackageTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPanoramaPackageTagsList
 ```
@@ -1255,7 +1255,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPanoramaPackage.DataAwsccPanoramaPackageTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramapackage"
 
 dataawsccpanoramapackage.NewDataAwsccPanoramaPackageTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPanoramaPackageTagsOutputReference
 ```

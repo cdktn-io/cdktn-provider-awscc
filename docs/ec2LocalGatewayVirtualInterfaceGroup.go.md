@@ -4,12 +4,12 @@
 
 ### Ec2LocalGatewayVirtualInterfaceGroup <a name="Ec2LocalGatewayVirtualInterfaceGroup" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_virtual_interface_group awscc_ec2_local_gateway_virtual_interface_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_virtual_interface_group awscc_ec2_local_gateway_virtual_interface_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2localgatewayvirtualinterfacegroup"
 
 ec2localgatewayvirtualinterfacegroup.NewEc2LocalGatewayVirtualInterfaceGroup(scope Construct, id *string, config Ec2LocalGatewayVirtualInterfaceGroupConfig) Ec2LocalGatewayVirtualInterfaceGroup
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2localgatewayvirtualinterfacegroup"
 
 ec2localgatewayvirtualinterfacegroup.Ec2LocalGatewayVirtualInterfaceGroup_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2localgatewayvirtualinterfacegroup"
 
 ec2localgatewayvirtualinterfacegroup.Ec2LocalGatewayVirtualInterfaceGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ ec2localgatewayvirtualinterfacegroup.Ec2LocalGatewayVirtualInterfaceGroup_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2localgatewayvirtualinterfacegroup"
 
 ec2localgatewayvirtualinterfacegroup.Ec2LocalGatewayVirtualInterfaceGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ ec2localgatewayvirtualinterfacegroup.Ec2LocalGatewayVirtualInterfaceGroup_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2localgatewayvirtualinterfacegroup"
 
 ec2localgatewayvirtualinterfacegroup.Ec2LocalGatewayVirtualInterfaceGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the Ec2LocalGatewayVirtualInte
 
 The id of the existing Ec2LocalGatewayVirtualInterfaceGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_virtual_interface_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_virtual_interface_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -877,7 +877,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2localgatewayvirtualinterfacegroup"
 
 &ec2localgatewayvirtualinterfacegroup.Ec2LocalGatewayVirtualInterfaceGroupConfig {
 	Connection: interface{},
@@ -992,7 +992,7 @@ LocalGatewayId *string
 
 The ID of the local gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_gateway_id Ec2LocalGatewayVirtualInterfaceGroup#local_gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_gateway_id Ec2LocalGatewayVirtualInterfaceGroup#local_gateway_id}
 
 ---
 
@@ -1006,7 +1006,7 @@ LocalBgpAsn *f64
 
 The Autonomous System Number(ASN) for the local Border Gateway Protocol (BGP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn}
 
 ---
 
@@ -1020,7 +1020,7 @@ LocalBgpAsnExtended *f64
 
 The extended 32-bit ASN for the local BGP configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn_extended Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn_extended}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_virtual_interface_group#local_bgp_asn_extended Ec2LocalGatewayVirtualInterfaceGroup#local_bgp_asn_extended}
 
 ---
 
@@ -1034,7 +1034,7 @@ Tags interface{}
 
 The tags assigned to the virtual interface group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_virtual_interface_group#tags Ec2LocalGatewayVirtualInterfaceGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_virtual_interface_group#tags Ec2LocalGatewayVirtualInterfaceGroup#tags}
 
 ---
 
@@ -1043,7 +1043,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2localgatewayvirtualinterfacegroup"
 
 &ec2localgatewayvirtualinterfacegroup.Ec2LocalGatewayVirtualInterfaceGroupTags {
 	Key: *string,
@@ -1072,7 +1072,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_virtual_interface_group#key Ec2LocalGatewayVirtualInterfaceGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_virtual_interface_group#key Ec2LocalGatewayVirtualInterfaceGroup#key}
 
 ---
 
@@ -1088,7 +1088,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_virtual_interface_group#value Ec2LocalGatewayVirtualInterfaceGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_virtual_interface_group#value Ec2LocalGatewayVirtualInterfaceGroup#value}
 
 ---
 
@@ -1099,7 +1099,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2localgatewayvirtualinterfacegroup"
 
 ec2localgatewayvirtualinterfacegroup.NewEc2LocalGatewayVirtualInterfaceGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2LocalGatewayVirtualInterfaceGroupTagsList
 ```
@@ -1259,7 +1259,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2LocalGatewayVirtualInterfaceGroup.Ec2LocalGatewayVirtualInterfaceGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2localgatewayvirtualinterfacegroup"
 
 ec2localgatewayvirtualinterfacegroup.NewEc2LocalGatewayVirtualInterfaceGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2LocalGatewayVirtualInterfaceGroupTagsOutputReference
 ```

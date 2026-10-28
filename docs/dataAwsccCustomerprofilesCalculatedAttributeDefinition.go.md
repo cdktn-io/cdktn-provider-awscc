@@ -4,12 +4,12 @@
 
 ### DataAwsccCustomerprofilesCalculatedAttributeDefinition <a name="DataAwsccCustomerprofilesCalculatedAttributeDefinition" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.NewDataAwsccCustomerprofilesCalculatedAttributeDefinition(scope Construct, id *string, config DataAwsccCustomerprofilesCalculatedAttributeDefinitionConfig) DataAwsccCustomerprofilesCalculatedAttributeDefinition
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofiles
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinition.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinition_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofiles
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCustomerprofilesC
 
 The id of the existing DataAwsccCustomerprofilesCalculatedAttributeDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_calculated_attribute_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_calculated_attribute_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 &dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetails {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 &dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsAttributes {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 &dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditions {
 
@@ -769,7 +769,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 &dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsRange {
 
@@ -782,7 +782,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsRangeValueRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 &dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsRangeValueRange {
 
@@ -795,7 +795,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsThreshold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 &dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsThreshold {
 
@@ -808,7 +808,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 &dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConfig {
 	Connection: interface{},
@@ -917,7 +917,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_calculated_attribute_definition#id DataAwsccCustomerprofilesCalculatedAttributeDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_calculated_attribute_definition#id DataAwsccCustomerprofilesCalculatedAttributeDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -929,7 +929,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionReadiness.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 &dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionReadiness {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 &dataawscccustomerprofilescalculatedattributedefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionTags {
 
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.NewDataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsAttributesList
 ```
@@ -1106,7 +1106,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.NewDataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsAttributesOutputReference
 ```
@@ -1384,7 +1384,7 @@ func InternalValue() DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.NewDataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsOutputReference
 ```
@@ -1655,7 +1655,7 @@ func InternalValue() DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.NewDataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsOutputReference
 ```
@@ -1937,7 +1937,7 @@ func InternalValue() DataAwsccCustomerprofilesCalculatedAttributeDefinitionCondi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.NewDataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsRangeOutputReference
 ```
@@ -2241,7 +2241,7 @@ func InternalValue() DataAwsccCustomerprofilesCalculatedAttributeDefinitionCondi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsRangeValueRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.NewDataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsRangeValueRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsRangeValueRangeOutputReference
 ```
@@ -2512,7 +2512,7 @@ func InternalValue() DataAwsccCustomerprofilesCalculatedAttributeDefinitionCondi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsThresholdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.NewDataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsThresholdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsThresholdOutputReference
 ```
@@ -2783,7 +2783,7 @@ func InternalValue() DataAwsccCustomerprofilesCalculatedAttributeDefinitionCondi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionReadinessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.NewDataAwsccCustomerprofilesCalculatedAttributeDefinitionReadinessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesCalculatedAttributeDefinitionReadinessOutputReference
 ```
@@ -3054,7 +3054,7 @@ func InternalValue() DataAwsccCustomerprofilesCalculatedAttributeDefinitionReadi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.NewDataAwsccCustomerprofilesCalculatedAttributeDefinitionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesCalculatedAttributeDefinitionTagsList
 ```
@@ -3203,7 +3203,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesCalculatedAttributeDefinition.DataAwsccCustomerprofilesCalculatedAttributeDefinitionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilescalculatedattributedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilescalculatedattributedefinition"
 
 dataawscccustomerprofilescalculatedattributedefinition.NewDataAwsccCustomerprofilesCalculatedAttributeDefinitionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesCalculatedAttributeDefinitionTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectMetric <a name="DataAwsccConnectMetric" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetric"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_metric awscc_connect_metric}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_metric awscc_connect_metric}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetric(scope Construct, id *string, config DataAwsccConnectMetricConfig) DataAwsccConnectMetric
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetric.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.DataAwsccConnectMetric_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetric.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.DataAwsccConnectMetric_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectmetric.DataAwsccConnectMetric_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetric.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.DataAwsccConnectMetric_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectmetric.DataAwsccConnectMetric_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetric.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.DataAwsccConnectMetric_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectMetric to 
 
 The id of the existing DataAwsccConnectMetric that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_metric#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_metric#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -873,7 +873,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 &dataawsccconnectmetric.DataAwsccConnectMetricConfig {
 	Connection: interface{},
@@ -982,7 +982,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_metric#id DataAwsccConnectMetric#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_metric#id DataAwsccConnectMetric#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -994,7 +994,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricCreatedUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 &dataawsccconnectmetric.DataAwsccConnectMetricCreatedUser {
 
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 &dataawsccconnectmetric.DataAwsccConnectMetricFilters {
 
@@ -1020,7 +1020,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricLastModifiedUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 &dataawsccconnectmetric.DataAwsccConnectMetricLastModifiedUser {
 
@@ -1033,7 +1033,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 &dataawsccconnectmetric.DataAwsccConnectMetricMetricCalculation {
 
@@ -1046,7 +1046,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 &dataawsccconnectmetric.DataAwsccConnectMetricMetricCalculationCalculationComponents {
 
@@ -1059,7 +1059,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 &dataawsccconnectmetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFilters {
 
@@ -1072,7 +1072,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 &dataawsccconnectmetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanCondition {
 
@@ -1085,7 +1085,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 &dataawsccconnectmetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberCondition {
 
@@ -1098,7 +1098,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 &dataawsccconnectmetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition {
 
@@ -1111,7 +1111,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 &dataawsccconnectmetric.DataAwsccConnectMetricTags {
 
@@ -1126,7 +1126,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricCreatedUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricCreatedUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectMetricCreatedUserOutputReference
 ```
@@ -1397,7 +1397,7 @@ func InternalValue() DataAwsccConnectMetricCreatedUser
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectMetricFiltersList
 ```
@@ -1546,7 +1546,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectMetricFiltersOutputReference
 ```
@@ -1835,7 +1835,7 @@ func InternalValue() DataAwsccConnectMetricFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricLastModifiedUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricLastModifiedUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectMetricLastModifiedUserOutputReference
 ```
@@ -2106,7 +2106,7 @@ func InternalValue() DataAwsccConnectMetricLastModifiedUser
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricMetricCalculationCalculationComponentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectMetricMetricCalculationCalculationComponentsList
 ```
@@ -2255,7 +2255,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersBooleanConditionOutputReference
 ```
@@ -2515,7 +2515,7 @@ func InternalValue() DataAwsccConnectMetricMetricCalculationCalculationComponent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersList
 ```
@@ -2664,7 +2664,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersNumberConditionOutputReference
 ```
@@ -2935,7 +2935,7 @@ func InternalValue() DataAwsccConnectMetricMetricCalculationCalculationComponent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersOutputReference
 ```
@@ -3257,7 +3257,7 @@ func InternalValue() DataAwsccConnectMetricMetricCalculationCalculationComponent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference
 ```
@@ -3528,7 +3528,7 @@ func InternalValue() DataAwsccConnectMetricMetricCalculationCalculationComponent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationCalculationComponentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricMetricCalculationCalculationComponentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectMetricMetricCalculationCalculationComponentsOutputReference
 ```
@@ -3839,7 +3839,7 @@ func InternalValue() DataAwsccConnectMetricMetricCalculationCalculationComponent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricMetricCalculationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricMetricCalculationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectMetricMetricCalculationOutputReference
 ```
@@ -4110,7 +4110,7 @@ func InternalValue() DataAwsccConnectMetricMetricCalculation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectMetricTagsList
 ```
@@ -4259,7 +4259,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectMetric.DataAwsccConnectMetricTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric"
 
 dataawsccconnectmetric.NewDataAwsccConnectMetricTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectMetricTagsOutputReference
 ```

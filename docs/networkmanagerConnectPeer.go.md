@@ -4,12 +4,12 @@
 
 ### NetworkmanagerConnectPeer <a name="NetworkmanagerConnectPeer" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer awscc_networkmanager_connect_peer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer awscc_networkmanager_connect_peer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 networkmanagerconnectpeer.NewNetworkmanagerConnectPeer(scope Construct, id *string, config NetworkmanagerConnectPeerConfig) NetworkmanagerConnectPeer
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 networkmanagerconnectpeer.NetworkmanagerConnectPeer_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 networkmanagerconnectpeer.NetworkmanagerConnectPeer_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ networkmanagerconnectpeer.NetworkmanagerConnectPeer_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeer.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 networkmanagerconnectpeer.NetworkmanagerConnectPeer_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ networkmanagerconnectpeer.NetworkmanagerConnectPeer_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 networkmanagerconnectpeer.NetworkmanagerConnectPeer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the NetworkmanagerConnectPeer 
 
 The id of the existing NetworkmanagerConnectPeer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -992,7 +992,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 &networkmanagerconnectpeer.NetworkmanagerConnectPeerBgpOptions {
 	PeerAsn: *f64,
@@ -1003,7 +1003,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptions.property.peerAsn">PeerAsn</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}. |
+| <code><a href="#@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptions.property.peerAsn">PeerAsn</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}. |
 
 ---
 
@@ -1015,7 +1015,7 @@ PeerAsn *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#peer_asn NetworkmanagerConnectPeer#peer_asn}.
 
 ---
 
@@ -1024,7 +1024,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 &networkmanagerconnectpeer.NetworkmanagerConnectPeerConfig {
 	Connection: interface{},
@@ -1036,7 +1036,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectp
 	Provisioners: *[]interface{},
 	ConnectAttachmentId: *string,
 	PeerAddress: *string,
-	BgpOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptions,
+	BgpOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptions,
 	CoreNetworkAddress: *string,
 	InsideCidrBlocks: *[]*string,
 	SubnetArn: *string,
@@ -1145,7 +1145,7 @@ ConnectAttachmentId *string
 
 The ID of the attachment to connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#connect_attachment_id NetworkmanagerConnectPeer#connect_attachment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#connect_attachment_id NetworkmanagerConnectPeer#connect_attachment_id}
 
 ---
 
@@ -1159,7 +1159,7 @@ PeerAddress *string
 
 The IP address of the Connect peer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#peer_address NetworkmanagerConnectPeer#peer_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#peer_address NetworkmanagerConnectPeer#peer_address}
 
 ---
 
@@ -1173,7 +1173,7 @@ BgpOptions NetworkmanagerConnectPeerBgpOptions
 
 Bgp options for connect peer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#bgp_options NetworkmanagerConnectPeer#bgp_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#bgp_options NetworkmanagerConnectPeer#bgp_options}
 
 ---
 
@@ -1187,7 +1187,7 @@ CoreNetworkAddress *string
 
 The IP address of a core network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#core_network_address NetworkmanagerConnectPeer#core_network_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#core_network_address NetworkmanagerConnectPeer#core_network_address}
 
 ---
 
@@ -1201,7 +1201,7 @@ InsideCidrBlocks *[]*string
 
 The inside IP addresses used for a Connect peer configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#inside_cidr_blocks NetworkmanagerConnectPeer#inside_cidr_blocks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#inside_cidr_blocks NetworkmanagerConnectPeer#inside_cidr_blocks}
 
 ---
 
@@ -1215,7 +1215,7 @@ SubnetArn *string
 
 The subnet ARN for the connect peer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#subnet_arn NetworkmanagerConnectPeer#subnet_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#subnet_arn NetworkmanagerConnectPeer#subnet_arn}
 
 ---
 
@@ -1229,7 +1229,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#tags NetworkmanagerConnectPeer#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#tags NetworkmanagerConnectPeer#tags}
 
 ---
 
@@ -1238,7 +1238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 &networkmanagerconnectpeer.NetworkmanagerConnectPeerConfiguration {
 
@@ -1251,7 +1251,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 &networkmanagerconnectpeer.NetworkmanagerConnectPeerConfigurationBgpConfigurations {
 
@@ -1264,7 +1264,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 &networkmanagerconnectpeer.NetworkmanagerConnectPeerTags {
 	Key: *string,
@@ -1293,7 +1293,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#key NetworkmanagerConnectPeer#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#key NetworkmanagerConnectPeer#key}
 
 ---
 
@@ -1309,7 +1309,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_peer#value NetworkmanagerConnectPeer#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_peer#value NetworkmanagerConnectPeer#value}
 
 ---
 
@@ -1320,7 +1320,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 networkmanagerconnectpeer.NewNetworkmanagerConnectPeerBgpOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerConnectPeerBgpOptionsOutputReference
 ```
@@ -1598,7 +1598,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 networkmanagerconnectpeer.NewNetworkmanagerConnectPeerConfigurationBgpConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerConnectPeerConfigurationBgpConfigurationsList
 ```
@@ -1747,7 +1747,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 networkmanagerconnectpeer.NewNetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference
 ```
@@ -2058,7 +2058,7 @@ func InternalValue() NetworkmanagerConnectPeerConfigurationBgpConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 networkmanagerconnectpeer.NewNetworkmanagerConnectPeerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerConnectPeerConfigurationOutputReference
 ```
@@ -2362,7 +2362,7 @@ func InternalValue() NetworkmanagerConnectPeerConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 networkmanagerconnectpeer.NewNetworkmanagerConnectPeerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerConnectPeerTagsList
 ```
@@ -2522,7 +2522,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectPeer.NetworkmanagerConnectPeerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectpeer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectpeer"
 
 networkmanagerconnectpeer.NewNetworkmanagerConnectPeerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerConnectPeerTagsOutputReference
 ```

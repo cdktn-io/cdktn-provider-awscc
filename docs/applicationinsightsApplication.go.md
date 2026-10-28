@@ -4,12 +4,12 @@
 
 ### ApplicationinsightsApplication <a name="ApplicationinsightsApplication" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application awscc_applicationinsights_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application awscc_applicationinsights_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplication(scope Construct, id *string, config ApplicationinsightsApplicationConfig) ApplicationinsightsApplication
 ```
@@ -529,7 +529,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.ApplicationinsightsApplication_IsConstruct(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.ApplicationinsightsApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -575,7 +575,7 @@ applicationinsightsapplication.ApplicationinsightsApplication_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.ApplicationinsightsApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -589,7 +589,7 @@ applicationinsightsapplication.ApplicationinsightsApplication_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.ApplicationinsightsApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -618,7 +618,7 @@ The construct id used in the generated config for the ApplicationinsightsApplica
 
 The id of the existing ApplicationinsightsApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1104,14 +1104,14 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettings {
 	ComponentArn: *string,
 	ComponentConfigurationMode: *string,
 	ComponentName: *string,
-	CustomComponentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfiguration,
-	DefaultOverwriteComponentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfiguration,
+	CustomComponentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfiguration,
+	DefaultOverwriteComponentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfiguration,
 	Tier: *string,
 }
 ```
@@ -1139,7 +1139,7 @@ ComponentArn *string
 
 The ARN of the compnonent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#component_arn ApplicationinsightsApplication#component_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#component_arn ApplicationinsightsApplication#component_arn}
 
 ---
 
@@ -1153,7 +1153,7 @@ ComponentConfigurationMode *string
 
 The component monitoring configuration mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#component_configuration_mode ApplicationinsightsApplication#component_configuration_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#component_configuration_mode ApplicationinsightsApplication#component_configuration_mode}
 
 ---
 
@@ -1167,7 +1167,7 @@ ComponentName *string
 
 The name of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#component_name ApplicationinsightsApplication#component_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#component_name ApplicationinsightsApplication#component_name}
 
 ---
 
@@ -1181,7 +1181,7 @@ CustomComponentConfiguration ApplicationinsightsApplicationComponentMonitoringSe
 
 The monitoring configuration of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#custom_component_configuration ApplicationinsightsApplication#custom_component_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#custom_component_configuration ApplicationinsightsApplication#custom_component_configuration}
 
 ---
 
@@ -1195,7 +1195,7 @@ DefaultOverwriteComponentConfiguration ApplicationinsightsApplicationComponentMo
 
 The overwritten settings on default component monitoring configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#default_overwrite_component_configuration ApplicationinsightsApplication#default_overwrite_component_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#default_overwrite_component_configuration ApplicationinsightsApplication#default_overwrite_component_configuration}
 
 ---
 
@@ -1209,7 +1209,7 @@ Tier *string
 
 The tier of the application component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#tier ApplicationinsightsApplication#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#tier ApplicationinsightsApplication#tier}
 
 ---
 
@@ -1218,10 +1218,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfiguration {
-	ConfigurationDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetails,
+	ConfigurationDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetails,
 	SubComponentTypeConfigurations: interface{},
 }
 ```
@@ -1245,7 +1245,7 @@ ConfigurationDetails ApplicationinsightsApplicationComponentMonitoringSettingsCu
 
 The configuration settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#configuration_details ApplicationinsightsApplication#configuration_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#configuration_details ApplicationinsightsApplication#configuration_details}
 
 ---
 
@@ -1259,7 +1259,7 @@ SubComponentTypeConfigurations interface{}
 
 Sub component configurations of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sub_component_type_configurations ApplicationinsightsApplication#sub_component_type_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sub_component_type_configurations ApplicationinsightsApplication#sub_component_type_configurations}
 
 ---
 
@@ -1268,18 +1268,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetails {
 	AlarmMetrics: interface{},
 	Alarms: interface{},
-	HaClusterPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHaClusterPrometheusExporter,
-	HanaPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHanaPrometheusExporter,
-	JmxPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsJmxPrometheusExporter,
+	HaClusterPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHaClusterPrometheusExporter,
+	HanaPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHanaPrometheusExporter,
+	JmxPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsJmxPrometheusExporter,
 	Logs: interface{},
-	NetWeaverPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporter,
+	NetWeaverPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporter,
 	Processes: interface{},
-	SqlServerPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsSqlServerPrometheusExporter,
+	SqlServerPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsSqlServerPrometheusExporter,
 	WindowsEvents: interface{},
 }
 ```
@@ -1311,7 +1311,7 @@ AlarmMetrics interface{}
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -1325,7 +1325,7 @@ Alarms interface{}
 
 A list of alarms to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarms ApplicationinsightsApplication#alarms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarms ApplicationinsightsApplication#alarms}
 
 ---
 
@@ -1339,7 +1339,7 @@ HaClusterPrometheusExporter ApplicationinsightsApplicationComponentMonitoringSet
 
 The HA cluster Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#ha_cluster_prometheus_exporter ApplicationinsightsApplication#ha_cluster_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#ha_cluster_prometheus_exporter ApplicationinsightsApplication#ha_cluster_prometheus_exporter}
 
 ---
 
@@ -1353,7 +1353,7 @@ HanaPrometheusExporter ApplicationinsightsApplicationComponentMonitoringSettings
 
 The HANA DB Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#hana_prometheus_exporter ApplicationinsightsApplication#hana_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#hana_prometheus_exporter ApplicationinsightsApplication#hana_prometheus_exporter}
 
 ---
 
@@ -1367,7 +1367,7 @@ JmxPrometheusExporter ApplicationinsightsApplicationComponentMonitoringSettingsC
 
 The JMX Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#jmx_prometheus_exporter ApplicationinsightsApplication#jmx_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#jmx_prometheus_exporter ApplicationinsightsApplication#jmx_prometheus_exporter}
 
 ---
 
@@ -1381,7 +1381,7 @@ Logs interface{}
 
 A list of logs to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
 
 ---
 
@@ -1395,7 +1395,7 @@ NetWeaverPrometheusExporter ApplicationinsightsApplicationComponentMonitoringSet
 
 The NetWeaver Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#net_weaver_prometheus_exporter ApplicationinsightsApplication#net_weaver_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#net_weaver_prometheus_exporter ApplicationinsightsApplication#net_weaver_prometheus_exporter}
 
 ---
 
@@ -1409,7 +1409,7 @@ Processes interface{}
 
 A list of processes to monitor for the component. Only Windows EC2 instances can have a processes section.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
 
 ---
 
@@ -1423,7 +1423,7 @@ SqlServerPrometheusExporter ApplicationinsightsApplicationComponentMonitoringSet
 
 The SQL Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sql_server_prometheus_exporter ApplicationinsightsApplication#sql_server_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sql_server_prometheus_exporter ApplicationinsightsApplication#sql_server_prometheus_exporter}
 
 ---
 
@@ -1437,7 +1437,7 @@ WindowsEvents interface{}
 
 A list of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
 
 ---
 
@@ -1446,7 +1446,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmMetrics {
 	AlarmMetricName: *string,
@@ -1471,7 +1471,7 @@ AlarmMetricName *string
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -1480,7 +1480,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarms {
 	AlarmName: *string,
@@ -1507,7 +1507,7 @@ AlarmName *string
 
 The name of the CloudWatch alarm to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_name ApplicationinsightsApplication#alarm_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_name ApplicationinsightsApplication#alarm_name}
 
 ---
 
@@ -1521,7 +1521,7 @@ Severity *string
 
 Indicates the degree of outage when the alarm goes off.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#severity ApplicationinsightsApplication#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#severity ApplicationinsightsApplication#severity}
 
 ---
 
@@ -1530,7 +1530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHaClusterPrometheusExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHaClusterPrometheusExporter {
 	PrometheusPort: *string,
@@ -1555,7 +1555,7 @@ PrometheusPort *string
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -1564,7 +1564,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHanaPrometheusExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHanaPrometheusExporter {
 	AgreeToInstallHanadbClient: interface{},
@@ -1597,7 +1597,7 @@ AgreeToInstallHanadbClient interface{}
 
 A flag which indicates agreeing to install SAP HANA DB client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#agree_to_install_hanadb_client ApplicationinsightsApplication#agree_to_install_hanadb_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#agree_to_install_hanadb_client ApplicationinsightsApplication#agree_to_install_hanadb_client}
 
 ---
 
@@ -1611,7 +1611,7 @@ HanaPort *string
 
 The HANA DB port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#hana_port ApplicationinsightsApplication#hana_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#hana_port ApplicationinsightsApplication#hana_port}
 
 ---
 
@@ -1625,7 +1625,7 @@ HanaSecretName *string
 
 The secret name which manages the HANA DB credentials e.g. {   "username": "<>",   "password": "<>" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#hana_secret_name ApplicationinsightsApplication#hana_secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#hana_secret_name ApplicationinsightsApplication#hana_secret_name}
 
 ---
 
@@ -1639,7 +1639,7 @@ Hanasid *string
 
 HANA DB SID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#hanasid ApplicationinsightsApplication#hanasid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#hanasid ApplicationinsightsApplication#hanasid}
 
 ---
 
@@ -1653,7 +1653,7 @@ PrometheusPort *string
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -1662,7 +1662,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsJmxPrometheusExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsJmxPrometheusExporter {
 	HostPort: *string,
@@ -1691,7 +1691,7 @@ HostPort *string
 
 Java agent host port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#host_port ApplicationinsightsApplication#host_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#host_port ApplicationinsightsApplication#host_port}
 
 ---
 
@@ -1705,7 +1705,7 @@ Jmxurl *string
 
 JMX service URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#jmxurl ApplicationinsightsApplication#jmxurl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#jmxurl ApplicationinsightsApplication#jmxurl}
 
 ---
 
@@ -1719,7 +1719,7 @@ PrometheusPort *string
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -1728,7 +1728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsLogs {
 	Encoding: *string,
@@ -1761,7 +1761,7 @@ Encoding *string
 
 The type of encoding of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
 
 ---
 
@@ -1775,7 +1775,7 @@ LogGroupName *string
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -1789,7 +1789,7 @@ LogPath *string
 
 The path of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
 
 ---
 
@@ -1803,7 +1803,7 @@ LogType *string
 
 The log type decides the log patterns against which Application Insights analyzes the log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
 
 ---
 
@@ -1817,7 +1817,7 @@ PatternSet *string
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -1826,7 +1826,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporter {
 	InstanceNumbers: *[]*string,
@@ -1855,7 +1855,7 @@ InstanceNumbers *[]*string
 
 SAP instance numbers for ASCS, ERS, and App Servers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#instance_numbers ApplicationinsightsApplication#instance_numbers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#instance_numbers ApplicationinsightsApplication#instance_numbers}
 
 ---
 
@@ -1869,7 +1869,7 @@ PrometheusPort *string
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -1883,7 +1883,7 @@ Sapsid *string
 
 SAP NetWeaver SID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sapsid ApplicationinsightsApplication#sapsid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sapsid ApplicationinsightsApplication#sapsid}
 
 ---
 
@@ -1892,7 +1892,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcesses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcesses {
 	AlarmMetrics: interface{},
@@ -1919,7 +1919,7 @@ AlarmMetrics interface{}
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -1933,7 +1933,7 @@ ProcessName *string
 
 The name of the process to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
 
 ---
 
@@ -1942,7 +1942,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesAlarmMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesAlarmMetrics {
 	AlarmMetricName: *string,
@@ -1967,7 +1967,7 @@ AlarmMetricName *string
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -1976,7 +1976,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsSqlServerPrometheusExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsSqlServerPrometheusExporter {
 	PrometheusPort: *string,
@@ -2003,7 +2003,7 @@ PrometheusPort *string
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -2017,7 +2017,7 @@ SqlSecretName *string
 
 Secret name which managers SQL exporter connection. e.g. {"data_source_name": "sqlserver://<USERNAME>:<PASSWORD>@localhost:1433"}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sql_secret_name ApplicationinsightsApplication#sql_secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sql_secret_name ApplicationinsightsApplication#sql_secret_name}
 
 ---
 
@@ -2026,7 +2026,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsWindowsEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsWindowsEvents {
 	EventLevels: *[]*string,
@@ -2057,7 +2057,7 @@ EventLevels *[]*string
 
 The levels of event to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
 
 ---
 
@@ -2071,7 +2071,7 @@ EventName *string
 
 The type of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
 
 ---
 
@@ -2085,7 +2085,7 @@ LogGroupName *string
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -2099,7 +2099,7 @@ PatternSet *string
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -2108,10 +2108,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurations {
-	SubComponentConfigurationDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetails,
+	SubComponentConfigurationDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetails,
 	SubComponentType: *string,
 }
 ```
@@ -2135,7 +2135,7 @@ SubComponentConfigurationDetails ApplicationinsightsApplicationComponentMonitori
 
 The configuration settings of sub components.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sub_component_configuration_details ApplicationinsightsApplication#sub_component_configuration_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sub_component_configuration_details ApplicationinsightsApplication#sub_component_configuration_details}
 
 ---
 
@@ -2149,7 +2149,7 @@ SubComponentType *string
 
 The sub component type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sub_component_type ApplicationinsightsApplication#sub_component_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sub_component_type ApplicationinsightsApplication#sub_component_type}
 
 ---
 
@@ -2158,7 +2158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetails {
 	AlarmMetrics: interface{},
@@ -2189,7 +2189,7 @@ AlarmMetrics interface{}
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -2203,7 +2203,7 @@ Logs interface{}
 
 A list of logs to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
 
 ---
 
@@ -2217,7 +2217,7 @@ Processes interface{}
 
 A list of processes to monitor for the component. Only Windows EC2 instances can have a processes section.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
 
 ---
 
@@ -2231,7 +2231,7 @@ WindowsEvents interface{}
 
 A list of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
 
 ---
 
@@ -2240,7 +2240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetrics {
 	AlarmMetricName: *string,
@@ -2265,7 +2265,7 @@ AlarmMetricName *string
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -2274,7 +2274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogs {
 	Encoding: *string,
@@ -2307,7 +2307,7 @@ Encoding *string
 
 The type of encoding of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
 
 ---
 
@@ -2321,7 +2321,7 @@ LogGroupName *string
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -2335,7 +2335,7 @@ LogPath *string
 
 The path of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
 
 ---
 
@@ -2349,7 +2349,7 @@ LogType *string
 
 The log type decides the log patterns against which Application Insights analyzes the log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
 
 ---
 
@@ -2363,7 +2363,7 @@ PatternSet *string
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -2372,7 +2372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcesses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcesses {
 	AlarmMetrics: interface{},
@@ -2399,7 +2399,7 @@ AlarmMetrics interface{}
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -2413,7 +2413,7 @@ ProcessName *string
 
 The name of the process to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
 
 ---
 
@@ -2422,7 +2422,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetrics {
 	AlarmMetricName: *string,
@@ -2447,7 +2447,7 @@ AlarmMetricName *string
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -2456,7 +2456,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEvents {
 	EventLevels: *[]*string,
@@ -2487,7 +2487,7 @@ EventLevels *[]*string
 
 The levels of event to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
 
 ---
 
@@ -2501,7 +2501,7 @@ EventName *string
 
 The type of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
 
 ---
 
@@ -2515,7 +2515,7 @@ LogGroupName *string
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -2529,7 +2529,7 @@ PatternSet *string
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -2538,10 +2538,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfiguration {
-	ConfigurationDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetails,
+	ConfigurationDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetails,
 	SubComponentTypeConfigurations: interface{},
 }
 ```
@@ -2565,7 +2565,7 @@ ConfigurationDetails ApplicationinsightsApplicationComponentMonitoringSettingsDe
 
 The configuration settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#configuration_details ApplicationinsightsApplication#configuration_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#configuration_details ApplicationinsightsApplication#configuration_details}
 
 ---
 
@@ -2579,7 +2579,7 @@ SubComponentTypeConfigurations interface{}
 
 Sub component configurations of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sub_component_type_configurations ApplicationinsightsApplication#sub_component_type_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sub_component_type_configurations ApplicationinsightsApplication#sub_component_type_configurations}
 
 ---
 
@@ -2588,18 +2588,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetails {
 	AlarmMetrics: interface{},
 	Alarms: interface{},
-	HaClusterPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHaClusterPrometheusExporter,
-	HanaPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHanaPrometheusExporter,
-	JmxPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsJmxPrometheusExporter,
+	HaClusterPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHaClusterPrometheusExporter,
+	HanaPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHanaPrometheusExporter,
+	JmxPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsJmxPrometheusExporter,
 	Logs: interface{},
-	NetWeaverPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporter,
+	NetWeaverPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporter,
 	Processes: interface{},
-	SqlServerPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsSqlServerPrometheusExporter,
+	SqlServerPrometheusExporter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsSqlServerPrometheusExporter,
 	WindowsEvents: interface{},
 }
 ```
@@ -2631,7 +2631,7 @@ AlarmMetrics interface{}
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -2645,7 +2645,7 @@ Alarms interface{}
 
 A list of alarms to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarms ApplicationinsightsApplication#alarms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarms ApplicationinsightsApplication#alarms}
 
 ---
 
@@ -2659,7 +2659,7 @@ HaClusterPrometheusExporter ApplicationinsightsApplicationComponentMonitoringSet
 
 The HA cluster Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#ha_cluster_prometheus_exporter ApplicationinsightsApplication#ha_cluster_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#ha_cluster_prometheus_exporter ApplicationinsightsApplication#ha_cluster_prometheus_exporter}
 
 ---
 
@@ -2673,7 +2673,7 @@ HanaPrometheusExporter ApplicationinsightsApplicationComponentMonitoringSettings
 
 The HANA DB Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#hana_prometheus_exporter ApplicationinsightsApplication#hana_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#hana_prometheus_exporter ApplicationinsightsApplication#hana_prometheus_exporter}
 
 ---
 
@@ -2687,7 +2687,7 @@ JmxPrometheusExporter ApplicationinsightsApplicationComponentMonitoringSettingsD
 
 The JMX Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#jmx_prometheus_exporter ApplicationinsightsApplication#jmx_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#jmx_prometheus_exporter ApplicationinsightsApplication#jmx_prometheus_exporter}
 
 ---
 
@@ -2701,7 +2701,7 @@ Logs interface{}
 
 A list of logs to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
 
 ---
 
@@ -2715,7 +2715,7 @@ NetWeaverPrometheusExporter ApplicationinsightsApplicationComponentMonitoringSet
 
 The NetWeaver Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#net_weaver_prometheus_exporter ApplicationinsightsApplication#net_weaver_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#net_weaver_prometheus_exporter ApplicationinsightsApplication#net_weaver_prometheus_exporter}
 
 ---
 
@@ -2729,7 +2729,7 @@ Processes interface{}
 
 A list of processes to monitor for the component. Only Windows EC2 instances can have a processes section.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
 
 ---
 
@@ -2743,7 +2743,7 @@ SqlServerPrometheusExporter ApplicationinsightsApplicationComponentMonitoringSet
 
 The SQL Prometheus Exporter settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sql_server_prometheus_exporter ApplicationinsightsApplication#sql_server_prometheus_exporter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sql_server_prometheus_exporter ApplicationinsightsApplication#sql_server_prometheus_exporter}
 
 ---
 
@@ -2757,7 +2757,7 @@ WindowsEvents interface{}
 
 A list of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
 
 ---
 
@@ -2766,7 +2766,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmMetrics {
 	AlarmMetricName: *string,
@@ -2791,7 +2791,7 @@ AlarmMetricName *string
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -2800,7 +2800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarms {
 	AlarmName: *string,
@@ -2827,7 +2827,7 @@ AlarmName *string
 
 The name of the CloudWatch alarm to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_name ApplicationinsightsApplication#alarm_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_name ApplicationinsightsApplication#alarm_name}
 
 ---
 
@@ -2841,7 +2841,7 @@ Severity *string
 
 Indicates the degree of outage when the alarm goes off.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#severity ApplicationinsightsApplication#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#severity ApplicationinsightsApplication#severity}
 
 ---
 
@@ -2850,7 +2850,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHaClusterPrometheusExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHaClusterPrometheusExporter {
 	PrometheusPort: *string,
@@ -2875,7 +2875,7 @@ PrometheusPort *string
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -2884,7 +2884,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHanaPrometheusExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHanaPrometheusExporter {
 	AgreeToInstallHanadbClient: interface{},
@@ -2917,7 +2917,7 @@ AgreeToInstallHanadbClient interface{}
 
 A flag which indicates agreeing to install SAP HANA DB client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#agree_to_install_hanadb_client ApplicationinsightsApplication#agree_to_install_hanadb_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#agree_to_install_hanadb_client ApplicationinsightsApplication#agree_to_install_hanadb_client}
 
 ---
 
@@ -2931,7 +2931,7 @@ HanaPort *string
 
 The HANA DB port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#hana_port ApplicationinsightsApplication#hana_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#hana_port ApplicationinsightsApplication#hana_port}
 
 ---
 
@@ -2945,7 +2945,7 @@ HanaSecretName *string
 
 The secret name which manages the HANA DB credentials e.g. {   "username": "<>",   "password": "<>" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#hana_secret_name ApplicationinsightsApplication#hana_secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#hana_secret_name ApplicationinsightsApplication#hana_secret_name}
 
 ---
 
@@ -2959,7 +2959,7 @@ Hanasid *string
 
 HANA DB SID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#hanasid ApplicationinsightsApplication#hanasid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#hanasid ApplicationinsightsApplication#hanasid}
 
 ---
 
@@ -2973,7 +2973,7 @@ PrometheusPort *string
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -2982,7 +2982,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsJmxPrometheusExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsJmxPrometheusExporter {
 	HostPort: *string,
@@ -3011,7 +3011,7 @@ HostPort *string
 
 Java agent host port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#host_port ApplicationinsightsApplication#host_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#host_port ApplicationinsightsApplication#host_port}
 
 ---
 
@@ -3025,7 +3025,7 @@ Jmxurl *string
 
 JMX service URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#jmxurl ApplicationinsightsApplication#jmxurl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#jmxurl ApplicationinsightsApplication#jmxurl}
 
 ---
 
@@ -3039,7 +3039,7 @@ PrometheusPort *string
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -3048,7 +3048,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsLogs {
 	Encoding: *string,
@@ -3081,7 +3081,7 @@ Encoding *string
 
 The type of encoding of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
 
 ---
 
@@ -3095,7 +3095,7 @@ LogGroupName *string
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -3109,7 +3109,7 @@ LogPath *string
 
 The path of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
 
 ---
 
@@ -3123,7 +3123,7 @@ LogType *string
 
 The log type decides the log patterns against which Application Insights analyzes the log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
 
 ---
 
@@ -3137,7 +3137,7 @@ PatternSet *string
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -3146,7 +3146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporter {
 	InstanceNumbers: *[]*string,
@@ -3175,7 +3175,7 @@ InstanceNumbers *[]*string
 
 SAP instance numbers for ASCS, ERS, and App Servers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#instance_numbers ApplicationinsightsApplication#instance_numbers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#instance_numbers ApplicationinsightsApplication#instance_numbers}
 
 ---
 
@@ -3189,7 +3189,7 @@ PrometheusPort *string
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -3203,7 +3203,7 @@ Sapsid *string
 
 SAP NetWeaver SID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sapsid ApplicationinsightsApplication#sapsid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sapsid ApplicationinsightsApplication#sapsid}
 
 ---
 
@@ -3212,7 +3212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcesses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcesses {
 	AlarmMetrics: interface{},
@@ -3239,7 +3239,7 @@ AlarmMetrics interface{}
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -3253,7 +3253,7 @@ ProcessName *string
 
 The name of the process to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
 
 ---
 
@@ -3262,7 +3262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesAlarmMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesAlarmMetrics {
 	AlarmMetricName: *string,
@@ -3287,7 +3287,7 @@ AlarmMetricName *string
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -3296,7 +3296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsSqlServerPrometheusExporter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsSqlServerPrometheusExporter {
 	PrometheusPort: *string,
@@ -3323,7 +3323,7 @@ PrometheusPort *string
 
 Prometheus exporter port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#prometheus_port ApplicationinsightsApplication#prometheus_port}
 
 ---
 
@@ -3337,7 +3337,7 @@ SqlSecretName *string
 
 Secret name which managers SQL exporter connection. e.g. {"data_source_name": "sqlserver://<USERNAME>:<PASSWORD>@localhost:1433"}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sql_secret_name ApplicationinsightsApplication#sql_secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sql_secret_name ApplicationinsightsApplication#sql_secret_name}
 
 ---
 
@@ -3346,7 +3346,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsWindowsEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsWindowsEvents {
 	EventLevels: *[]*string,
@@ -3377,7 +3377,7 @@ EventLevels *[]*string
 
 The levels of event to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
 
 ---
 
@@ -3391,7 +3391,7 @@ EventName *string
 
 The type of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
 
 ---
 
@@ -3405,7 +3405,7 @@ LogGroupName *string
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -3419,7 +3419,7 @@ PatternSet *string
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -3428,10 +3428,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurations {
-	SubComponentConfigurationDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetails,
+	SubComponentConfigurationDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetails,
 	SubComponentType: *string,
 }
 ```
@@ -3455,7 +3455,7 @@ SubComponentConfigurationDetails ApplicationinsightsApplicationComponentMonitori
 
 The configuration settings of sub components.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sub_component_configuration_details ApplicationinsightsApplication#sub_component_configuration_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sub_component_configuration_details ApplicationinsightsApplication#sub_component_configuration_details}
 
 ---
 
@@ -3469,7 +3469,7 @@ SubComponentType *string
 
 The sub component type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sub_component_type ApplicationinsightsApplication#sub_component_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sub_component_type ApplicationinsightsApplication#sub_component_type}
 
 ---
 
@@ -3478,7 +3478,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetails {
 	AlarmMetrics: interface{},
@@ -3509,7 +3509,7 @@ AlarmMetrics interface{}
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -3523,7 +3523,7 @@ Logs interface{}
 
 A list of logs to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#logs ApplicationinsightsApplication#logs}
 
 ---
 
@@ -3537,7 +3537,7 @@ Processes interface{}
 
 A list of processes to monitor for the component. Only Windows EC2 instances can have a processes section.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#processes ApplicationinsightsApplication#processes}
 
 ---
 
@@ -3551,7 +3551,7 @@ WindowsEvents interface{}
 
 A list of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#windows_events ApplicationinsightsApplication#windows_events}
 
 ---
 
@@ -3560,7 +3560,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetrics {
 	AlarmMetricName: *string,
@@ -3585,7 +3585,7 @@ AlarmMetricName *string
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -3594,7 +3594,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogs {
 	Encoding: *string,
@@ -3627,7 +3627,7 @@ Encoding *string
 
 The type of encoding of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#encoding ApplicationinsightsApplication#encoding}
 
 ---
 
@@ -3641,7 +3641,7 @@ LogGroupName *string
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -3655,7 +3655,7 @@ LogPath *string
 
 The path of the logs to be monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_path ApplicationinsightsApplication#log_path}
 
 ---
 
@@ -3669,7 +3669,7 @@ LogType *string
 
 The log type decides the log patterns against which Application Insights analyzes the log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_type ApplicationinsightsApplication#log_type}
 
 ---
 
@@ -3683,7 +3683,7 @@ PatternSet *string
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -3692,7 +3692,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcesses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcesses {
 	AlarmMetrics: interface{},
@@ -3719,7 +3719,7 @@ AlarmMetrics interface{}
 
 A list of metrics to monitor for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metrics ApplicationinsightsApplication#alarm_metrics}
 
 ---
 
@@ -3733,7 +3733,7 @@ ProcessName *string
 
 The name of the process to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#process_name ApplicationinsightsApplication#process_name}
 
 ---
 
@@ -3742,7 +3742,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetrics {
 	AlarmMetricName: *string,
@@ -3767,7 +3767,7 @@ AlarmMetricName *string
 
 The name of the metric to be monitored for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#alarm_metric_name ApplicationinsightsApplication#alarm_metric_name}
 
 ---
 
@@ -3776,7 +3776,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEvents {
 	EventLevels: *[]*string,
@@ -3807,7 +3807,7 @@ EventLevels *[]*string
 
 The levels of event to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
 
 ---
 
@@ -3821,7 +3821,7 @@ EventName *string
 
 The type of Windows Events to log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#event_name ApplicationinsightsApplication#event_name}
 
 ---
 
@@ -3835,7 +3835,7 @@ LogGroupName *string
 
 The CloudWatch log group name to be associated to the monitored log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_group_name ApplicationinsightsApplication#log_group_name}
 
 ---
 
@@ -3849,7 +3849,7 @@ PatternSet *string
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#pattern_set ApplicationinsightsApplication#pattern_set}
 
 ---
 
@@ -3858,7 +3858,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationConfig {
 	Connection: interface{},
@@ -3989,7 +3989,7 @@ ResourceGroupName *string
 
 The name of the resource group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#resource_group_name ApplicationinsightsApplication#resource_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#resource_group_name ApplicationinsightsApplication#resource_group_name}
 
 ---
 
@@ -4003,7 +4003,7 @@ AttachMissingPermission interface{}
 
 If set to true, the managed policies for SSM and CW will be attached to the instance roles if they are missing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#attach_missing_permission ApplicationinsightsApplication#attach_missing_permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#attach_missing_permission ApplicationinsightsApplication#attach_missing_permission}
 
 ---
 
@@ -4017,7 +4017,7 @@ AutoConfigurationEnabled interface{}
 
 If set to true, application will be configured with recommended monitoring configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#auto_configuration_enabled ApplicationinsightsApplication#auto_configuration_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#auto_configuration_enabled ApplicationinsightsApplication#auto_configuration_enabled}
 
 ---
 
@@ -4031,7 +4031,7 @@ ComponentMonitoringSettings interface{}
 
 The monitoring settings of the components.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#component_monitoring_settings ApplicationinsightsApplication#component_monitoring_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#component_monitoring_settings ApplicationinsightsApplication#component_monitoring_settings}
 
 ---
 
@@ -4045,7 +4045,7 @@ CustomComponents interface{}
 
 The custom grouped components.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#custom_components ApplicationinsightsApplication#custom_components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#custom_components ApplicationinsightsApplication#custom_components}
 
 ---
 
@@ -4059,7 +4059,7 @@ CweMonitorEnabled interface{}
 
 Indicates whether Application Insights can listen to CloudWatch events for the application resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#cwe_monitor_enabled ApplicationinsightsApplication#cwe_monitor_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#cwe_monitor_enabled ApplicationinsightsApplication#cwe_monitor_enabled}
 
 ---
 
@@ -4073,7 +4073,7 @@ GroupingType *string
 
 The grouping type of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#grouping_type ApplicationinsightsApplication#grouping_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#grouping_type ApplicationinsightsApplication#grouping_type}
 
 ---
 
@@ -4087,7 +4087,7 @@ LogPatternSets interface{}
 
 The log pattern sets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_pattern_sets ApplicationinsightsApplication#log_pattern_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_pattern_sets ApplicationinsightsApplication#log_pattern_sets}
 
 ---
 
@@ -4101,7 +4101,7 @@ OpsCenterEnabled interface{}
 
 When set to true, creates opsItems for any problems detected on an application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#ops_center_enabled ApplicationinsightsApplication#ops_center_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#ops_center_enabled ApplicationinsightsApplication#ops_center_enabled}
 
 ---
 
@@ -4115,7 +4115,7 @@ OpsItemSnsTopicArn *string
 
 The SNS topic provided to Application Insights that is associated to the created opsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#ops_item_sns_topic_arn ApplicationinsightsApplication#ops_item_sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#ops_item_sns_topic_arn ApplicationinsightsApplication#ops_item_sns_topic_arn}
 
 ---
 
@@ -4129,7 +4129,7 @@ SnsNotificationArn *string
 
 Application Insights sends notifications to this SNS topic whenever there is a problem update in the associated application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#sns_notification_arn ApplicationinsightsApplication#sns_notification_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#sns_notification_arn ApplicationinsightsApplication#sns_notification_arn}
 
 ---
 
@@ -4143,7 +4143,7 @@ Tags interface{}
 
 The tags of Application Insights application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#tags ApplicationinsightsApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#tags ApplicationinsightsApplication#tags}
 
 ---
 
@@ -4152,7 +4152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationCustomComponents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationCustomComponents {
 	ComponentName: *string,
@@ -4179,7 +4179,7 @@ ComponentName *string
 
 The name of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#component_name ApplicationinsightsApplication#component_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#component_name ApplicationinsightsApplication#component_name}
 
 ---
 
@@ -4193,7 +4193,7 @@ ResourceList *[]*string
 
 The list of resource ARNs that belong to the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#resource_list ApplicationinsightsApplication#resource_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#resource_list ApplicationinsightsApplication#resource_list}
 
 ---
 
@@ -4202,7 +4202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationLogPatternSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationLogPatternSets {
 	LogPatterns: interface{},
@@ -4229,7 +4229,7 @@ LogPatterns interface{}
 
 The log patterns of a set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#log_patterns ApplicationinsightsApplication#log_patterns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#log_patterns ApplicationinsightsApplication#log_patterns}
 
 ---
 
@@ -4243,7 +4243,7 @@ PatternSetName *string
 
 The name of the log pattern set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#pattern_set_name ApplicationinsightsApplication#pattern_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#pattern_set_name ApplicationinsightsApplication#pattern_set_name}
 
 ---
 
@@ -4252,7 +4252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationLogPatternSetsLogPatterns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationLogPatternSetsLogPatterns {
 	Pattern: *string,
@@ -4281,7 +4281,7 @@ Pattern *string
 
 The log pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#pattern ApplicationinsightsApplication#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#pattern ApplicationinsightsApplication#pattern}
 
 ---
 
@@ -4295,7 +4295,7 @@ PatternName *string
 
 The name of the log pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#pattern_name ApplicationinsightsApplication#pattern_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#pattern_name ApplicationinsightsApplication#pattern_name}
 
 ---
 
@@ -4309,7 +4309,7 @@ Rank *f64
 
 Rank of the log pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#rank ApplicationinsightsApplication#rank}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#rank ApplicationinsightsApplication#rank}
 
 ---
 
@@ -4318,7 +4318,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 &applicationinsightsapplication.ApplicationinsightsApplicationTags {
 	Key: *string,
@@ -4347,7 +4347,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#key ApplicationinsightsApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#key ApplicationinsightsApplication#key}
 
 ---
 
@@ -4363,7 +4363,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationinsights_application#value ApplicationinsightsApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationinsights_application#value ApplicationinsightsApplication#value}
 
 ---
 
@@ -4374,7 +4374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmMetricsList
 ```
@@ -4534,7 +4534,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmMetricsOutputReference
 ```
@@ -4830,7 +4830,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmsList
 ```
@@ -4990,7 +4990,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarmsOutputReference
 ```
@@ -5315,7 +5315,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHaClusterPrometheusExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHaClusterPrometheusExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHaClusterPrometheusExporterOutputReference
 ```
@@ -5593,7 +5593,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHanaPrometheusExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHanaPrometheusExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsHanaPrometheusExporterOutputReference
 ```
@@ -5987,7 +5987,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsJmxPrometheusExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsJmxPrometheusExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsJmxPrometheusExporterOutputReference
 ```
@@ -6323,7 +6323,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsLogsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsLogsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsLogsList
 ```
@@ -6483,7 +6483,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsLogsOutputReference
 ```
@@ -6895,7 +6895,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporterOutputReference
 ```
@@ -7231,7 +7231,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsOutputReference
 ```
@@ -7900,7 +7900,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesAlarmMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesAlarmMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesAlarmMetricsList
 ```
@@ -8060,7 +8060,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesAlarmMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesAlarmMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesAlarmMetricsOutputReference
 ```
@@ -8356,7 +8356,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesList
 ```
@@ -8516,7 +8516,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsProcessesOutputReference
 ```
@@ -8854,7 +8854,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsSqlServerPrometheusExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsSqlServerPrometheusExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsSqlServerPrometheusExporterOutputReference
 ```
@@ -9161,7 +9161,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsWindowsEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsWindowsEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsWindowsEventsList
 ```
@@ -9321,7 +9321,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsWindowsEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsWindowsEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsWindowsEventsOutputReference
 ```
@@ -9704,7 +9704,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationOutputReference
 ```
@@ -10037,7 +10037,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsList
 ```
@@ -10197,7 +10197,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsOutputReference
 ```
@@ -10535,7 +10535,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsList
 ```
@@ -10695,7 +10695,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsOutputReference
 ```
@@ -10991,7 +10991,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsList
 ```
@@ -11151,7 +11151,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsOutputReference
 ```
@@ -11563,7 +11563,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsOutputReference
 ```
@@ -11980,7 +11980,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsList
 ```
@@ -12140,7 +12140,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsOutputReference
 ```
@@ -12436,7 +12436,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesList
 ```
@@ -12596,7 +12596,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesOutputReference
 ```
@@ -12934,7 +12934,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsList
 ```
@@ -13094,7 +13094,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsOutputReference
 ```
@@ -13477,7 +13477,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmMetricsList
 ```
@@ -13637,7 +13637,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmMetricsOutputReference
 ```
@@ -13933,7 +13933,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmsList
 ```
@@ -14093,7 +14093,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsAlarmsOutputReference
 ```
@@ -14418,7 +14418,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHaClusterPrometheusExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHaClusterPrometheusExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHaClusterPrometheusExporterOutputReference
 ```
@@ -14696,7 +14696,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHanaPrometheusExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHanaPrometheusExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsHanaPrometheusExporterOutputReference
 ```
@@ -15090,7 +15090,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsJmxPrometheusExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsJmxPrometheusExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsJmxPrometheusExporterOutputReference
 ```
@@ -15426,7 +15426,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsLogsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsLogsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsLogsList
 ```
@@ -15586,7 +15586,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsLogsOutputReference
 ```
@@ -15998,7 +15998,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsNetWeaverPrometheusExporterOutputReference
 ```
@@ -16334,7 +16334,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsOutputReference
 ```
@@ -17003,7 +17003,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesAlarmMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesAlarmMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesAlarmMetricsList
 ```
@@ -17163,7 +17163,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesAlarmMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesAlarmMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesAlarmMetricsOutputReference
 ```
@@ -17459,7 +17459,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesList
 ```
@@ -17619,7 +17619,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsProcessesOutputReference
 ```
@@ -17957,7 +17957,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsSqlServerPrometheusExporterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsSqlServerPrometheusExporterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsSqlServerPrometheusExporterOutputReference
 ```
@@ -18264,7 +18264,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsWindowsEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsWindowsEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsWindowsEventsList
 ```
@@ -18424,7 +18424,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsWindowsEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsWindowsEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsWindowsEventsOutputReference
 ```
@@ -18807,7 +18807,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationOutputReference
 ```
@@ -19140,7 +19140,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsList
 ```
@@ -19300,7 +19300,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsOutputReference
 ```
@@ -19638,7 +19638,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsList
 ```
@@ -19798,7 +19798,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsAlarmMetricsOutputReference
 ```
@@ -20094,7 +20094,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsList
 ```
@@ -20254,7 +20254,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsLogsOutputReference
 ```
@@ -20666,7 +20666,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsOutputReference
 ```
@@ -21083,7 +21083,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsList
 ```
@@ -21243,7 +21243,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesAlarmMetricsOutputReference
 ```
@@ -21539,7 +21539,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesList
 ```
@@ -21699,7 +21699,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsProcessesOutputReference
 ```
@@ -22037,7 +22037,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsList
 ```
@@ -22197,7 +22197,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEventsOutputReference
 ```
@@ -22580,7 +22580,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsList
 ```
@@ -22740,7 +22740,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationComponentMonitoringSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationComponentMonitoringSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationComponentMonitoringSettingsOutputReference
 ```
@@ -23207,7 +23207,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationCustomComponentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationCustomComponentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationCustomComponentsList
 ```
@@ -23367,7 +23367,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationCustomComponentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationCustomComponentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationCustomComponentsOutputReference
 ```
@@ -23692,7 +23692,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationLogPatternSetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationLogPatternSetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationLogPatternSetsList
 ```
@@ -23852,7 +23852,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationLogPatternSetsLogPatternsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationLogPatternSetsLogPatternsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationLogPatternSetsLogPatternsList
 ```
@@ -24012,7 +24012,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationLogPatternSetsLogPatternsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationLogPatternSetsLogPatternsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationLogPatternSetsLogPatternsOutputReference
 ```
@@ -24366,7 +24366,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationLogPatternSetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationLogPatternSetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationLogPatternSetsOutputReference
 ```
@@ -24704,7 +24704,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationinsightsApplicationTagsList
 ```
@@ -24864,7 +24864,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationinsightsApplication.ApplicationinsightsApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationinsightsapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationinsightsapplication"
 
 applicationinsightsapplication.NewApplicationinsightsApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationinsightsApplicationTagsOutputReference
 ```

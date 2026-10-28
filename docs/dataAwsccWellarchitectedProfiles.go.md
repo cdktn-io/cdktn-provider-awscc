@@ -4,12 +4,12 @@
 
 ### DataAwsccWellarchitectedProfiles <a name="DataAwsccWellarchitectedProfiles" id="@cdktn/provider-awscc.dataAwsccWellarchitectedProfiles.DataAwsccWellarchitectedProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wellarchitected_profiles awscc_wellarchitected_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wellarchitected_profiles awscc_wellarchitected_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWellarchitectedProfiles.DataAwsccWellarchitectedProfiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedprofiles"
 
 dataawsccwellarchitectedprofiles.NewDataAwsccWellarchitectedProfiles(scope Construct, id *string, config DataAwsccWellarchitectedProfilesConfig) DataAwsccWellarchitectedProfiles
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWellarchitectedProfiles.DataAwsccWellarchitectedProfiles.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedprofiles"
 
 dataawsccwellarchitectedprofiles.DataAwsccWellarchitectedProfiles_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWellarchitectedProfiles.DataAwsccWellarchitectedProfiles.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedprofiles"
 
 dataawsccwellarchitectedprofiles.DataAwsccWellarchitectedProfiles_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwellarchitectedprofiles.DataAwsccWellarchitectedProfiles_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWellarchitectedProfiles.DataAwsccWellarchitectedProfiles.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedprofiles"
 
 dataawsccwellarchitectedprofiles.DataAwsccWellarchitectedProfiles_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwellarchitectedprofiles.DataAwsccWellarchitectedProfiles_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWellarchitectedProfiles.DataAwsccWellarchitectedProfiles.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedprofiles"
 
 dataawsccwellarchitectedprofiles.DataAwsccWellarchitectedProfiles_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWellarchitectedPr
 
 The id of the existing DataAwsccWellarchitectedProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wellarchitected_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wellarchitected_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWellarchitectedProfiles.DataAwsccWellarchitectedProfilesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedprofiles"
 
 &dataawsccwellarchitectedprofiles.DataAwsccWellarchitectedProfilesConfig {
 	Connection: interface{},

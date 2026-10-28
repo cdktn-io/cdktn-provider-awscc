@@ -4,12 +4,12 @@
 
 ### RekognitionProject <a name="RekognitionProject" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_project awscc_rekognition_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_project awscc_rekognition_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitionproject"
 
 rekognitionproject.NewRekognitionProject(scope Construct, id *string, config RekognitionProjectConfig) RekognitionProject
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProject.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitionproject"
 
 rekognitionproject.RekognitionProject_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProject.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitionproject"
 
 rekognitionproject.RekognitionProject_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ rekognitionproject.RekognitionProject_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProject.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitionproject"
 
 rekognitionproject.RekognitionProject_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ rekognitionproject.RekognitionProject_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProject.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitionproject"
 
 rekognitionproject.RekognitionProject_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the RekognitionProject to impo
 
 The id of the existing RekognitionProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -775,7 +775,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProjectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitionproject"
 
 &rekognitionproject.RekognitionProjectConfig {
 	Connection: interface{},
@@ -886,7 +886,7 @@ ProjectName *string
 
 The name of the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_project#project_name RekognitionProject#project_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_project#project_name RekognitionProject#project_name}
 
 ---
 
@@ -900,7 +900,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_project#tags RekognitionProject#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_project#tags RekognitionProject#tags}
 
 ---
 
@@ -909,7 +909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProjectTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitionproject"
 
 &rekognitionproject.RekognitionProjectTags {
 	Key: *string,
@@ -938,7 +938,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_project#key RekognitionProject#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_project#key RekognitionProject#key}
 
 ---
 
@@ -954,7 +954,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_project#value RekognitionProject#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_project#value RekognitionProject#value}
 
 ---
 
@@ -965,7 +965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProjectTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitionproject"
 
 rekognitionproject.NewRekognitionProjectTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RekognitionProjectTagsList
 ```
@@ -1125,7 +1125,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProjectTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitionproject"
 
 rekognitionproject.NewRekognitionProjectTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RekognitionProjectTagsOutputReference
 ```

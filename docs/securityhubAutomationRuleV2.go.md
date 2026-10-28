@@ -4,12 +4,12 @@
 
 ### SecurityhubAutomationRuleV2 <a name="SecurityhubAutomationRuleV2" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2(scope Construct, id *string, config SecurityhubAutomationRuleV2Config) SecurityhubAutomationRuleV2
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.SecurityhubAutomationRuleV2_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.SecurityhubAutomationRuleV2_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ securityhubautomationrulev2.SecurityhubAutomationRuleV2_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.SecurityhubAutomationRuleV2_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ securityhubautomationrulev2.SecurityhubAutomationRuleV2_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.SecurityhubAutomationRuleV2_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SecurityhubAutomationRuleV
 
 The id of the existing SecurityhubAutomationRuleV2 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -938,12 +938,12 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2Actions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2Actions {
 	Type: *string,
-	ExternalIntegrationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionsExternalIntegrationConfiguration,
-	FindingFieldsUpdate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionsFindingFieldsUpdate,
+	ExternalIntegrationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionsExternalIntegrationConfiguration,
+	FindingFieldsUpdate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionsFindingFieldsUpdate,
 }
 ```
 
@@ -967,7 +967,7 @@ Type *string
 
 The category of action to be executed by the automation rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#type SecurityhubAutomationRuleV2#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#type SecurityhubAutomationRuleV2#type}
 
 ---
 
@@ -981,7 +981,7 @@ ExternalIntegrationConfiguration SecurityhubAutomationRuleV2ActionsExternalInteg
 
 The settings for integrating automation rule actions with external systems or service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#external_integration_configuration SecurityhubAutomationRuleV2#external_integration_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#external_integration_configuration SecurityhubAutomationRuleV2#external_integration_configuration}
 
 ---
 
@@ -995,7 +995,7 @@ FindingFieldsUpdate SecurityhubAutomationRuleV2ActionsFindingFieldsUpdate
 
 The changes to be applied to fields in a security finding when an automation rule is triggered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#finding_fields_update SecurityhubAutomationRuleV2#finding_fields_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#finding_fields_update SecurityhubAutomationRuleV2#finding_fields_update}
 
 ---
 
@@ -1004,7 +1004,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionsExternalIntegrationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2ActionsExternalIntegrationConfiguration {
 	ConnectorArn: *string,
@@ -1029,7 +1029,7 @@ ConnectorArn *string
 
 The ARN of the connector that establishes the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#connector_arn SecurityhubAutomationRuleV2#connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#connector_arn SecurityhubAutomationRuleV2#connector_arn}
 
 ---
 
@@ -1038,7 +1038,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionsFindingFieldsUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2ActionsFindingFieldsUpdate {
 	Comment: *string,
@@ -1067,7 +1067,7 @@ Comment *string
 
 Notes or contextual information for findings that are modified by the automation rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#comment SecurityhubAutomationRuleV2#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#comment SecurityhubAutomationRuleV2#comment}
 
 ---
 
@@ -1081,7 +1081,7 @@ SeverityId *f64
 
 The severity level to be assigned to findings that match the automation rule criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#severity_id SecurityhubAutomationRuleV2#severity_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#severity_id SecurityhubAutomationRuleV2#severity_id}
 
 ---
 
@@ -1095,7 +1095,7 @@ StatusId *f64
 
 The status to be applied to findings that match automation rule criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#status_id SecurityhubAutomationRuleV2#status_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#status_id SecurityhubAutomationRuleV2#status_id}
 
 ---
 
@@ -1104,7 +1104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2Config {
 	Connection: interface{},
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationr
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Actions: interface{},
-	Criteria: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2Criteria,
+	Criteria: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2Criteria,
 	Description: *string,
 	RuleName: *string,
 	RuleOrder: *f64,
@@ -1225,7 +1225,7 @@ Actions interface{}
 
 A list of actions to be performed when the rule criteria is met.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#actions SecurityhubAutomationRuleV2#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#actions SecurityhubAutomationRuleV2#actions}
 
 ---
 
@@ -1239,7 +1239,7 @@ Criteria SecurityhubAutomationRuleV2Criteria
 
 Defines the parameters and conditions used to evaluate and filter security findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#criteria SecurityhubAutomationRuleV2#criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#criteria SecurityhubAutomationRuleV2#criteria}
 
 ---
 
@@ -1253,7 +1253,7 @@ Description *string
 
 A description of the automation rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#description SecurityhubAutomationRuleV2#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#description SecurityhubAutomationRuleV2#description}
 
 ---
 
@@ -1267,7 +1267,7 @@ RuleName *string
 
 The name of the automation rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#rule_name SecurityhubAutomationRuleV2#rule_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#rule_name SecurityhubAutomationRuleV2#rule_name}
 
 ---
 
@@ -1281,7 +1281,7 @@ RuleOrder *f64
 
 The value for the rule priority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#rule_order SecurityhubAutomationRuleV2#rule_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#rule_order SecurityhubAutomationRuleV2#rule_order}
 
 ---
 
@@ -1295,7 +1295,7 @@ RuleStatus *string
 
 The status of the automation rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#rule_status SecurityhubAutomationRuleV2#rule_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#rule_status SecurityhubAutomationRuleV2#rule_status}
 
 ---
 
@@ -1309,7 +1309,7 @@ Tags *map[string]*string
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#tags SecurityhubAutomationRuleV2#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#tags SecurityhubAutomationRuleV2#tags}
 
 ---
 
@@ -1318,10 +1318,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2Criteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2Criteria {
-	OcsfFindingCriteria: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteria,
+	OcsfFindingCriteria: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteria,
 }
 ```
 
@@ -1343,7 +1343,7 @@ OcsfFindingCriteria SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteria
 
 The filtering conditions that align with OCSF standards.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#ocsf_finding_criteria SecurityhubAutomationRuleV2#ocsf_finding_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#ocsf_finding_criteria SecurityhubAutomationRuleV2#ocsf_finding_criteria}
 
 ---
 
@@ -1352,7 +1352,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteria {
 	CompositeFilters: interface{},
@@ -1379,7 +1379,7 @@ CompositeFilters interface{}
 
 Enables the creation of complex filtering conditions by combining filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#composite_filters SecurityhubAutomationRuleV2#composite_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#composite_filters SecurityhubAutomationRuleV2#composite_filters}
 
 ---
 
@@ -1393,7 +1393,7 @@ CompositeOperator *string
 
 The logical operator used to combine multiple conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#composite_operator SecurityhubAutomationRuleV2#composite_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#composite_operator SecurityhubAutomationRuleV2#composite_operator}
 
 ---
 
@@ -1402,7 +1402,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilters {
 	BooleanFilters: interface{},
@@ -1437,7 +1437,7 @@ BooleanFilters interface{}
 
 Enables filtering based on boolean field values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#boolean_filters SecurityhubAutomationRuleV2#boolean_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#boolean_filters SecurityhubAutomationRuleV2#boolean_filters}
 
 ---
 
@@ -1451,7 +1451,7 @@ DateFilters interface{}
 
 Enables filtering based on date and timestamp fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#date_filters SecurityhubAutomationRuleV2#date_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#date_filters SecurityhubAutomationRuleV2#date_filters}
 
 ---
 
@@ -1465,7 +1465,7 @@ MapFilters interface{}
 
 Enables filtering based on map field value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#map_filters SecurityhubAutomationRuleV2#map_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#map_filters SecurityhubAutomationRuleV2#map_filters}
 
 ---
 
@@ -1479,7 +1479,7 @@ NumberFilters interface{}
 
 Enables filtering based on numerical field values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#number_filters SecurityhubAutomationRuleV2#number_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#number_filters SecurityhubAutomationRuleV2#number_filters}
 
 ---
 
@@ -1493,7 +1493,7 @@ Operator *string
 
 The logical operator used to combine multiple conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#operator SecurityhubAutomationRuleV2#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#operator SecurityhubAutomationRuleV2#operator}
 
 ---
 
@@ -1507,7 +1507,7 @@ StringFilters interface{}
 
 Enables filtering based on string field values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#string_filters SecurityhubAutomationRuleV2#string_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#string_filters SecurityhubAutomationRuleV2#string_filters}
 
 ---
 
@@ -1516,11 +1516,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFilters {
 	FieldName: *string,
-	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersFilter,
+	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersFilter,
 }
 ```
 
@@ -1543,7 +1543,7 @@ FieldName *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
 
 ---
 
@@ -1557,7 +1557,7 @@ Filter SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBoo
 
 Boolean filter for querying findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
 
 ---
 
@@ -1566,7 +1566,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersFilter {
 	Value: interface{},
@@ -1591,7 +1591,7 @@ Value interface{}
 
 The value of the boolean.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
 
 ---
 
@@ -1600,11 +1600,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFilters {
 	FieldName: *string,
-	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilter,
+	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilter,
 }
 ```
 
@@ -1627,7 +1627,7 @@ FieldName *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
 
 ---
 
@@ -1641,7 +1641,7 @@ Filter SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDat
 
 A date filter for querying findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
 
 ---
 
@@ -1650,10 +1650,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilter {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilterDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilterDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -1679,7 +1679,7 @@ DateRange SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilters
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#date_range SecurityhubAutomationRuleV2#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#date_range SecurityhubAutomationRuleV2#date_range}
 
 ---
 
@@ -1693,7 +1693,7 @@ End *string
 
 The timestamp formatted in ISO8601.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#end SecurityhubAutomationRuleV2#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#end SecurityhubAutomationRuleV2#end}
 
 ---
 
@@ -1707,7 +1707,7 @@ Start *string
 
 The timestamp formatted in ISO8601.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#start SecurityhubAutomationRuleV2#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#start SecurityhubAutomationRuleV2#start}
 
 ---
 
@@ -1716,7 +1716,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilterDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilterDateRange {
 	Unit: *string,
@@ -1743,7 +1743,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#unit SecurityhubAutomationRuleV2#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#unit SecurityhubAutomationRuleV2#unit}
 
 ---
 
@@ -1757,7 +1757,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
 
 ---
 
@@ -1766,11 +1766,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFilters {
 	FieldName: *string,
-	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersFilter,
+	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersFilter,
 }
 ```
 
@@ -1793,7 +1793,7 @@ FieldName *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
 
 ---
 
@@ -1807,7 +1807,7 @@ Filter SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMap
 
 A map filter for filtering findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
 
 ---
 
@@ -1816,7 +1816,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersFilter {
 	Comparison: *string,
@@ -1845,7 +1845,7 @@ Comparison *string
 
 The condition to apply to the key value when filtering findings with a map filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#comparison SecurityhubAutomationRuleV2#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#comparison SecurityhubAutomationRuleV2#comparison}
 
 ---
 
@@ -1859,7 +1859,7 @@ Key *string
 
 The key of the map filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#key SecurityhubAutomationRuleV2#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#key SecurityhubAutomationRuleV2#key}
 
 ---
 
@@ -1873,7 +1873,7 @@ Value *string
 
 The value for the key in the map filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
 
 ---
 
@@ -1882,11 +1882,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFilters {
 	FieldName: *string,
-	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersFilter,
+	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersFilter,
 }
 ```
 
@@ -1909,7 +1909,7 @@ FieldName *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
 
 ---
 
@@ -1923,7 +1923,7 @@ Filter SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNum
 
 A number filter for querying findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
 
 ---
 
@@ -1932,7 +1932,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersFilter {
 	Eq: *f64,
@@ -1961,7 +1961,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#eq SecurityhubAutomationRuleV2#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#eq SecurityhubAutomationRuleV2#eq}
 
 ---
 
@@ -1975,7 +1975,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#gte SecurityhubAutomationRuleV2#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#gte SecurityhubAutomationRuleV2#gte}
 
 ---
 
@@ -1989,7 +1989,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#lte SecurityhubAutomationRuleV2#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#lte SecurityhubAutomationRuleV2#lte}
 
 ---
 
@@ -1998,11 +1998,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFilters {
 	FieldName: *string,
-	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersFilter,
+	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersFilter,
 }
 ```
 
@@ -2025,7 +2025,7 @@ FieldName *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
 
 ---
 
@@ -2039,7 +2039,7 @@ Filter SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStr
 
 A string filter for filtering findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
 
 ---
 
@@ -2048,7 +2048,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 &securityhubautomationrulev2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersFilter {
 	Comparison: *string,
@@ -2075,7 +2075,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#comparison SecurityhubAutomationRuleV2#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#comparison SecurityhubAutomationRuleV2#comparison}
 
 ---
 
@@ -2089,7 +2089,7 @@ Value *string
 
 The string filter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
 
 ---
 
@@ -2100,7 +2100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionsExternalIntegrationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2ActionsExternalIntegrationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubAutomationRuleV2ActionsExternalIntegrationConfigurationOutputReference
 ```
@@ -2378,7 +2378,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionsFindingFieldsUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2ActionsFindingFieldsUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubAutomationRuleV2ActionsFindingFieldsUpdateOutputReference
 ```
@@ -2714,7 +2714,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2ActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubAutomationRuleV2ActionsList
 ```
@@ -2874,7 +2874,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2ActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubAutomationRuleV2ActionsOutputReference
 ```
@@ -3247,7 +3247,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersFilterOutputReference
 ```
@@ -3525,7 +3525,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersList
 ```
@@ -3685,7 +3685,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersOutputReference
 ```
@@ -4023,7 +4023,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilterDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilterDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilterDateRangeOutputReference
 ```
@@ -4330,7 +4330,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersFilterOutputReference
 ```
@@ -4679,7 +4679,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersList
 ```
@@ -4839,7 +4839,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDateFiltersOutputReference
 ```
@@ -5177,7 +5177,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersList
 ```
@@ -5337,7 +5337,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersFilterOutputReference
 ```
@@ -5673,7 +5673,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersList
 ```
@@ -5833,7 +5833,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMapFiltersOutputReference
 ```
@@ -6171,7 +6171,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersFilterOutputReference
 ```
@@ -6507,7 +6507,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersList
 ```
@@ -6667,7 +6667,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNumberFiltersOutputReference
 ```
@@ -7005,7 +7005,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersOutputReference
 ```
@@ -7511,7 +7511,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersFilterOutputReference
 ```
@@ -7818,7 +7818,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersList
 ```
@@ -7978,7 +7978,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStringFiltersOutputReference
 ```
@@ -8316,7 +8316,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaOutputReference
 ```
@@ -8636,7 +8636,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2CriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubautomationrulev2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubautomationrulev2"
 
 securityhubautomationrulev2.NewSecurityhubAutomationRuleV2CriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubAutomationRuleV2CriteriaOutputReference
 ```

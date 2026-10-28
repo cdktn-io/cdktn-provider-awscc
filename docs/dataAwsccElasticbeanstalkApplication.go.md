@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticbeanstalkApplication <a name="DataAwsccElasticbeanstalkApplication" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_application awscc_elasticbeanstalk_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_application awscc_elasticbeanstalk_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 dataawsccelasticbeanstalkapplication.NewDataAwsccElasticbeanstalkApplication(scope Construct, id *string, config DataAwsccElasticbeanstalkApplicationConfig) DataAwsccElasticbeanstalkApplication
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 dataawsccelasticbeanstalkapplication.DataAwsccElasticbeanstalkApplication_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 dataawsccelasticbeanstalkapplication.DataAwsccElasticbeanstalkApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticbeanstalkapplication.DataAwsccElasticbeanstalkApplication_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplication.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 dataawsccelasticbeanstalkapplication.DataAwsccElasticbeanstalkApplication_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticbeanstalkapplication.DataAwsccElasticbeanstalkApplication_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 dataawsccelasticbeanstalkapplication.DataAwsccElasticbeanstalkApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticbeanstalkA
 
 The id of the existing DataAwsccElasticbeanstalkApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 &dataawsccelasticbeanstalkapplication.DataAwsccElasticbeanstalkApplicationConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_application#id DataAwsccElasticbeanstalkApplication#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_application#id DataAwsccElasticbeanstalkApplication#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 &dataawsccelasticbeanstalkapplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfig {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanst
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 &dataawsccelasticbeanstalkapplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfig {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanst
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 &dataawsccelasticbeanstalkapplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRule {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanst
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 &dataawsccelasticbeanstalkapplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRule {
 
@@ -795,7 +795,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 dataawsccelasticbeanstalkapplication.NewDataAwsccElasticbeanstalkApplicationResourceLifecycleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigOutputReference
 ```
@@ -1066,7 +1066,7 @@ func InternalValue() DataAwsccElasticbeanstalkApplicationResourceLifecycleConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 dataawsccelasticbeanstalkapplication.NewDataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRuleOutputReference
 ```
@@ -1348,7 +1348,7 @@ func InternalValue() DataAwsccElasticbeanstalkApplicationResourceLifecycleConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 dataawsccelasticbeanstalkapplication.NewDataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRuleOutputReference
 ```
@@ -1630,7 +1630,7 @@ func InternalValue() DataAwsccElasticbeanstalkApplicationResourceLifecycleConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplication.DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplication"
 
 dataawsccelasticbeanstalkapplication.NewDataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigOutputReference
 ```

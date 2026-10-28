@@ -4,12 +4,12 @@
 
 ### DataAwsccKafkaconnectCustomPlugin <a name="DataAwsccKafkaconnectCustomPlugin" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPlugin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPlugin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 dataawscckafkaconnectcustomplugin.NewDataAwsccKafkaconnectCustomPlugin(scope Construct, id *string, config DataAwsccKafkaconnectCustomPluginConfig) DataAwsccKafkaconnectCustomPlugin
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPlugin.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 dataawscckafkaconnectcustomplugin.DataAwsccKafkaconnectCustomPlugin_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPlugin.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 dataawscckafkaconnectcustomplugin.DataAwsccKafkaconnectCustomPlugin_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckafkaconnectcustomplugin.DataAwsccKafkaconnectCustomPlugin_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPlugin.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 dataawscckafkaconnectcustomplugin.DataAwsccKafkaconnectCustomPlugin_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckafkaconnectcustomplugin.DataAwsccKafkaconnectCustomPlugin_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPlugin.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 dataawscckafkaconnectcustomplugin.DataAwsccKafkaconnectCustomPlugin_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKafkaconnectCusto
 
 The id of the existing DataAwsccKafkaconnectCustomPlugin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kafkaconnect_custom_plugin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kafkaconnect_custom_plugin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPluginConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 &dataawscckafkaconnectcustomplugin.DataAwsccKafkaconnectCustomPluginConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kafkaconnect_custom_plugin#id DataAwsccKafkaconnectCustomPlugin#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kafkaconnect_custom_plugin#id DataAwsccKafkaconnectCustomPlugin#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPluginFileDescription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 &dataawscckafkaconnectcustomplugin.DataAwsccKafkaconnectCustomPluginFileDescription {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPluginLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 &dataawscckafkaconnectcustomplugin.DataAwsccKafkaconnectCustomPluginLocation {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPluginLocationS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 &dataawscckafkaconnectcustomplugin.DataAwsccKafkaconnectCustomPluginLocationS3Location {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPluginTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 &dataawscckafkaconnectcustomplugin.DataAwsccKafkaconnectCustomPluginTags {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPluginFileDescriptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 dataawscckafkaconnectcustomplugin.NewDataAwsccKafkaconnectCustomPluginFileDescriptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectCustomPluginFileDescriptionOutputReference
 ```
@@ -1121,7 +1121,7 @@ func InternalValue() DataAwsccKafkaconnectCustomPluginFileDescription
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPluginLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 dataawscckafkaconnectcustomplugin.NewDataAwsccKafkaconnectCustomPluginLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectCustomPluginLocationOutputReference
 ```
@@ -1381,7 +1381,7 @@ func InternalValue() DataAwsccKafkaconnectCustomPluginLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPluginLocationS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 dataawscckafkaconnectcustomplugin.NewDataAwsccKafkaconnectCustomPluginLocationS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectCustomPluginLocationS3LocationOutputReference
 ```
@@ -1663,7 +1663,7 @@ func InternalValue() DataAwsccKafkaconnectCustomPluginLocationS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPluginTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 dataawscckafkaconnectcustomplugin.NewDataAwsccKafkaconnectCustomPluginTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKafkaconnectCustomPluginTagsList
 ```
@@ -1812,7 +1812,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectCustomPlugin.DataAwsccKafkaconnectCustomPluginTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectcustomplugin"
 
 dataawscckafkaconnectcustomplugin.NewDataAwsccKafkaconnectCustomPluginTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKafkaconnectCustomPluginTagsOutputReference
 ```

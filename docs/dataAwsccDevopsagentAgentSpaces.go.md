@@ -4,12 +4,12 @@
 
 ### DataAwsccDevopsagentAgentSpaces <a name="DataAwsccDevopsagentAgentSpaces" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpaces.DataAwsccDevopsagentAgentSpaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_agent_spaces awscc_devopsagent_agent_spaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsagent_agent_spaces awscc_devopsagent_agent_spaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpaces.DataAwsccDevopsagentAgentSpaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentagentspaces"
 
 dataawsccdevopsagentagentspaces.NewDataAwsccDevopsagentAgentSpaces(scope Construct, id *string, config DataAwsccDevopsagentAgentSpacesConfig) DataAwsccDevopsagentAgentSpaces
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpaces.DataAwsccDevopsagentAgentSpaces.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentagentspaces"
 
 dataawsccdevopsagentagentspaces.DataAwsccDevopsagentAgentSpaces_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpaces.DataAwsccDevopsagentAgentSpaces.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentagentspaces"
 
 dataawsccdevopsagentagentspaces.DataAwsccDevopsagentAgentSpaces_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdevopsagentagentspaces.DataAwsccDevopsagentAgentSpaces_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpaces.DataAwsccDevopsagentAgentSpaces.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentagentspaces"
 
 dataawsccdevopsagentagentspaces.DataAwsccDevopsagentAgentSpaces_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdevopsagentagentspaces.DataAwsccDevopsagentAgentSpaces_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpaces.DataAwsccDevopsagentAgentSpaces.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentagentspaces"
 
 dataawsccdevopsagentagentspaces.DataAwsccDevopsagentAgentSpaces_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDevopsagentAgentS
 
 The id of the existing DataAwsccDevopsagentAgentSpaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_agent_spaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsagent_agent_spaces#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpaces.DataAwsccDevopsagentAgentSpacesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentagentspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentagentspaces"
 
 &dataawsccdevopsagentagentspaces.DataAwsccDevopsagentAgentSpacesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### Connectcampaignsv2Campaign <a name="Connectcampaignsv2Campaign" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2Campaign"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2Campaign.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2Campaign(scope Construct, id *string, config Connectcampaignsv2CampaignConfig) Connectcampaignsv2Campaign
 ```
@@ -554,7 +554,7 @@ func ResetType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2Campaign.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.Connectcampaignsv2Campaign_IsConstruct(x interface{}) *bool
 ```
@@ -586,7 +586,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2Campaign.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.Connectcampaignsv2Campaign_IsTerraformElement(x interface{}) *bool
 ```
@@ -600,7 +600,7 @@ connectcampaignsv2campaign.Connectcampaignsv2Campaign_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2Campaign.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.Connectcampaignsv2Campaign_IsTerraformResource(x interface{}) *bool
 ```
@@ -614,7 +614,7 @@ connectcampaignsv2campaign.Connectcampaignsv2Campaign_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2Campaign.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.Connectcampaignsv2Campaign_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -643,7 +643,7 @@ The construct id used in the generated config for the Connectcampaignsv2Campaign
 
 The id of the existing Connectcampaignsv2Campaign that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1107,13 +1107,13 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfig {
-	Email: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmail,
-	Sms: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSms,
-	Telephony: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephony,
-	WhatsApp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsApp,
+	Email: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmail,
+	Sms: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSms,
+	Telephony: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephony,
+	WhatsApp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsApp,
 }
 ```
 
@@ -1138,7 +1138,7 @@ Email Connectcampaignsv2CampaignChannelSubtypeConfigEmail
 
 Email Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
 
 ---
 
@@ -1152,7 +1152,7 @@ Sms Connectcampaignsv2CampaignChannelSubtypeConfigSms
 
 SMS Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
 
 ---
 
@@ -1166,7 +1166,7 @@ Telephony Connectcampaignsv2CampaignChannelSubtypeConfigTelephony
 
 Telephony Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
 
 ---
 
@@ -1180,7 +1180,7 @@ WhatsApp Connectcampaignsv2CampaignChannelSubtypeConfigWhatsApp
 
 WhatsApp Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
 
 ---
 
@@ -1189,12 +1189,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmail {
 	Capacity: *f64,
-	DefaultOutboundConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfig,
-	OutboundMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundMode,
+	DefaultOutboundConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfig,
+	OutboundMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundMode,
 }
 ```
 
@@ -1218,7 +1218,7 @@ Capacity *f64
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -1232,7 +1232,7 @@ DefaultOutboundConfig Connectcampaignsv2CampaignChannelSubtypeConfigEmailDefault
 
 Default Email outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -1246,7 +1246,7 @@ OutboundMode Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundMode
 
 Email Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -1255,7 +1255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfig {
 	ConnectSourceEmailAddress: *string,
@@ -1284,7 +1284,7 @@ ConnectSourceEmailAddress *string
 
 Email address used for Email messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#connect_source_email_address Connectcampaignsv2Campaign#connect_source_email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#connect_source_email_address Connectcampaignsv2Campaign#connect_source_email_address}
 
 ---
 
@@ -1298,7 +1298,7 @@ SourceEmailAddressDisplayName *string
 
 The name of the source email address display name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#source_email_address_display_name Connectcampaignsv2Campaign#source_email_address_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#source_email_address_display_name Connectcampaignsv2Campaign#source_email_address_display_name}
 
 ---
 
@@ -1312,7 +1312,7 @@ WisdomTemplateArn *string
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
 
 ---
 
@@ -1321,7 +1321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundMode {
 	AgentlessConfig: *string,
@@ -1346,7 +1346,7 @@ AgentlessConfig *string
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -1355,12 +1355,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSms {
 	Capacity: *f64,
-	DefaultOutboundConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfig,
-	OutboundMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundMode,
+	DefaultOutboundConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfig,
+	OutboundMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundMode,
 }
 ```
 
@@ -1384,7 +1384,7 @@ Capacity *f64
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -1398,7 +1398,7 @@ DefaultOutboundConfig Connectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOu
 
 Default SMS outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -1412,7 +1412,7 @@ OutboundMode Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundMode
 
 SMS Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -1421,7 +1421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfig {
 	ConnectSourcePhoneNumberArn: *string,
@@ -1448,7 +1448,7 @@ ConnectSourcePhoneNumberArn *string
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
 
 ---
 
@@ -1462,7 +1462,7 @@ WisdomTemplateArn *string
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
 
 ---
 
@@ -1471,7 +1471,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundMode {
 	AgentlessConfig: *string,
@@ -1496,7 +1496,7 @@ AgentlessConfig *string
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -1505,13 +1505,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephony.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephony {
 	Capacity: *f64,
 	ConnectQueueId: *string,
-	DefaultOutboundConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfig,
-	OutboundMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode,
+	DefaultOutboundConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfig,
+	OutboundMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode,
 }
 ```
 
@@ -1536,7 +1536,7 @@ Capacity *f64
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -1550,7 +1550,7 @@ ConnectQueueId *string
 
 The queue for the call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#connect_queue_id Connectcampaignsv2Campaign#connect_queue_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#connect_queue_id Connectcampaignsv2Campaign#connect_queue_id}
 
 ---
 
@@ -1564,7 +1564,7 @@ DefaultOutboundConfig Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDef
 
 Default Telephone Outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -1578,7 +1578,7 @@ OutboundMode Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode
 
 Telephony Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -1587,10 +1587,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfig {
-	AnswerMachineDetectionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfig,
+	AnswerMachineDetectionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfig,
 	ConnectContactFlowId: *string,
 	ConnectSourcePhoneNumber: *string,
 	RingTimeout: *f64,
@@ -1618,7 +1618,7 @@ AnswerMachineDetectionConfig Connectcampaignsv2CampaignChannelSubtypeConfigTelep
 
 The configuration used for answering machine detection during outbound calls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#answer_machine_detection_config Connectcampaignsv2Campaign#answer_machine_detection_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#answer_machine_detection_config Connectcampaignsv2Campaign#answer_machine_detection_config}
 
 ---
 
@@ -1632,7 +1632,7 @@ ConnectContactFlowId *string
 
 The identifier of the contact flow for the outbound call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#connect_contact_flow_id Connectcampaignsv2Campaign#connect_contact_flow_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#connect_contact_flow_id Connectcampaignsv2Campaign#connect_contact_flow_id}
 
 ---
 
@@ -1646,7 +1646,7 @@ ConnectSourcePhoneNumber *string
 
 The phone number associated with the Amazon Connect instance, in E.164 format. If you do not specify a source phone number, you must specify a queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number Connectcampaignsv2Campaign#connect_source_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number Connectcampaignsv2Campaign#connect_source_phone_number}
 
 ---
 
@@ -1660,7 +1660,7 @@ RingTimeout *f64
 
 Maximum ring time for outbound calls in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#ring_timeout Connectcampaignsv2Campaign#ring_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#ring_timeout Connectcampaignsv2Campaign#ring_timeout}
 
 ---
 
@@ -1669,7 +1669,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfig {
 	AwaitAnswerMachinePrompt: interface{},
@@ -1696,7 +1696,7 @@ AwaitAnswerMachinePrompt interface{}
 
 Enables detection of prompts (e.g., beep after after a voicemail greeting).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#await_answer_machine_prompt Connectcampaignsv2Campaign#await_answer_machine_prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#await_answer_machine_prompt Connectcampaignsv2Campaign#await_answer_machine_prompt}
 
 ---
 
@@ -1710,7 +1710,7 @@ EnableAnswerMachineDetection interface{}
 
 Flag to decided whether outbound calls should have answering machine detection enabled or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#enable_answer_machine_detection Connectcampaignsv2Campaign#enable_answer_machine_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#enable_answer_machine_detection Connectcampaignsv2Campaign#enable_answer_machine_detection}
 
 ---
 
@@ -1719,13 +1719,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode {
 	AgentlessConfig: *string,
-	PredictiveConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfig,
-	PreviewConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfig,
-	ProgressiveConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfig,
+	PredictiveConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfig,
+	PreviewConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfig,
+	ProgressiveConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfig,
 }
 ```
 
@@ -1750,7 +1750,7 @@ AgentlessConfig *string
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -1764,7 +1764,7 @@ PredictiveConfig Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutbound
 
 Predictive config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#predictive_config Connectcampaignsv2Campaign#predictive_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#predictive_config Connectcampaignsv2Campaign#predictive_config}
 
 ---
 
@@ -1778,7 +1778,7 @@ PreviewConfig Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMod
 
 Preview config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#preview_config Connectcampaignsv2Campaign#preview_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#preview_config Connectcampaignsv2Campaign#preview_config}
 
 ---
 
@@ -1792,7 +1792,7 @@ ProgressiveConfig Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboun
 
 Progressive config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#progressive_config Connectcampaignsv2Campaign#progressive_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#progressive_config Connectcampaignsv2Campaign#progressive_config}
 
 ---
 
@@ -1801,7 +1801,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfig {
 	BandwidthAllocation: *f64,
@@ -1826,7 +1826,7 @@ BandwidthAllocation *f64
 
 The bandwidth allocation of a queue resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
 
 ---
 
@@ -1835,12 +1835,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfig {
 	AgentActions: *[]*string,
 	BandwidthAllocation: *f64,
-	TimeoutConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfig,
+	TimeoutConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfig,
 }
 ```
 
@@ -1864,7 +1864,7 @@ AgentActions *[]*string
 
 Actions that can be performed by agent during preview phase.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#agent_actions Connectcampaignsv2Campaign#agent_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#agent_actions Connectcampaignsv2Campaign#agent_actions}
 
 ---
 
@@ -1878,7 +1878,7 @@ BandwidthAllocation *f64
 
 The bandwidth allocation of a queue resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
 
 ---
 
@@ -1892,7 +1892,7 @@ TimeoutConfig Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMod
 
 Timeout Config for preview contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#timeout_config Connectcampaignsv2Campaign#timeout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#timeout_config Connectcampaignsv2Campaign#timeout_config}
 
 ---
 
@@ -1901,7 +1901,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfig {
 	DurationInSeconds: *f64,
@@ -1926,7 +1926,7 @@ DurationInSeconds *f64
 
 Timeout duration for a preview contact in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#duration_in_seconds Connectcampaignsv2Campaign#duration_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#duration_in_seconds Connectcampaignsv2Campaign#duration_in_seconds}
 
 ---
 
@@ -1935,7 +1935,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfig {
 	BandwidthAllocation: *f64,
@@ -1960,7 +1960,7 @@ BandwidthAllocation *f64
 
 The bandwidth allocation of a queue resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
 
 ---
 
@@ -1969,12 +1969,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsApp {
 	Capacity: *f64,
-	DefaultOutboundConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfig,
-	OutboundMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundMode,
+	DefaultOutboundConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfig,
+	OutboundMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundMode,
 }
 ```
 
@@ -1998,7 +1998,7 @@ Capacity *f64
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -2012,7 +2012,7 @@ DefaultOutboundConfig Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefa
 
 Default WhatsApp outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -2026,7 +2026,7 @@ OutboundMode Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundMode
 
 WhatsApp Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -2035,7 +2035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfig {
 	ConnectSourcePhoneNumberArn: *string,
@@ -2062,7 +2062,7 @@ ConnectSourcePhoneNumberArn *string
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
 
 ---
 
@@ -2076,7 +2076,7 @@ WisdomTemplateArn *string
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
 
 ---
 
@@ -2085,7 +2085,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundMode {
 	AgentlessConfig: *string,
@@ -2110,7 +2110,7 @@ AgentlessConfig *string
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -2119,10 +2119,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverride.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationLimitsOverride {
-	AllChannelsSubtypes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypes,
+	AllChannelsSubtypes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypes,
 	InstanceLimitsHandling: *string,
 }
 ```
@@ -2146,7 +2146,7 @@ AllChannelsSubtypes Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChan
 
 Communication limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#all_channels_subtypes Connectcampaignsv2Campaign#all_channels_subtypes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#all_channels_subtypes Connectcampaignsv2Campaign#all_channels_subtypes}
 
 ---
 
@@ -2160,7 +2160,7 @@ InstanceLimitsHandling *string
 
 Enumeration of Instance Limits handling in a Campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#instance_limits_handling Connectcampaignsv2Campaign#instance_limits_handling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#instance_limits_handling Connectcampaignsv2Campaign#instance_limits_handling}
 
 ---
 
@@ -2169,7 +2169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypes {
 	CommunicationLimitList: interface{},
@@ -2194,7 +2194,7 @@ CommunicationLimitList interface{}
 
 List of communication limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#communication_limit_list Connectcampaignsv2Campaign#communication_limit_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#communication_limit_list Connectcampaignsv2Campaign#communication_limit_list}
 
 ---
 
@@ -2203,7 +2203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct {
 	Frequency: *f64,
@@ -2216,8 +2216,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2camp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.property.frequency">Frequency</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#frequency Connectcampaignsv2Campaign#frequency}. |
-| <code><a href="#@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.property.maxCountPerRecipient">MaxCountPerRecipient</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#max_count_per_recipient Connectcampaignsv2Campaign#max_count_per_recipient}. |
+| <code><a href="#@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.property.frequency">Frequency</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#frequency Connectcampaignsv2Campaign#frequency}. |
+| <code><a href="#@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.property.maxCountPerRecipient">MaxCountPerRecipient</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#max_count_per_recipient Connectcampaignsv2Campaign#max_count_per_recipient}. |
 | <code><a href="#@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.property.unit">Unit</a></code> | <code>*string</code> | The communication limit time unit. |
 
 ---
@@ -2230,7 +2230,7 @@ Frequency *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#frequency Connectcampaignsv2Campaign#frequency}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#frequency Connectcampaignsv2Campaign#frequency}.
 
 ---
 
@@ -2242,7 +2242,7 @@ MaxCountPerRecipient *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#max_count_per_recipient Connectcampaignsv2Campaign#max_count_per_recipient}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#max_count_per_recipient Connectcampaignsv2Campaign#max_count_per_recipient}.
 
 ---
 
@@ -2256,7 +2256,7 @@ Unit *string
 
 The communication limit time unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#unit Connectcampaignsv2Campaign#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#unit Connectcampaignsv2Campaign#unit}
 
 ---
 
@@ -2265,14 +2265,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfig {
-	Email: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmail,
-	LocalTimeZoneConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfig,
-	Sms: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSms,
-	Telephony: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephony,
-	WhatsApp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsApp,
+	Email: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmail,
+	LocalTimeZoneConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfig,
+	Sms: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSms,
+	Telephony: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephony,
+	WhatsApp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsApp,
 }
 ```
 
@@ -2298,7 +2298,7 @@ Email Connectcampaignsv2CampaignCommunicationTimeConfigEmail
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
 
 ---
 
@@ -2312,7 +2312,7 @@ LocalTimeZoneConfig Connectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZo
 
 Local time zone config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_config Connectcampaignsv2Campaign#local_time_zone_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_config Connectcampaignsv2Campaign#local_time_zone_config}
 
 ---
 
@@ -2326,7 +2326,7 @@ Sms Connectcampaignsv2CampaignCommunicationTimeConfigSms
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
 
 ---
 
@@ -2340,7 +2340,7 @@ Telephony Connectcampaignsv2CampaignCommunicationTimeConfigTelephony
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
 
 ---
 
@@ -2354,7 +2354,7 @@ WhatsApp Connectcampaignsv2CampaignCommunicationTimeConfigWhatsApp
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
 
 ---
 
@@ -2363,11 +2363,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmail {
-	OpenHours: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHours,
-	RestrictedPeriods: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriods,
+	OpenHours: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHours,
+	RestrictedPeriods: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriods,
 }
 ```
 
@@ -2390,7 +2390,7 @@ OpenHours Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHours
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -2404,7 +2404,7 @@ RestrictedPeriods Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrict
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -2413,7 +2413,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHours {
 	DailyHours: interface{},
@@ -2438,7 +2438,7 @@ DailyHours interface{}
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -2447,7 +2447,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHours {
 	Key: *string,
@@ -2474,7 +2474,7 @@ Key *string
 
 Day of week.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
 
 ---
 
@@ -2488,7 +2488,7 @@ Value interface{}
 
 List of time range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
 
 ---
 
@@ -2497,7 +2497,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValue {
 	EndTime: *string,
@@ -2524,7 +2524,7 @@ EndTime *string
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 
 ---
 
@@ -2538,7 +2538,7 @@ StartTime *string
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 
 ---
 
@@ -2547,7 +2547,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriods.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriods {
 	RestrictedPeriodList: interface{},
@@ -2572,7 +2572,7 @@ RestrictedPeriodList interface{}
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -2581,7 +2581,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStruct {
 	EndDate: *string,
@@ -2610,7 +2610,7 @@ EndDate *string
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
 
 ---
 
@@ -2624,7 +2624,7 @@ Name *string
 
 The name of a restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
 
 ---
 
@@ -2638,7 +2638,7 @@ StartDate *string
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
 
 ---
 
@@ -2647,7 +2647,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfig {
 	DefaultTimeZone: *string,
@@ -2676,7 +2676,7 @@ DefaultTimeZone *string
 
 Time Zone Id in the IANA format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#default_time_zone Connectcampaignsv2Campaign#default_time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#default_time_zone Connectcampaignsv2Campaign#default_time_zone}
 
 ---
 
@@ -2690,7 +2690,7 @@ LocalTimeZoneDetection *[]*string
 
 Local TimeZone Detection method list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection Connectcampaignsv2Campaign#local_time_zone_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection Connectcampaignsv2Campaign#local_time_zone_detection}
 
 ---
 
@@ -2704,7 +2704,7 @@ LocalTimeZoneDetectionScope *string
 
 Local TimeZone Detection scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection_scope Connectcampaignsv2Campaign#local_time_zone_detection_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection_scope Connectcampaignsv2Campaign#local_time_zone_detection_scope}
 
 ---
 
@@ -2713,11 +2713,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSms {
-	OpenHours: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHours,
-	RestrictedPeriods: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriods,
+	OpenHours: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHours,
+	RestrictedPeriods: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriods,
 }
 ```
 
@@ -2740,7 +2740,7 @@ OpenHours Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHours
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -2754,7 +2754,7 @@ RestrictedPeriods Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestricted
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -2763,7 +2763,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHours {
 	DailyHours: interface{},
@@ -2788,7 +2788,7 @@ DailyHours interface{}
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -2797,7 +2797,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHours {
 	Key: *string,
@@ -2824,7 +2824,7 @@ Key *string
 
 Day of week.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
 
 ---
 
@@ -2838,7 +2838,7 @@ Value interface{}
 
 List of time range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
 
 ---
 
@@ -2847,7 +2847,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValue {
 	EndTime: *string,
@@ -2874,7 +2874,7 @@ EndTime *string
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 
 ---
 
@@ -2888,7 +2888,7 @@ StartTime *string
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 
 ---
 
@@ -2897,7 +2897,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriods.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriods {
 	RestrictedPeriodList: interface{},
@@ -2922,7 +2922,7 @@ RestrictedPeriodList interface{}
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -2931,7 +2931,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStruct {
 	EndDate: *string,
@@ -2960,7 +2960,7 @@ EndDate *string
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
 
 ---
 
@@ -2974,7 +2974,7 @@ Name *string
 
 The name of a restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
 
 ---
 
@@ -2988,7 +2988,7 @@ StartDate *string
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
 
 ---
 
@@ -2997,11 +2997,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephony.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephony {
-	OpenHours: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours,
-	RestrictedPeriods: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriods,
+	OpenHours: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours,
+	RestrictedPeriods: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriods,
 }
 ```
 
@@ -3024,7 +3024,7 @@ OpenHours Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -3038,7 +3038,7 @@ RestrictedPeriods Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRest
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -3047,7 +3047,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours {
 	DailyHours: interface{},
@@ -3072,7 +3072,7 @@ DailyHours interface{}
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -3081,7 +3081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHours {
 	Key: *string,
@@ -3108,7 +3108,7 @@ Key *string
 
 Day of week.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
 
 ---
 
@@ -3122,7 +3122,7 @@ Value interface{}
 
 List of time range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
 
 ---
 
@@ -3131,7 +3131,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValue {
 	EndTime: *string,
@@ -3158,7 +3158,7 @@ EndTime *string
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 
 ---
 
@@ -3172,7 +3172,7 @@ StartTime *string
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 
 ---
 
@@ -3181,7 +3181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriods.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriods {
 	RestrictedPeriodList: interface{},
@@ -3206,7 +3206,7 @@ RestrictedPeriodList interface{}
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -3215,7 +3215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStruct {
 	EndDate: *string,
@@ -3244,7 +3244,7 @@ EndDate *string
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
 
 ---
 
@@ -3258,7 +3258,7 @@ Name *string
 
 The name of a restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
 
 ---
 
@@ -3272,7 +3272,7 @@ StartDate *string
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
 
 ---
 
@@ -3281,11 +3281,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsApp {
-	OpenHours: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHours,
-	RestrictedPeriods: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriods,
+	OpenHours: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHours,
+	RestrictedPeriods: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriods,
 }
 ```
 
@@ -3308,7 +3308,7 @@ OpenHours Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHours
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -3322,7 +3322,7 @@ RestrictedPeriods Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestr
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -3331,7 +3331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHours {
 	DailyHours: interface{},
@@ -3356,7 +3356,7 @@ DailyHours interface{}
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -3365,7 +3365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHours {
 	Key: *string,
@@ -3392,7 +3392,7 @@ Key *string
 
 Day of week.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
 
 ---
 
@@ -3406,7 +3406,7 @@ Value interface{}
 
 List of time range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
 
 ---
 
@@ -3415,7 +3415,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValue {
 	EndTime: *string,
@@ -3442,7 +3442,7 @@ EndTime *string
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 
 ---
 
@@ -3456,7 +3456,7 @@ StartTime *string
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 
 ---
 
@@ -3465,7 +3465,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriods.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriods {
 	RestrictedPeriodList: interface{},
@@ -3490,7 +3490,7 @@ RestrictedPeriodList interface{}
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -3499,7 +3499,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStruct {
 	EndDate: *string,
@@ -3528,7 +3528,7 @@ EndDate *string
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
 
 ---
 
@@ -3542,7 +3542,7 @@ Name *string
 
 The name of a restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
 
 ---
 
@@ -3556,7 +3556,7 @@ StartDate *string
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
 
 ---
 
@@ -3565,7 +3565,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignConfig {
 	Connection: interface{},
@@ -3577,13 +3577,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2camp
 	Provisioners: *[]interface{},
 	ConnectInstanceId: *string,
 	Name: *string,
-	ChannelSubtypeConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfig,
-	CommunicationLimitsOverride: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverride,
-	CommunicationTimeConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfig,
+	ChannelSubtypeConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfig,
+	CommunicationLimitsOverride: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverride,
+	CommunicationTimeConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfig,
 	ConnectCampaignFlowArn: *string,
-	EntryLimitsConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignEntryLimitsConfig,
-	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignSchedule,
-	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignSource,
+	EntryLimitsConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignEntryLimitsConfig,
+	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignSchedule,
+	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignSource,
 	Tags: interface{},
 	Type: *string,
 }
@@ -3694,7 +3694,7 @@ ConnectInstanceId *string
 
 Amazon Connect Instance Id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#connect_instance_id Connectcampaignsv2Campaign#connect_instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#connect_instance_id Connectcampaignsv2Campaign#connect_instance_id}
 
 ---
 
@@ -3708,7 +3708,7 @@ Name *string
 
 Campaign name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
 
 ---
 
@@ -3722,7 +3722,7 @@ ChannelSubtypeConfig Connectcampaignsv2CampaignChannelSubtypeConfig
 
 The possible types of channel subtype config parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#channel_subtype_config Connectcampaignsv2Campaign#channel_subtype_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#channel_subtype_config Connectcampaignsv2Campaign#channel_subtype_config}
 
 ---
 
@@ -3736,7 +3736,7 @@ CommunicationLimitsOverride Connectcampaignsv2CampaignCommunicationLimitsOverrid
 
 Communication limits config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#communication_limits_override Connectcampaignsv2Campaign#communication_limits_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#communication_limits_override Connectcampaignsv2Campaign#communication_limits_override}
 
 ---
 
@@ -3750,7 +3750,7 @@ CommunicationTimeConfig Connectcampaignsv2CampaignCommunicationTimeConfig
 
 Campaign communication time config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#communication_time_config Connectcampaignsv2Campaign#communication_time_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#communication_time_config Connectcampaignsv2Campaign#communication_time_config}
 
 ---
 
@@ -3764,7 +3764,7 @@ ConnectCampaignFlowArn *string
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#connect_campaign_flow_arn Connectcampaignsv2Campaign#connect_campaign_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#connect_campaign_flow_arn Connectcampaignsv2Campaign#connect_campaign_flow_arn}
 
 ---
 
@@ -3778,7 +3778,7 @@ EntryLimitsConfig Connectcampaignsv2CampaignEntryLimitsConfig
 
 Entry limits config for a campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#entry_limits_config Connectcampaignsv2Campaign#entry_limits_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#entry_limits_config Connectcampaignsv2Campaign#entry_limits_config}
 
 ---
 
@@ -3792,7 +3792,7 @@ Schedule Connectcampaignsv2CampaignSchedule
 
 Campaign schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#schedule Connectcampaignsv2Campaign#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#schedule Connectcampaignsv2Campaign#schedule}
 
 ---
 
@@ -3806,7 +3806,7 @@ Source Connectcampaignsv2CampaignSource
 
 The possible source of the campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#source Connectcampaignsv2Campaign#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#source Connectcampaignsv2Campaign#source}
 
 ---
 
@@ -3820,7 +3820,7 @@ Tags interface{}
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#tags Connectcampaignsv2Campaign#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#tags Connectcampaignsv2Campaign#tags}
 
 ---
 
@@ -3834,7 +3834,7 @@ Type *string
 
 Campaign type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#type Connectcampaignsv2Campaign#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#type Connectcampaignsv2Campaign#type}
 
 ---
 
@@ -3843,7 +3843,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignEntryLimitsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignEntryLimitsConfig {
 	MaxEntryCount: *f64,
@@ -3870,7 +3870,7 @@ MaxEntryCount *f64
 
 Maximum number of entries per participant. 0 indicates unlimited entries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#max_entry_count Connectcampaignsv2Campaign#max_entry_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#max_entry_count Connectcampaignsv2Campaign#max_entry_count}
 
 ---
 
@@ -3884,7 +3884,7 @@ MinEntryInterval *string
 
 Minimum time interval between entries for the same participant in ISO 8601 duration format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#min_entry_interval Connectcampaignsv2Campaign#min_entry_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#min_entry_interval Connectcampaignsv2Campaign#min_entry_interval}
 
 ---
 
@@ -3893,7 +3893,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignSchedule {
 	EndTime: *string,
@@ -3922,7 +3922,7 @@ EndTime *string
 
 Timestamp with no UTC offset or timezone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 
 ---
 
@@ -3936,7 +3936,7 @@ RefreshFrequency *string
 
 Time duration in ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#refresh_frequency Connectcampaignsv2Campaign#refresh_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#refresh_frequency Connectcampaignsv2Campaign#refresh_frequency}
 
 ---
 
@@ -3950,7 +3950,7 @@ StartTime *string
 
 Timestamp with no UTC offset or timezone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 
 ---
 
@@ -3959,11 +3959,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignSource {
 	CustomerProfilesSegmentArn: *string,
-	EventTrigger: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignSourceEventTrigger,
+	EventTrigger: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectcampaignsv2Campaign.Connectcampaignsv2CampaignSourceEventTrigger,
 }
 ```
 
@@ -3986,7 +3986,7 @@ CustomerProfilesSegmentArn *string
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_segment_arn Connectcampaignsv2Campaign#customer_profiles_segment_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_segment_arn Connectcampaignsv2Campaign#customer_profiles_segment_arn}
 
 ---
 
@@ -4000,7 +4000,7 @@ EventTrigger Connectcampaignsv2CampaignSourceEventTrigger
 
 The event trigger of the campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#event_trigger Connectcampaignsv2Campaign#event_trigger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#event_trigger Connectcampaignsv2Campaign#event_trigger}
 
 ---
 
@@ -4009,7 +4009,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignSourceEventTrigger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignSourceEventTrigger {
 	CustomerProfilesDomainArn: *string,
@@ -4034,7 +4034,7 @@ CustomerProfilesDomainArn *string
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_domain_arn Connectcampaignsv2Campaign#customer_profiles_domain_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_domain_arn Connectcampaignsv2Campaign#customer_profiles_domain_arn}
 
 ---
 
@@ -4043,7 +4043,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 &connectcampaignsv2campaign.Connectcampaignsv2CampaignTags {
 	Key: *string,
@@ -4070,7 +4070,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
 
 ---
 
@@ -4084,7 +4084,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
 
 ---
 
@@ -4095,7 +4095,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfigOutputReference
 ```
@@ -4431,7 +4431,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundModeOutputReference
 ```
@@ -4709,7 +4709,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigEmailOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutputReference
 ```
@@ -5071,7 +5071,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigOutputReference
 ```
@@ -5488,7 +5488,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfigOutputReference
 ```
@@ -5795,7 +5795,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundModeOutputReference
 ```
@@ -6073,7 +6073,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigSmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutputReference
 ```
@@ -6435,7 +6435,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfigOutputReference
 ```
@@ -6742,7 +6742,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigOutputReference
 ```
@@ -7120,7 +7120,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeOutputReference
 ```
@@ -7524,7 +7524,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfigOutputReference
 ```
@@ -7802,7 +7802,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigOutputReference
 ```
@@ -8151,7 +8151,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfigOutputReference
 ```
@@ -8429,7 +8429,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfigOutputReference
 ```
@@ -8707,7 +8707,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutputReference
 ```
@@ -9098,7 +9098,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfigOutputReference
 ```
@@ -9405,7 +9405,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundModeOutputReference
 ```
@@ -9683,7 +9683,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutputReference
 ```
@@ -10045,7 +10045,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructList
 ```
@@ -10205,7 +10205,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructOutputReference
 ```
@@ -10559,7 +10559,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesOutputReference
 ```
@@ -10850,7 +10850,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationLimitsOverrideOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationLimitsOverrideOutputReference
 ```
@@ -11170,7 +11170,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursList
 ```
@@ -11330,7 +11330,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursOutputReference
 ```
@@ -11668,7 +11668,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueList
 ```
@@ -11828,7 +11828,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueOutputReference
 ```
@@ -12153,7 +12153,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursOutputReference
 ```
@@ -12444,7 +12444,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigEmailOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigEmailOutputReference
 ```
@@ -12777,7 +12777,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsOutputReference
 ```
@@ -13068,7 +13068,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructList
 ```
@@ -13228,7 +13228,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference
 ```
@@ -13582,7 +13582,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfigOutputReference
 ```
@@ -13918,7 +13918,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigOutputReference
 ```
@@ -14377,7 +14377,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursList
 ```
@@ -14537,7 +14537,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursOutputReference
 ```
@@ -14875,7 +14875,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueList
 ```
@@ -15035,7 +15035,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueOutputReference
 ```
@@ -15360,7 +15360,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursOutputReference
 ```
@@ -15651,7 +15651,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigSmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigSmsOutputReference
 ```
@@ -15984,7 +15984,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsOutputReference
 ```
@@ -16275,7 +16275,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructList
 ```
@@ -16435,7 +16435,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructOutputReference
 ```
@@ -16789,7 +16789,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursList
 ```
@@ -16949,7 +16949,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursOutputReference
 ```
@@ -17287,7 +17287,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueList
 ```
@@ -17447,7 +17447,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference
 ```
@@ -17772,7 +17772,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursOutputReference
 ```
@@ -18063,7 +18063,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOutputReference
 ```
@@ -18396,7 +18396,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsOutputReference
 ```
@@ -18687,7 +18687,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList
 ```
@@ -18847,7 +18847,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructOutputReference
 ```
@@ -19201,7 +19201,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursList
 ```
@@ -19361,7 +19361,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursOutputReference
 ```
@@ -19699,7 +19699,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueList
 ```
@@ -19859,7 +19859,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueOutputReference
 ```
@@ -20184,7 +20184,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursOutputReference
 ```
@@ -20475,7 +20475,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOutputReference
 ```
@@ -20808,7 +20808,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsOutputReference
 ```
@@ -21099,7 +21099,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructList
 ```
@@ -21259,7 +21259,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference
 ```
@@ -21613,7 +21613,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignEntryLimitsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignEntryLimitsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignEntryLimitsConfigOutputReference
 ```
@@ -21920,7 +21920,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignScheduleOutputReference
 ```
@@ -22256,7 +22256,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignSourceEventTriggerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignSourceEventTriggerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignSourceEventTriggerOutputReference
 ```
@@ -22534,7 +22534,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Connectcampaignsv2CampaignSourceOutputReference
 ```
@@ -22854,7 +22854,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Connectcampaignsv2CampaignTagsList
 ```
@@ -23014,7 +23014,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcampaignsv2campaign"
 
 connectcampaignsv2campaign.NewConnectcampaignsv2CampaignTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Connectcampaignsv2CampaignTagsOutputReference
 ```

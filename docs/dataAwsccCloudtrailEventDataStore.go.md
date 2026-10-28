@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudtrailEventDataStore <a name="DataAwsccCloudtrailEventDataStore" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_event_data_store awscc_cloudtrail_event_data_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_event_data_store awscc_cloudtrail_event_data_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.NewDataAwsccCloudtrailEventDataStore(scope Construct, id *string, config DataAwsccCloudtrailEventDataStoreConfig) DataAwsccCloudtrailEventDataStore
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStore_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStore_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStore.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStore_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStore_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudtrailEventDa
 
 The id of the existing DataAwsccCloudtrailEventDataStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_event_data_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_event_data_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -807,7 +807,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreAdvancedEventSelectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 &dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStoreAdvancedEventSelectors {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileve
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsFieldSelectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 &dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsFieldSelectors {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileve
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 &dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStoreConfig {
 	Connection: interface{},
@@ -942,7 +942,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_event_data_store#id DataAwsccCloudtrailEventDataStore#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_event_data_store#id DataAwsccCloudtrailEventDataStore#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -954,7 +954,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreContextKeySelectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 &dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStoreContextKeySelectors {
 
@@ -967,7 +967,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileve
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreInsightSelectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 &dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStoreInsightSelectors {
 
@@ -980,7 +980,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileve
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 &dataawscccloudtraileventdatastore.DataAwsccCloudtrailEventDataStoreTags {
 
@@ -995,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileve
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsFieldSelectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.NewDataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsFieldSelectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsFieldSelectorsList
 ```
@@ -1144,7 +1144,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsFieldSelectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.NewDataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsFieldSelectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsFieldSelectorsOutputReference
 ```
@@ -1488,7 +1488,7 @@ func InternalValue() DataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsFiel
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.NewDataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsList
 ```
@@ -1637,7 +1637,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.NewDataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudtrailEventDataStoreAdvancedEventSelectorsOutputReference
 ```
@@ -1926,7 +1926,7 @@ func InternalValue() DataAwsccCloudtrailEventDataStoreAdvancedEventSelectors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreContextKeySelectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.NewDataAwsccCloudtrailEventDataStoreContextKeySelectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudtrailEventDataStoreContextKeySelectorsList
 ```
@@ -2075,7 +2075,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreContextKeySelectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.NewDataAwsccCloudtrailEventDataStoreContextKeySelectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudtrailEventDataStoreContextKeySelectorsOutputReference
 ```
@@ -2364,7 +2364,7 @@ func InternalValue() DataAwsccCloudtrailEventDataStoreContextKeySelectors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreInsightSelectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.NewDataAwsccCloudtrailEventDataStoreInsightSelectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudtrailEventDataStoreInsightSelectorsList
 ```
@@ -2513,7 +2513,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreInsightSelectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.NewDataAwsccCloudtrailEventDataStoreInsightSelectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudtrailEventDataStoreInsightSelectorsOutputReference
 ```
@@ -2791,7 +2791,7 @@ func InternalValue() DataAwsccCloudtrailEventDataStoreInsightSelectors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.NewDataAwsccCloudtrailEventDataStoreTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudtrailEventDataStoreTagsList
 ```
@@ -2940,7 +2940,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailEventDataStore.DataAwsccCloudtrailEventDataStoreTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastore"
 
 dataawscccloudtraileventdatastore.NewDataAwsccCloudtrailEventDataStoreTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudtrailEventDataStoreTagsOutputReference
 ```

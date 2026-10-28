@@ -4,12 +4,12 @@
 
 ### DataAwsccCustomerprofilesRecommenderFilter <a name="DataAwsccCustomerprofilesRecommenderFilter" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommenderFilter.DataAwsccCustomerprofilesRecommenderFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_recommender_filter awscc_customerprofiles_recommender_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_recommender_filter awscc_customerprofiles_recommender_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommenderFilter.DataAwsccCustomerprofilesRecommenderFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommenderfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommenderfilter"
 
 dataawscccustomerprofilesrecommenderfilter.NewDataAwsccCustomerprofilesRecommenderFilter(scope Construct, id *string, config DataAwsccCustomerprofilesRecommenderFilterConfig) DataAwsccCustomerprofilesRecommenderFilter
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommenderFilter.DataAwsccCustomerprofilesRecommenderFilter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommenderfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommenderfilter"
 
 dataawscccustomerprofilesrecommenderfilter.DataAwsccCustomerprofilesRecommenderFilter_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommenderFilter.DataAwsccCustomerprofilesRecommenderFilter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommenderfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommenderfilter"
 
 dataawscccustomerprofilesrecommenderfilter.DataAwsccCustomerprofilesRecommenderFilter_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccustomerprofilesrecommenderfilter.DataAwsccCustomerprofilesRecommenderF
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommenderFilter.DataAwsccCustomerprofilesRecommenderFilter.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommenderfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommenderfilter"
 
 dataawscccustomerprofilesrecommenderfilter.DataAwsccCustomerprofilesRecommenderFilter_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccustomerprofilesrecommenderfilter.DataAwsccCustomerprofilesRecommenderF
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommenderFilter.DataAwsccCustomerprofilesRecommenderFilter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommenderfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommenderfilter"
 
 dataawscccustomerprofilesrecommenderfilter.DataAwsccCustomerprofilesRecommenderFilter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCustomerprofilesR
 
 The id of the existing DataAwsccCustomerprofilesRecommenderFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_recommender_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_recommender_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommenderFilter.DataAwsccCustomerprofilesRecommenderFilterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommenderfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommenderfilter"
 
 &dataawscccustomerprofilesrecommenderfilter.DataAwsccCustomerprofilesRecommenderFilterConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_recommender_filter#id DataAwsccCustomerprofilesRecommenderFilter#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_recommender_filter#id DataAwsccCustomerprofilesRecommenderFilter#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommenderFilter.DataAwsccCustomerprofilesRecommenderFilterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommenderfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommenderfilter"
 
 &dataawscccustomerprofilesrecommenderfilter.DataAwsccCustomerprofilesRecommenderFilterTags {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommenderFilter.DataAwsccCustomerprofilesRecommenderFilterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommenderfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommenderfilter"
 
 dataawscccustomerprofilesrecommenderfilter.NewDataAwsccCustomerprofilesRecommenderFilterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesRecommenderFilterTagsList
 ```
@@ -971,7 +971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommenderFilter.DataAwsccCustomerprofilesRecommenderFilterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommenderfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommenderfilter"
 
 dataawscccustomerprofilesrecommenderfilter.NewDataAwsccCustomerprofilesRecommenderFilterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesRecommenderFilterTagsOutputReference
 ```

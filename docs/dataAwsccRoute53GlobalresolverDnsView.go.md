@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53GlobalresolverDnsView <a name="DataAwsccRoute53GlobalresolverDnsView" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverDnsView.DataAwsccRoute53GlobalresolverDnsView"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverDnsView.DataAwsccRoute53GlobalresolverDnsView.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverdnsview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverdnsview"
 
 dataawsccroute53globalresolverdnsview.NewDataAwsccRoute53GlobalresolverDnsView(scope Construct, id *string, config DataAwsccRoute53GlobalresolverDnsViewConfig) DataAwsccRoute53GlobalresolverDnsView
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverDnsView.DataAwsccRoute53GlobalresolverDnsView.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverdnsview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverdnsview"
 
 dataawsccroute53globalresolverdnsview.DataAwsccRoute53GlobalresolverDnsView_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverDnsView.DataAwsccRoute53GlobalresolverDnsView.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverdnsview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverdnsview"
 
 dataawsccroute53globalresolverdnsview.DataAwsccRoute53GlobalresolverDnsView_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53globalresolverdnsview.DataAwsccRoute53GlobalresolverDnsView_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverDnsView.DataAwsccRoute53GlobalresolverDnsView.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverdnsview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverdnsview"
 
 dataawsccroute53globalresolverdnsview.DataAwsccRoute53GlobalresolverDnsView_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53globalresolverdnsview.DataAwsccRoute53GlobalresolverDnsView_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverDnsView.DataAwsccRoute53GlobalresolverDnsView.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverdnsview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverdnsview"
 
 dataawsccroute53globalresolverdnsview.DataAwsccRoute53GlobalresolverDnsView_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Globalreso
 
 The id of the existing DataAwsccRoute53GlobalresolverDnsView that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_dns_view#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_dns_view#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverDnsView.DataAwsccRoute53GlobalresolverDnsViewConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverdnsview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverdnsview"
 
 &dataawsccroute53globalresolverdnsview.DataAwsccRoute53GlobalresolverDnsViewConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_dns_view#id DataAwsccRoute53GlobalresolverDnsView#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_dns_view#id DataAwsccRoute53GlobalresolverDnsView#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverDnsView.DataAwsccRoute53GlobalresolverDnsViewTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverdnsview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverdnsview"
 
 &dataawsccroute53globalresolverdnsview.DataAwsccRoute53GlobalresolverDnsViewTags {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53global
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverDnsView.DataAwsccRoute53GlobalresolverDnsViewTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverdnsview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverdnsview"
 
 dataawsccroute53globalresolverdnsview.NewDataAwsccRoute53GlobalresolverDnsViewTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53GlobalresolverDnsViewTagsList
 ```
@@ -1015,7 +1015,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverDnsView.DataAwsccRoute53GlobalresolverDnsViewTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverdnsview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverdnsview"
 
 dataawsccroute53globalresolverdnsview.NewDataAwsccRoute53GlobalresolverDnsViewTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53GlobalresolverDnsViewTagsOutputReference
 ```

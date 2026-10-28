@@ -4,12 +4,12 @@
 
 ### LightsailDomain <a name="LightsailDomain" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain awscc_lightsail_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain awscc_lightsail_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 lightsaildomain.NewLightsailDomain(scope Construct, id *string, config LightsailDomainConfig) LightsailDomain
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 lightsaildomain.LightsailDomain_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 lightsaildomain.LightsailDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ lightsaildomain.LightsailDomain_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomain.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 lightsaildomain.LightsailDomain_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ lightsaildomain.LightsailDomain_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 lightsaildomain.LightsailDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the LightsailDomain to import.
 
 The id of the existing LightsailDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -861,7 +861,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 &lightsaildomain.LightsailDomainConfig {
 	Connection: interface{},
@@ -974,7 +974,7 @@ DomainName *string
 
 The name of the domain to manage in Lightsail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain#domain_name LightsailDomain#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain#domain_name LightsailDomain#domain_name}
 
 ---
 
@@ -988,7 +988,7 @@ DomainEntries interface{}
 
 An array of key-value pairs containing information about the domain entries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain#domain_entries LightsailDomain#domain_entries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain#domain_entries LightsailDomain#domain_entries}
 
 ---
 
@@ -1002,7 +1002,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain#tags LightsailDomain#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain#tags LightsailDomain#tags}
 
 ---
 
@@ -1011,7 +1011,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomainDomainEntries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 &lightsaildomain.LightsailDomainDomainEntries {
 	Id: *string,
@@ -1044,7 +1044,7 @@ Id *string
 
 The ID of the domain recordset entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain#id LightsailDomain#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain#id LightsailDomain#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1063,7 +1063,7 @@ When true, specifies whether the domain entry is an alias used by the Lightsail 
 
 You can include an alias (A type) record in your request, which points to the DNS name of a load balancer, container service, CDN distribution, or other AWS resource and routes traffic to that resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain#is_alias LightsailDomain#is_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain#is_alias LightsailDomain#is_alias}
 
 ---
 
@@ -1077,7 +1077,7 @@ Name *string
 
 The name of the domain entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain#name LightsailDomain#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain#name LightsailDomain#name}
 
 ---
 
@@ -1091,7 +1091,7 @@ Target *string
 
 The target AWS name server (e.g., ns-111.awsdns-11.com).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain#target LightsailDomain#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain#target LightsailDomain#target}
 
 ---
 
@@ -1105,7 +1105,7 @@ Type *string
 
 The type of domain entry (e.g., A, CNAME, MX, NS, SOA, SRV, TXT).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain#type LightsailDomain#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain#type LightsailDomain#type}
 
 ---
 
@@ -1114,7 +1114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomainLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 &lightsaildomain.LightsailDomainLocation {
 
@@ -1127,7 +1127,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomainTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 &lightsaildomain.LightsailDomainTags {
 	Key: *string,
@@ -1154,7 +1154,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain#key LightsailDomain#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain#key LightsailDomain#key}
 
 ---
 
@@ -1168,7 +1168,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain#value LightsailDomain#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain#value LightsailDomain#value}
 
 ---
 
@@ -1179,7 +1179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomainDomainEntriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 lightsaildomain.NewLightsailDomainDomainEntriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailDomainDomainEntriesList
 ```
@@ -1339,7 +1339,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomainDomainEntriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 lightsaildomain.NewLightsailDomainDomainEntriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailDomainDomainEntriesOutputReference
 ```
@@ -1751,7 +1751,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomainLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 lightsaildomain.NewLightsailDomainLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailDomainLocationOutputReference
 ```
@@ -2022,7 +2022,7 @@ func InternalValue() LightsailDomainLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomainTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 lightsaildomain.NewLightsailDomainTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailDomainTagsList
 ```
@@ -2182,7 +2182,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDomain.LightsailDomainTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain"
 
 lightsaildomain.NewLightsailDomainTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailDomainTagsOutputReference
 ```

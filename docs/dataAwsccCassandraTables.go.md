@@ -4,12 +4,12 @@
 
 ### DataAwsccCassandraTables <a name="DataAwsccCassandraTables" id="@cdktn/provider-awscc.dataAwsccCassandraTables.DataAwsccCassandraTables"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cassandra_tables awscc_cassandra_tables}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cassandra_tables awscc_cassandra_tables}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTables.DataAwsccCassandraTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratables"
 
 dataawscccassandratables.NewDataAwsccCassandraTables(scope Construct, id *string, config DataAwsccCassandraTablesConfig) DataAwsccCassandraTables
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCassandraTables.DataAwsccCassandraTables.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratables"
 
 dataawscccassandratables.DataAwsccCassandraTables_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCassandraTables.DataAwsccCassandraTables.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratables"
 
 dataawscccassandratables.DataAwsccCassandraTables_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccassandratables.DataAwsccCassandraTables_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCassandraTables.DataAwsccCassandraTables.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratables"
 
 dataawscccassandratables.DataAwsccCassandraTables_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccassandratables.DataAwsccCassandraTables_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCassandraTables.DataAwsccCassandraTables.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratables"
 
 dataawscccassandratables.DataAwsccCassandraTables_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCassandraTables t
 
 The id of the existing DataAwsccCassandraTables that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cassandra_tables#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cassandra_tables#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTables.DataAwsccCassandraTablesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratables"
 
 &dataawscccassandratables.DataAwsccCassandraTablesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### Resourceexplorer2View <a name="Resourceexplorer2View" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2View"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2View.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view"
 
 resourceexplorer2view.NewResourceexplorer2View(scope Construct, id *string, config Resourceexplorer2ViewConfig) Resourceexplorer2View
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2View.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view"
 
 resourceexplorer2view.Resourceexplorer2View_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2View.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view"
 
 resourceexplorer2view.Resourceexplorer2View_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ resourceexplorer2view.Resourceexplorer2View_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2View.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view"
 
 resourceexplorer2view.Resourceexplorer2View_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ resourceexplorer2view.Resourceexplorer2View_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2View.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view"
 
 resourceexplorer2view.Resourceexplorer2View_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the Resourceexplorer2View to i
 
 The id of the existing Resourceexplorer2View that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -875,7 +875,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view"
 
 &resourceexplorer2view.Resourceexplorer2ViewConfig {
 	Connection: interface{},
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ViewName: *string,
-	Filters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.resourceexplorer2View.Resourceexplorer2ViewFilters,
+	Filters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resourceexplorer2View.Resourceexplorer2ViewFilters,
 	IncludedProperties: interface{},
 	Scope: *string,
 	Tags: *map[string]*string,
@@ -904,11 +904,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.viewName">ViewName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.filters">Filters</a></code> | <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFilters">Resourceexplorer2ViewFilters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.includedProperties">IncludedProperties</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.scope">Scope</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.viewName">ViewName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.filters">Filters</a></code> | <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFilters">Resourceexplorer2ViewFilters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.includedProperties">IncludedProperties</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.scope">Scope</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}. |
 
 ---
 
@@ -990,7 +990,7 @@ ViewName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}.
 
 ---
 
@@ -1002,7 +1002,7 @@ Filters Resourceexplorer2ViewFilters
 
 - *Type:* <a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFilters">Resourceexplorer2ViewFilters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}.
 
 ---
 
@@ -1014,7 +1014,7 @@ IncludedProperties interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}.
 
 ---
 
@@ -1026,7 +1026,7 @@ Scope *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}.
 
 ---
 
@@ -1038,7 +1038,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}.
 
 ---
 
@@ -1047,7 +1047,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view"
 
 &resourceexplorer2view.Resourceexplorer2ViewFilters {
 	FilterString: *string,
@@ -1058,7 +1058,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFilters.property.filterString">FilterString</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFilters.property.filterString">FilterString</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}. |
 
 ---
 
@@ -1070,7 +1070,7 @@ FilterString *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}.
 
 ---
 
@@ -1079,7 +1079,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewIncludedProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view"
 
 &resourceexplorer2view.Resourceexplorer2ViewIncludedProperties {
 	Name: *string,
@@ -1090,7 +1090,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewIncludedProperties.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewIncludedProperties.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}. |
 
 ---
 
@@ -1102,7 +1102,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.
 
 ---
 
@@ -1113,7 +1113,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view"
 
 resourceexplorer2view.NewResourceexplorer2ViewFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resourceexplorer2ViewFiltersOutputReference
 ```
@@ -1391,7 +1391,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewIncludedPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view"
 
 resourceexplorer2view.NewResourceexplorer2ViewIncludedPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Resourceexplorer2ViewIncludedPropertiesList
 ```
@@ -1551,7 +1551,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewIncludedPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view"
 
 resourceexplorer2view.NewResourceexplorer2ViewIncludedPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Resourceexplorer2ViewIncludedPropertiesOutputReference
 ```

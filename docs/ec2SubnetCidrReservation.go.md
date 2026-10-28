@@ -4,12 +4,12 @@
 
 ### Ec2SubnetCidrReservation <a name="Ec2SubnetCidrReservation" id="@cdktn/provider-awscc.ec2SubnetCidrReservation.Ec2SubnetCidrReservation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_cidr_reservation awscc_ec2_subnet_cidr_reservation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_cidr_reservation awscc_ec2_subnet_cidr_reservation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SubnetCidrReservation.Ec2SubnetCidrReservation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetcidrreservation"
 
 ec2subnetcidrreservation.NewEc2SubnetCidrReservation(scope Construct, id *string, config Ec2SubnetCidrReservationConfig) Ec2SubnetCidrReservation
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2SubnetCidrReservation.Ec2SubnetCidrReservation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetcidrreservation"
 
 ec2subnetcidrreservation.Ec2SubnetCidrReservation_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2SubnetCidrReservation.Ec2SubnetCidrReservation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetcidrreservation"
 
 ec2subnetcidrreservation.Ec2SubnetCidrReservation_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ ec2subnetcidrreservation.Ec2SubnetCidrReservation_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2SubnetCidrReservation.Ec2SubnetCidrReservation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetcidrreservation"
 
 ec2subnetcidrreservation.Ec2SubnetCidrReservation_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ ec2subnetcidrreservation.Ec2SubnetCidrReservation_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2SubnetCidrReservation.Ec2SubnetCidrReservation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetcidrreservation"
 
 ec2subnetcidrreservation.Ec2SubnetCidrReservation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the Ec2SubnetCidrReservation t
 
 The id of the existing Ec2SubnetCidrReservation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_cidr_reservation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_cidr_reservation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2SubnetCidrReservation.Ec2SubnetCidrReservationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetcidrreservation"
 
 &ec2subnetcidrreservation.Ec2SubnetCidrReservationConfig {
 	Connection: interface{},
@@ -989,7 +989,7 @@ The IPv4 or IPv6 CIDR range to reserve.
 
 Must lie inside the subnet's CIDR block and must not overlap an existing reservation. Supply an IPv6 range exactly as the service returns it: Amazon EC2 stores an IPv6 CIDR in RFC 5952 compressed form, and a noncanonical spelling of the same range is reported as drift because this property is create-only and read back.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_cidr_reservation#cidr Ec2SubnetCidrReservation#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_cidr_reservation#cidr Ec2SubnetCidrReservation#cidr}
 
 ---
 
@@ -1005,7 +1005,7 @@ The type of reservation.
 
 A prefix reservation is used for an IPv6 prefix delegated to a network interface; an explicit reservation is used for a range that Amazon EC2 must not assign automatically.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_cidr_reservation#reservation_type Ec2SubnetCidrReservation#reservation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_cidr_reservation#reservation_type Ec2SubnetCidrReservation#reservation_type}
 
 ---
 
@@ -1019,7 +1019,7 @@ SubnetId *string
 
 The identifier of the subnet the CIDR range is reserved in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_cidr_reservation#subnet_id Ec2SubnetCidrReservation#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_cidr_reservation#subnet_id Ec2SubnetCidrReservation#subnet_id}
 
 ---
 
@@ -1033,7 +1033,7 @@ Description *string
 
 The description of the subnet CIDR reservation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_cidr_reservation#description Ec2SubnetCidrReservation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_cidr_reservation#description Ec2SubnetCidrReservation#description}
 
 ---
 
@@ -1047,7 +1047,7 @@ Tags interface{}
 
 The tags assigned to the subnet CIDR reservation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_cidr_reservation#tags Ec2SubnetCidrReservation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_cidr_reservation#tags Ec2SubnetCidrReservation#tags}
 
 ---
 
@@ -1056,7 +1056,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2SubnetCidrReservation.Ec2SubnetCidrReservationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetcidrreservation"
 
 &ec2subnetcidrreservation.Ec2SubnetCidrReservationTags {
 	Key: *string,
@@ -1085,7 +1085,7 @@ The key of the tag.
 
 Amazon EC2 reserves keys beginning with 'aws:' for internal use and rejects them for this resource. Amazon EC2 accepts a maximum of 128 Unicode characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_cidr_reservation#key Ec2SubnetCidrReservation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_cidr_reservation#key Ec2SubnetCidrReservation#key}
 
 ---
 
@@ -1099,7 +1099,7 @@ Value *string
 
 The value of the tag. Amazon EC2 accepts a maximum of 256 Unicode characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_cidr_reservation#value Ec2SubnetCidrReservation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_cidr_reservation#value Ec2SubnetCidrReservation#value}
 
 ---
 
@@ -1110,7 +1110,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SubnetCidrReservation.Ec2SubnetCidrReservationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetcidrreservation"
 
 ec2subnetcidrreservation.NewEc2SubnetCidrReservationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2SubnetCidrReservationTagsList
 ```
@@ -1270,7 +1270,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SubnetCidrReservation.Ec2SubnetCidrReservationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetcidrreservation"
 
 ec2subnetcidrreservation.NewEc2SubnetCidrReservationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2SubnetCidrReservationTagsOutputReference
 ```

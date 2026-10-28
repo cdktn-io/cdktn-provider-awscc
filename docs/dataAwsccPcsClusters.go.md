@@ -4,12 +4,12 @@
 
 ### DataAwsccPcsClusters <a name="DataAwsccPcsClusters" id="@cdktn/provider-awscc.dataAwsccPcsClusters.DataAwsccPcsClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcs_clusters awscc_pcs_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcs_clusters awscc_pcs_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsClusters.DataAwsccPcsClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsclusters"
 
 dataawsccpcsclusters.NewDataAwsccPcsClusters(scope Construct, id *string, config DataAwsccPcsClustersConfig) DataAwsccPcsClusters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPcsClusters.DataAwsccPcsClusters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsclusters"
 
 dataawsccpcsclusters.DataAwsccPcsClusters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPcsClusters.DataAwsccPcsClusters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsclusters"
 
 dataawsccpcsclusters.DataAwsccPcsClusters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpcsclusters.DataAwsccPcsClusters_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPcsClusters.DataAwsccPcsClusters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsclusters"
 
 dataawsccpcsclusters.DataAwsccPcsClusters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpcsclusters.DataAwsccPcsClusters_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPcsClusters.DataAwsccPcsClusters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsclusters"
 
 dataawsccpcsclusters.DataAwsccPcsClusters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPcsClusters to im
 
 The id of the existing DataAwsccPcsClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcs_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcs_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsClusters.DataAwsccPcsClustersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsclusters"
 
 &dataawsccpcsclusters.DataAwsccPcsClustersConfig {
 	Connection: interface{},

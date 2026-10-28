@@ -4,12 +4,12 @@
 
 ### DataAwsccPricingplanmanagerSubscriptions <a name="DataAwsccPricingplanmanagerSubscriptions" id="@cdktn/provider-awscc.dataAwsccPricingplanmanagerSubscriptions.DataAwsccPricingplanmanagerSubscriptions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pricingplanmanager_subscriptions awscc_pricingplanmanager_subscriptions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pricingplanmanager_subscriptions awscc_pricingplanmanager_subscriptions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPricingplanmanagerSubscriptions.DataAwsccPricingplanmanagerSubscriptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpricingplanmanagersubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpricingplanmanagersubscriptions"
 
 dataawsccpricingplanmanagersubscriptions.NewDataAwsccPricingplanmanagerSubscriptions(scope Construct, id *string, config DataAwsccPricingplanmanagerSubscriptionsConfig) DataAwsccPricingplanmanagerSubscriptions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPricingplanmanagerSubscriptions.DataAwsccPricingplanmanagerSubscriptions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpricingplanmanagersubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpricingplanmanagersubscriptions"
 
 dataawsccpricingplanmanagersubscriptions.DataAwsccPricingplanmanagerSubscriptions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPricingplanmanagerSubscriptions.DataAwsccPricingplanmanagerSubscriptions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpricingplanmanagersubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpricingplanmanagersubscriptions"
 
 dataawsccpricingplanmanagersubscriptions.DataAwsccPricingplanmanagerSubscriptions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpricingplanmanagersubscriptions.DataAwsccPricingplanmanagerSubscription
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPricingplanmanagerSubscriptions.DataAwsccPricingplanmanagerSubscriptions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpricingplanmanagersubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpricingplanmanagersubscriptions"
 
 dataawsccpricingplanmanagersubscriptions.DataAwsccPricingplanmanagerSubscriptions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpricingplanmanagersubscriptions.DataAwsccPricingplanmanagerSubscription
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPricingplanmanagerSubscriptions.DataAwsccPricingplanmanagerSubscriptions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpricingplanmanagersubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpricingplanmanagersubscriptions"
 
 dataawsccpricingplanmanagersubscriptions.DataAwsccPricingplanmanagerSubscriptions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPricingplanmanage
 
 The id of the existing DataAwsccPricingplanmanagerSubscriptions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pricingplanmanager_subscriptions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pricingplanmanager_subscriptions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPricingplanmanagerSubscriptions.DataAwsccPricingplanmanagerSubscriptionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpricingplanmanagersubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpricingplanmanagersubscriptions"
 
 &dataawsccpricingplanmanagersubscriptions.DataAwsccPricingplanmanagerSubscriptionsConfig {
 	Connection: interface{},

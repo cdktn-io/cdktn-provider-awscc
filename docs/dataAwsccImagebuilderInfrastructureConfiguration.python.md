@@ -4,7 +4,7 @@
 
 ### DataAwsccImagebuilderInfrastructureConfiguration <a name="DataAwsccImagebuilderInfrastructureConfiguration" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration#id DataAwsccImagebuilderInfrastructureConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration#id DataAwsccImagebuilderInfrastructureConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccImagebuilderInfra
 
 The id of the existing DataAwsccImagebuilderInfrastructureConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -528,12 +528,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.keyPair">key_pair</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.logging">logging</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationLoggingOutputReference">DataAwsccImagebuilderInfrastructureConfigurationLoggingOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.parentInstance">parent_instance</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference">DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.placement">placement</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationPlacementOutputReference">DataAwsccImagebuilderInfrastructureConfigurationPlacementOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.resourceTags">resource_tags</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.securityGroupIds">security_group_ids</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.snsTopicArn">sns_topic_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.subnetId">subnet_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.tags">tags</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.terminateInstanceOnCompletion">terminate_instance_on_completion</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.terminateInstanceOnFailure">terminate_instance_on_failure</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -742,6 +744,16 @@ name: str
 
 ---
 
+##### `parent_instance`<sup>Required</sup> <a name="parent_instance" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.parentInstance"></a>
+
+```python
+parent_instance: DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference">DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference</a>
+
+---
+
 ##### `placement`<sup>Required</sup> <a name="placement" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.placement"></a>
 
 ```python
@@ -799,6 +811,16 @@ tags: StringMap
 ```
 
 - *Type:* cdktn.StringMap
+
+---
+
+##### `terminate_instance_on_completion`<sup>Required</sup> <a name="terminate_instance_on_completion" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfiguration.property.terminateInstanceOnCompletion"></a>
+
+```python
+terminate_instance_on_completion: IResolvable
+```
+
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -966,7 +988,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration#id DataAwsccImagebuilderInfrastructureConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration#id DataAwsccImagebuilderInfrastructureConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1003,6 +1025,28 @@ dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastruc
 from cdktn_provider_awscc import data_awscc_imagebuilder_infrastructure_configuration
 
 dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationLoggingS3Logs()
+```
+
+
+### DataAwsccImagebuilderInfrastructureConfigurationParentInstance <a name="DataAwsccImagebuilderInfrastructureConfigurationParentInstance" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstance"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstance.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_imagebuilder_infrastructure_configuration
+
+dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstance()
+```
+
+
+### DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup <a name="DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_imagebuilder_infrastructure_configuration
+
+dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup()
 ```
 
 
@@ -1892,6 +1936,587 @@ internal_value: DataAwsccImagebuilderInfrastructureConfigurationLoggingS3Logs
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationLoggingS3Logs">DataAwsccImagebuilderInfrastructureConfigurationLoggingS3Logs</a>
+
+---
+
+
+### DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference <a name="DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_imagebuilder_infrastructure_configuration
+
+dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.property.capacityWaitTimeoutSeconds">capacity_wait_timeout_seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup">DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `capacity_wait_timeout_seconds`<sup>Required</sup> <a name="capacity_wait_timeout_seconds" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.property.capacityWaitTimeoutSeconds"></a>
+
+```python
+capacity_wait_timeout_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup">DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup</a>
+
+---
+
+
+### DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference <a name="DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_imagebuilder_infrastructure_configuration
+
+dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.property.autoScalingGroup">auto_scaling_group</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference">DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstance">DataAwsccImagebuilderInfrastructureConfigurationParentInstance</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `auto_scaling_group`<sup>Required</sup> <a name="auto_scaling_group" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.property.autoScalingGroup"></a>
+
+```python
+auto_scaling_group: DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference">DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DataAwsccImagebuilderInfrastructureConfigurationParentInstance
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccImagebuilderInfrastructureConfiguration.DataAwsccImagebuilderInfrastructureConfigurationParentInstance">DataAwsccImagebuilderInfrastructureConfigurationParentInstance</a>
 
 ---
 

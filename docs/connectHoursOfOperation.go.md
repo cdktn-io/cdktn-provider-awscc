@@ -4,12 +4,12 @@
 
 ### ConnectHoursOfOperation <a name="ConnectHoursOfOperation" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation awscc_connect_hours_of_operation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation awscc_connect_hours_of_operation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperation(scope Construct, id *string, config ConnectHoursOfOperationConfig) ConnectHoursOfOperation
 ```
@@ -500,7 +500,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.ConnectHoursOfOperation_IsConstruct(x interface{}) *bool
 ```
@@ -532,7 +532,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.ConnectHoursOfOperation_IsTerraformElement(x interface{}) *bool
 ```
@@ -546,7 +546,7 @@ connecthoursofoperation.ConnectHoursOfOperation_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.ConnectHoursOfOperation_IsTerraformResource(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ connecthoursofoperation.ConnectHoursOfOperation_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.ConnectHoursOfOperation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -589,7 +589,7 @@ The construct id used in the generated config for the ConnectHoursOfOperation to
 
 The id of the existing ConnectHoursOfOperation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1009,7 +1009,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationChildHoursOfOperations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationChildHoursOfOperations {
 	Id: *string,
@@ -1036,7 +1036,7 @@ Id *string
 
 The identifier for the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1053,7 +1053,7 @@ Name *string
 
 The name of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
 
 ---
 
@@ -1062,7 +1062,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationConfig {
 	Connection: interface{},
@@ -1187,7 +1187,7 @@ Config interface{}
 
 Configuration information for the hours of operation: day, start time, and end time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#config ConnectHoursOfOperation#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#config ConnectHoursOfOperation#config}
 
 ---
 
@@ -1201,7 +1201,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#instance_arn ConnectHoursOfOperation#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#instance_arn ConnectHoursOfOperation#instance_arn}
 
 ---
 
@@ -1215,7 +1215,7 @@ Name *string
 
 The name of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
 
 ---
 
@@ -1229,7 +1229,7 @@ TimeZone *string
 
 The time zone of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#time_zone ConnectHoursOfOperation#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#time_zone ConnectHoursOfOperation#time_zone}
 
 ---
 
@@ -1243,7 +1243,7 @@ ChildHoursOfOperations interface{}
 
 List of child hours of operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#child_hours_of_operations ConnectHoursOfOperation#child_hours_of_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#child_hours_of_operations ConnectHoursOfOperation#child_hours_of_operations}
 
 ---
 
@@ -1257,7 +1257,7 @@ Description *string
 
 The description of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#description ConnectHoursOfOperation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#description ConnectHoursOfOperation#description}
 
 ---
 
@@ -1271,7 +1271,7 @@ HoursOfOperationOverrides interface{}
 
 One or more hours of operation overrides assigned to an hour of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#hours_of_operation_overrides ConnectHoursOfOperation#hours_of_operation_overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#hours_of_operation_overrides ConnectHoursOfOperation#hours_of_operation_overrides}
 
 ---
 
@@ -1285,7 +1285,7 @@ ParentHoursOfOperations interface{}
 
 List of parent hours of operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#parent_hours_of_operations ConnectHoursOfOperation#parent_hours_of_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#parent_hours_of_operations ConnectHoursOfOperation#parent_hours_of_operations}
 
 ---
 
@@ -1299,7 +1299,7 @@ Tags interface{}
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#tags ConnectHoursOfOperation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#tags ConnectHoursOfOperation#tags}
 
 ---
 
@@ -1308,12 +1308,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationConfigA.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationConfigA {
 	Day: *string,
-	EndTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectHoursOfOperation.ConnectHoursOfOperationConfigEndTime,
-	StartTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectHoursOfOperation.ConnectHoursOfOperationConfigStartTime,
+	EndTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectHoursOfOperation.ConnectHoursOfOperationConfigEndTime,
+	StartTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectHoursOfOperation.ConnectHoursOfOperationConfigStartTime,
 }
 ```
 
@@ -1337,7 +1337,7 @@ Day *string
 
 The day that the hours of operation applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
 
 ---
 
@@ -1351,7 +1351,7 @@ EndTime ConnectHoursOfOperationConfigEndTime
 
 The end time that your contact center closes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
 
 ---
 
@@ -1365,7 +1365,7 @@ StartTime ConnectHoursOfOperationConfigStartTime
 
 The start time that your contact center opens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
 
 ---
 
@@ -1374,7 +1374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationConfigEndTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationConfigEndTime {
 	Hours: *f64,
@@ -1401,7 +1401,7 @@ Hours *f64
 
 The hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
 
 ---
 
@@ -1415,7 +1415,7 @@ Minutes *f64
 
 The minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
 
 ---
 
@@ -1424,7 +1424,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationConfigStartTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationConfigStartTime {
 	Hours: *f64,
@@ -1451,7 +1451,7 @@ Hours *f64
 
 The hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
 
 ---
 
@@ -1465,7 +1465,7 @@ Minutes *f64
 
 The minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
 
 ---
 
@@ -1474,7 +1474,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationHoursOfOperationOverrides {
 	EffectiveFrom: *string,
@@ -1484,7 +1484,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperatio
 	OverrideDescription: *string,
 	OverrideName: *string,
 	OverrideType: *string,
-	RecurrenceConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfig,
+	RecurrenceConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfig,
 }
 ```
 
@@ -1513,7 +1513,7 @@ EffectiveFrom *string
 
 The date from which the hours of operation override would be effective.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#effective_from ConnectHoursOfOperation#effective_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#effective_from ConnectHoursOfOperation#effective_from}
 
 ---
 
@@ -1527,7 +1527,7 @@ EffectiveTill *string
 
 The date till which the hours of operation override would be effective.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#effective_till ConnectHoursOfOperation#effective_till}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#effective_till ConnectHoursOfOperation#effective_till}
 
 ---
 
@@ -1541,7 +1541,7 @@ HoursOfOperationOverrideId *string
 
 The Resource Identifier for the hours of operation override.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#hours_of_operation_override_id ConnectHoursOfOperation#hours_of_operation_override_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#hours_of_operation_override_id ConnectHoursOfOperation#hours_of_operation_override_id}
 
 ---
 
@@ -1555,7 +1555,7 @@ OverrideConfig interface{}
 
 Configuration information for the hours of operation override: day, start time, and end time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#override_config ConnectHoursOfOperation#override_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#override_config ConnectHoursOfOperation#override_config}
 
 ---
 
@@ -1569,7 +1569,7 @@ OverrideDescription *string
 
 The description of the hours of operation override.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#override_description ConnectHoursOfOperation#override_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#override_description ConnectHoursOfOperation#override_description}
 
 ---
 
@@ -1583,7 +1583,7 @@ OverrideName *string
 
 The name of the hours of operation override.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#override_name ConnectHoursOfOperation#override_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#override_name ConnectHoursOfOperation#override_name}
 
 ---
 
@@ -1597,7 +1597,7 @@ OverrideType *string
 
 The type of hours of operation override.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#override_type ConnectHoursOfOperation#override_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#override_type ConnectHoursOfOperation#override_type}
 
 ---
 
@@ -1611,7 +1611,7 @@ RecurrenceConfig ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfi
 
 Configuration for recurring hours of operation overrides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#recurrence_config ConnectHoursOfOperation#recurrence_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#recurrence_config ConnectHoursOfOperation#recurrence_config}
 
 ---
 
@@ -1620,12 +1620,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfig {
 	Day: *string,
-	EndTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTime,
-	StartTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTime,
+	EndTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTime,
+	StartTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTime,
 }
 ```
 
@@ -1649,7 +1649,7 @@ Day *string
 
 The day that the hours of operation override applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
 
 ---
 
@@ -1663,7 +1663,7 @@ EndTime ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTime
 
 The new end time that your contact center closes for the overriden days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
 
 ---
 
@@ -1677,7 +1677,7 @@ StartTime ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTim
 
 The new start time that your contact center opens for the overriden days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
 
 ---
 
@@ -1686,7 +1686,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTime {
 	Hours: *f64,
@@ -1713,7 +1713,7 @@ Hours *f64
 
 The hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
 
 ---
 
@@ -1727,7 +1727,7 @@ Minutes *f64
 
 The minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
 
 ---
 
@@ -1736,7 +1736,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTime {
 	Hours: *f64,
@@ -1763,7 +1763,7 @@ Hours *f64
 
 The hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
 
 ---
 
@@ -1777,7 +1777,7 @@ Minutes *f64
 
 The minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
 
 ---
 
@@ -1786,10 +1786,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfig {
-	RecurrencePattern: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern,
+	RecurrencePattern: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern,
 }
 ```
 
@@ -1811,7 +1811,7 @@ RecurrencePattern ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConf
 
 Pattern for recurring hours of operation overrides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#recurrence_pattern ConnectHoursOfOperation#recurrence_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#recurrence_pattern ConnectHoursOfOperation#recurrence_pattern}
 
 ---
 
@@ -1820,7 +1820,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern {
 	ByMonth: *[]*f64,
@@ -1837,9 +1837,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperatio
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.byMonth">ByMonth</a></code> | <code>*[]*f64</code> | List of months (1-12) for recurrence pattern. |
 | <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.byMonthDay">ByMonthDay</a></code> | <code>*[]*f64</code> | List of month days (-1 to 31) for recurrence pattern. |
-| <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.byWeekdayOccurrence">ByWeekdayOccurrence</a></code> | <code>*[]*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#by_weekday_occurrence ConnectHoursOfOperation#by_weekday_occurrence}. |
+| <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.byWeekdayOccurrence">ByWeekdayOccurrence</a></code> | <code>*[]*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#by_weekday_occurrence ConnectHoursOfOperation#by_weekday_occurrence}. |
 | <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.frequency">Frequency</a></code> | <code>*string</code> | The frequency of recurrence for hours of operation overrides. |
-| <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.interval">Interval</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#interval ConnectHoursOfOperation#interval}. |
+| <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.interval">Interval</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#interval ConnectHoursOfOperation#interval}. |
 
 ---
 
@@ -1853,7 +1853,7 @@ ByMonth *[]*f64
 
 List of months (1-12) for recurrence pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#by_month ConnectHoursOfOperation#by_month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#by_month ConnectHoursOfOperation#by_month}
 
 ---
 
@@ -1867,7 +1867,7 @@ ByMonthDay *[]*f64
 
 List of month days (-1 to 31) for recurrence pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#by_month_day ConnectHoursOfOperation#by_month_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#by_month_day ConnectHoursOfOperation#by_month_day}
 
 ---
 
@@ -1879,7 +1879,7 @@ ByWeekdayOccurrence *[]*f64
 
 - *Type:* *[]*f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#by_weekday_occurrence ConnectHoursOfOperation#by_weekday_occurrence}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#by_weekday_occurrence ConnectHoursOfOperation#by_weekday_occurrence}.
 
 ---
 
@@ -1893,7 +1893,7 @@ Frequency *string
 
 The frequency of recurrence for hours of operation overrides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#frequency ConnectHoursOfOperation#frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#frequency ConnectHoursOfOperation#frequency}
 
 ---
 
@@ -1905,7 +1905,7 @@ Interval *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#interval ConnectHoursOfOperation#interval}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#interval ConnectHoursOfOperation#interval}.
 
 ---
 
@@ -1914,7 +1914,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationParentHoursOfOperations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationParentHoursOfOperations {
 	Id: *string,
@@ -1941,7 +1941,7 @@ Id *string
 
 The identifier for the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1958,7 +1958,7 @@ Name *string
 
 The name of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
 
 ---
 
@@ -1967,7 +1967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 &connecthoursofoperation.ConnectHoursOfOperationTags {
 	Key: *string,
@@ -1996,7 +1996,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#key ConnectHoursOfOperation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#key ConnectHoursOfOperation#key}
 
 ---
 
@@ -2012,7 +2012,7 @@ The value for the tag.
 
 You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_hours_of_operation#value ConnectHoursOfOperation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_hours_of_operation#value ConnectHoursOfOperation#value}
 
 ---
 
@@ -2023,7 +2023,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationChildHoursOfOperationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationChildHoursOfOperationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectHoursOfOperationChildHoursOfOperationsList
 ```
@@ -2183,7 +2183,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationChildHoursOfOperationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationChildHoursOfOperationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectHoursOfOperationChildHoursOfOperationsOutputReference
 ```
@@ -2508,7 +2508,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationConfigAList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationConfigAList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectHoursOfOperationConfigAList
 ```
@@ -2668,7 +2668,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationConfigAOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationConfigAOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectHoursOfOperationConfigAOutputReference
 ```
@@ -3027,7 +3027,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationConfigEndTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationConfigEndTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectHoursOfOperationConfigEndTimeOutputReference
 ```
@@ -3320,7 +3320,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationConfigStartTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationConfigStartTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectHoursOfOperationConfigStartTimeOutputReference
 ```
@@ -3613,7 +3613,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationHoursOfOperationOverridesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectHoursOfOperationHoursOfOperationOverridesList
 ```
@@ -3773,7 +3773,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationHoursOfOperationOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectHoursOfOperationHoursOfOperationOverridesOutputReference
 ```
@@ -4298,7 +4298,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTimeOutputReference
 ```
@@ -4605,7 +4605,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigList
 ```
@@ -4765,7 +4765,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigOutputReference
 ```
@@ -5145,7 +5145,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTimeOutputReference
 ```
@@ -5452,7 +5452,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigOutputReference
 ```
@@ -5743,7 +5743,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePatternOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePatternOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePatternOutputReference
 ```
@@ -6137,7 +6137,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationParentHoursOfOperationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationParentHoursOfOperationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectHoursOfOperationParentHoursOfOperationsList
 ```
@@ -6297,7 +6297,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationParentHoursOfOperationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationParentHoursOfOperationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectHoursOfOperationParentHoursOfOperationsOutputReference
 ```
@@ -6622,7 +6622,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectHoursOfOperationTagsList
 ```
@@ -6782,7 +6782,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecthoursofoperation"
 
 connecthoursofoperation.NewConnectHoursOfOperationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectHoursOfOperationTagsOutputReference
 ```

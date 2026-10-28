@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2TransitGatewayRouteTables <a name="DataAwsccEc2TransitGatewayRouteTables" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayRouteTables.DataAwsccEc2TransitGatewayRouteTables"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_route_tables awscc_ec2_transit_gateway_route_tables}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_route_tables awscc_ec2_transit_gateway_route_tables}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayRouteTables.DataAwsccEc2TransitGatewayRouteTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayroutetables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayroutetables"
 
 dataawsccec2transitgatewayroutetables.NewDataAwsccEc2TransitGatewayRouteTables(scope Construct, id *string, config DataAwsccEc2TransitGatewayRouteTablesConfig) DataAwsccEc2TransitGatewayRouteTables
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayRouteTables.DataAwsccEc2TransitGatewayRouteTables.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayroutetables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayroutetables"
 
 dataawsccec2transitgatewayroutetables.DataAwsccEc2TransitGatewayRouteTables_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayRouteTables.DataAwsccEc2TransitGatewayRouteTables.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayroutetables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayroutetables"
 
 dataawsccec2transitgatewayroutetables.DataAwsccEc2TransitGatewayRouteTables_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2transitgatewayroutetables.DataAwsccEc2TransitGatewayRouteTables_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayRouteTables.DataAwsccEc2TransitGatewayRouteTables.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayroutetables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayroutetables"
 
 dataawsccec2transitgatewayroutetables.DataAwsccEc2TransitGatewayRouteTables_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2transitgatewayroutetables.DataAwsccEc2TransitGatewayRouteTables_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayRouteTables.DataAwsccEc2TransitGatewayRouteTables.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayroutetables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayroutetables"
 
 dataawsccec2transitgatewayroutetables.DataAwsccEc2TransitGatewayRouteTables_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2TransitGateway
 
 The id of the existing DataAwsccEc2TransitGatewayRouteTables that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_route_tables#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_route_tables#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayRouteTables.DataAwsccEc2TransitGatewayRouteTablesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayroutetables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayroutetables"
 
 &dataawsccec2transitgatewayroutetables.DataAwsccEc2TransitGatewayRouteTablesConfig {
 	Connection: interface{},

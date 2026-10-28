@@ -4,12 +4,12 @@
 
 ### DataAwsccS3StorageLens <a name="DataAwsccS3StorageLens" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLens"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLens.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLens(scope Construct, id *string, config DataAwsccS3StorageLensConfig) DataAwsccS3StorageLens
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLens.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.DataAwsccS3StorageLens_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLens.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.DataAwsccS3StorageLens_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3storagelens.DataAwsccS3StorageLens_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLens.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.DataAwsccS3StorageLens_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3storagelens.DataAwsccS3StorageLens_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLens.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.DataAwsccS3StorageLens_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3StorageLens to 
 
 The id of the existing DataAwsccS3StorageLens that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens#id DataAwsccS3StorageLens#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens#id DataAwsccS3StorageLens#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -730,7 +730,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfiguration {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevel {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelActivityMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelActivityMetrics {
 
@@ -769,7 +769,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedCostOptimizationMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedCostOptimizationMetrics {
 
@@ -782,7 +782,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedDataProtectionMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedDataProtectionMetrics {
 
@@ -795,7 +795,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics {
 
@@ -808,7 +808,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevel {
 
@@ -821,7 +821,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelActivityMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelActivityMetrics {
 
@@ -834,7 +834,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedCostOptimizationMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedCostOptimizationMetrics {
 
@@ -847,7 +847,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedDataProtectionMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedDataProtectionMetrics {
 
@@ -860,7 +860,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetrics {
 
@@ -873,7 +873,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelDetailedStatusCodesMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelDetailedStatusCodesMetrics {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevel {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetrics {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetricsSelectionCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetricsSelectionCriteria {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelDetailedStatusCodesMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelDetailedStatusCodesMetrics {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevel {
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevelStorageLensGroupSelectionCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevelStorageLensGroupSelectionCriteria {
 
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAwsOrg.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationAwsOrg {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationDataExport {
 
@@ -990,7 +990,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportCloudwatchMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationDataExportCloudwatchMetrics {
 
@@ -1003,7 +1003,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestination {
 
@@ -1016,7 +1016,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryption {
 
@@ -1029,7 +1029,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryptionSsekms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryptionSsekms {
 
@@ -1042,7 +1042,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestination {
 
@@ -1055,7 +1055,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryption {
 
@@ -1068,7 +1068,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryptionSsekms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryptionSsekms {
 
@@ -1081,7 +1081,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExclude.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationExclude {
 
@@ -1094,7 +1094,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExport {
 
@@ -1107,7 +1107,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestination {
 
@@ -1120,7 +1120,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryption {
 
@@ -1133,7 +1133,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryptionSsekms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryptionSsekms {
 
@@ -1146,7 +1146,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestination {
 
@@ -1159,7 +1159,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryption {
 
@@ -1172,7 +1172,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryptionSsekms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryptionSsekms {
 
@@ -1185,7 +1185,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationInclude.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensStorageLensConfigurationInclude {
 
@@ -1198,7 +1198,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 &dataawsccs3storagelens.DataAwsccS3StorageLensTags {
 
@@ -1213,7 +1213,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelActivityMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelActivityMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelActivityMetricsOutputReference
 ```
@@ -1473,7 +1473,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedCostOptimizationMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedCostOptimizationMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedCostOptimizationMetricsOutputReference
 ```
@@ -1733,7 +1733,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsOutputReference
 ```
@@ -1993,7 +1993,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference
 ```
@@ -2253,7 +2253,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelActivityMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelActivityMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelActivityMetricsOutputReference
 ```
@@ -2513,7 +2513,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelB
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedCostOptimizationMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedCostOptimizationMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedCostOptimizationMetricsOutputReference
 ```
@@ -2773,7 +2773,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelB
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedDataProtectionMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedDataProtectionMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedDataProtectionMetricsOutputReference
 ```
@@ -3033,7 +3033,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelB
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetricsOutputReference
 ```
@@ -3293,7 +3293,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelB
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelDetailedStatusCodesMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelDetailedStatusCodesMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelDetailedStatusCodesMetricsOutputReference
 ```
@@ -3553,7 +3553,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelB
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelOutputReference
 ```
@@ -3868,7 +3868,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelB
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelOutputReference
 ```
@@ -4128,7 +4128,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelB
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetricsOutputReference
 ```
@@ -4399,7 +4399,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelB
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetricsSelectionCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetricsSelectionCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelBucketLevelPrefixLevelStorageMetricsSelectionCriteriaOutputReference
 ```
@@ -4681,7 +4681,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelB
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelDetailedStatusCodesMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelDetailedStatusCodesMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelDetailedStatusCodesMetricsOutputReference
 ```
@@ -4941,7 +4941,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelOutputReference
 ```
@@ -5267,7 +5267,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevel
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevelOutputReference
 ```
@@ -5527,7 +5527,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevelStorageLensGroupSelectionCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevelStorageLensGroupSelectionCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAccountLevelStorageLensGroupLevelStorageLensGroupSelectionCriteriaOutputReference
 ```
@@ -5798,7 +5798,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAccountLevelS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationAwsOrgOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationAwsOrgOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationAwsOrgOutputReference
 ```
@@ -6058,7 +6058,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationAwsOrg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportCloudwatchMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationDataExportCloudwatchMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationDataExportCloudwatchMetricsOutputReference
 ```
@@ -6318,7 +6318,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationDataExportClo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationDataExportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationDataExportOutputReference
 ```
@@ -6600,7 +6600,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationDataExport
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryptionOutputReference
 ```
@@ -6871,7 +6871,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationDataExportS3B
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryptionSsekmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryptionSsekmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationEncryptionSsekmsOutputReference
 ```
@@ -7131,7 +7131,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationDataExportS3B
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationDataExportS3BucketDestinationOutputReference
 ```
@@ -7446,7 +7446,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationDataExportS3B
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryptionOutputReference
 ```
@@ -7717,7 +7717,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationDataExportSto
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryptionSsekmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryptionSsekmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationEncryptionSsekmsOutputReference
 ```
@@ -7977,7 +7977,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationDataExportSto
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationDataExportStorageLensTableDestinationOutputReference
 ```
@@ -8248,7 +8248,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationDataExportSto
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExcludeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationExcludeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationExcludeOutputReference
 ```
@@ -8519,7 +8519,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationExclude
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportOutputReference
 ```
@@ -8790,7 +8790,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryptionOutputReference
 ```
@@ -9061,7 +9061,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryptionSsekmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryptionSsekmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryptionSsekmsOutputReference
 ```
@@ -9321,7 +9321,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationOutputReference
 ```
@@ -9636,7 +9636,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryptionOutputReference
 ```
@@ -9907,7 +9907,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryptionSsekmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryptionSsekmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryptionSsekmsOutputReference
 ```
@@ -10167,7 +10167,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationOutputReference
 ```
@@ -10438,7 +10438,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationExpandedPrefi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationIncludeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationIncludeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationIncludeOutputReference
 ```
@@ -10709,7 +10709,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfigurationInclude
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensStorageLensConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensStorageLensConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensStorageLensConfigurationOutputReference
 ```
@@ -11068,7 +11068,7 @@ func InternalValue() DataAwsccS3StorageLensStorageLensConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3StorageLensTagsList
 ```
@@ -11217,7 +11217,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLens.DataAwsccS3StorageLensTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens"
 
 dataawsccs3storagelens.NewDataAwsccS3StorageLensTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3StorageLensTagsOutputReference
 ```

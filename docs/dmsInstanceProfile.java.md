@@ -4,7 +4,7 @@
 
 ### DmsInstanceProfile <a name="DmsInstanceProfile" id="@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile awscc_dms_instance_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile awscc_dms_instance_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfile.Initializer"></a>
 
@@ -45,7 +45,7 @@ DmsInstanceProfile.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfile.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfile.Initializer.parameter.availabilityZone">availabilityZone</a></code> | <code>java.lang.String</code> | The property describes an availability zone of the instance profile. |
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfile.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The optional description of the instance profile. |
-| <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfile.Initializer.parameter.instanceProfileIdentifier">instanceProfileIdentifier</a></code> | <code>java.lang.String</code> | The property describes an identifier for the instance profile. It is used for describing/deleting/modifying. Can be name/arn. |
+| <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfile.Initializer.parameter.instanceProfileIdentifier">instanceProfileIdentifier</a></code> | <code>java.lang.String</code> | [DEPRECATED] This property is unused and will be ignored. |
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfile.Initializer.parameter.instanceProfileName">instanceProfileName</a></code> | <code>java.lang.String</code> | The property describes a name for the instance profile. |
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfile.Initializer.parameter.kmsKeyArn">kmsKeyArn</a></code> | <code>java.lang.String</code> | The property describes kms key arn for the instance profile. |
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfile.Initializer.parameter.networkType">networkType</a></code> | <code>java.lang.String</code> | The property describes a network type for the instance profile. |
@@ -122,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 The property describes an availability zone of the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#availability_zone DmsInstanceProfile#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#availability_zone DmsInstanceProfile#availability_zone}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The optional description of the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#description DmsInstanceProfile#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#description DmsInstanceProfile#description}
 
 ---
 
@@ -140,9 +140,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-The property describes an identifier for the instance profile. It is used for describing/deleting/modifying. Can be name/arn.
+[DEPRECATED] This property is unused and will be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#instance_profile_identifier DmsInstanceProfile#instance_profile_identifier}
+Identity is managed via the resource ARN (primaryIdentifier) and Name (additionalIdentifier).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#instance_profile_identifier DmsInstanceProfile#instance_profile_identifier}
 
 ---
 
@@ -152,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property describes a name for the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#instance_profile_name DmsInstanceProfile#instance_profile_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#instance_profile_name DmsInstanceProfile#instance_profile_name}
 
 ---
 
@@ -162,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property describes kms key arn for the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#kms_key_arn DmsInstanceProfile#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#kms_key_arn DmsInstanceProfile#kms_key_arn}
 
 ---
 
@@ -172,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property describes a network type for the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#network_type DmsInstanceProfile#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#network_type DmsInstanceProfile#network_type}
 
 ---
 
@@ -182,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property describes the publicly accessible of the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#publicly_accessible DmsInstanceProfile#publicly_accessible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#publicly_accessible DmsInstanceProfile#publicly_accessible}
 
 ---
 
@@ -192,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property describes a subnet group identifier for the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#subnet_group_identifier DmsInstanceProfile#subnet_group_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#subnet_group_identifier DmsInstanceProfile#subnet_group_identifier}
 
 ---
 
@@ -202,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#tags DmsInstanceProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#tags DmsInstanceProfile#tags}
 
 ---
 
@@ -212,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The property describes vps security groups for the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#vpc_security_groups DmsInstanceProfile#vpc_security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#vpc_security_groups DmsInstanceProfile#vpc_security_groups}
 
 ---
 
@@ -744,7 +746,7 @@ The construct id used in the generated config for the DmsInstanceProfile to impo
 
 The id of the existing DmsInstanceProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1233,7 +1235,7 @@ DmsInstanceProfileConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfileConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfileConfig.property.availabilityZone">availabilityZone</a></code> | <code>java.lang.String</code> | The property describes an availability zone of the instance profile. |
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfileConfig.property.description">description</a></code> | <code>java.lang.String</code> | The optional description of the instance profile. |
-| <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfileConfig.property.instanceProfileIdentifier">instanceProfileIdentifier</a></code> | <code>java.lang.String</code> | The property describes an identifier for the instance profile. It is used for describing/deleting/modifying. Can be name/arn. |
+| <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfileConfig.property.instanceProfileIdentifier">instanceProfileIdentifier</a></code> | <code>java.lang.String</code> | [DEPRECATED] This property is unused and will be ignored. |
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfileConfig.property.instanceProfileName">instanceProfileName</a></code> | <code>java.lang.String</code> | The property describes a name for the instance profile. |
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfileConfig.property.kmsKeyArn">kmsKeyArn</a></code> | <code>java.lang.String</code> | The property describes kms key arn for the instance profile. |
 | <code><a href="#@cdktn/provider-awscc.dmsInstanceProfile.DmsInstanceProfileConfig.property.networkType">networkType</a></code> | <code>java.lang.String</code> | The property describes a network type for the instance profile. |
@@ -1324,7 +1326,7 @@ public java.lang.String getAvailabilityZone();
 
 The property describes an availability zone of the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#availability_zone DmsInstanceProfile#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#availability_zone DmsInstanceProfile#availability_zone}
 
 ---
 
@@ -1338,7 +1340,7 @@ public java.lang.String getDescription();
 
 The optional description of the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#description DmsInstanceProfile#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#description DmsInstanceProfile#description}
 
 ---
 
@@ -1350,9 +1352,11 @@ public java.lang.String getInstanceProfileIdentifier();
 
 - *Type:* java.lang.String
 
-The property describes an identifier for the instance profile. It is used for describing/deleting/modifying. Can be name/arn.
+[DEPRECATED] This property is unused and will be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#instance_profile_identifier DmsInstanceProfile#instance_profile_identifier}
+Identity is managed via the resource ARN (primaryIdentifier) and Name (additionalIdentifier).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#instance_profile_identifier DmsInstanceProfile#instance_profile_identifier}
 
 ---
 
@@ -1366,7 +1370,7 @@ public java.lang.String getInstanceProfileName();
 
 The property describes a name for the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#instance_profile_name DmsInstanceProfile#instance_profile_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#instance_profile_name DmsInstanceProfile#instance_profile_name}
 
 ---
 
@@ -1380,7 +1384,7 @@ public java.lang.String getKmsKeyArn();
 
 The property describes kms key arn for the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#kms_key_arn DmsInstanceProfile#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#kms_key_arn DmsInstanceProfile#kms_key_arn}
 
 ---
 
@@ -1394,7 +1398,7 @@ public java.lang.String getNetworkType();
 
 The property describes a network type for the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#network_type DmsInstanceProfile#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#network_type DmsInstanceProfile#network_type}
 
 ---
 
@@ -1408,7 +1412,7 @@ public java.lang.Boolean|IResolvable getPubliclyAccessible();
 
 The property describes the publicly accessible of the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#publicly_accessible DmsInstanceProfile#publicly_accessible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#publicly_accessible DmsInstanceProfile#publicly_accessible}
 
 ---
 
@@ -1422,7 +1426,7 @@ public java.lang.String getSubnetGroupIdentifier();
 
 The property describes a subnet group identifier for the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#subnet_group_identifier DmsInstanceProfile#subnet_group_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#subnet_group_identifier DmsInstanceProfile#subnet_group_identifier}
 
 ---
 
@@ -1436,7 +1440,7 @@ public IResolvable|java.util.List<DmsInstanceProfileTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#tags DmsInstanceProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#tags DmsInstanceProfile#tags}
 
 ---
 
@@ -1450,7 +1454,7 @@ public java.util.List<java.lang.String> getVpcSecurityGroups();
 
 The property describes vps security groups for the instance profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#vpc_security_groups DmsInstanceProfile#vpc_security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#vpc_security_groups DmsInstanceProfile#vpc_security_groups}
 
 ---
 
@@ -1488,7 +1492,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#key DmsInstanceProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#key DmsInstanceProfile#key}
 
 ---
 
@@ -1504,7 +1508,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_instance_profile#value DmsInstanceProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_instance_profile#value DmsInstanceProfile#value}
 
 ---
 

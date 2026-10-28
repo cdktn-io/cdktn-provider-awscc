@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2CapacityReservations <a name="DataAwsccEc2CapacityReservations" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservations.DataAwsccEc2CapacityReservations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_capacity_reservations awscc_ec2_capacity_reservations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_capacity_reservations awscc_ec2_capacity_reservations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservations.DataAwsccEc2CapacityReservations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservations"
 
 dataawsccec2capacityreservations.NewDataAwsccEc2CapacityReservations(scope Construct, id *string, config DataAwsccEc2CapacityReservationsConfig) DataAwsccEc2CapacityReservations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservations.DataAwsccEc2CapacityReservations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservations"
 
 dataawsccec2capacityreservations.DataAwsccEc2CapacityReservations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservations.DataAwsccEc2CapacityReservations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservations"
 
 dataawsccec2capacityreservations.DataAwsccEc2CapacityReservations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2capacityreservations.DataAwsccEc2CapacityReservations_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservations.DataAwsccEc2CapacityReservations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservations"
 
 dataawsccec2capacityreservations.DataAwsccEc2CapacityReservations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2capacityreservations.DataAwsccEc2CapacityReservations_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservations.DataAwsccEc2CapacityReservations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservations"
 
 dataawsccec2capacityreservations.DataAwsccEc2CapacityReservations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2CapacityReserv
 
 The id of the existing DataAwsccEc2CapacityReservations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_capacity_reservations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_capacity_reservations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservations.DataAwsccEc2CapacityReservationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservations"
 
 &dataawsccec2capacityreservations.DataAwsccEc2CapacityReservationsConfig {
 	Connection: interface{},

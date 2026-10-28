@@ -4,12 +4,12 @@
 
 ### DataAwsccMemorydbParameterGroup <a name="DataAwsccMemorydbParameterGroup" id="@cdktn/provider-awscc.dataAwsccMemorydbParameterGroup.DataAwsccMemorydbParameterGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_parameter_group awscc_memorydb_parameter_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_parameter_group awscc_memorydb_parameter_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMemorydbParameterGroup.DataAwsccMemorydbParameterGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbparametergroup"
 
 dataawsccmemorydbparametergroup.NewDataAwsccMemorydbParameterGroup(scope Construct, id *string, config DataAwsccMemorydbParameterGroupConfig) DataAwsccMemorydbParameterGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMemorydbParameterGroup.DataAwsccMemorydbParameterGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbparametergroup"
 
 dataawsccmemorydbparametergroup.DataAwsccMemorydbParameterGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMemorydbParameterGroup.DataAwsccMemorydbParameterGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbparametergroup"
 
 dataawsccmemorydbparametergroup.DataAwsccMemorydbParameterGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmemorydbparametergroup.DataAwsccMemorydbParameterGroup_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMemorydbParameterGroup.DataAwsccMemorydbParameterGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbparametergroup"
 
 dataawsccmemorydbparametergroup.DataAwsccMemorydbParameterGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmemorydbparametergroup.DataAwsccMemorydbParameterGroup_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMemorydbParameterGroup.DataAwsccMemorydbParameterGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbparametergroup"
 
 dataawsccmemorydbparametergroup.DataAwsccMemorydbParameterGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMemorydbParameter
 
 The id of the existing DataAwsccMemorydbParameterGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_parameter_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_parameter_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMemorydbParameterGroup.DataAwsccMemorydbParameterGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbparametergroup"
 
 &dataawsccmemorydbparametergroup.DataAwsccMemorydbParameterGroupConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_parameter_group#id DataAwsccMemorydbParameterGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_parameter_group#id DataAwsccMemorydbParameterGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMemorydbParameterGroup.DataAwsccMemorydbParameterGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbparametergroup"
 
 &dataawsccmemorydbparametergroup.DataAwsccMemorydbParameterGroupTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbparam
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMemorydbParameterGroup.DataAwsccMemorydbParameterGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbparametergroup"
 
 dataawsccmemorydbparametergroup.NewDataAwsccMemorydbParameterGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMemorydbParameterGroupTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMemorydbParameterGroup.DataAwsccMemorydbParameterGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbparametergroup"
 
 dataawsccmemorydbparametergroup.NewDataAwsccMemorydbParameterGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMemorydbParameterGroupTagsOutputReference
 ```

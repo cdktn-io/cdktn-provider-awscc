@@ -4,12 +4,12 @@
 
 ### DataAwsccRdsOptionGroup <a name="DataAwsccRdsOptionGroup" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_option_group awscc_rds_option_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_option_group awscc_rds_option_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 dataawsccrdsoptiongroup.NewDataAwsccRdsOptionGroup(scope Construct, id *string, config DataAwsccRdsOptionGroupConfig) DataAwsccRdsOptionGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 dataawsccrdsoptiongroup.DataAwsccRdsOptionGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 dataawsccrdsoptiongroup.DataAwsccRdsOptionGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrdsoptiongroup.DataAwsccRdsOptionGroup_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 dataawsccrdsoptiongroup.DataAwsccRdsOptionGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrdsoptiongroup.DataAwsccRdsOptionGroup_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 dataawsccrdsoptiongroup.DataAwsccRdsOptionGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRdsOptionGroup to
 
 The id of the existing DataAwsccRdsOptionGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_option_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_option_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 &dataawsccrdsoptiongroup.DataAwsccRdsOptionGroupConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_option_group#id DataAwsccRdsOptionGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_option_group#id DataAwsccRdsOptionGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroupOptionConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 &dataawsccrdsoptiongroup.DataAwsccRdsOptionGroupOptionConfigurations {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongrou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroupOptionConfigurationsOptionSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 &dataawsccrdsoptiongroup.DataAwsccRdsOptionGroupOptionConfigurationsOptionSettings {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongrou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 &dataawsccrdsoptiongroup.DataAwsccRdsOptionGroupTags {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongrou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroupOptionConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 dataawsccrdsoptiongroup.NewDataAwsccRdsOptionGroupOptionConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRdsOptionGroupOptionConfigurationsList
 ```
@@ -964,7 +964,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroupOptionConfigurationsOptionSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 dataawsccrdsoptiongroup.NewDataAwsccRdsOptionGroupOptionConfigurationsOptionSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRdsOptionGroupOptionConfigurationsOptionSettingsList
 ```
@@ -1113,7 +1113,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroupOptionConfigurationsOptionSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 dataawsccrdsoptiongroup.NewDataAwsccRdsOptionGroupOptionConfigurationsOptionSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRdsOptionGroupOptionConfigurationsOptionSettingsOutputReference
 ```
@@ -1402,7 +1402,7 @@ func InternalValue() DataAwsccRdsOptionGroupOptionConfigurationsOptionSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroupOptionConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 dataawsccrdsoptiongroup.NewDataAwsccRdsOptionGroupOptionConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRdsOptionGroupOptionConfigurationsOutputReference
 ```
@@ -1735,7 +1735,7 @@ func InternalValue() DataAwsccRdsOptionGroupOptionConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 dataawsccrdsoptiongroup.NewDataAwsccRdsOptionGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRdsOptionGroupTagsList
 ```
@@ -1884,7 +1884,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsOptionGroup.DataAwsccRdsOptionGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsoptiongroup"
 
 dataawsccrdsoptiongroup.NewDataAwsccRdsOptionGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRdsOptionGroupTagsOutputReference
 ```

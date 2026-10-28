@@ -4,12 +4,12 @@
 
 ### DataAwsccApplicationautoscalingScalableTarget <a name="DataAwsccApplicationautoscalingScalableTarget" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 dataawsccapplicationautoscalingscalabletarget.NewDataAwsccApplicationautoscalingScalableTarget(scope Construct, id *string, config DataAwsccApplicationautoscalingScalableTargetConfig) DataAwsccApplicationautoscalingScalableTarget
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 dataawsccapplicationautoscalingscalabletarget.DataAwsccApplicationautoscalingScalableTarget_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 dataawsccapplicationautoscalingscalabletarget.DataAwsccApplicationautoscalingScalableTarget_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapplicationautoscalingscalabletarget.DataAwsccApplicationautoscalingSca
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 dataawsccapplicationautoscalingscalabletarget.DataAwsccApplicationautoscalingScalableTarget_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapplicationautoscalingscalabletarget.DataAwsccApplicationautoscalingSca
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 dataawsccapplicationautoscalingscalabletarget.DataAwsccApplicationautoscalingScalableTarget_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApplicationautosc
 
 The id of the existing DataAwsccApplicationautoscalingScalableTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationautoscaling_scalable_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationautoscaling_scalable_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 &dataawsccapplicationautoscalingscalabletarget.DataAwsccApplicationautoscalingScalableTargetConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationautoscaling_scalable_target#id DataAwsccApplicationautoscalingScalableTarget#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationautoscaling_scalable_target#id DataAwsccApplicationautoscalingScalableTarget#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetScheduledActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 &dataawsccapplicationautoscalingscalabletarget.DataAwsccApplicationautoscalingScalableTargetScheduledActions {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetScheduledActionsScalableTargetAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 &dataawsccapplicationautoscalingscalabletarget.DataAwsccApplicationautoscalingScalableTargetScheduledActionsScalableTargetAction {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetSuspendedState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 &dataawsccapplicationautoscalingscalabletarget.DataAwsccApplicationautoscalingScalableTargetSuspendedState {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 &dataawsccapplicationautoscalingscalabletarget.DataAwsccApplicationautoscalingScalableTargetTags {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationau
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetScheduledActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 dataawsccapplicationautoscalingscalabletarget.NewDataAwsccApplicationautoscalingScalableTargetScheduledActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApplicationautoscalingScalableTargetScheduledActionsList
 ```
@@ -1021,7 +1021,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetScheduledActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 dataawsccapplicationautoscalingscalabletarget.NewDataAwsccApplicationautoscalingScalableTargetScheduledActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApplicationautoscalingScalableTargetScheduledActionsOutputReference
 ```
@@ -1354,7 +1354,7 @@ func InternalValue() DataAwsccApplicationautoscalingScalableTargetScheduledActio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetScheduledActionsScalableTargetActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 dataawsccapplicationautoscalingscalabletarget.NewDataAwsccApplicationautoscalingScalableTargetScheduledActionsScalableTargetActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApplicationautoscalingScalableTargetScheduledActionsScalableTargetActionOutputReference
 ```
@@ -1625,7 +1625,7 @@ func InternalValue() DataAwsccApplicationautoscalingScalableTargetScheduledActio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetSuspendedStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 dataawsccapplicationautoscalingscalabletarget.NewDataAwsccApplicationautoscalingScalableTargetSuspendedStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApplicationautoscalingScalableTargetSuspendedStateOutputReference
 ```
@@ -1907,7 +1907,7 @@ func InternalValue() DataAwsccApplicationautoscalingScalableTargetSuspendedState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 dataawsccapplicationautoscalingscalabletarget.NewDataAwsccApplicationautoscalingScalableTargetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApplicationautoscalingScalableTargetTagsList
 ```
@@ -2056,7 +2056,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget"
 
 dataawsccapplicationautoscalingscalabletarget.NewDataAwsccApplicationautoscalingScalableTargetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApplicationautoscalingScalableTargetTagsOutputReference
 ```

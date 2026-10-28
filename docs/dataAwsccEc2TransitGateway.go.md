@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2TransitGateway <a name="DataAwsccEc2TransitGateway" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateway.DataAwsccEc2TransitGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway awscc_ec2_transit_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway awscc_ec2_transit_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateway.DataAwsccEc2TransitGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgateway"
 
 dataawsccec2transitgateway.NewDataAwsccEc2TransitGateway(scope Construct, id *string, config DataAwsccEc2TransitGatewayConfig) DataAwsccEc2TransitGateway
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateway.DataAwsccEc2TransitGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgateway"
 
 dataawsccec2transitgateway.DataAwsccEc2TransitGateway_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateway.DataAwsccEc2TransitGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgateway"
 
 dataawsccec2transitgateway.DataAwsccEc2TransitGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2transitgateway.DataAwsccEc2TransitGateway_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateway.DataAwsccEc2TransitGateway.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgateway"
 
 dataawsccec2transitgateway.DataAwsccEc2TransitGateway_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2transitgateway.DataAwsccEc2TransitGateway_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateway.DataAwsccEc2TransitGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgateway"
 
 dataawsccec2transitgateway.DataAwsccEc2TransitGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2TransitGateway
 
 The id of the existing DataAwsccEc2TransitGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateway.DataAwsccEc2TransitGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgateway"
 
 &dataawsccec2transitgateway.DataAwsccEc2TransitGatewayConfig {
 	Connection: interface{},
@@ -883,7 +883,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway#id DataAwsccEc2TransitGateway#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway#id DataAwsccEc2TransitGateway#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -895,7 +895,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateway.DataAwsccEc2TransitGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgateway"
 
 &dataawsccec2transitgateway.DataAwsccEc2TransitGatewayTags {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateway.DataAwsccEc2TransitGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgateway"
 
 dataawsccec2transitgateway.NewDataAwsccEc2TransitGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2TransitGatewayTagsList
 ```
@@ -1059,7 +1059,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateway.DataAwsccEc2TransitGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgateway"
 
 dataawsccec2transitgateway.NewDataAwsccEc2TransitGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2TransitGatewayTagsOutputReference
 ```

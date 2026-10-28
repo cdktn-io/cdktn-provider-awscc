@@ -4,12 +4,12 @@
 
 ### DataAwsccLakeformationTags <a name="DataAwsccLakeformationTags" id="@cdktn/provider-awscc.dataAwsccLakeformationTags.DataAwsccLakeformationTags"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lakeformation_tags awscc_lakeformation_tags}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lakeformation_tags awscc_lakeformation_tags}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationTags.DataAwsccLakeformationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtags"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtags"
 
 dataawscclakeformationtags.NewDataAwsccLakeformationTags(scope Construct, id *string, config DataAwsccLakeformationTagsConfig) DataAwsccLakeformationTags
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLakeformationTags.DataAwsccLakeformationTags.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtags"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtags"
 
 dataawscclakeformationtags.DataAwsccLakeformationTags_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLakeformationTags.DataAwsccLakeformationTags.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtags"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtags"
 
 dataawscclakeformationtags.DataAwsccLakeformationTags_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclakeformationtags.DataAwsccLakeformationTags_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLakeformationTags.DataAwsccLakeformationTags.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtags"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtags"
 
 dataawscclakeformationtags.DataAwsccLakeformationTags_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclakeformationtags.DataAwsccLakeformationTags_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLakeformationTags.DataAwsccLakeformationTags.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtags"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtags"
 
 dataawscclakeformationtags.DataAwsccLakeformationTags_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLakeformationTags
 
 The id of the existing DataAwsccLakeformationTags that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lakeformation_tags#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lakeformation_tags#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationTags.DataAwsccLakeformationTagsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtags"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtags"
 
 &dataawscclakeformationtags.DataAwsccLakeformationTagsConfig {
 	Connection: interface{},

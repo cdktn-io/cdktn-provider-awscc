@@ -4,12 +4,12 @@
 
 ### DataAwsccRefactorspacesEnvironments <a name="DataAwsccRefactorspacesEnvironments" id="@cdktn/provider-awscc.dataAwsccRefactorspacesEnvironments.DataAwsccRefactorspacesEnvironments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/refactorspaces_environments awscc_refactorspaces_environments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/refactorspaces_environments awscc_refactorspaces_environments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRefactorspacesEnvironments.DataAwsccRefactorspacesEnvironments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesenvironments"
 
 dataawsccrefactorspacesenvironments.NewDataAwsccRefactorspacesEnvironments(scope Construct, id *string, config DataAwsccRefactorspacesEnvironmentsConfig) DataAwsccRefactorspacesEnvironments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRefactorspacesEnvironments.DataAwsccRefactorspacesEnvironments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesenvironments"
 
 dataawsccrefactorspacesenvironments.DataAwsccRefactorspacesEnvironments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRefactorspacesEnvironments.DataAwsccRefactorspacesEnvironments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesenvironments"
 
 dataawsccrefactorspacesenvironments.DataAwsccRefactorspacesEnvironments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrefactorspacesenvironments.DataAwsccRefactorspacesEnvironments_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRefactorspacesEnvironments.DataAwsccRefactorspacesEnvironments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesenvironments"
 
 dataawsccrefactorspacesenvironments.DataAwsccRefactorspacesEnvironments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrefactorspacesenvironments.DataAwsccRefactorspacesEnvironments_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRefactorspacesEnvironments.DataAwsccRefactorspacesEnvironments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesenvironments"
 
 dataawsccrefactorspacesenvironments.DataAwsccRefactorspacesEnvironments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRefactorspacesEnv
 
 The id of the existing DataAwsccRefactorspacesEnvironments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/refactorspaces_environments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/refactorspaces_environments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRefactorspacesEnvironments.DataAwsccRefactorspacesEnvironmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesenvironments"
 
 &dataawsccrefactorspacesenvironments.DataAwsccRefactorspacesEnvironmentsConfig {
 	Connection: interface{},

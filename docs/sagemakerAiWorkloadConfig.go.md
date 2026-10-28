@@ -4,12 +4,12 @@
 
 ### SagemakerAiWorkloadConfig <a name="SagemakerAiWorkloadConfig" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config awscc_sagemaker_ai_workload_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config awscc_sagemaker_ai_workload_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.NewSagemakerAiWorkloadConfig(scope Construct, id *string, config SagemakerAiWorkloadConfigConfig) SagemakerAiWorkloadConfig
 ```
@@ -460,7 +460,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.SagemakerAiWorkloadConfig_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.SagemakerAiWorkloadConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ sagemakeraiworkloadconfig.SagemakerAiWorkloadConfig_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.SagemakerAiWorkloadConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ sagemakeraiworkloadconfig.SagemakerAiWorkloadConfig_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.SagemakerAiWorkloadConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the SagemakerAiWorkloadConfig 
 
 The id of the existing SagemakerAiWorkloadConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,10 +870,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigAiWorkloadConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 &sagemakeraiworkloadconfig.SagemakerAiWorkloadConfigAiWorkloadConfigs {
-	WorkloadSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigAiWorkloadConfigsWorkloadSpec,
+	WorkloadSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigAiWorkloadConfigsWorkloadSpec,
 }
 ```
 
@@ -895,7 +895,7 @@ WorkloadSpec SagemakerAiWorkloadConfigAiWorkloadConfigsWorkloadSpec
 
 The workload specification that defines benchmark parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#workload_spec SagemakerAiWorkloadConfig#workload_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#workload_spec SagemakerAiWorkloadConfig#workload_spec}
 
 ---
 
@@ -904,7 +904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigAiWorkloadConfigsWorkloadSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 &sagemakeraiworkloadconfig.SagemakerAiWorkloadConfigAiWorkloadConfigsWorkloadSpec {
 	Inline: *string,
@@ -931,7 +931,7 @@ An inline YAML or JSON string that defines benchmark parameters.
 
 The service validates the document against its own benchmark schema: it must declare a benchmark object whose type member matches the pattern ^(aiperf)$.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#inline SagemakerAiWorkloadConfig#inline}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#inline SagemakerAiWorkloadConfig#inline}
 
 ---
 
@@ -940,7 +940,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 &sagemakeraiworkloadconfig.SagemakerAiWorkloadConfigConfig {
 	Connection: interface{},
@@ -951,8 +951,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadcon
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	AiWorkloadConfigName: *string,
-	AiWorkloadConfigs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigAiWorkloadConfigs,
-	DatasetConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfig,
+	AiWorkloadConfigs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigAiWorkloadConfigs,
+	DatasetConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfig,
 	Tags: interface{},
 }
 ```
@@ -1057,7 +1057,7 @@ The name of the AI workload configuration.
 
 The name must be unique within your AWS account in the current AWS Region. Only lowercase letters and digits are accepted: DeleteAIWorkloadConfig lowercases the name before looking it up, so a name containing an uppercase letter produces a configuration that can be created and read but never deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#ai_workload_config_name SagemakerAiWorkloadConfig#ai_workload_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#ai_workload_config_name SagemakerAiWorkloadConfig#ai_workload_config_name}
 
 ---
 
@@ -1071,7 +1071,7 @@ AiWorkloadConfigs SagemakerAiWorkloadConfigAiWorkloadConfigs
 
 The benchmark tool configuration and workload specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#ai_workload_configs SagemakerAiWorkloadConfig#ai_workload_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#ai_workload_configs SagemakerAiWorkloadConfig#ai_workload_configs}
 
 ---
 
@@ -1085,7 +1085,7 @@ DatasetConfig SagemakerAiWorkloadConfigDatasetConfig
 
 The dataset configuration for the workload. Specify input data channels with their data sources for benchmark workloads.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#dataset_config SagemakerAiWorkloadConfig#dataset_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#dataset_config SagemakerAiWorkloadConfig#dataset_config}
 
 ---
 
@@ -1099,7 +1099,7 @@ Tags interface{}
 
 The metadata that you apply to the AI workload configuration to help you categorize and organize it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#tags SagemakerAiWorkloadConfig#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#tags SagemakerAiWorkloadConfig#tags}
 
 ---
 
@@ -1108,7 +1108,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 &sagemakeraiworkloadconfig.SagemakerAiWorkloadConfigDatasetConfig {
 	InputDataConfig: interface{},
@@ -1133,7 +1133,7 @@ InputDataConfig interface{}
 
 An array of input data channel configurations for the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#input_data_config SagemakerAiWorkloadConfig#input_data_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#input_data_config SagemakerAiWorkloadConfig#input_data_config}
 
 ---
 
@@ -1142,11 +1142,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 &sagemakeraiworkloadconfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfig {
 	ChannelName: *string,
-	DataSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSource,
+	DataSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSource,
 }
 ```
 
@@ -1169,7 +1169,7 @@ ChannelName *string
 
 The logical name for the data channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#channel_name SagemakerAiWorkloadConfig#channel_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#channel_name SagemakerAiWorkloadConfig#channel_name}
 
 ---
 
@@ -1183,7 +1183,7 @@ DataSource SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSource
 
 The data source for this channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#data_source SagemakerAiWorkloadConfig#data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#data_source SagemakerAiWorkloadConfig#data_source}
 
 ---
 
@@ -1192,10 +1192,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 &sagemakeraiworkloadconfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSource {
-	S3DataSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSourceS3DataSource,
+	S3DataSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSourceS3DataSource,
 }
 ```
 
@@ -1217,7 +1217,7 @@ S3DataSource SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSourceS3Da
 
 The Amazon S3 data source configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#s3_data_source SagemakerAiWorkloadConfig#s3_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#s3_data_source SagemakerAiWorkloadConfig#s3_data_source}
 
 ---
 
@@ -1226,7 +1226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSourceS3DataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 &sagemakeraiworkloadconfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSourceS3DataSource {
 	S3Uri: *string,
@@ -1251,7 +1251,7 @@ S3Uri *string
 
 The Amazon S3 URI of the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#s3_uri SagemakerAiWorkloadConfig#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#s3_uri SagemakerAiWorkloadConfig#s3_uri}
 
 ---
 
@@ -1260,7 +1260,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 &sagemakeraiworkloadconfig.SagemakerAiWorkloadConfigTags {
 	Key: *string,
@@ -1287,7 +1287,7 @@ Key *string
 
 The tag key. Tag keys must be unique per resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#key SagemakerAiWorkloadConfig#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#key SagemakerAiWorkloadConfig#key}
 
 ---
 
@@ -1301,7 +1301,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_ai_workload_config#value SagemakerAiWorkloadConfig#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_ai_workload_config#value SagemakerAiWorkloadConfig#value}
 
 ---
 
@@ -1312,7 +1312,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigAiWorkloadConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.NewSagemakerAiWorkloadConfigAiWorkloadConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerAiWorkloadConfigAiWorkloadConfigsOutputReference
 ```
@@ -1603,7 +1603,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigAiWorkloadConfigsWorkloadSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.NewSagemakerAiWorkloadConfigAiWorkloadConfigsWorkloadSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerAiWorkloadConfigAiWorkloadConfigsWorkloadSpecOutputReference
 ```
@@ -1881,7 +1881,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.NewSagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSourceOutputReference
 ```
@@ -2172,7 +2172,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSourceS3DataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.NewSagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSourceS3DataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerAiWorkloadConfigDatasetConfigInputDataConfigDataSourceS3DataSourceOutputReference
 ```
@@ -2450,7 +2450,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.NewSagemakerAiWorkloadConfigDatasetConfigInputDataConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerAiWorkloadConfigDatasetConfigInputDataConfigList
 ```
@@ -2610,7 +2610,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigInputDataConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.NewSagemakerAiWorkloadConfigDatasetConfigInputDataConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerAiWorkloadConfigDatasetConfigInputDataConfigOutputReference
 ```
@@ -2948,7 +2948,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigDatasetConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.NewSagemakerAiWorkloadConfigDatasetConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerAiWorkloadConfigDatasetConfigOutputReference
 ```
@@ -3239,7 +3239,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.NewSagemakerAiWorkloadConfigTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerAiWorkloadConfigTagsList
 ```
@@ -3399,7 +3399,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAiWorkloadConfig.SagemakerAiWorkloadConfigTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraiworkloadconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraiworkloadconfig"
 
 sagemakeraiworkloadconfig.NewSagemakerAiWorkloadConfigTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerAiWorkloadConfigTagsOutputReference
 ```

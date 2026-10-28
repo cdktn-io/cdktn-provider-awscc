@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightLimitsProfile <a name="DataAwsccQuicksightLimitsProfile" id="@cdktn/provider-awscc.dataAwsccQuicksightLimitsProfile.DataAwsccQuicksightLimitsProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_limits_profile awscc_quicksight_limits_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_limits_profile awscc_quicksight_limits_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightLimitsProfile.DataAwsccQuicksightLimitsProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightlimitsprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightlimitsprofile"
 
 dataawsccquicksightlimitsprofile.NewDataAwsccQuicksightLimitsProfile(scope Construct, id *string, config DataAwsccQuicksightLimitsProfileConfig) DataAwsccQuicksightLimitsProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightLimitsProfile.DataAwsccQuicksightLimitsProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightlimitsprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightlimitsprofile"
 
 dataawsccquicksightlimitsprofile.DataAwsccQuicksightLimitsProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightLimitsProfile.DataAwsccQuicksightLimitsProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightlimitsprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightlimitsprofile"
 
 dataawsccquicksightlimitsprofile.DataAwsccQuicksightLimitsProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksightlimitsprofile.DataAwsccQuicksightLimitsProfile_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightLimitsProfile.DataAwsccQuicksightLimitsProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightlimitsprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightlimitsprofile"
 
 dataawsccquicksightlimitsprofile.DataAwsccQuicksightLimitsProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksightlimitsprofile.DataAwsccQuicksightLimitsProfile_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightLimitsProfile.DataAwsccQuicksightLimitsProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightlimitsprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightlimitsprofile"
 
 dataawsccquicksightlimitsprofile.DataAwsccQuicksightLimitsProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightLimitsP
 
 The id of the existing DataAwsccQuicksightLimitsProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_limits_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_limits_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightLimitsProfile.DataAwsccQuicksightLimitsProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightlimitsprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightlimitsprofile"
 
 &dataawsccquicksightlimitsprofile.DataAwsccQuicksightLimitsProfileConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_limits_profile#id DataAwsccQuicksightLimitsProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_limits_profile#id DataAwsccQuicksightLimitsProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightLimitsProfile.DataAwsccQuicksightLimitsProfileResourceLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightlimitsprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightlimitsprofile"
 
 &dataawsccquicksightlimitsprofile.DataAwsccQuicksightLimitsProfileResourceLimits {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightlim
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightLimitsProfile.DataAwsccQuicksightLimitsProfileResourceLimitsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightlimitsprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightlimitsprofile"
 
 dataawsccquicksightlimitsprofile.NewDataAwsccQuicksightLimitsProfileResourceLimitsMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightLimitsProfileResourceLimitsMap
 ```
@@ -947,7 +947,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightLimitsProfile.DataAwsccQuicksightLimitsProfileResourceLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightlimitsprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightlimitsprofile"
 
 dataawsccquicksightlimitsprofile.NewDataAwsccQuicksightLimitsProfileResourceLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccQuicksightLimitsProfileResourceLimitsOutputReference
 ```

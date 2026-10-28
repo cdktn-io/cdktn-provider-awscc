@@ -4,12 +4,12 @@
 
 ### AthenaCapacityReservation <a name="AthenaCapacityReservation" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation awscc_athena_capacity_reservation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation awscc_athena_capacity_reservation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 athenacapacityreservation.NewAthenaCapacityReservation(scope Construct, id *string, config AthenaCapacityReservationConfig) AthenaCapacityReservation
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 athenacapacityreservation.AthenaCapacityReservation_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 athenacapacityreservation.AthenaCapacityReservation_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ athenacapacityreservation.AthenaCapacityReservation_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 athenacapacityreservation.AthenaCapacityReservation_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ athenacapacityreservation.AthenaCapacityReservation_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 athenacapacityreservation.AthenaCapacityReservation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the AthenaCapacityReservation 
 
 The id of the existing AthenaCapacityReservation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -883,7 +883,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationCapacityAssignmentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 &athenacapacityreservation.AthenaCapacityReservationCapacityAssignmentConfiguration {
 	CapacityAssignments: interface{},
@@ -908,7 +908,7 @@ CapacityAssignments interface{}
 
 List of capacity assignments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#capacity_assignments AthenaCapacityReservation#capacity_assignments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#capacity_assignments AthenaCapacityReservation#capacity_assignments}
 
 ---
 
@@ -917,7 +917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 &athenacapacityreservation.AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignments {
 	WorkgroupNames: *[]*string,
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignments.property.workgroupNames">WorkgroupNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#workgroup_names AthenaCapacityReservation#workgroup_names}. |
+| <code><a href="#@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignments.property.workgroupNames">WorkgroupNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#workgroup_names AthenaCapacityReservation#workgroup_names}. |
 
 ---
 
@@ -940,7 +940,7 @@ WorkgroupNames *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#workgroup_names AthenaCapacityReservation#workgroup_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#workgroup_names AthenaCapacityReservation#workgroup_names}.
 
 ---
 
@@ -949,7 +949,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 &athenacapacityreservation.AthenaCapacityReservationConfig {
 	Connection: interface{},
@@ -961,7 +961,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservat
 	Provisioners: *[]interface{},
 	Name: *string,
 	TargetDpus: *f64,
-	CapacityAssignmentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaCapacityReservation.AthenaCapacityReservationCapacityAssignmentConfiguration,
+	CapacityAssignmentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaCapacityReservation.AthenaCapacityReservationCapacityAssignmentConfiguration,
 	Tags: interface{},
 }
 ```
@@ -1064,7 +1064,7 @@ Name *string
 
 The reservation name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#name AthenaCapacityReservation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#name AthenaCapacityReservation#name}
 
 ---
 
@@ -1078,7 +1078,7 @@ TargetDpus *f64
 
 The number of DPUs to request to be allocated to the reservation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#target_dpus AthenaCapacityReservation#target_dpus}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#target_dpus AthenaCapacityReservation#target_dpus}
 
 ---
 
@@ -1092,7 +1092,7 @@ CapacityAssignmentConfiguration AthenaCapacityReservationCapacityAssignmentConfi
 
 Assignment configuration to assign workgroups to a reservation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#capacity_assignment_configuration AthenaCapacityReservation#capacity_assignment_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#capacity_assignment_configuration AthenaCapacityReservation#capacity_assignment_configuration}
 
 ---
 
@@ -1106,7 +1106,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#tags AthenaCapacityReservation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#tags AthenaCapacityReservation#tags}
 
 ---
 
@@ -1115,7 +1115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 &athenacapacityreservation.AthenaCapacityReservationTags {
 	Key: *string,
@@ -1127,8 +1127,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#key AthenaCapacityReservation#key}. |
-| <code><a href="#@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#value AthenaCapacityReservation#value}. |
+| <code><a href="#@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#key AthenaCapacityReservation#key}. |
+| <code><a href="#@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#value AthenaCapacityReservation#value}. |
 
 ---
 
@@ -1140,7 +1140,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#key AthenaCapacityReservation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#key AthenaCapacityReservation#key}.
 
 ---
 
@@ -1152,7 +1152,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_capacity_reservation#value AthenaCapacityReservation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_capacity_reservation#value AthenaCapacityReservation#value}.
 
 ---
 
@@ -1163,7 +1163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 athenacapacityreservation.NewAthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignmentsList
 ```
@@ -1323,7 +1323,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 athenacapacityreservation.NewAthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAssignmentsOutputReference
 ```
@@ -1619,7 +1619,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationCapacityAssignmentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 athenacapacityreservation.NewAthenaCapacityReservationCapacityAssignmentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaCapacityReservationCapacityAssignmentConfigurationOutputReference
 ```
@@ -1910,7 +1910,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 athenacapacityreservation.NewAthenaCapacityReservationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AthenaCapacityReservationTagsList
 ```
@@ -2070,7 +2070,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaCapacityReservation.AthenaCapacityReservationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenacapacityreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenacapacityreservation"
 
 athenacapacityreservation.NewAthenaCapacityReservationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AthenaCapacityReservationTagsOutputReference
 ```

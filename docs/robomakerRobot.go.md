@@ -4,12 +4,12 @@
 
 ### RobomakerRobot <a name="RobomakerRobot" id="@cdktn/provider-awscc.robomakerRobot.RobomakerRobot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot awscc_robomaker_robot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot awscc_robomaker_robot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerRobot.RobomakerRobot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobot"
 
 robomakerrobot.NewRobomakerRobot(scope Construct, id *string, config RobomakerRobotConfig) RobomakerRobot
 ```
@@ -421,7 +421,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.robomakerRobot.RobomakerRobot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobot"
 
 robomakerrobot.RobomakerRobot_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.robomakerRobot.RobomakerRobot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobot"
 
 robomakerrobot.RobomakerRobot_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ robomakerrobot.RobomakerRobot_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.robomakerRobot.RobomakerRobot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobot"
 
 robomakerrobot.RobomakerRobot_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ robomakerrobot.RobomakerRobot_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.robomakerRobot.RobomakerRobot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobot"
 
 robomakerrobot.RobomakerRobot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the RobomakerRobot to import.
 
 The id of the existing RobomakerRobot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -842,7 +842,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.robomakerRobot.RobomakerRobotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobot"
 
 &robomakerrobot.RobomakerRobotConfig {
 	Connection: interface{},
@@ -959,7 +959,7 @@ Architecture *string
 
 The target architecture of the robot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot#architecture RobomakerRobot#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot#architecture RobomakerRobot#architecture}
 
 ---
 
@@ -973,7 +973,7 @@ GreengrassGroupId *string
 
 The Greengrass group id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot#greengrass_group_id RobomakerRobot#greengrass_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot#greengrass_group_id RobomakerRobot#greengrass_group_id}
 
 ---
 
@@ -987,7 +987,7 @@ Fleet *string
 
 The Amazon Resource Name (ARN) of the fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot#fleet RobomakerRobot#fleet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot#fleet RobomakerRobot#fleet}
 
 ---
 
@@ -1001,7 +1001,7 @@ Name *string
 
 The name for the robot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot#name RobomakerRobot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot#name RobomakerRobot#name}
 
 ---
 
@@ -1015,7 +1015,7 @@ Tags *map[string]*string
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot#tags RobomakerRobot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot#tags RobomakerRobot#tags}
 
 ---
 

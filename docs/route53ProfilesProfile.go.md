@@ -4,12 +4,12 @@
 
 ### Route53ProfilesProfile <a name="Route53ProfilesProfile" id="@cdktn/provider-awscc.route53ProfilesProfile.Route53ProfilesProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53profiles_profile awscc_route53profiles_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53profiles_profile awscc_route53profiles_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ProfilesProfile.Route53ProfilesProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53profilesprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53profilesprofile"
 
 route53profilesprofile.NewRoute53ProfilesProfile(scope Construct, id *string, config Route53ProfilesProfileConfig) Route53ProfilesProfile
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.route53ProfilesProfile.Route53ProfilesProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53profilesprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53profilesprofile"
 
 route53profilesprofile.Route53ProfilesProfile_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.route53ProfilesProfile.Route53ProfilesProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53profilesprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53profilesprofile"
 
 route53profilesprofile.Route53ProfilesProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ route53profilesprofile.Route53ProfilesProfile_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.route53ProfilesProfile.Route53ProfilesProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53profilesprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53profilesprofile"
 
 route53profilesprofile.Route53ProfilesProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ route53profilesprofile.Route53ProfilesProfile_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.route53ProfilesProfile.Route53ProfilesProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53profilesprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53profilesprofile"
 
 route53profilesprofile.Route53ProfilesProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Route53ProfilesProfile to 
 
 The id of the existing Route53ProfilesProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53profiles_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53profiles_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -808,7 +808,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53ProfilesProfile.Route53ProfilesProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53profilesprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53profilesprofile"
 
 &route53profilesprofile.Route53ProfilesProfileConfig {
 	Connection: interface{},
@@ -919,7 +919,7 @@ Name *string
 
 The name of the profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53profiles_profile#name Route53ProfilesProfile#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53profiles_profile#name Route53ProfilesProfile#name}
 
 ---
 
@@ -933,7 +933,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53profiles_profile#tags Route53ProfilesProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53profiles_profile#tags Route53ProfilesProfile#tags}
 
 ---
 
@@ -942,7 +942,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53ProfilesProfile.Route53ProfilesProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53profilesprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53profilesprofile"
 
 &route53profilesprofile.Route53ProfilesProfileTags {
 	Key: *string,
@@ -971,7 +971,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53profiles_profile#key Route53ProfilesProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53profiles_profile#key Route53ProfilesProfile#key}
 
 ---
 
@@ -987,7 +987,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53profiles_profile#value Route53ProfilesProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53profiles_profile#value Route53ProfilesProfile#value}
 
 ---
 
@@ -998,7 +998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ProfilesProfile.Route53ProfilesProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53profilesprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53profilesprofile"
 
 route53profilesprofile.NewRoute53ProfilesProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Route53ProfilesProfileTagsList
 ```
@@ -1158,7 +1158,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ProfilesProfile.Route53ProfilesProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53profilesprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53profilesprofile"
 
 route53profilesprofile.NewRoute53ProfilesProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Route53ProfilesProfileTagsOutputReference
 ```

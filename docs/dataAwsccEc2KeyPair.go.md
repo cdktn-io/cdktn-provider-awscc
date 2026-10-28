@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2KeyPair <a name="DataAwsccEc2KeyPair" id="@cdktn/provider-awscc.dataAwsccEc2KeyPair.DataAwsccEc2KeyPair"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_key_pair awscc_ec2_key_pair}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_key_pair awscc_ec2_key_pair}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2KeyPair.DataAwsccEc2KeyPair.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2keypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2keypair"
 
 dataawsccec2keypair.NewDataAwsccEc2KeyPair(scope Construct, id *string, config DataAwsccEc2KeyPairConfig) DataAwsccEc2KeyPair
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2KeyPair.DataAwsccEc2KeyPair.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2keypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2keypair"
 
 dataawsccec2keypair.DataAwsccEc2KeyPair_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2KeyPair.DataAwsccEc2KeyPair.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2keypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2keypair"
 
 dataawsccec2keypair.DataAwsccEc2KeyPair_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2keypair.DataAwsccEc2KeyPair_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2KeyPair.DataAwsccEc2KeyPair.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2keypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2keypair"
 
 dataawsccec2keypair.DataAwsccEc2KeyPair_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2keypair.DataAwsccEc2KeyPair_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2KeyPair.DataAwsccEc2KeyPair.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2keypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2keypair"
 
 dataawsccec2keypair.DataAwsccEc2KeyPair_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2KeyPair to imp
 
 The id of the existing DataAwsccEc2KeyPair that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_key_pair#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_key_pair#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2KeyPair.DataAwsccEc2KeyPairConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2keypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2keypair"
 
 &dataawsccec2keypair.DataAwsccEc2KeyPairConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_key_pair#id DataAwsccEc2KeyPair#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_key_pair#id DataAwsccEc2KeyPair#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2KeyPair.DataAwsccEc2KeyPairTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2keypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2keypair"
 
 &dataawsccec2keypair.DataAwsccEc2KeyPairTags {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2keypair"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2KeyPair.DataAwsccEc2KeyPairTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2keypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2keypair"
 
 dataawsccec2keypair.NewDataAwsccEc2KeyPairTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2KeyPairTagsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2KeyPair.DataAwsccEc2KeyPairTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2keypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2keypair"
 
 dataawsccec2keypair.NewDataAwsccEc2KeyPairTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2KeyPairTagsOutputReference
 ```

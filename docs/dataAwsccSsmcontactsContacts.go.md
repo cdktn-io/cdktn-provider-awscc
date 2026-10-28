@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmcontactsContacts <a name="DataAwsccSsmcontactsContacts" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContacts.DataAwsccSsmcontactsContacts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmcontacts_contacts awscc_ssmcontacts_contacts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmcontacts_contacts awscc_ssmcontacts_contacts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContacts.DataAwsccSsmcontactsContacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontacts"
 
 dataawsccssmcontactscontacts.NewDataAwsccSsmcontactsContacts(scope Construct, id *string, config DataAwsccSsmcontactsContactsConfig) DataAwsccSsmcontactsContacts
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContacts.DataAwsccSsmcontactsContacts.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontacts"
 
 dataawsccssmcontactscontacts.DataAwsccSsmcontactsContacts_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContacts.DataAwsccSsmcontactsContacts.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontacts"
 
 dataawsccssmcontactscontacts.DataAwsccSsmcontactsContacts_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmcontactscontacts.DataAwsccSsmcontactsContacts_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContacts.DataAwsccSsmcontactsContacts.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontacts"
 
 dataawsccssmcontactscontacts.DataAwsccSsmcontactsContacts_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmcontactscontacts.DataAwsccSsmcontactsContacts_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContacts.DataAwsccSsmcontactsContacts.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontacts"
 
 dataawsccssmcontactscontacts.DataAwsccSsmcontactsContacts_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmcontactsContac
 
 The id of the existing DataAwsccSsmcontactsContacts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmcontacts_contacts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmcontacts_contacts#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContacts.DataAwsccSsmcontactsContactsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontacts"
 
 &dataawsccssmcontactscontacts.DataAwsccSsmcontactsContactsConfig {
 	Connection: interface{},

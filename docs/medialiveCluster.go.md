@@ -4,12 +4,12 @@
 
 ### MedialiveCluster <a name="MedialiveCluster" id="@cdktn/provider-awscc.medialiveCluster.MedialiveCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster awscc_medialive_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster awscc_medialive_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveCluster.MedialiveCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 medialivecluster.NewMedialiveCluster(scope Construct, id *string, config MedialiveClusterConfig) MedialiveCluster
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.medialiveCluster.MedialiveCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 medialivecluster.MedialiveCluster_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.medialiveCluster.MedialiveCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 medialivecluster.MedialiveCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ medialivecluster.MedialiveCluster_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.medialiveCluster.MedialiveCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 medialivecluster.MedialiveCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ medialivecluster.MedialiveCluster_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.medialiveCluster.MedialiveCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 medialivecluster.MedialiveCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the MedialiveCluster to import
 
 The id of the existing MedialiveCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -915,7 +915,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveCluster.MedialiveClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 &medialivecluster.MedialiveClusterConfig {
 	Connection: interface{},
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
 	ClusterType: *string,
 	InstanceRoleArn: *string,
 	Name: *string,
-	NetworkSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.medialiveCluster.MedialiveClusterNetworkSettings,
+	NetworkSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.medialiveCluster.MedialiveClusterNetworkSettings,
 	Tags: interface{},
 }
 ```
@@ -1032,7 +1032,7 @@ ClusterType *string
 
 The hardware type for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#cluster_type MedialiveCluster#cluster_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#cluster_type MedialiveCluster#cluster_type}
 
 ---
 
@@ -1046,7 +1046,7 @@ InstanceRoleArn *string
 
 The IAM role your nodes will use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#instance_role_arn MedialiveCluster#instance_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#instance_role_arn MedialiveCluster#instance_role_arn}
 
 ---
 
@@ -1060,7 +1060,7 @@ Name *string
 
 The user-specified name of the Cluster to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#name MedialiveCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#name MedialiveCluster#name}
 
 ---
 
@@ -1074,7 +1074,7 @@ NetworkSettings MedialiveClusterNetworkSettings
 
 On premises settings which will have the interface network mappings and default Output logical interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#network_settings MedialiveCluster#network_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#network_settings MedialiveCluster#network_settings}
 
 ---
 
@@ -1088,7 +1088,7 @@ Tags interface{}
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#tags MedialiveCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#tags MedialiveCluster#tags}
 
 ---
 
@@ -1097,7 +1097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveCluster.MedialiveClusterNetworkSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 &medialivecluster.MedialiveClusterNetworkSettings {
 	DefaultRoute: *string,
@@ -1124,7 +1124,7 @@ DefaultRoute *string
 
 Default value if the customer does not define it in channel Output API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#default_route MedialiveCluster#default_route}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#default_route MedialiveCluster#default_route}
 
 ---
 
@@ -1138,7 +1138,7 @@ InterfaceMappings interface{}
 
 Network mappings for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#interface_mappings MedialiveCluster#interface_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#interface_mappings MedialiveCluster#interface_mappings}
 
 ---
 
@@ -1147,7 +1147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveCluster.MedialiveClusterNetworkSettingsInterfaceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 &medialivecluster.MedialiveClusterNetworkSettingsInterfaceMappings {
 	LogicalInterfaceName: *string,
@@ -1174,7 +1174,7 @@ LogicalInterfaceName *string
 
 logical interface name, unique in the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#logical_interface_name MedialiveCluster#logical_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#logical_interface_name MedialiveCluster#logical_interface_name}
 
 ---
 
@@ -1188,7 +1188,7 @@ NetworkId *string
 
 Network Id to be associated with the logical interface name, can be duplicated in list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#network_id MedialiveCluster#network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#network_id MedialiveCluster#network_id}
 
 ---
 
@@ -1197,7 +1197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveCluster.MedialiveClusterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 &medialivecluster.MedialiveClusterTags {
 	Key: *string,
@@ -1209,8 +1209,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.medialiveCluster.MedialiveClusterTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#key MedialiveCluster#key}. |
-| <code><a href="#@cdktn/provider-awscc.medialiveCluster.MedialiveClusterTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#value MedialiveCluster#value}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveCluster.MedialiveClusterTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#key MedialiveCluster#key}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveCluster.MedialiveClusterTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#value MedialiveCluster#value}. |
 
 ---
 
@@ -1222,7 +1222,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#key MedialiveCluster#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#key MedialiveCluster#key}.
 
 ---
 
@@ -1234,7 +1234,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cluster#value MedialiveCluster#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cluster#value MedialiveCluster#value}.
 
 ---
 
@@ -1245,7 +1245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveCluster.MedialiveClusterNetworkSettingsInterfaceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 medialivecluster.NewMedialiveClusterNetworkSettingsInterfaceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveClusterNetworkSettingsInterfaceMappingsList
 ```
@@ -1405,7 +1405,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveCluster.MedialiveClusterNetworkSettingsInterfaceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 medialivecluster.NewMedialiveClusterNetworkSettingsInterfaceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveClusterNetworkSettingsInterfaceMappingsOutputReference
 ```
@@ -1730,7 +1730,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveCluster.MedialiveClusterNetworkSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 medialivecluster.NewMedialiveClusterNetworkSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MedialiveClusterNetworkSettingsOutputReference
 ```
@@ -2050,7 +2050,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveCluster.MedialiveClusterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 medialivecluster.NewMedialiveClusterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveClusterTagsList
 ```
@@ -2210,7 +2210,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveCluster.MedialiveClusterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecluster"
 
 medialivecluster.NewMedialiveClusterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveClusterTagsOutputReference
 ```

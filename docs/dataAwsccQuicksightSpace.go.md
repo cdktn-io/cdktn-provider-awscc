@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightSpace <a name="DataAwsccQuicksightSpace" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_space awscc_quicksight_space}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_space awscc_quicksight_space}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 dataawsccquicksightspace.NewDataAwsccQuicksightSpace(scope Construct, id *string, config DataAwsccQuicksightSpaceConfig) DataAwsccQuicksightSpace
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 dataawsccquicksightspace.DataAwsccQuicksightSpace_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 dataawsccquicksightspace.DataAwsccQuicksightSpace_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksightspace.DataAwsccQuicksightSpace_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpace.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 dataawsccquicksightspace.DataAwsccQuicksightSpace_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksightspace.DataAwsccQuicksightSpace_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 dataawsccquicksightspace.DataAwsccQuicksightSpace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightSpace t
 
 The id of the existing DataAwsccQuicksightSpace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_space#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_space#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 &dataawsccquicksightspace.DataAwsccQuicksightSpaceConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_space#id DataAwsccQuicksightSpace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_space#id DataAwsccQuicksightSpace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpacePermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 &dataawsccquicksightspace.DataAwsccQuicksightSpacePermissions {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpaceResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 &dataawsccquicksightspace.DataAwsccQuicksightSpaceResources {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 &dataawsccquicksightspace.DataAwsccQuicksightSpaceTags {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpacePermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 dataawsccquicksightspace.NewDataAwsccQuicksightSpacePermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightSpacePermissionsList
 ```
@@ -1019,7 +1019,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpacePermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 dataawsccquicksightspace.NewDataAwsccQuicksightSpacePermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightSpacePermissionsOutputReference
 ```
@@ -1308,7 +1308,7 @@ func InternalValue() DataAwsccQuicksightSpacePermissions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpaceResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 dataawsccquicksightspace.NewDataAwsccQuicksightSpaceResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightSpaceResourcesList
 ```
@@ -1457,7 +1457,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpaceResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 dataawsccquicksightspace.NewDataAwsccQuicksightSpaceResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightSpaceResourcesOutputReference
 ```
@@ -1746,7 +1746,7 @@ func InternalValue() DataAwsccQuicksightSpaceResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 dataawsccquicksightspace.NewDataAwsccQuicksightSpaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightSpaceTagsList
 ```
@@ -1895,7 +1895,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightSpace.DataAwsccQuicksightSpaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace"
 
 dataawsccquicksightspace.NewDataAwsccQuicksightSpaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightSpaceTagsOutputReference
 ```

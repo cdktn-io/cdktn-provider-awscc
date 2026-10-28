@@ -4,12 +4,12 @@
 
 ### DataAwsccIotLoggings <a name="DataAwsccIotLoggings" id="@cdktn/provider-awscc.dataAwsccIotLoggings.DataAwsccIotLoggings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_loggings awscc_iot_loggings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_loggings awscc_iot_loggings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotLoggings.DataAwsccIotLoggings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotloggings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotloggings"
 
 dataawscciotloggings.NewDataAwsccIotLoggings(scope Construct, id *string, config DataAwsccIotLoggingsConfig) DataAwsccIotLoggings
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotLoggings.DataAwsccIotLoggings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotloggings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotloggings"
 
 dataawscciotloggings.DataAwsccIotLoggings_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotLoggings.DataAwsccIotLoggings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotloggings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotloggings"
 
 dataawscciotloggings.DataAwsccIotLoggings_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotloggings.DataAwsccIotLoggings_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotLoggings.DataAwsccIotLoggings.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotloggings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotloggings"
 
 dataawscciotloggings.DataAwsccIotLoggings_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotloggings.DataAwsccIotLoggings_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotLoggings.DataAwsccIotLoggings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotloggings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotloggings"
 
 dataawscciotloggings.DataAwsccIotLoggings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotLoggings to im
 
 The id of the existing DataAwsccIotLoggings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_loggings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_loggings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotLoggings.DataAwsccIotLoggingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotloggings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotloggings"
 
 &dataawscciotloggings.DataAwsccIotLoggingsConfig {
 	Connection: interface{},

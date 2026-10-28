@@ -4,12 +4,12 @@
 
 ### DataAwsccOpensearchserviceApplications <a name="DataAwsccOpensearchserviceApplications" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplications.DataAwsccOpensearchserviceApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchservice_applications awscc_opensearchservice_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchservice_applications awscc_opensearchservice_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplications.DataAwsccOpensearchserviceApplications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplications"
 
 dataawsccopensearchserviceapplications.NewDataAwsccOpensearchserviceApplications(scope Construct, id *string, config DataAwsccOpensearchserviceApplicationsConfig) DataAwsccOpensearchserviceApplications
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplications.DataAwsccOpensearchserviceApplications.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplications"
 
 dataawsccopensearchserviceapplications.DataAwsccOpensearchserviceApplications_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplications.DataAwsccOpensearchserviceApplications.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplications"
 
 dataawsccopensearchserviceapplications.DataAwsccOpensearchserviceApplications_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccopensearchserviceapplications.DataAwsccOpensearchserviceApplications_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplications.DataAwsccOpensearchserviceApplications.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplications"
 
 dataawsccopensearchserviceapplications.DataAwsccOpensearchserviceApplications_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccopensearchserviceapplications.DataAwsccOpensearchserviceApplications_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplications.DataAwsccOpensearchserviceApplications.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplications"
 
 dataawsccopensearchserviceapplications.DataAwsccOpensearchserviceApplications_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOpensearchservice
 
 The id of the existing DataAwsccOpensearchserviceApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchservice_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchservice_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplications.DataAwsccOpensearchserviceApplicationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplications"
 
 &dataawsccopensearchserviceapplications.DataAwsccOpensearchserviceApplicationsConfig {
 	Connection: interface{},

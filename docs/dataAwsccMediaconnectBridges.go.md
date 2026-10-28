@@ -4,12 +4,12 @@
 
 ### DataAwsccMediaconnectBridges <a name="DataAwsccMediaconnectBridges" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridges.DataAwsccMediaconnectBridges"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_bridges awscc_mediaconnect_bridges}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_bridges awscc_mediaconnect_bridges}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridges.DataAwsccMediaconnectBridges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridges"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridges"
 
 dataawsccmediaconnectbridges.NewDataAwsccMediaconnectBridges(scope Construct, id *string, config DataAwsccMediaconnectBridgesConfig) DataAwsccMediaconnectBridges
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridges.DataAwsccMediaconnectBridges.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridges"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridges"
 
 dataawsccmediaconnectbridges.DataAwsccMediaconnectBridges_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridges.DataAwsccMediaconnectBridges.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridges"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridges"
 
 dataawsccmediaconnectbridges.DataAwsccMediaconnectBridges_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediaconnectbridges.DataAwsccMediaconnectBridges_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridges.DataAwsccMediaconnectBridges.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridges"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridges"
 
 dataawsccmediaconnectbridges.DataAwsccMediaconnectBridges_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediaconnectbridges.DataAwsccMediaconnectBridges_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridges.DataAwsccMediaconnectBridges.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridges"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridges"
 
 dataawsccmediaconnectbridges.DataAwsccMediaconnectBridges_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediaconnectBridg
 
 The id of the existing DataAwsccMediaconnectBridges that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_bridges#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_bridges#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridges.DataAwsccMediaconnectBridgesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridges"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridges"
 
 &dataawsccmediaconnectbridges.DataAwsccMediaconnectBridgesConfig {
 	Connection: interface{},

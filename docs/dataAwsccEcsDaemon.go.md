@@ -4,12 +4,12 @@
 
 ### DataAwsccEcsDaemon <a name="DataAwsccEcsDaemon" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemon"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_daemon awscc_ecs_daemon}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_daemon awscc_ecs_daemon}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemon.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 dataawsccecsdaemon.NewDataAwsccEcsDaemon(scope Construct, id *string, config DataAwsccEcsDaemonConfig) DataAwsccEcsDaemon
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemon.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 dataawsccecsdaemon.DataAwsccEcsDaemon_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemon.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 dataawsccecsdaemon.DataAwsccEcsDaemon_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecsdaemon.DataAwsccEcsDaemon_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemon.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 dataawsccecsdaemon.DataAwsccEcsDaemon_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecsdaemon.DataAwsccEcsDaemon_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemon.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 dataawsccecsdaemon.DataAwsccEcsDaemon_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcsDaemon to impo
 
 The id of the existing DataAwsccEcsDaemon that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_daemon#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_daemon#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemonConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 &dataawsccecsdaemon.DataAwsccEcsDaemonConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_daemon#id DataAwsccEcsDaemon#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_daemon#id DataAwsccEcsDaemon#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemonDeploymentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 &dataawsccecsdaemon.DataAwsccEcsDaemonDeploymentConfiguration {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemonDeploymentConfigurationAlarms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 &dataawsccecsdaemon.DataAwsccEcsDaemonDeploymentConfigurationAlarms {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemonTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 &dataawsccecsdaemon.DataAwsccEcsDaemonTags {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemonDeploymentConfigurationAlarmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 dataawsccecsdaemon.NewDataAwsccEcsDaemonDeploymentConfigurationAlarmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsDaemonDeploymentConfigurationAlarmsOutputReference
 ```
@@ -1185,7 +1185,7 @@ func InternalValue() DataAwsccEcsDaemonDeploymentConfigurationAlarms
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemonDeploymentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 dataawsccecsdaemon.NewDataAwsccEcsDaemonDeploymentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsDaemonDeploymentConfigurationOutputReference
 ```
@@ -1467,7 +1467,7 @@ func InternalValue() DataAwsccEcsDaemonDeploymentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemonTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 dataawsccecsdaemon.NewDataAwsccEcsDaemonTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsDaemonTagsList
 ```
@@ -1616,7 +1616,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsDaemon.DataAwsccEcsDaemonTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemon"
 
 dataawsccecsdaemon.NewDataAwsccEcsDaemonTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsDaemonTagsOutputReference
 ```

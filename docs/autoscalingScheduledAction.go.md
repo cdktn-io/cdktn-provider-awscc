@@ -4,12 +4,12 @@
 
 ### AutoscalingScheduledAction <a name="AutoscalingScheduledAction" id="@cdktn/provider-awscc.autoscalingScheduledAction.AutoscalingScheduledAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scheduled_action awscc_autoscaling_scheduled_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scheduled_action awscc_autoscaling_scheduled_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.autoscalingScheduledAction.AutoscalingScheduledAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalingscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalingscheduledaction"
 
 autoscalingscheduledaction.NewAutoscalingScheduledAction(scope Construct, id *string, config AutoscalingScheduledActionConfig) AutoscalingScheduledAction
 ```
@@ -449,7 +449,7 @@ func ResetTimeZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.autoscalingScheduledAction.AutoscalingScheduledAction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalingscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalingscheduledaction"
 
 autoscalingscheduledaction.AutoscalingScheduledAction_IsConstruct(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.autoscalingScheduledAction.AutoscalingScheduledAction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalingscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalingscheduledaction"
 
 autoscalingscheduledaction.AutoscalingScheduledAction_IsTerraformElement(x interface{}) *bool
 ```
@@ -495,7 +495,7 @@ autoscalingscheduledaction.AutoscalingScheduledAction_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.autoscalingScheduledAction.AutoscalingScheduledAction.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalingscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalingscheduledaction"
 
 autoscalingscheduledaction.AutoscalingScheduledAction_IsTerraformResource(x interface{}) *bool
 ```
@@ -509,7 +509,7 @@ autoscalingscheduledaction.AutoscalingScheduledAction_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.autoscalingScheduledAction.AutoscalingScheduledAction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalingscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalingscheduledaction"
 
 autoscalingscheduledaction.AutoscalingScheduledAction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -538,7 +538,7 @@ The construct id used in the generated config for the AutoscalingScheduledAction
 
 The id of the existing AutoscalingScheduledAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scheduled_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scheduled_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -936,7 +936,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.autoscalingScheduledAction.AutoscalingScheduledActionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalingscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalingscheduledaction"
 
 &autoscalingscheduledaction.AutoscalingScheduledActionConfig {
 	Connection: interface{},
@@ -1059,7 +1059,7 @@ AutoScalingGroupName *string
 
 The name of the Auto Scaling group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scheduled_action#auto_scaling_group_name AutoscalingScheduledAction#auto_scaling_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scheduled_action#auto_scaling_group_name AutoscalingScheduledAction#auto_scaling_group_name}
 
 ---
 
@@ -1073,7 +1073,7 @@ DesiredCapacity *f64
 
 The desired capacity is the initial capacity of the Auto Scaling group after the scheduled action runs and the capacity it attempts to maintain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scheduled_action#desired_capacity AutoscalingScheduledAction#desired_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scheduled_action#desired_capacity AutoscalingScheduledAction#desired_capacity}
 
 ---
 
@@ -1087,7 +1087,7 @@ EndTime *string
 
 The latest scheduled start time to return. If scheduled action names are provided, this parameter is ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scheduled_action#end_time AutoscalingScheduledAction#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scheduled_action#end_time AutoscalingScheduledAction#end_time}
 
 ---
 
@@ -1101,7 +1101,7 @@ MaxSize *f64
 
 The minimum size of the Auto Scaling group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scheduled_action#max_size AutoscalingScheduledAction#max_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scheduled_action#max_size AutoscalingScheduledAction#max_size}
 
 ---
 
@@ -1115,7 +1115,7 @@ MinSize *f64
 
 The minimum size of the Auto Scaling group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scheduled_action#min_size AutoscalingScheduledAction#min_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scheduled_action#min_size AutoscalingScheduledAction#min_size}
 
 ---
 
@@ -1131,7 +1131,7 @@ The recurring schedule for the action, in Unix cron syntax format.
 
 When StartTime and EndTime are specified with Recurrence , they form the boundaries of when the recurring action starts and stops.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scheduled_action#recurrence AutoscalingScheduledAction#recurrence}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scheduled_action#recurrence AutoscalingScheduledAction#recurrence}
 
 ---
 
@@ -1145,7 +1145,7 @@ StartTime *string
 
 The earliest scheduled start time to return. If scheduled action names are provided, this parameter is ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scheduled_action#start_time AutoscalingScheduledAction#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scheduled_action#start_time AutoscalingScheduledAction#start_time}
 
 ---
 
@@ -1159,7 +1159,7 @@ TimeZone *string
 
 The time zone for the cron expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scheduled_action#time_zone AutoscalingScheduledAction#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scheduled_action#time_zone AutoscalingScheduledAction#time_zone}
 
 ---
 

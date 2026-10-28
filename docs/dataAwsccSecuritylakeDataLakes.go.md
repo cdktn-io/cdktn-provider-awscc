@@ -4,12 +4,12 @@
 
 ### DataAwsccSecuritylakeDataLakes <a name="DataAwsccSecuritylakeDataLakes" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLakes.DataAwsccSecuritylakeDataLakes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_data_lakes awscc_securitylake_data_lakes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_data_lakes awscc_securitylake_data_lakes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLakes.DataAwsccSecuritylakeDataLakes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalakes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalakes"
 
 dataawsccsecuritylakedatalakes.NewDataAwsccSecuritylakeDataLakes(scope Construct, id *string, config DataAwsccSecuritylakeDataLakesConfig) DataAwsccSecuritylakeDataLakes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLakes.DataAwsccSecuritylakeDataLakes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalakes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalakes"
 
 dataawsccsecuritylakedatalakes.DataAwsccSecuritylakeDataLakes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLakes.DataAwsccSecuritylakeDataLakes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalakes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalakes"
 
 dataawsccsecuritylakedatalakes.DataAwsccSecuritylakeDataLakes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecuritylakedatalakes.DataAwsccSecuritylakeDataLakes_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLakes.DataAwsccSecuritylakeDataLakes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalakes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalakes"
 
 dataawsccsecuritylakedatalakes.DataAwsccSecuritylakeDataLakes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecuritylakedatalakes.DataAwsccSecuritylakeDataLakes_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLakes.DataAwsccSecuritylakeDataLakes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalakes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalakes"
 
 dataawsccsecuritylakedatalakes.DataAwsccSecuritylakeDataLakes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecuritylakeDataL
 
 The id of the existing DataAwsccSecuritylakeDataLakes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_data_lakes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_data_lakes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLakes.DataAwsccSecuritylakeDataLakesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalakes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalakes"
 
 &dataawsccsecuritylakedatalakes.DataAwsccSecuritylakeDataLakesConfig {
 	Connection: interface{},

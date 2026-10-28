@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticacheServerlessCaches <a name="DataAwsccElasticacheServerlessCaches" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCaches.DataAwsccElasticacheServerlessCaches"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_serverless_caches awscc_elasticache_serverless_caches}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_serverless_caches awscc_elasticache_serverless_caches}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCaches.DataAwsccElasticacheServerlessCaches.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscaches"
 
 dataawsccelasticacheserverlesscaches.NewDataAwsccElasticacheServerlessCaches(scope Construct, id *string, config DataAwsccElasticacheServerlessCachesConfig) DataAwsccElasticacheServerlessCaches
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCaches.DataAwsccElasticacheServerlessCaches.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscaches"
 
 dataawsccelasticacheserverlesscaches.DataAwsccElasticacheServerlessCaches_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCaches.DataAwsccElasticacheServerlessCaches.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscaches"
 
 dataawsccelasticacheserverlesscaches.DataAwsccElasticacheServerlessCaches_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticacheserverlesscaches.DataAwsccElasticacheServerlessCaches_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCaches.DataAwsccElasticacheServerlessCaches.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscaches"
 
 dataawsccelasticacheserverlesscaches.DataAwsccElasticacheServerlessCaches_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticacheserverlesscaches.DataAwsccElasticacheServerlessCaches_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCaches.DataAwsccElasticacheServerlessCaches.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscaches"
 
 dataawsccelasticacheserverlesscaches.DataAwsccElasticacheServerlessCaches_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticacheServer
 
 The id of the existing DataAwsccElasticacheServerlessCaches that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_serverless_caches#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_serverless_caches#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCaches.DataAwsccElasticacheServerlessCachesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscaches"
 
 &dataawsccelasticacheserverlesscaches.DataAwsccElasticacheServerlessCachesConfig {
 	Connection: interface{},

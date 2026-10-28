@@ -4,12 +4,12 @@
 
 ### DataAwsccTranslateTerminology <a name="DataAwsccTranslateTerminology" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminology"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_terminology awscc_translate_terminology}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_terminology awscc_translate_terminology}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminology.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 dataawscctranslateterminology.NewDataAwsccTranslateTerminology(scope Construct, id *string, config DataAwsccTranslateTerminologyConfig) DataAwsccTranslateTerminology
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminology.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 dataawscctranslateterminology.DataAwsccTranslateTerminology_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminology.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 dataawscctranslateterminology.DataAwsccTranslateTerminology_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctranslateterminology.DataAwsccTranslateTerminology_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminology.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 dataawscctranslateterminology.DataAwsccTranslateTerminology_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctranslateterminology.DataAwsccTranslateTerminology_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminology.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 dataawscctranslateterminology.DataAwsccTranslateTerminology_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTranslateTerminol
 
 The id of the existing DataAwsccTranslateTerminology that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_terminology#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_terminology#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminologyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 &dataawscctranslateterminology.DataAwsccTranslateTerminologyConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_terminology#id DataAwsccTranslateTerminology#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_terminology#id DataAwsccTranslateTerminology#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminologyEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 &dataawscctranslateterminology.DataAwsccTranslateTerminologyEncryptionKey {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminologyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 &dataawscctranslateterminology.DataAwsccTranslateTerminologyTags {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminologyTerminologyData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 &dataawscctranslateterminology.DataAwsccTranslateTerminologyTerminologyData {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminologyEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 dataawscctranslateterminology.NewDataAwsccTranslateTerminologyEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranslateTerminologyEncryptionKeyOutputReference
 ```
@@ -1185,7 +1185,7 @@ func InternalValue() DataAwsccTranslateTerminologyEncryptionKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminologyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 dataawscctranslateterminology.NewDataAwsccTranslateTerminologyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTranslateTerminologyTagsList
 ```
@@ -1334,7 +1334,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminologyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 dataawscctranslateterminology.NewDataAwsccTranslateTerminologyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTranslateTerminologyTagsOutputReference
 ```
@@ -1623,7 +1623,7 @@ func InternalValue() DataAwsccTranslateTerminologyTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranslateTerminology.DataAwsccTranslateTerminologyTerminologyDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateterminology"
 
 dataawscctranslateterminology.NewDataAwsccTranslateTerminologyTerminologyDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranslateTerminologyTerminologyDataOutputReference
 ```

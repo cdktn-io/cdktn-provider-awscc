@@ -4,12 +4,12 @@
 
 ### DataAwsccCleanroomsPrivacyBudgetTemplate <a name="DataAwsccCleanroomsPrivacyBudgetTemplate" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 dataawscccleanroomsprivacybudgettemplate.NewDataAwsccCleanroomsPrivacyBudgetTemplate(scope Construct, id *string, config DataAwsccCleanroomsPrivacyBudgetTemplateConfig) DataAwsccCleanroomsPrivacyBudgetTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 dataawscccleanroomsprivacybudgettemplate.DataAwsccCleanroomsPrivacyBudgetTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 dataawscccleanroomsprivacybudgettemplate.DataAwsccCleanroomsPrivacyBudgetTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccleanroomsprivacybudgettemplate.DataAwsccCleanroomsPrivacyBudgetTemplat
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 dataawscccleanroomsprivacybudgettemplate.DataAwsccCleanroomsPrivacyBudgetTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccleanroomsprivacybudgettemplate.DataAwsccCleanroomsPrivacyBudgetTemplat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 dataawscccleanroomsprivacybudgettemplate.DataAwsccCleanroomsPrivacyBudgetTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCleanroomsPrivacy
 
 The id of the existing DataAwsccCleanroomsPrivacyBudgetTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_privacy_budget_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_privacy_budget_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 &dataawscccleanroomsprivacybudgettemplate.DataAwsccCleanroomsPrivacyBudgetTemplateConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_privacy_budget_template#id DataAwsccCleanroomsPrivacyBudgetTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_privacy_budget_template#id DataAwsccCleanroomsPrivacyBudgetTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplateParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 &dataawscccleanroomsprivacybudgettemplate.DataAwsccCleanroomsPrivacyBudgetTemplateParameters {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomspri
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplateParametersBudgetParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 &dataawscccleanroomsprivacybudgettemplate.DataAwsccCleanroomsPrivacyBudgetTemplateParametersBudgetParameters {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomspri
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 &dataawscccleanroomsprivacybudgettemplate.DataAwsccCleanroomsPrivacyBudgetTemplateTags {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomspri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplateParametersBudgetParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 dataawscccleanroomsprivacybudgettemplate.NewDataAwsccCleanroomsPrivacyBudgetTemplateParametersBudgetParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsPrivacyBudgetTemplateParametersBudgetParametersList
 ```
@@ -1008,7 +1008,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplateParametersBudgetParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 dataawscccleanroomsprivacybudgettemplate.NewDataAwsccCleanroomsPrivacyBudgetTemplateParametersBudgetParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsPrivacyBudgetTemplateParametersBudgetParametersOutputReference
 ```
@@ -1308,7 +1308,7 @@ func InternalValue() DataAwsccCleanroomsPrivacyBudgetTemplateParametersBudgetPar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplateParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 dataawscccleanroomsprivacybudgettemplate.NewDataAwsccCleanroomsPrivacyBudgetTemplateParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsPrivacyBudgetTemplateParametersOutputReference
 ```
@@ -1601,7 +1601,7 @@ func InternalValue() DataAwsccCleanroomsPrivacyBudgetTemplateParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 dataawscccleanroomsprivacybudgettemplate.NewDataAwsccCleanroomsPrivacyBudgetTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsPrivacyBudgetTemplateTagsList
 ```
@@ -1750,7 +1750,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsPrivacyBudgetTemplate.DataAwsccCleanroomsPrivacyBudgetTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate"
 
 dataawscccleanroomsprivacybudgettemplate.NewDataAwsccCleanroomsPrivacyBudgetTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsPrivacyBudgetTemplateTagsOutputReference
 ```

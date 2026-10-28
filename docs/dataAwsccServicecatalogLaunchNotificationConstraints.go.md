@@ -4,12 +4,12 @@
 
 ### DataAwsccServicecatalogLaunchNotificationConstraints <a name="DataAwsccServicecatalogLaunchNotificationConstraints" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraints.DataAwsccServicecatalogLaunchNotificationConstraints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_launch_notification_constraints awscc_servicecatalog_launch_notification_constraints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_launch_notification_constraints awscc_servicecatalog_launch_notification_constraints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraints.DataAwsccServicecatalogLaunchNotificationConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraints"
 
 dataawsccservicecataloglaunchnotificationconstraints.NewDataAwsccServicecatalogLaunchNotificationConstraints(scope Construct, id *string, config DataAwsccServicecatalogLaunchNotificationConstraintsConfig) DataAwsccServicecatalogLaunchNotificationConstraints
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraints.DataAwsccServicecatalogLaunchNotificationConstraints.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraints"
 
 dataawsccservicecataloglaunchnotificationconstraints.DataAwsccServicecatalogLaunchNotificationConstraints_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraints.DataAwsccServicecatalogLaunchNotificationConstraints.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraints"
 
 dataawsccservicecataloglaunchnotificationconstraints.DataAwsccServicecatalogLaunchNotificationConstraints_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicecataloglaunchnotificationconstraints.DataAwsccServicecatalogLaun
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraints.DataAwsccServicecatalogLaunchNotificationConstraints.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraints"
 
 dataawsccservicecataloglaunchnotificationconstraints.DataAwsccServicecatalogLaunchNotificationConstraints_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicecataloglaunchnotificationconstraints.DataAwsccServicecatalogLaun
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraints.DataAwsccServicecatalogLaunchNotificationConstraints.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraints"
 
 dataawsccservicecataloglaunchnotificationconstraints.DataAwsccServicecatalogLaunchNotificationConstraints_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogLau
 
 The id of the existing DataAwsccServicecatalogLaunchNotificationConstraints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_launch_notification_constraints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_launch_notification_constraints#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraints.DataAwsccServicecatalogLaunchNotificationConstraintsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecataloglaunchnotificationconstraints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecataloglaunchnotificationconstraints"
 
 &dataawsccservicecataloglaunchnotificationconstraints.DataAwsccServicecatalogLaunchNotificationConstraintsConfig {
 	Connection: interface{},

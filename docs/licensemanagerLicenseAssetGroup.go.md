@@ -4,12 +4,12 @@
 
 ### LicensemanagerLicenseAssetGroup <a name="LicensemanagerLicenseAssetGroup" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 licensemanagerlicenseassetgroup.NewLicensemanagerLicenseAssetGroup(scope Construct, id *string, config LicensemanagerLicenseAssetGroupConfig) LicensemanagerLicenseAssetGroup
 ```
@@ -460,7 +460,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 licensemanagerlicenseassetgroup.LicensemanagerLicenseAssetGroup_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 licensemanagerlicenseassetgroup.LicensemanagerLicenseAssetGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ licensemanagerlicenseassetgroup.LicensemanagerLicenseAssetGroup_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 licensemanagerlicenseassetgroup.LicensemanagerLicenseAssetGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ licensemanagerlicenseassetgroup.LicensemanagerLicenseAssetGroup_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 licensemanagerlicenseassetgroup.LicensemanagerLicenseAssetGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the LicensemanagerLicenseAsset
 
 The id of the existing LicensemanagerLicenseAssetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -903,7 +903,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 &licensemanagerlicenseassetgroup.LicensemanagerLicenseAssetGroupConfig {
 	Connection: interface{},
@@ -1022,7 +1022,7 @@ AssociatedLicenseAssetRulesetArNs *[]*string
 
 ARNs of associated license asset rulesets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#associated_license_asset_ruleset_ar_ns LicensemanagerLicenseAssetGroup#associated_license_asset_ruleset_ar_ns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#associated_license_asset_ruleset_ar_ns LicensemanagerLicenseAssetGroup#associated_license_asset_ruleset_ar_ns}
 
 ---
 
@@ -1036,7 +1036,7 @@ LicenseAssetGroupConfigurations interface{}
 
 License asset group configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#license_asset_group_configurations LicensemanagerLicenseAssetGroup#license_asset_group_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#license_asset_group_configurations LicensemanagerLicenseAssetGroup#license_asset_group_configurations}
 
 ---
 
@@ -1050,7 +1050,7 @@ Name *string
 
 License asset group name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#name LicensemanagerLicenseAssetGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#name LicensemanagerLicenseAssetGroup#name}
 
 ---
 
@@ -1064,7 +1064,7 @@ Description *string
 
 License asset group description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#description LicensemanagerLicenseAssetGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#description LicensemanagerLicenseAssetGroup#description}
 
 ---
 
@@ -1078,7 +1078,7 @@ Properties interface{}
 
 License asset group properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#properties LicensemanagerLicenseAssetGroup#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#properties LicensemanagerLicenseAssetGroup#properties}
 
 ---
 
@@ -1092,7 +1092,7 @@ Tags interface{}
 
 Tags to add to the license asset group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#tags LicensemanagerLicenseAssetGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#tags LicensemanagerLicenseAssetGroup#tags}
 
 ---
 
@@ -1101,7 +1101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 &licensemanagerlicenseassetgroup.LicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurations {
 	UsageDimension: *string,
@@ -1112,7 +1112,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicensea
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurations.property.usageDimension">UsageDimension</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#usage_dimension LicensemanagerLicenseAssetGroup#usage_dimension}. |
+| <code><a href="#@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurations.property.usageDimension">UsageDimension</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#usage_dimension LicensemanagerLicenseAssetGroup#usage_dimension}. |
 
 ---
 
@@ -1124,7 +1124,7 @@ UsageDimension *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#usage_dimension LicensemanagerLicenseAssetGroup#usage_dimension}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#usage_dimension LicensemanagerLicenseAssetGroup#usage_dimension}.
 
 ---
 
@@ -1133,7 +1133,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 &licensemanagerlicenseassetgroup.LicensemanagerLicenseAssetGroupProperties {
 	Key: *string,
@@ -1145,8 +1145,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicensea
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupProperties.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupProperties.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupProperties.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupProperties.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}. |
 
 ---
 
@@ -1158,7 +1158,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}.
 
 ---
 
@@ -1170,7 +1170,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}.
 
 ---
 
@@ -1179,7 +1179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 &licensemanagerlicenseassetgroup.LicensemanagerLicenseAssetGroupTags {
 	Key: *string,
@@ -1191,8 +1191,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicensea
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}. |
 
 ---
 
@@ -1204,7 +1204,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}.
 
 ---
 
@@ -1216,7 +1216,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}.
 
 ---
 
@@ -1227,7 +1227,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 licensemanagerlicenseassetgroup.NewLicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurationsList
 ```
@@ -1387,7 +1387,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 licensemanagerlicenseassetgroup.NewLicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurationsOutputReference
 ```
@@ -1683,7 +1683,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 licensemanagerlicenseassetgroup.NewLicensemanagerLicenseAssetGroupPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LicensemanagerLicenseAssetGroupPropertiesList
 ```
@@ -1843,7 +1843,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 licensemanagerlicenseassetgroup.NewLicensemanagerLicenseAssetGroupPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LicensemanagerLicenseAssetGroupPropertiesOutputReference
 ```
@@ -2168,7 +2168,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 licensemanagerlicenseassetgroup.NewLicensemanagerLicenseAssetGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LicensemanagerLicenseAssetGroupTagsList
 ```
@@ -2328,7 +2328,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerLicenseAssetGroup.LicensemanagerLicenseAssetGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetgroup"
 
 licensemanagerlicenseassetgroup.NewLicensemanagerLicenseAssetGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LicensemanagerLicenseAssetGroupTagsOutputReference
 ```

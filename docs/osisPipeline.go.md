@@ -4,12 +4,12 @@
 
 ### OsisPipeline <a name="OsisPipeline" id="@cdktn/provider-awscc.osisPipeline.OsisPipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline awscc_osis_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline awscc_osis_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipeline(scope Construct, id *string, config OsisPipelineConfig) OsisPipeline
 ```
@@ -527,7 +527,7 @@ func ResetVpcOptions()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.osisPipeline.OsisPipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.OsisPipeline_IsConstruct(x interface{}) *bool
 ```
@@ -559,7 +559,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.osisPipeline.OsisPipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.OsisPipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -573,7 +573,7 @@ osispipeline.OsisPipeline_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.osisPipeline.OsisPipeline.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.OsisPipeline_IsTerraformResource(x interface{}) *bool
 ```
@@ -587,7 +587,7 @@ osispipeline.OsisPipeline_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.osisPipeline.OsisPipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.OsisPipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -616,7 +616,7 @@ The construct id used in the generated config for the OsisPipeline to import.
 
 The id of the existing OsisPipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1113,7 +1113,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineBufferOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineBufferOptions {
 	PersistentBufferEnabled: interface{},
@@ -1138,7 +1138,7 @@ PersistentBufferEnabled interface{}
 
 Whether persistent buffering should be enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#persistent_buffer_enabled OsisPipeline#persistent_buffer_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#persistent_buffer_enabled OsisPipeline#persistent_buffer_enabled}
 
 ---
 
@@ -1147,7 +1147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineConfig {
 	Connection: interface{},
@@ -1161,13 +1161,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
 	MinUnits: *f64,
 	PipelineConfigurationBody: *string,
 	PipelineName: *string,
-	BufferOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.osisPipeline.OsisPipelineBufferOptions,
-	EncryptionAtRestOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.osisPipeline.OsisPipelineEncryptionAtRestOptions,
-	LogPublishingOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.osisPipeline.OsisPipelineLogPublishingOptions,
+	BufferOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.osisPipeline.OsisPipelineBufferOptions,
+	EncryptionAtRestOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.osisPipeline.OsisPipelineEncryptionAtRestOptions,
+	LogPublishingOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.osisPipeline.OsisPipelineLogPublishingOptions,
 	PipelineRoleArn: *string,
-	ResourcePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.osisPipeline.OsisPipelineResourcePolicy,
+	ResourcePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.osisPipeline.OsisPipelineResourcePolicy,
 	Tags: interface{},
-	VpcOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.osisPipeline.OsisPipelineVpcOptions,
+	VpcOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.osisPipeline.OsisPipelineVpcOptions,
 }
 ```
 
@@ -1190,7 +1190,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
 | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.encryptionAtRestOptions">EncryptionAtRestOptions</a></code> | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineEncryptionAtRestOptions">OsisPipelineEncryptionAtRestOptions</a></code> | Key-value pairs to configure encryption at rest. |
 | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.logPublishingOptions">LogPublishingOptions</a></code> | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineLogPublishingOptions">OsisPipelineLogPublishingOptions</a></code> | Key-value pairs to configure log publishing. |
 | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.pipelineRoleArn">PipelineRoleArn</a></code> | <code>*string</code> | The Pipeline Role (ARN) for the pipeline. |
-| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.resourcePolicy">ResourcePolicy</a></code> | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicy">OsisPipelineResourcePolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#resource_policy OsisPipeline#resource_policy}. |
+| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.resourcePolicy">ResourcePolicy</a></code> | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicy">OsisPipelineResourcePolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#resource_policy OsisPipeline#resource_policy}. |
 | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this resource. |
 | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.vpcOptions">VpcOptions</a></code> | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcOptions">OsisPipelineVpcOptions</a></code> | Container for the values required to configure VPC access for the pipeline. |
 
@@ -1276,7 +1276,7 @@ MaxUnits *f64
 
 The maximum pipeline capacity, in Ingestion OpenSearch Compute Units (OCUs).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#max_units OsisPipeline#max_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#max_units OsisPipeline#max_units}
 
 ---
 
@@ -1290,7 +1290,7 @@ MinUnits *f64
 
 The minimum pipeline capacity, in Ingestion OpenSearch Compute Units (OCUs).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#min_units OsisPipeline#min_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#min_units OsisPipeline#min_units}
 
 ---
 
@@ -1304,7 +1304,7 @@ PipelineConfigurationBody *string
 
 The Data Prepper pipeline configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#pipeline_configuration_body OsisPipeline#pipeline_configuration_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#pipeline_configuration_body OsisPipeline#pipeline_configuration_body}
 
 ---
 
@@ -1320,7 +1320,7 @@ Name of the OpenSearch Ingestion Service pipeline to create.
 
 Pipeline names are unique across the pipelines owned by an account within an AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#pipeline_name OsisPipeline#pipeline_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#pipeline_name OsisPipeline#pipeline_name}
 
 ---
 
@@ -1334,7 +1334,7 @@ BufferOptions OsisPipelineBufferOptions
 
 Key-value pairs to configure buffering.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#buffer_options OsisPipeline#buffer_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#buffer_options OsisPipeline#buffer_options}
 
 ---
 
@@ -1348,7 +1348,7 @@ EncryptionAtRestOptions OsisPipelineEncryptionAtRestOptions
 
 Key-value pairs to configure encryption at rest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#encryption_at_rest_options OsisPipeline#encryption_at_rest_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#encryption_at_rest_options OsisPipeline#encryption_at_rest_options}
 
 ---
 
@@ -1362,7 +1362,7 @@ LogPublishingOptions OsisPipelineLogPublishingOptions
 
 Key-value pairs to configure log publishing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#log_publishing_options OsisPipeline#log_publishing_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#log_publishing_options OsisPipeline#log_publishing_options}
 
 ---
 
@@ -1376,7 +1376,7 @@ PipelineRoleArn *string
 
 The Pipeline Role (ARN) for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#pipeline_role_arn OsisPipeline#pipeline_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#pipeline_role_arn OsisPipeline#pipeline_role_arn}
 
 ---
 
@@ -1388,7 +1388,7 @@ ResourcePolicy OsisPipelineResourcePolicy
 
 - *Type:* <a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicy">OsisPipelineResourcePolicy</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#resource_policy OsisPipeline#resource_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#resource_policy OsisPipeline#resource_policy}.
 
 ---
 
@@ -1402,7 +1402,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#tags OsisPipeline#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#tags OsisPipeline#tags}
 
 ---
 
@@ -1418,7 +1418,7 @@ Container for the values required to configure VPC access for the pipeline.
 
 If you don't specify these values, OpenSearch Ingestion Service creates the pipeline with a public endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#vpc_options OsisPipeline#vpc_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#vpc_options OsisPipeline#vpc_options}
 
 ---
 
@@ -1427,7 +1427,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineEncryptionAtRestOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineEncryptionAtRestOptions {
 	KmsKeyArn: *string,
@@ -1452,7 +1452,7 @@ KmsKeyArn *string
 
 The KMS key to use for encrypting data. By default an AWS owned key is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#kms_key_arn OsisPipeline#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#kms_key_arn OsisPipeline#kms_key_arn}
 
 ---
 
@@ -1461,10 +1461,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineLogPublishingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineLogPublishingOptions {
-	CloudwatchLogDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination,
+	CloudwatchLogDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination,
 	IsLoggingEnabled: interface{},
 }
 ```
@@ -1488,7 +1488,7 @@ CloudwatchLogDestination OsisPipelineLogPublishingOptionsCloudwatchLogDestinatio
 
 The destination for OpenSearch Ingestion Service logs sent to Amazon CloudWatch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#cloudwatch_log_destination OsisPipeline#cloudwatch_log_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#cloudwatch_log_destination OsisPipeline#cloudwatch_log_destination}
 
 ---
 
@@ -1502,7 +1502,7 @@ IsLoggingEnabled interface{}
 
 Whether logs should be published.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#is_logging_enabled OsisPipeline#is_logging_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#is_logging_enabled OsisPipeline#is_logging_enabled}
 
 ---
 
@@ -1511,7 +1511,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination {
 	LogGroup: *string,
@@ -1522,7 +1522,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination.property.logGroup">LogGroup</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#log_group OsisPipeline#log_group}. |
+| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination.property.logGroup">LogGroup</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#log_group OsisPipeline#log_group}. |
 
 ---
 
@@ -1534,7 +1534,7 @@ LogGroup *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#log_group OsisPipeline#log_group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#log_group OsisPipeline#log_group}.
 
 ---
 
@@ -1543,7 +1543,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineResourcePolicy {
 	Policy: *string,
@@ -1554,7 +1554,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicy.property.policy">Policy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#policy OsisPipeline#policy}. |
+| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicy.property.policy">Policy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#policy OsisPipeline#policy}. |
 
 ---
 
@@ -1566,7 +1566,7 @@ Policy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#policy OsisPipeline#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#policy OsisPipeline#policy}.
 
 ---
 
@@ -1575,7 +1575,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineTags {
 	Key: *string,
@@ -1604,7 +1604,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#key OsisPipeline#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#key OsisPipeline#key}
 
 ---
 
@@ -1620,7 +1620,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#value OsisPipeline#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#value OsisPipeline#value}
 
 ---
 
@@ -1629,7 +1629,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineVpcEndpoints {
 
@@ -1642,7 +1642,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcEndpointsVpcOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineVpcEndpointsVpcOptions {
 
@@ -1655,7 +1655,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOptions {
 
@@ -1668,12 +1668,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineVpcOptions {
 	SecurityGroupIds: *[]*string,
 	SubnetIds: *[]*string,
-	VpcAttachmentOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.osisPipeline.OsisPipelineVpcOptionsVpcAttachmentOptions,
+	VpcAttachmentOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.osisPipeline.OsisPipelineVpcOptionsVpcAttachmentOptions,
 	VpcEndpointManagement: *string,
 }
 ```
@@ -1699,7 +1699,7 @@ SecurityGroupIds *[]*string
 
 A list of security groups associated with the VPC endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#security_group_ids OsisPipeline#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#security_group_ids OsisPipeline#security_group_ids}
 
 ---
 
@@ -1713,7 +1713,7 @@ SubnetIds *[]*string
 
 A list of subnet IDs associated with the VPC endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#subnet_ids OsisPipeline#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#subnet_ids OsisPipeline#subnet_ids}
 
 ---
 
@@ -1727,7 +1727,7 @@ VpcAttachmentOptions OsisPipelineVpcOptionsVpcAttachmentOptions
 
 Options for attaching a VPC to the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#vpc_attachment_options OsisPipeline#vpc_attachment_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#vpc_attachment_options OsisPipeline#vpc_attachment_options}
 
 ---
 
@@ -1741,7 +1741,7 @@ VpcEndpointManagement *string
 
 Defines whether you or Amazon OpenSearch Ingestion service create and manage the VPC endpoint configured for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#vpc_endpoint_management OsisPipeline#vpc_endpoint_management}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#vpc_endpoint_management OsisPipeline#vpc_endpoint_management}
 
 ---
 
@@ -1750,7 +1750,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcOptionsVpcAttachmentOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 &osispipeline.OsisPipelineVpcOptionsVpcAttachmentOptions {
 	AttachToVpc: interface{},
@@ -1777,7 +1777,7 @@ AttachToVpc interface{}
 
 Whether the pipeline should be attached to the provided VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#attach_to_vpc OsisPipeline#attach_to_vpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#attach_to_vpc OsisPipeline#attach_to_vpc}
 
 ---
 
@@ -1791,7 +1791,7 @@ CidrBlock *string
 
 The CIDR block to be reserved for OpenSearch Ingestion to create elastic network interfaces (ENIs).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/osis_pipeline#cidr_block OsisPipeline#cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/osis_pipeline#cidr_block OsisPipeline#cidr_block}
 
 ---
 
@@ -1802,7 +1802,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineBufferOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineBufferOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OsisPipelineBufferOptionsOutputReference
 ```
@@ -2080,7 +2080,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineEncryptionAtRestOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineEncryptionAtRestOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OsisPipelineEncryptionAtRestOptionsOutputReference
 ```
@@ -2358,7 +2358,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference
 ```
@@ -2636,7 +2636,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineLogPublishingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineLogPublishingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OsisPipelineLogPublishingOptionsOutputReference
 ```
@@ -2956,7 +2956,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineResourcePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OsisPipelineResourcePolicyOutputReference
 ```
@@ -3234,7 +3234,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OsisPipelineTagsList
 ```
@@ -3394,7 +3394,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OsisPipelineTagsOutputReference
 ```
@@ -3719,7 +3719,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineVpcEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OsisPipelineVpcEndpointsList
 ```
@@ -3868,7 +3868,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineVpcEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OsisPipelineVpcEndpointsOutputReference
 ```
@@ -4168,7 +4168,7 @@ func InternalValue() OsisPipelineVpcEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcEndpointsVpcOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineVpcEndpointsVpcOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OsisPipelineVpcEndpointsVpcOptionsOutputReference
 ```
@@ -4461,7 +4461,7 @@ func InternalValue() OsisPipelineVpcEndpointsVpcOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOptionsOutputReference
 ```
@@ -4732,7 +4732,7 @@ func InternalValue() OsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineVpcOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OsisPipelineVpcOptionsOutputReference
 ```
@@ -5110,7 +5110,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcOptionsVpcAttachmentOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/osispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/osispipeline"
 
 osispipeline.NewOsisPipelineVpcOptionsVpcAttachmentOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OsisPipelineVpcOptionsVpcAttachmentOptionsOutputReference
 ```

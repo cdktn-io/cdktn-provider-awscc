@@ -4,12 +4,12 @@
 
 ### MedialiveMultiplex <a name="MedialiveMultiplex" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex awscc_medialive_multiplex}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex awscc_medialive_multiplex}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplex.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 medialivemultiplex.NewMedialiveMultiplex(scope Construct, id *string, config MedialiveMultiplexConfig) MedialiveMultiplex
 ```
@@ -453,7 +453,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplex.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 medialivemultiplex.MedialiveMultiplex_IsConstruct(x interface{}) *bool
 ```
@@ -485,7 +485,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplex.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 medialivemultiplex.MedialiveMultiplex_IsTerraformElement(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ medialivemultiplex.MedialiveMultiplex_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplex.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 medialivemultiplex.MedialiveMultiplex_IsTerraformResource(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ medialivemultiplex.MedialiveMultiplex_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplex.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 medialivemultiplex.MedialiveMultiplex_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -542,7 +542,7 @@ The construct id used in the generated config for the MedialiveMultiplex to impo
 
 The id of the existing MedialiveMultiplex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -918,7 +918,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 &medialivemultiplex.MedialiveMultiplexConfig {
 	Connection: interface{},
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	AvailabilityZones: *[]*string,
-	MultiplexSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.medialiveMultiplex.MedialiveMultiplexMultiplexSettings,
+	MultiplexSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.medialiveMultiplex.MedialiveMultiplexMultiplexSettings,
 	Name: *string,
 	Destinations: interface{},
 	Tags: interface{},
@@ -1035,7 +1035,7 @@ AvailabilityZones *[]*string
 
 A list of availability zones for the multiplex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#availability_zones MedialiveMultiplex#availability_zones}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#availability_zones MedialiveMultiplex#availability_zones}
 
 ---
 
@@ -1049,7 +1049,7 @@ MultiplexSettings MedialiveMultiplexMultiplexSettings
 
 Configuration for a multiplex event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#multiplex_settings MedialiveMultiplex#multiplex_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#multiplex_settings MedialiveMultiplex#multiplex_settings}
 
 ---
 
@@ -1063,7 +1063,7 @@ Name *string
 
 Name of multiplex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#name MedialiveMultiplex#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#name MedialiveMultiplex#name}
 
 ---
 
@@ -1077,7 +1077,7 @@ Destinations interface{}
 
 A list of the multiplex output destinations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#destinations MedialiveMultiplex#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#destinations MedialiveMultiplex#destinations}
 
 ---
 
@@ -1091,7 +1091,7 @@ Tags interface{}
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#tags MedialiveMultiplex#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#tags MedialiveMultiplex#tags}
 
 ---
 
@@ -1100,10 +1100,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 &medialivemultiplex.MedialiveMultiplexDestinations {
-	MultiplexMediaConnectOutputDestinationSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.medialiveMultiplex.MedialiveMultiplexDestinationsMultiplexMediaConnectOutputDestinationSettings,
+	MultiplexMediaConnectOutputDestinationSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.medialiveMultiplex.MedialiveMultiplexDestinationsMultiplexMediaConnectOutputDestinationSettings,
 }
 ```
 
@@ -1125,7 +1125,7 @@ MultiplexMediaConnectOutputDestinationSettings MedialiveMultiplexDestinationsMul
 
 Multiplex MediaConnect output destination settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#multiplex_media_connect_output_destination_settings MedialiveMultiplex#multiplex_media_connect_output_destination_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#multiplex_media_connect_output_destination_settings MedialiveMultiplex#multiplex_media_connect_output_destination_settings}
 
 ---
 
@@ -1134,7 +1134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexDestinationsMultiplexMediaConnectOutputDestinationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 &medialivemultiplex.MedialiveMultiplexDestinationsMultiplexMediaConnectOutputDestinationSettings {
 	EntitlementArn: *string,
@@ -1159,7 +1159,7 @@ EntitlementArn *string
 
 The MediaConnect entitlement ARN available as a Flow source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#entitlement_arn MedialiveMultiplex#entitlement_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#entitlement_arn MedialiveMultiplex#entitlement_arn}
 
 ---
 
@@ -1168,7 +1168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexMultiplexSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 &medialivemultiplex.MedialiveMultiplexMultiplexSettings {
 	TransportStreamBitrate: *f64,
@@ -1199,7 +1199,7 @@ TransportStreamBitrate *f64
 
 Transport stream bit rate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#transport_stream_bitrate MedialiveMultiplex#transport_stream_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#transport_stream_bitrate MedialiveMultiplex#transport_stream_bitrate}
 
 ---
 
@@ -1213,7 +1213,7 @@ TransportStreamId *f64
 
 Transport stream ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#transport_stream_id MedialiveMultiplex#transport_stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#transport_stream_id MedialiveMultiplex#transport_stream_id}
 
 ---
 
@@ -1227,7 +1227,7 @@ MaximumVideoBufferDelayMilliseconds *f64
 
 Maximum video buffer delay in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#maximum_video_buffer_delay_milliseconds MedialiveMultiplex#maximum_video_buffer_delay_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#maximum_video_buffer_delay_milliseconds MedialiveMultiplex#maximum_video_buffer_delay_milliseconds}
 
 ---
 
@@ -1241,7 +1241,7 @@ TransportStreamReservedBitrate *f64
 
 Transport stream reserved bit rate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#transport_stream_reserved_bitrate MedialiveMultiplex#transport_stream_reserved_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#transport_stream_reserved_bitrate MedialiveMultiplex#transport_stream_reserved_bitrate}
 
 ---
 
@@ -1250,7 +1250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 &medialivemultiplex.MedialiveMultiplexTags {
 	Key: *string,
@@ -1262,8 +1262,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#key MedialiveMultiplex#key}. |
-| <code><a href="#@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#value MedialiveMultiplex#value}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#key MedialiveMultiplex#key}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#value MedialiveMultiplex#value}. |
 
 ---
 
@@ -1275,7 +1275,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#key MedialiveMultiplex#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#key MedialiveMultiplex#key}.
 
 ---
 
@@ -1287,7 +1287,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplex#value MedialiveMultiplex#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplex#value MedialiveMultiplex#value}.
 
 ---
 
@@ -1298,7 +1298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 medialivemultiplex.NewMedialiveMultiplexDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveMultiplexDestinationsList
 ```
@@ -1458,7 +1458,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexDestinationsMultiplexMediaConnectOutputDestinationSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 medialivemultiplex.NewMedialiveMultiplexDestinationsMultiplexMediaConnectOutputDestinationSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MedialiveMultiplexDestinationsMultiplexMediaConnectOutputDestinationSettingsOutputReference
 ```
@@ -1736,7 +1736,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 medialivemultiplex.NewMedialiveMultiplexDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveMultiplexDestinationsOutputReference
 ```
@@ -2045,7 +2045,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexMultiplexSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 medialivemultiplex.NewMedialiveMultiplexMultiplexSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MedialiveMultiplexMultiplexSettingsOutputReference
 ```
@@ -2396,7 +2396,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 medialivemultiplex.NewMedialiveMultiplexTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveMultiplexTagsList
 ```
@@ -2556,7 +2556,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveMultiplex.MedialiveMultiplexTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplex"
 
 medialivemultiplex.NewMedialiveMultiplexTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveMultiplexTagsOutputReference
 ```

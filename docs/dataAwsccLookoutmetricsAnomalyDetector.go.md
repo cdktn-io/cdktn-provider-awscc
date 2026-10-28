@@ -4,12 +4,12 @@
 
 ### DataAwsccLookoutmetricsAnomalyDetector <a name="DataAwsccLookoutmetricsAnomalyDetector" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetector(scope Construct, id *string, config DataAwsccLookoutmetricsAnomalyDetectorConfig) DataAwsccLookoutmetricsAnomalyDetector
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetector_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetector_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetector_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetector.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetector_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetector_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLookoutmetricsAno
 
 The id of the existing DataAwsccLookoutmetricsAnomalyDetector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutmetrics_anomaly_detector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutmetrics_anomaly_detector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorAnomalyDetectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorAnomalyDetectorConfig {
 
@@ -666,7 +666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorConfig {
 	Connection: interface{},
@@ -775,7 +775,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutmetrics_anomaly_detector#id DataAwsccLookoutmetricsAnomalyDetector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutmetrics_anomaly_detector#id DataAwsccLookoutmetricsAnomalyDetector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -787,7 +787,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricListStruct {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSource {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfig {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceCloudwatchConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceCloudwatchConfig {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfig {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfigVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfigVpcConfiguration {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfig {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfigVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfigVpcConfiguration {
 
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfig {
 
@@ -904,7 +904,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptor {
 
@@ -917,7 +917,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorCsvFormatDescriptor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorCsvFormatDescriptor {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorJsonFormatDescriptor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorJsonFormatDescriptor {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListStruct {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListTimestampColumn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 &dataawscclookoutmetricsanomalydetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListTimestampColumn {
 
@@ -971,7 +971,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorAnomalyDetectorConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorAnomalyDetectorConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorAnomalyDetectorConfigOutputReference
 ```
@@ -1231,7 +1231,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorAnomalyDetectorConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricListStructList
 ```
@@ -1380,7 +1380,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricListStructOutputReference
 ```
@@ -1680,7 +1680,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricLi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfigOutputReference
 ```
@@ -1951,7 +1951,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceCloudwatchConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceCloudwatchConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceCloudwatchConfigOutputReference
 ```
@@ -2211,7 +2211,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceOutputReference
 ```
@@ -2515,7 +2515,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfigOutputReference
 ```
@@ -2852,7 +2852,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfigVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfigVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConfigVpcConfigurationOutputReference
 ```
@@ -3123,7 +3123,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfigOutputReference
 ```
@@ -3460,7 +3460,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfigVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfigVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourceConfigVpcConfigurationOutputReference
 ```
@@ -3731,7 +3731,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorCsvFormatDescriptorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorCsvFormatDescriptorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorCsvFormatDescriptorOutputReference
 ```
@@ -4046,7 +4046,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorJsonFormatDescriptorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorJsonFormatDescriptorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorJsonFormatDescriptorOutputReference
 ```
@@ -4317,7 +4317,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigFileFormatDescriptorOutputReference
 ```
@@ -4588,7 +4588,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfigOutputReference
 ```
@@ -4881,7 +4881,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListMetricSo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListStructList
 ```
@@ -5030,7 +5030,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListStructOutputReference
 ```
@@ -5396,7 +5396,7 @@ func InternalValue() DataAwsccLookoutmetricsAnomalyDetectorMetricSetListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetector.DataAwsccLookoutmetricsAnomalyDetectorMetricSetListTimestampColumnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetector"
 
 dataawscclookoutmetricsanomalydetector.NewDataAwsccLookoutmetricsAnomalyDetectorMetricSetListTimestampColumnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAnomalyDetectorMetricSetListTimestampColumnOutputReference
 ```

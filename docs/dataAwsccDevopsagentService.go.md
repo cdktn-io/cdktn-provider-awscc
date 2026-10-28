@@ -4,12 +4,12 @@
 
 ### DataAwsccDevopsagentService <a name="DataAwsccDevopsagentService" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_service awscc_devopsagent_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsagent_service awscc_devopsagent_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentService(scope Construct, id *string, config DataAwsccDevopsagentServiceConfig) DataAwsccDevopsagentService
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentService.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.DataAwsccDevopsagentService_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentService.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.DataAwsccDevopsagentService_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdevopsagentservice.DataAwsccDevopsagentService_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentService.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.DataAwsccDevopsagentService_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdevopsagentservice.DataAwsccDevopsagentService_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentService.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.DataAwsccDevopsagentService_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDevopsagentServic
 
 The id of the existing DataAwsccDevopsagentService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsagent_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetails {
 
@@ -732,7 +732,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsAzureIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetailsAzureIdentity {
 
@@ -745,7 +745,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsDynatrace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetailsDynatrace {
 
@@ -758,7 +758,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHub {
 
@@ -771,7 +771,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsGitLab.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetailsGitLab {
 
@@ -784,7 +784,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServer {
 
@@ -797,7 +797,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerGrafana.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerGrafana {
 
@@ -810,7 +810,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerNewRelic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerNewRelic {
 
@@ -823,7 +823,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerSigV4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerSigV4 {
 
@@ -836,7 +836,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerSplunk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerSplunk {
 
@@ -849,7 +849,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsPagerDuty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetailsPagerDuty {
 
@@ -862,7 +862,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsServiceNow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceAdditionalServiceDetailsServiceNow {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceConfig {
 	Connection: interface{},
@@ -984,7 +984,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_service#id DataAwsccDevopsagentService#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsagent_service#id DataAwsccDevopsagentService#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -996,7 +996,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetails {
 
@@ -1009,7 +1009,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsAzureIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsAzureIdentity {
 
@@ -1022,7 +1022,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsDynatrace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsDynatrace {
 
@@ -1035,7 +1035,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsDynatraceAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsDynatraceAuthorizationConfig {
 
@@ -1048,7 +1048,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentials {
 
@@ -1061,7 +1061,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsGitHub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsGitHub {
 
@@ -1074,7 +1074,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerification {
 
@@ -1087,7 +1087,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccess {
 
@@ -1100,7 +1100,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsGitLab.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsGitLab {
 
@@ -1113,7 +1113,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServer {
 
@@ -1126,7 +1126,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfig {
 
@@ -1139,7 +1139,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKey {
 
@@ -1152,7 +1152,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerToken {
 
@@ -1165,7 +1165,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentials {
 
@@ -1178,7 +1178,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafana.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafana {
 
@@ -1191,7 +1191,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfig {
 
@@ -1204,7 +1204,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerToken {
 
@@ -1217,7 +1217,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelic {
 
@@ -1230,7 +1230,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfig {
 
@@ -1243,7 +1243,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKey {
 
@@ -1256,7 +1256,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4 {
 
@@ -1269,7 +1269,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfig {
 
@@ -1282,7 +1282,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunk {
 
@@ -1295,7 +1295,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfig {
 
@@ -1308,7 +1308,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerToken {
 
@@ -1321,7 +1321,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsPagerDuty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsPagerDuty {
 
@@ -1334,7 +1334,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfig {
 
@@ -1347,7 +1347,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentials {
 
@@ -1360,7 +1360,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsServiceNow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsServiceNow {
 
@@ -1373,7 +1373,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsServiceNowAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsServiceNowAuthorizationConfig {
 
@@ -1386,7 +1386,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentials {
 
@@ -1399,7 +1399,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 &dataawsccdevopsagentservice.DataAwsccDevopsagentServiceTags {
 
@@ -1414,7 +1414,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentse
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsAzureIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsAzureIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsAzureIdentityOutputReference
 ```
@@ -1707,7 +1707,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetailsAzureIde
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference
 ```
@@ -1967,7 +1967,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetailsDynatrac
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsGitHubOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHubOutputReference
 ```
@@ -2282,7 +2282,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHub
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsGitLabOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsGitLabOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsGitLabOutputReference
 ```
@@ -2564,7 +2564,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetailsGitLab
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerGrafanaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerGrafanaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerGrafanaOutputReference
 ```
@@ -2857,7 +2857,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerNewRelicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerNewRelicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerNewRelicOutputReference
 ```
@@ -3139,7 +3139,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerOutputReference
 ```
@@ -3443,7 +3443,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerSigV4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerSigV4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerSigV4OutputReference
 ```
@@ -3780,7 +3780,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerSplunkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerSplunkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServerSplunkOutputReference
 ```
@@ -4084,7 +4084,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetailsMcpServe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsOutputReference
 ```
@@ -4454,7 +4454,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsPagerDutyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsPagerDutyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsPagerDutyOutputReference
 ```
@@ -4714,7 +4714,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetailsPagerDut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceAdditionalServiceDetailsServiceNowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceAdditionalServiceDetailsServiceNowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceAdditionalServiceDetailsServiceNowOutputReference
 ```
@@ -4974,7 +4974,7 @@ func InternalValue() DataAwsccDevopsagentServiceAdditionalServiceDetailsServiceN
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsAzureIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsAzureIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsAzureIdentityOutputReference
 ```
@@ -5267,7 +5267,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsAzureIdentity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentialsOutputReference
 ```
@@ -5560,7 +5560,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsDynatraceAuthoriza
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOutputReference
 ```
@@ -5820,7 +5820,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsDynatraceAuthoriza
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsDynatraceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsDynatraceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsDynatraceOutputReference
 ```
@@ -6091,7 +6091,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsDynatrace
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference
 ```
@@ -6384,7 +6384,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference
 ```
@@ -6666,7 +6666,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsGitHubOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsGitHubOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsGitHubOutputReference
 ```
@@ -6937,7 +6937,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsGitHub
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsGitLabOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsGitLabOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsGitLabOutputReference
 ```
@@ -7230,7 +7230,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsGitLab
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKeyOutputReference
 ```
@@ -7512,7 +7512,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthoriza
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerTokenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerTokenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerTokenOutputReference
 ```
@@ -7794,7 +7794,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthoriza
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentialsOutputReference
 ```
@@ -8109,7 +8109,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthoriza
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOutputReference
 ```
@@ -8391,7 +8391,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerAuthoriza
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerTokenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerTokenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerTokenOutputReference
 ```
@@ -8673,7 +8673,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigOutputReference
 ```
@@ -8933,7 +8933,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaAu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafanaOutputReference
 ```
@@ -9226,7 +9226,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerGrafana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKeyOutputReference
 ```
@@ -9541,7 +9541,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigOutputReference
 ```
@@ -9801,7 +9801,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelicOutputReference
 ```
@@ -10061,7 +10061,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerNewRelic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerOutputReference
 ```
@@ -10354,7 +10354,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfigOutputReference
 ```
@@ -10658,7 +10658,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4Auth
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4OutputReference
 ```
@@ -10951,7 +10951,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerSigV4
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerTokenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerTokenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerTokenOutputReference
 ```
@@ -11233,7 +11233,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigOutputReference
 ```
@@ -11493,7 +11493,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkAut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunkOutputReference
 ```
@@ -11786,7 +11786,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsMcpServerSplunk
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsOutputReference
 ```
@@ -12156,7 +12156,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentialsOutputReference
 ```
@@ -12449,7 +12449,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthoriza
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOutputReference
 ```
@@ -12709,7 +12709,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsPagerDutyAuthoriza
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsPagerDutyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsPagerDutyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsPagerDutyOutputReference
 ```
@@ -12980,7 +12980,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsPagerDuty
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentialsOutputReference
 ```
@@ -13273,7 +13273,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsServiceNowAuthoriz
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOutputReference
 ```
@@ -13533,7 +13533,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsServiceNowAuthoriz
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceServiceDetailsServiceNowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceServiceDetailsServiceNowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentServiceServiceDetailsServiceNowOutputReference
 ```
@@ -13804,7 +13804,7 @@ func InternalValue() DataAwsccDevopsagentServiceServiceDetailsServiceNow
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDevopsagentServiceTagsList
 ```
@@ -13953,7 +13953,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentService.DataAwsccDevopsagentServiceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentservice"
 
 dataawsccdevopsagentservice.NewDataAwsccDevopsagentServiceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDevopsagentServiceTagsOutputReference
 ```

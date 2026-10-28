@@ -4,12 +4,12 @@
 
 ### IamSamlProvider <a name="IamSamlProvider" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider awscc_iam_saml_provider}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider awscc_iam_saml_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 iamsamlprovider.NewIamSamlProvider(scope Construct, id *string, config IamSamlProviderConfig) IamSamlProvider
 ```
@@ -475,7 +475,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 iamsamlprovider.IamSamlProvider_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 iamsamlprovider.IamSamlProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ iamsamlprovider.IamSamlProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProvider.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 iamsamlprovider.IamSamlProvider_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ iamsamlprovider.IamSamlProvider_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 iamsamlprovider.IamSamlProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -564,7 +564,7 @@ The construct id used in the generated config for the IamSamlProvider to import.
 
 The id of the existing IamSamlProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -951,7 +951,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 &iamsamlprovider.IamSamlProviderConfig {
 	Connection: interface{},
@@ -984,11 +984,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
 | <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.addPrivateKey">AddPrivateKey</a></code> | <code>*string</code> | The private key from your external identity provider. |
 | <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.assertionEncryptionMode">AssertionEncryptionMode</a></code> | <code>*string</code> | The encryption setting for the SAML provider. |
-| <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#name IamSamlProvider#name}. |
-| <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.privateKeyList">PrivateKeyList</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#private_key_list IamSamlProvider#private_key_list}. |
+| <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#name IamSamlProvider#name}. |
+| <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.privateKeyList">PrivateKeyList</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#private_key_list IamSamlProvider#private_key_list}. |
 | <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.removePrivateKey">RemovePrivateKey</a></code> | <code>*string</code> | The Key ID of the private key to remove. |
-| <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.samlMetadataDocument">SamlMetadataDocument</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#saml_metadata_document IamSamlProvider#saml_metadata_document}. |
-| <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#tags IamSamlProvider#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.samlMetadataDocument">SamlMetadataDocument</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#saml_metadata_document IamSamlProvider#saml_metadata_document}. |
+| <code><a href="#@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#tags IamSamlProvider#tags}. |
 
 ---
 
@@ -1072,7 +1072,7 @@ AddPrivateKey *string
 
 The private key from your external identity provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#add_private_key IamSamlProvider#add_private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#add_private_key IamSamlProvider#add_private_key}
 
 ---
 
@@ -1086,7 +1086,7 @@ AssertionEncryptionMode *string
 
 The encryption setting for the SAML provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#assertion_encryption_mode IamSamlProvider#assertion_encryption_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#assertion_encryption_mode IamSamlProvider#assertion_encryption_mode}
 
 ---
 
@@ -1098,7 +1098,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#name IamSamlProvider#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#name IamSamlProvider#name}.
 
 ---
 
@@ -1110,7 +1110,7 @@ PrivateKeyList interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#private_key_list IamSamlProvider#private_key_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#private_key_list IamSamlProvider#private_key_list}.
 
 ---
 
@@ -1124,7 +1124,7 @@ RemovePrivateKey *string
 
 The Key ID of the private key to remove.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#remove_private_key IamSamlProvider#remove_private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#remove_private_key IamSamlProvider#remove_private_key}
 
 ---
 
@@ -1136,7 +1136,7 @@ SamlMetadataDocument *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#saml_metadata_document IamSamlProvider#saml_metadata_document}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#saml_metadata_document IamSamlProvider#saml_metadata_document}.
 
 ---
 
@@ -1148,7 +1148,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#tags IamSamlProvider#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#tags IamSamlProvider#tags}.
 
 ---
 
@@ -1157,7 +1157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderPrivateKeyListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 &iamsamlprovider.IamSamlProviderPrivateKeyListStruct {
 	KeyId: *string,
@@ -1184,7 +1184,7 @@ KeyId *string
 
 The unique identifier for the SAML private key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#key_id IamSamlProvider#key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#key_id IamSamlProvider#key_id}
 
 ---
 
@@ -1198,7 +1198,7 @@ Timestamp *string
 
 The date and time, in <a href=\"http://www.iso.org/iso/iso8601\">ISO 8601 date-time </a> format, when the private key was uploaded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#timestamp IamSamlProvider#timestamp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#timestamp IamSamlProvider#timestamp}
 
 ---
 
@@ -1207,7 +1207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 &iamsamlprovider.IamSamlProviderTags {
 	Key: *string,
@@ -1236,7 +1236,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#key IamSamlProvider#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#key IamSamlProvider#key}
 
 ---
 
@@ -1252,7 +1252,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_saml_provider#value IamSamlProvider#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_saml_provider#value IamSamlProvider#value}
 
 ---
 
@@ -1263,7 +1263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderPrivateKeyListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 iamsamlprovider.NewIamSamlProviderPrivateKeyListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IamSamlProviderPrivateKeyListStructList
 ```
@@ -1423,7 +1423,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderPrivateKeyListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 iamsamlprovider.NewIamSamlProviderPrivateKeyListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IamSamlProviderPrivateKeyListStructOutputReference
 ```
@@ -1748,7 +1748,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 iamsamlprovider.NewIamSamlProviderTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IamSamlProviderTagsList
 ```
@@ -1908,7 +1908,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamSamlProvider.IamSamlProviderTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamsamlprovider"
 
 iamsamlprovider.NewIamSamlProviderTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IamSamlProviderTagsOutputReference
 ```

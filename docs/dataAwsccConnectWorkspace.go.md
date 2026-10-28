@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectWorkspace <a name="DataAwsccConnectWorkspace" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_workspace awscc_connect_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_workspace awscc_connect_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspace(scope Construct, id *string, config DataAwsccConnectWorkspaceConfig) DataAwsccConnectWorkspace
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.DataAwsccConnectWorkspace_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.DataAwsccConnectWorkspace_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectworkspace.DataAwsccConnectWorkspace_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspace.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.DataAwsccConnectWorkspace_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectworkspace.DataAwsccConnectWorkspace_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.DataAwsccConnectWorkspace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectWorkspace 
 
 The id of the existing DataAwsccConnectWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_workspace#id DataAwsccConnectWorkspace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_workspace#id DataAwsccConnectWorkspace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceMedia.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceMedia {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspacePages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspacePages {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceTags {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceTheme.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceTheme {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDark.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeDark {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkPalette.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeDarkPalette {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkPaletteCanvas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeDarkPaletteCanvas {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkPaletteHeader.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeDarkPaletteHeader {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkPaletteNavigation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeDarkPaletteNavigation {
 
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkPalettePrimary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeDarkPalettePrimary {
 
@@ -970,7 +970,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkTypography.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeDarkTypography {
 
@@ -983,7 +983,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkTypographyFontFamily.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeDarkTypographyFontFamily {
 
@@ -996,7 +996,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeLight {
 
@@ -1009,7 +1009,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightPalette.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeLightPalette {
 
@@ -1022,7 +1022,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightPaletteCanvas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeLightPaletteCanvas {
 
@@ -1035,7 +1035,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightPaletteHeader.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeLightPaletteHeader {
 
@@ -1048,7 +1048,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightPaletteNavigation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeLightPaletteNavigation {
 
@@ -1061,7 +1061,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightPalettePrimary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeLightPalettePrimary {
 
@@ -1074,7 +1074,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightTypography.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeLightTypography {
 
@@ -1087,7 +1087,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightTypographyFontFamily.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 &dataawsccconnectworkspace.DataAwsccConnectWorkspaceThemeLightTypographyFontFamily {
 
@@ -1102,7 +1102,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworksp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceMediaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceMediaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectWorkspaceMediaList
 ```
@@ -1251,7 +1251,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceMediaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceMediaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectWorkspaceMediaOutputReference
 ```
@@ -1540,7 +1540,7 @@ func InternalValue() DataAwsccConnectWorkspaceMedia
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspacePagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspacePagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectWorkspacePagesList
 ```
@@ -1689,7 +1689,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspacePagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspacePagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectWorkspacePagesOutputReference
 ```
@@ -2000,7 +2000,7 @@ func InternalValue() DataAwsccConnectWorkspacePages
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectWorkspaceTagsList
 ```
@@ -2149,7 +2149,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectWorkspaceTagsOutputReference
 ```
@@ -2438,7 +2438,7 @@ func InternalValue() DataAwsccConnectWorkspaceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeDarkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeDarkOutputReference
 ```
@@ -2709,7 +2709,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeDark
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkPaletteCanvasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeDarkPaletteCanvasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeDarkPaletteCanvasOutputReference
 ```
@@ -2991,7 +2991,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeDarkPaletteCanvas
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkPaletteHeaderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeDarkPaletteHeaderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeDarkPaletteHeaderOutputReference
 ```
@@ -3284,7 +3284,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeDarkPaletteHeader
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkPaletteNavigationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeDarkPaletteNavigationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeDarkPaletteNavigationOutputReference
 ```
@@ -3610,7 +3610,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeDarkPaletteNavigation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkPaletteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeDarkPaletteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeDarkPaletteOutputReference
 ```
@@ -3903,7 +3903,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeDarkPalette
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkPalettePrimaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeDarkPalettePrimaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeDarkPalettePrimaryOutputReference
 ```
@@ -4185,7 +4185,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeDarkPalettePrimary
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkTypographyFontFamilyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeDarkTypographyFontFamilyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeDarkTypographyFontFamilyOutputReference
 ```
@@ -4445,7 +4445,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeDarkTypographyFontFamily
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeDarkTypographyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeDarkTypographyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeDarkTypographyOutputReference
 ```
@@ -4705,7 +4705,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeDarkTypography
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeLightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeLightOutputReference
 ```
@@ -4976,7 +4976,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeLight
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightPaletteCanvasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeLightPaletteCanvasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeLightPaletteCanvasOutputReference
 ```
@@ -5258,7 +5258,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeLightPaletteCanvas
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightPaletteHeaderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeLightPaletteHeaderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeLightPaletteHeaderOutputReference
 ```
@@ -5551,7 +5551,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeLightPaletteHeader
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightPaletteNavigationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeLightPaletteNavigationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeLightPaletteNavigationOutputReference
 ```
@@ -5877,7 +5877,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeLightPaletteNavigation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightPaletteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeLightPaletteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeLightPaletteOutputReference
 ```
@@ -6170,7 +6170,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeLightPalette
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightPalettePrimaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeLightPalettePrimaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeLightPalettePrimaryOutputReference
 ```
@@ -6452,7 +6452,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeLightPalettePrimary
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightTypographyFontFamilyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeLightTypographyFontFamilyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeLightTypographyFontFamilyOutputReference
 ```
@@ -6712,7 +6712,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeLightTypographyFontFamily
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeLightTypographyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeLightTypographyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeLightTypographyOutputReference
 ```
@@ -6972,7 +6972,7 @@ func InternalValue() DataAwsccConnectWorkspaceThemeLightTypography
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectWorkspace.DataAwsccConnectWorkspaceThemeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectworkspace"
 
 dataawsccconnectworkspace.NewDataAwsccConnectWorkspaceThemeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectWorkspaceThemeOutputReference
 ```

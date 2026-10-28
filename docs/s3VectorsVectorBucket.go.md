@@ -4,12 +4,12 @@
 
 ### S3VectorsVectorBucket <a name="S3VectorsVectorBucket" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket"
 
 s3vectorsvectorbucket.NewS3VectorsVectorBucket(scope Construct, id *string, config S3VectorsVectorBucketConfig) S3VectorsVectorBucket
 ```
@@ -447,7 +447,7 @@ func ResetVectorBucketName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucket.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket"
 
 s3vectorsvectorbucket.S3VectorsVectorBucket_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucket.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket"
 
 s3vectorsvectorbucket.S3VectorsVectorBucket_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ s3vectorsvectorbucket.S3VectorsVectorBucket_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucket.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket"
 
 s3vectorsvectorbucket.S3VectorsVectorBucket_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ s3vectorsvectorbucket.S3VectorsVectorBucket_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucket.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket"
 
 s3vectorsvectorbucket.S3VectorsVectorBucket_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the S3VectorsVectorBucket to i
 
 The id of the existing S3VectorsVectorBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -835,7 +835,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucketConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket"
 
 &s3vectorsvectorbucket.S3VectorsVectorBucketConfig {
 	Connection: interface{},
@@ -845,7 +845,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3VectorsVectorBucket.S3VectorsVectorBucketEncryptionConfiguration,
+	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3VectorsVectorBucket.S3VectorsVectorBucketEncryptionConfiguration,
 	Tags: interface{},
 	VectorBucketName: *string,
 }
@@ -948,7 +948,7 @@ EncryptionConfiguration S3VectorsVectorBucketEncryptionConfiguration
 
 The encryption configuration for the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket#encryption_configuration S3VectorsVectorBucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket#encryption_configuration S3VectorsVectorBucket#encryption_configuration}
 
 ---
 
@@ -962,7 +962,7 @@ Tags interface{}
 
 User tags (key-value pairs) to associate with the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket#tags S3VectorsVectorBucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket#tags S3VectorsVectorBucket#tags}
 
 ---
 
@@ -976,7 +976,7 @@ VectorBucketName *string
 
 The name of the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket#vector_bucket_name S3VectorsVectorBucket#vector_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket#vector_bucket_name S3VectorsVectorBucket#vector_bucket_name}
 
 ---
 
@@ -985,7 +985,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucketEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket"
 
 &s3vectorsvectorbucket.S3VectorsVectorBucketEncryptionConfiguration {
 	KmsKeyArn: *string,
@@ -1014,7 +1014,7 @@ AWS Key Management Service (KMS) customer managed key ID to use for the encrypti
 
 This parameter is allowed if and only if sseType is set to aws:kms
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket#kms_key_arn S3VectorsVectorBucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket#kms_key_arn S3VectorsVectorBucket#kms_key_arn}
 
 ---
 
@@ -1030,7 +1030,7 @@ The server-side encryption type to use for the encryption configuration of the v
 
 By default, if you don't specify, all new vectors in Amazon S3 vector buckets use server-side encryption with Amazon S3 managed keys (SSE-S3), specifically AES256.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket#sse_type S3VectorsVectorBucket#sse_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket#sse_type S3VectorsVectorBucket#sse_type}
 
 ---
 
@@ -1039,7 +1039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucketTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket"
 
 &s3vectorsvectorbucket.S3VectorsVectorBucketTags {
 	Key: *string,
@@ -1091,7 +1091,7 @@ Tag value can only contain alphanumeric characters, spaces, _, ., /, =, +, -, an
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucketEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket"
 
 s3vectorsvectorbucket.NewS3VectorsVectorBucketEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3VectorsVectorBucketEncryptionConfigurationOutputReference
 ```
@@ -1398,7 +1398,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucketTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket"
 
 s3vectorsvectorbucket.NewS3VectorsVectorBucketTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3VectorsVectorBucketTagsList
 ```
@@ -1558,7 +1558,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucketTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket"
 
 s3vectorsvectorbucket.NewS3VectorsVectorBucketTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) S3VectorsVectorBucketTagsOutputReference
 ```

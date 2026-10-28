@@ -4,12 +4,12 @@
 
 ### DatasyncLocationS3 <a name="DatasyncLocationS3" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_s3 awscc_datasync_location_s3}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_s3 awscc_datasync_location_s3}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocations3"
 
 datasynclocations3.NewDatasyncLocationS3(scope Construct, id *string, config DatasyncLocationS3Config) DatasyncLocationS3
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocations3"
 
 datasynclocations3.DatasyncLocationS3_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocations3"
 
 datasynclocations3.DatasyncLocationS3_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ datasynclocations3.DatasyncLocationS3_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocations3"
 
 datasynclocations3.DatasyncLocationS3_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ datasynclocations3.DatasyncLocationS3_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocations3"
 
 datasynclocations3.DatasyncLocationS3_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the DatasyncLocationS3 to impo
 
 The id of the existing DatasyncLocationS3 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_s3#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_s3#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -886,7 +886,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocations3"
 
 &datasynclocations3.DatasyncLocationS3Config {
 	Connection: interface{},
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	S3Config: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationS3.DatasyncLocationS3S3Config,
+	S3Config: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationS3.DatasyncLocationS3S3Config,
 	S3BucketArn: *string,
 	S3StorageClass: *string,
 	Subdirectory: *string,
@@ -1003,7 +1003,7 @@ S3Config DatasyncLocationS3S3Config
 
 The Amazon Resource Name (ARN) of the AWS IAM role that is used to access an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_s3#s3_config DatasyncLocationS3#s3_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_s3#s3_config DatasyncLocationS3#s3_config}
 
 ---
 
@@ -1017,7 +1017,7 @@ S3BucketArn *string
 
 The Amazon Resource Name (ARN) of the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_s3#s3_bucket_arn DatasyncLocationS3#s3_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_s3#s3_bucket_arn DatasyncLocationS3#s3_bucket_arn}
 
 ---
 
@@ -1031,7 +1031,7 @@ S3StorageClass *string
 
 The Amazon S3 storage class you want to store your files in when this location is used as a task destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_s3#s3_storage_class DatasyncLocationS3#s3_storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_s3#s3_storage_class DatasyncLocationS3#s3_storage_class}
 
 ---
 
@@ -1047,7 +1047,7 @@ A subdirectory in the Amazon S3 bucket.
 
 This subdirectory in Amazon S3 is used to read data from the S3 source location or write data to the S3 destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_s3#subdirectory DatasyncLocationS3#subdirectory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_s3#subdirectory DatasyncLocationS3#subdirectory}
 
 ---
 
@@ -1061,7 +1061,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_s3#tags DatasyncLocationS3#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_s3#tags DatasyncLocationS3#tags}
 
 ---
 
@@ -1070,7 +1070,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3S3Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocations3"
 
 &datasynclocations3.DatasyncLocationS3S3Config {
 	BucketAccessRoleArn: *string,
@@ -1095,7 +1095,7 @@ BucketAccessRoleArn *string
 
 The ARN of the IAM role of the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_s3#bucket_access_role_arn DatasyncLocationS3#bucket_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_s3#bucket_access_role_arn DatasyncLocationS3#bucket_access_role_arn}
 
 ---
 
@@ -1104,7 +1104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3Tags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocations3"
 
 &datasynclocations3.DatasyncLocationS3Tags {
 	Key: *string,
@@ -1131,7 +1131,7 @@ Key *string
 
 The key for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_s3#key DatasyncLocationS3#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_s3#key DatasyncLocationS3#key}
 
 ---
 
@@ -1145,7 +1145,7 @@ Value *string
 
 The value for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_s3#value DatasyncLocationS3#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_s3#value DatasyncLocationS3#value}
 
 ---
 
@@ -1156,7 +1156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3S3ConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocations3"
 
 datasynclocations3.NewDatasyncLocationS3S3ConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationS3S3ConfigOutputReference
 ```
@@ -1427,7 +1427,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3TagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocations3"
 
 datasynclocations3.NewDatasyncLocationS3TagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatasyncLocationS3TagsList
 ```
@@ -1587,7 +1587,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationS3.DatasyncLocationS3TagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocations3"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocations3"
 
 datasynclocations3.NewDatasyncLocationS3TagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatasyncLocationS3TagsOutputReference
 ```

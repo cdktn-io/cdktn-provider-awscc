@@ -4,12 +4,12 @@
 
 ### DaxSubnetGroup <a name="DaxSubnetGroup" id="@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group awscc_dax_subnet_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_subnet_group awscc_dax_subnet_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxsubnetgroup"
 
 daxsubnetgroup.NewDaxSubnetGroup(scope Construct, id *string, config DaxSubnetGroupConfig) DaxSubnetGroup
 ```
@@ -414,7 +414,7 @@ func ResetSubnetGroupName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxsubnetgroup"
 
 daxsubnetgroup.DaxSubnetGroup_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxsubnetgroup"
 
 daxsubnetgroup.DaxSubnetGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ daxsubnetgroup.DaxSubnetGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxsubnetgroup"
 
 daxsubnetgroup.DaxSubnetGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ daxsubnetgroup.DaxSubnetGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxsubnetgroup"
 
 daxsubnetgroup.DaxSubnetGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the DaxSubnetGroup to import.
 
 The id of the existing DaxSubnetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_subnet_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -780,7 +780,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxsubnetgroup"
 
 &daxsubnetgroup.DaxSubnetGroupConfig {
 	Connection: interface{},
@@ -807,9 +807,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxsubnetgroup"
 | <code><a href="#@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroupConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroupConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroupConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroupConfig.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group#subnet_ids DaxSubnetGroup#subnet_ids}. |
-| <code><a href="#@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroupConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group#description DaxSubnetGroup#description}. |
-| <code><a href="#@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroupConfig.property.subnetGroupName">SubnetGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group#subnet_group_name DaxSubnetGroup#subnet_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroupConfig.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_subnet_group#subnet_ids DaxSubnetGroup#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroupConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_subnet_group#description DaxSubnetGroup#description}. |
+| <code><a href="#@cdktn/provider-awscc.daxSubnetGroup.DaxSubnetGroupConfig.property.subnetGroupName">SubnetGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_subnet_group#subnet_group_name DaxSubnetGroup#subnet_group_name}. |
 
 ---
 
@@ -891,7 +891,7 @@ SubnetIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group#subnet_ids DaxSubnetGroup#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_subnet_group#subnet_ids DaxSubnetGroup#subnet_ids}.
 
 ---
 
@@ -903,7 +903,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group#description DaxSubnetGroup#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_subnet_group#description DaxSubnetGroup#description}.
 
 ---
 
@@ -915,7 +915,7 @@ SubnetGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group#subnet_group_name DaxSubnetGroup#subnet_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_subnet_group#subnet_group_name DaxSubnetGroup#subnet_group_name}.
 
 ---
 

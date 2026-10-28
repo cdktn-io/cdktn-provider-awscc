@@ -4,12 +4,12 @@
 
 ### CassandraType <a name="CassandraType" id="@cdktn/provider-awscc.cassandraType.CassandraType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_type awscc_cassandra_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_type awscc_cassandra_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraType.CassandraType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratype"
 
 cassandratype.NewCassandraType(scope Construct, id *string, config CassandraTypeConfig) CassandraType
 ```
@@ -413,7 +413,7 @@ func PutFields(value interface{})
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cassandraType.CassandraType.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratype"
 
 cassandratype.CassandraType_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cassandraType.CassandraType.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratype"
 
 cassandratype.CassandraType_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ cassandratype.CassandraType_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cassandraType.CassandraType.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratype"
 
 cassandratype.CassandraType_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ cassandratype.CassandraType_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cassandraType.CassandraType.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratype"
 
 cassandratype.CassandraType_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the CassandraType to import.
 
 The id of the existing CassandraType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -834,7 +834,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraType.CassandraTypeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratype"
 
 &cassandratype.CassandraTypeConfig {
 	Connection: interface{},
@@ -947,7 +947,7 @@ Fields interface{}
 
 Field definitions of the User-Defined Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_type#fields CassandraType#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_type#fields CassandraType#fields}
 
 ---
 
@@ -961,7 +961,7 @@ KeyspaceName *string
 
 Name of the Keyspace which contains the User-Defined Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_type#keyspace_name CassandraType#keyspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_type#keyspace_name CassandraType#keyspace_name}
 
 ---
 
@@ -975,7 +975,7 @@ TypeName *string
 
 Name of the User-Defined Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_type#type_name CassandraType#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_type#type_name CassandraType#type_name}
 
 ---
 
@@ -984,7 +984,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraType.CassandraTypeFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratype"
 
 &cassandratype.CassandraTypeFields {
 	FieldName: *string,
@@ -996,8 +996,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratype"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraType.CassandraTypeFields.property.fieldName">FieldName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_type#field_name CassandraType#field_name}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraType.CassandraTypeFields.property.fieldType">FieldType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_type#field_type CassandraType#field_type}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraType.CassandraTypeFields.property.fieldName">FieldName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_type#field_name CassandraType#field_name}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraType.CassandraTypeFields.property.fieldType">FieldType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_type#field_type CassandraType#field_type}. |
 
 ---
 
@@ -1009,7 +1009,7 @@ FieldName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_type#field_name CassandraType#field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_type#field_name CassandraType#field_name}.
 
 ---
 
@@ -1021,7 +1021,7 @@ FieldType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_type#field_type CassandraType#field_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_type#field_type CassandraType#field_type}.
 
 ---
 
@@ -1032,7 +1032,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraType.CassandraTypeFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratype"
 
 cassandratype.NewCassandraTypeFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CassandraTypeFieldsList
 ```
@@ -1192,7 +1192,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraType.CassandraTypeFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratype"
 
 cassandratype.NewCassandraTypeFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CassandraTypeFieldsOutputReference
 ```

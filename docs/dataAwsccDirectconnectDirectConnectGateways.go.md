@@ -4,12 +4,12 @@
 
 ### DataAwsccDirectconnectDirectConnectGateways <a name="DataAwsccDirectconnectDirectConnectGateways" id="@cdktn/provider-awscc.dataAwsccDirectconnectDirectConnectGateways.DataAwsccDirectconnectDirectConnectGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectDirectConnectGateways.DataAwsccDirectconnectDirectConnectGateways.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectdirectconnectgateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectdirectconnectgateways"
 
 dataawsccdirectconnectdirectconnectgateways.NewDataAwsccDirectconnectDirectConnectGateways(scope Construct, id *string, config DataAwsccDirectconnectDirectConnectGatewaysConfig) DataAwsccDirectconnectDirectConnectGateways
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDirectconnectDirectConnectGateways.DataAwsccDirectconnectDirectConnectGateways.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectdirectconnectgateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectdirectconnectgateways"
 
 dataawsccdirectconnectdirectconnectgateways.DataAwsccDirectconnectDirectConnectGateways_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDirectconnectDirectConnectGateways.DataAwsccDirectconnectDirectConnectGateways.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectdirectconnectgateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectdirectconnectgateways"
 
 dataawsccdirectconnectdirectconnectgateways.DataAwsccDirectconnectDirectConnectGateways_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdirectconnectdirectconnectgateways.DataAwsccDirectconnectDirectConnectG
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDirectconnectDirectConnectGateways.DataAwsccDirectconnectDirectConnectGateways.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectdirectconnectgateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectdirectconnectgateways"
 
 dataawsccdirectconnectdirectconnectgateways.DataAwsccDirectconnectDirectConnectGateways_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdirectconnectdirectconnectgateways.DataAwsccDirectconnectDirectConnectG
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDirectconnectDirectConnectGateways.DataAwsccDirectconnectDirectConnectGateways.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectdirectconnectgateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectdirectconnectgateways"
 
 dataawsccdirectconnectdirectconnectgateways.DataAwsccDirectconnectDirectConnectGateways_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDirectconnectDire
 
 The id of the existing DataAwsccDirectconnectDirectConnectGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_direct_connect_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_direct_connect_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDirectconnectDirectConnectGateways.DataAwsccDirectconnectDirectConnectGatewaysConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectdirectconnectgateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectdirectconnectgateways"
 
 &dataawsccdirectconnectdirectconnectgateways.DataAwsccDirectconnectDirectConnectGatewaysConfig {
 	Connection: interface{},

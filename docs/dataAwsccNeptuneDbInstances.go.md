@@ -4,12 +4,12 @@
 
 ### DataAwsccNeptuneDbInstances <a name="DataAwsccNeptuneDbInstances" id="@cdktn/provider-awscc.dataAwsccNeptuneDbInstances.DataAwsccNeptuneDbInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_instances awscc_neptune_db_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_instances awscc_neptune_db_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNeptuneDbInstances.DataAwsccNeptuneDbInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbinstances"
 
 dataawsccneptunedbinstances.NewDataAwsccNeptuneDbInstances(scope Construct, id *string, config DataAwsccNeptuneDbInstancesConfig) DataAwsccNeptuneDbInstances
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNeptuneDbInstances.DataAwsccNeptuneDbInstances.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbinstances"
 
 dataawsccneptunedbinstances.DataAwsccNeptuneDbInstances_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNeptuneDbInstances.DataAwsccNeptuneDbInstances.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbinstances"
 
 dataawsccneptunedbinstances.DataAwsccNeptuneDbInstances_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccneptunedbinstances.DataAwsccNeptuneDbInstances_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNeptuneDbInstances.DataAwsccNeptuneDbInstances.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbinstances"
 
 dataawsccneptunedbinstances.DataAwsccNeptuneDbInstances_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccneptunedbinstances.DataAwsccNeptuneDbInstances_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNeptuneDbInstances.DataAwsccNeptuneDbInstances.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbinstances"
 
 dataawsccneptunedbinstances.DataAwsccNeptuneDbInstances_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNeptuneDbInstance
 
 The id of the existing DataAwsccNeptuneDbInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNeptuneDbInstances.DataAwsccNeptuneDbInstancesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbinstances"
 
 &dataawsccneptunedbinstances.DataAwsccNeptuneDbInstancesConfig {
 	Connection: interface{},

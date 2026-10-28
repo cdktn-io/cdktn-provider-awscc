@@ -4,12 +4,12 @@
 
 ### DataAwsccImagebuilderContainerRecipe <a name="DataAwsccImagebuilderContainerRecipe" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipe"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_container_recipe awscc_imagebuilder_container_recipe}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_container_recipe awscc_imagebuilder_container_recipe}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.NewDataAwsccImagebuilderContainerRecipe(scope Construct, id *string, config DataAwsccImagebuilderContainerRecipeConfig) DataAwsccImagebuilderContainerRecipe
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipe.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipe_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipe.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipe_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipe_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipe.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipe_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipe_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipe.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipe_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccImagebuilderConta
 
 The id of the existing DataAwsccImagebuilderContainerRecipe that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_container_recipe#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_container_recipe#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeComponents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 &dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipeComponents {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeComponentsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 &dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipeComponentsParameters {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 &dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipeConfig {
 	Connection: interface{},
@@ -909,7 +909,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_container_recipe#id DataAwsccImagebuilderContainerRecipe#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_container_recipe#id DataAwsccImagebuilderContainerRecipe#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -921,7 +921,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeInstanceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 &dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipeInstanceConfiguration {
 
@@ -934,7 +934,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 &dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings {
 
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsEbs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 &dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsEbs {
 
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeLatestVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 &dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipeLatestVersion {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeTargetRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 &dataawsccimagebuildercontainerrecipe.DataAwsccImagebuilderContainerRecipeTargetRepository {
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeComponentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.NewDataAwsccImagebuilderContainerRecipeComponentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccImagebuilderContainerRecipeComponentsList
 ```
@@ -1137,7 +1137,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeComponentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.NewDataAwsccImagebuilderContainerRecipeComponentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccImagebuilderContainerRecipeComponentsOutputReference
 ```
@@ -1426,7 +1426,7 @@ func InternalValue() DataAwsccImagebuilderContainerRecipeComponents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeComponentsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.NewDataAwsccImagebuilderContainerRecipeComponentsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccImagebuilderContainerRecipeComponentsParametersList
 ```
@@ -1575,7 +1575,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeComponentsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.NewDataAwsccImagebuilderContainerRecipeComponentsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccImagebuilderContainerRecipeComponentsParametersOutputReference
 ```
@@ -1864,7 +1864,7 @@ func InternalValue() DataAwsccImagebuilderContainerRecipeComponentsParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsEbsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.NewDataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsEbsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsEbsOutputReference
 ```
@@ -2201,7 +2201,7 @@ func InternalValue() DataAwsccImagebuilderContainerRecipeInstanceConfigurationBl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.NewDataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsList
 ```
@@ -2350,7 +2350,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.NewDataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsOutputReference
 ```
@@ -2661,7 +2661,7 @@ func InternalValue() DataAwsccImagebuilderContainerRecipeInstanceConfigurationBl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeInstanceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.NewDataAwsccImagebuilderContainerRecipeInstanceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderContainerRecipeInstanceConfigurationOutputReference
 ```
@@ -2932,7 +2932,7 @@ func InternalValue() DataAwsccImagebuilderContainerRecipeInstanceConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeLatestVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.NewDataAwsccImagebuilderContainerRecipeLatestVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderContainerRecipeLatestVersionOutputReference
 ```
@@ -3225,7 +3225,7 @@ func InternalValue() DataAwsccImagebuilderContainerRecipeLatestVersion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderContainerRecipe.DataAwsccImagebuilderContainerRecipeTargetRepositoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercontainerrecipe"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercontainerrecipe"
 
 dataawsccimagebuildercontainerrecipe.NewDataAwsccImagebuilderContainerRecipeTargetRepositoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderContainerRecipeTargetRepositoryOutputReference
 ```

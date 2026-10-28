@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticloadbalancingv2TrustStoreRevocation <a name="DataAwsccElasticloadbalancingv2TrustStoreRevocation" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 dataawsccelasticloadbalancingv2truststorerevocation.NewDataAwsccElasticloadbalancingv2TrustStoreRevocation(scope Construct, id *string, config DataAwsccElasticloadbalancingv2TrustStoreRevocationConfig) DataAwsccElasticloadbalancingv2TrustStoreRevocation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 dataawsccelasticloadbalancingv2truststorerevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 dataawsccelasticloadbalancingv2truststorerevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticloadbalancingv2truststorerevocation.DataAwsccElasticloadbalancin
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 dataawsccelasticloadbalancingv2truststorerevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticloadbalancingv2truststorerevocation.DataAwsccElasticloadbalancin
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 dataawsccelasticloadbalancingv2truststorerevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticloadbalanc
 
 The id of the existing DataAwsccElasticloadbalancingv2TrustStoreRevocation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancingv2_trust_store_revocation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancingv2_trust_store_revocation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 &dataawsccelasticloadbalancingv2truststorerevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocationConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancingv2_trust_store_revocation#id DataAwsccElasticloadbalancingv2TrustStoreRevocation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancingv2_trust_store_revocation#id DataAwsccElasticloadbalancingv2TrustStoreRevocation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocationRevocationContents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 &dataawsccelasticloadbalancingv2truststorerevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocationRevocationContents {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocationTrustStoreRevocations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 &dataawsccelasticloadbalancingv2truststorerevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocationTrustStoreRevocations {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocationRevocationContentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 dataawsccelasticloadbalancingv2truststorerevocation.NewDataAwsccElasticloadbalancingv2TrustStoreRevocationRevocationContentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2TrustStoreRevocationRevocationContentsList
 ```
@@ -929,7 +929,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocationRevocationContentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 dataawsccelasticloadbalancingv2truststorerevocation.NewDataAwsccElasticloadbalancingv2TrustStoreRevocationRevocationContentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2TrustStoreRevocationRevocationContentsOutputReference
 ```
@@ -1240,7 +1240,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2TrustStoreRevocationRevocati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocationTrustStoreRevocationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 dataawsccelasticloadbalancingv2truststorerevocation.NewDataAwsccElasticloadbalancingv2TrustStoreRevocationTrustStoreRevocationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2TrustStoreRevocationTrustStoreRevocationsList
 ```
@@ -1389,7 +1389,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStoreRevocation.DataAwsccElasticloadbalancingv2TrustStoreRevocationTrustStoreRevocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2truststorerevocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2truststorerevocation"
 
 dataawsccelasticloadbalancingv2truststorerevocation.NewDataAwsccElasticloadbalancingv2TrustStoreRevocationTrustStoreRevocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2TrustStoreRevocationTrustStoreRevocationsOutputReference
 ```

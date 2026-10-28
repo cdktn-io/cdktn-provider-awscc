@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerArtifacts <a name="DataAwsccSagemakerArtifacts" id="@cdktn/provider-awscc.dataAwsccSagemakerArtifacts.DataAwsccSagemakerArtifacts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_artifacts awscc_sagemaker_artifacts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_artifacts awscc_sagemaker_artifacts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerArtifacts.DataAwsccSagemakerArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerartifacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerartifacts"
 
 dataawsccsagemakerartifacts.NewDataAwsccSagemakerArtifacts(scope Construct, id *string, config DataAwsccSagemakerArtifactsConfig) DataAwsccSagemakerArtifacts
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerArtifacts.DataAwsccSagemakerArtifacts.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerartifacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerartifacts"
 
 dataawsccsagemakerartifacts.DataAwsccSagemakerArtifacts_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerArtifacts.DataAwsccSagemakerArtifacts.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerartifacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerartifacts"
 
 dataawsccsagemakerartifacts.DataAwsccSagemakerArtifacts_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerartifacts.DataAwsccSagemakerArtifacts_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerArtifacts.DataAwsccSagemakerArtifacts.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerartifacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerartifacts"
 
 dataawsccsagemakerartifacts.DataAwsccSagemakerArtifacts_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerartifacts.DataAwsccSagemakerArtifacts_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerArtifacts.DataAwsccSagemakerArtifacts.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerartifacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerartifacts"
 
 dataawsccsagemakerartifacts.DataAwsccSagemakerArtifacts_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerArtifact
 
 The id of the existing DataAwsccSagemakerArtifacts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_artifacts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_artifacts#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerArtifacts.DataAwsccSagemakerArtifactsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerartifacts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerartifacts"
 
 &dataawsccsagemakerartifacts.DataAwsccSagemakerArtifactsConfig {
 	Connection: interface{},

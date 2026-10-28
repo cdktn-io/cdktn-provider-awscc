@@ -4,12 +4,12 @@
 
 ### DataAwsccRdsDbInstances <a name="DataAwsccRdsDbInstances" id="@cdktn/provider-awscc.dataAwsccRdsDbInstances.DataAwsccRdsDbInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_instances awscc_rds_db_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_instances awscc_rds_db_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbInstances.DataAwsccRdsDbInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbinstances"
 
 dataawsccrdsdbinstances.NewDataAwsccRdsDbInstances(scope Construct, id *string, config DataAwsccRdsDbInstancesConfig) DataAwsccRdsDbInstances
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRdsDbInstances.DataAwsccRdsDbInstances.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbinstances"
 
 dataawsccrdsdbinstances.DataAwsccRdsDbInstances_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRdsDbInstances.DataAwsccRdsDbInstances.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbinstances"
 
 dataawsccrdsdbinstances.DataAwsccRdsDbInstances_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrdsdbinstances.DataAwsccRdsDbInstances_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRdsDbInstances.DataAwsccRdsDbInstances.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbinstances"
 
 dataawsccrdsdbinstances.DataAwsccRdsDbInstances_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrdsdbinstances.DataAwsccRdsDbInstances_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRdsDbInstances.DataAwsccRdsDbInstances.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbinstances"
 
 dataawsccrdsdbinstances.DataAwsccRdsDbInstances_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRdsDbInstances to
 
 The id of the existing DataAwsccRdsDbInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsDbInstances.DataAwsccRdsDbInstancesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbinstances"
 
 &dataawsccrdsdbinstances.DataAwsccRdsDbInstancesConfig {
 	Connection: interface{},

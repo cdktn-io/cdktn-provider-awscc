@@ -4,12 +4,12 @@
 
 ### SsmCloudConnector <a name="SsmCloudConnector" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.NewSsmCloudConnector(scope Construct, id *string, config SsmCloudConnectorConfig) SsmCloudConnector
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.SsmCloudConnector_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.SsmCloudConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ ssmcloudconnector.SsmCloudConnector_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnector.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.SsmCloudConnector_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ ssmcloudconnector.SsmCloudConnector_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.SsmCloudConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SsmCloudConnector to impor
 
 The id of the existing SsmCloudConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -916,7 +916,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 &ssmcloudconnector.SsmCloudConnectorConfig {
 	Connection: interface{},
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ConfigConnectorArn: *string,
-	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssmCloudConnector.SsmCloudConnectorConfiguration,
+	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssmCloudConnector.SsmCloudConnectorConfiguration,
 	DisplayName: *string,
 	RoleArn: *string,
 	Description: *string,
@@ -1035,7 +1035,7 @@ ConfigConnectorArn *string
 
 The ARN of the AWS Config connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#config_connector_arn SsmCloudConnector#config_connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#config_connector_arn SsmCloudConnector#config_connector_arn}
 
 ---
 
@@ -1049,7 +1049,7 @@ Configuration SsmCloudConnectorConfiguration
 
 The configuration for the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#configuration SsmCloudConnector#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#configuration SsmCloudConnector#configuration}
 
 ---
 
@@ -1063,7 +1063,7 @@ DisplayName *string
 
 The display name of the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
 
 ---
 
@@ -1077,7 +1077,7 @@ RoleArn *string
 
 The IAM role ARN used by the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#role_arn SsmCloudConnector#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#role_arn SsmCloudConnector#role_arn}
 
 ---
 
@@ -1091,7 +1091,7 @@ Description *string
 
 The description of the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#description SsmCloudConnector#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#description SsmCloudConnector#description}
 
 ---
 
@@ -1105,7 +1105,7 @@ Tags interface{}
 
 Tags to apply to the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#tags SsmCloudConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#tags SsmCloudConnector#tags}
 
 ---
 
@@ -1114,10 +1114,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 &ssmcloudconnector.SsmCloudConnectorConfiguration {
-	AzureConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration,
+	AzureConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration,
 }
 ```
 
@@ -1139,7 +1139,7 @@ AzureConfiguration SsmCloudConnectorConfigurationAzureConfiguration
 
 Configuration for connecting to Azure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#azure_configuration SsmCloudConnector#azure_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#azure_configuration SsmCloudConnector#azure_configuration}
 
 ---
 
@@ -1148,13 +1148,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 &ssmcloudconnector.SsmCloudConnectorConfigurationAzureConfiguration {
 	ApplicationId: *string,
 	TenantId: *string,
 	ApplicationDisplayName: *string,
-	Targets: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationTargets,
+	Targets: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationTargets,
 	TenantDisplayName: *string,
 }
 ```
@@ -1181,7 +1181,7 @@ ApplicationId *string
 
 The Azure AD application ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#application_id SsmCloudConnector#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#application_id SsmCloudConnector#application_id}
 
 ---
 
@@ -1195,7 +1195,7 @@ TenantId *string
 
 The Azure AD tenant ID. Cannot be changed after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#tenant_id SsmCloudConnector#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#tenant_id SsmCloudConnector#tenant_id}
 
 ---
 
@@ -1209,7 +1209,7 @@ ApplicationDisplayName *string
 
 The display name of the Azure AD application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#application_display_name SsmCloudConnector#application_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#application_display_name SsmCloudConnector#application_display_name}
 
 ---
 
@@ -1223,7 +1223,7 @@ Targets SsmCloudConnectorConfigurationAzureConfigurationTargets
 
 The targets for the cloud connector. If omitted, the entire tenant is targeted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#targets SsmCloudConnector#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#targets SsmCloudConnector#targets}
 
 ---
 
@@ -1237,7 +1237,7 @@ TenantDisplayName *string
 
 The display name of the Azure AD tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#tenant_display_name SsmCloudConnector#tenant_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#tenant_display_name SsmCloudConnector#tenant_display_name}
 
 ---
 
@@ -1246,7 +1246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 &ssmcloudconnector.SsmCloudConnectorConfigurationAzureConfigurationTargets {
 	Subscriptions: interface{},
@@ -1271,7 +1271,7 @@ Subscriptions interface{}
 
 List of Azure subscriptions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#subscriptions SsmCloudConnector#subscriptions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#subscriptions SsmCloudConnector#subscriptions}
 
 ---
 
@@ -1280,7 +1280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 &ssmcloudconnector.SsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptions {
 	DisplayName: *string,
@@ -1307,7 +1307,7 @@ DisplayName *string
 
 The display name of the Azure subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
 
 ---
 
@@ -1321,7 +1321,7 @@ Id *string
 
 The Azure subscription ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#id SsmCloudConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#id SsmCloudConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1333,7 +1333,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 &ssmcloudconnector.SsmCloudConnectorTags {
 	Key: *string,
@@ -1345,8 +1345,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}. |
 
 ---
 
@@ -1358,7 +1358,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}.
 
 ---
 
@@ -1370,7 +1370,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}.
 
 ---
 
@@ -1381,7 +1381,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.NewSsmCloudConnectorConfigurationAzureConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsmCloudConnectorConfigurationAzureConfigurationOutputReference
 ```
@@ -1774,7 +1774,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.NewSsmCloudConnectorConfigurationAzureConfigurationTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsmCloudConnectorConfigurationAzureConfigurationTargetsOutputReference
 ```
@@ -2065,7 +2065,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.NewSsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsList
 ```
@@ -2225,7 +2225,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.NewSsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsOutputReference
 ```
@@ -2550,7 +2550,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.NewSsmCloudConnectorConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsmCloudConnectorConfigurationOutputReference
 ```
@@ -2834,7 +2834,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.NewSsmCloudConnectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmCloudConnectorTagsList
 ```
@@ -2994,7 +2994,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcloudconnector"
 
 ssmcloudconnector.NewSsmCloudConnectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmCloudConnectorTagsOutputReference
 ```

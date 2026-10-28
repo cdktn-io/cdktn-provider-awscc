@@ -4,12 +4,12 @@
 
 ### DataAwsccWisdomAiGuardrail <a name="DataAwsccWisdomAiGuardrail" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrail"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrail(scope Construct, id *string, config DataAwsccWisdomAiGuardrailConfig) DataAwsccWisdomAiGuardrail
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrail.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrail_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrail.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrail_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrail_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrail.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrail_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrail_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrail.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrail_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWisdomAiGuardrail
 
 The id of the existing DataAwsccWisdomAiGuardrail that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_guardrail#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_guardrail#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_guardrail#id DataAwsccWisdomAiGuardrail#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_guardrail#id DataAwsccWisdomAiGuardrail#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailContentPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailContentPolicyConfig {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailContentPolicyConfigFiltersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailContentPolicyConfigFiltersConfig {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfig {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfig {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfig {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfig {
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfig {
 
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailTopicPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailTopicPolicyConfig {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailTopicPolicyConfigTopicsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailTopicPolicyConfigTopicsConfig {
 
@@ -990,7 +990,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailWordPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailWordPolicyConfig {
 
@@ -1003,7 +1003,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailWordPolicyConfigManagedWordListsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailWordPolicyConfigManagedWordListsConfig {
 
@@ -1016,7 +1016,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailWordPolicyConfigWordsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 &dataawsccwisdomaiguardrail.DataAwsccWisdomAiGuardrailWordPolicyConfigWordsConfig {
 
@@ -1031,7 +1031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguard
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailContentPolicyConfigFiltersConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailContentPolicyConfigFiltersConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiGuardrailContentPolicyConfigFiltersConfigList
 ```
@@ -1180,7 +1180,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference
 ```
@@ -1480,7 +1480,7 @@ func InternalValue() DataAwsccWisdomAiGuardrailContentPolicyConfigFiltersConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailContentPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailContentPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiGuardrailContentPolicyConfigOutputReference
 ```
@@ -1740,7 +1740,7 @@ func InternalValue() DataAwsccWisdomAiGuardrailContentPolicyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigList
 ```
@@ -1889,7 +1889,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigOutputReference
 ```
@@ -2178,7 +2178,7 @@ func InternalValue() DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfigOutputReference
 ```
@@ -2438,7 +2438,7 @@ func InternalValue() DataAwsccWisdomAiGuardrailContextualGroundingPolicyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigOutputReference
 ```
@@ -2709,7 +2709,7 @@ func InternalValue() DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigList
 ```
@@ -2858,7 +2858,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOutputReference
 ```
@@ -3147,7 +3147,7 @@ func InternalValue() DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigList
 ```
@@ -3296,7 +3296,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference
 ```
@@ -3607,7 +3607,7 @@ func InternalValue() DataAwsccWisdomAiGuardrailSensitiveInformationPolicyConfigR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailTopicPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailTopicPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiGuardrailTopicPolicyConfigOutputReference
 ```
@@ -3867,7 +3867,7 @@ func InternalValue() DataAwsccWisdomAiGuardrailTopicPolicyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailTopicPolicyConfigTopicsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailTopicPolicyConfigTopicsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiGuardrailTopicPolicyConfigTopicsConfigList
 ```
@@ -4016,7 +4016,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference
 ```
@@ -4327,7 +4327,7 @@ func InternalValue() DataAwsccWisdomAiGuardrailTopicPolicyConfigTopicsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailWordPolicyConfigManagedWordListsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailWordPolicyConfigManagedWordListsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiGuardrailWordPolicyConfigManagedWordListsConfigList
 ```
@@ -4476,7 +4476,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailWordPolicyConfigManagedWordListsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailWordPolicyConfigManagedWordListsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiGuardrailWordPolicyConfigManagedWordListsConfigOutputReference
 ```
@@ -4754,7 +4754,7 @@ func InternalValue() DataAwsccWisdomAiGuardrailWordPolicyConfigManagedWordListsC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailWordPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailWordPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiGuardrailWordPolicyConfigOutputReference
 ```
@@ -5025,7 +5025,7 @@ func InternalValue() DataAwsccWisdomAiGuardrailWordPolicyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailWordPolicyConfigWordsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailWordPolicyConfigWordsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiGuardrailWordPolicyConfigWordsConfigList
 ```
@@ -5174,7 +5174,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiGuardrail.DataAwsccWisdomAiGuardrailWordPolicyConfigWordsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiguardrail"
 
 dataawsccwisdomaiguardrail.NewDataAwsccWisdomAiGuardrailWordPolicyConfigWordsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiGuardrailWordPolicyConfigWordsConfigOutputReference
 ```

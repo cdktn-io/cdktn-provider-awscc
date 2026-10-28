@@ -4,12 +4,12 @@
 
 ### CloudfrontFunction <a name="CloudfrontFunction" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function awscc_cloudfront_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function awscc_cloudfront_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 cloudfrontfunction.NewCloudfrontFunction(scope Construct, id *string, config CloudfrontFunctionConfig) CloudfrontFunction
 ```
@@ -460,7 +460,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 cloudfrontfunction.CloudfrontFunction_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 cloudfrontfunction.CloudfrontFunction_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ cloudfrontfunction.CloudfrontFunction_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunction.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 cloudfrontfunction.CloudfrontFunction_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ cloudfrontfunction.CloudfrontFunction_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 cloudfrontfunction.CloudfrontFunction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the CloudfrontFunction to impo
 
 The id of the existing CloudfrontFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -914,7 +914,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunctionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 &cloudfrontfunction.CloudfrontFunctionConfig {
 	Connection: interface{},
@@ -925,10 +925,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	FunctionCode: *string,
-	FunctionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontFunction.CloudfrontFunctionFunctionConfig,
+	FunctionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontFunction.CloudfrontFunctionFunctionConfig,
 	Name: *string,
 	AutoPublish: interface{},
-	FunctionMetadata: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontFunction.CloudfrontFunctionFunctionMetadata,
+	FunctionMetadata: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontFunction.CloudfrontFunctionFunctionMetadata,
 	Tags: interface{},
 }
 ```
@@ -1035,7 +1035,7 @@ The function code.
 
 For more information about writing a CloudFront function, see [Writing function code for CloudFront Functions](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/writing-function-code.html) in the *Amazon CloudFront Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function#function_code CloudfrontFunction#function_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function#function_code CloudfrontFunction#function_code}
 
 ---
 
@@ -1049,7 +1049,7 @@ FunctionConfig CloudfrontFunctionFunctionConfig
 
 Contains configuration information about a CloudFront function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function#function_config CloudfrontFunction#function_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function#function_config CloudfrontFunction#function_config}
 
 ---
 
@@ -1063,7 +1063,7 @@ Name *string
 
 A name to identify the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function#name CloudfrontFunction#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function#name CloudfrontFunction#name}
 
 ---
 
@@ -1077,7 +1077,7 @@ AutoPublish interface{}
 
 A flag that determines whether to automatically publish the function to the ``LIVE`` stage when it?s created. To automatically publish to the ``LIVE`` stage, set this property to ``true``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function#auto_publish CloudfrontFunction#auto_publish}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function#auto_publish CloudfrontFunction#auto_publish}
 
 ---
 
@@ -1091,7 +1091,7 @@ FunctionMetadata CloudfrontFunctionFunctionMetadata
 
 Contains metadata about a CloudFront function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function#function_metadata CloudfrontFunction#function_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function#function_metadata CloudfrontFunction#function_metadata}
 
 ---
 
@@ -1105,7 +1105,7 @@ Tags interface{}
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function#tags CloudfrontFunction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function#tags CloudfrontFunction#tags}
 
 ---
 
@@ -1114,7 +1114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunctionFunctionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 &cloudfrontfunction.CloudfrontFunctionFunctionConfig {
 	Comment: *string,
@@ -1143,7 +1143,7 @@ Comment *string
 
 A comment to describe the function. The comment cannot be longer than 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function#comment CloudfrontFunction#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function#comment CloudfrontFunction#comment}
 
 ---
 
@@ -1157,7 +1157,7 @@ Runtime *string
 
 The function's runtime environment version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function#runtime CloudfrontFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function#runtime CloudfrontFunction#runtime}
 
 ---
 
@@ -1171,7 +1171,7 @@ KeyValueStoreAssociations interface{}
 
 The configuration for the key value store associations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function#key_value_store_associations CloudfrontFunction#key_value_store_associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function#key_value_store_associations CloudfrontFunction#key_value_store_associations}
 
 ---
 
@@ -1180,7 +1180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunctionFunctionConfigKeyValueStoreAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 &cloudfrontfunction.CloudfrontFunctionFunctionConfigKeyValueStoreAssociations {
 	KeyValueStoreArn: *string,
@@ -1205,7 +1205,7 @@ KeyValueStoreArn *string
 
 The Amazon Resource Name (ARN) of the key value store association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_function#key_value_store_arn CloudfrontFunction#key_value_store_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_function#key_value_store_arn CloudfrontFunction#key_value_store_arn}
 
 ---
 
@@ -1214,7 +1214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunctionFunctionMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 &cloudfrontfunction.CloudfrontFunctionFunctionMetadata {
 
@@ -1227,7 +1227,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunctionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 &cloudfrontfunction.CloudfrontFunctionTags {
 	Key: *string,
@@ -1279,7 +1279,7 @@ The string length should be between 0 and 256 characters. Valid characters inclu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunctionFunctionConfigKeyValueStoreAssociationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 cloudfrontfunction.NewCloudfrontFunctionFunctionConfigKeyValueStoreAssociationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontFunctionFunctionConfigKeyValueStoreAssociationsList
 ```
@@ -1439,7 +1439,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunctionFunctionConfigKeyValueStoreAssociationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 cloudfrontfunction.NewCloudfrontFunctionFunctionConfigKeyValueStoreAssociationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudfrontFunctionFunctionConfigKeyValueStoreAssociationsOutputReference
 ```
@@ -1735,7 +1735,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunctionFunctionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 cloudfrontfunction.NewCloudfrontFunctionFunctionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontFunctionFunctionConfigOutputReference
 ```
@@ -2070,7 +2070,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunctionFunctionMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 cloudfrontfunction.NewCloudfrontFunctionFunctionMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontFunctionFunctionMetadataOutputReference
 ```
@@ -2330,7 +2330,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunctionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 cloudfrontfunction.NewCloudfrontFunctionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontFunctionTagsList
 ```
@@ -2490,7 +2490,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontFunction.CloudfrontFunctionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfunction"
 
 cloudfrontfunction.NewCloudfrontFunctionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudfrontFunctionTagsOutputReference
 ```

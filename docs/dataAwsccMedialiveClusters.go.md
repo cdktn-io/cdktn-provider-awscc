@@ -4,12 +4,12 @@
 
 ### DataAwsccMedialiveClusters <a name="DataAwsccMedialiveClusters" id="@cdktn/provider-awscc.dataAwsccMedialiveClusters.DataAwsccMedialiveClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_clusters awscc_medialive_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_clusters awscc_medialive_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveClusters.DataAwsccMedialiveClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveclusters"
 
 dataawsccmedialiveclusters.NewDataAwsccMedialiveClusters(scope Construct, id *string, config DataAwsccMedialiveClustersConfig) DataAwsccMedialiveClusters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMedialiveClusters.DataAwsccMedialiveClusters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveclusters"
 
 dataawsccmedialiveclusters.DataAwsccMedialiveClusters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMedialiveClusters.DataAwsccMedialiveClusters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveclusters"
 
 dataawsccmedialiveclusters.DataAwsccMedialiveClusters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmedialiveclusters.DataAwsccMedialiveClusters_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMedialiveClusters.DataAwsccMedialiveClusters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveclusters"
 
 dataawsccmedialiveclusters.DataAwsccMedialiveClusters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmedialiveclusters.DataAwsccMedialiveClusters_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMedialiveClusters.DataAwsccMedialiveClusters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveclusters"
 
 dataawsccmedialiveclusters.DataAwsccMedialiveClusters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMedialiveClusters
 
 The id of the existing DataAwsccMedialiveClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMedialiveClusters.DataAwsccMedialiveClustersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveclusters"
 
 &dataawsccmedialiveclusters.DataAwsccMedialiveClustersConfig {
 	Connection: interface{},

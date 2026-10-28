@@ -4,12 +4,12 @@
 
 ### DataAwsccResourceexplorer2DefaultViewAssociation <a name="DataAwsccResourceexplorer2DefaultViewAssociation" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2DefaultViewAssociation.DataAwsccResourceexplorer2DefaultViewAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2DefaultViewAssociation.DataAwsccResourceexplorer2DefaultViewAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2defaultviewassociation"
 
 dataawsccresourceexplorer2defaultviewassociation.NewDataAwsccResourceexplorer2DefaultViewAssociation(scope Construct, id *string, config DataAwsccResourceexplorer2DefaultViewAssociationConfig) DataAwsccResourceexplorer2DefaultViewAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2DefaultViewAssociation.DataAwsccResourceexplorer2DefaultViewAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2defaultviewassociation"
 
 dataawsccresourceexplorer2defaultviewassociation.DataAwsccResourceexplorer2DefaultViewAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2DefaultViewAssociation.DataAwsccResourceexplorer2DefaultViewAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2defaultviewassociation"
 
 dataawsccresourceexplorer2defaultviewassociation.DataAwsccResourceexplorer2DefaultViewAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccresourceexplorer2defaultviewassociation.DataAwsccResourceexplorer2Defau
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2DefaultViewAssociation.DataAwsccResourceexplorer2DefaultViewAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2defaultviewassociation"
 
 dataawsccresourceexplorer2defaultviewassociation.DataAwsccResourceexplorer2DefaultViewAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccresourceexplorer2defaultviewassociation.DataAwsccResourceexplorer2Defau
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2DefaultViewAssociation.DataAwsccResourceexplorer2DefaultViewAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2defaultviewassociation"
 
 dataawsccresourceexplorer2defaultviewassociation.DataAwsccResourceexplorer2DefaultViewAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResourceexplorer2
 
 The id of the existing DataAwsccResourceexplorer2DefaultViewAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourceexplorer2_default_view_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourceexplorer2_default_view_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2DefaultViewAssociation.DataAwsccResourceexplorer2DefaultViewAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2defaultviewassociation"
 
 &dataawsccresourceexplorer2defaultviewassociation.DataAwsccResourceexplorer2DefaultViewAssociationConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourceexplorer2_default_view_association#id DataAwsccResourceexplorer2DefaultViewAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourceexplorer2_default_view_association#id DataAwsccResourceexplorer2DefaultViewAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

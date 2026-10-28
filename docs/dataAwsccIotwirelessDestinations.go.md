@@ -4,12 +4,12 @@
 
 ### DataAwsccIotwirelessDestinations <a name="DataAwsccIotwirelessDestinations" id="@cdktn/provider-awscc.dataAwsccIotwirelessDestinations.DataAwsccIotwirelessDestinations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_destinations awscc_iotwireless_destinations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_destinations awscc_iotwireless_destinations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessDestinations.DataAwsccIotwirelessDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdestinations"
 
 dataawscciotwirelessdestinations.NewDataAwsccIotwirelessDestinations(scope Construct, id *string, config DataAwsccIotwirelessDestinationsConfig) DataAwsccIotwirelessDestinations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotwirelessDestinations.DataAwsccIotwirelessDestinations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdestinations"
 
 dataawscciotwirelessdestinations.DataAwsccIotwirelessDestinations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotwirelessDestinations.DataAwsccIotwirelessDestinations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdestinations"
 
 dataawscciotwirelessdestinations.DataAwsccIotwirelessDestinations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotwirelessdestinations.DataAwsccIotwirelessDestinations_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotwirelessDestinations.DataAwsccIotwirelessDestinations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdestinations"
 
 dataawscciotwirelessdestinations.DataAwsccIotwirelessDestinations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotwirelessdestinations.DataAwsccIotwirelessDestinations_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotwirelessDestinations.DataAwsccIotwirelessDestinations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdestinations"
 
 dataawscciotwirelessdestinations.DataAwsccIotwirelessDestinations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessDestin
 
 The id of the existing DataAwsccIotwirelessDestinations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_destinations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_destinations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessDestinations.DataAwsccIotwirelessDestinationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdestinations"
 
 &dataawscciotwirelessdestinations.DataAwsccIotwirelessDestinationsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccMemorydbAcl <a name="DataAwsccMemorydbAcl" id="@cdktn/provider-awscc.dataAwsccMemorydbAcl.DataAwsccMemorydbAcl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_acl awscc_memorydb_acl}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_acl awscc_memorydb_acl}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMemorydbAcl.DataAwsccMemorydbAcl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbacl"
 
 dataawsccmemorydbacl.NewDataAwsccMemorydbAcl(scope Construct, id *string, config DataAwsccMemorydbAclConfig) DataAwsccMemorydbAcl
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMemorydbAcl.DataAwsccMemorydbAcl.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbacl"
 
 dataawsccmemorydbacl.DataAwsccMemorydbAcl_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMemorydbAcl.DataAwsccMemorydbAcl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbacl"
 
 dataawsccmemorydbacl.DataAwsccMemorydbAcl_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmemorydbacl.DataAwsccMemorydbAcl_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMemorydbAcl.DataAwsccMemorydbAcl.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbacl"
 
 dataawsccmemorydbacl.DataAwsccMemorydbAcl_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmemorydbacl.DataAwsccMemorydbAcl_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMemorydbAcl.DataAwsccMemorydbAcl.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbacl"
 
 dataawsccmemorydbacl.DataAwsccMemorydbAcl_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMemorydbAcl to im
 
 The id of the existing DataAwsccMemorydbAcl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_acl#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_acl#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMemorydbAcl.DataAwsccMemorydbAclConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbacl"
 
 &dataawsccmemorydbacl.DataAwsccMemorydbAclConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_acl#id DataAwsccMemorydbAcl#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_acl#id DataAwsccMemorydbAcl#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMemorydbAcl.DataAwsccMemorydbAclTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbacl"
 
 &dataawsccmemorydbacl.DataAwsccMemorydbAclTags {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacl"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMemorydbAcl.DataAwsccMemorydbAclTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbacl"
 
 dataawsccmemorydbacl.NewDataAwsccMemorydbAclTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMemorydbAclTagsList
 ```
@@ -927,7 +927,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMemorydbAcl.DataAwsccMemorydbAclTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbacl"
 
 dataawsccmemorydbacl.NewDataAwsccMemorydbAclTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMemorydbAclTagsOutputReference
 ```

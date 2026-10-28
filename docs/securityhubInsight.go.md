@@ -4,12 +4,12 @@
 
 ### SecurityhubInsight <a name="SecurityhubInsight" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsight"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight awscc_securityhub_insight}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight awscc_securityhub_insight}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsight(scope Construct, id *string, config SecurityhubInsightConfig) SecurityhubInsight
 ```
@@ -413,7 +413,7 @@ func PutFilters(value SecurityhubInsightFilters)
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsight.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.SecurityhubInsight_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsight.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.SecurityhubInsight_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ securityhubinsight.SecurityhubInsight_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsight.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.SecurityhubInsight_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ securityhubinsight.SecurityhubInsight_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsight.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.SecurityhubInsight_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the SecurityhubInsight to impo
 
 The id of the existing SecurityhubInsight that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -790,7 +790,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightConfig {
 	Connection: interface{},
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Filters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFilters,
+	Filters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFilters,
 	GroupByAttribute: *string,
 	Name: *string,
 }
@@ -903,7 +903,7 @@ Filters SecurityhubInsightFilters
 
 One or more attributes used to filter the findings included in the insight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#filters SecurityhubInsight#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#filters SecurityhubInsight#filters}
 
 ---
 
@@ -917,7 +917,7 @@ GroupByAttribute *string
 
 The grouping attribute for the insight's findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#group_by_attribute SecurityhubInsight#group_by_attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#group_by_attribute SecurityhubInsight#group_by_attribute}
 
 ---
 
@@ -931,7 +931,7 @@ Name *string
 
 The name of a Security Hub insight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#name SecurityhubInsight#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#name SecurityhubInsight#name}
 
 ---
 
@@ -940,7 +940,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFilters {
 	AwsAccountId: interface{},
@@ -1171,7 +1171,7 @@ AwsAccountId interface{}
 
 The AWS account ID in which a finding is generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#aws_account_id SecurityhubInsight#aws_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#aws_account_id SecurityhubInsight#aws_account_id}
 
 ---
 
@@ -1185,7 +1185,7 @@ AwsAccountName interface{}
 
 The name of the AWS account in which a finding is generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#aws_account_name SecurityhubInsight#aws_account_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#aws_account_name SecurityhubInsight#aws_account_name}
 
 ---
 
@@ -1199,7 +1199,7 @@ CompanyName interface{}
 
 The name of the findings provider (company) that owns the solution (product) that generates findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#company_name SecurityhubInsight#company_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#company_name SecurityhubInsight#company_name}
 
 ---
 
@@ -1213,7 +1213,7 @@ ComplianceAssociatedStandardsId interface{}
 
 The unique identifier of a standard in which a control is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#compliance_associated_standards_id SecurityhubInsight#compliance_associated_standards_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#compliance_associated_standards_id SecurityhubInsight#compliance_associated_standards_id}
 
 ---
 
@@ -1227,7 +1227,7 @@ ComplianceSecurityControlId interface{}
 
 The unique identifier of a control across standards.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#compliance_security_control_id SecurityhubInsight#compliance_security_control_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#compliance_security_control_id SecurityhubInsight#compliance_security_control_id}
 
 ---
 
@@ -1241,7 +1241,7 @@ ComplianceSecurityControlParametersName interface{}
 
 The name of a security control parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#compliance_security_control_parameters_name SecurityhubInsight#compliance_security_control_parameters_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#compliance_security_control_parameters_name SecurityhubInsight#compliance_security_control_parameters_name}
 
 ---
 
@@ -1255,7 +1255,7 @@ ComplianceSecurityControlParametersValue interface{}
 
 The current value of a security control parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#compliance_security_control_parameters_value SecurityhubInsight#compliance_security_control_parameters_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#compliance_security_control_parameters_value SecurityhubInsight#compliance_security_control_parameters_value}
 
 ---
 
@@ -1269,7 +1269,7 @@ ComplianceStatus interface{}
 
 Exclusive to findings that are generated as the result of a check run against a specific rule in a supported standard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#compliance_status SecurityhubInsight#compliance_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#compliance_status SecurityhubInsight#compliance_status}
 
 ---
 
@@ -1283,7 +1283,7 @@ Confidence interface{}
 
 A finding's confidence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#confidence SecurityhubInsight#confidence}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#confidence SecurityhubInsight#confidence}
 
 ---
 
@@ -1297,7 +1297,7 @@ CreatedAt interface{}
 
 An ISO8601-formatted timestamp that indicates when the security findings provider captured the potential security issue that a finding captured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#created_at SecurityhubInsight#created_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#created_at SecurityhubInsight#created_at}
 
 ---
 
@@ -1311,7 +1311,7 @@ Criticality interface{}
 
 The level of importance assigned to the resources associated with the finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#criticality SecurityhubInsight#criticality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#criticality SecurityhubInsight#criticality}
 
 ---
 
@@ -1325,7 +1325,7 @@ Description interface{}
 
 A finding's description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#description SecurityhubInsight#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#description SecurityhubInsight#description}
 
 ---
 
@@ -1339,7 +1339,7 @@ FindingProviderFieldsConfidence interface{}
 
 The finding provider value for the finding confidence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#finding_provider_fields_confidence SecurityhubInsight#finding_provider_fields_confidence}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#finding_provider_fields_confidence SecurityhubInsight#finding_provider_fields_confidence}
 
 ---
 
@@ -1353,7 +1353,7 @@ FindingProviderFieldsCriticality interface{}
 
 The finding provider value for the level of importance assigned to the resources associated with the findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#finding_provider_fields_criticality SecurityhubInsight#finding_provider_fields_criticality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#finding_provider_fields_criticality SecurityhubInsight#finding_provider_fields_criticality}
 
 ---
 
@@ -1367,7 +1367,7 @@ FindingProviderFieldsRelatedFindingsId interface{}
 
 The finding identifier of a related finding that is identified by the finding provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#finding_provider_fields_related_findings_id SecurityhubInsight#finding_provider_fields_related_findings_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#finding_provider_fields_related_findings_id SecurityhubInsight#finding_provider_fields_related_findings_id}
 
 ---
 
@@ -1381,7 +1381,7 @@ FindingProviderFieldsRelatedFindingsProductArn interface{}
 
 The ARN of the solution that generated a related finding that is identified by the finding provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#finding_provider_fields_related_findings_product_arn SecurityhubInsight#finding_provider_fields_related_findings_product_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#finding_provider_fields_related_findings_product_arn SecurityhubInsight#finding_provider_fields_related_findings_product_arn}
 
 ---
 
@@ -1395,7 +1395,7 @@ FindingProviderFieldsSeverityLabel interface{}
 
 The finding provider value for the severity label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#finding_provider_fields_severity_label SecurityhubInsight#finding_provider_fields_severity_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#finding_provider_fields_severity_label SecurityhubInsight#finding_provider_fields_severity_label}
 
 ---
 
@@ -1409,7 +1409,7 @@ FindingProviderFieldsSeverityOriginal interface{}
 
 The finding provider's original value for the severity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#finding_provider_fields_severity_original SecurityhubInsight#finding_provider_fields_severity_original}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#finding_provider_fields_severity_original SecurityhubInsight#finding_provider_fields_severity_original}
 
 ---
 
@@ -1423,7 +1423,7 @@ FindingProviderFieldsTypes interface{}
 
 One or more finding types that the finding provider assigned to the finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#finding_provider_fields_types SecurityhubInsight#finding_provider_fields_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#finding_provider_fields_types SecurityhubInsight#finding_provider_fields_types}
 
 ---
 
@@ -1437,7 +1437,7 @@ FirstObservedAt interface{}
 
 An ISO8601-formatted timestamp that indicates when the security findings provider first observed the potential security issue that a finding captured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#first_observed_at SecurityhubInsight#first_observed_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#first_observed_at SecurityhubInsight#first_observed_at}
 
 ---
 
@@ -1451,7 +1451,7 @@ GeneratorId interface{}
 
 The identifier for the solution-specific component (a discrete unit of logic) that generated a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#generator_id SecurityhubInsight#generator_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#generator_id SecurityhubInsight#generator_id}
 
 ---
 
@@ -1465,7 +1465,7 @@ Id interface{}
 
 The security findings provider-specific identifier for a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#id SecurityhubInsight#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#id SecurityhubInsight#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1482,7 +1482,7 @@ Keyword interface{}
 
 A keyword for a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#keyword SecurityhubInsight#keyword}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#keyword SecurityhubInsight#keyword}
 
 ---
 
@@ -1496,7 +1496,7 @@ LastObservedAt interface{}
 
 An ISO8601-formatted timestamp that indicates when the security findings provider most recently observed the potential security issue that a finding captured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#last_observed_at SecurityhubInsight#last_observed_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#last_observed_at SecurityhubInsight#last_observed_at}
 
 ---
 
@@ -1510,7 +1510,7 @@ MalwareName interface{}
 
 The name of the malware that was observed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#malware_name SecurityhubInsight#malware_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#malware_name SecurityhubInsight#malware_name}
 
 ---
 
@@ -1524,7 +1524,7 @@ MalwarePath interface{}
 
 The filesystem path of the malware that was observed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#malware_path SecurityhubInsight#malware_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#malware_path SecurityhubInsight#malware_path}
 
 ---
 
@@ -1538,7 +1538,7 @@ MalwareState interface{}
 
 The state of the malware that was observed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#malware_state SecurityhubInsight#malware_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#malware_state SecurityhubInsight#malware_state}
 
 ---
 
@@ -1552,7 +1552,7 @@ MalwareType interface{}
 
 The type of the malware that was observed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#malware_type SecurityhubInsight#malware_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#malware_type SecurityhubInsight#malware_type}
 
 ---
 
@@ -1566,7 +1566,7 @@ NetworkDestinationDomain interface{}
 
 The destination domain of network-related information about a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#network_destination_domain SecurityhubInsight#network_destination_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#network_destination_domain SecurityhubInsight#network_destination_domain}
 
 ---
 
@@ -1580,7 +1580,7 @@ NetworkDestinationIpV4 interface{}
 
 The destination IPv4 address of network-related information about a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#network_destination_ip_v4 SecurityhubInsight#network_destination_ip_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#network_destination_ip_v4 SecurityhubInsight#network_destination_ip_v4}
 
 ---
 
@@ -1594,7 +1594,7 @@ NetworkDestinationIpV6 interface{}
 
 The destination IPv6 address of network-related information about a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#network_destination_ip_v6 SecurityhubInsight#network_destination_ip_v6}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#network_destination_ip_v6 SecurityhubInsight#network_destination_ip_v6}
 
 ---
 
@@ -1608,7 +1608,7 @@ NetworkDestinationPort interface{}
 
 The destination port of network-related information about a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#network_destination_port SecurityhubInsight#network_destination_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#network_destination_port SecurityhubInsight#network_destination_port}
 
 ---
 
@@ -1622,7 +1622,7 @@ NetworkDirection interface{}
 
 Indicates the direction of network traffic associated with a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#network_direction SecurityhubInsight#network_direction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#network_direction SecurityhubInsight#network_direction}
 
 ---
 
@@ -1636,7 +1636,7 @@ NetworkProtocol interface{}
 
 The protocol of network-related information about a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#network_protocol SecurityhubInsight#network_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#network_protocol SecurityhubInsight#network_protocol}
 
 ---
 
@@ -1650,7 +1650,7 @@ NetworkSourceDomain interface{}
 
 The source domain of network-related information about a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#network_source_domain SecurityhubInsight#network_source_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#network_source_domain SecurityhubInsight#network_source_domain}
 
 ---
 
@@ -1664,7 +1664,7 @@ NetworkSourceIpV4 interface{}
 
 The source IPv4 address of network-related information about a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#network_source_ip_v4 SecurityhubInsight#network_source_ip_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#network_source_ip_v4 SecurityhubInsight#network_source_ip_v4}
 
 ---
 
@@ -1678,7 +1678,7 @@ NetworkSourceIpV6 interface{}
 
 The source IPv6 address of network-related information about a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#network_source_ip_v6 SecurityhubInsight#network_source_ip_v6}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#network_source_ip_v6 SecurityhubInsight#network_source_ip_v6}
 
 ---
 
@@ -1692,7 +1692,7 @@ NetworkSourceMac interface{}
 
 The source media access control (MAC) address of network-related information about a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#network_source_mac SecurityhubInsight#network_source_mac}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#network_source_mac SecurityhubInsight#network_source_mac}
 
 ---
 
@@ -1706,7 +1706,7 @@ NetworkSourcePort interface{}
 
 The source port of network-related information about a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#network_source_port SecurityhubInsight#network_source_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#network_source_port SecurityhubInsight#network_source_port}
 
 ---
 
@@ -1720,7 +1720,7 @@ NoteText interface{}
 
 The text of a note.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#note_text SecurityhubInsight#note_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#note_text SecurityhubInsight#note_text}
 
 ---
 
@@ -1734,7 +1734,7 @@ NoteUpdatedAt interface{}
 
 The timestamp of when the note was updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#note_updated_at SecurityhubInsight#note_updated_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#note_updated_at SecurityhubInsight#note_updated_at}
 
 ---
 
@@ -1748,7 +1748,7 @@ NoteUpdatedBy interface{}
 
 The principal that created a note.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#note_updated_by SecurityhubInsight#note_updated_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#note_updated_by SecurityhubInsight#note_updated_by}
 
 ---
 
@@ -1762,7 +1762,7 @@ ProcessLaunchedAt interface{}
 
 A timestamp that identifies when the process was launched.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#process_launched_at SecurityhubInsight#process_launched_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#process_launched_at SecurityhubInsight#process_launched_at}
 
 ---
 
@@ -1776,7 +1776,7 @@ ProcessName interface{}
 
 The name of the process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#process_name SecurityhubInsight#process_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#process_name SecurityhubInsight#process_name}
 
 ---
 
@@ -1790,7 +1790,7 @@ ProcessParentPid interface{}
 
 The parent process ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#process_parent_pid SecurityhubInsight#process_parent_pid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#process_parent_pid SecurityhubInsight#process_parent_pid}
 
 ---
 
@@ -1804,7 +1804,7 @@ ProcessPath interface{}
 
 The path to the process executable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#process_path SecurityhubInsight#process_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#process_path SecurityhubInsight#process_path}
 
 ---
 
@@ -1818,7 +1818,7 @@ ProcessPid interface{}
 
 The process ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#process_pid SecurityhubInsight#process_pid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#process_pid SecurityhubInsight#process_pid}
 
 ---
 
@@ -1832,7 +1832,7 @@ ProcessTerminatedAt interface{}
 
 A timestamp that identifies when the process was terminated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#process_terminated_at SecurityhubInsight#process_terminated_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#process_terminated_at SecurityhubInsight#process_terminated_at}
 
 ---
 
@@ -1846,7 +1846,7 @@ ProductArn interface{}
 
 The ARN generated by Security Hub that uniquely identifies a third-party company (security findings provider) after this provider's product (solution that generates findings) is registered with Security Hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#product_arn SecurityhubInsight#product_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#product_arn SecurityhubInsight#product_arn}
 
 ---
 
@@ -1860,7 +1860,7 @@ ProductFields interface{}
 
 A data type where security findings providers can include additional solution-specific details that aren't part of the defined AwsSecurityFinding format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#product_fields SecurityhubInsight#product_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#product_fields SecurityhubInsight#product_fields}
 
 ---
 
@@ -1874,7 +1874,7 @@ ProductName interface{}
 
 The name of the solution (product) that generates findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#product_name SecurityhubInsight#product_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#product_name SecurityhubInsight#product_name}
 
 ---
 
@@ -1888,7 +1888,7 @@ RecommendationText interface{}
 
 The recommendation of what to do about the issue described in a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#recommendation_text SecurityhubInsight#recommendation_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#recommendation_text SecurityhubInsight#recommendation_text}
 
 ---
 
@@ -1902,7 +1902,7 @@ RecordState interface{}
 
 The updated record state for the finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#record_state SecurityhubInsight#record_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#record_state SecurityhubInsight#record_state}
 
 ---
 
@@ -1916,7 +1916,7 @@ Region interface{}
 
 The Region from which the finding was generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#region SecurityhubInsight#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#region SecurityhubInsight#region}
 
 ---
 
@@ -1930,7 +1930,7 @@ RelatedFindingsId interface{}
 
 The solution-generated identifier for a related finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#related_findings_id SecurityhubInsight#related_findings_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#related_findings_id SecurityhubInsight#related_findings_id}
 
 ---
 
@@ -1944,7 +1944,7 @@ RelatedFindingsProductArn interface{}
 
 The ARN of the solution that generated a related finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#related_findings_product_arn SecurityhubInsight#related_findings_product_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#related_findings_product_arn SecurityhubInsight#related_findings_product_arn}
 
 ---
 
@@ -1958,7 +1958,7 @@ ResourceApplicationArn interface{}
 
 The ARN of the application that is related to a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_application_arn SecurityhubInsight#resource_application_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_application_arn SecurityhubInsight#resource_application_arn}
 
 ---
 
@@ -1972,7 +1972,7 @@ ResourceApplicationName interface{}
 
 The name of the application that is related to a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_application_name SecurityhubInsight#resource_application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_application_name SecurityhubInsight#resource_application_name}
 
 ---
 
@@ -1986,7 +1986,7 @@ ResourceAwsEc2InstanceIamInstanceProfileArn interface{}
 
 The IAM profile ARN of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_iam_instance_profile_arn SecurityhubInsight#resource_aws_ec_2_instance_iam_instance_profile_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_iam_instance_profile_arn SecurityhubInsight#resource_aws_ec_2_instance_iam_instance_profile_arn}
 
 ---
 
@@ -2000,7 +2000,7 @@ ResourceAwsEc2InstanceImageId interface{}
 
 The Amazon Machine Image (AMI) ID of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_image_id SecurityhubInsight#resource_aws_ec_2_instance_image_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_image_id SecurityhubInsight#resource_aws_ec_2_instance_image_id}
 
 ---
 
@@ -2014,7 +2014,7 @@ ResourceAwsEc2InstanceIpV4Addresses interface{}
 
 The IPv4 addresses associated with the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_ip_v4_addresses SecurityhubInsight#resource_aws_ec_2_instance_ip_v4_addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_ip_v4_addresses SecurityhubInsight#resource_aws_ec_2_instance_ip_v4_addresses}
 
 ---
 
@@ -2028,7 +2028,7 @@ ResourceAwsEc2InstanceIpV6Addresses interface{}
 
 The IPv6 addresses associated with the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_ip_v6_addresses SecurityhubInsight#resource_aws_ec_2_instance_ip_v6_addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_ip_v6_addresses SecurityhubInsight#resource_aws_ec_2_instance_ip_v6_addresses}
 
 ---
 
@@ -2042,7 +2042,7 @@ ResourceAwsEc2InstanceKeyName interface{}
 
 The key name associated with the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_key_name SecurityhubInsight#resource_aws_ec_2_instance_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_key_name SecurityhubInsight#resource_aws_ec_2_instance_key_name}
 
 ---
 
@@ -2056,7 +2056,7 @@ ResourceAwsEc2InstanceLaunchedAt interface{}
 
 The date and time the instance was launched.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_launched_at SecurityhubInsight#resource_aws_ec_2_instance_launched_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_launched_at SecurityhubInsight#resource_aws_ec_2_instance_launched_at}
 
 ---
 
@@ -2070,7 +2070,7 @@ ResourceAwsEc2InstanceSubnetId interface{}
 
 The identifier of the subnet that the instance was launched in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_subnet_id SecurityhubInsight#resource_aws_ec_2_instance_subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_subnet_id SecurityhubInsight#resource_aws_ec_2_instance_subnet_id}
 
 ---
 
@@ -2084,7 +2084,7 @@ ResourceAwsEc2InstanceType interface{}
 
 The instance type of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_type SecurityhubInsight#resource_aws_ec_2_instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_type SecurityhubInsight#resource_aws_ec_2_instance_type}
 
 ---
 
@@ -2098,7 +2098,7 @@ ResourceAwsEc2InstanceVpcId interface{}
 
 The identifier of the VPC that the instance was launched in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_vpc_id SecurityhubInsight#resource_aws_ec_2_instance_vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_vpc_id SecurityhubInsight#resource_aws_ec_2_instance_vpc_id}
 
 ---
 
@@ -2112,7 +2112,7 @@ ResourceAwsIamAccessKeyCreatedAt interface{}
 
 The creation date/time of the IAM access key related to a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_created_at SecurityhubInsight#resource_aws_iam_access_key_created_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_created_at SecurityhubInsight#resource_aws_iam_access_key_created_at}
 
 ---
 
@@ -2126,7 +2126,7 @@ ResourceAwsIamAccessKeyPrincipalName interface{}
 
 The name of the principal that is associated with an IAM access key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_principal_name SecurityhubInsight#resource_aws_iam_access_key_principal_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_principal_name SecurityhubInsight#resource_aws_iam_access_key_principal_name}
 
 ---
 
@@ -2140,7 +2140,7 @@ ResourceAwsIamAccessKeyStatus interface{}
 
 The status of the IAM access key related to a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_status SecurityhubInsight#resource_aws_iam_access_key_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_status SecurityhubInsight#resource_aws_iam_access_key_status}
 
 ---
 
@@ -2154,7 +2154,7 @@ ResourceAwsIamAccessKeyUserName interface{}
 
 The user associated with the IAM access key related to a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_user_name SecurityhubInsight#resource_aws_iam_access_key_user_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_user_name SecurityhubInsight#resource_aws_iam_access_key_user_name}
 
 ---
 
@@ -2168,7 +2168,7 @@ ResourceAwsIamUserUserName interface{}
 
 The name of an IAM user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_iam_user_user_name SecurityhubInsight#resource_aws_iam_user_user_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_iam_user_user_name SecurityhubInsight#resource_aws_iam_user_user_name}
 
 ---
 
@@ -2182,7 +2182,7 @@ ResourceAwsS3BucketOwnerId interface{}
 
 The canonical user ID of the owner of the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_s3_bucket_owner_id SecurityhubInsight#resource_aws_s3_bucket_owner_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_s3_bucket_owner_id SecurityhubInsight#resource_aws_s3_bucket_owner_id}
 
 ---
 
@@ -2196,7 +2196,7 @@ ResourceAwsS3BucketOwnerName interface{}
 
 The display name of the owner of the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_aws_s3_bucket_owner_name SecurityhubInsight#resource_aws_s3_bucket_owner_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_aws_s3_bucket_owner_name SecurityhubInsight#resource_aws_s3_bucket_owner_name}
 
 ---
 
@@ -2210,7 +2210,7 @@ ResourceContainerImageId interface{}
 
 The identifier of the image related to a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_container_image_id SecurityhubInsight#resource_container_image_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_container_image_id SecurityhubInsight#resource_container_image_id}
 
 ---
 
@@ -2224,7 +2224,7 @@ ResourceContainerImageName interface{}
 
 The name of the image related to a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_container_image_name SecurityhubInsight#resource_container_image_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_container_image_name SecurityhubInsight#resource_container_image_name}
 
 ---
 
@@ -2238,7 +2238,7 @@ ResourceContainerLaunchedAt interface{}
 
 A timestamp that identifies when the container was started.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_container_launched_at SecurityhubInsight#resource_container_launched_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_container_launched_at SecurityhubInsight#resource_container_launched_at}
 
 ---
 
@@ -2252,7 +2252,7 @@ ResourceContainerName interface{}
 
 The name of the container related to a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_container_name SecurityhubInsight#resource_container_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_container_name SecurityhubInsight#resource_container_name}
 
 ---
 
@@ -2266,7 +2266,7 @@ ResourceDetailsOther interface{}
 
 The details of a resource that doesn't have a specific subfield for the resource type defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_details_other SecurityhubInsight#resource_details_other}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_details_other SecurityhubInsight#resource_details_other}
 
 ---
 
@@ -2280,7 +2280,7 @@ ResourceId interface{}
 
 The canonical identifier for the given resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_id SecurityhubInsight#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_id SecurityhubInsight#resource_id}
 
 ---
 
@@ -2294,7 +2294,7 @@ ResourcePartition interface{}
 
 The canonical AWS partition name that the Region is assigned to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_partition SecurityhubInsight#resource_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_partition SecurityhubInsight#resource_partition}
 
 ---
 
@@ -2308,7 +2308,7 @@ ResourceRegion interface{}
 
 The canonical AWS external Region name where this resource is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_region SecurityhubInsight#resource_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_region SecurityhubInsight#resource_region}
 
 ---
 
@@ -2322,7 +2322,7 @@ ResourceTags interface{}
 
 A list of AWS tags associated with a resource at the time the finding was processed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_tags SecurityhubInsight#resource_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_tags SecurityhubInsight#resource_tags}
 
 ---
 
@@ -2336,7 +2336,7 @@ ResourceType interface{}
 
 Specifies the type of the resource that details are provided for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#resource_type SecurityhubInsight#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#resource_type SecurityhubInsight#resource_type}
 
 ---
 
@@ -2350,7 +2350,7 @@ Sample interface{}
 
 Indicates whether or not sample findings are included in the filter results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#sample SecurityhubInsight#sample}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#sample SecurityhubInsight#sample}
 
 ---
 
@@ -2364,7 +2364,7 @@ SeverityLabel interface{}
 
 The label of a finding's severity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#severity_label SecurityhubInsight#severity_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#severity_label SecurityhubInsight#severity_label}
 
 ---
 
@@ -2378,7 +2378,7 @@ SeverityNormalized interface{}
 
 The normalized severity of a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#severity_normalized SecurityhubInsight#severity_normalized}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#severity_normalized SecurityhubInsight#severity_normalized}
 
 ---
 
@@ -2392,7 +2392,7 @@ SeverityProduct interface{}
 
 The native severity as defined by the security findings provider's solution that generated the finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#severity_product SecurityhubInsight#severity_product}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#severity_product SecurityhubInsight#severity_product}
 
 ---
 
@@ -2406,7 +2406,7 @@ SourceUrl interface{}
 
 A URL that links to a page about the current finding in the security findings provider's solution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#source_url SecurityhubInsight#source_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#source_url SecurityhubInsight#source_url}
 
 ---
 
@@ -2420,7 +2420,7 @@ ThreatIntelIndicatorCategory interface{}
 
 The category of a threat intelligence indicator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#threat_intel_indicator_category SecurityhubInsight#threat_intel_indicator_category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#threat_intel_indicator_category SecurityhubInsight#threat_intel_indicator_category}
 
 ---
 
@@ -2434,7 +2434,7 @@ ThreatIntelIndicatorLastObservedAt interface{}
 
 A timestamp that identifies the last observation of a threat intelligence indicator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#threat_intel_indicator_last_observed_at SecurityhubInsight#threat_intel_indicator_last_observed_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#threat_intel_indicator_last_observed_at SecurityhubInsight#threat_intel_indicator_last_observed_at}
 
 ---
 
@@ -2448,7 +2448,7 @@ ThreatIntelIndicatorSource interface{}
 
 The source of the threat intelligence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#threat_intel_indicator_source SecurityhubInsight#threat_intel_indicator_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#threat_intel_indicator_source SecurityhubInsight#threat_intel_indicator_source}
 
 ---
 
@@ -2462,7 +2462,7 @@ ThreatIntelIndicatorSourceUrl interface{}
 
 The URL for more details from the source of the threat intelligence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#threat_intel_indicator_source_url SecurityhubInsight#threat_intel_indicator_source_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#threat_intel_indicator_source_url SecurityhubInsight#threat_intel_indicator_source_url}
 
 ---
 
@@ -2476,7 +2476,7 @@ ThreatIntelIndicatorType interface{}
 
 The type of a threat intelligence indicator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#threat_intel_indicator_type SecurityhubInsight#threat_intel_indicator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#threat_intel_indicator_type SecurityhubInsight#threat_intel_indicator_type}
 
 ---
 
@@ -2490,7 +2490,7 @@ ThreatIntelIndicatorValue interface{}
 
 The value of a threat intelligence indicator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#threat_intel_indicator_value SecurityhubInsight#threat_intel_indicator_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#threat_intel_indicator_value SecurityhubInsight#threat_intel_indicator_value}
 
 ---
 
@@ -2504,7 +2504,7 @@ Title interface{}
 
 A finding's title.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#title SecurityhubInsight#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#title SecurityhubInsight#title}
 
 ---
 
@@ -2518,7 +2518,7 @@ Type interface{}
 
 A finding type in the format of namespace/category/classifier that classifies a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#type SecurityhubInsight#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#type SecurityhubInsight#type}
 
 ---
 
@@ -2532,7 +2532,7 @@ UpdatedAt interface{}
 
 An ISO8601-formatted timestamp that indicates when the security findings provider last updated the finding record.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#updated_at SecurityhubInsight#updated_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#updated_at SecurityhubInsight#updated_at}
 
 ---
 
@@ -2546,7 +2546,7 @@ UserDefinedFields interface{}
 
 A list of name/value string pairs associated with the finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#user_defined_fields SecurityhubInsight#user_defined_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#user_defined_fields SecurityhubInsight#user_defined_fields}
 
 ---
 
@@ -2560,7 +2560,7 @@ VerificationState interface{}
 
 The veracity of a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#verification_state SecurityhubInsight#verification_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#verification_state SecurityhubInsight#verification_state}
 
 ---
 
@@ -2574,7 +2574,7 @@ VulnerabilitiesExploitAvailable interface{}
 
 Indicates whether a software vulnerability in your environment has a known exploit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#vulnerabilities_exploit_available SecurityhubInsight#vulnerabilities_exploit_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#vulnerabilities_exploit_available SecurityhubInsight#vulnerabilities_exploit_available}
 
 ---
 
@@ -2588,7 +2588,7 @@ VulnerabilitiesFixAvailable interface{}
 
 Indicates whether a vulnerability is fixed in a newer version of the affected software packages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#vulnerabilities_fix_available SecurityhubInsight#vulnerabilities_fix_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#vulnerabilities_fix_available SecurityhubInsight#vulnerabilities_fix_available}
 
 ---
 
@@ -2602,7 +2602,7 @@ WorkflowState interface{}
 
 The workflow state of a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#workflow_state SecurityhubInsight#workflow_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#workflow_state SecurityhubInsight#workflow_state}
 
 ---
 
@@ -2616,7 +2616,7 @@ WorkflowStatus interface{}
 
 The status of the investigation into a finding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#workflow_status SecurityhubInsight#workflow_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#workflow_status SecurityhubInsight#workflow_status}
 
 ---
 
@@ -2625,7 +2625,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersAwsAccountId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersAwsAccountId {
 	Comparison: *string,
@@ -2652,7 +2652,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -2666,7 +2666,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -2675,7 +2675,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersAwsAccountName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersAwsAccountName {
 	Comparison: *string,
@@ -2702,7 +2702,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -2716,7 +2716,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -2725,7 +2725,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersCompanyName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersCompanyName {
 	Comparison: *string,
@@ -2752,7 +2752,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -2766,7 +2766,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -2775,7 +2775,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceAssociatedStandardsId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersComplianceAssociatedStandardsId {
 	Comparison: *string,
@@ -2802,7 +2802,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -2816,7 +2816,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -2825,7 +2825,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersComplianceSecurityControlId {
 	Comparison: *string,
@@ -2852,7 +2852,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -2866,7 +2866,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -2875,7 +2875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlParametersName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersComplianceSecurityControlParametersName {
 	Comparison: *string,
@@ -2902,7 +2902,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -2916,7 +2916,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -2925,7 +2925,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlParametersValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersComplianceSecurityControlParametersValue {
 	Comparison: *string,
@@ -2952,7 +2952,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -2966,7 +2966,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -2975,7 +2975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersComplianceStatus {
 	Comparison: *string,
@@ -3002,7 +3002,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -3016,7 +3016,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3025,7 +3025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersConfidence.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersConfidence {
 	Eq: *f64,
@@ -3054,7 +3054,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
 
 ---
 
@@ -3068,7 +3068,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
 
 ---
 
@@ -3082,7 +3082,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
 
 ---
 
@@ -3091,10 +3091,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersCreatedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersCreatedAt {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFiltersCreatedAtDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFiltersCreatedAtDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -3120,7 +3120,7 @@ DateRange SecurityhubInsightFiltersCreatedAtDateRange
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 
 ---
 
@@ -3134,7 +3134,7 @@ End *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 
 ---
 
@@ -3148,7 +3148,7 @@ Start *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 
 ---
 
@@ -3157,7 +3157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersCreatedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersCreatedAtDateRange {
 	Unit: *string,
@@ -3184,7 +3184,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
 
 ---
 
@@ -3198,7 +3198,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3207,7 +3207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersCriticality.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersCriticality {
 	Eq: *f64,
@@ -3236,7 +3236,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
 
 ---
 
@@ -3250,7 +3250,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
 
 ---
 
@@ -3264,7 +3264,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
 
 ---
 
@@ -3273,7 +3273,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersDescription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersDescription {
 	Comparison: *string,
@@ -3300,7 +3300,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -3314,7 +3314,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3323,7 +3323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsConfidence.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersFindingProviderFieldsConfidence {
 	Eq: *f64,
@@ -3352,7 +3352,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
 
 ---
 
@@ -3366,7 +3366,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
 
 ---
 
@@ -3380,7 +3380,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
 
 ---
 
@@ -3389,7 +3389,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsCriticality.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersFindingProviderFieldsCriticality {
 	Eq: *f64,
@@ -3418,7 +3418,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
 
 ---
 
@@ -3432,7 +3432,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
 
 ---
 
@@ -3446,7 +3446,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
 
 ---
 
@@ -3455,7 +3455,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId {
 	Comparison: *string,
@@ -3482,7 +3482,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -3496,7 +3496,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3505,7 +3505,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn {
 	Comparison: *string,
@@ -3532,7 +3532,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -3546,7 +3546,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3555,7 +3555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabel {
 	Comparison: *string,
@@ -3582,7 +3582,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -3596,7 +3596,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3605,7 +3605,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal {
 	Comparison: *string,
@@ -3632,7 +3632,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -3646,7 +3646,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3655,7 +3655,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersFindingProviderFieldsTypes {
 	Comparison: *string,
@@ -3682,7 +3682,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -3696,7 +3696,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3705,10 +3705,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFirstObservedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersFirstObservedAt {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -3734,7 +3734,7 @@ DateRange SecurityhubInsightFiltersFirstObservedAtDateRange
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 
 ---
 
@@ -3748,7 +3748,7 @@ End *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 
 ---
 
@@ -3762,7 +3762,7 @@ Start *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 
 ---
 
@@ -3771,7 +3771,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersFirstObservedAtDateRange {
 	Unit: *string,
@@ -3798,7 +3798,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
 
 ---
 
@@ -3812,7 +3812,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3821,7 +3821,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersGeneratorId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersGeneratorId {
 	Comparison: *string,
@@ -3848,7 +3848,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -3862,7 +3862,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3871,7 +3871,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersId {
 	Comparison: *string,
@@ -3898,7 +3898,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -3912,7 +3912,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3921,7 +3921,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersKeyword.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersKeyword {
 	Value: *string,
@@ -3946,7 +3946,7 @@ Value *string
 
 A value for the keyword.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -3955,10 +3955,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersLastObservedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersLastObservedAt {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFiltersLastObservedAtDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFiltersLastObservedAtDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -3984,7 +3984,7 @@ DateRange SecurityhubInsightFiltersLastObservedAtDateRange
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 
 ---
 
@@ -3998,7 +3998,7 @@ End *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 
 ---
 
@@ -4012,7 +4012,7 @@ Start *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 
 ---
 
@@ -4021,7 +4021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersLastObservedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersLastObservedAtDateRange {
 	Unit: *string,
@@ -4048,7 +4048,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
 
 ---
 
@@ -4062,7 +4062,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4071,7 +4071,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwareName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersMalwareName {
 	Comparison: *string,
@@ -4098,7 +4098,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -4112,7 +4112,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4121,7 +4121,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwarePath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersMalwarePath {
 	Comparison: *string,
@@ -4148,7 +4148,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -4162,7 +4162,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4171,7 +4171,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwareState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersMalwareState {
 	Comparison: *string,
@@ -4198,7 +4198,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -4212,7 +4212,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4221,7 +4221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwareType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersMalwareType {
 	Comparison: *string,
@@ -4248,7 +4248,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -4262,7 +4262,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4271,7 +4271,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNetworkDestinationDomain {
 	Comparison: *string,
@@ -4298,7 +4298,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -4312,7 +4312,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4321,7 +4321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpV4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNetworkDestinationIpV4 {
 	Cidr: *string,
@@ -4346,7 +4346,7 @@ Cidr *string
 
 A finding's CIDR value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
 
 ---
 
@@ -4355,7 +4355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpV6.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNetworkDestinationIpV6 {
 	Cidr: *string,
@@ -4380,7 +4380,7 @@ Cidr *string
 
 A finding's CIDR value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
 
 ---
 
@@ -4389,7 +4389,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNetworkDestinationPort {
 	Eq: *f64,
@@ -4418,7 +4418,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
 
 ---
 
@@ -4432,7 +4432,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
 
 ---
 
@@ -4446,7 +4446,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
 
 ---
 
@@ -4455,7 +4455,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDirection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNetworkDirection {
 	Comparison: *string,
@@ -4482,7 +4482,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -4496,7 +4496,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4505,7 +4505,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkProtocol.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNetworkProtocol {
 	Comparison: *string,
@@ -4532,7 +4532,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -4546,7 +4546,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4555,7 +4555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNetworkSourceDomain {
 	Comparison: *string,
@@ -4582,7 +4582,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -4596,7 +4596,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4605,7 +4605,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpV4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNetworkSourceIpV4 {
 	Cidr: *string,
@@ -4630,7 +4630,7 @@ Cidr *string
 
 A finding's CIDR value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
 
 ---
 
@@ -4639,7 +4639,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpV6.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNetworkSourceIpV6 {
 	Cidr: *string,
@@ -4664,7 +4664,7 @@ Cidr *string
 
 A finding's CIDR value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
 
 ---
 
@@ -4673,7 +4673,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceMac.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNetworkSourceMac {
 	Comparison: *string,
@@ -4700,7 +4700,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -4714,7 +4714,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4723,7 +4723,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourcePort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNetworkSourcePort {
 	Eq: *f64,
@@ -4752,7 +4752,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
 
 ---
 
@@ -4766,7 +4766,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
 
 ---
 
@@ -4780,7 +4780,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
 
 ---
 
@@ -4789,7 +4789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNoteText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNoteText {
 	Comparison: *string,
@@ -4816,7 +4816,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -4830,7 +4830,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4839,10 +4839,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNoteUpdatedAt {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -4868,7 +4868,7 @@ DateRange SecurityhubInsightFiltersNoteUpdatedAtDateRange
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 
 ---
 
@@ -4882,7 +4882,7 @@ End *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 
 ---
 
@@ -4896,7 +4896,7 @@ Start *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 
 ---
 
@@ -4905,7 +4905,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNoteUpdatedAtDateRange {
 	Unit: *string,
@@ -4932,7 +4932,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
 
 ---
 
@@ -4946,7 +4946,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -4955,7 +4955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedBy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersNoteUpdatedBy {
 	Comparison: *string,
@@ -4982,7 +4982,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -4996,7 +4996,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5005,10 +5005,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersProcessLaunchedAt {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -5034,7 +5034,7 @@ DateRange SecurityhubInsightFiltersProcessLaunchedAtDateRange
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 
 ---
 
@@ -5048,7 +5048,7 @@ End *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 
 ---
 
@@ -5062,7 +5062,7 @@ Start *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 
 ---
 
@@ -5071,7 +5071,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersProcessLaunchedAtDateRange {
 	Unit: *string,
@@ -5098,7 +5098,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
 
 ---
 
@@ -5112,7 +5112,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5121,7 +5121,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersProcessName {
 	Comparison: *string,
@@ -5148,7 +5148,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5162,7 +5162,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5171,7 +5171,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessParentPid.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersProcessParentPid {
 	Eq: *f64,
@@ -5200,7 +5200,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
 
 ---
 
@@ -5214,7 +5214,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
 
 ---
 
@@ -5228,7 +5228,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
 
 ---
 
@@ -5237,7 +5237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessPath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersProcessPath {
 	Comparison: *string,
@@ -5264,7 +5264,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5278,7 +5278,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5287,7 +5287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessPid.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersProcessPid {
 	Eq: *f64,
@@ -5316,7 +5316,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
 
 ---
 
@@ -5330,7 +5330,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
 
 ---
 
@@ -5344,7 +5344,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
 
 ---
 
@@ -5353,10 +5353,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersProcessTerminatedAt {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -5382,7 +5382,7 @@ DateRange SecurityhubInsightFiltersProcessTerminatedAtDateRange
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 
 ---
 
@@ -5396,7 +5396,7 @@ End *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 
 ---
 
@@ -5410,7 +5410,7 @@ Start *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 
 ---
 
@@ -5419,7 +5419,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersProcessTerminatedAtDateRange {
 	Unit: *string,
@@ -5446,7 +5446,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
 
 ---
 
@@ -5460,7 +5460,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5469,7 +5469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProductArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersProductArn {
 	Comparison: *string,
@@ -5496,7 +5496,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5510,7 +5510,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5519,7 +5519,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProductFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersProductFields {
 	Comparison: *string,
@@ -5548,7 +5548,7 @@ Comparison *string
 
 The condition to apply to the key value when filtering Security Hub findings with a map filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5562,7 +5562,7 @@ Key *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
 
 ---
 
@@ -5576,7 +5576,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5585,7 +5585,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProductName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersProductName {
 	Comparison: *string,
@@ -5612,7 +5612,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5626,7 +5626,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5635,7 +5635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRecommendationText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersRecommendationText {
 	Comparison: *string,
@@ -5662,7 +5662,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5676,7 +5676,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5685,7 +5685,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRecordState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersRecordState {
 	Comparison: *string,
@@ -5712,7 +5712,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5726,7 +5726,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5735,7 +5735,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRegion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersRegion {
 	Comparison: *string,
@@ -5762,7 +5762,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5776,7 +5776,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5785,7 +5785,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersRelatedFindingsId {
 	Comparison: *string,
@@ -5812,7 +5812,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5826,7 +5826,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5835,7 +5835,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsProductArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersRelatedFindingsProductArn {
 	Comparison: *string,
@@ -5862,7 +5862,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5876,7 +5876,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5885,7 +5885,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceApplicationArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceApplicationArn {
 	Comparison: *string,
@@ -5912,7 +5912,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5926,7 +5926,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5935,7 +5935,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceApplicationName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceApplicationName {
 	Comparison: *string,
@@ -5962,7 +5962,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -5976,7 +5976,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -5985,7 +5985,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn {
 	Comparison: *string,
@@ -6012,7 +6012,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6026,7 +6026,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6035,7 +6035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageId {
 	Comparison: *string,
@@ -6062,7 +6062,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6076,7 +6076,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6085,7 +6085,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpV4Addresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpV4Addresses {
 	Cidr: *string,
@@ -6110,7 +6110,7 @@ Cidr *string
 
 A finding's CIDR value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
 
 ---
 
@@ -6119,7 +6119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpV6Addresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpV6Addresses {
 	Cidr: *string,
@@ -6144,7 +6144,7 @@ Cidr *string
 
 A finding's CIDR value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
 
 ---
 
@@ -6153,7 +6153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyName {
 	Comparison: *string,
@@ -6180,7 +6180,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6194,7 +6194,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6203,10 +6203,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -6232,7 +6232,7 @@ DateRange SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 
 ---
 
@@ -6246,7 +6246,7 @@ End *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 
 ---
 
@@ -6260,7 +6260,7 @@ Start *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 
 ---
 
@@ -6269,7 +6269,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange {
 	Unit: *string,
@@ -6296,7 +6296,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
 
 ---
 
@@ -6310,7 +6310,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6319,7 +6319,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId {
 	Comparison: *string,
@@ -6346,7 +6346,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6360,7 +6360,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6369,7 +6369,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsEc2InstanceType {
 	Comparison: *string,
@@ -6396,7 +6396,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6410,7 +6410,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6419,7 +6419,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcId {
 	Comparison: *string,
@@ -6446,7 +6446,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6460,7 +6460,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6469,10 +6469,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -6498,7 +6498,7 @@ DateRange SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 
 ---
 
@@ -6512,7 +6512,7 @@ End *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 
 ---
 
@@ -6526,7 +6526,7 @@ Start *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 
 ---
 
@@ -6535,7 +6535,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange {
 	Unit: *string,
@@ -6562,7 +6562,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
 
 ---
 
@@ -6576,7 +6576,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6585,7 +6585,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalName {
 	Comparison: *string,
@@ -6612,7 +6612,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6626,7 +6626,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6635,7 +6635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatus {
 	Comparison: *string,
@@ -6662,7 +6662,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6676,7 +6676,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6685,7 +6685,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserName {
 	Comparison: *string,
@@ -6712,7 +6712,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6726,7 +6726,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6735,7 +6735,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamUserUserName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsIamUserUserName {
 	Comparison: *string,
@@ -6762,7 +6762,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6776,7 +6776,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6785,7 +6785,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerId {
 	Comparison: *string,
@@ -6812,7 +6812,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6826,7 +6826,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6835,7 +6835,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerName {
 	Comparison: *string,
@@ -6862,7 +6862,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6876,7 +6876,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6885,7 +6885,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceContainerImageId {
 	Comparison: *string,
@@ -6912,7 +6912,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6926,7 +6926,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6935,7 +6935,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceContainerImageName {
 	Comparison: *string,
@@ -6962,7 +6962,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -6976,7 +6976,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -6985,10 +6985,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceContainerLaunchedAt {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -7014,7 +7014,7 @@ DateRange SecurityhubInsightFiltersResourceContainerLaunchedAtDateRange
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 
 ---
 
@@ -7028,7 +7028,7 @@ End *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 
 ---
 
@@ -7042,7 +7042,7 @@ Start *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 
 ---
 
@@ -7051,7 +7051,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceContainerLaunchedAtDateRange {
 	Unit: *string,
@@ -7078,7 +7078,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
 
 ---
 
@@ -7092,7 +7092,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7101,7 +7101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceContainerName {
 	Comparison: *string,
@@ -7128,7 +7128,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -7142,7 +7142,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7151,7 +7151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceDetailsOther.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceDetailsOther {
 	Comparison: *string,
@@ -7180,7 +7180,7 @@ Comparison *string
 
 The condition to apply to the key value when filtering Security Hub findings with a map filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -7194,7 +7194,7 @@ Key *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
 
 ---
 
@@ -7208,7 +7208,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7217,7 +7217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceId {
 	Comparison: *string,
@@ -7244,7 +7244,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -7258,7 +7258,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7267,7 +7267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourcePartition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourcePartition {
 	Comparison: *string,
@@ -7294,7 +7294,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -7308,7 +7308,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7317,7 +7317,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceRegion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceRegion {
 	Comparison: *string,
@@ -7344,7 +7344,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -7358,7 +7358,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7367,7 +7367,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceTags {
 	Comparison: *string,
@@ -7396,7 +7396,7 @@ Comparison *string
 
 The condition to apply to the key value when filtering Security Hub findings with a map filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -7410,7 +7410,7 @@ Key *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
 
 ---
 
@@ -7424,7 +7424,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7433,7 +7433,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersResourceType {
 	Comparison: *string,
@@ -7460,7 +7460,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -7474,7 +7474,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7483,7 +7483,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSample.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersSample {
 	Value: interface{},
@@ -7508,7 +7508,7 @@ Value interface{}
 
 The value of the boolean.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7517,7 +7517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSeverityLabel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersSeverityLabel {
 	Comparison: *string,
@@ -7544,7 +7544,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -7558,7 +7558,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7567,7 +7567,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSeverityNormalized.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersSeverityNormalized {
 	Eq: *f64,
@@ -7596,7 +7596,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
 
 ---
 
@@ -7610,7 +7610,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
 
 ---
 
@@ -7624,7 +7624,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
 
 ---
 
@@ -7633,7 +7633,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSeverityProduct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersSeverityProduct {
 	Eq: *f64,
@@ -7662,7 +7662,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#eq SecurityhubInsight#eq}
 
 ---
 
@@ -7676,7 +7676,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#gte SecurityhubInsight#gte}
 
 ---
 
@@ -7690,7 +7690,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#lte SecurityhubInsight#lte}
 
 ---
 
@@ -7699,7 +7699,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSourceUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersSourceUrl {
 	Comparison: *string,
@@ -7726,7 +7726,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -7740,7 +7740,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7749,7 +7749,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorCategory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersThreatIntelIndicatorCategory {
 	Comparison: *string,
@@ -7776,7 +7776,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -7790,7 +7790,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7799,10 +7799,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -7828,7 +7828,7 @@ DateRange SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 
 ---
 
@@ -7842,7 +7842,7 @@ End *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 
 ---
 
@@ -7856,7 +7856,7 @@ Start *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 
 ---
 
@@ -7865,7 +7865,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange {
 	Unit: *string,
@@ -7892,7 +7892,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
 
 ---
 
@@ -7906,7 +7906,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7915,7 +7915,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersThreatIntelIndicatorSource {
 	Comparison: *string,
@@ -7942,7 +7942,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -7956,7 +7956,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -7965,7 +7965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrl {
 	Comparison: *string,
@@ -7992,7 +7992,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -8006,7 +8006,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8015,7 +8015,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersThreatIntelIndicatorType {
 	Comparison: *string,
@@ -8042,7 +8042,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -8056,7 +8056,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8065,7 +8065,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersThreatIntelIndicatorValue {
 	Comparison: *string,
@@ -8092,7 +8092,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -8106,7 +8106,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8115,7 +8115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersTitle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersTitle {
 	Comparison: *string,
@@ -8142,7 +8142,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -8156,7 +8156,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8165,7 +8165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersType {
 	Comparison: *string,
@@ -8192,7 +8192,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -8206,7 +8206,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8215,10 +8215,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersUpdatedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersUpdatedAt {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubInsight.SecurityhubInsightFiltersUpdatedAtDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubInsight.SecurityhubInsightFiltersUpdatedAtDateRange,
 	End: *string,
 	Start: *string,
 }
@@ -8244,7 +8244,7 @@ DateRange SecurityhubInsightFiltersUpdatedAtDateRange
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 
 ---
 
@@ -8258,7 +8258,7 @@ End *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 
 ---
 
@@ -8272,7 +8272,7 @@ Start *string
 
 The date and time, in UTC and ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 
 ---
 
@@ -8281,7 +8281,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersUpdatedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersUpdatedAtDateRange {
 	Unit: *string,
@@ -8308,7 +8308,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
 
 ---
 
@@ -8322,7 +8322,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8331,7 +8331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersUserDefinedFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersUserDefinedFields {
 	Comparison: *string,
@@ -8360,7 +8360,7 @@ Comparison *string
 
 The condition to apply to the key value when filtering Security Hub findings with a map filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -8374,7 +8374,7 @@ Key *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
 
 ---
 
@@ -8388,7 +8388,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8397,7 +8397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersVerificationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersVerificationState {
 	Comparison: *string,
@@ -8424,7 +8424,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -8438,7 +8438,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8447,7 +8447,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersVulnerabilitiesExploitAvailable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersVulnerabilitiesExploitAvailable {
 	Comparison: *string,
@@ -8474,7 +8474,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -8488,7 +8488,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8497,7 +8497,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersVulnerabilitiesFixAvailable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersVulnerabilitiesFixAvailable {
 	Comparison: *string,
@@ -8524,7 +8524,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -8538,7 +8538,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8547,7 +8547,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersWorkflowState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersWorkflowState {
 	Comparison: *string,
@@ -8574,7 +8574,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -8588,7 +8588,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8597,7 +8597,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersWorkflowStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 &securityhubinsight.SecurityhubInsightFiltersWorkflowStatus {
 	Comparison: *string,
@@ -8624,7 +8624,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering Security Hub findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
 
 ---
 
@@ -8638,7 +8638,7 @@ Value *string
 
 Non-empty string definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
 
 ---
 
@@ -8649,7 +8649,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersAwsAccountIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersAwsAccountIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersAwsAccountIdList
 ```
@@ -8809,7 +8809,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersAwsAccountIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersAwsAccountIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersAwsAccountIdOutputReference
 ```
@@ -9134,7 +9134,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersAwsAccountNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersAwsAccountNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersAwsAccountNameList
 ```
@@ -9294,7 +9294,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersAwsAccountNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersAwsAccountNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersAwsAccountNameOutputReference
 ```
@@ -9619,7 +9619,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersCompanyNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersCompanyNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersCompanyNameList
 ```
@@ -9779,7 +9779,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersCompanyNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersCompanyNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersCompanyNameOutputReference
 ```
@@ -10104,7 +10104,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceAssociatedStandardsIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersComplianceAssociatedStandardsIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersComplianceAssociatedStandardsIdList
 ```
@@ -10264,7 +10264,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceAssociatedStandardsIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersComplianceAssociatedStandardsIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersComplianceAssociatedStandardsIdOutputReference
 ```
@@ -10589,7 +10589,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersComplianceSecurityControlIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersComplianceSecurityControlIdList
 ```
@@ -10749,7 +10749,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersComplianceSecurityControlIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersComplianceSecurityControlIdOutputReference
 ```
@@ -11074,7 +11074,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlParametersNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersComplianceSecurityControlParametersNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersComplianceSecurityControlParametersNameList
 ```
@@ -11234,7 +11234,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlParametersNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersComplianceSecurityControlParametersNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersComplianceSecurityControlParametersNameOutputReference
 ```
@@ -11559,7 +11559,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlParametersValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersComplianceSecurityControlParametersValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersComplianceSecurityControlParametersValueList
 ```
@@ -11719,7 +11719,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlParametersValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersComplianceSecurityControlParametersValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersComplianceSecurityControlParametersValueOutputReference
 ```
@@ -12044,7 +12044,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersComplianceStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersComplianceStatusList
 ```
@@ -12204,7 +12204,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersComplianceStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersComplianceStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersComplianceStatusOutputReference
 ```
@@ -12529,7 +12529,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersConfidenceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersConfidenceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersConfidenceList
 ```
@@ -12689,7 +12689,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersConfidenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersConfidenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersConfidenceOutputReference
 ```
@@ -13043,7 +13043,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersCreatedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersCreatedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersCreatedAtDateRangeOutputReference
 ```
@@ -13350,7 +13350,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersCreatedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersCreatedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersCreatedAtList
 ```
@@ -13510,7 +13510,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersCreatedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersCreatedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersCreatedAtOutputReference
 ```
@@ -13877,7 +13877,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersCriticalityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersCriticalityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersCriticalityList
 ```
@@ -14037,7 +14037,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersCriticalityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersCriticalityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersCriticalityOutputReference
 ```
@@ -14391,7 +14391,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersDescriptionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersDescriptionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersDescriptionList
 ```
@@ -14551,7 +14551,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersDescriptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersDescriptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersDescriptionOutputReference
 ```
@@ -14876,7 +14876,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsConfidenceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsConfidenceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersFindingProviderFieldsConfidenceList
 ```
@@ -15036,7 +15036,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference
 ```
@@ -15390,7 +15390,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsCriticalityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsCriticalityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersFindingProviderFieldsCriticalityList
 ```
@@ -15550,7 +15550,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputReference
 ```
@@ -15904,7 +15904,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdList
 ```
@@ -16064,7 +16064,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutputReference
 ```
@@ -16389,7 +16389,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnList
 ```
@@ -16549,7 +16549,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnOutputReference
 ```
@@ -16874,7 +16874,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsSeverityLabelList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelList
 ```
@@ -17034,7 +17034,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputReference
 ```
@@ -17359,7 +17359,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalList
 ```
@@ -17519,7 +17519,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutputReference
 ```
@@ -17844,7 +17844,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsTypesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsTypesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersFindingProviderFieldsTypesList
 ```
@@ -18004,7 +18004,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference
 ```
@@ -18329,7 +18329,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference
 ```
@@ -18636,7 +18636,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFirstObservedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersFirstObservedAtList
 ```
@@ -18796,7 +18796,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersFirstObservedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersFirstObservedAtOutputReference
 ```
@@ -19163,7 +19163,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersGeneratorIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersGeneratorIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersGeneratorIdList
 ```
@@ -19323,7 +19323,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersGeneratorIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersGeneratorIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersGeneratorIdOutputReference
 ```
@@ -19648,7 +19648,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersIdList
 ```
@@ -19808,7 +19808,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersIdOutputReference
 ```
@@ -20133,7 +20133,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersKeywordList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersKeywordList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersKeywordList
 ```
@@ -20293,7 +20293,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersKeywordOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersKeywordOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersKeywordOutputReference
 ```
@@ -20589,7 +20589,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersLastObservedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersLastObservedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersLastObservedAtDateRangeOutputReference
 ```
@@ -20896,7 +20896,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersLastObservedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersLastObservedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersLastObservedAtList
 ```
@@ -21056,7 +21056,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersLastObservedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersLastObservedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersLastObservedAtOutputReference
 ```
@@ -21423,7 +21423,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwareNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersMalwareNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersMalwareNameList
 ```
@@ -21583,7 +21583,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwareNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersMalwareNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersMalwareNameOutputReference
 ```
@@ -21908,7 +21908,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwarePathList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersMalwarePathList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersMalwarePathList
 ```
@@ -22068,7 +22068,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwarePathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersMalwarePathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersMalwarePathOutputReference
 ```
@@ -22393,7 +22393,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwareStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersMalwareStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersMalwareStateList
 ```
@@ -22553,7 +22553,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwareStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersMalwareStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersMalwareStateOutputReference
 ```
@@ -22878,7 +22878,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwareTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersMalwareTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersMalwareTypeList
 ```
@@ -23038,7 +23038,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersMalwareTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersMalwareTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersMalwareTypeOutputReference
 ```
@@ -23363,7 +23363,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationDomainList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkDestinationDomainList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNetworkDestinationDomainList
 ```
@@ -23523,7 +23523,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationDomainOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkDestinationDomainOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkDestinationDomainOutputReference
 ```
@@ -23848,7 +23848,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpV4List.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkDestinationIpV4List(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNetworkDestinationIpV4List
 ```
@@ -24008,7 +24008,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpV4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkDestinationIpV4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkDestinationIpV4OutputReference
 ```
@@ -24304,7 +24304,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpV6List.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkDestinationIpV6List(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNetworkDestinationIpV6List
 ```
@@ -24464,7 +24464,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpV6OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkDestinationIpV6OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkDestinationIpV6OutputReference
 ```
@@ -24760,7 +24760,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPortList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkDestinationPortList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNetworkDestinationPortList
 ```
@@ -24920,7 +24920,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkDestinationPortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkDestinationPortOutputReference
 ```
@@ -25274,7 +25274,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDirectionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkDirectionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNetworkDirectionList
 ```
@@ -25434,7 +25434,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkDirectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkDirectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkDirectionOutputReference
 ```
@@ -25759,7 +25759,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkProtocolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkProtocolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNetworkProtocolList
 ```
@@ -25919,7 +25919,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkProtocolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkProtocolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkProtocolOutputReference
 ```
@@ -26244,7 +26244,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceDomainList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkSourceDomainList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNetworkSourceDomainList
 ```
@@ -26404,7 +26404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceDomainOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkSourceDomainOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkSourceDomainOutputReference
 ```
@@ -26729,7 +26729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpV4List.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkSourceIpV4List(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNetworkSourceIpV4List
 ```
@@ -26889,7 +26889,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpV4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkSourceIpV4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkSourceIpV4OutputReference
 ```
@@ -27185,7 +27185,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpV6List.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkSourceIpV6List(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNetworkSourceIpV6List
 ```
@@ -27345,7 +27345,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpV6OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkSourceIpV6OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkSourceIpV6OutputReference
 ```
@@ -27641,7 +27641,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceMacList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkSourceMacList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNetworkSourceMacList
 ```
@@ -27801,7 +27801,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourceMacOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkSourceMacOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkSourceMacOutputReference
 ```
@@ -28126,7 +28126,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourcePortList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkSourcePortList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNetworkSourcePortList
 ```
@@ -28286,7 +28286,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNetworkSourcePortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNetworkSourcePortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkSourcePortOutputReference
 ```
@@ -28640,7 +28640,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNoteTextList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNoteTextList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNoteTextList
 ```
@@ -28800,7 +28800,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNoteTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNoteTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNoteTextOutputReference
 ```
@@ -29125,7 +29125,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference
 ```
@@ -29432,7 +29432,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNoteUpdatedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNoteUpdatedAtList
 ```
@@ -29592,7 +29592,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNoteUpdatedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNoteUpdatedAtOutputReference
 ```
@@ -29959,7 +29959,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedByList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNoteUpdatedByList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersNoteUpdatedByList
 ```
@@ -30119,7 +30119,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedByOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersNoteUpdatedByOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNoteUpdatedByOutputReference
 ```
@@ -30444,7 +30444,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersOutputReference
 ```
@@ -35061,7 +35061,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference
 ```
@@ -35368,7 +35368,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessLaunchedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersProcessLaunchedAtList
 ```
@@ -35528,7 +35528,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessLaunchedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersProcessLaunchedAtOutputReference
 ```
@@ -35895,7 +35895,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersProcessNameList
 ```
@@ -36055,7 +36055,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersProcessNameOutputReference
 ```
@@ -36380,7 +36380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessParentPidList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessParentPidList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersProcessParentPidList
 ```
@@ -36540,7 +36540,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessParentPidOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessParentPidOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersProcessParentPidOutputReference
 ```
@@ -36894,7 +36894,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessPathList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessPathList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersProcessPathList
 ```
@@ -37054,7 +37054,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessPathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessPathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersProcessPathOutputReference
 ```
@@ -37379,7 +37379,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessPidList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessPidList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersProcessPidList
 ```
@@ -37539,7 +37539,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessPidOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessPidOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersProcessPidOutputReference
 ```
@@ -37893,7 +37893,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReference
 ```
@@ -38200,7 +38200,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessTerminatedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersProcessTerminatedAtList
 ```
@@ -38360,7 +38360,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProcessTerminatedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersProcessTerminatedAtOutputReference
 ```
@@ -38727,7 +38727,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProductArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProductArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersProductArnList
 ```
@@ -38887,7 +38887,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProductArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProductArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersProductArnOutputReference
 ```
@@ -39212,7 +39212,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProductFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProductFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersProductFieldsList
 ```
@@ -39372,7 +39372,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProductFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProductFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersProductFieldsOutputReference
 ```
@@ -39726,7 +39726,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProductNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProductNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersProductNameList
 ```
@@ -39886,7 +39886,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersProductNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersProductNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersProductNameOutputReference
 ```
@@ -40211,7 +40211,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRecommendationTextList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersRecommendationTextList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersRecommendationTextList
 ```
@@ -40371,7 +40371,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRecommendationTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersRecommendationTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersRecommendationTextOutputReference
 ```
@@ -40696,7 +40696,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRecordStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersRecordStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersRecordStateList
 ```
@@ -40856,7 +40856,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRecordStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersRecordStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersRecordStateOutputReference
 ```
@@ -41181,7 +41181,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRegionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersRegionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersRegionList
 ```
@@ -41341,7 +41341,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRegionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersRegionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersRegionOutputReference
 ```
@@ -41666,7 +41666,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersRelatedFindingsIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersRelatedFindingsIdList
 ```
@@ -41826,7 +41826,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersRelatedFindingsIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersRelatedFindingsIdOutputReference
 ```
@@ -42151,7 +42151,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsProductArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersRelatedFindingsProductArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersRelatedFindingsProductArnList
 ```
@@ -42311,7 +42311,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsProductArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersRelatedFindingsProductArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersRelatedFindingsProductArnOutputReference
 ```
@@ -42636,7 +42636,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceApplicationArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceApplicationArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceApplicationArnList
 ```
@@ -42796,7 +42796,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceApplicationArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceApplicationArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceApplicationArnOutputReference
 ```
@@ -43121,7 +43121,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceApplicationNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceApplicationNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceApplicationNameList
 ```
@@ -43281,7 +43281,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceApplicationNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceApplicationNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceApplicationNameOutputReference
 ```
@@ -43606,7 +43606,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnList
 ```
@@ -43766,7 +43766,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnOutputReference
 ```
@@ -44091,7 +44091,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceImageIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdList
 ```
@@ -44251,7 +44251,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReference
 ```
@@ -44576,7 +44576,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesList
 ```
@@ -44736,7 +44736,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesOutputReference
 ```
@@ -45032,7 +45032,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesList
 ```
@@ -45192,7 +45192,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesOutputReference
 ```
@@ -45488,7 +45488,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameList
 ```
@@ -45648,7 +45648,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReference
 ```
@@ -45973,7 +45973,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeOutputReference
 ```
@@ -46280,7 +46280,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtList
 ```
@@ -46440,7 +46440,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputReference
 ```
@@ -46807,7 +46807,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdList
 ```
@@ -46967,7 +46967,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputReference
 ```
@@ -47292,7 +47292,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceTypeList
 ```
@@ -47452,7 +47452,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference
 ```
@@ -47777,7 +47777,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdList
 ```
@@ -47937,7 +47937,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference
 ```
@@ -48262,7 +48262,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeOutputReference
 ```
@@ -48569,7 +48569,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtList
 ```
@@ -48729,7 +48729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputReference
 ```
@@ -49096,7 +49096,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameList
 ```
@@ -49256,7 +49256,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameOutputReference
 ```
@@ -49581,7 +49581,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsIamAccessKeyStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusList
 ```
@@ -49741,7 +49741,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReference
 ```
@@ -50066,7 +50066,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameList
 ```
@@ -50226,7 +50226,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputReference
 ```
@@ -50551,7 +50551,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamUserUserNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsIamUserUserNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsIamUserUserNameList
 ```
@@ -50711,7 +50711,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamUserUserNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsIamUserUserNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsIamUserUserNameOutputReference
 ```
@@ -51036,7 +51036,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList
 ```
@@ -51196,7 +51196,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference
 ```
@@ -51521,7 +51521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsS3BucketOwnerNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameList
 ```
@@ -51681,7 +51681,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReference
 ```
@@ -52006,7 +52006,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceContainerImageIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceContainerImageIdList
 ```
@@ -52166,7 +52166,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceContainerImageIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceContainerImageIdOutputReference
 ```
@@ -52491,7 +52491,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceContainerImageNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceContainerImageNameList
 ```
@@ -52651,7 +52651,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceContainerImageNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceContainerImageNameOutputReference
 ```
@@ -52976,7 +52976,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutputReference
 ```
@@ -53283,7 +53283,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceContainerLaunchedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceContainerLaunchedAtList
 ```
@@ -53443,7 +53443,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference
 ```
@@ -53810,7 +53810,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceContainerNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceContainerNameList
 ```
@@ -53970,7 +53970,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceContainerNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceContainerNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceContainerNameOutputReference
 ```
@@ -54295,7 +54295,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceDetailsOtherList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceDetailsOtherList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceDetailsOtherList
 ```
@@ -54455,7 +54455,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceDetailsOtherOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceDetailsOtherOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceDetailsOtherOutputReference
 ```
@@ -54809,7 +54809,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceIdList
 ```
@@ -54969,7 +54969,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceIdOutputReference
 ```
@@ -55294,7 +55294,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourcePartitionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourcePartitionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourcePartitionList
 ```
@@ -55454,7 +55454,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourcePartitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourcePartitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourcePartitionOutputReference
 ```
@@ -55779,7 +55779,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceRegionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceRegionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceRegionList
 ```
@@ -55939,7 +55939,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceRegionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceRegionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceRegionOutputReference
 ```
@@ -56264,7 +56264,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceTagsList
 ```
@@ -56424,7 +56424,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceTagsOutputReference
 ```
@@ -56778,7 +56778,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersResourceTypeList
 ```
@@ -56938,7 +56938,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersResourceTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersResourceTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersResourceTypeOutputReference
 ```
@@ -57263,7 +57263,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSampleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersSampleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersSampleList
 ```
@@ -57423,7 +57423,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSampleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersSampleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersSampleOutputReference
 ```
@@ -57719,7 +57719,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSeverityLabelList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersSeverityLabelList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersSeverityLabelList
 ```
@@ -57879,7 +57879,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSeverityLabelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersSeverityLabelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersSeverityLabelOutputReference
 ```
@@ -58204,7 +58204,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSeverityNormalizedList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersSeverityNormalizedList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersSeverityNormalizedList
 ```
@@ -58364,7 +58364,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSeverityNormalizedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersSeverityNormalizedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersSeverityNormalizedOutputReference
 ```
@@ -58718,7 +58718,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSeverityProductList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersSeverityProductList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersSeverityProductList
 ```
@@ -58878,7 +58878,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSeverityProductOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersSeverityProductOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersSeverityProductOutputReference
 ```
@@ -59232,7 +59232,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSourceUrlList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersSourceUrlList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersSourceUrlList
 ```
@@ -59392,7 +59392,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersSourceUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersSourceUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersSourceUrlOutputReference
 ```
@@ -59717,7 +59717,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorCategoryList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorCategoryList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorCategoryList
 ```
@@ -59877,7 +59877,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReference
 ```
@@ -60202,7 +60202,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRangeOutputReference
 ```
@@ -60509,7 +60509,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtList
 ```
@@ -60669,7 +60669,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputReference
 ```
@@ -61036,7 +61036,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorSourceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorSourceList
 ```
@@ -61196,7 +61196,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference
 ```
@@ -61521,7 +61521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList
 ```
@@ -61681,7 +61681,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReference
 ```
@@ -62006,7 +62006,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorTypeList
 ```
@@ -62166,7 +62166,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference
 ```
@@ -62491,7 +62491,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorValueList
 ```
@@ -62651,7 +62651,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference
 ```
@@ -62976,7 +62976,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersTitleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersTitleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersTitleList
 ```
@@ -63136,7 +63136,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersTitleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersTitleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersTitleOutputReference
 ```
@@ -63461,7 +63461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersTypeList
 ```
@@ -63621,7 +63621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersTypeOutputReference
 ```
@@ -63946,7 +63946,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersUpdatedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference
 ```
@@ -64253,7 +64253,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersUpdatedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersUpdatedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersUpdatedAtList
 ```
@@ -64413,7 +64413,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersUpdatedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersUpdatedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersUpdatedAtOutputReference
 ```
@@ -64780,7 +64780,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersUserDefinedFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersUserDefinedFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersUserDefinedFieldsList
 ```
@@ -64940,7 +64940,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersUserDefinedFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersUserDefinedFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersUserDefinedFieldsOutputReference
 ```
@@ -65294,7 +65294,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersVerificationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersVerificationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersVerificationStateList
 ```
@@ -65454,7 +65454,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersVerificationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersVerificationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersVerificationStateOutputReference
 ```
@@ -65779,7 +65779,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersVulnerabilitiesExploitAvailableList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersVulnerabilitiesExploitAvailableList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersVulnerabilitiesExploitAvailableList
 ```
@@ -65939,7 +65939,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersVulnerabilitiesExploitAvailableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersVulnerabilitiesExploitAvailableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersVulnerabilitiesExploitAvailableOutputReference
 ```
@@ -66264,7 +66264,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersVulnerabilitiesFixAvailableList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersVulnerabilitiesFixAvailableList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersVulnerabilitiesFixAvailableList
 ```
@@ -66424,7 +66424,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersVulnerabilitiesFixAvailableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersVulnerabilitiesFixAvailableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersVulnerabilitiesFixAvailableOutputReference
 ```
@@ -66749,7 +66749,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersWorkflowStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersWorkflowStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersWorkflowStateList
 ```
@@ -66909,7 +66909,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersWorkflowStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersWorkflowStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersWorkflowStateOutputReference
 ```
@@ -67234,7 +67234,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersWorkflowStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersWorkflowStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersWorkflowStatusList
 ```
@@ -67394,7 +67394,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubInsight.SecurityhubInsightFiltersWorkflowStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubinsight"
 
 securityhubinsight.NewSecurityhubInsightFiltersWorkflowStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersWorkflowStatusOutputReference
 ```

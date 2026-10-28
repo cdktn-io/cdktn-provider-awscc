@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayv2PortalProduct <a name="DataAwsccApigatewayv2PortalProduct" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProduct.DataAwsccApigatewayv2PortalProduct"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProduct.DataAwsccApigatewayv2PortalProduct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2portalproduct"
 
 dataawsccapigatewayv2portalproduct.NewDataAwsccApigatewayv2PortalProduct(scope Construct, id *string, config DataAwsccApigatewayv2PortalProductConfig) DataAwsccApigatewayv2PortalProduct
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProduct.DataAwsccApigatewayv2PortalProduct.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2portalproduct"
 
 dataawsccapigatewayv2portalproduct.DataAwsccApigatewayv2PortalProduct_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProduct.DataAwsccApigatewayv2PortalProduct.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2portalproduct"
 
 dataawsccapigatewayv2portalproduct.DataAwsccApigatewayv2PortalProduct_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewayv2portalproduct.DataAwsccApigatewayv2PortalProduct_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProduct.DataAwsccApigatewayv2PortalProduct.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2portalproduct"
 
 dataawsccapigatewayv2portalproduct.DataAwsccApigatewayv2PortalProduct_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewayv2portalproduct.DataAwsccApigatewayv2PortalProduct_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProduct.DataAwsccApigatewayv2PortalProduct.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2portalproduct"
 
 dataawsccapigatewayv2portalproduct.DataAwsccApigatewayv2PortalProduct_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayv2Porta
 
 The id of the existing DataAwsccApigatewayv2PortalProduct that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_portal_product#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_portal_product#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProduct.DataAwsccApigatewayv2PortalProductConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2portalproduct"
 
 &dataawsccapigatewayv2portalproduct.DataAwsccApigatewayv2PortalProductConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_portal_product#id DataAwsccApigatewayv2PortalProduct#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_portal_product#id DataAwsccApigatewayv2PortalProduct#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProduct.DataAwsccApigatewayv2PortalProductTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2portalproduct"
 
 &dataawsccapigatewayv2portalproduct.DataAwsccApigatewayv2PortalProductTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2p
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProduct.DataAwsccApigatewayv2PortalProductTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2portalproduct"
 
 dataawsccapigatewayv2portalproduct.NewDataAwsccApigatewayv2PortalProductTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApigatewayv2PortalProductTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProduct.DataAwsccApigatewayv2PortalProductTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2portalproduct"
 
 dataawsccapigatewayv2portalproduct.NewDataAwsccApigatewayv2PortalProductTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApigatewayv2PortalProductTagsOutputReference
 ```

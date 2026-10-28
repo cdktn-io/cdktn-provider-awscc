@@ -4,12 +4,12 @@
 
 ### DataAwsccS3VectorsVectorBucketPolicies <a name="DataAwsccS3VectorsVectorBucketPolicies" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBucketPolicies.DataAwsccS3VectorsVectorBucketPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3vectors_vector_bucket_policies awscc_s3vectors_vector_bucket_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3vectors_vector_bucket_policies awscc_s3vectors_vector_bucket_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBucketPolicies.DataAwsccS3VectorsVectorBucketPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbucketpolicies"
 
 dataawsccs3vectorsvectorbucketpolicies.NewDataAwsccS3VectorsVectorBucketPolicies(scope Construct, id *string, config DataAwsccS3VectorsVectorBucketPoliciesConfig) DataAwsccS3VectorsVectorBucketPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBucketPolicies.DataAwsccS3VectorsVectorBucketPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbucketpolicies"
 
 dataawsccs3vectorsvectorbucketpolicies.DataAwsccS3VectorsVectorBucketPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBucketPolicies.DataAwsccS3VectorsVectorBucketPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbucketpolicies"
 
 dataawsccs3vectorsvectorbucketpolicies.DataAwsccS3VectorsVectorBucketPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3vectorsvectorbucketpolicies.DataAwsccS3VectorsVectorBucketPolicies_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBucketPolicies.DataAwsccS3VectorsVectorBucketPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbucketpolicies"
 
 dataawsccs3vectorsvectorbucketpolicies.DataAwsccS3VectorsVectorBucketPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3vectorsvectorbucketpolicies.DataAwsccS3VectorsVectorBucketPolicies_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBucketPolicies.DataAwsccS3VectorsVectorBucketPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbucketpolicies"
 
 dataawsccs3vectorsvectorbucketpolicies.DataAwsccS3VectorsVectorBucketPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3VectorsVectorBu
 
 The id of the existing DataAwsccS3VectorsVectorBucketPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3vectors_vector_bucket_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3vectors_vector_bucket_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBucketPolicies.DataAwsccS3VectorsVectorBucketPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbucketpolicies"
 
 &dataawsccs3vectorsvectorbucketpolicies.DataAwsccS3VectorsVectorBucketPoliciesConfig {
 	Connection: interface{},

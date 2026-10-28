@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2LocalGatewayRouteTable <a name="DataAwsccEc2LocalGatewayRouteTable" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTable.DataAwsccEc2LocalGatewayRouteTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTable.DataAwsccEc2LocalGatewayRouteTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetable"
 
 dataawsccec2localgatewayroutetable.NewDataAwsccEc2LocalGatewayRouteTable(scope Construct, id *string, config DataAwsccEc2LocalGatewayRouteTableConfig) DataAwsccEc2LocalGatewayRouteTable
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTable.DataAwsccEc2LocalGatewayRouteTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetable"
 
 dataawsccec2localgatewayroutetable.DataAwsccEc2LocalGatewayRouteTable_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTable.DataAwsccEc2LocalGatewayRouteTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetable"
 
 dataawsccec2localgatewayroutetable.DataAwsccEc2LocalGatewayRouteTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2localgatewayroutetable.DataAwsccEc2LocalGatewayRouteTable_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTable.DataAwsccEc2LocalGatewayRouteTable.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetable"
 
 dataawsccec2localgatewayroutetable.DataAwsccEc2LocalGatewayRouteTable_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2localgatewayroutetable.DataAwsccEc2LocalGatewayRouteTable_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTable.DataAwsccEc2LocalGatewayRouteTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetable"
 
 dataawsccec2localgatewayroutetable.DataAwsccEc2LocalGatewayRouteTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2LocalGatewayRo
 
 The id of the existing DataAwsccEc2LocalGatewayRouteTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_route_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_route_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTable.DataAwsccEc2LocalGatewayRouteTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetable"
 
 &dataawsccec2localgatewayroutetable.DataAwsccEc2LocalGatewayRouteTableConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_route_table#id DataAwsccEc2LocalGatewayRouteTable#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_route_table#id DataAwsccEc2LocalGatewayRouteTable#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTable.DataAwsccEc2LocalGatewayRouteTableTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetable"
 
 &dataawsccec2localgatewayroutetable.DataAwsccEc2LocalGatewayRouteTableTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatew
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTable.DataAwsccEc2LocalGatewayRouteTableTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetable"
 
 dataawsccec2localgatewayroutetable.NewDataAwsccEc2LocalGatewayRouteTableTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2LocalGatewayRouteTableTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTable.DataAwsccEc2LocalGatewayRouteTableTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetable"
 
 dataawsccec2localgatewayroutetable.NewDataAwsccEc2LocalGatewayRouteTableTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2LocalGatewayRouteTableTagsOutputReference
 ```

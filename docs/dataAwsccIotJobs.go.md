@@ -4,12 +4,12 @@
 
 ### DataAwsccIotJobs <a name="DataAwsccIotJobs" id="@cdktn/provider-awscc.dataAwsccIotJobs.DataAwsccIotJobs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_jobs awscc_iot_jobs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_jobs awscc_iot_jobs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobs.DataAwsccIotJobs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobs"
 
 dataawscciotjobs.NewDataAwsccIotJobs(scope Construct, id *string, config DataAwsccIotJobsConfig) DataAwsccIotJobs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotJobs.DataAwsccIotJobs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobs"
 
 dataawscciotjobs.DataAwsccIotJobs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotJobs.DataAwsccIotJobs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobs"
 
 dataawscciotjobs.DataAwsccIotJobs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotjobs.DataAwsccIotJobs_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotJobs.DataAwsccIotJobs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobs"
 
 dataawscciotjobs.DataAwsccIotJobs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotjobs.DataAwsccIotJobs_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotJobs.DataAwsccIotJobs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobs"
 
 dataawscciotjobs.DataAwsccIotJobs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotJobs to import
 
 The id of the existing DataAwsccIotJobs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_jobs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_jobs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobs.DataAwsccIotJobsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobs"
 
 &dataawscciotjobs.DataAwsccIotJobsConfig {
 	Connection: interface{},

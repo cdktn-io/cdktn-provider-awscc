@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaWebFunctionEndpoint <a name="DataAwsccLambdaWebFunctionEndpoint" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.NewDataAwsccLambdaWebFunctionEndpoint(scope Construct, id *string, config DataAwsccLambdaWebFunctionEndpointConfig) DataAwsccLambdaWebFunctionEndpoint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpoint_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpoint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpoint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpoint_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaWebFunction
 
 The id of the existing DataAwsccLambdaWebFunctionEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_function_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -796,7 +796,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 &dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpointConfig {
 	Connection: interface{},
@@ -905,7 +905,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_endpoint#id DataAwsccLambdaWebFunctionEndpoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_function_endpoint#id DataAwsccLambdaWebFunctionEndpoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -917,7 +917,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 &dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpoints {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsRevisionWeights.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 &dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsRevisionWeights {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsScalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 &dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsScalingConfig {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsThrottleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 &dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsThrottleConfig {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRevisionWeights.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 &dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpointRevisionWeights {
 
@@ -982,7 +982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointScalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 &dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpointScalingConfig {
 
@@ -995,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointThrottleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 &dataawscclambdawebfunctionendpoint.DataAwsccLambdaWebFunctionEndpointThrottleConfig {
 
@@ -1010,7 +1010,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.NewDataAwsccLambdaWebFunctionEndpointRegionalEndpointsMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionEndpointRegionalEndpointsMap
 ```
@@ -1146,7 +1146,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.NewDataAwsccLambdaWebFunctionEndpointRegionalEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccLambdaWebFunctionEndpointRegionalEndpointsOutputReference
 ```
@@ -1503,7 +1503,7 @@ func InternalValue() DataAwsccLambdaWebFunctionEndpointRegionalEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.NewDataAwsccLambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsList
 ```
@@ -1652,7 +1652,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.NewDataAwsccLambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsOutputReference
 ```
@@ -1941,7 +1941,7 @@ func InternalValue() DataAwsccLambdaWebFunctionEndpointRegionalEndpointsRevision
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsScalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.NewDataAwsccLambdaWebFunctionEndpointRegionalEndpointsScalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionEndpointRegionalEndpointsScalingConfigOutputReference
 ```
@@ -2201,7 +2201,7 @@ func InternalValue() DataAwsccLambdaWebFunctionEndpointRegionalEndpointsScalingC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRegionalEndpointsThrottleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.NewDataAwsccLambdaWebFunctionEndpointRegionalEndpointsThrottleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionEndpointRegionalEndpointsThrottleConfigOutputReference
 ```
@@ -2461,7 +2461,7 @@ func InternalValue() DataAwsccLambdaWebFunctionEndpointRegionalEndpointsThrottle
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRevisionWeightsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.NewDataAwsccLambdaWebFunctionEndpointRevisionWeightsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaWebFunctionEndpointRevisionWeightsList
 ```
@@ -2610,7 +2610,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointRevisionWeightsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.NewDataAwsccLambdaWebFunctionEndpointRevisionWeightsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaWebFunctionEndpointRevisionWeightsOutputReference
 ```
@@ -2899,7 +2899,7 @@ func InternalValue() DataAwsccLambdaWebFunctionEndpointRevisionWeights
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointScalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.NewDataAwsccLambdaWebFunctionEndpointScalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionEndpointScalingConfigOutputReference
 ```
@@ -3159,7 +3159,7 @@ func InternalValue() DataAwsccLambdaWebFunctionEndpointScalingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionEndpoint.DataAwsccLambdaWebFunctionEndpointThrottleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint"
 
 dataawscclambdawebfunctionendpoint.NewDataAwsccLambdaWebFunctionEndpointThrottleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionEndpointThrottleConfigOutputReference
 ```

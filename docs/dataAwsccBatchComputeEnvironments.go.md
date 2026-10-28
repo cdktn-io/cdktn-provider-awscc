@@ -4,12 +4,12 @@
 
 ### DataAwsccBatchComputeEnvironments <a name="DataAwsccBatchComputeEnvironments" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironments.DataAwsccBatchComputeEnvironments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_compute_environments awscc_batch_compute_environments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_compute_environments awscc_batch_compute_environments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironments.DataAwsccBatchComputeEnvironments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironments"
 
 dataawsccbatchcomputeenvironments.NewDataAwsccBatchComputeEnvironments(scope Construct, id *string, config DataAwsccBatchComputeEnvironmentsConfig) DataAwsccBatchComputeEnvironments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironments.DataAwsccBatchComputeEnvironments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironments"
 
 dataawsccbatchcomputeenvironments.DataAwsccBatchComputeEnvironments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironments.DataAwsccBatchComputeEnvironments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironments"
 
 dataawsccbatchcomputeenvironments.DataAwsccBatchComputeEnvironments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbatchcomputeenvironments.DataAwsccBatchComputeEnvironments_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironments.DataAwsccBatchComputeEnvironments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironments"
 
 dataawsccbatchcomputeenvironments.DataAwsccBatchComputeEnvironments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbatchcomputeenvironments.DataAwsccBatchComputeEnvironments_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironments.DataAwsccBatchComputeEnvironments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironments"
 
 dataawsccbatchcomputeenvironments.DataAwsccBatchComputeEnvironments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBatchComputeEnvir
 
 The id of the existing DataAwsccBatchComputeEnvironments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_compute_environments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_compute_environments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironments.DataAwsccBatchComputeEnvironmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironments"
 
 &dataawsccbatchcomputeenvironments.DataAwsccBatchComputeEnvironmentsConfig {
 	Connection: interface{},

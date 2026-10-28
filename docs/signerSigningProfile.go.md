@@ -4,12 +4,12 @@
 
 ### SignerSigningProfile <a name="SignerSigningProfile" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile awscc_signer_signing_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile awscc_signer_signing_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/signersigningprofile"
 
 signersigningprofile.NewSignerSigningProfile(scope Construct, id *string, config SignerSigningProfileConfig) SignerSigningProfile
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/signersigningprofile"
 
 signersigningprofile.SignerSigningProfile_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/signersigningprofile"
 
 signersigningprofile.SignerSigningProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ signersigningprofile.SignerSigningProfile_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/signersigningprofile"
 
 signersigningprofile.SignerSigningProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ signersigningprofile.SignerSigningProfile_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/signersigningprofile"
 
 signersigningprofile.SignerSigningProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SignerSigningProfile to im
 
 The id of the existing SignerSigningProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -850,7 +850,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/signersigningprofile"
 
 &signersigningprofile.SignerSigningProfileConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	PlatformId: *string,
-	SignatureValidityPeriod: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod,
+	SignatureValidityPeriod: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod,
 	Tags: interface{},
 }
 ```
@@ -963,7 +963,7 @@ PlatformId *string
 
 The ID of the target signing platform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#platform_id SignerSigningProfile#platform_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#platform_id SignerSigningProfile#platform_id}
 
 ---
 
@@ -977,7 +977,7 @@ SignatureValidityPeriod SignerSigningProfileSignatureValidityPeriod
 
 Signature validity period of the profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#signature_validity_period SignerSigningProfile#signature_validity_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#signature_validity_period SignerSigningProfile#signature_validity_period}
 
 ---
 
@@ -991,7 +991,7 @@ Tags interface{}
 
 A list of tags associated with the signing profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#tags SignerSigningProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#tags SignerSigningProfile#tags}
 
 ---
 
@@ -1000,7 +1000,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/signersigningprofile"
 
 &signersigningprofile.SignerSigningProfileSignatureValidityPeriod {
 	Type: *string,
@@ -1012,8 +1012,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#type SignerSigningProfile#type}. |
-| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod.property.value">Value</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}. |
+| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#type SignerSigningProfile#type}. |
+| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod.property.value">Value</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}. |
 
 ---
 
@@ -1025,7 +1025,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#type SignerSigningProfile#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#type SignerSigningProfile#type}.
 
 ---
 
@@ -1037,7 +1037,7 @@ Value *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}.
 
 ---
 
@@ -1046,7 +1046,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/signersigningprofile"
 
 &signersigningprofile.SignerSigningProfileTags {
 	Key: *string,
@@ -1058,8 +1058,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#key SignerSigningProfile#key}. |
-| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}. |
+| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#key SignerSigningProfile#key}. |
+| <code><a href="#@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}. |
 
 ---
 
@@ -1071,7 +1071,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#key SignerSigningProfile#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#key SignerSigningProfile#key}.
 
 ---
 
@@ -1083,7 +1083,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}.
 
 ---
 
@@ -1094,7 +1094,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileSignatureValidityPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/signersigningprofile"
 
 signersigningprofile.NewSignerSigningProfileSignatureValidityPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SignerSigningProfileSignatureValidityPeriodOutputReference
 ```
@@ -1401,7 +1401,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/signersigningprofile"
 
 signersigningprofile.NewSignerSigningProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SignerSigningProfileTagsList
 ```
@@ -1561,7 +1561,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.signerSigningProfile.SignerSigningProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/signersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/signersigningprofile"
 
 signersigningprofile.NewSignerSigningProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SignerSigningProfileTagsOutputReference
 ```

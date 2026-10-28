@@ -4,12 +4,12 @@
 
 ### DataAwsccDatazoneDomainUnit <a name="DataAwsccDatazoneDomainUnit" id="@cdktn/provider-awscc.dataAwsccDatazoneDomainUnit.DataAwsccDatazoneDomainUnit"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_domain_unit awscc_datazone_domain_unit}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_domain_unit awscc_datazone_domain_unit}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneDomainUnit.DataAwsccDatazoneDomainUnit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonedomainunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonedomainunit"
 
 dataawsccdatazonedomainunit.NewDataAwsccDatazoneDomainUnit(scope Construct, id *string, config DataAwsccDatazoneDomainUnitConfig) DataAwsccDatazoneDomainUnit
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatazoneDomainUnit.DataAwsccDatazoneDomainUnit.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonedomainunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonedomainunit"
 
 dataawsccdatazonedomainunit.DataAwsccDatazoneDomainUnit_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatazoneDomainUnit.DataAwsccDatazoneDomainUnit.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonedomainunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonedomainunit"
 
 dataawsccdatazonedomainunit.DataAwsccDatazoneDomainUnit_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatazonedomainunit.DataAwsccDatazoneDomainUnit_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatazoneDomainUnit.DataAwsccDatazoneDomainUnit.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonedomainunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonedomainunit"
 
 dataawsccdatazonedomainunit.DataAwsccDatazoneDomainUnit_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatazonedomainunit.DataAwsccDatazoneDomainUnit_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatazoneDomainUnit.DataAwsccDatazoneDomainUnit.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonedomainunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonedomainunit"
 
 dataawsccdatazonedomainunit.DataAwsccDatazoneDomainUnit_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatazoneDomainUni
 
 The id of the existing DataAwsccDatazoneDomainUnit that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_domain_unit#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_domain_unit#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneDomainUnit.DataAwsccDatazoneDomainUnitConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonedomainunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonedomainunit"
 
 &dataawsccdatazonedomainunit.DataAwsccDatazoneDomainUnitConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_domain_unit#id DataAwsccDatazoneDomainUnit#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_domain_unit#id DataAwsccDatazoneDomainUnit#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

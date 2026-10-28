@@ -4,12 +4,12 @@
 
 ### DataAwsccIotsitewiseAsset <a name="DataAwsccIotsitewiseAsset" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAsset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_asset awscc_iotsitewise_asset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_asset awscc_iotsitewise_asset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAsset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 dataawscciotsitewiseasset.NewDataAwsccIotsitewiseAsset(scope Construct, id *string, config DataAwsccIotsitewiseAssetConfig) DataAwsccIotsitewiseAsset
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAsset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 dataawscciotsitewiseasset.DataAwsccIotsitewiseAsset_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAsset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 dataawscciotsitewiseasset.DataAwsccIotsitewiseAsset_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsitewiseasset.DataAwsccIotsitewiseAsset_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAsset.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 dataawscciotsitewiseasset.DataAwsccIotsitewiseAsset_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsitewiseasset.DataAwsccIotsitewiseAsset_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAsset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 dataawscciotsitewiseasset.DataAwsccIotsitewiseAsset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseAsset 
 
 The id of the existing DataAwsccIotsitewiseAsset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_asset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_asset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAssetAssetHierarchies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 &dataawscciotsitewiseasset.DataAwsccIotsitewiseAssetAssetHierarchies {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAssetAssetProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 &dataawscciotsitewiseasset.DataAwsccIotsitewiseAssetAssetProperties {
 
@@ -712,7 +712,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAssetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 &dataawscciotsitewiseasset.DataAwsccIotsitewiseAssetConfig {
 	Connection: interface{},
@@ -821,7 +821,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_asset#id DataAwsccIotsitewiseAsset#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_asset#id DataAwsccIotsitewiseAsset#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -833,7 +833,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAssetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 &dataawscciotsitewiseasset.DataAwsccIotsitewiseAssetTags {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseas
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAssetAssetHierarchiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 dataawscciotsitewiseasset.NewDataAwsccIotsitewiseAssetAssetHierarchiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotsitewiseAssetAssetHierarchiesList
 ```
@@ -997,7 +997,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAssetAssetHierarchiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 dataawscciotsitewiseasset.NewDataAwsccIotsitewiseAssetAssetHierarchiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotsitewiseAssetAssetHierarchiesOutputReference
 ```
@@ -1308,7 +1308,7 @@ func InternalValue() DataAwsccIotsitewiseAssetAssetHierarchies
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAssetAssetPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 dataawscciotsitewiseasset.NewDataAwsccIotsitewiseAssetAssetPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotsitewiseAssetAssetPropertiesList
 ```
@@ -1457,7 +1457,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAssetAssetPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 dataawscciotsitewiseasset.NewDataAwsccIotsitewiseAssetAssetPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotsitewiseAssetAssetPropertiesOutputReference
 ```
@@ -1790,7 +1790,7 @@ func InternalValue() DataAwsccIotsitewiseAssetAssetProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAssetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 dataawscciotsitewiseasset.NewDataAwsccIotsitewiseAssetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotsitewiseAssetTagsList
 ```
@@ -1939,7 +1939,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAsset.DataAwsccIotsitewiseAssetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset"
 
 dataawscciotsitewiseasset.NewDataAwsccIotsitewiseAssetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotsitewiseAssetTagsOutputReference
 ```

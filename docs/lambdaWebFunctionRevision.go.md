@@ -4,12 +4,12 @@
 
 ### LambdaWebFunctionRevision <a name="LambdaWebFunctionRevision" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevision"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision awscc_lambda_web_function_revision}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision awscc_lambda_web_function_revision}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevision.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.NewLambdaWebFunctionRevision(scope Construct, id *string, config LambdaWebFunctionRevisionConfig) LambdaWebFunctionRevision
 ```
@@ -440,7 +440,7 @@ func ResetKmsKeyArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevision.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.LambdaWebFunctionRevision_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevision.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.LambdaWebFunctionRevision_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ lambdawebfunctionrevision.LambdaWebFunctionRevision_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevision.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.LambdaWebFunctionRevision_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ lambdawebfunctionrevision.LambdaWebFunctionRevision_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevision.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.LambdaWebFunctionRevision_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the LambdaWebFunctionRevision 
 
 The id of the existing LambdaWebFunctionRevision that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -916,11 +916,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 &lambdawebfunctionrevision.LambdaWebFunctionRevisionBuildConfig {
-	CodeConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigCodeConfig,
-	RuntimeConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigRuntimeConfig,
+	CodeConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigCodeConfig,
+	RuntimeConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigRuntimeConfig,
 }
 ```
 
@@ -943,7 +943,7 @@ CodeConfig LambdaWebFunctionRevisionBuildConfigCodeConfig
 
 The code configuration for the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#code_config LambdaWebFunctionRevision#code_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#code_config LambdaWebFunctionRevision#code_config}
 
 ---
 
@@ -957,7 +957,7 @@ RuntimeConfig LambdaWebFunctionRevisionBuildConfigRuntimeConfig
 
 The runtime configuration for the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#runtime_config LambdaWebFunctionRevision#runtime_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#runtime_config LambdaWebFunctionRevision#runtime_config}
 
 ---
 
@@ -966,10 +966,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigCodeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 &lambdawebfunctionrevision.LambdaWebFunctionRevisionBuildConfigCodeConfig {
-	S3Object: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigCodeConfigS3Object,
+	S3Object: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigCodeConfigS3Object,
 }
 ```
 
@@ -991,7 +991,7 @@ S3Object LambdaWebFunctionRevisionBuildConfigCodeConfigS3Object
 
 The Amazon S3 location of the deployment artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#s3_object LambdaWebFunctionRevision#s3_object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#s3_object LambdaWebFunctionRevision#s3_object}
 
 ---
 
@@ -1000,7 +1000,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigCodeConfigS3Object.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 &lambdawebfunctionrevision.LambdaWebFunctionRevisionBuildConfigCodeConfigS3Object {
 	Bucket: *string,
@@ -1029,7 +1029,7 @@ Bucket *string
 
 The S3 bucket name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#bucket LambdaWebFunctionRevision#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#bucket LambdaWebFunctionRevision#bucket}
 
 ---
 
@@ -1043,7 +1043,7 @@ Key *string
 
 The S3 object key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#key LambdaWebFunctionRevision#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#key LambdaWebFunctionRevision#key}
 
 ---
 
@@ -1057,7 +1057,7 @@ VersionId *string
 
 The S3 object version ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#version_id LambdaWebFunctionRevision#version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#version_id LambdaWebFunctionRevision#version_id}
 
 ---
 
@@ -1066,7 +1066,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigRuntimeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 &lambdawebfunctionrevision.LambdaWebFunctionRevisionBuildConfigRuntimeConfig {
 	Runtime: *string,
@@ -1091,7 +1091,7 @@ Runtime *string
 
 The runtime identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#runtime LambdaWebFunctionRevision#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#runtime LambdaWebFunctionRevision#runtime}
 
 ---
 
@@ -1100,7 +1100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 &lambdawebfunctionrevision.LambdaWebFunctionRevisionConfig {
 	Connection: interface{},
@@ -1110,9 +1110,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevis
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	BuildConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfig,
+	BuildConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfig,
 	FunctionName: *string,
-	ServiceConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfig,
+	ServiceConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfig,
 	Description: *string,
 	KmsKeyArn: *string,
 }
@@ -1217,7 +1217,7 @@ BuildConfig LambdaWebFunctionRevisionBuildConfig
 
 The build configuration for the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#build_config LambdaWebFunctionRevision#build_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#build_config LambdaWebFunctionRevision#build_config}
 
 ---
 
@@ -1233,7 +1233,7 @@ The name of the web function this revision belongs to.
 
 The length constraint applies only to the full ARN. If you specify only the function name, it is limited to 64 characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#function_name LambdaWebFunctionRevision#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#function_name LambdaWebFunctionRevision#function_name}
 
 ---
 
@@ -1247,7 +1247,7 @@ ServiceConfig LambdaWebFunctionRevisionServiceConfig
 
 The service configuration for the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#service_config LambdaWebFunctionRevision#service_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#service_config LambdaWebFunctionRevision#service_config}
 
 ---
 
@@ -1261,7 +1261,7 @@ Description *string
 
 A description of the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#description LambdaWebFunctionRevision#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#description LambdaWebFunctionRevision#description}
 
 ---
 
@@ -1275,7 +1275,7 @@ KmsKeyArn *string
 
 The ARN of the KMS key used to encrypt the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#kms_key_arn LambdaWebFunctionRevision#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#kms_key_arn LambdaWebFunctionRevision#kms_key_arn}
 
 ---
 
@@ -1284,14 +1284,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 &lambdawebfunctionrevision.LambdaWebFunctionRevisionServiceConfig {
 	ExecutionRoleArn: *string,
 	EgressNetworkConnectorArn: *string,
 	EnvironmentVariables: *map[string]*string,
 	MaxConcurrencyPerEnvironment: *f64,
-	TelemetryConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfig,
+	TelemetryConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfig,
 	TimeoutSeconds: *f64,
 }
 ```
@@ -1319,7 +1319,7 @@ ExecutionRoleArn *string
 
 The ARN of the execution role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#execution_role_arn LambdaWebFunctionRevision#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#execution_role_arn LambdaWebFunctionRevision#execution_role_arn}
 
 ---
 
@@ -1333,7 +1333,7 @@ EgressNetworkConnectorArn *string
 
 The versioned ARN of the network connector used for outbound network access from the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#egress_network_connector_arn LambdaWebFunctionRevision#egress_network_connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#egress_network_connector_arn LambdaWebFunctionRevision#egress_network_connector_arn}
 
 ---
 
@@ -1347,7 +1347,7 @@ EnvironmentVariables *map[string]*string
 
 Environment variables for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#environment_variables LambdaWebFunctionRevision#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#environment_variables LambdaWebFunctionRevision#environment_variables}
 
 ---
 
@@ -1361,7 +1361,7 @@ MaxConcurrencyPerEnvironment *f64
 
 The maximum concurrency per environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#max_concurrency_per_environment LambdaWebFunctionRevision#max_concurrency_per_environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#max_concurrency_per_environment LambdaWebFunctionRevision#max_concurrency_per_environment}
 
 ---
 
@@ -1375,7 +1375,7 @@ TelemetryConfig LambdaWebFunctionRevisionServiceConfigTelemetryConfig
 
 The telemetry configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#telemetry_config LambdaWebFunctionRevision#telemetry_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#telemetry_config LambdaWebFunctionRevision#telemetry_config}
 
 ---
 
@@ -1389,7 +1389,7 @@ TimeoutSeconds *f64
 
 The function timeout in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#timeout_seconds LambdaWebFunctionRevision#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#timeout_seconds LambdaWebFunctionRevision#timeout_seconds}
 
 ---
 
@@ -1398,10 +1398,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 &lambdawebfunctionrevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfig {
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfig,
 }
 ```
 
@@ -1423,7 +1423,7 @@ LoggingConfig LambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfig
 
 The logging configuration for the web function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#logging_config LambdaWebFunctionRevision#logging_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#logging_config LambdaWebFunctionRevision#logging_config}
 
 ---
 
@@ -1432,7 +1432,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 &lambdawebfunctionrevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfig {
 	ApplicationLogLevel: *string,
@@ -1461,7 +1461,7 @@ ApplicationLogLevel *string
 
 The application log level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#application_log_level LambdaWebFunctionRevision#application_log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#application_log_level LambdaWebFunctionRevision#application_log_level}
 
 ---
 
@@ -1475,7 +1475,7 @@ LogGroup *string
 
 The CloudWatch log group name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#log_group LambdaWebFunctionRevision#log_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#log_group LambdaWebFunctionRevision#log_group}
 
 ---
 
@@ -1489,7 +1489,7 @@ SystemLogLevel *string
 
 The system log level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#system_log_level LambdaWebFunctionRevision#system_log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#system_log_level LambdaWebFunctionRevision#system_log_level}
 
 ---
 
@@ -1500,7 +1500,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigCodeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.NewLambdaWebFunctionRevisionBuildConfigCodeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionRevisionBuildConfigCodeConfigOutputReference
 ```
@@ -1784,7 +1784,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigCodeConfigS3ObjectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.NewLambdaWebFunctionRevisionBuildConfigCodeConfigS3ObjectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionRevisionBuildConfigCodeConfigS3ObjectOutputReference
 ```
@@ -2106,7 +2106,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.NewLambdaWebFunctionRevisionBuildConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionRevisionBuildConfigOutputReference
 ```
@@ -2425,7 +2425,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionBuildConfigRuntimeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.NewLambdaWebFunctionRevisionBuildConfigRuntimeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionRevisionBuildConfigRuntimeConfigOutputReference
 ```
@@ -2696,7 +2696,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.NewLambdaWebFunctionRevisionServiceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionRevisionServiceConfigOutputReference
 ```
@@ -3125,7 +3125,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.NewLambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfigOutputReference
 ```
@@ -3461,7 +3461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionrevision"
 
 lambdawebfunctionrevision.NewLambdaWebFunctionRevisionServiceConfigTelemetryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionRevisionServiceConfigTelemetryConfigOutputReference
 ```

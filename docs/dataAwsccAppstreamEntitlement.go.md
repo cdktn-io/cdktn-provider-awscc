@@ -4,12 +4,12 @@
 
 ### DataAwsccAppstreamEntitlement <a name="DataAwsccAppstreamEntitlement" id="@cdktn/provider-awscc.dataAwsccAppstreamEntitlement.DataAwsccAppstreamEntitlement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_entitlement awscc_appstream_entitlement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_entitlement awscc_appstream_entitlement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamEntitlement.DataAwsccAppstreamEntitlement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamentitlement"
 
 dataawsccappstreamentitlement.NewDataAwsccAppstreamEntitlement(scope Construct, id *string, config DataAwsccAppstreamEntitlementConfig) DataAwsccAppstreamEntitlement
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppstreamEntitlement.DataAwsccAppstreamEntitlement.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamentitlement"
 
 dataawsccappstreamentitlement.DataAwsccAppstreamEntitlement_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppstreamEntitlement.DataAwsccAppstreamEntitlement.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamentitlement"
 
 dataawsccappstreamentitlement.DataAwsccAppstreamEntitlement_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappstreamentitlement.DataAwsccAppstreamEntitlement_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppstreamEntitlement.DataAwsccAppstreamEntitlement.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamentitlement"
 
 dataawsccappstreamentitlement.DataAwsccAppstreamEntitlement_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappstreamentitlement.DataAwsccAppstreamEntitlement_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppstreamEntitlement.DataAwsccAppstreamEntitlement.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamentitlement"
 
 dataawsccappstreamentitlement.DataAwsccAppstreamEntitlement_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppstreamEntitlem
 
 The id of the existing DataAwsccAppstreamEntitlement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_entitlement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_entitlement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamEntitlement.DataAwsccAppstreamEntitlementAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamentitlement"
 
 &dataawsccappstreamentitlement.DataAwsccAppstreamEntitlementAttributes {
 
@@ -677,7 +677,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamenti
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamEntitlement.DataAwsccAppstreamEntitlementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamentitlement"
 
 &dataawsccappstreamentitlement.DataAwsccAppstreamEntitlementConfig {
 	Connection: interface{},
@@ -786,7 +786,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_entitlement#id DataAwsccAppstreamEntitlement#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_entitlement#id DataAwsccAppstreamEntitlement#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -800,7 +800,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamEntitlement.DataAwsccAppstreamEntitlementAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamentitlement"
 
 dataawsccappstreamentitlement.NewDataAwsccAppstreamEntitlementAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppstreamEntitlementAttributesList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamEntitlement.DataAwsccAppstreamEntitlementAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamentitlement"
 
 dataawsccappstreamentitlement.NewDataAwsccAppstreamEntitlementAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppstreamEntitlementAttributesOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccDatazoneProjectProfiles <a name="DataAwsccDatazoneProjectProfiles" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfiles.DataAwsccDatazoneProjectProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_project_profiles awscc_datazone_project_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_project_profiles awscc_datazone_project_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfiles.DataAwsccDatazoneProjectProfiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofiles"
 
 dataawsccdatazoneprojectprofiles.NewDataAwsccDatazoneProjectProfiles(scope Construct, id *string, config DataAwsccDatazoneProjectProfilesConfig) DataAwsccDatazoneProjectProfiles
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfiles.DataAwsccDatazoneProjectProfiles.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofiles"
 
 dataawsccdatazoneprojectprofiles.DataAwsccDatazoneProjectProfiles_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfiles.DataAwsccDatazoneProjectProfiles.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofiles"
 
 dataawsccdatazoneprojectprofiles.DataAwsccDatazoneProjectProfiles_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatazoneprojectprofiles.DataAwsccDatazoneProjectProfiles_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfiles.DataAwsccDatazoneProjectProfiles.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofiles"
 
 dataawsccdatazoneprojectprofiles.DataAwsccDatazoneProjectProfiles_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatazoneprojectprofiles.DataAwsccDatazoneProjectProfiles_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfiles.DataAwsccDatazoneProjectProfiles.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofiles"
 
 dataawsccdatazoneprojectprofiles.DataAwsccDatazoneProjectProfiles_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatazoneProjectPr
 
 The id of the existing DataAwsccDatazoneProjectProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_project_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_project_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfiles.DataAwsccDatazoneProjectProfilesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofiles"
 
 &dataawsccdatazoneprojectprofiles.DataAwsccDatazoneProjectProfilesConfig {
 	Connection: interface{},

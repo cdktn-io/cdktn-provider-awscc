@@ -4,12 +4,12 @@
 
 ### MediaconvertJobTemplate <a name="MediaconvertJobTemplate" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template awscc_mediaconvert_job_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template awscc_mediaconvert_job_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate"
 
 mediaconvertjobtemplate.NewMediaconvertJobTemplate(scope Construct, id *string, config MediaconvertJobTemplateConfig) MediaconvertJobTemplate
 ```
@@ -489,7 +489,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate"
 
 mediaconvertjobtemplate.MediaconvertJobTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate"
 
 mediaconvertjobtemplate.MediaconvertJobTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ mediaconvertjobtemplate.MediaconvertJobTemplate_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate"
 
 mediaconvertjobtemplate.MediaconvertJobTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ mediaconvertjobtemplate.MediaconvertJobTemplate_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate"
 
 mediaconvertjobtemplate.MediaconvertJobTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -578,7 +578,7 @@ The construct id used in the generated config for the MediaconvertJobTemplate to
 
 The id of the existing MediaconvertJobTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1020,7 +1020,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplateAccelerationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate"
 
 &mediaconvertjobtemplate.MediaconvertJobTemplateAccelerationSettings {
 	Mode: *string,
@@ -1045,7 +1045,7 @@ Mode *string
 
 Specify the conditions when the service will run your job with accelerated transcoding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#mode MediaconvertJobTemplate#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#mode MediaconvertJobTemplate#mode}
 
 ---
 
@@ -1054,7 +1054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate"
 
 &mediaconvertjobtemplate.MediaconvertJobTemplateConfig {
 	Connection: interface{},
@@ -1065,7 +1065,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplat
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	SettingsJson: *string,
-	AccelerationSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconvertJobTemplate.MediaconvertJobTemplateAccelerationSettings,
+	AccelerationSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconvertJobTemplate.MediaconvertJobTemplateAccelerationSettings,
 	Category: *string,
 	Description: *string,
 	HopDestinations: interface{},
@@ -1183,7 +1183,7 @@ Specify, in JSON format, the transcoding job settings for this job template.
 
 This specification must conform to the AWS Elemental MediaConvert job validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#settings_json MediaconvertJobTemplate#settings_json}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#settings_json MediaconvertJobTemplate#settings_json}
 
 ---
 
@@ -1199,7 +1199,7 @@ Accelerated transcoding can significantly speed up jobs with long, visually comp
 
 Outputs that use this feature incur pro-tier pricing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#acceleration_settings MediaconvertJobTemplate#acceleration_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#acceleration_settings MediaconvertJobTemplate#acceleration_settings}
 
 ---
 
@@ -1213,7 +1213,7 @@ Category *string
 
 Optional. A category for the job template you are creating.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#category MediaconvertJobTemplate#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#category MediaconvertJobTemplate#category}
 
 ---
 
@@ -1227,7 +1227,7 @@ Description *string
 
 Optional. A description of the job template you are creating.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#description MediaconvertJobTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#description MediaconvertJobTemplate#description}
 
 ---
 
@@ -1243,7 +1243,7 @@ Optional.
 
 Configuration for a destination queue to which the job can hop once a customer-defined minimum wait time has passed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#hop_destinations MediaconvertJobTemplate#hop_destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#hop_destinations MediaconvertJobTemplate#hop_destinations}
 
 ---
 
@@ -1257,7 +1257,7 @@ Name *string
 
 The name of the job template you are creating.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#name MediaconvertJobTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#name MediaconvertJobTemplate#name}
 
 ---
 
@@ -1273,7 +1273,7 @@ Specify the relative priority for this job.
 
 In any given queue, the service begins processing the job with the highest value first. When more than one job has the same priority, the service begins processing the job that you submitted first.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#priority MediaconvertJobTemplate#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#priority MediaconvertJobTemplate#priority}
 
 ---
 
@@ -1289,7 +1289,7 @@ Optional.
 
 The queue that jobs created from this template are assigned to. Specify the Amazon Resource Name (ARN) of the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#queue MediaconvertJobTemplate#queue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#queue MediaconvertJobTemplate#queue}
 
 ---
 
@@ -1303,7 +1303,7 @@ StatusUpdateInterval *string
 
 Specify how often MediaConvert sends STATUS_UPDATE events to Amazon CloudWatch Events. Set the interval, in seconds, between status updates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#status_update_interval MediaconvertJobTemplate#status_update_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#status_update_interval MediaconvertJobTemplate#status_update_interval}
 
 ---
 
@@ -1317,7 +1317,7 @@ Tags *string
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#tags MediaconvertJobTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#tags MediaconvertJobTemplate#tags}
 
 ---
 
@@ -1326,7 +1326,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplateHopDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate"
 
 &mediaconvertjobtemplate.MediaconvertJobTemplateHopDestinations {
 	Priority: *f64,
@@ -1355,7 +1355,7 @@ Priority *f64
 
 Optional. A different relative priority for the job in the destination queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#priority MediaconvertJobTemplate#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#priority MediaconvertJobTemplate#priority}
 
 ---
 
@@ -1369,7 +1369,7 @@ Queue *string
 
 Optional. The destination queue for queue hopping.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#queue MediaconvertJobTemplate#queue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#queue MediaconvertJobTemplate#queue}
 
 ---
 
@@ -1383,7 +1383,7 @@ WaitMinutes *f64
 
 Required for queue hopping. Minimum wait time in minutes until the job can hop to the destination queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template#wait_minutes MediaconvertJobTemplate#wait_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template#wait_minutes MediaconvertJobTemplate#wait_minutes}
 
 ---
 
@@ -1394,7 +1394,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplateAccelerationSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate"
 
 mediaconvertjobtemplate.NewMediaconvertJobTemplateAccelerationSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconvertJobTemplateAccelerationSettingsOutputReference
 ```
@@ -1672,7 +1672,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplateHopDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate"
 
 mediaconvertjobtemplate.NewMediaconvertJobTemplateHopDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediaconvertJobTemplateHopDestinationsList
 ```
@@ -1832,7 +1832,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconvertJobTemplate.MediaconvertJobTemplateHopDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate"
 
 mediaconvertjobtemplate.NewMediaconvertJobTemplateHopDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediaconvertJobTemplateHopDestinationsOutputReference
 ```

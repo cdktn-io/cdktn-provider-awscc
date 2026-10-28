@@ -4,12 +4,12 @@
 
 ### RefactorspacesEnvironment <a name="RefactorspacesEnvironment" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_environment awscc_refactorspaces_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_environment awscc_refactorspaces_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesenvironment"
 
 refactorspacesenvironment.NewRefactorspacesEnvironment(scope Construct, id *string, config RefactorspacesEnvironmentConfig) RefactorspacesEnvironment
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesenvironment"
 
 refactorspacesenvironment.RefactorspacesEnvironment_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesenvironment"
 
 refactorspacesenvironment.RefactorspacesEnvironment_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ refactorspacesenvironment.RefactorspacesEnvironment_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesenvironment"
 
 refactorspacesenvironment.RefactorspacesEnvironment_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ refactorspacesenvironment.RefactorspacesEnvironment_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesenvironment"
 
 refactorspacesenvironment.RefactorspacesEnvironment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the RefactorspacesEnvironment 
 
 The id of the existing RefactorspacesEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -862,7 +862,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesenvironment"
 
 &refactorspacesenvironment.RefactorspacesEnvironmentConfig {
 	Connection: interface{},
@@ -890,9 +890,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesenvironm
 | <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_environment#description RefactorspacesEnvironment#description}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_environment#name RefactorspacesEnvironment#name}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.networkFabricType">NetworkFabricType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_environment#network_fabric_type RefactorspacesEnvironment#network_fabric_type}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_environment#description RefactorspacesEnvironment#description}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_environment#name RefactorspacesEnvironment#name}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.networkFabricType">NetworkFabricType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_environment#network_fabric_type RefactorspacesEnvironment#network_fabric_type}. |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair. |
 
 ---
@@ -975,7 +975,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_environment#description RefactorspacesEnvironment#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_environment#description RefactorspacesEnvironment#description}.
 
 ---
 
@@ -987,7 +987,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_environment#name RefactorspacesEnvironment#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_environment#name RefactorspacesEnvironment#name}.
 
 ---
 
@@ -999,7 +999,7 @@ NetworkFabricType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_environment#network_fabric_type RefactorspacesEnvironment#network_fabric_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_environment#network_fabric_type RefactorspacesEnvironment#network_fabric_type}.
 
 ---
 
@@ -1013,7 +1013,7 @@ Tags interface{}
 
 Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_environment#tags RefactorspacesEnvironment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_environment#tags RefactorspacesEnvironment#tags}
 
 ---
 
@@ -1022,7 +1022,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesenvironment"
 
 &refactorspacesenvironment.RefactorspacesEnvironmentTags {
 	Key: *string,
@@ -1049,7 +1049,7 @@ Key *string
 
 A string used to identify this tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_environment#key RefactorspacesEnvironment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_environment#key RefactorspacesEnvironment#key}
 
 ---
 
@@ -1063,7 +1063,7 @@ Value *string
 
 A string containing the value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_environment#value RefactorspacesEnvironment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_environment#value RefactorspacesEnvironment#value}
 
 ---
 
@@ -1074,7 +1074,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesenvironment"
 
 refactorspacesenvironment.NewRefactorspacesEnvironmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RefactorspacesEnvironmentTagsList
 ```
@@ -1234,7 +1234,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesenvironment"
 
 refactorspacesenvironment.NewRefactorspacesEnvironmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RefactorspacesEnvironmentTagsOutputReference
 ```

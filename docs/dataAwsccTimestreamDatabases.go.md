@@ -4,12 +4,12 @@
 
 ### DataAwsccTimestreamDatabases <a name="DataAwsccTimestreamDatabases" id="@cdktn/provider-awscc.dataAwsccTimestreamDatabases.DataAwsccTimestreamDatabases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_databases awscc_timestream_databases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_databases awscc_timestream_databases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamDatabases.DataAwsccTimestreamDatabases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamdatabases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamdatabases"
 
 dataawscctimestreamdatabases.NewDataAwsccTimestreamDatabases(scope Construct, id *string, config DataAwsccTimestreamDatabasesConfig) DataAwsccTimestreamDatabases
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTimestreamDatabases.DataAwsccTimestreamDatabases.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamdatabases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamdatabases"
 
 dataawscctimestreamdatabases.DataAwsccTimestreamDatabases_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTimestreamDatabases.DataAwsccTimestreamDatabases.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamdatabases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamdatabases"
 
 dataawscctimestreamdatabases.DataAwsccTimestreamDatabases_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctimestreamdatabases.DataAwsccTimestreamDatabases_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTimestreamDatabases.DataAwsccTimestreamDatabases.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamdatabases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamdatabases"
 
 dataawscctimestreamdatabases.DataAwsccTimestreamDatabases_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctimestreamdatabases.DataAwsccTimestreamDatabases_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTimestreamDatabases.DataAwsccTimestreamDatabases.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamdatabases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamdatabases"
 
 dataawscctimestreamdatabases.DataAwsccTimestreamDatabases_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTimestreamDatabas
 
 The id of the existing DataAwsccTimestreamDatabases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_databases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_databases#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamDatabases.DataAwsccTimestreamDatabasesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamdatabases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamdatabases"
 
 &dataawscctimestreamdatabases.DataAwsccTimestreamDatabasesConfig {
 	Connection: interface{},

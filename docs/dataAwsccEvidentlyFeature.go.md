@@ -4,12 +4,12 @@
 
 ### DataAwsccEvidentlyFeature <a name="DataAwsccEvidentlyFeature" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeature"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_feature awscc_evidently_feature}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_feature awscc_evidently_feature}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeature.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 dataawsccevidentlyfeature.NewDataAwsccEvidentlyFeature(scope Construct, id *string, config DataAwsccEvidentlyFeatureConfig) DataAwsccEvidentlyFeature
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeature.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 dataawsccevidentlyfeature.DataAwsccEvidentlyFeature_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeature.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 dataawsccevidentlyfeature.DataAwsccEvidentlyFeature_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccevidentlyfeature.DataAwsccEvidentlyFeature_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeature.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 dataawsccevidentlyfeature.DataAwsccEvidentlyFeature_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccevidentlyfeature.DataAwsccEvidentlyFeature_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeature.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 dataawsccevidentlyfeature.DataAwsccEvidentlyFeature_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEvidentlyFeature 
 
 The id of the existing DataAwsccEvidentlyFeature that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_feature#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_feature#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeatureConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 &dataawsccevidentlyfeature.DataAwsccEvidentlyFeatureConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_feature#id DataAwsccEvidentlyFeature#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_feature#id DataAwsccEvidentlyFeature#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeatureEntityOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 &dataawsccevidentlyfeature.DataAwsccEvidentlyFeatureEntityOverrides {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeatureTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 &dataawsccevidentlyfeature.DataAwsccEvidentlyFeatureTags {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeatureVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 &dataawsccevidentlyfeature.DataAwsccEvidentlyFeatureVariations {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeatureEntityOverridesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 dataawsccevidentlyfeature.NewDataAwsccEvidentlyFeatureEntityOverridesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvidentlyFeatureEntityOverridesList
 ```
@@ -997,7 +997,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeatureEntityOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 dataawsccevidentlyfeature.NewDataAwsccEvidentlyFeatureEntityOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvidentlyFeatureEntityOverridesOutputReference
 ```
@@ -1286,7 +1286,7 @@ func InternalValue() DataAwsccEvidentlyFeatureEntityOverrides
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeatureTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 dataawsccevidentlyfeature.NewDataAwsccEvidentlyFeatureTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvidentlyFeatureTagsList
 ```
@@ -1435,7 +1435,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeatureTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 dataawsccevidentlyfeature.NewDataAwsccEvidentlyFeatureTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvidentlyFeatureTagsOutputReference
 ```
@@ -1724,7 +1724,7 @@ func InternalValue() DataAwsccEvidentlyFeatureTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeatureVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 dataawsccevidentlyfeature.NewDataAwsccEvidentlyFeatureVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvidentlyFeatureVariationsList
 ```
@@ -1873,7 +1873,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyFeature.DataAwsccEvidentlyFeatureVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyfeature"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyfeature"
 
 dataawsccevidentlyfeature.NewDataAwsccEvidentlyFeatureVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvidentlyFeatureVariationsOutputReference
 ```

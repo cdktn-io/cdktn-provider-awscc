@@ -4,12 +4,12 @@
 
 ### IdentitystoreGroup <a name="IdentitystoreGroup" id="@cdktn/provider-awscc.identitystoreGroup.IdentitystoreGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_group awscc_identitystore_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_group awscc_identitystore_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreGroup.IdentitystoreGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroup"
 
 identitystoregroup.NewIdentitystoreGroup(scope Construct, id *string, config IdentitystoreGroupConfig) IdentitystoreGroup
 ```
@@ -407,7 +407,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.identitystoreGroup.IdentitystoreGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroup"
 
 identitystoregroup.IdentitystoreGroup_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.identitystoreGroup.IdentitystoreGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroup"
 
 identitystoregroup.IdentitystoreGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ identitystoregroup.IdentitystoreGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.identitystoreGroup.IdentitystoreGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroup"
 
 identitystoregroup.IdentitystoreGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ identitystoregroup.IdentitystoreGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.identitystoreGroup.IdentitystoreGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroup"
 
 identitystoregroup.IdentitystoreGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the IdentitystoreGroup to impo
 
 The id of the existing IdentitystoreGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -784,7 +784,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.identitystoreGroup.IdentitystoreGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroup"
 
 &identitystoregroup.IdentitystoreGroupConfig {
 	Connection: interface{},
@@ -897,7 +897,7 @@ DisplayName *string
 
 A string containing the name of the group. This value is commonly displayed when the group is referenced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_group#display_name IdentitystoreGroup#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_group#display_name IdentitystoreGroup#display_name}
 
 ---
 
@@ -911,7 +911,7 @@ IdentityStoreId *string
 
 The globally unique identifier for the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_group#identity_store_id IdentitystoreGroup#identity_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_group#identity_store_id IdentitystoreGroup#identity_store_id}
 
 ---
 
@@ -925,7 +925,7 @@ Description *string
 
 A string containing the description of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_group#description IdentitystoreGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_group#description IdentitystoreGroup#description}
 
 ---
 

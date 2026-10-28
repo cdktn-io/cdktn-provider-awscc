@@ -4,12 +4,12 @@
 
 ### DataAwsccFrauddetectorVariables <a name="DataAwsccFrauddetectorVariables" id="@cdktn/provider-awscc.dataAwsccFrauddetectorVariables.DataAwsccFrauddetectorVariables"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_variables awscc_frauddetector_variables}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_variables awscc_frauddetector_variables}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorVariables.DataAwsccFrauddetectorVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorvariables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorvariables"
 
 dataawsccfrauddetectorvariables.NewDataAwsccFrauddetectorVariables(scope Construct, id *string, config DataAwsccFrauddetectorVariablesConfig) DataAwsccFrauddetectorVariables
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFrauddetectorVariables.DataAwsccFrauddetectorVariables.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorvariables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorvariables"
 
 dataawsccfrauddetectorvariables.DataAwsccFrauddetectorVariables_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFrauddetectorVariables.DataAwsccFrauddetectorVariables.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorvariables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorvariables"
 
 dataawsccfrauddetectorvariables.DataAwsccFrauddetectorVariables_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfrauddetectorvariables.DataAwsccFrauddetectorVariables_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFrauddetectorVariables.DataAwsccFrauddetectorVariables.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorvariables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorvariables"
 
 dataawsccfrauddetectorvariables.DataAwsccFrauddetectorVariables_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfrauddetectorvariables.DataAwsccFrauddetectorVariables_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFrauddetectorVariables.DataAwsccFrauddetectorVariables.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorvariables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorvariables"
 
 dataawsccfrauddetectorvariables.DataAwsccFrauddetectorVariables_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFrauddetectorVari
 
 The id of the existing DataAwsccFrauddetectorVariables that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_variables#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_variables#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorVariables.DataAwsccFrauddetectorVariablesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorvariables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorvariables"
 
 &dataawsccfrauddetectorvariables.DataAwsccFrauddetectorVariablesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccShieldProactiveEngagement <a name="DataAwsccShieldProactiveEngagement" id="@cdktn/provider-awscc.dataAwsccShieldProactiveEngagement.DataAwsccShieldProactiveEngagement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_proactive_engagement awscc_shield_proactive_engagement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_proactive_engagement awscc_shield_proactive_engagement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccShieldProactiveEngagement.DataAwsccShieldProactiveEngagement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldproactiveengagement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldproactiveengagement"
 
 dataawsccshieldproactiveengagement.NewDataAwsccShieldProactiveEngagement(scope Construct, id *string, config DataAwsccShieldProactiveEngagementConfig) DataAwsccShieldProactiveEngagement
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccShieldProactiveEngagement.DataAwsccShieldProactiveEngagement.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldproactiveengagement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldproactiveengagement"
 
 dataawsccshieldproactiveengagement.DataAwsccShieldProactiveEngagement_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccShieldProactiveEngagement.DataAwsccShieldProactiveEngagement.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldproactiveengagement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldproactiveengagement"
 
 dataawsccshieldproactiveengagement.DataAwsccShieldProactiveEngagement_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccshieldproactiveengagement.DataAwsccShieldProactiveEngagement_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccShieldProactiveEngagement.DataAwsccShieldProactiveEngagement.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldproactiveengagement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldproactiveengagement"
 
 dataawsccshieldproactiveengagement.DataAwsccShieldProactiveEngagement_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccshieldproactiveengagement.DataAwsccShieldProactiveEngagement_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccShieldProactiveEngagement.DataAwsccShieldProactiveEngagement.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldproactiveengagement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldproactiveengagement"
 
 dataawsccshieldproactiveengagement.DataAwsccShieldProactiveEngagement_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccShieldProactiveEn
 
 The id of the existing DataAwsccShieldProactiveEngagement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_proactive_engagement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_proactive_engagement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccShieldProactiveEngagement.DataAwsccShieldProactiveEngagementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldproactiveengagement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldproactiveengagement"
 
 &dataawsccshieldproactiveengagement.DataAwsccShieldProactiveEngagementConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_proactive_engagement#id DataAwsccShieldProactiveEngagement#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_proactive_engagement#id DataAwsccShieldProactiveEngagement#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccShieldProactiveEngagement.DataAwsccShieldProactiveEngagementEmergencyContactListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldproactiveengagement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldproactiveengagement"
 
 &dataawsccshieldproactiveengagement.DataAwsccShieldProactiveEngagementEmergencyContactListStruct {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldproacti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccShieldProactiveEngagement.DataAwsccShieldProactiveEngagementEmergencyContactListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldproactiveengagement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldproactiveengagement"
 
 dataawsccshieldproactiveengagement.NewDataAwsccShieldProactiveEngagementEmergencyContactListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccShieldProactiveEngagementEmergencyContactListStructList
 ```
@@ -905,7 +905,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccShieldProactiveEngagement.DataAwsccShieldProactiveEngagementEmergencyContactListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldproactiveengagement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldproactiveengagement"
 
 dataawsccshieldproactiveengagement.NewDataAwsccShieldProactiveEngagementEmergencyContactListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccShieldProactiveEngagementEmergencyContactListStructOutputReference
 ```

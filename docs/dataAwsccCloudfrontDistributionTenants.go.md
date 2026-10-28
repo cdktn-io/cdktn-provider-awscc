@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontDistributionTenants <a name="DataAwsccCloudfrontDistributionTenants" id="@cdktn/provider-awscc.dataAwsccCloudfrontDistributionTenants.DataAwsccCloudfrontDistributionTenants"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_distribution_tenants awscc_cloudfront_distribution_tenants}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_distribution_tenants awscc_cloudfront_distribution_tenants}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontDistributionTenants.DataAwsccCloudfrontDistributionTenants.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontdistributiontenants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontdistributiontenants"
 
 dataawscccloudfrontdistributiontenants.NewDataAwsccCloudfrontDistributionTenants(scope Construct, id *string, config DataAwsccCloudfrontDistributionTenantsConfig) DataAwsccCloudfrontDistributionTenants
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontDistributionTenants.DataAwsccCloudfrontDistributionTenants.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontdistributiontenants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontdistributiontenants"
 
 dataawscccloudfrontdistributiontenants.DataAwsccCloudfrontDistributionTenants_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontDistributionTenants.DataAwsccCloudfrontDistributionTenants.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontdistributiontenants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontdistributiontenants"
 
 dataawscccloudfrontdistributiontenants.DataAwsccCloudfrontDistributionTenants_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontdistributiontenants.DataAwsccCloudfrontDistributionTenants_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontDistributionTenants.DataAwsccCloudfrontDistributionTenants.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontdistributiontenants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontdistributiontenants"
 
 dataawscccloudfrontdistributiontenants.DataAwsccCloudfrontDistributionTenants_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontdistributiontenants.DataAwsccCloudfrontDistributionTenants_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontDistributionTenants.DataAwsccCloudfrontDistributionTenants.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontdistributiontenants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontdistributiontenants"
 
 dataawscccloudfrontdistributiontenants.DataAwsccCloudfrontDistributionTenants_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontDistrib
 
 The id of the existing DataAwsccCloudfrontDistributionTenants that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_distribution_tenants#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_distribution_tenants#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontDistributionTenants.DataAwsccCloudfrontDistributionTenantsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontdistributiontenants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontdistributiontenants"
 
 &dataawscccloudfrontdistributiontenants.DataAwsccCloudfrontDistributionTenantsConfig {
 	Connection: interface{},

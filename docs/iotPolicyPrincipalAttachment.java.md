@@ -4,7 +4,7 @@
 
 ### IotPolicyPrincipalAttachment <a name="IotPolicyPrincipalAttachment" id="@cdktn/provider-awscc.iotPolicyPrincipalAttachment.IotPolicyPrincipalAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotPolicyPrincipalAttachment.IotPolicyPrincipalAttachment.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the AWS IoT policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment#policy_name IotPolicyPrincipalAttachment#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#policy_name IotPolicyPrincipalAttachment#policy_name}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The principal, which can be a certificate ARN (as returned from the CreateCertificate operation) or an Amazon Cognito ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment#principal IotPolicyPrincipalAttachment#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#principal IotPolicyPrincipalAttachment#principal}
 
 ---
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the IotPolicyPrincipalAttachme
 
 The id of the existing IotPolicyPrincipalAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ public java.lang.String getPolicyName();
 
 The name of the AWS IoT policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment#policy_name IotPolicyPrincipalAttachment#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#policy_name IotPolicyPrincipalAttachment#policy_name}
 
 ---
 
@@ -945,7 +945,7 @@ public java.lang.String getPrincipal();
 
 The principal, which can be a certificate ARN (as returned from the CreateCertificate operation) or an Amazon Cognito ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment#principal IotPolicyPrincipalAttachment#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#principal IotPolicyPrincipalAttachment#principal}
 
 ---
 

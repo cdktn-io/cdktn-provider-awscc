@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerDataQualityJobDefinition <a name="DataAwsccSagemakerDataQualityJobDefinition" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_data_quality_job_definition awscc_sagemaker_data_quality_job_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_data_quality_job_definition awscc_sagemaker_data_quality_job_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinition(scope Construct, id *string, config DataAwsccSagemakerDataQualityJobDefinitionConfig) DataAwsccSagemakerDataQualityJobDefinition
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefin
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinition.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinition_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefin
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerDataQual
 
 The id of the existing DataAwsccSagemakerDataQualityJobDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_data_quality_job_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_data_quality_job_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_data_quality_job_definition#id DataAwsccSagemakerDataQualityJobDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_data_quality_job_definition#id DataAwsccSagemakerDataQualityJobDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityAppSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityAppSpecification {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfig {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigConstraintsResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigConstraintsResource {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigStatisticsResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigStatisticsResource {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInput {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInput {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormat {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatCsv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatCsv {
 
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatJson.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatJson {
 
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInput {
 
@@ -981,7 +981,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfig {
 
@@ -994,7 +994,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputs {
 
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputsS3Output.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputsS3Output {
 
@@ -1020,7 +1020,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionJobResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionJobResources {
 
@@ -1033,7 +1033,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionJobResourcesClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionJobResourcesClusterConfig {
 
@@ -1046,7 +1046,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionNetworkConfig {
 
@@ -1059,7 +1059,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionNetworkConfigVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionNetworkConfigVpcConfig {
 
@@ -1072,7 +1072,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionStoppingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionStoppingCondition {
 
@@ -1085,7 +1085,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 &dataawsccsagemakerdataqualityjobdefinition.DataAwsccSagemakerDataQualityJobDefinitionTags {
 
@@ -1100,7 +1100,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityAppSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityAppSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityAppSpecificationOutputReference
 ```
@@ -1415,7 +1415,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityAppSpe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigConstraintsResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigConstraintsResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigConstraintsResourceOutputReference
 ```
@@ -1675,7 +1675,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaseli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigOutputReference
 ```
@@ -1957,7 +1957,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaseli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigStatisticsResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigStatisticsResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaselineConfigStatisticsResourceOutputReference
 ```
@@ -2217,7 +2217,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityBaseli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatCsvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatCsvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatCsvOutputReference
 ```
@@ -2477,7 +2477,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatJsonOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatJsonOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatJsonOutputReference
 ```
@@ -2737,7 +2737,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputDatasetFormatOutputReference
 ```
@@ -3019,7 +3019,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputBatchTransformInputOutputReference
 ```
@@ -3334,7 +3334,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference
 ```
@@ -3638,7 +3638,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInputOutputReference
 ```
@@ -3909,7 +3909,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobInp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputsList
 ```
@@ -4058,7 +4058,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputsOutputReference
 ```
@@ -4336,7 +4336,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputsS3OutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputsS3OutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigMonitoringOutputsS3OutputOutputReference
 ```
@@ -4618,7 +4618,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOutputConfigOutputReference
 ```
@@ -4889,7 +4889,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionDataQualityJobOut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionJobResourcesClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionJobResourcesClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionJobResourcesClusterConfigOutputReference
 ```
@@ -5182,7 +5182,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionJobResourcesClust
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionJobResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionJobResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionJobResourcesOutputReference
 ```
@@ -5442,7 +5442,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionJobResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionNetworkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionNetworkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionNetworkConfigOutputReference
 ```
@@ -5724,7 +5724,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionNetworkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionNetworkConfigVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionNetworkConfigVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionNetworkConfigVpcConfigOutputReference
 ```
@@ -5995,7 +5995,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionNetworkConfigVpcC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionStoppingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionStoppingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDataQualityJobDefinitionStoppingConditionOutputReference
 ```
@@ -6255,7 +6255,7 @@ func InternalValue() DataAwsccSagemakerDataQualityJobDefinitionStoppingCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerDataQualityJobDefinitionTagsList
 ```
@@ -6404,7 +6404,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinition.DataAwsccSagemakerDataQualityJobDefinitionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition"
 
 dataawsccsagemakerdataqualityjobdefinition.NewDataAwsccSagemakerDataQualityJobDefinitionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerDataQualityJobDefinitionTagsOutputReference
 ```

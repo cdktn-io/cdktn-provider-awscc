@@ -4,12 +4,12 @@
 
 ### DataAwsccIotsitewisePortals <a name="DataAwsccIotsitewisePortals" id="@cdktn/provider-awscc.dataAwsccIotsitewisePortals.DataAwsccIotsitewisePortals"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_portals awscc_iotsitewise_portals}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_portals awscc_iotsitewise_portals}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewisePortals.DataAwsccIotsitewisePortals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseportals"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseportals"
 
 dataawscciotsitewiseportals.NewDataAwsccIotsitewisePortals(scope Construct, id *string, config DataAwsccIotsitewisePortalsConfig) DataAwsccIotsitewisePortals
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotsitewisePortals.DataAwsccIotsitewisePortals.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseportals"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseportals"
 
 dataawscciotsitewiseportals.DataAwsccIotsitewisePortals_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotsitewisePortals.DataAwsccIotsitewisePortals.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseportals"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseportals"
 
 dataawscciotsitewiseportals.DataAwsccIotsitewisePortals_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsitewiseportals.DataAwsccIotsitewisePortals_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotsitewisePortals.DataAwsccIotsitewisePortals.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseportals"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseportals"
 
 dataawscciotsitewiseportals.DataAwsccIotsitewisePortals_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsitewiseportals.DataAwsccIotsitewisePortals_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotsitewisePortals.DataAwsccIotsitewisePortals.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseportals"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseportals"
 
 dataawscciotsitewiseportals.DataAwsccIotsitewisePortals_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewisePortal
 
 The id of the existing DataAwsccIotsitewisePortals that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_portals#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_portals#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewisePortals.DataAwsccIotsitewisePortalsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseportals"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseportals"
 
 &dataawscciotsitewiseportals.DataAwsccIotsitewisePortalsConfig {
 	Connection: interface{},

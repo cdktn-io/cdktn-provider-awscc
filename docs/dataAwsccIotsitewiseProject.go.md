@@ -4,12 +4,12 @@
 
 ### DataAwsccIotsitewiseProject <a name="DataAwsccIotsitewiseProject" id="@cdktn/provider-awscc.dataAwsccIotsitewiseProject.DataAwsccIotsitewiseProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_project awscc_iotsitewise_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_project awscc_iotsitewise_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseProject.DataAwsccIotsitewiseProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseproject"
 
 dataawscciotsitewiseproject.NewDataAwsccIotsitewiseProject(scope Construct, id *string, config DataAwsccIotsitewiseProjectConfig) DataAwsccIotsitewiseProject
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotsitewiseProject.DataAwsccIotsitewiseProject.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseproject"
 
 dataawscciotsitewiseproject.DataAwsccIotsitewiseProject_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotsitewiseProject.DataAwsccIotsitewiseProject.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseproject"
 
 dataawscciotsitewiseproject.DataAwsccIotsitewiseProject_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsitewiseproject.DataAwsccIotsitewiseProject_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseProject.DataAwsccIotsitewiseProject.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseproject"
 
 dataawscciotsitewiseproject.DataAwsccIotsitewiseProject_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsitewiseproject.DataAwsccIotsitewiseProject_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotsitewiseProject.DataAwsccIotsitewiseProject.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseproject"
 
 dataawscciotsitewiseproject.DataAwsccIotsitewiseProject_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseProjec
 
 The id of the existing DataAwsccIotsitewiseProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseProject.DataAwsccIotsitewiseProjectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseproject"
 
 &dataawscciotsitewiseproject.DataAwsccIotsitewiseProjectConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_project#id DataAwsccIotsitewiseProject#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_project#id DataAwsccIotsitewiseProject#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseProject.DataAwsccIotsitewiseProjectTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseproject"
 
 &dataawscciotsitewiseproject.DataAwsccIotsitewiseProjectTags {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseProject.DataAwsccIotsitewiseProjectTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseproject"
 
 dataawscciotsitewiseproject.NewDataAwsccIotsitewiseProjectTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotsitewiseProjectTagsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseProject.DataAwsccIotsitewiseProjectTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseproject"
 
 dataawscciotsitewiseproject.NewDataAwsccIotsitewiseProjectTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotsitewiseProjectTagsOutputReference
 ```

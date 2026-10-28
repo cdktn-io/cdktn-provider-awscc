@@ -4,12 +4,12 @@
 
 ### DataAwsccGroundstationConfig <a name="DataAwsccGroundstationConfig" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_config awscc_groundstation_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_config awscc_groundstation_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfig(scope Construct, id *string, config DataAwsccGroundstationConfigConfig) DataAwsccGroundstationConfig
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.DataAwsccGroundstationConfig_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.DataAwsccGroundstationConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgroundstationconfig.DataAwsccGroundstationConfig_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfig.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.DataAwsccGroundstationConfig_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgroundstationconfig.DataAwsccGroundstationConfig_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.DataAwsccGroundstationConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGroundstationConf
 
 The id of the existing DataAwsccGroundstationConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_config#id DataAwsccGroundstationConfig#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_config#id DataAwsccGroundstationConfig#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigData {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfig {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfig {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBandwidth.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBandwidth {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCenterFrequency.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCenterFrequency {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfig {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDecodeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDecodeConfig {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDemodulationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDemodulationConfig {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfig {
 
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigBandwidth.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigBandwidth {
 
@@ -904,7 +904,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigCenterFrequency.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigCenterFrequency {
 
@@ -917,7 +917,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfig {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfig {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCenterFrequency.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCenterFrequency {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigTargetEirp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigTargetEirp {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataDataflowEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataDataflowEndpointConfig {
 
@@ -982,7 +982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataS3RecordingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataS3RecordingConfig {
 
@@ -995,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataTelemetrySinkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataTelemetrySinkConfig {
 
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkData {
 
@@ -1021,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKinesisDataStreamData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKinesisDataStreamData {
 
@@ -1034,7 +1034,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataTrackingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataTrackingConfig {
 
@@ -1047,7 +1047,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataUplinkEchoConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigConfigDataUplinkEchoConfig {
 
@@ -1060,7 +1060,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 &dataawsccgroundstationconfig.DataAwsccGroundstationConfigTags {
 
@@ -1075,7 +1075,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigOutputReference
 ```
@@ -1335,7 +1335,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBandwidthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBandwidthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBandwidthOutputReference
 ```
@@ -1606,7 +1606,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCenterFrequencyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCenterFrequencyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCenterFrequencyOutputReference
 ```
@@ -1877,7 +1877,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigOutputReference
 ```
@@ -2159,7 +2159,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaDownlinkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDecodeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDecodeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDecodeConfigOutputReference
 ```
@@ -2419,7 +2419,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDemodulationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDemodulationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDemodulationConfigOutputReference
 ```
@@ -2679,7 +2679,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigOutputReference
 ```
@@ -2961,7 +2961,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigBandwidthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigBandwidthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigBandwidthOutputReference
 ```
@@ -3232,7 +3232,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigCenterFrequencyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigCenterFrequencyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigCenterFrequencyOutputReference
 ```
@@ -3503,7 +3503,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectrumConfigOutputReference
 ```
@@ -3785,7 +3785,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaDownlinkDemodD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaUplinkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigOutputReference
 ```
@@ -4067,7 +4067,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaUplinkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCenterFrequencyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCenterFrequencyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCenterFrequencyOutputReference
 ```
@@ -4338,7 +4338,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigOutputReference
 ```
@@ -4609,7 +4609,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigSp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigTargetEirpOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataAntennaUplinkConfigTargetEirpOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigTargetEirpOutputReference
 ```
@@ -4880,7 +4880,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataAntennaUplinkConfigTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataDataflowEndpointConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataDataflowEndpointConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataDataflowEndpointConfigOutputReference
 ```
@@ -5151,7 +5151,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataDataflowEndpointConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataOutputReference
 ```
@@ -5488,7 +5488,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigData
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataS3RecordingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataS3RecordingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataS3RecordingConfigOutputReference
 ```
@@ -5770,7 +5770,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataS3RecordingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataTelemetrySinkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigOutputReference
 ```
@@ -6041,7 +6041,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataTelemetrySinkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKinesisDataStreamDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKinesisDataStreamDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKinesisDataStreamDataOutputReference
 ```
@@ -6312,7 +6312,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataOutputReference
 ```
@@ -6572,7 +6572,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataTelemetrySinkConfigTe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataTrackingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataTrackingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataTrackingConfigOutputReference
 ```
@@ -6832,7 +6832,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataTrackingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigConfigDataUplinkEchoConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigConfigDataUplinkEchoConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationConfigConfigDataUplinkEchoConfigOutputReference
 ```
@@ -7103,7 +7103,7 @@ func InternalValue() DataAwsccGroundstationConfigConfigDataUplinkEchoConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGroundstationConfigTagsList
 ```
@@ -7252,7 +7252,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationConfig.DataAwsccGroundstationConfigTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfig"
 
 dataawsccgroundstationconfig.NewDataAwsccGroundstationConfigTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGroundstationConfigTagsOutputReference
 ```

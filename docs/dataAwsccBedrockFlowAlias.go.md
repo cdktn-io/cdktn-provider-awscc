@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockFlowAlias <a name="DataAwsccBedrockFlowAlias" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_flow_alias awscc_bedrock_flow_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_flow_alias awscc_bedrock_flow_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockflowalias"
 
 dataawsccbedrockflowalias.NewDataAwsccBedrockFlowAlias(scope Construct, id *string, config DataAwsccBedrockFlowAliasConfig) DataAwsccBedrockFlowAlias
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAlias.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockflowalias"
 
 dataawsccbedrockflowalias.DataAwsccBedrockFlowAlias_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAlias.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockflowalias"
 
 dataawsccbedrockflowalias.DataAwsccBedrockFlowAlias_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockflowalias.DataAwsccBedrockFlowAlias_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAlias.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockflowalias"
 
 dataawsccbedrockflowalias.DataAwsccBedrockFlowAlias_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockflowalias.DataAwsccBedrockFlowAlias_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAlias.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockflowalias"
 
 dataawsccbedrockflowalias.DataAwsccBedrockFlowAlias_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockFlowAlias 
 
 The id of the existing DataAwsccBedrockFlowAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_flow_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_flow_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAliasConcurrencyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockflowalias"
 
 &dataawsccbedrockflowalias.DataAwsccBedrockFlowAliasConcurrencyConfiguration {
 
@@ -721,7 +721,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAliasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockflowalias"
 
 &dataawsccbedrockflowalias.DataAwsccBedrockFlowAliasConfig {
 	Connection: interface{},
@@ -830,7 +830,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_flow_alias#id DataAwsccBedrockFlowAlias#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_flow_alias#id DataAwsccBedrockFlowAlias#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -842,7 +842,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAliasRoutingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockflowalias"
 
 &dataawsccbedrockflowalias.DataAwsccBedrockFlowAliasRoutingConfiguration {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowal
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAliasConcurrencyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockflowalias"
 
 dataawsccbedrockflowalias.NewDataAwsccBedrockFlowAliasConcurrencyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockFlowAliasConcurrencyConfigurationOutputReference
 ```
@@ -1128,7 +1128,7 @@ func InternalValue() DataAwsccBedrockFlowAliasConcurrencyConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAliasRoutingConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockflowalias"
 
 dataawsccbedrockflowalias.NewDataAwsccBedrockFlowAliasRoutingConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockFlowAliasRoutingConfigurationList
 ```
@@ -1277,7 +1277,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockFlowAlias.DataAwsccBedrockFlowAliasRoutingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockflowalias"
 
 dataawsccbedrockflowalias.NewDataAwsccBedrockFlowAliasRoutingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockFlowAliasRoutingConfigurationOutputReference
 ```

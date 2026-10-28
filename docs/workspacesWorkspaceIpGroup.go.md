@@ -4,12 +4,12 @@
 
 ### WorkspacesWorkspaceIpGroup <a name="WorkspacesWorkspaceIpGroup" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspace_ip_group awscc_workspaces_workspace_ip_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspace_ip_group awscc_workspaces_workspace_ip_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 workspacesworkspaceipgroup.NewWorkspacesWorkspaceIpGroup(scope Construct, id *string, config WorkspacesWorkspaceIpGroupConfig) WorkspacesWorkspaceIpGroup
 ```
@@ -447,7 +447,7 @@ func ResetUserRules()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 workspacesworkspaceipgroup.WorkspacesWorkspaceIpGroup_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 workspacesworkspaceipgroup.WorkspacesWorkspaceIpGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ workspacesworkspaceipgroup.WorkspacesWorkspaceIpGroup_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 workspacesworkspaceipgroup.WorkspacesWorkspaceIpGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ workspacesworkspaceipgroup.WorkspacesWorkspaceIpGroup_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 workspacesworkspaceipgroup.WorkspacesWorkspaceIpGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the WorkspacesWorkspaceIpGroup
 
 The id of the existing WorkspacesWorkspaceIpGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspace_ip_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspace_ip_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -857,7 +857,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 &workspacesworkspaceipgroup.WorkspacesWorkspaceIpGroupConfig {
 	Connection: interface{},
@@ -972,7 +972,7 @@ GroupName *string
 
 The name of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspace_ip_group#group_name WorkspacesWorkspaceIpGroup#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspace_ip_group#group_name WorkspacesWorkspaceIpGroup#group_name}
 
 ---
 
@@ -986,7 +986,7 @@ GroupDesc *string
 
 The description of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspace_ip_group#group_desc WorkspacesWorkspaceIpGroup#group_desc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspace_ip_group#group_desc WorkspacesWorkspaceIpGroup#group_desc}
 
 ---
 
@@ -1000,7 +1000,7 @@ Tags interface{}
 
 The tags for the IP access control group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspace_ip_group#tags WorkspacesWorkspaceIpGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspace_ip_group#tags WorkspacesWorkspaceIpGroup#tags}
 
 ---
 
@@ -1014,7 +1014,7 @@ UserRules interface{}
 
 The rules for the IP access control group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspace_ip_group#user_rules WorkspacesWorkspaceIpGroup#user_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspace_ip_group#user_rules WorkspacesWorkspaceIpGroup#user_rules}
 
 ---
 
@@ -1023,7 +1023,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 &workspacesworkspaceipgroup.WorkspacesWorkspaceIpGroupTags {
 	Key: *string,
@@ -1050,7 +1050,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspace_ip_group#key WorkspacesWorkspaceIpGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspace_ip_group#key WorkspacesWorkspaceIpGroup#key}
 
 ---
 
@@ -1064,7 +1064,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspace_ip_group#value WorkspacesWorkspaceIpGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspace_ip_group#value WorkspacesWorkspaceIpGroup#value}
 
 ---
 
@@ -1073,7 +1073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroupUserRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 &workspacesworkspaceipgroup.WorkspacesWorkspaceIpGroupUserRules {
 	IpRule: *string,
@@ -1100,7 +1100,7 @@ IpRule *string
 
 The IP address range, in CIDR notation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspace_ip_group#ip_rule WorkspacesWorkspaceIpGroup#ip_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspace_ip_group#ip_rule WorkspacesWorkspaceIpGroup#ip_rule}
 
 ---
 
@@ -1114,7 +1114,7 @@ RuleDesc *string
 
 The description of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspace_ip_group#rule_desc WorkspacesWorkspaceIpGroup#rule_desc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspace_ip_group#rule_desc WorkspacesWorkspaceIpGroup#rule_desc}
 
 ---
 
@@ -1125,7 +1125,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 workspacesworkspaceipgroup.NewWorkspacesWorkspaceIpGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WorkspacesWorkspaceIpGroupTagsList
 ```
@@ -1285,7 +1285,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 workspacesworkspaceipgroup.NewWorkspacesWorkspaceIpGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WorkspacesWorkspaceIpGroupTagsOutputReference
 ```
@@ -1610,7 +1610,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroupUserRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 workspacesworkspaceipgroup.NewWorkspacesWorkspaceIpGroupUserRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WorkspacesWorkspaceIpGroupUserRulesList
 ```
@@ -1770,7 +1770,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroupUserRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspaceipgroup"
 
 workspacesworkspaceipgroup.NewWorkspacesWorkspaceIpGroupUserRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WorkspacesWorkspaceIpGroupUserRulesOutputReference
 ```

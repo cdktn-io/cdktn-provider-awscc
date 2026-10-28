@@ -4,12 +4,12 @@
 
 ### EksCertificateAuthority <a name="EksCertificateAuthority" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthority"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_certificate_authority awscc_eks_certificate_authority}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_certificate_authority awscc_eks_certificate_authority}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthority.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekscertificateauthority"
 
 ekscertificateauthority.NewEksCertificateAuthority(scope Construct, id *string, config EksCertificateAuthorityConfig) EksCertificateAuthority
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthority.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekscertificateauthority"
 
 ekscertificateauthority.EksCertificateAuthority_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthority.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekscertificateauthority"
 
 ekscertificateauthority.EksCertificateAuthority_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ekscertificateauthority.EksCertificateAuthority_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthority.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekscertificateauthority"
 
 ekscertificateauthority.EksCertificateAuthority_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ekscertificateauthority.EksCertificateAuthority_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthority.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekscertificateauthority"
 
 ekscertificateauthority.EksCertificateAuthority_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the EksCertificateAuthority to
 
 The id of the existing EksCertificateAuthority that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_certificate_authority#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_certificate_authority#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -843,7 +843,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthorityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekscertificateauthority"
 
 &ekscertificateauthority.EksCertificateAuthorityConfig {
 	Connection: interface{},
@@ -952,7 +952,7 @@ ClusterName *string
 
 The name of the EKS cluster that the certificate authority belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_certificate_authority#cluster_name EksCertificateAuthority#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_certificate_authority#cluster_name EksCertificateAuthority#cluster_name}
 
 ---
 
@@ -961,7 +961,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthorityScheduledEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekscertificateauthority"
 
 &ekscertificateauthority.EksCertificateAuthorityScheduledEvents {
 
@@ -974,7 +974,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthorit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthorityValidity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekscertificateauthority"
 
 &ekscertificateauthority.EksCertificateAuthorityValidity {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthorit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthorityScheduledEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekscertificateauthority"
 
 ekscertificateauthority.NewEksCertificateAuthorityScheduledEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EksCertificateAuthorityScheduledEventsOutputReference
 ```
@@ -1260,7 +1260,7 @@ func InternalValue() EksCertificateAuthorityScheduledEvents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksCertificateAuthority.EksCertificateAuthorityValidityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekscertificateauthority"
 
 ekscertificateauthority.NewEksCertificateAuthorityValidityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EksCertificateAuthorityValidityOutputReference
 ```

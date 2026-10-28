@@ -4,12 +4,12 @@
 
 ### MedialiveChannelPlacementGroup <a name="MedialiveChannelPlacementGroup" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_channel_placement_group awscc_medialive_channel_placement_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_channel_placement_group awscc_medialive_channel_placement_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivechannelplacementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivechannelplacementgroup"
 
 medialivechannelplacementgroup.NewMedialiveChannelPlacementGroup(scope Construct, id *string, config MedialiveChannelPlacementGroupConfig) MedialiveChannelPlacementGroup
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivechannelplacementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivechannelplacementgroup"
 
 medialivechannelplacementgroup.MedialiveChannelPlacementGroup_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivechannelplacementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivechannelplacementgroup"
 
 medialivechannelplacementgroup.MedialiveChannelPlacementGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ medialivechannelplacementgroup.MedialiveChannelPlacementGroup_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivechannelplacementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivechannelplacementgroup"
 
 medialivechannelplacementgroup.MedialiveChannelPlacementGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ medialivechannelplacementgroup.MedialiveChannelPlacementGroup_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivechannelplacementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivechannelplacementgroup"
 
 medialivechannelplacementgroup.MedialiveChannelPlacementGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the MedialiveChannelPlacementG
 
 The id of the existing MedialiveChannelPlacementGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_channel_placement_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_channel_placement_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -873,7 +873,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivechannelplacementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivechannelplacementgroup"
 
 &medialivechannelplacementgroup.MedialiveChannelPlacementGroupConfig {
 	Connection: interface{},
@@ -988,7 +988,7 @@ ClusterId *string
 
 The ID of the cluster the node is on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_channel_placement_group#cluster_id MedialiveChannelPlacementGroup#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_channel_placement_group#cluster_id MedialiveChannelPlacementGroup#cluster_id}
 
 ---
 
@@ -1002,7 +1002,7 @@ Name *string
 
 The name of the channel placement group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_channel_placement_group#name MedialiveChannelPlacementGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_channel_placement_group#name MedialiveChannelPlacementGroup#name}
 
 ---
 
@@ -1016,7 +1016,7 @@ Nodes *[]*string
 
 List of nodes added to the channel placement group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_channel_placement_group#nodes MedialiveChannelPlacementGroup#nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_channel_placement_group#nodes MedialiveChannelPlacementGroup#nodes}
 
 ---
 
@@ -1030,7 +1030,7 @@ Tags interface{}
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_channel_placement_group#tags MedialiveChannelPlacementGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_channel_placement_group#tags MedialiveChannelPlacementGroup#tags}
 
 ---
 
@@ -1039,7 +1039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivechannelplacementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivechannelplacementgroup"
 
 &medialivechannelplacementgroup.MedialiveChannelPlacementGroupTags {
 	Key: *string,
@@ -1051,8 +1051,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivechannelplacem
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_channel_placement_group#key MedialiveChannelPlacementGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_channel_placement_group#value MedialiveChannelPlacementGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_channel_placement_group#key MedialiveChannelPlacementGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_channel_placement_group#value MedialiveChannelPlacementGroup#value}. |
 
 ---
 
@@ -1064,7 +1064,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_channel_placement_group#key MedialiveChannelPlacementGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_channel_placement_group#key MedialiveChannelPlacementGroup#key}.
 
 ---
 
@@ -1076,7 +1076,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_channel_placement_group#value MedialiveChannelPlacementGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_channel_placement_group#value MedialiveChannelPlacementGroup#value}.
 
 ---
 
@@ -1087,7 +1087,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivechannelplacementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivechannelplacementgroup"
 
 medialivechannelplacementgroup.NewMedialiveChannelPlacementGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveChannelPlacementGroupTagsList
 ```
@@ -1247,7 +1247,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveChannelPlacementGroup.MedialiveChannelPlacementGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivechannelplacementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivechannelplacementgroup"
 
 medialivechannelplacementgroup.NewMedialiveChannelPlacementGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveChannelPlacementGroupTagsOutputReference
 ```

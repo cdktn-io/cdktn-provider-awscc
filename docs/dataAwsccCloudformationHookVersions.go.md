@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudformationHookVersions <a name="DataAwsccCloudformationHookVersions" id="@cdktn/provider-awscc.dataAwsccCloudformationHookVersions.DataAwsccCloudformationHookVersions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_hook_versions awscc_cloudformation_hook_versions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_hook_versions awscc_cloudformation_hook_versions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationHookVersions.DataAwsccCloudformationHookVersions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationhookversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationhookversions"
 
 dataawscccloudformationhookversions.NewDataAwsccCloudformationHookVersions(scope Construct, id *string, config DataAwsccCloudformationHookVersionsConfig) DataAwsccCloudformationHookVersions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudformationHookVersions.DataAwsccCloudformationHookVersions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationhookversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationhookversions"
 
 dataawscccloudformationhookversions.DataAwsccCloudformationHookVersions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudformationHookVersions.DataAwsccCloudformationHookVersions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationhookversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationhookversions"
 
 dataawscccloudformationhookversions.DataAwsccCloudformationHookVersions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudformationhookversions.DataAwsccCloudformationHookVersions_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudformationHookVersions.DataAwsccCloudformationHookVersions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationhookversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationhookversions"
 
 dataawscccloudformationhookversions.DataAwsccCloudformationHookVersions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudformationhookversions.DataAwsccCloudformationHookVersions_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudformationHookVersions.DataAwsccCloudformationHookVersions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationhookversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationhookversions"
 
 dataawscccloudformationhookversions.DataAwsccCloudformationHookVersions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudformationHoo
 
 The id of the existing DataAwsccCloudformationHookVersions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_hook_versions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_hook_versions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudformationHookVersions.DataAwsccCloudformationHookVersionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationhookversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationhookversions"
 
 &dataawscccloudformationhookversions.DataAwsccCloudformationHookVersionsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightDataSets <a name="DataAwsccQuicksightDataSets" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSets.DataAwsccQuicksightDataSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_data_sets awscc_quicksight_data_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_data_sets awscc_quicksight_data_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSets.DataAwsccQuicksightDataSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasets"
 
 dataawsccquicksightdatasets.NewDataAwsccQuicksightDataSets(scope Construct, id *string, config DataAwsccQuicksightDataSetsConfig) DataAwsccQuicksightDataSets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSets.DataAwsccQuicksightDataSets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasets"
 
 dataawsccquicksightdatasets.DataAwsccQuicksightDataSets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSets.DataAwsccQuicksightDataSets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasets"
 
 dataawsccquicksightdatasets.DataAwsccQuicksightDataSets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksightdatasets.DataAwsccQuicksightDataSets_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSets.DataAwsccQuicksightDataSets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasets"
 
 dataawsccquicksightdatasets.DataAwsccQuicksightDataSets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksightdatasets.DataAwsccQuicksightDataSets_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSets.DataAwsccQuicksightDataSets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasets"
 
 dataawsccquicksightdatasets.DataAwsccQuicksightDataSets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightDataSet
 
 The id of the existing DataAwsccQuicksightDataSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_data_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_data_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSets.DataAwsccQuicksightDataSetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasets"
 
 &dataawsccquicksightdatasets.DataAwsccQuicksightDataSetsConfig {
 	Connection: interface{},

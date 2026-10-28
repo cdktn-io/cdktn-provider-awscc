@@ -4,12 +4,12 @@
 
 ### EmrStudioSessionMapping <a name="EmrStudioSessionMapping" id="@cdktn/provider-awscc.emrStudioSessionMapping.EmrStudioSessionMapping"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_studio_session_mapping awscc_emr_studio_session_mapping}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_studio_session_mapping awscc_emr_studio_session_mapping}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.emrStudioSessionMapping.EmrStudioSessionMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstudiosessionmapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstudiosessionmapping"
 
 emrstudiosessionmapping.NewEmrStudioSessionMapping(scope Construct, id *string, config EmrStudioSessionMappingConfig) EmrStudioSessionMapping
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.emrStudioSessionMapping.EmrStudioSessionMapping.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstudiosessionmapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstudiosessionmapping"
 
 emrstudiosessionmapping.EmrStudioSessionMapping_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.emrStudioSessionMapping.EmrStudioSessionMapping.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstudiosessionmapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstudiosessionmapping"
 
 emrstudiosessionmapping.EmrStudioSessionMapping_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ emrstudiosessionmapping.EmrStudioSessionMapping_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.emrStudioSessionMapping.EmrStudioSessionMapping.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstudiosessionmapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstudiosessionmapping"
 
 emrstudiosessionmapping.EmrStudioSessionMapping_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ emrstudiosessionmapping.EmrStudioSessionMapping_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.emrStudioSessionMapping.EmrStudioSessionMapping.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstudiosessionmapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstudiosessionmapping"
 
 emrstudiosessionmapping.EmrStudioSessionMapping_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the EmrStudioSessionMapping to
 
 The id of the existing EmrStudioSessionMapping that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_studio_session_mapping#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_studio_session_mapping#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -788,7 +788,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.emrStudioSessionMapping.EmrStudioSessionMappingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstudiosessionmapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstudiosessionmapping"
 
 &emrstudiosessionmapping.EmrStudioSessionMappingConfig {
 	Connection: interface{},
@@ -905,7 +905,7 @@ The name of the user or group.
 
 For more information, see UserName and DisplayName in the AWS SSO Identity Store API Reference. Either IdentityName or IdentityId must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}
 
 ---
 
@@ -919,7 +919,7 @@ IdentityType *string
 
 Specifies whether the identity to map to the Studio is a user or a group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}
 
 ---
 
@@ -935,7 +935,7 @@ The Amazon Resource Name (ARN) for the session policy that will be applied to th
 
 Session policies refine Studio user permissions without the need to use multiple IAM user roles.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}
 
 ---
 
@@ -949,7 +949,7 @@ StudioId *string
 
 The ID of the Amazon EMR Studio to which the user or group will be mapped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}
 
 ---
 

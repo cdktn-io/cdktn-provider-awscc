@@ -4,12 +4,12 @@
 
 ### RamPrincipalAssociation <a name="RamPrincipalAssociation" id="@cdktn/provider-awscc.ramPrincipalAssociation.RamPrincipalAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_principal_association awscc_ram_principal_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_principal_association awscc_ram_principal_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramPrincipalAssociation.RamPrincipalAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramprincipalassociation"
 
 ramprincipalassociation.NewRamPrincipalAssociation(scope Construct, id *string, config RamPrincipalAssociationConfig) RamPrincipalAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ramPrincipalAssociation.RamPrincipalAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramprincipalassociation"
 
 ramprincipalassociation.RamPrincipalAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ramPrincipalAssociation.RamPrincipalAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramprincipalassociation"
 
 ramprincipalassociation.RamPrincipalAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ramprincipalassociation.RamPrincipalAssociation_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ramPrincipalAssociation.RamPrincipalAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramprincipalassociation"
 
 ramprincipalassociation.RamPrincipalAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ramprincipalassociation.RamPrincipalAssociation_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ramPrincipalAssociation.RamPrincipalAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramprincipalassociation"
 
 ramprincipalassociation.RamPrincipalAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the RamPrincipalAssociation to
 
 The id of the existing RamPrincipalAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_principal_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_principal_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -799,7 +799,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ramPrincipalAssociation.RamPrincipalAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramprincipalassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramprincipalassociation"
 
 &ramprincipalassociation.RamPrincipalAssociationConfig {
 	Connection: interface{},
@@ -916,7 +916,7 @@ Specifies the principal to associate with the resource share. The possible value
 * An ARN of an IAM role
 * An ARN of an IAM user
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_principal_association#principal RamPrincipalAssociation#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_principal_association#principal RamPrincipalAssociation#principal}
 
 ---
 
@@ -930,7 +930,7 @@ ResourceShareArn *string
 
 Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_principal_association#resource_share_arn RamPrincipalAssociation#resource_share_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_principal_association#resource_share_arn RamPrincipalAssociation#resource_share_arn}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2ApplicationStatusChecks <a name="DataAwsccEc2ApplicationStatusChecks" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusChecks.DataAwsccEc2ApplicationStatusChecks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_application_status_checks awscc_ec2_application_status_checks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_application_status_checks awscc_ec2_application_status_checks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusChecks.DataAwsccEc2ApplicationStatusChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuschecks"
 
 dataawsccec2applicationstatuschecks.NewDataAwsccEc2ApplicationStatusChecks(scope Construct, id *string, config DataAwsccEc2ApplicationStatusChecksConfig) DataAwsccEc2ApplicationStatusChecks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusChecks.DataAwsccEc2ApplicationStatusChecks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuschecks"
 
 dataawsccec2applicationstatuschecks.DataAwsccEc2ApplicationStatusChecks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusChecks.DataAwsccEc2ApplicationStatusChecks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuschecks"
 
 dataawsccec2applicationstatuschecks.DataAwsccEc2ApplicationStatusChecks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2applicationstatuschecks.DataAwsccEc2ApplicationStatusChecks_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusChecks.DataAwsccEc2ApplicationStatusChecks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuschecks"
 
 dataawsccec2applicationstatuschecks.DataAwsccEc2ApplicationStatusChecks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2applicationstatuschecks.DataAwsccEc2ApplicationStatusChecks_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusChecks.DataAwsccEc2ApplicationStatusChecks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuschecks"
 
 dataawsccec2applicationstatuschecks.DataAwsccEc2ApplicationStatusChecks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2ApplicationSta
 
 The id of the existing DataAwsccEc2ApplicationStatusChecks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_application_status_checks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_application_status_checks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusChecks.DataAwsccEc2ApplicationStatusChecksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuschecks"
 
 &dataawsccec2applicationstatuschecks.DataAwsccEc2ApplicationStatusChecksConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccNotificationsManagedNotificationAccountContactAssociations <a name="DataAwsccNotificationsManagedNotificationAccountContactAssociations" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsmanagednotificationaccountcontactassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsmanagednotificationaccountcontactassociations"
 
 dataawsccnotificationsmanagednotificationaccountcontactassociations.NewDataAwsccNotificationsManagedNotificationAccountContactAssociations(scope Construct, id *string, config DataAwsccNotificationsManagedNotificationAccountContactAssociationsConfig) DataAwsccNotificationsManagedNotificationAccountContactAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsmanagednotificationaccountcontactassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsmanagednotificationaccountcontactassociations"
 
 dataawsccnotificationsmanagednotificationaccountcontactassociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsmanagednotificationaccountcontactassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsmanagednotificationaccountcontactassociations"
 
 dataawsccnotificationsmanagednotificationaccountcontactassociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnotificationsmanagednotificationaccountcontactassociations.DataAwsccNot
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsmanagednotificationaccountcontactassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsmanagednotificationaccountcontactassociations"
 
 dataawsccnotificationsmanagednotificationaccountcontactassociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnotificationsmanagednotificationaccountcontactassociations.DataAwsccNot
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsmanagednotificationaccountcontactassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsmanagednotificationaccountcontactassociations"
 
 dataawsccnotificationsmanagednotificationaccountcontactassociations.DataAwsccNotificationsManagedNotificationAccountContactAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNotificationsMana
 
 The id of the existing DataAwsccNotificationsManagedNotificationAccountContactAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notifications_managed_notification_account_contact_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notifications_managed_notification_account_contact_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNotificationsManagedNotificationAccountContactAssociations.DataAwsccNotificationsManagedNotificationAccountContactAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsmanagednotificationaccountcontactassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsmanagednotificationaccountcontactassociations"
 
 &dataawsccnotificationsmanagednotificationaccountcontactassociations.DataAwsccNotificationsManagedNotificationAccountContactAssociationsConfig {
 	Connection: interface{},

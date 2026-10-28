@@ -4,12 +4,12 @@
 
 ### DataAwsccBatchComputeEnvironment <a name="DataAwsccBatchComputeEnvironment" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironment(scope Construct, id *string, config DataAwsccBatchComputeEnvironmentConfig) DataAwsccBatchComputeEnvironment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironment_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironment_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBatchComputeEnvir
 
 The id of the existing DataAwsccBatchComputeEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_compute_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_compute_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResources {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesEc2Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesEc2Configuration {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplate {
 
@@ -769,7 +769,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOverrides {
 
@@ -782,7 +782,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProvider {
 
@@ -795,7 +795,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimization {
 
@@ -808,7 +808,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplate {
 
@@ -821,7 +821,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservations {
 
@@ -834,7 +834,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements {
 
@@ -847,7 +847,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration {
 
@@ -860,7 +860,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration {
 
@@ -873,7 +873,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesScalingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentComputeResourcesScalingPolicy {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentConfig {
 	Connection: interface{},
@@ -1008,7 +1008,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_compute_environment#id DataAwsccBatchComputeEnvironment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_compute_environment#id DataAwsccBatchComputeEnvironment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1020,7 +1020,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentEcsSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentEcsSettings {
 
@@ -1033,7 +1033,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentEksConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentEksConfiguration {
 
@@ -1046,7 +1046,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntry {
 
@@ -1059,7 +1059,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 &dataawsccbatchcomputeenvironment.DataAwsccBatchComputeEnvironmentUpdatePolicy {
 
@@ -1074,7 +1074,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputee
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesEc2ConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesEc2ConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchComputeEnvironmentComputeResourcesEc2ConfigurationList
 ```
@@ -1223,7 +1223,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputReference
 ```
@@ -1534,7 +1534,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesEc2Configur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReference
 ```
@@ -1838,7 +1838,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTempl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesList
 ```
@@ -1987,7 +1987,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesOutputReference
 ```
@@ -2309,7 +2309,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTempl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimizationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimizationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimizationOutputReference
 ```
@@ -2569,7 +2569,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesManagedInst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsOutputReference
 ```
@@ -2840,7 +2840,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesManagedInst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsOutputReference
 ```
@@ -3100,7 +3100,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesManagedInst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationOutputReference
 ```
@@ -3360,7 +3360,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesManagedInst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfigurationOutputReference
 ```
@@ -3631,7 +3631,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesManagedInst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateOutputReference
 ```
@@ -3990,7 +3990,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesManagedInst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationOutputReference
 ```
@@ -4250,7 +4250,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesManagedInst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderOutputReference
 ```
@@ -4543,7 +4543,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesManagedInst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentComputeResourcesOutputReference
 ```
@@ -5023,7 +5023,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentComputeResourcesScalingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentComputeResourcesScalingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentComputeResourcesScalingPolicyOutputReference
 ```
@@ -5283,7 +5283,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentComputeResourcesScalingPoli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentEcsSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentEcsSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentEcsSettingsOutputReference
 ```
@@ -5543,7 +5543,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentEcsSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentEksConfigurationAccessEntryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntryOutputReference
 ```
@@ -5814,7 +5814,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentEksConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentEksConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentEksConfigurationOutputReference
 ```
@@ -6096,7 +6096,7 @@ func InternalValue() DataAwsccBatchComputeEnvironmentEksConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchComputeEnvironment.DataAwsccBatchComputeEnvironmentUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchcomputeenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchcomputeenvironment"
 
 dataawsccbatchcomputeenvironment.NewDataAwsccBatchComputeEnvironmentUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchComputeEnvironmentUpdatePolicyOutputReference
 ```

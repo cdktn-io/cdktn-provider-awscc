@@ -4,12 +4,12 @@
 
 ### DataAwsccIotwirelessPartnerAccount <a name="DataAwsccIotwirelessPartnerAccount" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccount"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 dataawscciotwirelesspartneraccount.NewDataAwsccIotwirelessPartnerAccount(scope Construct, id *string, config DataAwsccIotwirelessPartnerAccountConfig) DataAwsccIotwirelessPartnerAccount
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccount.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 dataawscciotwirelesspartneraccount.DataAwsccIotwirelessPartnerAccount_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccount.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 dataawscciotwirelesspartneraccount.DataAwsccIotwirelessPartnerAccount_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotwirelesspartneraccount.DataAwsccIotwirelessPartnerAccount_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccount.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 dataawscciotwirelesspartneraccount.DataAwsccIotwirelessPartnerAccount_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotwirelesspartneraccount.DataAwsccIotwirelessPartnerAccount_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccount.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 dataawscciotwirelesspartneraccount.DataAwsccIotwirelessPartnerAccount_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessPartne
 
 The id of the existing DataAwsccIotwirelessPartnerAccount that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_partner_account#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_partner_account#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccountConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 &dataawscciotwirelesspartneraccount.DataAwsccIotwirelessPartnerAccountConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_partner_account#id DataAwsccIotwirelessPartnerAccount#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_partner_account#id DataAwsccIotwirelessPartnerAccount#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccountSidewalk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 &dataawscciotwirelesspartneraccount.DataAwsccIotwirelessPartnerAccountSidewalk {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccountSidewalkResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 &dataawscciotwirelesspartneraccount.DataAwsccIotwirelessPartnerAccountSidewalkResponse {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccountSidewalkUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 &dataawscciotwirelesspartneraccount.DataAwsccIotwirelessPartnerAccountSidewalkUpdate {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccountTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 &dataawscciotwirelesspartneraccount.DataAwsccIotwirelessPartnerAccountTags {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccountSidewalkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 dataawscciotwirelesspartneraccount.NewDataAwsccIotwirelessPartnerAccountSidewalkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessPartnerAccountSidewalkOutputReference
 ```
@@ -1121,7 +1121,7 @@ func InternalValue() DataAwsccIotwirelessPartnerAccountSidewalk
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccountSidewalkResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 dataawscciotwirelesspartneraccount.NewDataAwsccIotwirelessPartnerAccountSidewalkResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessPartnerAccountSidewalkResponseOutputReference
 ```
@@ -1403,7 +1403,7 @@ func InternalValue() DataAwsccIotwirelessPartnerAccountSidewalkResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccountSidewalkUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 dataawscciotwirelesspartneraccount.NewDataAwsccIotwirelessPartnerAccountSidewalkUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessPartnerAccountSidewalkUpdateOutputReference
 ```
@@ -1663,7 +1663,7 @@ func InternalValue() DataAwsccIotwirelessPartnerAccountSidewalkUpdate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccountTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 dataawscciotwirelesspartneraccount.NewDataAwsccIotwirelessPartnerAccountTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotwirelessPartnerAccountTagsList
 ```
@@ -1812,7 +1812,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccountTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount"
 
 dataawscciotwirelesspartneraccount.NewDataAwsccIotwirelessPartnerAccountTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotwirelessPartnerAccountTagsOutputReference
 ```

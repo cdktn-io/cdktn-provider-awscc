@@ -4,12 +4,12 @@
 
 ### DataAwsccSecuritylakeSubscriberNotification <a name="DataAwsccSecuritylakeSubscriberNotification" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotification.DataAwsccSecuritylakeSubscriberNotification"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_subscriber_notification awscc_securitylake_subscriber_notification}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_subscriber_notification awscc_securitylake_subscriber_notification}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotification.DataAwsccSecuritylakeSubscriberNotification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakesubscribernotification"
 
 dataawsccsecuritylakesubscribernotification.NewDataAwsccSecuritylakeSubscriberNotification(scope Construct, id *string, config DataAwsccSecuritylakeSubscriberNotificationConfig) DataAwsccSecuritylakeSubscriberNotification
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotification.DataAwsccSecuritylakeSubscriberNotification.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakesubscribernotification"
 
 dataawsccsecuritylakesubscribernotification.DataAwsccSecuritylakeSubscriberNotification_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotification.DataAwsccSecuritylakeSubscriberNotification.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakesubscribernotification"
 
 dataawsccsecuritylakesubscribernotification.DataAwsccSecuritylakeSubscriberNotification_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecuritylakesubscribernotification.DataAwsccSecuritylakeSubscriberNotif
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotification.DataAwsccSecuritylakeSubscriberNotification.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakesubscribernotification"
 
 dataawsccsecuritylakesubscribernotification.DataAwsccSecuritylakeSubscriberNotification_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecuritylakesubscribernotification.DataAwsccSecuritylakeSubscriberNotif
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotification.DataAwsccSecuritylakeSubscriberNotification.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakesubscribernotification"
 
 dataawsccsecuritylakesubscribernotification.DataAwsccSecuritylakeSubscriberNotification_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecuritylakeSubsc
 
 The id of the existing DataAwsccSecuritylakeSubscriberNotification that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_subscriber_notification#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_subscriber_notification#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotification.DataAwsccSecuritylakeSubscriberNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakesubscribernotification"
 
 &dataawsccsecuritylakesubscribernotification.DataAwsccSecuritylakeSubscriberNotificationConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_subscriber_notification#id DataAwsccSecuritylakeSubscriberNotification#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_subscriber_notification#id DataAwsccSecuritylakeSubscriberNotification#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotification.DataAwsccSecuritylakeSubscriberNotificationNotificationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakesubscribernotification"
 
 &dataawsccsecuritylakesubscribernotification.DataAwsccSecuritylakeSubscriberNotificationNotificationConfiguration {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakes
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotification.DataAwsccSecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakesubscribernotification"
 
 &dataawsccsecuritylakesubscribernotification.DataAwsccSecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfiguration {
 
@@ -769,7 +769,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotification.DataAwsccSecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakesubscribernotification"
 
 dataawsccsecuritylakesubscribernotification.NewDataAwsccSecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecuritylakeSubscriberNotificationNotificationConfigurationHttpsNotificationConfigurationOutputReference
 ```
@@ -1073,7 +1073,7 @@ func InternalValue() DataAwsccSecuritylakeSubscriberNotificationNotificationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeSubscriberNotification.DataAwsccSecuritylakeSubscriberNotificationNotificationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakesubscribernotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakesubscribernotification"
 
 dataawsccsecuritylakesubscribernotification.NewDataAwsccSecuritylakeSubscriberNotificationNotificationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecuritylakeSubscriberNotificationNotificationConfigurationOutputReference
 ```

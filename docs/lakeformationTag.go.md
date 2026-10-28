@@ -4,12 +4,12 @@
 
 ### LakeformationTag <a name="LakeformationTag" id="@cdktn/provider-awscc.lakeformationTag.LakeformationTag"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_tag awscc_lakeformation_tag}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_tag awscc_lakeformation_tag}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationTag.LakeformationTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationtag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationtag"
 
 lakeformationtag.NewLakeformationTag(scope Construct, id *string, config LakeformationTagConfig) LakeformationTag
 ```
@@ -407,7 +407,7 @@ func ResetCatalogId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lakeformationTag.LakeformationTag.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationtag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationtag"
 
 lakeformationtag.LakeformationTag_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lakeformationTag.LakeformationTag.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationtag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationtag"
 
 lakeformationtag.LakeformationTag_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ lakeformationtag.LakeformationTag_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lakeformationTag.LakeformationTag.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationtag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationtag"
 
 lakeformationtag.LakeformationTag_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ lakeformationtag.LakeformationTag_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lakeformationTag.LakeformationTag.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationtag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationtag"
 
 lakeformationtag.LakeformationTag_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the LakeformationTag to import
 
 The id of the existing LakeformationTag that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_tag#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_tag#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationTag.LakeformationTagConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationtag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationtag"
 
 &lakeformationtag.LakeformationTagConfig {
 	Connection: interface{},
@@ -886,7 +886,7 @@ TagKey *string
 
 The key-name for the LF-tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_tag#tag_key LakeformationTag#tag_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_tag#tag_key LakeformationTag#tag_key}
 
 ---
 
@@ -900,7 +900,7 @@ TagValues *[]*string
 
 A list of possible values an attribute can take.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_tag#tag_values LakeformationTag#tag_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_tag#tag_values LakeformationTag#tag_values}
 
 ---
 
@@ -916,7 +916,7 @@ The identifier for the Data Catalog.
 
 By default, the account ID. The Data Catalog is the persistent metadata store. It contains database definitions, table definitions, and other control information to manage your Lake Formation environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_tag#catalog_id LakeformationTag#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_tag#catalog_id LakeformationTag#catalog_id}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspacesDirectory <a name="DataAwsccWorkspacesDirectory" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectory"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_directory awscc_workspaces_directory}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_directory awscc_workspaces_directory}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectory(scope Construct, id *string, config DataAwsccWorkspacesDirectoryConfig) DataAwsccWorkspacesDirectory
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectory.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectory_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectory.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectory_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectory_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectory.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectory_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectory_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectory.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectory_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesDirecto
 
 The id of the existing DataAwsccWorkspacesDirectory that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_directory#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_directory#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -939,7 +939,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryActiveDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryActiveDirectoryConfig {
 
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryCertificateBasedAuthProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryCertificateBasedAuthProperties {
 
@@ -965,7 +965,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryConfig {
 	Connection: interface{},
@@ -1074,7 +1074,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_directory#id DataAwsccWorkspacesDirectory#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_directory#id DataAwsccWorkspacesDirectory#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1086,7 +1086,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryIdcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryIdcConfig {
 
@@ -1099,7 +1099,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryMicrosoftEntraConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryMicrosoftEntraConfig {
 
@@ -1112,7 +1112,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectorySamlProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectorySamlProperties {
 
@@ -1125,7 +1125,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectorySelfservicePermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectorySelfservicePermissions {
 
@@ -1138,7 +1138,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryStreamingProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryStreamingProperties {
 
@@ -1151,7 +1151,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesGlobalAccelerator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesGlobalAccelerator {
 
@@ -1164,7 +1164,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesStorageConnectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesStorageConnectors {
 
@@ -1177,7 +1177,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesUserSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesUserSettings {
 
@@ -1190,7 +1190,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryTags {
 
@@ -1203,7 +1203,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryWorkspaceAccessProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryWorkspaceAccessProperties {
 
@@ -1216,7 +1216,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig {
 
@@ -1229,7 +1229,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpoints {
 
@@ -1242,7 +1242,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryWorkspaceCreationProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 &dataawsccworkspacesdirectory.DataAwsccWorkspacesDirectoryWorkspaceCreationProperties {
 
@@ -1257,7 +1257,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdir
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryActiveDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryActiveDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesDirectoryActiveDirectoryConfigOutputReference
 ```
@@ -1528,7 +1528,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryActiveDirectoryConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference
 ```
@@ -1799,7 +1799,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryCertificateBasedAuthProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryIdcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryIdcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesDirectoryIdcConfigOutputReference
 ```
@@ -2070,7 +2070,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryIdcConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryMicrosoftEntraConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryMicrosoftEntraConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesDirectoryMicrosoftEntraConfigOutputReference
 ```
@@ -2341,7 +2341,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryMicrosoftEntraConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectorySamlPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectorySamlPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesDirectorySamlPropertiesOutputReference
 ```
@@ -2623,7 +2623,7 @@ func InternalValue() DataAwsccWorkspacesDirectorySamlProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectorySelfservicePermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectorySelfservicePermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesDirectorySelfservicePermissionsOutputReference
 ```
@@ -2927,7 +2927,7 @@ func InternalValue() DataAwsccWorkspacesDirectorySelfservicePermissions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesGlobalAcceleratorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryStreamingPropertiesGlobalAcceleratorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesDirectoryStreamingPropertiesGlobalAcceleratorOutputReference
 ```
@@ -3198,7 +3198,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryStreamingPropertiesGlobalAccele
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryStreamingPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesDirectoryStreamingPropertiesOutputReference
 ```
@@ -3491,7 +3491,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryStreamingProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesStorageConnectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryStreamingPropertiesStorageConnectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesDirectoryStreamingPropertiesStorageConnectorsList
 ```
@@ -3640,7 +3640,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesStorageConnectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryStreamingPropertiesStorageConnectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesDirectoryStreamingPropertiesStorageConnectorsOutputReference
 ```
@@ -3929,7 +3929,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryStreamingPropertiesStorageConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesUserSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryStreamingPropertiesUserSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesDirectoryStreamingPropertiesUserSettingsList
 ```
@@ -4078,7 +4078,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryStreamingPropertiesUserSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryStreamingPropertiesUserSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesDirectoryStreamingPropertiesUserSettingsOutputReference
 ```
@@ -4378,7 +4378,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryStreamingPropertiesUserSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesDirectoryTagsList
 ```
@@ -4527,7 +4527,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesDirectoryTagsOutputReference
 ```
@@ -4816,7 +4816,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsList
 ```
@@ -4965,7 +4965,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsOutputReference
 ```
@@ -5254,7 +5254,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference
 ```
@@ -5525,7 +5525,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesDirectoryWorkspaceAccessPropertiesOutputReference
 ```
@@ -5884,7 +5884,7 @@ func InternalValue() DataAwsccWorkspacesDirectoryWorkspaceAccessProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectory.DataAwsccWorkspacesDirectoryWorkspaceCreationPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory"
 
 dataawsccworkspacesdirectory.NewDataAwsccWorkspacesDirectoryWorkspaceCreationPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesDirectoryWorkspaceCreationPropertiesOutputReference
 ```

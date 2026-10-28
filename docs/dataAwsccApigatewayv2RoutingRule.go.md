@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayv2RoutingRule <a name="DataAwsccApigatewayv2RoutingRule" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_routing_rule awscc_apigatewayv2_routing_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_routing_rule awscc_apigatewayv2_routing_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.NewDataAwsccApigatewayv2RoutingRule(scope Construct, id *string, config DataAwsccApigatewayv2RoutingRuleConfig) DataAwsccApigatewayv2RoutingRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRule_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRule_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayv2Routi
 
 The id of the existing DataAwsccApigatewayv2RoutingRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_routing_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_routing_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 &dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRuleActions {
 
@@ -666,7 +666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2r
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleActionsInvokeApi.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 &dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRuleActionsInvokeApi {
 
@@ -679,7 +679,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2r
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 &dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRuleConditions {
 
@@ -692,7 +692,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2r
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleConditionsMatchBasePaths.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 &dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRuleConditionsMatchBasePaths {
 
@@ -705,7 +705,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2r
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleConditionsMatchHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 &dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRuleConditionsMatchHeaders {
 
@@ -718,7 +718,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2r
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersAnyOf.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 &dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersAnyOf {
 
@@ -731,7 +731,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2r
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 &dataawsccapigatewayv2routingrule.DataAwsccApigatewayv2RoutingRuleConfig {
 	Connection: interface{},
@@ -840,7 +840,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_routing_rule#id DataAwsccApigatewayv2RoutingRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_routing_rule#id DataAwsccApigatewayv2RoutingRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -854,7 +854,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleActionsInvokeApiOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.NewDataAwsccApigatewayv2RoutingRuleActionsInvokeApiOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayv2RoutingRuleActionsInvokeApiOutputReference
 ```
@@ -1136,7 +1136,7 @@ func InternalValue() DataAwsccApigatewayv2RoutingRuleActionsInvokeApi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.NewDataAwsccApigatewayv2RoutingRuleActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApigatewayv2RoutingRuleActionsList
 ```
@@ -1285,7 +1285,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.NewDataAwsccApigatewayv2RoutingRuleActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApigatewayv2RoutingRuleActionsOutputReference
 ```
@@ -1563,7 +1563,7 @@ func InternalValue() DataAwsccApigatewayv2RoutingRuleActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.NewDataAwsccApigatewayv2RoutingRuleConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApigatewayv2RoutingRuleConditionsList
 ```
@@ -1712,7 +1712,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleConditionsMatchBasePathsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.NewDataAwsccApigatewayv2RoutingRuleConditionsMatchBasePathsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayv2RoutingRuleConditionsMatchBasePathsOutputReference
 ```
@@ -1972,7 +1972,7 @@ func InternalValue() DataAwsccApigatewayv2RoutingRuleConditionsMatchBasePaths
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersAnyOfList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.NewDataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersAnyOfList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersAnyOfList
 ```
@@ -2121,7 +2121,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersAnyOfOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.NewDataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersAnyOfOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersAnyOfOutputReference
 ```
@@ -2410,7 +2410,7 @@ func InternalValue() DataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersAnyOf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.NewDataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayv2RoutingRuleConditionsMatchHeadersOutputReference
 ```
@@ -2670,7 +2670,7 @@ func InternalValue() DataAwsccApigatewayv2RoutingRuleConditionsMatchHeaders
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2RoutingRule.DataAwsccApigatewayv2RoutingRuleConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2routingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2routingrule"
 
 dataawsccapigatewayv2routingrule.NewDataAwsccApigatewayv2RoutingRuleConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApigatewayv2RoutingRuleConditionsOutputReference
 ```

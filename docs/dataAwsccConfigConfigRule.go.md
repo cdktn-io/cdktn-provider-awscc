@@ -4,12 +4,12 @@
 
 ### DataAwsccConfigConfigRule <a name="DataAwsccConfigConfigRule" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_config_rule awscc_config_config_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_config_rule awscc_config_config_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.NewDataAwsccConfigConfigRule(scope Construct, id *string, config DataAwsccConfigConfigRuleConfig) DataAwsccConfigConfigRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.DataAwsccConfigConfigRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.DataAwsccConfigConfigRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconfigconfigrule.DataAwsccConfigConfigRule_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.DataAwsccConfigConfigRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconfigconfigrule.DataAwsccConfigConfigRule_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.DataAwsccConfigConfigRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConfigConfigRule 
 
 The id of the existing DataAwsccConfigConfigRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_config_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_config_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleCompliance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 &dataawsccconfigconfigrule.DataAwsccConfigConfigRuleCompliance {
 
@@ -710,7 +710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 &dataawsccconfigconfigrule.DataAwsccConfigConfigRuleConfig {
 	Connection: interface{},
@@ -819,7 +819,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_config_rule#id DataAwsccConfigConfigRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_config_rule#id DataAwsccConfigConfigRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -831,7 +831,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleEvaluationModes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 &dataawsccconfigconfigrule.DataAwsccConfigConfigRuleEvaluationModes {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 &dataawsccconfigconfigrule.DataAwsccConfigConfigRuleScope {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 &dataawsccconfigconfigrule.DataAwsccConfigConfigRuleSource {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleSourceCustomPolicyDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 &dataawsccconfigconfigrule.DataAwsccConfigConfigRuleSourceCustomPolicyDetails {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleSourceSourceDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 &dataawsccconfigconfigrule.DataAwsccConfigConfigRuleSourceSourceDetails {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleComplianceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.NewDataAwsccConfigConfigRuleComplianceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConfigRuleComplianceOutputReference
 ```
@@ -1158,7 +1158,7 @@ func InternalValue() DataAwsccConfigConfigRuleCompliance
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleEvaluationModesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.NewDataAwsccConfigConfigRuleEvaluationModesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConfigConfigRuleEvaluationModesList
 ```
@@ -1307,7 +1307,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleEvaluationModesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.NewDataAwsccConfigConfigRuleEvaluationModesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConfigConfigRuleEvaluationModesOutputReference
 ```
@@ -1585,7 +1585,7 @@ func InternalValue() DataAwsccConfigConfigRuleEvaluationModes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.NewDataAwsccConfigConfigRuleScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConfigRuleScopeOutputReference
 ```
@@ -1878,7 +1878,7 @@ func InternalValue() DataAwsccConfigConfigRuleScope
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleSourceCustomPolicyDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.NewDataAwsccConfigConfigRuleSourceCustomPolicyDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConfigRuleSourceCustomPolicyDetailsOutputReference
 ```
@@ -2160,7 +2160,7 @@ func InternalValue() DataAwsccConfigConfigRuleSourceCustomPolicyDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.NewDataAwsccConfigConfigRuleSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConfigRuleSourceOutputReference
 ```
@@ -2453,7 +2453,7 @@ func InternalValue() DataAwsccConfigConfigRuleSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleSourceSourceDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.NewDataAwsccConfigConfigRuleSourceSourceDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConfigConfigRuleSourceSourceDetailsList
 ```
@@ -2602,7 +2602,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigRule.DataAwsccConfigConfigRuleSourceSourceDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigrule"
 
 dataawsccconfigconfigrule.NewDataAwsccConfigConfigRuleSourceSourceDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConfigConfigRuleSourceSourceDetailsOutputReference
 ```

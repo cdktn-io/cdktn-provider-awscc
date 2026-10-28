@@ -4,12 +4,12 @@
 
 ### DataAwsccAppflowConnector <a name="DataAwsccAppflowConnector" id="@cdktn/provider-awscc.dataAwsccAppflowConnector.DataAwsccAppflowConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_connector awscc_appflow_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_connector awscc_appflow_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnector.DataAwsccAppflowConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnector"
 
 dataawsccappflowconnector.NewDataAwsccAppflowConnector(scope Construct, id *string, config DataAwsccAppflowConnectorConfig) DataAwsccAppflowConnector
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppflowConnector.DataAwsccAppflowConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnector"
 
 dataawsccappflowconnector.DataAwsccAppflowConnector_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppflowConnector.DataAwsccAppflowConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnector"
 
 dataawsccappflowconnector.DataAwsccAppflowConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappflowconnector.DataAwsccAppflowConnector_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppflowConnector.DataAwsccAppflowConnector.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnector"
 
 dataawsccappflowconnector.DataAwsccAppflowConnector_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappflowconnector.DataAwsccAppflowConnector_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppflowConnector.DataAwsccAppflowConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnector"
 
 dataawsccappflowconnector.DataAwsccAppflowConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppflowConnector 
 
 The id of the existing DataAwsccAppflowConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnector.DataAwsccAppflowConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnector"
 
 &dataawsccappflowconnector.DataAwsccAppflowConnectorConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_connector#id DataAwsccAppflowConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_connector#id DataAwsccAppflowConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnector.DataAwsccAppflowConnectorConnectorProvisioningConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnector"
 
 &dataawsccappflowconnector.DataAwsccAppflowConnectorConnectorProvisioningConfig {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnector.DataAwsccAppflowConnectorConnectorProvisioningConfigLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnector"
 
 &dataawsccappflowconnector.DataAwsccAppflowConnectorConnectorProvisioningConfigLambda {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnector.DataAwsccAppflowConnectorConnectorProvisioningConfigLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnector"
 
 dataawsccappflowconnector.NewDataAwsccAppflowConnectorConnectorProvisioningConfigLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorConnectorProvisioningConfigLambdaOutputReference
 ```
@@ -1051,7 +1051,7 @@ func InternalValue() DataAwsccAppflowConnectorConnectorProvisioningConfigLambda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnector.DataAwsccAppflowConnectorConnectorProvisioningConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnector"
 
 dataawsccappflowconnector.NewDataAwsccAppflowConnectorConnectorProvisioningConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorConnectorProvisioningConfigOutputReference
 ```

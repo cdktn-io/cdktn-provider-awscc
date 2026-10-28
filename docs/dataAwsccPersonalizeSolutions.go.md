@@ -4,12 +4,12 @@
 
 ### DataAwsccPersonalizeSolutions <a name="DataAwsccPersonalizeSolutions" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolutions.DataAwsccPersonalizeSolutions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_solutions awscc_personalize_solutions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_solutions awscc_personalize_solutions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolutions.DataAwsccPersonalizeSolutions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolutions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolutions"
 
 dataawsccpersonalizesolutions.NewDataAwsccPersonalizeSolutions(scope Construct, id *string, config DataAwsccPersonalizeSolutionsConfig) DataAwsccPersonalizeSolutions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolutions.DataAwsccPersonalizeSolutions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolutions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolutions"
 
 dataawsccpersonalizesolutions.DataAwsccPersonalizeSolutions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolutions.DataAwsccPersonalizeSolutions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolutions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolutions"
 
 dataawsccpersonalizesolutions.DataAwsccPersonalizeSolutions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpersonalizesolutions.DataAwsccPersonalizeSolutions_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolutions.DataAwsccPersonalizeSolutions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolutions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolutions"
 
 dataawsccpersonalizesolutions.DataAwsccPersonalizeSolutions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpersonalizesolutions.DataAwsccPersonalizeSolutions_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolutions.DataAwsccPersonalizeSolutions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolutions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolutions"
 
 dataawsccpersonalizesolutions.DataAwsccPersonalizeSolutions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPersonalizeSoluti
 
 The id of the existing DataAwsccPersonalizeSolutions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_solutions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_solutions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSolutions.DataAwsccPersonalizeSolutionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolutions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolutions"
 
 &dataawsccpersonalizesolutions.DataAwsccPersonalizeSolutionsConfig {
 	Connection: interface{},

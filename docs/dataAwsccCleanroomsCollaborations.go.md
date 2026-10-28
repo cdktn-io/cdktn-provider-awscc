@@ -4,12 +4,12 @@
 
 ### DataAwsccCleanroomsCollaborations <a name="DataAwsccCleanroomsCollaborations" id="@cdktn/provider-awscc.dataAwsccCleanroomsCollaborations.DataAwsccCleanroomsCollaborations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_collaborations awscc_cleanrooms_collaborations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_collaborations awscc_cleanrooms_collaborations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsCollaborations.DataAwsccCleanroomsCollaborations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscollaborations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomscollaborations"
 
 dataawscccleanroomscollaborations.NewDataAwsccCleanroomsCollaborations(scope Construct, id *string, config DataAwsccCleanroomsCollaborationsConfig) DataAwsccCleanroomsCollaborations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCleanroomsCollaborations.DataAwsccCleanroomsCollaborations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscollaborations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomscollaborations"
 
 dataawscccleanroomscollaborations.DataAwsccCleanroomsCollaborations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCleanroomsCollaborations.DataAwsccCleanroomsCollaborations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscollaborations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomscollaborations"
 
 dataawscccleanroomscollaborations.DataAwsccCleanroomsCollaborations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccleanroomscollaborations.DataAwsccCleanroomsCollaborations_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCleanroomsCollaborations.DataAwsccCleanroomsCollaborations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscollaborations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomscollaborations"
 
 dataawscccleanroomscollaborations.DataAwsccCleanroomsCollaborations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccleanroomscollaborations.DataAwsccCleanroomsCollaborations_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCleanroomsCollaborations.DataAwsccCleanroomsCollaborations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscollaborations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomscollaborations"
 
 dataawscccleanroomscollaborations.DataAwsccCleanroomsCollaborations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCleanroomsCollabo
 
 The id of the existing DataAwsccCleanroomsCollaborations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_collaborations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_collaborations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsCollaborations.DataAwsccCleanroomsCollaborationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscollaborations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomscollaborations"
 
 &dataawscccleanroomscollaborations.DataAwsccCleanroomsCollaborationsConfig {
 	Connection: interface{},

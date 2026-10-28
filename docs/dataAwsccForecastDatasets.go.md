@@ -4,12 +4,12 @@
 
 ### DataAwsccForecastDatasets <a name="DataAwsccForecastDatasets" id="@cdktn/provider-awscc.dataAwsccForecastDatasets.DataAwsccForecastDatasets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/forecast_datasets awscc_forecast_datasets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/forecast_datasets awscc_forecast_datasets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccForecastDatasets.DataAwsccForecastDatasets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasets"
 
 dataawsccforecastdatasets.NewDataAwsccForecastDatasets(scope Construct, id *string, config DataAwsccForecastDatasetsConfig) DataAwsccForecastDatasets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccForecastDatasets.DataAwsccForecastDatasets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasets"
 
 dataawsccforecastdatasets.DataAwsccForecastDatasets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccForecastDatasets.DataAwsccForecastDatasets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasets"
 
 dataawsccforecastdatasets.DataAwsccForecastDatasets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccforecastdatasets.DataAwsccForecastDatasets_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccForecastDatasets.DataAwsccForecastDatasets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasets"
 
 dataawsccforecastdatasets.DataAwsccForecastDatasets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccforecastdatasets.DataAwsccForecastDatasets_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccForecastDatasets.DataAwsccForecastDatasets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasets"
 
 dataawsccforecastdatasets.DataAwsccForecastDatasets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccForecastDatasets 
 
 The id of the existing DataAwsccForecastDatasets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/forecast_datasets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/forecast_datasets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccForecastDatasets.DataAwsccForecastDatasetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasets"
 
 &dataawsccforecastdatasets.DataAwsccForecastDatasetsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### ImagebuilderWorkflow <a name="ImagebuilderWorkflow" id="@cdktn/provider-awscc.imagebuilderWorkflow.ImagebuilderWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_workflow awscc_imagebuilder_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_workflow awscc_imagebuilder_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderWorkflow.ImagebuilderWorkflow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderworkflow"
 
 imagebuilderworkflow.NewImagebuilderWorkflow(scope Construct, id *string, config ImagebuilderWorkflowConfig) ImagebuilderWorkflow
 ```
@@ -442,7 +442,7 @@ func ResetUri()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.imagebuilderWorkflow.ImagebuilderWorkflow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderworkflow"
 
 imagebuilderworkflow.ImagebuilderWorkflow_IsConstruct(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.imagebuilderWorkflow.ImagebuilderWorkflow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderworkflow"
 
 imagebuilderworkflow.ImagebuilderWorkflow_IsTerraformElement(x interface{}) *bool
 ```
@@ -488,7 +488,7 @@ imagebuilderworkflow.ImagebuilderWorkflow_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.imagebuilderWorkflow.ImagebuilderWorkflow.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderworkflow"
 
 imagebuilderworkflow.ImagebuilderWorkflow_IsTerraformResource(x interface{}) *bool
 ```
@@ -502,7 +502,7 @@ imagebuilderworkflow.ImagebuilderWorkflow_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.imagebuilderWorkflow.ImagebuilderWorkflow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderworkflow"
 
 imagebuilderworkflow.ImagebuilderWorkflow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -531,7 +531,7 @@ The construct id used in the generated config for the ImagebuilderWorkflow to im
 
 The id of the existing ImagebuilderWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -962,7 +962,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderWorkflow.ImagebuilderWorkflowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderworkflow"
 
 &imagebuilderworkflow.ImagebuilderWorkflowConfig {
 	Connection: interface{},
@@ -1087,7 +1087,7 @@ Name *string
 
 The name of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_workflow#name ImagebuilderWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_workflow#name ImagebuilderWorkflow#name}
 
 ---
 
@@ -1101,7 +1101,7 @@ Type *string
 
 The type of the workflow denotes whether the workflow is used to build, test, or distribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_workflow#type ImagebuilderWorkflow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_workflow#type ImagebuilderWorkflow#type}
 
 ---
 
@@ -1115,7 +1115,7 @@ Version *string
 
 The version of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_workflow#version ImagebuilderWorkflow#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_workflow#version ImagebuilderWorkflow#version}
 
 ---
 
@@ -1129,7 +1129,7 @@ ChangeDescription *string
 
 The change description of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_workflow#change_description ImagebuilderWorkflow#change_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_workflow#change_description ImagebuilderWorkflow#change_description}
 
 ---
 
@@ -1143,7 +1143,7 @@ Data *string
 
 The data of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_workflow#data ImagebuilderWorkflow#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_workflow#data ImagebuilderWorkflow#data}
 
 ---
 
@@ -1157,7 +1157,7 @@ Description *string
 
 The description of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_workflow#description ImagebuilderWorkflow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_workflow#description ImagebuilderWorkflow#description}
 
 ---
 
@@ -1171,7 +1171,7 @@ KmsKeyId *string
 
 The KMS key identifier used to encrypt the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_workflow#kms_key_id ImagebuilderWorkflow#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_workflow#kms_key_id ImagebuilderWorkflow#kms_key_id}
 
 ---
 
@@ -1185,7 +1185,7 @@ Tags *map[string]*string
 
 The tags associated with the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_workflow#tags ImagebuilderWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_workflow#tags ImagebuilderWorkflow#tags}
 
 ---
 
@@ -1199,7 +1199,7 @@ Uri *string
 
 The uri of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_workflow#uri ImagebuilderWorkflow#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_workflow#uri ImagebuilderWorkflow#uri}
 
 ---
 
@@ -1208,7 +1208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderWorkflow.ImagebuilderWorkflowLatestVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderworkflow"
 
 &imagebuilderworkflow.ImagebuilderWorkflowLatestVersion {
 
@@ -1223,7 +1223,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderworkflow"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderWorkflow.ImagebuilderWorkflowLatestVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderworkflow"
 
 imagebuilderworkflow.NewImagebuilderWorkflowLatestVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ImagebuilderWorkflowLatestVersionOutputReference
 ```

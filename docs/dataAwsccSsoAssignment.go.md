@@ -4,12 +4,12 @@
 
 ### DataAwsccSsoAssignment <a name="DataAwsccSsoAssignment" id="@cdktn/provider-awscc.dataAwsccSsoAssignment.DataAwsccSsoAssignment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_assignment awscc_sso_assignment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_assignment awscc_sso_assignment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoAssignment.DataAwsccSsoAssignment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoassignment"
 
 dataawsccssoassignment.NewDataAwsccSsoAssignment(scope Construct, id *string, config DataAwsccSsoAssignmentConfig) DataAwsccSsoAssignment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsoAssignment.DataAwsccSsoAssignment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoassignment"
 
 dataawsccssoassignment.DataAwsccSsoAssignment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsoAssignment.DataAwsccSsoAssignment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoassignment"
 
 dataawsccssoassignment.DataAwsccSsoAssignment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssoassignment.DataAwsccSsoAssignment_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsoAssignment.DataAwsccSsoAssignment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoassignment"
 
 dataawsccssoassignment.DataAwsccSsoAssignment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssoassignment.DataAwsccSsoAssignment_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsoAssignment.DataAwsccSsoAssignment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoassignment"
 
 dataawsccssoassignment.DataAwsccSsoAssignment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsoAssignment to 
 
 The id of the existing DataAwsccSsoAssignment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_assignment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_assignment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsoAssignment.DataAwsccSsoAssignmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoassignment"
 
 &dataawsccssoassignment.DataAwsccSsoAssignmentConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_assignment#id DataAwsccSsoAssignment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_assignment#id DataAwsccSsoAssignment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

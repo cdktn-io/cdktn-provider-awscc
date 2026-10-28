@@ -4,12 +4,12 @@
 
 ### Route53GlobalresolverHostedZoneAssociation <a name="Route53GlobalresolverHostedZoneAssociation" id="@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53globalresolverhostedzoneassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53globalresolverhostedzoneassociation"
 
 route53globalresolverhostedzoneassociation.NewRoute53GlobalresolverHostedZoneAssociation(scope Construct, id *string, config Route53GlobalresolverHostedZoneAssociationConfig) Route53GlobalresolverHostedZoneAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53globalresolverhostedzoneassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53globalresolverhostedzoneassociation"
 
 route53globalresolverhostedzoneassociation.Route53GlobalresolverHostedZoneAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53globalresolverhostedzoneassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53globalresolverhostedzoneassociation"
 
 route53globalresolverhostedzoneassociation.Route53GlobalresolverHostedZoneAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ route53globalresolverhostedzoneassociation.Route53GlobalresolverHostedZoneAssoci
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53globalresolverhostedzoneassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53globalresolverhostedzoneassociation"
 
 route53globalresolverhostedzoneassociation.Route53GlobalresolverHostedZoneAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ route53globalresolverhostedzoneassociation.Route53GlobalresolverHostedZoneAssoci
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53globalresolverhostedzoneassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53globalresolverhostedzoneassociation"
 
 route53globalresolverhostedzoneassociation.Route53GlobalresolverHostedZoneAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Route53GlobalresolverHoste
 
 The id of the existing Route53GlobalresolverHostedZoneAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_hosted_zone_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_hosted_zone_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -821,7 +821,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53globalresolverhostedzoneassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53globalresolverhostedzoneassociation"
 
 &route53globalresolverhostedzoneassociation.Route53GlobalresolverHostedZoneAssociationConfig {
 	Connection: interface{},
@@ -848,9 +848,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53globalresolverh
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociationConfig.property.hostedZoneId">HostedZoneId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_hosted_zone_association#hosted_zone_id Route53GlobalresolverHostedZoneAssociation#hosted_zone_id}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociationConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_hosted_zone_association#name Route53GlobalresolverHostedZoneAssociation#name}. |
-| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociationConfig.property.resourceArn">ResourceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_hosted_zone_association#resource_arn Route53GlobalresolverHostedZoneAssociation#resource_arn}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociationConfig.property.hostedZoneId">HostedZoneId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_hosted_zone_association#hosted_zone_id Route53GlobalresolverHostedZoneAssociation#hosted_zone_id}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociationConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_hosted_zone_association#name Route53GlobalresolverHostedZoneAssociation#name}. |
+| <code><a href="#@cdktn/provider-awscc.route53GlobalresolverHostedZoneAssociation.Route53GlobalresolverHostedZoneAssociationConfig.property.resourceArn">ResourceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_hosted_zone_association#resource_arn Route53GlobalresolverHostedZoneAssociation#resource_arn}. |
 
 ---
 
@@ -932,7 +932,7 @@ HostedZoneId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_hosted_zone_association#hosted_zone_id Route53GlobalresolverHostedZoneAssociation#hosted_zone_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_hosted_zone_association#hosted_zone_id Route53GlobalresolverHostedZoneAssociation#hosted_zone_id}.
 
 ---
 
@@ -944,7 +944,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_hosted_zone_association#name Route53GlobalresolverHostedZoneAssociation#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_hosted_zone_association#name Route53GlobalresolverHostedZoneAssociation#name}.
 
 ---
 
@@ -956,7 +956,7 @@ ResourceArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_hosted_zone_association#resource_arn Route53GlobalresolverHostedZoneAssociation#resource_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_hosted_zone_association#resource_arn Route53GlobalresolverHostedZoneAssociation#resource_arn}.
 
 ---
 

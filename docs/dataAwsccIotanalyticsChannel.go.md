@@ -4,12 +4,12 @@
 
 ### DataAwsccIotanalyticsChannel <a name="DataAwsccIotanalyticsChannel" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_channel awscc_iotanalytics_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_channel awscc_iotanalytics_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 dataawscciotanalyticschannel.NewDataAwsccIotanalyticsChannel(scope Construct, id *string, config DataAwsccIotanalyticsChannelConfig) DataAwsccIotanalyticsChannel
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 dataawscciotanalyticschannel.DataAwsccIotanalyticsChannel_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 dataawscciotanalyticschannel.DataAwsccIotanalyticsChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotanalyticschannel.DataAwsccIotanalyticsChannel_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannel.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 dataawscciotanalyticschannel.DataAwsccIotanalyticsChannel_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotanalyticschannel.DataAwsccIotanalyticsChannel_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 dataawscciotanalyticschannel.DataAwsccIotanalyticsChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotanalyticsChann
 
 The id of the existing DataAwsccIotanalyticsChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannelChannelStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 &dataawscciotanalyticschannel.DataAwsccIotanalyticsChannelChannelStorage {
 
@@ -655,7 +655,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannelChannelStorageCustomerManagedS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 &dataawscciotanalyticschannel.DataAwsccIotanalyticsChannelChannelStorageCustomerManagedS3 {
 
@@ -668,7 +668,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 &dataawscciotanalyticschannel.DataAwsccIotanalyticsChannelConfig {
 	Connection: interface{},
@@ -777,7 +777,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_channel#id DataAwsccIotanalyticsChannel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_channel#id DataAwsccIotanalyticsChannel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -789,7 +789,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannelRetentionPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 &dataawscciotanalyticschannel.DataAwsccIotanalyticsChannelRetentionPeriod {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 &dataawscciotanalyticschannel.DataAwsccIotanalyticsChannelTags {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannelChannelStorageCustomerManagedS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 dataawscciotanalyticschannel.NewDataAwsccIotanalyticsChannelChannelStorageCustomerManagedS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsChannelChannelStorageCustomerManagedS3OutputReference
 ```
@@ -1099,7 +1099,7 @@ func InternalValue() DataAwsccIotanalyticsChannelChannelStorageCustomerManagedS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannelChannelStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 dataawscciotanalyticschannel.NewDataAwsccIotanalyticsChannelChannelStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsChannelChannelStorageOutputReference
 ```
@@ -1370,7 +1370,7 @@ func InternalValue() DataAwsccIotanalyticsChannelChannelStorage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannelRetentionPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 dataawscciotanalyticschannel.NewDataAwsccIotanalyticsChannelRetentionPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsChannelRetentionPeriodOutputReference
 ```
@@ -1641,7 +1641,7 @@ func InternalValue() DataAwsccIotanalyticsChannelRetentionPeriod
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 dataawscciotanalyticschannel.NewDataAwsccIotanalyticsChannelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsChannelTagsList
 ```
@@ -1790,7 +1790,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannel"
 
 dataawscciotanalyticschannel.NewDataAwsccIotanalyticsChannelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsChannelTagsOutputReference
 ```

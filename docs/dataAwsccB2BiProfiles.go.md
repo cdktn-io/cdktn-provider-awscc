@@ -4,12 +4,12 @@
 
 ### DataAwsccB2BiProfiles <a name="DataAwsccB2BiProfiles" id="@cdktn/provider-awscc.dataAwsccB2BiProfiles.DataAwsccB2BiProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_profiles awscc_b2bi_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_profiles awscc_b2bi_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiProfiles.DataAwsccB2BiProfiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2biprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2biprofiles"
 
 dataawsccb2biprofiles.NewDataAwsccB2BiProfiles(scope Construct, id *string, config DataAwsccB2BiProfilesConfig) DataAwsccB2BiProfiles
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccB2BiProfiles.DataAwsccB2BiProfiles.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2biprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2biprofiles"
 
 dataawsccb2biprofiles.DataAwsccB2BiProfiles_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccB2BiProfiles.DataAwsccB2BiProfiles.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2biprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2biprofiles"
 
 dataawsccb2biprofiles.DataAwsccB2BiProfiles_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccb2biprofiles.DataAwsccB2BiProfiles_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccB2BiProfiles.DataAwsccB2BiProfiles.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2biprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2biprofiles"
 
 dataawsccb2biprofiles.DataAwsccB2BiProfiles_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccb2biprofiles.DataAwsccB2BiProfiles_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccB2BiProfiles.DataAwsccB2BiProfiles.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2biprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2biprofiles"
 
 dataawsccb2biprofiles.DataAwsccB2BiProfiles_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccB2BiProfiles to i
 
 The id of the existing DataAwsccB2BiProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiProfiles.DataAwsccB2BiProfilesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2biprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2biprofiles"
 
 &dataawsccb2biprofiles.DataAwsccB2BiProfilesConfig {
 	Connection: interface{},

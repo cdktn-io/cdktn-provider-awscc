@@ -4,12 +4,12 @@
 
 ### PersonalizeDatasetGroup <a name="PersonalizeDatasetGroup" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizedatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizedatasetgroup"
 
 personalizedatasetgroup.NewPersonalizeDatasetGroup(scope Construct, id *string, config PersonalizeDatasetGroupConfig) PersonalizeDatasetGroup
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizedatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizedatasetgroup"
 
 personalizedatasetgroup.PersonalizeDatasetGroup_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizedatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizedatasetgroup"
 
 personalizedatasetgroup.PersonalizeDatasetGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ personalizedatasetgroup.PersonalizeDatasetGroup_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizedatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizedatasetgroup"
 
 personalizedatasetgroup.PersonalizeDatasetGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ personalizedatasetgroup.PersonalizeDatasetGroup_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizedatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizedatasetgroup"
 
 personalizedatasetgroup.PersonalizeDatasetGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the PersonalizeDatasetGroup to
 
 The id of the existing PersonalizeDatasetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -862,7 +862,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizedatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizedatasetgroup"
 
 &personalizedatasetgroup.PersonalizeDatasetGroupConfig {
 	Connection: interface{},
@@ -979,7 +979,7 @@ Name *string
 
 The name for the new dataset group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset_group#name PersonalizeDatasetGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset_group#name PersonalizeDatasetGroup#name}
 
 ---
 
@@ -993,7 +993,7 @@ Domain *string
 
 The domain of a Domain dataset group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset_group#domain PersonalizeDatasetGroup#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset_group#domain PersonalizeDatasetGroup#domain}
 
 ---
 
@@ -1007,7 +1007,7 @@ KmsKeyArn *string
 
 The Amazon Resource Name(ARN) of a AWS Key Management Service (KMS) key used to encrypt the datasets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset_group#kms_key_arn PersonalizeDatasetGroup#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset_group#kms_key_arn PersonalizeDatasetGroup#kms_key_arn}
 
 ---
 
@@ -1023,7 +1023,7 @@ The ARN of the AWS Identity and Access Management (IAM) role that has permission
 
 Supplying an IAM role is only valid when also specifying a KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset_group#role_arn PersonalizeDatasetGroup#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset_group#role_arn PersonalizeDatasetGroup#role_arn}
 
 ---
 
@@ -1037,7 +1037,7 @@ Tags interface{}
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset_group#tags PersonalizeDatasetGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset_group#tags PersonalizeDatasetGroup#tags}
 
 ---
 
@@ -1046,7 +1046,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizedatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizedatasetgroup"
 
 &personalizedatasetgroup.PersonalizeDatasetGroupTags {
 	Key: *string,
@@ -1058,8 +1058,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizedatasetgrou
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset_group#key PersonalizeDatasetGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset_group#value PersonalizeDatasetGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset_group#key PersonalizeDatasetGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset_group#value PersonalizeDatasetGroup#value}. |
 
 ---
 
@@ -1071,7 +1071,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset_group#key PersonalizeDatasetGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset_group#key PersonalizeDatasetGroup#key}.
 
 ---
 
@@ -1083,7 +1083,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset_group#value PersonalizeDatasetGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset_group#value PersonalizeDatasetGroup#value}.
 
 ---
 
@@ -1094,7 +1094,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizedatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizedatasetgroup"
 
 personalizedatasetgroup.NewPersonalizeDatasetGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PersonalizeDatasetGroupTagsList
 ```
@@ -1254,7 +1254,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizedatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizedatasetgroup"
 
 personalizedatasetgroup.NewPersonalizeDatasetGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PersonalizeDatasetGroupTagsOutputReference
 ```

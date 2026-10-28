@@ -4,12 +4,12 @@
 
 ### LexBotVersion <a name="LexBotVersion" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_version awscc_lex_bot_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_version awscc_lex_bot_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotversion"
 
 lexbotversion.NewLexBotVersion(scope Construct, id *string, config LexBotVersionConfig) LexBotVersion
 ```
@@ -420,7 +420,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotversion"
 
 lexbotversion.LexBotVersion_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotversion"
 
 lexbotversion.LexBotVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ lexbotversion.LexBotVersion_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotversion"
 
 lexbotversion.LexBotVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ lexbotversion.LexBotVersion_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotversion"
 
 lexbotversion.LexBotVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the LexBotVersion to import.
 
 The id of the existing LexBotVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -797,10 +797,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersionBotVersionLocaleSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotversion"
 
 &lexbotversion.LexBotVersionBotVersionLocaleSpecification {
-	BotVersionLocaleDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBotVersion.LexBotVersionBotVersionLocaleSpecificationBotVersionLocaleDetails,
+	BotVersionLocaleDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBotVersion.LexBotVersionBotVersionLocaleSpecificationBotVersionLocaleDetails,
 	LocaleId: *string,
 }
 ```
@@ -824,7 +824,7 @@ BotVersionLocaleDetails LexBotVersionBotVersionLocaleSpecificationBotVersionLoca
 
 The version of a bot used for a bot locale.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_version#bot_version_locale_details LexBotVersion#bot_version_locale_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_version#bot_version_locale_details LexBotVersion#bot_version_locale_details}
 
 ---
 
@@ -838,7 +838,7 @@ LocaleId *string
 
 The identifier of the language and locale that the bot will be used in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_version#locale_id LexBotVersion#locale_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_version#locale_id LexBotVersion#locale_id}
 
 ---
 
@@ -847,7 +847,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersionBotVersionLocaleSpecificationBotVersionLocaleDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotversion"
 
 &lexbotversion.LexBotVersionBotVersionLocaleSpecificationBotVersionLocaleDetails {
 	SourceBotVersion: *string,
@@ -872,7 +872,7 @@ SourceBotVersion *string
 
 The version of a bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_version#source_bot_version LexBotVersion#source_bot_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_version#source_bot_version LexBotVersion#source_bot_version}
 
 ---
 
@@ -881,7 +881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotversion"
 
 &lexbotversion.LexBotVersionConfig {
 	Connection: interface{},
@@ -994,7 +994,7 @@ BotId *string
 
 Unique ID of resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_version#bot_id LexBotVersion#bot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_version#bot_id LexBotVersion#bot_id}
 
 ---
 
@@ -1010,7 +1010,7 @@ Specifies the locales that Amazon Lex adds to this version.
 
 You can choose the Draft version or any other previously published version for each locale.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_version#bot_version_locale_specification LexBotVersion#bot_version_locale_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_version#bot_version_locale_specification LexBotVersion#bot_version_locale_specification}
 
 ---
 
@@ -1024,7 +1024,7 @@ Description *string
 
 A description of the version. Use the description to help identify the version in lists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_version#description LexBotVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_version#description LexBotVersion#description}
 
 ---
 
@@ -1035,7 +1035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersionBotVersionLocaleSpecificationBotVersionLocaleDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotversion"
 
 lexbotversion.NewLexBotVersionBotVersionLocaleSpecificationBotVersionLocaleDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotVersionBotVersionLocaleSpecificationBotVersionLocaleDetailsOutputReference
 ```
@@ -1306,7 +1306,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersionBotVersionLocaleSpecificationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotversion"
 
 lexbotversion.NewLexBotVersionBotVersionLocaleSpecificationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotVersionBotVersionLocaleSpecificationList
 ```
@@ -1466,7 +1466,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersionBotVersionLocaleSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotversion"
 
 lexbotversion.NewLexBotVersionBotVersionLocaleSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotVersionBotVersionLocaleSpecificationOutputReference
 ```

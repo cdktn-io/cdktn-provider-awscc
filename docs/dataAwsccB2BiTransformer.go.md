@@ -4,12 +4,12 @@
 
 ### DataAwsccB2BiTransformer <a name="DataAwsccB2BiTransformer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformer(scope Construct, id *string, config DataAwsccB2BiTransformerConfig) DataAwsccB2BiTransformer
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.DataAwsccB2BiTransformer_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.DataAwsccB2BiTransformer_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccb2bitransformer.DataAwsccB2BiTransformer_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformer.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.DataAwsccB2BiTransformer_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccb2bitransformer.DataAwsccB2BiTransformer_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.DataAwsccB2BiTransformer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccB2BiTransformer t
 
 The id of the existing DataAwsccB2BiTransformer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_transformer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_transformer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_transformer#id DataAwsccB2BiTransformer#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_transformer#id DataAwsccB2BiTransformer#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerEdiType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerEdiType {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerEdiTypeX12Details.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerEdiTypeX12Details {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerInputConversion {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptions {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12 {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12SplitOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12SplitOptions {
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions {
 
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule {
 
@@ -990,7 +990,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule {
 
@@ -1003,7 +1003,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule {
 
@@ -1016,7 +1016,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionFormatOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerInputConversionFormatOptions {
 
@@ -1029,7 +1029,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionFormatOptionsX12.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerInputConversionFormatOptionsX12 {
 
@@ -1042,7 +1042,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerMapping {
 
@@ -1055,7 +1055,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerOutputConversion {
 
@@ -1068,7 +1068,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptions {
 
@@ -1081,7 +1081,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12 {
 
@@ -1094,7 +1094,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions {
 
@@ -1107,7 +1107,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions {
 
@@ -1120,7 +1120,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules {
 
@@ -1133,7 +1133,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule {
 
@@ -1146,7 +1146,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule {
 
@@ -1159,7 +1159,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule {
 
@@ -1172,7 +1172,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionFormatOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerOutputConversionFormatOptions {
 
@@ -1185,7 +1185,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionFormatOptionsX12.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerOutputConversionFormatOptionsX12 {
 
@@ -1198,7 +1198,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerSampleDocuments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerSampleDocuments {
 
@@ -1211,7 +1211,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerSampleDocumentsKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerSampleDocumentsKeys {
 
@@ -1224,7 +1224,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 &dataawsccb2bitransformer.DataAwsccB2BiTransformerTags {
 
@@ -1239,7 +1239,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransform
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerEdiTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerEdiTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerEdiTypeOutputReference
 ```
@@ -1499,7 +1499,7 @@ func InternalValue() DataAwsccB2BiTransformerEdiType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerEdiTypeX12DetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerEdiTypeX12DetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerEdiTypeX12DetailsOutputReference
 ```
@@ -1770,7 +1770,7 @@ func InternalValue() DataAwsccB2BiTransformerEdiTypeX12Details
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionAdvancedOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerInputConversionAdvancedOptionsOutputReference
 ```
@@ -2030,7 +2030,7 @@ func InternalValue() DataAwsccB2BiTransformerInputConversionAdvancedOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionAdvancedOptionsX12OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12OutputReference
 ```
@@ -2301,7 +2301,7 @@ func InternalValue() DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12SplitOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionAdvancedOptionsX12SplitOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12SplitOptionsOutputReference
 ```
@@ -2561,7 +2561,7 @@ func InternalValue() DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12Sp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsOutputReference
 ```
@@ -2821,7 +2821,7 @@ func InternalValue() DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12Va
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRuleOutputReference
 ```
@@ -3103,7 +3103,7 @@ func InternalValue() DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12Va
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRuleOutputReference
 ```
@@ -3385,7 +3385,7 @@ func InternalValue() DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12Va
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRuleOutputReference
 ```
@@ -3656,7 +3656,7 @@ func InternalValue() DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12Va
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesList
 ```
@@ -3805,7 +3805,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesOutputReference
 ```
@@ -4105,7 +4105,7 @@ func InternalValue() DataAwsccB2BiTransformerInputConversionAdvancedOptionsX12Va
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionFormatOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionFormatOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerInputConversionFormatOptionsOutputReference
 ```
@@ -4365,7 +4365,7 @@ func InternalValue() DataAwsccB2BiTransformerInputConversionFormatOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionFormatOptionsX12OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionFormatOptionsX12OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerInputConversionFormatOptionsX12OutputReference
 ```
@@ -4636,7 +4636,7 @@ func InternalValue() DataAwsccB2BiTransformerInputConversionFormatOptionsX12
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerInputConversionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerInputConversionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerInputConversionOutputReference
 ```
@@ -4918,7 +4918,7 @@ func InternalValue() DataAwsccB2BiTransformerInputConversion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerMappingOutputReference
 ```
@@ -5189,7 +5189,7 @@ func InternalValue() DataAwsccB2BiTransformerMapping
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionAdvancedOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerOutputConversionAdvancedOptionsOutputReference
 ```
@@ -5449,7 +5449,7 @@ func InternalValue() DataAwsccB2BiTransformerOutputConversionAdvancedOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12OutputReference
 ```
@@ -5720,7 +5720,7 @@ func InternalValue() DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12SplitOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12SplitOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12SplitOptionsOutputReference
 ```
@@ -5980,7 +5980,7 @@ func InternalValue() DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12S
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsOutputReference
 ```
@@ -6240,7 +6240,7 @@ func InternalValue() DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12V
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRuleOutputReference
 ```
@@ -6522,7 +6522,7 @@ func InternalValue() DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12V
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRuleOutputReference
 ```
@@ -6804,7 +6804,7 @@ func InternalValue() DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12V
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRuleOutputReference
 ```
@@ -7075,7 +7075,7 @@ func InternalValue() DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12V
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesList
 ```
@@ -7224,7 +7224,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesOutputReference
 ```
@@ -7524,7 +7524,7 @@ func InternalValue() DataAwsccB2BiTransformerOutputConversionAdvancedOptionsX12V
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionFormatOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionFormatOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerOutputConversionFormatOptionsOutputReference
 ```
@@ -7784,7 +7784,7 @@ func InternalValue() DataAwsccB2BiTransformerOutputConversionFormatOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionFormatOptionsX12OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionFormatOptionsX12OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerOutputConversionFormatOptionsX12OutputReference
 ```
@@ -8055,7 +8055,7 @@ func InternalValue() DataAwsccB2BiTransformerOutputConversionFormatOptionsX12
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerOutputConversionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerOutputConversionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerOutputConversionOutputReference
 ```
@@ -8337,7 +8337,7 @@ func InternalValue() DataAwsccB2BiTransformerOutputConversion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerSampleDocumentsKeysList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerSampleDocumentsKeysList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccB2BiTransformerSampleDocumentsKeysList
 ```
@@ -8486,7 +8486,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerSampleDocumentsKeysOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerSampleDocumentsKeysOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccB2BiTransformerSampleDocumentsKeysOutputReference
 ```
@@ -8775,7 +8775,7 @@ func InternalValue() DataAwsccB2BiTransformerSampleDocumentsKeys
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerSampleDocumentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerSampleDocumentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiTransformerSampleDocumentsOutputReference
 ```
@@ -9046,7 +9046,7 @@ func InternalValue() DataAwsccB2BiTransformerSampleDocuments
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccB2BiTransformerTagsList
 ```
@@ -9195,7 +9195,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformer.DataAwsccB2BiTransformerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer"
 
 dataawsccb2bitransformer.NewDataAwsccB2BiTransformerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccB2BiTransformerTagsOutputReference
 ```

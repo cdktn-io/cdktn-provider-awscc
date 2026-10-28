@@ -4,12 +4,12 @@
 
 ### DataAwsccTransferWebApps <a name="DataAwsccTransferWebApps" id="@cdktn/provider-awscc.dataAwsccTransferWebApps.DataAwsccTransferWebApps"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_web_apps awscc_transfer_web_apps}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_web_apps awscc_transfer_web_apps}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWebApps.DataAwsccTransferWebApps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapps"
 
 dataawscctransferwebapps.NewDataAwsccTransferWebApps(scope Construct, id *string, config DataAwsccTransferWebAppsConfig) DataAwsccTransferWebApps
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTransferWebApps.DataAwsccTransferWebApps.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapps"
 
 dataawscctransferwebapps.DataAwsccTransferWebApps_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTransferWebApps.DataAwsccTransferWebApps.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapps"
 
 dataawscctransferwebapps.DataAwsccTransferWebApps_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctransferwebapps.DataAwsccTransferWebApps_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTransferWebApps.DataAwsccTransferWebApps.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapps"
 
 dataawscctransferwebapps.DataAwsccTransferWebApps_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctransferwebapps.DataAwsccTransferWebApps_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTransferWebApps.DataAwsccTransferWebApps.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapps"
 
 dataawscctransferwebapps.DataAwsccTransferWebApps_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTransferWebApps t
 
 The id of the existing DataAwsccTransferWebApps that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_web_apps#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_web_apps#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWebApps.DataAwsccTransferWebAppsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapps"
 
 &dataawscctransferwebapps.DataAwsccTransferWebAppsConfig {
 	Connection: interface{},

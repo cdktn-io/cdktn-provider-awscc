@@ -4,12 +4,12 @@
 
 ### NotificationsChannelAssociation <a name="NotificationsChannelAssociation" id="@cdktn/provider-awscc.notificationsChannelAssociation.NotificationsChannelAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_channel_association awscc_notifications_channel_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_channel_association awscc_notifications_channel_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.notificationsChannelAssociation.NotificationsChannelAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationschannelassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationschannelassociation"
 
 notificationschannelassociation.NewNotificationsChannelAssociation(scope Construct, id *string, config NotificationsChannelAssociationConfig) NotificationsChannelAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.notificationsChannelAssociation.NotificationsChannelAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationschannelassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationschannelassociation"
 
 notificationschannelassociation.NotificationsChannelAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.notificationsChannelAssociation.NotificationsChannelAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationschannelassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationschannelassociation"
 
 notificationschannelassociation.NotificationsChannelAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ notificationschannelassociation.NotificationsChannelAssociation_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.notificationsChannelAssociation.NotificationsChannelAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationschannelassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationschannelassociation"
 
 notificationschannelassociation.NotificationsChannelAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ notificationschannelassociation.NotificationsChannelAssociation_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.notificationsChannelAssociation.NotificationsChannelAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationschannelassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationschannelassociation"
 
 notificationschannelassociation.NotificationsChannelAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the NotificationsChannelAssoci
 
 The id of the existing NotificationsChannelAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_channel_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_channel_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.notificationsChannelAssociation.NotificationsChannelAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationschannelassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationschannelassociation"
 
 &notificationschannelassociation.NotificationsChannelAssociationConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ Arn *string
 
 ARN identifier of the channel. Example: arn:aws:chatbot::123456789012:chat-configuration/slack-channel/security-ops.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_channel_association#arn NotificationsChannelAssociation#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_channel_association#arn NotificationsChannelAssociation#arn}
 
 ---
 
@@ -869,7 +869,7 @@ NotificationConfigurationArn *string
 
 ARN identifier of the NotificationConfiguration. Example: arn:aws:notifications::123456789012:configuration/a01jes88qxwkbj05xv9c967pgm1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_channel_association#notification_configuration_arn NotificationsChannelAssociation#notification_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_channel_association#notification_configuration_arn NotificationsChannelAssociation#notification_configuration_arn}
 
 ---
 

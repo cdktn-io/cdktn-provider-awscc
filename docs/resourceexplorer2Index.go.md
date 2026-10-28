@@ -4,12 +4,12 @@
 
 ### Resourceexplorer2Index <a name="Resourceexplorer2Index" id="@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_index awscc_resourceexplorer2_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_index awscc_resourceexplorer2_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2index"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2index"
 
 resourceexplorer2index.NewResourceexplorer2Index(scope Construct, id *string, config Resourceexplorer2IndexConfig) Resourceexplorer2Index
 ```
@@ -407,7 +407,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2index"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2index"
 
 resourceexplorer2index.Resourceexplorer2Index_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2index"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2index"
 
 resourceexplorer2index.Resourceexplorer2Index_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ resourceexplorer2index.Resourceexplorer2Index_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2index"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2index"
 
 resourceexplorer2index.Resourceexplorer2Index_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ resourceexplorer2index.Resourceexplorer2Index_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2index"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2index"
 
 resourceexplorer2index.Resourceexplorer2Index_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the Resourceexplorer2Index to 
 
 The id of the existing Resourceexplorer2Index that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2index"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2index"
 
 &resourceexplorer2index.Resourceexplorer2IndexConfig {
 	Connection: interface{},
@@ -799,8 +799,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2index
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}. |
 
 ---
 
@@ -882,7 +882,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}.
 
 ---
 
@@ -894,7 +894,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}.
 
 ---
 

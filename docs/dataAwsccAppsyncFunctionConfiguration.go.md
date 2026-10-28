@@ -4,12 +4,12 @@
 
 ### DataAwsccAppsyncFunctionConfiguration <a name="DataAwsccAppsyncFunctionConfiguration" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_function_configuration awscc_appsync_function_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_function_configuration awscc_appsync_function_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 dataawsccappsyncfunctionconfiguration.NewDataAwsccAppsyncFunctionConfiguration(scope Construct, id *string, config DataAwsccAppsyncFunctionConfigurationConfig) DataAwsccAppsyncFunctionConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 dataawsccappsyncfunctionconfiguration.DataAwsccAppsyncFunctionConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 dataawsccappsyncfunctionconfiguration.DataAwsccAppsyncFunctionConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappsyncfunctionconfiguration.DataAwsccAppsyncFunctionConfiguration_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 dataawsccappsyncfunctionconfiguration.DataAwsccAppsyncFunctionConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappsyncfunctionconfiguration.DataAwsccAppsyncFunctionConfiguration_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 dataawsccappsyncfunctionconfiguration.DataAwsccAppsyncFunctionConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppsyncFunctionCo
 
 The id of the existing DataAwsccAppsyncFunctionConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_function_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_function_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 &dataawsccappsyncfunctionconfiguration.DataAwsccAppsyncFunctionConfigurationConfig {
 	Connection: interface{},
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_function_configuration#id DataAwsccAppsyncFunctionConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_function_configuration#id DataAwsccAppsyncFunctionConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfigurationRuntime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 &dataawsccappsyncfunctionconfiguration.DataAwsccAppsyncFunctionConfigurationRuntime {
 
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfuncti
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfigurationSyncConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 &dataawsccappsyncfunctionconfiguration.DataAwsccAppsyncFunctionConfigurationSyncConfig {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfuncti
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 &dataawsccappsyncfunctionconfiguration.DataAwsccAppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfig {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfuncti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfigurationRuntimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 dataawsccappsyncfunctionconfiguration.NewDataAwsccAppsyncFunctionConfigurationRuntimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncFunctionConfigurationRuntimeOutputReference
 ```
@@ -1196,7 +1196,7 @@ func InternalValue() DataAwsccAppsyncFunctionConfigurationRuntime
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 dataawsccappsyncfunctionconfiguration.NewDataAwsccAppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfigOutputReference
 ```
@@ -1456,7 +1456,7 @@ func InternalValue() DataAwsccAppsyncFunctionConfigurationSyncConfigLambdaConfli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncFunctionConfiguration.DataAwsccAppsyncFunctionConfigurationSyncConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncfunctionconfiguration"
 
 dataawsccappsyncfunctionconfiguration.NewDataAwsccAppsyncFunctionConfigurationSyncConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncFunctionConfigurationSyncConfigOutputReference
 ```

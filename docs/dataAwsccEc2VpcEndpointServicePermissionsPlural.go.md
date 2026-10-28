@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VpcEndpointServicePermissionsPlural <a name="DataAwsccEc2VpcEndpointServicePermissionsPlural" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointServicePermissionsPlural.DataAwsccEc2VpcEndpointServicePermissionsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointServicePermissionsPlural.DataAwsccEc2VpcEndpointServicePermissionsPlural.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointservicepermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointservicepermissionsplural"
 
 dataawsccec2vpcendpointservicepermissionsplural.NewDataAwsccEc2VpcEndpointServicePermissionsPlural(scope Construct, id *string, config DataAwsccEc2VpcEndpointServicePermissionsPluralConfig) DataAwsccEc2VpcEndpointServicePermissionsPlural
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointServicePermissionsPlural.DataAwsccEc2VpcEndpointServicePermissionsPlural.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointservicepermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointservicepermissionsplural"
 
 dataawsccec2vpcendpointservicepermissionsplural.DataAwsccEc2VpcEndpointServicePermissionsPlural_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointServicePermissionsPlural.DataAwsccEc2VpcEndpointServicePermissionsPlural.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointservicepermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointservicepermissionsplural"
 
 dataawsccec2vpcendpointservicepermissionsplural.DataAwsccEc2VpcEndpointServicePermissionsPlural_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2vpcendpointservicepermissionsplural.DataAwsccEc2VpcEndpointServicePe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointServicePermissionsPlural.DataAwsccEc2VpcEndpointServicePermissionsPlural.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointservicepermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointservicepermissionsplural"
 
 dataawsccec2vpcendpointservicepermissionsplural.DataAwsccEc2VpcEndpointServicePermissionsPlural_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2vpcendpointservicepermissionsplural.DataAwsccEc2VpcEndpointServicePe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointServicePermissionsPlural.DataAwsccEc2VpcEndpointServicePermissionsPlural.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointservicepermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointservicepermissionsplural"
 
 dataawsccec2vpcendpointservicepermissionsplural.DataAwsccEc2VpcEndpointServicePermissionsPlural_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpcEndpointSer
 
 The id of the existing DataAwsccEc2VpcEndpointServicePermissionsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointServicePermissionsPlural.DataAwsccEc2VpcEndpointServicePermissionsPluralConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpointservicepermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpointservicepermissionsplural"
 
 &dataawsccec2vpcendpointservicepermissionsplural.DataAwsccEc2VpcEndpointServicePermissionsPluralConfig {
 	Connection: interface{},

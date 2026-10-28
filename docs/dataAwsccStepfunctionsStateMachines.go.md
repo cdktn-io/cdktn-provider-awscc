@@ -4,12 +4,12 @@
 
 ### DataAwsccStepfunctionsStateMachines <a name="DataAwsccStepfunctionsStateMachines" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachines.DataAwsccStepfunctionsStateMachines"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_state_machines awscc_stepfunctions_state_machines}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_state_machines awscc_stepfunctions_state_machines}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachines.DataAwsccStepfunctionsStateMachines.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachines"
 
 dataawsccstepfunctionsstatemachines.NewDataAwsccStepfunctionsStateMachines(scope Construct, id *string, config DataAwsccStepfunctionsStateMachinesConfig) DataAwsccStepfunctionsStateMachines
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachines.DataAwsccStepfunctionsStateMachines.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachines"
 
 dataawsccstepfunctionsstatemachines.DataAwsccStepfunctionsStateMachines_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachines.DataAwsccStepfunctionsStateMachines.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachines"
 
 dataawsccstepfunctionsstatemachines.DataAwsccStepfunctionsStateMachines_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccstepfunctionsstatemachines.DataAwsccStepfunctionsStateMachines_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachines.DataAwsccStepfunctionsStateMachines.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachines"
 
 dataawsccstepfunctionsstatemachines.DataAwsccStepfunctionsStateMachines_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccstepfunctionsstatemachines.DataAwsccStepfunctionsStateMachines_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachines.DataAwsccStepfunctionsStateMachines.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachines"
 
 dataawsccstepfunctionsstatemachines.DataAwsccStepfunctionsStateMachines_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccStepfunctionsStat
 
 The id of the existing DataAwsccStepfunctionsStateMachines that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_state_machines#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_state_machines#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachines.DataAwsccStepfunctionsStateMachinesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachines"
 
 &dataawsccstepfunctionsstatemachines.DataAwsccStepfunctionsStateMachinesConfig {
 	Connection: interface{},

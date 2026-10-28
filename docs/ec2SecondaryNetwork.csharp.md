@@ -4,7 +4,7 @@
 
 ### Ec2SecondaryNetwork <a name="Ec2SecondaryNetwork" id="@cdktn/provider-awscc.ec2SecondaryNetwork.Ec2SecondaryNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_secondary_network awscc_ec2_secondary_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_secondary_network awscc_ec2_secondary_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SecondaryNetwork.Ec2SecondaryNetwork.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Ec2SecondaryNetwork to imp
 
 The id of the existing Ec2SecondaryNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_secondary_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_secondary_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -943,7 +943,7 @@ public string Ipv4CidrBlock { get; set; }
 
 The IPv4 CIDR block for the secondary network. The CIDR block size must be between /12 and /28.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_secondary_network#ipv_4_cidr_block Ec2SecondaryNetwork#ipv_4_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_secondary_network#ipv_4_cidr_block Ec2SecondaryNetwork#ipv_4_cidr_block}
 
 ---
 
@@ -957,7 +957,7 @@ public string NetworkType { get; set; }
 
 The type of secondary network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_secondary_network#network_type Ec2SecondaryNetwork#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_secondary_network#network_type Ec2SecondaryNetwork#network_type}
 
 ---
 
@@ -971,7 +971,7 @@ public IResolvable|Ec2SecondaryNetworkTags[] Tags { get; set; }
 
 The tags for the secondary network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_secondary_network#tags Ec2SecondaryNetwork#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_secondary_network#tags Ec2SecondaryNetwork#tags}
 
 ---
 
@@ -1020,7 +1020,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_secondary_network#key Ec2SecondaryNetwork#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_secondary_network#key Ec2SecondaryNetwork#key}
 
 ---
 
@@ -1034,7 +1034,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_secondary_network#value Ec2SecondaryNetwork#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_secondary_network#value Ec2SecondaryNetwork#value}
 
 ---
 

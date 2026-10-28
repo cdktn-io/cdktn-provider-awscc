@@ -4,12 +4,12 @@
 
 ### DataAwsccLocationTrackers <a name="DataAwsccLocationTrackers" id="@cdktn/provider-awscc.dataAwsccLocationTrackers.DataAwsccLocationTrackers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_trackers awscc_location_trackers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_trackers awscc_location_trackers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationTrackers.DataAwsccLocationTrackers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackers"
 
 dataawscclocationtrackers.NewDataAwsccLocationTrackers(scope Construct, id *string, config DataAwsccLocationTrackersConfig) DataAwsccLocationTrackers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLocationTrackers.DataAwsccLocationTrackers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackers"
 
 dataawscclocationtrackers.DataAwsccLocationTrackers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLocationTrackers.DataAwsccLocationTrackers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackers"
 
 dataawscclocationtrackers.DataAwsccLocationTrackers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclocationtrackers.DataAwsccLocationTrackers_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLocationTrackers.DataAwsccLocationTrackers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackers"
 
 dataawscclocationtrackers.DataAwsccLocationTrackers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclocationtrackers.DataAwsccLocationTrackers_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLocationTrackers.DataAwsccLocationTrackers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackers"
 
 dataawscclocationtrackers.DataAwsccLocationTrackers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLocationTrackers 
 
 The id of the existing DataAwsccLocationTrackers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_trackers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_trackers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationTrackers.DataAwsccLocationTrackersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackers"
 
 &dataawscclocationtrackers.DataAwsccLocationTrackersConfig {
 	Connection: interface{},

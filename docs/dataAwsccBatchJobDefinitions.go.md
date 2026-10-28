@@ -4,12 +4,12 @@
 
 ### DataAwsccBatchJobDefinitions <a name="DataAwsccBatchJobDefinitions" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinitions.DataAwsccBatchJobDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_job_definitions awscc_batch_job_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_job_definitions awscc_batch_job_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinitions.DataAwsccBatchJobDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinitions"
 
 dataawsccbatchjobdefinitions.NewDataAwsccBatchJobDefinitions(scope Construct, id *string, config DataAwsccBatchJobDefinitionsConfig) DataAwsccBatchJobDefinitions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinitions.DataAwsccBatchJobDefinitions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinitions"
 
 dataawsccbatchjobdefinitions.DataAwsccBatchJobDefinitions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinitions.DataAwsccBatchJobDefinitions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinitions"
 
 dataawsccbatchjobdefinitions.DataAwsccBatchJobDefinitions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbatchjobdefinitions.DataAwsccBatchJobDefinitions_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinitions.DataAwsccBatchJobDefinitions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinitions"
 
 dataawsccbatchjobdefinitions.DataAwsccBatchJobDefinitions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbatchjobdefinitions.DataAwsccBatchJobDefinitions_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinitions.DataAwsccBatchJobDefinitions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinitions"
 
 dataawsccbatchjobdefinitions.DataAwsccBatchJobDefinitions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBatchJobDefinitio
 
 The id of the existing DataAwsccBatchJobDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_job_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_job_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinitions.DataAwsccBatchJobDefinitionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinitions"
 
 &dataawsccbatchjobdefinitions.DataAwsccBatchJobDefinitionsConfig {
 	Connection: interface{},

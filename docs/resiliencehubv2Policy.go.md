@@ -4,12 +4,12 @@
 
 ### Resiliencehubv2Policy <a name="Resiliencehubv2Policy" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2Policy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy awscc_resiliencehubv2_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy awscc_resiliencehubv2_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2Policy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 resiliencehubv2policy.NewResiliencehubv2Policy(scope Construct, id *string, config Resiliencehubv2PolicyConfig) Resiliencehubv2Policy
 ```
@@ -521,7 +521,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2Policy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 resiliencehubv2policy.Resiliencehubv2Policy_IsConstruct(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2Policy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 resiliencehubv2policy.Resiliencehubv2Policy_IsTerraformElement(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ resiliencehubv2policy.Resiliencehubv2Policy_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2Policy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 resiliencehubv2policy.Resiliencehubv2Policy_IsTerraformResource(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ resiliencehubv2policy.Resiliencehubv2Policy_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2Policy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 resiliencehubv2policy.Resiliencehubv2Policy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -610,7 +610,7 @@ The construct id used in the generated config for the Resiliencehubv2Policy to i
 
 The id of the existing Resiliencehubv2Policy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1063,7 +1063,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyAvailabilitySlo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 &resiliencehubv2policy.Resiliencehubv2PolicyAvailabilitySlo {
 	Target: *f64,
@@ -1088,7 +1088,7 @@ Target *f64
 
 Availability target percentage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#target Resiliencehubv2Policy#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#target Resiliencehubv2Policy#target}
 
 ---
 
@@ -1097,7 +1097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 &resiliencehubv2policy.Resiliencehubv2PolicyConfig {
 	Connection: interface{},
@@ -1108,12 +1108,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	AvailabilitySlo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.resiliencehubv2Policy.Resiliencehubv2PolicyAvailabilitySlo,
-	DataRecovery: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.resiliencehubv2Policy.Resiliencehubv2PolicyDataRecovery,
+	AvailabilitySlo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resiliencehubv2Policy.Resiliencehubv2PolicyAvailabilitySlo,
+	DataRecovery: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resiliencehubv2Policy.Resiliencehubv2PolicyDataRecovery,
 	Description: *string,
 	KmsKeyId: *string,
-	MultiAz: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiAz,
-	MultiRegion: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiRegion,
+	MultiAz: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resiliencehubv2Policy.Resiliencehubv2PolicyMultiAz,
+	MultiRegion: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resiliencehubv2Policy.Resiliencehubv2PolicyMultiRegion,
 	SharingEnabled: interface{},
 	Tags: interface{},
 }
@@ -1131,12 +1131,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.name">Name</a></code> | <code>*string</code> | The name of the policy. |
-| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.availabilitySlo">AvailabilitySlo</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyAvailabilitySlo">Resiliencehubv2PolicyAvailabilitySlo</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#availability_slo Resiliencehubv2Policy#availability_slo}. |
-| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.dataRecovery">DataRecovery</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyDataRecovery">Resiliencehubv2PolicyDataRecovery</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#data_recovery Resiliencehubv2Policy#data_recovery}. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.availabilitySlo">AvailabilitySlo</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyAvailabilitySlo">Resiliencehubv2PolicyAvailabilitySlo</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#availability_slo Resiliencehubv2Policy#availability_slo}. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.dataRecovery">DataRecovery</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyDataRecovery">Resiliencehubv2PolicyDataRecovery</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#data_recovery Resiliencehubv2Policy#data_recovery}. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.description">Description</a></code> | <code>*string</code> | The description of the policy. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.kmsKeyId">KmsKeyId</a></code> | <code>*string</code> | The KMS key ID for encrypting policy data. |
-| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.multiAz">MultiAz</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiAz">Resiliencehubv2PolicyMultiAz</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#multi_az Resiliencehubv2Policy#multi_az}. |
-| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.multiRegion">MultiRegion</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiRegion">Resiliencehubv2PolicyMultiRegion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#multi_region Resiliencehubv2Policy#multi_region}. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.multiAz">MultiAz</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiAz">Resiliencehubv2PolicyMultiAz</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#multi_az Resiliencehubv2Policy#multi_az}. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.multiRegion">MultiRegion</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiRegion">Resiliencehubv2PolicyMultiRegion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#multi_region Resiliencehubv2Policy#multi_region}. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.sharingEnabled">SharingEnabled</a></code> | <code>interface{}</code> | Whether the policy is enabled to be shared with other members of the Organization. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Tags assigned to the policy. |
 
@@ -1222,7 +1222,7 @@ Name *string
 
 The name of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#name Resiliencehubv2Policy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#name Resiliencehubv2Policy#name}
 
 ---
 
@@ -1234,7 +1234,7 @@ AvailabilitySlo Resiliencehubv2PolicyAvailabilitySlo
 
 - *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyAvailabilitySlo">Resiliencehubv2PolicyAvailabilitySlo</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#availability_slo Resiliencehubv2Policy#availability_slo}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#availability_slo Resiliencehubv2Policy#availability_slo}.
 
 ---
 
@@ -1246,7 +1246,7 @@ DataRecovery Resiliencehubv2PolicyDataRecovery
 
 - *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyDataRecovery">Resiliencehubv2PolicyDataRecovery</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#data_recovery Resiliencehubv2Policy#data_recovery}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#data_recovery Resiliencehubv2Policy#data_recovery}.
 
 ---
 
@@ -1260,7 +1260,7 @@ Description *string
 
 The description of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#description Resiliencehubv2Policy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#description Resiliencehubv2Policy#description}
 
 ---
 
@@ -1274,7 +1274,7 @@ KmsKeyId *string
 
 The KMS key ID for encrypting policy data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#kms_key_id Resiliencehubv2Policy#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#kms_key_id Resiliencehubv2Policy#kms_key_id}
 
 ---
 
@@ -1286,7 +1286,7 @@ MultiAz Resiliencehubv2PolicyMultiAz
 
 - *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiAz">Resiliencehubv2PolicyMultiAz</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#multi_az Resiliencehubv2Policy#multi_az}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#multi_az Resiliencehubv2Policy#multi_az}.
 
 ---
 
@@ -1298,7 +1298,7 @@ MultiRegion Resiliencehubv2PolicyMultiRegion
 
 - *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiRegion">Resiliencehubv2PolicyMultiRegion</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#multi_region Resiliencehubv2Policy#multi_region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#multi_region Resiliencehubv2Policy#multi_region}.
 
 ---
 
@@ -1314,7 +1314,7 @@ Whether the policy is enabled to be shared with other members of the Organizatio
 
 Only applicable if the policy owner is a management account or delegated admin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#sharing_enabled Resiliencehubv2Policy#sharing_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#sharing_enabled Resiliencehubv2Policy#sharing_enabled}
 
 ---
 
@@ -1328,7 +1328,7 @@ Tags interface{}
 
 Tags assigned to the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#tags Resiliencehubv2Policy#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#tags Resiliencehubv2Policy#tags}
 
 ---
 
@@ -1337,7 +1337,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyDataRecovery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 &resiliencehubv2policy.Resiliencehubv2PolicyDataRecovery {
 	TimeBetweenBackupsInMinutes: *f64,
@@ -1362,7 +1362,7 @@ TimeBetweenBackupsInMinutes *f64
 
 Time between backups in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#time_between_backups_in_minutes Resiliencehubv2Policy#time_between_backups_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#time_between_backups_in_minutes Resiliencehubv2Policy#time_between_backups_in_minutes}
 
 ---
 
@@ -1371,7 +1371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiAz.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 &resiliencehubv2policy.Resiliencehubv2PolicyMultiAz {
 	DisasterRecoveryApproach: *string,
@@ -1400,7 +1400,7 @@ DisasterRecoveryApproach *string
 
 Multi-AZ disaster recovery approach.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#disaster_recovery_approach Resiliencehubv2Policy#disaster_recovery_approach}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#disaster_recovery_approach Resiliencehubv2Policy#disaster_recovery_approach}
 
 ---
 
@@ -1414,7 +1414,7 @@ RpoInMinutes *f64
 
 Recovery Point Objective in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#rpo_in_minutes Resiliencehubv2Policy#rpo_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#rpo_in_minutes Resiliencehubv2Policy#rpo_in_minutes}
 
 ---
 
@@ -1428,7 +1428,7 @@ RtoInMinutes *f64
 
 Recovery Time Objective in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#rto_in_minutes Resiliencehubv2Policy#rto_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#rto_in_minutes Resiliencehubv2Policy#rto_in_minutes}
 
 ---
 
@@ -1437,7 +1437,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiRegion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 &resiliencehubv2policy.Resiliencehubv2PolicyMultiRegion {
 	DisasterRecoveryApproach: *string,
@@ -1466,7 +1466,7 @@ DisasterRecoveryApproach *string
 
 Multi-Region disaster recovery approach.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#disaster_recovery_approach Resiliencehubv2Policy#disaster_recovery_approach}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#disaster_recovery_approach Resiliencehubv2Policy#disaster_recovery_approach}
 
 ---
 
@@ -1480,7 +1480,7 @@ RpoInMinutes *f64
 
 Recovery Point Objective in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#rpo_in_minutes Resiliencehubv2Policy#rpo_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#rpo_in_minutes Resiliencehubv2Policy#rpo_in_minutes}
 
 ---
 
@@ -1494,7 +1494,7 @@ RtoInMinutes *f64
 
 Recovery Time Objective in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#rto_in_minutes Resiliencehubv2Policy#rto_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#rto_in_minutes Resiliencehubv2Policy#rto_in_minutes}
 
 ---
 
@@ -1503,7 +1503,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 &resiliencehubv2policy.Resiliencehubv2PolicyTags {
 	Key: *string,
@@ -1530,7 +1530,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#key Resiliencehubv2Policy#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#key Resiliencehubv2Policy#key}
 
 ---
 
@@ -1544,7 +1544,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy#value Resiliencehubv2Policy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy#value Resiliencehubv2Policy#value}
 
 ---
 
@@ -1555,7 +1555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyAvailabilitySloOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 resiliencehubv2policy.NewResiliencehubv2PolicyAvailabilitySloOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2PolicyAvailabilitySloOutputReference
 ```
@@ -1833,7 +1833,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyDataRecoveryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 resiliencehubv2policy.NewResiliencehubv2PolicyDataRecoveryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2PolicyDataRecoveryOutputReference
 ```
@@ -2111,7 +2111,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiAzOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 resiliencehubv2policy.NewResiliencehubv2PolicyMultiAzOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2PolicyMultiAzOutputReference
 ```
@@ -2447,7 +2447,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyMultiRegionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 resiliencehubv2policy.NewResiliencehubv2PolicyMultiRegionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2PolicyMultiRegionOutputReference
 ```
@@ -2783,7 +2783,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 resiliencehubv2policy.NewResiliencehubv2PolicyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Resiliencehubv2PolicyTagsList
 ```
@@ -2943,7 +2943,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Policy.Resiliencehubv2PolicyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy"
 
 resiliencehubv2policy.NewResiliencehubv2PolicyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Resiliencehubv2PolicyTagsOutputReference
 ```

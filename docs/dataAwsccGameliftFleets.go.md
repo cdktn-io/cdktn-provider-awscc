@@ -4,12 +4,12 @@
 
 ### DataAwsccGameliftFleets <a name="DataAwsccGameliftFleets" id="@cdktn/provider-awscc.dataAwsccGameliftFleets.DataAwsccGameliftFleets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_fleets awscc_gamelift_fleets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_fleets awscc_gamelift_fleets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleets.DataAwsccGameliftFleets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleets"
 
 dataawsccgameliftfleets.NewDataAwsccGameliftFleets(scope Construct, id *string, config DataAwsccGameliftFleetsConfig) DataAwsccGameliftFleets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGameliftFleets.DataAwsccGameliftFleets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleets"
 
 dataawsccgameliftfleets.DataAwsccGameliftFleets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGameliftFleets.DataAwsccGameliftFleets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleets"
 
 dataawsccgameliftfleets.DataAwsccGameliftFleets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgameliftfleets.DataAwsccGameliftFleets_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGameliftFleets.DataAwsccGameliftFleets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleets"
 
 dataawsccgameliftfleets.DataAwsccGameliftFleets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgameliftfleets.DataAwsccGameliftFleets_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGameliftFleets.DataAwsccGameliftFleets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleets"
 
 dataawsccgameliftfleets.DataAwsccGameliftFleets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGameliftFleets to
 
 The id of the existing DataAwsccGameliftFleets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_fleets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_fleets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleets.DataAwsccGameliftFleetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleets"
 
 &dataawsccgameliftfleets.DataAwsccGameliftFleetsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccDirectoryserviceSimpleAd <a name="DataAwsccDirectoryserviceSimpleAd" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAd"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directoryservice_simple_ad awscc_directoryservice_simple_ad}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directoryservice_simple_ad awscc_directoryservice_simple_ad}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicesimplead"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicesimplead"
 
 dataawsccdirectoryservicesimplead.NewDataAwsccDirectoryserviceSimpleAd(scope Construct, id *string, config DataAwsccDirectoryserviceSimpleAdConfig) DataAwsccDirectoryserviceSimpleAd
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAd.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicesimplead"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicesimplead"
 
 dataawsccdirectoryservicesimplead.DataAwsccDirectoryserviceSimpleAd_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAd.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicesimplead"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicesimplead"
 
 dataawsccdirectoryservicesimplead.DataAwsccDirectoryserviceSimpleAd_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdirectoryservicesimplead.DataAwsccDirectoryserviceSimpleAd_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAd.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicesimplead"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicesimplead"
 
 dataawsccdirectoryservicesimplead.DataAwsccDirectoryserviceSimpleAd_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdirectoryservicesimplead.DataAwsccDirectoryserviceSimpleAd_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAd.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicesimplead"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicesimplead"
 
 dataawsccdirectoryservicesimplead.DataAwsccDirectoryserviceSimpleAd_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDirectoryserviceS
 
 The id of the existing DataAwsccDirectoryserviceSimpleAd that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directoryservice_simple_ad#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directoryservice_simple_ad#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAdConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicesimplead"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicesimplead"
 
 &dataawsccdirectoryservicesimplead.DataAwsccDirectoryserviceSimpleAdConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directoryservice_simple_ad#id DataAwsccDirectoryserviceSimpleAd#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directoryservice_simple_ad#id DataAwsccDirectoryserviceSimpleAd#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAdTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicesimplead"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicesimplead"
 
 &dataawsccdirectoryservicesimplead.DataAwsccDirectoryserviceSimpleAdTags {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAdVpcSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicesimplead"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicesimplead"
 
 &dataawsccdirectoryservicesimplead.DataAwsccDirectoryserviceSimpleAdVpcSettings {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryserv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAdTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicesimplead"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicesimplead"
 
 dataawsccdirectoryservicesimplead.NewDataAwsccDirectoryserviceSimpleAdTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDirectoryserviceSimpleAdTagsList
 ```
@@ -1017,7 +1017,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAdTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicesimplead"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicesimplead"
 
 dataawsccdirectoryservicesimplead.NewDataAwsccDirectoryserviceSimpleAdTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDirectoryserviceSimpleAdTagsOutputReference
 ```
@@ -1306,7 +1306,7 @@ func InternalValue() DataAwsccDirectoryserviceSimpleAdTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceSimpleAd.DataAwsccDirectoryserviceSimpleAdVpcSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicesimplead"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicesimplead"
 
 dataawsccdirectoryservicesimplead.NewDataAwsccDirectoryserviceSimpleAdVpcSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDirectoryserviceSimpleAdVpcSettingsOutputReference
 ```

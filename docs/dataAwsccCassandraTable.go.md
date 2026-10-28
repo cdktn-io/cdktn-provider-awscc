@@ -4,12 +4,12 @@
 
 ### DataAwsccCassandraTable <a name="DataAwsccCassandraTable" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cassandra_table awscc_cassandra_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cassandra_table awscc_cassandra_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTable(scope Construct, id *string, config DataAwsccCassandraTableConfig) DataAwsccCassandraTable
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.DataAwsccCassandraTable_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.DataAwsccCassandraTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccassandratable.DataAwsccCassandraTable_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTable.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.DataAwsccCassandraTable_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccassandratable.DataAwsccCassandraTable_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.DataAwsccCassandraTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCassandraTable to
 
 The id of the existing DataAwsccCassandraTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cassandra_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cassandra_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableAutoScalingSpecifications {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScaling {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicy {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicy {
 
@@ -830,7 +830,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration {
 
@@ -843,7 +843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableBillingMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableBillingMode {
 
@@ -856,7 +856,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableBillingModeProvisionedThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableBillingModeProvisionedThroughput {
 
@@ -869,7 +869,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableCdcSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableCdcSpecification {
 
@@ -882,7 +882,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableCdcSpecificationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableCdcSpecificationTags {
 
@@ -895,7 +895,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableClusteringKeyColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableClusteringKeyColumns {
 
@@ -908,7 +908,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableClusteringKeyColumnsColumn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableClusteringKeyColumnsColumn {
 
@@ -921,7 +921,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableConfig {
 	Connection: interface{},
@@ -1030,7 +1030,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cassandra_table#id DataAwsccCassandraTable#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cassandra_table#id DataAwsccCassandraTable#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1042,7 +1042,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableEncryptionSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableEncryptionSpecification {
 
@@ -1055,7 +1055,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTablePartitionKeyColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTablePartitionKeyColumns {
 
@@ -1068,7 +1068,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableRegularColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableRegularColumns {
 
@@ -1081,7 +1081,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableReplicaSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableReplicaSpecifications {
 
@@ -1094,7 +1094,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScaling {
 
@@ -1107,7 +1107,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicy {
 
@@ -1120,7 +1120,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration {
 
@@ -1133,7 +1133,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableTags {
 
@@ -1146,7 +1146,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableWarmThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 &dataawscccassandratable.DataAwsccCassandraTableWarmThroughput {
 
@@ -1161,7 +1161,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratabl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableAutoScalingSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableAutoScalingSpecificationsOutputReference
 ```
@@ -1432,7 +1432,7 @@ func InternalValue() DataAwsccCassandraTableAutoScalingSpecifications
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingOutputReference
 ```
@@ -1725,7 +1725,7 @@ func InternalValue() DataAwsccCassandraTableAutoScalingSpecificationsReadCapacit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference
 ```
@@ -1985,7 +1985,7 @@ func InternalValue() DataAwsccCassandraTableAutoScalingSpecificationsReadCapacit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference
 ```
@@ -2278,7 +2278,7 @@ func InternalValue() DataAwsccCassandraTableAutoScalingSpecificationsReadCapacit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingOutputReference
 ```
@@ -2571,7 +2571,7 @@ func InternalValue() DataAwsccCassandraTableAutoScalingSpecificationsWriteCapaci
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyOutputReference
 ```
@@ -2831,7 +2831,7 @@ func InternalValue() DataAwsccCassandraTableAutoScalingSpecificationsWriteCapaci
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference
 ```
@@ -3124,7 +3124,7 @@ func InternalValue() DataAwsccCassandraTableAutoScalingSpecificationsWriteCapaci
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableBillingModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableBillingModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableBillingModeOutputReference
 ```
@@ -3395,7 +3395,7 @@ func InternalValue() DataAwsccCassandraTableBillingMode
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableBillingModeProvisionedThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableBillingModeProvisionedThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableBillingModeProvisionedThroughputOutputReference
 ```
@@ -3666,7 +3666,7 @@ func InternalValue() DataAwsccCassandraTableBillingModeProvisionedThroughput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableCdcSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableCdcSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableCdcSpecificationOutputReference
 ```
@@ -3948,7 +3948,7 @@ func InternalValue() DataAwsccCassandraTableCdcSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableCdcSpecificationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableCdcSpecificationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCassandraTableCdcSpecificationTagsList
 ```
@@ -4097,7 +4097,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableCdcSpecificationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableCdcSpecificationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCassandraTableCdcSpecificationTagsOutputReference
 ```
@@ -4386,7 +4386,7 @@ func InternalValue() DataAwsccCassandraTableCdcSpecificationTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableClusteringKeyColumnsColumnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableClusteringKeyColumnsColumnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableClusteringKeyColumnsColumnOutputReference
 ```
@@ -4657,7 +4657,7 @@ func InternalValue() DataAwsccCassandraTableClusteringKeyColumnsColumn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableClusteringKeyColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableClusteringKeyColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCassandraTableClusteringKeyColumnsList
 ```
@@ -4806,7 +4806,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableClusteringKeyColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableClusteringKeyColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCassandraTableClusteringKeyColumnsOutputReference
 ```
@@ -5095,7 +5095,7 @@ func InternalValue() DataAwsccCassandraTableClusteringKeyColumns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableEncryptionSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableEncryptionSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableEncryptionSpecificationOutputReference
 ```
@@ -5366,7 +5366,7 @@ func InternalValue() DataAwsccCassandraTableEncryptionSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTablePartitionKeyColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTablePartitionKeyColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCassandraTablePartitionKeyColumnsList
 ```
@@ -5515,7 +5515,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTablePartitionKeyColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTablePartitionKeyColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCassandraTablePartitionKeyColumnsOutputReference
 ```
@@ -5804,7 +5804,7 @@ func InternalValue() DataAwsccCassandraTablePartitionKeyColumns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableRegularColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableRegularColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCassandraTableRegularColumnsList
 ```
@@ -5953,7 +5953,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableRegularColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableRegularColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCassandraTableRegularColumnsOutputReference
 ```
@@ -6242,7 +6242,7 @@ func InternalValue() DataAwsccCassandraTableRegularColumns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableReplicaSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableReplicaSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCassandraTableReplicaSpecificationsList
 ```
@@ -6391,7 +6391,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableReplicaSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableReplicaSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCassandraTableReplicaSpecificationsOutputReference
 ```
@@ -6691,7 +6691,7 @@ func InternalValue() DataAwsccCassandraTableReplicaSpecifications
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingOutputReference
 ```
@@ -6984,7 +6984,7 @@ func InternalValue() DataAwsccCassandraTableReplicaSpecificationsReadCapacityAut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference
 ```
@@ -7244,7 +7244,7 @@ func InternalValue() DataAwsccCassandraTableReplicaSpecificationsReadCapacityAut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference
 ```
@@ -7537,7 +7537,7 @@ func InternalValue() DataAwsccCassandraTableReplicaSpecificationsReadCapacityAut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCassandraTableTagsList
 ```
@@ -7686,7 +7686,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCassandraTableTagsOutputReference
 ```
@@ -7975,7 +7975,7 @@ func InternalValue() DataAwsccCassandraTableTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraTable.DataAwsccCassandraTableWarmThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable"
 
 dataawscccassandratable.NewDataAwsccCassandraTableWarmThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraTableWarmThroughputOutputReference
 ```

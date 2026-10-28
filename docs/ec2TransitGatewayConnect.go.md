@@ -4,12 +4,12 @@
 
 ### Ec2TransitGatewayConnect <a name="Ec2TransitGatewayConnect" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnect"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_connect awscc_ec2_transit_gateway_connect}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_connect awscc_ec2_transit_gateway_connect}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconnect"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayconnect"
 
 ec2transitgatewayconnect.NewEc2TransitGatewayConnect(scope Construct, id *string, config Ec2TransitGatewayConnectConfig) Ec2TransitGatewayConnect
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnect.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconnect"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayconnect"
 
 ec2transitgatewayconnect.Ec2TransitGatewayConnect_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnect.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconnect"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayconnect"
 
 ec2transitgatewayconnect.Ec2TransitGatewayConnect_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ ec2transitgatewayconnect.Ec2TransitGatewayConnect_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnect.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconnect"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayconnect"
 
 ec2transitgatewayconnect.Ec2TransitGatewayConnect_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ ec2transitgatewayconnect.Ec2TransitGatewayConnect_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnect.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconnect"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayconnect"
 
 ec2transitgatewayconnect.Ec2TransitGatewayConnect_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the Ec2TransitGatewayConnect t
 
 The id of the existing Ec2TransitGatewayConnect that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_connect#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_connect#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -843,7 +843,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconnect"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayconnect"
 
 &ec2transitgatewayconnect.Ec2TransitGatewayConnectConfig {
 	Connection: interface{},
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconne
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnectOptions,
+	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2TransitGatewayConnect.Ec2TransitGatewayConnectOptions,
 	TransportTransitGatewayAttachmentId: *string,
 	Tags: interface{},
 }
@@ -956,7 +956,7 @@ Options Ec2TransitGatewayConnectOptions
 
 The Connect attachment options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_connect#options Ec2TransitGatewayConnect#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_connect#options Ec2TransitGatewayConnect#options}
 
 ---
 
@@ -970,7 +970,7 @@ TransportTransitGatewayAttachmentId *string
 
 The ID of the attachment from which the Connect attachment was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_connect#transport_transit_gateway_attachment_id Ec2TransitGatewayConnect#transport_transit_gateway_attachment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_connect#transport_transit_gateway_attachment_id Ec2TransitGatewayConnect#transport_transit_gateway_attachment_id}
 
 ---
 
@@ -984,7 +984,7 @@ Tags interface{}
 
 The tags for the attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_connect#tags Ec2TransitGatewayConnect#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_connect#tags Ec2TransitGatewayConnect#tags}
 
 ---
 
@@ -993,7 +993,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnectOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconnect"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayconnect"
 
 &ec2transitgatewayconnect.Ec2TransitGatewayConnectOptions {
 	Protocol: *string,
@@ -1018,7 +1018,7 @@ Protocol *string
 
 The tunnel protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_connect#protocol Ec2TransitGatewayConnect#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_connect#protocol Ec2TransitGatewayConnect#protocol}
 
 ---
 
@@ -1027,7 +1027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnectTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconnect"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayconnect"
 
 &ec2transitgatewayconnect.Ec2TransitGatewayConnectTags {
 	Key: *string,
@@ -1056,7 +1056,7 @@ The key of the tag.
 
 Constraints: Tag keys are case-sensitive and accept a maximum of 127 Unicode characters. May not begin with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_connect#key Ec2TransitGatewayConnect#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_connect#key Ec2TransitGatewayConnect#key}
 
 ---
 
@@ -1070,7 +1070,7 @@ Value *string
 
 The value of the tag. Constraints: Tag values are case-sensitive and accept a maximum of 255 Unicode characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_connect#value Ec2TransitGatewayConnect#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_connect#value Ec2TransitGatewayConnect#value}
 
 ---
 
@@ -1081,7 +1081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnectOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconnect"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayconnect"
 
 ec2transitgatewayconnect.NewEc2TransitGatewayConnectOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2TransitGatewayConnectOptionsOutputReference
 ```
@@ -1359,7 +1359,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnectTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconnect"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayconnect"
 
 ec2transitgatewayconnect.NewEc2TransitGatewayConnectTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2TransitGatewayConnectTagsList
 ```
@@ -1519,7 +1519,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TransitGatewayConnect.Ec2TransitGatewayConnectTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayconnect"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayconnect"
 
 ec2transitgatewayconnect.NewEc2TransitGatewayConnectTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2TransitGatewayConnectTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### MemorydbUser <a name="MemorydbUser" id="@cdktn/provider-awscc.memorydbUser.MemorydbUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_user awscc_memorydb_user}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_user awscc_memorydb_user}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbUser.MemorydbUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbuser"
 
 memorydbuser.NewMemorydbUser(scope Construct, id *string, config MemorydbUserConfig) MemorydbUser
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.memorydbUser.MemorydbUser.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbuser"
 
 memorydbuser.MemorydbUser_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.memorydbUser.MemorydbUser.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbuser"
 
 memorydbuser.MemorydbUser_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ memorydbuser.MemorydbUser_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.memorydbUser.MemorydbUser.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbuser"
 
 memorydbuser.MemorydbUser_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ memorydbuser.MemorydbUser_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.memorydbUser.MemorydbUser.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbuser"
 
 memorydbuser.MemorydbUser_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the MemorydbUser to import.
 
 The id of the existing MemorydbUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_user#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -857,7 +857,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbUser.MemorydbUserAuthenticationMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbuser"
 
 &memorydbuser.MemorydbUserAuthenticationMode {
 	Passwords: *[]*string,
@@ -884,7 +884,7 @@ Passwords *[]*string
 
 Passwords used for this user account. You can create up to two passwords for each user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_user#passwords MemorydbUser#passwords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_user#passwords MemorydbUser#passwords}
 
 ---
 
@@ -898,7 +898,7 @@ Type *string
 
 Type of authentication strategy for this user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_user#type MemorydbUser#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_user#type MemorydbUser#type}
 
 ---
 
@@ -907,7 +907,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbUser.MemorydbUserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbuser"
 
 &memorydbuser.MemorydbUserConfig {
 	Connection: interface{},
@@ -919,7 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
 	Provisioners: *[]interface{},
 	UserName: *string,
 	AccessString: *string,
-	AuthenticationMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.memorydbUser.MemorydbUserAuthenticationMode,
+	AuthenticationMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.memorydbUser.MemorydbUserAuthenticationMode,
 	Tags: interface{},
 }
 ```
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
 | <code><a href="#@cdktn/provider-awscc.memorydbUser.MemorydbUserConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.memorydbUser.MemorydbUserConfig.property.userName">UserName</a></code> | <code>*string</code> | The name of the user. |
 | <code><a href="#@cdktn/provider-awscc.memorydbUser.MemorydbUserConfig.property.accessString">AccessString</a></code> | <code>*string</code> | Access permissions string used for this user account. |
-| <code><a href="#@cdktn/provider-awscc.memorydbUser.MemorydbUserConfig.property.authenticationMode">AuthenticationMode</a></code> | <code><a href="#@cdktn/provider-awscc.memorydbUser.MemorydbUserAuthenticationMode">MemorydbUserAuthenticationMode</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_user#authentication_mode MemorydbUser#authentication_mode}. |
+| <code><a href="#@cdktn/provider-awscc.memorydbUser.MemorydbUserConfig.property.authenticationMode">AuthenticationMode</a></code> | <code><a href="#@cdktn/provider-awscc.memorydbUser.MemorydbUserAuthenticationMode">MemorydbUserAuthenticationMode</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_user#authentication_mode MemorydbUser#authentication_mode}. |
 | <code><a href="#@cdktn/provider-awscc.memorydbUser.MemorydbUserConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this user. |
 
 ---
@@ -1022,7 +1022,7 @@ UserName *string
 
 The name of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_user#user_name MemorydbUser#user_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_user#user_name MemorydbUser#user_name}
 
 ---
 
@@ -1036,7 +1036,7 @@ AccessString *string
 
 Access permissions string used for this user account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_user#access_string MemorydbUser#access_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_user#access_string MemorydbUser#access_string}
 
 ---
 
@@ -1048,7 +1048,7 @@ AuthenticationMode MemorydbUserAuthenticationMode
 
 - *Type:* <a href="#@cdktn/provider-awscc.memorydbUser.MemorydbUserAuthenticationMode">MemorydbUserAuthenticationMode</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_user#authentication_mode MemorydbUser#authentication_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_user#authentication_mode MemorydbUser#authentication_mode}.
 
 ---
 
@@ -1062,7 +1062,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_user#tags MemorydbUser#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_user#tags MemorydbUser#tags}
 
 ---
 
@@ -1071,7 +1071,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbUser.MemorydbUserTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbuser"
 
 &memorydbuser.MemorydbUserTags {
 	Key: *string,
@@ -1100,7 +1100,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with 'aws:'. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_user#key MemorydbUser#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_user#key MemorydbUser#key}
 
 ---
 
@@ -1116,7 +1116,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_user#value MemorydbUser#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_user#value MemorydbUser#value}
 
 ---
 
@@ -1127,7 +1127,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbUser.MemorydbUserAuthenticationModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbuser"
 
 memorydbuser.NewMemorydbUserAuthenticationModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MemorydbUserAuthenticationModeOutputReference
 ```
@@ -1434,7 +1434,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbUser.MemorydbUserTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbuser"
 
 memorydbuser.NewMemorydbUserTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MemorydbUserTagsList
 ```
@@ -1594,7 +1594,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbUser.MemorydbUserTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbuser"
 
 memorydbuser.NewMemorydbUserTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MemorydbUserTagsOutputReference
 ```

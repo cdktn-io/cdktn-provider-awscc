@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VpcGatewayAttachment <a name="DataAwsccEc2VpcGatewayAttachment" id="@cdktn/provider-awscc.dataAwsccEc2VpcGatewayAttachment.DataAwsccEc2VpcGatewayAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcGatewayAttachment.DataAwsccEc2VpcGatewayAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcgatewayattachment"
 
 dataawsccec2vpcgatewayattachment.NewDataAwsccEc2VpcGatewayAttachment(scope Construct, id *string, config DataAwsccEc2VpcGatewayAttachmentConfig) DataAwsccEc2VpcGatewayAttachment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VpcGatewayAttachment.DataAwsccEc2VpcGatewayAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcgatewayattachment"
 
 dataawsccec2vpcgatewayattachment.DataAwsccEc2VpcGatewayAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VpcGatewayAttachment.DataAwsccEc2VpcGatewayAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcgatewayattachment"
 
 dataawsccec2vpcgatewayattachment.DataAwsccEc2VpcGatewayAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2vpcgatewayattachment.DataAwsccEc2VpcGatewayAttachment_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VpcGatewayAttachment.DataAwsccEc2VpcGatewayAttachment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcgatewayattachment"
 
 dataawsccec2vpcgatewayattachment.DataAwsccEc2VpcGatewayAttachment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2vpcgatewayattachment.DataAwsccEc2VpcGatewayAttachment_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VpcGatewayAttachment.DataAwsccEc2VpcGatewayAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcgatewayattachment"
 
 dataawsccec2vpcgatewayattachment.DataAwsccEc2VpcGatewayAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpcGatewayAtta
 
 The id of the existing DataAwsccEc2VpcGatewayAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_gateway_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_gateway_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpcGatewayAttachment.DataAwsccEc2VpcGatewayAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcgatewayattachment"
 
 &dataawsccec2vpcgatewayattachment.DataAwsccEc2VpcGatewayAttachmentConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_gateway_attachment#id DataAwsccEc2VpcGatewayAttachment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_gateway_attachment#id DataAwsccEc2VpcGatewayAttachment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

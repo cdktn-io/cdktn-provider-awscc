@@ -4,12 +4,12 @@
 
 ### DataAwsccGlobalacceleratorCrossAccountAttachment <a name="DataAwsccGlobalacceleratorCrossAccountAttachment" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 dataawsccglobalacceleratorcrossaccountattachment.NewDataAwsccGlobalacceleratorCrossAccountAttachment(scope Construct, id *string, config DataAwsccGlobalacceleratorCrossAccountAttachmentConfig) DataAwsccGlobalacceleratorCrossAccountAttachment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 dataawsccglobalacceleratorcrossaccountattachment.DataAwsccGlobalacceleratorCrossAccountAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 dataawsccglobalacceleratorcrossaccountattachment.DataAwsccGlobalacceleratorCrossAccountAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccglobalacceleratorcrossaccountattachment.DataAwsccGlobalacceleratorCross
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 dataawsccglobalacceleratorcrossaccountattachment.DataAwsccGlobalacceleratorCrossAccountAttachment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccglobalacceleratorcrossaccountattachment.DataAwsccGlobalacceleratorCross
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 dataawsccglobalacceleratorcrossaccountattachment.DataAwsccGlobalacceleratorCrossAccountAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlobalaccelerator
 
 The id of the existing DataAwsccGlobalacceleratorCrossAccountAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/globalaccelerator_cross_account_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/globalaccelerator_cross_account_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 &dataawsccglobalacceleratorcrossaccountattachment.DataAwsccGlobalacceleratorCrossAccountAttachmentConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/globalaccelerator_cross_account_attachment#id DataAwsccGlobalacceleratorCrossAccountAttachment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/globalaccelerator_cross_account_attachment#id DataAwsccGlobalacceleratorCrossAccountAttachment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachmentResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 &dataawsccglobalacceleratorcrossaccountattachment.DataAwsccGlobalacceleratorCrossAccountAttachmentResources {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceler
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 &dataawsccglobalacceleratorcrossaccountattachment.DataAwsccGlobalacceleratorCrossAccountAttachmentTags {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceler
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachmentResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 dataawsccglobalacceleratorcrossaccountattachment.NewDataAwsccGlobalacceleratorCrossAccountAttachmentResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlobalacceleratorCrossAccountAttachmentResourcesList
 ```
@@ -940,7 +940,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachmentResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 dataawsccglobalacceleratorcrossaccountattachment.NewDataAwsccGlobalacceleratorCrossAccountAttachmentResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlobalacceleratorCrossAccountAttachmentResourcesOutputReference
 ```
@@ -1240,7 +1240,7 @@ func InternalValue() DataAwsccGlobalacceleratorCrossAccountAttachmentResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 dataawsccglobalacceleratorcrossaccountattachment.NewDataAwsccGlobalacceleratorCrossAccountAttachmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlobalacceleratorCrossAccountAttachmentTagsList
 ```
@@ -1389,7 +1389,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorCrossAccountAttachment.DataAwsccGlobalacceleratorCrossAccountAttachmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachment"
 
 dataawsccglobalacceleratorcrossaccountattachment.NewDataAwsccGlobalacceleratorCrossAccountAttachmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlobalacceleratorCrossAccountAttachmentTagsOutputReference
 ```

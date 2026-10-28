@@ -4,7 +4,7 @@
 
 ### EcsService <a name="EcsService" id="@cdktn/provider-awscc.ecsService.EcsService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service awscc_ecs_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service awscc_ecs_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsService.EcsService.Initializer"></a>
 
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.putDeploymentConfiguration">PutDeploymentConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.putDeploymentController">PutDeploymentController</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.putForceNewDeployment">PutForceNewDeployment</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.putGatewayConnectors">PutGatewayConnectors</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.putLoadBalancers">PutLoadBalancers</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.putMonitoring">PutMonitoring</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.putNetworkConfiguration">PutNetworkConfiguration</a></code> | *No description.* |
@@ -97,6 +98,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.resetEnableEcsManagedTags">ResetEnableEcsManagedTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.resetEnableExecuteCommand">ResetEnableExecuteCommand</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.resetForceNewDeployment">ResetForceNewDeployment</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.resetGatewayConnectors">ResetGatewayConnectors</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.resetHealthCheckGracePeriodSeconds">ResetHealthCheckGracePeriodSeconds</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.resetLaunchType">ResetLaunchType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.resetLoadBalancers">ResetLoadBalancers</a></code> | *No description.* |
@@ -475,6 +477,18 @@ private void PutForceNewDeployment(EcsServiceForceNewDeployment Value)
 
 ---
 
+##### `PutGatewayConnectors` <a name="PutGatewayConnectors" id="@cdktn/provider-awscc.ecsService.EcsService.putGatewayConnectors"></a>
+
+```csharp
+private void PutGatewayConnectors(IResolvable|EcsServiceGatewayConnectors[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.ecsService.EcsService.putGatewayConnectors.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors">EcsServiceGatewayConnectors</a>[]
+
+---
+
 ##### `PutLoadBalancers` <a name="PutLoadBalancers" id="@cdktn/provider-awscc.ecsService.EcsService.putLoadBalancers"></a>
 
 ```csharp
@@ -647,6 +661,12 @@ private void ResetEnableExecuteCommand()
 
 ```csharp
 private void ResetForceNewDeployment()
+```
+
+##### `ResetGatewayConnectors` <a name="ResetGatewayConnectors" id="@cdktn/provider-awscc.ecsService.EcsService.resetGatewayConnectors"></a>
+
+```csharp
+private void ResetGatewayConnectors()
 ```
 
 ##### `ResetHealthCheckGracePeriodSeconds` <a name="ResetHealthCheckGracePeriodSeconds" id="@cdktn/provider-awscc.ecsService.EcsService.resetHealthCheckGracePeriodSeconds"></a>
@@ -860,7 +880,7 @@ The construct id used in the generated config for the EcsService to import.
 
 The id of the existing EcsService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -894,6 +914,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.deploymentConfiguration">DeploymentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceDeploymentConfigurationOutputReference">EcsServiceDeploymentConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.deploymentController">DeploymentController</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceDeploymentControllerOutputReference">EcsServiceDeploymentControllerOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.forceNewDeployment">ForceNewDeployment</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceForceNewDeploymentOutputReference">EcsServiceForceNewDeploymentOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.gatewayConnectors">GatewayConnectors</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList">EcsServiceGatewayConnectorsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.loadBalancers">LoadBalancers</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceLoadBalancersList">EcsServiceLoadBalancersList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.monitoring">Monitoring</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceMonitoringOutputReference">EcsServiceMonitoringOutputReference</a></code> | *No description.* |
@@ -916,6 +937,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.enableEcsManagedTagsInput">EnableEcsManagedTagsInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.enableExecuteCommandInput">EnableExecuteCommandInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.forceNewDeploymentInput">ForceNewDeploymentInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceForceNewDeployment">EcsServiceForceNewDeployment</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.gatewayConnectorsInput">GatewayConnectorsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors">EcsServiceGatewayConnectors</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.healthCheckGracePeriodSecondsInput">HealthCheckGracePeriodSecondsInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.launchTypeInput">LaunchTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsService.property.loadBalancersInput">LoadBalancersInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceLoadBalancers">EcsServiceLoadBalancers</a>[]</code> | *No description.* |
@@ -1129,6 +1151,16 @@ public EcsServiceForceNewDeploymentOutputReference ForceNewDeployment { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceForceNewDeploymentOutputReference">EcsServiceForceNewDeploymentOutputReference</a>
+
+---
+
+##### `GatewayConnectors`<sup>Required</sup> <a name="GatewayConnectors" id="@cdktn/provider-awscc.ecsService.EcsService.property.gatewayConnectors"></a>
+
+```csharp
+public EcsServiceGatewayConnectorsList GatewayConnectors { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList">EcsServiceGatewayConnectorsList</a>
 
 ---
 
@@ -1349,6 +1381,16 @@ public IResolvable|EcsServiceForceNewDeployment ForceNewDeploymentInput { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceForceNewDeployment">EcsServiceForceNewDeployment</a>
+
+---
+
+##### `GatewayConnectorsInput`<sup>Optional</sup> <a name="GatewayConnectorsInput" id="@cdktn/provider-awscc.ecsService.EcsService.property.gatewayConnectorsInput"></a>
+
+```csharp
+public IResolvable|EcsServiceGatewayConnectors[] GatewayConnectorsInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors">EcsServiceGatewayConnectors</a>[]
 
 ---
 
@@ -1724,7 +1766,7 @@ Base value characteristics:
 * The valid range is 0 to 100,000
 * Base requirements are satisfied first before weight distribution
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#base EcsService#base}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#base EcsService#base}
 
 ---
 
@@ -1740,7 +1782,7 @@ The short name of the capacity provider.
 
 This can be either an AWS managed capacity provider (`FARGATE` or `FARGATE_SPOT`) or the name of a custom capacity provider that you created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#capacity_provider EcsService#capacity_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#capacity_provider EcsService#capacity_provider}
 
 ---
 
@@ -1773,7 +1815,7 @@ Examples:
 Equal Distribution: Two capacity providers both with weight `1` will split tasks evenly after base requirements are met.
 Weighted Distribution: If capacityProviderA has weight `1` and capacityProviderB has weight `4`, then for every 1 task on A, 4 tasks will run on B.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#weight EcsService#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#weight EcsService#weight}
 
 ---
 
@@ -1801,6 +1843,7 @@ new EcsServiceConfig {
     bool|IResolvable EnableEcsManagedTags = null,
     bool|IResolvable EnableExecuteCommand = null,
     EcsServiceForceNewDeployment ForceNewDeployment = null,
+    IResolvable|EcsServiceGatewayConnectors[] GatewayConnectors = null,
     double HealthCheckGracePeriodSeconds = null,
     string LaunchType = null,
     IResolvable|EcsServiceLoadBalancers[] LoadBalancers = null,
@@ -1842,6 +1885,7 @@ new EcsServiceConfig {
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceConfig.property.enableEcsManagedTags">EnableEcsManagedTags</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Specifies whether to turn on Amazon ECS managed tags for the tasks within the service. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceConfig.property.enableExecuteCommand">EnableExecuteCommand</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Determines whether the execute command functionality is turned on for the service. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceConfig.property.forceNewDeployment">ForceNewDeployment</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceForceNewDeployment">EcsServiceForceNewDeployment</a></code> | Determines whether to force a new deployment of the service. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceConfig.property.gatewayConnectors">GatewayConnectors</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors">EcsServiceGatewayConnectors</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#gateway_connectors EcsService#gateway_connectors}. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceConfig.property.healthCheckGracePeriodSeconds">HealthCheckGracePeriodSeconds</a></code> | <code>double</code> | The period of time, in seconds, that the Amazon ECS service scheduler ignores unhealthy Elastic Load Balancing, VPC Lattice, and container health checks after a task has first started. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceConfig.property.launchType">LaunchType</a></code> | <code>string</code> | The launch type on which to run your service. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceConfig.property.loadBalancers">LoadBalancers</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceLoadBalancers">EcsServiceLoadBalancers</a>[]</code> | A list of load balancer objects to associate with the service. |
@@ -1949,7 +1993,7 @@ The default behavior of `AvailabilityZoneRebalancing` differs between create and
 * For create service requests, when no value is specified for `AvailabilityZoneRebalancing`, Amazon ECS defaults the value to `ENABLED`.
 * For update service requests, when no value is specified for `AvailabilityZoneRebalancing`, Amazon ECS defaults to the existing service’s `AvailabilityZoneRebalancing` value. If the service never had an `AvailabilityZoneRebalancing` value set, Amazon ECS treats this as `DISABLED`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#availability_zone_rebalancing EcsService#availability_zone_rebalancing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#availability_zone_rebalancing EcsService#availability_zone_rebalancing}
 
 ---
 
@@ -1967,7 +2011,7 @@ If a `capacityProviderStrategy` is specified, the `launchType` parameter must be
 A capacity provider strategy can contain a maximum of 20 capacity providers.
 To remove this property from your service resource, specify an empty `CapacityProviderStrategyItem` array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#capacity_provider_strategy EcsService#capacity_provider_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#capacity_provider_strategy EcsService#capacity_provider_strategy}
 
 ---
 
@@ -1983,7 +2027,7 @@ The short name or full Amazon Resource Name (ARN) of the cluster that you run yo
 
 If you do not specify a cluster, the default cluster is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#cluster EcsService#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#cluster EcsService#cluster}
 
 ---
 
@@ -1997,7 +2041,7 @@ public EcsServiceDeploymentConfiguration DeploymentConfiguration { get; set; }
 
 Optional deployment parameters that control how many tasks run during the deployment and the ordering of stopping and starting tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#deployment_configuration EcsService#deployment_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#deployment_configuration EcsService#deployment_configuration}
 
 ---
 
@@ -2011,7 +2055,7 @@ public EcsServiceDeploymentController DeploymentController { get; set; }
 
 The deployment controller to use for the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#deployment_controller EcsService#deployment_controller}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#deployment_controller EcsService#deployment_controller}
 
 ---
 
@@ -2028,7 +2072,7 @@ The number of instantiations of the specified task definition to place and keep 
 For new services, if a desired count is not specified, a default value of `1` is used. When using the `DAEMON` scheduling strategy, the desired count is not required.
 For existing services, if a desired count is not specified, it is omitted from the operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#desired_count EcsService#desired_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#desired_count EcsService#desired_count}
 
 ---
 
@@ -2045,7 +2089,7 @@ Specifies whether to turn on Amazon ECS managed tags for the tasks within the se
 For more information, see [Tagging your Amazon ECS resources](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-using-tags.html) in the *Amazon Elastic Container Service Developer Guide*.
 When you use Amazon ECS managed tags, you must set the `propagateTags` request parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#enable_ecs_managed_tags EcsService#enable_ecs_managed_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#enable_ecs_managed_tags EcsService#enable_ecs_managed_tags}
 
 ---
 
@@ -2061,7 +2105,7 @@ Determines whether the execute command functionality is turned on for the servic
 
 If `true`, the execute command functionality is turned on for all containers in tasks as part of the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#enable_execute_command EcsService#enable_execute_command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#enable_execute_command EcsService#enable_execute_command}
 
 ---
 
@@ -2077,7 +2121,19 @@ Determines whether to force a new deployment of the service.
 
 By default, deployments aren't forced. You can use this option to start a new deployment with no service definition changes. For example, you can update a service's tasks to use a newer Docker image with the same image/tag combination (`my_image:latest`) or to roll Fargate tasks onto a newer platform version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#force_new_deployment EcsService#force_new_deployment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#force_new_deployment EcsService#force_new_deployment}
+
+---
+
+##### `GatewayConnectors`<sup>Optional</sup> <a name="GatewayConnectors" id="@cdktn/provider-awscc.ecsService.EcsServiceConfig.property.gatewayConnectors"></a>
+
+```csharp
+public IResolvable|EcsServiceGatewayConnectors[] GatewayConnectors { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors">EcsServiceGatewayConnectors</a>[]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#gateway_connectors EcsService#gateway_connectors}.
 
 ---
 
@@ -2094,7 +2150,7 @@ The period of time, in seconds, that the Amazon ECS service scheduler ignores un
 If you do not specify a health check grace period value, the default value of 0 is used. If you do not use any of the health checks, then `healthCheckGracePeriodSeconds` is unused.
 If your service has more running tasks than desired, unhealthy tasks in the grace period might be stopped to reach the desired count.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#health_check_grace_period_seconds EcsService#health_check_grace_period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check_grace_period_seconds EcsService#health_check_grace_period_seconds}
 
 ---
 
@@ -2111,7 +2167,7 @@ The launch type on which to run your service.
 For more information, see [Amazon ECS Launch Types](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_types.html) in the *Amazon Elastic Container Service Developer Guide*.
 If you want to use Managed Instances, you must use the `capacityProviderStrategy` request parameter
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#launch_type EcsService#launch_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#launch_type EcsService#launch_type}
 
 ---
 
@@ -2128,7 +2184,7 @@ A list of load balancer objects to associate with the service.
 If you specify the `Role` property, `LoadBalancers` must be specified as well. For information about the number of load balancers that you can specify per service, see [Service Load Balancing](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-load-balancing.html) in the *Amazon Elastic Container Service Developer Guide*.
 To remove this property from your service resource, specify an empty `LoadBalancer` array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#load_balancers EcsService#load_balancers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#load_balancers EcsService#load_balancers}
 
 ---
 
@@ -2144,7 +2200,7 @@ The optional monitoring configuration for the service, which defines the resolut
 
 When not specified, Amazon ECS uses the default resolution of `60` seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#monitoring EcsService#monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#monitoring EcsService#monitoring}
 
 ---
 
@@ -2160,7 +2216,7 @@ The network configuration for the service.
 
 This parameter is required for task definitions that use the `awsvpc` network mode to receive their own elastic network interface, and it is not supported for other network modes. For more information, see [Task Networking](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-networking.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#network_configuration EcsService#network_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#network_configuration EcsService#network_configuration}
 
 ---
 
@@ -2177,7 +2233,7 @@ An array of placement constraint objects to use for tasks in your service.
 You can specify a maximum of 10 constraints for each task. This limit includes constraints in the task definition and those specified at runtime.
 To remove this property from your service resource, specify an empty `PlacementConstraint` array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#placement_constraints EcsService#placement_constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#placement_constraints EcsService#placement_constraints}
 
 ---
 
@@ -2194,7 +2250,7 @@ The placement strategy objects to use for tasks in your service.
 You can specify a maximum of 5 strategy rules for each service.
 To remove this property from your service resource, specify an empty `PlacementStrategy` array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#placement_strategies EcsService#placement_strategies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#placement_strategies EcsService#placement_strategies}
 
 ---
 
@@ -2210,7 +2266,7 @@ The platform version that your tasks in the service are running on.
 
 A platform version is specified only for tasks using the Fargate launch type. If one isn't specified, the `LATEST` platform version is used. For more information, see [platform versions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/platform_versions.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#platform_version EcsService#platform_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#platform_version EcsService#platform_version}
 
 ---
 
@@ -2228,7 +2284,7 @@ If no value is specified, the tags aren't propagated. Tags can only be propagate
 You must set this to a value other than `NONE` when you use Cost Explorer. For more information, see [Amazon ECS usage reports](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/usage-reports.html) in the *Amazon Elastic Container Service Developer Guide*.
 The default is `NONE`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#propagate_tags EcsService#propagate_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#propagate_tags EcsService#propagate_tags}
 
 ---
 
@@ -2246,7 +2302,7 @@ This parameter is only permitted if you are using a load balancer with your serv
 If your account has already created the Amazon ECS service-linked role, that role is used for your service unless you specify a role here. The service-linked role is required if your task definition uses the `awsvpc` network mode or if the service is configured to use service discovery, an external deployment controller, multiple target groups, or Elastic Inference accelerators in which case you don't specify a role here. For more information, see [Using service-linked roles for Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using-service-linked-roles.html) in the *Amazon Elastic Container Service Developer Guide*.
 If your specified role has a path other than `/`, then you must either specify the full role ARN (this is recommended) or prefix the role name with the path. For example, if a role with the name `bar` has a path of `/foo/` then you would specify `/foo/bar` as the role name. For more information, see [Friendly names and paths](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html#identifiers-friendly-names) in the *IAM User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#role EcsService#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#role EcsService#role}
 
 ---
 
@@ -2267,7 +2323,7 @@ There are two service scheduler strategies available:
 * `DAEMON`-The daemon scheduling strategy deploys exactly one task on each active container instance that meets all of the task placement constraints that you specify in your cluster. The service scheduler also evaluates the task placement constraints for running tasks and will stop tasks that don't meet the placement constraints. When you're using this strategy, you don't need to specify a desired number of tasks, a task placement strategy, or use Service Auto Scaling policies.
   Tasks using the Fargate launch type or the `CODE_DEPLOY` or `EXTERNAL` deployment controller types don't support the `DAEMON` scheduling strategy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#scheduling_strategy EcsService#scheduling_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#scheduling_strategy EcsService#scheduling_strategy}
 
 ---
 
@@ -2283,7 +2339,7 @@ The configuration for this service to discover and connect to services, and be d
 
 Tasks that run in a namespace can use short names to connect to services in the namespace. Tasks can connect to services across all of the clusters in the namespace. Tasks connect through a managed proxy container that collects logs and metrics for increased visibility. Only the tasks that Amazon ECS services create are supported with Service Connect. For more information, see [Service Connect](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#service_connect_configuration EcsService#service_connect_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#service_connect_configuration EcsService#service_connect_configuration}
 
 ---
 
@@ -2300,7 +2356,7 @@ The name of your service.
 Up to 255 letters (uppercase and lowercase), numbers, underscores, and hyphens are allowed. Service names must be unique within a cluster, but you can have similarly named services in multiple clusters within a Region or across multiple Regions.
 The stack update fails if you change any properties that require replacement and the `ServiceName` is configured. This is because AWS CloudFormation creates the replacement service first, but each `ServiceName` must be unique in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#service_name EcsService#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#service_name EcsService#service_name}
 
 ---
 
@@ -2318,7 +2374,7 @@ For more information, see [Service discovery](https://docs.aws.amazon.com/Amazon
 Each service may be associated with one service registry. Multiple service registries for each service isn't supported.
 To remove this property from your service resource, specify an empty `ServiceRegistry` array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#service_registries EcsService#service_registries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#service_registries EcsService#service_registries}
 
 ---
 
@@ -2357,7 +2413,7 @@ If a `revision` isn't specified, the latest `ACTIVE` revision is used.
 A task definition must be specified if the service uses either the `ECS` or `CODE_DEPLOY` deployment controllers.
 For more information about deployment types, see [Amazon ECS deployment types](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-types.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#task_definition EcsService#task_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#task_definition EcsService#task_definition}
 
 ---
 
@@ -2374,7 +2430,7 @@ The configuration for a volume specified in the task definition as a volume that
 Currently, the only supported volume type is an Amazon EBS volume.
 To remove this property from your service resource, specify an empty `ServiceVolumeConfiguration` array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#volume_configurations EcsService#volume_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#volume_configurations EcsService#volume_configurations}
 
 ---
 
@@ -2388,7 +2444,7 @@ public IResolvable|EcsServiceVpcLatticeConfigurations[] VpcLatticeConfigurations
 
 The VPC Lattice configuration for the service being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#vpc_lattice_configurations EcsService#vpc_lattice_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#vpc_lattice_configurations EcsService#vpc_lattice_configurations}
 
 ---
 
@@ -2440,7 +2496,7 @@ public EcsServiceDeploymentConfigurationAlarms Alarms { get; set; }
 
 Information about the CloudWatch alarms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#alarms EcsService#alarms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#alarms EcsService#alarms}
 
 ---
 
@@ -2462,7 +2518,7 @@ The following rules apply when you don't specify a value:
 
 If you provide a bake time for a rolling deployment, the CloudFormation handler timeout is increased to the maximum of 36 hours, matching the timeout for blue/green, linear, and canary deployments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#bake_time_in_minutes EcsService#bake_time_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#bake_time_in_minutes EcsService#bake_time_in_minutes}
 
 ---
 
@@ -2478,7 +2534,7 @@ Configuration for canary deployment strategy.
 
 Only valid when the deployment strategy is `CANARY`. This configuration enables shifting a fixed percentage of traffic for testing, followed by shifting the remaining traffic after a bake period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#canary_configuration EcsService#canary_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#canary_configuration EcsService#canary_configuration}
 
 ---
 
@@ -2494,7 +2550,7 @@ The deployment circuit breaker can only be used for services using the rolling u
 
 The *deployment circuit breaker* determines whether a service deployment will fail if the service can't reach a steady state. If you use the deployment circuit breaker, a service deployment will transition to a failed state and stop launching new tasks. If you use the rollback option, when a service deployment fails, the service is rolled back to the last deployment that completed successfully. For more information, see [Rolling update](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-ecs.html) in the *Amazon Elastic Container Service Developer Guide*
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#deployment_circuit_breaker EcsService#deployment_circuit_breaker}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#deployment_circuit_breaker EcsService#deployment_circuit_breaker}
 
 ---
 
@@ -2510,7 +2566,7 @@ The early success criteria configuration for a rolling deployment.
 
 With early success criteria, you can configure an Amazon ECS deployment to complete faster. Amazon ECS declares a deployment successful once a target percentage of tasks are healthy, instead of waiting for the service to fully stabilize.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#early_success_criteria EcsService#early_success_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#early_success_criteria EcsService#early_success_criteria}
 
 ---
 
@@ -2524,7 +2580,7 @@ public IResolvable|EcsServiceDeploymentConfigurationLifecycleHooks[] LifecycleHo
 
 An array of deployment lifecycle hook objects to run custom logic or pause the deployment at specific stages of the deployment lifecycle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#lifecycle_hooks EcsService#lifecycle_hooks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#lifecycle_hooks EcsService#lifecycle_hooks}
 
 ---
 
@@ -2540,7 +2596,7 @@ Configuration for linear deployment strategy.
 
 Only valid when the deployment strategy is `LINEAR`. This configuration enables progressive traffic shifting in equal percentage increments with configurable bake times between each step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#linear_configuration EcsService#linear_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#linear_configuration EcsService#linear_configuration}
 
 ---
 
@@ -2560,7 +2616,7 @@ If a service is using either the blue/green (`CODE_DEPLOY`) or `EXTERNAL` deploy
 You can't specify a custom `maximumPercent` value for a service that uses either the blue/green (`CODE_DEPLOY`) or `EXTERNAL` deployment types and has tasks that use the EC2 launch type.
 If the service uses either the blue/green (`CODE_DEPLOY`) or `EXTERNAL` deployment types, and the tasks in the service use the Fargate launch type, the maximum percent value is not used. The value is still returned when describing your service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#maximum_percent EcsService#maximum_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#maximum_percent EcsService#maximum_percent}
 
 ---
 
@@ -2593,7 +2649,7 @@ If a service is using either the blue/green (`CODE_DEPLOY`) or `EXTERNAL` deploy
 You can't specify a custom `minimumHealthyPercent` value for a service that uses either the blue/green (`CODE_DEPLOY`) or `EXTERNAL` deployment types and has tasks that use the EC2 launch type.
 If a service is using either the blue/green (`CODE_DEPLOY`) or `EXTERNAL` deployment types and is running tasks that use the Fargate launch type, the minimum healthy percent value is not used, although it is returned when describing your service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#minimum_healthy_percent EcsService#minimum_healthy_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#minimum_healthy_percent EcsService#minimum_healthy_percent}
 
 ---
 
@@ -2614,7 +2670,7 @@ Choose from these valid values:
 * `LINEAR` - A *linear* deployment strategy (`LINEAR`) gradually shifts traffic from the current production environment to a new environment in equal percentages over time. With Amazon ECS linear deployments, you can control the pace of traffic shifting and validate new service revisions with increasing amounts of production traffic.
 * `CANARY` - A *canary* deployment strategy (`CANARY`) shifts a small percentage of traffic to the new service revision first, then shifts the remaining traffic all at once after a specified time period. This allows you to test the new version with a subset of users before full deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#strategy EcsService#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#strategy EcsService#strategy}
 
 ---
 
@@ -2652,7 +2708,7 @@ public string[] AlarmNames { get; set; }
 
 One or more CloudWatch alarm names. Use a "," to separate the alarms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#alarm_names EcsService#alarm_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#alarm_names EcsService#alarm_names}
 
 ---
 
@@ -2666,7 +2722,7 @@ public bool|IResolvable Enable { get; set; }
 
 Determines whether to use the CloudWatch alarm option in the service deployment process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#enable EcsService#enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#enable EcsService#enable}
 
 ---
 
@@ -2682,7 +2738,7 @@ Determines whether to configure Amazon ECS to roll back the service if a service
 
 If rollback is used, when a service deployment fails, the service is rolled back to the last deployment that completed successfully.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#rollback EcsService#rollback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#rollback EcsService#rollback}
 
 ---
 
@@ -2720,7 +2776,7 @@ The amount of time in minutes to wait during the canary phase before shifting th
 
 Valid values are 0 to 1440 minutes (24 hours). The default value is 10.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#canary_bake_time_in_minutes EcsService#canary_bake_time_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#canary_bake_time_in_minutes EcsService#canary_bake_time_in_minutes}
 
 ---
 
@@ -2736,7 +2792,7 @@ The percentage of production traffic to shift to the new service revision during
 
 Valid values are multiples of 0.1 from 0.1 to 100.0. The default value is 5.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#canary_percent EcsService#canary_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#canary_percent EcsService#canary_percent}
 
 ---
 
@@ -2776,7 +2832,7 @@ public bool|IResolvable Enable { get; set; }
 
 Determines whether to use the deployment circuit breaker logic for the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#enable EcsService#enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#enable EcsService#enable}
 
 ---
 
@@ -2792,7 +2848,7 @@ Specifies whether the deployment circuit breaker resets its failure count when a
 
 When set to `true`, a task that reaches a healthy state resets the failure count to `0`. When set to `false`, Amazon ECS does not reset the failure count. The default is `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#reset_on_healthy_task EcsService#reset_on_healthy_task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#reset_on_healthy_task EcsService#reset_on_healthy_task}
 
 ---
 
@@ -2808,7 +2864,7 @@ Determines whether to configure Amazon ECS to roll back the service if a service
 
 If rollback is on, when a service deployment fails, the service is rolled back to the last deployment that completed successfully.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#rollback EcsService#rollback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#rollback EcsService#rollback}
 
 ---
 
@@ -2824,7 +2880,7 @@ The threshold configuration that controls when the deployment circuit breaker tr
 
 The `type` and `value` together determine how many task failures are tolerated before the circuit breaker activates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#threshold_configuration EcsService#threshold_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#threshold_configuration EcsService#threshold_configuration}
 
 ---
 
@@ -2862,7 +2918,7 @@ Determines how Amazon ECS uses ``value`` to calculate the failure threshold.
 
 For the percentage types (`BOUNDED_PERCENT` and `UNBOUNDED_PERCENT`), Amazon ECS multiplies `value` by the latest service desired count. For `COUNT`, Amazon ECS uses `value` directly as the threshold. The default is `BOUNDED_PERCENT`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#type EcsService#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#type EcsService#type}
 
 ---
 
@@ -2878,7 +2934,7 @@ Specifies the integer that Amazon ECS uses to calculate the failure threshold.
 
 When `type` is `COUNT`, this value is the failure threshold itself. When `type` is a percentage type, Amazon ECS multiplies this value by the latest service desired count to produce the failure threshold. The default is `50`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#value EcsService#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#value EcsService#value}
 
 ---
 
@@ -2919,7 +2975,7 @@ Specifies whether to use the early success criteria for the service deployment.
 When set to `false`, the deployment uses the default behavior, where Amazon ECS considers the deployment successful when the target service revision fully stabilizes and the previous tasks are removed. The default value is `false`.
 When set to `true`, Amazon ECS monitors the deployment to meet early success criteria. You must also specify `healthyPercent` and `sourceServiceRevisionCleanup`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#enable EcsService#enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#enable EcsService#enable}
 
 ---
 
@@ -2936,7 +2992,7 @@ The percentage of healthy tasks that the target service revision must reach befo
 This percentage is relative to the service's `desiredCount` and must be an integer between `0` and `100`. This value must be greater than or equal to the `minimumHealthyPercent` value.
 After this percentage of tasks is healthy and the bake time elapses, Amazon ECS completes the deployment. Amazon ECS continues to scale the target service revision to 100 percent in the background.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#healthy_percent EcsService#healthy_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#healthy_percent EcsService#healthy_percent}
 
 ---
 
@@ -2955,7 +3011,7 @@ The valid values are:
 * `BLOCKING`—Amazon ECS removes the previous tasks before it marks the deployment as successful.
 * `DEFERRED`—Amazon ECS marks the deployment successful, and then removes the previous tasks in the background.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#source_service_revision_cleanup EcsService#source_service_revision_cleanup}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#source_service_revision_cleanup EcsService#source_service_revision_cleanup}
 
 ---
 
@@ -3001,7 +3057,7 @@ Use this field to specify custom parameters that ECS passes to your hook target 
 
 This field must be a JSON object as a string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#hook_details EcsService#hook_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#hook_details EcsService#hook_details}
 
 ---
 
@@ -3018,7 +3074,7 @@ The Amazon Resource Name (ARN) of the hook target.
 For `AWS_LAMBDA` hooks, this is the Lambda function ARN. This field is not applicable for `PAUSE` hooks.
 You must provide this parameter when configuring an `AWS_LAMBDA` lifecycle hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#hook_target_arn EcsService#hook_target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#hook_target_arn EcsService#hook_target_arn}
 
 ---
 
@@ -3062,7 +3118,7 @@ Choose from these valid values:
 `PAUSE` hooks cannot be configured at `TEST_TRAFFIC_SHIFT` or `PRODUCTION_TRAFFIC_SHIFT` stages. These stages are only valid for `AWS_LAMBDA` hooks.
 You must provide this parameter when configuring a deployment lifecycle hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#lifecycle_stages EcsService#lifecycle_stages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#lifecycle_stages EcsService#lifecycle_stages}
 
 ---
 
@@ -3078,7 +3134,7 @@ The Amazon Resource Name (ARN) of the IAM role that grants Amazon ECS permission
 
 For more information, see [Permissions required for Lambda functions in Amazon ECS blue/green deployments](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/blue-green-permissions.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
 
 ---
 
@@ -3099,7 +3155,7 @@ Valid values are:
 
 This field is optional. If not specified, the default value is `AWS_LAMBDA`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#target_type EcsService#target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#target_type EcsService#target_type}
 
 ---
 
@@ -3115,7 +3171,7 @@ The timeout configuration for the lifecycle hook.
 
 This specifies how long Amazon ECS waits before taking the timeout action if the hook is not resolved.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#timeout_configuration EcsService#timeout_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#timeout_configuration EcsService#timeout_configuration}
 
 ---
 
@@ -3136,8 +3192,8 @@ new EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration.property.action">Action</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#action EcsService#action}. |
-| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration.property.timeoutInMinutes">TimeoutInMinutes</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration.property.action">Action</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#action EcsService#action}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration.property.timeoutInMinutes">TimeoutInMinutes</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}. |
 
 ---
 
@@ -3149,7 +3205,7 @@ public string Action { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#action EcsService#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#action EcsService#action}.
 
 ---
 
@@ -3161,7 +3217,7 @@ public double TimeoutInMinutes { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}.
 
 ---
 
@@ -3199,7 +3255,7 @@ The amount of time in minutes to wait between each traffic shifting step during 
 
 Valid values are 0 to 1440 minutes (24 hours). The default value is 6. This bake time is not applied after reaching 100 percent traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#step_bake_time_in_minutes EcsService#step_bake_time_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#step_bake_time_in_minutes EcsService#step_bake_time_in_minutes}
 
 ---
 
@@ -3215,7 +3271,7 @@ The percentage of production traffic to shift in each step during a linear deplo
 
 Valid values are multiples of 0.1 from 3.0 to 100.0. The default value is 10.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#step_percent EcsService#step_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#step_percent EcsService#step_percent}
 
 ---
 
@@ -3284,7 +3340,7 @@ When updating the deployment controller for a service, consider the following de
   Resource handler returned message: "Invalid request provided: Unable to update task definition on services with a CODE_DEPLOY deployment controller.
 * After a successful migration from `ECS` to `EXTERNAL` deployment controller, you need to manually remove the `ACTIVE` task set, because ECS no longer manages the deployment. For information about how to delete a task set, see [DeleteTaskSet](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_DeleteTaskSet.html) in the ECSlong API Reference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#type EcsService#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#type EcsService#type}
 
 ---
 
@@ -3322,7 +3378,7 @@ Determines whether to force a new deployment of the service.
 
 By default, deployments aren't forced. You can use this option to start a new deployment with no service definition changes. For example, you can update a service's tasks to use a newer Docker image with the same image/tag combination (`my_image:latest`) or to roll Fargate tasks onto a newer platform version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#enable_force_new_deployment EcsService#enable_force_new_deployment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#enable_force_new_deployment EcsService#enable_force_new_deployment}
 
 ---
 
@@ -3338,7 +3394,275 @@ When you change the``ForceNewDeploymentNonce`` value in your template, it signal
 
 The value must be a unique, time- varying value like a timestamp, random string, or sequence number. Use this property when you want to ensure your tasks pick up the latest version of a Docker image that uses the same tag but has been updated in the registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#force_new_deployment_nonce EcsService#force_new_deployment_nonce}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#force_new_deployment_nonce EcsService#force_new_deployment_nonce}
+
+---
+
+### EcsServiceGatewayConnectors <a name="EcsServiceGatewayConnectors" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceGatewayConnectors {
+    EcsServiceGatewayConnectorsFilters Filters = null,
+    EcsServiceGatewayConnectorsHealthCheck HealthCheck = null,
+    string PortName = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors.property.filters">Filters</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters">EcsServiceGatewayConnectorsFilters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#filters EcsService#filters}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors.property.healthCheck">HealthCheck</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck">EcsServiceGatewayConnectorsHealthCheck</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check EcsService#health_check}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors.property.portName">PortName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#port_name EcsService#port_name}. |
+
+---
+
+##### `Filters`<sup>Optional</sup> <a name="Filters" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors.property.filters"></a>
+
+```csharp
+public EcsServiceGatewayConnectorsFilters Filters { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters">EcsServiceGatewayConnectorsFilters</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#filters EcsService#filters}.
+
+---
+
+##### `HealthCheck`<sup>Optional</sup> <a name="HealthCheck" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors.property.healthCheck"></a>
+
+```csharp
+public EcsServiceGatewayConnectorsHealthCheck HealthCheck { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck">EcsServiceGatewayConnectorsHealthCheck</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check EcsService#health_check}.
+
+---
+
+##### `PortName`<sup>Optional</sup> <a name="PortName" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors.property.portName"></a>
+
+```csharp
+public string PortName { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#port_name EcsService#port_name}.
+
+---
+
+### EcsServiceGatewayConnectorsFilters <a name="EcsServiceGatewayConnectorsFilters" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceGatewayConnectorsFilters {
+    string[] AccessTypes = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters.property.accessTypes">AccessTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#access_types EcsService#access_types}. |
+
+---
+
+##### `AccessTypes`<sup>Optional</sup> <a name="AccessTypes" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters.property.accessTypes"></a>
+
+```csharp
+public string[] AccessTypes { get; set; }
+```
+
+- *Type:* string[]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#access_types EcsService#access_types}.
+
+---
+
+### EcsServiceGatewayConnectorsHealthCheck <a name="EcsServiceGatewayConnectorsHealthCheck" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceGatewayConnectorsHealthCheck {
+    double HealthCheckIntervalSeconds = null,
+    string HealthCheckPath = null,
+    double HealthCheckPort = null,
+    string HealthCheckProtocol = null,
+    double HealthCheckTimeoutSeconds = null,
+    double HealthyThresholdCount = null,
+    EcsServiceGatewayConnectorsHealthCheckMatcher Matcher = null,
+    double UnhealthyThresholdCount = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthCheckIntervalSeconds">HealthCheckIntervalSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check_interval_seconds EcsService#health_check_interval_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthCheckPath">HealthCheckPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check_path EcsService#health_check_path}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthCheckPort">HealthCheckPort</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check_port EcsService#health_check_port}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthCheckProtocol">HealthCheckProtocol</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check_protocol EcsService#health_check_protocol}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthCheckTimeoutSeconds">HealthCheckTimeoutSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check_timeout_seconds EcsService#health_check_timeout_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthyThresholdCount">HealthyThresholdCount</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#healthy_threshold_count EcsService#healthy_threshold_count}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.matcher">Matcher</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher">EcsServiceGatewayConnectorsHealthCheckMatcher</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#matcher EcsService#matcher}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.unhealthyThresholdCount">UnhealthyThresholdCount</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#unhealthy_threshold_count EcsService#unhealthy_threshold_count}. |
+
+---
+
+##### `HealthCheckIntervalSeconds`<sup>Optional</sup> <a name="HealthCheckIntervalSeconds" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthCheckIntervalSeconds"></a>
+
+```csharp
+public double HealthCheckIntervalSeconds { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check_interval_seconds EcsService#health_check_interval_seconds}.
+
+---
+
+##### `HealthCheckPath`<sup>Optional</sup> <a name="HealthCheckPath" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthCheckPath"></a>
+
+```csharp
+public string HealthCheckPath { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check_path EcsService#health_check_path}.
+
+---
+
+##### `HealthCheckPort`<sup>Optional</sup> <a name="HealthCheckPort" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthCheckPort"></a>
+
+```csharp
+public double HealthCheckPort { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check_port EcsService#health_check_port}.
+
+---
+
+##### `HealthCheckProtocol`<sup>Optional</sup> <a name="HealthCheckProtocol" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthCheckProtocol"></a>
+
+```csharp
+public string HealthCheckProtocol { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check_protocol EcsService#health_check_protocol}.
+
+---
+
+##### `HealthCheckTimeoutSeconds`<sup>Optional</sup> <a name="HealthCheckTimeoutSeconds" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthCheckTimeoutSeconds"></a>
+
+```csharp
+public double HealthCheckTimeoutSeconds { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#health_check_timeout_seconds EcsService#health_check_timeout_seconds}.
+
+---
+
+##### `HealthyThresholdCount`<sup>Optional</sup> <a name="HealthyThresholdCount" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.healthyThresholdCount"></a>
+
+```csharp
+public double HealthyThresholdCount { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#healthy_threshold_count EcsService#healthy_threshold_count}.
+
+---
+
+##### `Matcher`<sup>Optional</sup> <a name="Matcher" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.matcher"></a>
+
+```csharp
+public EcsServiceGatewayConnectorsHealthCheckMatcher Matcher { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher">EcsServiceGatewayConnectorsHealthCheckMatcher</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#matcher EcsService#matcher}.
+
+---
+
+##### `UnhealthyThresholdCount`<sup>Optional</sup> <a name="UnhealthyThresholdCount" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck.property.unhealthyThresholdCount"></a>
+
+```csharp
+public double UnhealthyThresholdCount { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#unhealthy_threshold_count EcsService#unhealthy_threshold_count}.
+
+---
+
+### EcsServiceGatewayConnectorsHealthCheckMatcher <a name="EcsServiceGatewayConnectorsHealthCheckMatcher" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceGatewayConnectorsHealthCheckMatcher {
+    string GrpcCode = null,
+    string HttpCode = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher.property.grpcCode">GrpcCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#grpc_code EcsService#grpc_code}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher.property.httpCode">HttpCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#http_code EcsService#http_code}. |
+
+---
+
+##### `GrpcCode`<sup>Optional</sup> <a name="GrpcCode" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher.property.grpcCode"></a>
+
+```csharp
+public string GrpcCode { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#grpc_code EcsService#grpc_code}.
+
+---
+
+##### `HttpCode`<sup>Optional</sup> <a name="HttpCode" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher.property.httpCode"></a>
+
+```csharp
+public string HttpCode { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#http_code EcsService#http_code}.
 
 ---
 
@@ -3382,7 +3706,7 @@ The advanced settings for the load balancer used in blue/green deployments.
 
 Specify the alternate target group, listener rules, and IAM role required for traffic shifting during blue/green deployments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#advanced_configuration EcsService#advanced_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#advanced_configuration EcsService#advanced_configuration}
 
 ---
 
@@ -3398,7 +3722,7 @@ The name of the container (as it appears in a container definition) to associate
 
 You need to specify the container name when configuring the target group for an Amazon ECS load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#container_name EcsService#container_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#container_name EcsService#container_name}
 
 ---
 
@@ -3414,7 +3738,7 @@ The port on the container to associate with the load balancer.
 
 This port must correspond to a `containerPort` in the task definition the tasks in the service are using. For tasks that use the EC2 launch type, the container instance they're launched on must allow ingress traffic on the `hostPort` of the port mapping.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#container_port EcsService#container_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#container_port EcsService#container_port}
 
 ---
 
@@ -3430,7 +3754,7 @@ The name of the load balancer to associate with the Amazon ECS service or task s
 
 If you are using an Application Load Balancer or a Network Load Balancer the load balancer name parameter should be omitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#load_balancer_name EcsService#load_balancer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#load_balancer_name EcsService#load_balancer_name}
 
 ---
 
@@ -3449,7 +3773,7 @@ For services using the `ECS` deployment controller, you can specify one or multi
 For services using the `CODE_DEPLOY` deployment controller, you're required to define two target groups for the load balancer. For more information, see [Blue/green deployment with CodeDeploy](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-bluegreen.html) in the *Amazon Elastic Container Service Developer Guide*.
 If your service's task definition uses the `awsvpc` network mode, you must choose `ip` as the target type, not `instance`. Do this when creating your target groups because tasks that use the `awsvpc` network mode are associated with an elastic network interface, not an Amazon EC2 instance. This network mode is required for the Fargate launch type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}
 
 ---
 
@@ -3489,7 +3813,7 @@ public string AlternateTargetGroupArn { get; set; }
 
 The Amazon Resource Name (ARN) of the alternate target group for Amazon ECS blue/green deployments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#alternate_target_group_arn EcsService#alternate_target_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#alternate_target_group_arn EcsService#alternate_target_group_arn}
 
 ---
 
@@ -3503,7 +3827,7 @@ public string ProductionListenerRule { get; set; }
 
 The Amazon Resource Name (ARN) that that identifies the production listener rule (in the case of an Application Load Balancer) or listener (in the case for an Network Load Balancer) for routing production traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#production_listener_rule EcsService#production_listener_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#production_listener_rule EcsService#production_listener_rule}
 
 ---
 
@@ -3517,7 +3841,7 @@ public string RoleArn { get; set; }
 
 The Amazon Resource Name (ARN) of the IAM role that grants Amazon ECS permission to call the Elastic Load Balancing APIs for you.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
 
 ---
 
@@ -3531,7 +3855,7 @@ public string TestListenerRule { get; set; }
 
 The Amazon Resource Name (ARN) that identifies ) that identifies the test listener rule (in the case of an Application Load Balancer) or listener (in the case for an Network Load Balancer) for routing test traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#test_listener_rule EcsService#test_listener_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#test_listener_rule EcsService#test_listener_rule}
 
 ---
 
@@ -3565,7 +3889,7 @@ public IResolvable|EcsServiceMonitoringMetricConfigurations[] MetricConfiguratio
 
 The list of metric configurations for the service monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#metric_configurations EcsService#metric_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#metric_configurations EcsService#metric_configurations}
 
 ---
 
@@ -3601,7 +3925,7 @@ public string[] MetricNames { get; set; }
 
 The list of metric names to configure. The supported metric names are ``CPUUtilization`` and ``MemoryUtilization``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#metric_names EcsService#metric_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#metric_names EcsService#metric_names}
 
 ---
 
@@ -3615,7 +3939,7 @@ public double ResolutionSeconds { get; set; }
 
 The resolution, in seconds, at which to collect the metrics. The valid values are ``20`` and ``60``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#resolution_seconds EcsService#resolution_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#resolution_seconds EcsService#resolution_seconds}
 
 ---
 
@@ -3651,7 +3975,7 @@ The VPC subnets and security groups that are associated with a task.
 
 All specified subnets and security groups must be from the same VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#awsvpc_configuration EcsService#awsvpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#awsvpc_configuration EcsService#awsvpc_configuration}
 
 ---
 
@@ -3694,7 +4018,7 @@ Consider the following when you set this value:
 * When you use `create-service` or `update-service`, the default is `DISABLED`.
 * When the service `deploymentController` is `ECS`, the value must be `DISABLED`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#assign_public_ip EcsService#assign_public_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#assign_public_ip EcsService#assign_public_ip}
 
 ---
 
@@ -3711,7 +4035,7 @@ The IDs of the security groups associated with the task or service.
 If you don't specify a security group, the default security group for the VPC is used. There's a limit of 5 security groups that can be specified.
 All specified security groups must be from the same VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#security_groups EcsService#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#security_groups EcsService#security_groups}
 
 ---
 
@@ -3728,7 +4052,7 @@ The IDs of the subnets associated with the task or service.
 There's a limit of 16 subnets that can be specified.
 All specified subnets must be from the same VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#subnets EcsService#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#subnets EcsService#subnets}
 
 ---
 
@@ -3766,7 +4090,7 @@ A cluster query language expression to apply to the constraint.
 
 The expression can have a maximum length of 2000 characters. You can't specify an expression if the constraint type is `distinctInstance`. For more information, see [Cluster query language](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query-language.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#expression EcsService#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#expression EcsService#expression}
 
 ---
 
@@ -3782,7 +4106,7 @@ The type of constraint.
 
 Use `distinctInstance` to ensure that each task in a particular group is running on a different container instance. Use `memberOf` to restrict the selection to a group of valid candidates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#type EcsService#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#type EcsService#type}
 
 ---
 
@@ -3820,7 +4144,7 @@ The field to apply the placement strategy against.
 
 For the `spread` placement strategy, valid values are `instanceId` (or `host`, which has the same effect), or any platform or custom attribute that's applied to a container instance, such as `attribute:ecs.availability-zone`. For the `binpack` placement strategy, valid values are `cpu` and `memory`. For the `random` placement strategy, this field is not used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#field EcsService#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#field EcsService#field}
 
 ---
 
@@ -3836,7 +4160,7 @@ The type of placement strategy.
 
 The `random` placement strategy randomly places tasks on available candidates. The `spread` placement strategy spreads placement across available candidates evenly based on the `field` parameter. The `binpack` strategy places tasks on available candidates that have the least available amount of the resource that's specified with the `field` parameter. For example, if you binpack on memory, a task is placed on the instance with the least amount of remaining memory but still enough to run the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#type EcsService#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#type EcsService#type}
 
 ---
 
@@ -3849,6 +4173,7 @@ using Io.Cdktn.Providers.Awscc;
 
 new EcsServiceServiceConnectConfiguration {
     EcsServiceServiceConnectConfigurationAccessLogConfiguration AccessLogConfiguration = null,
+    IResolvable|EcsServiceServiceConnectConfigurationContainerConfigurations[] ContainerConfigurations = null,
     bool|IResolvable Enabled = null,
     EcsServiceServiceConnectConfigurationLogConfiguration LogConfiguration = null,
     string Namespace = null,
@@ -3861,6 +4186,7 @@ new EcsServiceServiceConnectConfiguration {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfiguration.property.accessLogConfiguration">AccessLogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationAccessLogConfiguration">EcsServiceServiceConnectConfigurationAccessLogConfiguration</a></code> | The configuration for Service Connect access logging. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfiguration.property.containerConfigurations">ContainerConfigurations</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations">EcsServiceServiceConnectConfigurationContainerConfigurations</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#container_configurations EcsService#container_configurations}. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfiguration.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Specifies whether to use Service Connect with this service. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfiguration.property.logConfiguration">LogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationLogConfiguration">EcsServiceServiceConnectConfigurationLogConfiguration</a></code> | The log configuration for the container. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfiguration.property.namespace">Namespace</a></code> | <code>string</code> | The namespace name or full Amazon Resource Name (ARN) of the CMAPlong namespace for use with Service Connect. |
@@ -3881,7 +4207,19 @@ The configuration for Service Connect access logging.
 Access logs capture detailed information about requests made to your service, including request patterns, response codes, and timing data. They can be useful for debugging connectivity issues, monitoring service performance, and auditing service-to-service communication for security and compliance purposes.
 To enable access logs, you must also specify a `logConfiguration` in the `serviceConnectConfiguration`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#access_log_configuration EcsService#access_log_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#access_log_configuration EcsService#access_log_configuration}
+
+---
+
+##### `ContainerConfigurations`<sup>Optional</sup> <a name="ContainerConfigurations" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfiguration.property.containerConfigurations"></a>
+
+```csharp
+public IResolvable|EcsServiceServiceConnectConfigurationContainerConfigurations[] ContainerConfigurations { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations">EcsServiceServiceConnectConfigurationContainerConfigurations</a>[]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#container_configurations EcsService#container_configurations}.
 
 ---
 
@@ -3895,7 +4233,7 @@ public bool|IResolvable Enabled { get; set; }
 
 Specifies whether to use Service Connect with this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#enabled EcsService#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#enabled EcsService#enabled}
 
 ---
 
@@ -3920,7 +4258,7 @@ Understand the following when specifying a log configuration for your containers
 * For tasks that are hosted on Amazon EC2 instances, the Amazon ECS container agent must register the available logging drivers with the `ECS_AVAILABLE_LOGGING_DRIVERS` environment variable before containers placed on that instance can use these log configuration options. For more information, see [Amazon ECS container agent configuration](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html) in the *Amazon Elastic Container Service Developer Guide*.
 * For tasks that are on FARGATElong, because you don't have access to the underlying infrastructure your tasks are hosted on, any additional software needed must be installed outside of the task. For example, the Fluentd output aggregators or a remote host running Logstash to send Gelf logs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#log_configuration EcsService#log_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#log_configuration EcsService#log_configuration}
 
 ---
 
@@ -3936,7 +4274,7 @@ The namespace name or full Amazon Resource Name (ARN) of the CMAPlong namespace 
 
 The namespace must be in the same AWS Region as the Amazon ECS service and cluster. The type of namespace doesn't affect Service Connect. For more information about CMAPlong, see [Working with Services](https://docs.aws.amazon.com/cloud-map/latest/dg/working-with-services.html) in the *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#namespace EcsService#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#namespace EcsService#namespace}
 
 ---
 
@@ -3954,7 +4292,7 @@ These are names and aliases (also known as endpoints) that are used by other Ama
 This field is not required for a "client" Amazon ECS service that's a member of a namespace only to connect to other services within the namespace. An example of this would be a frontend application that accepts incoming requests from either a load balancer that's attached to the service or by other means.
 An object selects a port from the task definition, assigns a name for the CMAPlong service, and a list of aliases (endpoints) and ports for client applications to refer to this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#services EcsService#services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#services EcsService#services}
 
 ---
 
@@ -3992,7 +4330,7 @@ The format for Service Connect access log output.
 
 Choose TEXT for human-readable logs or JSON for structured data that integrates well with log analysis tools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#format EcsService#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#format EcsService#format}
 
 ---
 
@@ -4008,7 +4346,39 @@ Specifies whether to include query parameters in Service Connect access logs.
 
 When enabled, query parameters from HTTP requests are included in the access logs. Consider security and privacy implications when enabling this feature, as query parameters may contain sensitive information such as request IDs and tokens. By default, this parameter is `DISABLED`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#include_query_parameters EcsService#include_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#include_query_parameters EcsService#include_query_parameters}
+
+---
+
+### EcsServiceServiceConnectConfigurationContainerConfigurations <a name="EcsServiceServiceConnectConfigurationContainerConfigurations" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceServiceConnectConfigurationContainerConfigurations {
+    string LogLevel = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations.property.logLevel">LogLevel</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#log_level EcsService#log_level}. |
+
+---
+
+##### `LogLevel`<sup>Optional</sup> <a name="LogLevel" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations.property.logLevel"></a>
+
+```csharp
+public string LogLevel { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#log_level EcsService#log_level}.
 
 ---
 
@@ -4052,7 +4422,7 @@ For more information about using the `awslogs` log driver, see [Send Amazon ECS 
 For more information about using the `awsfirelens` log driver, see [Send Amazon ECS logs to an service or Partner](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_firelens.html).
 If you have a custom driver that isn't listed, you can fork the Amazon ECS container agent project that's [available on GitHub](https://docs.aws.amazon.com/https://github.com/aws/amazon-ecs-agent) and customize it to work with that driver. We encourage you to submit pull requests for changes that you would like to have included. However, we don't currently provide support for running modified copies of this software.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#log_driver EcsService#log_driver}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#log_driver EcsService#log_driver}
 
 ---
 
@@ -4079,7 +4449,7 @@ The options you can specify depend on the log driver. Some of the options you ca
   When you export logs to Amazon S3, you can specify the bucket using the `bucket` option. You can also specify `region`, `total_file_size`, `upload_timeout`, and `use_put_object` as options.
   This parameter requires version 1.19 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log in to your container instance and run the following command: `sudo docker version --format '{{.Server.APIVersion}}'`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#options EcsService#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#options EcsService#options}
 
 ---
 
@@ -4095,7 +4465,7 @@ The secrets to pass to the log configuration.
 
 For more information, see [Specifying sensitive data](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#secret_options EcsService#secret_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#secret_options EcsService#secret_options}
 
 ---
 
@@ -4131,7 +4501,7 @@ public string Name { get; set; }
 
 The name of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#name EcsService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#name EcsService#name}
 
 ---
 
@@ -4149,7 +4519,7 @@ The supported values are either the full ARN of the ASMlong secret or the full A
 For information about the require IAMlong permissions, see [Required IAM permissions for Amazon ECS secrets](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data-secrets.html#secrets-iam) (for Secrets Manager) or [Required IAM permissions for Amazon ECS secrets](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data-parameters.html) (for Systems Manager Parameter store) in the *Amazon Elastic Container Service Developer Guide*.
 If the SSM Parameter Store parameter exists in the same Region as the task you're launching, then you can use either the full ARN or name of the parameter. If the parameter exists in a different Region, then the full ARN must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#value_from EcsService#value_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#value_from EcsService#value_from}
 
 ---
 
@@ -4198,7 +4568,7 @@ Each alias ("endpoint") is a fully-qualified name and port number that other Ama
 Each name and port mapping must be unique within the namespace.
 For each `ServiceConnectService`, you must provide at least one `clientAlias` with one `port`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#client_aliases EcsService#client_aliases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#client_aliases EcsService#client_aliases}
 
 ---
 
@@ -4215,7 +4585,7 @@ The ``discoveryName`` is the name of the new CMAP service that Amazon ECS create
 This must be unique within the CMAP namespace. The name can contain up to 64 characters. The name can include lowercase letters, numbers, underscores (_), and hyphens (-). The name can't start with a hyphen.
 If the `discoveryName` isn't specified, the port mapping name from the task definition is used in `portName.namespace`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#discovery_name EcsService#discovery_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#discovery_name EcsService#discovery_name}
 
 ---
 
@@ -4232,7 +4602,7 @@ The port number for the Service Connect proxy to listen on.
 Use the value of this field to bypass the proxy for traffic on the port number specified in the named `portMapping` in the task definition of this application, and then use it in your VPC security groups to allow traffic into the proxy for this Amazon ECS service.
 In `awsvpc` mode and Fargate, the default value is the container port number. The container port number is in the `portMapping` in the task definition. In bridge mode, the default value is the ephemeral port of the Service Connect proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#ingress_port_override EcsService#ingress_port_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#ingress_port_override EcsService#ingress_port_override}
 
 ---
 
@@ -4246,7 +4616,7 @@ public string PortName { get; set; }
 
 The ``portName`` must match the name of one of the ``portMappings`` from all the containers in the task definition of this Amazon ECS service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#port_name EcsService#port_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#port_name EcsService#port_name}
 
 ---
 
@@ -4260,7 +4630,7 @@ public EcsServiceServiceConnectConfigurationServicesTimeout Timeout { get; set; 
 
 A reference to an object that represents the configured timeouts for Service Connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#timeout EcsService#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#timeout EcsService#timeout}
 
 ---
 
@@ -4274,7 +4644,7 @@ public EcsServiceServiceConnectConfigurationServicesTls Tls { get; set; }
 
 A reference to an object that represents a Transport Layer Security (TLS) configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#tls EcsService#tls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#tls EcsService#tls}
 
 ---
 
@@ -4316,7 +4686,7 @@ The name must be a valid DNS name but doesn't need to be fully-qualified. The na
 If this parameter isn't specified, the default value of `discoveryName.namespace` is used. If the `discoveryName` isn't specified, the port mapping name from the task definition is used in `portName.namespace`.
 To avoid changing your applications in client Amazon ECS services, set this to the same name that the client application uses by default. For example, a few common names are `database`, `db`, or the lowercase name of a database, such as `mysql` or `redis`. For more information, see [Service Connect](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#dns_name EcsService#dns_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#dns_name EcsService#dns_name}
 
 ---
 
@@ -4333,7 +4703,7 @@ The listening port number for the Service Connect proxy.
 This port is available inside of all of the tasks within the same namespace.
 To avoid changing your applications in client Amazon ECS services, set this to the same port that the client application uses by default. For more information, see [Service Connect](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#port EcsService#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#port EcsService#port}
 
 ---
 
@@ -4349,7 +4719,7 @@ The configuration for test traffic routing rules used during blue/green deployme
 
 This allows you to route a portion of traffic to the new service revision of your service for testing before shifting all production traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#test_traffic_rules EcsService#test_traffic_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#test_traffic_rules EcsService#test_traffic_rules}
 
 ---
 
@@ -4385,7 +4755,7 @@ The HTTP header-based routing rules that determine which requests should be rout
 
 These rules provide fine-grained control over test traffic routing based on request headers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#header EcsService#header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#header EcsService#header}
 
 ---
 
@@ -4406,8 +4776,8 @@ new EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeader.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#name EcsService#name}. |
-| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeader.property.value">Value</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeaderValue">EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeaderValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#value EcsService#value}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeader.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#name EcsService#name}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeader.property.value">Value</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeaderValue">EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeaderValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#value EcsService#value}. |
 
 ---
 
@@ -4419,7 +4789,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#name EcsService#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#name EcsService#name}.
 
 ---
 
@@ -4431,7 +4801,7 @@ public EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRule
 
 - *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeaderValue">EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeaderValue</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#value EcsService#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#value EcsService#value}.
 
 ---
 
@@ -4451,7 +4821,7 @@ new EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeaderValue.property.exact">Exact</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#exact EcsService#exact}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeaderValue.property.exact">Exact</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#exact EcsService#exact}. |
 
 ---
 
@@ -4463,7 +4833,7 @@ public string Exact { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#exact EcsService#exact}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#exact EcsService#exact}.
 
 ---
 
@@ -4503,7 +4873,7 @@ A value of `0` can be set to disable `idleTimeout`.
 The `idleTimeout` default for `HTTP`/`HTTP2`/`GRPC` is 5 minutes.
 The `idleTimeout` default for `TCP` is 1 hour.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#idle_timeout_seconds EcsService#idle_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#idle_timeout_seconds EcsService#idle_timeout_seconds}
 
 ---
 
@@ -4519,7 +4889,7 @@ The amount of time waiting for the upstream to respond with a complete response 
 
 A value of `0` can be set to disable `perRequestTimeout`. `perRequestTimeout` can only be set if Service Connect `appProtocol` isn't `TCP`. Only `idleTimeout` is allowed for `TCP````appProtocol`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#per_request_timeout_seconds EcsService#per_request_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#per_request_timeout_seconds EcsService#per_request_timeout_seconds}
 
 ---
 
@@ -4557,7 +4927,7 @@ public EcsServiceServiceConnectConfigurationServicesTlsIssuerCertificateAuthorit
 
 The signer certificate authority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#issuer_certificate_authority EcsService#issuer_certificate_authority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#issuer_certificate_authority EcsService#issuer_certificate_authority}
 
 ---
 
@@ -4571,7 +4941,7 @@ public string KmsKey { get; set; }
 
 The AWS Key Management Service key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#kms_key EcsService#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#kms_key EcsService#kms_key}
 
 ---
 
@@ -4585,7 +4955,7 @@ public string RoleArn { get; set; }
 
 The Amazon Resource Name (ARN) of the IAM role that's associated with the Service Connect TLS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
 
 ---
 
@@ -4619,7 +4989,7 @@ public string AwsPcaAuthorityArn { get; set; }
 
 The ARN of the AWS Private Certificate Authority certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#aws_pca_authority_arn EcsService#aws_pca_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#aws_pca_authority_arn EcsService#aws_pca_authority_arn}
 
 ---
 
@@ -4661,7 +5031,7 @@ The container name value to be used for your service discovery service.
 
 It's already specified in the task definition. If the task definition that your service task specifies uses the `bridge` or `host` network mode, you must specify a `containerName` and `containerPort` combination from the task definition. If the task definition that your service task specifies uses the `awsvpc` network mode and a type SRV DNS record is used, you must specify either a `containerName` and `containerPort` combination or a `port` value. However, you can't specify both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#container_name EcsService#container_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#container_name EcsService#container_name}
 
 ---
 
@@ -4677,7 +5047,7 @@ The port value to be used for your service discovery service.
 
 It's already specified in the task definition. If the task definition your service task specifies uses the `bridge` or `host` network mode, you must specify a `containerName` and `containerPort` combination from the task definition. If the task definition your service task specifies uses the `awsvpc` network mode and a type SRV DNS record is used, you must specify either a `containerName` and `containerPort` combination or a `port` value. However, you can't specify both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#container_port EcsService#container_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#container_port EcsService#container_port}
 
 ---
 
@@ -4693,7 +5063,7 @@ The port value used if your service discovery service specified an SRV record.
 
 This field might be used if both the `awsvpc` network mode and SRV records are used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#port EcsService#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#port EcsService#port}
 
 ---
 
@@ -4709,7 +5079,7 @@ The Amazon Resource Name (ARN) of the service registry.
 
 The currently supported service registry is CMAP. For more information, see [CreateService](https://docs.aws.amazon.com/cloud-map/latest/api/API_CreateService.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#registry_arn EcsService#registry_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#registry_arn EcsService#registry_arn}
 
 ---
 
@@ -4747,7 +5117,7 @@ One part of a key-value pair that make up a tag.
 
 A `key` is a general label that acts like a category for more specific tag values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#key EcsService#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#key EcsService#key}
 
 ---
 
@@ -4763,7 +5133,7 @@ The optional part of a key-value pair that make up a tag.
 
 A `value` acts as a descriptor within a tag category (key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#value EcsService#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#value EcsService#value}
 
 ---
 
@@ -4801,7 +5171,7 @@ The configuration for the Amazon EBS volume that Amazon ECS creates and manages 
 
 These settings are used to create each Amazon EBS volume, with one volume created for each task in the service. The Amazon EBS volumes are visible in your account in the Amazon EC2 console once they are created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#managed_ebs_volume EcsService#managed_ebs_volume}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#managed_ebs_volume EcsService#managed_ebs_volume}
 
 ---
 
@@ -4817,7 +5187,7 @@ The name of the volume.
 
 This value must match the volume name from the `Volume` object in the task definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#name EcsService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#name EcsService#name}
 
 ---
 
@@ -4873,7 +5243,7 @@ Indicates whether the volume should be encrypted.
 
 If you turn on Region-level Amazon EBS encryption by default but set this value as `false`, the setting is overridden and the volume is encrypted with the KMS key specified for Amazon EBS encryption by default. This parameter maps 1:1 with the `Encrypted` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#encrypted EcsService#encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#encrypted EcsService#encrypted}
 
 ---
 
@@ -4891,7 +5261,7 @@ For volumes created from a snapshot, you must specify the same filesystem type t
 The available Linux filesystem types are `ext3`, `ext4`, and `xfs`. If no value is specified, the `xfs` filesystem type is used by default.
 The available Windows filesystem types are `NTFS`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#filesystem_type EcsService#filesystem_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#filesystem_type EcsService#filesystem_type}
 
 ---
 
@@ -4915,7 +5285,7 @@ The following are the supported values for each volume type.
 This parameter is required for `io1` and `io2` volume types. The default for `gp3` volumes is `3,000 IOPS`. This parameter is not supported for `st1`, `sc1`, or `standard` volume types.
 This parameter maps 1:1 with the `Iops` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#iops EcsService#iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#iops EcsService#iops}
 
 ---
 
@@ -4932,7 +5302,7 @@ The Amazon Resource Name (ARN) identifier of the AWS Key Management Service key 
 When a key is specified using this parameter, it overrides Amazon EBS default encryption or any KMS key that you specified for cluster-level managed storage encryption. This parameter maps 1:1 with the `KmsKeyId` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*. For more information about encrypting Amazon EBS volumes attached to tasks, see [Encrypt data stored in Amazon EBS volumes attached to Amazon ECS tasks](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ebs-kms-encryption.html).
 AWS authenticates the AWS Key Management Service key asynchronously. Therefore, if you specify an ID, alias, or ARN that is invalid, the action can appear to complete, but eventually fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#kms_key_id EcsService#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#kms_key_id EcsService#kms_key_id}
 
 ---
 
@@ -4948,7 +5318,7 @@ The ARN of the IAM role to associate with this volume.
 
 This is the Amazon ECS infrastructure IAM role that is used to manage your AWS infrastructure. We recommend using the Amazon ECS-managed `AmazonECSInfrastructureRolePolicyForVolumes` IAM policy with this role. For more information, see [Amazon ECS infrastructure IAM role](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/infrastructure_IAM_role.html) in the *Amazon ECS Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
 
 ---
 
@@ -4970,7 +5340,7 @@ The following are the supported volume size values for each volume type.
 * `st1` and `sc1`: 125-16,384
 * `standard`: 1-1,024
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#size_in_gi_b EcsService#size_in_gi_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#size_in_gi_b EcsService#size_in_gi_b}
 
 ---
 
@@ -4986,7 +5356,7 @@ The snapshot that Amazon ECS uses to create volumes for attachment to tasks main
 
 You must specify either `snapshotId` or `sizeInGiB` in your volume configuration. This parameter maps 1:1 with the `SnapshotId` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#snapshot_id EcsService#snapshot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#snapshot_id EcsService#snapshot_id}
 
 ---
 
@@ -5002,7 +5372,7 @@ The tags to apply to the volume.
 
 Amazon ECS applies service-managed tags by default. This parameter maps 1:1 with the `TagSpecifications.N` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#tag_specifications EcsService#tag_specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#tag_specifications EcsService#tag_specifications}
 
 ---
 
@@ -5019,7 +5389,7 @@ The throughput to provision for a volume, in MiB/s, with a maximum of 1,000 MiB/
 This parameter maps 1:1 with the `Throughput` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*.
 This parameter is only supported for the `gp3` volume type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#throughput EcsService#throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#throughput EcsService#throughput}
 
 ---
 
@@ -5035,7 +5405,7 @@ The rate, in MiB/s, at which data is fetched from a snapshot of an existing EBS 
 
 This property can be specified only if you specify a `snapshotId`. For more information, see [Initialize Amazon EBS volumes](https://docs.aws.amazon.com/ebs/latest/userguide/initalize-volume.html) in the *Amazon EBS User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#volume_initialization_rate EcsService#volume_initialization_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#volume_initialization_rate EcsService#volume_initialization_rate}
 
 ---
 
@@ -5059,7 +5429,7 @@ The following are the supported volume types.
 * Magnetic: `standard`
   The magnetic volume type is not supported on Fargate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#volume_type EcsService#volume_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#volume_type EcsService#volume_type}
 
 ---
 
@@ -5099,7 +5469,7 @@ Determines whether to propagate the tags from the task definition to the Amazon 
 
 Tags can only propagate to a `SERVICE` specified in `ServiceVolumeConfiguration`. If no value is specified, the tags aren't propagated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#propagate_tags EcsService#propagate_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#propagate_tags EcsService#propagate_tags}
 
 ---
 
@@ -5113,7 +5483,7 @@ public string ResourceType { get; set; }
 
 The type of volume resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#resource_type EcsService#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#resource_type EcsService#resource_type}
 
 ---
 
@@ -5127,7 +5497,7 @@ public IResolvable|EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecificatio
 
 The tags applied to this Amazon EBS volume. ``AmazonECSCreated`` and ``AmazonECSManaged`` are reserved tags that can't be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#tags EcsService#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#tags EcsService#tags}
 
 ---
 
@@ -5165,7 +5535,7 @@ One part of a key-value pair that make up a tag.
 
 A `key` is a general label that acts like a category for more specific tag values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#key EcsService#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#key EcsService#key}
 
 ---
 
@@ -5181,7 +5551,7 @@ The optional part of a key-value pair that make up a tag.
 
 A `value` acts as a descriptor within a tag category (key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#value EcsService#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#value EcsService#value}
 
 ---
 
@@ -5204,7 +5574,7 @@ new EcsServiceVpcLatticeConfigurations {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurations.property.advancedConfiguration">AdvancedConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurationsAdvancedConfiguration">EcsServiceVpcLatticeConfigurationsAdvancedConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#advanced_configuration EcsService#advanced_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurations.property.advancedConfiguration">AdvancedConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurationsAdvancedConfiguration">EcsServiceVpcLatticeConfigurationsAdvancedConfiguration</a></code> | The advanced settings for VPC Lattice used in blue/green deployments. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurations.property.portName">PortName</a></code> | <code>string</code> | The name of the port mapping to register in the VPC Lattice target group. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurations.property.roleArn">RoleArn</a></code> | <code>string</code> | The ARN of the IAM role to associate with this VPC Lattice configuration. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurations.property.targetGroupArn">TargetGroupArn</a></code> | <code>string</code> | The full Amazon Resource Name (ARN) of the target group or groups associated with the VPC Lattice configuration that the Amazon ECS tasks will be registered to. |
@@ -5219,7 +5589,11 @@ public EcsServiceVpcLatticeConfigurationsAdvancedConfiguration AdvancedConfigura
 
 - *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurationsAdvancedConfiguration">EcsServiceVpcLatticeConfigurationsAdvancedConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#advanced_configuration EcsService#advanced_configuration}.
+The advanced settings for VPC Lattice used in blue/green deployments.
+
+Specify the alternate target group and listener rules required for traffic shifting during blue/green deployments. For more information, see [Required resources for Amazon ECS blue/green deployments](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/blue-green-deployment-implementation.html) in the *Amazon Elastic Container Service Developer Guide*.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#advanced_configuration EcsService#advanced_configuration}
 
 ---
 
@@ -5235,7 +5609,7 @@ The name of the port mapping to register in the VPC Lattice target group.
 
 This is the name of the `portMapping` you defined in your task definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#port_name EcsService#port_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#port_name EcsService#port_name}
 
 ---
 
@@ -5251,7 +5625,7 @@ The ARN of the IAM role to associate with this VPC Lattice configuration.
 
 This is the Amazon ECS infrastructure IAM role that is used to manage your VPC Lattice infrastructure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
 
 ---
 
@@ -5265,7 +5639,7 @@ public string TargetGroupArn { get; set; }
 
 The full Amazon Resource Name (ARN) of the target group or groups associated with the VPC Lattice configuration that the Amazon ECS tasks will be registered to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#target_group_arn EcsService#target_group_arn}
 
 ---
 
@@ -5287,9 +5661,9 @@ new EcsServiceVpcLatticeConfigurationsAdvancedConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurationsAdvancedConfiguration.property.alternateTargetGroupArn">AlternateTargetGroupArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#alternate_target_group_arn EcsService#alternate_target_group_arn}. |
-| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurationsAdvancedConfiguration.property.productionListenerRule">ProductionListenerRule</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#production_listener_rule EcsService#production_listener_rule}. |
-| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurationsAdvancedConfiguration.property.testListenerRule">TestListenerRule</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#test_listener_rule EcsService#test_listener_rule}. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurationsAdvancedConfiguration.property.alternateTargetGroupArn">AlternateTargetGroupArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the alternate target group associated with the VPC Lattice Configuration for Amazon ECS blue/green deployments. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurationsAdvancedConfiguration.property.productionListenerRule">ProductionListenerRule</a></code> | <code>string</code> | The Amazon Resource Name (ARN) that identifies the production listener rule or listener for routing production traffic. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceVpcLatticeConfigurationsAdvancedConfiguration.property.testListenerRule">TestListenerRule</a></code> | <code>string</code> | The Amazon Resource Name (ARN) that identifies the test listener rule or listener for routing test traffic. |
 
 ---
 
@@ -5301,7 +5675,9 @@ public string AlternateTargetGroupArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#alternate_target_group_arn EcsService#alternate_target_group_arn}.
+The Amazon Resource Name (ARN) of the alternate target group associated with the VPC Lattice Configuration for Amazon ECS blue/green deployments.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#alternate_target_group_arn EcsService#alternate_target_group_arn}
 
 ---
 
@@ -5313,7 +5689,9 @@ public string ProductionListenerRule { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#production_listener_rule EcsService#production_listener_rule}.
+The Amazon Resource Name (ARN) that identifies the production listener rule or listener for routing production traffic.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#production_listener_rule EcsService#production_listener_rule}
 
 ---
 
@@ -5325,7 +5703,9 @@ public string TestListenerRule { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service#test_listener_rule EcsService#test_listener_rule}.
+The Amazon Resource Name (ARN) that identifies the test listener rule or listener for routing test traffic.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#test_listener_rule EcsService#test_listener_rule}
 
 ---
 
@@ -9939,6 +10319,1625 @@ public IResolvable|EcsServiceForceNewDeployment InternalValue { get; }
 ---
 
 
+### EcsServiceGatewayConnectorsFiltersOutputReference <a name="EcsServiceGatewayConnectorsFiltersOutputReference" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceGatewayConnectorsFiltersOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.resetAccessTypes">ResetAccessTypes</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetAccessTypes` <a name="ResetAccessTypes" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.resetAccessTypes"></a>
+
+```csharp
+private void ResetAccessTypes()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.property.accessTypesInput">AccessTypesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.property.accessTypes">AccessTypes</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters">EcsServiceGatewayConnectorsFilters</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AccessTypesInput`<sup>Optional</sup> <a name="AccessTypesInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.property.accessTypesInput"></a>
+
+```csharp
+public string[] AccessTypesInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `AccessTypes`<sup>Required</sup> <a name="AccessTypes" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.property.accessTypes"></a>
+
+```csharp
+public string[] AccessTypes { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|EcsServiceGatewayConnectorsFilters InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters">EcsServiceGatewayConnectorsFilters</a>
+
+---
+
+
+### EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference <a name="EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.resetGrpcCode">ResetGrpcCode</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.resetHttpCode">ResetHttpCode</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetGrpcCode` <a name="ResetGrpcCode" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.resetGrpcCode"></a>
+
+```csharp
+private void ResetGrpcCode()
+```
+
+##### `ResetHttpCode` <a name="ResetHttpCode" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.resetHttpCode"></a>
+
+```csharp
+private void ResetHttpCode()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.grpcCodeInput">GrpcCodeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.httpCodeInput">HttpCodeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.grpcCode">GrpcCode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.httpCode">HttpCode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher">EcsServiceGatewayConnectorsHealthCheckMatcher</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `GrpcCodeInput`<sup>Optional</sup> <a name="GrpcCodeInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.grpcCodeInput"></a>
+
+```csharp
+public string GrpcCodeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HttpCodeInput`<sup>Optional</sup> <a name="HttpCodeInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.httpCodeInput"></a>
+
+```csharp
+public string HttpCodeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `GrpcCode`<sup>Required</sup> <a name="GrpcCode" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.grpcCode"></a>
+
+```csharp
+public string GrpcCode { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HttpCode`<sup>Required</sup> <a name="HttpCode" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.httpCode"></a>
+
+```csharp
+public string HttpCode { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|EcsServiceGatewayConnectorsHealthCheckMatcher InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher">EcsServiceGatewayConnectorsHealthCheckMatcher</a>
+
+---
+
+
+### EcsServiceGatewayConnectorsHealthCheckOutputReference <a name="EcsServiceGatewayConnectorsHealthCheckOutputReference" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceGatewayConnectorsHealthCheckOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.putMatcher">PutMatcher</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthCheckIntervalSeconds">ResetHealthCheckIntervalSeconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthCheckPath">ResetHealthCheckPath</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthCheckPort">ResetHealthCheckPort</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthCheckProtocol">ResetHealthCheckProtocol</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthCheckTimeoutSeconds">ResetHealthCheckTimeoutSeconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthyThresholdCount">ResetHealthyThresholdCount</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetMatcher">ResetMatcher</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetUnhealthyThresholdCount">ResetUnhealthyThresholdCount</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutMatcher` <a name="PutMatcher" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.putMatcher"></a>
+
+```csharp
+private void PutMatcher(EcsServiceGatewayConnectorsHealthCheckMatcher Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.putMatcher.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher">EcsServiceGatewayConnectorsHealthCheckMatcher</a>
+
+---
+
+##### `ResetHealthCheckIntervalSeconds` <a name="ResetHealthCheckIntervalSeconds" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthCheckIntervalSeconds"></a>
+
+```csharp
+private void ResetHealthCheckIntervalSeconds()
+```
+
+##### `ResetHealthCheckPath` <a name="ResetHealthCheckPath" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthCheckPath"></a>
+
+```csharp
+private void ResetHealthCheckPath()
+```
+
+##### `ResetHealthCheckPort` <a name="ResetHealthCheckPort" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthCheckPort"></a>
+
+```csharp
+private void ResetHealthCheckPort()
+```
+
+##### `ResetHealthCheckProtocol` <a name="ResetHealthCheckProtocol" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthCheckProtocol"></a>
+
+```csharp
+private void ResetHealthCheckProtocol()
+```
+
+##### `ResetHealthCheckTimeoutSeconds` <a name="ResetHealthCheckTimeoutSeconds" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthCheckTimeoutSeconds"></a>
+
+```csharp
+private void ResetHealthCheckTimeoutSeconds()
+```
+
+##### `ResetHealthyThresholdCount` <a name="ResetHealthyThresholdCount" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetHealthyThresholdCount"></a>
+
+```csharp
+private void ResetHealthyThresholdCount()
+```
+
+##### `ResetMatcher` <a name="ResetMatcher" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetMatcher"></a>
+
+```csharp
+private void ResetMatcher()
+```
+
+##### `ResetUnhealthyThresholdCount` <a name="ResetUnhealthyThresholdCount" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.resetUnhealthyThresholdCount"></a>
+
+```csharp
+private void ResetUnhealthyThresholdCount()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.matcher">Matcher</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference">EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckIntervalSecondsInput">HealthCheckIntervalSecondsInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckPathInput">HealthCheckPathInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckPortInput">HealthCheckPortInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckProtocolInput">HealthCheckProtocolInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckTimeoutSecondsInput">HealthCheckTimeoutSecondsInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthyThresholdCountInput">HealthyThresholdCountInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.matcherInput">MatcherInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher">EcsServiceGatewayConnectorsHealthCheckMatcher</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.unhealthyThresholdCountInput">UnhealthyThresholdCountInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckIntervalSeconds">HealthCheckIntervalSeconds</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckPath">HealthCheckPath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckPort">HealthCheckPort</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckProtocol">HealthCheckProtocol</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckTimeoutSeconds">HealthCheckTimeoutSeconds</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthyThresholdCount">HealthyThresholdCount</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.unhealthyThresholdCount">UnhealthyThresholdCount</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck">EcsServiceGatewayConnectorsHealthCheck</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Matcher`<sup>Required</sup> <a name="Matcher" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.matcher"></a>
+
+```csharp
+public EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference Matcher { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference">EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference</a>
+
+---
+
+##### `HealthCheckIntervalSecondsInput`<sup>Optional</sup> <a name="HealthCheckIntervalSecondsInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckIntervalSecondsInput"></a>
+
+```csharp
+public double HealthCheckIntervalSecondsInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `HealthCheckPathInput`<sup>Optional</sup> <a name="HealthCheckPathInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckPathInput"></a>
+
+```csharp
+public string HealthCheckPathInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HealthCheckPortInput`<sup>Optional</sup> <a name="HealthCheckPortInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckPortInput"></a>
+
+```csharp
+public double HealthCheckPortInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `HealthCheckProtocolInput`<sup>Optional</sup> <a name="HealthCheckProtocolInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckProtocolInput"></a>
+
+```csharp
+public string HealthCheckProtocolInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HealthCheckTimeoutSecondsInput`<sup>Optional</sup> <a name="HealthCheckTimeoutSecondsInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckTimeoutSecondsInput"></a>
+
+```csharp
+public double HealthCheckTimeoutSecondsInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `HealthyThresholdCountInput`<sup>Optional</sup> <a name="HealthyThresholdCountInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthyThresholdCountInput"></a>
+
+```csharp
+public double HealthyThresholdCountInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `MatcherInput`<sup>Optional</sup> <a name="MatcherInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.matcherInput"></a>
+
+```csharp
+public IResolvable|EcsServiceGatewayConnectorsHealthCheckMatcher MatcherInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher">EcsServiceGatewayConnectorsHealthCheckMatcher</a>
+
+---
+
+##### `UnhealthyThresholdCountInput`<sup>Optional</sup> <a name="UnhealthyThresholdCountInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.unhealthyThresholdCountInput"></a>
+
+```csharp
+public double UnhealthyThresholdCountInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `HealthCheckIntervalSeconds`<sup>Required</sup> <a name="HealthCheckIntervalSeconds" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckIntervalSeconds"></a>
+
+```csharp
+public double HealthCheckIntervalSeconds { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `HealthCheckPath`<sup>Required</sup> <a name="HealthCheckPath" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckPath"></a>
+
+```csharp
+public string HealthCheckPath { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HealthCheckPort`<sup>Required</sup> <a name="HealthCheckPort" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckPort"></a>
+
+```csharp
+public double HealthCheckPort { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `HealthCheckProtocol`<sup>Required</sup> <a name="HealthCheckProtocol" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckProtocol"></a>
+
+```csharp
+public string HealthCheckProtocol { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `HealthCheckTimeoutSeconds`<sup>Required</sup> <a name="HealthCheckTimeoutSeconds" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthCheckTimeoutSeconds"></a>
+
+```csharp
+public double HealthCheckTimeoutSeconds { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `HealthyThresholdCount`<sup>Required</sup> <a name="HealthyThresholdCount" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.healthyThresholdCount"></a>
+
+```csharp
+public double HealthyThresholdCount { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `UnhealthyThresholdCount`<sup>Required</sup> <a name="UnhealthyThresholdCount" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.unhealthyThresholdCount"></a>
+
+```csharp
+public double UnhealthyThresholdCount { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|EcsServiceGatewayConnectorsHealthCheck InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck">EcsServiceGatewayConnectorsHealthCheck</a>
+
+---
+
+
+### EcsServiceGatewayConnectorsList <a name="EcsServiceGatewayConnectorsList" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceGatewayConnectorsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.get"></a>
+
+```csharp
+private EcsServiceGatewayConnectorsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors">EcsServiceGatewayConnectors</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList.property.internalValue"></a>
+
+```csharp
+public IResolvable|EcsServiceGatewayConnectors[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors">EcsServiceGatewayConnectors</a>[]
+
+---
+
+
+### EcsServiceGatewayConnectorsOutputReference <a name="EcsServiceGatewayConnectorsOutputReference" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceGatewayConnectorsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.putFilters">PutFilters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.putHealthCheck">PutHealthCheck</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.resetFilters">ResetFilters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.resetHealthCheck">ResetHealthCheck</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.resetPortName">ResetPortName</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutFilters` <a name="PutFilters" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.putFilters"></a>
+
+```csharp
+private void PutFilters(EcsServiceGatewayConnectorsFilters Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.putFilters.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters">EcsServiceGatewayConnectorsFilters</a>
+
+---
+
+##### `PutHealthCheck` <a name="PutHealthCheck" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.putHealthCheck"></a>
+
+```csharp
+private void PutHealthCheck(EcsServiceGatewayConnectorsHealthCheck Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.putHealthCheck.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck">EcsServiceGatewayConnectorsHealthCheck</a>
+
+---
+
+##### `ResetFilters` <a name="ResetFilters" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.resetFilters"></a>
+
+```csharp
+private void ResetFilters()
+```
+
+##### `ResetHealthCheck` <a name="ResetHealthCheck" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.resetHealthCheck"></a>
+
+```csharp
+private void ResetHealthCheck()
+```
+
+##### `ResetPortName` <a name="ResetPortName" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.resetPortName"></a>
+
+```csharp
+private void ResetPortName()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.filters">Filters</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference">EcsServiceGatewayConnectorsFiltersOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.healthCheck">HealthCheck</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference">EcsServiceGatewayConnectorsHealthCheckOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.filtersInput">FiltersInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters">EcsServiceGatewayConnectorsFilters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.healthCheckInput">HealthCheckInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck">EcsServiceGatewayConnectorsHealthCheck</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.portNameInput">PortNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.portName">PortName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors">EcsServiceGatewayConnectors</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Filters`<sup>Required</sup> <a name="Filters" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.filters"></a>
+
+```csharp
+public EcsServiceGatewayConnectorsFiltersOutputReference Filters { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference">EcsServiceGatewayConnectorsFiltersOutputReference</a>
+
+---
+
+##### `HealthCheck`<sup>Required</sup> <a name="HealthCheck" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.healthCheck"></a>
+
+```csharp
+public EcsServiceGatewayConnectorsHealthCheckOutputReference HealthCheck { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference">EcsServiceGatewayConnectorsHealthCheckOutputReference</a>
+
+---
+
+##### `FiltersInput`<sup>Optional</sup> <a name="FiltersInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.filtersInput"></a>
+
+```csharp
+public IResolvable|EcsServiceGatewayConnectorsFilters FiltersInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters">EcsServiceGatewayConnectorsFilters</a>
+
+---
+
+##### `HealthCheckInput`<sup>Optional</sup> <a name="HealthCheckInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.healthCheckInput"></a>
+
+```csharp
+public IResolvable|EcsServiceGatewayConnectorsHealthCheck HealthCheckInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck">EcsServiceGatewayConnectorsHealthCheck</a>
+
+---
+
+##### `PortNameInput`<sup>Optional</sup> <a name="PortNameInput" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.portNameInput"></a>
+
+```csharp
+public string PortNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `PortName`<sup>Required</sup> <a name="PortName" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.portName"></a>
+
+```csharp
+public string PortName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|EcsServiceGatewayConnectors InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors">EcsServiceGatewayConnectors</a>
+
+---
+
+
 ### EcsServiceLoadBalancersAdvancedConfigurationOutputReference <a name="EcsServiceLoadBalancersAdvancedConfigurationOutputReference" id="@cdktn/provider-awscc.ecsService.EcsServiceLoadBalancersAdvancedConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsService.EcsServiceLoadBalancersAdvancedConfigurationOutputReference.Initializer"></a>
@@ -13569,6 +15568,462 @@ public IResolvable|EcsServiceServiceConnectConfigurationAccessLogConfiguration I
 ---
 
 
+### EcsServiceServiceConnectConfigurationContainerConfigurationsList <a name="EcsServiceServiceConnectConfigurationContainerConfigurationsList" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceServiceConnectConfigurationContainerConfigurationsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.get"></a>
+
+```csharp
+private EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations">EcsServiceServiceConnectConfigurationContainerConfigurations</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList.property.internalValue"></a>
+
+```csharp
+public IResolvable|EcsServiceServiceConnectConfigurationContainerConfigurations[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations">EcsServiceServiceConnectConfigurationContainerConfigurations</a>[]
+
+---
+
+
+### EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference <a name="EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.resetLogLevel">ResetLogLevel</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetLogLevel` <a name="ResetLogLevel" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.resetLogLevel"></a>
+
+```csharp
+private void ResetLogLevel()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.property.logLevelInput">LogLevelInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.property.logLevel">LogLevel</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations">EcsServiceServiceConnectConfigurationContainerConfigurations</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `LogLevelInput`<sup>Optional</sup> <a name="LogLevelInput" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.property.logLevelInput"></a>
+
+```csharp
+public string LogLevelInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `LogLevel`<sup>Required</sup> <a name="LogLevel" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.property.logLevel"></a>
+
+```csharp
+public string LogLevel { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|EcsServiceServiceConnectConfigurationContainerConfigurations InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations">EcsServiceServiceConnectConfigurationContainerConfigurations</a>
+
+---
+
+
 ### EcsServiceServiceConnectConfigurationLogConfigurationOutputReference <a name="EcsServiceServiceConnectConfigurationLogConfigurationOutputReference" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationOutputReference.Initializer"></a>
@@ -14454,9 +16909,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.putAccessLogConfiguration">PutAccessLogConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.putContainerConfigurations">PutContainerConfigurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.putLogConfiguration">PutLogConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.putServices">PutServices</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.resetAccessLogConfiguration">ResetAccessLogConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.resetContainerConfigurations">ResetContainerConfigurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.resetEnabled">ResetEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.resetLogConfiguration">ResetLogConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.resetNamespace">ResetNamespace</a></code> | *No description.* |
@@ -14626,6 +17083,18 @@ private void PutAccessLogConfiguration(EcsServiceServiceConnectConfigurationAcce
 
 ---
 
+##### `PutContainerConfigurations` <a name="PutContainerConfigurations" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.putContainerConfigurations"></a>
+
+```csharp
+private void PutContainerConfigurations(IResolvable|EcsServiceServiceConnectConfigurationContainerConfigurations[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.putContainerConfigurations.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations">EcsServiceServiceConnectConfigurationContainerConfigurations</a>[]
+
+---
+
 ##### `PutLogConfiguration` <a name="PutLogConfiguration" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.putLogConfiguration"></a>
 
 ```csharp
@@ -14654,6 +17123,12 @@ private void PutServices(IResolvable|EcsServiceServiceConnectConfigurationServic
 
 ```csharp
 private void ResetAccessLogConfiguration()
+```
+
+##### `ResetContainerConfigurations` <a name="ResetContainerConfigurations" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.resetContainerConfigurations"></a>
+
+```csharp
+private void ResetContainerConfigurations()
 ```
 
 ##### `ResetEnabled` <a name="ResetEnabled" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.resetEnabled"></a>
@@ -14688,9 +17163,11 @@ private void ResetServices()
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.accessLogConfiguration">AccessLogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputReference">EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.containerConfigurations">ContainerConfigurations</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList">EcsServiceServiceConnectConfigurationContainerConfigurationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.logConfiguration">LogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationOutputReference">EcsServiceServiceConnectConfigurationLogConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.services">Services</a></code> | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationServicesList">EcsServiceServiceConnectConfigurationServicesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.accessLogConfigurationInput">AccessLogConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationAccessLogConfiguration">EcsServiceServiceConnectConfigurationAccessLogConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.containerConfigurationsInput">ContainerConfigurationsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations">EcsServiceServiceConnectConfigurationContainerConfigurations</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.enabledInput">EnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.logConfigurationInput">LogConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationLogConfiguration">EcsServiceServiceConnectConfigurationLogConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.namespaceInput">NamespaceInput</a></code> | <code>string</code> | *No description.* |
@@ -14735,6 +17212,16 @@ public EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputReferenc
 
 ---
 
+##### `ContainerConfigurations`<sup>Required</sup> <a name="ContainerConfigurations" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.containerConfigurations"></a>
+
+```csharp
+public EcsServiceServiceConnectConfigurationContainerConfigurationsList ContainerConfigurations { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList">EcsServiceServiceConnectConfigurationContainerConfigurationsList</a>
+
+---
+
 ##### `LogConfiguration`<sup>Required</sup> <a name="LogConfiguration" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.logConfiguration"></a>
 
 ```csharp
@@ -14762,6 +17249,16 @@ public IResolvable|EcsServiceServiceConnectConfigurationAccessLogConfiguration A
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationAccessLogConfiguration">EcsServiceServiceConnectConfigurationAccessLogConfiguration</a>
+
+---
+
+##### `ContainerConfigurationsInput`<sup>Optional</sup> <a name="ContainerConfigurationsInput" id="@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationOutputReference.property.containerConfigurationsInput"></a>
+
+```csharp
+public IResolvable|EcsServiceServiceConnectConfigurationContainerConfigurations[] ContainerConfigurationsInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations">EcsServiceServiceConnectConfigurationContainerConfigurations</a>[]
 
 ---
 

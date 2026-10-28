@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcoreOnlineEvaluationConfigs <a name="DataAwsccBedrockagentcoreOnlineEvaluationConfigs" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOnlineEvaluationConfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_online_evaluation_configs awscc_bedrockagentcore_online_evaluation_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_online_evaluation_configs awscc_bedrockagentcore_online_evaluation_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOnlineEvaluationConfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreonlineevaluationconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreonlineevaluationconfigs"
 
 dataawsccbedrockagentcoreonlineevaluationconfigs.NewDataAwsccBedrockagentcoreOnlineEvaluationConfigs(scope Construct, id *string, config DataAwsccBedrockagentcoreOnlineEvaluationConfigsConfig) DataAwsccBedrockagentcoreOnlineEvaluationConfigs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOnlineEvaluationConfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreonlineevaluationconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreonlineevaluationconfigs"
 
 dataawsccbedrockagentcoreonlineevaluationconfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOnlineEvaluationConfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreonlineevaluationconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreonlineevaluationconfigs"
 
 dataawsccbedrockagentcoreonlineevaluationconfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcoreonlineevaluationconfigs.DataAwsccBedrockagentcoreOnline
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOnlineEvaluationConfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreonlineevaluationconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreonlineevaluationconfigs"
 
 dataawsccbedrockagentcoreonlineevaluationconfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcoreonlineevaluationconfigs.DataAwsccBedrockagentcoreOnline
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOnlineEvaluationConfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreonlineevaluationconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreonlineevaluationconfigs"
 
 dataawsccbedrockagentcoreonlineevaluationconfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreO
 
 The id of the existing DataAwsccBedrockagentcoreOnlineEvaluationConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_online_evaluation_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_online_evaluation_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOnlineEvaluationConfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreonlineevaluationconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreonlineevaluationconfigs"
 
 &dataawsccbedrockagentcoreonlineevaluationconfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigsConfig {
 	Connection: interface{},

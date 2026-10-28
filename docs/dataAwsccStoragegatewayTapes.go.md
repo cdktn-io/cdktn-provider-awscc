@@ -4,12 +4,12 @@
 
 ### DataAwsccStoragegatewayTapes <a name="DataAwsccStoragegatewayTapes" id="@cdktn/provider-awscc.dataAwsccStoragegatewayTapes.DataAwsccStoragegatewayTapes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/storagegateway_tapes awscc_storagegateway_tapes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/storagegateway_tapes awscc_storagegateway_tapes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStoragegatewayTapes.DataAwsccStoragegatewayTapes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaytapes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaytapes"
 
 dataawsccstoragegatewaytapes.NewDataAwsccStoragegatewayTapes(scope Construct, id *string, config DataAwsccStoragegatewayTapesConfig) DataAwsccStoragegatewayTapes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccStoragegatewayTapes.DataAwsccStoragegatewayTapes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaytapes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaytapes"
 
 dataawsccstoragegatewaytapes.DataAwsccStoragegatewayTapes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccStoragegatewayTapes.DataAwsccStoragegatewayTapes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaytapes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaytapes"
 
 dataawsccstoragegatewaytapes.DataAwsccStoragegatewayTapes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccstoragegatewaytapes.DataAwsccStoragegatewayTapes_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccStoragegatewayTapes.DataAwsccStoragegatewayTapes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaytapes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaytapes"
 
 dataawsccstoragegatewaytapes.DataAwsccStoragegatewayTapes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccstoragegatewaytapes.DataAwsccStoragegatewayTapes_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccStoragegatewayTapes.DataAwsccStoragegatewayTapes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaytapes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaytapes"
 
 dataawsccstoragegatewaytapes.DataAwsccStoragegatewayTapes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccStoragegatewayTap
 
 The id of the existing DataAwsccStoragegatewayTapes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/storagegateway_tapes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/storagegateway_tapes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStoragegatewayTapes.DataAwsccStoragegatewayTapesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaytapes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaytapes"
 
 &dataawsccstoragegatewaytapes.DataAwsccStoragegatewayTapesConfig {
 	Connection: interface{},

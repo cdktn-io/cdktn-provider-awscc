@@ -4,12 +4,12 @@
 
 ### CodedeployApplication <a name="CodedeployApplication" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application awscc_codedeploy_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application awscc_codedeploy_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeployapplication"
 
 codedeployapplication.NewCodedeployApplication(scope Construct, id *string, config CodedeployApplicationConfig) CodedeployApplication
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeployapplication"
 
 codedeployapplication.CodedeployApplication_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeployapplication"
 
 codedeployapplication.CodedeployApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ codedeployapplication.CodedeployApplication_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeployapplication"
 
 codedeployapplication.CodedeployApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ codedeployapplication.CodedeployApplication_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeployapplication"
 
 codedeployapplication.CodedeployApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the CodedeployApplication to i
 
 The id of the existing CodedeployApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -800,7 +800,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeployapplication"
 
 &codedeployapplication.CodedeployApplicationConfig {
 	Connection: interface{},
@@ -915,7 +915,7 @@ A name for the application.
 
 If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the application name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application#application_name CodedeployApplication#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application#application_name CodedeployApplication#application_name}
 
 ---
 
@@ -929,7 +929,7 @@ ComputePlatform *string
 
 The compute platform that CodeDeploy deploys the application to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application#compute_platform CodedeployApplication#compute_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application#compute_platform CodedeployApplication#compute_platform}
 
 ---
 
@@ -945,7 +945,7 @@ The metadata that you apply to CodeDeploy applications to help you organize and 
 
 Each tag consists of a key and an optional value, both of which you define.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application#tags CodedeployApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application#tags CodedeployApplication#tags}
 
 ---
 
@@ -954,7 +954,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeployapplication"
 
 &codedeployapplication.CodedeployApplicationTags {
 	Key: *string,
@@ -966,8 +966,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeployapplication"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application#key CodedeployApplication#key}. |
-| <code><a href="#@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application#value CodedeployApplication#value}. |
+| <code><a href="#@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application#key CodedeployApplication#key}. |
+| <code><a href="#@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application#value CodedeployApplication#value}. |
 
 ---
 
@@ -979,7 +979,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application#key CodedeployApplication#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application#key CodedeployApplication#key}.
 
 ---
 
@@ -991,7 +991,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application#value CodedeployApplication#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application#value CodedeployApplication#value}.
 
 ---
 
@@ -1002,7 +1002,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeployapplication"
 
 codedeployapplication.NewCodedeployApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodedeployApplicationTagsList
 ```
@@ -1162,7 +1162,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeployapplication"
 
 codedeployapplication.NewCodedeployApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodedeployApplicationTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightDataSource <a name="DataAwsccQuicksightDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_data_source awscc_quicksight_data_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_data_source awscc_quicksight_data_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSource(scope Construct, id *string, config DataAwsccQuicksightDataSourceConfig) DataAwsccQuicksightDataSource
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.DataAwsccQuicksightDataSource_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.DataAwsccQuicksightDataSource_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksightdatasource.DataAwsccQuicksightDataSource_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSource.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.DataAwsccQuicksightDataSource_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksightdatasource.DataAwsccQuicksightDataSource_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.DataAwsccQuicksightDataSource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightDataSou
 
 The id of the existing DataAwsccQuicksightDataSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_data_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_data_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParameters {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAmazonElasticsearchParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAmazonElasticsearchParameters {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAmazonOpenSearchParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAmazonOpenSearchParameters {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAthenaParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAthenaParameters {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAthenaParametersIdentityCenterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAthenaParametersIdentityCenterConfiguration {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAuroraParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAuroraParameters {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAuroraPostgreSqlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAuroraPostgreSqlParameters {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParameters {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters {
 
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties {
 
@@ -904,7 +904,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersMariaDbParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersMariaDbParameters {
 
@@ -917,7 +917,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersMySqlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersMySqlParameters {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersOracleParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersOracleParameters {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersPostgreSqlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersPostgreSqlParameters {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersPrestoParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersPrestoParameters {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRdsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRdsParameters {
 
@@ -982,7 +982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParameters {
 
@@ -995,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersIamParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersIamParameters {
 
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersIdentityCenterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersIdentityCenterConfiguration {
 
@@ -1021,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3Parameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3Parameters {
 
@@ -1034,7 +1034,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3ParametersManifestFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3ParametersManifestFileLocation {
 
@@ -1047,7 +1047,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3TablesParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3TablesParameters {
 
@@ -1060,7 +1060,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParameters {
 
@@ -1073,7 +1073,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParameters {
 
@@ -1086,7 +1086,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties {
 
@@ -1099,7 +1099,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSparkParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSparkParameters {
 
@@ -1112,7 +1112,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSqlServerParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSqlServerParameters {
 
@@ -1125,7 +1125,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParameters {
 
@@ -1138,7 +1138,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParameters {
 
@@ -1151,7 +1151,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties {
 
@@ -1164,7 +1164,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersTeradataParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersTeradataParameters {
 
@@ -1177,7 +1177,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersTrinoParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersTrinoParameters {
 
@@ -1190,7 +1190,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceConfig {
 	Connection: interface{},
@@ -1299,7 +1299,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_data_source#id DataAwsccQuicksightDataSource#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_data_source#id DataAwsccQuicksightDataSource#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1311,7 +1311,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentials {
 
@@ -1324,7 +1324,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPair.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPair {
 
@@ -1337,7 +1337,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParameters {
 
@@ -1350,7 +1350,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAmazonElasticsearchParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAmazonElasticsearchParameters {
 
@@ -1363,7 +1363,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAmazonOpenSearchParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAmazonOpenSearchParameters {
 
@@ -1376,7 +1376,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParameters {
 
@@ -1389,7 +1389,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParametersIdentityCenterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParametersIdentityCenterConfiguration {
 
@@ -1402,7 +1402,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAuroraParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAuroraParameters {
 
@@ -1415,7 +1415,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAuroraPostgreSqlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAuroraPostgreSqlParameters {
 
@@ -1428,7 +1428,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParameters {
 
@@ -1441,7 +1441,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParameters {
 
@@ -1454,7 +1454,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties {
 
@@ -1467,7 +1467,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersMariaDbParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersMariaDbParameters {
 
@@ -1480,7 +1480,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersMySqlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersMySqlParameters {
 
@@ -1493,7 +1493,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOracleParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOracleParameters {
 
@@ -1506,7 +1506,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersPostgreSqlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersPostgreSqlParameters {
 
@@ -1519,7 +1519,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersPrestoParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersPrestoParameters {
 
@@ -1532,7 +1532,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRdsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRdsParameters {
 
@@ -1545,7 +1545,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParameters {
 
@@ -1558,7 +1558,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersIamParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersIamParameters {
 
@@ -1571,7 +1571,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersIdentityCenterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersIdentityCenterConfiguration {
 
@@ -1584,7 +1584,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3Parameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3Parameters {
 
@@ -1597,7 +1597,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3ParametersManifestFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3ParametersManifestFileLocation {
 
@@ -1610,7 +1610,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParameters {
 
@@ -1623,7 +1623,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParameters {
 
@@ -1636,7 +1636,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParameters {
 
@@ -1649,7 +1649,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties {
 
@@ -1662,7 +1662,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSparkParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSparkParameters {
 
@@ -1675,7 +1675,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSqlServerParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSqlServerParameters {
 
@@ -1688,7 +1688,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParameters {
 
@@ -1701,7 +1701,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParameters {
 
@@ -1714,7 +1714,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties {
 
@@ -1727,7 +1727,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersTeradataParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersTeradataParameters {
 
@@ -1740,7 +1740,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersTrinoParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersTrinoParameters {
 
@@ -1753,7 +1753,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsKeyPairCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsKeyPairCredentials {
 
@@ -1766,7 +1766,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentials {
 
@@ -1779,7 +1779,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParameters {
 
@@ -1792,7 +1792,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAmazonElasticsearchParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersAmazonElasticsearchParameters {
 
@@ -1805,7 +1805,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAmazonOpenSearchParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersAmazonOpenSearchParameters {
 
@@ -1818,7 +1818,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAthenaParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersAthenaParameters {
 
@@ -1831,7 +1831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfiguration {
 
@@ -1844,7 +1844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAuroraParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersAuroraParameters {
 
@@ -1857,7 +1857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAuroraPostgreSqlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersAuroraPostgreSqlParameters {
 
@@ -1870,7 +1870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParameters {
 
@@ -1883,7 +1883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParameters {
 
@@ -1896,7 +1896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties {
 
@@ -1909,7 +1909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersMariaDbParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersMariaDbParameters {
 
@@ -1922,7 +1922,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersMySqlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersMySqlParameters {
 
@@ -1935,7 +1935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersOracleParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersOracleParameters {
 
@@ -1948,7 +1948,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersPostgreSqlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersPostgreSqlParameters {
 
@@ -1961,7 +1961,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersPrestoParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersPrestoParameters {
 
@@ -1974,7 +1974,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersRdsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersRdsParameters {
 
@@ -1987,7 +1987,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParameters {
 
@@ -2000,7 +2000,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersIamParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersIamParameters {
 
@@ -2013,7 +2013,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersIdentityCenterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersIdentityCenterConfiguration {
 
@@ -2026,7 +2026,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersS3Parameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersS3Parameters {
 
@@ -2039,7 +2039,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersS3ParametersManifestFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersS3ParametersManifestFileLocation {
 
@@ -2052,7 +2052,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersS3TablesParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersS3TablesParameters {
 
@@ -2065,7 +2065,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParameters {
 
@@ -2078,7 +2078,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters {
 
@@ -2091,7 +2091,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionProperties {
 
@@ -2104,7 +2104,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersSparkParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersSparkParameters {
 
@@ -2117,7 +2117,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersSqlServerParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersSqlServerParameters {
 
@@ -2130,7 +2130,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersStarburstParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersStarburstParameters {
 
@@ -2143,7 +2143,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOAuthParameters {
 
@@ -2156,7 +2156,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionProperties {
 
@@ -2169,7 +2169,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersTeradataParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersTeradataParameters {
 
@@ -2182,7 +2182,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersTrinoParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceDataSourceParametersTrinoParameters {
 
@@ -2195,7 +2195,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceErrorInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceErrorInfo {
 
@@ -2208,7 +2208,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourcePermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourcePermissions {
 
@@ -2221,7 +2221,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceSslProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceSslProperties {
 
@@ -2234,7 +2234,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceTags {
 
@@ -2247,7 +2247,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceVpcConnectionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 &dataawsccquicksightdatasource.DataAwsccQuicksightDataSourceVpcConnectionProperties {
 
@@ -2262,7 +2262,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAmazonElasticsearchParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersAmazonElasticsearchParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersAmazonElasticsearchParametersOutputReference
 ```
@@ -2522,7 +2522,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAmazonOpenSearchParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersAmazonOpenSearchParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersAmazonOpenSearchParametersOutputReference
 ```
@@ -2782,7 +2782,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference
 ```
@@ -3042,7 +3042,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAthenaParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersAthenaParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersAthenaParametersOutputReference
 ```
@@ -3335,7 +3335,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAuroraParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersAuroraParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersAuroraParametersOutputReference
 ```
@@ -3617,7 +3617,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersAuroraPostgreSqlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersAuroraPostgreSqlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersAuroraPostgreSqlParametersOutputReference
 ```
@@ -3899,7 +3899,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference
 ```
@@ -4159,7 +4159,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference
 ```
@@ -4452,7 +4452,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference
 ```
@@ -4756,7 +4756,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightDataSourceAlternateDataSourceParametersList
 ```
@@ -4905,7 +4905,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersMariaDbParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersMariaDbParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersMariaDbParametersOutputReference
 ```
@@ -5187,7 +5187,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersM
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersMySqlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersMySqlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersMySqlParametersOutputReference
 ```
@@ -5469,7 +5469,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersM
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersOracleParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersOracleParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersOracleParametersOutputReference
 ```
@@ -5762,7 +5762,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersO
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightDataSourceAlternateDataSourceParametersOutputReference
 ```
@@ -6260,7 +6260,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersPostgreSqlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersPostgreSqlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersPostgreSqlParametersOutputReference
 ```
@@ -6542,7 +6542,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersPrestoParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersPrestoParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersPrestoParametersOutputReference
 ```
@@ -6824,7 +6824,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRdsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersRdsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersRdsParametersOutputReference
 ```
@@ -7095,7 +7095,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersIamParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersIamParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersIamParametersOutputReference
 ```
@@ -7388,7 +7388,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersIdentityCenterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersIdentityCenterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersIdentityCenterConfigurationOutputReference
 ```
@@ -7648,7 +7648,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersRedshiftParametersOutputReference
 ```
@@ -7963,7 +7963,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3ParametersManifestFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersS3ParametersManifestFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3ParametersManifestFileLocationOutputReference
 ```
@@ -8234,7 +8234,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3ParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersS3ParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3ParametersOutputReference
 ```
@@ -8505,7 +8505,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3TablesParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersS3TablesParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersS3TablesParametersOutputReference
 ```
@@ -8765,7 +8765,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference
 ```
@@ -9025,7 +9025,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOAuthParametersOutputReference
 ```
@@ -9318,7 +9318,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersSnowflakeParametersOutputReference
 ```
@@ -9633,7 +9633,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSparkParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersSparkParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersSparkParametersOutputReference
 ```
@@ -9904,7 +9904,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersSqlServerParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersSqlServerParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersSqlServerParametersOutputReference
 ```
@@ -10186,7 +10186,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference
 ```
@@ -10446,7 +10446,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOAuthParametersOutputReference
 ```
@@ -10739,7 +10739,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersStarburstParametersOutputReference
 ```
@@ -11065,7 +11065,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersTeradataParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersTeradataParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersTeradataParametersOutputReference
 ```
@@ -11347,7 +11347,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceAlternateDataSourceParametersTrinoParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceAlternateDataSourceParametersTrinoParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceAlternateDataSourceParametersTrinoParametersOutputReference
 ```
@@ -11629,7 +11629,7 @@ func InternalValue() DataAwsccQuicksightDataSourceAlternateDataSourceParametersT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAmazonElasticsearchParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAmazonElasticsearchParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAmazonElasticsearchParametersOutputReference
 ```
@@ -11889,7 +11889,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAmazonOpenSearchParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAmazonOpenSearchParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAmazonOpenSearchParametersOutputReference
 ```
@@ -12149,7 +12149,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference
 ```
@@ -12409,7 +12409,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParametersOutputReference
 ```
@@ -12702,7 +12702,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAuroraParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAuroraParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAuroraParametersOutputReference
 ```
@@ -12984,7 +12984,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAuroraPostgreSqlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAuroraPostgreSqlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAuroraPostgreSqlParametersOutputReference
 ```
@@ -13266,7 +13266,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference
 ```
@@ -13526,7 +13526,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference
 ```
@@ -13819,7 +13819,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOutputReference
 ```
@@ -14123,7 +14123,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersList
 ```
@@ -14272,7 +14272,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersMariaDbParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersMariaDbParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersMariaDbParametersOutputReference
 ```
@@ -14554,7 +14554,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersMySqlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersMySqlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersMySqlParametersOutputReference
 ```
@@ -14836,7 +14836,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOracleParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOracleParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOracleParametersOutputReference
 ```
@@ -15129,7 +15129,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersOutputReference
 ```
@@ -15627,7 +15627,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersPostgreSqlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersPostgreSqlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersPostgreSqlParametersOutputReference
 ```
@@ -15909,7 +15909,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersPrestoParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersPrestoParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersPrestoParametersOutputReference
 ```
@@ -16191,7 +16191,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRdsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRdsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRdsParametersOutputReference
 ```
@@ -16462,7 +16462,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersIamParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersIamParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersIamParametersOutputReference
 ```
@@ -16755,7 +16755,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersIdentityCenterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersIdentityCenterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersIdentityCenterConfigurationOutputReference
 ```
@@ -17015,7 +17015,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersRedshiftParametersOutputReference
 ```
@@ -17330,7 +17330,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3ParametersManifestFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3ParametersManifestFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3ParametersManifestFileLocationOutputReference
 ```
@@ -17601,7 +17601,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3ParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3ParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3ParametersOutputReference
 ```
@@ -17872,7 +17872,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersS3TablesParametersOutputReference
 ```
@@ -18132,7 +18132,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference
 ```
@@ -18392,7 +18392,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOAuthParametersOutputReference
 ```
@@ -18685,7 +18685,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSnowflakeParametersOutputReference
 ```
@@ -19000,7 +19000,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSparkParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSparkParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSparkParametersOutputReference
 ```
@@ -19271,7 +19271,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSqlServerParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSqlServerParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersSqlServerParametersOutputReference
 ```
@@ -19553,7 +19553,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference
 ```
@@ -19813,7 +19813,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOAuthParametersOutputReference
 ```
@@ -20106,7 +20106,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersStarburstParametersOutputReference
 ```
@@ -20432,7 +20432,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersTeradataParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersTeradataParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersTeradataParametersOutputReference
 ```
@@ -20714,7 +20714,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersTrinoParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersTrinoParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersTrinoParametersOutputReference
 ```
@@ -20996,7 +20996,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsCredentialPairOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsCredentialPairOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsCredentialPairOutputReference
 ```
@@ -21278,7 +21278,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsCredentialPair
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsKeyPairCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsKeyPairCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsKeyPairCredentialsOutputReference
 ```
@@ -21560,7 +21560,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsKeyPairCredentials
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference
 ```
@@ -21842,7 +21842,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentialsOAuthClientCredenti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceCredentialsOutputReference
 ```
@@ -22146,7 +22146,7 @@ func InternalValue() DataAwsccQuicksightDataSourceCredentials
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAmazonElasticsearchParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersAmazonElasticsearchParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersAmazonElasticsearchParametersOutputReference
 ```
@@ -22406,7 +22406,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersAmazonElas
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAmazonOpenSearchParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersAmazonOpenSearchParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersAmazonOpenSearchParametersOutputReference
 ```
@@ -22666,7 +22666,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersAmazonOpen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference
 ```
@@ -22926,7 +22926,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersAthenaPara
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersOutputReference
 ```
@@ -23219,7 +23219,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersAthenaPara
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAuroraParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersAuroraParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersAuroraParametersOutputReference
 ```
@@ -23501,7 +23501,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersAuroraPara
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersAuroraPostgreSqlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersAuroraPostgreSqlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersAuroraPostgreSqlParametersOutputReference
 ```
@@ -23783,7 +23783,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersAuroraPost
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference
 ```
@@ -24043,7 +24043,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersDatabricks
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersOutputReference
 ```
@@ -24336,7 +24336,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersDatabricks
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference
 ```
@@ -24640,7 +24640,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersDatabricks
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersMariaDbParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersMariaDbParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersMariaDbParametersOutputReference
 ```
@@ -24922,7 +24922,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersMariaDbPar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersMySqlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersMySqlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersMySqlParametersOutputReference
 ```
@@ -25204,7 +25204,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersMySqlParam
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersOracleParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersOracleParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersOracleParametersOutputReference
 ```
@@ -25497,7 +25497,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersOraclePara
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersOutputReference
 ```
@@ -25977,7 +25977,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersPostgreSqlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersPostgreSqlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersPostgreSqlParametersOutputReference
 ```
@@ -26259,7 +26259,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersPostgreSql
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersPrestoParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersPrestoParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersPrestoParametersOutputReference
 ```
@@ -26541,7 +26541,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersPrestoPara
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersRdsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersRdsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersRdsParametersOutputReference
 ```
@@ -26812,7 +26812,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersRdsParamet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersIamParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersIamParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersIamParametersOutputReference
 ```
@@ -27105,7 +27105,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersRedshiftPa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersIdentityCenterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersIdentityCenterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersIdentityCenterConfigurationOutputReference
 ```
@@ -27365,7 +27365,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersRedshiftPa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersRedshiftParametersOutputReference
 ```
@@ -27680,7 +27680,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersRedshiftPa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersS3ParametersManifestFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersS3ParametersManifestFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersS3ParametersManifestFileLocationOutputReference
 ```
@@ -27951,7 +27951,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersS3Paramete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersS3ParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersS3ParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersS3ParametersOutputReference
 ```
@@ -28222,7 +28222,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersS3Paramete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersS3TablesParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersS3TablesParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersS3TablesParametersOutputReference
 ```
@@ -28482,7 +28482,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersS3TablesPa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference
 ```
@@ -28742,7 +28742,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParametersOutputReference
 ```
@@ -29035,7 +29035,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeParametersOutputReference
 ```
@@ -29350,7 +29350,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersSnowflakeP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersSparkParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersSparkParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersSparkParametersOutputReference
 ```
@@ -29621,7 +29621,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersSparkParam
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersSqlServerParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersSqlServerParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersSqlServerParametersOutputReference
 ```
@@ -29903,7 +29903,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersSqlServerP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference
 ```
@@ -30163,7 +30163,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersStarburstP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOAuthParametersOutputReference
 ```
@@ -30456,7 +30456,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersStarburstP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersStarburstParametersOutputReference
 ```
@@ -30782,7 +30782,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersStarburstP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersTeradataParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersTeradataParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersTeradataParametersOutputReference
 ```
@@ -31064,7 +31064,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersTeradataPa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceDataSourceParametersTrinoParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceDataSourceParametersTrinoParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceDataSourceParametersTrinoParametersOutputReference
 ```
@@ -31346,7 +31346,7 @@ func InternalValue() DataAwsccQuicksightDataSourceDataSourceParametersTrinoParam
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceErrorInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceErrorInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceErrorInfoOutputReference
 ```
@@ -31617,7 +31617,7 @@ func InternalValue() DataAwsccQuicksightDataSourceErrorInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourcePermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourcePermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightDataSourcePermissionsList
 ```
@@ -31766,7 +31766,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourcePermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourcePermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightDataSourcePermissionsOutputReference
 ```
@@ -32066,7 +32066,7 @@ func InternalValue() DataAwsccQuicksightDataSourcePermissions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceSslPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceSslPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceSslPropertiesOutputReference
 ```
@@ -32326,7 +32326,7 @@ func InternalValue() DataAwsccQuicksightDataSourceSslProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightDataSourceTagsList
 ```
@@ -32475,7 +32475,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightDataSourceTagsOutputReference
 ```
@@ -32764,7 +32764,7 @@ func InternalValue() DataAwsccQuicksightDataSourceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSource.DataAwsccQuicksightDataSourceVpcConnectionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdatasource"
 
 dataawsccquicksightdatasource.NewDataAwsccQuicksightDataSourceVpcConnectionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDataSourceVpcConnectionPropertiesOutputReference
 ```

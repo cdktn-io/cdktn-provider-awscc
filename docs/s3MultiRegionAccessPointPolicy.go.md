@@ -4,12 +4,12 @@
 
 ### S3MultiRegionAccessPointPolicy <a name="S3MultiRegionAccessPointPolicy" id="@cdktn/provider-awscc.s3MultiRegionAccessPointPolicy.S3MultiRegionAccessPointPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point_policy awscc_s3_multi_region_access_point_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point_policy awscc_s3_multi_region_access_point_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3MultiRegionAccessPointPolicy.S3MultiRegionAccessPointPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspointpolicy"
 
 s3multiregionaccesspointpolicy.NewS3MultiRegionAccessPointPolicy(scope Construct, id *string, config S3MultiRegionAccessPointPolicyConfig) S3MultiRegionAccessPointPolicy
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3MultiRegionAccessPointPolicy.S3MultiRegionAccessPointPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspointpolicy"
 
 s3multiregionaccesspointpolicy.S3MultiRegionAccessPointPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3MultiRegionAccessPointPolicy.S3MultiRegionAccessPointPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspointpolicy"
 
 s3multiregionaccesspointpolicy.S3MultiRegionAccessPointPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ s3multiregionaccesspointpolicy.S3MultiRegionAccessPointPolicy_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3MultiRegionAccessPointPolicy.S3MultiRegionAccessPointPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspointpolicy"
 
 s3multiregionaccesspointpolicy.S3MultiRegionAccessPointPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ s3multiregionaccesspointpolicy.S3MultiRegionAccessPointPolicy_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3MultiRegionAccessPointPolicy.S3MultiRegionAccessPointPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspointpolicy"
 
 s3multiregionaccesspointpolicy.S3MultiRegionAccessPointPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the S3MultiRegionAccessPointPo
 
 The id of the existing S3MultiRegionAccessPointPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -755,7 +755,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3MultiRegionAccessPointPolicy.S3MultiRegionAccessPointPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspointpolicy"
 
 &s3multiregionaccesspointpolicy.S3MultiRegionAccessPointPolicyConfig {
 	Connection: interface{},
@@ -866,7 +866,7 @@ MrapName *string
 
 The name of the Multi Region Access Point to apply policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point_policy#mrap_name S3MultiRegionAccessPointPolicy#mrap_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point_policy#mrap_name S3MultiRegionAccessPointPolicy#mrap_name}
 
 ---
 
@@ -880,7 +880,7 @@ Policy *string
 
 Policy document to apply to a Multi Region Access Point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point_policy#policy S3MultiRegionAccessPointPolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point_policy#policy S3MultiRegionAccessPointPolicy#policy}
 
 ---
 
@@ -889,7 +889,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3MultiRegionAccessPointPolicy.S3MultiRegionAccessPointPolicyPolicyStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspointpolicy"
 
 &s3multiregionaccesspointpolicy.S3MultiRegionAccessPointPolicyPolicyStatus {
 
@@ -904,7 +904,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3MultiRegionAccessPointPolicy.S3MultiRegionAccessPointPolicyPolicyStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspointpolicy"
 
 s3multiregionaccesspointpolicy.NewS3MultiRegionAccessPointPolicyPolicyStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3MultiRegionAccessPointPolicyPolicyStatusOutputReference
 ```

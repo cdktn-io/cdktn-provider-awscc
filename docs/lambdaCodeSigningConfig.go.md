@@ -4,12 +4,12 @@
 
 ### LambdaCodeSigningConfig <a name="LambdaCodeSigningConfig" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 lambdacodesigningconfig.NewLambdaCodeSigningConfig(scope Construct, id *string, config LambdaCodeSigningConfigConfig) LambdaCodeSigningConfig
 ```
@@ -460,7 +460,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 lambdacodesigningconfig.LambdaCodeSigningConfig_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 lambdacodesigningconfig.LambdaCodeSigningConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ lambdacodesigningconfig.LambdaCodeSigningConfig_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 lambdacodesigningconfig.LambdaCodeSigningConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ lambdacodesigningconfig.LambdaCodeSigningConfig_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 lambdacodesigningconfig.LambdaCodeSigningConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the LambdaCodeSigningConfig to
 
 The id of the existing LambdaCodeSigningConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfigAllowedPublishers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 &lambdacodesigningconfig.LambdaCodeSigningConfigAllowedPublishers {
 	SigningProfileVersionArns: *[]*string,
@@ -895,7 +895,7 @@ SigningProfileVersionArns *[]*string
 
 List of Signing profile version Arns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config#signing_profile_version_arns LambdaCodeSigningConfig#signing_profile_version_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config#signing_profile_version_arns LambdaCodeSigningConfig#signing_profile_version_arns}
 
 ---
 
@@ -904,7 +904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfigCodeSigningPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 &lambdacodesigningconfig.LambdaCodeSigningConfigCodeSigningPolicies {
 	UntrustedArtifactOnDeployment: *string,
@@ -929,7 +929,7 @@ UntrustedArtifactOnDeployment *string
 
 Indicates how Lambda operations involve updating the code artifact will operate. Default to Warn if not provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config#untrusted_artifact_on_deployment LambdaCodeSigningConfig#untrusted_artifact_on_deployment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config#untrusted_artifact_on_deployment LambdaCodeSigningConfig#untrusted_artifact_on_deployment}
 
 ---
 
@@ -938,7 +938,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 &lambdacodesigningconfig.LambdaCodeSigningConfigConfig {
 	Connection: interface{},
@@ -948,8 +948,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfi
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	AllowedPublishers: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfigAllowedPublishers,
-	CodeSigningPolicies: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfigCodeSigningPolicies,
+	AllowedPublishers: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaCodeSigningConfig.LambdaCodeSigningConfigAllowedPublishers,
+	CodeSigningPolicies: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaCodeSigningConfig.LambdaCodeSigningConfigCodeSigningPolicies,
 	Description: *string,
 	Tags: interface{},
 }
@@ -1053,7 +1053,7 @@ AllowedPublishers LambdaCodeSigningConfigAllowedPublishers
 
 When the CodeSigningConfig is later on attached to a function, the function code will be expected to be signed by profiles from this list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config#allowed_publishers LambdaCodeSigningConfig#allowed_publishers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config#allowed_publishers LambdaCodeSigningConfig#allowed_publishers}
 
 ---
 
@@ -1067,7 +1067,7 @@ CodeSigningPolicies LambdaCodeSigningConfigCodeSigningPolicies
 
 Policies to control how to act if a signature is invalid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config#code_signing_policies LambdaCodeSigningConfig#code_signing_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config#code_signing_policies LambdaCodeSigningConfig#code_signing_policies}
 
 ---
 
@@ -1081,7 +1081,7 @@ Description *string
 
 A description of the CodeSigningConfig.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config#description LambdaCodeSigningConfig#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config#description LambdaCodeSigningConfig#description}
 
 ---
 
@@ -1095,7 +1095,7 @@ Tags interface{}
 
 A list of tags to apply to CodeSigningConfig resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config#tags LambdaCodeSigningConfig#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config#tags LambdaCodeSigningConfig#tags}
 
 ---
 
@@ -1104,7 +1104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfigTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 &lambdacodesigningconfig.LambdaCodeSigningConfigTags {
 	Key: *string,
@@ -1133,7 +1133,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config#key LambdaCodeSigningConfig#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config#key LambdaCodeSigningConfig#key}
 
 ---
 
@@ -1149,7 +1149,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config#value LambdaCodeSigningConfig#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config#value LambdaCodeSigningConfig#value}
 
 ---
 
@@ -1160,7 +1160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfigAllowedPublishersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 lambdacodesigningconfig.NewLambdaCodeSigningConfigAllowedPublishersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaCodeSigningConfigAllowedPublishersOutputReference
 ```
@@ -1431,7 +1431,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfigCodeSigningPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 lambdacodesigningconfig.NewLambdaCodeSigningConfigCodeSigningPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaCodeSigningConfigCodeSigningPoliciesOutputReference
 ```
@@ -1709,7 +1709,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfigTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 lambdacodesigningconfig.NewLambdaCodeSigningConfigTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LambdaCodeSigningConfigTagsList
 ```
@@ -1869,7 +1869,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaCodeSigningConfig.LambdaCodeSigningConfigTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig"
 
 lambdacodesigningconfig.NewLambdaCodeSigningConfigTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LambdaCodeSigningConfigTagsOutputReference
 ```

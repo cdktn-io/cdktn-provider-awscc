@@ -4,7 +4,7 @@
 
 ### TransferHostKey <a name="TransferHostKey" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key awscc_transfer_host_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key awscc_transfer_host_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer"></a>
 
@@ -22,6 +22,8 @@ TransferHostKey.Builder.create(Construct scope, java.lang.String id)
     .serverId(java.lang.String)
 //  .description(java.lang.String)
 //  .hostKeyBody(java.lang.String)
+//  .kmsKey(java.lang.String)
+//  .storageType(java.lang.String)
 //  .tags(IResolvable|java.util.List<TransferHostKeyTags>)
     .build();
 ```
@@ -40,6 +42,8 @@ TransferHostKey.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.serverId">serverId</a></code> | <code>java.lang.String</code> | The identifier of the server that contains the host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The text description for this host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.hostKeyBody">hostKeyBody</a></code> | <code>java.lang.String</code> | The private key portion of an SSH key pair. Transfer Family accepts RSA, ECDSA, and ED25519 keys. |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.kmsKey">kmsKey</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of a customer managed key used to encrypt the Secrets Manager secret that holds the host key. |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.storageType">storageType</a></code> | <code>java.lang.String</code> | The type of storage used for the host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyTags">TransferHostKeyTags</a>></code> | Key-value pairs that can be used to group and search for host keys. |
 
 ---
@@ -110,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The identifier of the server that contains the host key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
 
 ---
 
@@ -120,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The text description for this host key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#description TransferHostKey#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#description TransferHostKey#description}
 
 ---
 
@@ -130,7 +134,31 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The private key portion of an SSH key pair. Transfer Family accepts RSA, ECDSA, and ED25519 keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
+
+---
+
+##### `kmsKey`<sup>Optional</sup> <a name="kmsKey" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.kmsKey"></a>
+
+- *Type:* java.lang.String
+
+The Amazon Resource Name (ARN) of a customer managed key used to encrypt the Secrets Manager secret that holds the host key.
+
+Applies only when StorageType is SECRETS_MANAGER. If omitted, the AWS managed key is used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#kms_key TransferHostKey#kms_key}
+
+---
+
+##### `storageType`<sup>Optional</sup> <a name="storageType" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.storageType"></a>
+
+- *Type:* java.lang.String
+
+The type of storage used for the host key.
+
+SERVICE_MANAGED keys are stored within the Transfer Family service. SECRETS_MANAGER keys are stored in an AWS Secrets Manager secret in your account.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#storage_type TransferHostKey#storage_type}
 
 ---
 
@@ -140,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key-value pairs that can be used to group and search for host keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
 
 ---
 
@@ -175,6 +203,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.putTags">putTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetHostKeyBody">resetHostKeyBody</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetKmsKey">resetKmsKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetStorageType">resetStorageType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetTags">resetTags</a></code> | *No description.* |
 
 ---
@@ -514,6 +544,18 @@ public void resetDescription()
 public void resetHostKeyBody()
 ```
 
+##### `resetKmsKey` <a name="resetKmsKey" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetKmsKey"></a>
+
+```java
+public void resetKmsKey()
+```
+
+##### `resetStorageType` <a name="resetStorageType" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetStorageType"></a>
+
+```java
+public void resetStorageType()
+```
+
 ##### `resetTags` <a name="resetTags" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetTags"></a>
 
 ```java
@@ -623,7 +665,7 @@ The construct id used in the generated config for the TransferHostKey to import.
 
 The id of the existing TransferHostKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -658,15 +700,20 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.hostKeyFingerprint">hostKeyFingerprint</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.hostKeyId">hostKeyId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.secretId">secretId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyTagsList">TransferHostKeyTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.type">type</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.hostKeyBodyInput">hostKeyBodyInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.kmsKeyInput">kmsKeyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.serverIdInput">serverIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.storageTypeInput">storageTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.tagsInput">tagsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyTags">TransferHostKeyTags</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.hostKeyBody">hostKeyBody</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.kmsKey">kmsKey</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.serverId">serverId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.storageType">storageType</a></code> | <code>java.lang.String</code> | *No description.* |
 
 ---
 
@@ -862,6 +909,16 @@ public java.lang.String getId();
 
 ---
 
+##### `secretId`<sup>Required</sup> <a name="secretId" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.secretId"></a>
+
+```java
+public java.lang.String getSecretId();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.tags"></a>
 
 ```java
@@ -902,10 +959,30 @@ public java.lang.String getHostKeyBodyInput();
 
 ---
 
+##### `kmsKeyInput`<sup>Optional</sup> <a name="kmsKeyInput" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.kmsKeyInput"></a>
+
+```java
+public java.lang.String getKmsKeyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `serverIdInput`<sup>Optional</sup> <a name="serverIdInput" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.serverIdInput"></a>
 
 ```java
 public java.lang.String getServerIdInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `storageTypeInput`<sup>Optional</sup> <a name="storageTypeInput" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.storageTypeInput"></a>
+
+```java
+public java.lang.String getStorageTypeInput();
 ```
 
 - *Type:* java.lang.String
@@ -942,10 +1019,30 @@ public java.lang.String getHostKeyBody();
 
 ---
 
+##### `kmsKey`<sup>Required</sup> <a name="kmsKey" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.kmsKey"></a>
+
+```java
+public java.lang.String getKmsKey();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `serverId`<sup>Required</sup> <a name="serverId" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.serverId"></a>
 
 ```java
 public java.lang.String getServerId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `storageType`<sup>Required</sup> <a name="storageType" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.storageType"></a>
+
+```java
+public java.lang.String getStorageType();
 ```
 
 - *Type:* java.lang.String
@@ -990,6 +1087,8 @@ TransferHostKeyConfig.builder()
     .serverId(java.lang.String)
 //  .description(java.lang.String)
 //  .hostKeyBody(java.lang.String)
+//  .kmsKey(java.lang.String)
+//  .storageType(java.lang.String)
 //  .tags(IResolvable|java.util.List<TransferHostKeyTags>)
     .build();
 ```
@@ -1008,6 +1107,8 @@ TransferHostKeyConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.serverId">serverId</a></code> | <code>java.lang.String</code> | The identifier of the server that contains the host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.description">description</a></code> | <code>java.lang.String</code> | The text description for this host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.hostKeyBody">hostKeyBody</a></code> | <code>java.lang.String</code> | The private key portion of an SSH key pair. Transfer Family accepts RSA, ECDSA, and ED25519 keys. |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.kmsKey">kmsKey</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of a customer managed key used to encrypt the Secrets Manager secret that holds the host key. |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.storageType">storageType</a></code> | <code>java.lang.String</code> | The type of storage used for the host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyTags">TransferHostKeyTags</a>></code> | Key-value pairs that can be used to group and search for host keys. |
 
 ---
@@ -1092,7 +1193,7 @@ public java.lang.String getServerId();
 
 The identifier of the server that contains the host key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
 
 ---
 
@@ -1106,7 +1207,7 @@ public java.lang.String getDescription();
 
 The text description for this host key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#description TransferHostKey#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#description TransferHostKey#description}
 
 ---
 
@@ -1120,7 +1221,39 @@ public java.lang.String getHostKeyBody();
 
 The private key portion of an SSH key pair. Transfer Family accepts RSA, ECDSA, and ED25519 keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
+
+---
+
+##### `kmsKey`<sup>Optional</sup> <a name="kmsKey" id="@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.kmsKey"></a>
+
+```java
+public java.lang.String getKmsKey();
+```
+
+- *Type:* java.lang.String
+
+The Amazon Resource Name (ARN) of a customer managed key used to encrypt the Secrets Manager secret that holds the host key.
+
+Applies only when StorageType is SECRETS_MANAGER. If omitted, the AWS managed key is used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#kms_key TransferHostKey#kms_key}
+
+---
+
+##### `storageType`<sup>Optional</sup> <a name="storageType" id="@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.storageType"></a>
+
+```java
+public java.lang.String getStorageType();
+```
+
+- *Type:* java.lang.String
+
+The type of storage used for the host key.
+
+SERVICE_MANAGED keys are stored within the Transfer Family service. SECRETS_MANAGER keys are stored in an AWS Secrets Manager secret in your account.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#storage_type TransferHostKey#storage_type}
 
 ---
 
@@ -1134,7 +1267,7 @@ public IResolvable|java.util.List<TransferHostKeyTags> getTags();
 
 Key-value pairs that can be used to group and search for host keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
 
 ---
 
@@ -1170,7 +1303,7 @@ public java.lang.String getKey();
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#key TransferHostKey#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#key TransferHostKey#key}
 
 ---
 
@@ -1184,7 +1317,7 @@ public java.lang.String getValue();
 
 Contains one or more values that you assigned to the key name you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#value TransferHostKey#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#value TransferHostKey#value}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### EcrSigningConfiguration <a name="EcrSigningConfiguration" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 ecrsigningconfiguration.NewEcrSigningConfiguration(scope Construct, id *string, config EcrSigningConfigurationConfig) EcrSigningConfiguration
 ```
@@ -413,7 +413,7 @@ func PutRules(value interface{})
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 ecrsigningconfiguration.EcrSigningConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 ecrsigningconfiguration.EcrSigningConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ ecrsigningconfiguration.EcrSigningConfiguration_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 ecrsigningconfiguration.EcrSigningConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ ecrsigningconfiguration.EcrSigningConfiguration_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 ecrsigningconfiguration.EcrSigningConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the EcrSigningConfiguration to
 
 The id of the existing EcrSigningConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_signing_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_signing_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -746,7 +746,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 &ecrsigningconfiguration.EcrSigningConfigurationConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ Rules interface{}
 
 Array of signing rules that define which repositories should be signed and with which signing profiles.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_signing_configuration#rules EcrSigningConfiguration#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_signing_configuration#rules EcrSigningConfiguration#rules}
 
 ---
 
@@ -864,7 +864,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfigurationRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 &ecrsigningconfiguration.EcrSigningConfigurationRules {
 	SigningProfileArn: *string,
@@ -891,7 +891,7 @@ SigningProfileArn *string
 
 AWS Signer signing profile ARN to use for matched repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_signing_configuration#signing_profile_arn EcrSigningConfiguration#signing_profile_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_signing_configuration#signing_profile_arn EcrSigningConfiguration#signing_profile_arn}
 
 ---
 
@@ -907,7 +907,7 @@ Optional array of repository filters.
 
 If omitted, the rule matches all repositories. If provided, must contain at least one filter. Empty arrays are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_signing_configuration#repository_filters EcrSigningConfiguration#repository_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_signing_configuration#repository_filters EcrSigningConfiguration#repository_filters}
 
 ---
 
@@ -916,7 +916,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfigurationRulesRepositoryFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 &ecrsigningconfiguration.EcrSigningConfigurationRulesRepositoryFilters {
 	Filter: *string,
@@ -943,7 +943,7 @@ Filter *string
 
 Repository name pattern (supports '*' wildcard).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_signing_configuration#filter EcrSigningConfiguration#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_signing_configuration#filter EcrSigningConfiguration#filter}
 
 ---
 
@@ -957,7 +957,7 @@ FilterType *string
 
 Type of repository filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_signing_configuration#filter_type EcrSigningConfiguration#filter_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_signing_configuration#filter_type EcrSigningConfiguration#filter_type}
 
 ---
 
@@ -968,7 +968,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfigurationRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 ecrsigningconfiguration.NewEcrSigningConfigurationRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EcrSigningConfigurationRulesList
 ```
@@ -1128,7 +1128,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfigurationRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 ecrsigningconfiguration.NewEcrSigningConfigurationRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EcrSigningConfigurationRulesOutputReference
 ```
@@ -1459,7 +1459,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfigurationRulesRepositoryFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 ecrsigningconfiguration.NewEcrSigningConfigurationRulesRepositoryFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EcrSigningConfigurationRulesRepositoryFiltersList
 ```
@@ -1619,7 +1619,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfigurationRulesRepositoryFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrsigningconfiguration"
 
 ecrsigningconfiguration.NewEcrSigningConfigurationRulesRepositoryFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EcrSigningConfigurationRulesRepositoryFiltersOutputReference
 ```

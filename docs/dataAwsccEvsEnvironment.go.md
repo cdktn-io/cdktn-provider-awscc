@@ -4,12 +4,12 @@
 
 ### DataAwsccEvsEnvironment <a name="DataAwsccEvsEnvironment" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evs_environment awscc_evs_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evs_environment awscc_evs_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironment(scope Construct, id *string, config DataAwsccEvsEnvironmentConfig) DataAwsccEvsEnvironment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.DataAwsccEvsEnvironment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.DataAwsccEvsEnvironment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccevsenvironment.DataAwsccEvsEnvironment_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.DataAwsccEvsEnvironment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccevsenvironment.DataAwsccEvsEnvironment_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.DataAwsccEvsEnvironment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEvsEnvironment to
 
 The id of the existing DataAwsccEvsEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evs_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evs_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -829,7 +829,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentChecks {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentConfig {
 	Connection: interface{},
@@ -951,7 +951,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evs_environment#id DataAwsccEvsEnvironment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evs_environment#id DataAwsccEvsEnvironment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -963,7 +963,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentConnectivityInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentConnectivityInfo {
 
@@ -976,7 +976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentCredentials {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentHosts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentHosts {
 
@@ -1002,7 +1002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlans.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentInitialVlans {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansEdgeVTep.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentInitialVlansEdgeVTep {
 
@@ -1028,7 +1028,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansExpansionVlan1.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentInitialVlansExpansionVlan1 {
 
@@ -1041,7 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansExpansionVlan2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentInitialVlansExpansionVlan2 {
 
@@ -1054,7 +1054,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansHcx.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentInitialVlansHcx {
 
@@ -1067,7 +1067,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansNsxUpLink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentInitialVlansNsxUpLink {
 
@@ -1080,7 +1080,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansVmkManagement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentInitialVlansVmkManagement {
 
@@ -1093,7 +1093,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansVmManagement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentInitialVlansVmManagement {
 
@@ -1106,7 +1106,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansVMotion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentInitialVlansVMotion {
 
@@ -1119,7 +1119,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansVSan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentInitialVlansVSan {
 
@@ -1132,7 +1132,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansVTep.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentInitialVlansVTep {
 
@@ -1145,7 +1145,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentLicenseInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentLicenseInfo {
 
@@ -1158,7 +1158,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentServiceAccessSecurityGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentServiceAccessSecurityGroups {
 
@@ -1171,7 +1171,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentTags {
 
@@ -1184,7 +1184,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentVcfHostnames.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 &dataawsccevsenvironment.DataAwsccEvsEnvironmentVcfHostnames {
 
@@ -1199,7 +1199,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironmen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentChecksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentChecksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvsEnvironmentChecksList
 ```
@@ -1348,7 +1348,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentChecksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentChecksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvsEnvironmentChecksOutputReference
 ```
@@ -1648,7 +1648,7 @@ func InternalValue() DataAwsccEvsEnvironmentChecks
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentConnectivityInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentConnectivityInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentConnectivityInfoOutputReference
 ```
@@ -1908,7 +1908,7 @@ func InternalValue() DataAwsccEvsEnvironmentConnectivityInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentCredentialsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentCredentialsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvsEnvironmentCredentialsList
 ```
@@ -2057,7 +2057,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvsEnvironmentCredentialsOutputReference
 ```
@@ -2335,7 +2335,7 @@ func InternalValue() DataAwsccEvsEnvironmentCredentials
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentHostsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentHostsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvsEnvironmentHostsList
 ```
@@ -2484,7 +2484,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentHostsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentHostsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvsEnvironmentHostsOutputReference
 ```
@@ -2806,7 +2806,7 @@ func InternalValue() DataAwsccEvsEnvironmentHosts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansEdgeVTepOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentInitialVlansEdgeVTepOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentInitialVlansEdgeVTepOutputReference
 ```
@@ -3066,7 +3066,7 @@ func InternalValue() DataAwsccEvsEnvironmentInitialVlansEdgeVTep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansExpansionVlan1OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentInitialVlansExpansionVlan1OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentInitialVlansExpansionVlan1OutputReference
 ```
@@ -3326,7 +3326,7 @@ func InternalValue() DataAwsccEvsEnvironmentInitialVlansExpansionVlan1
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansExpansionVlan2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentInitialVlansExpansionVlan2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentInitialVlansExpansionVlan2OutputReference
 ```
@@ -3586,7 +3586,7 @@ func InternalValue() DataAwsccEvsEnvironmentInitialVlansExpansionVlan2
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansHcxOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentInitialVlansHcxOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentInitialVlansHcxOutputReference
 ```
@@ -3846,7 +3846,7 @@ func InternalValue() DataAwsccEvsEnvironmentInitialVlansHcx
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansNsxUpLinkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentInitialVlansNsxUpLinkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentInitialVlansNsxUpLinkOutputReference
 ```
@@ -4106,7 +4106,7 @@ func InternalValue() DataAwsccEvsEnvironmentInitialVlansNsxUpLink
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentInitialVlansOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentInitialVlansOutputReference
 ```
@@ -4487,7 +4487,7 @@ func InternalValue() DataAwsccEvsEnvironmentInitialVlans
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansVmkManagementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentInitialVlansVmkManagementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentInitialVlansVmkManagementOutputReference
 ```
@@ -4747,7 +4747,7 @@ func InternalValue() DataAwsccEvsEnvironmentInitialVlansVmkManagement
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansVmManagementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentInitialVlansVmManagementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentInitialVlansVmManagementOutputReference
 ```
@@ -5007,7 +5007,7 @@ func InternalValue() DataAwsccEvsEnvironmentInitialVlansVmManagement
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansVMotionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentInitialVlansVMotionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentInitialVlansVMotionOutputReference
 ```
@@ -5267,7 +5267,7 @@ func InternalValue() DataAwsccEvsEnvironmentInitialVlansVMotion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansVSanOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentInitialVlansVSanOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentInitialVlansVSanOutputReference
 ```
@@ -5527,7 +5527,7 @@ func InternalValue() DataAwsccEvsEnvironmentInitialVlansVSan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentInitialVlansVTepOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentInitialVlansVTepOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentInitialVlansVTepOutputReference
 ```
@@ -5787,7 +5787,7 @@ func InternalValue() DataAwsccEvsEnvironmentInitialVlansVTep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentLicenseInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentLicenseInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentLicenseInfoOutputReference
 ```
@@ -6058,7 +6058,7 @@ func InternalValue() DataAwsccEvsEnvironmentLicenseInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentServiceAccessSecurityGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentServiceAccessSecurityGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentServiceAccessSecurityGroupsOutputReference
 ```
@@ -6318,7 +6318,7 @@ func InternalValue() DataAwsccEvsEnvironmentServiceAccessSecurityGroups
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvsEnvironmentTagsList
 ```
@@ -6467,7 +6467,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvsEnvironmentTagsOutputReference
 ```
@@ -6756,7 +6756,7 @@ func InternalValue() DataAwsccEvsEnvironmentTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironment.DataAwsccEvsEnvironmentVcfHostnamesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevsenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevsenvironment"
 
 dataawsccevsenvironment.NewDataAwsccEvsEnvironmentVcfHostnamesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvsEnvironmentVcfHostnamesOutputReference
 ```

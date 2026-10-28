@@ -4,12 +4,12 @@
 
 ### DataAwsccElementalinferenceFeed <a name="DataAwsccElementalinferenceFeed" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeed"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elementalinference_feed awscc_elementalinference_feed}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elementalinference_feed awscc_elementalinference_feed}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeed.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.NewDataAwsccElementalinferenceFeed(scope Construct, id *string, config DataAwsccElementalinferenceFeedConfig) DataAwsccElementalinferenceFeed
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeed.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeed_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeed.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeed_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeed_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeed.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeed_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeed_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeed.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeed_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElementalinferenc
 
 The id of the existing DataAwsccElementalinferenceFeed that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elementalinference_feed#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elementalinference_feed#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 &dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeedConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elementalinference_feed#id DataAwsccElementalinferenceFeed#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elementalinference_feed#id DataAwsccElementalinferenceFeed#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 &dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeedOutputs {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinfe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 &dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeedOutputsOutputConfig {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinfe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigClipping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 &dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeedOutputsOutputConfigClipping {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinfe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 &dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfiguration {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinfe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigCropping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 &dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeedOutputsOutputConfigCropping {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinfe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingTemplateGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 &dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingTemplateGroups {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinfe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigSubtitling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 &dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeedOutputsOutputConfigSubtitling {
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinfe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 &dataawsccelementalinferencefeed.DataAwsccElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatio {
 
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinfe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.NewDataAwsccElementalinferenceFeedOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElementalinferenceFeedOutputsList
 ```
@@ -1040,7 +1040,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.NewDataAwsccElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfigurationOutputReference
 ```
@@ -1300,7 +1300,7 @@ func InternalValue() DataAwsccElementalinferenceFeedOutputsOutputConfigClippingD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigClippingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.NewDataAwsccElementalinferenceFeedOutputsOutputConfigClippingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElementalinferenceFeedOutputsOutputConfigClippingOutputReference
 ```
@@ -1571,7 +1571,7 @@ func InternalValue() DataAwsccElementalinferenceFeedOutputsOutputConfigClipping
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.NewDataAwsccElementalinferenceFeedOutputsOutputConfigCroppingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingOutputReference
 ```
@@ -1831,7 +1831,7 @@ func InternalValue() DataAwsccElementalinferenceFeedOutputsOutputConfigCropping
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingTemplateGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.NewDataAwsccElementalinferenceFeedOutputsOutputConfigCroppingTemplateGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingTemplateGroupsList
 ```
@@ -1980,7 +1980,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingTemplateGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.NewDataAwsccElementalinferenceFeedOutputsOutputConfigCroppingTemplateGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingTemplateGroupsOutputReference
 ```
@@ -2269,7 +2269,7 @@ func InternalValue() DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.NewDataAwsccElementalinferenceFeedOutputsOutputConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElementalinferenceFeedOutputsOutputConfigOutputReference
 ```
@@ -2551,7 +2551,7 @@ func InternalValue() DataAwsccElementalinferenceFeedOutputsOutputConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.NewDataAwsccElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatioOutputReference
 ```
@@ -2822,7 +2822,7 @@ func InternalValue() DataAwsccElementalinferenceFeedOutputsOutputConfigSubtitlin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputConfigSubtitlingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.NewDataAwsccElementalinferenceFeedOutputsOutputConfigSubtitlingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElementalinferenceFeedOutputsOutputConfigSubtitlingOutputReference
 ```
@@ -3115,7 +3115,7 @@ func InternalValue() DataAwsccElementalinferenceFeedOutputsOutputConfigSubtitlin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeed.DataAwsccElementalinferenceFeedOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed"
 
 dataawsccelementalinferencefeed.NewDataAwsccElementalinferenceFeedOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElementalinferenceFeedOutputsOutputReference
 ```

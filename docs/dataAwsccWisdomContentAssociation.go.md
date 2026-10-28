@@ -4,12 +4,12 @@
 
 ### DataAwsccWisdomContentAssociation <a name="DataAwsccWisdomContentAssociation" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_content_association awscc_wisdom_content_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_content_association awscc_wisdom_content_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 dataawsccwisdomcontentassociation.NewDataAwsccWisdomContentAssociation(scope Construct, id *string, config DataAwsccWisdomContentAssociationConfig) DataAwsccWisdomContentAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 dataawsccwisdomcontentassociation.DataAwsccWisdomContentAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 dataawsccwisdomcontentassociation.DataAwsccWisdomContentAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwisdomcontentassociation.DataAwsccWisdomContentAssociation_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 dataawsccwisdomcontentassociation.DataAwsccWisdomContentAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwisdomcontentassociation.DataAwsccWisdomContentAssociation_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 dataawsccwisdomcontentassociation.DataAwsccWisdomContentAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWisdomContentAsso
 
 The id of the existing DataAwsccWisdomContentAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_content_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_content_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociationAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 &dataawsccwisdomcontentassociation.DataAwsccWisdomContentAssociationAssociation {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociationAssociationAmazonConnectGuideAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 &dataawsccwisdomcontentassociation.DataAwsccWisdomContentAssociationAssociationAmazonConnectGuideAssociation {
 
@@ -712,7 +712,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 &dataawsccwisdomcontentassociation.DataAwsccWisdomContentAssociationConfig {
 	Connection: interface{},
@@ -821,7 +821,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_content_association#id DataAwsccWisdomContentAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_content_association#id DataAwsccWisdomContentAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -833,7 +833,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 &dataawsccwisdomcontentassociation.DataAwsccWisdomContentAssociationTags {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociationAssociationAmazonConnectGuideAssociationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 dataawsccwisdomcontentassociation.NewDataAwsccWisdomContentAssociationAssociationAmazonConnectGuideAssociationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomContentAssociationAssociationAmazonConnectGuideAssociationOutputReference
 ```
@@ -1108,7 +1108,7 @@ func InternalValue() DataAwsccWisdomContentAssociationAssociationAmazonConnectGu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociationAssociationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 dataawsccwisdomcontentassociation.NewDataAwsccWisdomContentAssociationAssociationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomContentAssociationAssociationOutputReference
 ```
@@ -1368,7 +1368,7 @@ func InternalValue() DataAwsccWisdomContentAssociationAssociation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 dataawsccwisdomcontentassociation.NewDataAwsccWisdomContentAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomContentAssociationTagsList
 ```
@@ -1517,7 +1517,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomContentAssociation.DataAwsccWisdomContentAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontentassociation"
 
 dataawsccwisdomcontentassociation.NewDataAwsccWisdomContentAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomContentAssociationTagsOutputReference
 ```

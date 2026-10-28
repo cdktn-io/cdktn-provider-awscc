@@ -4,12 +4,12 @@
 
 ### DataAwsccAcmpcaCertificate <a name="DataAwsccAcmpcaCertificate" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/acmpca_certificate awscc_acmpca_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/acmpca_certificate awscc_acmpca_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificate(scope Construct, id *string, config DataAwsccAcmpcaCertificateConfig) DataAwsccAcmpcaCertificate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.DataAwsccAcmpcaCertificate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.DataAwsccAcmpcaCertificate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccacmpcacertificate.DataAwsccAcmpcaCertificate_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.DataAwsccAcmpcaCertificate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccacmpcacertificate.DataAwsccAcmpcaCertificate_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.DataAwsccAcmpcaCertificate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAcmpcaCertificate
 
 The id of the existing DataAwsccAcmpcaCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/acmpca_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/acmpca_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthrough.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthrough {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensions {
 
@@ -712,7 +712,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePolicies {
 
@@ -725,7 +725,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiers {
 
@@ -738,7 +738,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersQualifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersQualifier {
 
@@ -751,7 +751,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCustomExtensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCustomExtensions {
 
@@ -764,7 +764,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsExtendedKeyUsage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsExtendedKeyUsage {
 
@@ -777,7 +777,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsKeyUsage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsKeyUsage {
 
@@ -790,7 +790,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNames.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNames {
 
@@ -803,7 +803,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryName {
 
@@ -816,7 +816,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameCustomAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameCustomAttributes {
 
@@ -829,7 +829,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesEdiPartyName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesEdiPartyName {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesOtherName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesOtherName {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughSubject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughSubject {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughSubjectCustomAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateApiPassthroughSubjectCustomAttributes {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateConfig {
 	Connection: interface{},
@@ -990,7 +990,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/acmpca_certificate#id DataAwsccAcmpcaCertificate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/acmpca_certificate#id DataAwsccAcmpcaCertificate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1002,7 +1002,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateValidity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateValidity {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateValidityNotBefore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 &dataawsccacmpcacertificate.DataAwsccAcmpcaCertificateValidityNotBefore {
 
@@ -1030,7 +1030,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertifi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesList
 ```
@@ -1179,7 +1179,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesOutputReference
 ```
@@ -1468,7 +1468,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertifica
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersList
 ```
@@ -1617,7 +1617,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersOutputReference
 ```
@@ -1906,7 +1906,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertifica
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersQualifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersQualifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersQualifierOutputReference
 ```
@@ -2166,7 +2166,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensionsCertifica
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCustomExtensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsCustomExtensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsCustomExtensionsList
 ```
@@ -2315,7 +2315,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsCustomExtensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsCustomExtensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsCustomExtensionsOutputReference
 ```
@@ -2615,7 +2615,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensionsCustomExt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsExtendedKeyUsageList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsExtendedKeyUsageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsExtendedKeyUsageList
 ```
@@ -2764,7 +2764,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsExtendedKeyUsageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsExtendedKeyUsageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsExtendedKeyUsageOutputReference
 ```
@@ -3053,7 +3053,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensionsExtendedK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsKeyUsageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsKeyUsageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAcmpcaCertificateApiPassthroughExtensionsKeyUsageOutputReference
 ```
@@ -3401,7 +3401,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensionsKeyUsage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAcmpcaCertificateApiPassthroughExtensionsOutputReference
 ```
@@ -3705,7 +3705,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameCustomAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameCustomAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameCustomAttributesList
 ```
@@ -3854,7 +3854,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameCustomAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameCustomAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameCustomAttributesOutputReference
 ```
@@ -4143,7 +4143,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameOutputReference
 ```
@@ -4557,7 +4557,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesEdiPartyNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesEdiPartyNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesEdiPartyNameOutputReference
 ```
@@ -4828,7 +4828,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesList
 ```
@@ -4977,7 +4977,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesOtherNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesOtherNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesOtherNameOutputReference
 ```
@@ -5248,7 +5248,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesOutputReference
 ```
@@ -5603,7 +5603,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughExtensionsSubjectAl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAcmpcaCertificateApiPassthroughOutputReference
 ```
@@ -5874,7 +5874,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthrough
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughSubjectCustomAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughSubjectCustomAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAcmpcaCertificateApiPassthroughSubjectCustomAttributesList
 ```
@@ -6023,7 +6023,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughSubjectCustomAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughSubjectCustomAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAcmpcaCertificateApiPassthroughSubjectCustomAttributesOutputReference
 ```
@@ -6312,7 +6312,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughSubjectCustomAttrib
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateApiPassthroughSubjectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateApiPassthroughSubjectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAcmpcaCertificateApiPassthroughSubjectOutputReference
 ```
@@ -6726,7 +6726,7 @@ func InternalValue() DataAwsccAcmpcaCertificateApiPassthroughSubject
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateValidityNotBeforeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateValidityNotBeforeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAcmpcaCertificateValidityNotBeforeOutputReference
 ```
@@ -6997,7 +6997,7 @@ func InternalValue() DataAwsccAcmpcaCertificateValidityNotBefore
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAcmpcaCertificate.DataAwsccAcmpcaCertificateValidityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccacmpcacertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccacmpcacertificate"
 
 dataawsccacmpcacertificate.NewDataAwsccAcmpcaCertificateValidityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAcmpcaCertificateValidityOutputReference
 ```

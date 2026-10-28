@@ -4,12 +4,12 @@
 
 ### DataAwsccFmsResourceSet <a name="DataAwsccFmsResourceSet" id="@cdktn/provider-awscc.dataAwsccFmsResourceSet.DataAwsccFmsResourceSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fms_resource_set awscc_fms_resource_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fms_resource_set awscc_fms_resource_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFmsResourceSet.DataAwsccFmsResourceSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfmsresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfmsresourceset"
 
 dataawsccfmsresourceset.NewDataAwsccFmsResourceSet(scope Construct, id *string, config DataAwsccFmsResourceSetConfig) DataAwsccFmsResourceSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFmsResourceSet.DataAwsccFmsResourceSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfmsresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfmsresourceset"
 
 dataawsccfmsresourceset.DataAwsccFmsResourceSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFmsResourceSet.DataAwsccFmsResourceSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfmsresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfmsresourceset"
 
 dataawsccfmsresourceset.DataAwsccFmsResourceSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfmsresourceset.DataAwsccFmsResourceSet_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFmsResourceSet.DataAwsccFmsResourceSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfmsresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfmsresourceset"
 
 dataawsccfmsresourceset.DataAwsccFmsResourceSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfmsresourceset.DataAwsccFmsResourceSet_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFmsResourceSet.DataAwsccFmsResourceSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfmsresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfmsresourceset"
 
 dataawsccfmsresourceset.DataAwsccFmsResourceSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFmsResourceSet to
 
 The id of the existing DataAwsccFmsResourceSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fms_resource_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fms_resource_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFmsResourceSet.DataAwsccFmsResourceSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfmsresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfmsresourceset"
 
 &dataawsccfmsresourceset.DataAwsccFmsResourceSetConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fms_resource_set#id DataAwsccFmsResourceSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fms_resource_set#id DataAwsccFmsResourceSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFmsResourceSet.DataAwsccFmsResourceSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfmsresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfmsresourceset"
 
 &dataawsccfmsresourceset.DataAwsccFmsResourceSetTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfmsresourcese
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFmsResourceSet.DataAwsccFmsResourceSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfmsresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfmsresourceset"
 
 dataawsccfmsresourceset.NewDataAwsccFmsResourceSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFmsResourceSetTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFmsResourceSet.DataAwsccFmsResourceSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfmsresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfmsresourceset"
 
 dataawsccfmsresourceset.NewDataAwsccFmsResourceSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFmsResourceSetTagsOutputReference
 ```

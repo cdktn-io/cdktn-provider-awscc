@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmcontactsContact <a name="DataAwsccSsmcontactsContact" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContact"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmcontacts_contact awscc_ssmcontacts_contact}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmcontacts_contact awscc_ssmcontacts_contact}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContact.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.NewDataAwsccSsmcontactsContact(scope Construct, id *string, config DataAwsccSsmcontactsContactConfig) DataAwsccSsmcontactsContact
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContact.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.DataAwsccSsmcontactsContact_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContact.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.DataAwsccSsmcontactsContact_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmcontactscontact.DataAwsccSsmcontactsContact_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContact.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.DataAwsccSsmcontactsContact_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmcontactscontact.DataAwsccSsmcontactsContact_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContact.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.DataAwsccSsmcontactsContact_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmcontactsContac
 
 The id of the existing DataAwsccSsmcontactsContact that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmcontacts_contact#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmcontacts_contact#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 &dataawsccssmcontactscontact.DataAwsccSsmcontactsContactConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmcontacts_contact#id DataAwsccSsmcontactsContact#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmcontacts_contact#id DataAwsccSsmcontactsContact#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactPlan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 &dataawsccssmcontactscontact.DataAwsccSsmcontactsContactPlan {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactsco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactPlanTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 &dataawsccssmcontactscontact.DataAwsccSsmcontactsContactPlanTargets {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactsco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactPlanTargetsChannelTargetInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 &dataawsccssmcontactscontact.DataAwsccSsmcontactsContactPlanTargetsChannelTargetInfo {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactsco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactPlanTargetsContactTargetInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 &dataawsccssmcontactscontact.DataAwsccSsmcontactsContactPlanTargetsContactTargetInfo {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactsco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 &dataawsccssmcontactscontact.DataAwsccSsmcontactsContactTags {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactsco
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactPlanList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.NewDataAwsccSsmcontactsContactPlanList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmcontactsContactPlanList
 ```
@@ -990,7 +990,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactPlanOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.NewDataAwsccSsmcontactsContactPlanOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmcontactsContactPlanOutputReference
 ```
@@ -1290,7 +1290,7 @@ func InternalValue() DataAwsccSsmcontactsContactPlan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactPlanTargetsChannelTargetInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.NewDataAwsccSsmcontactsContactPlanTargetsChannelTargetInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmcontactsContactPlanTargetsChannelTargetInfoOutputReference
 ```
@@ -1561,7 +1561,7 @@ func InternalValue() DataAwsccSsmcontactsContactPlanTargetsChannelTargetInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactPlanTargetsContactTargetInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.NewDataAwsccSsmcontactsContactPlanTargetsContactTargetInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmcontactsContactPlanTargetsContactTargetInfoOutputReference
 ```
@@ -1832,7 +1832,7 @@ func InternalValue() DataAwsccSsmcontactsContactPlanTargetsContactTargetInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactPlanTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.NewDataAwsccSsmcontactsContactPlanTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmcontactsContactPlanTargetsList
 ```
@@ -1981,7 +1981,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactPlanTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.NewDataAwsccSsmcontactsContactPlanTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmcontactsContactPlanTargetsOutputReference
 ```
@@ -2270,7 +2270,7 @@ func InternalValue() DataAwsccSsmcontactsContactPlanTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.NewDataAwsccSsmcontactsContactTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmcontactsContactTagsList
 ```
@@ -2419,7 +2419,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContact.DataAwsccSsmcontactsContactTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactscontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactscontact"
 
 dataawsccssmcontactscontact.NewDataAwsccSsmcontactsContactTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmcontactsContactTagsOutputReference
 ```

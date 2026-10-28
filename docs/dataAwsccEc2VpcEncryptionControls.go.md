@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VpcEncryptionControls <a name="DataAwsccEc2VpcEncryptionControls" id="@cdktn/provider-awscc.dataAwsccEc2VpcEncryptionControls.DataAwsccEc2VpcEncryptionControls"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_encryption_controls awscc_ec2_vpc_encryption_controls}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_encryption_controls awscc_ec2_vpc_encryption_controls}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcEncryptionControls.DataAwsccEc2VpcEncryptionControls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcencryptioncontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcencryptioncontrols"
 
 dataawsccec2vpcencryptioncontrols.NewDataAwsccEc2VpcEncryptionControls(scope Construct, id *string, config DataAwsccEc2VpcEncryptionControlsConfig) DataAwsccEc2VpcEncryptionControls
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VpcEncryptionControls.DataAwsccEc2VpcEncryptionControls.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcencryptioncontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcencryptioncontrols"
 
 dataawsccec2vpcencryptioncontrols.DataAwsccEc2VpcEncryptionControls_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VpcEncryptionControls.DataAwsccEc2VpcEncryptionControls.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcencryptioncontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcencryptioncontrols"
 
 dataawsccec2vpcencryptioncontrols.DataAwsccEc2VpcEncryptionControls_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2vpcencryptioncontrols.DataAwsccEc2VpcEncryptionControls_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VpcEncryptionControls.DataAwsccEc2VpcEncryptionControls.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcencryptioncontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcencryptioncontrols"
 
 dataawsccec2vpcencryptioncontrols.DataAwsccEc2VpcEncryptionControls_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2vpcencryptioncontrols.DataAwsccEc2VpcEncryptionControls_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VpcEncryptionControls.DataAwsccEc2VpcEncryptionControls.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcencryptioncontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcencryptioncontrols"
 
 dataawsccec2vpcencryptioncontrols.DataAwsccEc2VpcEncryptionControls_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpcEncryptionC
 
 The id of the existing DataAwsccEc2VpcEncryptionControls that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_encryption_controls#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_encryption_controls#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpcEncryptionControls.DataAwsccEc2VpcEncryptionControlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcencryptioncontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcencryptioncontrols"
 
 &dataawsccec2vpcencryptioncontrols.DataAwsccEc2VpcEncryptionControlsConfig {
 	Connection: interface{},

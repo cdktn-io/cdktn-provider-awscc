@@ -4,12 +4,12 @@
 
 ### DataAwsccDocdbGlobalClusters <a name="DataAwsccDocdbGlobalClusters" id="@cdktn/provider-awscc.dataAwsccDocdbGlobalClusters.DataAwsccDocdbGlobalClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdb_global_clusters awscc_docdb_global_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdb_global_clusters awscc_docdb_global_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDocdbGlobalClusters.DataAwsccDocdbGlobalClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbglobalclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbglobalclusters"
 
 dataawsccdocdbglobalclusters.NewDataAwsccDocdbGlobalClusters(scope Construct, id *string, config DataAwsccDocdbGlobalClustersConfig) DataAwsccDocdbGlobalClusters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDocdbGlobalClusters.DataAwsccDocdbGlobalClusters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbglobalclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbglobalclusters"
 
 dataawsccdocdbglobalclusters.DataAwsccDocdbGlobalClusters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDocdbGlobalClusters.DataAwsccDocdbGlobalClusters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbglobalclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbglobalclusters"
 
 dataawsccdocdbglobalclusters.DataAwsccDocdbGlobalClusters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdocdbglobalclusters.DataAwsccDocdbGlobalClusters_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDocdbGlobalClusters.DataAwsccDocdbGlobalClusters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbglobalclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbglobalclusters"
 
 dataawsccdocdbglobalclusters.DataAwsccDocdbGlobalClusters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdocdbglobalclusters.DataAwsccDocdbGlobalClusters_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDocdbGlobalClusters.DataAwsccDocdbGlobalClusters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbglobalclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbglobalclusters"
 
 dataawsccdocdbglobalclusters.DataAwsccDocdbGlobalClusters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDocdbGlobalCluste
 
 The id of the existing DataAwsccDocdbGlobalClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdb_global_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdb_global_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDocdbGlobalClusters.DataAwsccDocdbGlobalClustersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbglobalclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbglobalclusters"
 
 &dataawsccdocdbglobalclusters.DataAwsccDocdbGlobalClustersConfig {
 	Connection: interface{},

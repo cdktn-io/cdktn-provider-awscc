@@ -4,12 +4,12 @@
 
 ### DeadlineStorageProfile <a name="DeadlineStorageProfile" id="@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinestorageprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinestorageprofile"
 
 deadlinestorageprofile.NewDeadlineStorageProfile(scope Construct, id *string, config DeadlineStorageProfileConfig) DeadlineStorageProfile
 ```
@@ -420,7 +420,7 @@ func ResetFileSystemLocations()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinestorageprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinestorageprofile"
 
 deadlinestorageprofile.DeadlineStorageProfile_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinestorageprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinestorageprofile"
 
 deadlinestorageprofile.DeadlineStorageProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ deadlinestorageprofile.DeadlineStorageProfile_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinestorageprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinestorageprofile"
 
 deadlinestorageprofile.DeadlineStorageProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ deadlinestorageprofile.DeadlineStorageProfile_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinestorageprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinestorageprofile"
 
 deadlinestorageprofile.DeadlineStorageProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the DeadlineStorageProfile to 
 
 The id of the existing DeadlineStorageProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -819,7 +819,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinestorageprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinestorageprofile"
 
 &deadlinestorageprofile.DeadlineStorageProfileConfig {
 	Connection: interface{},
@@ -847,10 +847,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinestorageprofile
 | <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#display_name DeadlineStorageProfile#display_name}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.property.farmId">FarmId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#farm_id DeadlineStorageProfile#farm_id}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.property.osFamily">OsFamily</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#os_family DeadlineStorageProfile#os_family}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.property.fileSystemLocations">FileSystemLocations</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#file_system_locations DeadlineStorageProfile#file_system_locations}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#display_name DeadlineStorageProfile#display_name}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.property.farmId">FarmId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#farm_id DeadlineStorageProfile#farm_id}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.property.osFamily">OsFamily</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#os_family DeadlineStorageProfile#os_family}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileConfig.property.fileSystemLocations">FileSystemLocations</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#file_system_locations DeadlineStorageProfile#file_system_locations}. |
 
 ---
 
@@ -932,7 +932,7 @@ DisplayName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#display_name DeadlineStorageProfile#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#display_name DeadlineStorageProfile#display_name}.
 
 ---
 
@@ -944,7 +944,7 @@ FarmId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#farm_id DeadlineStorageProfile#farm_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#farm_id DeadlineStorageProfile#farm_id}.
 
 ---
 
@@ -956,7 +956,7 @@ OsFamily *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#os_family DeadlineStorageProfile#os_family}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#os_family DeadlineStorageProfile#os_family}.
 
 ---
 
@@ -968,7 +968,7 @@ FileSystemLocations interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#file_system_locations DeadlineStorageProfile#file_system_locations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#file_system_locations DeadlineStorageProfile#file_system_locations}.
 
 ---
 
@@ -977,7 +977,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileFileSystemLocations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinestorageprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinestorageprofile"
 
 &deadlinestorageprofile.DeadlineStorageProfileFileSystemLocations {
 	Name: *string,
@@ -990,9 +990,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinestorageprofile
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileFileSystemLocations.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#name DeadlineStorageProfile#name}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileFileSystemLocations.property.path">Path</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#path DeadlineStorageProfile#path}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileFileSystemLocations.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#type DeadlineStorageProfile#type}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileFileSystemLocations.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#name DeadlineStorageProfile#name}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileFileSystemLocations.property.path">Path</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#path DeadlineStorageProfile#path}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileFileSystemLocations.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#type DeadlineStorageProfile#type}. |
 
 ---
 
@@ -1004,7 +1004,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#name DeadlineStorageProfile#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#name DeadlineStorageProfile#name}.
 
 ---
 
@@ -1016,7 +1016,7 @@ Path *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#path DeadlineStorageProfile#path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#path DeadlineStorageProfile#path}.
 
 ---
 
@@ -1028,7 +1028,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_storage_profile#type DeadlineStorageProfile#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_storage_profile#type DeadlineStorageProfile#type}.
 
 ---
 
@@ -1039,7 +1039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileFileSystemLocationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinestorageprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinestorageprofile"
 
 deadlinestorageprofile.NewDeadlineStorageProfileFileSystemLocationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DeadlineStorageProfileFileSystemLocationsList
 ```
@@ -1199,7 +1199,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineStorageProfile.DeadlineStorageProfileFileSystemLocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinestorageprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinestorageprofile"
 
 deadlinestorageprofile.NewDeadlineStorageProfileFileSystemLocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DeadlineStorageProfileFileSystemLocationsOutputReference
 ```

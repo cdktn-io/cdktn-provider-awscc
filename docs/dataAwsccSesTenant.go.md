@@ -4,12 +4,12 @@
 
 ### DataAwsccSesTenant <a name="DataAwsccSesTenant" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenant awscc_ses_tenant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_tenant awscc_ses_tenant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.NewDataAwsccSesTenant(scope Construct, id *string, config DataAwsccSesTenantConfig) DataAwsccSesTenant
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.DataAwsccSesTenant_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.DataAwsccSesTenant_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsestenant.DataAwsccSesTenant_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.DataAwsccSesTenant_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsestenant.DataAwsccSesTenant_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.DataAwsccSesTenant_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesTenant to impo
 
 The id of the existing DataAwsccSesTenant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_tenant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 &dataawsccsestenant.DataAwsccSesTenantConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenant#id DataAwsccSesTenant#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_tenant#id DataAwsccSesTenant#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 &dataawsccsestenant.DataAwsccSesTenantReputationEntity {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 &dataawsccsestenant.DataAwsccSesTenantReputationEntityPolicy {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantResourceAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 &dataawsccsestenant.DataAwsccSesTenantResourceAssociations {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 &dataawsccsestenant.DataAwsccSesTenantSuppressionAttributes {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 &dataawsccsestenant.DataAwsccSesTenantTags {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.NewDataAwsccSesTenantReputationEntityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesTenantReputationEntityOutputReference
 ```
@@ -1101,7 +1101,7 @@ func InternalValue() DataAwsccSesTenantReputationEntity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.NewDataAwsccSesTenantReputationEntityPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesTenantReputationEntityPolicyOutputReference
 ```
@@ -1361,7 +1361,7 @@ func InternalValue() DataAwsccSesTenantReputationEntityPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantResourceAssociationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.NewDataAwsccSesTenantResourceAssociationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesTenantResourceAssociationsList
 ```
@@ -1510,7 +1510,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantResourceAssociationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.NewDataAwsccSesTenantResourceAssociationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesTenantResourceAssociationsOutputReference
 ```
@@ -1788,7 +1788,7 @@ func InternalValue() DataAwsccSesTenantResourceAssociations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.NewDataAwsccSesTenantSuppressionAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesTenantSuppressionAttributesOutputReference
 ```
@@ -2059,7 +2059,7 @@ func InternalValue() DataAwsccSesTenantSuppressionAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.NewDataAwsccSesTenantTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesTenantTagsList
 ```
@@ -2208,7 +2208,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenant"
 
 dataawsccsestenant.NewDataAwsccSesTenantTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesTenantTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccDirectconnectTransitVirtualInterfaces <a name="DataAwsccDirectconnectTransitVirtualInterfaces" id="@cdktn/provider-awscc.dataAwsccDirectconnectTransitVirtualInterfaces.DataAwsccDirectconnectTransitVirtualInterfaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_transit_virtual_interfaces awscc_directconnect_transit_virtual_interfaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_transit_virtual_interfaces awscc_directconnect_transit_virtual_interfaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectTransitVirtualInterfaces.DataAwsccDirectconnectTransitVirtualInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnecttransitvirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnecttransitvirtualinterfaces"
 
 dataawsccdirectconnecttransitvirtualinterfaces.NewDataAwsccDirectconnectTransitVirtualInterfaces(scope Construct, id *string, config DataAwsccDirectconnectTransitVirtualInterfacesConfig) DataAwsccDirectconnectTransitVirtualInterfaces
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDirectconnectTransitVirtualInterfaces.DataAwsccDirectconnectTransitVirtualInterfaces.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnecttransitvirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnecttransitvirtualinterfaces"
 
 dataawsccdirectconnecttransitvirtualinterfaces.DataAwsccDirectconnectTransitVirtualInterfaces_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDirectconnectTransitVirtualInterfaces.DataAwsccDirectconnectTransitVirtualInterfaces.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnecttransitvirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnecttransitvirtualinterfaces"
 
 dataawsccdirectconnecttransitvirtualinterfaces.DataAwsccDirectconnectTransitVirtualInterfaces_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdirectconnecttransitvirtualinterfaces.DataAwsccDirectconnectTransitVirt
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDirectconnectTransitVirtualInterfaces.DataAwsccDirectconnectTransitVirtualInterfaces.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnecttransitvirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnecttransitvirtualinterfaces"
 
 dataawsccdirectconnecttransitvirtualinterfaces.DataAwsccDirectconnectTransitVirtualInterfaces_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdirectconnecttransitvirtualinterfaces.DataAwsccDirectconnectTransitVirt
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDirectconnectTransitVirtualInterfaces.DataAwsccDirectconnectTransitVirtualInterfaces.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnecttransitvirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnecttransitvirtualinterfaces"
 
 dataawsccdirectconnecttransitvirtualinterfaces.DataAwsccDirectconnectTransitVirtualInterfaces_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDirectconnectTran
 
 The id of the existing DataAwsccDirectconnectTransitVirtualInterfaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_transit_virtual_interfaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_transit_virtual_interfaces#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDirectconnectTransitVirtualInterfaces.DataAwsccDirectconnectTransitVirtualInterfacesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnecttransitvirtualinterfaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnecttransitvirtualinterfaces"
 
 &dataawsccdirectconnecttransitvirtualinterfaces.DataAwsccDirectconnectTransitVirtualInterfacesConfig {
 	Connection: interface{},

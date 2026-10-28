@@ -4,7 +4,7 @@
 
 ### DataAwsccTransferHostKey <a name="DataAwsccTransferHostKey" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_host_key awscc_transfer_host_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_host_key awscc_transfer_host_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_host_key#id DataAwsccTransferHostKey#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_host_key#id DataAwsccTransferHostKey#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccTransferHostKey t
 
 The id of the existing DataAwsccTransferHostKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_host_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_host_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -526,7 +526,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.hostKeyBody">host_key_body</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.hostKeyFingerprint">host_key_fingerprint</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.hostKeyId">host_key_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.kmsKey">kms_key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.secretId">secret_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.serverId">server_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.storageType">storage_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKeyTagsList">DataAwsccTransferHostKeyTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.type">type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
@@ -716,10 +719,40 @@ host_key_id: str
 
 ---
 
+##### `kms_key`<sup>Required</sup> <a name="kms_key" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.kmsKey"></a>
+
+```python
+kms_key: str
+```
+
+- *Type:* str
+
+---
+
+##### `secret_id`<sup>Required</sup> <a name="secret_id" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.secretId"></a>
+
+```python
+secret_id: str
+```
+
+- *Type:* str
+
+---
+
 ##### `server_id`<sup>Required</sup> <a name="server_id" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.serverId"></a>
 
 ```python
 server_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `storage_type`<sup>Required</sup> <a name="storage_type" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.storageType"></a>
+
+```python
+storage_type: str
 ```
 
 - *Type:* str
@@ -900,7 +933,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_host_key#id DataAwsccTransferHostKey#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_host_key#id DataAwsccTransferHostKey#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

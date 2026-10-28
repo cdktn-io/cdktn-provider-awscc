@@ -4,12 +4,12 @@
 
 ### CodeartifactPackageGroup <a name="CodeartifactPackageGroup" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.NewCodeartifactPackageGroup(scope Construct, id *string, config CodeartifactPackageGroupConfig) CodeartifactPackageGroup
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.CodeartifactPackageGroup_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.CodeartifactPackageGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ codeartifactpackagegroup.CodeartifactPackageGroup_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.CodeartifactPackageGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ codeartifactpackagegroup.CodeartifactPackageGroup_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.CodeartifactPackageGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the CodeartifactPackageGroup t
 
 The id of the existing CodeartifactPackageGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -926,7 +926,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 &codeartifactpackagegroup.CodeartifactPackageGroupConfig {
 	Connection: interface{},
@@ -941,7 +941,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegro
 	ContactInfo: *string,
 	Description: *string,
 	DomainOwner: *string,
-	OriginConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfiguration,
+	OriginConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfiguration,
 	Tags: interface{},
 }
 ```
@@ -1047,7 +1047,7 @@ DomainName *string
 
 The name of the domain that contains the package group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#domain_name CodeartifactPackageGroup#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#domain_name CodeartifactPackageGroup#domain_name}
 
 ---
 
@@ -1061,7 +1061,7 @@ Pattern *string
 
 The package group pattern that is used to gather packages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#pattern CodeartifactPackageGroup#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#pattern CodeartifactPackageGroup#pattern}
 
 ---
 
@@ -1075,7 +1075,7 @@ ContactInfo *string
 
 The contact info of the package group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#contact_info CodeartifactPackageGroup#contact_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#contact_info CodeartifactPackageGroup#contact_info}
 
 ---
 
@@ -1089,7 +1089,7 @@ Description *string
 
 The text description of the package group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#description CodeartifactPackageGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#description CodeartifactPackageGroup#description}
 
 ---
 
@@ -1103,7 +1103,7 @@ DomainOwner *string
 
 The 12-digit account ID of the AWS account that owns the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#domain_owner CodeartifactPackageGroup#domain_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#domain_owner CodeartifactPackageGroup#domain_owner}
 
 ---
 
@@ -1117,7 +1117,7 @@ OriginConfiguration CodeartifactPackageGroupOriginConfiguration
 
 The package origin configuration of the package group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#origin_configuration CodeartifactPackageGroup#origin_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#origin_configuration CodeartifactPackageGroup#origin_configuration}
 
 ---
 
@@ -1131,7 +1131,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to the package group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#tags CodeartifactPackageGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#tags CodeartifactPackageGroup#tags}
 
 ---
 
@@ -1140,10 +1140,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 &codeartifactpackagegroup.CodeartifactPackageGroupOriginConfiguration {
-	Restrictions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictions,
+	Restrictions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictions,
 }
 ```
 
@@ -1165,7 +1165,7 @@ Restrictions CodeartifactPackageGroupOriginConfigurationRestrictions
 
 The origin configuration that is applied to the package group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#restrictions CodeartifactPackageGroup#restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#restrictions CodeartifactPackageGroup#restrictions}
 
 ---
 
@@ -1174,12 +1174,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 &codeartifactpackagegroup.CodeartifactPackageGroupOriginConfigurationRestrictions {
-	ExternalUpstream: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream,
-	InternalUpstream: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream,
-	Publish: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsPublish,
+	ExternalUpstream: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream,
+	InternalUpstream: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream,
+	Publish: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsPublish,
 }
 ```
 
@@ -1203,7 +1203,7 @@ ExternalUpstream CodeartifactPackageGroupOriginConfigurationRestrictionsExternal
 
 The external upstream restriction determines if new package versions can be ingested or retained from external connections.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#external_upstream CodeartifactPackageGroup#external_upstream}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#external_upstream CodeartifactPackageGroup#external_upstream}
 
 ---
 
@@ -1217,7 +1217,7 @@ InternalUpstream CodeartifactPackageGroupOriginConfigurationRestrictionsInternal
 
 The internal upstream restriction determines if new package versions can be ingested or retained from upstream repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#internal_upstream CodeartifactPackageGroup#internal_upstream}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#internal_upstream CodeartifactPackageGroup#internal_upstream}
 
 ---
 
@@ -1231,7 +1231,7 @@ Publish CodeartifactPackageGroupOriginConfigurationRestrictionsPublish
 
 The publish restriction determines if new package versions can be published.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#publish CodeartifactPackageGroup#publish}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#publish CodeartifactPackageGroup#publish}
 
 ---
 
@@ -1240,7 +1240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 &codeartifactpackagegroup.CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream {
 	Repositories: *[]*string,
@@ -1252,8 +1252,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegro
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream.property.repositories">Repositories</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}. |
-| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream.property.restrictionMode">RestrictionMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}. |
+| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream.property.repositories">Repositories</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}. |
+| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream.property.restrictionMode">RestrictionMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}. |
 
 ---
 
@@ -1265,7 +1265,7 @@ Repositories *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}.
 
 ---
 
@@ -1277,7 +1277,7 @@ RestrictionMode *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}.
 
 ---
 
@@ -1286,7 +1286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 &codeartifactpackagegroup.CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream {
 	Repositories: *[]*string,
@@ -1298,8 +1298,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegro
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream.property.repositories">Repositories</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}. |
-| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream.property.restrictionMode">RestrictionMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}. |
+| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream.property.repositories">Repositories</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}. |
+| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream.property.restrictionMode">RestrictionMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}. |
 
 ---
 
@@ -1311,7 +1311,7 @@ Repositories *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}.
 
 ---
 
@@ -1323,7 +1323,7 @@ RestrictionMode *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}.
 
 ---
 
@@ -1332,7 +1332,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 &codeartifactpackagegroup.CodeartifactPackageGroupOriginConfigurationRestrictionsPublish {
 	Repositories: *[]*string,
@@ -1344,8 +1344,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegro
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsPublish.property.repositories">Repositories</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}. |
-| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsPublish.property.restrictionMode">RestrictionMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}. |
+| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsPublish.property.repositories">Repositories</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}. |
+| <code><a href="#@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsPublish.property.restrictionMode">RestrictionMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}. |
 
 ---
 
@@ -1357,7 +1357,7 @@ Repositories *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}.
 
 ---
 
@@ -1369,7 +1369,7 @@ RestrictionMode *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}.
 
 ---
 
@@ -1378,7 +1378,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 &codeartifactpackagegroup.CodeartifactPackageGroupTags {
 	Key: *string,
@@ -1407,7 +1407,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#key CodeartifactPackageGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#key CodeartifactPackageGroup#key}
 
 ---
 
@@ -1423,7 +1423,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_package_group#value CodeartifactPackageGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_package_group#value CodeartifactPackageGroup#value}
 
 ---
 
@@ -1434,7 +1434,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.NewCodeartifactPackageGroupOriginConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodeartifactPackageGroupOriginConfigurationOutputReference
 ```
@@ -1725,7 +1725,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstreamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.NewCodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstreamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstreamOutputReference
 ```
@@ -2032,7 +2032,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstreamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.NewCodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstreamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstreamOutputReference
 ```
@@ -2339,7 +2339,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.NewCodeartifactPackageGroupOriginConfigurationRestrictionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodeartifactPackageGroupOriginConfigurationRestrictionsOutputReference
 ```
@@ -2714,7 +2714,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupOriginConfigurationRestrictionsPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.NewCodeartifactPackageGroupOriginConfigurationRestrictionsPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodeartifactPackageGroupOriginConfigurationRestrictionsPublishOutputReference
 ```
@@ -3021,7 +3021,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.NewCodeartifactPackageGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodeartifactPackageGroupTagsList
 ```
@@ -3181,7 +3181,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeartifactPackageGroup.CodeartifactPackageGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactpackagegroup"
 
 codeartifactpackagegroup.NewCodeartifactPackageGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodeartifactPackageGroupTagsOutputReference
 ```

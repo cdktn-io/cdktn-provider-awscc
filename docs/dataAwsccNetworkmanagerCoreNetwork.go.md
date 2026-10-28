@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkmanagerCoreNetwork <a name="DataAwsccNetworkmanagerCoreNetwork" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_core_network awscc_networkmanager_core_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_core_network awscc_networkmanager_core_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.NewDataAwsccNetworkmanagerCoreNetwork(scope Construct, id *string, config DataAwsccNetworkmanagerCoreNetworkConfig) DataAwsccNetworkmanagerCoreNetwork
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetwork_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetwork.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetwork_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetwork_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerCor
 
 The id of the existing DataAwsccNetworkmanagerCoreNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_core_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_core_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 &dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetworkConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_core_network#id DataAwsccNetworkmanagerCoreNetwork#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_core_network#id DataAwsccNetworkmanagerCoreNetwork#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkEdges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 &dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetworkEdges {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 &dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroups {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsSegments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 &dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsSegments {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkSegments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 &dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetworkSegments {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 &dataawsccnetworkmanagercorenetwork.DataAwsccNetworkmanagerCoreNetworkTags {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkEdgesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.NewDataAwsccNetworkmanagerCoreNetworkEdgesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworkmanagerCoreNetworkEdgesList
 ```
@@ -1056,7 +1056,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkEdgesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.NewDataAwsccNetworkmanagerCoreNetworkEdgesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworkmanagerCoreNetworkEdgesOutputReference
 ```
@@ -1356,7 +1356,7 @@ func InternalValue() DataAwsccNetworkmanagerCoreNetworkEdges
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.NewDataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsList
 ```
@@ -1505,7 +1505,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.NewDataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsOutputReference
 ```
@@ -1805,7 +1805,7 @@ func InternalValue() DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroups
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsSegmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.NewDataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsSegmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsSegmentsOutputReference
 ```
@@ -2076,7 +2076,7 @@ func InternalValue() DataAwsccNetworkmanagerCoreNetworkNetworkFunctionGroupsSegm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkSegmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.NewDataAwsccNetworkmanagerCoreNetworkSegmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworkmanagerCoreNetworkSegmentsList
 ```
@@ -2225,7 +2225,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkSegmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.NewDataAwsccNetworkmanagerCoreNetworkSegmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworkmanagerCoreNetworkSegmentsOutputReference
 ```
@@ -2525,7 +2525,7 @@ func InternalValue() DataAwsccNetworkmanagerCoreNetworkSegments
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.NewDataAwsccNetworkmanagerCoreNetworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworkmanagerCoreNetworkTagsList
 ```
@@ -2674,7 +2674,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetwork.DataAwsccNetworkmanagerCoreNetworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagercorenetwork"
 
 dataawsccnetworkmanagercorenetwork.NewDataAwsccNetworkmanagerCoreNetworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworkmanagerCoreNetworkTagsOutputReference
 ```

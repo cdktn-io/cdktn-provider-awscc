@@ -4,12 +4,12 @@
 
 ### DataAwsccGrafanaWorkspace <a name="DataAwsccGrafanaWorkspace" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/grafana_workspace awscc_grafana_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/grafana_workspace awscc_grafana_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.NewDataAwsccGrafanaWorkspace(scope Construct, id *string, config DataAwsccGrafanaWorkspaceConfig) DataAwsccGrafanaWorkspace
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspace_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspace_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspace_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspace.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspace_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspace_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGrafanaWorkspace 
 
 The id of the existing DataAwsccGrafanaWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/grafana_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/grafana_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -862,7 +862,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 &dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspaceConfig {
 	Connection: interface{},
@@ -971,7 +971,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/grafana_workspace#id DataAwsccGrafanaWorkspace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/grafana_workspace#id DataAwsccGrafanaWorkspace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -983,7 +983,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceNetworkAccessControl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 &dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspaceNetworkAccessControl {
 
@@ -996,7 +996,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceSamlConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 &dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspaceSamlConfiguration {
 
@@ -1009,7 +1009,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceSamlConfigurationAssertionAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 &dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspaceSamlConfigurationAssertionAttributes {
 
@@ -1022,7 +1022,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceSamlConfigurationIdpMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 &dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspaceSamlConfigurationIdpMetadata {
 
@@ -1035,7 +1035,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceSamlConfigurationRoleValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 &dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspaceSamlConfigurationRoleValues {
 
@@ -1048,7 +1048,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 &dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspaceTags {
 
@@ -1061,7 +1061,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworksp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 &dataawsccgrafanaworkspace.DataAwsccGrafanaWorkspaceVpcConfiguration {
 
@@ -1076,7 +1076,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworksp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceNetworkAccessControlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.NewDataAwsccGrafanaWorkspaceNetworkAccessControlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGrafanaWorkspaceNetworkAccessControlOutputReference
 ```
@@ -1347,7 +1347,7 @@ func InternalValue() DataAwsccGrafanaWorkspaceNetworkAccessControl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceSamlConfigurationAssertionAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.NewDataAwsccGrafanaWorkspaceSamlConfigurationAssertionAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGrafanaWorkspaceSamlConfigurationAssertionAttributesOutputReference
 ```
@@ -1662,7 +1662,7 @@ func InternalValue() DataAwsccGrafanaWorkspaceSamlConfigurationAssertionAttribut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceSamlConfigurationIdpMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.NewDataAwsccGrafanaWorkspaceSamlConfigurationIdpMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGrafanaWorkspaceSamlConfigurationIdpMetadataOutputReference
 ```
@@ -1933,7 +1933,7 @@ func InternalValue() DataAwsccGrafanaWorkspaceSamlConfigurationIdpMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceSamlConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.NewDataAwsccGrafanaWorkspaceSamlConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGrafanaWorkspaceSamlConfigurationOutputReference
 ```
@@ -2237,7 +2237,7 @@ func InternalValue() DataAwsccGrafanaWorkspaceSamlConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceSamlConfigurationRoleValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.NewDataAwsccGrafanaWorkspaceSamlConfigurationRoleValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGrafanaWorkspaceSamlConfigurationRoleValuesOutputReference
 ```
@@ -2508,7 +2508,7 @@ func InternalValue() DataAwsccGrafanaWorkspaceSamlConfigurationRoleValues
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.NewDataAwsccGrafanaWorkspaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGrafanaWorkspaceTagsList
 ```
@@ -2657,7 +2657,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.NewDataAwsccGrafanaWorkspaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGrafanaWorkspaceTagsOutputReference
 ```
@@ -2946,7 +2946,7 @@ func InternalValue() DataAwsccGrafanaWorkspaceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspace.DataAwsccGrafanaWorkspaceVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspace"
 
 dataawsccgrafanaworkspace.NewDataAwsccGrafanaWorkspaceVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGrafanaWorkspaceVpcConfigurationOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccPollyLexicons <a name="DataAwsccPollyLexicons" id="@cdktn/provider-awscc.dataAwsccPollyLexicons.DataAwsccPollyLexicons"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/polly_lexicons awscc_polly_lexicons}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/polly_lexicons awscc_polly_lexicons}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPollyLexicons.DataAwsccPollyLexicons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpollylexicons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpollylexicons"
 
 dataawsccpollylexicons.NewDataAwsccPollyLexicons(scope Construct, id *string, config DataAwsccPollyLexiconsConfig) DataAwsccPollyLexicons
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPollyLexicons.DataAwsccPollyLexicons.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpollylexicons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpollylexicons"
 
 dataawsccpollylexicons.DataAwsccPollyLexicons_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPollyLexicons.DataAwsccPollyLexicons.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpollylexicons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpollylexicons"
 
 dataawsccpollylexicons.DataAwsccPollyLexicons_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpollylexicons.DataAwsccPollyLexicons_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPollyLexicons.DataAwsccPollyLexicons.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpollylexicons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpollylexicons"
 
 dataawsccpollylexicons.DataAwsccPollyLexicons_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpollylexicons.DataAwsccPollyLexicons_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPollyLexicons.DataAwsccPollyLexicons.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpollylexicons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpollylexicons"
 
 dataawsccpollylexicons.DataAwsccPollyLexicons_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPollyLexicons to 
 
 The id of the existing DataAwsccPollyLexicons that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/polly_lexicons#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/polly_lexicons#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPollyLexicons.DataAwsccPollyLexiconsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpollylexicons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpollylexicons"
 
 &dataawsccpollylexicons.DataAwsccPollyLexiconsConfig {
 	Connection: interface{},

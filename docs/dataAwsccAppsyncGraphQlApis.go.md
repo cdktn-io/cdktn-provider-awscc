@@ -4,12 +4,12 @@
 
 ### DataAwsccAppsyncGraphQlApis <a name="DataAwsccAppsyncGraphQlApis" id="@cdktn/provider-awscc.dataAwsccAppsyncGraphQlApis.DataAwsccAppsyncGraphQlApis"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_graph_ql_apis awscc_appsync_graph_ql_apis}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_graph_ql_apis awscc_appsync_graph_ql_apis}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncGraphQlApis.DataAwsccAppsyncGraphQlApis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncgraphqlapis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncgraphqlapis"
 
 dataawsccappsyncgraphqlapis.NewDataAwsccAppsyncGraphQlApis(scope Construct, id *string, config DataAwsccAppsyncGraphQlApisConfig) DataAwsccAppsyncGraphQlApis
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppsyncGraphQlApis.DataAwsccAppsyncGraphQlApis.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncgraphqlapis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncgraphqlapis"
 
 dataawsccappsyncgraphqlapis.DataAwsccAppsyncGraphQlApis_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppsyncGraphQlApis.DataAwsccAppsyncGraphQlApis.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncgraphqlapis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncgraphqlapis"
 
 dataawsccappsyncgraphqlapis.DataAwsccAppsyncGraphQlApis_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappsyncgraphqlapis.DataAwsccAppsyncGraphQlApis_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppsyncGraphQlApis.DataAwsccAppsyncGraphQlApis.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncgraphqlapis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncgraphqlapis"
 
 dataawsccappsyncgraphqlapis.DataAwsccAppsyncGraphQlApis_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappsyncgraphqlapis.DataAwsccAppsyncGraphQlApis_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppsyncGraphQlApis.DataAwsccAppsyncGraphQlApis.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncgraphqlapis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncgraphqlapis"
 
 dataawsccappsyncgraphqlapis.DataAwsccAppsyncGraphQlApis_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppsyncGraphQlApi
 
 The id of the existing DataAwsccAppsyncGraphQlApis that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_graph_ql_apis#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_graph_ql_apis#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncGraphQlApis.DataAwsccAppsyncGraphQlApisConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncgraphqlapis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncgraphqlapis"
 
 &dataawsccappsyncgraphqlapis.DataAwsccAppsyncGraphQlApisConfig {
 	Connection: interface{},

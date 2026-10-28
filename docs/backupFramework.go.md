@@ -4,12 +4,12 @@
 
 ### BackupFramework <a name="BackupFramework" id="@cdktn/provider-awscc.backupFramework.BackupFramework"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework awscc_backup_framework}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework awscc_backup_framework}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupFramework.BackupFramework.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.NewBackupFramework(scope Construct, id *string, config BackupFrameworkConfig) BackupFramework
 ```
@@ -447,7 +447,7 @@ func ResetFrameworkTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.backupFramework.BackupFramework.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.BackupFramework_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.backupFramework.BackupFramework.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.BackupFramework_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ backupframework.BackupFramework_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.backupFramework.BackupFramework.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.BackupFramework_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ backupframework.BackupFramework_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.backupFramework.BackupFramework.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.BackupFramework_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the BackupFramework to import.
 
 The id of the existing BackupFramework that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -879,7 +879,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 &backupframework.BackupFrameworkConfig {
 	Connection: interface{},
@@ -994,7 +994,7 @@ FrameworkControls interface{}
 
 Contains detailed information about all of the controls of a framework. Each framework must contain at least one control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#framework_controls BackupFramework#framework_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#framework_controls BackupFramework#framework_controls}
 
 ---
 
@@ -1008,7 +1008,7 @@ FrameworkDescription *string
 
 An optional description of the framework with a maximum 1,024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#framework_description BackupFramework#framework_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#framework_description BackupFramework#framework_description}
 
 ---
 
@@ -1024,7 +1024,7 @@ The unique name of a framework.
 
 This name is between 1 and 256 characters, starting with a letter, and consisting of letters (a-z, A-Z), numbers (0-9), and underscores (_).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#framework_name BackupFramework#framework_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#framework_name BackupFramework#framework_name}
 
 ---
 
@@ -1038,7 +1038,7 @@ FrameworkTags interface{}
 
 Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#framework_tags BackupFramework#framework_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#framework_tags BackupFramework#framework_tags}
 
 ---
 
@@ -1047,12 +1047,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 &backupframework.BackupFrameworkFrameworkControls {
 	ControlName: *string,
 	ControlInputParameters: interface{},
-	ControlScope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.backupFramework.BackupFrameworkFrameworkControlsControlScope,
+	ControlScope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.backupFramework.BackupFrameworkFrameworkControlsControlScope,
 }
 ```
 
@@ -1076,7 +1076,7 @@ ControlName *string
 
 The name of a control. This name is between 1 and 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#control_name BackupFramework#control_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#control_name BackupFramework#control_name}
 
 ---
 
@@ -1090,7 +1090,7 @@ ControlInputParameters interface{}
 
 A list of ParameterName and ParameterValue pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#control_input_parameters BackupFramework#control_input_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#control_input_parameters BackupFramework#control_input_parameters}
 
 ---
 
@@ -1106,7 +1106,7 @@ The scope of a control.
 
 The control scope defines what the control will evaluate. Three examples of control scopes are: a specific backup plan, all backup plans with a specific tag, or all backup plans.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#control_scope BackupFramework#control_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#control_scope BackupFramework#control_scope}
 
 ---
 
@@ -1115,7 +1115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlInputParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 &backupframework.BackupFrameworkFrameworkControlsControlInputParameters {
 	ParameterName: *string,
@@ -1127,8 +1127,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlInputParameters.property.parameterName">ParameterName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#parameter_name BackupFramework#parameter_name}. |
-| <code><a href="#@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlInputParameters.property.parameterValue">ParameterValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#parameter_value BackupFramework#parameter_value}. |
+| <code><a href="#@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlInputParameters.property.parameterName">ParameterName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#parameter_name BackupFramework#parameter_name}. |
+| <code><a href="#@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlInputParameters.property.parameterValue">ParameterValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#parameter_value BackupFramework#parameter_value}. |
 
 ---
 
@@ -1140,7 +1140,7 @@ ParameterName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#parameter_name BackupFramework#parameter_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#parameter_name BackupFramework#parameter_name}.
 
 ---
 
@@ -1152,7 +1152,7 @@ ParameterValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#parameter_value BackupFramework#parameter_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#parameter_value BackupFramework#parameter_value}.
 
 ---
 
@@ -1161,7 +1161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 &backupframework.BackupFrameworkFrameworkControlsControlScope {
 	ComplianceResourceIds: *[]*string,
@@ -1190,7 +1190,7 @@ ComplianceResourceIds *[]*string
 
 The ID of the only AWS resource that you want your control scope to contain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#compliance_resource_ids BackupFramework#compliance_resource_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#compliance_resource_ids BackupFramework#compliance_resource_ids}
 
 ---
 
@@ -1204,7 +1204,7 @@ ComplianceResourceTypes *[]*string
 
 Describes whether the control scope includes one or more types of resources, such as `EFS` or `RDS`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#compliance_resource_types BackupFramework#compliance_resource_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#compliance_resource_types BackupFramework#compliance_resource_types}
 
 ---
 
@@ -1218,7 +1218,7 @@ Tags interface{}
 
 Describes whether the control scope includes resources with one or more tags. Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#tags BackupFramework#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#tags BackupFramework#tags}
 
 ---
 
@@ -1227,7 +1227,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlScopeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 &backupframework.BackupFrameworkFrameworkControlsControlScopeTags {
 	Key: *string,
@@ -1256,7 +1256,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#key BackupFramework#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#key BackupFramework#key}
 
 ---
 
@@ -1272,7 +1272,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#value BackupFramework#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#value BackupFramework#value}
 
 ---
 
@@ -1281,7 +1281,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 &backupframework.BackupFrameworkFrameworkTags {
 	Key: *string,
@@ -1310,7 +1310,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#key BackupFramework#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#key BackupFramework#key}
 
 ---
 
@@ -1326,7 +1326,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_framework#value BackupFramework#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_framework#value BackupFramework#value}
 
 ---
 
@@ -1337,7 +1337,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlInputParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.NewBackupFrameworkFrameworkControlsControlInputParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BackupFrameworkFrameworkControlsControlInputParametersList
 ```
@@ -1497,7 +1497,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlInputParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.NewBackupFrameworkFrameworkControlsControlInputParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BackupFrameworkFrameworkControlsControlInputParametersOutputReference
 ```
@@ -1822,7 +1822,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.NewBackupFrameworkFrameworkControlsControlScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BackupFrameworkFrameworkControlsControlScopeOutputReference
 ```
@@ -2171,7 +2171,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlScopeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.NewBackupFrameworkFrameworkControlsControlScopeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BackupFrameworkFrameworkControlsControlScopeTagsList
 ```
@@ -2331,7 +2331,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlScopeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.NewBackupFrameworkFrameworkControlsControlScopeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BackupFrameworkFrameworkControlsControlScopeTagsOutputReference
 ```
@@ -2656,7 +2656,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.NewBackupFrameworkFrameworkControlsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BackupFrameworkFrameworkControlsList
 ```
@@ -2816,7 +2816,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.NewBackupFrameworkFrameworkControlsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BackupFrameworkFrameworkControlsOutputReference
 ```
@@ -3189,7 +3189,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.NewBackupFrameworkFrameworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BackupFrameworkFrameworkTagsList
 ```
@@ -3349,7 +3349,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupframework"
 
 backupframework.NewBackupFrameworkFrameworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BackupFrameworkFrameworkTagsOutputReference
 ```

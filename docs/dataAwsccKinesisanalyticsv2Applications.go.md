@@ -4,12 +4,12 @@
 
 ### DataAwsccKinesisanalyticsv2Applications <a name="DataAwsccKinesisanalyticsv2Applications" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Applications.DataAwsccKinesisanalyticsv2Applications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisanalyticsv2_applications awscc_kinesisanalyticsv2_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisanalyticsv2_applications awscc_kinesisanalyticsv2_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Applications.DataAwsccKinesisanalyticsv2Applications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2applications"
 
 dataawscckinesisanalyticsv2applications.NewDataAwsccKinesisanalyticsv2Applications(scope Construct, id *string, config DataAwsccKinesisanalyticsv2ApplicationsConfig) DataAwsccKinesisanalyticsv2Applications
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Applications.DataAwsccKinesisanalyticsv2Applications.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2applications"
 
 dataawscckinesisanalyticsv2applications.DataAwsccKinesisanalyticsv2Applications_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Applications.DataAwsccKinesisanalyticsv2Applications.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2applications"
 
 dataawscckinesisanalyticsv2applications.DataAwsccKinesisanalyticsv2Applications_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckinesisanalyticsv2applications.DataAwsccKinesisanalyticsv2Applications_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Applications.DataAwsccKinesisanalyticsv2Applications.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2applications"
 
 dataawscckinesisanalyticsv2applications.DataAwsccKinesisanalyticsv2Applications_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckinesisanalyticsv2applications.DataAwsccKinesisanalyticsv2Applications_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Applications.DataAwsccKinesisanalyticsv2Applications.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2applications"
 
 dataawscckinesisanalyticsv2applications.DataAwsccKinesisanalyticsv2Applications_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKinesisanalyticsv
 
 The id of the existing DataAwsccKinesisanalyticsv2Applications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisanalyticsv2_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisanalyticsv2_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisanalyticsv2Applications.DataAwsccKinesisanalyticsv2ApplicationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisanalyticsv2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisanalyticsv2applications"
 
 &dataawscckinesisanalyticsv2applications.DataAwsccKinesisanalyticsv2ApplicationsConfig {
 	Connection: interface{},

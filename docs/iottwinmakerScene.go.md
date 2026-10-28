@@ -4,12 +4,12 @@
 
 ### IottwinmakerScene <a name="IottwinmakerScene" id="@cdktn/provider-awscc.iottwinmakerScene.IottwinmakerScene"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iottwinmakerScene.IottwinmakerScene.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakerscene"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakerscene"
 
 iottwinmakerscene.NewIottwinmakerScene(scope Construct, id *string, config IottwinmakerSceneConfig) IottwinmakerScene
 ```
@@ -428,7 +428,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iottwinmakerScene.IottwinmakerScene.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakerscene"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakerscene"
 
 iottwinmakerscene.IottwinmakerScene_IsConstruct(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iottwinmakerScene.IottwinmakerScene.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakerscene"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakerscene"
 
 iottwinmakerscene.IottwinmakerScene_IsTerraformElement(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ iottwinmakerscene.IottwinmakerScene_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iottwinmakerScene.IottwinmakerScene.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakerscene"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakerscene"
 
 iottwinmakerscene.IottwinmakerScene_IsTerraformResource(x interface{}) *bool
 ```
@@ -488,7 +488,7 @@ iottwinmakerscene.IottwinmakerScene_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iottwinmakerScene.IottwinmakerScene.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakerscene"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakerscene"
 
 iottwinmakerscene.IottwinmakerScene_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -517,7 +517,7 @@ The construct id used in the generated config for the IottwinmakerScene to impor
 
 The id of the existing IottwinmakerScene that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_scene#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_scene#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -926,7 +926,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iottwinmakerScene.IottwinmakerSceneConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakerscene"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakerscene"
 
 &iottwinmakerscene.IottwinmakerSceneConfig {
 	Connection: interface{},
@@ -1047,7 +1047,7 @@ ContentLocation *string
 
 The relative path that specifies the location of the content definition file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_scene#content_location IottwinmakerScene#content_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_scene#content_location IottwinmakerScene#content_location}
 
 ---
 
@@ -1061,7 +1061,7 @@ SceneId *string
 
 The ID of the scene.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_scene#scene_id IottwinmakerScene#scene_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_scene#scene_id IottwinmakerScene#scene_id}
 
 ---
 
@@ -1075,7 +1075,7 @@ WorkspaceId *string
 
 The ID of the scene.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_scene#workspace_id IottwinmakerScene#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_scene#workspace_id IottwinmakerScene#workspace_id}
 
 ---
 
@@ -1089,7 +1089,7 @@ Capabilities *[]*string
 
 A list of capabilities that the scene uses to render.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_scene#capabilities IottwinmakerScene#capabilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_scene#capabilities IottwinmakerScene#capabilities}
 
 ---
 
@@ -1103,7 +1103,7 @@ Description *string
 
 The description of the scene.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_scene#description IottwinmakerScene#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_scene#description IottwinmakerScene#description}
 
 ---
 
@@ -1117,7 +1117,7 @@ SceneMetadata *map[string]*string
 
 A key-value pair of scene metadata for the scene.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_scene#scene_metadata IottwinmakerScene#scene_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_scene#scene_metadata IottwinmakerScene#scene_metadata}
 
 ---
 
@@ -1131,7 +1131,7 @@ Tags *map[string]*string
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_scene#tags IottwinmakerScene#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_scene#tags IottwinmakerScene#tags}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### BackupLegalHold <a name="BackupLegalHold" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHold"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold awscc_backup_legal_hold}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold awscc_backup_legal_hold}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 backuplegalhold.NewBackupLegalHold(scope Construct, id *string, config BackupLegalHoldConfig) BackupLegalHold
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHold.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 backuplegalhold.BackupLegalHold_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHold.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 backuplegalhold.BackupLegalHold_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ backuplegalhold.BackupLegalHold_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHold.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 backuplegalhold.BackupLegalHold_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ backuplegalhold.BackupLegalHold_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHold.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 backuplegalhold.BackupLegalHold_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the BackupLegalHold to import.
 
 The id of the existing BackupLegalHold that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -865,7 +865,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHoldConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 &backuplegalhold.BackupLegalHoldConfig {
 	Connection: interface{},
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Description: *string,
-	RecoveryPointSelection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.backupLegalHold.BackupLegalHoldRecoveryPointSelection,
+	RecoveryPointSelection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.backupLegalHold.BackupLegalHoldRecoveryPointSelection,
 	Title: *string,
 	Tags: interface{},
 }
@@ -980,7 +980,7 @@ Description *string
 
 The description of the legal hold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#description BackupLegalHold#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#description BackupLegalHold#description}
 
 ---
 
@@ -994,7 +994,7 @@ RecoveryPointSelection BackupLegalHoldRecoveryPointSelection
 
 The criteria to assign a set of resources, such as resource types or backup vaults.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#recovery_point_selection BackupLegalHold#recovery_point_selection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#recovery_point_selection BackupLegalHold#recovery_point_selection}
 
 ---
 
@@ -1008,7 +1008,7 @@ Title *string
 
 The title of the legal hold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#title BackupLegalHold#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#title BackupLegalHold#title}
 
 ---
 
@@ -1022,7 +1022,7 @@ Tags interface{}
 
 Optional tags to include.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#tags BackupLegalHold#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#tags BackupLegalHold#tags}
 
 ---
 
@@ -1031,10 +1031,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHoldRecoveryPointSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 &backuplegalhold.BackupLegalHoldRecoveryPointSelection {
-	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.backupLegalHold.BackupLegalHoldRecoveryPointSelectionDateRange,
+	DateRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.backupLegalHold.BackupLegalHoldRecoveryPointSelectionDateRange,
 	ResourceIdentifiers: *[]*string,
 	VaultNames: *[]*string,
 }
@@ -1060,7 +1060,7 @@ DateRange BackupLegalHoldRecoveryPointSelectionDateRange
 
 A date range for filtering recovery points.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#date_range BackupLegalHold#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#date_range BackupLegalHold#date_range}
 
 ---
 
@@ -1074,7 +1074,7 @@ ResourceIdentifiers *[]*string
 
 The resources included in the resource selection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#resource_identifiers BackupLegalHold#resource_identifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#resource_identifiers BackupLegalHold#resource_identifiers}
 
 ---
 
@@ -1088,7 +1088,7 @@ VaultNames *[]*string
 
 The names of the vaults in which the selected recovery points are contained.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#vault_names BackupLegalHold#vault_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#vault_names BackupLegalHold#vault_names}
 
 ---
 
@@ -1097,7 +1097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHoldRecoveryPointSelectionDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 &backuplegalhold.BackupLegalHoldRecoveryPointSelectionDateRange {
 	FromDate: *string,
@@ -1124,7 +1124,7 @@ FromDate *string
 
 The beginning date, inclusive. ISO 8601 date-time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#from_date BackupLegalHold#from_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#from_date BackupLegalHold#from_date}
 
 ---
 
@@ -1138,7 +1138,7 @@ ToDate *string
 
 The end date, inclusive. ISO 8601 date-time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#to_date BackupLegalHold#to_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#to_date BackupLegalHold#to_date}
 
 ---
 
@@ -1147,7 +1147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHoldTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 &backuplegalhold.BackupLegalHoldTags {
 	Key: *string,
@@ -1174,7 +1174,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#key BackupLegalHold#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#key BackupLegalHold#key}
 
 ---
 
@@ -1188,7 +1188,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_legal_hold#value BackupLegalHold#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_legal_hold#value BackupLegalHold#value}
 
 ---
 
@@ -1199,7 +1199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHoldRecoveryPointSelectionDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 backuplegalhold.NewBackupLegalHoldRecoveryPointSelectionDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BackupLegalHoldRecoveryPointSelectionDateRangeOutputReference
 ```
@@ -1506,7 +1506,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHoldRecoveryPointSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 backuplegalhold.NewBackupLegalHoldRecoveryPointSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BackupLegalHoldRecoveryPointSelectionOutputReference
 ```
@@ -1855,7 +1855,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHoldTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 backuplegalhold.NewBackupLegalHoldTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BackupLegalHoldTagsList
 ```
@@ -2015,7 +2015,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupLegalHold.BackupLegalHoldTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuplegalhold"
 
 backuplegalhold.NewBackupLegalHoldTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BackupLegalHoldTagsOutputReference
 ```

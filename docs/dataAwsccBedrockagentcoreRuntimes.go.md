@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcoreRuntimes <a name="DataAwsccBedrockagentcoreRuntimes" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreRuntimes.DataAwsccBedrockagentcoreRuntimes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_runtimes awscc_bedrockagentcore_runtimes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_runtimes awscc_bedrockagentcore_runtimes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreRuntimes.DataAwsccBedrockagentcoreRuntimes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreruntimes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreruntimes"
 
 dataawsccbedrockagentcoreruntimes.NewDataAwsccBedrockagentcoreRuntimes(scope Construct, id *string, config DataAwsccBedrockagentcoreRuntimesConfig) DataAwsccBedrockagentcoreRuntimes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreRuntimes.DataAwsccBedrockagentcoreRuntimes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreruntimes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreruntimes"
 
 dataawsccbedrockagentcoreruntimes.DataAwsccBedrockagentcoreRuntimes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreRuntimes.DataAwsccBedrockagentcoreRuntimes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreruntimes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreruntimes"
 
 dataawsccbedrockagentcoreruntimes.DataAwsccBedrockagentcoreRuntimes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcoreruntimes.DataAwsccBedrockagentcoreRuntimes_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreRuntimes.DataAwsccBedrockagentcoreRuntimes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreruntimes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreruntimes"
 
 dataawsccbedrockagentcoreruntimes.DataAwsccBedrockagentcoreRuntimes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcoreruntimes.DataAwsccBedrockagentcoreRuntimes_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreRuntimes.DataAwsccBedrockagentcoreRuntimes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreruntimes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreruntimes"
 
 dataawsccbedrockagentcoreruntimes.DataAwsccBedrockagentcoreRuntimes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreR
 
 The id of the existing DataAwsccBedrockagentcoreRuntimes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_runtimes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_runtimes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreRuntimes.DataAwsccBedrockagentcoreRuntimesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreruntimes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreruntimes"
 
 &dataawsccbedrockagentcoreruntimes.DataAwsccBedrockagentcoreRuntimesConfig {
 	Connection: interface{},

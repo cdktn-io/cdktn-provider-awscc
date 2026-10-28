@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudformationGeneratedTemplate <a name="DataAwsccCloudformationGeneratedTemplate" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplate.DataAwsccCloudformationGeneratedTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_generated_template awscc_cloudformation_generated_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_generated_template awscc_cloudformation_generated_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplate.DataAwsccCloudformationGeneratedTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationgeneratedtemplate"
 
 dataawscccloudformationgeneratedtemplate.NewDataAwsccCloudformationGeneratedTemplate(scope Construct, id *string, config DataAwsccCloudformationGeneratedTemplateConfig) DataAwsccCloudformationGeneratedTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplate.DataAwsccCloudformationGeneratedTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationgeneratedtemplate"
 
 dataawscccloudformationgeneratedtemplate.DataAwsccCloudformationGeneratedTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplate.DataAwsccCloudformationGeneratedTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationgeneratedtemplate"
 
 dataawscccloudformationgeneratedtemplate.DataAwsccCloudformationGeneratedTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudformationgeneratedtemplate.DataAwsccCloudformationGeneratedTemplat
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplate.DataAwsccCloudformationGeneratedTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationgeneratedtemplate"
 
 dataawscccloudformationgeneratedtemplate.DataAwsccCloudformationGeneratedTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudformationgeneratedtemplate.DataAwsccCloudformationGeneratedTemplat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplate.DataAwsccCloudformationGeneratedTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationgeneratedtemplate"
 
 dataawscccloudformationgeneratedtemplate.DataAwsccCloudformationGeneratedTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudformationGen
 
 The id of the existing DataAwsccCloudformationGeneratedTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_generated_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_generated_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplate.DataAwsccCloudformationGeneratedTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationgeneratedtemplate"
 
 &dataawscccloudformationgeneratedtemplate.DataAwsccCloudformationGeneratedTemplateConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_generated_template#id DataAwsccCloudformationGeneratedTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_generated_template#id DataAwsccCloudformationGeneratedTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplate.DataAwsccCloudformationGeneratedTemplateProgress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationgeneratedtemplate"
 
 &dataawscccloudformationgeneratedtemplate.DataAwsccCloudformationGeneratedTemplateProgress {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformatio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplate.DataAwsccCloudformationGeneratedTemplateTemplateConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationgeneratedtemplate"
 
 &dataawscccloudformationgeneratedtemplate.DataAwsccCloudformationGeneratedTemplateTemplateConfiguration {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplate.DataAwsccCloudformationGeneratedTemplateProgressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationgeneratedtemplate"
 
 dataawscccloudformationgeneratedtemplate.NewDataAwsccCloudformationGeneratedTemplateProgressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudformationGeneratedTemplateProgressOutputReference
 ```
@@ -1117,7 +1117,7 @@ func InternalValue() DataAwsccCloudformationGeneratedTemplateProgress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplate.DataAwsccCloudformationGeneratedTemplateTemplateConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationgeneratedtemplate"
 
 dataawscccloudformationgeneratedtemplate.NewDataAwsccCloudformationGeneratedTemplateTemplateConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudformationGeneratedTemplateTemplateConfigurationOutputReference
 ```

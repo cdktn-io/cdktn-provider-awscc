@@ -4,12 +4,12 @@
 
 ### DataAwsccIotCertificateProvider <a name="DataAwsccIotCertificateProvider" id="@cdktn/provider-awscc.dataAwsccIotCertificateProvider.DataAwsccIotCertificateProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_certificate_provider awscc_iot_certificate_provider}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_certificate_provider awscc_iot_certificate_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCertificateProvider.DataAwsccIotCertificateProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcertificateprovider"
 
 dataawscciotcertificateprovider.NewDataAwsccIotCertificateProvider(scope Construct, id *string, config DataAwsccIotCertificateProviderConfig) DataAwsccIotCertificateProvider
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotCertificateProvider.DataAwsccIotCertificateProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcertificateprovider"
 
 dataawscciotcertificateprovider.DataAwsccIotCertificateProvider_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotCertificateProvider.DataAwsccIotCertificateProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcertificateprovider"
 
 dataawscciotcertificateprovider.DataAwsccIotCertificateProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotcertificateprovider.DataAwsccIotCertificateProvider_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotCertificateProvider.DataAwsccIotCertificateProvider.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcertificateprovider"
 
 dataawscciotcertificateprovider.DataAwsccIotCertificateProvider_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotcertificateprovider.DataAwsccIotCertificateProvider_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotCertificateProvider.DataAwsccIotCertificateProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcertificateprovider"
 
 dataawscciotcertificateprovider.DataAwsccIotCertificateProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotCertificatePro
 
 The id of the existing DataAwsccIotCertificateProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_certificate_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_certificate_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCertificateProvider.DataAwsccIotCertificateProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcertificateprovider"
 
 &dataawscciotcertificateprovider.DataAwsccIotCertificateProviderConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_certificate_provider#id DataAwsccIotCertificateProvider#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_certificate_provider#id DataAwsccIotCertificateProvider#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCertificateProvider.DataAwsccIotCertificateProviderTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcertificateprovider"
 
 &dataawscciotcertificateprovider.DataAwsccIotCertificateProviderTags {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcertificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCertificateProvider.DataAwsccIotCertificateProviderTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcertificateprovider"
 
 dataawscciotcertificateprovider.NewDataAwsccIotCertificateProviderTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotCertificateProviderTagsList
 ```
@@ -927,7 +927,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCertificateProvider.DataAwsccIotCertificateProviderTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcertificateprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcertificateprovider"
 
 dataawscciotcertificateprovider.NewDataAwsccIotCertificateProviderTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotCertificateProviderTagsOutputReference
 ```

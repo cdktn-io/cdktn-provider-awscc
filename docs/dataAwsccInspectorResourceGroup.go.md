@@ -4,12 +4,12 @@
 
 ### DataAwsccInspectorResourceGroup <a name="DataAwsccInspectorResourceGroup" id="@cdktn/provider-awscc.dataAwsccInspectorResourceGroup.DataAwsccInspectorResourceGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspector_resource_group awscc_inspector_resource_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspector_resource_group awscc_inspector_resource_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorResourceGroup.DataAwsccInspectorResourceGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorresourcegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorresourcegroup"
 
 dataawsccinspectorresourcegroup.NewDataAwsccInspectorResourceGroup(scope Construct, id *string, config DataAwsccInspectorResourceGroupConfig) DataAwsccInspectorResourceGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccInspectorResourceGroup.DataAwsccInspectorResourceGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorresourcegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorresourcegroup"
 
 dataawsccinspectorresourcegroup.DataAwsccInspectorResourceGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccInspectorResourceGroup.DataAwsccInspectorResourceGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorresourcegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorresourcegroup"
 
 dataawsccinspectorresourcegroup.DataAwsccInspectorResourceGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccinspectorresourcegroup.DataAwsccInspectorResourceGroup_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccInspectorResourceGroup.DataAwsccInspectorResourceGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorresourcegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorresourcegroup"
 
 dataawsccinspectorresourcegroup.DataAwsccInspectorResourceGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccinspectorresourcegroup.DataAwsccInspectorResourceGroup_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccInspectorResourceGroup.DataAwsccInspectorResourceGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorresourcegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorresourcegroup"
 
 dataawsccinspectorresourcegroup.DataAwsccInspectorResourceGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInspectorResource
 
 The id of the existing DataAwsccInspectorResourceGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspector_resource_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspector_resource_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorResourceGroup.DataAwsccInspectorResourceGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorresourcegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorresourcegroup"
 
 &dataawsccinspectorresourcegroup.DataAwsccInspectorResourceGroupConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspector_resource_group#id DataAwsccInspectorResourceGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspector_resource_group#id DataAwsccInspectorResourceGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -730,7 +730,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorResourceGroup.DataAwsccInspectorResourceGroupResourceGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorresourcegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorresourcegroup"
 
 &dataawsccinspectorresourcegroup.DataAwsccInspectorResourceGroupResourceGroupTags {
 
@@ -745,7 +745,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorreso
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorResourceGroup.DataAwsccInspectorResourceGroupResourceGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorresourcegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorresourcegroup"
 
 dataawsccinspectorresourcegroup.NewDataAwsccInspectorResourceGroupResourceGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorResourceGroupResourceGroupTagsList
 ```
@@ -894,7 +894,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorResourceGroup.DataAwsccInspectorResourceGroupResourceGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorresourcegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorresourcegroup"
 
 dataawsccinspectorresourcegroup.NewDataAwsccInspectorResourceGroupResourceGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorResourceGroupResourceGroupTagsOutputReference
 ```

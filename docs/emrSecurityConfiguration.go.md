@@ -4,12 +4,12 @@
 
 ### EmrSecurityConfiguration <a name="EmrSecurityConfiguration" id="@cdktn/provider-awscc.emrSecurityConfiguration.EmrSecurityConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_security_configuration awscc_emr_security_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_security_configuration awscc_emr_security_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.emrSecurityConfiguration.EmrSecurityConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrsecurityconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrsecurityconfiguration"
 
 emrsecurityconfiguration.NewEmrSecurityConfiguration(scope Construct, id *string, config EmrSecurityConfigurationConfig) EmrSecurityConfiguration
 ```
@@ -407,7 +407,7 @@ func ResetName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.emrSecurityConfiguration.EmrSecurityConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrsecurityconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrsecurityconfiguration"
 
 emrsecurityconfiguration.EmrSecurityConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.emrSecurityConfiguration.EmrSecurityConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrsecurityconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrsecurityconfiguration"
 
 emrsecurityconfiguration.EmrSecurityConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ emrsecurityconfiguration.EmrSecurityConfiguration_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.emrSecurityConfiguration.EmrSecurityConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrsecurityconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrsecurityconfiguration"
 
 emrsecurityconfiguration.EmrSecurityConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ emrsecurityconfiguration.EmrSecurityConfiguration_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.emrSecurityConfiguration.EmrSecurityConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrsecurityconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrsecurityconfiguration"
 
 emrsecurityconfiguration.EmrSecurityConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the EmrSecurityConfiguration t
 
 The id of the existing EmrSecurityConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_security_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_security_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -751,7 +751,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.emrSecurityConfiguration.EmrSecurityConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrsecurityconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrsecurityconfiguration"
 
 &emrsecurityconfiguration.EmrSecurityConfigurationConfig {
 	Connection: interface{},
@@ -862,7 +862,7 @@ SecurityConfiguration *string
 
 The security configuration details in JSON format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_security_configuration#security_configuration EmrSecurityConfiguration#security_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_security_configuration#security_configuration EmrSecurityConfiguration#security_configuration}
 
 ---
 
@@ -876,7 +876,7 @@ Name *string
 
 The name of the security configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_security_configuration#name EmrSecurityConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_security_configuration#name EmrSecurityConfiguration#name}
 
 ---
 

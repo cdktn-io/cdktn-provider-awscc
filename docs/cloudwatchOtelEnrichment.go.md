@@ -4,12 +4,12 @@
 
 ### CloudwatchOtelEnrichment <a name="CloudwatchOtelEnrichment" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 cloudwatchotelenrichment.NewCloudwatchOtelEnrichment(scope Construct, id *string, config CloudwatchOtelEnrichmentConfig) CloudwatchOtelEnrichment
 ```
@@ -440,7 +440,7 @@ func ResetIncludeFilters()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 cloudwatchotelenrichment.CloudwatchOtelEnrichment_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 cloudwatchotelenrichment.CloudwatchOtelEnrichment_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ cloudwatchotelenrichment.CloudwatchOtelEnrichment_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 cloudwatchotelenrichment.CloudwatchOtelEnrichment_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ cloudwatchotelenrichment.CloudwatchOtelEnrichment_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 cloudwatchotelenrichment.CloudwatchOtelEnrichment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the CloudwatchOtelEnrichment t
 
 The id of the existing CloudwatchOtelEnrichment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_otel_enrichment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -806,7 +806,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 &cloudwatchotelenrichment.CloudwatchOtelEnrichmentConfig {
 	Connection: interface{},
@@ -919,7 +919,7 @@ Removes metrics from the include set.
 
 Absent or empty means nothing is removed. Evaluated after IncludeFilters, so ExcludeFilters always wins.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#exclude_filters CloudwatchOtelEnrichment#exclude_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_otel_enrichment#exclude_filters CloudwatchOtelEnrichment#exclude_filters}
 
 ---
 
@@ -935,7 +935,7 @@ Scopes enrichment to a subset of the account's telemetry.
 
 Absent or empty means all namespaces are in scope. Present means only these are. The service enforces a combined cap of 100 selectors across IncludeFilters and ExcludeFilters, and rejects more than one selector for the same namespace within a direction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#include_filters CloudwatchOtelEnrichment#include_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_otel_enrichment#include_filters CloudwatchOtelEnrichment#include_filters}
 
 ---
 
@@ -944,7 +944,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 &cloudwatchotelenrichment.CloudwatchOtelEnrichmentExcludeFilters {
 	MetricNames: *[]*string,
@@ -973,7 +973,7 @@ Absent or empty means every metric in this namespace, in whichever direction thi
 
 Present means only these metric names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#metric_names CloudwatchOtelEnrichment#metric_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_otel_enrichment#metric_names CloudwatchOtelEnrichment#metric_names}
 
 ---
 
@@ -987,7 +987,7 @@ Namespace *string
 
 The CloudWatch namespace this selector applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#namespace CloudwatchOtelEnrichment#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_otel_enrichment#namespace CloudwatchOtelEnrichment#namespace}
 
 ---
 
@@ -996,7 +996,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 &cloudwatchotelenrichment.CloudwatchOtelEnrichmentIncludeFilters {
 	MetricNames: *[]*string,
@@ -1025,7 +1025,7 @@ Absent or empty means every metric in this namespace, in whichever direction thi
 
 Present means only these metric names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#metric_names CloudwatchOtelEnrichment#metric_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_otel_enrichment#metric_names CloudwatchOtelEnrichment#metric_names}
 
 ---
 
@@ -1039,7 +1039,7 @@ Namespace *string
 
 The CloudWatch namespace this selector applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#namespace CloudwatchOtelEnrichment#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_otel_enrichment#namespace CloudwatchOtelEnrichment#namespace}
 
 ---
 
@@ -1050,7 +1050,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 cloudwatchotelenrichment.NewCloudwatchOtelEnrichmentExcludeFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudwatchOtelEnrichmentExcludeFiltersList
 ```
@@ -1210,7 +1210,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 cloudwatchotelenrichment.NewCloudwatchOtelEnrichmentExcludeFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudwatchOtelEnrichmentExcludeFiltersOutputReference
 ```
@@ -1535,7 +1535,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 cloudwatchotelenrichment.NewCloudwatchOtelEnrichmentIncludeFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudwatchOtelEnrichmentIncludeFiltersList
 ```
@@ -1695,7 +1695,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchotelenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchotelenrichment"
 
 cloudwatchotelenrichment.NewCloudwatchOtelEnrichmentIncludeFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudwatchOtelEnrichmentIncludeFiltersOutputReference
 ```

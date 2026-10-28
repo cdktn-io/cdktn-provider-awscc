@@ -4,12 +4,12 @@
 
 ### BcmpricingcalculatorWorkloadEstimate <a name="BcmpricingcalculatorWorkloadEstimate" id="@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorworkloadestimate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorworkloadestimate"
 
 bcmpricingcalculatorworkloadestimate.NewBcmpricingcalculatorWorkloadEstimate(scope Construct, id *string, config BcmpricingcalculatorWorkloadEstimateConfig) BcmpricingcalculatorWorkloadEstimate
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorworkloadestimate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorworkloadestimate"
 
 bcmpricingcalculatorworkloadestimate.BcmpricingcalculatorWorkloadEstimate_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorworkloadestimate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorworkloadestimate"
 
 bcmpricingcalculatorworkloadestimate.BcmpricingcalculatorWorkloadEstimate_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ bcmpricingcalculatorworkloadestimate.BcmpricingcalculatorWorkloadEstimate_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorworkloadestimate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorworkloadestimate"
 
 bcmpricingcalculatorworkloadestimate.BcmpricingcalculatorWorkloadEstimate_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ bcmpricingcalculatorworkloadestimate.BcmpricingcalculatorWorkloadEstimate_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorworkloadestimate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorworkloadestimate"
 
 bcmpricingcalculatorworkloadestimate.BcmpricingcalculatorWorkloadEstimate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the BcmpricingcalculatorWorklo
 
 The id of the existing BcmpricingcalculatorWorkloadEstimate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -910,7 +910,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorworkloadestimate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorworkloadestimate"
 
 &bcmpricingcalculatorworkloadestimate.BcmpricingcalculatorWorkloadEstimateConfig {
 	Connection: interface{},
@@ -1025,7 +1025,7 @@ Name *string
 
 The name of the workload estimate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate#name BcmpricingcalculatorWorkloadEstimate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate#name BcmpricingcalculatorWorkloadEstimate#name}
 
 ---
 
@@ -1039,7 +1039,7 @@ ExpiresAt *string
 
 The timestamp when the workload estimate will expire.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate#expires_at BcmpricingcalculatorWorkloadEstimate#expires_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate#expires_at BcmpricingcalculatorWorkloadEstimate#expires_at}
 
 ---
 
@@ -1053,7 +1053,7 @@ RateType *string
 
 The type of pricing rates used for the estimate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate#rate_type BcmpricingcalculatorWorkloadEstimate#rate_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate#rate_type BcmpricingcalculatorWorkloadEstimate#rate_type}
 
 ---
 
@@ -1067,7 +1067,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate#tags BcmpricingcalculatorWorkloadEstimate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate#tags BcmpricingcalculatorWorkloadEstimate#tags}
 
 ---
 
@@ -1076,7 +1076,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorworkloadestimate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorworkloadestimate"
 
 &bcmpricingcalculatorworkloadestimate.BcmpricingcalculatorWorkloadEstimateTags {
 	Key: *string,
@@ -1088,8 +1088,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorwo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimateTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate#key BcmpricingcalculatorWorkloadEstimate#key}. |
-| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimateTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate#value BcmpricingcalculatorWorkloadEstimate#value}. |
+| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimateTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate#key BcmpricingcalculatorWorkloadEstimate#key}. |
+| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimateTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate#value BcmpricingcalculatorWorkloadEstimate#value}. |
 
 ---
 
@@ -1101,7 +1101,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate#key BcmpricingcalculatorWorkloadEstimate#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate#key BcmpricingcalculatorWorkloadEstimate#key}.
 
 ---
 
@@ -1113,7 +1113,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate#value BcmpricingcalculatorWorkloadEstimate#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate#value BcmpricingcalculatorWorkloadEstimate#value}.
 
 ---
 
@@ -1124,7 +1124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorworkloadestimate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorworkloadestimate"
 
 bcmpricingcalculatorworkloadestimate.NewBcmpricingcalculatorWorkloadEstimateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BcmpricingcalculatorWorkloadEstimateTagsList
 ```
@@ -1284,7 +1284,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmpricingcalculatorWorkloadEstimate.BcmpricingcalculatorWorkloadEstimateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorworkloadestimate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorworkloadestimate"
 
 bcmpricingcalculatorworkloadestimate.NewBcmpricingcalculatorWorkloadEstimateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BcmpricingcalculatorWorkloadEstimateTagsOutputReference
 ```

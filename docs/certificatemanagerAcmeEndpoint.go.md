@@ -4,12 +4,12 @@
 
 ### CertificatemanagerAcmeEndpoint <a name="CertificatemanagerAcmeEndpoint" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint awscc_certificatemanager_acme_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint awscc_certificatemanager_acme_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 certificatemanageracmeendpoint.NewCertificatemanagerAcmeEndpoint(scope Construct, id *string, config CertificatemanagerAcmeEndpointConfig) CertificatemanagerAcmeEndpoint
 ```
@@ -460,7 +460,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 certificatemanageracmeendpoint.CertificatemanagerAcmeEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 certificatemanageracmeendpoint.CertificatemanagerAcmeEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ certificatemanageracmeendpoint.CertificatemanagerAcmeEndpoint_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 certificatemanageracmeendpoint.CertificatemanagerAcmeEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ certificatemanageracmeendpoint.CertificatemanagerAcmeEndpoint_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 certificatemanageracmeendpoint.CertificatemanagerAcmeEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the CertificatemanagerAcmeEndp
 
 The id of the existing CertificatemanagerAcmeEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -892,10 +892,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointCertificateAuthority.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 &certificatemanageracmeendpoint.CertificatemanagerAcmeEndpointCertificateAuthority {
-	PublicCertificateAuthority: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointCertificateAuthorityPublicCertificateAuthority,
+	PublicCertificateAuthority: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointCertificateAuthorityPublicCertificateAuthority,
 }
 ```
 
@@ -917,7 +917,7 @@ PublicCertificateAuthority CertificatemanagerAcmeEndpointCertificateAuthorityPub
 
 Configuration for the public certificate authority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#public_certificate_authority CertificatemanagerAcmeEndpoint#public_certificate_authority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#public_certificate_authority CertificatemanagerAcmeEndpoint#public_certificate_authority}
 
 ---
 
@@ -926,7 +926,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointCertificateAuthorityPublicCertificateAuthority.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 &certificatemanageracmeendpoint.CertificatemanagerAcmeEndpointCertificateAuthorityPublicCertificateAuthority {
 	AllowedKeyAlgorithms: *[]*string,
@@ -951,7 +951,7 @@ AllowedKeyAlgorithms *[]*string
 
 The allowed key algorithms for certificates issued via this endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#allowed_key_algorithms CertificatemanagerAcmeEndpoint#allowed_key_algorithms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#allowed_key_algorithms CertificatemanagerAcmeEndpoint#allowed_key_algorithms}
 
 ---
 
@@ -960,7 +960,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointCertificateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 &certificatemanageracmeendpoint.CertificatemanagerAcmeEndpointCertificateTags {
 	Key: *string,
@@ -987,7 +987,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#key CertificatemanagerAcmeEndpoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#key CertificatemanagerAcmeEndpoint#key}
 
 ---
 
@@ -1001,7 +1001,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#value CertificatemanagerAcmeEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#value CertificatemanagerAcmeEndpoint#value}
 
 ---
 
@@ -1010,7 +1010,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 &certificatemanageracmeendpoint.CertificatemanagerAcmeEndpointConfig {
 	Connection: interface{},
@@ -1021,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracme
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	AuthorizationBehavior: *string,
-	CertificateAuthority: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointCertificateAuthority,
+	CertificateAuthority: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointCertificateAuthority,
 	CertificateTags: interface{},
 	Contact: *string,
 	Tags: interface{},
@@ -1127,7 +1127,7 @@ AuthorizationBehavior *string
 
 The authorization behavior for the ACME endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#authorization_behavior CertificatemanagerAcmeEndpoint#authorization_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#authorization_behavior CertificatemanagerAcmeEndpoint#authorization_behavior}
 
 ---
 
@@ -1141,7 +1141,7 @@ CertificateAuthority CertificatemanagerAcmeEndpointCertificateAuthority
 
 The certificate authority configuration for the ACME endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#certificate_authority CertificatemanagerAcmeEndpoint#certificate_authority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#certificate_authority CertificatemanagerAcmeEndpoint#certificate_authority}
 
 ---
 
@@ -1155,7 +1155,7 @@ CertificateTags interface{}
 
 Tags applied to certificates issued via this endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#certificate_tags CertificatemanagerAcmeEndpoint#certificate_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#certificate_tags CertificatemanagerAcmeEndpoint#certificate_tags}
 
 ---
 
@@ -1169,7 +1169,7 @@ Contact *string
 
 Whether contact information is required for the ACME endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#contact CertificatemanagerAcmeEndpoint#contact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#contact CertificatemanagerAcmeEndpoint#contact}
 
 ---
 
@@ -1183,7 +1183,7 @@ Tags interface{}
 
 Tags associated with the ACME endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#tags CertificatemanagerAcmeEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#tags CertificatemanagerAcmeEndpoint#tags}
 
 ---
 
@@ -1192,7 +1192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 &certificatemanageracmeendpoint.CertificatemanagerAcmeEndpointTags {
 	Key: *string,
@@ -1219,7 +1219,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#key CertificatemanagerAcmeEndpoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#key CertificatemanagerAcmeEndpoint#key}
 
 ---
 
@@ -1233,7 +1233,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_endpoint#value CertificatemanagerAcmeEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_endpoint#value CertificatemanagerAcmeEndpoint#value}
 
 ---
 
@@ -1244,7 +1244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointCertificateAuthorityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 certificatemanageracmeendpoint.NewCertificatemanagerAcmeEndpointCertificateAuthorityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CertificatemanagerAcmeEndpointCertificateAuthorityOutputReference
 ```
@@ -1528,7 +1528,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointCertificateAuthorityPublicCertificateAuthorityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 certificatemanageracmeendpoint.NewCertificatemanagerAcmeEndpointCertificateAuthorityPublicCertificateAuthorityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CertificatemanagerAcmeEndpointCertificateAuthorityPublicCertificateAuthorityOutputReference
 ```
@@ -1806,7 +1806,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointCertificateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 certificatemanageracmeendpoint.NewCertificatemanagerAcmeEndpointCertificateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CertificatemanagerAcmeEndpointCertificateTagsList
 ```
@@ -1966,7 +1966,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointCertificateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 certificatemanageracmeendpoint.NewCertificatemanagerAcmeEndpointCertificateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CertificatemanagerAcmeEndpointCertificateTagsOutputReference
 ```
@@ -2291,7 +2291,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 certificatemanageracmeendpoint.NewCertificatemanagerAcmeEndpointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CertificatemanagerAcmeEndpointTagsList
 ```
@@ -2451,7 +2451,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeEndpoint.CertificatemanagerAcmeEndpointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeendpoint"
 
 certificatemanageracmeendpoint.NewCertificatemanagerAcmeEndpointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CertificatemanagerAcmeEndpointTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerAppImageConfig <a name="DataAwsccSagemakerAppImageConfig" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_app_image_config awscc_sagemaker_app_image_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_app_image_config awscc_sagemaker_app_image_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfig(scope Construct, id *string, config DataAwsccSagemakerAppImageConfigConfig) DataAwsccSagemakerAppImageConfig
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfig_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfig_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfig.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfig_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfig_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerAppImage
 
 The id of the existing DataAwsccSagemakerAppImageConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_app_image_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_app_image_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 &dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfig {
 
@@ -666,7 +666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 &dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfig {
 
@@ -679,7 +679,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigContainerEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 &dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigContainerEnvironmentVariables {
 
@@ -692,7 +692,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 &dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfigConfig {
 	Connection: interface{},
@@ -801,7 +801,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_app_image_config#id DataAwsccSagemakerAppImageConfig#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_app_image_config#id DataAwsccSagemakerAppImageConfig#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -813,7 +813,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 &dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfig {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 &dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfig {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfigContainerEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 &dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfigContainerEnvironmentVariables {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigKernelGatewayImageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 &dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfigKernelGatewayImageConfig {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 &dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfig {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigKernelSpecs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 &dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigKernelSpecs {
 
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 &dataawsccsagemakerappimageconfig.DataAwsccSagemakerAppImageConfigTags {
 
@@ -906,7 +906,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigContainerEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigContainerEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigContainerEnvironmentVariablesList
 ```
@@ -1055,7 +1055,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigContainerEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigContainerEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigContainerEnvironmentVariablesOutputReference
 ```
@@ -1344,7 +1344,7 @@ func InternalValue() DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutputReference
 ```
@@ -1626,7 +1626,7 @@ func InternalValue() DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfigOutputReference
 ```
@@ -1886,7 +1886,7 @@ func InternalValue() DataAwsccSagemakerAppImageConfigCodeEditorAppImageConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfigContainerEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfigContainerEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfigContainerEnvironmentVariablesList
 ```
@@ -2035,7 +2035,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfigContainerEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfigContainerEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfigContainerEnvironmentVariablesOutputReference
 ```
@@ -2324,7 +2324,7 @@ func InternalValue() DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigContainerConfigOutputReference
 ```
@@ -2606,7 +2606,7 @@ func InternalValue() DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfigOutputReference
 ```
@@ -2866,7 +2866,7 @@ func InternalValue() DataAwsccSagemakerAppImageConfigJupyterLabAppImageConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfigOutputReference
 ```
@@ -3148,7 +3148,7 @@ func InternalValue() DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigFil
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigKernelSpecsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigKernelGatewayImageConfigKernelSpecsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigKernelSpecsList
 ```
@@ -3297,7 +3297,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigKernelSpecsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigKernelGatewayImageConfigKernelSpecsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigKernelSpecsOutputReference
 ```
@@ -3586,7 +3586,7 @@ func InternalValue() DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigKer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigKernelGatewayImageConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerAppImageConfigKernelGatewayImageConfigOutputReference
 ```
@@ -3857,7 +3857,7 @@ func InternalValue() DataAwsccSagemakerAppImageConfigKernelGatewayImageConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerAppImageConfigTagsList
 ```
@@ -4006,7 +4006,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfig.DataAwsccSagemakerAppImageConfigTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfig"
 
 dataawsccsagemakerappimageconfig.NewDataAwsccSagemakerAppImageConfigTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerAppImageConfigTagsOutputReference
 ```

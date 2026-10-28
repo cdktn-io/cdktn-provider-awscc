@@ -4,12 +4,12 @@
 
 ### BedrockKnowledgeBase <a name="BedrockKnowledgeBase" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBase(scope Construct, id *string, config BedrockKnowledgeBaseConfig) BedrockKnowledgeBase
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.BedrockKnowledgeBase_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.BedrockKnowledgeBase_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ bedrockknowledgebase.BedrockKnowledgeBase_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBase.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.BedrockKnowledgeBase_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ bedrockknowledgebase.BedrockKnowledgeBase_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.BedrockKnowledgeBase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the BedrockKnowledgeBase to im
 
 The id of the existing BedrockKnowledgeBase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -945,7 +945,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseConfig {
 	Connection: interface{},
@@ -955,11 +955,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	KnowledgeBaseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfiguration,
+	KnowledgeBaseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfiguration,
 	Name: *string,
 	RoleArn: *string,
 	Description: *string,
-	StorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfiguration,
+	StorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfiguration,
 	Tags: *map[string]*string,
 }
 ```
@@ -1064,7 +1064,7 @@ KnowledgeBaseConfiguration BedrockKnowledgeBaseKnowledgeBaseConfiguration
 
 Contains details about the embeddings model used for the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#knowledge_base_configuration BedrockKnowledgeBase#knowledge_base_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#knowledge_base_configuration BedrockKnowledgeBase#knowledge_base_configuration}
 
 ---
 
@@ -1078,7 +1078,7 @@ Name *string
 
 The name of the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
 
 ---
 
@@ -1094,7 +1094,7 @@ The ARN of the IAM role with permissions to invoke API operations on the knowled
 
 The ARN must begin with AmazonBedrockExecutionRoleForKnowledgeBase_
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#role_arn BedrockKnowledgeBase#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#role_arn BedrockKnowledgeBase#role_arn}
 
 ---
 
@@ -1108,7 +1108,7 @@ Description *string
 
 Description of the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
 
 ---
 
@@ -1122,7 +1122,7 @@ StorageConfiguration BedrockKnowledgeBaseStorageConfiguration
 
 The vector store service in which the knowledge base is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#storage_configuration BedrockKnowledgeBase#storage_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#storage_configuration BedrockKnowledgeBase#storage_configuration}
 
 ---
 
@@ -1136,7 +1136,7 @@ Tags *map[string]*string
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#tags BedrockKnowledgeBase#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#tags BedrockKnowledgeBase#tags}
 
 ---
 
@@ -1145,14 +1145,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfiguration {
 	Type: *string,
-	KendraKnowledgeBaseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfiguration,
-	ManagedKnowledgeBaseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfiguration,
-	SqlKnowledgeBaseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfiguration,
-	VectorKnowledgeBaseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfiguration,
+	KendraKnowledgeBaseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfiguration,
+	ManagedKnowledgeBaseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfiguration,
+	SqlKnowledgeBaseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfiguration,
+	VectorKnowledgeBaseConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfiguration,
 }
 ```
 
@@ -1178,7 +1178,7 @@ Type *string
 
 The type of a knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -1192,7 +1192,7 @@ KendraKnowledgeBaseConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationK
 
 Configurations for a Kendra knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#kendra_knowledge_base_configuration BedrockKnowledgeBase#kendra_knowledge_base_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#kendra_knowledge_base_configuration BedrockKnowledgeBase#kendra_knowledge_base_configuration}
 
 ---
 
@@ -1206,7 +1206,7 @@ ManagedKnowledgeBaseConfiguration BedrockKnowledgeBaseKnowledgeBaseConfiguration
 
 Contains details about the model used to create vector embeddings for a managed knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#managed_knowledge_base_configuration BedrockKnowledgeBase#managed_knowledge_base_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#managed_knowledge_base_configuration BedrockKnowledgeBase#managed_knowledge_base_configuration}
 
 ---
 
@@ -1220,7 +1220,7 @@ SqlKnowledgeBaseConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlK
 
 Configurations for a SQL knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#sql_knowledge_base_configuration BedrockKnowledgeBase#sql_knowledge_base_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#sql_knowledge_base_configuration BedrockKnowledgeBase#sql_knowledge_base_configuration}
 
 ---
 
@@ -1234,7 +1234,7 @@ VectorKnowledgeBaseConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationV
 
 Contains details about the model used to create vector embeddings for the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#vector_knowledge_base_configuration BedrockKnowledgeBase#vector_knowledge_base_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#vector_knowledge_base_configuration BedrockKnowledgeBase#vector_knowledge_base_configuration}
 
 ---
 
@@ -1243,7 +1243,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfiguration {
 	KendraIndexArn: *string,
@@ -1268,7 +1268,7 @@ KendraIndexArn *string
 
 Arn of a Kendra index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#kendra_index_arn BedrockKnowledgeBase#kendra_index_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#kendra_index_arn BedrockKnowledgeBase#kendra_index_arn}
 
 ---
 
@@ -1277,14 +1277,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfiguration {
 	EmbeddingModelArn: *string,
-	EmbeddingModelConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfiguration,
+	EmbeddingModelConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfiguration,
 	EmbeddingModelType: *string,
-	ServerSideEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfiguration,
-	SupplementalDataStorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfiguration,
+	ServerSideEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfiguration,
+	SupplementalDataStorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfiguration,
 }
 ```
 
@@ -1310,7 +1310,7 @@ EmbeddingModelArn *string
 
 The ARN of the model used to create vector embeddings for the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
 
 ---
 
@@ -1324,7 +1324,7 @@ EmbeddingModelConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationManage
 
 The embeddings model configuration details for the vector model used in Knowledge Base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
 
 ---
 
@@ -1338,7 +1338,7 @@ EmbeddingModelType *string
 
 The type of embedding model to use for the managed knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#embedding_model_type BedrockKnowledgeBase#embedding_model_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#embedding_model_type BedrockKnowledgeBase#embedding_model_type}
 
 ---
 
@@ -1352,7 +1352,7 @@ ServerSideEncryptionConfiguration BedrockKnowledgeBaseKnowledgeBaseConfiguration
 
 Contains details about the server-side encryption for the managed knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#server_side_encryption_configuration BedrockKnowledgeBase#server_side_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#server_side_encryption_configuration BedrockKnowledgeBase#server_side_encryption_configuration}
 
 ---
 
@@ -1366,7 +1366,7 @@ SupplementalDataStorageConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurat
 
 Configurations for supplemental data storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_configuration BedrockKnowledgeBase#supplemental_data_storage_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_configuration BedrockKnowledgeBase#supplemental_data_storage_configuration}
 
 ---
 
@@ -1375,10 +1375,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfiguration {
-	BedrockEmbeddingModelConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration,
+	BedrockEmbeddingModelConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration,
 }
 ```
 
@@ -1400,7 +1400,7 @@ BedrockEmbeddingModelConfiguration BedrockKnowledgeBaseKnowledgeBaseConfiguratio
 
 The vector configuration details for the Bedrock embeddings model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
 
 ---
 
@@ -1409,7 +1409,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration {
 	Audio: interface{},
@@ -1442,7 +1442,7 @@ Audio interface{}
 
 List of audio configurations for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
 
 ---
 
@@ -1456,7 +1456,7 @@ Dimensions *f64
 
 The dimensions details for the vector configuration used on the Bedrock embeddings model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
 
 ---
 
@@ -1470,7 +1470,7 @@ EmbeddingDataType *string
 
 The data type for the vectors when using a model to convert text into vector embeddings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
 
 ---
 
@@ -1484,7 +1484,7 @@ ModelConfiguration *string
 
 Model-specific configuration for the embedding model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#model_configuration BedrockKnowledgeBase#model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#model_configuration BedrockKnowledgeBase#model_configuration}
 
 ---
 
@@ -1498,7 +1498,7 @@ Video interface{}
 
 List of video configurations for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
 
 ---
 
@@ -1507,10 +1507,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudio {
-	SegmentationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration,
+	SegmentationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration,
 }
 ```
 
@@ -1532,7 +1532,7 @@ SegmentationConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedK
 
 Configure the audio segmentation configuration for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
 
 ---
 
@@ -1541,7 +1541,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration {
 	FixedLengthDuration: *f64,
@@ -1566,7 +1566,7 @@ FixedLengthDuration *f64
 
 Duration in seconds to segment the multi modal media.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
 
 ---
 
@@ -1575,10 +1575,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideo {
-	SegmentationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration,
+	SegmentationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration,
 }
 ```
 
@@ -1600,7 +1600,7 @@ SegmentationConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedK
 
 Configure the video segmentation configuration for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
 
 ---
 
@@ -1609,7 +1609,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration {
 	FixedLengthDuration: *f64,
@@ -1634,7 +1634,7 @@ FixedLengthDuration *f64
 
 Duration in seconds to segment the multi modal media.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
 
 ---
 
@@ -1643,7 +1643,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfiguration {
 	KmsKeyArn: *string,
@@ -1668,7 +1668,7 @@ KmsKeyArn *string
 
 The ARN of the AWS KMS key used to encrypt the managed knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#kms_key_arn BedrockKnowledgeBase#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#kms_key_arn BedrockKnowledgeBase#kms_key_arn}
 
 ---
 
@@ -1677,7 +1677,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfiguration {
 	SupplementalDataStorageLocations: interface{},
@@ -1702,7 +1702,7 @@ SupplementalDataStorageLocations interface{}
 
 List of supplemental data storage locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_locations BedrockKnowledgeBase#supplemental_data_storage_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_locations BedrockKnowledgeBase#supplemental_data_storage_locations}
 
 ---
 
@@ -1711,10 +1711,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocations {
-	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location,
+	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location,
 	SupplementalDataStorageLocationType: *string,
 }
 ```
@@ -1738,7 +1738,7 @@ S3Location BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseCon
 
 An Amazon S3 location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#s3_location BedrockKnowledgeBase#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#s3_location BedrockKnowledgeBase#s3_location}
 
 ---
 
@@ -1752,7 +1752,7 @@ SupplementalDataStorageLocationType *string
 
 Supplemental data storage location type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_location_type BedrockKnowledgeBase#supplemental_data_storage_location_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_location_type BedrockKnowledgeBase#supplemental_data_storage_location_type}
 
 ---
 
@@ -1761,7 +1761,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location {
 	Uri: *string,
@@ -1786,7 +1786,7 @@ Uri *string
 
 The location's URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#uri BedrockKnowledgeBase#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#uri BedrockKnowledgeBase#uri}
 
 ---
 
@@ -1795,10 +1795,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfiguration {
-	RedshiftConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfiguration,
+	RedshiftConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfiguration,
 	Type: *string,
 }
 ```
@@ -1822,7 +1822,7 @@ RedshiftConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledge
 
 Configurations for a Redshift knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
 
 ---
 
@@ -1836,7 +1836,7 @@ Type *string
 
 SQL query engine type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -1845,11 +1845,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfiguration {
-	QueryEngineConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfiguration,
-	QueryGenerationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfiguration,
+	QueryEngineConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfiguration,
+	QueryGenerationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfiguration,
 	StorageConfigurations: interface{},
 }
 ```
@@ -1874,7 +1874,7 @@ QueryEngineConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowle
 
 Configurations for Redshift query engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#query_engine_configuration BedrockKnowledgeBase#query_engine_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#query_engine_configuration BedrockKnowledgeBase#query_engine_configuration}
 
 ---
 
@@ -1888,7 +1888,7 @@ QueryGenerationConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKn
 
 Configurations for generating Redshift engine queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#query_generation_configuration BedrockKnowledgeBase#query_generation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#query_generation_configuration BedrockKnowledgeBase#query_generation_configuration}
 
 ---
 
@@ -1902,7 +1902,7 @@ StorageConfigurations interface{}
 
 List of configurations for available Redshift query engine storage types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#storage_configurations BedrockKnowledgeBase#storage_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#storage_configurations BedrockKnowledgeBase#storage_configurations}
 
 ---
 
@@ -1911,11 +1911,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfiguration {
-	ProvisionedConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfiguration,
-	ServerlessConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfiguration,
+	ProvisionedConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfiguration,
+	ServerlessConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfiguration,
 	Type: *string,
 }
 ```
@@ -1940,7 +1940,7 @@ ProvisionedConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowle
 
 Configurations for provisioned Redshift query engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#provisioned_configuration BedrockKnowledgeBase#provisioned_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#provisioned_configuration BedrockKnowledgeBase#provisioned_configuration}
 
 ---
 
@@ -1954,7 +1954,7 @@ ServerlessConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowled
 
 Configurations for serverless Redshift query engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#serverless_configuration BedrockKnowledgeBase#serverless_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#serverless_configuration BedrockKnowledgeBase#serverless_configuration}
 
 ---
 
@@ -1968,7 +1968,7 @@ Type *string
 
 Redshift query engine type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -1977,10 +1977,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfiguration {
-	AuthConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfiguration,
+	AuthConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfiguration,
 	ClusterIdentifier: *string,
 }
 ```
@@ -2004,7 +2004,7 @@ AuthConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
 
 Configurations for Redshift query engine provisioned auth setup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
 
 ---
 
@@ -2018,7 +2018,7 @@ ClusterIdentifier *string
 
 Redshift cluster identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#cluster_identifier BedrockKnowledgeBase#cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#cluster_identifier BedrockKnowledgeBase#cluster_identifier}
 
 ---
 
@@ -2027,7 +2027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfiguration {
 	DatabaseUser: *string,
@@ -2056,7 +2056,7 @@ DatabaseUser *string
 
 Redshift database user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#database_user BedrockKnowledgeBase#database_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#database_user BedrockKnowledgeBase#database_user}
 
 ---
 
@@ -2070,7 +2070,7 @@ Type *string
 
 Provisioned Redshift auth type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -2084,7 +2084,7 @@ UsernamePasswordSecretArn *string
 
 Arn of a SecretsManager Secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
 
 ---
 
@@ -2093,10 +2093,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfiguration {
-	AuthConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfiguration,
+	AuthConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfiguration,
 	WorkgroupArn: *string,
 }
 ```
@@ -2120,7 +2120,7 @@ AuthConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
 
 Configurations for Redshift query engine serverless auth setup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
 
 ---
 
@@ -2134,7 +2134,7 @@ WorkgroupArn *string
 
 Workgroup arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#workgroup_arn BedrockKnowledgeBase#workgroup_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#workgroup_arn BedrockKnowledgeBase#workgroup_arn}
 
 ---
 
@@ -2143,7 +2143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfiguration {
 	Type: *string,
@@ -2170,7 +2170,7 @@ Type *string
 
 Serverless Redshift auth type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -2184,7 +2184,7 @@ UsernamePasswordSecretArn *string
 
 Arn of a SecretsManager Secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
 
 ---
 
@@ -2193,11 +2193,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfiguration {
 	ExecutionTimeoutSeconds: *f64,
-	GenerationContext: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContext,
+	GenerationContext: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContext,
 }
 ```
 
@@ -2220,7 +2220,7 @@ ExecutionTimeoutSeconds *f64
 
 Max query execution timeout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#execution_timeout_seconds BedrockKnowledgeBase#execution_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#execution_timeout_seconds BedrockKnowledgeBase#execution_timeout_seconds}
 
 ---
 
@@ -2234,7 +2234,7 @@ GenerationContext BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
 
 Context used to improve query generation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#generation_context BedrockKnowledgeBase#generation_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#generation_context BedrockKnowledgeBase#generation_context}
 
 ---
 
@@ -2243,7 +2243,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContext.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContext {
 	CuratedQueries: interface{},
@@ -2270,7 +2270,7 @@ CuratedQueries interface{}
 
 List of example queries and results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#curated_queries BedrockKnowledgeBase#curated_queries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#curated_queries BedrockKnowledgeBase#curated_queries}
 
 ---
 
@@ -2284,7 +2284,7 @@ Tables interface{}
 
 List of tables used for Redshift query generation context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#tables BedrockKnowledgeBase#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#tables BedrockKnowledgeBase#tables}
 
 ---
 
@@ -2293,7 +2293,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueries {
 	NaturalLanguage: *string,
@@ -2320,7 +2320,7 @@ NaturalLanguage *string
 
 Question for the curated query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#natural_language BedrockKnowledgeBase#natural_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#natural_language BedrockKnowledgeBase#natural_language}
 
 ---
 
@@ -2334,7 +2334,7 @@ Sql *string
 
 Answer for the curated query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#sql BedrockKnowledgeBase#sql}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#sql BedrockKnowledgeBase#sql}
 
 ---
 
@@ -2343,7 +2343,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTables {
 	Columns: interface{},
@@ -2374,7 +2374,7 @@ Columns interface{}
 
 List of Redshift query generation columns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#columns BedrockKnowledgeBase#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#columns BedrockKnowledgeBase#columns}
 
 ---
 
@@ -2388,7 +2388,7 @@ Description *string
 
 Description for the attached entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
 
 ---
 
@@ -2402,7 +2402,7 @@ Inclusion *string
 
 Include or Exclude status for an entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
 
 ---
 
@@ -2416,7 +2416,7 @@ Name *string
 
 Query generation table name. Must follow three-part notation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
 
 ---
 
@@ -2425,7 +2425,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumns {
 	Description: *string,
@@ -2454,7 +2454,7 @@ Description *string
 
 Description for the attached entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
 
 ---
 
@@ -2468,7 +2468,7 @@ Inclusion *string
 
 Include or Exclude status for an entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
 
 ---
 
@@ -2482,7 +2482,7 @@ Name *string
 
 Query generation column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
 
 ---
 
@@ -2491,11 +2491,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurations {
-	AwsDataCatalogConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfiguration,
-	RedshiftConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfiguration,
+	AwsDataCatalogConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfiguration,
+	RedshiftConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfiguration,
 	Type: *string,
 }
 ```
@@ -2520,7 +2520,7 @@ AwsDataCatalogConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKno
 
 Configurations for Redshift query engine AWS Data Catalog backed storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#aws_data_catalog_configuration BedrockKnowledgeBase#aws_data_catalog_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#aws_data_catalog_configuration BedrockKnowledgeBase#aws_data_catalog_configuration}
 
 ---
 
@@ -2534,7 +2534,7 @@ RedshiftConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledge
 
 Configurations for Redshift query engine Redshift backed storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
 
 ---
 
@@ -2548,7 +2548,7 @@ Type *string
 
 Redshift query engine storage type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -2557,7 +2557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfiguration {
 	TableNames: *[]*string,
@@ -2582,7 +2582,7 @@ TableNames *[]*string
 
 List of table names in AWS Data Catalog. Must follow two part notation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#table_names BedrockKnowledgeBase#table_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#table_names BedrockKnowledgeBase#table_names}
 
 ---
 
@@ -2591,7 +2591,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfiguration {
 	DatabaseName: *string,
@@ -2616,7 +2616,7 @@ DatabaseName *string
 
 Redshift database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
 
 ---
 
@@ -2625,12 +2625,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfiguration {
 	EmbeddingModelArn: *string,
-	EmbeddingModelConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfiguration,
-	SupplementalDataStorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfiguration,
+	EmbeddingModelConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfiguration,
+	SupplementalDataStorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfiguration,
 }
 ```
 
@@ -2654,7 +2654,7 @@ EmbeddingModelArn *string
 
 The ARN of the model used to create vector embeddings for the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
 
 ---
 
@@ -2668,7 +2668,7 @@ EmbeddingModelConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationVector
 
 The embeddings model configuration details for the vector model used in Knowledge Base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
 
 ---
 
@@ -2682,7 +2682,7 @@ SupplementalDataStorageConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurat
 
 Configurations for supplemental data storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_configuration BedrockKnowledgeBase#supplemental_data_storage_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_configuration BedrockKnowledgeBase#supplemental_data_storage_configuration}
 
 ---
 
@@ -2691,10 +2691,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfiguration {
-	BedrockEmbeddingModelConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration,
+	BedrockEmbeddingModelConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration,
 }
 ```
 
@@ -2716,7 +2716,7 @@ BedrockEmbeddingModelConfiguration BedrockKnowledgeBaseKnowledgeBaseConfiguratio
 
 The vector configuration details for the Bedrock embeddings model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
 
 ---
 
@@ -2725,7 +2725,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfiguration {
 	Audio: interface{},
@@ -2758,7 +2758,7 @@ Audio interface{}
 
 List of audio configurations for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
 
 ---
 
@@ -2772,7 +2772,7 @@ Dimensions *f64
 
 The dimensions details for the vector configuration used on the Bedrock embeddings model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
 
 ---
 
@@ -2786,7 +2786,7 @@ EmbeddingDataType *string
 
 The data type for the vectors when using a model to convert text into vector embeddings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
 
 ---
 
@@ -2800,7 +2800,7 @@ ModelConfiguration *string
 
 Model-specific configuration for the embedding model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#model_configuration BedrockKnowledgeBase#model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#model_configuration BedrockKnowledgeBase#model_configuration}
 
 ---
 
@@ -2814,7 +2814,7 @@ Video interface{}
 
 List of video configurations for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
 
 ---
 
@@ -2823,10 +2823,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudio {
-	SegmentationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration,
+	SegmentationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration,
 }
 ```
 
@@ -2848,7 +2848,7 @@ SegmentationConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKn
 
 Configure the audio segmentation configuration for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
 
 ---
 
@@ -2857,7 +2857,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration {
 	FixedLengthDuration: *f64,
@@ -2882,7 +2882,7 @@ FixedLengthDuration *f64
 
 Duration in seconds to segment the multi modal media.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
 
 ---
 
@@ -2891,10 +2891,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideo {
-	SegmentationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration,
+	SegmentationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration,
 }
 ```
 
@@ -2916,7 +2916,7 @@ SegmentationConfiguration BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKn
 
 Configure the video segmentation configuration for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
 
 ---
 
@@ -2925,7 +2925,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfiguration {
 	FixedLengthDuration: *f64,
@@ -2950,7 +2950,7 @@ FixedLengthDuration *f64
 
 Duration in seconds to segment the multi modal media.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
 
 ---
 
@@ -2959,7 +2959,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfiguration {
 	SupplementalDataStorageLocations: interface{},
@@ -2984,7 +2984,7 @@ SupplementalDataStorageLocations interface{}
 
 List of supplemental data storage locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_locations BedrockKnowledgeBase#supplemental_data_storage_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_locations BedrockKnowledgeBase#supplemental_data_storage_locations}
 
 ---
 
@@ -2993,10 +2993,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocations {
-	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location,
+	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location,
 	SupplementalDataStorageLocationType: *string,
 }
 ```
@@ -3020,7 +3020,7 @@ S3Location BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConf
 
 An Amazon S3 location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#s3_location BedrockKnowledgeBase#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#s3_location BedrockKnowledgeBase#s3_location}
 
 ---
 
@@ -3034,7 +3034,7 @@ SupplementalDataStorageLocationType *string
 
 Supplemental data storage location type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_location_type BedrockKnowledgeBase#supplemental_data_storage_location_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_location_type BedrockKnowledgeBase#supplemental_data_storage_location_type}
 
 ---
 
@@ -3043,7 +3043,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3Location {
 	Uri: *string,
@@ -3068,7 +3068,7 @@ Uri *string
 
 The location's URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#uri BedrockKnowledgeBase#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#uri BedrockKnowledgeBase#uri}
 
 ---
 
@@ -3077,16 +3077,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfiguration {
-	MongoDbAtlasConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration,
-	NeptuneAnalyticsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration,
-	OpensearchManagedClusterConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration,
-	OpensearchServerlessConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfiguration,
-	PineconeConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationPineconeConfiguration,
-	RdsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationRdsConfiguration,
-	S3VectorsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationS3VectorsConfiguration,
+	MongoDbAtlasConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration,
+	NeptuneAnalyticsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration,
+	OpensearchManagedClusterConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration,
+	OpensearchServerlessConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfiguration,
+	PineconeConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationPineconeConfiguration,
+	RdsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationRdsConfiguration,
+	S3VectorsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationS3VectorsConfiguration,
 	Type: *string,
 }
 ```
@@ -3116,7 +3116,7 @@ MongoDbAtlasConfiguration BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasCo
 
 Contains the storage configuration of the knowledge base in MongoDb Atlas Cloud.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#mongo_db_atlas_configuration BedrockKnowledgeBase#mongo_db_atlas_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#mongo_db_atlas_configuration BedrockKnowledgeBase#mongo_db_atlas_configuration}
 
 ---
 
@@ -3130,7 +3130,7 @@ NeptuneAnalyticsConfiguration BedrockKnowledgeBaseStorageConfigurationNeptuneAna
 
 Contains the configurations to use Neptune Analytics as Vector Store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#neptune_analytics_configuration BedrockKnowledgeBase#neptune_analytics_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#neptune_analytics_configuration BedrockKnowledgeBase#neptune_analytics_configuration}
 
 ---
 
@@ -3144,7 +3144,7 @@ OpensearchManagedClusterConfiguration BedrockKnowledgeBaseStorageConfigurationOp
 
 Contains the storage configuration of the knowledge base in Amazon OpenSearch Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#opensearch_managed_cluster_configuration BedrockKnowledgeBase#opensearch_managed_cluster_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#opensearch_managed_cluster_configuration BedrockKnowledgeBase#opensearch_managed_cluster_configuration}
 
 ---
 
@@ -3158,7 +3158,7 @@ OpensearchServerlessConfiguration BedrockKnowledgeBaseStorageConfigurationOpense
 
 Contains the storage configuration of the knowledge base in Amazon OpenSearch Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#opensearch_serverless_configuration BedrockKnowledgeBase#opensearch_serverless_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#opensearch_serverless_configuration BedrockKnowledgeBase#opensearch_serverless_configuration}
 
 ---
 
@@ -3172,7 +3172,7 @@ PineconeConfiguration BedrockKnowledgeBaseStorageConfigurationPineconeConfigurat
 
 Contains the storage configuration of the knowledge base in Pinecone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#pinecone_configuration BedrockKnowledgeBase#pinecone_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#pinecone_configuration BedrockKnowledgeBase#pinecone_configuration}
 
 ---
 
@@ -3188,7 +3188,7 @@ Contains details about the storage configuration of the knowledge base in Amazon
 
 For more information, see Create a vector index in Amazon RDS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#rds_configuration BedrockKnowledgeBase#rds_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#rds_configuration BedrockKnowledgeBase#rds_configuration}
 
 ---
 
@@ -3202,7 +3202,7 @@ S3VectorsConfiguration BedrockKnowledgeBaseStorageConfigurationS3VectorsConfigur
 
 Contains the storage configuration of the knowledge base for S3 vectors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#s3_vectors_configuration BedrockKnowledgeBase#s3_vectors_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#s3_vectors_configuration BedrockKnowledgeBase#s3_vectors_configuration}
 
 ---
 
@@ -3216,7 +3216,7 @@ Type *string
 
 The storage type of a knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -3225,7 +3225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration {
 	CollectionName: *string,
@@ -3233,7 +3233,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
 	DatabaseName: *string,
 	Endpoint: *string,
 	EndpointServiceName: *string,
-	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMapping,
+	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMapping,
 	TextIndexName: *string,
 	VectorIndexName: *string,
 }
@@ -3264,7 +3264,7 @@ CollectionName *string
 
 Name of the collection within MongoDB Atlas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#collection_name BedrockKnowledgeBase#collection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#collection_name BedrockKnowledgeBase#collection_name}
 
 ---
 
@@ -3278,7 +3278,7 @@ CredentialsSecretArn *string
 
 The ARN of the secret that you created in AWS Secrets Manager that is linked to your Amazon Mongo database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
 
 ---
 
@@ -3292,7 +3292,7 @@ DatabaseName *string
 
 Name of the database within MongoDB Atlas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
 
 ---
 
@@ -3306,7 +3306,7 @@ Endpoint *string
 
 MongoDB Atlas endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#endpoint BedrockKnowledgeBase#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#endpoint BedrockKnowledgeBase#endpoint}
 
 ---
 
@@ -3320,7 +3320,7 @@ EndpointServiceName *string
 
 MongoDB Atlas endpoint service name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#endpoint_service_name BedrockKnowledgeBase#endpoint_service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#endpoint_service_name BedrockKnowledgeBase#endpoint_service_name}
 
 ---
 
@@ -3334,7 +3334,7 @@ FieldMapping BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFi
 
 Contains the names of the fields to which to map information about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -3348,7 +3348,7 @@ TextIndexName *string
 
 Name of a MongoDB Atlas text index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#text_index_name BedrockKnowledgeBase#text_index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#text_index_name BedrockKnowledgeBase#text_index_name}
 
 ---
 
@@ -3362,7 +3362,7 @@ VectorIndexName *string
 
 Name of a MongoDB Atlas index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
 
 ---
 
@@ -3371,7 +3371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMapping {
 	MetadataField: *string,
@@ -3400,7 +3400,7 @@ MetadataField *string
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -3416,7 +3416,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -3430,7 +3430,7 @@ VectorField *string
 
 The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
 
 ---
 
@@ -3439,10 +3439,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration {
-	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMapping,
+	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMapping,
 	GraphArn: *string,
 }
 ```
@@ -3466,7 +3466,7 @@ FieldMapping BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurati
 
 A mapping of Bedrock Knowledge Base fields to Neptune Analytics fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -3480,7 +3480,7 @@ GraphArn *string
 
 ARN for Neptune Analytics graph database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#graph_arn BedrockKnowledgeBase#graph_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#graph_arn BedrockKnowledgeBase#graph_arn}
 
 ---
 
@@ -3489,7 +3489,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMapping {
 	MetadataField: *string,
@@ -3516,7 +3516,7 @@ MetadataField *string
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -3532,7 +3532,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -3541,12 +3541,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration {
 	DomainArn: *string,
 	DomainEndpoint: *string,
-	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMapping,
+	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMapping,
 	VectorIndexName: *string,
 }
 ```
@@ -3572,7 +3572,7 @@ DomainArn *string
 
 The Amazon Resource Name (ARN) of the OpenSearch domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#domain_arn BedrockKnowledgeBase#domain_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#domain_arn BedrockKnowledgeBase#domain_arn}
 
 ---
 
@@ -3586,7 +3586,7 @@ DomainEndpoint *string
 
 The endpoint URL the OpenSearch domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#domain_endpoint BedrockKnowledgeBase#domain_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#domain_endpoint BedrockKnowledgeBase#domain_endpoint}
 
 ---
 
@@ -3600,7 +3600,7 @@ FieldMapping BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterCon
 
 A mapping of Bedrock Knowledge Base fields to OpenSearch Managed Cluster field names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -3614,7 +3614,7 @@ VectorIndexName *string
 
 The name of the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
 
 ---
 
@@ -3623,7 +3623,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMapping {
 	MetadataField: *string,
@@ -3652,7 +3652,7 @@ MetadataField *string
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -3668,7 +3668,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -3682,7 +3682,7 @@ VectorField *string
 
 The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
 
 ---
 
@@ -3691,11 +3691,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfiguration {
 	CollectionArn: *string,
-	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMapping,
+	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMapping,
 	VectorIndexName: *string,
 }
 ```
@@ -3720,7 +3720,7 @@ CollectionArn *string
 
 The ARN of the OpenSearch Service vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#collection_arn BedrockKnowledgeBase#collection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#collection_arn BedrockKnowledgeBase#collection_arn}
 
 ---
 
@@ -3734,7 +3734,7 @@ FieldMapping BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigu
 
 A mapping of Bedrock Knowledge Base fields to OpenSearch Serverless field names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -3748,7 +3748,7 @@ VectorIndexName *string
 
 The name of the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
 
 ---
 
@@ -3757,7 +3757,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMapping {
 	MetadataField: *string,
@@ -3786,7 +3786,7 @@ MetadataField *string
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -3802,7 +3802,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -3816,7 +3816,7 @@ VectorField *string
 
 The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
 
 ---
 
@@ -3825,12 +3825,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationPineconeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationPineconeConfiguration {
 	ConnectionString: *string,
 	CredentialsSecretArn: *string,
-	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMapping,
+	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMapping,
 	Namespace: *string,
 }
 ```
@@ -3856,7 +3856,7 @@ ConnectionString *string
 
 The endpoint URL for your index management page.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#connection_string BedrockKnowledgeBase#connection_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#connection_string BedrockKnowledgeBase#connection_string}
 
 ---
 
@@ -3870,7 +3870,7 @@ CredentialsSecretArn *string
 
 The ARN of the secret that you created in AWS Secrets Manager that is linked to your Pinecone API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
 
 ---
 
@@ -3884,7 +3884,7 @@ FieldMapping BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldM
 
 Contains the names of the fields to which to map information about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -3898,7 +3898,7 @@ Namespace *string
 
 The namespace to be used to write new data to your database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#namespace BedrockKnowledgeBase#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#namespace BedrockKnowledgeBase#namespace}
 
 ---
 
@@ -3907,7 +3907,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMapping {
 	MetadataField: *string,
@@ -3934,7 +3934,7 @@ MetadataField *string
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -3950,7 +3950,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -3959,12 +3959,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationRdsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationRdsConfiguration {
 	CredentialsSecretArn: *string,
 	DatabaseName: *string,
-	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMapping,
+	FieldMapping: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMapping,
 	ResourceArn: *string,
 	TableName: *string,
 }
@@ -3992,7 +3992,7 @@ CredentialsSecretArn *string
 
 The ARN of the secret that you created in AWS Secrets Manager that is linked to your Amazon RDS database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
 
 ---
 
@@ -4006,7 +4006,7 @@ DatabaseName *string
 
 The name of your Amazon RDS database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
 
 ---
 
@@ -4020,7 +4020,7 @@ FieldMapping BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappin
 
 Contains the names of the fields to which to map information about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -4034,7 +4034,7 @@ ResourceArn *string
 
 The ARN of the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#resource_arn BedrockKnowledgeBase#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#resource_arn BedrockKnowledgeBase#resource_arn}
 
 ---
 
@@ -4048,7 +4048,7 @@ TableName *string
 
 The name of the table in the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#table_name BedrockKnowledgeBase#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#table_name BedrockKnowledgeBase#table_name}
 
 ---
 
@@ -4057,7 +4057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMapping {
 	CustomMetadataField: *string,
@@ -4090,7 +4090,7 @@ CustomMetadataField *string
 
 The name of the field in which Amazon Bedrock stores custom metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#custom_metadata_field BedrockKnowledgeBase#custom_metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#custom_metadata_field BedrockKnowledgeBase#custom_metadata_field}
 
 ---
 
@@ -4104,7 +4104,7 @@ MetadataField *string
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -4118,7 +4118,7 @@ PrimaryKeyField *string
 
 The name of the field in which Amazon Bedrock stores the ID for each entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#primary_key_field BedrockKnowledgeBase#primary_key_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#primary_key_field BedrockKnowledgeBase#primary_key_field}
 
 ---
 
@@ -4134,7 +4134,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -4148,7 +4148,7 @@ VectorField *string
 
 The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
 
 ---
 
@@ -4157,7 +4157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationS3VectorsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 &bedrockknowledgebase.BedrockKnowledgeBaseStorageConfigurationS3VectorsConfiguration {
 	IndexArn: *string,
@@ -4188,7 +4188,7 @@ The Amazon Resource Name (ARN) of the vector index used for the knowledge base.
 
 This ARN identifies the specific vector index resource within Amazon Bedrock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#index_arn BedrockKnowledgeBase#index_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#index_arn BedrockKnowledgeBase#index_arn}
 
 ---
 
@@ -4204,7 +4204,7 @@ The name of the vector index used for the knowledge base.
 
 This name identifies the vector index within the Amazon Bedrock service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#index_name BedrockKnowledgeBase#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#index_name BedrockKnowledgeBase#index_name}
 
 ---
 
@@ -4220,7 +4220,7 @@ The Amazon Resource Name (ARN) of the S3 bucket where vector embeddings are stor
 
 This bucket contains the vector data used by the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base#vector_bucket_arn BedrockKnowledgeBase#vector_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base#vector_bucket_arn BedrockKnowledgeBase#vector_bucket_arn}
 
 ---
 
@@ -4231,7 +4231,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfigurationOutputReference
 ```
@@ -4509,7 +4509,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList
 ```
@@ -4669,7 +4669,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference
 ```
@@ -4978,7 +4978,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference
 ```
@@ -5256,7 +5256,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference
 ```
@@ -5676,7 +5676,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList
 ```
@@ -5836,7 +5836,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference
 ```
@@ -6145,7 +6145,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference
 ```
@@ -6423,7 +6423,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference
 ```
@@ -6714,7 +6714,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationOutputReference
 ```
@@ -7147,7 +7147,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfigurationOutputReference
 ```
@@ -7425,7 +7425,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference
 ```
@@ -7716,7 +7716,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList
 ```
@@ -7876,7 +7876,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference
 ```
@@ -8214,7 +8214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference
 ```
@@ -8492,7 +8492,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationOutputReference
 ```
@@ -8931,7 +8931,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationOutputReference
 ```
@@ -9251,7 +9251,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationOutputReference
 ```
@@ -9626,7 +9626,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationOutputReference
 ```
@@ -9988,7 +9988,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationAuthConfigurationOutputReference
 ```
@@ -10324,7 +10324,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationProvisionedConfigurationOutputReference
 ```
@@ -10644,7 +10644,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationAuthConfigurationOutputReference
 ```
@@ -10951,7 +10951,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryEngineConfigurationServerlessConfigurationOutputReference
 ```
@@ -11271,7 +11271,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesList
 ```
@@ -11431,7 +11431,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueriesOutputReference
 ```
@@ -11756,7 +11756,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextOutputReference
 ```
@@ -12089,7 +12089,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsList
 ```
@@ -12249,7 +12249,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesColumnsOutputReference
 ```
@@ -12603,7 +12603,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesList
 ```
@@ -12763,7 +12763,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextTablesOutputReference
 ```
@@ -13159,7 +13159,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationOutputReference
 ```
@@ -13479,7 +13479,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsAwsDataCatalogConfigurationOutputReference
 ```
@@ -13757,7 +13757,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsList
 ```
@@ -13917,7 +13917,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsOutputReference
 ```
@@ -14297,7 +14297,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationStorageConfigurationsRedshiftConfigurationOutputReference
 ```
@@ -14575,7 +14575,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioList
 ```
@@ -14735,7 +14735,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioOutputReference
 ```
@@ -15044,7 +15044,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfigurationOutputReference
 ```
@@ -15322,7 +15322,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference
 ```
@@ -15742,7 +15742,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoList
 ```
@@ -15902,7 +15902,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoOutputReference
 ```
@@ -16211,7 +16211,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationVideoSegmentationConfigurationOutputReference
 ```
@@ -16489,7 +16489,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationOutputReference
 ```
@@ -16780,7 +16780,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationOutputReference
 ```
@@ -17142,7 +17142,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference
 ```
@@ -17433,7 +17433,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsList
 ```
@@ -17593,7 +17593,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsOutputReference
 ```
@@ -17931,7 +17931,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationSupplementalDataStorageConfigurationSupplementalDataStorageLocationsS3LocationOutputReference
 ```
@@ -18209,7 +18209,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMappingOutputReference
 ```
@@ -18545,7 +18545,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationOutputReference
 ```
@@ -19039,7 +19039,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference
 ```
@@ -19346,7 +19346,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationOutputReference
 ```
@@ -19666,7 +19666,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference
 ```
@@ -20002,7 +20002,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationOutputReference
 ```
@@ -20380,7 +20380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference
 ```
@@ -20716,7 +20716,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationOutputReference
 ```
@@ -21065,7 +21065,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationOutputReference
 ```
@@ -21637,7 +21637,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference
 ```
@@ -21944,7 +21944,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationPineconeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationOutputReference
 ```
@@ -22322,7 +22322,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMappingOutputReference
 ```
@@ -22716,7 +22716,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationRdsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationRdsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationRdsConfigurationOutputReference
 ```
@@ -23123,7 +23123,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase"
 
 bedrockknowledgebase.NewBedrockKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference
 ```

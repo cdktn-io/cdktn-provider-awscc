@@ -4,12 +4,12 @@
 
 ### DataAwsccAppstreamAppBlockBuilder <a name="DataAwsccAppstreamAppBlockBuilder" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_app_block_builder awscc_appstream_app_block_builder}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_app_block_builder awscc_appstream_app_block_builder}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 dataawsccappstreamappblockbuilder.NewDataAwsccAppstreamAppBlockBuilder(scope Construct, id *string, config DataAwsccAppstreamAppBlockBuilderConfig) DataAwsccAppstreamAppBlockBuilder
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 dataawsccappstreamappblockbuilder.DataAwsccAppstreamAppBlockBuilder_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 dataawsccappstreamappblockbuilder.DataAwsccAppstreamAppBlockBuilder_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappstreamappblockbuilder.DataAwsccAppstreamAppBlockBuilder_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 dataawsccappstreamappblockbuilder.DataAwsccAppstreamAppBlockBuilder_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappstreamappblockbuilder.DataAwsccAppstreamAppBlockBuilder_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 dataawsccappstreamappblockbuilder.DataAwsccAppstreamAppBlockBuilder_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppstreamAppBlock
 
 The id of the existing DataAwsccAppstreamAppBlockBuilder that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_app_block_builder#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_app_block_builder#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilderAccessEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 &dataawsccappstreamappblockbuilder.DataAwsccAppstreamAppBlockBuilderAccessEndpoints {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 &dataawsccappstreamappblockbuilder.DataAwsccAppstreamAppBlockBuilderConfig {
 	Connection: interface{},
@@ -863,7 +863,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_app_block_builder#id DataAwsccAppstreamAppBlockBuilder#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_app_block_builder#id DataAwsccAppstreamAppBlockBuilder#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -875,7 +875,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilderTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 &dataawsccappstreamappblockbuilder.DataAwsccAppstreamAppBlockBuilderTags {
 
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilderVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 &dataawsccappstreamappblockbuilder.DataAwsccAppstreamAppBlockBuilderVpcConfig {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilderAccessEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 dataawsccappstreamappblockbuilder.NewDataAwsccAppstreamAppBlockBuilderAccessEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppstreamAppBlockBuilderAccessEndpointsList
 ```
@@ -1052,7 +1052,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilderAccessEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 dataawsccappstreamappblockbuilder.NewDataAwsccAppstreamAppBlockBuilderAccessEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppstreamAppBlockBuilderAccessEndpointsOutputReference
 ```
@@ -1341,7 +1341,7 @@ func InternalValue() DataAwsccAppstreamAppBlockBuilderAccessEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilderTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 dataawsccappstreamappblockbuilder.NewDataAwsccAppstreamAppBlockBuilderTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppstreamAppBlockBuilderTagsList
 ```
@@ -1490,7 +1490,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilderTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 dataawsccappstreamappblockbuilder.NewDataAwsccAppstreamAppBlockBuilderTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppstreamAppBlockBuilderTagsOutputReference
 ```
@@ -1779,7 +1779,7 @@ func InternalValue() DataAwsccAppstreamAppBlockBuilderTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilderVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamappblockbuilder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamappblockbuilder"
 
 dataawsccappstreamappblockbuilder.NewDataAwsccAppstreamAppBlockBuilderVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppstreamAppBlockBuilderVpcConfigOutputReference
 ```

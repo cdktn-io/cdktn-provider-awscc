@@ -4,12 +4,12 @@
 
 ### DataAwsccIotsitewiseDatasets <a name="DataAwsccIotsitewiseDatasets" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDatasets.DataAwsccIotsitewiseDatasets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_datasets awscc_iotsitewise_datasets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_datasets awscc_iotsitewise_datasets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDatasets.DataAwsccIotsitewiseDatasets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedatasets"
 
 dataawscciotsitewisedatasets.NewDataAwsccIotsitewiseDatasets(scope Construct, id *string, config DataAwsccIotsitewiseDatasetsConfig) DataAwsccIotsitewiseDatasets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDatasets.DataAwsccIotsitewiseDatasets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedatasets"
 
 dataawscciotsitewisedatasets.DataAwsccIotsitewiseDatasets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDatasets.DataAwsccIotsitewiseDatasets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedatasets"
 
 dataawscciotsitewisedatasets.DataAwsccIotsitewiseDatasets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsitewisedatasets.DataAwsccIotsitewiseDatasets_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDatasets.DataAwsccIotsitewiseDatasets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedatasets"
 
 dataawscciotsitewisedatasets.DataAwsccIotsitewiseDatasets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsitewisedatasets.DataAwsccIotsitewiseDatasets_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDatasets.DataAwsccIotsitewiseDatasets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedatasets"
 
 dataawscciotsitewisedatasets.DataAwsccIotsitewiseDatasets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseDatase
 
 The id of the existing DataAwsccIotsitewiseDatasets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_datasets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_datasets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDatasets.DataAwsccIotsitewiseDatasetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedatasets"
 
 &dataawscciotsitewisedatasets.DataAwsccIotsitewiseDatasetsConfig {
 	Connection: interface{},

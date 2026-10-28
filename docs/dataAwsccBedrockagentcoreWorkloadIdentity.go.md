@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcoreWorkloadIdentity <a name="DataAwsccBedrockagentcoreWorkloadIdentity" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentity.DataAwsccBedrockagentcoreWorkloadIdentity"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_workload_identity awscc_bedrockagentcore_workload_identity}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_workload_identity awscc_bedrockagentcore_workload_identity}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentity.DataAwsccBedrockagentcoreWorkloadIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreworkloadidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreworkloadidentity"
 
 dataawsccbedrockagentcoreworkloadidentity.NewDataAwsccBedrockagentcoreWorkloadIdentity(scope Construct, id *string, config DataAwsccBedrockagentcoreWorkloadIdentityConfig) DataAwsccBedrockagentcoreWorkloadIdentity
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentity.DataAwsccBedrockagentcoreWorkloadIdentity.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreworkloadidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreworkloadidentity"
 
 dataawsccbedrockagentcoreworkloadidentity.DataAwsccBedrockagentcoreWorkloadIdentity_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentity.DataAwsccBedrockagentcoreWorkloadIdentity.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreworkloadidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreworkloadidentity"
 
 dataawsccbedrockagentcoreworkloadidentity.DataAwsccBedrockagentcoreWorkloadIdentity_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcoreworkloadidentity.DataAwsccBedrockagentcoreWorkloadIdent
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentity.DataAwsccBedrockagentcoreWorkloadIdentity.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreworkloadidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreworkloadidentity"
 
 dataawsccbedrockagentcoreworkloadidentity.DataAwsccBedrockagentcoreWorkloadIdentity_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcoreworkloadidentity.DataAwsccBedrockagentcoreWorkloadIdent
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentity.DataAwsccBedrockagentcoreWorkloadIdentity.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreworkloadidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreworkloadidentity"
 
 dataawsccbedrockagentcoreworkloadidentity.DataAwsccBedrockagentcoreWorkloadIdentity_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreW
 
 The id of the existing DataAwsccBedrockagentcoreWorkloadIdentity that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_workload_identity#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_workload_identity#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentity.DataAwsccBedrockagentcoreWorkloadIdentityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreworkloadidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreworkloadidentity"
 
 &dataawsccbedrockagentcoreworkloadidentity.DataAwsccBedrockagentcoreWorkloadIdentityConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_workload_identity#id DataAwsccBedrockagentcoreWorkloadIdentity#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_workload_identity#id DataAwsccBedrockagentcoreWorkloadIdentity#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentity.DataAwsccBedrockagentcoreWorkloadIdentityTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreworkloadidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreworkloadidentity"
 
 &dataawsccbedrockagentcoreworkloadidentity.DataAwsccBedrockagentcoreWorkloadIdentityTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentity.DataAwsccBedrockagentcoreWorkloadIdentityTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreworkloadidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreworkloadidentity"
 
 dataawsccbedrockagentcoreworkloadidentity.NewDataAwsccBedrockagentcoreWorkloadIdentityTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockagentcoreWorkloadIdentityTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentity.DataAwsccBedrockagentcoreWorkloadIdentityTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreworkloadidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreworkloadidentity"
 
 dataawsccbedrockagentcoreworkloadidentity.NewDataAwsccBedrockagentcoreWorkloadIdentityTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockagentcoreWorkloadIdentityTagsOutputReference
 ```

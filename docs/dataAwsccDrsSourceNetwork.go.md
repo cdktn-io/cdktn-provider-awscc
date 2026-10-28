@@ -4,12 +4,12 @@
 
 ### DataAwsccDrsSourceNetwork <a name="DataAwsccDrsSourceNetwork" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetwork.DataAwsccDrsSourceNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_source_network awscc_drs_source_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_source_network awscc_drs_source_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetwork.DataAwsccDrsSourceNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetwork"
 
 dataawsccdrssourcenetwork.NewDataAwsccDrsSourceNetwork(scope Construct, id *string, config DataAwsccDrsSourceNetworkConfig) DataAwsccDrsSourceNetwork
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetwork.DataAwsccDrsSourceNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetwork"
 
 dataawsccdrssourcenetwork.DataAwsccDrsSourceNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetwork.DataAwsccDrsSourceNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetwork"
 
 dataawsccdrssourcenetwork.DataAwsccDrsSourceNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdrssourcenetwork.DataAwsccDrsSourceNetwork_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetwork.DataAwsccDrsSourceNetwork.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetwork"
 
 dataawsccdrssourcenetwork.DataAwsccDrsSourceNetwork_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdrssourcenetwork.DataAwsccDrsSourceNetwork_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetwork.DataAwsccDrsSourceNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetwork"
 
 dataawsccdrssourcenetwork.DataAwsccDrsSourceNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDrsSourceNetwork 
 
 The id of the existing DataAwsccDrsSourceNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_source_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_source_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetwork.DataAwsccDrsSourceNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetwork"
 
 &dataawsccdrssourcenetwork.DataAwsccDrsSourceNetworkConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_source_network#id DataAwsccDrsSourceNetwork#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_source_network#id DataAwsccDrsSourceNetwork#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetwork.DataAwsccDrsSourceNetworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetwork"
 
 &dataawsccdrssourcenetwork.DataAwsccDrsSourceNetworkTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetw
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetwork.DataAwsccDrsSourceNetworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetwork"
 
 dataawsccdrssourcenetwork.NewDataAwsccDrsSourceNetworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDrsSourceNetworkTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetwork.DataAwsccDrsSourceNetworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetwork"
 
 dataawsccdrssourcenetwork.NewDataAwsccDrsSourceNetworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDrsSourceNetworkTagsOutputReference
 ```

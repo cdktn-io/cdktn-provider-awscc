@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2RouteServerPropagation <a name="DataAwsccEc2RouteServerPropagation" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPropagation.DataAwsccEc2RouteServerPropagation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_server_propagation awscc_ec2_route_server_propagation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_server_propagation awscc_ec2_route_server_propagation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPropagation.DataAwsccEc2RouteServerPropagation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpropagation"
 
 dataawsccec2routeserverpropagation.NewDataAwsccEc2RouteServerPropagation(scope Construct, id *string, config DataAwsccEc2RouteServerPropagationConfig) DataAwsccEc2RouteServerPropagation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPropagation.DataAwsccEc2RouteServerPropagation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpropagation"
 
 dataawsccec2routeserverpropagation.DataAwsccEc2RouteServerPropagation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPropagation.DataAwsccEc2RouteServerPropagation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpropagation"
 
 dataawsccec2routeserverpropagation.DataAwsccEc2RouteServerPropagation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2routeserverpropagation.DataAwsccEc2RouteServerPropagation_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPropagation.DataAwsccEc2RouteServerPropagation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpropagation"
 
 dataawsccec2routeserverpropagation.DataAwsccEc2RouteServerPropagation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2routeserverpropagation.DataAwsccEc2RouteServerPropagation_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPropagation.DataAwsccEc2RouteServerPropagation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpropagation"
 
 dataawsccec2routeserverpropagation.DataAwsccEc2RouteServerPropagation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2RouteServerPro
 
 The id of the existing DataAwsccEc2RouteServerPropagation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_server_propagation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_server_propagation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPropagation.DataAwsccEc2RouteServerPropagationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpropagation"
 
 &dataawsccec2routeserverpropagation.DataAwsccEc2RouteServerPropagationConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_server_propagation#id DataAwsccEc2RouteServerPropagation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_server_propagation#id DataAwsccEc2RouteServerPropagation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

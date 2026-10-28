@@ -4,12 +4,12 @@
 
 ### PcsQueue <a name="PcsQueue" id="@cdktn/provider-awscc.pcsQueue.PcsQueue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_queue awscc_pcs_queue}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_queue awscc_pcs_queue}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsQueue.PcsQueue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.NewPcsQueue(scope Construct, id *string, config PcsQueueConfig) PcsQueue
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.pcsQueue.PcsQueue.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.PcsQueue_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.pcsQueue.PcsQueue.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.PcsQueue_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ pcsqueue.PcsQueue_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.pcsQueue.PcsQueue.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.PcsQueue_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ pcsqueue.PcsQueue_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.pcsQueue.PcsQueue.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.PcsQueue_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the PcsQueue to import.
 
 The id of the existing PcsQueue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_queue#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_queue#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,7 +908,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsQueue.PcsQueueComputeNodeGroupConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 &pcsqueue.PcsQueueComputeNodeGroupConfigurations {
 	ComputeNodeGroupId: *string,
@@ -933,7 +933,7 @@ ComputeNodeGroupId *string
 
 The compute node group ID for the compute node group configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_queue#compute_node_group_id PcsQueue#compute_node_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_queue#compute_node_group_id PcsQueue#compute_node_group_id}
 
 ---
 
@@ -942,7 +942,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsQueue.PcsQueueConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 &pcsqueue.PcsQueueConfig {
 	Connection: interface{},
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
 	ClusterId: *string,
 	ComputeNodeGroupConfigurations: interface{},
 	Name: *string,
-	SlurmConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.pcsQueue.PcsQueueSlurmConfiguration,
+	SlurmConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.pcsQueue.PcsQueueSlurmConfiguration,
 	Tags: *map[string]*string,
 }
 ```
@@ -1059,7 +1059,7 @@ ClusterId *string
 
 The ID of the cluster of the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_queue#cluster_id PcsQueue#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_queue#cluster_id PcsQueue#cluster_id}
 
 ---
 
@@ -1073,7 +1073,7 @@ ComputeNodeGroupConfigurations interface{}
 
 The list of compute node group configurations associated with the queue. Queues assign jobs to associated compute node groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_queue#compute_node_group_configurations PcsQueue#compute_node_group_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_queue#compute_node_group_configurations PcsQueue#compute_node_group_configurations}
 
 ---
 
@@ -1087,7 +1087,7 @@ Name *string
 
 The name that identifies the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_queue#name PcsQueue#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_queue#name PcsQueue#name}
 
 ---
 
@@ -1101,7 +1101,7 @@ SlurmConfiguration PcsQueueSlurmConfiguration
 
 The Slurm configuration for the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_queue#slurm_configuration PcsQueue#slurm_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_queue#slurm_configuration PcsQueue#slurm_configuration}
 
 ---
 
@@ -1117,7 +1117,7 @@ Tags *map[string]*string
 
 Each tag consists of a tag key and tag value. The tag value is optional and can be an empty string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_queue#tags PcsQueue#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_queue#tags PcsQueue#tags}
 
 ---
 
@@ -1126,7 +1126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsQueue.PcsQueueErrorInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 &pcsqueue.PcsQueueErrorInfo {
 
@@ -1139,7 +1139,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsQueue.PcsQueueSlurmConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 &pcsqueue.PcsQueueSlurmConfiguration {
 	SlurmCustomSettings: interface{},
@@ -1164,7 +1164,7 @@ SlurmCustomSettings interface{}
 
 Custom Slurm parameters that directly map to Slurm configuration settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_queue#slurm_custom_settings PcsQueue#slurm_custom_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_queue#slurm_custom_settings PcsQueue#slurm_custom_settings}
 
 ---
 
@@ -1173,7 +1173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsQueue.PcsQueueSlurmConfigurationSlurmCustomSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 &pcsqueue.PcsQueueSlurmConfigurationSlurmCustomSettings {
 	ParameterName: *string,
@@ -1200,7 +1200,7 @@ ParameterName *string
 
 AWS PCS supports configuration of the Slurm parameters for queues:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_queue#parameter_name PcsQueue#parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_queue#parameter_name PcsQueue#parameter_name}
 
 ---
 
@@ -1214,7 +1214,7 @@ ParameterValue *string
 
 The value for the configured Slurm setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_queue#parameter_value PcsQueue#parameter_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_queue#parameter_value PcsQueue#parameter_value}
 
 ---
 
@@ -1225,7 +1225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsQueue.PcsQueueComputeNodeGroupConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.NewPcsQueueComputeNodeGroupConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PcsQueueComputeNodeGroupConfigurationsList
 ```
@@ -1385,7 +1385,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsQueue.PcsQueueComputeNodeGroupConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.NewPcsQueueComputeNodeGroupConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PcsQueueComputeNodeGroupConfigurationsOutputReference
 ```
@@ -1681,7 +1681,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsQueue.PcsQueueErrorInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.NewPcsQueueErrorInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PcsQueueErrorInfoList
 ```
@@ -1830,7 +1830,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsQueue.PcsQueueErrorInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.NewPcsQueueErrorInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PcsQueueErrorInfoOutputReference
 ```
@@ -2119,7 +2119,7 @@ func InternalValue() PcsQueueErrorInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsQueue.PcsQueueSlurmConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.NewPcsQueueSlurmConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PcsQueueSlurmConfigurationOutputReference
 ```
@@ -2410,7 +2410,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsQueue.PcsQueueSlurmConfigurationSlurmCustomSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.NewPcsQueueSlurmConfigurationSlurmCustomSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PcsQueueSlurmConfigurationSlurmCustomSettingsList
 ```
@@ -2570,7 +2570,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsQueue.PcsQueueSlurmConfigurationSlurmCustomSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcsqueue"
 
 pcsqueue.NewPcsQueueSlurmConfigurationSlurmCustomSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PcsQueueSlurmConfigurationSlurmCustomSettingsOutputReference
 ```

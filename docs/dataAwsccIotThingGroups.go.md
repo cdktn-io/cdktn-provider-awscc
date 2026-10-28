@@ -4,12 +4,12 @@
 
 ### DataAwsccIotThingGroups <a name="DataAwsccIotThingGroups" id="@cdktn/provider-awscc.dataAwsccIotThingGroups.DataAwsccIotThingGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_groups awscc_iot_thing_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_groups awscc_iot_thing_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotThingGroups.DataAwsccIotThingGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroups"
 
 dataawscciotthinggroups.NewDataAwsccIotThingGroups(scope Construct, id *string, config DataAwsccIotThingGroupsConfig) DataAwsccIotThingGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotThingGroups.DataAwsccIotThingGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroups"
 
 dataawscciotthinggroups.DataAwsccIotThingGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotThingGroups.DataAwsccIotThingGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroups"
 
 dataawscciotthinggroups.DataAwsccIotThingGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotthinggroups.DataAwsccIotThingGroups_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotThingGroups.DataAwsccIotThingGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroups"
 
 dataawscciotthinggroups.DataAwsccIotThingGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotthinggroups.DataAwsccIotThingGroups_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotThingGroups.DataAwsccIotThingGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroups"
 
 dataawscciotthinggroups.DataAwsccIotThingGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotThingGroups to
 
 The id of the existing DataAwsccIotThingGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotThingGroups.DataAwsccIotThingGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroups"
 
 &dataawscciotthinggroups.DataAwsccIotThingGroupsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccCasesTemplate <a name="DataAwsccCasesTemplate" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_template awscc_cases_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_template awscc_cases_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.NewDataAwsccCasesTemplate(scope Construct, id *string, config DataAwsccCasesTemplateConfig) DataAwsccCasesTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.DataAwsccCasesTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.DataAwsccCasesTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccasestemplate.DataAwsccCasesTemplate_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.DataAwsccCasesTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccasestemplate.DataAwsccCasesTemplate_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.DataAwsccCasesTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCasesTemplate to 
 
 The id of the existing DataAwsccCasesTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 &dataawscccasestemplate.DataAwsccCasesTemplateConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_template#id DataAwsccCasesTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_template#id DataAwsccCasesTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateLayoutConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 &dataawscccasestemplate.DataAwsccCasesTemplateLayoutConfiguration {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateRequiredFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 &dataawscccasestemplate.DataAwsccCasesTemplateRequiredFields {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 &dataawscccasestemplate.DataAwsccCasesTemplateRules {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 &dataawscccasestemplate.DataAwsccCasesTemplateTags {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateLayoutConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.NewDataAwsccCasesTemplateLayoutConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesTemplateLayoutConfigurationOutputReference
 ```
@@ -1154,7 +1154,7 @@ func InternalValue() DataAwsccCasesTemplateLayoutConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateRequiredFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.NewDataAwsccCasesTemplateRequiredFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesTemplateRequiredFieldsList
 ```
@@ -1303,7 +1303,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateRequiredFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.NewDataAwsccCasesTemplateRequiredFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesTemplateRequiredFieldsOutputReference
 ```
@@ -1581,7 +1581,7 @@ func InternalValue() DataAwsccCasesTemplateRequiredFields
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.NewDataAwsccCasesTemplateRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesTemplateRulesList
 ```
@@ -1730,7 +1730,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.NewDataAwsccCasesTemplateRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesTemplateRulesOutputReference
 ```
@@ -2019,7 +2019,7 @@ func InternalValue() DataAwsccCasesTemplateRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.NewDataAwsccCasesTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesTemplateTagsList
 ```
@@ -2168,7 +2168,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesTemplate.DataAwsccCasesTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasestemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasestemplate"
 
 dataawscccasestemplate.NewDataAwsccCasesTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesTemplateTagsOutputReference
 ```

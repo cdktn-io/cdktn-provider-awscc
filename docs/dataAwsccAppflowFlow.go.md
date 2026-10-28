@@ -4,12 +4,12 @@
 
 ### DataAwsccAppflowFlow <a name="DataAwsccAppflowFlow" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_flow awscc_appflow_flow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_flow awscc_appflow_flow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlow(scope Construct, id *string, config DataAwsccAppflowFlowConfig) DataAwsccAppflowFlow
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.DataAwsccAppflowFlow_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.DataAwsccAppflowFlow_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappflowflow.DataAwsccAppflowFlow_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlow.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.DataAwsccAppflowFlow_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappflowflow.DataAwsccAppflowFlow_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.DataAwsccAppflowFlow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppflowFlow to im
 
 The id of the existing DataAwsccAppflowFlow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_flow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_flow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_flow#id DataAwsccAppflowFlow#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_flow#id DataAwsccAppflowFlow#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorProperties {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnector {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnectorErrorHandlingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnectorErrorHandlingConfig {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridge {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridgeErrorHandlingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridgeErrorHandlingConfig {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesLookoutMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesLookoutMetrics {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketo {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketoErrorHandlingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketoErrorHandlingConfig {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshift.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshift {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshiftErrorHandlingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshiftErrorHandlingConfig {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3 {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfig {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfig {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfig {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforce.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforce {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforceErrorHandlingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforceErrorHandlingConfig {
 
@@ -1037,7 +1037,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoData {
 
@@ -1050,7 +1050,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataErrorHandlingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataErrorHandlingConfig {
 
@@ -1063,7 +1063,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataSuccessResponseHandlingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataSuccessResponseHandlingConfig {
 
@@ -1076,7 +1076,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflake.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflake {
 
@@ -1089,7 +1089,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflakeErrorHandlingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflakeErrorHandlingConfig {
 
@@ -1102,7 +1102,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolver.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolver {
 
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfig {
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfig {
 
@@ -1141,7 +1141,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfig {
 
@@ -1154,7 +1154,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendesk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendesk {
 
@@ -1167,7 +1167,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendeskErrorHandlingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendeskErrorHandlingConfig {
 
@@ -1180,7 +1180,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowDestinationFlowConfigListStruct {
 
@@ -1193,7 +1193,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowMetadataCatalogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowMetadataCatalogConfig {
 
@@ -1206,7 +1206,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowMetadataCatalogConfigGlueDataCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowMetadataCatalogConfigGlueDataCatalog {
 
@@ -1219,7 +1219,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfig {
 
@@ -1232,7 +1232,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigIncrementalPullConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigIncrementalPullConfig {
 
@@ -1245,7 +1245,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperties {
 
@@ -1258,7 +1258,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesAmplitude.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesAmplitude {
 
@@ -1271,7 +1271,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnector {
 
@@ -1284,7 +1284,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnectorDataTransferApi.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnectorDataTransferApi {
 
@@ -1297,7 +1297,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadog {
 
@@ -1310,7 +1310,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesDynatrace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesDynatrace {
 
@@ -1323,7 +1323,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesGoogleAnalytics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesGoogleAnalytics {
 
@@ -1336,7 +1336,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesInforNexus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesInforNexus {
 
@@ -1349,7 +1349,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketo {
 
@@ -1362,7 +1362,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesPardot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesPardot {
 
@@ -1375,7 +1375,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesS3 {
 
@@ -1388,7 +1388,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesS3S3InputFormatConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesS3S3InputFormatConfig {
 
@@ -1401,7 +1401,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforce.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforce {
 
@@ -1414,7 +1414,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoData {
 
@@ -1427,7 +1427,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfig {
 
@@ -1440,7 +1440,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataParallelismConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataParallelismConfig {
 
@@ -1453,7 +1453,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesServiceNow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesServiceNow {
 
@@ -1466,7 +1466,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSingular.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSingular {
 
@@ -1479,7 +1479,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSlack.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSlack {
 
@@ -1492,7 +1492,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesTrendmicro.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesTrendmicro {
 
@@ -1505,7 +1505,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesVeeva.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesVeeva {
 
@@ -1518,7 +1518,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesZendesk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesZendesk {
 
@@ -1531,7 +1531,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowTags {
 
@@ -1544,7 +1544,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowTasks {
 
@@ -1557,7 +1557,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTasksConnectorOperator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowTasksConnectorOperator {
 
@@ -1570,7 +1570,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTasksTaskProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowTasksTaskProperties {
 
@@ -1583,7 +1583,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTriggerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowTriggerConfig {
 
@@ -1596,7 +1596,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTriggerConfigTriggerProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 &dataawsccappflowflow.DataAwsccAppflowFlowTriggerConfigTriggerProperties {
 
@@ -1611,7 +1611,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigOutputReference
 ```
@@ -1893,7 +1893,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnectorOutputReference
 ```
@@ -2197,7 +2197,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridgeErrorHandlingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridgeErrorHandlingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridgeErrorHandlingConfigOutputReference
 ```
@@ -2479,7 +2479,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridgeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridgeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridgeOutputReference
 ```
@@ -2750,7 +2750,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesLookoutMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesLookoutMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesLookoutMetricsOutputReference
 ```
@@ -3010,7 +3010,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketoErrorHandlingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketoErrorHandlingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketoErrorHandlingConfigOutputReference
 ```
@@ -3292,7 +3292,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketoOutputReference
 ```
@@ -3563,7 +3563,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesOutputReference
 ```
@@ -3933,7 +3933,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshiftErrorHandlingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshiftErrorHandlingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshiftErrorHandlingConfigOutputReference
 ```
@@ -4215,7 +4215,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshiftOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshiftOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshiftOutputReference
 ```
@@ -4508,7 +4508,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3OutputReference
 ```
@@ -4790,7 +4790,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigOutputReference
 ```
@@ -5061,7 +5061,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigOutputReference
 ```
@@ -5354,7 +5354,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigOutputReference
 ```
@@ -5636,7 +5636,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforceErrorHandlingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforceErrorHandlingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforceErrorHandlingConfigOutputReference
 ```
@@ -5918,7 +5918,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforceOutputReference
 ```
@@ -6222,7 +6222,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataErrorHandlingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataErrorHandlingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataErrorHandlingConfigOutputReference
 ```
@@ -6504,7 +6504,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataOutputReference
 ```
@@ -6808,7 +6808,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataSuccessResponseHandlingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataSuccessResponseHandlingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataSuccessResponseHandlingConfigOutputReference
 ```
@@ -7079,7 +7079,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflakeErrorHandlingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflakeErrorHandlingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflakeErrorHandlingConfigOutputReference
 ```
@@ -7361,7 +7361,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflakeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflakeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflakeOutputReference
 ```
@@ -7654,7 +7654,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverOutputReference
 ```
@@ -7936,7 +7936,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigOutputReference
 ```
@@ -8207,7 +8207,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigOutputReference
 ```
@@ -8489,7 +8489,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigOutputReference
 ```
@@ -8771,7 +8771,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendeskErrorHandlingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendeskErrorHandlingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendeskErrorHandlingConfigOutputReference
 ```
@@ -9053,7 +9053,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendeskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendeskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendeskOutputReference
 ```
@@ -9346,7 +9346,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListDestinationCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppflowFlowDestinationFlowConfigListStructList
 ```
@@ -9495,7 +9495,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowDestinationFlowConfigListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowDestinationFlowConfigListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppflowFlowDestinationFlowConfigListStructOutputReference
 ```
@@ -9806,7 +9806,7 @@ func InternalValue() DataAwsccAppflowFlowDestinationFlowConfigListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference
 ```
@@ -10088,7 +10088,7 @@ func InternalValue() DataAwsccAppflowFlowMetadataCatalogConfigGlueDataCatalog
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowMetadataCatalogConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowMetadataCatalogConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowMetadataCatalogConfigOutputReference
 ```
@@ -10348,7 +10348,7 @@ func InternalValue() DataAwsccAppflowFlowMetadataCatalogConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigIncrementalPullConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigIncrementalPullConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigIncrementalPullConfigOutputReference
 ```
@@ -10608,7 +10608,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigIncrementalPullConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigOutputReference
 ```
@@ -10912,7 +10912,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesAmplitudeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesAmplitudeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesAmplitudeOutputReference
 ```
@@ -11172,7 +11172,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnectorDataTransferApiOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnectorDataTransferApiOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnectorDataTransferApiOutputReference
 ```
@@ -11443,7 +11443,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnectorOutputReference
 ```
@@ -11725,7 +11725,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputReference
 ```
@@ -11985,7 +11985,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesDynatraceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesDynatraceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesDynatraceOutputReference
 ```
@@ -12245,7 +12245,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesGoogleAnalyticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesGoogleAnalyticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesGoogleAnalyticsOutputReference
 ```
@@ -12505,7 +12505,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesInforNexusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesInforNexusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesInforNexusOutputReference
 ```
@@ -12765,7 +12765,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketoOutputReference
 ```
@@ -13025,7 +13025,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesOutputReference
 ```
@@ -13461,7 +13461,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesPardotOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesPardotOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesPardotOutputReference
 ```
@@ -13721,7 +13721,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesS3OutputReference
 ```
@@ -14003,7 +14003,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesS3S3InputFormatConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesS3S3InputFormatConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesS3S3InputFormatConfigOutputReference
 ```
@@ -14263,7 +14263,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforceOutputReference
 ```
@@ -14556,7 +14556,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataOutputReference
 ```
@@ -14838,7 +14838,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfigOutputReference
 ```
@@ -15098,7 +15098,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataParallelismConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataParallelismConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataParallelismConfigOutputReference
 ```
@@ -15358,7 +15358,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesServiceNowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesServiceNowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesServiceNowOutputReference
 ```
@@ -15618,7 +15618,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSingularOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSingularOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSingularOutputReference
 ```
@@ -15878,7 +15878,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSlackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSlackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesSlackOutputReference
 ```
@@ -16138,7 +16138,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesTrendmicroOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesTrendmicroOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesTrendmicroOutputReference
 ```
@@ -16398,7 +16398,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesVeevaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesVeevaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesVeevaOutputReference
 ```
@@ -16702,7 +16702,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesZendeskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesZendeskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowSourceFlowConfigSourceConnectorPropertiesZendeskOutputReference
 ```
@@ -16962,7 +16962,7 @@ func InternalValue() DataAwsccAppflowFlowSourceFlowConfigSourceConnectorProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppflowFlowTagsList
 ```
@@ -17111,7 +17111,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppflowFlowTagsOutputReference
 ```
@@ -17400,7 +17400,7 @@ func InternalValue() DataAwsccAppflowFlowTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTasksConnectorOperatorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowTasksConnectorOperatorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowTasksConnectorOperatorOutputReference
 ```
@@ -17836,7 +17836,7 @@ func InternalValue() DataAwsccAppflowFlowTasksConnectorOperator
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTasksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowTasksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppflowFlowTasksList
 ```
@@ -17985,7 +17985,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTasksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowTasksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppflowFlowTasksOutputReference
 ```
@@ -18307,7 +18307,7 @@ func InternalValue() DataAwsccAppflowFlowTasks
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTasksTaskPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowTasksTaskPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppflowFlowTasksTaskPropertiesList
 ```
@@ -18456,7 +18456,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTasksTaskPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowTasksTaskPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppflowFlowTasksTaskPropertiesOutputReference
 ```
@@ -18745,7 +18745,7 @@ func InternalValue() DataAwsccAppflowFlowTasksTaskProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTriggerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowTriggerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowTriggerConfigOutputReference
 ```
@@ -19016,7 +19016,7 @@ func InternalValue() DataAwsccAppflowFlowTriggerConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowFlow.DataAwsccAppflowFlowTriggerConfigTriggerPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowflow"
 
 dataawsccappflowflow.NewDataAwsccAppflowFlowTriggerConfigTriggerPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowFlowTriggerConfigTriggerPropertiesOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2SecondaryNetwork <a name="DataAwsccEc2SecondaryNetwork" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_secondary_network awscc_ec2_secondary_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_secondary_network awscc_ec2_secondary_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 dataawsccec2secondarynetwork.NewDataAwsccEc2SecondaryNetwork(scope Construct, id *string, config DataAwsccEc2SecondaryNetworkConfig) DataAwsccEc2SecondaryNetwork
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 dataawsccec2secondarynetwork.DataAwsccEc2SecondaryNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 dataawsccec2secondarynetwork.DataAwsccEc2SecondaryNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2secondarynetwork.DataAwsccEc2SecondaryNetwork_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetwork.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 dataawsccec2secondarynetwork.DataAwsccEc2SecondaryNetwork_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2secondarynetwork.DataAwsccEc2SecondaryNetwork_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 dataawsccec2secondarynetwork.DataAwsccEc2SecondaryNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SecondaryNetwo
 
 The id of the existing DataAwsccEc2SecondaryNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_secondary_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_secondary_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 &dataawsccec2secondarynetwork.DataAwsccEc2SecondaryNetworkConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_secondary_network#id DataAwsccEc2SecondaryNetwork#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_secondary_network#id DataAwsccEc2SecondaryNetwork#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetworkIpv4CidrBlockAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 &dataawsccec2secondarynetwork.DataAwsccEc2SecondaryNetworkIpv4CidrBlockAssociations {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondaryn
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 &dataawsccec2secondarynetwork.DataAwsccEc2SecondaryNetworkTags {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondaryn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetworkIpv4CidrBlockAssociationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 dataawsccec2secondarynetwork.NewDataAwsccEc2SecondaryNetworkIpv4CidrBlockAssociationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SecondaryNetworkIpv4CidrBlockAssociationsList
 ```
@@ -962,7 +962,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetworkIpv4CidrBlockAssociationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 dataawsccec2secondarynetwork.NewDataAwsccEc2SecondaryNetworkIpv4CidrBlockAssociationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SecondaryNetworkIpv4CidrBlockAssociationsOutputReference
 ```
@@ -1262,7 +1262,7 @@ func InternalValue() DataAwsccEc2SecondaryNetworkIpv4CidrBlockAssociations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 dataawsccec2secondarynetwork.NewDataAwsccEc2SecondaryNetworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SecondaryNetworkTagsList
 ```
@@ -1411,7 +1411,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetwork.DataAwsccEc2SecondaryNetworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2secondarynetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2secondarynetwork"
 
 dataawsccec2secondarynetwork.NewDataAwsccEc2SecondaryNetworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SecondaryNetworkTagsOutputReference
 ```

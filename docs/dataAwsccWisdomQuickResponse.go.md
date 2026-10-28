@@ -4,12 +4,12 @@
 
 ### DataAwsccWisdomQuickResponse <a name="DataAwsccWisdomQuickResponse" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponse"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_quick_response awscc_wisdom_quick_response}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_quick_response awscc_wisdom_quick_response}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.NewDataAwsccWisdomQuickResponse(scope Construct, id *string, config DataAwsccWisdomQuickResponseConfig) DataAwsccWisdomQuickResponse
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponse.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponse_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponse.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponse_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponse_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponse.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponse_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponse_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponse.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponse_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWisdomQuickRespon
 
 The id of the existing DataAwsccWisdomQuickResponse that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_quick_response#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_quick_response#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 &dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponseConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_quick_response#id DataAwsccWisdomQuickResponse#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_quick_response#id DataAwsccWisdomQuickResponse#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 &dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponseContent {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickre
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseContents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 &dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponseContents {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickre
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseContentsMarkdown.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 &dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponseContentsMarkdown {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickre
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseContentsPlainText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 &dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponseContentsPlainText {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickre
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseGroupingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 &dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponseGroupingConfiguration {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickre
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 &dataawsccwisdomquickresponse.DataAwsccWisdomQuickResponseTags {
 
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.NewDataAwsccWisdomQuickResponseContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomQuickResponseContentOutputReference
 ```
@@ -1213,7 +1213,7 @@ func InternalValue() DataAwsccWisdomQuickResponseContent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseContentsMarkdownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.NewDataAwsccWisdomQuickResponseContentsMarkdownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomQuickResponseContentsMarkdownOutputReference
 ```
@@ -1473,7 +1473,7 @@ func InternalValue() DataAwsccWisdomQuickResponseContentsMarkdown
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseContentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.NewDataAwsccWisdomQuickResponseContentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomQuickResponseContentsOutputReference
 ```
@@ -1744,7 +1744,7 @@ func InternalValue() DataAwsccWisdomQuickResponseContents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseContentsPlainTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.NewDataAwsccWisdomQuickResponseContentsPlainTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomQuickResponseContentsPlainTextOutputReference
 ```
@@ -2004,7 +2004,7 @@ func InternalValue() DataAwsccWisdomQuickResponseContentsPlainText
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseGroupingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.NewDataAwsccWisdomQuickResponseGroupingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomQuickResponseGroupingConfigurationOutputReference
 ```
@@ -2275,7 +2275,7 @@ func InternalValue() DataAwsccWisdomQuickResponseGroupingConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.NewDataAwsccWisdomQuickResponseTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomQuickResponseTagsList
 ```
@@ -2424,7 +2424,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomQuickResponse.DataAwsccWisdomQuickResponseTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomquickresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomquickresponse"
 
 dataawsccwisdomquickresponse.NewDataAwsccWisdomQuickResponseTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomQuickResponseTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### IvsIngestConfiguration <a name="IvsIngestConfiguration" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ingest_configuration awscc_ivs_ingest_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ingest_configuration awscc_ivs_ingest_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsingestconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsingestconfiguration"
 
 ivsingestconfiguration.NewIvsIngestConfiguration(scope Construct, id *string, config IvsIngestConfigurationConfig) IvsIngestConfiguration
 ```
@@ -455,7 +455,7 @@ func ResetUserId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsingestconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsingestconfiguration"
 
 ivsingestconfiguration.IvsIngestConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsingestconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsingestconfiguration"
 
 ivsingestconfiguration.IvsIngestConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ ivsingestconfiguration.IvsIngestConfiguration_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsingestconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsingestconfiguration"
 
 ivsingestconfiguration.IvsIngestConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ ivsingestconfiguration.IvsIngestConfiguration_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsingestconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsingestconfiguration"
 
 ivsingestconfiguration.IvsIngestConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the IvsIngestConfiguration to 
 
 The id of the existing IvsIngestConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ingest_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ingest_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsingestconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsingestconfiguration"
 
 &ivsingestconfiguration.IvsIngestConfigurationConfig {
 	Connection: interface{},
@@ -1050,7 +1050,7 @@ IngestProtocol *string
 
 Ingest Protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ingest_configuration#ingest_protocol IvsIngestConfiguration#ingest_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ingest_configuration#ingest_protocol IvsIngestConfiguration#ingest_protocol}
 
 ---
 
@@ -1064,7 +1064,7 @@ InsecureIngest interface{}
 
 Whether ingest configuration allows insecure ingest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ingest_configuration#insecure_ingest IvsIngestConfiguration#insecure_ingest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ingest_configuration#insecure_ingest IvsIngestConfiguration#insecure_ingest}
 
 ---
 
@@ -1078,7 +1078,7 @@ Name *string
 
 IngestConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ingest_configuration#name IvsIngestConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ingest_configuration#name IvsIngestConfiguration#name}
 
 ---
 
@@ -1094,7 +1094,7 @@ Stage ARN.
 
 A value other than an empty string indicates that stage is linked to IngestConfiguration. Default: "" (recording is disabled).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ingest_configuration#stage_arn IvsIngestConfiguration#stage_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ingest_configuration#stage_arn IvsIngestConfiguration#stage_arn}
 
 ---
 
@@ -1108,7 +1108,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ingest_configuration#tags IvsIngestConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ingest_configuration#tags IvsIngestConfiguration#tags}
 
 ---
 
@@ -1122,7 +1122,7 @@ UserId *string
 
 User defined indentifier for participant associated with IngestConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ingest_configuration#user_id IvsIngestConfiguration#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ingest_configuration#user_id IvsIngestConfiguration#user_id}
 
 ---
 
@@ -1131,7 +1131,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsingestconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsingestconfiguration"
 
 &ivsingestconfiguration.IvsIngestConfigurationTags {
 	Key: *string,
@@ -1160,7 +1160,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ingest_configuration#key IvsIngestConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ingest_configuration#key IvsIngestConfiguration#key}
 
 ---
 
@@ -1176,7 +1176,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ingest_configuration#value IvsIngestConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ingest_configuration#value IvsIngestConfiguration#value}
 
 ---
 
@@ -1187,7 +1187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsingestconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsingestconfiguration"
 
 ivsingestconfiguration.NewIvsIngestConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IvsIngestConfigurationTagsList
 ```
@@ -1347,7 +1347,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsingestconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsingestconfiguration"
 
 ivsingestconfiguration.NewIvsIngestConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IvsIngestConfigurationTagsOutputReference
 ```

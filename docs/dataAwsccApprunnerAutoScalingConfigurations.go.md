@@ -4,12 +4,12 @@
 
 ### DataAwsccApprunnerAutoScalingConfigurations <a name="DataAwsccApprunnerAutoScalingConfigurations" id="@cdktn/provider-awscc.dataAwsccApprunnerAutoScalingConfigurations.DataAwsccApprunnerAutoScalingConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_auto_scaling_configurations awscc_apprunner_auto_scaling_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_auto_scaling_configurations awscc_apprunner_auto_scaling_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerAutoScalingConfigurations.DataAwsccApprunnerAutoScalingConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerautoscalingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerautoscalingconfigurations"
 
 dataawsccapprunnerautoscalingconfigurations.NewDataAwsccApprunnerAutoScalingConfigurations(scope Construct, id *string, config DataAwsccApprunnerAutoScalingConfigurationsConfig) DataAwsccApprunnerAutoScalingConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApprunnerAutoScalingConfigurations.DataAwsccApprunnerAutoScalingConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerautoscalingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerautoscalingconfigurations"
 
 dataawsccapprunnerautoscalingconfigurations.DataAwsccApprunnerAutoScalingConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApprunnerAutoScalingConfigurations.DataAwsccApprunnerAutoScalingConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerautoscalingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerautoscalingconfigurations"
 
 dataawsccapprunnerautoscalingconfigurations.DataAwsccApprunnerAutoScalingConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapprunnerautoscalingconfigurations.DataAwsccApprunnerAutoScalingConfigu
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApprunnerAutoScalingConfigurations.DataAwsccApprunnerAutoScalingConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerautoscalingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerautoscalingconfigurations"
 
 dataawsccapprunnerautoscalingconfigurations.DataAwsccApprunnerAutoScalingConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapprunnerautoscalingconfigurations.DataAwsccApprunnerAutoScalingConfigu
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApprunnerAutoScalingConfigurations.DataAwsccApprunnerAutoScalingConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerautoscalingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerautoscalingconfigurations"
 
 dataawsccapprunnerautoscalingconfigurations.DataAwsccApprunnerAutoScalingConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApprunnerAutoScal
 
 The id of the existing DataAwsccApprunnerAutoScalingConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_auto_scaling_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_auto_scaling_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerAutoScalingConfigurations.DataAwsccApprunnerAutoScalingConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerautoscalingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerautoscalingconfigurations"
 
 &dataawsccapprunnerautoscalingconfigurations.DataAwsccApprunnerAutoScalingConfigurationsConfig {
 	Connection: interface{},

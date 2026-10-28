@@ -4,12 +4,12 @@
 
 ### DataAwsccKinesisChannel <a name="DataAwsccKinesisChannel" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesis_channel awscc_kinesis_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesis_channel awscc_kinesis_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannel(scope Construct, id *string, config DataAwsccKinesisChannelConfig) DataAwsccKinesisChannel
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.DataAwsccKinesisChannel_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.DataAwsccKinesisChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckinesischannel.DataAwsccKinesisChannel_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannel.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.DataAwsccKinesisChannel_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckinesischannel.DataAwsccKinesisChannel_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.DataAwsccKinesisChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKinesisChannel to
 
 The id of the existing DataAwsccKinesisChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesis_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesis_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesis_channel#id DataAwsccKinesisChannel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesis_channel#id DataAwsccKinesisChannel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelEncryptionConfiguration {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelLoggingConfiguration {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelLoggingConfigurationCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelLoggingConfigurationCloudwatchLogs {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3DestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelS3DestinationConfiguration {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3DestinationConfigurationDeadLetterQueueS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelS3DestinationConfigurationDeadLetterQueueS3Configuration {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3DestinationConfigurationStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelS3DestinationConfigurationStorageConfiguration {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelS3TablesDestinationConfiguration {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3Configuration {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpec {
 
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFields {
 
@@ -970,7 +970,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStruct {
 
@@ -983,7 +983,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelStreamConfigurationListRecordConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelStreamConfigurationListRecordConfiguration {
 
@@ -996,7 +996,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelStreamConfigurationListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelStreamConfigurationListStruct {
 
@@ -1009,7 +1009,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 &dataawscckinesischannel.DataAwsccKinesisChannelTags {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischanne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisChannelEncryptionConfigurationOutputReference
 ```
@@ -1295,7 +1295,7 @@ func InternalValue() DataAwsccKinesisChannelEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelLoggingConfigurationCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelLoggingConfigurationCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisChannelLoggingConfigurationCloudwatchLogsOutputReference
 ```
@@ -1577,7 +1577,7 @@ func InternalValue() DataAwsccKinesisChannelLoggingConfigurationCloudwatchLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisChannelLoggingConfigurationOutputReference
 ```
@@ -1837,7 +1837,7 @@ func InternalValue() DataAwsccKinesisChannelLoggingConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3DestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelS3DestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisChannelS3DestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference
 ```
@@ -2119,7 +2119,7 @@ func InternalValue() DataAwsccKinesisChannelS3DestinationConfigurationDeadLetter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3DestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelS3DestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisChannelS3DestinationConfigurationOutputReference
 ```
@@ -2401,7 +2401,7 @@ func InternalValue() DataAwsccKinesisChannelS3DestinationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3DestinationConfigurationStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelS3DestinationConfigurationStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisChannelS3DestinationConfigurationStorageConfigurationOutputReference
 ```
@@ -2705,7 +2705,7 @@ func InternalValue() DataAwsccKinesisChannelS3DestinationConfigurationStorageCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference
 ```
@@ -2987,7 +2987,7 @@ func InternalValue() DataAwsccKinesisChannelS3TablesDestinationConfigurationDead
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelS3TablesDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisChannelS3TablesDestinationConfigurationOutputReference
 ```
@@ -3269,7 +3269,7 @@ func InternalValue() DataAwsccKinesisChannelS3TablesDestinationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecOutputReference
 ```
@@ -3529,7 +3529,7 @@ func InternalValue() DataAwsccKinesisChannelS3TablesDestinationConfigurationS3Ta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsList
 ```
@@ -3678,7 +3678,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsOutputReference
 ```
@@ -3967,7 +3967,7 @@ func InternalValue() DataAwsccKinesisChannelS3TablesDestinationConfigurationS3Ta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructList
 ```
@@ -4116,7 +4116,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructOutputReference
 ```
@@ -4438,7 +4438,7 @@ func InternalValue() DataAwsccKinesisChannelS3TablesDestinationConfigurationS3Ta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelStreamConfigurationListRecordConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelStreamConfigurationListRecordConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisChannelStreamConfigurationListRecordConfigurationOutputReference
 ```
@@ -4709,7 +4709,7 @@ func InternalValue() DataAwsccKinesisChannelStreamConfigurationListRecordConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelStreamConfigurationListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelStreamConfigurationListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisChannelStreamConfigurationListStructList
 ```
@@ -4858,7 +4858,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelStreamConfigurationListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelStreamConfigurationListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisChannelStreamConfigurationListStructOutputReference
 ```
@@ -5147,7 +5147,7 @@ func InternalValue() DataAwsccKinesisChannelStreamConfigurationListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisChannelTagsList
 ```
@@ -5296,7 +5296,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisChannel.DataAwsccKinesisChannelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesischannel"
 
 dataawscckinesischannel.NewDataAwsccKinesisChannelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisChannelTagsOutputReference
 ```

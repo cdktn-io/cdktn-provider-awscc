@@ -4,12 +4,12 @@
 
 ### SagemakerExperiment <a name="SagemakerExperiment" id="@cdktn/provider-awscc.sagemakerExperiment.SagemakerExperiment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerExperiment.SagemakerExperiment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperiment"
 
 sagemakerexperiment.NewSagemakerExperiment(scope Construct, id *string, config SagemakerExperimentConfig) SagemakerExperiment
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sagemakerExperiment.SagemakerExperiment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperiment"
 
 sagemakerexperiment.SagemakerExperiment_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sagemakerExperiment.SagemakerExperiment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperiment"
 
 sagemakerexperiment.SagemakerExperiment_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ sagemakerexperiment.SagemakerExperiment_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sagemakerExperiment.SagemakerExperiment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperiment"
 
 sagemakerexperiment.SagemakerExperiment_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ sagemakerexperiment.SagemakerExperiment_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sagemakerExperiment.SagemakerExperiment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperiment"
 
 sagemakerexperiment.SagemakerExperiment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the SagemakerExperiment to imp
 
 The id of the existing SagemakerExperiment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerExperiment.SagemakerExperimentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperiment"
 
 &sagemakerexperiment.SagemakerExperimentConfig {
 	Connection: interface{},
@@ -970,7 +970,7 @@ ExperimentName *string
 
 The name of the experiment. Must be unique in your AWS account and is not case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment#experiment_name SagemakerExperiment#experiment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment#experiment_name SagemakerExperiment#experiment_name}
 
 ---
 
@@ -984,7 +984,7 @@ Description *string
 
 The description of the experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment#description SagemakerExperiment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment#description SagemakerExperiment#description}
 
 ---
 
@@ -998,7 +998,7 @@ DisplayName *string
 
 The name of the experiment as displayed. The name does not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment#display_name SagemakerExperiment#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment#display_name SagemakerExperiment#display_name}
 
 ---
 
@@ -1012,7 +1012,7 @@ Tags interface{}
 
 A list of tags to associate with the experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment#tags SagemakerExperiment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment#tags SagemakerExperiment#tags}
 
 ---
 
@@ -1021,7 +1021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerExperiment.SagemakerExperimentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperiment"
 
 &sagemakerexperiment.SagemakerExperimentTags {
 	Key: *string,
@@ -1048,7 +1048,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment#key SagemakerExperiment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment#key SagemakerExperiment#key}
 
 ---
 
@@ -1062,7 +1062,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment#value SagemakerExperiment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment#value SagemakerExperiment#value}
 
 ---
 
@@ -1073,7 +1073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerExperiment.SagemakerExperimentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperiment"
 
 sagemakerexperiment.NewSagemakerExperimentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerExperimentTagsList
 ```
@@ -1233,7 +1233,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerExperiment.SagemakerExperimentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperiment"
 
 sagemakerexperiment.NewSagemakerExperimentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerExperimentTagsOutputReference
 ```

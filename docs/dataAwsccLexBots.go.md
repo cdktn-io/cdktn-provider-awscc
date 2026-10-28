@@ -4,12 +4,12 @@
 
 ### DataAwsccLexBots <a name="DataAwsccLexBots" id="@cdktn/provider-awscc.dataAwsccLexBots.DataAwsccLexBots"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bots awscc_lex_bots}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bots awscc_lex_bots}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBots.DataAwsccLexBots.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbots"
 
 dataawscclexbots.NewDataAwsccLexBots(scope Construct, id *string, config DataAwsccLexBotsConfig) DataAwsccLexBots
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLexBots.DataAwsccLexBots.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbots"
 
 dataawscclexbots.DataAwsccLexBots_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLexBots.DataAwsccLexBots.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbots"
 
 dataawscclexbots.DataAwsccLexBots_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclexbots.DataAwsccLexBots_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLexBots.DataAwsccLexBots.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbots"
 
 dataawscclexbots.DataAwsccLexBots_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclexbots.DataAwsccLexBots_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLexBots.DataAwsccLexBots.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbots"
 
 dataawscclexbots.DataAwsccLexBots_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLexBots to import
 
 The id of the existing DataAwsccLexBots that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bots#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bots#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBots.DataAwsccLexBotsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbots"
 
 &dataawscclexbots.DataAwsccLexBotsConfig {
 	Connection: interface{},

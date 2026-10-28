@@ -4,12 +4,12 @@
 
 ### IotanalyticsDataset <a name="IotanalyticsDataset" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset awscc_iotanalytics_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset awscc_iotanalytics_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDataset(scope Construct, id *string, config IotanalyticsDatasetConfig) IotanalyticsDataset
 ```
@@ -540,7 +540,7 @@ func ResetVersioningConfiguration()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.IotanalyticsDataset_IsConstruct(x interface{}) *bool
 ```
@@ -572,7 +572,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.IotanalyticsDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -586,7 +586,7 @@ iotanalyticsdataset.IotanalyticsDataset_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDataset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.IotanalyticsDataset_IsTerraformResource(x interface{}) *bool
 ```
@@ -600,7 +600,7 @@ iotanalyticsdataset.IotanalyticsDataset_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.IotanalyticsDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -629,7 +629,7 @@ The construct id used in the generated config for the IotanalyticsDataset to imp
 
 The id of the existing IotanalyticsDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1027,12 +1027,12 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetActions {
 	ActionName: *string,
-	ContainerAction: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction,
-	QueryAction: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryAction,
+	ContainerAction: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction,
+	QueryAction: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetActionsQueryAction,
 }
 ```
 
@@ -1040,9 +1040,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActions.property.actionName">ActionName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#action_name IotanalyticsDataset#action_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActions.property.containerAction">ContainerAction</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction">IotanalyticsDatasetActionsContainerAction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#container_action IotanalyticsDataset#container_action}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActions.property.queryAction">QueryAction</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryAction">IotanalyticsDatasetActionsQueryAction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#query_action IotanalyticsDataset#query_action}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActions.property.actionName">ActionName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#action_name IotanalyticsDataset#action_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActions.property.containerAction">ContainerAction</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction">IotanalyticsDatasetActionsContainerAction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#container_action IotanalyticsDataset#container_action}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActions.property.queryAction">QueryAction</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryAction">IotanalyticsDatasetActionsQueryAction</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#query_action IotanalyticsDataset#query_action}. |
 
 ---
 
@@ -1054,7 +1054,7 @@ ActionName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#action_name IotanalyticsDataset#action_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#action_name IotanalyticsDataset#action_name}.
 
 ---
 
@@ -1066,7 +1066,7 @@ ContainerAction IotanalyticsDatasetActionsContainerAction
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction">IotanalyticsDatasetActionsContainerAction</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#container_action IotanalyticsDataset#container_action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#container_action IotanalyticsDataset#container_action}.
 
 ---
 
@@ -1078,7 +1078,7 @@ QueryAction IotanalyticsDatasetActionsQueryAction
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryAction">IotanalyticsDatasetActionsQueryAction</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#query_action IotanalyticsDataset#query_action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#query_action IotanalyticsDataset#query_action}.
 
 ---
 
@@ -1087,12 +1087,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetActionsContainerAction {
 	ExecutionRoleArn: *string,
 	Image: *string,
-	ResourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionResourceConfiguration,
+	ResourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionResourceConfiguration,
 	Variables: interface{},
 }
 ```
@@ -1101,10 +1101,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction.property.executionRoleArn">ExecutionRoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#execution_role_arn IotanalyticsDataset#execution_role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction.property.image">Image</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#image IotanalyticsDataset#image}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction.property.resourceConfiguration">ResourceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionResourceConfiguration">IotanalyticsDatasetActionsContainerActionResourceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#resource_configuration IotanalyticsDataset#resource_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction.property.variables">Variables</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#variables IotanalyticsDataset#variables}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction.property.executionRoleArn">ExecutionRoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#execution_role_arn IotanalyticsDataset#execution_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction.property.image">Image</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#image IotanalyticsDataset#image}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction.property.resourceConfiguration">ResourceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionResourceConfiguration">IotanalyticsDatasetActionsContainerActionResourceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#resource_configuration IotanalyticsDataset#resource_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerAction.property.variables">Variables</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#variables IotanalyticsDataset#variables}. |
 
 ---
 
@@ -1116,7 +1116,7 @@ ExecutionRoleArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#execution_role_arn IotanalyticsDataset#execution_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#execution_role_arn IotanalyticsDataset#execution_role_arn}.
 
 ---
 
@@ -1128,7 +1128,7 @@ Image *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#image IotanalyticsDataset#image}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#image IotanalyticsDataset#image}.
 
 ---
 
@@ -1140,7 +1140,7 @@ ResourceConfiguration IotanalyticsDatasetActionsContainerActionResourceConfigura
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionResourceConfiguration">IotanalyticsDatasetActionsContainerActionResourceConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#resource_configuration IotanalyticsDataset#resource_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#resource_configuration IotanalyticsDataset#resource_configuration}.
 
 ---
 
@@ -1152,7 +1152,7 @@ Variables interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#variables IotanalyticsDataset#variables}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#variables IotanalyticsDataset#variables}.
 
 ---
 
@@ -1161,7 +1161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionResourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetActionsContainerActionResourceConfiguration {
 	ComputeType: *string,
@@ -1173,8 +1173,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionResourceConfiguration.property.computeType">ComputeType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#compute_type IotanalyticsDataset#compute_type}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionResourceConfiguration.property.volumeSizeInGb">VolumeSizeInGb</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#volume_size_in_gb IotanalyticsDataset#volume_size_in_gb}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionResourceConfiguration.property.computeType">ComputeType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#compute_type IotanalyticsDataset#compute_type}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionResourceConfiguration.property.volumeSizeInGb">VolumeSizeInGb</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#volume_size_in_gb IotanalyticsDataset#volume_size_in_gb}. |
 
 ---
 
@@ -1186,7 +1186,7 @@ ComputeType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#compute_type IotanalyticsDataset#compute_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#compute_type IotanalyticsDataset#compute_type}.
 
 ---
 
@@ -1198,7 +1198,7 @@ VolumeSizeInGb *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#volume_size_in_gb IotanalyticsDataset#volume_size_in_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#volume_size_in_gb IotanalyticsDataset#volume_size_in_gb}.
 
 ---
 
@@ -1207,12 +1207,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetActionsContainerActionVariables {
-	DatasetContentVersionValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue,
+	DatasetContentVersionValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue,
 	DoubleValue: *f64,
-	OutputFileUriValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue,
+	OutputFileUriValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue,
 	StringValue: *string,
 	VariableName: *string,
 }
@@ -1222,11 +1222,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariables.property.datasetContentVersionValue">DatasetContentVersionValue</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue">IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#dataset_content_version_value IotanalyticsDataset#dataset_content_version_value}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariables.property.doubleValue">DoubleValue</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#double_value IotanalyticsDataset#double_value}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariables.property.outputFileUriValue">OutputFileUriValue</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue">IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#output_file_uri_value IotanalyticsDataset#output_file_uri_value}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariables.property.stringValue">StringValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#string_value IotanalyticsDataset#string_value}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariables.property.variableName">VariableName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#variable_name IotanalyticsDataset#variable_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariables.property.datasetContentVersionValue">DatasetContentVersionValue</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue">IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#dataset_content_version_value IotanalyticsDataset#dataset_content_version_value}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariables.property.doubleValue">DoubleValue</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#double_value IotanalyticsDataset#double_value}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariables.property.outputFileUriValue">OutputFileUriValue</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue">IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#output_file_uri_value IotanalyticsDataset#output_file_uri_value}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariables.property.stringValue">StringValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#string_value IotanalyticsDataset#string_value}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariables.property.variableName">VariableName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#variable_name IotanalyticsDataset#variable_name}. |
 
 ---
 
@@ -1238,7 +1238,7 @@ DatasetContentVersionValue IotanalyticsDatasetActionsContainerActionVariablesDat
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue">IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#dataset_content_version_value IotanalyticsDataset#dataset_content_version_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#dataset_content_version_value IotanalyticsDataset#dataset_content_version_value}.
 
 ---
 
@@ -1250,7 +1250,7 @@ DoubleValue *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#double_value IotanalyticsDataset#double_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#double_value IotanalyticsDataset#double_value}.
 
 ---
 
@@ -1262,7 +1262,7 @@ OutputFileUriValue IotanalyticsDatasetActionsContainerActionVariablesOutputFileU
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue">IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#output_file_uri_value IotanalyticsDataset#output_file_uri_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#output_file_uri_value IotanalyticsDataset#output_file_uri_value}.
 
 ---
 
@@ -1274,7 +1274,7 @@ StringValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#string_value IotanalyticsDataset#string_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#string_value IotanalyticsDataset#string_value}.
 
 ---
 
@@ -1286,7 +1286,7 @@ VariableName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#variable_name IotanalyticsDataset#variable_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#variable_name IotanalyticsDataset#variable_name}.
 
 ---
 
@@ -1295,7 +1295,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue {
 	DatasetName: *string,
@@ -1306,7 +1306,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue.property.datasetName">DatasetName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValue.property.datasetName">DatasetName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}. |
 
 ---
 
@@ -1318,7 +1318,7 @@ DatasetName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}.
 
 ---
 
@@ -1327,7 +1327,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue {
 	FileName: *string,
@@ -1338,7 +1338,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue.property.fileName">FileName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#file_name IotanalyticsDataset#file_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValue.property.fileName">FileName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#file_name IotanalyticsDataset#file_name}. |
 
 ---
 
@@ -1350,7 +1350,7 @@ FileName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#file_name IotanalyticsDataset#file_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#file_name IotanalyticsDataset#file_name}.
 
 ---
 
@@ -1359,7 +1359,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetActionsQueryAction {
 	Filters: interface{},
@@ -1371,8 +1371,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryAction.property.filters">Filters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#filters IotanalyticsDataset#filters}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryAction.property.sqlQuery">SqlQuery</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#sql_query IotanalyticsDataset#sql_query}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryAction.property.filters">Filters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#filters IotanalyticsDataset#filters}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryAction.property.sqlQuery">SqlQuery</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#sql_query IotanalyticsDataset#sql_query}. |
 
 ---
 
@@ -1384,7 +1384,7 @@ Filters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#filters IotanalyticsDataset#filters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#filters IotanalyticsDataset#filters}.
 
 ---
 
@@ -1396,7 +1396,7 @@ SqlQuery *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#sql_query IotanalyticsDataset#sql_query}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#sql_query IotanalyticsDataset#sql_query}.
 
 ---
 
@@ -1405,10 +1405,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetActionsQueryActionFilters {
-	DeltaTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTime,
+	DeltaTime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTime,
 }
 ```
 
@@ -1416,7 +1416,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFilters.property.deltaTime">DeltaTime</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTime">IotanalyticsDatasetActionsQueryActionFiltersDeltaTime</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#delta_time IotanalyticsDataset#delta_time}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFilters.property.deltaTime">DeltaTime</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTime">IotanalyticsDatasetActionsQueryActionFiltersDeltaTime</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#delta_time IotanalyticsDataset#delta_time}. |
 
 ---
 
@@ -1428,7 +1428,7 @@ DeltaTime IotanalyticsDatasetActionsQueryActionFiltersDeltaTime
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTime">IotanalyticsDatasetActionsQueryActionFiltersDeltaTime</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#delta_time IotanalyticsDataset#delta_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#delta_time IotanalyticsDataset#delta_time}.
 
 ---
 
@@ -1437,7 +1437,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTime {
 	OffsetSeconds: *f64,
@@ -1449,8 +1449,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTime.property.offsetSeconds">OffsetSeconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#offset_seconds IotanalyticsDataset#offset_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTime.property.timeExpression">TimeExpression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#time_expression IotanalyticsDataset#time_expression}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTime.property.offsetSeconds">OffsetSeconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#offset_seconds IotanalyticsDataset#offset_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTime.property.timeExpression">TimeExpression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#time_expression IotanalyticsDataset#time_expression}. |
 
 ---
 
@@ -1462,7 +1462,7 @@ OffsetSeconds *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#offset_seconds IotanalyticsDataset#offset_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#offset_seconds IotanalyticsDataset#offset_seconds}.
 
 ---
 
@@ -1474,7 +1474,7 @@ TimeExpression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#time_expression IotanalyticsDataset#time_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#time_expression IotanalyticsDataset#time_expression}.
 
 ---
 
@@ -1483,7 +1483,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetConfig {
 	Connection: interface{},
@@ -1497,10 +1497,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 	ContentDeliveryRules: interface{},
 	DatasetName: *string,
 	LateDataRules: interface{},
-	RetentionPeriod: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetRetentionPeriod,
+	RetentionPeriod: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetRetentionPeriod,
 	Tags: interface{},
 	Triggers: interface{},
-	VersioningConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetVersioningConfiguration,
+	VersioningConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetVersioningConfiguration,
 }
 ```
 
@@ -1515,14 +1515,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.actions">Actions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#actions IotanalyticsDataset#actions}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.contentDeliveryRules">ContentDeliveryRules</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#content_delivery_rules IotanalyticsDataset#content_delivery_rules}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.datasetName">DatasetName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.lateDataRules">LateDataRules</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#late_data_rules IotanalyticsDataset#late_data_rules}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.retentionPeriod">RetentionPeriod</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetRetentionPeriod">IotanalyticsDatasetRetentionPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#retention_period IotanalyticsDataset#retention_period}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#tags IotanalyticsDataset#tags}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.triggers">Triggers</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#triggers IotanalyticsDataset#triggers}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.versioningConfiguration">VersioningConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetVersioningConfiguration">IotanalyticsDatasetVersioningConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#versioning_configuration IotanalyticsDataset#versioning_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.actions">Actions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#actions IotanalyticsDataset#actions}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.contentDeliveryRules">ContentDeliveryRules</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#content_delivery_rules IotanalyticsDataset#content_delivery_rules}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.datasetName">DatasetName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.lateDataRules">LateDataRules</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#late_data_rules IotanalyticsDataset#late_data_rules}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.retentionPeriod">RetentionPeriod</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetRetentionPeriod">IotanalyticsDatasetRetentionPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#retention_period IotanalyticsDataset#retention_period}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#tags IotanalyticsDataset#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.triggers">Triggers</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#triggers IotanalyticsDataset#triggers}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetConfig.property.versioningConfiguration">VersioningConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetVersioningConfiguration">IotanalyticsDatasetVersioningConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#versioning_configuration IotanalyticsDataset#versioning_configuration}. |
 
 ---
 
@@ -1604,7 +1604,7 @@ Actions interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#actions IotanalyticsDataset#actions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#actions IotanalyticsDataset#actions}.
 
 ---
 
@@ -1616,7 +1616,7 @@ ContentDeliveryRules interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#content_delivery_rules IotanalyticsDataset#content_delivery_rules}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#content_delivery_rules IotanalyticsDataset#content_delivery_rules}.
 
 ---
 
@@ -1628,7 +1628,7 @@ DatasetName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}.
 
 ---
 
@@ -1640,7 +1640,7 @@ LateDataRules interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#late_data_rules IotanalyticsDataset#late_data_rules}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#late_data_rules IotanalyticsDataset#late_data_rules}.
 
 ---
 
@@ -1652,7 +1652,7 @@ RetentionPeriod IotanalyticsDatasetRetentionPeriod
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetRetentionPeriod">IotanalyticsDatasetRetentionPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#retention_period IotanalyticsDataset#retention_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#retention_period IotanalyticsDataset#retention_period}.
 
 ---
 
@@ -1664,7 +1664,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#tags IotanalyticsDataset#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#tags IotanalyticsDataset#tags}.
 
 ---
 
@@ -1676,7 +1676,7 @@ Triggers interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#triggers IotanalyticsDataset#triggers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#triggers IotanalyticsDataset#triggers}.
 
 ---
 
@@ -1688,7 +1688,7 @@ VersioningConfiguration IotanalyticsDatasetVersioningConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetVersioningConfiguration">IotanalyticsDatasetVersioningConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#versioning_configuration IotanalyticsDataset#versioning_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#versioning_configuration IotanalyticsDataset#versioning_configuration}.
 
 ---
 
@@ -1697,10 +1697,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetContentDeliveryRules {
-	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestination,
+	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestination,
 	EntryName: *string,
 }
 ```
@@ -1709,8 +1709,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRules.property.destination">Destination</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestination">IotanalyticsDatasetContentDeliveryRulesDestination</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#destination IotanalyticsDataset#destination}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRules.property.entryName">EntryName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#entry_name IotanalyticsDataset#entry_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRules.property.destination">Destination</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestination">IotanalyticsDatasetContentDeliveryRulesDestination</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#destination IotanalyticsDataset#destination}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRules.property.entryName">EntryName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#entry_name IotanalyticsDataset#entry_name}. |
 
 ---
 
@@ -1722,7 +1722,7 @@ Destination IotanalyticsDatasetContentDeliveryRulesDestination
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestination">IotanalyticsDatasetContentDeliveryRulesDestination</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#destination IotanalyticsDataset#destination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#destination IotanalyticsDataset#destination}.
 
 ---
 
@@ -1734,7 +1734,7 @@ EntryName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#entry_name IotanalyticsDataset#entry_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#entry_name IotanalyticsDataset#entry_name}.
 
 ---
 
@@ -1743,11 +1743,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetContentDeliveryRulesDestination {
-	IotEventsDestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration,
-	S3DestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration,
+	IotEventsDestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration,
+	S3DestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration,
 }
 ```
 
@@ -1755,8 +1755,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestination.property.iotEventsDestinationConfiguration">IotEventsDestinationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration">IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#iot_events_destination_configuration IotanalyticsDataset#iot_events_destination_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestination.property.s3DestinationConfiguration">S3DestinationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration">IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#s3_destination_configuration IotanalyticsDataset#s3_destination_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestination.property.iotEventsDestinationConfiguration">IotEventsDestinationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration">IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#iot_events_destination_configuration IotanalyticsDataset#iot_events_destination_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestination.property.s3DestinationConfiguration">S3DestinationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration">IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#s3_destination_configuration IotanalyticsDataset#s3_destination_configuration}. |
 
 ---
 
@@ -1768,7 +1768,7 @@ IotEventsDestinationConfiguration IotanalyticsDatasetContentDeliveryRulesDestina
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration">IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#iot_events_destination_configuration IotanalyticsDataset#iot_events_destination_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#iot_events_destination_configuration IotanalyticsDataset#iot_events_destination_configuration}.
 
 ---
 
@@ -1780,7 +1780,7 @@ S3DestinationConfiguration IotanalyticsDatasetContentDeliveryRulesDestinationS3D
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration">IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#s3_destination_configuration IotanalyticsDataset#s3_destination_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#s3_destination_configuration IotanalyticsDataset#s3_destination_configuration}.
 
 ---
 
@@ -1789,7 +1789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration {
 	InputName: *string,
@@ -1801,8 +1801,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration.property.inputName">InputName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#input_name IotanalyticsDataset#input_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#role_arn IotanalyticsDataset#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration.property.inputName">InputName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#input_name IotanalyticsDataset#input_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfiguration.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#role_arn IotanalyticsDataset#role_arn}. |
 
 ---
 
@@ -1814,7 +1814,7 @@ InputName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#input_name IotanalyticsDataset#input_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#input_name IotanalyticsDataset#input_name}.
 
 ---
 
@@ -1826,7 +1826,7 @@ RoleArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#role_arn IotanalyticsDataset#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#role_arn IotanalyticsDataset#role_arn}.
 
 ---
 
@@ -1835,11 +1835,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration {
 	Bucket: *string,
-	GlueConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration,
+	GlueConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration,
 	Key: *string,
 	RoleArn: *string,
 }
@@ -1849,10 +1849,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#bucket IotanalyticsDataset#bucket}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration.property.glueConfiguration">GlueConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration">IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#glue_configuration IotanalyticsDataset#glue_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#key IotanalyticsDataset#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#role_arn IotanalyticsDataset#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#bucket IotanalyticsDataset#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration.property.glueConfiguration">GlueConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration">IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#glue_configuration IotanalyticsDataset#glue_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#key IotanalyticsDataset#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfiguration.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#role_arn IotanalyticsDataset#role_arn}. |
 
 ---
 
@@ -1864,7 +1864,7 @@ Bucket *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#bucket IotanalyticsDataset#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#bucket IotanalyticsDataset#bucket}.
 
 ---
 
@@ -1876,7 +1876,7 @@ GlueConfiguration IotanalyticsDatasetContentDeliveryRulesDestinationS3Destinatio
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration">IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#glue_configuration IotanalyticsDataset#glue_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#glue_configuration IotanalyticsDataset#glue_configuration}.
 
 ---
 
@@ -1888,7 +1888,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#key IotanalyticsDataset#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#key IotanalyticsDataset#key}.
 
 ---
 
@@ -1900,7 +1900,7 @@ RoleArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#role_arn IotanalyticsDataset#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#role_arn IotanalyticsDataset#role_arn}.
 
 ---
 
@@ -1909,7 +1909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration {
 	DatabaseName: *string,
@@ -1921,8 +1921,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration.property.databaseName">DatabaseName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#database_name IotanalyticsDataset#database_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration.property.tableName">TableName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#table_name IotanalyticsDataset#table_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration.property.databaseName">DatabaseName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#database_name IotanalyticsDataset#database_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfiguration.property.tableName">TableName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#table_name IotanalyticsDataset#table_name}. |
 
 ---
 
@@ -1934,7 +1934,7 @@ DatabaseName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#database_name IotanalyticsDataset#database_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#database_name IotanalyticsDataset#database_name}.
 
 ---
 
@@ -1946,7 +1946,7 @@ TableName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#table_name IotanalyticsDataset#table_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#table_name IotanalyticsDataset#table_name}.
 
 ---
 
@@ -1955,10 +1955,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetLateDataRules {
-	RuleConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfiguration,
+	RuleConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfiguration,
 	RuleName: *string,
 }
 ```
@@ -1967,8 +1967,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRules.property.ruleConfiguration">RuleConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfiguration">IotanalyticsDatasetLateDataRulesRuleConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#rule_configuration IotanalyticsDataset#rule_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRules.property.ruleName">RuleName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#rule_name IotanalyticsDataset#rule_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRules.property.ruleConfiguration">RuleConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfiguration">IotanalyticsDatasetLateDataRulesRuleConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#rule_configuration IotanalyticsDataset#rule_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRules.property.ruleName">RuleName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#rule_name IotanalyticsDataset#rule_name}. |
 
 ---
 
@@ -1980,7 +1980,7 @@ RuleConfiguration IotanalyticsDatasetLateDataRulesRuleConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfiguration">IotanalyticsDatasetLateDataRulesRuleConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#rule_configuration IotanalyticsDataset#rule_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#rule_configuration IotanalyticsDataset#rule_configuration}.
 
 ---
 
@@ -1992,7 +1992,7 @@ RuleName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#rule_name IotanalyticsDataset#rule_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#rule_name IotanalyticsDataset#rule_name}.
 
 ---
 
@@ -2001,10 +2001,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetLateDataRulesRuleConfiguration {
-	DeltaTimeSessionWindowConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration,
+	DeltaTimeSessionWindowConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration,
 }
 ```
 
@@ -2012,7 +2012,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfiguration.property.deltaTimeSessionWindowConfiguration">DeltaTimeSessionWindowConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration">IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#delta_time_session_window_configuration IotanalyticsDataset#delta_time_session_window_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfiguration.property.deltaTimeSessionWindowConfiguration">DeltaTimeSessionWindowConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration">IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#delta_time_session_window_configuration IotanalyticsDataset#delta_time_session_window_configuration}. |
 
 ---
 
@@ -2024,7 +2024,7 @@ DeltaTimeSessionWindowConfiguration IotanalyticsDatasetLateDataRulesRuleConfigur
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration">IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#delta_time_session_window_configuration IotanalyticsDataset#delta_time_session_window_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#delta_time_session_window_configuration IotanalyticsDataset#delta_time_session_window_configuration}.
 
 ---
 
@@ -2033,7 +2033,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration {
 	TimeoutInMinutes: *f64,
@@ -2044,7 +2044,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration.property.timeoutInMinutes">TimeoutInMinutes</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#timeout_in_minutes IotanalyticsDataset#timeout_in_minutes}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfiguration.property.timeoutInMinutes">TimeoutInMinutes</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#timeout_in_minutes IotanalyticsDataset#timeout_in_minutes}. |
 
 ---
 
@@ -2056,7 +2056,7 @@ TimeoutInMinutes *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#timeout_in_minutes IotanalyticsDataset#timeout_in_minutes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#timeout_in_minutes IotanalyticsDataset#timeout_in_minutes}.
 
 ---
 
@@ -2065,7 +2065,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetRetentionPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetRetentionPeriod {
 	NumberOfDays: *f64,
@@ -2077,8 +2077,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetRetentionPeriod.property.numberOfDays">NumberOfDays</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#number_of_days IotanalyticsDataset#number_of_days}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetRetentionPeriod.property.unlimited">Unlimited</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#unlimited IotanalyticsDataset#unlimited}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetRetentionPeriod.property.numberOfDays">NumberOfDays</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#number_of_days IotanalyticsDataset#number_of_days}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetRetentionPeriod.property.unlimited">Unlimited</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#unlimited IotanalyticsDataset#unlimited}. |
 
 ---
 
@@ -2090,7 +2090,7 @@ NumberOfDays *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#number_of_days IotanalyticsDataset#number_of_days}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#number_of_days IotanalyticsDataset#number_of_days}.
 
 ---
 
@@ -2102,7 +2102,7 @@ Unlimited interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#unlimited IotanalyticsDataset#unlimited}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#unlimited IotanalyticsDataset#unlimited}.
 
 ---
 
@@ -2111,7 +2111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetTags {
 	Key: *string,
@@ -2123,8 +2123,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#key IotanalyticsDataset#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#value IotanalyticsDataset#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#key IotanalyticsDataset#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#value IotanalyticsDataset#value}. |
 
 ---
 
@@ -2136,7 +2136,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#key IotanalyticsDataset#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#key IotanalyticsDataset#key}.
 
 ---
 
@@ -2148,7 +2148,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#value IotanalyticsDataset#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#value IotanalyticsDataset#value}.
 
 ---
 
@@ -2157,11 +2157,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetTriggers {
-	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersSchedule,
-	TriggeringDataset: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersTriggeringDataset,
+	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetTriggersSchedule,
+	TriggeringDataset: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotanalyticsDataset.IotanalyticsDatasetTriggersTriggeringDataset,
 }
 ```
 
@@ -2169,8 +2169,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggers.property.schedule">Schedule</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersSchedule">IotanalyticsDatasetTriggersSchedule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#schedule IotanalyticsDataset#schedule}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggers.property.triggeringDataset">TriggeringDataset</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersTriggeringDataset">IotanalyticsDatasetTriggersTriggeringDataset</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#triggering_dataset IotanalyticsDataset#triggering_dataset}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggers.property.schedule">Schedule</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersSchedule">IotanalyticsDatasetTriggersSchedule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#schedule IotanalyticsDataset#schedule}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggers.property.triggeringDataset">TriggeringDataset</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersTriggeringDataset">IotanalyticsDatasetTriggersTriggeringDataset</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#triggering_dataset IotanalyticsDataset#triggering_dataset}. |
 
 ---
 
@@ -2182,7 +2182,7 @@ Schedule IotanalyticsDatasetTriggersSchedule
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersSchedule">IotanalyticsDatasetTriggersSchedule</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#schedule IotanalyticsDataset#schedule}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#schedule IotanalyticsDataset#schedule}.
 
 ---
 
@@ -2194,7 +2194,7 @@ TriggeringDataset IotanalyticsDatasetTriggersTriggeringDataset
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersTriggeringDataset">IotanalyticsDatasetTriggersTriggeringDataset</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#triggering_dataset IotanalyticsDataset#triggering_dataset}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#triggering_dataset IotanalyticsDataset#triggering_dataset}.
 
 ---
 
@@ -2203,7 +2203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetTriggersSchedule {
 	ScheduleExpression: *string,
@@ -2214,7 +2214,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersSchedule.property.scheduleExpression">ScheduleExpression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#schedule_expression IotanalyticsDataset#schedule_expression}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersSchedule.property.scheduleExpression">ScheduleExpression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#schedule_expression IotanalyticsDataset#schedule_expression}. |
 
 ---
 
@@ -2226,7 +2226,7 @@ ScheduleExpression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#schedule_expression IotanalyticsDataset#schedule_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#schedule_expression IotanalyticsDataset#schedule_expression}.
 
 ---
 
@@ -2235,7 +2235,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersTriggeringDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetTriggersTriggeringDataset {
 	DatasetName: *string,
@@ -2246,7 +2246,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersTriggeringDataset.property.datasetName">DatasetName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersTriggeringDataset.property.datasetName">DatasetName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}. |
 
 ---
 
@@ -2258,7 +2258,7 @@ DatasetName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}.
 
 ---
 
@@ -2267,7 +2267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetVersioningConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 &iotanalyticsdataset.IotanalyticsDatasetVersioningConfiguration {
 	MaxVersions: *f64,
@@ -2279,8 +2279,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetVersioningConfiguration.property.maxVersions">MaxVersions</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#max_versions IotanalyticsDataset#max_versions}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetVersioningConfiguration.property.unlimited">Unlimited</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#unlimited IotanalyticsDataset#unlimited}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetVersioningConfiguration.property.maxVersions">MaxVersions</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#max_versions IotanalyticsDataset#max_versions}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetVersioningConfiguration.property.unlimited">Unlimited</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#unlimited IotanalyticsDataset#unlimited}. |
 
 ---
 
@@ -2292,7 +2292,7 @@ MaxVersions *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#max_versions IotanalyticsDataset#max_versions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#max_versions IotanalyticsDataset#max_versions}.
 
 ---
 
@@ -2304,7 +2304,7 @@ Unlimited interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset#unlimited IotanalyticsDataset#unlimited}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset#unlimited IotanalyticsDataset#unlimited}.
 
 ---
 
@@ -2315,7 +2315,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsContainerActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetActionsContainerActionOutputReference
 ```
@@ -2706,7 +2706,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionResourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsContainerActionResourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetActionsContainerActionResourceConfigurationOutputReference
 ```
@@ -3013,7 +3013,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetActionsContainerActionVariablesDatasetContentVersionValueOutputReference
 ```
@@ -3291,7 +3291,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsContainerActionVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotanalyticsDatasetActionsContainerActionVariablesList
 ```
@@ -3451,7 +3451,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetActionsContainerActionVariablesOutputFileUriValueOutputReference
 ```
@@ -3729,7 +3729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsContainerActionVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsContainerActionVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotanalyticsDatasetActionsContainerActionVariablesOutputReference
 ```
@@ -4167,7 +4167,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotanalyticsDatasetActionsList
 ```
@@ -4327,7 +4327,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotanalyticsDatasetActionsOutputReference
 ```
@@ -4700,7 +4700,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersDeltaTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsQueryActionFiltersDeltaTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetActionsQueryActionFiltersDeltaTimeOutputReference
 ```
@@ -5007,7 +5007,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsQueryActionFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotanalyticsDatasetActionsQueryActionFiltersList
 ```
@@ -5167,7 +5167,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsQueryActionFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotanalyticsDatasetActionsQueryActionFiltersOutputReference
 ```
@@ -5476,7 +5476,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetActionsQueryActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetActionsQueryActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetActionsQueryActionOutputReference
 ```
@@ -5796,7 +5796,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetContentDeliveryRulesDestinationIotEventsDestinationConfigurationOutputReference
 ```
@@ -6103,7 +6103,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetContentDeliveryRulesDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetContentDeliveryRulesDestinationOutputReference
 ```
@@ -6436,7 +6436,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationGlueConfigurationOutputReference
 ```
@@ -6743,7 +6743,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetContentDeliveryRulesDestinationS3DestinationConfigurationOutputReference
 ```
@@ -7121,7 +7121,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetContentDeliveryRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotanalyticsDatasetContentDeliveryRulesList
 ```
@@ -7281,7 +7281,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetContentDeliveryRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetContentDeliveryRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotanalyticsDatasetContentDeliveryRulesOutputReference
 ```
@@ -7619,7 +7619,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetLateDataRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotanalyticsDatasetLateDataRulesList
 ```
@@ -7779,7 +7779,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetLateDataRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotanalyticsDatasetLateDataRulesOutputReference
 ```
@@ -8117,7 +8117,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetLateDataRulesRuleConfigurationDeltaTimeSessionWindowConfigurationOutputReference
 ```
@@ -8395,7 +8395,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetLateDataRulesRuleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetLateDataRulesRuleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetLateDataRulesRuleConfigurationOutputReference
 ```
@@ -8686,7 +8686,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetRetentionPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetRetentionPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetRetentionPeriodOutputReference
 ```
@@ -8993,7 +8993,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotanalyticsDatasetTagsList
 ```
@@ -9153,7 +9153,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotanalyticsDatasetTagsOutputReference
 ```
@@ -9478,7 +9478,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetTriggersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotanalyticsDatasetTriggersList
 ```
@@ -9638,7 +9638,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetTriggersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotanalyticsDatasetTriggersOutputReference
 ```
@@ -9989,7 +9989,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetTriggersScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetTriggersScheduleOutputReference
 ```
@@ -10267,7 +10267,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetTriggersTriggeringDatasetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetTriggersTriggeringDatasetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetTriggersTriggeringDatasetOutputReference
 ```
@@ -10545,7 +10545,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsDataset.IotanalyticsDatasetVersioningConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset"
 
 iotanalyticsdataset.NewIotanalyticsDatasetVersioningConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotanalyticsDatasetVersioningConfigurationOutputReference
 ```

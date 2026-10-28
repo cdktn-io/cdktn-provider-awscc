@@ -4,12 +4,12 @@
 
 ### DataAwsccCodebuildReportGroup <a name="DataAwsccCodebuildReportGroup" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_report_group awscc_codebuild_report_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_report_group awscc_codebuild_report_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 dataawscccodebuildreportgroup.NewDataAwsccCodebuildReportGroup(scope Construct, id *string, config DataAwsccCodebuildReportGroupConfig) DataAwsccCodebuildReportGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 dataawscccodebuildreportgroup.DataAwsccCodebuildReportGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 dataawscccodebuildreportgroup.DataAwsccCodebuildReportGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodebuildreportgroup.DataAwsccCodebuildReportGroup_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 dataawscccodebuildreportgroup.DataAwsccCodebuildReportGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodebuildreportgroup.DataAwsccCodebuildReportGroup_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 dataawscccodebuildreportgroup.DataAwsccCodebuildReportGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodebuildReportGr
 
 The id of the existing DataAwsccCodebuildReportGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_report_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_report_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 &dataawscccodebuildreportgroup.DataAwsccCodebuildReportGroupConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_report_group#id DataAwsccCodebuildReportGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_report_group#id DataAwsccCodebuildReportGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroupExportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 &dataawscccodebuildreportgroup.DataAwsccCodebuildReportGroupExportConfig {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildrepo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroupExportConfigS3Destination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 &dataawscccodebuildreportgroup.DataAwsccCodebuildReportGroupExportConfigS3Destination {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildrepo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 &dataawscccodebuildreportgroup.DataAwsccCodebuildReportGroupTags {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildrepo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroupExportConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 dataawscccodebuildreportgroup.NewDataAwsccCodebuildReportGroupExportConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodebuildReportGroupExportConfigOutputReference
 ```
@@ -1086,7 +1086,7 @@ func InternalValue() DataAwsccCodebuildReportGroupExportConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroupExportConfigS3DestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 dataawscccodebuildreportgroup.NewDataAwsccCodebuildReportGroupExportConfigS3DestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodebuildReportGroupExportConfigS3DestinationOutputReference
 ```
@@ -1401,7 +1401,7 @@ func InternalValue() DataAwsccCodebuildReportGroupExportConfigS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 dataawscccodebuildreportgroup.NewDataAwsccCodebuildReportGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodebuildReportGroupTagsList
 ```
@@ -1550,7 +1550,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodebuildReportGroup.DataAwsccCodebuildReportGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildreportgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildreportgroup"
 
 dataawscccodebuildreportgroup.NewDataAwsccCodebuildReportGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodebuildReportGroupTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccConfigConfigurationAggregator <a name="DataAwsccConfigConfigurationAggregator" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_configuration_aggregator awscc_config_configuration_aggregator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_configuration_aggregator awscc_config_configuration_aggregator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 dataawsccconfigconfigurationaggregator.NewDataAwsccConfigConfigurationAggregator(scope Construct, id *string, config DataAwsccConfigConfigurationAggregatorConfig) DataAwsccConfigConfigurationAggregator
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregator.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 dataawsccconfigconfigurationaggregator.DataAwsccConfigConfigurationAggregator_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregator.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 dataawsccconfigconfigurationaggregator.DataAwsccConfigConfigurationAggregator_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconfigconfigurationaggregator.DataAwsccConfigConfigurationAggregator_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregator.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 dataawsccconfigconfigurationaggregator.DataAwsccConfigConfigurationAggregator_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconfigconfigurationaggregator.DataAwsccConfigConfigurationAggregator_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregator.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 dataawsccconfigconfigurationaggregator.DataAwsccConfigConfigurationAggregator_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConfigConfigurati
 
 The id of the existing DataAwsccConfigConfigurationAggregator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_configuration_aggregator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_configuration_aggregator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregatorAccountAggregationSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 &dataawsccconfigconfigurationaggregator.DataAwsccConfigConfigurationAggregatorAccountAggregationSources {
 
@@ -655,7 +655,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregatorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 &dataawsccconfigconfigurationaggregator.DataAwsccConfigConfigurationAggregatorConfig {
 	Connection: interface{},
@@ -764,7 +764,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_configuration_aggregator#id DataAwsccConfigConfigurationAggregator#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_configuration_aggregator#id DataAwsccConfigConfigurationAggregator#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -776,7 +776,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregatorOrganizationAggregationSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 &dataawsccconfigconfigurationaggregator.DataAwsccConfigConfigurationAggregatorOrganizationAggregationSource {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregatorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 &dataawsccconfigconfigurationaggregator.DataAwsccConfigConfigurationAggregatorTags {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregatorAccountAggregationSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 dataawsccconfigconfigurationaggregator.NewDataAwsccConfigConfigurationAggregatorAccountAggregationSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConfigConfigurationAggregatorAccountAggregationSourcesList
 ```
@@ -953,7 +953,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregatorAccountAggregationSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 dataawsccconfigconfigurationaggregator.NewDataAwsccConfigConfigurationAggregatorAccountAggregationSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConfigConfigurationAggregatorAccountAggregationSourcesOutputReference
 ```
@@ -1253,7 +1253,7 @@ func InternalValue() DataAwsccConfigConfigurationAggregatorAccountAggregationSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregatorOrganizationAggregationSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 dataawsccconfigconfigurationaggregator.NewDataAwsccConfigConfigurationAggregatorOrganizationAggregationSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConfigurationAggregatorOrganizationAggregationSourceOutputReference
 ```
@@ -1535,7 +1535,7 @@ func InternalValue() DataAwsccConfigConfigurationAggregatorOrganizationAggregati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregatorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 dataawsccconfigconfigurationaggregator.NewDataAwsccConfigConfigurationAggregatorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConfigConfigurationAggregatorTagsList
 ```
@@ -1684,7 +1684,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationAggregator.DataAwsccConfigConfigurationAggregatorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationaggregator"
 
 dataawsccconfigconfigurationaggregator.NewDataAwsccConfigConfigurationAggregatorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConfigConfigurationAggregatorTagsOutputReference
 ```

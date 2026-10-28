@@ -4,12 +4,12 @@
 
 ### DataAwsccLogsDeliveryDestinations <a name="DataAwsccLogsDeliveryDestinations" id="@cdktn/provider-awscc.dataAwsccLogsDeliveryDestinations.DataAwsccLogsDeliveryDestinations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_delivery_destinations awscc_logs_delivery_destinations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_delivery_destinations awscc_logs_delivery_destinations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsDeliveryDestinations.DataAwsccLogsDeliveryDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliverydestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliverydestinations"
 
 dataawscclogsdeliverydestinations.NewDataAwsccLogsDeliveryDestinations(scope Construct, id *string, config DataAwsccLogsDeliveryDestinationsConfig) DataAwsccLogsDeliveryDestinations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLogsDeliveryDestinations.DataAwsccLogsDeliveryDestinations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliverydestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliverydestinations"
 
 dataawscclogsdeliverydestinations.DataAwsccLogsDeliveryDestinations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLogsDeliveryDestinations.DataAwsccLogsDeliveryDestinations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliverydestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliverydestinations"
 
 dataawscclogsdeliverydestinations.DataAwsccLogsDeliveryDestinations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclogsdeliverydestinations.DataAwsccLogsDeliveryDestinations_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLogsDeliveryDestinations.DataAwsccLogsDeliveryDestinations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliverydestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliverydestinations"
 
 dataawscclogsdeliverydestinations.DataAwsccLogsDeliveryDestinations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclogsdeliverydestinations.DataAwsccLogsDeliveryDestinations_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLogsDeliveryDestinations.DataAwsccLogsDeliveryDestinations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliverydestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliverydestinations"
 
 dataawscclogsdeliverydestinations.DataAwsccLogsDeliveryDestinations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLogsDeliveryDesti
 
 The id of the existing DataAwsccLogsDeliveryDestinations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_delivery_destinations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_delivery_destinations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsDeliveryDestinations.DataAwsccLogsDeliveryDestinationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliverydestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliverydestinations"
 
 &dataawscclogsdeliverydestinations.DataAwsccLogsDeliveryDestinationsConfig {
 	Connection: interface{},

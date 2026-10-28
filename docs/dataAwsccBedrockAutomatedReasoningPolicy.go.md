@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockAutomatedReasoningPolicy <a name="DataAwsccBedrockAutomatedReasoningPolicy" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_automated_reasoning_policy awscc_bedrock_automated_reasoning_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_automated_reasoning_policy awscc_bedrock_automated_reasoning_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicy(scope Construct, id *string, config DataAwsccBedrockAutomatedReasoningPolicyConfig) DataAwsccBedrockAutomatedReasoningPolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolic
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolic
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockAutomatedR
 
 The id of the existing DataAwsccBedrockAutomatedReasoningPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_automated_reasoning_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_automated_reasoning_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 &dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolicyConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_automated_reasoning_policy#id DataAwsccBedrockAutomatedReasoningPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_automated_reasoning_policy#id DataAwsccBedrockAutomatedReasoningPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 &dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinition {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautoma
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 &dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionRules {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautoma
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 &dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypes {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautoma
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 &dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesValues {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautoma
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 &dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionVariables {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautoma
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 &dataawsccbedrockautomatedreasoningpolicy.DataAwsccBedrockAutomatedReasoningPolicyTags {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautoma
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionOutputReference
 ```
@@ -1224,7 +1224,7 @@ func InternalValue() DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionRulesList
 ```
@@ -1373,7 +1373,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionRulesOutputReference
 ```
@@ -1673,7 +1673,7 @@ func InternalValue() DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionRul
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesList
 ```
@@ -1822,7 +1822,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesOutputReference
 ```
@@ -2122,7 +2122,7 @@ func InternalValue() DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTyp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesValuesList
 ```
@@ -2271,7 +2271,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTypesValuesOutputReference
 ```
@@ -2560,7 +2560,7 @@ func InternalValue() DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionTyp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionVariablesList
 ```
@@ -2709,7 +2709,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionVariablesOutputReference
 ```
@@ -3009,7 +3009,7 @@ func InternalValue() DataAwsccBedrockAutomatedReasoningPolicyPolicyDefinitionVar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockAutomatedReasoningPolicyTagsList
 ```
@@ -3158,7 +3158,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicy.DataAwsccBedrockAutomatedReasoningPolicyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicy"
 
 dataawsccbedrockautomatedreasoningpolicy.NewDataAwsccBedrockAutomatedReasoningPolicyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockAutomatedReasoningPolicyTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### ElasticacheUser <a name="ElasticacheUser" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user awscc_elasticache_user}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user awscc_elasticache_user}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheuser"
 
 elasticacheuser.NewElasticacheUser(scope Construct, id *string, config ElasticacheUserConfig) ElasticacheUser
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUser.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheuser"
 
 elasticacheuser.ElasticacheUser_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUser.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheuser"
 
 elasticacheuser.ElasticacheUser_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ elasticacheuser.ElasticacheUser_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUser.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheuser"
 
 elasticacheuser.ElasticacheUser_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ elasticacheuser.ElasticacheUser_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUser.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheuser"
 
 elasticacheuser.ElasticacheUser_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the ElasticacheUser to import.
 
 The id of the existing ElasticacheUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -959,7 +959,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUserAuthenticationMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheuser"
 
 &elasticacheuser.ElasticacheUserAuthenticationMode {
 	Passwords: *[]*string,
@@ -986,7 +986,7 @@ Passwords *[]*string
 
 Passwords used for this user account. You can create up to two passwords for each user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}
 
 ---
 
@@ -1000,7 +1000,7 @@ Type *string
 
 Authentication Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#type ElasticacheUser#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#type ElasticacheUser#type}
 
 ---
 
@@ -1009,7 +1009,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheuser"
 
 &elasticacheuser.ElasticacheUserConfig {
 	Connection: interface{},
@@ -1023,7 +1023,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
 	UserId: *string,
 	UserName: *string,
 	AccessString: *string,
-	AuthenticationMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticacheUser.ElasticacheUserAuthenticationMode,
+	AuthenticationMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticacheUser.ElasticacheUserAuthenticationMode,
 	NoPasswordRequired: interface{},
 	Passwords: *[]*string,
 	Tags: interface{},
@@ -1045,7 +1045,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
 | <code><a href="#@cdktn/provider-awscc.elasticacheUser.ElasticacheUserConfig.property.userId">UserId</a></code> | <code>*string</code> | The ID of the user. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheUser.ElasticacheUserConfig.property.userName">UserName</a></code> | <code>*string</code> | The username of the user. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheUser.ElasticacheUserConfig.property.accessString">AccessString</a></code> | <code>*string</code> | Access permissions string used for this user account. |
-| <code><a href="#@cdktn/provider-awscc.elasticacheUser.ElasticacheUserConfig.property.authenticationMode">AuthenticationMode</a></code> | <code><a href="#@cdktn/provider-awscc.elasticacheUser.ElasticacheUserAuthenticationMode">ElasticacheUserAuthenticationMode</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#authentication_mode ElasticacheUser#authentication_mode}. |
+| <code><a href="#@cdktn/provider-awscc.elasticacheUser.ElasticacheUserConfig.property.authenticationMode">AuthenticationMode</a></code> | <code><a href="#@cdktn/provider-awscc.elasticacheUser.ElasticacheUserAuthenticationMode">ElasticacheUserAuthenticationMode</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#authentication_mode ElasticacheUser#authentication_mode}. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheUser.ElasticacheUserConfig.property.noPasswordRequired">NoPasswordRequired</a></code> | <code>interface{}</code> | Indicates a password is not required for this user account. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheUser.ElasticacheUserConfig.property.passwords">Passwords</a></code> | <code>*[]*string</code> | Passwords used for this user account. You can create up to two passwords for each user. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheUser.ElasticacheUserConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this user. |
@@ -1132,7 +1132,7 @@ Engine *string
 
 The target cache engine for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#engine ElasticacheUser#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#engine ElasticacheUser#engine}
 
 ---
 
@@ -1146,7 +1146,7 @@ UserId *string
 
 The ID of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#user_id ElasticacheUser#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#user_id ElasticacheUser#user_id}
 
 ---
 
@@ -1160,7 +1160,7 @@ UserName *string
 
 The username of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#user_name ElasticacheUser#user_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#user_name ElasticacheUser#user_name}
 
 ---
 
@@ -1174,7 +1174,7 @@ AccessString *string
 
 Access permissions string used for this user account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#access_string ElasticacheUser#access_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#access_string ElasticacheUser#access_string}
 
 ---
 
@@ -1186,7 +1186,7 @@ AuthenticationMode ElasticacheUserAuthenticationMode
 
 - *Type:* <a href="#@cdktn/provider-awscc.elasticacheUser.ElasticacheUserAuthenticationMode">ElasticacheUserAuthenticationMode</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#authentication_mode ElasticacheUser#authentication_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#authentication_mode ElasticacheUser#authentication_mode}.
 
 ---
 
@@ -1200,7 +1200,7 @@ NoPasswordRequired interface{}
 
 Indicates a password is not required for this user account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#no_password_required ElasticacheUser#no_password_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#no_password_required ElasticacheUser#no_password_required}
 
 ---
 
@@ -1214,7 +1214,7 @@ Passwords *[]*string
 
 Passwords used for this user account. You can create up to two passwords for each user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}
 
 ---
 
@@ -1228,7 +1228,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#tags ElasticacheUser#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#tags ElasticacheUser#tags}
 
 ---
 
@@ -1237,7 +1237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUserTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheuser"
 
 &elasticacheuser.ElasticacheUserTags {
 	Key: *string,
@@ -1266,7 +1266,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with 'aws:'. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#key ElasticacheUser#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#key ElasticacheUser#key}
 
 ---
 
@@ -1282,7 +1282,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user#value ElasticacheUser#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user#value ElasticacheUser#value}
 
 ---
 
@@ -1293,7 +1293,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUserAuthenticationModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheuser"
 
 elasticacheuser.NewElasticacheUserAuthenticationModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElasticacheUserAuthenticationModeOutputReference
 ```
@@ -1600,7 +1600,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUserTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheuser"
 
 elasticacheuser.NewElasticacheUserTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElasticacheUserTagsList
 ```
@@ -1760,7 +1760,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheUser.ElasticacheUserTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheuser"
 
 elasticacheuser.NewElasticacheUserTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElasticacheUserTagsOutputReference
 ```

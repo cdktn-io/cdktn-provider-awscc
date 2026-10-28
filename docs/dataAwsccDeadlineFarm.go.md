@@ -4,12 +4,12 @@
 
 ### DataAwsccDeadlineFarm <a name="DataAwsccDeadlineFarm" id="@cdktn/provider-awscc.dataAwsccDeadlineFarm.DataAwsccDeadlineFarm"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_farm awscc_deadline_farm}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_farm awscc_deadline_farm}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFarm.DataAwsccDeadlineFarm.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarm"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarm"
 
 dataawsccdeadlinefarm.NewDataAwsccDeadlineFarm(scope Construct, id *string, config DataAwsccDeadlineFarmConfig) DataAwsccDeadlineFarm
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDeadlineFarm.DataAwsccDeadlineFarm.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarm"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarm"
 
 dataawsccdeadlinefarm.DataAwsccDeadlineFarm_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDeadlineFarm.DataAwsccDeadlineFarm.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarm"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarm"
 
 dataawsccdeadlinefarm.DataAwsccDeadlineFarm_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdeadlinefarm.DataAwsccDeadlineFarm_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDeadlineFarm.DataAwsccDeadlineFarm.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarm"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarm"
 
 dataawsccdeadlinefarm.DataAwsccDeadlineFarm_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdeadlinefarm.DataAwsccDeadlineFarm_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDeadlineFarm.DataAwsccDeadlineFarm.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarm"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarm"
 
 dataawsccdeadlinefarm.DataAwsccDeadlineFarm_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDeadlineFarm to i
 
 The id of the existing DataAwsccDeadlineFarm that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_farm#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_farm#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFarm.DataAwsccDeadlineFarmConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarm"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarm"
 
 &dataawsccdeadlinefarm.DataAwsccDeadlineFarmConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_farm#id DataAwsccDeadlineFarm#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_farm#id DataAwsccDeadlineFarm#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFarm.DataAwsccDeadlineFarmTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarm"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarm"
 
 &dataawsccdeadlinefarm.DataAwsccDeadlineFarmTags {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarm"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFarm.DataAwsccDeadlineFarmTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarm"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarm"
 
 dataawsccdeadlinefarm.NewDataAwsccDeadlineFarmTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineFarmTagsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFarm.DataAwsccDeadlineFarmTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarm"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarm"
 
 dataawsccdeadlinefarm.NewDataAwsccDeadlineFarmTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineFarmTagsOutputReference
 ```

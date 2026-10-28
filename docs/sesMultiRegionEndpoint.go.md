@@ -4,12 +4,12 @@
 
 ### SesMultiRegionEndpoint <a name="SesMultiRegionEndpoint" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 sesmultiregionendpoint.NewSesMultiRegionEndpoint(scope Construct, id *string, config SesMultiRegionEndpointConfig) SesMultiRegionEndpoint
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 sesmultiregionendpoint.SesMultiRegionEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 sesmultiregionendpoint.SesMultiRegionEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ sesmultiregionendpoint.SesMultiRegionEndpoint_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 sesmultiregionendpoint.SesMultiRegionEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ sesmultiregionendpoint.SesMultiRegionEndpoint_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 sesmultiregionendpoint.SesMultiRegionEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the SesMultiRegionEndpoint to 
 
 The id of the existing SesMultiRegionEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_multi_region_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_multi_region_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -799,7 +799,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 &sesmultiregionendpoint.SesMultiRegionEndpointConfig {
 	Connection: interface{},
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Details: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesMultiRegionEndpoint.SesMultiRegionEndpointDetails,
+	Details: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesMultiRegionEndpoint.SesMultiRegionEndpointDetails,
 	EndpointName: *string,
 	Tags: interface{},
 }
@@ -912,7 +912,7 @@ Details SesMultiRegionEndpointDetails
 
 Contains details of a multi-region endpoint (global-endpoint) being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_multi_region_endpoint#details SesMultiRegionEndpoint#details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_multi_region_endpoint#details SesMultiRegionEndpoint#details}
 
 ---
 
@@ -926,7 +926,7 @@ EndpointName *string
 
 The name of the multi-region endpoint (global-endpoint).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_multi_region_endpoint#endpoint_name SesMultiRegionEndpoint#endpoint_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_multi_region_endpoint#endpoint_name SesMultiRegionEndpoint#endpoint_name}
 
 ---
 
@@ -940,7 +940,7 @@ Tags interface{}
 
 An Array of objects that define the tags (keys and values) to associate with the multi-region endpoint (global-endpoint).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_multi_region_endpoint#tags SesMultiRegionEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_multi_region_endpoint#tags SesMultiRegionEndpoint#tags}
 
 ---
 
@@ -949,7 +949,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpointDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 &sesmultiregionendpoint.SesMultiRegionEndpointDetails {
 	RouteDetails: interface{},
@@ -974,7 +974,7 @@ RouteDetails interface{}
 
 A list of route configuration details. Must contain exactly one route configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_multi_region_endpoint#route_details SesMultiRegionEndpoint#route_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_multi_region_endpoint#route_details SesMultiRegionEndpoint#route_details}
 
 ---
 
@@ -983,7 +983,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpointDetailsRouteDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 &sesmultiregionendpoint.SesMultiRegionEndpointDetailsRouteDetails {
 	Region: *string,
@@ -1008,7 +1008,7 @@ Region *string
 
 The name of an AWS-Region to be a secondary region for the multi-region endpoint (global-endpoint).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_multi_region_endpoint#region SesMultiRegionEndpoint#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_multi_region_endpoint#region SesMultiRegionEndpoint#region}
 
 ---
 
@@ -1017,7 +1017,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 &sesmultiregionendpoint.SesMultiRegionEndpointTags {
 	Key: *string,
@@ -1044,7 +1044,7 @@ Key *string
 
 One part of a key-value pair that defines a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_multi_region_endpoint#key SesMultiRegionEndpoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_multi_region_endpoint#key SesMultiRegionEndpoint#key}
 
 ---
 
@@ -1058,7 +1058,7 @@ Value *string
 
 The optional part of a key-value pair that defines a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_multi_region_endpoint#value SesMultiRegionEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_multi_region_endpoint#value SesMultiRegionEndpoint#value}
 
 ---
 
@@ -1069,7 +1069,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpointDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 sesmultiregionendpoint.NewSesMultiRegionEndpointDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesMultiRegionEndpointDetailsOutputReference
 ```
@@ -1353,7 +1353,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpointDetailsRouteDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 sesmultiregionendpoint.NewSesMultiRegionEndpointDetailsRouteDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SesMultiRegionEndpointDetailsRouteDetailsList
 ```
@@ -1513,7 +1513,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpointDetailsRouteDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 sesmultiregionendpoint.NewSesMultiRegionEndpointDetailsRouteDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SesMultiRegionEndpointDetailsRouteDetailsOutputReference
 ```
@@ -1802,7 +1802,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 sesmultiregionendpoint.NewSesMultiRegionEndpointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SesMultiRegionEndpointTagsList
 ```
@@ -1962,7 +1962,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesMultiRegionEndpoint.SesMultiRegionEndpointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmultiregionendpoint"
 
 sesmultiregionendpoint.NewSesMultiRegionEndpointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SesMultiRegionEndpointTagsOutputReference
 ```

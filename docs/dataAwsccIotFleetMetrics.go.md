@@ -4,12 +4,12 @@
 
 ### DataAwsccIotFleetMetrics <a name="DataAwsccIotFleetMetrics" id="@cdktn/provider-awscc.dataAwsccIotFleetMetrics.DataAwsccIotFleetMetrics"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_fleet_metrics awscc_iot_fleet_metrics}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_fleet_metrics awscc_iot_fleet_metrics}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotFleetMetrics.DataAwsccIotFleetMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetmetrics"
 
 dataawscciotfleetmetrics.NewDataAwsccIotFleetMetrics(scope Construct, id *string, config DataAwsccIotFleetMetricsConfig) DataAwsccIotFleetMetrics
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotFleetMetrics.DataAwsccIotFleetMetrics.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetmetrics"
 
 dataawscciotfleetmetrics.DataAwsccIotFleetMetrics_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotFleetMetrics.DataAwsccIotFleetMetrics.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetmetrics"
 
 dataawscciotfleetmetrics.DataAwsccIotFleetMetrics_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotfleetmetrics.DataAwsccIotFleetMetrics_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotFleetMetrics.DataAwsccIotFleetMetrics.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetmetrics"
 
 dataawscciotfleetmetrics.DataAwsccIotFleetMetrics_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotfleetmetrics.DataAwsccIotFleetMetrics_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotFleetMetrics.DataAwsccIotFleetMetrics.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetmetrics"
 
 dataawscciotfleetmetrics.DataAwsccIotFleetMetrics_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotFleetMetrics t
 
 The id of the existing DataAwsccIotFleetMetrics that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_fleet_metrics#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_fleet_metrics#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotFleetMetrics.DataAwsccIotFleetMetricsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetmetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetmetrics"
 
 &dataawscciotfleetmetrics.DataAwsccIotFleetMetricsConfig {
 	Connection: interface{},

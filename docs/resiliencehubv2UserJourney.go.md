@@ -4,12 +4,12 @@
 
 ### Resiliencehubv2UserJourney <a name="Resiliencehubv2UserJourney" id="@cdktn/provider-awscc.resiliencehubv2UserJourney.Resiliencehubv2UserJourney"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2UserJourney.Resiliencehubv2UserJourney.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2userjourney"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2userjourney"
 
 resiliencehubv2userjourney.NewResiliencehubv2UserJourney(scope Construct, id *string, config Resiliencehubv2UserJourneyConfig) Resiliencehubv2UserJourney
 ```
@@ -414,7 +414,7 @@ func ResetPolicyArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.resiliencehubv2UserJourney.Resiliencehubv2UserJourney.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2userjourney"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2userjourney"
 
 resiliencehubv2userjourney.Resiliencehubv2UserJourney_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.resiliencehubv2UserJourney.Resiliencehubv2UserJourney.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2userjourney"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2userjourney"
 
 resiliencehubv2userjourney.Resiliencehubv2UserJourney_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ resiliencehubv2userjourney.Resiliencehubv2UserJourney_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.resiliencehubv2UserJourney.Resiliencehubv2UserJourney.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2userjourney"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2userjourney"
 
 resiliencehubv2userjourney.Resiliencehubv2UserJourney_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ resiliencehubv2userjourney.Resiliencehubv2UserJourney_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.resiliencehubv2UserJourney.Resiliencehubv2UserJourney.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2userjourney"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2userjourney"
 
 resiliencehubv2userjourney.Resiliencehubv2UserJourney_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Resiliencehubv2UserJourney
 
 The id of the existing Resiliencehubv2UserJourney that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_user_journey#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_user_journey#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -835,7 +835,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2UserJourney.Resiliencehubv2UserJourneyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2userjourney"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2userjourney"
 
 &resiliencehubv2userjourney.Resiliencehubv2UserJourneyConfig {
 	Connection: interface{},
@@ -950,7 +950,7 @@ Name *string
 
 The name of the user journey.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_user_journey#name Resiliencehubv2UserJourney#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_user_journey#name Resiliencehubv2UserJourney#name}
 
 ---
 
@@ -964,7 +964,7 @@ SystemIdentifier *string
 
 The system ARN or system ID that owns this user journey.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_user_journey#system_identifier Resiliencehubv2UserJourney#system_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_user_journey#system_identifier Resiliencehubv2UserJourney#system_identifier}
 
 ---
 
@@ -978,7 +978,7 @@ Description *string
 
 The description of the user journey.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_user_journey#description Resiliencehubv2UserJourney#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_user_journey#description Resiliencehubv2UserJourney#description}
 
 ---
 
@@ -992,7 +992,7 @@ PolicyArn *string
 
 The ARN of the resilience policy to associate with this user journey.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_user_journey#policy_arn Resiliencehubv2UserJourney#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_user_journey#policy_arn Resiliencehubv2UserJourney#policy_arn}
 
 ---
 

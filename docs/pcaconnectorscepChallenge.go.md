@@ -4,12 +4,12 @@
 
 ### PcaconnectorscepChallenge <a name="PcaconnectorscepChallenge" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectorscepchallenge"
 
 pcaconnectorscepchallenge.NewPcaconnectorscepChallenge(scope Construct, id *string, config PcaconnectorscepChallengeConfig) PcaconnectorscepChallenge
 ```
@@ -407,7 +407,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectorscepchallenge"
 
 pcaconnectorscepchallenge.PcaconnectorscepChallenge_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectorscepchallenge"
 
 pcaconnectorscepchallenge.PcaconnectorscepChallenge_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ pcaconnectorscepchallenge.PcaconnectorscepChallenge_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectorscepchallenge"
 
 pcaconnectorscepchallenge.PcaconnectorscepChallenge_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ pcaconnectorscepchallenge.PcaconnectorscepChallenge_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectorscepchallenge"
 
 pcaconnectorscepchallenge.PcaconnectorscepChallenge_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the PcaconnectorscepChallenge 
 
 The id of the existing PcaconnectorscepChallenge that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorscep_challenge#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorscep_challenge#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -762,7 +762,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectorscepchallenge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectorscepchallenge"
 
 &pcaconnectorscepchallenge.PcaconnectorscepChallengeConfig {
 	Connection: interface{},
@@ -788,8 +788,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectorscepchalle
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.connectorArn">ConnectorArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.connectorArn">ConnectorArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
 
 ---
 
@@ -871,7 +871,7 @@ ConnectorArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
 
 ---
 
@@ -883,7 +883,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
 
 ---
 

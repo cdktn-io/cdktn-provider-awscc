@@ -4,12 +4,12 @@
 
 ### DataAwsccIamRole <a name="DataAwsccIamRole" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRole"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_role awscc_iam_role}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_role awscc_iam_role}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 dataawscciamrole.NewDataAwsccIamRole(scope Construct, id *string, config DataAwsccIamRoleConfig) DataAwsccIamRole
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRole.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 dataawscciamrole.DataAwsccIamRole_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRole.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 dataawscciamrole.DataAwsccIamRole_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciamrole.DataAwsccIamRole_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRole.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 dataawscciamrole.DataAwsccIamRole_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciamrole.DataAwsccIamRole_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRole.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 dataawscciamrole.DataAwsccIamRole_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIamRole to import
 
 The id of the existing DataAwsccIamRole that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_role#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_role#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRoleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 &dataawscciamrole.DataAwsccIamRoleConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_role#id DataAwsccIamRole#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_role#id DataAwsccIamRole#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRolePolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 &dataawscciamrole.DataAwsccIamRolePolicies {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRoleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 &dataawscciamrole.DataAwsccIamRoleTags {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRolePoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 dataawscciamrole.NewDataAwsccIamRolePoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIamRolePoliciesList
 ```
@@ -1006,7 +1006,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRolePoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 dataawscciamrole.NewDataAwsccIamRolePoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIamRolePoliciesOutputReference
 ```
@@ -1295,7 +1295,7 @@ func InternalValue() DataAwsccIamRolePolicies
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRoleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 dataawscciamrole.NewDataAwsccIamRoleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIamRoleTagsList
 ```
@@ -1444,7 +1444,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamRole.DataAwsccIamRoleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamrole"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamrole"
 
 dataawscciamrole.NewDataAwsccIamRoleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIamRoleTagsOutputReference
 ```

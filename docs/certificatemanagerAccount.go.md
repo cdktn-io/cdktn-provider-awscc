@@ -4,12 +4,12 @@
 
 ### CertificatemanagerAccount <a name="CertificatemanagerAccount" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_account awscc_certificatemanager_account}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_account awscc_certificatemanager_account}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageraccount"
 
 certificatemanageraccount.NewCertificatemanagerAccount(scope Construct, id *string, config CertificatemanagerAccountConfig) CertificatemanagerAccount
 ```
@@ -413,7 +413,7 @@ func PutExpiryEventsConfiguration(value CertificatemanagerAccountExpiryEventsCon
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageraccount"
 
 certificatemanageraccount.CertificatemanagerAccount_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageraccount"
 
 certificatemanageraccount.CertificatemanagerAccount_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ certificatemanageraccount.CertificatemanagerAccount_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageraccount"
 
 certificatemanageraccount.CertificatemanagerAccount_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ certificatemanageraccount.CertificatemanagerAccount_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageraccount"
 
 certificatemanageraccount.CertificatemanagerAccount_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the CertificatemanagerAccount 
 
 The id of the existing CertificatemanagerAccount that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_account#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_account#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -746,7 +746,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageraccount"
 
 &certificatemanageraccount.CertificatemanagerAccountConfig {
 	Connection: interface{},
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracco
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ExpiryEventsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration,
+	ExpiryEventsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration,
 }
 ```
 
@@ -771,7 +771,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracco
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.expiryEventsConfiguration">ExpiryEventsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.expiryEventsConfiguration">ExpiryEventsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}. |
 
 ---
 
@@ -853,7 +853,7 @@ ExpiryEventsConfiguration CertificatemanagerAccountExpiryEventsConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}.
 
 ---
 
@@ -862,7 +862,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageraccount"
 
 &certificatemanageraccount.CertificatemanagerAccountExpiryEventsConfiguration {
 	DaysBeforeExpiry: *f64,
@@ -873,7 +873,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration.property.daysBeforeExpiry">DaysBeforeExpiry</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration.property.daysBeforeExpiry">DaysBeforeExpiry</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}. |
 
 ---
 
@@ -885,7 +885,7 @@ DaysBeforeExpiry *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}.
 
 ---
 
@@ -896,7 +896,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageraccount"
 
 certificatemanageraccount.NewCertificatemanagerAccountExpiryEventsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CertificatemanagerAccountExpiryEventsConfigurationOutputReference
 ```

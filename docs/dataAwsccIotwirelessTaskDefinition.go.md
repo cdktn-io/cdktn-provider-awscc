@@ -4,12 +4,12 @@
 
 ### DataAwsccIotwirelessTaskDefinition <a name="DataAwsccIotwirelessTaskDefinition" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_task_definition awscc_iotwireless_task_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_task_definition awscc_iotwireless_task_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.NewDataAwsccIotwirelessTaskDefinition(scope Construct, id *string, config DataAwsccIotwirelessTaskDefinitionConfig) DataAwsccIotwirelessTaskDefinition
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinition_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinition.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinition_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinition_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessTaskDe
 
 The id of the existing DataAwsccIotwirelessTaskDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_task_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_task_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 &dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinitionConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_task_definition#id DataAwsccIotwirelessTaskDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_task_definition#id DataAwsccIotwirelessTaskDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 &dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntry {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryCurrentVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 &dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryCurrentVersion {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryUpdateVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 &dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryUpdateVersion {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 &dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinitionTags {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 &dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinitionUpdate {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionUpdateLoRaWan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 &dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinitionUpdateLoRaWan {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanCurrentVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 &dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanCurrentVersion {
 
@@ -887,7 +887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanUpdateVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 &dataawscciotwirelesstaskdefinition.DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanUpdateVersion {
 
@@ -902,7 +902,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryCurrentVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.NewDataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryCurrentVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryCurrentVersionOutputReference
 ```
@@ -1184,7 +1184,7 @@ func InternalValue() DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.NewDataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryOutputReference
 ```
@@ -1455,7 +1455,7 @@ func InternalValue() DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryUpdateVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.NewDataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryUpdateVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryUpdateVersionOutputReference
 ```
@@ -1737,7 +1737,7 @@ func InternalValue() DataAwsccIotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.NewDataAwsccIotwirelessTaskDefinitionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotwirelessTaskDefinitionTagsList
 ```
@@ -1886,7 +1886,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.NewDataAwsccIotwirelessTaskDefinitionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotwirelessTaskDefinitionTagsOutputReference
 ```
@@ -2175,7 +2175,7 @@ func InternalValue() DataAwsccIotwirelessTaskDefinitionTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanCurrentVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.NewDataAwsccIotwirelessTaskDefinitionUpdateLoRaWanCurrentVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanCurrentVersionOutputReference
 ```
@@ -2457,7 +2457,7 @@ func InternalValue() DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanCurrentVersi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.NewDataAwsccIotwirelessTaskDefinitionUpdateLoRaWanOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanOutputReference
 ```
@@ -2750,7 +2750,7 @@ func InternalValue() DataAwsccIotwirelessTaskDefinitionUpdateLoRaWan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanUpdateVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.NewDataAwsccIotwirelessTaskDefinitionUpdateLoRaWanUpdateVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanUpdateVersionOutputReference
 ```
@@ -3032,7 +3032,7 @@ func InternalValue() DataAwsccIotwirelessTaskDefinitionUpdateLoRaWanUpdateVersio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinition.DataAwsccIotwirelessTaskDefinitionUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinition"
 
 dataawscciotwirelesstaskdefinition.NewDataAwsccIotwirelessTaskDefinitionUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessTaskDefinitionUpdateOutputReference
 ```

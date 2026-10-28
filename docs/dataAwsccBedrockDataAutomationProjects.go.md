@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockDataAutomationProjects <a name="DataAwsccBedrockDataAutomationProjects" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProjects.DataAwsccBedrockDataAutomationProjects"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_data_automation_projects awscc_bedrock_data_automation_projects}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_data_automation_projects awscc_bedrock_data_automation_projects}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProjects.DataAwsccBedrockDataAutomationProjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationprojects"
 
 dataawsccbedrockdataautomationprojects.NewDataAwsccBedrockDataAutomationProjects(scope Construct, id *string, config DataAwsccBedrockDataAutomationProjectsConfig) DataAwsccBedrockDataAutomationProjects
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProjects.DataAwsccBedrockDataAutomationProjects.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationprojects"
 
 dataawsccbedrockdataautomationprojects.DataAwsccBedrockDataAutomationProjects_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProjects.DataAwsccBedrockDataAutomationProjects.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationprojects"
 
 dataawsccbedrockdataautomationprojects.DataAwsccBedrockDataAutomationProjects_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockdataautomationprojects.DataAwsccBedrockDataAutomationProjects_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProjects.DataAwsccBedrockDataAutomationProjects.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationprojects"
 
 dataawsccbedrockdataautomationprojects.DataAwsccBedrockDataAutomationProjects_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockdataautomationprojects.DataAwsccBedrockDataAutomationProjects_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProjects.DataAwsccBedrockDataAutomationProjects.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationprojects"
 
 dataawsccbedrockdataautomationprojects.DataAwsccBedrockDataAutomationProjects_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockDataAutoma
 
 The id of the existing DataAwsccBedrockDataAutomationProjects that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_data_automation_projects#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_data_automation_projects#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProjects.DataAwsccBedrockDataAutomationProjectsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationprojects"
 
 &dataawsccbedrockdataautomationprojects.DataAwsccBedrockDataAutomationProjectsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccCustomerprofilesRecommender <a name="DataAwsccCustomerprofilesRecommender" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommender"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_recommender awscc_customerprofiles_recommender}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_recommender awscc_customerprofiles_recommender}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommender.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommender(scope Construct, id *string, config DataAwsccCustomerprofilesRecommenderConfig) DataAwsccCustomerprofilesRecommender
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommender.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommender_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommender.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommender_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommender_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommender.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommender_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommender_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommender.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommender_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCustomerprofilesR
 
 The id of the existing DataAwsccCustomerprofilesRecommender that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_recommender#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_recommender#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 &dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommenderConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_recommender#id DataAwsccCustomerprofilesRecommender#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_recommender#id DataAwsccCustomerprofilesRecommender#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 &dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdate {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 &dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfig {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 &dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfig {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfigEventParametersListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 &dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfigEventParametersListStruct {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderRecommenderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 &dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommenderRecommenderConfig {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 &dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfig {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfigEventParametersListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 &dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfigEventParametersListStruct {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 &dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommenderTags {
 
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderTrainingMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 &dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommenderTrainingMetrics {
 
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderTrainingMetricsMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 &dataawscccustomerprofilesrecommender.DataAwsccCustomerprofilesRecommenderTrainingMetricsMetrics {
 
@@ -983,7 +983,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateOutputReference
 ```
@@ -1287,7 +1287,7 @@ func InternalValue() DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfigEventParametersListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfigEventParametersListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfigEventParametersListStructList
 ```
@@ -1436,7 +1436,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfigEventParametersListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfigEventParametersListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfigEventParametersListStructOutputReference
 ```
@@ -1725,7 +1725,7 @@ func InternalValue() DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigEventsConfigOutputReference
 ```
@@ -1985,7 +1985,7 @@ func InternalValue() DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdateRecommenderConfigOutputReference
 ```
@@ -2245,7 +2245,7 @@ func InternalValue() DataAwsccCustomerprofilesRecommenderLatestRecommenderUpdate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfigEventParametersListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfigEventParametersListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfigEventParametersListStructList
 ```
@@ -2394,7 +2394,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfigEventParametersListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfigEventParametersListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfigEventParametersListStructOutputReference
 ```
@@ -2683,7 +2683,7 @@ func InternalValue() DataAwsccCustomerprofilesRecommenderRecommenderConfigEvents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesRecommenderRecommenderConfigEventsConfigOutputReference
 ```
@@ -2943,7 +2943,7 @@ func InternalValue() DataAwsccCustomerprofilesRecommenderRecommenderConfigEvents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderRecommenderConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderRecommenderConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesRecommenderRecommenderConfigOutputReference
 ```
@@ -3203,7 +3203,7 @@ func InternalValue() DataAwsccCustomerprofilesRecommenderRecommenderConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesRecommenderTagsList
 ```
@@ -3352,7 +3352,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesRecommenderTagsOutputReference
 ```
@@ -3641,7 +3641,7 @@ func InternalValue() DataAwsccCustomerprofilesRecommenderTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderTrainingMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderTrainingMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesRecommenderTrainingMetricsList
 ```
@@ -3790,7 +3790,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderTrainingMetricsMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderTrainingMetricsMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesRecommenderTrainingMetricsMetricsOutputReference
 ```
@@ -4105,7 +4105,7 @@ func InternalValue() DataAwsccCustomerprofilesRecommenderTrainingMetricsMetrics
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesRecommender.DataAwsccCustomerprofilesRecommenderTrainingMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommender"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommender"
 
 dataawscccustomerprofilesrecommender.NewDataAwsccCustomerprofilesRecommenderTrainingMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesRecommenderTrainingMetricsOutputReference
 ```

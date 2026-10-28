@@ -4,12 +4,12 @@
 
 ### Ec2CustomerGateway <a name="Ec2CustomerGateway" id="@cdktn/provider-awscc.ec2CustomerGateway.Ec2CustomerGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_customer_gateway awscc_ec2_customer_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_customer_gateway awscc_ec2_customer_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2CustomerGateway.Ec2CustomerGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2customergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2customergateway"
 
 ec2customergateway.NewEc2CustomerGateway(scope Construct, id *string, config Ec2CustomerGatewayConfig) Ec2CustomerGateway
 ```
@@ -448,7 +448,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2CustomerGateway.Ec2CustomerGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2customergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2customergateway"
 
 ec2customergateway.Ec2CustomerGateway_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2CustomerGateway.Ec2CustomerGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2customergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2customergateway"
 
 ec2customergateway.Ec2CustomerGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ ec2customergateway.Ec2CustomerGateway_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2CustomerGateway.Ec2CustomerGateway.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2customergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2customergateway"
 
 ec2customergateway.Ec2CustomerGateway_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ ec2customergateway.Ec2CustomerGateway_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2CustomerGateway.Ec2CustomerGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2customergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2customergateway"
 
 ec2customergateway.Ec2CustomerGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the Ec2CustomerGateway to impo
 
 The id of the existing Ec2CustomerGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_customer_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_customer_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -913,7 +913,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2CustomerGateway.Ec2CustomerGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2customergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2customergateway"
 
 &ec2customergateway.Ec2CustomerGatewayConfig {
 	Connection: interface{},
@@ -1036,7 +1036,7 @@ The IP address for the customer gateway device's outside interface.
 
 The address must be static. If `OutsideIpAddressType` in your VPN connection options is set to `PrivateIpv4`, you can use an RFC6598 or RFC1918 private IPv4 address. If `OutsideIpAddressType` is set to `Ipv6`, you can use an IPv6 address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_customer_gateway#ip_address Ec2CustomerGateway#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_customer_gateway#ip_address Ec2CustomerGateway#ip_address}
 
 ---
 
@@ -1050,7 +1050,7 @@ Type *string
 
 The type of VPN connection that this customer gateway supports (``ipsec.1``).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_customer_gateway#type Ec2CustomerGateway#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_customer_gateway#type Ec2CustomerGateway#type}
 
 ---
 
@@ -1068,7 +1068,7 @@ You must specify either `BgpAsn` or `BgpAsnExtended` when creating the customer 
 Default: 65000
 Valid values: `1` to `2,147,483,647`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_customer_gateway#bgp_asn Ec2CustomerGateway#bgp_asn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_customer_gateway#bgp_asn Ec2CustomerGateway#bgp_asn}
 
 ---
 
@@ -1085,7 +1085,7 @@ For customer gateway devices that support BGP, specify the device's ASN.
 You must specify either `BgpAsn` or `BgpAsnExtended` when creating the customer gateway. If the ASN is larger than `2,147,483,647`, you must use `BgpAsnExtended`.
 Valid values: `2,147,483,648` to `4,294,967,295`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_customer_gateway#bgp_asn_extended Ec2CustomerGateway#bgp_asn_extended}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_customer_gateway#bgp_asn_extended Ec2CustomerGateway#bgp_asn_extended}
 
 ---
 
@@ -1099,7 +1099,7 @@ CertificateArn *string
 
 The Amazon Resource Name (ARN) for the customer gateway certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_customer_gateway#certificate_arn Ec2CustomerGateway#certificate_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_customer_gateway#certificate_arn Ec2CustomerGateway#certificate_arn}
 
 ---
 
@@ -1113,7 +1113,7 @@ DeviceName *string
 
 The name of customer gateway device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_customer_gateway#device_name Ec2CustomerGateway#device_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_customer_gateway#device_name Ec2CustomerGateway#device_name}
 
 ---
 
@@ -1127,7 +1127,7 @@ Tags interface{}
 
 One or more tags for the customer gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_customer_gateway#tags Ec2CustomerGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_customer_gateway#tags Ec2CustomerGateway#tags}
 
 ---
 
@@ -1136,7 +1136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2CustomerGateway.Ec2CustomerGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2customergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2customergateway"
 
 &ec2customergateway.Ec2CustomerGatewayTags {
 	Key: *string,
@@ -1163,7 +1163,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_customer_gateway#key Ec2CustomerGateway#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_customer_gateway#key Ec2CustomerGateway#key}
 
 ---
 
@@ -1177,7 +1177,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_customer_gateway#value Ec2CustomerGateway#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_customer_gateway#value Ec2CustomerGateway#value}
 
 ---
 
@@ -1188,7 +1188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2CustomerGateway.Ec2CustomerGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2customergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2customergateway"
 
 ec2customergateway.NewEc2CustomerGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2CustomerGatewayTagsList
 ```
@@ -1348,7 +1348,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2CustomerGateway.Ec2CustomerGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2customergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2customergateway"
 
 ec2customergateway.NewEc2CustomerGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2CustomerGatewayTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontCloudfrontOriginAccessIdentity <a name="DataAwsccCloudfrontCloudfrontOriginAccessIdentity" id="@cdktn/provider-awscc.dataAwsccCloudfrontCloudfrontOriginAccessIdentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentity"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_cloudfront_origin_access_identity awscc_cloudfront_cloudfront_origin_access_identity}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_cloudfront_origin_access_identity awscc_cloudfront_cloudfront_origin_access_identity}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontCloudfrontOriginAccessIdentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcloudfrontoriginaccessidentity"
 
 dataawscccloudfrontcloudfrontoriginaccessidentity.NewDataAwsccCloudfrontCloudfrontOriginAccessIdentity(scope Construct, id *string, config DataAwsccCloudfrontCloudfrontOriginAccessIdentityConfig) DataAwsccCloudfrontCloudfrontOriginAccessIdentity
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontCloudfrontOriginAccessIdentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentity.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcloudfrontoriginaccessidentity"
 
 dataawscccloudfrontcloudfrontoriginaccessidentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentity_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontCloudfrontOriginAccessIdentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentity.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcloudfrontoriginaccessidentity"
 
 dataawscccloudfrontcloudfrontoriginaccessidentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentity_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontcloudfrontoriginaccessidentity.DataAwsccCloudfrontCloudfrontO
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontCloudfrontOriginAccessIdentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentity.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcloudfrontoriginaccessidentity"
 
 dataawscccloudfrontcloudfrontoriginaccessidentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentity_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontcloudfrontoriginaccessidentity.DataAwsccCloudfrontCloudfrontO
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontCloudfrontOriginAccessIdentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentity.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcloudfrontoriginaccessidentity"
 
 dataawscccloudfrontcloudfrontoriginaccessidentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentity_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontCloudfr
 
 The id of the existing DataAwsccCloudfrontCloudfrontOriginAccessIdentity that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_cloudfront_origin_access_identity#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_cloudfront_origin_access_identity#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontCloudfrontOriginAccessIdentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcloudfrontoriginaccessidentity"
 
 &dataawscccloudfrontcloudfrontoriginaccessidentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfig {
 
@@ -633,7 +633,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontclo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontCloudfrontOriginAccessIdentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcloudfrontoriginaccessidentity"
 
 &dataawscccloudfrontcloudfrontoriginaccessidentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentityConfig {
 	Connection: interface{},
@@ -742,7 +742,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_cloudfront_origin_access_identity#id DataAwsccCloudfrontCloudfrontOriginAccessIdentity#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_cloudfront_origin_access_identity#id DataAwsccCloudfrontCloudfrontOriginAccessIdentity#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -756,7 +756,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontCloudfrontOriginAccessIdentity.DataAwsccCloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontcloudfrontoriginaccessidentity"
 
 dataawscccloudfrontcloudfrontoriginaccessidentity.NewDataAwsccCloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfigOutputReference
 ```

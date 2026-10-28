@@ -4,12 +4,12 @@
 
 ### DataAwsccIamUsers <a name="DataAwsccIamUsers" id="@cdktn/provider-awscc.dataAwsccIamUsers.DataAwsccIamUsers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_users awscc_iam_users}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_users awscc_iam_users}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamUsers.DataAwsccIamUsers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamusers"
 
 dataawscciamusers.NewDataAwsccIamUsers(scope Construct, id *string, config DataAwsccIamUsersConfig) DataAwsccIamUsers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIamUsers.DataAwsccIamUsers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamusers"
 
 dataawscciamusers.DataAwsccIamUsers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIamUsers.DataAwsccIamUsers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamusers"
 
 dataawscciamusers.DataAwsccIamUsers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciamusers.DataAwsccIamUsers_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIamUsers.DataAwsccIamUsers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamusers"
 
 dataawscciamusers.DataAwsccIamUsers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciamusers.DataAwsccIamUsers_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIamUsers.DataAwsccIamUsers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamusers"
 
 dataawscciamusers.DataAwsccIamUsers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIamUsers to impor
 
 The id of the existing DataAwsccIamUsers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_users#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_users#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamUsers.DataAwsccIamUsersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamusers"
 
 &dataawscciamusers.DataAwsccIamUsersConfig {
 	Connection: interface{},

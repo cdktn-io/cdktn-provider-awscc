@@ -4,12 +4,12 @@
 
 ### DataAwsccRedshiftSnapshotCopyGrants <a name="DataAwsccRedshiftSnapshotCopyGrants" id="@cdktn/provider-awscc.dataAwsccRedshiftSnapshotCopyGrants.DataAwsccRedshiftSnapshotCopyGrants"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_snapshot_copy_grants awscc_redshift_snapshot_copy_grants}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_snapshot_copy_grants awscc_redshift_snapshot_copy_grants}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftSnapshotCopyGrants.DataAwsccRedshiftSnapshotCopyGrants.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsnapshotcopygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftsnapshotcopygrants"
 
 dataawsccredshiftsnapshotcopygrants.NewDataAwsccRedshiftSnapshotCopyGrants(scope Construct, id *string, config DataAwsccRedshiftSnapshotCopyGrantsConfig) DataAwsccRedshiftSnapshotCopyGrants
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRedshiftSnapshotCopyGrants.DataAwsccRedshiftSnapshotCopyGrants.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsnapshotcopygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftsnapshotcopygrants"
 
 dataawsccredshiftsnapshotcopygrants.DataAwsccRedshiftSnapshotCopyGrants_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRedshiftSnapshotCopyGrants.DataAwsccRedshiftSnapshotCopyGrants.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsnapshotcopygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftsnapshotcopygrants"
 
 dataawsccredshiftsnapshotcopygrants.DataAwsccRedshiftSnapshotCopyGrants_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccredshiftsnapshotcopygrants.DataAwsccRedshiftSnapshotCopyGrants_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRedshiftSnapshotCopyGrants.DataAwsccRedshiftSnapshotCopyGrants.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsnapshotcopygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftsnapshotcopygrants"
 
 dataawsccredshiftsnapshotcopygrants.DataAwsccRedshiftSnapshotCopyGrants_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccredshiftsnapshotcopygrants.DataAwsccRedshiftSnapshotCopyGrants_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRedshiftSnapshotCopyGrants.DataAwsccRedshiftSnapshotCopyGrants.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsnapshotcopygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftsnapshotcopygrants"
 
 dataawsccredshiftsnapshotcopygrants.DataAwsccRedshiftSnapshotCopyGrants_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftSnapshotC
 
 The id of the existing DataAwsccRedshiftSnapshotCopyGrants that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_snapshot_copy_grants#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_snapshot_copy_grants#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftSnapshotCopyGrants.DataAwsccRedshiftSnapshotCopyGrantsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsnapshotcopygrants"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftsnapshotcopygrants"
 
 &dataawsccredshiftsnapshotcopygrants.DataAwsccRedshiftSnapshotCopyGrantsConfig {
 	Connection: interface{},

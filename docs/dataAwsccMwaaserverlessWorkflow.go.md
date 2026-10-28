@@ -4,12 +4,12 @@
 
 ### DataAwsccMwaaserverlessWorkflow <a name="DataAwsccMwaaserverlessWorkflow" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.NewDataAwsccMwaaserverlessWorkflow(scope Construct, id *string, config DataAwsccMwaaserverlessWorkflowConfig) DataAwsccMwaaserverlessWorkflow
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflow_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflow_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflow_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflow_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflow_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMwaaserverlessWor
 
 The id of the existing DataAwsccMwaaserverlessWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaaserverless_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaaserverless_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 &dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflowCode {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverles
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 &dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflowCodeS3Location {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverles
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 &dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflowConfig {
 	Connection: interface{},
@@ -909,7 +909,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaaserverless_workflow#id DataAwsccMwaaserverlessWorkflow#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaaserverless_workflow#id DataAwsccMwaaserverlessWorkflow#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -921,7 +921,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowDefinitionS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 &dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflowDefinitionS3Location {
 
@@ -934,7 +934,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverles
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 &dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflowEncryptionConfiguration {
 
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverles
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 &dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflowLoggingConfiguration {
 
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverles
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 &dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflowNetworkConfiguration {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverles
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowScheduleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 &dataawsccmwaaserverlessworkflow.DataAwsccMwaaserverlessWorkflowScheduleConfiguration {
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverles
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.NewDataAwsccMwaaserverlessWorkflowCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaserverlessWorkflowCodeOutputReference
 ```
@@ -1248,7 +1248,7 @@ func InternalValue() DataAwsccMwaaserverlessWorkflowCode
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.NewDataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaserverlessWorkflowCodeS3LocationOutputReference
 ```
@@ -1530,7 +1530,7 @@ func InternalValue() DataAwsccMwaaserverlessWorkflowCodeS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowDefinitionS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.NewDataAwsccMwaaserverlessWorkflowDefinitionS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaserverlessWorkflowDefinitionS3LocationOutputReference
 ```
@@ -1812,7 +1812,7 @@ func InternalValue() DataAwsccMwaaserverlessWorkflowDefinitionS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.NewDataAwsccMwaaserverlessWorkflowEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaserverlessWorkflowEncryptionConfigurationOutputReference
 ```
@@ -2083,7 +2083,7 @@ func InternalValue() DataAwsccMwaaserverlessWorkflowEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.NewDataAwsccMwaaserverlessWorkflowLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaserverlessWorkflowLoggingConfigurationOutputReference
 ```
@@ -2343,7 +2343,7 @@ func InternalValue() DataAwsccMwaaserverlessWorkflowLoggingConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.NewDataAwsccMwaaserverlessWorkflowNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaserverlessWorkflowNetworkConfigurationOutputReference
 ```
@@ -2614,7 +2614,7 @@ func InternalValue() DataAwsccMwaaserverlessWorkflowNetworkConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaserverlessWorkflow.DataAwsccMwaaserverlessWorkflowScheduleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow"
 
 dataawsccmwaaserverlessworkflow.NewDataAwsccMwaaserverlessWorkflowScheduleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaserverlessWorkflowScheduleConfigurationOutputReference
 ```

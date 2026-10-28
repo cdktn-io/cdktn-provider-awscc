@@ -4,12 +4,12 @@
 
 ### DataAwsccSmsvoiceRegistrationAttachment <a name="DataAwsccSmsvoiceRegistrationAttachment" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachment.DataAwsccSmsvoiceRegistrationAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachment.DataAwsccSmsvoiceRegistrationAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrationattachment"
 
 dataawsccsmsvoiceregistrationattachment.NewDataAwsccSmsvoiceRegistrationAttachment(scope Construct, id *string, config DataAwsccSmsvoiceRegistrationAttachmentConfig) DataAwsccSmsvoiceRegistrationAttachment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachment.DataAwsccSmsvoiceRegistrationAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrationattachment"
 
 dataawsccsmsvoiceregistrationattachment.DataAwsccSmsvoiceRegistrationAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachment.DataAwsccSmsvoiceRegistrationAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrationattachment"
 
 dataawsccsmsvoiceregistrationattachment.DataAwsccSmsvoiceRegistrationAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsmsvoiceregistrationattachment.DataAwsccSmsvoiceRegistrationAttachment_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachment.DataAwsccSmsvoiceRegistrationAttachment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrationattachment"
 
 dataawsccsmsvoiceregistrationattachment.DataAwsccSmsvoiceRegistrationAttachment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsmsvoiceregistrationattachment.DataAwsccSmsvoiceRegistrationAttachment_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachment.DataAwsccSmsvoiceRegistrationAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrationattachment"
 
 dataawsccsmsvoiceregistrationattachment.DataAwsccSmsvoiceRegistrationAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSmsvoiceRegistrat
 
 The id of the existing DataAwsccSmsvoiceRegistrationAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_registration_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_registration_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachment.DataAwsccSmsvoiceRegistrationAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrationattachment"
 
 &dataawsccsmsvoiceregistrationattachment.DataAwsccSmsvoiceRegistrationAttachmentConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_registration_attachment#id DataAwsccSmsvoiceRegistrationAttachment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_registration_attachment#id DataAwsccSmsvoiceRegistrationAttachment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachment.DataAwsccSmsvoiceRegistrationAttachmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrationattachment"
 
 &dataawsccsmsvoiceregistrationattachment.DataAwsccSmsvoiceRegistrationAttachmentTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregis
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachment.DataAwsccSmsvoiceRegistrationAttachmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrationattachment"
 
 dataawsccsmsvoiceregistrationattachment.NewDataAwsccSmsvoiceRegistrationAttachmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSmsvoiceRegistrationAttachmentTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachment.DataAwsccSmsvoiceRegistrationAttachmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceregistrationattachment"
 
 dataawsccsmsvoiceregistrationattachment.NewDataAwsccSmsvoiceRegistrationAttachmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSmsvoiceRegistrationAttachmentTagsOutputReference
 ```

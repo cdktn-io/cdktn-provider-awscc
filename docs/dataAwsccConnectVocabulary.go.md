@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectVocabulary <a name="DataAwsccConnectVocabulary" id="@cdktn/provider-awscc.dataAwsccConnectVocabulary.DataAwsccConnectVocabulary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_vocabulary awscc_connect_vocabulary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_vocabulary awscc_connect_vocabulary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectVocabulary.DataAwsccConnectVocabulary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectvocabulary"
 
 dataawsccconnectvocabulary.NewDataAwsccConnectVocabulary(scope Construct, id *string, config DataAwsccConnectVocabularyConfig) DataAwsccConnectVocabulary
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectVocabulary.DataAwsccConnectVocabulary.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectvocabulary"
 
 dataawsccconnectvocabulary.DataAwsccConnectVocabulary_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectVocabulary.DataAwsccConnectVocabulary.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectvocabulary"
 
 dataawsccconnectvocabulary.DataAwsccConnectVocabulary_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectvocabulary.DataAwsccConnectVocabulary_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectVocabulary.DataAwsccConnectVocabulary.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectvocabulary"
 
 dataawsccconnectvocabulary.DataAwsccConnectVocabulary_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectvocabulary.DataAwsccConnectVocabulary_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectVocabulary.DataAwsccConnectVocabulary.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectvocabulary"
 
 dataawsccconnectvocabulary.DataAwsccConnectVocabulary_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectVocabulary
 
 The id of the existing DataAwsccConnectVocabulary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_vocabulary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_vocabulary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectVocabulary.DataAwsccConnectVocabularyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectvocabulary"
 
 &dataawsccconnectvocabulary.DataAwsccConnectVocabularyConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_vocabulary#id DataAwsccConnectVocabulary#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_vocabulary#id DataAwsccConnectVocabulary#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectVocabulary.DataAwsccConnectVocabularyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectvocabulary"
 
 &dataawsccconnectvocabulary.DataAwsccConnectVocabularyTags {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectvocabu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectVocabulary.DataAwsccConnectVocabularyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectvocabulary"
 
 dataawsccconnectvocabulary.NewDataAwsccConnectVocabularyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectVocabularyTagsList
 ```
@@ -971,7 +971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectVocabulary.DataAwsccConnectVocabularyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectvocabulary"
 
 dataawsccconnectvocabulary.NewDataAwsccConnectVocabularyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectVocabularyTagsOutputReference
 ```

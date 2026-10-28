@@ -4,12 +4,12 @@
 
 ### EfsMountTarget <a name="EfsMountTarget" id="@cdktn/provider-awscc.efsMountTarget.EfsMountTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/efs_mount_target awscc_efs_mount_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/efs_mount_target awscc_efs_mount_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.efsMountTarget.EfsMountTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/efsmounttarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/efsmounttarget"
 
 efsmounttarget.NewEfsMountTarget(scope Construct, id *string, config EfsMountTargetConfig) EfsMountTarget
 ```
@@ -421,7 +421,7 @@ func ResetIpv6Address()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.efsMountTarget.EfsMountTarget.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/efsmounttarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/efsmounttarget"
 
 efsmounttarget.EfsMountTarget_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.efsMountTarget.EfsMountTarget.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/efsmounttarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/efsmounttarget"
 
 efsmounttarget.EfsMountTarget_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ efsmounttarget.EfsMountTarget_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.efsMountTarget.EfsMountTarget.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/efsmounttarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/efsmounttarget"
 
 efsmounttarget.EfsMountTarget_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ efsmounttarget.EfsMountTarget_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.efsMountTarget.EfsMountTarget.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/efsmounttarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/efsmounttarget"
 
 efsmounttarget.EfsMountTarget_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the EfsMountTarget to import.
 
 The id of the existing EfsMountTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/efs_mount_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/efs_mount_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -864,7 +864,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.efsMountTarget.EfsMountTargetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/efsmounttarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/efsmounttarget"
 
 &efsmounttarget.EfsMountTargetConfig {
 	Connection: interface{},
@@ -983,7 +983,7 @@ FileSystemId *string
 
 The ID of the file system for which to create the mount target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/efs_mount_target#file_system_id EfsMountTarget#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/efs_mount_target#file_system_id EfsMountTarget#file_system_id}
 
 ---
 
@@ -999,7 +999,7 @@ VPC security group IDs, of the form ``sg-xxxxxxxx``.
 
 These must be for the same VPC as the subnet specified. The maximum number of security groups depends on account quota. For more information, see [Amazon VPC Quotas](https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html) in the *Amazon VPC User Guide* (see the *Security Groups* table). If you don't specify a security group, then Amazon EFS uses the default security group for the subnet's VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/efs_mount_target#security_groups EfsMountTarget#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/efs_mount_target#security_groups EfsMountTarget#security_groups}
 
 ---
 
@@ -1015,7 +1015,7 @@ The ID of the subnet to add the mount target in.
 
 For One Zone file systems, use the subnet that is associated with the file system's Availability Zone. The subnet type must be the same type as the `IpAddressType`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/efs_mount_target#subnet_id EfsMountTarget#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/efs_mount_target#subnet_id EfsMountTarget#subnet_id}
 
 ---
 
@@ -1031,7 +1031,7 @@ If the ``IpAddressType`` for the mount target is IPv4 ( ``IPV4_ONLY`` or ``DUAL_
 
 If you do not specify an `IpAddress`, then Amazon EFS selects an unused IP address from the subnet specified for `SubnetId`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/efs_mount_target#ip_address EfsMountTarget#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/efs_mount_target#ip_address EfsMountTarget#ip_address}
 
 ---
 
@@ -1048,7 +1048,7 @@ The IP address type for the mount target.
 The possible values are `IPV4_ONLY` (only IPv4 addresses), `IPV6_ONLY` (only IPv6 addresses), and `DUAL_STACK` (dual-stack, both IPv4 and IPv6 addresses). If you don?t specify an `IpAddressType`, then `IPV4_ONLY` is used.
 The `IPAddressType` must match the IP type of the subnet. Additionally, the `IPAddressType` parameter overrides the value set as the default IP address for the subnet in the VPC. For example, if the `IPAddressType` is `IPV4_ONLY` and `AssignIpv6AddressOnCreation` is `true`, then IPv4 is used for the mount target. For more information, see [Modify the IP addressing attributes of your subnet](https://docs.aws.amazon.com/vpc/latest/userguide/subnet-public-ip.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/efs_mount_target#ip_address_type EfsMountTarget#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/efs_mount_target#ip_address_type EfsMountTarget#ip_address_type}
 
 ---
 
@@ -1064,7 +1064,7 @@ If the ``IPAddressType`` for the mount target is IPv6 (``IPV6_ONLY`` or ``DUAL_S
 
 If you do not specify an `Ipv6Address`, then Amazon EFS selects an unused IP address from the subnet specified for `SubnetId`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/efs_mount_target#ipv_6_address EfsMountTarget#ipv_6_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/efs_mount_target#ipv_6_address EfsMountTarget#ipv_6_address}
 
 ---
 

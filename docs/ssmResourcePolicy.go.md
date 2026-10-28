@@ -4,12 +4,12 @@
 
 ### SsmResourcePolicy <a name="SsmResourcePolicy" id="@cdktn/provider-awscc.ssmResourcePolicy.SsmResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmResourcePolicy.SsmResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmresourcepolicy"
 
 ssmresourcepolicy.NewSsmResourcePolicy(scope Construct, id *string, config SsmResourcePolicyConfig) SsmResourcePolicy
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssmResourcePolicy.SsmResourcePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmresourcepolicy"
 
 ssmresourcepolicy.SsmResourcePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssmResourcePolicy.SsmResourcePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmresourcepolicy"
 
 ssmresourcepolicy.SsmResourcePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ssmresourcepolicy.SsmResourcePolicy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssmResourcePolicy.SsmResourcePolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmresourcepolicy"
 
 ssmresourcepolicy.SsmResourcePolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ssmresourcepolicy.SsmResourcePolicy_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssmResourcePolicy.SsmResourcePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmresourcepolicy"
 
 ssmresourcepolicy.SsmResourcePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SsmResourcePolicy to impor
 
 The id of the existing SsmResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -766,7 +766,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmResourcePolicy.SsmResourcePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmresourcepolicy"
 
 &ssmresourcepolicy.SsmResourcePolicyConfig {
 	Connection: interface{},
@@ -877,7 +877,7 @@ Policy *string
 
 Actual policy statement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_resource_policy#policy SsmResourcePolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_resource_policy#policy SsmResourcePolicy#policy}
 
 ---
 
@@ -891,7 +891,7 @@ ResourceArn *string
 
 Arn of OpsItemGroup etc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_resource_policy#resource_arn SsmResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_resource_policy#resource_arn SsmResourcePolicy#resource_arn}
 
 ---
 

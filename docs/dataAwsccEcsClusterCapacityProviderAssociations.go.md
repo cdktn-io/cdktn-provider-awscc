@@ -4,12 +4,12 @@
 
 ### DataAwsccEcsClusterCapacityProviderAssociations <a name="DataAwsccEcsClusterCapacityProviderAssociations" id="@cdktn/provider-awscc.dataAwsccEcsClusterCapacityProviderAssociations.DataAwsccEcsClusterCapacityProviderAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_cluster_capacity_provider_associations awscc_ecs_cluster_capacity_provider_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_cluster_capacity_provider_associations awscc_ecs_cluster_capacity_provider_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsClusterCapacityProviderAssociations.DataAwsccEcsClusterCapacityProviderAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercapacityproviderassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsclustercapacityproviderassociations"
 
 dataawsccecsclustercapacityproviderassociations.NewDataAwsccEcsClusterCapacityProviderAssociations(scope Construct, id *string, config DataAwsccEcsClusterCapacityProviderAssociationsConfig) DataAwsccEcsClusterCapacityProviderAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcsClusterCapacityProviderAssociations.DataAwsccEcsClusterCapacityProviderAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercapacityproviderassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsclustercapacityproviderassociations"
 
 dataawsccecsclustercapacityproviderassociations.DataAwsccEcsClusterCapacityProviderAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcsClusterCapacityProviderAssociations.DataAwsccEcsClusterCapacityProviderAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercapacityproviderassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsclustercapacityproviderassociations"
 
 dataawsccecsclustercapacityproviderassociations.DataAwsccEcsClusterCapacityProviderAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecsclustercapacityproviderassociations.DataAwsccEcsClusterCapacityProvi
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcsClusterCapacityProviderAssociations.DataAwsccEcsClusterCapacityProviderAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercapacityproviderassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsclustercapacityproviderassociations"
 
 dataawsccecsclustercapacityproviderassociations.DataAwsccEcsClusterCapacityProviderAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecsclustercapacityproviderassociations.DataAwsccEcsClusterCapacityProvi
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcsClusterCapacityProviderAssociations.DataAwsccEcsClusterCapacityProviderAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercapacityproviderassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsclustercapacityproviderassociations"
 
 dataawsccecsclustercapacityproviderassociations.DataAwsccEcsClusterCapacityProviderAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcsClusterCapacit
 
 The id of the existing DataAwsccEcsClusterCapacityProviderAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_cluster_capacity_provider_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_cluster_capacity_provider_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsClusterCapacityProviderAssociations.DataAwsccEcsClusterCapacityProviderAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercapacityproviderassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsclustercapacityproviderassociations"
 
 &dataawsccecsclustercapacityproviderassociations.DataAwsccEcsClusterCapacityProviderAssociationsConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_cluster_capacity_provider_associations#id DataAwsccEcsClusterCapacityProviderAssociations#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_cluster_capacity_provider_associations#id DataAwsccEcsClusterCapacityProviderAssociations#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsClusterCapacityProviderAssociations.DataAwsccEcsClusterCapacityProviderAssociationsDefaultCapacityProviderStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercapacityproviderassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsclustercapacityproviderassociations"
 
 &dataawsccecsclustercapacityproviderassociations.DataAwsccEcsClusterCapacityProviderAssociationsDefaultCapacityProviderStrategy {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsClusterCapacityProviderAssociations.DataAwsccEcsClusterCapacityProviderAssociationsDefaultCapacityProviderStrategyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercapacityproviderassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsclustercapacityproviderassociations"
 
 dataawsccecsclustercapacityproviderassociations.NewDataAwsccEcsClusterCapacityProviderAssociationsDefaultCapacityProviderStrategyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsClusterCapacityProviderAssociationsDefaultCapacityProviderStrategyList
 ```
@@ -905,7 +905,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsClusterCapacityProviderAssociations.DataAwsccEcsClusterCapacityProviderAssociationsDefaultCapacityProviderStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercapacityproviderassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsclustercapacityproviderassociations"
 
 dataawsccecsclustercapacityproviderassociations.NewDataAwsccEcsClusterCapacityProviderAssociationsDefaultCapacityProviderStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsClusterCapacityProviderAssociationsDefaultCapacityProviderStrategyOutputReference
 ```

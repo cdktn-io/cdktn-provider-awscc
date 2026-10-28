@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2SqlHaStandbyDetectedInstances <a name="DataAwsccEc2SqlHaStandbyDetectedInstances" id="@cdktn/provider-awscc.dataAwsccEc2SqlHaStandbyDetectedInstances.DataAwsccEc2SqlHaStandbyDetectedInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_sql_ha_standby_detected_instances awscc_ec2_sql_ha_standby_detected_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_sql_ha_standby_detected_instances awscc_ec2_sql_ha_standby_detected_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SqlHaStandbyDetectedInstances.DataAwsccEc2SqlHaStandbyDetectedInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2sqlhastandbydetectedinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2sqlhastandbydetectedinstances"
 
 dataawsccec2sqlhastandbydetectedinstances.NewDataAwsccEc2SqlHaStandbyDetectedInstances(scope Construct, id *string, config DataAwsccEc2SqlHaStandbyDetectedInstancesConfig) DataAwsccEc2SqlHaStandbyDetectedInstances
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2SqlHaStandbyDetectedInstances.DataAwsccEc2SqlHaStandbyDetectedInstances.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2sqlhastandbydetectedinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2sqlhastandbydetectedinstances"
 
 dataawsccec2sqlhastandbydetectedinstances.DataAwsccEc2SqlHaStandbyDetectedInstances_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2SqlHaStandbyDetectedInstances.DataAwsccEc2SqlHaStandbyDetectedInstances.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2sqlhastandbydetectedinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2sqlhastandbydetectedinstances"
 
 dataawsccec2sqlhastandbydetectedinstances.DataAwsccEc2SqlHaStandbyDetectedInstances_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2sqlhastandbydetectedinstances.DataAwsccEc2SqlHaStandbyDetectedInstan
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2SqlHaStandbyDetectedInstances.DataAwsccEc2SqlHaStandbyDetectedInstances.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2sqlhastandbydetectedinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2sqlhastandbydetectedinstances"
 
 dataawsccec2sqlhastandbydetectedinstances.DataAwsccEc2SqlHaStandbyDetectedInstances_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2sqlhastandbydetectedinstances.DataAwsccEc2SqlHaStandbyDetectedInstan
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2SqlHaStandbyDetectedInstances.DataAwsccEc2SqlHaStandbyDetectedInstances.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2sqlhastandbydetectedinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2sqlhastandbydetectedinstances"
 
 dataawsccec2sqlhastandbydetectedinstances.DataAwsccEc2SqlHaStandbyDetectedInstances_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SqlHaStandbyDe
 
 The id of the existing DataAwsccEc2SqlHaStandbyDetectedInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_sql_ha_standby_detected_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_sql_ha_standby_detected_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SqlHaStandbyDetectedInstances.DataAwsccEc2SqlHaStandbyDetectedInstancesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2sqlhastandbydetectedinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2sqlhastandbydetectedinstances"
 
 &dataawsccec2sqlhastandbydetectedinstances.DataAwsccEc2SqlHaStandbyDetectedInstancesConfig {
 	Connection: interface{},

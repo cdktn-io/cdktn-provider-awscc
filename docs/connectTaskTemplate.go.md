@@ -4,12 +4,12 @@
 
 ### ConnectTaskTemplate <a name="ConnectTaskTemplate" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template awscc_connect_task_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template awscc_connect_task_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplate(scope Construct, id *string, config ConnectTaskTemplateConfig) ConnectTaskTemplate
 ```
@@ -522,7 +522,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.ConnectTaskTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -554,7 +554,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.ConnectTaskTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -568,7 +568,7 @@ connecttasktemplate.ConnectTaskTemplate_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.ConnectTaskTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -582,7 +582,7 @@ connecttasktemplate.ConnectTaskTemplate_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.ConnectTaskTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -611,7 +611,7 @@ The construct id used in the generated config for the ConnectTaskTemplate to imp
 
 The id of the existing ConnectTaskTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1075,7 +1075,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateConfig {
 	Connection: interface{},
@@ -1087,7 +1087,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
 	Provisioners: *[]interface{},
 	InstanceArn: *string,
 	ClientToken: *string,
-	Constraints: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectTaskTemplate.ConnectTaskTemplateConstraints,
+	Constraints: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectTaskTemplate.ConnectTaskTemplateConstraints,
 	ContactFlowArn: *string,
 	Defaults: interface{},
 	Description: *string,
@@ -1114,7 +1114,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.clientToken">ClientToken</a></code> | <code>*string</code> | the client token string in uuid format. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.constraints">Constraints</a></code> | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraints">ConnectTaskTemplateConstraints</a></code> | The constraints for the task template. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.contactFlowArn">ContactFlowArn</a></code> | <code>*string</code> | The identifier of the contact flow. |
-| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.defaults">Defaults</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}. |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.defaults">Defaults</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.description">Description</a></code> | <code>*string</code> | The description of the task template. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.fields">Fields</a></code> | <code>interface{}</code> | The list of task template's fields. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.name">Name</a></code> | <code>*string</code> | The name of the task template. |
@@ -1204,7 +1204,7 @@ InstanceArn *string
 
 The identifier (arn) of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#instance_arn ConnectTaskTemplate#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#instance_arn ConnectTaskTemplate#instance_arn}
 
 ---
 
@@ -1218,7 +1218,7 @@ ClientToken *string
 
 the client token string in uuid format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#client_token ConnectTaskTemplate#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#client_token ConnectTaskTemplate#client_token}
 
 ---
 
@@ -1232,7 +1232,7 @@ Constraints ConnectTaskTemplateConstraints
 
 The constraints for the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#constraints ConnectTaskTemplate#constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#constraints ConnectTaskTemplate#constraints}
 
 ---
 
@@ -1246,7 +1246,7 @@ ContactFlowArn *string
 
 The identifier of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#contact_flow_arn ConnectTaskTemplate#contact_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#contact_flow_arn ConnectTaskTemplate#contact_flow_arn}
 
 ---
 
@@ -1258,7 +1258,7 @@ Defaults interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}.
 
 ---
 
@@ -1272,7 +1272,7 @@ Description *string
 
 The description of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
 
 ---
 
@@ -1286,7 +1286,7 @@ Fields interface{}
 
 The list of task template's fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#fields ConnectTaskTemplate#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#fields ConnectTaskTemplate#fields}
 
 ---
 
@@ -1300,7 +1300,7 @@ Name *string
 
 The name of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1314,7 +1314,7 @@ SelfAssignContactFlowArn *string
 
 The identifier of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#self_assign_contact_flow_arn ConnectTaskTemplate#self_assign_contact_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#self_assign_contact_flow_arn ConnectTaskTemplate#self_assign_contact_flow_arn}
 
 ---
 
@@ -1328,7 +1328,7 @@ Status *string
 
 The status of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#status ConnectTaskTemplate#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#status ConnectTaskTemplate#status}
 
 ---
 
@@ -1342,7 +1342,7 @@ Tags interface{}
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#tags ConnectTaskTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#tags ConnectTaskTemplate#tags}
 
 ---
 
@@ -1351,7 +1351,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateConstraints {
 	InvisibleFields: interface{},
@@ -1380,7 +1380,7 @@ InvisibleFields interface{}
 
 The list of the task template's invisible fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#invisible_fields ConnectTaskTemplate#invisible_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#invisible_fields ConnectTaskTemplate#invisible_fields}
 
 ---
 
@@ -1394,7 +1394,7 @@ ReadOnlyFields interface{}
 
 The list of the task template's read only fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#read_only_fields ConnectTaskTemplate#read_only_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#read_only_fields ConnectTaskTemplate#read_only_fields}
 
 ---
 
@@ -1408,7 +1408,7 @@ RequiredFields interface{}
 
 The list of the task template's required fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#required_fields ConnectTaskTemplate#required_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#required_fields ConnectTaskTemplate#required_fields}
 
 ---
 
@@ -1417,10 +1417,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsInvisibleFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateConstraintsInvisibleFields {
-	Id: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsInvisibleFieldsId,
+	Id: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectTaskTemplate.ConnectTaskTemplateConstraintsInvisibleFieldsId,
 }
 ```
 
@@ -1442,7 +1442,7 @@ Id ConnectTaskTemplateConstraintsInvisibleFieldsId
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1454,7 +1454,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsInvisibleFieldsId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateConstraintsInvisibleFieldsId {
 	Name: *string,
@@ -1479,7 +1479,7 @@ Name *string
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1488,10 +1488,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsReadOnlyFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateConstraintsReadOnlyFields {
-	Id: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsReadOnlyFieldsId,
+	Id: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectTaskTemplate.ConnectTaskTemplateConstraintsReadOnlyFieldsId,
 }
 ```
 
@@ -1513,7 +1513,7 @@ Id ConnectTaskTemplateConstraintsReadOnlyFieldsId
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1525,7 +1525,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsReadOnlyFieldsId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateConstraintsReadOnlyFieldsId {
 	Name: *string,
@@ -1550,7 +1550,7 @@ Name *string
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1559,10 +1559,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsRequiredFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateConstraintsRequiredFields {
-	Id: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsRequiredFieldsId,
+	Id: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectTaskTemplate.ConnectTaskTemplateConstraintsRequiredFieldsId,
 }
 ```
 
@@ -1584,7 +1584,7 @@ Id ConnectTaskTemplateConstraintsRequiredFieldsId
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1596,7 +1596,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsRequiredFieldsId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateConstraintsRequiredFieldsId {
 	Name: *string,
@@ -1621,7 +1621,7 @@ Name *string
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1630,11 +1630,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaults.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateDefaults {
 	DefaultValue: *string,
-	Id: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectTaskTemplate.ConnectTaskTemplateDefaultsId,
+	Id: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectTaskTemplate.ConnectTaskTemplateDefaultsId,
 }
 ```
 
@@ -1657,7 +1657,7 @@ DefaultValue *string
 
 the default value for the task template's field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#default_value ConnectTaskTemplate#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#default_value ConnectTaskTemplate#default_value}
 
 ---
 
@@ -1671,7 +1671,7 @@ Id ConnectTaskTemplateDefaultsId
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1683,7 +1683,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaultsId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateDefaultsId {
 	Name: *string,
@@ -1708,7 +1708,7 @@ Name *string
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1717,11 +1717,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateFields {
 	Description: *string,
-	Id: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectTaskTemplate.ConnectTaskTemplateFieldsId,
+	Id: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectTaskTemplate.ConnectTaskTemplateFieldsId,
 	SingleSelectOptions: *[]*string,
 	Type: *string,
 }
@@ -1748,7 +1748,7 @@ Description *string
 
 The description of the task template's field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
 
 ---
 
@@ -1762,7 +1762,7 @@ Id ConnectTaskTemplateFieldsId
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1779,7 +1779,7 @@ SingleSelectOptions *[]*string
 
 list of field options to be used with single select.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#single_select_options ConnectTaskTemplate#single_select_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#single_select_options ConnectTaskTemplate#single_select_options}
 
 ---
 
@@ -1793,7 +1793,7 @@ Type *string
 
 The type of the task template's field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#type ConnectTaskTemplate#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#type ConnectTaskTemplate#type}
 
 ---
 
@@ -1802,7 +1802,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateFieldsId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateFieldsId {
 	Name: *string,
@@ -1827,7 +1827,7 @@ Name *string
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1836,7 +1836,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 &connecttasktemplate.ConnectTaskTemplateTags {
 	Key: *string,
@@ -1865,7 +1865,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#key ConnectTaskTemplate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#key ConnectTaskTemplate#key}
 
 ---
 
@@ -1881,7 +1881,7 @@ The value for the tag.
 
 . You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_task_template#value ConnectTaskTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_task_template#value ConnectTaskTemplate#value}
 
 ---
 
@@ -1892,7 +1892,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsInvisibleFieldsIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateConstraintsInvisibleFieldsIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectTaskTemplateConstraintsInvisibleFieldsIdOutputReference
 ```
@@ -2170,7 +2170,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsInvisibleFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateConstraintsInvisibleFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectTaskTemplateConstraintsInvisibleFieldsList
 ```
@@ -2330,7 +2330,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsInvisibleFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateConstraintsInvisibleFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectTaskTemplateConstraintsInvisibleFieldsOutputReference
 ```
@@ -2639,7 +2639,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectTaskTemplateConstraintsOutputReference
 ```
@@ -3014,7 +3014,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsReadOnlyFieldsIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateConstraintsReadOnlyFieldsIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectTaskTemplateConstraintsReadOnlyFieldsIdOutputReference
 ```
@@ -3292,7 +3292,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsReadOnlyFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateConstraintsReadOnlyFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectTaskTemplateConstraintsReadOnlyFieldsList
 ```
@@ -3452,7 +3452,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsReadOnlyFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateConstraintsReadOnlyFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectTaskTemplateConstraintsReadOnlyFieldsOutputReference
 ```
@@ -3761,7 +3761,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsRequiredFieldsIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateConstraintsRequiredFieldsIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectTaskTemplateConstraintsRequiredFieldsIdOutputReference
 ```
@@ -4039,7 +4039,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsRequiredFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateConstraintsRequiredFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectTaskTemplateConstraintsRequiredFieldsList
 ```
@@ -4199,7 +4199,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsRequiredFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateConstraintsRequiredFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectTaskTemplateConstraintsRequiredFieldsOutputReference
 ```
@@ -4508,7 +4508,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaultsIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateDefaultsIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectTaskTemplateDefaultsIdOutputReference
 ```
@@ -4786,7 +4786,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaultsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateDefaultsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectTaskTemplateDefaultsList
 ```
@@ -4946,7 +4946,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaultsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateDefaultsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectTaskTemplateDefaultsOutputReference
 ```
@@ -5284,7 +5284,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateFieldsIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateFieldsIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectTaskTemplateFieldsIdOutputReference
 ```
@@ -5562,7 +5562,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectTaskTemplateFieldsList
 ```
@@ -5722,7 +5722,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectTaskTemplateFieldsOutputReference
 ```
@@ -6118,7 +6118,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectTaskTemplateTagsList
 ```
@@ -6278,7 +6278,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttasktemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttasktemplate"
 
 connecttasktemplate.NewConnectTaskTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectTaskTemplateTagsOutputReference
 ```

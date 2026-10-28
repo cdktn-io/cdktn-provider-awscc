@@ -4,12 +4,12 @@
 
 ### DataAwsccDatasyncLocationSmb <a name="DataAwsccDatasyncLocationSmb" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmb"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_smb awscc_datasync_location_smb}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_smb awscc_datasync_location_smb}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 dataawsccdatasynclocationsmb.NewDataAwsccDatasyncLocationSmb(scope Construct, id *string, config DataAwsccDatasyncLocationSmbConfig) DataAwsccDatasyncLocationSmb
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmb.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmb_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmb.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmb_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmb_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmb.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmb_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmb_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmb.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmb_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationS
 
 The id of the existing DataAwsccDatasyncLocationSmb that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_smb#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_smb#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -785,7 +785,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbCmkSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 &dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmbCmkSecretConfig {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 &dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmbConfig {
 	Connection: interface{},
@@ -907,7 +907,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_smb#id DataAwsccDatasyncLocationSmb#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_smb#id DataAwsccDatasyncLocationSmb#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -919,7 +919,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbCustomSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 &dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmbCustomSecretConfig {
 
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbManagedSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 &dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmbManagedSecretConfig {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbMountOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 &dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmbMountOptions {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 &dataawsccdatasynclocationsmb.DataAwsccDatasyncLocationSmbTags {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbCmkSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 dataawsccdatasynclocationsmb.NewDataAwsccDatasyncLocationSmbCmkSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationSmbCmkSecretConfigOutputReference
 ```
@@ -1244,7 +1244,7 @@ func InternalValue() DataAwsccDatasyncLocationSmbCmkSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbCustomSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 dataawsccdatasynclocationsmb.NewDataAwsccDatasyncLocationSmbCustomSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationSmbCustomSecretConfigOutputReference
 ```
@@ -1515,7 +1515,7 @@ func InternalValue() DataAwsccDatasyncLocationSmbCustomSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbManagedSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 dataawsccdatasynclocationsmb.NewDataAwsccDatasyncLocationSmbManagedSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationSmbManagedSecretConfigOutputReference
 ```
@@ -1775,7 +1775,7 @@ func InternalValue() DataAwsccDatasyncLocationSmbManagedSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbMountOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 dataawsccdatasynclocationsmb.NewDataAwsccDatasyncLocationSmbMountOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationSmbMountOptionsOutputReference
 ```
@@ -2035,7 +2035,7 @@ func InternalValue() DataAwsccDatasyncLocationSmbMountOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 dataawsccdatasynclocationsmb.NewDataAwsccDatasyncLocationSmbTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatasyncLocationSmbTagsList
 ```
@@ -2184,7 +2184,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationSmb.DataAwsccDatasyncLocationSmbTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationsmb"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationsmb"
 
 dataawsccdatasynclocationsmb.NewDataAwsccDatasyncLocationSmbTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatasyncLocationSmbTagsOutputReference
 ```

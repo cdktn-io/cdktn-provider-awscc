@@ -4,12 +4,12 @@
 
 ### DataAwsccLaunchwizardDeployment <a name="DataAwsccLaunchwizardDeployment" id="@cdktn/provider-awscc.dataAwsccLaunchwizardDeployment.DataAwsccLaunchwizardDeployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/launchwizard_deployment awscc_launchwizard_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/launchwizard_deployment awscc_launchwizard_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLaunchwizardDeployment.DataAwsccLaunchwizardDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclaunchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclaunchwizarddeployment"
 
 dataawscclaunchwizarddeployment.NewDataAwsccLaunchwizardDeployment(scope Construct, id *string, config DataAwsccLaunchwizardDeploymentConfig) DataAwsccLaunchwizardDeployment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLaunchwizardDeployment.DataAwsccLaunchwizardDeployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclaunchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclaunchwizarddeployment"
 
 dataawscclaunchwizarddeployment.DataAwsccLaunchwizardDeployment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLaunchwizardDeployment.DataAwsccLaunchwizardDeployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclaunchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclaunchwizarddeployment"
 
 dataawscclaunchwizarddeployment.DataAwsccLaunchwizardDeployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclaunchwizarddeployment.DataAwsccLaunchwizardDeployment_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLaunchwizardDeployment.DataAwsccLaunchwizardDeployment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclaunchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclaunchwizarddeployment"
 
 dataawscclaunchwizarddeployment.DataAwsccLaunchwizardDeployment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclaunchwizarddeployment.DataAwsccLaunchwizardDeployment_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLaunchwizardDeployment.DataAwsccLaunchwizardDeployment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclaunchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclaunchwizarddeployment"
 
 dataawscclaunchwizarddeployment.DataAwsccLaunchwizardDeployment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLaunchwizardDeplo
 
 The id of the existing DataAwsccLaunchwizardDeployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/launchwizard_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/launchwizard_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLaunchwizardDeployment.DataAwsccLaunchwizardDeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclaunchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclaunchwizarddeployment"
 
 &dataawscclaunchwizarddeployment.DataAwsccLaunchwizardDeploymentConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/launchwizard_deployment#id DataAwsccLaunchwizardDeployment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/launchwizard_deployment#id DataAwsccLaunchwizardDeployment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLaunchwizardDeployment.DataAwsccLaunchwizardDeploymentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclaunchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclaunchwizarddeployment"
 
 &dataawscclaunchwizarddeployment.DataAwsccLaunchwizardDeploymentTags {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclaunchwizardd
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLaunchwizardDeployment.DataAwsccLaunchwizardDeploymentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclaunchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclaunchwizarddeployment"
 
 dataawscclaunchwizarddeployment.NewDataAwsccLaunchwizardDeploymentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLaunchwizardDeploymentTagsList
 ```
@@ -993,7 +993,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLaunchwizardDeployment.DataAwsccLaunchwizardDeploymentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclaunchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclaunchwizarddeployment"
 
 dataawscclaunchwizarddeployment.NewDataAwsccLaunchwizardDeploymentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLaunchwizardDeploymentTagsOutputReference
 ```

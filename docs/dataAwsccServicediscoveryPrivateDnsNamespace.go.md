@@ -4,12 +4,12 @@
 
 ### DataAwsccServicediscoveryPrivateDnsNamespace <a name="DataAwsccServicediscoveryPrivateDnsNamespace" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 dataawsccservicediscoveryprivatednsnamespace.NewDataAwsccServicediscoveryPrivateDnsNamespace(scope Construct, id *string, config DataAwsccServicediscoveryPrivateDnsNamespaceConfig) DataAwsccServicediscoveryPrivateDnsNamespace
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 dataawsccservicediscoveryprivatednsnamespace.DataAwsccServicediscoveryPrivateDnsNamespace_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 dataawsccservicediscoveryprivatednsnamespace.DataAwsccServicediscoveryPrivateDnsNamespace_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicediscoveryprivatednsnamespace.DataAwsccServicediscoveryPrivateDns
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespace.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 dataawsccservicediscoveryprivatednsnamespace.DataAwsccServicediscoveryPrivateDnsNamespace_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicediscoveryprivatednsnamespace.DataAwsccServicediscoveryPrivateDns
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 dataawsccservicediscoveryprivatednsnamespace.DataAwsccServicediscoveryPrivateDnsNamespace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicediscoveryP
 
 The id of the existing DataAwsccServicediscoveryPrivateDnsNamespace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicediscovery_private_dns_namespace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicediscovery_private_dns_namespace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 &dataawsccservicediscoveryprivatednsnamespace.DataAwsccServicediscoveryPrivateDnsNamespaceConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicediscovery_private_dns_namespace#id DataAwsccServicediscoveryPrivateDnsNamespace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicediscovery_private_dns_namespace#id DataAwsccServicediscoveryPrivateDnsNamespace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespaceProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 &dataawsccservicediscoveryprivatednsnamespace.DataAwsccServicediscoveryPrivateDnsNamespaceProperties {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscov
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 &dataawsccservicediscoveryprivatednsnamespace.DataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsProperties {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscov
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 &dataawsccservicediscoveryprivatednsnamespace.DataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscov
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 &dataawsccservicediscoveryprivatednsnamespace.DataAwsccServicediscoveryPrivateDnsNamespaceTags {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscov
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 dataawsccservicediscoveryprivatednsnamespace.NewDataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesOutputReference
 ```
@@ -1110,7 +1110,7 @@ func InternalValue() DataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 dataawsccservicediscoveryprivatednsnamespace.NewDataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoaOutputReference
 ```
@@ -1370,7 +1370,7 @@ func InternalValue() DataAwsccServicediscoveryPrivateDnsNamespacePropertiesDnsPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespacePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 dataawsccservicediscoveryprivatednsnamespace.NewDataAwsccServicediscoveryPrivateDnsNamespacePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccServicediscoveryPrivateDnsNamespacePropertiesOutputReference
 ```
@@ -1630,7 +1630,7 @@ func InternalValue() DataAwsccServicediscoveryPrivateDnsNamespaceProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 dataawsccservicediscoveryprivatednsnamespace.NewDataAwsccServicediscoveryPrivateDnsNamespaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccServicediscoveryPrivateDnsNamespaceTagsList
 ```
@@ -1779,7 +1779,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespace.DataAwsccServicediscoveryPrivateDnsNamespaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace"
 
 dataawsccservicediscoveryprivatednsnamespace.NewDataAwsccServicediscoveryPrivateDnsNamespaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccServicediscoveryPrivateDnsNamespaceTagsOutputReference
 ```

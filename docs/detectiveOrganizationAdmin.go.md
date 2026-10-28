@@ -4,12 +4,12 @@
 
 ### DetectiveOrganizationAdmin <a name="DetectiveOrganizationAdmin" id="@cdktn/provider-awscc.detectiveOrganizationAdmin.DetectiveOrganizationAdmin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/detective_organization_admin awscc_detective_organization_admin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/detective_organization_admin awscc_detective_organization_admin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.detectiveOrganizationAdmin.DetectiveOrganizationAdmin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/detectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/detectiveorganizationadmin"
 
 detectiveorganizationadmin.NewDetectiveOrganizationAdmin(scope Construct, id *string, config DetectiveOrganizationAdminConfig) DetectiveOrganizationAdmin
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.detectiveOrganizationAdmin.DetectiveOrganizationAdmin.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/detectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/detectiveorganizationadmin"
 
 detectiveorganizationadmin.DetectiveOrganizationAdmin_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.detectiveOrganizationAdmin.DetectiveOrganizationAdmin.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/detectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/detectiveorganizationadmin"
 
 detectiveorganizationadmin.DetectiveOrganizationAdmin_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ detectiveorganizationadmin.DetectiveOrganizationAdmin_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.detectiveOrganizationAdmin.DetectiveOrganizationAdmin.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/detectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/detectiveorganizationadmin"
 
 detectiveorganizationadmin.DetectiveOrganizationAdmin_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ detectiveorganizationadmin.DetectiveOrganizationAdmin_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.detectiveOrganizationAdmin.DetectiveOrganizationAdmin.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/detectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/detectiveorganizationadmin"
 
 detectiveorganizationadmin.DetectiveOrganizationAdmin_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the DetectiveOrganizationAdmin
 
 The id of the existing DetectiveOrganizationAdmin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/detective_organization_admin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/detective_organization_admin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -733,7 +733,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.detectiveOrganizationAdmin.DetectiveOrganizationAdminConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/detectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/detectiveorganizationadmin"
 
 &detectiveorganizationadmin.DetectiveOrganizationAdminConfig {
 	Connection: interface{},
@@ -842,7 +842,7 @@ AccountId *string
 
 The account ID of the account that should be registered as your Organization's delegated administrator for Detective.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/detective_organization_admin#account_id DetectiveOrganizationAdmin#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/detective_organization_admin#account_id DetectiveOrganizationAdmin#account_id}
 
 ---
 

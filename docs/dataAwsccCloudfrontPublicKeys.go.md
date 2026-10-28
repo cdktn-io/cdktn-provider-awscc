@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontPublicKeys <a name="DataAwsccCloudfrontPublicKeys" id="@cdktn/provider-awscc.dataAwsccCloudfrontPublicKeys.DataAwsccCloudfrontPublicKeys"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_public_keys awscc_cloudfront_public_keys}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_public_keys awscc_cloudfront_public_keys}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontPublicKeys.DataAwsccCloudfrontPublicKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontpublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontpublickeys"
 
 dataawscccloudfrontpublickeys.NewDataAwsccCloudfrontPublicKeys(scope Construct, id *string, config DataAwsccCloudfrontPublicKeysConfig) DataAwsccCloudfrontPublicKeys
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontPublicKeys.DataAwsccCloudfrontPublicKeys.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontpublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontpublickeys"
 
 dataawscccloudfrontpublickeys.DataAwsccCloudfrontPublicKeys_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontPublicKeys.DataAwsccCloudfrontPublicKeys.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontpublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontpublickeys"
 
 dataawscccloudfrontpublickeys.DataAwsccCloudfrontPublicKeys_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontpublickeys.DataAwsccCloudfrontPublicKeys_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontPublicKeys.DataAwsccCloudfrontPublicKeys.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontpublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontpublickeys"
 
 dataawscccloudfrontpublickeys.DataAwsccCloudfrontPublicKeys_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontpublickeys.DataAwsccCloudfrontPublicKeys_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontPublicKeys.DataAwsccCloudfrontPublicKeys.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontpublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontpublickeys"
 
 dataawscccloudfrontpublickeys.DataAwsccCloudfrontPublicKeys_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontPublicK
 
 The id of the existing DataAwsccCloudfrontPublicKeys that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_public_keys#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_public_keys#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontPublicKeys.DataAwsccCloudfrontPublicKeysConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontpublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontpublickeys"
 
 &dataawscccloudfrontpublickeys.DataAwsccCloudfrontPublicKeysConfig {
 	Connection: interface{},

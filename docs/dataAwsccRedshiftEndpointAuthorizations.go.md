@@ -4,12 +4,12 @@
 
 ### DataAwsccRedshiftEndpointAuthorizations <a name="DataAwsccRedshiftEndpointAuthorizations" id="@cdktn/provider-awscc.dataAwsccRedshiftEndpointAuthorizations.DataAwsccRedshiftEndpointAuthorizations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_endpoint_authorizations awscc_redshift_endpoint_authorizations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_endpoint_authorizations awscc_redshift_endpoint_authorizations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftEndpointAuthorizations.DataAwsccRedshiftEndpointAuthorizations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftendpointauthorizations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftendpointauthorizations"
 
 dataawsccredshiftendpointauthorizations.NewDataAwsccRedshiftEndpointAuthorizations(scope Construct, id *string, config DataAwsccRedshiftEndpointAuthorizationsConfig) DataAwsccRedshiftEndpointAuthorizations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRedshiftEndpointAuthorizations.DataAwsccRedshiftEndpointAuthorizations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftendpointauthorizations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftendpointauthorizations"
 
 dataawsccredshiftendpointauthorizations.DataAwsccRedshiftEndpointAuthorizations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRedshiftEndpointAuthorizations.DataAwsccRedshiftEndpointAuthorizations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftendpointauthorizations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftendpointauthorizations"
 
 dataawsccredshiftendpointauthorizations.DataAwsccRedshiftEndpointAuthorizations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccredshiftendpointauthorizations.DataAwsccRedshiftEndpointAuthorizations_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRedshiftEndpointAuthorizations.DataAwsccRedshiftEndpointAuthorizations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftendpointauthorizations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftendpointauthorizations"
 
 dataawsccredshiftendpointauthorizations.DataAwsccRedshiftEndpointAuthorizations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccredshiftendpointauthorizations.DataAwsccRedshiftEndpointAuthorizations_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRedshiftEndpointAuthorizations.DataAwsccRedshiftEndpointAuthorizations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftendpointauthorizations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftendpointauthorizations"
 
 dataawsccredshiftendpointauthorizations.DataAwsccRedshiftEndpointAuthorizations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftEndpointA
 
 The id of the existing DataAwsccRedshiftEndpointAuthorizations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_endpoint_authorizations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_endpoint_authorizations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftEndpointAuthorizations.DataAwsccRedshiftEndpointAuthorizationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftendpointauthorizations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftendpointauthorizations"
 
 &dataawsccredshiftendpointauthorizations.DataAwsccRedshiftEndpointAuthorizationsConfig {
 	Connection: interface{},

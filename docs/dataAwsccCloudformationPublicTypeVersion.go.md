@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudformationPublicTypeVersion <a name="DataAwsccCloudformationPublicTypeVersion" id="@cdktn/provider-awscc.dataAwsccCloudformationPublicTypeVersion.DataAwsccCloudformationPublicTypeVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_public_type_version awscc_cloudformation_public_type_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_public_type_version awscc_cloudformation_public_type_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationPublicTypeVersion.DataAwsccCloudformationPublicTypeVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationpublictypeversion"
 
 dataawscccloudformationpublictypeversion.NewDataAwsccCloudformationPublicTypeVersion(scope Construct, id *string, config DataAwsccCloudformationPublicTypeVersionConfig) DataAwsccCloudformationPublicTypeVersion
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudformationPublicTypeVersion.DataAwsccCloudformationPublicTypeVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationpublictypeversion"
 
 dataawscccloudformationpublictypeversion.DataAwsccCloudformationPublicTypeVersion_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudformationPublicTypeVersion.DataAwsccCloudformationPublicTypeVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationpublictypeversion"
 
 dataawscccloudformationpublictypeversion.DataAwsccCloudformationPublicTypeVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudformationpublictypeversion.DataAwsccCloudformationPublicTypeVersio
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudformationPublicTypeVersion.DataAwsccCloudformationPublicTypeVersion.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationpublictypeversion"
 
 dataawscccloudformationpublictypeversion.DataAwsccCloudformationPublicTypeVersion_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudformationpublictypeversion.DataAwsccCloudformationPublicTypeVersio
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudformationPublicTypeVersion.DataAwsccCloudformationPublicTypeVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationpublictypeversion"
 
 dataawscccloudformationpublictypeversion.DataAwsccCloudformationPublicTypeVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudformationPub
 
 The id of the existing DataAwsccCloudformationPublicTypeVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_public_type_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_public_type_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudformationPublicTypeVersion.DataAwsccCloudformationPublicTypeVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationpublictypeversion"
 
 &dataawscccloudformationpublictypeversion.DataAwsccCloudformationPublicTypeVersionConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_public_type_version#id DataAwsccCloudformationPublicTypeVersion#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_public_type_version#id DataAwsccCloudformationPublicTypeVersion#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

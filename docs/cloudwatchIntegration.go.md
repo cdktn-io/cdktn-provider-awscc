@@ -4,12 +4,12 @@
 
 ### CloudwatchIntegration <a name="CloudwatchIntegration" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration awscc_cloudwatch_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration awscc_cloudwatch_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 cloudwatchintegration.NewCloudwatchIntegration(scope Construct, id *string, config CloudwatchIntegrationConfig) CloudwatchIntegration
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 cloudwatchintegration.CloudwatchIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 cloudwatchintegration.CloudwatchIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ cloudwatchintegration.CloudwatchIntegration_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 cloudwatchintegration.CloudwatchIntegration_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ cloudwatchintegration.CloudwatchIntegration_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 cloudwatchintegration.CloudwatchIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the CloudwatchIntegration to i
 
 The id of the existing CloudwatchIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -941,7 +941,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 &cloudwatchintegration.CloudwatchIntegrationConfig {
 	Connection: interface{},
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
 	Provisioners: *[]interface{},
 	IntegrationType: *string,
 	Name: *string,
-	Credential: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudwatchIntegration.CloudwatchIntegrationCredential,
+	Credential: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudwatchIntegration.CloudwatchIntegrationCredential,
 	IntegrationAttributes: *map[string]*string,
 	RoleArn: *string,
 	Tags: interface{},
@@ -1060,7 +1060,7 @@ IntegrationType *string
 
 The type of integration. Immutable after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#integration_type CloudwatchIntegration#integration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#integration_type CloudwatchIntegration#integration_type}
 
 ---
 
@@ -1074,7 +1074,7 @@ Name *string
 
 The customer-supplied name of the integration. Unique per account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#name CloudwatchIntegration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#name CloudwatchIntegration#name}
 
 ---
 
@@ -1088,7 +1088,7 @@ Credential CloudwatchIntegrationCredential
 
 Write-only API-key credential material for the integration. Stored encrypted and never returned on read.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#credential CloudwatchIntegration#credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#credential CloudwatchIntegration#credential}
 
 ---
 
@@ -1104,7 +1104,7 @@ Type-specific configuration attributes (max 50 entries).
 
 EXTERNAL_AGENT requires 'catalogId'. On update, supplied attributes merge into the existing map; omitting a key does not remove it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#integration_attributes CloudwatchIntegration#integration_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#integration_attributes CloudwatchIntegration#integration_attributes}
 
 ---
 
@@ -1120,7 +1120,7 @@ IAM role ARN the integration assumes.
 
 Required for AWS_INTEGRATION (a valid, service-assumable IAM role ARN). Not used by AWS_CONFIG_SLREC or EXTERNAL_AGENT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#role_arn CloudwatchIntegration#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#role_arn CloudwatchIntegration#role_arn}
 
 ---
 
@@ -1134,7 +1134,7 @@ Tags interface{}
 
 Tags associated with the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#tags CloudwatchIntegration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#tags CloudwatchIntegration#tags}
 
 ---
 
@@ -1143,10 +1143,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 &cloudwatchintegration.CloudwatchIntegrationCredential {
-	ApiKeyCredential: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudwatchIntegration.CloudwatchIntegrationCredentialApiKeyCredential,
+	ApiKeyCredential: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudwatchIntegration.CloudwatchIntegrationCredentialApiKeyCredential,
 }
 ```
 
@@ -1168,7 +1168,7 @@ ApiKeyCredential CloudwatchIntegrationCredentialApiKeyCredential
 
 API-key credential material that can be rotated in place on update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#api_key_credential CloudwatchIntegration#api_key_credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#api_key_credential CloudwatchIntegration#api_key_credential}
 
 ---
 
@@ -1177,7 +1177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationCredentialApiKeyCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 &cloudwatchintegration.CloudwatchIntegrationCredentialApiKeyCredential {
 	ApiKeyValue: *string,
@@ -1188,7 +1188,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationCredentialApiKeyCredential.property.apiKeyValue">ApiKeyValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#api_key_value CloudwatchIntegration#api_key_value}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationCredentialApiKeyCredential.property.apiKeyValue">ApiKeyValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#api_key_value CloudwatchIntegration#api_key_value}. |
 
 ---
 
@@ -1200,7 +1200,7 @@ ApiKeyValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#api_key_value CloudwatchIntegration#api_key_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#api_key_value CloudwatchIntegration#api_key_value}.
 
 ---
 
@@ -1209,7 +1209,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 &cloudwatchintegration.CloudwatchIntegrationTags {
 	Key: *string,
@@ -1221,8 +1221,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#key CloudwatchIntegration#key}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#value CloudwatchIntegration#value}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#key CloudwatchIntegration#key}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#value CloudwatchIntegration#value}. |
 
 ---
 
@@ -1234,7 +1234,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#key CloudwatchIntegration#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#key CloudwatchIntegration#key}.
 
 ---
 
@@ -1246,7 +1246,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#value CloudwatchIntegration#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#value CloudwatchIntegration#value}.
 
 ---
 
@@ -1257,7 +1257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationCredentialApiKeyCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 cloudwatchintegration.NewCloudwatchIntegrationCredentialApiKeyCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudwatchIntegrationCredentialApiKeyCredentialOutputReference
 ```
@@ -1535,7 +1535,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 cloudwatchintegration.NewCloudwatchIntegrationCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudwatchIntegrationCredentialOutputReference
 ```
@@ -1826,7 +1826,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 cloudwatchintegration.NewCloudwatchIntegrationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudwatchIntegrationTagsList
 ```
@@ -1986,7 +1986,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchIntegration.CloudwatchIntegrationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchintegration"
 
 cloudwatchintegration.NewCloudwatchIntegrationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudwatchIntegrationTagsOutputReference
 ```

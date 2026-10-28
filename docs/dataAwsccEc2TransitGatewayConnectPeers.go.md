@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2TransitGatewayConnectPeers <a name="DataAwsccEc2TransitGatewayConnectPeers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayConnectPeers.DataAwsccEc2TransitGatewayConnectPeers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_connect_peers awscc_ec2_transit_gateway_connect_peers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_connect_peers awscc_ec2_transit_gateway_connect_peers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayConnectPeers.DataAwsccEc2TransitGatewayConnectPeers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayconnectpeers"
 
 dataawsccec2transitgatewayconnectpeers.NewDataAwsccEc2TransitGatewayConnectPeers(scope Construct, id *string, config DataAwsccEc2TransitGatewayConnectPeersConfig) DataAwsccEc2TransitGatewayConnectPeers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayConnectPeers.DataAwsccEc2TransitGatewayConnectPeers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayconnectpeers"
 
 dataawsccec2transitgatewayconnectpeers.DataAwsccEc2TransitGatewayConnectPeers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayConnectPeers.DataAwsccEc2TransitGatewayConnectPeers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayconnectpeers"
 
 dataawsccec2transitgatewayconnectpeers.DataAwsccEc2TransitGatewayConnectPeers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2transitgatewayconnectpeers.DataAwsccEc2TransitGatewayConnectPeers_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayConnectPeers.DataAwsccEc2TransitGatewayConnectPeers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayconnectpeers"
 
 dataawsccec2transitgatewayconnectpeers.DataAwsccEc2TransitGatewayConnectPeers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2transitgatewayconnectpeers.DataAwsccEc2TransitGatewayConnectPeers_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayConnectPeers.DataAwsccEc2TransitGatewayConnectPeers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayconnectpeers"
 
 dataawsccec2transitgatewayconnectpeers.DataAwsccEc2TransitGatewayConnectPeers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2TransitGateway
 
 The id of the existing DataAwsccEc2TransitGatewayConnectPeers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_connect_peers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_connect_peers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayConnectPeers.DataAwsccEc2TransitGatewayConnectPeersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayconnectpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayconnectpeers"
 
 &dataawsccec2transitgatewayconnectpeers.DataAwsccEc2TransitGatewayConnectPeersConfig {
 	Connection: interface{},

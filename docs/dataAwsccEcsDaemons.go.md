@@ -4,12 +4,12 @@
 
 ### DataAwsccEcsDaemons <a name="DataAwsccEcsDaemons" id="@cdktn/provider-awscc.dataAwsccEcsDaemons.DataAwsccEcsDaemons"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_daemons awscc_ecs_daemons}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_daemons awscc_ecs_daemons}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsDaemons.DataAwsccEcsDaemons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemons"
 
 dataawsccecsdaemons.NewDataAwsccEcsDaemons(scope Construct, id *string, config DataAwsccEcsDaemonsConfig) DataAwsccEcsDaemons
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcsDaemons.DataAwsccEcsDaemons.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemons"
 
 dataawsccecsdaemons.DataAwsccEcsDaemons_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcsDaemons.DataAwsccEcsDaemons.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemons"
 
 dataawsccecsdaemons.DataAwsccEcsDaemons_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecsdaemons.DataAwsccEcsDaemons_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcsDaemons.DataAwsccEcsDaemons.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemons"
 
 dataawsccecsdaemons.DataAwsccEcsDaemons_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecsdaemons.DataAwsccEcsDaemons_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcsDaemons.DataAwsccEcsDaemons.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemons"
 
 dataawsccecsdaemons.DataAwsccEcsDaemons_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcsDaemons to imp
 
 The id of the existing DataAwsccEcsDaemons that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_daemons#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_daemons#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsDaemons.DataAwsccEcsDaemonsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsdaemons"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsdaemons"
 
 &dataawsccecsdaemons.DataAwsccEcsDaemonsConfig {
 	Connection: interface{},

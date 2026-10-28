@@ -4,12 +4,12 @@
 
 ### DataAwsccCodegurureviewerRepositoryAssociation <a name="DataAwsccCodegurureviewerRepositoryAssociation" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociation.DataAwsccCodegurureviewerRepositoryAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociation.DataAwsccCodegurureviewerRepositoryAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodegurureviewerrepositoryassociation"
 
 dataawscccodegurureviewerrepositoryassociation.NewDataAwsccCodegurureviewerRepositoryAssociation(scope Construct, id *string, config DataAwsccCodegurureviewerRepositoryAssociationConfig) DataAwsccCodegurureviewerRepositoryAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociation.DataAwsccCodegurureviewerRepositoryAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodegurureviewerrepositoryassociation"
 
 dataawscccodegurureviewerrepositoryassociation.DataAwsccCodegurureviewerRepositoryAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociation.DataAwsccCodegurureviewerRepositoryAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodegurureviewerrepositoryassociation"
 
 dataawscccodegurureviewerrepositoryassociation.DataAwsccCodegurureviewerRepositoryAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodegurureviewerrepositoryassociation.DataAwsccCodegurureviewerReposito
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociation.DataAwsccCodegurureviewerRepositoryAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodegurureviewerrepositoryassociation"
 
 dataawscccodegurureviewerrepositoryassociation.DataAwsccCodegurureviewerRepositoryAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodegurureviewerrepositoryassociation.DataAwsccCodegurureviewerReposito
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociation.DataAwsccCodegurureviewerRepositoryAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodegurureviewerrepositoryassociation"
 
 dataawscccodegurureviewerrepositoryassociation.DataAwsccCodegurureviewerRepositoryAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodegurureviewerR
 
 The id of the existing DataAwsccCodegurureviewerRepositoryAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codegurureviewer_repository_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codegurureviewer_repository_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociation.DataAwsccCodegurureviewerRepositoryAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodegurureviewerrepositoryassociation"
 
 &dataawscccodegurureviewerrepositoryassociation.DataAwsccCodegurureviewerRepositoryAssociationConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codegurureviewer_repository_association#id DataAwsccCodegurureviewerRepositoryAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codegurureviewer_repository_association#id DataAwsccCodegurureviewerRepositoryAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociation.DataAwsccCodegurureviewerRepositoryAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodegurureviewerrepositoryassociation"
 
 &dataawscccodegurureviewerrepositoryassociation.DataAwsccCodegurureviewerRepositoryAssociationTags {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodegururevie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociation.DataAwsccCodegurureviewerRepositoryAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodegurureviewerrepositoryassociation"
 
 dataawscccodegurureviewerrepositoryassociation.NewDataAwsccCodegurureviewerRepositoryAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodegurureviewerRepositoryAssociationTagsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociation.DataAwsccCodegurureviewerRepositoryAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodegurureviewerrepositoryassociation"
 
 dataawscccodegurureviewerrepositoryassociation.NewDataAwsccCodegurureviewerRepositoryAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodegurureviewerRepositoryAssociationTagsOutputReference
 ```

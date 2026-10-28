@@ -4,12 +4,12 @@
 
 ### DataAwsccNovaactWorkflowDefinition <a name="DataAwsccNovaactWorkflowDefinition" id="@cdktn/provider-awscc.dataAwsccNovaactWorkflowDefinition.DataAwsccNovaactWorkflowDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/novaact_workflow_definition awscc_novaact_workflow_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/novaact_workflow_definition awscc_novaact_workflow_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNovaactWorkflowDefinition.DataAwsccNovaactWorkflowDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnovaactworkflowdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnovaactworkflowdefinition"
 
 dataawsccnovaactworkflowdefinition.NewDataAwsccNovaactWorkflowDefinition(scope Construct, id *string, config DataAwsccNovaactWorkflowDefinitionConfig) DataAwsccNovaactWorkflowDefinition
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNovaactWorkflowDefinition.DataAwsccNovaactWorkflowDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnovaactworkflowdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnovaactworkflowdefinition"
 
 dataawsccnovaactworkflowdefinition.DataAwsccNovaactWorkflowDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNovaactWorkflowDefinition.DataAwsccNovaactWorkflowDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnovaactworkflowdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnovaactworkflowdefinition"
 
 dataawsccnovaactworkflowdefinition.DataAwsccNovaactWorkflowDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnovaactworkflowdefinition.DataAwsccNovaactWorkflowDefinition_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNovaactWorkflowDefinition.DataAwsccNovaactWorkflowDefinition.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnovaactworkflowdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnovaactworkflowdefinition"
 
 dataawsccnovaactworkflowdefinition.DataAwsccNovaactWorkflowDefinition_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnovaactworkflowdefinition.DataAwsccNovaactWorkflowDefinition_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNovaactWorkflowDefinition.DataAwsccNovaactWorkflowDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnovaactworkflowdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnovaactworkflowdefinition"
 
 dataawsccnovaactworkflowdefinition.DataAwsccNovaactWorkflowDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNovaactWorkflowDe
 
 The id of the existing DataAwsccNovaactWorkflowDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/novaact_workflow_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/novaact_workflow_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNovaactWorkflowDefinition.DataAwsccNovaactWorkflowDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnovaactworkflowdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnovaactworkflowdefinition"
 
 &dataawsccnovaactworkflowdefinition.DataAwsccNovaactWorkflowDefinitionConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/novaact_workflow_definition#id DataAwsccNovaactWorkflowDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/novaact_workflow_definition#id DataAwsccNovaactWorkflowDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNovaactWorkflowDefinition.DataAwsccNovaactWorkflowDefinitionExportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnovaactworkflowdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnovaactworkflowdefinition"
 
 &dataawsccnovaactworkflowdefinition.DataAwsccNovaactWorkflowDefinitionExportConfig {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnovaactworkfl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNovaactWorkflowDefinition.DataAwsccNovaactWorkflowDefinitionExportConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnovaactworkflowdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnovaactworkflowdefinition"
 
 dataawsccnovaactworkflowdefinition.NewDataAwsccNovaactWorkflowDefinitionExportConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNovaactWorkflowDefinitionExportConfigOutputReference
 ```

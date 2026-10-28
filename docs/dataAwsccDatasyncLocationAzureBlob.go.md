@@ -4,12 +4,12 @@
 
 ### DataAwsccDatasyncLocationAzureBlob <a name="DataAwsccDatasyncLocationAzureBlob" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.NewDataAwsccDatasyncLocationAzureBlob(scope Construct, id *string, config DataAwsccDatasyncLocationAzureBlobConfig) DataAwsccDatasyncLocationAzureBlob
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlob.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlob_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlob.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlob_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlob_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlob.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlob_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlob_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlob.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlob_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationA
 
 The id of the existing DataAwsccDatasyncLocationAzureBlob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_azure_blob#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_azure_blob#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobAzureBlobSasConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 &dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlobAzureBlobSasConfiguration {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobCmkSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 &dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlobCmkSecretConfig {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 &dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlobConfig {
 	Connection: interface{},
@@ -876,7 +876,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_azure_blob#id DataAwsccDatasyncLocationAzureBlob#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_azure_blob#id DataAwsccDatasyncLocationAzureBlob#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -888,7 +888,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobCustomSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 &dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlobCustomSecretConfig {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobFederatedIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 &dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlobFederatedIdentity {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 &dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidc {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobManagedSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 &dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlobManagedSecretConfig {
 
@@ -940,7 +940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 &dataawsccdatasynclocationazureblob.DataAwsccDatasyncLocationAzureBlobTags {
 
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobAzureBlobSasConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.NewDataAwsccDatasyncLocationAzureBlobAzureBlobSasConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationAzureBlobAzureBlobSasConfigurationOutputReference
 ```
@@ -1215,7 +1215,7 @@ func InternalValue() DataAwsccDatasyncLocationAzureBlobAzureBlobSasConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobCmkSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.NewDataAwsccDatasyncLocationAzureBlobCmkSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationAzureBlobCmkSecretConfigOutputReference
 ```
@@ -1486,7 +1486,7 @@ func InternalValue() DataAwsccDatasyncLocationAzureBlobCmkSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobCustomSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.NewDataAwsccDatasyncLocationAzureBlobCustomSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationAzureBlobCustomSecretConfigOutputReference
 ```
@@ -1757,7 +1757,7 @@ func InternalValue() DataAwsccDatasyncLocationAzureBlobCustomSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.NewDataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOidcOutputReference
 ```
@@ -2028,7 +2028,7 @@ func InternalValue() DataAwsccDatasyncLocationAzureBlobFederatedIdentityAzureOid
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobFederatedIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.NewDataAwsccDatasyncLocationAzureBlobFederatedIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationAzureBlobFederatedIdentityOutputReference
 ```
@@ -2299,7 +2299,7 @@ func InternalValue() DataAwsccDatasyncLocationAzureBlobFederatedIdentity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobManagedSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.NewDataAwsccDatasyncLocationAzureBlobManagedSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationAzureBlobManagedSecretConfigOutputReference
 ```
@@ -2559,7 +2559,7 @@ func InternalValue() DataAwsccDatasyncLocationAzureBlobManagedSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.NewDataAwsccDatasyncLocationAzureBlobTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatasyncLocationAzureBlobTagsList
 ```
@@ -2708,7 +2708,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationAzureBlob.DataAwsccDatasyncLocationAzureBlobTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationazureblob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationazureblob"
 
 dataawsccdatasynclocationazureblob.NewDataAwsccDatasyncLocationAzureBlobTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatasyncLocationAzureBlobTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccBackupBackupSelection <a name="DataAwsccBackupBackupSelection" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_backup_selection awscc_backup_backup_selection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_backup_selection awscc_backup_backup_selection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelection(scope Construct, id *string, config DataAwsccBackupBackupSelectionConfig) DataAwsccBackupBackupSelection
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.DataAwsccBackupBackupSelection_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.DataAwsccBackupBackupSelection_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbackupbackupselection.DataAwsccBackupBackupSelection_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelection.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.DataAwsccBackupBackupSelection_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbackupbackupselection.DataAwsccBackupBackupSelection_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.DataAwsccBackupBackupSelection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBackupBackupSelec
 
 The id of the existing DataAwsccBackupBackupSelection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_backup_selection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_backup_selection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 &dataawsccbackupbackupselection.DataAwsccBackupBackupSelectionBackupSelection {
 
@@ -644,7 +644,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackups
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 &dataawsccbackupbackupselection.DataAwsccBackupBackupSelectionBackupSelectionConditions {
 
@@ -657,7 +657,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackups
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringEquals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 &dataawsccbackupbackupselection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringEquals {
 
@@ -670,7 +670,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackups
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringLike.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 &dataawsccbackupbackupselection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringLike {
 
@@ -683,7 +683,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackups
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotEquals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 &dataawsccbackupbackupselection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotEquals {
 
@@ -696,7 +696,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackups
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotLike.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 &dataawsccbackupbackupselection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotLike {
 
@@ -709,7 +709,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackups
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionListOfTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 &dataawsccbackupbackupselection.DataAwsccBackupBackupSelectionBackupSelectionListOfTags {
 
@@ -722,7 +722,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackups
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 &dataawsccbackupbackupselection.DataAwsccBackupBackupSelectionConfig {
 	Connection: interface{},
@@ -831,7 +831,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_backup_selection#id DataAwsccBackupBackupSelection#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_backup_selection#id DataAwsccBackupBackupSelection#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -845,7 +845,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBackupBackupSelectionBackupSelectionConditionsOutputReference
 ```
@@ -1138,7 +1138,7 @@ func InternalValue() DataAwsccBackupBackupSelectionBackupSelectionConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringEqualsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionConditionsStringEqualsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBackupBackupSelectionBackupSelectionConditionsStringEqualsList
 ```
@@ -1287,7 +1287,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringEqualsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionConditionsStringEqualsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBackupBackupSelectionBackupSelectionConditionsStringEqualsOutputReference
 ```
@@ -1576,7 +1576,7 @@ func InternalValue() DataAwsccBackupBackupSelectionBackupSelectionConditionsStri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringLikeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionConditionsStringLikeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBackupBackupSelectionBackupSelectionConditionsStringLikeList
 ```
@@ -1725,7 +1725,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringLikeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionConditionsStringLikeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBackupBackupSelectionBackupSelectionConditionsStringLikeOutputReference
 ```
@@ -2014,7 +2014,7 @@ func InternalValue() DataAwsccBackupBackupSelectionBackupSelectionConditionsStri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotEqualsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotEqualsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotEqualsList
 ```
@@ -2163,7 +2163,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotEqualsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotEqualsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotEqualsOutputReference
 ```
@@ -2452,7 +2452,7 @@ func InternalValue() DataAwsccBackupBackupSelectionBackupSelectionConditionsStri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotLikeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotLikeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotLikeList
 ```
@@ -2601,7 +2601,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotLikeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotLikeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBackupBackupSelectionBackupSelectionConditionsStringNotLikeOutputReference
 ```
@@ -2890,7 +2890,7 @@ func InternalValue() DataAwsccBackupBackupSelectionBackupSelectionConditionsStri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionListOfTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionListOfTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBackupBackupSelectionBackupSelectionListOfTagsList
 ```
@@ -3039,7 +3039,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionListOfTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionListOfTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBackupBackupSelectionBackupSelectionListOfTagsOutputReference
 ```
@@ -3339,7 +3339,7 @@ func InternalValue() DataAwsccBackupBackupSelectionBackupSelectionListOfTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupSelection.DataAwsccBackupBackupSelectionBackupSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection"
 
 dataawsccbackupbackupselection.NewDataAwsccBackupBackupSelectionBackupSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBackupBackupSelectionBackupSelectionOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontResponseHeadersPolicies <a name="DataAwsccCloudfrontResponseHeadersPolicies" id="@cdktn/provider-awscc.dataAwsccCloudfrontResponseHeadersPolicies.DataAwsccCloudfrontResponseHeadersPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_response_headers_policies awscc_cloudfront_response_headers_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_response_headers_policies awscc_cloudfront_response_headers_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontResponseHeadersPolicies.DataAwsccCloudfrontResponseHeadersPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontresponseheaderspolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontresponseheaderspolicies"
 
 dataawscccloudfrontresponseheaderspolicies.NewDataAwsccCloudfrontResponseHeadersPolicies(scope Construct, id *string, config DataAwsccCloudfrontResponseHeadersPoliciesConfig) DataAwsccCloudfrontResponseHeadersPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontResponseHeadersPolicies.DataAwsccCloudfrontResponseHeadersPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontresponseheaderspolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontresponseheaderspolicies"
 
 dataawscccloudfrontresponseheaderspolicies.DataAwsccCloudfrontResponseHeadersPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontResponseHeadersPolicies.DataAwsccCloudfrontResponseHeadersPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontresponseheaderspolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontresponseheaderspolicies"
 
 dataawscccloudfrontresponseheaderspolicies.DataAwsccCloudfrontResponseHeadersPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontresponseheaderspolicies.DataAwsccCloudfrontResponseHeadersPol
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontResponseHeadersPolicies.DataAwsccCloudfrontResponseHeadersPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontresponseheaderspolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontresponseheaderspolicies"
 
 dataawscccloudfrontresponseheaderspolicies.DataAwsccCloudfrontResponseHeadersPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontresponseheaderspolicies.DataAwsccCloudfrontResponseHeadersPol
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontResponseHeadersPolicies.DataAwsccCloudfrontResponseHeadersPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontresponseheaderspolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontresponseheaderspolicies"
 
 dataawscccloudfrontresponseheaderspolicies.DataAwsccCloudfrontResponseHeadersPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontRespons
 
 The id of the existing DataAwsccCloudfrontResponseHeadersPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_response_headers_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_response_headers_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontResponseHeadersPolicies.DataAwsccCloudfrontResponseHeadersPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontresponseheaderspolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontresponseheaderspolicies"
 
 &dataawscccloudfrontresponseheaderspolicies.DataAwsccCloudfrontResponseHeadersPoliciesConfig {
 	Connection: interface{},

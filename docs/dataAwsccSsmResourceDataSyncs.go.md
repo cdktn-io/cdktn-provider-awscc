@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmResourceDataSyncs <a name="DataAwsccSsmResourceDataSyncs" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSyncs.DataAwsccSsmResourceDataSyncs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_resource_data_syncs awscc_ssm_resource_data_syncs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_resource_data_syncs awscc_ssm_resource_data_syncs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSyncs.DataAwsccSsmResourceDataSyncs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasyncs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasyncs"
 
 dataawsccssmresourcedatasyncs.NewDataAwsccSsmResourceDataSyncs(scope Construct, id *string, config DataAwsccSsmResourceDataSyncsConfig) DataAwsccSsmResourceDataSyncs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSyncs.DataAwsccSsmResourceDataSyncs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasyncs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasyncs"
 
 dataawsccssmresourcedatasyncs.DataAwsccSsmResourceDataSyncs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSyncs.DataAwsccSsmResourceDataSyncs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasyncs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasyncs"
 
 dataawsccssmresourcedatasyncs.DataAwsccSsmResourceDataSyncs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmresourcedatasyncs.DataAwsccSsmResourceDataSyncs_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSyncs.DataAwsccSsmResourceDataSyncs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasyncs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasyncs"
 
 dataawsccssmresourcedatasyncs.DataAwsccSsmResourceDataSyncs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmresourcedatasyncs.DataAwsccSsmResourceDataSyncs_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSyncs.DataAwsccSsmResourceDataSyncs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasyncs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasyncs"
 
 dataawsccssmresourcedatasyncs.DataAwsccSsmResourceDataSyncs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmResourceDataSy
 
 The id of the existing DataAwsccSsmResourceDataSyncs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_resource_data_syncs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_resource_data_syncs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSyncs.DataAwsccSsmResourceDataSyncsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasyncs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasyncs"
 
 &dataawsccssmresourcedatasyncs.DataAwsccSsmResourceDataSyncsConfig {
 	Connection: interface{},

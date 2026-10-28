@@ -4,12 +4,12 @@
 
 ### DataAwsccStepfunctionsStateMachine <a name="DataAwsccStepfunctionsStateMachine" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachine"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_state_machine awscc_stepfunctions_state_machine}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_state_machine awscc_stepfunctions_state_machine}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachine.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.NewDataAwsccStepfunctionsStateMachine(scope Construct, id *string, config DataAwsccStepfunctionsStateMachineConfig) DataAwsccStepfunctionsStateMachine
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachine.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachine_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachine.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachine_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachine_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachine.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachine_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachine_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachine.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachine_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccStepfunctionsStat
 
 The id of the existing DataAwsccStepfunctionsStateMachine that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_state_machine#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_state_machine#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 &dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachineConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_state_machine#id DataAwsccStepfunctionsStateMachine#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_state_machine#id DataAwsccStepfunctionsStateMachine#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineDefinitionS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 &dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachineDefinitionS3Location {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctions
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 &dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachineLoggingConfiguration {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctions
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineLoggingConfigurationDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 &dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachineLoggingConfigurationDestinations {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctions
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineLoggingConfigurationDestinationsCloudwatchLogsLogGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 &dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachineLoggingConfigurationDestinationsCloudwatchLogsLogGroup {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctions
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 &dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachineTags {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctions
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineTracingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 &dataawsccstepfunctionsstatemachine.DataAwsccStepfunctionsStateMachineTracingConfiguration {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineDefinitionS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.NewDataAwsccStepfunctionsStateMachineDefinitionS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccStepfunctionsStateMachineDefinitionS3LocationOutputReference
 ```
@@ -1202,7 +1202,7 @@ func InternalValue() DataAwsccStepfunctionsStateMachineDefinitionS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineLoggingConfigurationDestinationsCloudwatchLogsLogGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.NewDataAwsccStepfunctionsStateMachineLoggingConfigurationDestinationsCloudwatchLogsLogGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccStepfunctionsStateMachineLoggingConfigurationDestinationsCloudwatchLogsLogGroupOutputReference
 ```
@@ -1462,7 +1462,7 @@ func InternalValue() DataAwsccStepfunctionsStateMachineLoggingConfigurationDesti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineLoggingConfigurationDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.NewDataAwsccStepfunctionsStateMachineLoggingConfigurationDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccStepfunctionsStateMachineLoggingConfigurationDestinationsList
 ```
@@ -1611,7 +1611,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineLoggingConfigurationDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.NewDataAwsccStepfunctionsStateMachineLoggingConfigurationDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccStepfunctionsStateMachineLoggingConfigurationDestinationsOutputReference
 ```
@@ -1889,7 +1889,7 @@ func InternalValue() DataAwsccStepfunctionsStateMachineLoggingConfigurationDesti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.NewDataAwsccStepfunctionsStateMachineLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccStepfunctionsStateMachineLoggingConfigurationOutputReference
 ```
@@ -2171,7 +2171,7 @@ func InternalValue() DataAwsccStepfunctionsStateMachineLoggingConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.NewDataAwsccStepfunctionsStateMachineTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccStepfunctionsStateMachineTagsList
 ```
@@ -2320,7 +2320,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.NewDataAwsccStepfunctionsStateMachineTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccStepfunctionsStateMachineTagsOutputReference
 ```
@@ -2609,7 +2609,7 @@ func InternalValue() DataAwsccStepfunctionsStateMachineTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachine.DataAwsccStepfunctionsStateMachineTracingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachine"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachine"
 
 dataawsccstepfunctionsstatemachine.NewDataAwsccStepfunctionsStateMachineTracingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccStepfunctionsStateMachineTracingConfigurationOutputReference
 ```

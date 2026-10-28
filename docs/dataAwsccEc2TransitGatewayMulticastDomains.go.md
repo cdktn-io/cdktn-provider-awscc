@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2TransitGatewayMulticastDomains <a name="DataAwsccEc2TransitGatewayMulticastDomains" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastDomains.DataAwsccEc2TransitGatewayMulticastDomains"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_multicast_domains awscc_ec2_transit_gateway_multicast_domains}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_multicast_domains awscc_ec2_transit_gateway_multicast_domains}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastDomains.DataAwsccEc2TransitGatewayMulticastDomains.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastdomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastdomains"
 
 dataawsccec2transitgatewaymulticastdomains.NewDataAwsccEc2TransitGatewayMulticastDomains(scope Construct, id *string, config DataAwsccEc2TransitGatewayMulticastDomainsConfig) DataAwsccEc2TransitGatewayMulticastDomains
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastDomains.DataAwsccEc2TransitGatewayMulticastDomains.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastdomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastdomains"
 
 dataawsccec2transitgatewaymulticastdomains.DataAwsccEc2TransitGatewayMulticastDomains_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastDomains.DataAwsccEc2TransitGatewayMulticastDomains.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastdomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastdomains"
 
 dataawsccec2transitgatewaymulticastdomains.DataAwsccEc2TransitGatewayMulticastDomains_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2transitgatewaymulticastdomains.DataAwsccEc2TransitGatewayMulticastDo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastDomains.DataAwsccEc2TransitGatewayMulticastDomains.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastdomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastdomains"
 
 dataawsccec2transitgatewaymulticastdomains.DataAwsccEc2TransitGatewayMulticastDomains_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2transitgatewaymulticastdomains.DataAwsccEc2TransitGatewayMulticastDo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastDomains.DataAwsccEc2TransitGatewayMulticastDomains.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastdomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastdomains"
 
 dataawsccec2transitgatewaymulticastdomains.DataAwsccEc2TransitGatewayMulticastDomains_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2TransitGateway
 
 The id of the existing DataAwsccEc2TransitGatewayMulticastDomains that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_multicast_domains#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_multicast_domains#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastDomains.DataAwsccEc2TransitGatewayMulticastDomainsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastdomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastdomains"
 
 &dataawsccec2transitgatewaymulticastdomains.DataAwsccEc2TransitGatewayMulticastDomainsConfig {
 	Connection: interface{},

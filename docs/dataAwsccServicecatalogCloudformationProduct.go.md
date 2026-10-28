@@ -4,12 +4,12 @@
 
 ### DataAwsccServicecatalogCloudformationProduct <a name="DataAwsccServicecatalogCloudformationProduct" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProduct"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProduct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.NewDataAwsccServicecatalogCloudformationProduct(scope Construct, id *string, config DataAwsccServicecatalogCloudformationProductConfig) DataAwsccServicecatalogCloudformationProduct
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProduct.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformationProduct_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProduct.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformationProduct_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformati
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProduct.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformationProduct_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformati
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProduct.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformationProduct_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogClo
 
 The id of the existing DataAwsccServicecatalogCloudformationProduct that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_cloudformation_product#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_cloudformation_product#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 &dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformationProductConfig {
 	Connection: interface{},
@@ -883,7 +883,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_cloudformation_product#id DataAwsccServicecatalogCloudformationProduct#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_cloudformation_product#id DataAwsccServicecatalogCloudformationProduct#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -895,7 +895,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductProvisioningArtifactParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 &dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformationProductProvisioningArtifactParameters {
 
@@ -908,7 +908,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 &dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfo {
 
@@ -921,7 +921,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductSourceConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 &dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformationProductSourceConnection {
 
@@ -934,7 +934,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductSourceConnectionConnectionParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 &dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformationProductSourceConnectionConnectionParameters {
 
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductSourceConnectionConnectionParametersCodeStar.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 &dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformationProductSourceConnectionConnectionParametersCodeStar {
 
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 &dataawsccservicecatalogcloudformationproduct.DataAwsccServicecatalogCloudformationProductTags {
 
@@ -975,7 +975,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.NewDataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersInfoOutputReference
 ```
@@ -1246,7 +1246,7 @@ func InternalValue() DataAwsccServicecatalogCloudformationProductProvisioningArt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.NewDataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersList
 ```
@@ -1395,7 +1395,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.NewDataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccServicecatalogCloudformationProductProvisioningArtifactParametersOutputReference
 ```
@@ -1717,7 +1717,7 @@ func InternalValue() DataAwsccServicecatalogCloudformationProductProvisioningArt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductSourceConnectionConnectionParametersCodeStarOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.NewDataAwsccServicecatalogCloudformationProductSourceConnectionConnectionParametersCodeStarOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccServicecatalogCloudformationProductSourceConnectionConnectionParametersCodeStarOutputReference
 ```
@@ -2010,7 +2010,7 @@ func InternalValue() DataAwsccServicecatalogCloudformationProductSourceConnectio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductSourceConnectionConnectionParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.NewDataAwsccServicecatalogCloudformationProductSourceConnectionConnectionParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccServicecatalogCloudformationProductSourceConnectionConnectionParametersOutputReference
 ```
@@ -2270,7 +2270,7 @@ func InternalValue() DataAwsccServicecatalogCloudformationProductSourceConnectio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductSourceConnectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.NewDataAwsccServicecatalogCloudformationProductSourceConnectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccServicecatalogCloudformationProductSourceConnectionOutputReference
 ```
@@ -2541,7 +2541,7 @@ func InternalValue() DataAwsccServicecatalogCloudformationProductSourceConnectio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.NewDataAwsccServicecatalogCloudformationProductTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccServicecatalogCloudformationProductTagsList
 ```
@@ -2690,7 +2690,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProduct.DataAwsccServicecatalogCloudformationProductTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproduct"
 
 dataawsccservicecatalogcloudformationproduct.NewDataAwsccServicecatalogCloudformationProductTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccServicecatalogCloudformationProductTagsOutputReference
 ```

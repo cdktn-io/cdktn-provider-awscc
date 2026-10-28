@@ -4,12 +4,12 @@
 
 ### DataAwsccBcmdataexportsExports <a name="DataAwsccBcmdataexportsExports" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExports.DataAwsccBcmdataexportsExports"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcmdataexports_exports awscc_bcmdataexports_exports}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcmdataexports_exports awscc_bcmdataexports_exports}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExports.DataAwsccBcmdataexportsExports.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexports"
 
 dataawsccbcmdataexportsexports.NewDataAwsccBcmdataexportsExports(scope Construct, id *string, config DataAwsccBcmdataexportsExportsConfig) DataAwsccBcmdataexportsExports
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExports.DataAwsccBcmdataexportsExports.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexports"
 
 dataawsccbcmdataexportsexports.DataAwsccBcmdataexportsExports_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExports.DataAwsccBcmdataexportsExports.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexports"
 
 dataawsccbcmdataexportsexports.DataAwsccBcmdataexportsExports_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbcmdataexportsexports.DataAwsccBcmdataexportsExports_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExports.DataAwsccBcmdataexportsExports.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexports"
 
 dataawsccbcmdataexportsexports.DataAwsccBcmdataexportsExports_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbcmdataexportsexports.DataAwsccBcmdataexportsExports_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExports.DataAwsccBcmdataexportsExports.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexports"
 
 dataawsccbcmdataexportsexports.DataAwsccBcmdataexportsExports_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBcmdataexportsExp
 
 The id of the existing DataAwsccBcmdataexportsExports that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcmdataexports_exports#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcmdataexports_exports#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmdataexportsExports.DataAwsccBcmdataexportsExportsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmdataexportsexports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmdataexportsexports"
 
 &dataawsccbcmdataexportsexports.DataAwsccBcmdataexportsExportsConfig {
 	Connection: interface{},

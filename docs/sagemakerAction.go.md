@@ -4,12 +4,12 @@
 
 ### SagemakerAction <a name="SagemakerAction" id="@cdktn/provider-awscc.sagemakerAction.SagemakerAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action awscc_sagemaker_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action awscc_sagemaker_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAction.SagemakerAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 sagemakeraction.NewSagemakerAction(scope Construct, id *string, config SagemakerActionConfig) SagemakerAction
 ```
@@ -474,7 +474,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sagemakerAction.SagemakerAction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 sagemakeraction.SagemakerAction_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sagemakerAction.SagemakerAction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 sagemakeraction.SagemakerAction_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ sagemakeraction.SagemakerAction_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sagemakerAction.SagemakerAction.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 sagemakeraction.SagemakerAction_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ sagemakeraction.SagemakerAction_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sagemakerAction.SagemakerAction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 sagemakeraction.SagemakerAction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the SagemakerAction to import.
 
 The id of the existing SagemakerAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -983,7 +983,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAction.SagemakerActionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 &sagemakeraction.SagemakerActionConfig {
 	Connection: interface{},
@@ -995,9 +995,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
 	Provisioners: *[]interface{},
 	ActionName: *string,
 	ActionType: *string,
-	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerAction.SagemakerActionSource,
+	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerAction.SagemakerActionSource,
 	Description: *string,
-	MetadataProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerAction.SagemakerActionMetadataProperties,
+	MetadataProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerAction.SagemakerActionMetadataProperties,
 	Properties: *map[string]*string,
 	Status: *string,
 	Tags: interface{},
@@ -1106,7 +1106,7 @@ ActionName *string
 
 The name of the action. Must be unique to your account in an AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#action_name SagemakerAction#action_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#action_name SagemakerAction#action_name}
 
 ---
 
@@ -1120,7 +1120,7 @@ ActionType *string
 
 The action type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#action_type SagemakerAction#action_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#action_type SagemakerAction#action_type}
 
 ---
 
@@ -1134,7 +1134,7 @@ Source SagemakerActionSource
 
 The source type, ID, and URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#source SagemakerAction#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#source SagemakerAction#source}
 
 ---
 
@@ -1148,7 +1148,7 @@ Description *string
 
 The description of the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#description SagemakerAction#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#description SagemakerAction#description}
 
 ---
 
@@ -1162,7 +1162,7 @@ MetadataProperties SagemakerActionMetadataProperties
 
 Metadata properties of the tracking entity, trial, or trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#metadata_properties SagemakerAction#metadata_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#metadata_properties SagemakerAction#metadata_properties}
 
 ---
 
@@ -1176,7 +1176,7 @@ Properties *map[string]*string
 
 A list of properties to add to the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#properties SagemakerAction#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#properties SagemakerAction#properties}
 
 ---
 
@@ -1190,7 +1190,7 @@ Status *string
 
 The status of the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#status SagemakerAction#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#status SagemakerAction#status}
 
 ---
 
@@ -1204,7 +1204,7 @@ Tags interface{}
 
 A list of tags to apply to the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#tags SagemakerAction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#tags SagemakerAction#tags}
 
 ---
 
@@ -1213,7 +1213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAction.SagemakerActionMetadataProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 &sagemakeraction.SagemakerActionMetadataProperties {
 	CommitId: *string,
@@ -1244,7 +1244,7 @@ CommitId *string
 
 The commit ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#commit_id SagemakerAction#commit_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#commit_id SagemakerAction#commit_id}
 
 ---
 
@@ -1258,7 +1258,7 @@ GeneratedBy *string
 
 The entity this entity was generated by.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#generated_by SagemakerAction#generated_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#generated_by SagemakerAction#generated_by}
 
 ---
 
@@ -1272,7 +1272,7 @@ ProjectId *string
 
 The project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#project_id SagemakerAction#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#project_id SagemakerAction#project_id}
 
 ---
 
@@ -1286,7 +1286,7 @@ Repository *string
 
 The repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#repository SagemakerAction#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#repository SagemakerAction#repository}
 
 ---
 
@@ -1295,7 +1295,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAction.SagemakerActionSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 &sagemakeraction.SagemakerActionSource {
 	SourceUri: *string,
@@ -1324,7 +1324,7 @@ SourceUri *string
 
 The URI of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#source_uri SagemakerAction#source_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#source_uri SagemakerAction#source_uri}
 
 ---
 
@@ -1338,7 +1338,7 @@ SourceId *string
 
 The ID of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#source_id SagemakerAction#source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#source_id SagemakerAction#source_id}
 
 ---
 
@@ -1352,7 +1352,7 @@ SourceType *string
 
 The type of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#source_type SagemakerAction#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#source_type SagemakerAction#source_type}
 
 ---
 
@@ -1361,7 +1361,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerAction.SagemakerActionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 &sagemakeraction.SagemakerActionTags {
 	Key: *string,
@@ -1388,7 +1388,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#key SagemakerAction#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#key SagemakerAction#key}
 
 ---
 
@@ -1402,7 +1402,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_action#value SagemakerAction#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_action#value SagemakerAction#value}
 
 ---
 
@@ -1413,7 +1413,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAction.SagemakerActionMetadataPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 sagemakeraction.NewSagemakerActionMetadataPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerActionMetadataPropertiesOutputReference
 ```
@@ -1778,7 +1778,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAction.SagemakerActionSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 sagemakeraction.NewSagemakerActionSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerActionSourceOutputReference
 ```
@@ -2107,7 +2107,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAction.SagemakerActionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 sagemakeraction.NewSagemakerActionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerActionTagsList
 ```
@@ -2267,7 +2267,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerAction.SagemakerActionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeraction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeraction"
 
 sagemakeraction.NewSagemakerActionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerActionTagsOutputReference
 ```

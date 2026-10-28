@@ -4,12 +4,12 @@
 
 ### CodecommitRepository <a name="CodecommitRepository" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository awscc_codecommit_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository awscc_codecommit_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 codecommitrepository.NewCodecommitRepository(scope Construct, id *string, config CodecommitRepositoryConfig) CodecommitRepository
 ```
@@ -474,7 +474,7 @@ func ResetTriggers()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepository.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 codecommitrepository.CodecommitRepository_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepository.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 codecommitrepository.CodecommitRepository_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ codecommitrepository.CodecommitRepository_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepository.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 codecommitrepository.CodecommitRepository_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ codecommitrepository.CodecommitRepository_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepository.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 codecommitrepository.CodecommitRepository_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the CodecommitRepository to im
 
 The id of the existing CodecommitRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -961,11 +961,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepositoryCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 &codecommitrepository.CodecommitRepositoryCode {
 	BranchName: *string,
-	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codecommitRepository.CodecommitRepositoryCodeS3,
+	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codecommitRepository.CodecommitRepositoryCodeS3,
 }
 ```
 
@@ -990,7 +990,7 @@ Optional.
 
 Specifies a branch name to be used as the default branch when importing code into a repository on initial creation. If this property is not set, the name main will be used for the default branch for the repository. Changes to this property are ignored after initial resource creation. We recommend using this parameter to set the name to main to align with the default behavior of CodeCommit unless another name is needed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#branch_name CodecommitRepository#branch_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#branch_name CodecommitRepository#branch_name}
 
 ---
 
@@ -1006,7 +1006,7 @@ Information about the Amazon S3 bucket that contains a ZIP file of code to be co
 
 Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#s3 CodecommitRepository#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#s3 CodecommitRepository#s3}
 
 ---
 
@@ -1015,7 +1015,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepositoryCodeS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 &codecommitrepository.CodecommitRepositoryCodeS3 {
 	Bucket: *string,
@@ -1046,7 +1046,7 @@ The name of the Amazon S3 bucket that contains the ZIP file with the content tha
 
 This can be specified using the name of the bucket in the AWS account. Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#bucket CodecommitRepository#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#bucket CodecommitRepository#bucket}
 
 ---
 
@@ -1062,7 +1062,7 @@ The key to use for accessing the Amazon S3 bucket.
 
 Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
 
 ---
 
@@ -1078,7 +1078,7 @@ The object version of the ZIP file, if versioning is enabled for the Amazon S3 b
 
 Changes to this property are ignored after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#object_version CodecommitRepository#object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#object_version CodecommitRepository#object_version}
 
 ---
 
@@ -1087,7 +1087,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepositoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 &codecommitrepository.CodecommitRepositoryConfig {
 	Connection: interface{},
@@ -1098,7 +1098,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	RepositoryName: *string,
-	Code: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codecommitRepository.CodecommitRepositoryCode,
+	Code: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codecommitRepository.CodecommitRepositoryCode,
 	KmsKeyId: *string,
 	RepositoryDescription: *string,
 	Tags: interface{},
@@ -1206,7 +1206,7 @@ RepositoryName *string
 
 The name of the new repository to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#repository_name CodecommitRepository#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#repository_name CodecommitRepository#repository_name}
 
 ---
 
@@ -1222,7 +1222,7 @@ Information about code to be committed to a repository after it is created in an
 
 Information about code is only used in resource creation. Updates to a stack will not reflect changes made to code properties after initial resource creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#code CodecommitRepository#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#code CodecommitRepository#code}
 
 ---
 
@@ -1236,7 +1236,7 @@ KmsKeyId *string
 
 The ID of the AWS Key Management Service encryption key used to encrypt and decrypt the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#kms_key_id CodecommitRepository#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#kms_key_id CodecommitRepository#kms_key_id}
 
 ---
 
@@ -1250,7 +1250,7 @@ RepositoryDescription *string
 
 A comment or description about the new repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#repository_description CodecommitRepository#repository_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#repository_description CodecommitRepository#repository_description}
 
 ---
 
@@ -1264,7 +1264,7 @@ Tags interface{}
 
 One or more tag key-value pairs to use when tagging this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#tags CodecommitRepository#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#tags CodecommitRepository#tags}
 
 ---
 
@@ -1278,7 +1278,7 @@ Triggers interface{}
 
 Information about a trigger for a repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#triggers CodecommitRepository#triggers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#triggers CodecommitRepository#triggers}
 
 ---
 
@@ -1287,7 +1287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepositoryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 &codecommitrepository.CodecommitRepositoryTags {
 	Key: *string,
@@ -1314,7 +1314,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
 
 ---
 
@@ -1328,7 +1328,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#value CodecommitRepository#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#value CodecommitRepository#value}
 
 ---
 
@@ -1337,7 +1337,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepositoryTriggers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 &codecommitrepository.CodecommitRepositoryTriggers {
 	Branches: *[]*string,
@@ -1372,7 +1372,7 @@ The branches to be included in the trigger configuration.
 
 If you specify an empty array, the trigger applies to all branches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#branches CodecommitRepository#branches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#branches CodecommitRepository#branches}
 
 ---
 
@@ -1386,7 +1386,7 @@ CustomData *string
 
 Any custom data associated with the trigger to be included in the information sent to the target of the trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#custom_data CodecommitRepository#custom_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#custom_data CodecommitRepository#custom_data}
 
 ---
 
@@ -1400,7 +1400,7 @@ DestinationArn *string
 
 The ARN of the resource that is the target for a trigger (for example, the ARN of a topic in Amazon SNS).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#destination_arn CodecommitRepository#destination_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#destination_arn CodecommitRepository#destination_arn}
 
 ---
 
@@ -1414,7 +1414,7 @@ Events *[]*string
 
 The repository events that cause the trigger to run actions in another service, such as sending a notification through Amazon SNS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#events CodecommitRepository#events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#events CodecommitRepository#events}
 
 ---
 
@@ -1428,7 +1428,7 @@ Name *string
 
 The name of the trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository#name CodecommitRepository#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository#name CodecommitRepository#name}
 
 ---
 
@@ -1439,7 +1439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepositoryCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 codecommitrepository.NewCodecommitRepositoryCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodecommitRepositoryCodeOutputReference
 ```
@@ -1759,7 +1759,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepositoryCodeS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 codecommitrepository.NewCodecommitRepositoryCodeS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodecommitRepositoryCodeS3OutputReference
 ```
@@ -2095,7 +2095,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepositoryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 codecommitrepository.NewCodecommitRepositoryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodecommitRepositoryTagsList
 ```
@@ -2255,7 +2255,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepositoryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 codecommitrepository.NewCodecommitRepositoryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodecommitRepositoryTagsOutputReference
 ```
@@ -2580,7 +2580,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepositoryTriggersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 codecommitrepository.NewCodecommitRepositoryTriggersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodecommitRepositoryTriggersList
 ```
@@ -2740,7 +2740,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codecommitRepository.CodecommitRepositoryTriggersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository"
 
 codecommitrepository.NewCodecommitRepositoryTriggersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodecommitRepositoryTriggersOutputReference
 ```

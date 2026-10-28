@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudtrailResourcePolicy <a name="DataAwsccCloudtrailResourcePolicy" id="@cdktn/provider-awscc.dataAwsccCloudtrailResourcePolicy.DataAwsccCloudtrailResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailResourcePolicy.DataAwsccCloudtrailResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailresourcepolicy"
 
 dataawscccloudtrailresourcepolicy.NewDataAwsccCloudtrailResourcePolicy(scope Construct, id *string, config DataAwsccCloudtrailResourcePolicyConfig) DataAwsccCloudtrailResourcePolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudtrailResourcePolicy.DataAwsccCloudtrailResourcePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailresourcepolicy"
 
 dataawscccloudtrailresourcepolicy.DataAwsccCloudtrailResourcePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudtrailResourcePolicy.DataAwsccCloudtrailResourcePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailresourcepolicy"
 
 dataawscccloudtrailresourcepolicy.DataAwsccCloudtrailResourcePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudtrailresourcepolicy.DataAwsccCloudtrailResourcePolicy_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudtrailResourcePolicy.DataAwsccCloudtrailResourcePolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailresourcepolicy"
 
 dataawscccloudtrailresourcepolicy.DataAwsccCloudtrailResourcePolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudtrailresourcepolicy.DataAwsccCloudtrailResourcePolicy_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudtrailResourcePolicy.DataAwsccCloudtrailResourcePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailresourcepolicy"
 
 dataawscccloudtrailresourcepolicy.DataAwsccCloudtrailResourcePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudtrailResourc
 
 The id of the existing DataAwsccCloudtrailResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailResourcePolicy.DataAwsccCloudtrailResourcePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailresourcepolicy"
 
 &dataawscccloudtrailresourcepolicy.DataAwsccCloudtrailResourcePolicyConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_resource_policy#id DataAwsccCloudtrailResourcePolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_resource_policy#id DataAwsccCloudtrailResourcePolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

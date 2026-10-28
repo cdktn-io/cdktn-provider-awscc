@@ -4,12 +4,12 @@
 
 ### DataAwsccGreengrassv2Deployments <a name="DataAwsccGreengrassv2Deployments" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployments.DataAwsccGreengrassv2Deployments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployments.DataAwsccGreengrassv2Deployments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployments"
 
 dataawsccgreengrassv2deployments.NewDataAwsccGreengrassv2Deployments(scope Construct, id *string, config DataAwsccGreengrassv2DeploymentsConfig) DataAwsccGreengrassv2Deployments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployments.DataAwsccGreengrassv2Deployments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployments"
 
 dataawsccgreengrassv2deployments.DataAwsccGreengrassv2Deployments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployments.DataAwsccGreengrassv2Deployments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployments"
 
 dataawsccgreengrassv2deployments.DataAwsccGreengrassv2Deployments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgreengrassv2deployments.DataAwsccGreengrassv2Deployments_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployments.DataAwsccGreengrassv2Deployments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployments"
 
 dataawsccgreengrassv2deployments.DataAwsccGreengrassv2Deployments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgreengrassv2deployments.DataAwsccGreengrassv2Deployments_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployments.DataAwsccGreengrassv2Deployments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployments"
 
 dataawsccgreengrassv2deployments.DataAwsccGreengrassv2Deployments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGreengrassv2Deplo
 
 The id of the existing DataAwsccGreengrassv2Deployments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/greengrassv2_deployments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/greengrassv2_deployments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployments.DataAwsccGreengrassv2DeploymentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployments"
 
 &dataawsccgreengrassv2deployments.DataAwsccGreengrassv2DeploymentsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### EventsConnection <a name="EventsConnection" id="@cdktn/provider-awscc.eventsConnection.EventsConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection awscc_events_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection awscc_events_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnection(scope Construct, id *string, config EventsConnectionConfig) EventsConnection
 ```
@@ -468,7 +468,7 @@ func ResetName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.eventsConnection.EventsConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.EventsConnection_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.eventsConnection.EventsConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.EventsConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ eventsconnection.EventsConnection_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.eventsConnection.EventsConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.EventsConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ eventsconnection.EventsConnection_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.eventsConnection.EventsConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.EventsConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the EventsConnection to import
 
 The id of the existing EventsConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -933,14 +933,14 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParameters {
-	ApiKeyAuthParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsConnection.EventsConnectionAuthParametersApiKeyAuthParameters,
-	BasicAuthParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsConnection.EventsConnectionAuthParametersBasicAuthParameters,
-	ConnectivityParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParameters,
-	InvocationHttpParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters,
-	OAuthParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters,
+	ApiKeyAuthParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsConnection.EventsConnectionAuthParametersApiKeyAuthParameters,
+	BasicAuthParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsConnection.EventsConnectionAuthParametersBasicAuthParameters,
+	ConnectivityParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsConnection.EventsConnectionAuthParametersConnectivityParameters,
+	InvocationHttpParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters,
+	OAuthParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsConnection.EventsConnectionAuthParametersOAuthParameters,
 }
 ```
 
@@ -948,11 +948,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters.property.apiKeyAuthParameters">ApiKeyAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersApiKeyAuthParameters">EventsConnectionAuthParametersApiKeyAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#api_key_auth_parameters EventsConnection#api_key_auth_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters.property.basicAuthParameters">BasicAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersBasicAuthParameters">EventsConnectionAuthParametersBasicAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#basic_auth_parameters EventsConnection#basic_auth_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters.property.connectivityParameters">ConnectivityParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParameters">EventsConnectionAuthParametersConnectivityParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#connectivity_parameters EventsConnection#connectivity_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters.property.invocationHttpParameters">InvocationHttpParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters">EventsConnectionAuthParametersInvocationHttpParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#invocation_http_parameters EventsConnection#invocation_http_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters.property.oAuthParameters">OAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters">EventsConnectionAuthParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#o_auth_parameters EventsConnection#o_auth_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters.property.apiKeyAuthParameters">ApiKeyAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersApiKeyAuthParameters">EventsConnectionAuthParametersApiKeyAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#api_key_auth_parameters EventsConnection#api_key_auth_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters.property.basicAuthParameters">BasicAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersBasicAuthParameters">EventsConnectionAuthParametersBasicAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#basic_auth_parameters EventsConnection#basic_auth_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters.property.connectivityParameters">ConnectivityParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParameters">EventsConnectionAuthParametersConnectivityParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#connectivity_parameters EventsConnection#connectivity_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters.property.invocationHttpParameters">InvocationHttpParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters">EventsConnectionAuthParametersInvocationHttpParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#invocation_http_parameters EventsConnection#invocation_http_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters.property.oAuthParameters">OAuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters">EventsConnectionAuthParametersOAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#o_auth_parameters EventsConnection#o_auth_parameters}. |
 
 ---
 
@@ -964,7 +964,7 @@ ApiKeyAuthParameters EventsConnectionAuthParametersApiKeyAuthParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersApiKeyAuthParameters">EventsConnectionAuthParametersApiKeyAuthParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#api_key_auth_parameters EventsConnection#api_key_auth_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#api_key_auth_parameters EventsConnection#api_key_auth_parameters}.
 
 ---
 
@@ -976,7 +976,7 @@ BasicAuthParameters EventsConnectionAuthParametersBasicAuthParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersBasicAuthParameters">EventsConnectionAuthParametersBasicAuthParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#basic_auth_parameters EventsConnection#basic_auth_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#basic_auth_parameters EventsConnection#basic_auth_parameters}.
 
 ---
 
@@ -988,7 +988,7 @@ ConnectivityParameters EventsConnectionAuthParametersConnectivityParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParameters">EventsConnectionAuthParametersConnectivityParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#connectivity_parameters EventsConnection#connectivity_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#connectivity_parameters EventsConnection#connectivity_parameters}.
 
 ---
 
@@ -1000,7 +1000,7 @@ InvocationHttpParameters EventsConnectionAuthParametersInvocationHttpParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters">EventsConnectionAuthParametersInvocationHttpParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#invocation_http_parameters EventsConnection#invocation_http_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#invocation_http_parameters EventsConnection#invocation_http_parameters}.
 
 ---
 
@@ -1012,7 +1012,7 @@ OAuthParameters EventsConnectionAuthParametersOAuthParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters">EventsConnectionAuthParametersOAuthParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#o_auth_parameters EventsConnection#o_auth_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#o_auth_parameters EventsConnection#o_auth_parameters}.
 
 ---
 
@@ -1021,7 +1021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersApiKeyAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersApiKeyAuthParameters {
 	ApiKeyName: *string,
@@ -1033,8 +1033,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersApiKeyAuthParameters.property.apiKeyName">ApiKeyName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#api_key_name EventsConnection#api_key_name}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersApiKeyAuthParameters.property.apiKeyValue">ApiKeyValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#api_key_value EventsConnection#api_key_value}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersApiKeyAuthParameters.property.apiKeyName">ApiKeyName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#api_key_name EventsConnection#api_key_name}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersApiKeyAuthParameters.property.apiKeyValue">ApiKeyValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#api_key_value EventsConnection#api_key_value}. |
 
 ---
 
@@ -1046,7 +1046,7 @@ ApiKeyName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#api_key_name EventsConnection#api_key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#api_key_name EventsConnection#api_key_name}.
 
 ---
 
@@ -1058,7 +1058,7 @@ ApiKeyValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#api_key_value EventsConnection#api_key_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#api_key_value EventsConnection#api_key_value}.
 
 ---
 
@@ -1067,7 +1067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersBasicAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersBasicAuthParameters {
 	Password: *string,
@@ -1079,8 +1079,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersBasicAuthParameters.property.password">Password</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#password EventsConnection#password}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersBasicAuthParameters.property.username">Username</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#username EventsConnection#username}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersBasicAuthParameters.property.password">Password</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#password EventsConnection#password}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersBasicAuthParameters.property.username">Username</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#username EventsConnection#username}. |
 
 ---
 
@@ -1092,7 +1092,7 @@ Password *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#password EventsConnection#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#password EventsConnection#password}.
 
 ---
 
@@ -1104,7 +1104,7 @@ Username *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#username EventsConnection#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#username EventsConnection#username}.
 
 ---
 
@@ -1113,10 +1113,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersConnectivityParameters {
-	ResourceParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParametersResourceParameters,
+	ResourceParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsConnection.EventsConnectionAuthParametersConnectivityParametersResourceParameters,
 }
 ```
 
@@ -1124,7 +1124,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParameters.property.resourceParameters">ResourceParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParametersResourceParameters">EventsConnectionAuthParametersConnectivityParametersResourceParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#resource_parameters EventsConnection#resource_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParameters.property.resourceParameters">ResourceParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParametersResourceParameters">EventsConnectionAuthParametersConnectivityParametersResourceParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#resource_parameters EventsConnection#resource_parameters}. |
 
 ---
 
@@ -1136,7 +1136,7 @@ ResourceParameters EventsConnectionAuthParametersConnectivityParametersResourceP
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParametersResourceParameters">EventsConnectionAuthParametersConnectivityParametersResourceParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#resource_parameters EventsConnection#resource_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#resource_parameters EventsConnection#resource_parameters}.
 
 ---
 
@@ -1145,7 +1145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParametersResourceParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersConnectivityParametersResourceParameters {
 	ResourceConfigurationArn: *string,
@@ -1156,7 +1156,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParametersResourceParameters.property.resourceConfigurationArn">ResourceConfigurationArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#resource_configuration_arn EventsConnection#resource_configuration_arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParametersResourceParameters.property.resourceConfigurationArn">ResourceConfigurationArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#resource_configuration_arn EventsConnection#resource_configuration_arn}. |
 
 ---
 
@@ -1168,7 +1168,7 @@ ResourceConfigurationArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#resource_configuration_arn EventsConnection#resource_configuration_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#resource_configuration_arn EventsConnection#resource_configuration_arn}.
 
 ---
 
@@ -1177,7 +1177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersInvocationHttpParameters {
 	BodyParameters: interface{},
@@ -1190,9 +1190,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters.property.bodyParameters">BodyParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#body_parameters EventsConnection#body_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters.property.headerParameters">HeaderParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#header_parameters EventsConnection#header_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters.property.queryStringParameters">QueryStringParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#query_string_parameters EventsConnection#query_string_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters.property.bodyParameters">BodyParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#body_parameters EventsConnection#body_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters.property.headerParameters">HeaderParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#header_parameters EventsConnection#header_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParameters.property.queryStringParameters">QueryStringParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#query_string_parameters EventsConnection#query_string_parameters}. |
 
 ---
 
@@ -1204,7 +1204,7 @@ BodyParameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#body_parameters EventsConnection#body_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#body_parameters EventsConnection#body_parameters}.
 
 ---
 
@@ -1216,7 +1216,7 @@ HeaderParameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#header_parameters EventsConnection#header_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#header_parameters EventsConnection#header_parameters}.
 
 ---
 
@@ -1228,7 +1228,7 @@ QueryStringParameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#query_string_parameters EventsConnection#query_string_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#query_string_parameters EventsConnection#query_string_parameters}.
 
 ---
 
@@ -1237,7 +1237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersBodyParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersInvocationHttpParametersBodyParameters {
 	IsValueSecret: interface{},
@@ -1250,9 +1250,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersBodyParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersBodyParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersBodyParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersBodyParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersBodyParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersBodyParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}. |
 
 ---
 
@@ -1264,7 +1264,7 @@ IsValueSecret interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
 
 ---
 
@@ -1276,7 +1276,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}.
 
 ---
 
@@ -1288,7 +1288,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}.
 
 ---
 
@@ -1297,7 +1297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersHeaderParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersInvocationHttpParametersHeaderParameters {
 	IsValueSecret: interface{},
@@ -1310,9 +1310,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersHeaderParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersHeaderParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersHeaderParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersHeaderParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersHeaderParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersHeaderParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}. |
 
 ---
 
@@ -1324,7 +1324,7 @@ IsValueSecret interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
 
 ---
 
@@ -1336,7 +1336,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}.
 
 ---
 
@@ -1348,7 +1348,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}.
 
 ---
 
@@ -1357,7 +1357,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersQueryStringParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersInvocationHttpParametersQueryStringParameters {
 	IsValueSecret: interface{},
@@ -1370,9 +1370,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersQueryStringParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersQueryStringParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersQueryStringParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersQueryStringParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersQueryStringParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersQueryStringParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}. |
 
 ---
 
@@ -1384,7 +1384,7 @@ IsValueSecret interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
 
 ---
 
@@ -1396,7 +1396,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}.
 
 ---
 
@@ -1408,7 +1408,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}.
 
 ---
 
@@ -1417,13 +1417,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersOAuthParameters {
 	AuthorizationEndpoint: *string,
-	ClientParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersClientParameters,
+	ClientParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsConnection.EventsConnectionAuthParametersOAuthParametersClientParameters,
 	HttpMethod: *string,
-	OAuthHttpParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters,
+	OAuthHttpParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters,
 }
 ```
 
@@ -1431,10 +1431,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters.property.authorizationEndpoint">AuthorizationEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#authorization_endpoint EventsConnection#authorization_endpoint}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters.property.clientParameters">ClientParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersClientParameters">EventsConnectionAuthParametersOAuthParametersClientParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#client_parameters EventsConnection#client_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters.property.httpMethod">HttpMethod</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#http_method EventsConnection#http_method}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters.property.oAuthHttpParameters">OAuthHttpParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters">EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#o_auth_http_parameters EventsConnection#o_auth_http_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters.property.authorizationEndpoint">AuthorizationEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#authorization_endpoint EventsConnection#authorization_endpoint}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters.property.clientParameters">ClientParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersClientParameters">EventsConnectionAuthParametersOAuthParametersClientParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#client_parameters EventsConnection#client_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters.property.httpMethod">HttpMethod</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#http_method EventsConnection#http_method}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParameters.property.oAuthHttpParameters">OAuthHttpParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters">EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#o_auth_http_parameters EventsConnection#o_auth_http_parameters}. |
 
 ---
 
@@ -1446,7 +1446,7 @@ AuthorizationEndpoint *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#authorization_endpoint EventsConnection#authorization_endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#authorization_endpoint EventsConnection#authorization_endpoint}.
 
 ---
 
@@ -1458,7 +1458,7 @@ ClientParameters EventsConnectionAuthParametersOAuthParametersClientParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersClientParameters">EventsConnectionAuthParametersOAuthParametersClientParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#client_parameters EventsConnection#client_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#client_parameters EventsConnection#client_parameters}.
 
 ---
 
@@ -1470,7 +1470,7 @@ HttpMethod *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#http_method EventsConnection#http_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#http_method EventsConnection#http_method}.
 
 ---
 
@@ -1482,7 +1482,7 @@ OAuthHttpParameters EventsConnectionAuthParametersOAuthParametersOAuthHttpParame
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters">EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#o_auth_http_parameters EventsConnection#o_auth_http_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#o_auth_http_parameters EventsConnection#o_auth_http_parameters}.
 
 ---
 
@@ -1491,7 +1491,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersClientParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersOAuthParametersClientParameters {
 	ClientId: *string,
@@ -1503,8 +1503,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersClientParameters.property.clientId">ClientId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#client_id EventsConnection#client_id}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersClientParameters.property.clientSecret">ClientSecret</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#client_secret EventsConnection#client_secret}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersClientParameters.property.clientId">ClientId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#client_id EventsConnection#client_id}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersClientParameters.property.clientSecret">ClientSecret</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#client_secret EventsConnection#client_secret}. |
 
 ---
 
@@ -1516,7 +1516,7 @@ ClientId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#client_id EventsConnection#client_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#client_id EventsConnection#client_id}.
 
 ---
 
@@ -1528,7 +1528,7 @@ ClientSecret *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#client_secret EventsConnection#client_secret}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#client_secret EventsConnection#client_secret}.
 
 ---
 
@@ -1537,7 +1537,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters {
 	BodyParameters: interface{},
@@ -1550,9 +1550,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters.property.bodyParameters">BodyParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#body_parameters EventsConnection#body_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters.property.headerParameters">HeaderParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#header_parameters EventsConnection#header_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters.property.queryStringParameters">QueryStringParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#query_string_parameters EventsConnection#query_string_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters.property.bodyParameters">BodyParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#body_parameters EventsConnection#body_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters.property.headerParameters">HeaderParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#header_parameters EventsConnection#header_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParameters.property.queryStringParameters">QueryStringParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#query_string_parameters EventsConnection#query_string_parameters}. |
 
 ---
 
@@ -1564,7 +1564,7 @@ BodyParameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#body_parameters EventsConnection#body_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#body_parameters EventsConnection#body_parameters}.
 
 ---
 
@@ -1576,7 +1576,7 @@ HeaderParameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#header_parameters EventsConnection#header_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#header_parameters EventsConnection#header_parameters}.
 
 ---
 
@@ -1588,7 +1588,7 @@ QueryStringParameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#query_string_parameters EventsConnection#query_string_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#query_string_parameters EventsConnection#query_string_parameters}.
 
 ---
 
@@ -1597,7 +1597,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParameters {
 	IsValueSecret: interface{},
@@ -1610,9 +1610,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}. |
 
 ---
 
@@ -1624,7 +1624,7 @@ IsValueSecret interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
 
 ---
 
@@ -1636,7 +1636,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}.
 
 ---
 
@@ -1648,7 +1648,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}.
 
 ---
 
@@ -1657,7 +1657,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParameters {
 	IsValueSecret: interface{},
@@ -1670,9 +1670,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}. |
 
 ---
 
@@ -1684,7 +1684,7 @@ IsValueSecret interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
 
 ---
 
@@ -1696,7 +1696,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}.
 
 ---
 
@@ -1708,7 +1708,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}.
 
 ---
 
@@ -1717,7 +1717,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParameters {
 	IsValueSecret: interface{},
@@ -1730,9 +1730,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParameters.property.isValueSecret">IsValueSecret</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParameters.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}. |
 
 ---
 
@@ -1744,7 +1744,7 @@ IsValueSecret interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#is_value_secret EventsConnection#is_value_secret}.
 
 ---
 
@@ -1756,7 +1756,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#key EventsConnection#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#key EventsConnection#key}.
 
 ---
 
@@ -1768,7 +1768,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#value EventsConnection#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#value EventsConnection#value}.
 
 ---
 
@@ -1777,7 +1777,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionConfig {
 	Connection: interface{},
@@ -1788,9 +1788,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	AuthorizationType: *string,
-	AuthParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsConnection.EventsConnectionAuthParameters,
+	AuthParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsConnection.EventsConnectionAuthParameters,
 	Description: *string,
-	InvocationConnectivityParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsConnection.EventsConnectionInvocationConnectivityParameters,
+	InvocationConnectivityParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsConnection.EventsConnectionInvocationConnectivityParameters,
 	KmsKeyIdentifier: *string,
 	Name: *string,
 }
@@ -1807,11 +1807,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.authorizationType">AuthorizationType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#authorization_type EventsConnection#authorization_type}. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.authParameters">AuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters">EventsConnectionAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#auth_parameters EventsConnection#auth_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.authorizationType">AuthorizationType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#authorization_type EventsConnection#authorization_type}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.authParameters">AuthParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters">EventsConnectionAuthParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#auth_parameters EventsConnection#auth_parameters}. |
 | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.description">Description</a></code> | <code>*string</code> | Description of the connection. |
 | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.invocationConnectivityParameters">InvocationConnectivityParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParameters">EventsConnectionInvocationConnectivityParameters</a></code> | The private resource the HTTP request will be sent to. |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.kmsKeyIdentifier">KmsKeyIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#kms_key_identifier EventsConnection#kms_key_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.kmsKeyIdentifier">KmsKeyIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#kms_key_identifier EventsConnection#kms_key_identifier}. |
 | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionConfig.property.name">Name</a></code> | <code>*string</code> | Name of the connection. |
 
 ---
@@ -1894,7 +1894,7 @@ AuthorizationType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#authorization_type EventsConnection#authorization_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#authorization_type EventsConnection#authorization_type}.
 
 ---
 
@@ -1906,7 +1906,7 @@ AuthParameters EventsConnectionAuthParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParameters">EventsConnectionAuthParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#auth_parameters EventsConnection#auth_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#auth_parameters EventsConnection#auth_parameters}.
 
 ---
 
@@ -1920,7 +1920,7 @@ Description *string
 
 Description of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#description EventsConnection#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#description EventsConnection#description}
 
 ---
 
@@ -1934,7 +1934,7 @@ InvocationConnectivityParameters EventsConnectionInvocationConnectivityParameter
 
 The private resource the HTTP request will be sent to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#invocation_connectivity_parameters EventsConnection#invocation_connectivity_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#invocation_connectivity_parameters EventsConnection#invocation_connectivity_parameters}
 
 ---
 
@@ -1946,7 +1946,7 @@ KmsKeyIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#kms_key_identifier EventsConnection#kms_key_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#kms_key_identifier EventsConnection#kms_key_identifier}.
 
 ---
 
@@ -1960,7 +1960,7 @@ Name *string
 
 Name of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#name EventsConnection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#name EventsConnection#name}
 
 ---
 
@@ -1969,10 +1969,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionInvocationConnectivityParameters {
-	ResourceParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsConnection.EventsConnectionInvocationConnectivityParametersResourceParameters,
+	ResourceParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsConnection.EventsConnectionInvocationConnectivityParametersResourceParameters,
 }
 ```
 
@@ -1980,7 +1980,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParameters.property.resourceParameters">ResourceParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParametersResourceParameters">EventsConnectionInvocationConnectivityParametersResourceParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#resource_parameters EventsConnection#resource_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParameters.property.resourceParameters">ResourceParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParametersResourceParameters">EventsConnectionInvocationConnectivityParametersResourceParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#resource_parameters EventsConnection#resource_parameters}. |
 
 ---
 
@@ -1992,7 +1992,7 @@ ResourceParameters EventsConnectionInvocationConnectivityParametersResourceParam
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParametersResourceParameters">EventsConnectionInvocationConnectivityParametersResourceParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#resource_parameters EventsConnection#resource_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#resource_parameters EventsConnection#resource_parameters}.
 
 ---
 
@@ -2001,7 +2001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParametersResourceParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 &eventsconnection.EventsConnectionInvocationConnectivityParametersResourceParameters {
 	ResourceConfigurationArn: *string,
@@ -2012,7 +2012,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParametersResourceParameters.property.resourceConfigurationArn">ResourceConfigurationArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#resource_configuration_arn EventsConnection#resource_configuration_arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParametersResourceParameters.property.resourceConfigurationArn">ResourceConfigurationArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#resource_configuration_arn EventsConnection#resource_configuration_arn}. |
 
 ---
 
@@ -2024,7 +2024,7 @@ ResourceConfigurationArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection#resource_configuration_arn EventsConnection#resource_configuration_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection#resource_configuration_arn EventsConnection#resource_configuration_arn}.
 
 ---
 
@@ -2035,7 +2035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersApiKeyAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersApiKeyAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsConnectionAuthParametersApiKeyAuthParametersOutputReference
 ```
@@ -2342,7 +2342,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersBasicAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersBasicAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsConnectionAuthParametersBasicAuthParametersOutputReference
 ```
@@ -2649,7 +2649,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersConnectivityParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsConnectionAuthParametersConnectivityParametersOutputReference
 ```
@@ -2940,7 +2940,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersConnectivityParametersResourceParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersConnectivityParametersResourceParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsConnectionAuthParametersConnectivityParametersResourceParametersOutputReference
 ```
@@ -3229,7 +3229,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersBodyParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersInvocationHttpParametersBodyParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsConnectionAuthParametersInvocationHttpParametersBodyParametersList
 ```
@@ -3389,7 +3389,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersBodyParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersInvocationHttpParametersBodyParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsConnectionAuthParametersInvocationHttpParametersBodyParametersOutputReference
 ```
@@ -3743,7 +3743,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersHeaderParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersInvocationHttpParametersHeaderParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsConnectionAuthParametersInvocationHttpParametersHeaderParametersList
 ```
@@ -3903,7 +3903,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersHeaderParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersInvocationHttpParametersHeaderParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsConnectionAuthParametersInvocationHttpParametersHeaderParametersOutputReference
 ```
@@ -4257,7 +4257,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersInvocationHttpParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsConnectionAuthParametersInvocationHttpParametersOutputReference
 ```
@@ -4632,7 +4632,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersList
 ```
@@ -4792,7 +4792,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersOutputReference
 ```
@@ -5146,7 +5146,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersClientParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersOAuthParametersClientParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsConnectionAuthParametersOAuthParametersClientParametersOutputReference
 ```
@@ -5453,7 +5453,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersList
 ```
@@ -5613,7 +5613,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersOutputReference
 ```
@@ -5967,7 +5967,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersList
 ```
@@ -6127,7 +6127,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersOutputReference
 ```
@@ -6481,7 +6481,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersOutputReference
 ```
@@ -6856,7 +6856,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersList
 ```
@@ -7016,7 +7016,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersOutputReference
 ```
@@ -7370,7 +7370,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersOAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsConnectionAuthParametersOAuthParametersOutputReference
 ```
@@ -7761,7 +7761,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsConnectionAuthParametersOutputReference
 ```
@@ -8220,7 +8220,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionInvocationConnectivityParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsConnectionInvocationConnectivityParametersOutputReference
 ```
@@ -8511,7 +8511,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsConnection.EventsConnectionInvocationConnectivityParametersResourceParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection"
 
 eventsconnection.NewEventsConnectionInvocationConnectivityParametersResourceParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsConnectionInvocationConnectivityParametersResourceParametersOutputReference
 ```

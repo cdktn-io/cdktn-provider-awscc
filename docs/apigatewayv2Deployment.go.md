@@ -4,12 +4,12 @@
 
 ### Apigatewayv2Deployment <a name="Apigatewayv2Deployment" id="@cdktn/provider-awscc.apigatewayv2Deployment.Apigatewayv2Deployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2Deployment.Apigatewayv2Deployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2deployment"
 
 apigatewayv2deployment.NewApigatewayv2Deployment(scope Construct, id *string, config Apigatewayv2DeploymentConfig) Apigatewayv2Deployment
 ```
@@ -414,7 +414,7 @@ func ResetStageName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apigatewayv2Deployment.Apigatewayv2Deployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2deployment"
 
 apigatewayv2deployment.Apigatewayv2Deployment_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apigatewayv2Deployment.Apigatewayv2Deployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2deployment"
 
 apigatewayv2deployment.Apigatewayv2Deployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ apigatewayv2deployment.Apigatewayv2Deployment_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apigatewayv2Deployment.Apigatewayv2Deployment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2deployment"
 
 apigatewayv2deployment.Apigatewayv2Deployment_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ apigatewayv2deployment.Apigatewayv2Deployment_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apigatewayv2Deployment.Apigatewayv2Deployment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2deployment"
 
 apigatewayv2deployment.Apigatewayv2Deployment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Apigatewayv2Deployment to 
 
 The id of the existing Apigatewayv2Deployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -791,7 +791,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2Deployment.Apigatewayv2DeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2deployment"
 
 &apigatewayv2deployment.Apigatewayv2DeploymentConfig {
 	Connection: interface{},
@@ -904,7 +904,7 @@ ApiId *string
 
 The API identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
 
 ---
 
@@ -918,7 +918,7 @@ Description *string
 
 The description for the deployment resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
 
 ---
 
@@ -932,7 +932,7 @@ StageName *string
 
 The name of an existing stage to associate with the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
 
 ---
 

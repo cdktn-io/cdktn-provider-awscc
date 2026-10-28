@@ -4,12 +4,12 @@
 
 ### DataAwsccLookoutequipmentInferenceScheduler <a name="DataAwsccLookoutequipmentInferenceScheduler" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceScheduler"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceScheduler.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.NewDataAwsccLookoutequipmentInferenceScheduler(scope Construct, id *string, config DataAwsccLookoutequipmentInferenceSchedulerConfig) DataAwsccLookoutequipmentInferenceScheduler
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceScheduler.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceScheduler_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceScheduler.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceScheduler_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceSc
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceScheduler.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceScheduler_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceSc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceScheduler.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceScheduler_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLookoutequipmentI
 
 The id of the existing DataAwsccLookoutequipmentInferenceScheduler that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutequipment_inference_scheduler#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutequipment_inference_scheduler#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 &dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceSchedulerConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutequipment_inference_scheduler#id DataAwsccLookoutequipmentInferenceScheduler#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutequipment_inference_scheduler#id DataAwsccLookoutequipmentInferenceScheduler#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerDataInputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 &dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceSchedulerDataInputConfiguration {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 &dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfiguration {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 &dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfiguration {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerDataOutputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 &dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceSchedulerDataOutputConfiguration {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 &dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfiguration {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 &dataawscclookoutequipmentinferencescheduler.DataAwsccLookoutequipmentInferenceSchedulerTags {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.NewDataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfigurationOutputReference
 ```
@@ -1169,7 +1169,7 @@ func InternalValue() DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.NewDataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationOutputReference
 ```
@@ -1451,7 +1451,7 @@ func InternalValue() DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.NewDataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfigurationOutputReference
 ```
@@ -1722,7 +1722,7 @@ func InternalValue() DataAwsccLookoutequipmentInferenceSchedulerDataInputConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerDataOutputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.NewDataAwsccLookoutequipmentInferenceSchedulerDataOutputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutequipmentInferenceSchedulerDataOutputConfigurationOutputReference
 ```
@@ -1993,7 +1993,7 @@ func InternalValue() DataAwsccLookoutequipmentInferenceSchedulerDataOutputConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.NewDataAwsccLookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfigurationOutputReference
 ```
@@ -2264,7 +2264,7 @@ func InternalValue() DataAwsccLookoutequipmentInferenceSchedulerDataOutputConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.NewDataAwsccLookoutequipmentInferenceSchedulerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLookoutequipmentInferenceSchedulerTagsList
 ```
@@ -2413,7 +2413,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutequipmentInferenceScheduler.DataAwsccLookoutequipmentInferenceSchedulerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutequipmentinferencescheduler"
 
 dataawscclookoutequipmentinferencescheduler.NewDataAwsccLookoutequipmentInferenceSchedulerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLookoutequipmentInferenceSchedulerTagsOutputReference
 ```

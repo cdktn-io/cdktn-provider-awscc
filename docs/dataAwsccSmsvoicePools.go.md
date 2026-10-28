@@ -4,12 +4,12 @@
 
 ### DataAwsccSmsvoicePools <a name="DataAwsccSmsvoicePools" id="@cdktn/provider-awscc.dataAwsccSmsvoicePools.DataAwsccSmsvoicePools"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_pools awscc_smsvoice_pools}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_pools awscc_smsvoice_pools}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePools.DataAwsccSmsvoicePools.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepools"
 
 dataawsccsmsvoicepools.NewDataAwsccSmsvoicePools(scope Construct, id *string, config DataAwsccSmsvoicePoolsConfig) DataAwsccSmsvoicePools
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSmsvoicePools.DataAwsccSmsvoicePools.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepools"
 
 dataawsccsmsvoicepools.DataAwsccSmsvoicePools_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSmsvoicePools.DataAwsccSmsvoicePools.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepools"
 
 dataawsccsmsvoicepools.DataAwsccSmsvoicePools_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsmsvoicepools.DataAwsccSmsvoicePools_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSmsvoicePools.DataAwsccSmsvoicePools.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepools"
 
 dataawsccsmsvoicepools.DataAwsccSmsvoicePools_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsmsvoicepools.DataAwsccSmsvoicePools_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSmsvoicePools.DataAwsccSmsvoicePools.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepools"
 
 dataawsccsmsvoicepools.DataAwsccSmsvoicePools_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSmsvoicePools to 
 
 The id of the existing DataAwsccSmsvoicePools that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_pools#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_pools#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePools.DataAwsccSmsvoicePoolsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepools"
 
 &dataawsccsmsvoicepools.DataAwsccSmsvoicePoolsConfig {
 	Connection: interface{},

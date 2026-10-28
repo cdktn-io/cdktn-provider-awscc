@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2SpotFleet <a name="DataAwsccEc2SpotFleet" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_spot_fleet awscc_ec2_spot_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_spot_fleet awscc_ec2_spot_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleet(scope Construct, id *string, config DataAwsccEc2SpotFleetConfig) DataAwsccEc2SpotFleet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.DataAwsccEc2SpotFleet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.DataAwsccEc2SpotFleet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2spotfleet.DataAwsccEc2SpotFleet_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.DataAwsccEc2SpotFleet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2spotfleet.DataAwsccEc2SpotFleet_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.DataAwsccEc2SpotFleet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SpotFleet to i
 
 The id of the existing DataAwsccEc2SpotFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_spot_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_spot_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_spot_fleet#id DataAwsccEc2SpotFleet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_spot_fleet#id DataAwsccEc2SpotFleet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigData {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs {
 
@@ -793,7 +793,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile {
 
@@ -806,7 +806,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements {
 
@@ -819,7 +819,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount {
 
@@ -832,7 +832,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB {
 
@@ -845,7 +845,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps {
 
@@ -858,7 +858,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors {
 
@@ -871,7 +871,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu {
 
@@ -884,7 +884,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences {
 
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps {
 
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount {
 
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb {
 
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount {
 
@@ -975,7 +975,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring {
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces {
 
@@ -1001,7 +1001,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses {
 
@@ -1014,7 +1014,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses {
 
@@ -1027,7 +1027,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement {
 
@@ -1040,7 +1040,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups {
 
@@ -1053,7 +1053,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications {
 
@@ -1066,7 +1066,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags {
 
@@ -1079,7 +1079,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs {
 
@@ -1092,7 +1092,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification {
 
@@ -1105,7 +1105,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides {
 
@@ -1118,7 +1118,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements {
 
@@ -1131,7 +1131,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount {
 
@@ -1144,7 +1144,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB {
 
@@ -1157,7 +1157,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps {
 
@@ -1170,7 +1170,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors {
 
@@ -1183,7 +1183,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu {
 
@@ -1196,7 +1196,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences {
 
@@ -1209,7 +1209,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu {
 
@@ -1222,7 +1222,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB {
 
@@ -1235,7 +1235,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps {
 
@@ -1248,7 +1248,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount {
 
@@ -1261,7 +1261,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb {
 
@@ -1274,7 +1274,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount {
 
@@ -1287,7 +1287,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig {
 
@@ -1300,7 +1300,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig {
 
@@ -1313,7 +1313,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers {
 
@@ -1326,7 +1326,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig {
 
@@ -1339,7 +1339,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups {
 
@@ -1352,7 +1352,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies {
 
@@ -1365,7 +1365,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance {
 
@@ -1378,7 +1378,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecifications {
 
@@ -1391,7 +1391,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags {
 
@@ -1404,7 +1404,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 &dataawsccec2spotfleet.DataAwsccEc2SpotFleetTags {
 
@@ -1419,7 +1419,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbsOutputReference
 ```
@@ -1734,7 +1734,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsList
 ```
@@ -1883,7 +1883,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsOutputReference
 ```
@@ -2194,7 +2194,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfileOutputReference
 ```
@@ -2454,7 +2454,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCountOutputReference
 ```
@@ -2725,7 +2725,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiBOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiBOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiBOutputReference
 ```
@@ -2996,7 +2996,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference
 ```
@@ -3267,7 +3267,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuOutputReference
 ```
@@ -3527,7 +3527,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferencesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferencesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferencesList
 ```
@@ -3676,7 +3676,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferencesOutputReference
 ```
@@ -3954,7 +3954,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsOutputReference
 ```
@@ -4214,7 +4214,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpuOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpuOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpuOutputReference
 ```
@@ -4485,7 +4485,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiBOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiBOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiBOutputReference
 ```
@@ -4756,7 +4756,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbpsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbpsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbpsOutputReference
 ```
@@ -5027,7 +5027,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCountOutputReference
 ```
@@ -5298,7 +5298,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsOutputReference
 ```
@@ -5833,7 +5833,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGbOutputReference
 ```
@@ -6104,7 +6104,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCountOutputReference
 ```
@@ -6375,7 +6375,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsList
 ```
@@ -6524,7 +6524,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoringOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoringOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoringOutputReference
 ```
@@ -6784,7 +6784,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6AddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6AddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6AddressesList
 ```
@@ -6933,7 +6933,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6AddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6AddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6AddressesOutputReference
 ```
@@ -7211,7 +7211,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesList
 ```
@@ -7360,7 +7360,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesOutputReference
 ```
@@ -7748,7 +7748,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddressesList
 ```
@@ -7897,7 +7897,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddressesOutputReference
 ```
@@ -8186,7 +8186,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputReference
 ```
@@ -8651,7 +8651,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacementOutputReference
 ```
@@ -8944,7 +8944,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroupsList
 ```
@@ -9093,7 +9093,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroupsOutputReference
 ```
@@ -9371,7 +9371,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsList
 ```
@@ -9520,7 +9520,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsOutputReference
 ```
@@ -9809,7 +9809,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTagsList
 ```
@@ -9958,7 +9958,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTagsOutputReference
 ```
@@ -10247,7 +10247,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecificationOutputReference
 ```
@@ -10529,7 +10529,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsList
 ```
@@ -10678,7 +10678,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOutputReference
 ```
@@ -10967,7 +10967,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCountOutputReference
 ```
@@ -11238,7 +11238,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiBOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiBOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiBOutputReference
 ```
@@ -11509,7 +11509,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference
 ```
@@ -11780,7 +11780,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuOutputReference
 ```
@@ -12040,7 +12040,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferencesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferencesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferencesList
 ```
@@ -12189,7 +12189,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferencesOutputReference
 ```
@@ -12467,7 +12467,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsOutputReference
 ```
@@ -12727,7 +12727,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpuOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpuOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpuOutputReference
 ```
@@ -12998,7 +12998,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiBOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiBOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiBOutputReference
 ```
@@ -13269,7 +13269,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbpsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbpsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbpsOutputReference
 ```
@@ -13540,7 +13540,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCountOutputReference
 ```
@@ -13811,7 +13811,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsOutputReference
 ```
@@ -14346,7 +14346,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGbOutputReference
 ```
@@ -14617,7 +14617,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCountOutputReference
 ```
@@ -14888,7 +14888,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesList
 ```
@@ -15037,7 +15037,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesOutputReference
 ```
@@ -15392,7 +15392,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancersList
 ```
@@ -15541,7 +15541,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancersOutputReference
 ```
@@ -15819,7 +15819,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigOutputReference
 ```
@@ -16079,7 +16079,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigOutputReference
 ```
@@ -16350,7 +16350,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigOutputReference
 ```
@@ -16610,7 +16610,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroupsList
 ```
@@ -16759,7 +16759,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroupsOutputReference
 ```
@@ -17037,7 +17037,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataLoadBalancer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataOutputReference
 ```
@@ -17539,7 +17539,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigData
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalanceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalanceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalanceOutputReference
 ```
@@ -17810,7 +17810,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintena
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesOutputReference
 ```
@@ -18070,7 +18070,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataSpotMaintena
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsList
 ```
@@ -18219,7 +18219,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsOutputReference
 ```
@@ -18508,7 +18508,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecifica
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTagsList
 ```
@@ -18657,7 +18657,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTagsOutputReference
 ```
@@ -18946,7 +18946,7 @@ func InternalValue() DataAwsccEc2SpotFleetSpotFleetRequestConfigDataTagSpecifica
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SpotFleetTagsList
 ```
@@ -19095,7 +19095,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SpotFleet.DataAwsccEc2SpotFleetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2spotfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2spotfleet"
 
 dataawsccec2spotfleet.NewDataAwsccEc2SpotFleetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SpotFleetTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectRoutingProfile <a name="DataAwsccConnectRoutingProfile" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_routing_profile awscc_connect_routing_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_routing_profile awscc_connect_routing_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfile(scope Construct, id *string, config DataAwsccConnectRoutingProfileConfig) DataAwsccConnectRoutingProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfile_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfile_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectRoutingPro
 
 The id of the existing DataAwsccConnectRoutingProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_routing_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_routing_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 &dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfileConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_routing_profile#id DataAwsccConnectRoutingProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_routing_profile#id DataAwsccConnectRoutingProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileManualAssignmentQueueConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 &dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfileManualAssignmentQueueConfigs {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileManualAssignmentQueueConfigsQueueReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 &dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfileManualAssignmentQueueConfigsQueueReference {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileMediaConcurrencies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 &dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfileMediaConcurrencies {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 &dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileQueueConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 &dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfileQueueConfigs {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileQueueConfigsQueueReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 &dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfileQueueConfigsQueueReference {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 &dataawsccconnectroutingprofile.DataAwsccConnectRoutingProfileTags {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileManualAssignmentQueueConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfileManualAssignmentQueueConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectRoutingProfileManualAssignmentQueueConfigsList
 ```
@@ -1060,7 +1060,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileManualAssignmentQueueConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfileManualAssignmentQueueConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectRoutingProfileManualAssignmentQueueConfigsOutputReference
 ```
@@ -1338,7 +1338,7 @@ func InternalValue() DataAwsccConnectRoutingProfileManualAssignmentQueueConfigs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileManualAssignmentQueueConfigsQueueReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfileManualAssignmentQueueConfigsQueueReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectRoutingProfileManualAssignmentQueueConfigsQueueReferenceOutputReference
 ```
@@ -1609,7 +1609,7 @@ func InternalValue() DataAwsccConnectRoutingProfileManualAssignmentQueueConfigsQ
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference
 ```
@@ -1869,7 +1869,7 @@ func InternalValue() DataAwsccConnectRoutingProfileMediaConcurrenciesCrossChanne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileMediaConcurrenciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfileMediaConcurrenciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectRoutingProfileMediaConcurrenciesList
 ```
@@ -2018,7 +2018,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileMediaConcurrenciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfileMediaConcurrenciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectRoutingProfileMediaConcurrenciesOutputReference
 ```
@@ -2318,7 +2318,7 @@ func InternalValue() DataAwsccConnectRoutingProfileMediaConcurrencies
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileQueueConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfileQueueConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectRoutingProfileQueueConfigsList
 ```
@@ -2467,7 +2467,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileQueueConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfileQueueConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectRoutingProfileQueueConfigsOutputReference
 ```
@@ -2767,7 +2767,7 @@ func InternalValue() DataAwsccConnectRoutingProfileQueueConfigs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileQueueConfigsQueueReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfileQueueConfigsQueueReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectRoutingProfileQueueConfigsQueueReferenceOutputReference
 ```
@@ -3038,7 +3038,7 @@ func InternalValue() DataAwsccConnectRoutingProfileQueueConfigsQueueReference
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectRoutingProfileTagsList
 ```
@@ -3187,7 +3187,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectRoutingProfile.DataAwsccConnectRoutingProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectroutingprofile"
 
 dataawsccconnectroutingprofile.NewDataAwsccConnectRoutingProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectRoutingProfileTagsOutputReference
 ```

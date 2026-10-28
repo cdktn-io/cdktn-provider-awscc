@@ -4,12 +4,12 @@
 
 ### DataAwsccSesMultiRegionEndpoint <a name="DataAwsccSesMultiRegionEndpoint" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 dataawsccsesmultiregionendpoint.NewDataAwsccSesMultiRegionEndpoint(scope Construct, id *string, config DataAwsccSesMultiRegionEndpointConfig) DataAwsccSesMultiRegionEndpoint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 dataawsccsesmultiregionendpoint.DataAwsccSesMultiRegionEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 dataawsccsesmultiregionendpoint.DataAwsccSesMultiRegionEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsesmultiregionendpoint.DataAwsccSesMultiRegionEndpoint_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpoint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 dataawsccsesmultiregionendpoint.DataAwsccSesMultiRegionEndpoint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsesmultiregionendpoint.DataAwsccSesMultiRegionEndpoint_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 dataawsccsesmultiregionendpoint.DataAwsccSesMultiRegionEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesMultiRegionEnd
 
 The id of the existing DataAwsccSesMultiRegionEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_multi_region_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_multi_region_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 &dataawsccsesmultiregionendpoint.DataAwsccSesMultiRegionEndpointConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_multi_region_endpoint#id DataAwsccSesMultiRegionEndpoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_multi_region_endpoint#id DataAwsccSesMultiRegionEndpoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpointDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 &dataawsccsesmultiregionendpoint.DataAwsccSesMultiRegionEndpointDetails {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpointDetailsRouteDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 &dataawsccsesmultiregionendpoint.DataAwsccSesMultiRegionEndpointDetailsRouteDetails {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 &dataawsccsesmultiregionendpoint.DataAwsccSesMultiRegionEndpointTags {
 
@@ -782,7 +782,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpointDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 dataawsccsesmultiregionendpoint.NewDataAwsccSesMultiRegionEndpointDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMultiRegionEndpointDetailsOutputReference
 ```
@@ -1042,7 +1042,7 @@ func InternalValue() DataAwsccSesMultiRegionEndpointDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpointDetailsRouteDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 dataawsccsesmultiregionendpoint.NewDataAwsccSesMultiRegionEndpointDetailsRouteDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesMultiRegionEndpointDetailsRouteDetailsList
 ```
@@ -1191,7 +1191,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpointDetailsRouteDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 dataawsccsesmultiregionendpoint.NewDataAwsccSesMultiRegionEndpointDetailsRouteDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesMultiRegionEndpointDetailsRouteDetailsOutputReference
 ```
@@ -1469,7 +1469,7 @@ func InternalValue() DataAwsccSesMultiRegionEndpointDetailsRouteDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 dataawsccsesmultiregionendpoint.NewDataAwsccSesMultiRegionEndpointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesMultiRegionEndpointTagsList
 ```
@@ -1618,7 +1618,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMultiRegionEndpoint.DataAwsccSesMultiRegionEndpointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint"
 
 dataawsccsesmultiregionendpoint.NewDataAwsccSesMultiRegionEndpointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesMultiRegionEndpointTagsOutputReference
 ```

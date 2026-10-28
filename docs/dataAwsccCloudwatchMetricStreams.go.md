@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudwatchMetricStreams <a name="DataAwsccCloudwatchMetricStreams" id="@cdktn/provider-awscc.dataAwsccCloudwatchMetricStreams.DataAwsccCloudwatchMetricStreams"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_metric_streams awscc_cloudwatch_metric_streams}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_metric_streams awscc_cloudwatch_metric_streams}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchMetricStreams.DataAwsccCloudwatchMetricStreams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchmetricstreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchmetricstreams"
 
 dataawscccloudwatchmetricstreams.NewDataAwsccCloudwatchMetricStreams(scope Construct, id *string, config DataAwsccCloudwatchMetricStreamsConfig) DataAwsccCloudwatchMetricStreams
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudwatchMetricStreams.DataAwsccCloudwatchMetricStreams.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchmetricstreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchmetricstreams"
 
 dataawscccloudwatchmetricstreams.DataAwsccCloudwatchMetricStreams_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudwatchMetricStreams.DataAwsccCloudwatchMetricStreams.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchmetricstreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchmetricstreams"
 
 dataawscccloudwatchmetricstreams.DataAwsccCloudwatchMetricStreams_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudwatchmetricstreams.DataAwsccCloudwatchMetricStreams_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudwatchMetricStreams.DataAwsccCloudwatchMetricStreams.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchmetricstreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchmetricstreams"
 
 dataawscccloudwatchmetricstreams.DataAwsccCloudwatchMetricStreams_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudwatchmetricstreams.DataAwsccCloudwatchMetricStreams_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudwatchMetricStreams.DataAwsccCloudwatchMetricStreams.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchmetricstreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchmetricstreams"
 
 dataawscccloudwatchmetricstreams.DataAwsccCloudwatchMetricStreams_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchMetricS
 
 The id of the existing DataAwsccCloudwatchMetricStreams that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_metric_streams#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_metric_streams#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchMetricStreams.DataAwsccCloudwatchMetricStreamsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchmetricstreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchmetricstreams"
 
 &dataawscccloudwatchmetricstreams.DataAwsccCloudwatchMetricStreamsConfig {
 	Connection: interface{},

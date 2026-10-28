@@ -4,12 +4,12 @@
 
 ### DataAwsccBatchQuotaShare <a name="DataAwsccBatchQuotaShare" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShare"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_quota_share awscc_batch_quota_share}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_quota_share awscc_batch_quota_share}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShare.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 dataawsccbatchquotashare.NewDataAwsccBatchQuotaShare(scope Construct, id *string, config DataAwsccBatchQuotaShareConfig) DataAwsccBatchQuotaShare
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShare.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 dataawsccbatchquotashare.DataAwsccBatchQuotaShare_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShare.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 dataawsccbatchquotashare.DataAwsccBatchQuotaShare_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbatchquotashare.DataAwsccBatchQuotaShare_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShare.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 dataawsccbatchquotashare.DataAwsccBatchQuotaShare_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbatchquotashare.DataAwsccBatchQuotaShare_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShare.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 dataawsccbatchquotashare.DataAwsccBatchQuotaShare_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBatchQuotaShare t
 
 The id of the existing DataAwsccBatchQuotaShare that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_quota_share#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_quota_share#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShareCapacityLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 &dataawsccbatchquotashare.DataAwsccBatchQuotaShareCapacityLimits {
 
@@ -688,7 +688,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotasha
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShareConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 &dataawsccbatchquotashare.DataAwsccBatchQuotaShareConfig {
 	Connection: interface{},
@@ -797,7 +797,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_quota_share#id DataAwsccBatchQuotaShare#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_quota_share#id DataAwsccBatchQuotaShare#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -809,7 +809,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaSharePreemptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 &dataawsccbatchquotashare.DataAwsccBatchQuotaSharePreemptionConfiguration {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotasha
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShareResourceSharingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 &dataawsccbatchquotashare.DataAwsccBatchQuotaShareResourceSharingConfiguration {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotasha
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShareCapacityLimitsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 dataawsccbatchquotashare.NewDataAwsccBatchQuotaShareCapacityLimitsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchQuotaShareCapacityLimitsList
 ```
@@ -986,7 +986,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShareCapacityLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 dataawsccbatchquotashare.NewDataAwsccBatchQuotaShareCapacityLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchQuotaShareCapacityLimitsOutputReference
 ```
@@ -1275,7 +1275,7 @@ func InternalValue() DataAwsccBatchQuotaShareCapacityLimits
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaSharePreemptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 dataawsccbatchquotashare.NewDataAwsccBatchQuotaSharePreemptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchQuotaSharePreemptionConfigurationOutputReference
 ```
@@ -1535,7 +1535,7 @@ func InternalValue() DataAwsccBatchQuotaSharePreemptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchQuotaShare.DataAwsccBatchQuotaShareResourceSharingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchquotashare"
 
 dataawsccbatchquotashare.NewDataAwsccBatchQuotaShareResourceSharingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchQuotaShareResourceSharingConfigurationOutputReference
 ```

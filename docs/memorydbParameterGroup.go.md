@@ -4,12 +4,12 @@
 
 ### MemorydbParameterGroup <a name="MemorydbParameterGroup" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_parameter_group awscc_memorydb_parameter_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_parameter_group awscc_memorydb_parameter_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbparametergroup"
 
 memorydbparametergroup.NewMemorydbParameterGroup(scope Construct, id *string, config MemorydbParameterGroupConfig) MemorydbParameterGroup
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbparametergroup"
 
 memorydbparametergroup.MemorydbParameterGroup_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbparametergroup"
 
 memorydbparametergroup.MemorydbParameterGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ memorydbparametergroup.MemorydbParameterGroup_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbparametergroup"
 
 memorydbparametergroup.MemorydbParameterGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ memorydbparametergroup.MemorydbParameterGroup_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbparametergroup"
 
 memorydbparametergroup.MemorydbParameterGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the MemorydbParameterGroup to 
 
 The id of the existing MemorydbParameterGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_parameter_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_parameter_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbparametergroup"
 
 &memorydbparametergroup.MemorydbParameterGroupConfig {
 	Connection: interface{},
@@ -972,7 +972,7 @@ Family *string
 
 The name of the parameter group family that this parameter group is compatible with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_parameter_group#family MemorydbParameterGroup#family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_parameter_group#family MemorydbParameterGroup#family}
 
 ---
 
@@ -986,7 +986,7 @@ ParameterGroupName *string
 
 The name of the parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_parameter_group#parameter_group_name MemorydbParameterGroup#parameter_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_parameter_group#parameter_group_name MemorydbParameterGroup#parameter_group_name}
 
 ---
 
@@ -1000,7 +1000,7 @@ Description *string
 
 A description of the parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_parameter_group#description MemorydbParameterGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_parameter_group#description MemorydbParameterGroup#description}
 
 ---
 
@@ -1016,7 +1016,7 @@ An map of parameter names and values for the parameter update.
 
 You must supply at least one parameter name and value; subsequent arguments are optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_parameter_group#parameters MemorydbParameterGroup#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_parameter_group#parameters MemorydbParameterGroup#parameters}
 
 ---
 
@@ -1030,7 +1030,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_parameter_group#tags MemorydbParameterGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_parameter_group#tags MemorydbParameterGroup#tags}
 
 ---
 
@@ -1039,7 +1039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbparametergroup"
 
 &memorydbparametergroup.MemorydbParameterGroupTags {
 	Key: *string,
@@ -1066,7 +1066,7 @@ Key *string
 
 The key for the tag. May not be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_parameter_group#key MemorydbParameterGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_parameter_group#key MemorydbParameterGroup#key}
 
 ---
 
@@ -1080,7 +1080,7 @@ Value *string
 
 The tag's value. May be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_parameter_group#value MemorydbParameterGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_parameter_group#value MemorydbParameterGroup#value}
 
 ---
 
@@ -1091,7 +1091,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbparametergroup"
 
 memorydbparametergroup.NewMemorydbParameterGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MemorydbParameterGroupTagsList
 ```
@@ -1251,7 +1251,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbParameterGroup.MemorydbParameterGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbparametergroup"
 
 memorydbparametergroup.NewMemorydbParameterGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MemorydbParameterGroupTagsOutputReference
 ```

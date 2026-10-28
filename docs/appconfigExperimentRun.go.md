@@ -4,12 +4,12 @@
 
 ### AppconfigExperimentRun <a name="AppconfigExperimentRun" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRun"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRun.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun"
 
 appconfigexperimentrun.NewAppconfigExperimentRun(scope Construct, id *string, config AppconfigExperimentRunConfig) AppconfigExperimentRun
 ```
@@ -447,7 +447,7 @@ func ResetTreatmentOverrides()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRun.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun"
 
 appconfigexperimentrun.AppconfigExperimentRun_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRun.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun"
 
 appconfigexperimentrun.AppconfigExperimentRun_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ appconfigexperimentrun.AppconfigExperimentRun_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRun.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun"
 
 appconfigexperimentrun.AppconfigExperimentRun_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ appconfigexperimentrun.AppconfigExperimentRun_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRun.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun"
 
 appconfigexperimentrun.AppconfigExperimentRun_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the AppconfigExperimentRun to 
 
 The id of the existing AppconfigExperimentRun that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -945,7 +945,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRunConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun"
 
 &appconfigexperimentrun.AppconfigExperimentRunConfig {
 	Connection: interface{},
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun
 	ExposurePercentage: *f64,
 	Description: *string,
 	Tags: interface{},
-	TreatmentOverrides: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appconfigExperimentRun.AppconfigExperimentRunTreatmentOverrides,
+	TreatmentOverrides: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appconfigExperimentRun.AppconfigExperimentRunTreatmentOverrides,
 }
 ```
 
@@ -1064,7 +1064,7 @@ ApplicationIdentifier *string
 
 The application name or ID used to create the experiment run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run#application_identifier AppconfigExperimentRun#application_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run#application_identifier AppconfigExperimentRun#application_identifier}
 
 ---
 
@@ -1078,7 +1078,7 @@ ExperimentDefinitionIdentifier *string
 
 The experiment definition name or ID used to create the experiment run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run#experiment_definition_identifier AppconfigExperimentRun#experiment_definition_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run#experiment_definition_identifier AppconfigExperimentRun#experiment_definition_identifier}
 
 ---
 
@@ -1092,7 +1092,7 @@ ExposurePercentage *f64
 
 Percentage of traffic exposed to the experiment (0-100).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run#exposure_percentage AppconfigExperimentRun#exposure_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run#exposure_percentage AppconfigExperimentRun#exposure_percentage}
 
 ---
 
@@ -1106,7 +1106,7 @@ Description *string
 
 Description of the experiment run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run#description AppconfigExperimentRun#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run#description AppconfigExperimentRun#description}
 
 ---
 
@@ -1120,7 +1120,7 @@ Tags interface{}
 
 Tags to associate with the experiment run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run#tags AppconfigExperimentRun#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run#tags AppconfigExperimentRun#tags}
 
 ---
 
@@ -1134,7 +1134,7 @@ TreatmentOverrides AppconfigExperimentRunTreatmentOverrides
 
 Treatment overrides for specific entities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run#treatment_overrides AppconfigExperimentRun#treatment_overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run#treatment_overrides AppconfigExperimentRun#treatment_overrides}
 
 ---
 
@@ -1143,7 +1143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRunTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun"
 
 &appconfigexperimentrun.AppconfigExperimentRunTags {
 	Key: *string,
@@ -1170,7 +1170,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run#key AppconfigExperimentRun#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run#key AppconfigExperimentRun#key}
 
 ---
 
@@ -1184,7 +1184,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run#value AppconfigExperimentRun#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run#value AppconfigExperimentRun#value}
 
 ---
 
@@ -1193,7 +1193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRunTreatmentOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun"
 
 &appconfigexperimentrun.AppconfigExperimentRunTreatmentOverrides {
 	Inline: *map[string]*string,
@@ -1218,7 +1218,7 @@ Inline *map[string]*string
 
 Map of entity ID to treatment key (t1, t2, ..., or c for control).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run#inline AppconfigExperimentRun#inline}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run#inline AppconfigExperimentRun#inline}
 
 ---
 
@@ -1229,7 +1229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRunTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun"
 
 appconfigexperimentrun.NewAppconfigExperimentRunTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppconfigExperimentRunTagsList
 ```
@@ -1389,7 +1389,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRunTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun"
 
 appconfigexperimentrun.NewAppconfigExperimentRunTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AppconfigExperimentRunTagsOutputReference
 ```
@@ -1714,7 +1714,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigExperimentRun.AppconfigExperimentRunTreatmentOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun"
 
 appconfigexperimentrun.NewAppconfigExperimentRunTreatmentOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppconfigExperimentRunTreatmentOverridesOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccLightsailDistribution <a name="DataAwsccLightsailDistribution" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistribution"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_distribution awscc_lightsail_distribution}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_distribution awscc_lightsail_distribution}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistribution.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.NewDataAwsccLightsailDistribution(scope Construct, id *string, config DataAwsccLightsailDistributionConfig) DataAwsccLightsailDistribution
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistribution.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.DataAwsccLightsailDistribution_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistribution.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.DataAwsccLightsailDistribution_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclightsaildistribution.DataAwsccLightsailDistribution_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistribution.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.DataAwsccLightsailDistribution_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclightsaildistribution.DataAwsccLightsailDistribution_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistribution.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.DataAwsccLightsailDistribution_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailDistribu
 
 The id of the existing DataAwsccLightsailDistribution that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_distribution#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_distribution#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionCacheBehaviors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 &dataawscclightsaildistribution.DataAwsccLightsailDistributionCacheBehaviors {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildist
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionCacheBehaviorSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 &dataawscclightsaildistribution.DataAwsccLightsailDistributionCacheBehaviorSettings {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildist
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedCookies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 &dataawscclightsaildistribution.DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedCookies {
 
@@ -769,7 +769,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildist
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 &dataawscclightsaildistribution.DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedHeaders {
 
@@ -782,7 +782,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildist
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedQueryStrings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 &dataawscclightsaildistribution.DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedQueryStrings {
 
@@ -795,7 +795,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildist
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 &dataawscclightsaildistribution.DataAwsccLightsailDistributionConfig {
 	Connection: interface{},
@@ -904,7 +904,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_distribution#id DataAwsccLightsailDistribution#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_distribution#id DataAwsccLightsailDistribution#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -916,7 +916,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionDefaultCacheBehavior.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 &dataawscclightsaildistribution.DataAwsccLightsailDistributionDefaultCacheBehavior {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildist
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionOrigin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 &dataawscclightsaildistribution.DataAwsccLightsailDistributionOrigin {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildist
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 &dataawscclightsaildistribution.DataAwsccLightsailDistributionTags {
 
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildist
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.NewDataAwsccLightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference
 ```
@@ -1228,7 +1228,7 @@ func InternalValue() DataAwsccLightsailDistributionCacheBehaviorSettingsForwarde
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.NewDataAwsccLightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputReference
 ```
@@ -1499,7 +1499,7 @@ func InternalValue() DataAwsccLightsailDistributionCacheBehaviorSettingsForwarde
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.NewDataAwsccLightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference
 ```
@@ -1770,7 +1770,7 @@ func InternalValue() DataAwsccLightsailDistributionCacheBehaviorSettingsForwarde
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionCacheBehaviorSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.NewDataAwsccLightsailDistributionCacheBehaviorSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailDistributionCacheBehaviorSettingsOutputReference
 ```
@@ -2107,7 +2107,7 @@ func InternalValue() DataAwsccLightsailDistributionCacheBehaviorSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionCacheBehaviorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.NewDataAwsccLightsailDistributionCacheBehaviorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLightsailDistributionCacheBehaviorsList
 ```
@@ -2256,7 +2256,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionCacheBehaviorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.NewDataAwsccLightsailDistributionCacheBehaviorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLightsailDistributionCacheBehaviorsOutputReference
 ```
@@ -2545,7 +2545,7 @@ func InternalValue() DataAwsccLightsailDistributionCacheBehaviors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionDefaultCacheBehaviorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.NewDataAwsccLightsailDistributionDefaultCacheBehaviorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailDistributionDefaultCacheBehaviorOutputReference
 ```
@@ -2805,7 +2805,7 @@ func InternalValue() DataAwsccLightsailDistributionDefaultCacheBehavior
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionOriginOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.NewDataAwsccLightsailDistributionOriginOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailDistributionOriginOutputReference
 ```
@@ -3087,7 +3087,7 @@ func InternalValue() DataAwsccLightsailDistributionOrigin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.NewDataAwsccLightsailDistributionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLightsailDistributionTagsList
 ```
@@ -3236,7 +3236,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistribution.DataAwsccLightsailDistributionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution"
 
 dataawscclightsaildistribution.NewDataAwsccLightsailDistributionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLightsailDistributionTagsOutputReference
 ```

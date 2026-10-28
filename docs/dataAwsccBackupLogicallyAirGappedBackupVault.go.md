@@ -4,12 +4,12 @@
 
 ### DataAwsccBackupLogicallyAirGappedBackupVault <a name="DataAwsccBackupLogicallyAirGappedBackupVault" id="@cdktn/provider-awscc.dataAwsccBackupLogicallyAirGappedBackupVault.DataAwsccBackupLogicallyAirGappedBackupVault"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupLogicallyAirGappedBackupVault.DataAwsccBackupLogicallyAirGappedBackupVault.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplogicallyairgappedbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplogicallyairgappedbackupvault"
 
 dataawsccbackuplogicallyairgappedbackupvault.NewDataAwsccBackupLogicallyAirGappedBackupVault(scope Construct, id *string, config DataAwsccBackupLogicallyAirGappedBackupVaultConfig) DataAwsccBackupLogicallyAirGappedBackupVault
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBackupLogicallyAirGappedBackupVault.DataAwsccBackupLogicallyAirGappedBackupVault.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplogicallyairgappedbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplogicallyairgappedbackupvault"
 
 dataawsccbackuplogicallyairgappedbackupvault.DataAwsccBackupLogicallyAirGappedBackupVault_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBackupLogicallyAirGappedBackupVault.DataAwsccBackupLogicallyAirGappedBackupVault.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplogicallyairgappedbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplogicallyairgappedbackupvault"
 
 dataawsccbackuplogicallyairgappedbackupvault.DataAwsccBackupLogicallyAirGappedBackupVault_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbackuplogicallyairgappedbackupvault.DataAwsccBackupLogicallyAirGappedBa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBackupLogicallyAirGappedBackupVault.DataAwsccBackupLogicallyAirGappedBackupVault.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplogicallyairgappedbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplogicallyairgappedbackupvault"
 
 dataawsccbackuplogicallyairgappedbackupvault.DataAwsccBackupLogicallyAirGappedBackupVault_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbackuplogicallyairgappedbackupvault.DataAwsccBackupLogicallyAirGappedBa
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBackupLogicallyAirGappedBackupVault.DataAwsccBackupLogicallyAirGappedBackupVault.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplogicallyairgappedbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplogicallyairgappedbackupvault"
 
 dataawsccbackuplogicallyairgappedbackupvault.DataAwsccBackupLogicallyAirGappedBackupVault_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBackupLogicallyAi
 
 The id of the existing DataAwsccBackupLogicallyAirGappedBackupVault that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_logically_air_gapped_backup_vault#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_logically_air_gapped_backup_vault#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupLogicallyAirGappedBackupVault.DataAwsccBackupLogicallyAirGappedBackupVaultConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplogicallyairgappedbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplogicallyairgappedbackupvault"
 
 &dataawsccbackuplogicallyairgappedbackupvault.DataAwsccBackupLogicallyAirGappedBackupVaultConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_logically_air_gapped_backup_vault#id DataAwsccBackupLogicallyAirGappedBackupVault#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_logically_air_gapped_backup_vault#id DataAwsccBackupLogicallyAirGappedBackupVault#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupLogicallyAirGappedBackupVault.DataAwsccBackupLogicallyAirGappedBackupVaultNotifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplogicallyairgappedbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplogicallyairgappedbackupvault"
 
 &dataawsccbackuplogicallyairgappedbackupvault.DataAwsccBackupLogicallyAirGappedBackupVaultNotifications {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplogical
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupLogicallyAirGappedBackupVault.DataAwsccBackupLogicallyAirGappedBackupVaultNotificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplogicallyairgappedbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplogicallyairgappedbackupvault"
 
 dataawsccbackuplogicallyairgappedbackupvault.NewDataAwsccBackupLogicallyAirGappedBackupVaultNotificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBackupLogicallyAirGappedBackupVaultNotificationsOutputReference
 ```

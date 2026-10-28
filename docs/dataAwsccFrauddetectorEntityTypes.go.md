@@ -4,12 +4,12 @@
 
 ### DataAwsccFrauddetectorEntityTypes <a name="DataAwsccFrauddetectorEntityTypes" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEntityTypes.DataAwsccFrauddetectorEntityTypes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_entity_types awscc_frauddetector_entity_types}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_entity_types awscc_frauddetector_entity_types}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEntityTypes.DataAwsccFrauddetectorEntityTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorentitytypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorentitytypes"
 
 dataawsccfrauddetectorentitytypes.NewDataAwsccFrauddetectorEntityTypes(scope Construct, id *string, config DataAwsccFrauddetectorEntityTypesConfig) DataAwsccFrauddetectorEntityTypes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEntityTypes.DataAwsccFrauddetectorEntityTypes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorentitytypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorentitytypes"
 
 dataawsccfrauddetectorentitytypes.DataAwsccFrauddetectorEntityTypes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEntityTypes.DataAwsccFrauddetectorEntityTypes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorentitytypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorentitytypes"
 
 dataawsccfrauddetectorentitytypes.DataAwsccFrauddetectorEntityTypes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfrauddetectorentitytypes.DataAwsccFrauddetectorEntityTypes_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEntityTypes.DataAwsccFrauddetectorEntityTypes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorentitytypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorentitytypes"
 
 dataawsccfrauddetectorentitytypes.DataAwsccFrauddetectorEntityTypes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfrauddetectorentitytypes.DataAwsccFrauddetectorEntityTypes_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEntityTypes.DataAwsccFrauddetectorEntityTypes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorentitytypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorentitytypes"
 
 dataawsccfrauddetectorentitytypes.DataAwsccFrauddetectorEntityTypes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFrauddetectorEnti
 
 The id of the existing DataAwsccFrauddetectorEntityTypes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_entity_types#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_entity_types#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEntityTypes.DataAwsccFrauddetectorEntityTypesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorentitytypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorentitytypes"
 
 &dataawsccfrauddetectorentitytypes.DataAwsccFrauddetectorEntityTypesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccIotfleetwiseFleet <a name="DataAwsccIotfleetwiseFleet" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseFleet.DataAwsccIotfleetwiseFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_fleet awscc_iotfleetwise_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_fleet awscc_iotfleetwise_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseFleet.DataAwsccIotfleetwiseFleet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisefleet"
 
 dataawscciotfleetwisefleet.NewDataAwsccIotfleetwiseFleet(scope Construct, id *string, config DataAwsccIotfleetwiseFleetConfig) DataAwsccIotfleetwiseFleet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseFleet.DataAwsccIotfleetwiseFleet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisefleet"
 
 dataawscciotfleetwisefleet.DataAwsccIotfleetwiseFleet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseFleet.DataAwsccIotfleetwiseFleet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisefleet"
 
 dataawscciotfleetwisefleet.DataAwsccIotfleetwiseFleet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotfleetwisefleet.DataAwsccIotfleetwiseFleet_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseFleet.DataAwsccIotfleetwiseFleet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisefleet"
 
 dataawscciotfleetwisefleet.DataAwsccIotfleetwiseFleet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotfleetwisefleet.DataAwsccIotfleetwiseFleet_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseFleet.DataAwsccIotfleetwiseFleet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisefleet"
 
 dataawscciotfleetwisefleet.DataAwsccIotfleetwiseFleet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotfleetwiseFleet
 
 The id of the existing DataAwsccIotfleetwiseFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseFleet.DataAwsccIotfleetwiseFleetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisefleet"
 
 &dataawscciotfleetwisefleet.DataAwsccIotfleetwiseFleetConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_fleet#id DataAwsccIotfleetwiseFleet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_fleet#id DataAwsccIotfleetwiseFleet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseFleet.DataAwsccIotfleetwiseFleetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisefleet"
 
 &dataawscciotfleetwisefleet.DataAwsccIotfleetwiseFleetTags {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisef
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseFleet.DataAwsccIotfleetwiseFleetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisefleet"
 
 dataawscciotfleetwisefleet.NewDataAwsccIotfleetwiseFleetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotfleetwiseFleetTagsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseFleet.DataAwsccIotfleetwiseFleetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisefleet"
 
 dataawscciotfleetwisefleet.NewDataAwsccIotfleetwiseFleetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotfleetwiseFleetTagsOutputReference
 ```

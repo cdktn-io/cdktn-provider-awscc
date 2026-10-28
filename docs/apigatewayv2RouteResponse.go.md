@@ -4,12 +4,12 @@
 
 ### Apigatewayv2RouteResponse <a name="Apigatewayv2RouteResponse" id="@cdktn/provider-awscc.apigatewayv2RouteResponse.Apigatewayv2RouteResponse"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2RouteResponse.Apigatewayv2RouteResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2routeresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2routeresponse"
 
 apigatewayv2routeresponse.NewApigatewayv2RouteResponse(scope Construct, id *string, config Apigatewayv2RouteResponseConfig) Apigatewayv2RouteResponse
 ```
@@ -434,7 +434,7 @@ func ResetResponseParameters()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apigatewayv2RouteResponse.Apigatewayv2RouteResponse.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2routeresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2routeresponse"
 
 apigatewayv2routeresponse.Apigatewayv2RouteResponse_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apigatewayv2RouteResponse.Apigatewayv2RouteResponse.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2routeresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2routeresponse"
 
 apigatewayv2routeresponse.Apigatewayv2RouteResponse_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ apigatewayv2routeresponse.Apigatewayv2RouteResponse_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apigatewayv2RouteResponse.Apigatewayv2RouteResponse.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2routeresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2routeresponse"
 
 apigatewayv2routeresponse.Apigatewayv2RouteResponse_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ apigatewayv2routeresponse.Apigatewayv2RouteResponse_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apigatewayv2RouteResponse.Apigatewayv2RouteResponse.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2routeresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2routeresponse"
 
 apigatewayv2routeresponse.Apigatewayv2RouteResponse_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the Apigatewayv2RouteResponse 
 
 The id of the existing Apigatewayv2RouteResponse that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -877,7 +877,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2RouteResponse.Apigatewayv2RouteResponseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2routeresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2routeresponse"
 
 &apigatewayv2routeresponse.Apigatewayv2RouteResponseConfig {
 	Connection: interface{},
@@ -996,7 +996,7 @@ ApiId *string
 
 The API identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response#api_id Apigatewayv2RouteResponse#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response#api_id Apigatewayv2RouteResponse#api_id}
 
 ---
 
@@ -1010,7 +1010,7 @@ RouteId *string
 
 The route ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response#route_id Apigatewayv2RouteResponse#route_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response#route_id Apigatewayv2RouteResponse#route_id}
 
 ---
 
@@ -1024,7 +1024,7 @@ RouteResponseKey *string
 
 The route response key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response#route_response_key Apigatewayv2RouteResponse#route_response_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response#route_response_key Apigatewayv2RouteResponse#route_response_key}
 
 ---
 
@@ -1038,7 +1038,7 @@ ModelSelectionExpression *string
 
 The model selection expression for the route response. Supported only for WebSocket APIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response#model_selection_expression Apigatewayv2RouteResponse#model_selection_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response#model_selection_expression Apigatewayv2RouteResponse#model_selection_expression}
 
 ---
 
@@ -1052,7 +1052,7 @@ ResponseModels *string
 
 The response models for the route response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response#response_models Apigatewayv2RouteResponse#response_models}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response#response_models Apigatewayv2RouteResponse#response_models}
 
 ---
 
@@ -1066,7 +1066,7 @@ ResponseParameters interface{}
 
 The route response parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response#response_parameters Apigatewayv2RouteResponse#response_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response#response_parameters Apigatewayv2RouteResponse#response_parameters}
 
 ---
 
@@ -1075,7 +1075,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2RouteResponse.Apigatewayv2RouteResponseResponseParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2routeresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2routeresponse"
 
 &apigatewayv2routeresponse.Apigatewayv2RouteResponseResponseParameters {
 	Required: interface{},
@@ -1100,7 +1100,7 @@ Required interface{}
 
 Specifies whether the parameter is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response#required Apigatewayv2RouteResponse#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response#required Apigatewayv2RouteResponse#required}
 
 ---
 
@@ -1111,7 +1111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2RouteResponse.Apigatewayv2RouteResponseResponseParametersMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2routeresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2routeresponse"
 
 apigatewayv2routeresponse.NewApigatewayv2RouteResponseResponseParametersMap(terraformResource IInterpolatingParent, terraformAttribute *string) Apigatewayv2RouteResponseResponseParametersMap
 ```
@@ -1258,7 +1258,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2RouteResponse.Apigatewayv2RouteResponseResponseParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2routeresponse"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2routeresponse"
 
 apigatewayv2routeresponse.NewApigatewayv2RouteResponseResponseParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) Apigatewayv2RouteResponseResponseParametersOutputReference
 ```

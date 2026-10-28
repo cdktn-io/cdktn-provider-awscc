@@ -4,12 +4,12 @@
 
 ### ElasticacheUserGroup <a name="ElasticacheUserGroup" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user_group awscc_elasticache_user_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user_group awscc_elasticache_user_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheusergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheusergroup"
 
 elasticacheusergroup.NewElasticacheUserGroup(scope Construct, id *string, config ElasticacheUserGroupConfig) ElasticacheUserGroup
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheusergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheusergroup"
 
 elasticacheusergroup.ElasticacheUserGroup_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheusergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheusergroup"
 
 elasticacheusergroup.ElasticacheUserGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ elasticacheusergroup.ElasticacheUserGroup_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheusergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheusergroup"
 
 elasticacheusergroup.ElasticacheUserGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ elasticacheusergroup.ElasticacheUserGroup_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheusergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheusergroup"
 
 elasticacheusergroup.ElasticacheUserGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the ElasticacheUserGroup to im
 
 The id of the existing ElasticacheUserGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -830,7 +830,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheusergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheusergroup"
 
 &elasticacheusergroup.ElasticacheUserGroupConfig {
 	Connection: interface{},
@@ -945,7 +945,7 @@ Engine *string
 
 The target cache engine for the user group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user_group#engine ElasticacheUserGroup#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user_group#engine ElasticacheUserGroup#engine}
 
 ---
 
@@ -959,7 +959,7 @@ UserGroupId *string
 
 The ID of the user group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user_group#user_group_id ElasticacheUserGroup#user_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user_group#user_group_id ElasticacheUserGroup#user_group_id}
 
 ---
 
@@ -973,7 +973,7 @@ UserIds *[]*string
 
 List of users associated to this user group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user_group#user_ids ElasticacheUserGroup#user_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user_group#user_ids ElasticacheUserGroup#user_ids}
 
 ---
 
@@ -987,7 +987,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user_group#tags ElasticacheUserGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user_group#tags ElasticacheUserGroup#tags}
 
 ---
 
@@ -996,7 +996,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheusergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheusergroup"
 
 &elasticacheusergroup.ElasticacheUserGroupTags {
 	Key: *string,
@@ -1025,7 +1025,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with 'aws:'. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user_group#key ElasticacheUserGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user_group#key ElasticacheUserGroup#key}
 
 ---
 
@@ -1041,7 +1041,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_user_group#value ElasticacheUserGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_user_group#value ElasticacheUserGroup#value}
 
 ---
 
@@ -1052,7 +1052,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheusergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheusergroup"
 
 elasticacheusergroup.NewElasticacheUserGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElasticacheUserGroupTagsList
 ```
@@ -1212,7 +1212,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheUserGroup.ElasticacheUserGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheusergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheusergroup"
 
 elasticacheusergroup.NewElasticacheUserGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElasticacheUserGroupTagsOutputReference
 ```

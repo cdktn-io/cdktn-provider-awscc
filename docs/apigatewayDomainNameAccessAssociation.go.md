@@ -4,12 +4,12 @@
 
 ### ApigatewayDomainNameAccessAssociation <a name="ApigatewayDomainNameAccessAssociation" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaydomainnameaccessassociation"
 
 apigatewaydomainnameaccessassociation.NewApigatewayDomainNameAccessAssociation(scope Construct, id *string, config ApigatewayDomainNameAccessAssociationConfig) ApigatewayDomainNameAccessAssociation
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaydomainnameaccessassociation"
 
 apigatewaydomainnameaccessassociation.ApigatewayDomainNameAccessAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaydomainnameaccessassociation"
 
 apigatewaydomainnameaccessassociation.ApigatewayDomainNameAccessAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ apigatewaydomainnameaccessassociation.ApigatewayDomainNameAccessAssociation_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaydomainnameaccessassociation"
 
 apigatewaydomainnameaccessassociation.ApigatewayDomainNameAccessAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ apigatewaydomainnameaccessassociation.ApigatewayDomainNameAccessAssociation_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaydomainnameaccessassociation"
 
 apigatewaydomainnameaccessassociation.ApigatewayDomainNameAccessAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the ApigatewayDomainNameAccess
 
 The id of the existing ApigatewayDomainNameAccessAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name_access_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name_access_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -819,7 +819,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaydomainnameaccessassociation"
 
 &apigatewaydomainnameaccessassociation.ApigatewayDomainNameAccessAssociationConfig {
 	Connection: interface{},
@@ -934,7 +934,7 @@ AccessAssociationSource *string
 
 The source of the domain name access association resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name_access_association#access_association_source ApigatewayDomainNameAccessAssociation#access_association_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name_access_association#access_association_source ApigatewayDomainNameAccessAssociation#access_association_source}
 
 ---
 
@@ -948,7 +948,7 @@ AccessAssociationSourceType *string
 
 The source type of the domain name access association resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name_access_association#access_association_source_type ApigatewayDomainNameAccessAssociation#access_association_source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name_access_association#access_association_source_type ApigatewayDomainNameAccessAssociation#access_association_source_type}
 
 ---
 
@@ -962,7 +962,7 @@ DomainNameArn *string
 
 The amazon resource name (ARN) of the domain name resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name_access_association#domain_name_arn ApigatewayDomainNameAccessAssociation#domain_name_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name_access_association#domain_name_arn ApigatewayDomainNameAccessAssociation#domain_name_arn}
 
 ---
 
@@ -976,7 +976,7 @@ Tags interface{}
 
 An array of arbitrary tags (key-value pairs) to associate with the domainname access association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name_access_association#tags ApigatewayDomainNameAccessAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name_access_association#tags ApigatewayDomainNameAccessAssociation#tags}
 
 ---
 
@@ -985,7 +985,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaydomainnameaccessassociation"
 
 &apigatewaydomainnameaccessassociation.ApigatewayDomainNameAccessAssociationTags {
 	Key: *string,
@@ -997,8 +997,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydomainnameac
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name_access_association#key ApigatewayDomainNameAccessAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name_access_association#value ApigatewayDomainNameAccessAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name_access_association#key ApigatewayDomainNameAccessAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name_access_association#value ApigatewayDomainNameAccessAssociation#value}. |
 
 ---
 
@@ -1010,7 +1010,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name_access_association#key ApigatewayDomainNameAccessAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name_access_association#key ApigatewayDomainNameAccessAssociation#key}.
 
 ---
 
@@ -1022,7 +1022,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name_access_association#value ApigatewayDomainNameAccessAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name_access_association#value ApigatewayDomainNameAccessAssociation#value}.
 
 ---
 
@@ -1033,7 +1033,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaydomainnameaccessassociation"
 
 apigatewaydomainnameaccessassociation.NewApigatewayDomainNameAccessAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApigatewayDomainNameAccessAssociationTagsList
 ```
@@ -1193,7 +1193,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayDomainNameAccessAssociation.ApigatewayDomainNameAccessAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaydomainnameaccessassociation"
 
 apigatewaydomainnameaccessassociation.NewApigatewayDomainNameAccessAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApigatewayDomainNameAccessAssociationTagsOutputReference
 ```

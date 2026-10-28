@@ -4,12 +4,12 @@
 
 ### DataAwsccAppstreamApplicationEntitlementAssociation <a name="DataAwsccAppstreamApplicationEntitlementAssociation" id="@cdktn/provider-awscc.dataAwsccAppstreamApplicationEntitlementAssociation.DataAwsccAppstreamApplicationEntitlementAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_application_entitlement_association awscc_appstream_application_entitlement_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_application_entitlement_association awscc_appstream_application_entitlement_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamApplicationEntitlementAssociation.DataAwsccAppstreamApplicationEntitlementAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplicationentitlementassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplicationentitlementassociation"
 
 dataawsccappstreamapplicationentitlementassociation.NewDataAwsccAppstreamApplicationEntitlementAssociation(scope Construct, id *string, config DataAwsccAppstreamApplicationEntitlementAssociationConfig) DataAwsccAppstreamApplicationEntitlementAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppstreamApplicationEntitlementAssociation.DataAwsccAppstreamApplicationEntitlementAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplicationentitlementassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplicationentitlementassociation"
 
 dataawsccappstreamapplicationentitlementassociation.DataAwsccAppstreamApplicationEntitlementAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppstreamApplicationEntitlementAssociation.DataAwsccAppstreamApplicationEntitlementAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplicationentitlementassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplicationentitlementassociation"
 
 dataawsccappstreamapplicationentitlementassociation.DataAwsccAppstreamApplicationEntitlementAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappstreamapplicationentitlementassociation.DataAwsccAppstreamApplicatio
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppstreamApplicationEntitlementAssociation.DataAwsccAppstreamApplicationEntitlementAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplicationentitlementassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplicationentitlementassociation"
 
 dataawsccappstreamapplicationentitlementassociation.DataAwsccAppstreamApplicationEntitlementAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappstreamapplicationentitlementassociation.DataAwsccAppstreamApplicatio
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppstreamApplicationEntitlementAssociation.DataAwsccAppstreamApplicationEntitlementAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplicationentitlementassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplicationentitlementassociation"
 
 dataawsccappstreamapplicationentitlementassociation.DataAwsccAppstreamApplicationEntitlementAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppstreamApplicat
 
 The id of the existing DataAwsccAppstreamApplicationEntitlementAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_application_entitlement_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_application_entitlement_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamApplicationEntitlementAssociation.DataAwsccAppstreamApplicationEntitlementAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplicationentitlementassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplicationentitlementassociation"
 
 &dataawsccappstreamapplicationentitlementassociation.DataAwsccAppstreamApplicationEntitlementAssociationConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_application_entitlement_association#id DataAwsccAppstreamApplicationEntitlementAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_application_entitlement_association#id DataAwsccAppstreamApplicationEntitlementAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

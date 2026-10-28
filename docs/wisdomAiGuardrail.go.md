@@ -4,12 +4,12 @@
 
 ### WisdomAiGuardrail <a name="WisdomAiGuardrail" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrail"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrail(scope Construct, id *string, config WisdomAiGuardrailConfig) WisdomAiGuardrail
 ```
@@ -521,7 +521,7 @@ func ResetWordPolicyConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrail.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.WisdomAiGuardrail_IsConstruct(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrail.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.WisdomAiGuardrail_IsTerraformElement(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ wisdomaiguardrail.WisdomAiGuardrail_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrail.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.WisdomAiGuardrail_IsTerraformResource(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ wisdomaiguardrail.WisdomAiGuardrail_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrail.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.WisdomAiGuardrail_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -610,7 +610,7 @@ The construct id used in the generated config for the WisdomAiGuardrail to impor
 
 The id of the existing WisdomAiGuardrail that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1107,7 +1107,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailConfig {
 	Connection: interface{},
@@ -1120,14 +1120,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
 	AssistantId: *string,
 	BlockedInputMessaging: *string,
 	BlockedOutputsMessaging: *string,
-	ContentPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.wisdomAiGuardrail.WisdomAiGuardrailContentPolicyConfig,
-	ContextualGroundingPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.wisdomAiGuardrail.WisdomAiGuardrailContextualGroundingPolicyConfig,
+	ContentPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.wisdomAiGuardrail.WisdomAiGuardrailContentPolicyConfig,
+	ContextualGroundingPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.wisdomAiGuardrail.WisdomAiGuardrailContextualGroundingPolicyConfig,
 	Description: *string,
 	Name: *string,
-	SensitiveInformationPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.wisdomAiGuardrail.WisdomAiGuardrailSensitiveInformationPolicyConfig,
+	SensitiveInformationPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.wisdomAiGuardrail.WisdomAiGuardrailSensitiveInformationPolicyConfig,
 	Tags: *map[string]*string,
-	TopicPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.wisdomAiGuardrail.WisdomAiGuardrailTopicPolicyConfig,
-	WordPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.wisdomAiGuardrail.WisdomAiGuardrailWordPolicyConfig,
+	TopicPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.wisdomAiGuardrail.WisdomAiGuardrailTopicPolicyConfig,
+	WordPolicyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.wisdomAiGuardrail.WisdomAiGuardrailWordPolicyConfig,
 }
 ```
 
@@ -1142,15 +1142,15 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
 | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.assistantId">AssistantId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#assistant_id WisdomAiGuardrail#assistant_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.assistantId">AssistantId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#assistant_id WisdomAiGuardrail#assistant_id}. |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.blockedInputMessaging">BlockedInputMessaging</a></code> | <code>*string</code> | Messaging for when violations are detected in text. |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.blockedOutputsMessaging">BlockedOutputsMessaging</a></code> | <code>*string</code> | Messaging for when violations are detected in text. |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.contentPolicyConfig">ContentPolicyConfig</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContentPolicyConfig">WisdomAiGuardrailContentPolicyConfig</a></code> | Content policy config for a guardrail. |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.contextualGroundingPolicyConfig">ContextualGroundingPolicyConfig</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContextualGroundingPolicyConfig">WisdomAiGuardrailContextualGroundingPolicyConfig</a></code> | Contextual grounding policy config for a guardrail. |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.description">Description</a></code> | <code>*string</code> | Description of the guardrail or its version. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}. |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.sensitiveInformationPolicyConfig">SensitiveInformationPolicyConfig</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailSensitiveInformationPolicyConfig">WisdomAiGuardrailSensitiveInformationPolicyConfig</a></code> | Sensitive information policy config for a guardrail. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#tags WisdomAiGuardrail#tags}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#tags WisdomAiGuardrail#tags}. |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.topicPolicyConfig">TopicPolicyConfig</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailTopicPolicyConfig">WisdomAiGuardrailTopicPolicyConfig</a></code> | Topic policy config for a guardrail. |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailConfig.property.wordPolicyConfig">WordPolicyConfig</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailWordPolicyConfig">WisdomAiGuardrailWordPolicyConfig</a></code> | Word policy config for a guardrail. |
 
@@ -1234,7 +1234,7 @@ AssistantId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#assistant_id WisdomAiGuardrail#assistant_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#assistant_id WisdomAiGuardrail#assistant_id}.
 
 ---
 
@@ -1248,7 +1248,7 @@ BlockedInputMessaging *string
 
 Messaging for when violations are detected in text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#blocked_input_messaging WisdomAiGuardrail#blocked_input_messaging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#blocked_input_messaging WisdomAiGuardrail#blocked_input_messaging}
 
 ---
 
@@ -1262,7 +1262,7 @@ BlockedOutputsMessaging *string
 
 Messaging for when violations are detected in text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#blocked_outputs_messaging WisdomAiGuardrail#blocked_outputs_messaging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#blocked_outputs_messaging WisdomAiGuardrail#blocked_outputs_messaging}
 
 ---
 
@@ -1276,7 +1276,7 @@ ContentPolicyConfig WisdomAiGuardrailContentPolicyConfig
 
 Content policy config for a guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#content_policy_config WisdomAiGuardrail#content_policy_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#content_policy_config WisdomAiGuardrail#content_policy_config}
 
 ---
 
@@ -1290,7 +1290,7 @@ ContextualGroundingPolicyConfig WisdomAiGuardrailContextualGroundingPolicyConfig
 
 Contextual grounding policy config for a guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#contextual_grounding_policy_config WisdomAiGuardrail#contextual_grounding_policy_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#contextual_grounding_policy_config WisdomAiGuardrail#contextual_grounding_policy_config}
 
 ---
 
@@ -1304,7 +1304,7 @@ Description *string
 
 Description of the guardrail or its version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#description WisdomAiGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#description WisdomAiGuardrail#description}
 
 ---
 
@@ -1316,7 +1316,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}.
 
 ---
 
@@ -1330,7 +1330,7 @@ SensitiveInformationPolicyConfig WisdomAiGuardrailSensitiveInformationPolicyConf
 
 Sensitive information policy config for a guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#sensitive_information_policy_config WisdomAiGuardrail#sensitive_information_policy_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#sensitive_information_policy_config WisdomAiGuardrail#sensitive_information_policy_config}
 
 ---
 
@@ -1342,7 +1342,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#tags WisdomAiGuardrail#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#tags WisdomAiGuardrail#tags}.
 
 ---
 
@@ -1356,7 +1356,7 @@ TopicPolicyConfig WisdomAiGuardrailTopicPolicyConfig
 
 Topic policy config for a guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#topic_policy_config WisdomAiGuardrail#topic_policy_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#topic_policy_config WisdomAiGuardrail#topic_policy_config}
 
 ---
 
@@ -1370,7 +1370,7 @@ WordPolicyConfig WisdomAiGuardrailWordPolicyConfig
 
 Word policy config for a guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#word_policy_config WisdomAiGuardrail#word_policy_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#word_policy_config WisdomAiGuardrail#word_policy_config}
 
 ---
 
@@ -1379,7 +1379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContentPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailContentPolicyConfig {
 	FiltersConfig: interface{},
@@ -1404,7 +1404,7 @@ FiltersConfig interface{}
 
 List of content filter configs in content policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#filters_config WisdomAiGuardrail#filters_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#filters_config WisdomAiGuardrail#filters_config}
 
 ---
 
@@ -1413,7 +1413,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContentPolicyConfigFiltersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailContentPolicyConfigFiltersConfig {
 	InputStrength: *string,
@@ -1442,7 +1442,7 @@ InputStrength *string
 
 Strength for filters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#input_strength WisdomAiGuardrail#input_strength}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#input_strength WisdomAiGuardrail#input_strength}
 
 ---
 
@@ -1456,7 +1456,7 @@ OutputStrength *string
 
 Strength for filters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#output_strength WisdomAiGuardrail#output_strength}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#output_strength WisdomAiGuardrail#output_strength}
 
 ---
 
@@ -1470,7 +1470,7 @@ Type *string
 
 Type of text to text filter in content policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
 
 ---
 
@@ -1479,7 +1479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContextualGroundingPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailContextualGroundingPolicyConfig {
 	FiltersConfig: interface{},
@@ -1504,7 +1504,7 @@ FiltersConfig interface{}
 
 List of contextual grounding filter configs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#filters_config WisdomAiGuardrail#filters_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#filters_config WisdomAiGuardrail#filters_config}
 
 ---
 
@@ -1513,7 +1513,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfig {
 	Threshold: *f64,
@@ -1540,7 +1540,7 @@ Threshold *f64
 
 The threshold for this filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#threshold WisdomAiGuardrail#threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#threshold WisdomAiGuardrail#threshold}
 
 ---
 
@@ -1554,7 +1554,7 @@ Type *string
 
 Type of contextual grounding filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
 
 ---
 
@@ -1563,7 +1563,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailSensitiveInformationPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailSensitiveInformationPolicyConfig {
 	PiiEntitiesConfig: interface{},
@@ -1590,7 +1590,7 @@ PiiEntitiesConfig interface{}
 
 List of entities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#pii_entities_config WisdomAiGuardrail#pii_entities_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#pii_entities_config WisdomAiGuardrail#pii_entities_config}
 
 ---
 
@@ -1604,7 +1604,7 @@ RegexesConfig interface{}
 
 List of regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#regexes_config WisdomAiGuardrail#regexes_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#regexes_config WisdomAiGuardrail#regexes_config}
 
 ---
 
@@ -1613,7 +1613,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfig {
 	Action: *string,
@@ -1640,7 +1640,7 @@ Action *string
 
 Options for sensitive information action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#action WisdomAiGuardrail#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#action WisdomAiGuardrail#action}
 
 ---
 
@@ -1654,7 +1654,7 @@ Type *string
 
 The currently supported PII entities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
 
 ---
 
@@ -1663,7 +1663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfig {
 	Action: *string,
@@ -1694,7 +1694,7 @@ Action *string
 
 Options for sensitive information action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#action WisdomAiGuardrail#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#action WisdomAiGuardrail#action}
 
 ---
 
@@ -1708,7 +1708,7 @@ Description *string
 
 The regex description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#description WisdomAiGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#description WisdomAiGuardrail#description}
 
 ---
 
@@ -1722,7 +1722,7 @@ Name *string
 
 The regex name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}
 
 ---
 
@@ -1736,7 +1736,7 @@ Pattern *string
 
 The regex pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#pattern WisdomAiGuardrail#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#pattern WisdomAiGuardrail#pattern}
 
 ---
 
@@ -1745,7 +1745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailTopicPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailTopicPolicyConfig {
 	TopicsConfig: interface{},
@@ -1770,7 +1770,7 @@ TopicsConfig interface{}
 
 List of topic configs in topic policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#topics_config WisdomAiGuardrail#topics_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#topics_config WisdomAiGuardrail#topics_config}
 
 ---
 
@@ -1779,7 +1779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailTopicPolicyConfigTopicsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailTopicPolicyConfigTopicsConfig {
 	Definition: *string,
@@ -1810,7 +1810,7 @@ Definition *string
 
 Definition of topic in topic policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#definition WisdomAiGuardrail#definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#definition WisdomAiGuardrail#definition}
 
 ---
 
@@ -1824,7 +1824,7 @@ Examples *[]*string
 
 List of text examples.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#examples WisdomAiGuardrail#examples}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#examples WisdomAiGuardrail#examples}
 
 ---
 
@@ -1838,7 +1838,7 @@ Name *string
 
 Name of topic in topic policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#name WisdomAiGuardrail#name}
 
 ---
 
@@ -1852,7 +1852,7 @@ Type *string
 
 Type of topic in a policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
 
 ---
 
@@ -1861,7 +1861,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailWordPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailWordPolicyConfig {
 	ManagedWordListsConfig: interface{},
@@ -1888,7 +1888,7 @@ ManagedWordListsConfig interface{}
 
 A config for the list of managed words.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#managed_word_lists_config WisdomAiGuardrail#managed_word_lists_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#managed_word_lists_config WisdomAiGuardrail#managed_word_lists_config}
 
 ---
 
@@ -1902,7 +1902,7 @@ WordsConfig interface{}
 
 List of custom word configs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#words_config WisdomAiGuardrail#words_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#words_config WisdomAiGuardrail#words_config}
 
 ---
 
@@ -1911,7 +1911,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailWordPolicyConfigManagedWordListsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailWordPolicyConfigManagedWordListsConfig {
 	Type: *string,
@@ -1936,7 +1936,7 @@ Type *string
 
 Options for managed words.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
 
 ---
 
@@ -1945,7 +1945,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailWordPolicyConfigWordsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 &wisdomaiguardrail.WisdomAiGuardrailWordPolicyConfigWordsConfig {
 	Text: *string,
@@ -1970,7 +1970,7 @@ Text *string
 
 The custom word text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail#text WisdomAiGuardrail#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail#text WisdomAiGuardrail#text}
 
 ---
 
@@ -1981,7 +1981,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContentPolicyConfigFiltersConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailContentPolicyConfigFiltersConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WisdomAiGuardrailContentPolicyConfigFiltersConfigList
 ```
@@ -2141,7 +2141,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference
 ```
@@ -2495,7 +2495,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContentPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailContentPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WisdomAiGuardrailContentPolicyConfigOutputReference
 ```
@@ -2786,7 +2786,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigList
 ```
@@ -2946,7 +2946,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigOutputReference
 ```
@@ -3271,7 +3271,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailContextualGroundingPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailContextualGroundingPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WisdomAiGuardrailContextualGroundingPolicyConfigOutputReference
 ```
@@ -3562,7 +3562,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailSensitiveInformationPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailSensitiveInformationPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WisdomAiGuardrailSensitiveInformationPolicyConfigOutputReference
 ```
@@ -3895,7 +3895,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigList
 ```
@@ -4055,7 +4055,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOutputReference
 ```
@@ -4380,7 +4380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigList
 ```
@@ -4540,7 +4540,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference
 ```
@@ -4923,7 +4923,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailTopicPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailTopicPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WisdomAiGuardrailTopicPolicyConfigOutputReference
 ```
@@ -5214,7 +5214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailTopicPolicyConfigTopicsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailTopicPolicyConfigTopicsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WisdomAiGuardrailTopicPolicyConfigTopicsConfigList
 ```
@@ -5374,7 +5374,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference
 ```
@@ -5757,7 +5757,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailWordPolicyConfigManagedWordListsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailWordPolicyConfigManagedWordListsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WisdomAiGuardrailWordPolicyConfigManagedWordListsConfigList
 ```
@@ -5917,7 +5917,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailWordPolicyConfigManagedWordListsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailWordPolicyConfigManagedWordListsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WisdomAiGuardrailWordPolicyConfigManagedWordListsConfigOutputReference
 ```
@@ -6213,7 +6213,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailWordPolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailWordPolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WisdomAiGuardrailWordPolicyConfigOutputReference
 ```
@@ -6546,7 +6546,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailWordPolicyConfigWordsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailWordPolicyConfigWordsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WisdomAiGuardrailWordPolicyConfigWordsConfigList
 ```
@@ -6706,7 +6706,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiGuardrail.WisdomAiGuardrailWordPolicyConfigWordsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail"
 
 wisdomaiguardrail.NewWisdomAiGuardrailWordPolicyConfigWordsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WisdomAiGuardrailWordPolicyConfigWordsConfigOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccOmicsReferenceStore <a name="DataAwsccOmicsReferenceStore" id="@cdktn/provider-awscc.dataAwsccOmicsReferenceStore.DataAwsccOmicsReferenceStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_reference_store awscc_omics_reference_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_reference_store awscc_omics_reference_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsReferenceStore.DataAwsccOmicsReferenceStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsreferencestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsreferencestore"
 
 dataawsccomicsreferencestore.NewDataAwsccOmicsReferenceStore(scope Construct, id *string, config DataAwsccOmicsReferenceStoreConfig) DataAwsccOmicsReferenceStore
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOmicsReferenceStore.DataAwsccOmicsReferenceStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsreferencestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsreferencestore"
 
 dataawsccomicsreferencestore.DataAwsccOmicsReferenceStore_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOmicsReferenceStore.DataAwsccOmicsReferenceStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsreferencestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsreferencestore"
 
 dataawsccomicsreferencestore.DataAwsccOmicsReferenceStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccomicsreferencestore.DataAwsccOmicsReferenceStore_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOmicsReferenceStore.DataAwsccOmicsReferenceStore.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsreferencestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsreferencestore"
 
 dataawsccomicsreferencestore.DataAwsccOmicsReferenceStore_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccomicsreferencestore.DataAwsccOmicsReferenceStore_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOmicsReferenceStore.DataAwsccOmicsReferenceStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsreferencestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsreferencestore"
 
 dataawsccomicsreferencestore.DataAwsccOmicsReferenceStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOmicsReferenceSto
 
 The id of the existing DataAwsccOmicsReferenceStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_reference_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_reference_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOmicsReferenceStore.DataAwsccOmicsReferenceStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsreferencestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsreferencestore"
 
 &dataawsccomicsreferencestore.DataAwsccOmicsReferenceStoreConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_reference_store#id DataAwsccOmicsReferenceStore#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_reference_store#id DataAwsccOmicsReferenceStore#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOmicsReferenceStore.DataAwsccOmicsReferenceStoreSseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsreferencestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsreferencestore"
 
 &dataawsccomicsreferencestore.DataAwsccOmicsReferenceStoreSseConfig {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsreferenc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsReferenceStore.DataAwsccOmicsReferenceStoreSseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsreferencestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsreferencestore"
 
 dataawsccomicsreferencestore.NewDataAwsccOmicsReferenceStoreSseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOmicsReferenceStoreSseConfigOutputReference
 ```

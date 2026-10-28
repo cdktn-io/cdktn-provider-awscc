@@ -4,12 +4,12 @@
 
 ### CloudfrontCloudfrontOriginAccessIdentity <a name="CloudfrontCloudfrontOriginAccessIdentity" id="@cdktn/provider-awscc.cloudfrontCloudfrontOriginAccessIdentity.CloudfrontCloudfrontOriginAccessIdentity"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_cloudfront_origin_access_identity awscc_cloudfront_cloudfront_origin_access_identity}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_cloudfront_origin_access_identity awscc_cloudfront_cloudfront_origin_access_identity}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontCloudfrontOriginAccessIdentity.CloudfrontCloudfrontOriginAccessIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontcloudfrontoriginaccessidentity"
 
 cloudfrontcloudfrontoriginaccessidentity.NewCloudfrontCloudfrontOriginAccessIdentity(scope Construct, id *string, config CloudfrontCloudfrontOriginAccessIdentityConfig) CloudfrontCloudfrontOriginAccessIdentity
 ```
@@ -413,7 +413,7 @@ func PutCloudfrontOriginAccessIdentityConfig(value CloudfrontCloudfrontOriginAcc
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudfrontCloudfrontOriginAccessIdentity.CloudfrontCloudfrontOriginAccessIdentity.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontcloudfrontoriginaccessidentity"
 
 cloudfrontcloudfrontoriginaccessidentity.CloudfrontCloudfrontOriginAccessIdentity_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudfrontCloudfrontOriginAccessIdentity.CloudfrontCloudfrontOriginAccessIdentity.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontcloudfrontoriginaccessidentity"
 
 cloudfrontcloudfrontoriginaccessidentity.CloudfrontCloudfrontOriginAccessIdentity_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ cloudfrontcloudfrontoriginaccessidentity.CloudfrontCloudfrontOriginAccessIdentit
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudfrontCloudfrontOriginAccessIdentity.CloudfrontCloudfrontOriginAccessIdentity.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontcloudfrontoriginaccessidentity"
 
 cloudfrontcloudfrontoriginaccessidentity.CloudfrontCloudfrontOriginAccessIdentity_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ cloudfrontcloudfrontoriginaccessidentity.CloudfrontCloudfrontOriginAccessIdentit
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudfrontCloudfrontOriginAccessIdentity.CloudfrontCloudfrontOriginAccessIdentity.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontcloudfrontoriginaccessidentity"
 
 cloudfrontcloudfrontoriginaccessidentity.CloudfrontCloudfrontOriginAccessIdentity_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the CloudfrontCloudfrontOrigin
 
 The id of the existing CloudfrontCloudfrontOriginAccessIdentity that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_cloudfront_origin_access_identity#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_cloudfront_origin_access_identity#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -757,7 +757,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontCloudfrontOriginAccessIdentity.CloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontcloudfrontoriginaccessidentity"
 
 &cloudfrontcloudfrontoriginaccessidentity.CloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfig {
 	Comment: *string,
@@ -782,7 +782,7 @@ Comment *string
 
 A comment to describe the origin access identity. The comment cannot be longer than 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_cloudfront_origin_access_identity#comment CloudfrontCloudfrontOriginAccessIdentity#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_cloudfront_origin_access_identity#comment CloudfrontCloudfrontOriginAccessIdentity#comment}
 
 ---
 
@@ -791,7 +791,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontCloudfrontOriginAccessIdentity.CloudfrontCloudfrontOriginAccessIdentityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontcloudfrontoriginaccessidentity"
 
 &cloudfrontcloudfrontoriginaccessidentity.CloudfrontCloudfrontOriginAccessIdentityConfig {
 	Connection: interface{},
@@ -801,7 +801,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontcloudfrontor
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	CloudfrontOriginAccessIdentityConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontCloudfrontOriginAccessIdentity.CloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfig,
+	CloudfrontOriginAccessIdentityConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontCloudfrontOriginAccessIdentity.CloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfig,
 }
 ```
 
@@ -900,7 +900,7 @@ CloudfrontOriginAccessIdentityConfig CloudfrontCloudfrontOriginAccessIdentityClo
 
 The current configuration information for the identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_cloudfront_origin_access_identity#cloudfront_origin_access_identity_config CloudfrontCloudfrontOriginAccessIdentity#cloudfront_origin_access_identity_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_cloudfront_origin_access_identity#cloudfront_origin_access_identity_config CloudfrontCloudfrontOriginAccessIdentity#cloudfront_origin_access_identity_config}
 
 ---
 
@@ -911,7 +911,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontCloudfrontOriginAccessIdentity.CloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontcloudfrontoriginaccessidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontcloudfrontoriginaccessidentity"
 
 cloudfrontcloudfrontoriginaccessidentity.NewCloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdentityConfigOutputReference
 ```

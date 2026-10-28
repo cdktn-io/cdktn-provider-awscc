@@ -4,12 +4,12 @@
 
 ### DataAwsccRolesanywhereTrustAnchors <a name="DataAwsccRolesanywhereTrustAnchors" id="@cdktn/provider-awscc.dataAwsccRolesanywhereTrustAnchors.DataAwsccRolesanywhereTrustAnchors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rolesanywhere_trust_anchors awscc_rolesanywhere_trust_anchors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rolesanywhere_trust_anchors awscc_rolesanywhere_trust_anchors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRolesanywhereTrustAnchors.DataAwsccRolesanywhereTrustAnchors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywheretrustanchors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywheretrustanchors"
 
 dataawsccrolesanywheretrustanchors.NewDataAwsccRolesanywhereTrustAnchors(scope Construct, id *string, config DataAwsccRolesanywhereTrustAnchorsConfig) DataAwsccRolesanywhereTrustAnchors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRolesanywhereTrustAnchors.DataAwsccRolesanywhereTrustAnchors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywheretrustanchors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywheretrustanchors"
 
 dataawsccrolesanywheretrustanchors.DataAwsccRolesanywhereTrustAnchors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRolesanywhereTrustAnchors.DataAwsccRolesanywhereTrustAnchors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywheretrustanchors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywheretrustanchors"
 
 dataawsccrolesanywheretrustanchors.DataAwsccRolesanywhereTrustAnchors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrolesanywheretrustanchors.DataAwsccRolesanywhereTrustAnchors_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRolesanywhereTrustAnchors.DataAwsccRolesanywhereTrustAnchors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywheretrustanchors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywheretrustanchors"
 
 dataawsccrolesanywheretrustanchors.DataAwsccRolesanywhereTrustAnchors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrolesanywheretrustanchors.DataAwsccRolesanywhereTrustAnchors_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRolesanywhereTrustAnchors.DataAwsccRolesanywhereTrustAnchors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywheretrustanchors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywheretrustanchors"
 
 dataawsccrolesanywheretrustanchors.DataAwsccRolesanywhereTrustAnchors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRolesanywhereTrus
 
 The id of the existing DataAwsccRolesanywhereTrustAnchors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rolesanywhere_trust_anchors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rolesanywhere_trust_anchors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRolesanywhereTrustAnchors.DataAwsccRolesanywhereTrustAnchorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywheretrustanchors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywheretrustanchors"
 
 &dataawsccrolesanywheretrustanchors.DataAwsccRolesanywhereTrustAnchorsConfig {
 	Connection: interface{},

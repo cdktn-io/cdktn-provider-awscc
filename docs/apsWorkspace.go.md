@@ -4,12 +4,12 @@
 
 ### ApsWorkspace <a name="ApsWorkspace" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace awscc_aps_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace awscc_aps_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspace(scope Construct, id *string, config ApsWorkspaceConfig) ApsWorkspace
 ```
@@ -501,7 +501,7 @@ func ResetWorkspaceConfiguration()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.ApsWorkspace_IsConstruct(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.ApsWorkspace_IsTerraformElement(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ apsworkspace.ApsWorkspace_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspace.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.ApsWorkspace_IsTerraformResource(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ apsworkspace.ApsWorkspace_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.ApsWorkspace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -590,7 +590,7 @@ The construct id used in the generated config for the ApsWorkspace to import.
 
 The id of the existing ApsWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -988,7 +988,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 &apsworkspace.ApsWorkspaceConfig {
 	Connection: interface{},
@@ -1001,10 +1001,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
 	AlertManagerDefinition: *string,
 	Alias: *string,
 	KmsKeyArn: *string,
-	LoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsWorkspace.ApsWorkspaceLoggingConfiguration,
-	QueryLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfiguration,
+	LoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsWorkspace.ApsWorkspaceLoggingConfiguration,
+	QueryLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsWorkspace.ApsWorkspaceQueryLoggingConfiguration,
 	Tags: interface{},
-	WorkspaceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsWorkspace.ApsWorkspaceWorkspaceConfiguration,
+	WorkspaceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsWorkspace.ApsWorkspaceWorkspaceConfiguration,
 }
 ```
 
@@ -1109,7 +1109,7 @@ AlertManagerDefinition *string
 
 The AMP Workspace alert manager definition data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#alert_manager_definition ApsWorkspace#alert_manager_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#alert_manager_definition ApsWorkspace#alert_manager_definition}
 
 ---
 
@@ -1123,7 +1123,7 @@ Alias *string
 
 AMP Workspace alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#alias ApsWorkspace#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#alias ApsWorkspace#alias}
 
 ---
 
@@ -1137,7 +1137,7 @@ KmsKeyArn *string
 
 KMS Key ARN used to encrypt and decrypt AMP workspace data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#kms_key_arn ApsWorkspace#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#kms_key_arn ApsWorkspace#kms_key_arn}
 
 ---
 
@@ -1151,7 +1151,7 @@ LoggingConfiguration ApsWorkspaceLoggingConfiguration
 
 Logging configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#logging_configuration ApsWorkspace#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#logging_configuration ApsWorkspace#logging_configuration}
 
 ---
 
@@ -1165,7 +1165,7 @@ QueryLoggingConfiguration ApsWorkspaceQueryLoggingConfiguration
 
 Query logging configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#query_logging_configuration ApsWorkspace#query_logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#query_logging_configuration ApsWorkspace#query_logging_configuration}
 
 ---
 
@@ -1179,7 +1179,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#tags ApsWorkspace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#tags ApsWorkspace#tags}
 
 ---
 
@@ -1193,7 +1193,7 @@ WorkspaceConfiguration ApsWorkspaceWorkspaceConfiguration
 
 Workspace configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#workspace_configuration ApsWorkspace#workspace_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#workspace_configuration ApsWorkspace#workspace_configuration}
 
 ---
 
@@ -1202,7 +1202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 &apsworkspace.ApsWorkspaceLoggingConfiguration {
 	LogGroupArn: *string,
@@ -1227,7 +1227,7 @@ LogGroupArn *string
 
 CloudWatch log group ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
 
 ---
 
@@ -1236,7 +1236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 &apsworkspace.ApsWorkspaceQueryLoggingConfiguration {
 	Destinations: interface{},
@@ -1261,7 +1261,7 @@ Destinations interface{}
 
 The destinations configuration for query logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#destinations ApsWorkspace#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#destinations ApsWorkspace#destinations}
 
 ---
 
@@ -1270,11 +1270,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 &apsworkspace.ApsWorkspaceQueryLoggingConfigurationDestinations {
-	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogs,
-	Filters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsFilters,
+	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogs,
+	Filters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsFilters,
 }
 ```
 
@@ -1297,7 +1297,7 @@ CloudwatchLogs ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogs
 
 Represents a cloudwatch logs destination for query logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#cloudwatch_logs ApsWorkspace#cloudwatch_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#cloudwatch_logs ApsWorkspace#cloudwatch_logs}
 
 ---
 
@@ -1311,7 +1311,7 @@ Filters ApsWorkspaceQueryLoggingConfigurationDestinationsFilters
 
 Filters for logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#filters ApsWorkspace#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#filters ApsWorkspace#filters}
 
 ---
 
@@ -1320,7 +1320,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 &apsworkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogs {
 	LogGroupArn: *string,
@@ -1345,7 +1345,7 @@ LogGroupArn *string
 
 The ARN of the CloudWatch Logs log group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
 
 ---
 
@@ -1354,7 +1354,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 &apsworkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsFilters {
 	QspThreshold: *f64,
@@ -1379,7 +1379,7 @@ QspThreshold *f64
 
 Query logs with QSP above this limit are vended.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#qsp_threshold ApsWorkspace#qsp_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#qsp_threshold ApsWorkspace#qsp_threshold}
 
 ---
 
@@ -1388,7 +1388,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 &apsworkspace.ApsWorkspaceTags {
 	Key: *string,
@@ -1417,7 +1417,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#key ApsWorkspace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#key ApsWorkspace#key}
 
 ---
 
@@ -1433,7 +1433,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#value ApsWorkspace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#value ApsWorkspace#value}
 
 ---
 
@@ -1442,7 +1442,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceWorkspaceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 &apsworkspace.ApsWorkspaceWorkspaceConfiguration {
 	LimitsPerLabelSets: interface{},
@@ -1473,7 +1473,7 @@ LimitsPerLabelSets interface{}
 
 An array of label set and associated limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#limits_per_label_sets ApsWorkspace#limits_per_label_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#limits_per_label_sets ApsWorkspace#limits_per_label_sets}
 
 ---
 
@@ -1487,7 +1487,7 @@ OutOfOrderTimeWindowInSeconds *f64
 
 The time window in seconds for accepting out-of-order samples.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#out_of_order_time_window_in_seconds ApsWorkspace#out_of_order_time_window_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#out_of_order_time_window_in_seconds ApsWorkspace#out_of_order_time_window_in_seconds}
 
 ---
 
@@ -1501,7 +1501,7 @@ RetentionPeriodInDays *f64
 
 How many days that metrics are retained in the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#retention_period_in_days ApsWorkspace#retention_period_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#retention_period_in_days ApsWorkspace#retention_period_in_days}
 
 ---
 
@@ -1515,7 +1515,7 @@ RuleQueryOffsetInSeconds *f64
 
 Duration in seconds to offset rule evaluation queries into the past.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#rule_query_offset_in_seconds ApsWorkspace#rule_query_offset_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#rule_query_offset_in_seconds ApsWorkspace#rule_query_offset_in_seconds}
 
 ---
 
@@ -1524,11 +1524,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 &apsworkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSets {
 	LabelSet: interface{},
-	Limits: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsWorkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimits,
+	Limits: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsWorkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimits,
 }
 ```
 
@@ -1551,7 +1551,7 @@ LabelSet interface{}
 
 An array of series labels.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#label_set ApsWorkspace#label_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#label_set ApsWorkspace#label_set}
 
 ---
 
@@ -1565,7 +1565,7 @@ Limits ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimits
 
 Limits that can be applied to a label set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#limits ApsWorkspace#limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#limits ApsWorkspace#limits}
 
 ---
 
@@ -1574,7 +1574,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 &apsworkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSet {
 	Name: *string,
@@ -1601,7 +1601,7 @@ Name *string
 
 Name of the label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#name ApsWorkspace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#name ApsWorkspace#name}
 
 ---
 
@@ -1615,7 +1615,7 @@ Value *string
 
 Value of the label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#value ApsWorkspace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#value ApsWorkspace#value}
 
 ---
 
@@ -1624,7 +1624,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 &apsworkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimits {
 	MaxSeries: *f64,
@@ -1649,7 +1649,7 @@ MaxSeries *f64
 
 The maximum number of active series that can be ingested for this label set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_workspace#max_series ApsWorkspace#max_series}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_workspace#max_series ApsWorkspace#max_series}
 
 ---
 
@@ -1660,7 +1660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsWorkspaceLoggingConfigurationOutputReference
 ```
@@ -1938,7 +1938,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogsOutputReference
 ```
@@ -2216,7 +2216,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceQueryLoggingConfigurationDestinationsFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsWorkspaceQueryLoggingConfigurationDestinationsFiltersOutputReference
 ```
@@ -2494,7 +2494,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceQueryLoggingConfigurationDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApsWorkspaceQueryLoggingConfigurationDestinationsList
 ```
@@ -2654,7 +2654,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceQueryLoggingConfigurationDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApsWorkspaceQueryLoggingConfigurationDestinationsOutputReference
 ```
@@ -3005,7 +3005,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceQueryLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceQueryLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsWorkspaceQueryLoggingConfigurationOutputReference
 ```
@@ -3296,7 +3296,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApsWorkspaceTagsList
 ```
@@ -3456,7 +3456,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApsWorkspaceTagsOutputReference
 ```
@@ -3781,7 +3781,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSetList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSetList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSetList
 ```
@@ -3941,7 +3941,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSetOutputReference
 ```
@@ -4266,7 +4266,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimitsOutputReference
 ```
@@ -4544,7 +4544,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsList
 ```
@@ -4704,7 +4704,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsOutputReference
 ```
@@ -5055,7 +5055,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspaceWorkspaceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsworkspace"
 
 apsworkspace.NewApsWorkspaceWorkspaceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsWorkspaceWorkspaceConfigurationOutputReference
 ```

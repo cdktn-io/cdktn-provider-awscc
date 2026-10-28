@@ -4,12 +4,12 @@
 
 ### IotwirelessPartnerAccount <a name="IotwirelessPartnerAccount" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccount"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 iotwirelesspartneraccount.NewIotwirelessPartnerAccount(scope Construct, id *string, config IotwirelessPartnerAccountConfig) IotwirelessPartnerAccount
 ```
@@ -501,7 +501,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccount.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 iotwirelesspartneraccount.IotwirelessPartnerAccount_IsConstruct(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccount.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 iotwirelesspartneraccount.IotwirelessPartnerAccount_IsTerraformElement(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ iotwirelesspartneraccount.IotwirelessPartnerAccount_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccount.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 iotwirelesspartneraccount.IotwirelessPartnerAccount_IsTerraformResource(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ iotwirelesspartneraccount.IotwirelessPartnerAccount_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccount.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 iotwirelesspartneraccount.IotwirelessPartnerAccount_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -590,7 +590,7 @@ The construct id used in the generated config for the IotwirelessPartnerAccount 
 
 The id of the existing IotwirelessPartnerAccount that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -977,7 +977,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 &iotwirelesspartneraccount.IotwirelessPartnerAccountConfig {
 	Connection: interface{},
@@ -990,9 +990,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneracco
 	AccountLinked: interface{},
 	PartnerAccountId: *string,
 	PartnerType: *string,
-	Sidewalk: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalk,
-	SidewalkResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkResponse,
-	SidewalkUpdate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkUpdate,
+	Sidewalk: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalk,
+	SidewalkResponse: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkResponse,
+	SidewalkUpdate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkUpdate,
 	Tags: interface{},
 }
 ```
@@ -1098,7 +1098,7 @@ AccountLinked interface{}
 
 Whether the partner account is linked to the AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#account_linked IotwirelessPartnerAccount#account_linked}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#account_linked IotwirelessPartnerAccount#account_linked}
 
 ---
 
@@ -1112,7 +1112,7 @@ PartnerAccountId *string
 
 The partner account ID to disassociate from the AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#partner_account_id IotwirelessPartnerAccount#partner_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#partner_account_id IotwirelessPartnerAccount#partner_account_id}
 
 ---
 
@@ -1126,7 +1126,7 @@ PartnerType *string
 
 The partner type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#partner_type IotwirelessPartnerAccount#partner_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#partner_type IotwirelessPartnerAccount#partner_type}
 
 ---
 
@@ -1140,7 +1140,7 @@ Sidewalk IotwirelessPartnerAccountSidewalk
 
 The Sidewalk account credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#sidewalk IotwirelessPartnerAccount#sidewalk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#sidewalk IotwirelessPartnerAccount#sidewalk}
 
 ---
 
@@ -1154,7 +1154,7 @@ SidewalkResponse IotwirelessPartnerAccountSidewalkResponse
 
 The Sidewalk account credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#sidewalk_response IotwirelessPartnerAccount#sidewalk_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#sidewalk_response IotwirelessPartnerAccount#sidewalk_response}
 
 ---
 
@@ -1168,7 +1168,7 @@ SidewalkUpdate IotwirelessPartnerAccountSidewalkUpdate
 
 The Sidewalk account credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#sidewalk_update IotwirelessPartnerAccount#sidewalk_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#sidewalk_update IotwirelessPartnerAccount#sidewalk_update}
 
 ---
 
@@ -1182,7 +1182,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#tags IotwirelessPartnerAccount#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#tags IotwirelessPartnerAccount#tags}
 
 ---
 
@@ -1191,7 +1191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 &iotwirelesspartneraccount.IotwirelessPartnerAccountSidewalk {
 	AppServerPrivateKey: *string,
@@ -1202,7 +1202,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneracco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalk.property.appServerPrivateKey">AppServerPrivateKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalk.property.appServerPrivateKey">AppServerPrivateKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}. |
 
 ---
 
@@ -1214,7 +1214,7 @@ AppServerPrivateKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}.
 
 ---
 
@@ -1223,7 +1223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 &iotwirelesspartneraccount.IotwirelessPartnerAccountSidewalkResponse {
 	AmazonId: *string,
@@ -1236,9 +1236,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneracco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkResponse.property.amazonId">AmazonId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#amazon_id IotwirelessPartnerAccount#amazon_id}. |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkResponse.property.arn">Arn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#arn IotwirelessPartnerAccount#arn}. |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkResponse.property.fingerprint">Fingerprint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#fingerprint IotwirelessPartnerAccount#fingerprint}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkResponse.property.amazonId">AmazonId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#amazon_id IotwirelessPartnerAccount#amazon_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkResponse.property.arn">Arn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#arn IotwirelessPartnerAccount#arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkResponse.property.fingerprint">Fingerprint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#fingerprint IotwirelessPartnerAccount#fingerprint}. |
 
 ---
 
@@ -1250,7 +1250,7 @@ AmazonId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#amazon_id IotwirelessPartnerAccount#amazon_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#amazon_id IotwirelessPartnerAccount#amazon_id}.
 
 ---
 
@@ -1262,7 +1262,7 @@ Arn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#arn IotwirelessPartnerAccount#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#arn IotwirelessPartnerAccount#arn}.
 
 ---
 
@@ -1274,7 +1274,7 @@ Fingerprint *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#fingerprint IotwirelessPartnerAccount#fingerprint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#fingerprint IotwirelessPartnerAccount#fingerprint}.
 
 ---
 
@@ -1283,7 +1283,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 &iotwirelesspartneraccount.IotwirelessPartnerAccountSidewalkUpdate {
 	AppServerPrivateKey: *string,
@@ -1294,7 +1294,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneracco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkUpdate.property.appServerPrivateKey">AppServerPrivateKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkUpdate.property.appServerPrivateKey">AppServerPrivateKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}. |
 
 ---
 
@@ -1306,7 +1306,7 @@ AppServerPrivateKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}.
 
 ---
 
@@ -1315,7 +1315,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 &iotwirelesspartneraccount.IotwirelessPartnerAccountTags {
 	Key: *string,
@@ -1327,8 +1327,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneracco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#key IotwirelessPartnerAccount#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#value IotwirelessPartnerAccount#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#key IotwirelessPartnerAccount#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#value IotwirelessPartnerAccount#value}. |
 
 ---
 
@@ -1340,7 +1340,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#key IotwirelessPartnerAccount#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#key IotwirelessPartnerAccount#key}.
 
 ---
 
@@ -1352,7 +1352,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account#value IotwirelessPartnerAccount#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account#value IotwirelessPartnerAccount#value}.
 
 ---
 
@@ -1363,7 +1363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 iotwirelesspartneraccount.NewIotwirelessPartnerAccountSidewalkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotwirelessPartnerAccountSidewalkOutputReference
 ```
@@ -1641,7 +1641,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 iotwirelesspartneraccount.NewIotwirelessPartnerAccountSidewalkResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotwirelessPartnerAccountSidewalkResponseOutputReference
 ```
@@ -1977,7 +1977,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountSidewalkUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 iotwirelesspartneraccount.NewIotwirelessPartnerAccountSidewalkUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotwirelessPartnerAccountSidewalkUpdateOutputReference
 ```
@@ -2255,7 +2255,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 iotwirelesspartneraccount.NewIotwirelessPartnerAccountTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotwirelessPartnerAccountTagsList
 ```
@@ -2415,7 +2415,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessPartnerAccount.IotwirelessPartnerAccountTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount"
 
 iotwirelesspartneraccount.NewIotwirelessPartnerAccountTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotwirelessPartnerAccountTagsOutputReference
 ```

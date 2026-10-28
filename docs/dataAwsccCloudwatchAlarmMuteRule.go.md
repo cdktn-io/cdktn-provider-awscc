@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudwatchAlarmMuteRule <a name="DataAwsccCloudwatchAlarmMuteRule" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_alarm_mute_rule awscc_cloudwatch_alarm_mute_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_alarm_mute_rule awscc_cloudwatch_alarm_mute_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 dataawscccloudwatchalarmmuterule.NewDataAwsccCloudwatchAlarmMuteRule(scope Construct, id *string, config DataAwsccCloudwatchAlarmMuteRuleConfig) DataAwsccCloudwatchAlarmMuteRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 dataawscccloudwatchalarmmuterule.DataAwsccCloudwatchAlarmMuteRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 dataawscccloudwatchalarmmuterule.DataAwsccCloudwatchAlarmMuteRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudwatchalarmmuterule.DataAwsccCloudwatchAlarmMuteRule_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 dataawscccloudwatchalarmmuterule.DataAwsccCloudwatchAlarmMuteRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudwatchalarmmuterule.DataAwsccCloudwatchAlarmMuteRule_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 dataawscccloudwatchalarmmuterule.DataAwsccCloudwatchAlarmMuteRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchAlarmMu
 
 The id of the existing DataAwsccCloudwatchAlarmMuteRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_alarm_mute_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_alarm_mute_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 &dataawscccloudwatchalarmmuterule.DataAwsccCloudwatchAlarmMuteRuleConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_alarm_mute_rule#id DataAwsccCloudwatchAlarmMuteRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_alarm_mute_rule#id DataAwsccCloudwatchAlarmMuteRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRuleMuteTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 &dataawscccloudwatchalarmmuterule.DataAwsccCloudwatchAlarmMuteRuleMuteTargets {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchala
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRuleRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 &dataawscccloudwatchalarmmuterule.DataAwsccCloudwatchAlarmMuteRuleRule {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchala
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRuleRuleSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 &dataawscccloudwatchalarmmuterule.DataAwsccCloudwatchAlarmMuteRuleRuleSchedule {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchala
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 &dataawscccloudwatchalarmmuterule.DataAwsccCloudwatchAlarmMuteRuleTags {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchala
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRuleMuteTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 dataawscccloudwatchalarmmuterule.NewDataAwsccCloudwatchAlarmMuteRuleMuteTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudwatchAlarmMuteRuleMuteTargetsOutputReference
 ```
@@ -1143,7 +1143,7 @@ func InternalValue() DataAwsccCloudwatchAlarmMuteRuleMuteTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRuleRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 dataawscccloudwatchalarmmuterule.NewDataAwsccCloudwatchAlarmMuteRuleRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudwatchAlarmMuteRuleRuleOutputReference
 ```
@@ -1403,7 +1403,7 @@ func InternalValue() DataAwsccCloudwatchAlarmMuteRuleRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRuleRuleScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 dataawscccloudwatchalarmmuterule.NewDataAwsccCloudwatchAlarmMuteRuleRuleScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudwatchAlarmMuteRuleRuleScheduleOutputReference
 ```
@@ -1685,7 +1685,7 @@ func InternalValue() DataAwsccCloudwatchAlarmMuteRuleRuleSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 dataawscccloudwatchalarmmuterule.NewDataAwsccCloudwatchAlarmMuteRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudwatchAlarmMuteRuleTagsList
 ```
@@ -1834,7 +1834,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarmMuteRule.DataAwsccCloudwatchAlarmMuteRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchalarmmuterule"
 
 dataawscccloudwatchalarmmuterule.NewDataAwsccCloudwatchAlarmMuteRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudwatchAlarmMuteRuleTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccDmsReplicationTasks <a name="DataAwsccDmsReplicationTasks" id="@cdktn/provider-awscc.dataAwsccDmsReplicationTasks.DataAwsccDmsReplicationTasks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsReplicationTasks.DataAwsccDmsReplicationTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsreplicationtasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsreplicationtasks"
 
 dataawsccdmsreplicationtasks.NewDataAwsccDmsReplicationTasks(scope Construct, id *string, config DataAwsccDmsReplicationTasksConfig) DataAwsccDmsReplicationTasks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDmsReplicationTasks.DataAwsccDmsReplicationTasks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsreplicationtasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsreplicationtasks"
 
 dataawsccdmsreplicationtasks.DataAwsccDmsReplicationTasks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDmsReplicationTasks.DataAwsccDmsReplicationTasks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsreplicationtasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsreplicationtasks"
 
 dataawsccdmsreplicationtasks.DataAwsccDmsReplicationTasks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdmsreplicationtasks.DataAwsccDmsReplicationTasks_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDmsReplicationTasks.DataAwsccDmsReplicationTasks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsreplicationtasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsreplicationtasks"
 
 dataawsccdmsreplicationtasks.DataAwsccDmsReplicationTasks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdmsreplicationtasks.DataAwsccDmsReplicationTasks_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDmsReplicationTasks.DataAwsccDmsReplicationTasks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsreplicationtasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsreplicationtasks"
 
 dataawsccdmsreplicationtasks.DataAwsccDmsReplicationTasks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDmsReplicationTas
 
 The id of the existing DataAwsccDmsReplicationTasks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_replication_tasks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_replication_tasks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsReplicationTasks.DataAwsccDmsReplicationTasksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsreplicationtasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsreplicationtasks"
 
 &dataawsccdmsreplicationtasks.DataAwsccDmsReplicationTasksConfig {
 	Connection: interface{},

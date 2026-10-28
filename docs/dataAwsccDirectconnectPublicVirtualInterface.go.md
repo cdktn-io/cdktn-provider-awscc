@@ -4,12 +4,12 @@
 
 ### DataAwsccDirectconnectPublicVirtualInterface <a name="DataAwsccDirectconnectPublicVirtualInterface" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterface"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 dataawsccdirectconnectpublicvirtualinterface.NewDataAwsccDirectconnectPublicVirtualInterface(scope Construct, id *string, config DataAwsccDirectconnectPublicVirtualInterfaceConfig) DataAwsccDirectconnectPublicVirtualInterface
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterface.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 dataawsccdirectconnectpublicvirtualinterface.DataAwsccDirectconnectPublicVirtualInterface_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterface.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 dataawsccdirectconnectpublicvirtualinterface.DataAwsccDirectconnectPublicVirtualInterface_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdirectconnectpublicvirtualinterface.DataAwsccDirectconnectPublicVirtual
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterface.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 dataawsccdirectconnectpublicvirtualinterface.DataAwsccDirectconnectPublicVirtualInterface_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdirectconnectpublicvirtualinterface.DataAwsccDirectconnectPublicVirtual
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterface.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 dataawsccdirectconnectpublicvirtualinterface.DataAwsccDirectconnectPublicVirtualInterface_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDirectconnectPubl
 
 The id of the existing DataAwsccDirectconnectPublicVirtualInterface that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_public_virtual_interface#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_public_virtual_interface#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterfaceBgpPeers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 &dataawsccdirectconnectpublicvirtualinterface.DataAwsccDirectconnectPublicVirtualInterfaceBgpPeers {
 
@@ -710,7 +710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterfaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 &dataawsccdirectconnectpublicvirtualinterface.DataAwsccDirectconnectPublicVirtualInterfaceConfig {
 	Connection: interface{},
@@ -819,7 +819,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_public_virtual_interface#id DataAwsccDirectconnectPublicVirtualInterface#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_public_virtual_interface#id DataAwsccDirectconnectPublicVirtualInterface#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -831,7 +831,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterfaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 &dataawsccdirectconnectpublicvirtualinterface.DataAwsccDirectconnectPublicVirtualInterfaceTags {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterfaceBgpPeersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 dataawsccdirectconnectpublicvirtualinterface.NewDataAwsccDirectconnectPublicVirtualInterfaceBgpPeersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDirectconnectPublicVirtualInterfaceBgpPeersList
 ```
@@ -995,7 +995,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterfaceBgpPeersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 dataawsccdirectconnectpublicvirtualinterface.NewDataAwsccDirectconnectPublicVirtualInterfaceBgpPeersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDirectconnectPublicVirtualInterfaceBgpPeersOutputReference
 ```
@@ -1328,7 +1328,7 @@ func InternalValue() DataAwsccDirectconnectPublicVirtualInterfaceBgpPeers
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterfaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 dataawsccdirectconnectpublicvirtualinterface.NewDataAwsccDirectconnectPublicVirtualInterfaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDirectconnectPublicVirtualInterfaceTagsList
 ```
@@ -1477,7 +1477,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectPublicVirtualInterface.DataAwsccDirectconnectPublicVirtualInterfaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectpublicvirtualinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectpublicvirtualinterface"
 
 dataawsccdirectconnectpublicvirtualinterface.NewDataAwsccDirectconnectPublicVirtualInterfaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDirectconnectPublicVirtualInterfaceTagsOutputReference
 ```

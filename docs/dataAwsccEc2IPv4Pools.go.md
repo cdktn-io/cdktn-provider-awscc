@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2IPv4Pools <a name="DataAwsccEc2IPv4Pools" id="@cdktn/provider-awscc.dataAwsccEc2IPv4Pools.DataAwsccEc2IPv4Pools"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_i_pv_4_pools awscc_ec2_i_pv_4_pools}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_i_pv_4_pools awscc_ec2_i_pv_4_pools}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IPv4Pools.DataAwsccEc2IPv4Pools.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipv4pools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipv4pools"
 
 dataawsccec2ipv4pools.NewDataAwsccEc2IPv4Pools(scope Construct, id *string, config DataAwsccEc2IPv4PoolsConfig) DataAwsccEc2IPv4Pools
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2IPv4Pools.DataAwsccEc2IPv4Pools.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipv4pools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipv4pools"
 
 dataawsccec2ipv4pools.DataAwsccEc2IPv4Pools_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2IPv4Pools.DataAwsccEc2IPv4Pools.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipv4pools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipv4pools"
 
 dataawsccec2ipv4pools.DataAwsccEc2IPv4Pools_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2ipv4pools.DataAwsccEc2IPv4Pools_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2IPv4Pools.DataAwsccEc2IPv4Pools.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipv4pools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipv4pools"
 
 dataawsccec2ipv4pools.DataAwsccEc2IPv4Pools_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2ipv4pools.DataAwsccEc2IPv4Pools_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2IPv4Pools.DataAwsccEc2IPv4Pools.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipv4pools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipv4pools"
 
 dataawsccec2ipv4pools.DataAwsccEc2IPv4Pools_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2IPv4Pools to i
 
 The id of the existing DataAwsccEc2IPv4Pools that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_i_pv_4_pools#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_i_pv_4_pools#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IPv4Pools.DataAwsccEc2IPv4PoolsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipv4pools"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipv4pools"
 
 &dataawsccec2ipv4pools.DataAwsccEc2IPv4PoolsConfig {
 	Connection: interface{},

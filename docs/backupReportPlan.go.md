@@ -4,12 +4,12 @@
 
 ### BackupReportPlan <a name="BackupReportPlan" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan awscc_backup_report_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan awscc_backup_report_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 backupreportplan.NewBackupReportPlan(scope Construct, id *string, config BackupReportPlanConfig) BackupReportPlan
 ```
@@ -460,7 +460,7 @@ func ResetReportPlanTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlan.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 backupreportplan.BackupReportPlan_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlan.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 backupreportplan.BackupReportPlan_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ backupreportplan.BackupReportPlan_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlan.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 backupreportplan.BackupReportPlan_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ backupreportplan.BackupReportPlan_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlan.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 backupreportplan.BackupReportPlan_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the BackupReportPlan to import
 
 The id of the existing BackupReportPlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -881,7 +881,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlanConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 &backupreportplan.BackupReportPlanConfig {
 	Connection: interface{},
@@ -891,8 +891,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ReportDeliveryChannel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.backupReportPlan.BackupReportPlanReportDeliveryChannel,
-	ReportSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.backupReportPlan.BackupReportPlanReportSetting,
+	ReportDeliveryChannel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.backupReportPlan.BackupReportPlanReportDeliveryChannel,
+	ReportSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.backupReportPlan.BackupReportPlanReportSetting,
 	ReportPlanDescription: *string,
 	ReportPlanName: *string,
 	ReportPlanTags: interface{},
@@ -998,7 +998,7 @@ ReportDeliveryChannel BackupReportPlanReportDeliveryChannel
 
 A structure that contains information about where and how to deliver your reports, specifically your Amazon S3 bucket name, S3 key prefix, and the formats of your reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#report_delivery_channel BackupReportPlan#report_delivery_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#report_delivery_channel BackupReportPlan#report_delivery_channel}
 
 ---
 
@@ -1012,7 +1012,7 @@ ReportSetting BackupReportPlanReportSetting
 
 Identifies the report template for the report. Reports are built using a report template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#report_setting BackupReportPlan#report_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#report_setting BackupReportPlan#report_setting}
 
 ---
 
@@ -1026,7 +1026,7 @@ ReportPlanDescription *string
 
 An optional description of the report plan with a maximum of 1,024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#report_plan_description BackupReportPlan#report_plan_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#report_plan_description BackupReportPlan#report_plan_description}
 
 ---
 
@@ -1042,7 +1042,7 @@ The unique name of the report plan.
 
 The name must be between 1 and 256 characters, starting with a letter, and consisting of letters (a-z, A-Z), numbers (0-9), and underscores (_).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#report_plan_name BackupReportPlan#report_plan_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#report_plan_name BackupReportPlan#report_plan_name}
 
 ---
 
@@ -1058,7 +1058,7 @@ Metadata that you can assign to help organize the report plans that you create.
 
 Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#report_plan_tags BackupReportPlan#report_plan_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#report_plan_tags BackupReportPlan#report_plan_tags}
 
 ---
 
@@ -1067,7 +1067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlanReportDeliveryChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 &backupreportplan.BackupReportPlanReportDeliveryChannel {
 	S3BucketName: *string,
@@ -1096,7 +1096,7 @@ S3BucketName *string
 
 The unique name of the S3 bucket that receives your reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#s3_bucket_name BackupReportPlan#s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#s3_bucket_name BackupReportPlan#s3_bucket_name}
 
 ---
 
@@ -1112,7 +1112,7 @@ A list of the format of your reports: CSV, JSON, or both.
 
 If not specified, the default format is CSV.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#formats BackupReportPlan#formats}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#formats BackupReportPlan#formats}
 
 ---
 
@@ -1128,7 +1128,7 @@ The prefix for where AWS Backup Audit Manager delivers your reports to Amazon S3
 
 The prefix is this part of the following path: s3://your-bucket-name/prefix/Backup/us-west-2/year/month/day/report-name. If not specified, there is no prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#s3_key_prefix BackupReportPlan#s3_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#s3_key_prefix BackupReportPlan#s3_key_prefix}
 
 ---
 
@@ -1137,7 +1137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlanReportPlanTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 &backupreportplan.BackupReportPlanReportPlanTags {
 	Key: *string,
@@ -1166,7 +1166,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#key BackupReportPlan#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#key BackupReportPlan#key}
 
 ---
 
@@ -1182,7 +1182,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#value BackupReportPlan#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#value BackupReportPlan#value}
 
 ---
 
@@ -1191,7 +1191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlanReportSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 &backupreportplan.BackupReportPlanReportSetting {
 	ReportTemplate: *string,
@@ -1226,7 +1226,7 @@ Identifies the report template for the report.
 
 Reports are built using a report template. The report templates are: `BACKUP_JOB_REPORT | COPY_JOB_REPORT | RESTORE_JOB_REPORT`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#report_template BackupReportPlan#report_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#report_template BackupReportPlan#report_template}
 
 ---
 
@@ -1240,7 +1240,7 @@ Accounts *[]*string
 
 The list of AWS accounts that a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#accounts BackupReportPlan#accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#accounts BackupReportPlan#accounts}
 
 ---
 
@@ -1254,7 +1254,7 @@ FrameworkArns *[]*string
 
 The Amazon Resource Names (ARNs) of the frameworks a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#framework_arns BackupReportPlan#framework_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#framework_arns BackupReportPlan#framework_arns}
 
 ---
 
@@ -1268,7 +1268,7 @@ OrganizationUnits *[]*string
 
 The list of AWS organization units that a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#organization_units BackupReportPlan#organization_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#organization_units BackupReportPlan#organization_units}
 
 ---
 
@@ -1282,7 +1282,7 @@ Regions *[]*string
 
 The list of AWS regions that a report covers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_report_plan#regions BackupReportPlan#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_report_plan#regions BackupReportPlan#regions}
 
 ---
 
@@ -1293,7 +1293,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlanReportDeliveryChannelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 backupreportplan.NewBackupReportPlanReportDeliveryChannelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BackupReportPlanReportDeliveryChannelOutputReference
 ```
@@ -1622,7 +1622,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlanReportPlanTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 backupreportplan.NewBackupReportPlanReportPlanTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BackupReportPlanReportPlanTagsList
 ```
@@ -1782,7 +1782,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlanReportPlanTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 backupreportplan.NewBackupReportPlanReportPlanTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BackupReportPlanReportPlanTagsOutputReference
 ```
@@ -2107,7 +2107,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupReportPlan.BackupReportPlanReportSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupreportplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupreportplan"
 
 backupreportplan.NewBackupReportPlanReportSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BackupReportPlanReportSettingOutputReference
 ```

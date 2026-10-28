@@ -4,12 +4,12 @@
 
 ### DataAwsccKendraFaqs <a name="DataAwsccKendraFaqs" id="@cdktn/provider-awscc.dataAwsccKendraFaqs.DataAwsccKendraFaqs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_faqs awscc_kendra_faqs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_faqs awscc_kendra_faqs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraFaqs.DataAwsccKendraFaqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafaqs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafaqs"
 
 dataawscckendrafaqs.NewDataAwsccKendraFaqs(scope Construct, id *string, config DataAwsccKendraFaqsConfig) DataAwsccKendraFaqs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKendraFaqs.DataAwsccKendraFaqs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafaqs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafaqs"
 
 dataawscckendrafaqs.DataAwsccKendraFaqs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKendraFaqs.DataAwsccKendraFaqs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafaqs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafaqs"
 
 dataawscckendrafaqs.DataAwsccKendraFaqs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckendrafaqs.DataAwsccKendraFaqs_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKendraFaqs.DataAwsccKendraFaqs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafaqs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafaqs"
 
 dataawscckendrafaqs.DataAwsccKendraFaqs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckendrafaqs.DataAwsccKendraFaqs_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKendraFaqs.DataAwsccKendraFaqs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafaqs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafaqs"
 
 dataawscckendrafaqs.DataAwsccKendraFaqs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKendraFaqs to imp
 
 The id of the existing DataAwsccKendraFaqs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_faqs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_faqs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraFaqs.DataAwsccKendraFaqsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafaqs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafaqs"
 
 &dataawscckendrafaqs.DataAwsccKendraFaqsConfig {
 	Connection: interface{},

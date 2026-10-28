@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2LaunchTemplates <a name="DataAwsccEc2LaunchTemplates" id="@cdktn/provider-awscc.dataAwsccEc2LaunchTemplates.DataAwsccEc2LaunchTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_launch_templates awscc_ec2_launch_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_launch_templates awscc_ec2_launch_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2LaunchTemplates.DataAwsccEc2LaunchTemplates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2launchtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2launchtemplates"
 
 dataawsccec2launchtemplates.NewDataAwsccEc2LaunchTemplates(scope Construct, id *string, config DataAwsccEc2LaunchTemplatesConfig) DataAwsccEc2LaunchTemplates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2LaunchTemplates.DataAwsccEc2LaunchTemplates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2launchtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2launchtemplates"
 
 dataawsccec2launchtemplates.DataAwsccEc2LaunchTemplates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2LaunchTemplates.DataAwsccEc2LaunchTemplates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2launchtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2launchtemplates"
 
 dataawsccec2launchtemplates.DataAwsccEc2LaunchTemplates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2launchtemplates.DataAwsccEc2LaunchTemplates_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2LaunchTemplates.DataAwsccEc2LaunchTemplates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2launchtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2launchtemplates"
 
 dataawsccec2launchtemplates.DataAwsccEc2LaunchTemplates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2launchtemplates.DataAwsccEc2LaunchTemplates_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2LaunchTemplates.DataAwsccEc2LaunchTemplates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2launchtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2launchtemplates"
 
 dataawsccec2launchtemplates.DataAwsccEc2LaunchTemplates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2LaunchTemplate
 
 The id of the existing DataAwsccEc2LaunchTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_launch_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_launch_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2LaunchTemplates.DataAwsccEc2LaunchTemplatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2launchtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2launchtemplates"
 
 &dataawsccec2launchtemplates.DataAwsccEc2LaunchTemplatesConfig {
 	Connection: interface{},

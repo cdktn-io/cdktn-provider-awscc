@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworksecuritymanagerTemplate <a name="DataAwsccNetworksecuritymanagerTemplate" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networksecuritymanager_template awscc_networksecuritymanager_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networksecuritymanager_template awscc_networksecuritymanager_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 dataawsccnetworksecuritymanagertemplate.NewDataAwsccNetworksecuritymanagerTemplate(scope Construct, id *string, config DataAwsccNetworksecuritymanagerTemplateConfig) DataAwsccNetworksecuritymanagerTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 dataawsccnetworksecuritymanagertemplate.DataAwsccNetworksecuritymanagerTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 dataawsccnetworksecuritymanagertemplate.DataAwsccNetworksecuritymanagerTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworksecuritymanagertemplate.DataAwsccNetworksecuritymanagerTemplate_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 dataawsccnetworksecuritymanagertemplate.DataAwsccNetworksecuritymanagerTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworksecuritymanagertemplate.DataAwsccNetworksecuritymanagerTemplate_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 dataawsccnetworksecuritymanagertemplate.DataAwsccNetworksecuritymanagerTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworksecurityma
 
 The id of the existing DataAwsccNetworksecuritymanagerTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networksecuritymanager_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networksecuritymanager_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplateAssociatedRuleListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 &dataawsccnetworksecuritymanagertemplate.DataAwsccNetworksecuritymanagerTemplateAssociatedRuleListStruct {
 
@@ -710,7 +710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuri
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 &dataawsccnetworksecuritymanagertemplate.DataAwsccNetworksecuritymanagerTemplateConfig {
 	Connection: interface{},
@@ -819,7 +819,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networksecuritymanager_template#id DataAwsccNetworksecuritymanagerTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networksecuritymanager_template#id DataAwsccNetworksecuritymanagerTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -831,7 +831,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 &dataawsccnetworksecuritymanagertemplate.DataAwsccNetworksecuritymanagerTemplateTags {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplateAssociatedRuleListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 dataawsccnetworksecuritymanagertemplate.NewDataAwsccNetworksecuritymanagerTemplateAssociatedRuleListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworksecuritymanagerTemplateAssociatedRuleListStructList
 ```
@@ -995,7 +995,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplateAssociatedRuleListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 dataawsccnetworksecuritymanagertemplate.NewDataAwsccNetworksecuritymanagerTemplateAssociatedRuleListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworksecuritymanagerTemplateAssociatedRuleListStructOutputReference
 ```
@@ -1273,7 +1273,7 @@ func InternalValue() DataAwsccNetworksecuritymanagerTemplateAssociatedRuleListSt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 dataawsccnetworksecuritymanagertemplate.NewDataAwsccNetworksecuritymanagerTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworksecuritymanagerTemplateTagsList
 ```
@@ -1422,7 +1422,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerTemplate.DataAwsccNetworksecuritymanagerTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagertemplate"
 
 dataawsccnetworksecuritymanagertemplate.NewDataAwsccNetworksecuritymanagerTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworksecuritymanagerTemplateTagsOutputReference
 ```

@@ -4,7 +4,7 @@
 
 ### TransferHostKey <a name="TransferHostKey" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key awscc_transfer_host_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key awscc_transfer_host_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer"></a>
 
@@ -24,6 +24,8 @@ transferHostKey.TransferHostKey(
   server_id: str,
   description: str = None,
   host_key_body: str = None,
+  kms_key: str = None,
+  storage_type: str = None,
   tags: IResolvable | typing.List[TransferHostKeyTags] = None
 )
 ```
@@ -42,6 +44,8 @@ transferHostKey.TransferHostKey(
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.serverId">server_id</a></code> | <code>str</code> | The identifier of the server that contains the host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.description">description</a></code> | <code>str</code> | The text description for this host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.hostKeyBody">host_key_body</a></code> | <code>str</code> | The private key portion of an SSH key pair. Transfer Family accepts RSA, ECDSA, and ED25519 keys. |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.kmsKey">kms_key</a></code> | <code>str</code> | The Amazon Resource Name (ARN) of a customer managed key used to encrypt the Secrets Manager secret that holds the host key. |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.storageType">storage_type</a></code> | <code>str</code> | The type of storage used for the host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyTags">TransferHostKeyTags</a>]</code> | Key-value pairs that can be used to group and search for host keys. |
 
 ---
@@ -112,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The identifier of the server that contains the host key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
 
 ---
 
@@ -122,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The text description for this host key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#description TransferHostKey#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#description TransferHostKey#description}
 
 ---
 
@@ -132,7 +136,31 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The private key portion of an SSH key pair. Transfer Family accepts RSA, ECDSA, and ED25519 keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
+
+---
+
+##### `kms_key`<sup>Optional</sup> <a name="kms_key" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.kmsKey"></a>
+
+- *Type:* str
+
+The Amazon Resource Name (ARN) of a customer managed key used to encrypt the Secrets Manager secret that holds the host key.
+
+Applies only when StorageType is SECRETS_MANAGER. If omitted, the AWS managed key is used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#kms_key TransferHostKey#kms_key}
+
+---
+
+##### `storage_type`<sup>Optional</sup> <a name="storage_type" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer.parameter.storageType"></a>
+
+- *Type:* str
+
+The type of storage used for the host key.
+
+SERVICE_MANAGED keys are stored within the Transfer Family service. SECRETS_MANAGER keys are stored in an AWS Secrets Manager secret in your account.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#storage_type TransferHostKey#storage_type}
 
 ---
 
@@ -142,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key-value pairs that can be used to group and search for host keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
 
 ---
 
@@ -177,6 +205,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetHostKeyBody">reset_host_key_body</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetKmsKey">reset_kms_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetStorageType">reset_storage_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetTags">reset_tags</a></code> | *No description.* |
 
 ---
@@ -555,6 +585,18 @@ def reset_description() -> None
 def reset_host_key_body() -> None
 ```
 
+##### `reset_kms_key` <a name="reset_kms_key" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetKmsKey"></a>
+
+```python
+def reset_kms_key() -> None
+```
+
+##### `reset_storage_type` <a name="reset_storage_type" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetStorageType"></a>
+
+```python
+def reset_storage_type() -> None
+```
+
 ##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.resetTags"></a>
 
 ```python
@@ -675,7 +717,7 @@ The construct id used in the generated config for the TransferHostKey to import.
 
 The id of the existing TransferHostKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -710,15 +752,20 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.hostKeyFingerprint">host_key_fingerprint</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.hostKeyId">host_key_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.secretId">secret_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyTagsList">TransferHostKeyTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.type">type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.hostKeyBodyInput">host_key_body_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.kmsKeyInput">kms_key_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.serverIdInput">server_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.storageTypeInput">storage_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyTags">TransferHostKeyTags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.description">description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.hostKeyBody">host_key_body</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.kmsKey">kms_key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.serverId">server_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.storageType">storage_type</a></code> | <code>str</code> | *No description.* |
 
 ---
 
@@ -914,6 +961,16 @@ id: str
 
 ---
 
+##### `secret_id`<sup>Required</sup> <a name="secret_id" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.secretId"></a>
+
+```python
+secret_id: str
+```
+
+- *Type:* str
+
+---
+
 ##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.tags"></a>
 
 ```python
@@ -954,10 +1011,30 @@ host_key_body_input: str
 
 ---
 
+##### `kms_key_input`<sup>Optional</sup> <a name="kms_key_input" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.kmsKeyInput"></a>
+
+```python
+kms_key_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `server_id_input`<sup>Optional</sup> <a name="server_id_input" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.serverIdInput"></a>
 
 ```python
 server_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `storage_type_input`<sup>Optional</sup> <a name="storage_type_input" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.storageTypeInput"></a>
+
+```python
+storage_type_input: str
 ```
 
 - *Type:* str
@@ -994,10 +1071,30 @@ host_key_body: str
 
 ---
 
+##### `kms_key`<sup>Required</sup> <a name="kms_key" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.kmsKey"></a>
+
+```python
+kms_key: str
+```
+
+- *Type:* str
+
+---
+
 ##### `server_id`<sup>Required</sup> <a name="server_id" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.serverId"></a>
 
 ```python
 server_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `storage_type`<sup>Required</sup> <a name="storage_type" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.property.storageType"></a>
+
+```python
+storage_type: str
 ```
 
 - *Type:* str
@@ -1042,6 +1139,8 @@ transferHostKey.TransferHostKeyConfig(
   server_id: str,
   description: str = None,
   host_key_body: str = None,
+  kms_key: str = None,
+  storage_type: str = None,
   tags: IResolvable | typing.List[TransferHostKeyTags] = None
 )
 ```
@@ -1060,6 +1159,8 @@ transferHostKey.TransferHostKeyConfig(
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.serverId">server_id</a></code> | <code>str</code> | The identifier of the server that contains the host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.description">description</a></code> | <code>str</code> | The text description for this host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.hostKeyBody">host_key_body</a></code> | <code>str</code> | The private key portion of an SSH key pair. Transfer Family accepts RSA, ECDSA, and ED25519 keys. |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.kmsKey">kms_key</a></code> | <code>str</code> | The Amazon Resource Name (ARN) of a customer managed key used to encrypt the Secrets Manager secret that holds the host key. |
+| <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.storageType">storage_type</a></code> | <code>str</code> | The type of storage used for the host key. |
 | <code><a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferHostKey.TransferHostKeyTags">TransferHostKeyTags</a>]</code> | Key-value pairs that can be used to group and search for host keys. |
 
 ---
@@ -1144,7 +1245,7 @@ server_id: str
 
 The identifier of the server that contains the host key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
 
 ---
 
@@ -1158,7 +1259,7 @@ description: str
 
 The text description for this host key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#description TransferHostKey#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#description TransferHostKey#description}
 
 ---
 
@@ -1172,7 +1273,39 @@ host_key_body: str
 
 The private key portion of an SSH key pair. Transfer Family accepts RSA, ECDSA, and ED25519 keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
+
+---
+
+##### `kms_key`<sup>Optional</sup> <a name="kms_key" id="@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.kmsKey"></a>
+
+```python
+kms_key: str
+```
+
+- *Type:* str
+
+The Amazon Resource Name (ARN) of a customer managed key used to encrypt the Secrets Manager secret that holds the host key.
+
+Applies only when StorageType is SECRETS_MANAGER. If omitted, the AWS managed key is used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#kms_key TransferHostKey#kms_key}
+
+---
+
+##### `storage_type`<sup>Optional</sup> <a name="storage_type" id="@cdktn/provider-awscc.transferHostKey.TransferHostKeyConfig.property.storageType"></a>
+
+```python
+storage_type: str
+```
+
+- *Type:* str
+
+The type of storage used for the host key.
+
+SERVICE_MANAGED keys are stored within the Transfer Family service. SECRETS_MANAGER keys are stored in an AWS Secrets Manager secret in your account.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#storage_type TransferHostKey#storage_type}
 
 ---
 
@@ -1186,7 +1319,7 @@ tags: IResolvable | typing.List[TransferHostKeyTags]
 
 Key-value pairs that can be used to group and search for host keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
 
 ---
 
@@ -1222,7 +1355,7 @@ key: str
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#key TransferHostKey#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#key TransferHostKey#key}
 
 ---
 
@@ -1236,7 +1369,7 @@ value: str
 
 Contains one or more values that you assigned to the key name you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#value TransferHostKey#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#value TransferHostKey#value}
 
 ---
 

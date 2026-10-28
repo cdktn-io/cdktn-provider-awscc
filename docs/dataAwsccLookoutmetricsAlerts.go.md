@@ -4,12 +4,12 @@
 
 ### DataAwsccLookoutmetricsAlerts <a name="DataAwsccLookoutmetricsAlerts" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlerts.DataAwsccLookoutmetricsAlerts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutmetrics_alerts awscc_lookoutmetrics_alerts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutmetrics_alerts awscc_lookoutmetrics_alerts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlerts.DataAwsccLookoutmetricsAlerts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalerts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalerts"
 
 dataawscclookoutmetricsalerts.NewDataAwsccLookoutmetricsAlerts(scope Construct, id *string, config DataAwsccLookoutmetricsAlertsConfig) DataAwsccLookoutmetricsAlerts
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlerts.DataAwsccLookoutmetricsAlerts.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalerts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalerts"
 
 dataawscclookoutmetricsalerts.DataAwsccLookoutmetricsAlerts_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlerts.DataAwsccLookoutmetricsAlerts.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalerts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalerts"
 
 dataawscclookoutmetricsalerts.DataAwsccLookoutmetricsAlerts_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclookoutmetricsalerts.DataAwsccLookoutmetricsAlerts_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlerts.DataAwsccLookoutmetricsAlerts.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalerts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalerts"
 
 dataawscclookoutmetricsalerts.DataAwsccLookoutmetricsAlerts_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclookoutmetricsalerts.DataAwsccLookoutmetricsAlerts_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlerts.DataAwsccLookoutmetricsAlerts.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalerts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalerts"
 
 dataawscclookoutmetricsalerts.DataAwsccLookoutmetricsAlerts_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLookoutmetricsAle
 
 The id of the existing DataAwsccLookoutmetricsAlerts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutmetrics_alerts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutmetrics_alerts#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlerts.DataAwsccLookoutmetricsAlertsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalerts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalerts"
 
 &dataawscclookoutmetricsalerts.DataAwsccLookoutmetricsAlertsConfig {
 	Connection: interface{},

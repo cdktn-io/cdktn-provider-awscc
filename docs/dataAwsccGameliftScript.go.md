@@ -4,12 +4,12 @@
 
 ### DataAwsccGameliftScript <a name="DataAwsccGameliftScript" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScript"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_script awscc_gamelift_script}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_script awscc_gamelift_script}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScript.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript"
 
 dataawsccgameliftscript.NewDataAwsccGameliftScript(scope Construct, id *string, config DataAwsccGameliftScriptConfig) DataAwsccGameliftScript
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScript.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript"
 
 dataawsccgameliftscript.DataAwsccGameliftScript_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScript.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript"
 
 dataawsccgameliftscript.DataAwsccGameliftScript_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgameliftscript.DataAwsccGameliftScript_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScript.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript"
 
 dataawsccgameliftscript.DataAwsccGameliftScript_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgameliftscript.DataAwsccGameliftScript_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScript.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript"
 
 dataawsccgameliftscript.DataAwsccGameliftScript_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGameliftScript to
 
 The id of the existing DataAwsccGameliftScript that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_script#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_script#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScriptConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript"
 
 &dataawsccgameliftscript.DataAwsccGameliftScriptConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_script#id DataAwsccGameliftScript#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_script#id DataAwsccGameliftScript#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScriptStorageLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript"
 
 &dataawsccgameliftscript.DataAwsccGameliftScriptStorageLocation {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscrip
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScriptTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript"
 
 &dataawsccgameliftscript.DataAwsccGameliftScriptTags {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscrip
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScriptStorageLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript"
 
 dataawsccgameliftscript.NewDataAwsccGameliftScriptStorageLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftScriptStorageLocationOutputReference
 ```
@@ -1128,7 +1128,7 @@ func InternalValue() DataAwsccGameliftScriptStorageLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScriptTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript"
 
 dataawsccgameliftscript.NewDataAwsccGameliftScriptTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGameliftScriptTagsList
 ```
@@ -1277,7 +1277,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftScript.DataAwsccGameliftScriptTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript"
 
 dataawsccgameliftscript.NewDataAwsccGameliftScriptTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGameliftScriptTagsOutputReference
 ```

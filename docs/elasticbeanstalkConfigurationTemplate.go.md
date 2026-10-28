@@ -4,12 +4,12 @@
 
 ### ElasticbeanstalkConfigurationTemplate <a name="ElasticbeanstalkConfigurationTemplate" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template awscc_elasticbeanstalk_configuration_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template awscc_elasticbeanstalk_configuration_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkconfigurationtemplate"
 
 elasticbeanstalkconfigurationtemplate.NewElasticbeanstalkConfigurationTemplate(scope Construct, id *string, config ElasticbeanstalkConfigurationTemplateConfig) ElasticbeanstalkConfigurationTemplate
 ```
@@ -468,7 +468,7 @@ func ResetSourceConfiguration()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkconfigurationtemplate"
 
 elasticbeanstalkconfigurationtemplate.ElasticbeanstalkConfigurationTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkconfigurationtemplate"
 
 elasticbeanstalkconfigurationtemplate.ElasticbeanstalkConfigurationTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ elasticbeanstalkconfigurationtemplate.ElasticbeanstalkConfigurationTemplate_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkconfigurationtemplate"
 
 elasticbeanstalkconfigurationtemplate.ElasticbeanstalkConfigurationTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ elasticbeanstalkconfigurationtemplate.ElasticbeanstalkConfigurationTemplate_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkconfigurationtemplate"
 
 elasticbeanstalkconfigurationtemplate.ElasticbeanstalkConfigurationTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the ElasticbeanstalkConfigurat
 
 The id of the existing ElasticbeanstalkConfigurationTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -933,7 +933,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkconfigurationtemplate"
 
 &elasticbeanstalkconfigurationtemplate.ElasticbeanstalkConfigurationTemplateConfig {
 	Connection: interface{},
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfig
 	OptionSettings: interface{},
 	PlatformArn: *string,
 	SolutionStackName: *string,
-	SourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplateSourceConfiguration,
+	SourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplateSourceConfiguration,
 }
 ```
 
@@ -1054,7 +1054,7 @@ ApplicationName *string
 
 The name of the Elastic Beanstalk application to associate with this configuration template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#application_name ElasticbeanstalkConfigurationTemplate#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#application_name ElasticbeanstalkConfigurationTemplate#application_name}
 
 ---
 
@@ -1068,7 +1068,7 @@ Description *string
 
 An optional description for this configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#description ElasticbeanstalkConfigurationTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#description ElasticbeanstalkConfigurationTemplate#description}
 
 ---
 
@@ -1084,7 +1084,7 @@ The ID of an environment whose settings you want to use to create the configurat
 
 You must specify EnvironmentId if you don't specify PlatformArn, SolutionStackName, or SourceConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#environment_id ElasticbeanstalkConfigurationTemplate#environment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#environment_id ElasticbeanstalkConfigurationTemplate#environment_id}
 
 ---
 
@@ -1100,7 +1100,7 @@ Option values for the Elastic Beanstalk configuration, such as the instance type
 
 If specified, these values override the values obtained from the solution stack or the source configuration template. For a complete list of Elastic Beanstalk configuration options, see [Option Values](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options.html) in the AWS Elastic Beanstalk Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#option_settings ElasticbeanstalkConfigurationTemplate#option_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#option_settings ElasticbeanstalkConfigurationTemplate#option_settings}
 
 ---
 
@@ -1116,7 +1116,7 @@ The Amazon Resource Name (ARN) of the custom platform.
 
 For more information, see [Custom Platforms](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/custom-platforms.html) in the AWS Elastic Beanstalk Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#platform_arn ElasticbeanstalkConfigurationTemplate#platform_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#platform_arn ElasticbeanstalkConfigurationTemplate#platform_arn}
 
 ---
 
@@ -1136,7 +1136,7 @@ You must specify SolutionStackName if you don't specify PlatformArn, Environment
 
 Use the ListAvailableSolutionStacks API to obtain a list of available solution stacks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#solution_stack_name ElasticbeanstalkConfigurationTemplate#solution_stack_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#solution_stack_name ElasticbeanstalkConfigurationTemplate#solution_stack_name}
 
 ---
 
@@ -1158,7 +1158,7 @@ You must specify SourceConfiguration if you don't specify PlatformArn, Environme
 
 Constraint: If both solution stack name and source configuration are specified, the solution stack of the source configuration template must match the specified solution stack name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#source_configuration ElasticbeanstalkConfigurationTemplate#source_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#source_configuration ElasticbeanstalkConfigurationTemplate#source_configuration}
 
 ---
 
@@ -1167,7 +1167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplateOptionSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkconfigurationtemplate"
 
 &elasticbeanstalkconfigurationtemplate.ElasticbeanstalkConfigurationTemplateOptionSettings {
 	Namespace: *string,
@@ -1198,7 +1198,7 @@ Namespace *string
 
 A unique namespace that identifies the option's associated AWS resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#namespace ElasticbeanstalkConfigurationTemplate#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#namespace ElasticbeanstalkConfigurationTemplate#namespace}
 
 ---
 
@@ -1212,7 +1212,7 @@ OptionName *string
 
 The name of the configuration option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#option_name ElasticbeanstalkConfigurationTemplate#option_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#option_name ElasticbeanstalkConfigurationTemplate#option_name}
 
 ---
 
@@ -1226,7 +1226,7 @@ ResourceName *string
 
 A unique resource name for the option setting. Use it for a time–based scaling configuration option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#resource_name ElasticbeanstalkConfigurationTemplate#resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#resource_name ElasticbeanstalkConfigurationTemplate#resource_name}
 
 ---
 
@@ -1240,7 +1240,7 @@ Value *string
 
 The current value for the configuration option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#value ElasticbeanstalkConfigurationTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#value ElasticbeanstalkConfigurationTemplate#value}
 
 ---
 
@@ -1249,7 +1249,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplateSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkconfigurationtemplate"
 
 &elasticbeanstalkconfigurationtemplate.ElasticbeanstalkConfigurationTemplateSourceConfiguration {
 	ApplicationName: *string,
@@ -1276,7 +1276,7 @@ ApplicationName *string
 
 The name of the application associated with the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#application_name ElasticbeanstalkConfigurationTemplate#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#application_name ElasticbeanstalkConfigurationTemplate#application_name}
 
 ---
 
@@ -1290,7 +1290,7 @@ TemplateName *string
 
 The name of the configuration template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_configuration_template#template_name ElasticbeanstalkConfigurationTemplate#template_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_configuration_template#template_name ElasticbeanstalkConfigurationTemplate#template_name}
 
 ---
 
@@ -1301,7 +1301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplateOptionSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkconfigurationtemplate"
 
 elasticbeanstalkconfigurationtemplate.NewElasticbeanstalkConfigurationTemplateOptionSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElasticbeanstalkConfigurationTemplateOptionSettingsList
 ```
@@ -1461,7 +1461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplateOptionSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkconfigurationtemplate"
 
 elasticbeanstalkconfigurationtemplate.NewElasticbeanstalkConfigurationTemplateOptionSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElasticbeanstalkConfigurationTemplateOptionSettingsOutputReference
 ```
@@ -1844,7 +1844,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkConfigurationTemplate.ElasticbeanstalkConfigurationTemplateSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkconfigurationtemplate"
 
 elasticbeanstalkconfigurationtemplate.NewElasticbeanstalkConfigurationTemplateSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElasticbeanstalkConfigurationTemplateSourceConfigurationOutputReference
 ```

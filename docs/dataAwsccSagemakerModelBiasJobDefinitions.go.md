@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerModelBiasJobDefinitions <a name="DataAwsccSagemakerModelBiasJobDefinitions" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinitions.DataAwsccSagemakerModelBiasJobDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_bias_job_definitions awscc_sagemaker_model_bias_job_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_bias_job_definitions awscc_sagemaker_model_bias_job_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinitions.DataAwsccSagemakerModelBiasJobDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinitions"
 
 dataawsccsagemakermodelbiasjobdefinitions.NewDataAwsccSagemakerModelBiasJobDefinitions(scope Construct, id *string, config DataAwsccSagemakerModelBiasJobDefinitionsConfig) DataAwsccSagemakerModelBiasJobDefinitions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinitions.DataAwsccSagemakerModelBiasJobDefinitions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinitions"
 
 dataawsccsagemakermodelbiasjobdefinitions.DataAwsccSagemakerModelBiasJobDefinitions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinitions.DataAwsccSagemakerModelBiasJobDefinitions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinitions"
 
 dataawsccsagemakermodelbiasjobdefinitions.DataAwsccSagemakerModelBiasJobDefinitions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakermodelbiasjobdefinitions.DataAwsccSagemakerModelBiasJobDefiniti
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinitions.DataAwsccSagemakerModelBiasJobDefinitions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinitions"
 
 dataawsccsagemakermodelbiasjobdefinitions.DataAwsccSagemakerModelBiasJobDefinitions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakermodelbiasjobdefinitions.DataAwsccSagemakerModelBiasJobDefiniti
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinitions.DataAwsccSagemakerModelBiasJobDefinitions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinitions"
 
 dataawsccsagemakermodelbiasjobdefinitions.DataAwsccSagemakerModelBiasJobDefinitions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerModelBia
 
 The id of the existing DataAwsccSagemakerModelBiasJobDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_bias_job_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_bias_job_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinitions.DataAwsccSagemakerModelBiasJobDefinitionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinitions"
 
 &dataawsccsagemakermodelbiasjobdefinitions.DataAwsccSagemakerModelBiasJobDefinitionsConfig {
 	Connection: interface{},

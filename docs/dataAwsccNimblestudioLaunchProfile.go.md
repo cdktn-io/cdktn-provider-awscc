@@ -4,12 +4,12 @@
 
 ### DataAwsccNimblestudioLaunchProfile <a name="DataAwsccNimblestudioLaunchProfile" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 dataawsccnimblestudiolaunchprofile.NewDataAwsccNimblestudioLaunchProfile(scope Construct, id *string, config DataAwsccNimblestudioLaunchProfileConfig) DataAwsccNimblestudioLaunchProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfile_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfile_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNimblestudioLaunc
 
 The id of the existing DataAwsccNimblestudioLaunchProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_launch_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_launch_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 &dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfileConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_launch_profile#id DataAwsccNimblestudioLaunchProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_launch_profile#id DataAwsccNimblestudioLaunchProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfileStreamConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 &dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfileStreamConfiguration {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiol
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionBackup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 &dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionBackup {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiol
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 &dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionStorage {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiol
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionStorageRoot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 &dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionStorageRoot {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiol
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfileStreamConfigurationVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 &dataawsccnimblestudiolaunchprofile.DataAwsccNimblestudioLaunchProfileStreamConfigurationVolumeConfiguration {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiol
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfileStreamConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 dataawsccnimblestudiolaunchprofile.NewDataAwsccNimblestudioLaunchProfileStreamConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioLaunchProfileStreamConfigurationOutputReference
 ```
@@ -1233,7 +1233,7 @@ func InternalValue() DataAwsccNimblestudioLaunchProfileStreamConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionBackupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 dataawsccnimblestudiolaunchprofile.NewDataAwsccNimblestudioLaunchProfileStreamConfigurationSessionBackupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionBackupOutputReference
 ```
@@ -1504,7 +1504,7 @@ func InternalValue() DataAwsccNimblestudioLaunchProfileStreamConfigurationSessio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 dataawsccnimblestudiolaunchprofile.NewDataAwsccNimblestudioLaunchProfileStreamConfigurationSessionStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionStorageOutputReference
 ```
@@ -1775,7 +1775,7 @@ func InternalValue() DataAwsccNimblestudioLaunchProfileStreamConfigurationSessio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionStorageRootOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 dataawsccnimblestudiolaunchprofile.NewDataAwsccNimblestudioLaunchProfileStreamConfigurationSessionStorageRootOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioLaunchProfileStreamConfigurationSessionStorageRootOutputReference
 ```
@@ -2046,7 +2046,7 @@ func InternalValue() DataAwsccNimblestudioLaunchProfileStreamConfigurationSessio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioLaunchProfile.DataAwsccNimblestudioLaunchProfileStreamConfigurationVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiolaunchprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiolaunchprofile"
 
 dataawsccnimblestudiolaunchprofile.NewDataAwsccNimblestudioLaunchProfileStreamConfigurationVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioLaunchProfileStreamConfigurationVolumeConfigurationOutputReference
 ```

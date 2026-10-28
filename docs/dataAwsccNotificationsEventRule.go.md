@@ -4,12 +4,12 @@
 
 ### DataAwsccNotificationsEventRule <a name="DataAwsccNotificationsEventRule" id="@cdktn/provider-awscc.dataAwsccNotificationsEventRule.DataAwsccNotificationsEventRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notifications_event_rule awscc_notifications_event_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notifications_event_rule awscc_notifications_event_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationsEventRule.DataAwsccNotificationsEventRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationseventrule"
 
 dataawsccnotificationseventrule.NewDataAwsccNotificationsEventRule(scope Construct, id *string, config DataAwsccNotificationsEventRuleConfig) DataAwsccNotificationsEventRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNotificationsEventRule.DataAwsccNotificationsEventRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationseventrule"
 
 dataawsccnotificationseventrule.DataAwsccNotificationsEventRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNotificationsEventRule.DataAwsccNotificationsEventRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationseventrule"
 
 dataawsccnotificationseventrule.DataAwsccNotificationsEventRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnotificationseventrule.DataAwsccNotificationsEventRule_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNotificationsEventRule.DataAwsccNotificationsEventRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationseventrule"
 
 dataawsccnotificationseventrule.DataAwsccNotificationsEventRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnotificationseventrule.DataAwsccNotificationsEventRule_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNotificationsEventRule.DataAwsccNotificationsEventRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationseventrule"
 
 dataawsccnotificationseventrule.DataAwsccNotificationsEventRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNotificationsEven
 
 The id of the existing DataAwsccNotificationsEventRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notifications_event_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notifications_event_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNotificationsEventRule.DataAwsccNotificationsEventRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationseventrule"
 
 &dataawsccnotificationseventrule.DataAwsccNotificationsEventRuleConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notifications_event_rule#id DataAwsccNotificationsEventRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notifications_event_rule#id DataAwsccNotificationsEventRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNotificationsEventRule.DataAwsccNotificationsEventRuleStatusSummaryByRegion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationseventrule"
 
 &dataawsccnotificationseventrule.DataAwsccNotificationsEventRuleStatusSummaryByRegion {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotifications
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationsEventRule.DataAwsccNotificationsEventRuleStatusSummaryByRegionMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationseventrule"
 
 dataawsccnotificationseventrule.NewDataAwsccNotificationsEventRuleStatusSummaryByRegionMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNotificationsEventRuleStatusSummaryByRegionMap
 ```
@@ -958,7 +958,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationsEventRule.DataAwsccNotificationsEventRuleStatusSummaryByRegionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationseventrule"
 
 dataawsccnotificationseventrule.NewDataAwsccNotificationsEventRuleStatusSummaryByRegionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccNotificationsEventRuleStatusSummaryByRegionOutputReference
 ```

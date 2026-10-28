@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudformationChangeSet <a name="DataAwsccCloudformationChangeSet" id="@cdktn/provider-awscc.dataAwsccCloudformationChangeSet.DataAwsccCloudformationChangeSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_change_set awscc_cloudformation_change_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_change_set awscc_cloudformation_change_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationChangeSet.DataAwsccCloudformationChangeSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationchangeset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationchangeset"
 
 dataawscccloudformationchangeset.NewDataAwsccCloudformationChangeSet(scope Construct, id *string, config DataAwsccCloudformationChangeSetConfig) DataAwsccCloudformationChangeSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudformationChangeSet.DataAwsccCloudformationChangeSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationchangeset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationchangeset"
 
 dataawscccloudformationchangeset.DataAwsccCloudformationChangeSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudformationChangeSet.DataAwsccCloudformationChangeSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationchangeset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationchangeset"
 
 dataawscccloudformationchangeset.DataAwsccCloudformationChangeSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudformationchangeset.DataAwsccCloudformationChangeSet_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudformationChangeSet.DataAwsccCloudformationChangeSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationchangeset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationchangeset"
 
 dataawscccloudformationchangeset.DataAwsccCloudformationChangeSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudformationchangeset.DataAwsccCloudformationChangeSet_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudformationChangeSet.DataAwsccCloudformationChangeSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationchangeset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationchangeset"
 
 dataawscccloudformationchangeset.DataAwsccCloudformationChangeSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudformationCha
 
 The id of the existing DataAwsccCloudformationChangeSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_change_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_change_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -785,7 +785,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudformationChangeSet.DataAwsccCloudformationChangeSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationchangeset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationchangeset"
 
 &dataawscccloudformationchangeset.DataAwsccCloudformationChangeSetConfig {
 	Connection: interface{},
@@ -894,7 +894,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_change_set#id DataAwsccCloudformationChangeSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_change_set#id DataAwsccCloudformationChangeSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -906,7 +906,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudformationChangeSet.DataAwsccCloudformationChangeSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationchangeset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationchangeset"
 
 &dataawscccloudformationchangeset.DataAwsccCloudformationChangeSetTags {
 
@@ -921,7 +921,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationChangeSet.DataAwsccCloudformationChangeSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationchangeset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationchangeset"
 
 dataawscccloudformationchangeset.NewDataAwsccCloudformationChangeSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudformationChangeSetTagsList
 ```
@@ -1070,7 +1070,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationChangeSet.DataAwsccCloudformationChangeSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationchangeset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationchangeset"
 
 dataawscccloudformationchangeset.NewDataAwsccCloudformationChangeSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudformationChangeSetTagsOutputReference
 ```

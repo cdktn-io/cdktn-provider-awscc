@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectDataTableAttribute <a name="DataAwsccConnectDataTableAttribute" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttribute"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttribute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 dataawsccconnectdatatableattribute.NewDataAwsccConnectDataTableAttribute(scope Construct, id *string, config DataAwsccConnectDataTableAttributeConfig) DataAwsccConnectDataTableAttribute
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttribute.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 dataawsccconnectdatatableattribute.DataAwsccConnectDataTableAttribute_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttribute.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 dataawsccconnectdatatableattribute.DataAwsccConnectDataTableAttribute_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectdatatableattribute.DataAwsccConnectDataTableAttribute_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttribute.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 dataawsccconnectdatatableattribute.DataAwsccConnectDataTableAttribute_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectdatatableattribute.DataAwsccConnectDataTableAttribute_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttribute.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 dataawsccconnectdatatableattribute.DataAwsccConnectDataTableAttribute_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectDataTableA
 
 The id of the existing DataAwsccConnectDataTableAttribute that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table_attribute#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table_attribute#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttributeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 &dataawsccconnectdatatableattribute.DataAwsccConnectDataTableAttributeConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table_attribute#id DataAwsccConnectDataTableAttribute#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table_attribute#id DataAwsccConnectDataTableAttribute#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttributeLockVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 &dataawsccconnectdatatableattribute.DataAwsccConnectDataTableAttributeLockVersion {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttributeValidation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 &dataawsccconnectdatatableattribute.DataAwsccConnectDataTableAttributeValidation {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttributeValidationEnum.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 &dataawsccconnectdatatableattribute.DataAwsccConnectDataTableAttributeValidationEnum {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttributeLockVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 dataawsccconnectdatatableattribute.NewDataAwsccConnectDataTableAttributeLockVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectDataTableAttributeLockVersionOutputReference
 ```
@@ -1141,7 +1141,7 @@ func InternalValue() DataAwsccConnectDataTableAttributeLockVersion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttributeValidationEnumOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 dataawsccconnectdatatableattribute.NewDataAwsccConnectDataTableAttributeValidationEnumOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectDataTableAttributeValidationEnumOutputReference
 ```
@@ -1412,7 +1412,7 @@ func InternalValue() DataAwsccConnectDataTableAttributeValidationEnum
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectDataTableAttribute.DataAwsccConnectDataTableAttributeValidationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute"
 
 dataawsccconnectdatatableattribute.NewDataAwsccConnectDataTableAttributeValidationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectDataTableAttributeValidationOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccB2BiCapabilities <a name="DataAwsccB2BiCapabilities" id="@cdktn/provider-awscc.dataAwsccB2BiCapabilities.DataAwsccB2BiCapabilities"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiCapabilities.DataAwsccB2BiCapabilities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bicapabilities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bicapabilities"
 
 dataawsccb2bicapabilities.NewDataAwsccB2BiCapabilities(scope Construct, id *string, config DataAwsccB2BiCapabilitiesConfig) DataAwsccB2BiCapabilities
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccB2BiCapabilities.DataAwsccB2BiCapabilities.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bicapabilities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bicapabilities"
 
 dataawsccb2bicapabilities.DataAwsccB2BiCapabilities_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccB2BiCapabilities.DataAwsccB2BiCapabilities.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bicapabilities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bicapabilities"
 
 dataawsccb2bicapabilities.DataAwsccB2BiCapabilities_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccb2bicapabilities.DataAwsccB2BiCapabilities_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccB2BiCapabilities.DataAwsccB2BiCapabilities.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bicapabilities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bicapabilities"
 
 dataawsccb2bicapabilities.DataAwsccB2BiCapabilities_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccb2bicapabilities.DataAwsccB2BiCapabilities_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccB2BiCapabilities.DataAwsccB2BiCapabilities.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bicapabilities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bicapabilities"
 
 dataawsccb2bicapabilities.DataAwsccB2BiCapabilities_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccB2BiCapabilities 
 
 The id of the existing DataAwsccB2BiCapabilities that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_capabilities#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_capabilities#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiCapabilities.DataAwsccB2BiCapabilitiesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bicapabilities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bicapabilities"
 
 &dataawsccb2bicapabilities.DataAwsccB2BiCapabilitiesConfig {
 	Connection: interface{},

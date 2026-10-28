@@ -4,12 +4,12 @@
 
 ### WellarchitectedLens <a name="WellarchitectedLens" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLens"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_lens awscc_wellarchitected_lens}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_lens awscc_wellarchitected_lens}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLens.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedlens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedlens"
 
 wellarchitectedlens.NewWellarchitectedLens(scope Construct, id *string, config WellarchitectedLensConfig) WellarchitectedLens
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLens.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedlens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedlens"
 
 wellarchitectedlens.WellarchitectedLens_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLens.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedlens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedlens"
 
 wellarchitectedlens.WellarchitectedLens_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ wellarchitectedlens.WellarchitectedLens_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLens.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedlens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedlens"
 
 wellarchitectedlens.WellarchitectedLens_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ wellarchitectedlens.WellarchitectedLens_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLens.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedlens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedlens"
 
 wellarchitectedlens.WellarchitectedLens_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the WellarchitectedLens to imp
 
 The id of the existing WellarchitectedLens that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_lens#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_lens#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedlens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedlens"
 
 &wellarchitectedlens.WellarchitectedLensConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ JsonString *string
 
 The JSON representation of a lens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_lens#json_string WellarchitectedLens#json_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_lens#json_string WellarchitectedLens#json_string}
 
 ---
 
@@ -982,7 +982,7 @@ LensVersion *string
 
 The version of the lens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_lens#lens_version WellarchitectedLens#lens_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_lens#lens_version WellarchitectedLens#lens_version}
 
 ---
 
@@ -996,7 +996,7 @@ Tags interface{}
 
 The tags assigned to the lens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_lens#tags WellarchitectedLens#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_lens#tags WellarchitectedLens#tags}
 
 ---
 
@@ -1005,7 +1005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedlens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedlens"
 
 &wellarchitectedlens.WellarchitectedLensTags {
 	Key: *string,
@@ -1017,8 +1017,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedlens"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_lens#key WellarchitectedLens#key}. |
-| <code><a href="#@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_lens#value WellarchitectedLens#value}. |
+| <code><a href="#@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_lens#key WellarchitectedLens#key}. |
+| <code><a href="#@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_lens#value WellarchitectedLens#value}. |
 
 ---
 
@@ -1030,7 +1030,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_lens#key WellarchitectedLens#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_lens#key WellarchitectedLens#key}.
 
 ---
 
@@ -1042,7 +1042,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_lens#value WellarchitectedLens#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_lens#value WellarchitectedLens#value}.
 
 ---
 
@@ -1053,7 +1053,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedlens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedlens"
 
 wellarchitectedlens.NewWellarchitectedLensTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WellarchitectedLensTagsList
 ```
@@ -1213,7 +1213,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedLens.WellarchitectedLensTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedlens"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedlens"
 
 wellarchitectedlens.NewWellarchitectedLensTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WellarchitectedLensTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### CloudformationLambdaHook <a name="CloudformationLambdaHook" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHook"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.NewCloudformationLambdaHook(scope Construct, id *string, config CloudformationLambdaHookConfig) CloudformationLambdaHook
 ```
@@ -474,7 +474,7 @@ func ResetTargetFilters()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHook.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.CloudformationLambdaHook_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHook.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.CloudformationLambdaHook_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ cloudformationlambdahook.CloudformationLambdaHook_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHook.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.CloudformationLambdaHook_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ cloudformationlambdahook.CloudformationLambdaHook_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHook.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.CloudformationLambdaHook_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the CloudformationLambdaHook t
 
 The id of the existing CloudformationLambdaHook that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1005,7 +1005,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 &cloudformationlambdahook.CloudformationLambdaHookConfig {
 	Connection: interface{},
@@ -1022,9 +1022,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdaho
 	TargetOperations: *[]*string,
 	AutoUpdate: interface{},
 	HookStatus: *string,
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationLambdaHook.CloudformationLambdaHookLoggingConfig,
-	StackFilters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationLambdaHook.CloudformationLambdaHookStackFilters,
-	TargetFilters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationLambdaHook.CloudformationLambdaHookTargetFilters,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationLambdaHook.CloudformationLambdaHookLoggingConfig,
+	StackFilters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationLambdaHook.CloudformationLambdaHookStackFilters,
+	TargetFilters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationLambdaHook.CloudformationLambdaHookTargetFilters,
 }
 ```
 
@@ -1132,7 +1132,7 @@ Alias *string
 
 The typename alias for the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#alias CloudformationLambdaHook#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#alias CloudformationLambdaHook#alias}
 
 ---
 
@@ -1146,7 +1146,7 @@ ExecutionRole *string
 
 The execution role ARN assumed by Hooks to invoke Lambda.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#execution_role CloudformationLambdaHook#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#execution_role CloudformationLambdaHook#execution_role}
 
 ---
 
@@ -1160,7 +1160,7 @@ FailureMode *string
 
 Attribute to specify CloudFormation behavior on hook failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#failure_mode CloudformationLambdaHook#failure_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#failure_mode CloudformationLambdaHook#failure_mode}
 
 ---
 
@@ -1174,7 +1174,7 @@ LambdaFunction *string
 
 Amazon Resource Name (ARN), Partial ARN, name, version, or alias of the Lambda function to invoke with this hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#lambda_function CloudformationLambdaHook#lambda_function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#lambda_function CloudformationLambdaHook#lambda_function}
 
 ---
 
@@ -1188,7 +1188,7 @@ TargetOperations *[]*string
 
 Which operations should this Hook run against? Resource changes, stacks or change sets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#target_operations CloudformationLambdaHook#target_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#target_operations CloudformationLambdaHook#target_operations}
 
 ---
 
@@ -1202,7 +1202,7 @@ AutoUpdate interface{}
 
 Whether to automatically update the extension in this account and Region when a new minor version is published by the extension publisher.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#auto_update CloudformationLambdaHook#auto_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#auto_update CloudformationLambdaHook#auto_update}
 
 ---
 
@@ -1216,7 +1216,7 @@ HookStatus *string
 
 Attribute to specify which stacks this hook applies to or should get invoked for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#hook_status CloudformationLambdaHook#hook_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#hook_status CloudformationLambdaHook#hook_status}
 
 ---
 
@@ -1230,7 +1230,7 @@ LoggingConfig CloudformationLambdaHookLoggingConfig
 
 Contains logging configuration information for the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#logging_config CloudformationLambdaHook#logging_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#logging_config CloudformationLambdaHook#logging_config}
 
 ---
 
@@ -1244,7 +1244,7 @@ StackFilters CloudformationLambdaHookStackFilters
 
 Filters to allow hooks to target specific stack attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#stack_filters CloudformationLambdaHook#stack_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#stack_filters CloudformationLambdaHook#stack_filters}
 
 ---
 
@@ -1258,7 +1258,7 @@ TargetFilters CloudformationLambdaHookTargetFilters
 
 Attribute to specify which targets should invoke the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#target_filters CloudformationLambdaHook#target_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#target_filters CloudformationLambdaHook#target_filters}
 
 ---
 
@@ -1267,7 +1267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 &cloudformationlambdahook.CloudformationLambdaHookLoggingConfig {
 	LogGroupName: *string,
@@ -1294,7 +1294,7 @@ LogGroupName *string
 
 The Amazon CloudWatch Logs group to which CloudFormation sends error logging information when invoking the extension's handlers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#log_group_name CloudformationLambdaHook#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#log_group_name CloudformationLambdaHook#log_group_name}
 
 ---
 
@@ -1308,7 +1308,7 @@ LogRoleArn *string
 
 The ARN of the role that CloudFormation should assume when sending log entries to CloudWatch Logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#log_role_arn CloudformationLambdaHook#log_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#log_role_arn CloudformationLambdaHook#log_role_arn}
 
 ---
 
@@ -1317,12 +1317,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookStackFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 &cloudformationlambdahook.CloudformationLambdaHookStackFilters {
 	FilteringCriteria: *string,
-	StackNames: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationLambdaHook.CloudformationLambdaHookStackFiltersStackNames,
-	StackRoles: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationLambdaHook.CloudformationLambdaHookStackFiltersStackRoles,
+	StackNames: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationLambdaHook.CloudformationLambdaHookStackFiltersStackNames,
+	StackRoles: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationLambdaHook.CloudformationLambdaHookStackFiltersStackRoles,
 }
 ```
 
@@ -1348,7 +1348,7 @@ Attribute to specify the filtering behavior.
 
 ANY will make the Hook pass if one filter matches. ALL will make the Hook pass if all filters match
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#filtering_criteria CloudformationLambdaHook#filtering_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#filtering_criteria CloudformationLambdaHook#filtering_criteria}
 
 ---
 
@@ -1362,7 +1362,7 @@ StackNames CloudformationLambdaHookStackFiltersStackNames
 
 List of stack names as filters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#stack_names CloudformationLambdaHook#stack_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#stack_names CloudformationLambdaHook#stack_names}
 
 ---
 
@@ -1376,7 +1376,7 @@ StackRoles CloudformationLambdaHookStackFiltersStackRoles
 
 List of stack roles that are performing the stack operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#stack_roles CloudformationLambdaHook#stack_roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#stack_roles CloudformationLambdaHook#stack_roles}
 
 ---
 
@@ -1385,7 +1385,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookStackFiltersStackNames.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 &cloudformationlambdahook.CloudformationLambdaHookStackFiltersStackNames {
 	Exclude: *[]*string,
@@ -1412,7 +1412,7 @@ Exclude *[]*string
 
 List of stack names that the hook is going to be excluded from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
 
 ---
 
@@ -1426,7 +1426,7 @@ Include *[]*string
 
 List of stack names that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
 
 ---
 
@@ -1435,7 +1435,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookStackFiltersStackRoles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 &cloudformationlambdahook.CloudformationLambdaHookStackFiltersStackRoles {
 	Exclude: *[]*string,
@@ -1462,7 +1462,7 @@ Exclude *[]*string
 
 List of stack roles that the hook is going to be excluded from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
 
 ---
 
@@ -1476,7 +1476,7 @@ Include *[]*string
 
 List of stack roles that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
 
 ---
 
@@ -1485,7 +1485,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookTargetFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 &cloudformationlambdahook.CloudformationLambdaHookTargetFilters {
 	Actions: *[]*string,
@@ -1516,7 +1516,7 @@ Actions *[]*string
 
 List of actions that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#actions CloudformationLambdaHook#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#actions CloudformationLambdaHook#actions}
 
 ---
 
@@ -1530,7 +1530,7 @@ InvocationPoints *[]*string
 
 List of invocation points that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#invocation_points CloudformationLambdaHook#invocation_points}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#invocation_points CloudformationLambdaHook#invocation_points}
 
 ---
 
@@ -1544,7 +1544,7 @@ TargetNames *[]*string
 
 List of type names that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#target_names CloudformationLambdaHook#target_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#target_names CloudformationLambdaHook#target_names}
 
 ---
 
@@ -1558,7 +1558,7 @@ Targets interface{}
 
 List of hook targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#targets CloudformationLambdaHook#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#targets CloudformationLambdaHook#targets}
 
 ---
 
@@ -1567,7 +1567,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookTargetFiltersTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 &cloudformationlambdahook.CloudformationLambdaHookTargetFiltersTargets {
 	Action: *string,
@@ -1596,7 +1596,7 @@ Action *string
 
 Target actions are the type of operation hooks will be executed at.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#action CloudformationLambdaHook#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#action CloudformationLambdaHook#action}
 
 ---
 
@@ -1610,7 +1610,7 @@ InvocationPoint *string
 
 Invocation points are the point in provisioning workflow where hooks will be executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#invocation_point CloudformationLambdaHook#invocation_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#invocation_point CloudformationLambdaHook#invocation_point}
 
 ---
 
@@ -1624,7 +1624,7 @@ TargetName *string
 
 Type name of hook target. Hook targets are the destination where hooks will be invoked against.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_lambda_hook#target_name CloudformationLambdaHook#target_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_lambda_hook#target_name CloudformationLambdaHook#target_name}
 
 ---
 
@@ -1635,7 +1635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.NewCloudformationLambdaHookLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationLambdaHookLoggingConfigOutputReference
 ```
@@ -1942,7 +1942,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookStackFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.NewCloudformationLambdaHookStackFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationLambdaHookStackFiltersOutputReference
 ```
@@ -2304,7 +2304,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookStackFiltersStackNamesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.NewCloudformationLambdaHookStackFiltersStackNamesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationLambdaHookStackFiltersStackNamesOutputReference
 ```
@@ -2611,7 +2611,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookStackFiltersStackRolesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.NewCloudformationLambdaHookStackFiltersStackRolesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationLambdaHookStackFiltersStackRolesOutputReference
 ```
@@ -2918,7 +2918,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookTargetFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.NewCloudformationLambdaHookTargetFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationLambdaHookTargetFiltersOutputReference
 ```
@@ -3296,7 +3296,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookTargetFiltersTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.NewCloudformationLambdaHookTargetFiltersTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudformationLambdaHookTargetFiltersTargetsList
 ```
@@ -3456,7 +3456,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationLambdaHook.CloudformationLambdaHookTargetFiltersTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationlambdahook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationlambdahook"
 
 cloudformationlambdahook.NewCloudformationLambdaHookTargetFiltersTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudformationLambdaHookTargetFiltersTargetsOutputReference
 ```

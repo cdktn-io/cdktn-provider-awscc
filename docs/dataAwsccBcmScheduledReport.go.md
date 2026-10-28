@@ -4,12 +4,12 @@
 
 ### DataAwsccBcmScheduledReport <a name="DataAwsccBcmScheduledReport" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReport"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcm_scheduled_report awscc_bcm_scheduled_report}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcm_scheduled_report awscc_bcm_scheduled_report}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.NewDataAwsccBcmScheduledReport(scope Construct, id *string, config DataAwsccBcmScheduledReportConfig) DataAwsccBcmScheduledReport
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReport.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.DataAwsccBcmScheduledReport_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReport.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.DataAwsccBcmScheduledReport_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbcmscheduledreport.DataAwsccBcmScheduledReport_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReport.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.DataAwsccBcmScheduledReport_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbcmscheduledreport.DataAwsccBcmScheduledReport_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReport.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.DataAwsccBcmScheduledReport_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBcmScheduledRepor
 
 The id of the existing DataAwsccBcmScheduledReport that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcm_scheduled_report#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcm_scheduled_report#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 &dataawsccbcmscheduledreport.DataAwsccBcmScheduledReportConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcm_scheduled_report#id DataAwsccBcmScheduledReport#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcm_scheduled_report#id DataAwsccBcmScheduledReport#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportHealthStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 &dataawsccbcmscheduledreport.DataAwsccBcmScheduledReportHealthStatus {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 &dataawsccbcmscheduledreport.DataAwsccBcmScheduledReportScheduleConfig {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportScheduleConfigSchedulePeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 &dataawsccbcmscheduledreport.DataAwsccBcmScheduledReportScheduleConfigSchedulePeriod {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 &dataawsccbcmscheduledreport.DataAwsccBcmScheduledReportTags {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportWidgetDateRangeOverride.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 &dataawsccbcmscheduledreport.DataAwsccBcmScheduledReportWidgetDateRangeOverride {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportWidgetDateRangeOverrideEndTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 &dataawsccbcmscheduledreport.DataAwsccBcmScheduledReportWidgetDateRangeOverrideEndTime {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportWidgetDateRangeOverrideStartTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 &dataawsccbcmscheduledreport.DataAwsccBcmScheduledReportWidgetDateRangeOverrideStartTime {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportHealthStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.NewDataAwsccBcmScheduledReportHealthStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmScheduledReportHealthStatusOutputReference
 ```
@@ -1204,7 +1204,7 @@ func InternalValue() DataAwsccBcmScheduledReportHealthStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportScheduleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.NewDataAwsccBcmScheduledReportScheduleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmScheduledReportScheduleConfigOutputReference
 ```
@@ -1497,7 +1497,7 @@ func InternalValue() DataAwsccBcmScheduledReportScheduleConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportScheduleConfigSchedulePeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.NewDataAwsccBcmScheduledReportScheduleConfigSchedulePeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmScheduledReportScheduleConfigSchedulePeriodOutputReference
 ```
@@ -1768,7 +1768,7 @@ func InternalValue() DataAwsccBcmScheduledReportScheduleConfigSchedulePeriod
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.NewDataAwsccBcmScheduledReportTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBcmScheduledReportTagsList
 ```
@@ -1917,7 +1917,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.NewDataAwsccBcmScheduledReportTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBcmScheduledReportTagsOutputReference
 ```
@@ -2206,7 +2206,7 @@ func InternalValue() DataAwsccBcmScheduledReportTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportWidgetDateRangeOverrideEndTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.NewDataAwsccBcmScheduledReportWidgetDateRangeOverrideEndTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmScheduledReportWidgetDateRangeOverrideEndTimeOutputReference
 ```
@@ -2477,7 +2477,7 @@ func InternalValue() DataAwsccBcmScheduledReportWidgetDateRangeOverrideEndTime
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportWidgetDateRangeOverrideOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.NewDataAwsccBcmScheduledReportWidgetDateRangeOverrideOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmScheduledReportWidgetDateRangeOverrideOutputReference
 ```
@@ -2748,7 +2748,7 @@ func InternalValue() DataAwsccBcmScheduledReportWidgetDateRangeOverride
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReport.DataAwsccBcmScheduledReportWidgetDateRangeOverrideStartTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreport"
 
 dataawsccbcmscheduledreport.NewDataAwsccBcmScheduledReportWidgetDateRangeOverrideStartTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBcmScheduledReportWidgetDateRangeOverrideStartTimeOutputReference
 ```

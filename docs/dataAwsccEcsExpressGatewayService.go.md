@@ -4,12 +4,12 @@
 
 ### DataAwsccEcsExpressGatewayService <a name="DataAwsccEcsExpressGatewayService" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_express_gateway_service awscc_ecs_express_gateway_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_express_gateway_service awscc_ecs_express_gateway_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayService(scope Construct, id *string, config DataAwsccEcsExpressGatewayServiceConfig) DataAwsccEcsExpressGatewayService
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayService.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayService_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayService.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayService_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayService_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayService.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayService_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayService_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayService.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayService_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcsExpressGateway
 
 The id of the existing DataAwsccEcsExpressGatewayService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_express_gateway_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_express_gateway_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -807,7 +807,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceActiveConfigurations {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsIngressPaths.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceActiveConfigurationsIngressPaths {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceActiveConfigurationsNetworkConfiguration {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainer {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerAwsLogsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerAwsLogsConfiguration {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironment {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerRepositoryCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerRepositoryCredentials {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerSecrets {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsScalingTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceActiveConfigurationsScalingTarget {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceConfig {
 	Connection: interface{},
@@ -1033,7 +1033,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_express_gateway_service#id DataAwsccEcsExpressGatewayService#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_express_gateway_service#id DataAwsccEcsExpressGatewayService#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1045,7 +1045,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceEcsManagedResourceArns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceEcsManagedResourceArns {
 
@@ -1058,7 +1058,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsAutoScaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsAutoScaling {
 
@@ -1071,7 +1071,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsIngressPath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsIngressPath {
 
@@ -1084,7 +1084,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceNetworkConfiguration {
 
@@ -1097,7 +1097,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServicePrimaryContainer {
 
@@ -1110,7 +1110,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainerAwsLogsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServicePrimaryContainerAwsLogsConfiguration {
 
@@ -1123,7 +1123,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainerEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServicePrimaryContainerEnvironment {
 
@@ -1136,7 +1136,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainerRepositoryCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServicePrimaryContainerRepositoryCredentials {
 
@@ -1149,7 +1149,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainerSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServicePrimaryContainerSecrets {
 
@@ -1162,7 +1162,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceScalingTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceScalingTarget {
 
@@ -1175,7 +1175,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceStatus {
 
@@ -1188,7 +1188,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 &dataawsccecsexpressgatewayservice.DataAwsccEcsExpressGatewayServiceTags {
 
@@ -1203,7 +1203,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsIngressPathsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsIngressPathsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsExpressGatewayServiceActiveConfigurationsIngressPathsList
 ```
@@ -1352,7 +1352,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsIngressPathsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsIngressPathsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsExpressGatewayServiceActiveConfigurationsIngressPathsOutputReference
 ```
@@ -1641,7 +1641,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceActiveConfigurationsIngres
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsExpressGatewayServiceActiveConfigurationsList
 ```
@@ -1790,7 +1790,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServiceActiveConfigurationsNetworkConfigurationOutputReference
 ```
@@ -2061,7 +2061,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceActiveConfigurationsNetwor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsExpressGatewayServiceActiveConfigurationsOutputReference
 ```
@@ -2460,7 +2460,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceActiveConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerAwsLogsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerAwsLogsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerAwsLogsConfigurationOutputReference
 ```
@@ -2731,7 +2731,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentList
 ```
@@ -2880,7 +2880,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentOutputReference
 ```
@@ -3169,7 +3169,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerOutputReference
 ```
@@ -3495,7 +3495,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerRepositoryCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerRepositoryCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerRepositoryCredentialsOutputReference
 ```
@@ -3755,7 +3755,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerSecretsList
 ```
@@ -3904,7 +3904,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerSecretsOutputReference
 ```
@@ -4193,7 +4193,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceActiveConfigurationsPrimar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceActiveConfigurationsScalingTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceActiveConfigurationsScalingTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServiceActiveConfigurationsScalingTargetOutputReference
 ```
@@ -4486,7 +4486,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceActiveConfigurationsScalin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsAutoScalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsAutoScalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsAutoScalingOutputReference
 ```
@@ -4757,7 +4757,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsAuto
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsIngressPathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsIngressPathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsIngressPathOutputReference
 ```
@@ -5072,7 +5072,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsIngr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServiceEcsManagedResourceArnsOutputReference
 ```
@@ -5376,7 +5376,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceEcsManagedResourceArns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServiceNetworkConfigurationOutputReference
 ```
@@ -5647,7 +5647,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceNetworkConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainerAwsLogsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServicePrimaryContainerAwsLogsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServicePrimaryContainerAwsLogsConfigurationOutputReference
 ```
@@ -5918,7 +5918,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServicePrimaryContainerAwsLogsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainerEnvironmentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServicePrimaryContainerEnvironmentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsExpressGatewayServicePrimaryContainerEnvironmentList
 ```
@@ -6067,7 +6067,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainerEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServicePrimaryContainerEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsExpressGatewayServicePrimaryContainerEnvironmentOutputReference
 ```
@@ -6356,7 +6356,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServicePrimaryContainerEnvironmen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServicePrimaryContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServicePrimaryContainerOutputReference
 ```
@@ -6682,7 +6682,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServicePrimaryContainer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainerRepositoryCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServicePrimaryContainerRepositoryCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServicePrimaryContainerRepositoryCredentialsOutputReference
 ```
@@ -6942,7 +6942,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServicePrimaryContainerRepository
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainerSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServicePrimaryContainerSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsExpressGatewayServicePrimaryContainerSecretsList
 ```
@@ -7091,7 +7091,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServicePrimaryContainerSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServicePrimaryContainerSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsExpressGatewayServicePrimaryContainerSecretsOutputReference
 ```
@@ -7380,7 +7380,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServicePrimaryContainerSecrets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceScalingTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceScalingTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServiceScalingTargetOutputReference
 ```
@@ -7673,7 +7673,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceScalingTarget
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsExpressGatewayServiceStatusOutputReference
 ```
@@ -7933,7 +7933,7 @@ func InternalValue() DataAwsccEcsExpressGatewayServiceStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsExpressGatewayServiceTagsList
 ```
@@ -8082,7 +8082,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsExpressGatewayService.DataAwsccEcsExpressGatewayServiceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsexpressgatewayservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsexpressgatewayservice"
 
 dataawsccecsexpressgatewayservice.NewDataAwsccEcsExpressGatewayServiceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsExpressGatewayServiceTagsOutputReference
 ```

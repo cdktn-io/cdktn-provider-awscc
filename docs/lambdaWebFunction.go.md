@@ -4,12 +4,12 @@
 
 ### LambdaWebFunction <a name="LambdaWebFunction" id="@cdktn/provider-awscc.lambdaWebFunction.LambdaWebFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function awscc_lambda_web_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function awscc_lambda_web_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunction.LambdaWebFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunction"
 
 lambdawebfunction.NewLambdaWebFunction(scope Construct, id *string, config LambdaWebFunctionConfig) LambdaWebFunction
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lambdaWebFunction.LambdaWebFunction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunction"
 
 lambdawebfunction.LambdaWebFunction_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lambdaWebFunction.LambdaWebFunction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunction"
 
 lambdawebfunction.LambdaWebFunction_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ lambdawebfunction.LambdaWebFunction_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lambdaWebFunction.LambdaWebFunction.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunction"
 
 lambdawebfunction.LambdaWebFunction_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ lambdawebfunction.LambdaWebFunction_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lambdaWebFunction.LambdaWebFunction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunction"
 
 lambdawebfunction.LambdaWebFunction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the LambdaWebFunction to impor
 
 The id of the existing LambdaWebFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -819,7 +819,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunction.LambdaWebFunctionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunction"
 
 &lambdawebfunction.LambdaWebFunctionConfig {
 	Connection: interface{},
@@ -932,7 +932,7 @@ The name of the web function.
 
 The name can contain letters, numbers, hyphens (-), and underscores (_), and cannot begin or end with a hyphen or an underscore. The length constraint applies only to the full ARN. If you specify only the function name, it is limited to 64 characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function#function_name LambdaWebFunction#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function#function_name LambdaWebFunction#function_name}
 
 ---
 
@@ -946,7 +946,7 @@ Tags interface{}
 
 A list of tags to apply to the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function#tags LambdaWebFunction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function#tags LambdaWebFunction#tags}
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunction.LambdaWebFunctionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunction"
 
 &lambdawebfunction.LambdaWebFunctionTags {
 	Key: *string,
@@ -982,7 +982,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function#key LambdaWebFunction#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function#key LambdaWebFunction#key}
 
 ---
 
@@ -996,7 +996,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function#value LambdaWebFunction#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function#value LambdaWebFunction#value}
 
 ---
 
@@ -1007,7 +1007,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunction.LambdaWebFunctionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunction"
 
 lambdawebfunction.NewLambdaWebFunctionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LambdaWebFunctionTagsList
 ```
@@ -1167,7 +1167,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunction.LambdaWebFunctionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunction"
 
 lambdawebfunction.NewLambdaWebFunctionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LambdaWebFunctionTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccLightsailInstances <a name="DataAwsccLightsailInstances" id="@cdktn/provider-awscc.dataAwsccLightsailInstances.DataAwsccLightsailInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_instances awscc_lightsail_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_instances awscc_lightsail_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailInstances.DataAwsccLightsailInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstances"
 
 dataawscclightsailinstances.NewDataAwsccLightsailInstances(scope Construct, id *string, config DataAwsccLightsailInstancesConfig) DataAwsccLightsailInstances
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLightsailInstances.DataAwsccLightsailInstances.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstances"
 
 dataawscclightsailinstances.DataAwsccLightsailInstances_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLightsailInstances.DataAwsccLightsailInstances.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstances"
 
 dataawscclightsailinstances.DataAwsccLightsailInstances_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclightsailinstances.DataAwsccLightsailInstances_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLightsailInstances.DataAwsccLightsailInstances.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstances"
 
 dataawscclightsailinstances.DataAwsccLightsailInstances_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclightsailinstances.DataAwsccLightsailInstances_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLightsailInstances.DataAwsccLightsailInstances.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstances"
 
 dataawscclightsailinstances.DataAwsccLightsailInstances_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailInstance
 
 The id of the existing DataAwsccLightsailInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailInstances.DataAwsccLightsailInstancesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstances"
 
 &dataawscclightsailinstances.DataAwsccLightsailInstancesConfig {
 	Connection: interface{},

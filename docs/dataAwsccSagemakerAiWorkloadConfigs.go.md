@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerAiWorkloadConfigs <a name="DataAwsccSagemakerAiWorkloadConfigs" id="@cdktn/provider-awscc.dataAwsccSagemakerAiWorkloadConfigs.DataAwsccSagemakerAiWorkloadConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_ai_workload_configs awscc_sagemaker_ai_workload_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_ai_workload_configs awscc_sagemaker_ai_workload_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAiWorkloadConfigs.DataAwsccSagemakerAiWorkloadConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeraiworkloadconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeraiworkloadconfigs"
 
 dataawsccsagemakeraiworkloadconfigs.NewDataAwsccSagemakerAiWorkloadConfigs(scope Construct, id *string, config DataAwsccSagemakerAiWorkloadConfigsConfig) DataAwsccSagemakerAiWorkloadConfigs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerAiWorkloadConfigs.DataAwsccSagemakerAiWorkloadConfigs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeraiworkloadconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeraiworkloadconfigs"
 
 dataawsccsagemakeraiworkloadconfigs.DataAwsccSagemakerAiWorkloadConfigs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerAiWorkloadConfigs.DataAwsccSagemakerAiWorkloadConfigs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeraiworkloadconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeraiworkloadconfigs"
 
 dataawsccsagemakeraiworkloadconfigs.DataAwsccSagemakerAiWorkloadConfigs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakeraiworkloadconfigs.DataAwsccSagemakerAiWorkloadConfigs_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerAiWorkloadConfigs.DataAwsccSagemakerAiWorkloadConfigs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeraiworkloadconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeraiworkloadconfigs"
 
 dataawsccsagemakeraiworkloadconfigs.DataAwsccSagemakerAiWorkloadConfigs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakeraiworkloadconfigs.DataAwsccSagemakerAiWorkloadConfigs_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerAiWorkloadConfigs.DataAwsccSagemakerAiWorkloadConfigs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeraiworkloadconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeraiworkloadconfigs"
 
 dataawsccsagemakeraiworkloadconfigs.DataAwsccSagemakerAiWorkloadConfigs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerAiWorklo
 
 The id of the existing DataAwsccSagemakerAiWorkloadConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_ai_workload_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_ai_workload_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAiWorkloadConfigs.DataAwsccSagemakerAiWorkloadConfigsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeraiworkloadconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeraiworkloadconfigs"
 
 &dataawsccsagemakeraiworkloadconfigs.DataAwsccSagemakerAiWorkloadConfigsConfig {
 	Connection: interface{},

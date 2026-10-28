@@ -4,12 +4,12 @@
 
 ### DataAwsccDatazoneProject <a name="DataAwsccDatazoneProject" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_project awscc_datazone_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_project awscc_datazone_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.NewDataAwsccDatazoneProject(scope Construct, id *string, config DataAwsccDatazoneProjectConfig) DataAwsccDatazoneProject
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProject.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.DataAwsccDatazoneProject_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProject.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.DataAwsccDatazoneProject_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatazoneproject.DataAwsccDatazoneProject_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProject.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.DataAwsccDatazoneProject_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatazoneproject.DataAwsccDatazoneProject_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProject.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.DataAwsccDatazoneProject_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatazoneProject t
 
 The id of the existing DataAwsccDatazoneProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -785,7 +785,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 &dataawsccdatazoneproject.DataAwsccDatazoneProjectConfig {
 	Connection: interface{},
@@ -894,7 +894,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_project#id DataAwsccDatazoneProject#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_project#id DataAwsccDatazoneProject#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -906,7 +906,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectMembershipAssignments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 &dataawsccdatazoneproject.DataAwsccDatazoneProjectMembershipAssignments {
 
@@ -919,7 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectMembershipAssignmentsMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 &dataawsccdatazoneproject.DataAwsccDatazoneProjectMembershipAssignmentsMember {
 
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectResourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 &dataawsccdatazoneproject.DataAwsccDatazoneProjectResourceTags {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectUserParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 &dataawsccdatazoneproject.DataAwsccDatazoneProjectUserParameters {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectUserParametersEnvironmentParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 &dataawsccdatazoneproject.DataAwsccDatazoneProjectUserParametersEnvironmentParameters {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproje
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectMembershipAssignmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.NewDataAwsccDatazoneProjectMembershipAssignmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatazoneProjectMembershipAssignmentsList
 ```
@@ -1122,7 +1122,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectMembershipAssignmentsMemberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.NewDataAwsccDatazoneProjectMembershipAssignmentsMemberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazoneProjectMembershipAssignmentsMemberOutputReference
 ```
@@ -1393,7 +1393,7 @@ func InternalValue() DataAwsccDatazoneProjectMembershipAssignmentsMember
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectMembershipAssignmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.NewDataAwsccDatazoneProjectMembershipAssignmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatazoneProjectMembershipAssignmentsOutputReference
 ```
@@ -1682,7 +1682,7 @@ func InternalValue() DataAwsccDatazoneProjectMembershipAssignments
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectResourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.NewDataAwsccDatazoneProjectResourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatazoneProjectResourceTagsList
 ```
@@ -1831,7 +1831,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectResourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.NewDataAwsccDatazoneProjectResourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatazoneProjectResourceTagsOutputReference
 ```
@@ -2120,7 +2120,7 @@ func InternalValue() DataAwsccDatazoneProjectResourceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectUserParametersEnvironmentParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.NewDataAwsccDatazoneProjectUserParametersEnvironmentParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatazoneProjectUserParametersEnvironmentParametersList
 ```
@@ -2269,7 +2269,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectUserParametersEnvironmentParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.NewDataAwsccDatazoneProjectUserParametersEnvironmentParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatazoneProjectUserParametersEnvironmentParametersOutputReference
 ```
@@ -2558,7 +2558,7 @@ func InternalValue() DataAwsccDatazoneProjectUserParametersEnvironmentParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectUserParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.NewDataAwsccDatazoneProjectUserParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatazoneProjectUserParametersList
 ```
@@ -2707,7 +2707,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProject.DataAwsccDatazoneProjectUserParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneproject"
 
 dataawsccdatazoneproject.NewDataAwsccDatazoneProjectUserParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatazoneProjectUserParametersOutputReference
 ```

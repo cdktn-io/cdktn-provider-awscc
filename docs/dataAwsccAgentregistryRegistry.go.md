@@ -4,12 +4,12 @@
 
 ### DataAwsccAgentregistryRegistry <a name="DataAwsccAgentregistryRegistry" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistry"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistry(scope Construct, id *string, config DataAwsccAgentregistryRegistryConfig) DataAwsccAgentregistryRegistry
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistry.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.DataAwsccAgentregistryRegistry_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistry.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.DataAwsccAgentregistryRegistry_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccagentregistryregistry.DataAwsccAgentregistryRegistry_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistry.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.DataAwsccAgentregistryRegistry_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccagentregistryregistry.DataAwsccAgentregistryRegistry_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistry.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.DataAwsccAgentregistryRegistry_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAgentregistryRegi
 
 The id of the existing DataAwsccAgentregistryRegistry that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/agentregistry_registry#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryApprovalConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryApprovalConfiguration {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryConfig {
 	Connection: interface{},
@@ -885,7 +885,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry#id DataAwsccAgentregistryRegistry#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/agentregistry_registry#id DataAwsccAgentregistryRegistry#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -897,7 +897,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryCustomMetadataSchemaConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryCustomMetadataSchemaConfiguration {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryDiscoveryConfiguration {
 
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfiguration {
 
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizer {
 
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaims.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaims {
 
@@ -975,7 +975,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValue {
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValue {
 
@@ -1001,7 +1001,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryEncryptionConfiguration {
 
@@ -1014,7 +1014,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 &dataawsccagentregistryregistry.DataAwsccAgentregistryRegistryTags {
 
@@ -1029,7 +1029,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryApprovalConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryApprovalConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryApprovalConfigurationOutputReference
 ```
@@ -1289,7 +1289,7 @@ func InternalValue() DataAwsccAgentregistryRegistryApprovalConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference
 ```
@@ -1560,7 +1560,7 @@ func InternalValue() DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigura
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList
 ```
@@ -1709,7 +1709,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference
 ```
@@ -1998,7 +1998,7 @@ func InternalValue() DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigura
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValueOutputReference
 ```
@@ -2269,7 +2269,7 @@ func InternalValue() DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthori
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueOutputReference
 ```
@@ -2540,7 +2540,7 @@ func InternalValue() DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthori
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsList
 ```
@@ -2689,7 +2689,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsOutputReference
 ```
@@ -2989,7 +2989,7 @@ func InternalValue() DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthori
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference
 ```
@@ -3293,7 +3293,7 @@ func InternalValue() DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthori
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationOutputReference
 ```
@@ -3553,7 +3553,7 @@ func InternalValue() DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthori
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryDiscoveryConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryDiscoveryConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryDiscoveryConfigurationOutputReference
 ```
@@ -3813,7 +3813,7 @@ func InternalValue() DataAwsccAgentregistryRegistryDiscoveryConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryEncryptionConfigurationOutputReference
 ```
@@ -4073,7 +4073,7 @@ func InternalValue() DataAwsccAgentregistryRegistryEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAgentregistryRegistryTagsList
 ```
@@ -4222,7 +4222,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistry.DataAwsccAgentregistryRegistryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistry"
 
 dataawsccagentregistryregistry.NewDataAwsccAgentregistryRegistryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAgentregistryRegistryTagsOutputReference
 ```

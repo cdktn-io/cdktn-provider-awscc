@@ -4,12 +4,12 @@
 
 ### DataAwsccResourceexplorer2Indices <a name="DataAwsccResourceexplorer2Indices" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2Indices.DataAwsccResourceexplorer2Indices"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourceexplorer2_indices awscc_resourceexplorer2_indices}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourceexplorer2_indices awscc_resourceexplorer2_indices}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2Indices.DataAwsccResourceexplorer2Indices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2indices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2indices"
 
 dataawsccresourceexplorer2indices.NewDataAwsccResourceexplorer2Indices(scope Construct, id *string, config DataAwsccResourceexplorer2IndicesConfig) DataAwsccResourceexplorer2Indices
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2Indices.DataAwsccResourceexplorer2Indices.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2indices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2indices"
 
 dataawsccresourceexplorer2indices.DataAwsccResourceexplorer2Indices_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2Indices.DataAwsccResourceexplorer2Indices.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2indices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2indices"
 
 dataawsccresourceexplorer2indices.DataAwsccResourceexplorer2Indices_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccresourceexplorer2indices.DataAwsccResourceexplorer2Indices_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2Indices.DataAwsccResourceexplorer2Indices.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2indices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2indices"
 
 dataawsccresourceexplorer2indices.DataAwsccResourceexplorer2Indices_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccresourceexplorer2indices.DataAwsccResourceexplorer2Indices_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2Indices.DataAwsccResourceexplorer2Indices.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2indices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2indices"
 
 dataawsccresourceexplorer2indices.DataAwsccResourceexplorer2Indices_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResourceexplorer2
 
 The id of the existing DataAwsccResourceexplorer2Indices that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourceexplorer2_indices#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourceexplorer2_indices#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2Indices.DataAwsccResourceexplorer2IndicesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2indices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2indices"
 
 &dataawsccresourceexplorer2indices.DataAwsccResourceexplorer2IndicesConfig {
 	Connection: interface{},

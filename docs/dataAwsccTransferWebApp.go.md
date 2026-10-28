@@ -4,12 +4,12 @@
 
 ### DataAwsccTransferWebApp <a name="DataAwsccTransferWebApp" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_web_app awscc_transfer_web_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_web_app awscc_transfer_web_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.NewDataAwsccTransferWebApp(scope Construct, id *string, config DataAwsccTransferWebAppConfig) DataAwsccTransferWebApp
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebApp.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.DataAwsccTransferWebApp_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebApp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.DataAwsccTransferWebApp_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctransferwebapp.DataAwsccTransferWebApp_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebApp.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.DataAwsccTransferWebApp_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctransferwebapp.DataAwsccTransferWebApp_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebApp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.DataAwsccTransferWebApp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTransferWebApp to
 
 The id of the existing DataAwsccTransferWebApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_web_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_web_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 &dataawscctransferwebapp.DataAwsccTransferWebAppConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_web_app#id DataAwsccTransferWebApp#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_web_app#id DataAwsccTransferWebApp#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppEndpointDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 &dataawscctransferwebapp.DataAwsccTransferWebAppEndpointDetails {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebap
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppEndpointDetailsVpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 &dataawscctransferwebapp.DataAwsccTransferWebAppEndpointDetailsVpc {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebap
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppIdentityProviderDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 &dataawscctransferwebapp.DataAwsccTransferWebAppIdentityProviderDetails {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebap
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 &dataawscctransferwebapp.DataAwsccTransferWebAppTags {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebap
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppWebAppCustomization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 &dataawscctransferwebapp.DataAwsccTransferWebAppWebAppCustomization {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebap
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppWebAppUnits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 &dataawscctransferwebapp.DataAwsccTransferWebAppWebAppUnits {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppEndpointDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.NewDataAwsccTransferWebAppEndpointDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWebAppEndpointDetailsOutputReference
 ```
@@ -1158,7 +1158,7 @@ func InternalValue() DataAwsccTransferWebAppEndpointDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppEndpointDetailsVpcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.NewDataAwsccTransferWebAppEndpointDetailsVpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWebAppEndpointDetailsVpcOutputReference
 ```
@@ -1451,7 +1451,7 @@ func InternalValue() DataAwsccTransferWebAppEndpointDetailsVpc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppIdentityProviderDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.NewDataAwsccTransferWebAppIdentityProviderDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWebAppIdentityProviderDetailsOutputReference
 ```
@@ -1733,7 +1733,7 @@ func InternalValue() DataAwsccTransferWebAppIdentityProviderDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.NewDataAwsccTransferWebAppTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTransferWebAppTagsList
 ```
@@ -1882,7 +1882,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.NewDataAwsccTransferWebAppTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTransferWebAppTagsOutputReference
 ```
@@ -2171,7 +2171,7 @@ func InternalValue() DataAwsccTransferWebAppTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppWebAppCustomizationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.NewDataAwsccTransferWebAppWebAppCustomizationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWebAppWebAppCustomizationOutputReference
 ```
@@ -2453,7 +2453,7 @@ func InternalValue() DataAwsccTransferWebAppWebAppCustomization
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWebApp.DataAwsccTransferWebAppWebAppUnitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferwebapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferwebapp"
 
 dataawscctransferwebapp.NewDataAwsccTransferWebAppWebAppUnitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWebAppWebAppUnitsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### RedshiftSnapshotCopyGrant <a name="RedshiftSnapshotCopyGrant" id="@cdktn/provider-awscc.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_copy_grant awscc_redshift_snapshot_copy_grant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_copy_grant awscc_redshift_snapshot_copy_grant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotcopygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotcopygrant"
 
 redshiftsnapshotcopygrant.NewRedshiftSnapshotCopyGrant(scope Construct, id *string, config RedshiftSnapshotCopyGrantConfig) RedshiftSnapshotCopyGrant
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotcopygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotcopygrant"
 
 redshiftsnapshotcopygrant.RedshiftSnapshotCopyGrant_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotcopygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotcopygrant"
 
 redshiftsnapshotcopygrant.RedshiftSnapshotCopyGrant_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ redshiftsnapshotcopygrant.RedshiftSnapshotCopyGrant_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotcopygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotcopygrant"
 
 redshiftsnapshotcopygrant.RedshiftSnapshotCopyGrant_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ redshiftsnapshotcopygrant.RedshiftSnapshotCopyGrant_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotcopygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotcopygrant"
 
 redshiftsnapshotcopygrant.RedshiftSnapshotCopyGrant_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the RedshiftSnapshotCopyGrant 
 
 The id of the existing RedshiftSnapshotCopyGrant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_copy_grant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_copy_grant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -804,7 +804,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrantConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotcopygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotcopygrant"
 
 &redshiftsnapshotcopygrant.RedshiftSnapshotCopyGrantConfig {
 	Connection: interface{},
@@ -917,7 +917,7 @@ SnapshotCopyGrantName *string
 
 The name of the snapshot copy grant. This name must be unique in the region for the AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_copy_grant#snapshot_copy_grant_name RedshiftSnapshotCopyGrant#snapshot_copy_grant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_copy_grant#snapshot_copy_grant_name RedshiftSnapshotCopyGrant#snapshot_copy_grant_name}
 
 ---
 
@@ -933,7 +933,7 @@ The unique identifier of the encrypted symmetric key to which to grant Amazon Re
 
 If no key is specified, the default key is used. Marked writeOnly because Create accepts aliases/key-ids but Describe returns the resolved key ARN, which would fail drift detection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_copy_grant#kms_key_id RedshiftSnapshotCopyGrant#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_copy_grant#kms_key_id RedshiftSnapshotCopyGrant#kms_key_id}
 
 ---
 
@@ -947,7 +947,7 @@ Tags interface{}
 
 A list of tag instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_copy_grant#tags RedshiftSnapshotCopyGrant#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_copy_grant#tags RedshiftSnapshotCopyGrant#tags}
 
 ---
 
@@ -956,7 +956,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrantTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotcopygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotcopygrant"
 
 &redshiftsnapshotcopygrant.RedshiftSnapshotCopyGrantTags {
 	Key: *string,
@@ -983,7 +983,7 @@ Key *string
 
 The key, or name, for the resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_copy_grant#key RedshiftSnapshotCopyGrant#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_copy_grant#key RedshiftSnapshotCopyGrant#key}
 
 ---
 
@@ -997,7 +997,7 @@ Value *string
 
 The value for the resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_copy_grant#value RedshiftSnapshotCopyGrant#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_copy_grant#value RedshiftSnapshotCopyGrant#value}
 
 ---
 
@@ -1008,7 +1008,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrantTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotcopygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotcopygrant"
 
 redshiftsnapshotcopygrant.NewRedshiftSnapshotCopyGrantTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftSnapshotCopyGrantTagsList
 ```
@@ -1168,7 +1168,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrantTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotcopygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotcopygrant"
 
 redshiftsnapshotcopygrant.NewRedshiftSnapshotCopyGrantTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftSnapshotCopyGrantTagsOutputReference
 ```

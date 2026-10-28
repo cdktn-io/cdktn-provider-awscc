@@ -4,12 +4,12 @@
 
 ### NetworksecuritymanagerDeployment <a name="NetworksecuritymanagerDeployment" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NewNetworksecuritymanagerDeployment(scope Construct, id *string, config NetworksecuritymanagerDeploymentConfig) NetworksecuritymanagerDeployment
 ```
@@ -487,7 +487,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NetworksecuritymanagerDeployment_IsConstruct(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NetworksecuritymanagerDeployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ networksecuritymanagerdeployment.NetworksecuritymanagerDeployment_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeployment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NetworksecuritymanagerDeployment_IsTerraformResource(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ networksecuritymanagerdeployment.NetworksecuritymanagerDeployment_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeployment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NetworksecuritymanagerDeployment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -576,7 +576,7 @@ The construct id used in the generated config for the NetworksecuritymanagerDepl
 
 The id of the existing NetworksecuritymanagerDeployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -974,7 +974,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentAssociatedPolicyListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 &networksecuritymanagerdeployment.NetworksecuritymanagerDeploymentAssociatedPolicyListStruct {
 	PolicyArn: *string,
@@ -999,7 +999,7 @@ PolicyArn *string
 
 ARN of the associated policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#policy_arn NetworksecuritymanagerDeployment#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#policy_arn NetworksecuritymanagerDeployment#policy_arn}
 
 ---
 
@@ -1008,7 +1008,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentAssociatedScopeListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 &networksecuritymanagerdeployment.NetworksecuritymanagerDeploymentAssociatedScopeListStruct {
 	ScopeArn: *string,
@@ -1033,7 +1033,7 @@ ScopeArn *string
 
 ARN of the associated scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#scope_arn NetworksecuritymanagerDeployment#scope_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#scope_arn NetworksecuritymanagerDeployment#scope_arn}
 
 ---
 
@@ -1042,7 +1042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 &networksecuritymanagerdeployment.NetworksecuritymanagerDeploymentConfig {
 	Connection: interface{},
@@ -1055,7 +1055,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanager
 	DeploymentName: *string,
 	AssociatedPolicyList: interface{},
 	AssociatedScopeList: interface{},
-	DeploymentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentDeploymentConfiguration,
+	DeploymentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentDeploymentConfiguration,
 	DeploymentDescription: *string,
 	Tags: interface{},
 }
@@ -1161,7 +1161,7 @@ DeploymentName *string
 
 The name of the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#deployment_name NetworksecuritymanagerDeployment#deployment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#deployment_name NetworksecuritymanagerDeployment#deployment_name}
 
 ---
 
@@ -1175,7 +1175,7 @@ AssociatedPolicyList interface{}
 
 List of policies associated with this deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#associated_policy_list NetworksecuritymanagerDeployment#associated_policy_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#associated_policy_list NetworksecuritymanagerDeployment#associated_policy_list}
 
 ---
 
@@ -1189,7 +1189,7 @@ AssociatedScopeList interface{}
 
 List of scopes associated with this deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#associated_scope_list NetworksecuritymanagerDeployment#associated_scope_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#associated_scope_list NetworksecuritymanagerDeployment#associated_scope_list}
 
 ---
 
@@ -1203,7 +1203,7 @@ DeploymentConfiguration NetworksecuritymanagerDeploymentDeploymentConfiguration
 
 Configuration settings for the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#deployment_configuration NetworksecuritymanagerDeployment#deployment_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#deployment_configuration NetworksecuritymanagerDeployment#deployment_configuration}
 
 ---
 
@@ -1217,7 +1217,7 @@ DeploymentDescription *string
 
 A description of the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#deployment_description NetworksecuritymanagerDeployment#deployment_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#deployment_description NetworksecuritymanagerDeployment#deployment_description}
 
 ---
 
@@ -1231,7 +1231,7 @@ Tags interface{}
 
 The tags associated with the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#tags NetworksecuritymanagerDeployment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#tags NetworksecuritymanagerDeployment#tags}
 
 ---
 
@@ -1240,7 +1240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentDeploymentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 &networksecuritymanagerdeployment.NetworksecuritymanagerDeploymentDeploymentConfiguration {
 	EnableCrossAccountVisibility: interface{},
@@ -1265,7 +1265,7 @@ EnableCrossAccountVisibility interface{}
 
 Whether cross-account visibility is enabled for the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#enable_cross_account_visibility NetworksecuritymanagerDeployment#enable_cross_account_visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#enable_cross_account_visibility NetworksecuritymanagerDeployment#enable_cross_account_visibility}
 
 ---
 
@@ -1274,7 +1274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 &networksecuritymanagerdeployment.NetworksecuritymanagerDeploymentTags {
 	Key: *string,
@@ -1286,8 +1286,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanager
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#key NetworksecuritymanagerDeployment#key}. |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#value NetworksecuritymanagerDeployment#value}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#key NetworksecuritymanagerDeployment#key}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#value NetworksecuritymanagerDeployment#value}. |
 
 ---
 
@@ -1299,7 +1299,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#key NetworksecuritymanagerDeployment#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#key NetworksecuritymanagerDeployment#key}.
 
 ---
 
@@ -1311,7 +1311,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#value NetworksecuritymanagerDeployment#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#value NetworksecuritymanagerDeployment#value}.
 
 ---
 
@@ -1322,7 +1322,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentAssociatedPolicyListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NewNetworksecuritymanagerDeploymentAssociatedPolicyListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworksecuritymanagerDeploymentAssociatedPolicyListStructList
 ```
@@ -1482,7 +1482,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentAssociatedPolicyListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NewNetworksecuritymanagerDeploymentAssociatedPolicyListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworksecuritymanagerDeploymentAssociatedPolicyListStructOutputReference
 ```
@@ -1778,7 +1778,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentAssociatedScopeListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NewNetworksecuritymanagerDeploymentAssociatedScopeListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworksecuritymanagerDeploymentAssociatedScopeListStructList
 ```
@@ -1938,7 +1938,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentAssociatedScopeListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NewNetworksecuritymanagerDeploymentAssociatedScopeListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworksecuritymanagerDeploymentAssociatedScopeListStructOutputReference
 ```
@@ -2234,7 +2234,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentDeploymentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NewNetworksecuritymanagerDeploymentDeploymentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworksecuritymanagerDeploymentDeploymentConfigurationOutputReference
 ```
@@ -2512,7 +2512,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NewNetworksecuritymanagerDeploymentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworksecuritymanagerDeploymentTagsList
 ```
@@ -2672,7 +2672,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerDeployment.NetworksecuritymanagerDeploymentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerdeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerdeployment"
 
 networksecuritymanagerdeployment.NewNetworksecuritymanagerDeploymentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworksecuritymanagerDeploymentTagsOutputReference
 ```

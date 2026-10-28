@@ -4,12 +4,12 @@
 
 ### Ec2EipAssociation <a name="Ec2EipAssociation" id="@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_eip_association awscc_ec2_eip_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_eip_association awscc_ec2_eip_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2eipassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2eipassociation"
 
 ec2eipassociation.NewEc2EipAssociation(scope Construct, id *string, config Ec2EipAssociationConfig) Ec2EipAssociation
 ```
@@ -435,7 +435,7 @@ func ResetPrivateIpAddress()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2eipassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2eipassociation"
 
 ec2eipassociation.Ec2EipAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2eipassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2eipassociation"
 
 ec2eipassociation.Ec2EipAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ ec2eipassociation.Ec2EipAssociation_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2eipassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2eipassociation"
 
 ec2eipassociation.Ec2EipAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -495,7 +495,7 @@ ec2eipassociation.Ec2EipAssociation_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2eipassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2eipassociation"
 
 ec2eipassociation.Ec2EipAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -524,7 +524,7 @@ The construct id used in the generated config for the Ec2EipAssociation to impor
 
 The id of the existing Ec2EipAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_eip_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_eip_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -856,7 +856,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2eipassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2eipassociation"
 
 &ec2eipassociation.Ec2EipAssociationConfig {
 	Connection: interface{},
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2eipassociation"
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.allocationId">AllocationId</a></code> | <code>*string</code> | The allocation ID. This is required. |
-| <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.eip">Eip</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_eip_association#eip Ec2EipAssociation#eip}. |
+| <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.eip">Eip</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_eip_association#eip Ec2EipAssociation#eip}. |
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.instanceId">InstanceId</a></code> | <code>*string</code> | The ID of the instance. |
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.networkInterfaceId">NetworkInterfaceId</a></code> | <code>*string</code> | The ID of the network interface. |
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.privateIpAddress">PrivateIpAddress</a></code> | <code>*string</code> | The primary or secondary private IP address to associate with the Elastic IP address. |
@@ -973,7 +973,7 @@ AllocationId *string
 
 The allocation ID. This is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_eip_association#allocation_id Ec2EipAssociation#allocation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_eip_association#allocation_id Ec2EipAssociation#allocation_id}
 
 ---
 
@@ -985,7 +985,7 @@ Eip *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_eip_association#eip Ec2EipAssociation#eip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_eip_association#eip Ec2EipAssociation#eip}.
 
 ---
 
@@ -1001,7 +1001,7 @@ The ID of the instance.
 
 The instance must have exactly one attached network interface. You can specify either the instance ID or the network interface ID, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_eip_association#instance_id Ec2EipAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_eip_association#instance_id Ec2EipAssociation#instance_id}
 
 ---
 
@@ -1018,7 +1018,7 @@ The ID of the network interface.
 If the instance has more than one network interface, you must specify a network interface ID.
 You can specify either the instance ID or the network interface ID, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_eip_association#network_interface_id Ec2EipAssociation#network_interface_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_eip_association#network_interface_id Ec2EipAssociation#network_interface_id}
 
 ---
 
@@ -1034,7 +1034,7 @@ The primary or secondary private IP address to associate with the Elastic IP add
 
 If no private IP address is specified, the Elastic IP address is associated with the primary private IP address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_eip_association#private_ip_address Ec2EipAssociation#private_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_eip_association#private_ip_address Ec2EipAssociation#private_ip_address}
 
 ---
 

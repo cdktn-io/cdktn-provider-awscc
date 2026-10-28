@@ -4,12 +4,12 @@
 
 ### DataAwsccDataexchangeDataSets <a name="DataAwsccDataexchangeDataSets" id="@cdktn/provider-awscc.dataAwsccDataexchangeDataSets.DataAwsccDataexchangeDataSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dataexchange_data_sets awscc_dataexchange_data_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dataexchange_data_sets awscc_dataexchange_data_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDataexchangeDataSets.DataAwsccDataexchangeDataSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangedatasets"
 
 dataawsccdataexchangedatasets.NewDataAwsccDataexchangeDataSets(scope Construct, id *string, config DataAwsccDataexchangeDataSetsConfig) DataAwsccDataexchangeDataSets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDataexchangeDataSets.DataAwsccDataexchangeDataSets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangedatasets"
 
 dataawsccdataexchangedatasets.DataAwsccDataexchangeDataSets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDataexchangeDataSets.DataAwsccDataexchangeDataSets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangedatasets"
 
 dataawsccdataexchangedatasets.DataAwsccDataexchangeDataSets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdataexchangedatasets.DataAwsccDataexchangeDataSets_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDataexchangeDataSets.DataAwsccDataexchangeDataSets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangedatasets"
 
 dataawsccdataexchangedatasets.DataAwsccDataexchangeDataSets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdataexchangedatasets.DataAwsccDataexchangeDataSets_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDataexchangeDataSets.DataAwsccDataexchangeDataSets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangedatasets"
 
 dataawsccdataexchangedatasets.DataAwsccDataexchangeDataSets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDataexchangeDataS
 
 The id of the existing DataAwsccDataexchangeDataSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dataexchange_data_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dataexchange_data_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDataexchangeDataSets.DataAwsccDataexchangeDataSetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangedatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangedatasets"
 
 &dataawsccdataexchangedatasets.DataAwsccDataexchangeDataSetsConfig {
 	Connection: interface{},

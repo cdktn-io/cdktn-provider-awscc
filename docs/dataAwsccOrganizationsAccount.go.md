@@ -4,12 +4,12 @@
 
 ### DataAwsccOrganizationsAccount <a name="DataAwsccOrganizationsAccount" id="@cdktn/provider-awscc.dataAwsccOrganizationsAccount.DataAwsccOrganizationsAccount"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_account awscc_organizations_account}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_account awscc_organizations_account}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOrganizationsAccount.DataAwsccOrganizationsAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsaccount"
 
 dataawsccorganizationsaccount.NewDataAwsccOrganizationsAccount(scope Construct, id *string, config DataAwsccOrganizationsAccountConfig) DataAwsccOrganizationsAccount
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOrganizationsAccount.DataAwsccOrganizationsAccount.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsaccount"
 
 dataawsccorganizationsaccount.DataAwsccOrganizationsAccount_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOrganizationsAccount.DataAwsccOrganizationsAccount.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsaccount"
 
 dataawsccorganizationsaccount.DataAwsccOrganizationsAccount_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccorganizationsaccount.DataAwsccOrganizationsAccount_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOrganizationsAccount.DataAwsccOrganizationsAccount.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsaccount"
 
 dataawsccorganizationsaccount.DataAwsccOrganizationsAccount_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccorganizationsaccount.DataAwsccOrganizationsAccount_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOrganizationsAccount.DataAwsccOrganizationsAccount.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsaccount"
 
 dataawsccorganizationsaccount.DataAwsccOrganizationsAccount_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOrganizationsAcco
 
 The id of the existing DataAwsccOrganizationsAccount that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_account#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_account#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOrganizationsAccount.DataAwsccOrganizationsAccountConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsaccount"
 
 &dataawsccorganizationsaccount.DataAwsccOrganizationsAccountConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_account#id DataAwsccOrganizationsAccount#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_account#id DataAwsccOrganizationsAccount#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOrganizationsAccount.DataAwsccOrganizationsAccountTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsaccount"
 
 &dataawsccorganizationsaccount.DataAwsccOrganizationsAccountTags {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOrganizationsAccount.DataAwsccOrganizationsAccountTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsaccount"
 
 dataawsccorganizationsaccount.NewDataAwsccOrganizationsAccountTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOrganizationsAccountTagsList
 ```
@@ -1004,7 +1004,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOrganizationsAccount.DataAwsccOrganizationsAccountTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsaccount"
 
 dataawsccorganizationsaccount.NewDataAwsccOrganizationsAccountTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOrganizationsAccountTagsOutputReference
 ```

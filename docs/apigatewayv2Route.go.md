@@ -4,12 +4,12 @@
 
 ### Apigatewayv2Route <a name="Apigatewayv2Route" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route awscc_apigatewayv2_route}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route awscc_apigatewayv2_route}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2route"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2route"
 
 apigatewayv2route.NewApigatewayv2Route(scope Construct, id *string, config Apigatewayv2RouteConfig) Apigatewayv2Route
 ```
@@ -470,7 +470,7 @@ func ResetTarget()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2route"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2route"
 
 apigatewayv2route.Apigatewayv2Route_IsConstruct(x interface{}) *bool
 ```
@@ -502,7 +502,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2route"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2route"
 
 apigatewayv2route.Apigatewayv2Route_IsTerraformElement(x interface{}) *bool
 ```
@@ -516,7 +516,7 @@ apigatewayv2route.Apigatewayv2Route_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2route"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2route"
 
 apigatewayv2route.Apigatewayv2Route_IsTerraformResource(x interface{}) *bool
 ```
@@ -530,7 +530,7 @@ apigatewayv2route.Apigatewayv2Route_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2route"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2route"
 
 apigatewayv2route.Apigatewayv2Route_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -559,7 +559,7 @@ The construct id used in the generated config for the Apigatewayv2Route to impor
 
 The id of the existing Apigatewayv2Route that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1045,7 +1045,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2route"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2route"
 
 &apigatewayv2route.Apigatewayv2RouteConfig {
 	Connection: interface{},
@@ -1176,7 +1176,7 @@ ApiId *string
 
 The API identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#api_id Apigatewayv2Route#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#api_id Apigatewayv2Route#api_id}
 
 ---
 
@@ -1192,7 +1192,7 @@ The route key for the route.
 
 For HTTP APIs, the route key can be either `$default`, or a combination of an HTTP method and resource path, for example, `GET /pets`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#route_key Apigatewayv2Route#route_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#route_key Apigatewayv2Route#route_key}
 
 ---
 
@@ -1206,7 +1206,7 @@ ApiKeyRequired interface{}
 
 Specifies whether an API key is required for the route. Supported only for WebSocket APIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#api_key_required Apigatewayv2Route#api_key_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#api_key_required Apigatewayv2Route#api_key_required}
 
 ---
 
@@ -1220,7 +1220,7 @@ AuthorizationScopes *[]*string
 
 The authorization scopes supported by this route.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#authorization_scopes Apigatewayv2Route#authorization_scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#authorization_scopes Apigatewayv2Route#authorization_scopes}
 
 ---
 
@@ -1236,7 +1236,7 @@ The authorization type for the route.
 
 For WebSocket APIs, valid values are `NONE` for open access, `AWS_IAM` for using AWS IAM permissions, and `CUSTOM` for using a Lambda authorizer. For HTTP APIs, valid values are `NONE` for open access, `JWT` for using JSON Web Tokens, `AWS_IAM` for using AWS IAM permissions, and `CUSTOM` for using a Lambda authorizer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#authorization_type Apigatewayv2Route#authorization_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#authorization_type Apigatewayv2Route#authorization_type}
 
 ---
 
@@ -1252,7 +1252,7 @@ The identifier of the ``Authorizer`` resource to be associated with this route.
 
 The authorizer identifier is generated by API Gateway when you created the authorizer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#authorizer_id Apigatewayv2Route#authorizer_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#authorizer_id Apigatewayv2Route#authorizer_id}
 
 ---
 
@@ -1266,7 +1266,7 @@ ModelSelectionExpression *string
 
 The model selection expression for the route. Supported only for WebSocket APIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#model_selection_expression Apigatewayv2Route#model_selection_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#model_selection_expression Apigatewayv2Route#model_selection_expression}
 
 ---
 
@@ -1280,7 +1280,7 @@ OperationName *string
 
 The operation name for the route.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#operation_name Apigatewayv2Route#operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#operation_name Apigatewayv2Route#operation_name}
 
 ---
 
@@ -1294,7 +1294,7 @@ RequestModels *string
 
 The request models for the route. Supported only for WebSocket APIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#request_models Apigatewayv2Route#request_models}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#request_models Apigatewayv2Route#request_models}
 
 ---
 
@@ -1308,7 +1308,7 @@ RequestParameters *string
 
 The request parameters for the route. Supported only for WebSocket APIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#request_parameters Apigatewayv2Route#request_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#request_parameters Apigatewayv2Route#request_parameters}
 
 ---
 
@@ -1322,7 +1322,7 @@ RouteResponseSelectionExpression *string
 
 The route response selection expression for the route. Supported only for WebSocket APIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#route_response_selection_expression Apigatewayv2Route#route_response_selection_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#route_response_selection_expression Apigatewayv2Route#route_response_selection_expression}
 
 ---
 
@@ -1336,7 +1336,7 @@ Target *string
 
 The target for the route.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route#target Apigatewayv2Route#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route#target Apigatewayv2Route#target}
 
 ---
 

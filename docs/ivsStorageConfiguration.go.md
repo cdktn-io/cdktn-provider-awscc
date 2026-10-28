@@ -4,12 +4,12 @@
 
 ### IvsStorageConfiguration <a name="IvsStorageConfiguration" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_storage_configuration awscc_ivs_storage_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_storage_configuration awscc_ivs_storage_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration"
 
 ivsstorageconfiguration.NewIvsStorageConfiguration(scope Construct, id *string, config IvsStorageConfigurationConfig) IvsStorageConfiguration
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration"
 
 ivsstorageconfiguration.IvsStorageConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration"
 
 ivsstorageconfiguration.IvsStorageConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ ivsstorageconfiguration.IvsStorageConfiguration_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration"
 
 ivsstorageconfiguration.IvsStorageConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ ivsstorageconfiguration.IvsStorageConfiguration_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration"
 
 ivsstorageconfiguration.IvsStorageConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the IvsStorageConfiguration to
 
 The id of the existing IvsStorageConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_storage_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_storage_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -817,7 +817,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration"
 
 &ivsstorageconfiguration.IvsStorageConfigurationConfig {
 	Connection: interface{},
@@ -827,7 +827,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguratio
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ivsStorageConfiguration.IvsStorageConfigurationS3,
+	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ivsStorageConfiguration.IvsStorageConfigurationS3,
 	Name: *string,
 	Tags: interface{},
 }
@@ -930,7 +930,7 @@ S3 IvsStorageConfigurationS3
 
 A complex type that describes an S3 location where recorded videos will be stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_storage_configuration#s3 IvsStorageConfiguration#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_storage_configuration#s3 IvsStorageConfiguration#s3}
 
 ---
 
@@ -944,7 +944,7 @@ Name *string
 
 Storage Configuration Name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_storage_configuration#name IvsStorageConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_storage_configuration#name IvsStorageConfiguration#name}
 
 ---
 
@@ -958,7 +958,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_storage_configuration#tags IvsStorageConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_storage_configuration#tags IvsStorageConfiguration#tags}
 
 ---
 
@@ -967,7 +967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfigurationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration"
 
 &ivsstorageconfiguration.IvsStorageConfigurationS3 {
 	BucketName: *string,
@@ -994,7 +994,7 @@ Location (S3 bucket name) where recorded videos will be stored.
 
 Note that the StorageConfiguration and S3 bucket must be in the same region as the Composition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_storage_configuration#bucket_name IvsStorageConfiguration#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_storage_configuration#bucket_name IvsStorageConfiguration#bucket_name}
 
 ---
 
@@ -1003,7 +1003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration"
 
 &ivsstorageconfiguration.IvsStorageConfigurationTags {
 	Key: *string,
@@ -1032,7 +1032,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_storage_configuration#key IvsStorageConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_storage_configuration#key IvsStorageConfiguration#key}
 
 ---
 
@@ -1048,7 +1048,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_storage_configuration#value IvsStorageConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_storage_configuration#value IvsStorageConfiguration#value}
 
 ---
 
@@ -1059,7 +1059,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfigurationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration"
 
 ivsstorageconfiguration.NewIvsStorageConfigurationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IvsStorageConfigurationS3OutputReference
 ```
@@ -1330,7 +1330,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration"
 
 ivsstorageconfiguration.NewIvsStorageConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IvsStorageConfigurationTagsList
 ```
@@ -1490,7 +1490,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration"
 
 ivsstorageconfiguration.NewIvsStorageConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IvsStorageConfigurationTagsOutputReference
 ```

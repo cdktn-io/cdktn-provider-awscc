@@ -4,12 +4,12 @@
 
 ### DataAwsccRedshiftScheduledActions <a name="DataAwsccRedshiftScheduledActions" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledActions.DataAwsccRedshiftScheduledActions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_scheduled_actions awscc_redshift_scheduled_actions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_scheduled_actions awscc_redshift_scheduled_actions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledActions.DataAwsccRedshiftScheduledActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledactions"
 
 dataawsccredshiftscheduledactions.NewDataAwsccRedshiftScheduledActions(scope Construct, id *string, config DataAwsccRedshiftScheduledActionsConfig) DataAwsccRedshiftScheduledActions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledActions.DataAwsccRedshiftScheduledActions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledactions"
 
 dataawsccredshiftscheduledactions.DataAwsccRedshiftScheduledActions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledActions.DataAwsccRedshiftScheduledActions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledactions"
 
 dataawsccredshiftscheduledactions.DataAwsccRedshiftScheduledActions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccredshiftscheduledactions.DataAwsccRedshiftScheduledActions_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledActions.DataAwsccRedshiftScheduledActions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledactions"
 
 dataawsccredshiftscheduledactions.DataAwsccRedshiftScheduledActions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccredshiftscheduledactions.DataAwsccRedshiftScheduledActions_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledActions.DataAwsccRedshiftScheduledActions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledactions"
 
 dataawsccredshiftscheduledactions.DataAwsccRedshiftScheduledActions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftScheduled
 
 The id of the existing DataAwsccRedshiftScheduledActions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_scheduled_actions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_scheduled_actions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledActions.DataAwsccRedshiftScheduledActionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledactions"
 
 &dataawsccredshiftscheduledactions.DataAwsccRedshiftScheduledActionsConfig {
 	Connection: interface{},

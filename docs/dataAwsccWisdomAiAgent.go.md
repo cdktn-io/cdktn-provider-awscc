@@ -4,12 +4,12 @@
 
 ### DataAwsccWisdomAiAgent <a name="DataAwsccWisdomAiAgent" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_agent awscc_wisdom_ai_agent}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_agent awscc_wisdom_ai_agent}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgent(scope Construct, id *string, config DataAwsccWisdomAiAgentConfig) DataAwsccWisdomAiAgent
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.DataAwsccWisdomAiAgent_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.DataAwsccWisdomAiAgent_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwisdomaiagent.DataAwsccWisdomAiAgent_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgent.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.DataAwsccWisdomAiAgent_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwisdomaiagent.DataAwsccWisdomAiAgent_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.DataAwsccWisdomAiAgent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWisdomAiAgent to 
 
 The id of the existing DataAwsccWisdomAiAgent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_agent#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_agent#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_agent#id DataAwsccWisdomAiAgent#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_agent#id DataAwsccWisdomAiAgent#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfiguration {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfiguration {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurations {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions {
 
@@ -909,7 +909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions {
 
@@ -922,7 +922,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions {
 
@@ -935,7 +935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition {
 
@@ -948,7 +948,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition {
 
@@ -961,7 +961,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationCaseSummarizationAiAgentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationCaseSummarizationAiAgentConfiguration {
 
@@ -974,7 +974,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration {
 
@@ -987,7 +987,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurations {
 
@@ -1000,7 +1000,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData {
 
@@ -1013,7 +1013,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData {
 
@@ -1026,7 +1026,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter {
 
@@ -1039,7 +1039,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions {
 
@@ -1052,7 +1052,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions {
 
@@ -1065,7 +1065,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions {
 
@@ -1078,7 +1078,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition {
 
@@ -1091,7 +1091,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition {
 
@@ -1104,7 +1104,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailOverviewAiAgentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailOverviewAiAgentConfiguration {
 
@@ -1117,7 +1117,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfiguration {
 
@@ -1130,7 +1130,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurations {
 
@@ -1143,7 +1143,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData {
 
@@ -1156,7 +1156,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData {
 
@@ -1169,7 +1169,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter {
 
@@ -1182,7 +1182,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions {
 
@@ -1195,7 +1195,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions {
 
@@ -1208,7 +1208,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions {
 
@@ -1221,7 +1221,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition {
 
@@ -1234,7 +1234,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition {
 
@@ -1247,7 +1247,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfiguration {
 
@@ -1260,7 +1260,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurations {
 
@@ -1273,7 +1273,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData {
 
@@ -1286,7 +1286,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData {
 
@@ -1299,7 +1299,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter {
 
@@ -1312,7 +1312,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions {
 
@@ -1325,7 +1325,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions {
 
@@ -1338,7 +1338,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions {
 
@@ -1351,7 +1351,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition {
 
@@ -1364,7 +1364,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition {
 
@@ -1377,7 +1377,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationNoteTakingAiAgentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationNoteTakingAiAgentConfiguration {
 
@@ -1390,7 +1390,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfiguration {
 
@@ -1403,7 +1403,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurations {
 
@@ -1416,7 +1416,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsInstruction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsInstruction {
 
@@ -1429,7 +1429,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFilters {
 
@@ -1442,7 +1442,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersOutputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersOutputConfiguration {
 
@@ -1455,7 +1455,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValues {
 
@@ -1468,7 +1468,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValue {
 
@@ -1481,7 +1481,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValueConstant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValueConstant {
 
@@ -1494,7 +1494,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsUserInteractionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsUserInteractionConfiguration {
 
@@ -1507,7 +1507,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfiguration {
 
@@ -1520,7 +1520,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurations {
 
@@ -1533,7 +1533,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData {
 
@@ -1546,7 +1546,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData {
 
@@ -1559,7 +1559,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter {
 
@@ -1572,7 +1572,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions {
 
@@ -1585,7 +1585,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions {
 
@@ -1598,7 +1598,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions {
 
@@ -1611,7 +1611,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition {
 
@@ -1624,7 +1624,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 &dataawsccwisdomaiagent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition {
 
@@ -1639,7 +1639,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList
 ```
@@ -1788,7 +1788,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference
 ```
@@ -2077,7 +2077,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList
 ```
@@ -2226,7 +2226,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference
 ```
@@ -2515,7 +2515,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList
 ```
@@ -2664,7 +2664,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference
 ```
@@ -2953,7 +2953,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference
 ```
@@ -3224,7 +3224,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference
 ```
@@ -3506,7 +3506,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference
 ```
@@ -3777,7 +3777,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference
 ```
@@ -4059,7 +4059,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference
 ```
@@ -4319,7 +4319,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsList
 ```
@@ -4468,7 +4468,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsOutputReference
 ```
@@ -4768,7 +4768,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationOutputReference
 ```
@@ -5083,7 +5083,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationAnswerRecommendationAiAg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationCaseSummarizationAiAgentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationCaseSummarizationAiAgentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationCaseSummarizationAiAgentConfigurationOutputReference
 ```
@@ -5365,7 +5365,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationCaseSummarizationAiAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList
 ```
@@ -5514,7 +5514,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference
 ```
@@ -5803,7 +5803,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList
 ```
@@ -5952,7 +5952,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference
 ```
@@ -6241,7 +6241,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList
 ```
@@ -6390,7 +6390,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference
 ```
@@ -6679,7 +6679,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference
 ```
@@ -6950,7 +6950,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference
 ```
@@ -7232,7 +7232,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference
 ```
@@ -7503,7 +7503,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference
 ```
@@ -7785,7 +7785,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference
 ```
@@ -8045,7 +8045,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsList
 ```
@@ -8194,7 +8194,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsOutputReference
 ```
@@ -8494,7 +8494,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationOutputReference
 ```
@@ -8787,7 +8787,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailGenerativeAnswerAiA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailOverviewAiAgentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailOverviewAiAgentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailOverviewAiAgentConfigurationOutputReference
 ```
@@ -9058,7 +9058,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailOverviewAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList
 ```
@@ -9207,7 +9207,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference
 ```
@@ -9496,7 +9496,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList
 ```
@@ -9645,7 +9645,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference
 ```
@@ -9934,7 +9934,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList
 ```
@@ -10083,7 +10083,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference
 ```
@@ -10372,7 +10372,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference
 ```
@@ -10643,7 +10643,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference
 ```
@@ -10925,7 +10925,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference
 ```
@@ -11196,7 +11196,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference
 ```
@@ -11478,7 +11478,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference
 ```
@@ -11738,7 +11738,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsList
 ```
@@ -11887,7 +11887,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsOutputReference
 ```
@@ -12187,7 +12187,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConfigurationOutputReference
 ```
@@ -12480,7 +12480,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationEmailResponseAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList
 ```
@@ -12629,7 +12629,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference
 ```
@@ -12918,7 +12918,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList
 ```
@@ -13067,7 +13067,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference
 ```
@@ -13356,7 +13356,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList
 ```
@@ -13505,7 +13505,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference
 ```
@@ -13794,7 +13794,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference
 ```
@@ -14065,7 +14065,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference
 ```
@@ -14347,7 +14347,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference
 ```
@@ -14618,7 +14618,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference
 ```
@@ -14900,7 +14900,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference
 ```
@@ -15160,7 +15160,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsList
 ```
@@ -15309,7 +15309,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsOutputReference
 ```
@@ -15609,7 +15609,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfigurationOutputReference
 ```
@@ -15902,7 +15902,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationManualSearchAiAgentConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationNoteTakingAiAgentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationNoteTakingAiAgentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationNoteTakingAiAgentConfigurationOutputReference
 ```
@@ -16184,7 +16184,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationNoteTakingAiAgentConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationOutputReference
 ```
@@ -16488,7 +16488,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsInstructionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsInstructionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsInstructionOutputReference
 ```
@@ -16759,7 +16759,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsList
 ```
@@ -16908,7 +16908,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersList
 ```
@@ -17057,7 +17057,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersOutputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersOutputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersOutputConfigurationOutputReference
 ```
@@ -17328,7 +17328,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersOutputReference
 ```
@@ -17617,7 +17617,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputReference
 ```
@@ -18016,7 +18016,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesList
 ```
@@ -18165,7 +18165,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesOutputReference
 ```
@@ -18454,7 +18454,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValueConstantOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValueConstantOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValueConstantOutputReference
 ```
@@ -18725,7 +18725,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValueOutputReference
 ```
@@ -18985,7 +18985,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsUserInteractionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsUserInteractionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsUserInteractionConfigurationOutputReference
 ```
@@ -19245,7 +19245,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationOrchestrationAiAgentConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationOutputReference
 ```
@@ -19593,7 +19593,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsList
 ```
@@ -19742,7 +19742,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditionsOutputReference
 ```
@@ -20031,7 +20031,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsList
 ```
@@ -20180,7 +20180,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditionsOutputReference
 ```
@@ -20469,7 +20469,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsList
 ```
@@ -20618,7 +20618,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsOutputReference
 ```
@@ -20907,7 +20907,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagConditionOutputReference
 ```
@@ -21178,7 +21178,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOutputReference
 ```
@@ -21460,7 +21460,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagConditionOutputReference
 ```
@@ -21731,7 +21731,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataOutputReference
 ```
@@ -22013,7 +22013,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataOutputReference
 ```
@@ -22273,7 +22273,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsList
 ```
@@ -22422,7 +22422,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsOutputReference
 ```
@@ -22722,7 +22722,7 @@ func InternalValue() DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiAgent.DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent"
 
 dataawsccwisdomaiagent.NewDataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAiAgentConfigurationSelfServiceAiAgentConfigurationOutputReference
 ```

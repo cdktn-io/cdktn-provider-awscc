@@ -4,12 +4,12 @@
 
 ### DataAwsccImagebuilderLifecyclePolicy <a name="DataAwsccImagebuilderLifecyclePolicy" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_lifecycle_policy awscc_imagebuilder_lifecycle_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_lifecycle_policy awscc_imagebuilder_lifecycle_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicy(scope Construct, id *string, config DataAwsccImagebuilderLifecyclePolicyConfig) DataAwsccImagebuilderLifecyclePolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicy_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicy_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccImagebuilderLifec
 
 The id of the existing DataAwsccImagebuilderLifecyclePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_lifecycle_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_lifecycle_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 &dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicyConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_lifecycle_policy#id DataAwsccImagebuilderLifecyclePolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_lifecycle_policy#id DataAwsccImagebuilderLifecyclePolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 &dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetails {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 &dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsAction {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 &dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResources {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 &dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRules {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 &dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmis {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunched.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 &dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunched {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 &dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsFilter {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyResourceSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 &dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicyResourceSelection {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderl
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyResourceSelectionRecipes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 &dataawsccimagebuilderlifecyclepolicy.DataAwsccImagebuilderLifecyclePolicyResourceSelectionRecipes {
 
@@ -926,7 +926,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResourcesOutputReference
 ```
@@ -1208,7 +1208,7 @@ func InternalValue() DataAwsccImagebuilderLifecyclePolicyPolicyDetailsActionIncl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicyPolicyDetailsActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderLifecyclePolicyPolicyDetailsActionOutputReference
 ```
@@ -1479,7 +1479,7 @@ func InternalValue() DataAwsccImagebuilderLifecyclePolicyPolicyDetailsAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunchedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunchedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunchedOutputReference
 ```
@@ -1750,7 +1750,7 @@ func InternalValue() DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisOutputReference
 ```
@@ -2054,7 +2054,7 @@ func InternalValue() DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesOutputReference
 ```
@@ -2325,7 +2325,7 @@ func InternalValue() DataAwsccImagebuilderLifecyclePolicyPolicyDetailsExclusionR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicyPolicyDetailsFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderLifecyclePolicyPolicyDetailsFilterOutputReference
 ```
@@ -2618,7 +2618,7 @@ func InternalValue() DataAwsccImagebuilderLifecyclePolicyPolicyDetailsFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicyPolicyDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccImagebuilderLifecyclePolicyPolicyDetailsList
 ```
@@ -2767,7 +2767,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyPolicyDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicyPolicyDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccImagebuilderLifecyclePolicyPolicyDetailsOutputReference
 ```
@@ -3067,7 +3067,7 @@ func InternalValue() DataAwsccImagebuilderLifecyclePolicyPolicyDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyResourceSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicyResourceSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderLifecyclePolicyResourceSelectionOutputReference
 ```
@@ -3338,7 +3338,7 @@ func InternalValue() DataAwsccImagebuilderLifecyclePolicyResourceSelection
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyResourceSelectionRecipesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicyResourceSelectionRecipesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccImagebuilderLifecyclePolicyResourceSelectionRecipesList
 ```
@@ -3487,7 +3487,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderLifecyclePolicy.DataAwsccImagebuilderLifecyclePolicyResourceSelectionRecipesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderlifecyclepolicy"
 
 dataawsccimagebuilderlifecyclepolicy.NewDataAwsccImagebuilderLifecyclePolicyResourceSelectionRecipesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccImagebuilderLifecyclePolicyResourceSelectionRecipesOutputReference
 ```

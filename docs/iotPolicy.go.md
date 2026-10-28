@@ -4,12 +4,12 @@
 
 ### IotPolicy <a name="IotPolicy" id="@cdktn/provider-awscc.iotPolicy.IotPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy awscc_iot_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy awscc_iot_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotPolicy.IotPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicy"
 
 iotpolicy.NewIotPolicy(scope Construct, id *string, config IotPolicyConfig) IotPolicy
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotPolicy.IotPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicy"
 
 iotpolicy.IotPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotPolicy.IotPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicy"
 
 iotpolicy.IotPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ iotpolicy.IotPolicy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotPolicy.IotPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicy"
 
 iotpolicy.IotPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ iotpolicy.IotPolicy_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotPolicy.IotPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicy"
 
 iotpolicy.IotPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the IotPolicy to import.
 
 The id of the existing IotPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -815,7 +815,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicy"
 
 &iotpolicy.IotPolicyConfig {
 	Connection: interface{},
@@ -842,9 +842,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicy"
 | <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.policyDocument">PolicyDocument</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}. |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.policyName">PolicyName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy#tags IotPolicy#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.policyDocument">PolicyDocument</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.policyName">PolicyName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy#tags IotPolicy#tags}. |
 
 ---
 
@@ -926,7 +926,7 @@ PolicyDocument *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}.
 
 ---
 
@@ -938,7 +938,7 @@ PolicyName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}.
 
 ---
 
@@ -950,7 +950,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy#tags IotPolicy#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy#tags IotPolicy#tags}.
 
 ---
 
@@ -959,7 +959,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotPolicy.IotPolicyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicy"
 
 &iotpolicy.IotPolicyTags {
 	Key: *string,
@@ -971,8 +971,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicy"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy#key IotPolicy#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy#value IotPolicy#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy#key IotPolicy#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy#value IotPolicy#value}. |
 
 ---
 
@@ -984,7 +984,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy#key IotPolicy#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy#key IotPolicy#key}.
 
 ---
 
@@ -996,7 +996,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy#value IotPolicy#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy#value IotPolicy#value}.
 
 ---
 
@@ -1007,7 +1007,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotPolicy.IotPolicyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicy"
 
 iotpolicy.NewIotPolicyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotPolicyTagsList
 ```
@@ -1167,7 +1167,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotPolicy.IotPolicyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicy"
 
 iotpolicy.NewIotPolicyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotPolicyTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccResiliencehubResiliencyPolicies <a name="DataAwsccResiliencehubResiliencyPolicies" id="@cdktn/provider-awscc.dataAwsccResiliencehubResiliencyPolicies.DataAwsccResiliencehubResiliencyPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehub_resiliency_policies awscc_resiliencehub_resiliency_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehub_resiliency_policies awscc_resiliencehub_resiliency_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubResiliencyPolicies.DataAwsccResiliencehubResiliencyPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubresiliencypolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubresiliencypolicies"
 
 dataawsccresiliencehubresiliencypolicies.NewDataAwsccResiliencehubResiliencyPolicies(scope Construct, id *string, config DataAwsccResiliencehubResiliencyPoliciesConfig) DataAwsccResiliencehubResiliencyPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccResiliencehubResiliencyPolicies.DataAwsccResiliencehubResiliencyPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubresiliencypolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubresiliencypolicies"
 
 dataawsccresiliencehubresiliencypolicies.DataAwsccResiliencehubResiliencyPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccResiliencehubResiliencyPolicies.DataAwsccResiliencehubResiliencyPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubresiliencypolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubresiliencypolicies"
 
 dataawsccresiliencehubresiliencypolicies.DataAwsccResiliencehubResiliencyPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccresiliencehubresiliencypolicies.DataAwsccResiliencehubResiliencyPolicie
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccResiliencehubResiliencyPolicies.DataAwsccResiliencehubResiliencyPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubresiliencypolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubresiliencypolicies"
 
 dataawsccresiliencehubresiliencypolicies.DataAwsccResiliencehubResiliencyPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccresiliencehubresiliencypolicies.DataAwsccResiliencehubResiliencyPolicie
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccResiliencehubResiliencyPolicies.DataAwsccResiliencehubResiliencyPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubresiliencypolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubresiliencypolicies"
 
 dataawsccresiliencehubresiliencypolicies.DataAwsccResiliencehubResiliencyPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResiliencehubResi
 
 The id of the existing DataAwsccResiliencehubResiliencyPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehub_resiliency_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehub_resiliency_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubResiliencyPolicies.DataAwsccResiliencehubResiliencyPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubresiliencypolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubresiliencypolicies"
 
 &dataawsccresiliencehubresiliencypolicies.DataAwsccResiliencehubResiliencyPoliciesConfig {
 	Connection: interface{},

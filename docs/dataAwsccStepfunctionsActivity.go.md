@@ -4,12 +4,12 @@
 
 ### DataAwsccStepfunctionsActivity <a name="DataAwsccStepfunctionsActivity" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivity"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity"
 
 dataawsccstepfunctionsactivity.NewDataAwsccStepfunctionsActivity(scope Construct, id *string, config DataAwsccStepfunctionsActivityConfig) DataAwsccStepfunctionsActivity
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivity.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity"
 
 dataawsccstepfunctionsactivity.DataAwsccStepfunctionsActivity_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivity.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity"
 
 dataawsccstepfunctionsactivity.DataAwsccStepfunctionsActivity_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccstepfunctionsactivity.DataAwsccStepfunctionsActivity_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivity.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity"
 
 dataawsccstepfunctionsactivity.DataAwsccStepfunctionsActivity_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccstepfunctionsactivity.DataAwsccStepfunctionsActivity_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivity.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity"
 
 dataawsccstepfunctionsactivity.DataAwsccStepfunctionsActivity_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccStepfunctionsActi
 
 The id of the existing DataAwsccStepfunctionsActivity that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_activity#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_activity#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity"
 
 &dataawsccstepfunctionsactivity.DataAwsccStepfunctionsActivityConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_activity#id DataAwsccStepfunctionsActivity#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_activity#id DataAwsccStepfunctionsActivity#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivityEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity"
 
 &dataawsccstepfunctionsactivity.DataAwsccStepfunctionsActivityEncryptionConfiguration {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctions
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivityTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity"
 
 &dataawsccstepfunctionsactivity.DataAwsccStepfunctionsActivityTags {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivityEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity"
 
 dataawsccstepfunctionsactivity.NewDataAwsccStepfunctionsActivityEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccStepfunctionsActivityEncryptionConfigurationOutputReference
 ```
@@ -1062,7 +1062,7 @@ func InternalValue() DataAwsccStepfunctionsActivityEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivityTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity"
 
 dataawsccstepfunctionsactivity.NewDataAwsccStepfunctionsActivityTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccStepfunctionsActivityTagsList
 ```
@@ -1211,7 +1211,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivity.DataAwsccStepfunctionsActivityTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity"
 
 dataawsccstepfunctionsactivity.NewDataAwsccStepfunctionsActivityTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccStepfunctionsActivityTagsOutputReference
 ```

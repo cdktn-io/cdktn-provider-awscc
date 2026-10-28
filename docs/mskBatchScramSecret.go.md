@@ -4,12 +4,12 @@
 
 ### MskBatchScramSecret <a name="MskBatchScramSecret" id="@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mskbatchscramsecret"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mskbatchscramsecret"
 
 mskbatchscramsecret.NewMskBatchScramSecret(scope Construct, id *string, config MskBatchScramSecretConfig) MskBatchScramSecret
 ```
@@ -407,7 +407,7 @@ func ResetSecretArnList()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mskbatchscramsecret"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mskbatchscramsecret"
 
 mskbatchscramsecret.MskBatchScramSecret_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mskbatchscramsecret"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mskbatchscramsecret"
 
 mskbatchscramsecret.MskBatchScramSecret_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ mskbatchscramsecret.MskBatchScramSecret_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mskbatchscramsecret"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mskbatchscramsecret"
 
 mskbatchscramsecret.MskBatchScramSecret_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ mskbatchscramsecret.MskBatchScramSecret_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mskbatchscramsecret"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mskbatchscramsecret"
 
 mskbatchscramsecret.MskBatchScramSecret_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the MskBatchScramSecret to imp
 
 The id of the existing MskBatchScramSecret that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_batch_scram_secret#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_batch_scram_secret#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -751,7 +751,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mskbatchscramsecret"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mskbatchscramsecret"
 
 &mskbatchscramsecret.MskBatchScramSecretConfig {
 	Connection: interface{},
@@ -777,8 +777,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mskbatchscramsecret"
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.clusterArn">ClusterArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}. |
-| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.secretArnList">SecretArnList</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}. |
+| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.clusterArn">ClusterArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}. |
+| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.secretArnList">SecretArnList</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}. |
 
 ---
 
@@ -860,7 +860,7 @@ ClusterArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}.
 
 ---
 
@@ -872,7 +872,7 @@ SecretArnList *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}.
 
 ---
 

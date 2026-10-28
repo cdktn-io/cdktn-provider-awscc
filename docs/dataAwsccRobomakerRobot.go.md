@@ -4,12 +4,12 @@
 
 ### DataAwsccRobomakerRobot <a name="DataAwsccRobomakerRobot" id="@cdktn/provider-awscc.dataAwsccRobomakerRobot.DataAwsccRobomakerRobot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_robot awscc_robomaker_robot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_robot awscc_robomaker_robot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRobomakerRobot.DataAwsccRobomakerRobot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerrobot"
 
 dataawsccrobomakerrobot.NewDataAwsccRobomakerRobot(scope Construct, id *string, config DataAwsccRobomakerRobotConfig) DataAwsccRobomakerRobot
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRobomakerRobot.DataAwsccRobomakerRobot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerrobot"
 
 dataawsccrobomakerrobot.DataAwsccRobomakerRobot_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRobomakerRobot.DataAwsccRobomakerRobot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerrobot"
 
 dataawsccrobomakerrobot.DataAwsccRobomakerRobot_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrobomakerrobot.DataAwsccRobomakerRobot_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRobomakerRobot.DataAwsccRobomakerRobot.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerrobot"
 
 dataawsccrobomakerrobot.DataAwsccRobomakerRobot_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrobomakerrobot.DataAwsccRobomakerRobot_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRobomakerRobot.DataAwsccRobomakerRobot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerrobot"
 
 dataawsccrobomakerrobot.DataAwsccRobomakerRobot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRobomakerRobot to
 
 The id of the existing DataAwsccRobomakerRobot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_robot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_robot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRobomakerRobot.DataAwsccRobomakerRobotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerrobot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerrobot"
 
 &dataawsccrobomakerrobot.DataAwsccRobomakerRobotConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_robot#id DataAwsccRobomakerRobot#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_robot#id DataAwsccRobomakerRobot#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

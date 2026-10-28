@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticloadbalancingv2ListenerRule <a name="DataAwsccElasticloadbalancingv2ListenerRule" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRule(scope Construct, id *string, config DataAwsccElasticloadbalancingv2ListenerRuleConfig) DataAwsccElasticloadbalancingv2ListenerRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2Liste
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2Liste
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticloadbalanc
 
 The id of the existing DataAwsccElasticloadbalancingv2ListenerRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancingv2_listener_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancingv2_listener_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleActions {
 
@@ -688,7 +688,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfig {
 
@@ -701,7 +701,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfig {
 
@@ -714,7 +714,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsFixedResponseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleActionsFixedResponseConfig {
 
@@ -727,7 +727,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfig {
 
@@ -740,7 +740,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroups {
 
@@ -753,7 +753,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupStickinessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupStickinessConfig {
 
@@ -766,7 +766,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfig {
 
@@ -779,7 +779,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfigAdditionalClaims.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfigAdditionalClaims {
 
@@ -792,7 +792,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsRedirectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleActionsRedirectConfig {
 
@@ -805,7 +805,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleConditions {
 
@@ -818,7 +818,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsHostHeaderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsHostHeaderConfig {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpHeaderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpHeaderConfig {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpRequestMethodConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpRequestMethodConfig {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsPathPatternConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsPathPatternConfig {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfig {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfigValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfigValues {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsSourceIpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsSourceIpConfig {
 
@@ -909,7 +909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleConfig {
 	Connection: interface{},
@@ -1018,7 +1018,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancingv2_listener_rule#id DataAwsccElasticloadbalancingv2ListenerRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancingv2_listener_rule#id DataAwsccElasticloadbalancingv2ListenerRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1030,7 +1030,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleTags {
 
@@ -1043,7 +1043,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransforms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleTransforms {
 
@@ -1056,7 +1056,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfig {
 
@@ -1069,7 +1069,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfigRewrites.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfigRewrites {
 
@@ -1082,7 +1082,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfig {
 
@@ -1095,7 +1095,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigRewrites.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 &dataawsccelasticloadbalancingv2listenerrule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigRewrites {
 
@@ -1110,7 +1110,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadba
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfigOutputReference
 ```
@@ -1447,7 +1447,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleActionsAuthentic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutputReference
 ```
@@ -1828,7 +1828,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleActionsAuthentic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsFixedResponseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsFixedResponseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleActionsFixedResponseConfigOutputReference
 ```
@@ -2110,7 +2110,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleActionsFixedResp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigOutputReference
 ```
@@ -2381,7 +2381,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupsList
 ```
@@ -2530,7 +2530,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupsOutputReference
 ```
@@ -2819,7 +2819,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupStickinessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupStickinessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupStickinessConfigOutputReference
 ```
@@ -3090,7 +3090,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleActionsForwardCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfigAdditionalClaimsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfigAdditionalClaimsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfigAdditionalClaimsList
 ```
@@ -3239,7 +3239,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfigAdditionalClaimsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfigAdditionalClaimsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfigAdditionalClaimsOutputReference
 ```
@@ -3539,7 +3539,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValida
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValidationConfigOutputReference
 ```
@@ -3821,7 +3821,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleActionsJwtValida
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleActionsList
 ```
@@ -3970,7 +3970,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleActionsOutputReference
 ```
@@ -4336,7 +4336,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleActionsRedirectConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleActionsRedirectConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleActionsRedirectConfigOutputReference
 ```
@@ -4651,7 +4651,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleActionsRedirectC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsHostHeaderConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleConditionsHostHeaderConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleConditionsHostHeaderConfigOutputReference
 ```
@@ -4922,7 +4922,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleConditionsHostHe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpHeaderConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpHeaderConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpHeaderConfigOutputReference
 ```
@@ -5204,7 +5204,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpHe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpRequestMethodConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpRequestMethodConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpRequestMethodConfigOutputReference
 ```
@@ -5464,7 +5464,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleConditionsHttpRe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleConditionsList
 ```
@@ -5613,7 +5613,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleConditionsOutputReference
 ```
@@ -5979,7 +5979,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsPathPatternConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleConditionsPathPatternConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleConditionsPathPatternConfigOutputReference
 ```
@@ -6250,7 +6250,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleConditionsPathPa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfigOutputReference
 ```
@@ -6510,7 +6510,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfigValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfigValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfigValuesList
 ```
@@ -6659,7 +6659,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfigValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfigValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryStringConfigValuesOutputReference
 ```
@@ -6948,7 +6948,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleConditionsQueryS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleConditionsSourceIpConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleConditionsSourceIpConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleConditionsSourceIpConfigOutputReference
 ```
@@ -7219,7 +7219,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleConditionsSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleTagsList
 ```
@@ -7368,7 +7368,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleTagsOutputReference
 ```
@@ -7657,7 +7657,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfigOutputReference
 ```
@@ -7917,7 +7917,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfigRewritesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfigRewritesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfigRewritesList
 ```
@@ -8066,7 +8066,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfigRewritesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfigRewritesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfigRewritesOutputReference
 ```
@@ -8355,7 +8355,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleTransformsHostHe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleTransformsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleTransformsList
 ```
@@ -8504,7 +8504,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleTransformsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleTransformsOutputReference
 ```
@@ -8804,7 +8804,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleTransforms
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigOutputReference
 ```
@@ -9064,7 +9064,7 @@ func InternalValue() DataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRew
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigRewritesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigRewritesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigRewritesList
 ```
@@ -9213,7 +9213,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2ListenerRule.DataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigRewritesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2listenerrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2listenerrule"
 
 dataawsccelasticloadbalancingv2listenerrule.NewDataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigRewritesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigRewritesOutputReference
 ```

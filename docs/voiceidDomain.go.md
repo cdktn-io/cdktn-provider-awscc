@@ -4,12 +4,12 @@
 
 ### VoiceidDomain <a name="VoiceidDomain" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain awscc_voiceid_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain awscc_voiceid_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/voiceiddomain"
 
 voiceiddomain.NewVoiceidDomain(scope Construct, id *string, config VoiceidDomainConfig) VoiceidDomain
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/voiceiddomain"
 
 voiceiddomain.VoiceidDomain_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/voiceiddomain"
 
 voiceiddomain.VoiceidDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ voiceiddomain.VoiceidDomain_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomain.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/voiceiddomain"
 
 voiceiddomain.VoiceidDomain_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ voiceiddomain.VoiceidDomain_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/voiceiddomain"
 
 voiceiddomain.VoiceidDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the VoiceidDomain to import.
 
 The id of the existing VoiceidDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -839,7 +839,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/voiceiddomain"
 
 &voiceiddomain.VoiceidDomainConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	ServerSideEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.voiceidDomain.VoiceidDomainServerSideEncryptionConfiguration,
+	ServerSideEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.voiceidDomain.VoiceidDomainServerSideEncryptionConfiguration,
 	Description: *string,
 	Tags: interface{},
 }
@@ -867,10 +867,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
 | <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#name VoiceidDomain#name}. |
-| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.property.serverSideEncryptionConfiguration">ServerSideEncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainServerSideEncryptionConfiguration">VoiceidDomainServerSideEncryptionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#server_side_encryption_configuration VoiceidDomain#server_side_encryption_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#description VoiceidDomain#description}. |
-| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#tags VoiceidDomain#tags}. |
+| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#name VoiceidDomain#name}. |
+| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.property.serverSideEncryptionConfiguration">ServerSideEncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainServerSideEncryptionConfiguration">VoiceidDomainServerSideEncryptionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#server_side_encryption_configuration VoiceidDomain#server_side_encryption_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#description VoiceidDomain#description}. |
+| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#tags VoiceidDomain#tags}. |
 
 ---
 
@@ -952,7 +952,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#name VoiceidDomain#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#name VoiceidDomain#name}.
 
 ---
 
@@ -964,7 +964,7 @@ ServerSideEncryptionConfiguration VoiceidDomainServerSideEncryptionConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainServerSideEncryptionConfiguration">VoiceidDomainServerSideEncryptionConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#server_side_encryption_configuration VoiceidDomain#server_side_encryption_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#server_side_encryption_configuration VoiceidDomain#server_side_encryption_configuration}.
 
 ---
 
@@ -976,7 +976,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#description VoiceidDomain#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#description VoiceidDomain#description}.
 
 ---
 
@@ -988,7 +988,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#tags VoiceidDomain#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#tags VoiceidDomain#tags}.
 
 ---
 
@@ -997,7 +997,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomainServerSideEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/voiceiddomain"
 
 &voiceiddomain.VoiceidDomainServerSideEncryptionConfiguration {
 	KmsKeyId: *string,
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainServerSideEncryptionConfiguration.property.kmsKeyId">KmsKeyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#kms_key_id VoiceidDomain#kms_key_id}. |
+| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainServerSideEncryptionConfiguration.property.kmsKeyId">KmsKeyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#kms_key_id VoiceidDomain#kms_key_id}. |
 
 ---
 
@@ -1020,7 +1020,7 @@ KmsKeyId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#kms_key_id VoiceidDomain#kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#kms_key_id VoiceidDomain#kms_key_id}.
 
 ---
 
@@ -1029,7 +1029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomainTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/voiceiddomain"
 
 &voiceiddomain.VoiceidDomainTags {
 	Key: *string,
@@ -1041,8 +1041,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#key VoiceidDomain#key}. |
-| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#value VoiceidDomain#value}. |
+| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#key VoiceidDomain#key}. |
+| <code><a href="#@cdktn/provider-awscc.voiceidDomain.VoiceidDomainTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#value VoiceidDomain#value}. |
 
 ---
 
@@ -1054,7 +1054,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#key VoiceidDomain#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#key VoiceidDomain#key}.
 
 ---
 
@@ -1066,7 +1066,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/voiceid_domain#value VoiceidDomain#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/voiceid_domain#value VoiceidDomain#value}.
 
 ---
 
@@ -1077,7 +1077,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomainServerSideEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/voiceiddomain"
 
 voiceiddomain.NewVoiceidDomainServerSideEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) VoiceidDomainServerSideEncryptionConfigurationOutputReference
 ```
@@ -1348,7 +1348,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomainTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/voiceiddomain"
 
 voiceiddomain.NewVoiceidDomainTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VoiceidDomainTagsList
 ```
@@ -1508,7 +1508,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.voiceidDomain.VoiceidDomainTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/voiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/voiceiddomain"
 
 voiceiddomain.NewVoiceidDomainTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) VoiceidDomainTagsOutputReference
 ```

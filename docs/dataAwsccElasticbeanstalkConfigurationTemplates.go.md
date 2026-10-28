@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticbeanstalkConfigurationTemplates <a name="DataAwsccElasticbeanstalkConfigurationTemplates" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkConfigurationTemplates.DataAwsccElasticbeanstalkConfigurationTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_configuration_templates awscc_elasticbeanstalk_configuration_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_configuration_templates awscc_elasticbeanstalk_configuration_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkConfigurationTemplates.DataAwsccElasticbeanstalkConfigurationTemplates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkconfigurationtemplates"
 
 dataawsccelasticbeanstalkconfigurationtemplates.NewDataAwsccElasticbeanstalkConfigurationTemplates(scope Construct, id *string, config DataAwsccElasticbeanstalkConfigurationTemplatesConfig) DataAwsccElasticbeanstalkConfigurationTemplates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkConfigurationTemplates.DataAwsccElasticbeanstalkConfigurationTemplates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkconfigurationtemplates"
 
 dataawsccelasticbeanstalkconfigurationtemplates.DataAwsccElasticbeanstalkConfigurationTemplates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkConfigurationTemplates.DataAwsccElasticbeanstalkConfigurationTemplates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkconfigurationtemplates"
 
 dataawsccelasticbeanstalkconfigurationtemplates.DataAwsccElasticbeanstalkConfigurationTemplates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticbeanstalkconfigurationtemplates.DataAwsccElasticbeanstalkConfigu
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkConfigurationTemplates.DataAwsccElasticbeanstalkConfigurationTemplates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkconfigurationtemplates"
 
 dataawsccelasticbeanstalkconfigurationtemplates.DataAwsccElasticbeanstalkConfigurationTemplates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticbeanstalkconfigurationtemplates.DataAwsccElasticbeanstalkConfigu
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkConfigurationTemplates.DataAwsccElasticbeanstalkConfigurationTemplates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkconfigurationtemplates"
 
 dataawsccelasticbeanstalkconfigurationtemplates.DataAwsccElasticbeanstalkConfigurationTemplates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticbeanstalkC
 
 The id of the existing DataAwsccElasticbeanstalkConfigurationTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_configuration_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_configuration_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkConfigurationTemplates.DataAwsccElasticbeanstalkConfigurationTemplatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkconfigurationtemplates"
 
 &dataawsccelasticbeanstalkconfigurationtemplates.DataAwsccElasticbeanstalkConfigurationTemplatesConfig {
 	Connection: interface{},

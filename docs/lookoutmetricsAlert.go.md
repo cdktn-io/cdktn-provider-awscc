@@ -4,12 +4,12 @@
 
 ### LookoutmetricsAlert <a name="LookoutmetricsAlert" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlert"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlert.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 lookoutmetricsalert.NewLookoutmetricsAlert(scope Construct, id *string, config LookoutmetricsAlertConfig) LookoutmetricsAlert
 ```
@@ -427,7 +427,7 @@ func ResetAlertName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlert.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 lookoutmetricsalert.LookoutmetricsAlert_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlert.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 lookoutmetricsalert.LookoutmetricsAlert_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ lookoutmetricsalert.LookoutmetricsAlert_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlert.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 lookoutmetricsalert.LookoutmetricsAlert_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ lookoutmetricsalert.LookoutmetricsAlert_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlert.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 lookoutmetricsalert.LookoutmetricsAlert_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the LookoutmetricsAlert to imp
 
 The id of the existing LookoutmetricsAlert that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -848,11 +848,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlertAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 &lookoutmetricsalert.LookoutmetricsAlertAction {
-	LambdaConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lookoutmetricsAlert.LookoutmetricsAlertActionLambdaConfiguration,
-	SnsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lookoutmetricsAlert.LookoutmetricsAlertActionSnsConfiguration,
+	LambdaConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lookoutmetricsAlert.LookoutmetricsAlertActionLambdaConfiguration,
+	SnsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lookoutmetricsAlert.LookoutmetricsAlertActionSnsConfiguration,
 }
 ```
 
@@ -875,7 +875,7 @@ LambdaConfiguration LookoutmetricsAlertActionLambdaConfiguration
 
 Configuration options for a Lambda alert action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#lambda_configuration LookoutmetricsAlert#lambda_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#lambda_configuration LookoutmetricsAlert#lambda_configuration}
 
 ---
 
@@ -889,7 +889,7 @@ SnsConfiguration LookoutmetricsAlertActionSnsConfiguration
 
 Configuration options for an SNS alert action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#sns_configuration LookoutmetricsAlert#sns_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#sns_configuration LookoutmetricsAlert#sns_configuration}
 
 ---
 
@@ -898,7 +898,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlertActionLambdaConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 &lookoutmetricsalert.LookoutmetricsAlertActionLambdaConfiguration {
 	LambdaArn: *string,
@@ -925,7 +925,7 @@ LambdaArn *string
 
 ARN of a Lambda to send alert notifications to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#lambda_arn LookoutmetricsAlert#lambda_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#lambda_arn LookoutmetricsAlert#lambda_arn}
 
 ---
 
@@ -939,7 +939,7 @@ RoleArn *string
 
 ARN of an IAM role that LookoutMetrics should assume to access the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#role_arn LookoutmetricsAlert#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#role_arn LookoutmetricsAlert#role_arn}
 
 ---
 
@@ -948,7 +948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlertActionSnsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 &lookoutmetricsalert.LookoutmetricsAlertActionSnsConfiguration {
 	RoleArn: *string,
@@ -975,7 +975,7 @@ RoleArn *string
 
 ARN of an IAM role that LookoutMetrics should assume to access the SNS topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#role_arn LookoutmetricsAlert#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#role_arn LookoutmetricsAlert#role_arn}
 
 ---
 
@@ -989,7 +989,7 @@ SnsTopicArn *string
 
 ARN of an SNS topic to send alert notifications to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#sns_topic_arn LookoutmetricsAlert#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#sns_topic_arn LookoutmetricsAlert#sns_topic_arn}
 
 ---
 
@@ -998,7 +998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlertConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 &lookoutmetricsalert.LookoutmetricsAlertConfig {
 	Connection: interface{},
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Action: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lookoutmetricsAlert.LookoutmetricsAlertAction,
+	Action: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lookoutmetricsAlert.LookoutmetricsAlertAction,
 	AlertSensitivityThreshold: *f64,
 	AnomalyDetectorArn: *string,
 	AlertDescription: *string,
@@ -1115,7 +1115,7 @@ Action LookoutmetricsAlertAction
 
 The action to be taken by the alert when an anomaly is detected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#action LookoutmetricsAlert#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#action LookoutmetricsAlert#action}
 
 ---
 
@@ -1129,7 +1129,7 @@ AlertSensitivityThreshold *f64
 
 A number between 0 and 100 (inclusive) that tunes the sensitivity of the alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#alert_sensitivity_threshold LookoutmetricsAlert#alert_sensitivity_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#alert_sensitivity_threshold LookoutmetricsAlert#alert_sensitivity_threshold}
 
 ---
 
@@ -1143,7 +1143,7 @@ AnomalyDetectorArn *string
 
 The Amazon resource name (ARN) of the Anomaly Detector to alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#anomaly_detector_arn LookoutmetricsAlert#anomaly_detector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#anomaly_detector_arn LookoutmetricsAlert#anomaly_detector_arn}
 
 ---
 
@@ -1157,7 +1157,7 @@ AlertDescription *string
 
 A description for the alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#alert_description LookoutmetricsAlert#alert_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#alert_description LookoutmetricsAlert#alert_description}
 
 ---
 
@@ -1171,7 +1171,7 @@ AlertName *string
 
 The name of the alert. If not provided, a name is generated automatically.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert#alert_name LookoutmetricsAlert#alert_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert#alert_name LookoutmetricsAlert#alert_name}
 
 ---
 
@@ -1182,7 +1182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlertActionLambdaConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 lookoutmetricsalert.NewLookoutmetricsAlertActionLambdaConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LookoutmetricsAlertActionLambdaConfigurationOutputReference
 ```
@@ -1489,7 +1489,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlertActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 lookoutmetricsalert.NewLookoutmetricsAlertActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LookoutmetricsAlertActionOutputReference
 ```
@@ -1822,7 +1822,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutmetricsAlert.LookoutmetricsAlertActionSnsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert"
 
 lookoutmetricsalert.NewLookoutmetricsAlertActionSnsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LookoutmetricsAlertActionSnsConfigurationOutputReference
 ```

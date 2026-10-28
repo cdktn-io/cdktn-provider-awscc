@@ -4,12 +4,12 @@
 
 ### DataAwsccApprunnerService <a name="DataAwsccApprunnerService" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_service awscc_apprunner_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_service awscc_apprunner_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerService(scope Construct, id *string, config DataAwsccApprunnerServiceConfig) DataAwsccApprunnerService
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerService.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.DataAwsccApprunnerService_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerService.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.DataAwsccApprunnerService_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapprunnerservice.DataAwsccApprunnerService_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerService.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.DataAwsccApprunnerService_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapprunnerservice.DataAwsccApprunnerService_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerService.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.DataAwsccApprunnerService_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApprunnerService 
 
 The id of the existing DataAwsccApprunnerService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_service#id DataAwsccApprunnerService#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_service#id DataAwsccApprunnerService#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceEncryptionConfiguration {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceHealthCheckConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceHealthCheckConfiguration {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceInstanceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceInstanceConfiguration {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceNetworkConfiguration {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceNetworkConfigurationEgressConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceNetworkConfigurationEgressConfiguration {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceNetworkConfigurationIngressConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceNetworkConfigurationIngressConfiguration {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceObservabilityConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceObservabilityConfiguration {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfiguration {
 
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationAuthenticationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfigurationAuthenticationConfiguration {
 
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfigurationCodeRepository {
 
@@ -981,7 +981,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfiguration {
 
@@ -994,7 +994,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues {
 
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecrets {
 
@@ -1020,7 +1020,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariables {
 
@@ -1033,7 +1033,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersion {
 
@@ -1046,7 +1046,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationImageRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfigurationImageRepository {
 
@@ -1059,7 +1059,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration {
 
@@ -1072,7 +1072,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecrets {
 
@@ -1085,7 +1085,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariables {
 
@@ -1098,7 +1098,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 &dataawsccapprunnerservice.DataAwsccApprunnerServiceTags {
 
@@ -1113,7 +1113,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerserv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceEncryptionConfigurationOutputReference
 ```
@@ -1373,7 +1373,7 @@ func InternalValue() DataAwsccApprunnerServiceEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceHealthCheckConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceHealthCheckConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceHealthCheckConfigurationOutputReference
 ```
@@ -1688,7 +1688,7 @@ func InternalValue() DataAwsccApprunnerServiceHealthCheckConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceInstanceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceInstanceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceInstanceConfigurationOutputReference
 ```
@@ -1970,7 +1970,7 @@ func InternalValue() DataAwsccApprunnerServiceInstanceConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceNetworkConfigurationEgressConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceNetworkConfigurationEgressConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceNetworkConfigurationEgressConfigurationOutputReference
 ```
@@ -2241,7 +2241,7 @@ func InternalValue() DataAwsccApprunnerServiceNetworkConfigurationEgressConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceNetworkConfigurationIngressConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceNetworkConfigurationIngressConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceNetworkConfigurationIngressConfigurationOutputReference
 ```
@@ -2501,7 +2501,7 @@ func InternalValue() DataAwsccApprunnerServiceNetworkConfigurationIngressConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceNetworkConfigurationOutputReference
 ```
@@ -2783,7 +2783,7 @@ func InternalValue() DataAwsccApprunnerServiceNetworkConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceObservabilityConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceObservabilityConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceObservabilityConfigurationOutputReference
 ```
@@ -3054,7 +3054,7 @@ func InternalValue() DataAwsccApprunnerServiceObservabilityConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReference
 ```
@@ -3325,7 +3325,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfigurationAuthenticationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesOutputReference
 ```
@@ -3640,7 +3640,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsList
 ```
@@ -3789,7 +3789,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsOutputReference
 ```
@@ -4078,7 +4078,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesList
 ```
@@ -4227,7 +4227,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesOutputReference
 ```
@@ -4516,7 +4516,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationOutputReference
 ```
@@ -4787,7 +4787,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationCodeRepositoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryOutputReference
 ```
@@ -5080,7 +5080,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfigurationCodeRepository
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersionOutputReference
 ```
@@ -5351,7 +5351,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfigurationCodeRepositoryS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationOutputReference
 ```
@@ -5644,7 +5644,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfigurationImageRepository
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsList
 ```
@@ -5793,7 +5793,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsOutputReference
 ```
@@ -6082,7 +6082,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfigurationImageRepository
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesList
 ```
@@ -6231,7 +6231,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesOutputReference
 ```
@@ -6520,7 +6520,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfigurationImageRepository
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationImageRepositoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationImageRepositoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceSourceConfigurationImageRepositoryOutputReference
 ```
@@ -6802,7 +6802,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfigurationImageRepository
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApprunnerServiceSourceConfigurationOutputReference
 ```
@@ -7095,7 +7095,7 @@ func InternalValue() DataAwsccApprunnerServiceSourceConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApprunnerServiceTagsList
 ```
@@ -7244,7 +7244,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerService.DataAwsccApprunnerServiceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice"
 
 dataawsccapprunnerservice.NewDataAwsccApprunnerServiceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApprunnerServiceTagsOutputReference
 ```

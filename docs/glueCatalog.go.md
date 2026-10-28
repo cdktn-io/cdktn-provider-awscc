@@ -4,12 +4,12 @@
 
 ### GlueCatalog <a name="GlueCatalog" id="@cdktn/provider-awscc.glueCatalog.GlueCatalog"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog awscc_glue_catalog}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog awscc_glue_catalog}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalog(scope Construct, id *string, config GlueCatalogConfig) GlueCatalog
 ```
@@ -548,7 +548,7 @@ func ResetTargetRedshiftCatalog()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueCatalog.GlueCatalog.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.GlueCatalog_IsConstruct(x interface{}) *bool
 ```
@@ -580,7 +580,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueCatalog.GlueCatalog.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.GlueCatalog_IsTerraformElement(x interface{}) *bool
 ```
@@ -594,7 +594,7 @@ gluecatalog.GlueCatalog_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueCatalog.GlueCatalog.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.GlueCatalog_IsTerraformResource(x interface{}) *bool
 ```
@@ -608,7 +608,7 @@ gluecatalog.GlueCatalog_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueCatalog.GlueCatalog.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.GlueCatalog_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -637,7 +637,7 @@ The construct id used in the generated config for the GlueCatalog to import.
 
 The id of the existing GlueCatalog that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1134,10 +1134,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCatalogProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 &gluecatalog.GlueCatalogCatalogProperties {
-	DataLakeAccessProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueCatalog.GlueCatalogCatalogPropertiesDataLakeAccessProperties,
+	DataLakeAccessProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueCatalog.GlueCatalogCatalogPropertiesDataLakeAccessProperties,
 }
 ```
 
@@ -1159,7 +1159,7 @@ DataLakeAccessProperties GlueCatalogCatalogPropertiesDataLakeAccessProperties
 
 Data lake access properties for the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
 
 ---
 
@@ -1168,7 +1168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCatalogPropertiesDataLakeAccessProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 &gluecatalog.GlueCatalogCatalogPropertiesDataLakeAccessProperties {
 	AllowFullTableExternalDataAccess: *string,
@@ -1201,7 +1201,7 @@ AllowFullTableExternalDataAccess *string
 
 Allows third-party engines to access data in Amazon S3 locations that are registered with Lake Formation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
 
 ---
 
@@ -1215,7 +1215,7 @@ CatalogType *string
 
 Specifies a federated catalog type for the native catalog resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
 
 ---
 
@@ -1229,7 +1229,7 @@ DataLakeAccess interface{}
 
 Turns on or off data lake access for Apache Spark applications that access Amazon Redshift databases in the Data Catalog from any non-Redshift engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
 
 ---
 
@@ -1243,7 +1243,7 @@ DataTransferRole *string
 
 A role that will be assumed by Glue for transferring data into/out of the staging bucket during a query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
 
 ---
 
@@ -1257,7 +1257,7 @@ KmsKey *string
 
 An encryption key that will be used for the staging bucket that will be created along with the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
 
 ---
 
@@ -1266,7 +1266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 &gluecatalog.GlueCatalogConfig {
 	Connection: interface{},
@@ -1278,15 +1278,15 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
 	Provisioners: *[]interface{},
 	Name: *string,
 	AllowFullTableExternalDataAccess: *string,
-	CatalogProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueCatalog.GlueCatalogCatalogProperties,
+	CatalogProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueCatalog.GlueCatalogCatalogProperties,
 	CreateDatabaseDefaultPermissions: interface{},
 	CreateTableDefaultPermissions: interface{},
 	Description: *string,
-	FederatedCatalog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueCatalog.GlueCatalogFederatedCatalog,
+	FederatedCatalog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueCatalog.GlueCatalogFederatedCatalog,
 	OverwriteChildResourcePermissionsWithDefault: *string,
 	Parameters: *map[string]*string,
 	Tags: interface{},
-	TargetRedshiftCatalog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueCatalog.GlueCatalogTargetRedshiftCatalog,
+	TargetRedshiftCatalog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueCatalog.GlueCatalogTargetRedshiftCatalog,
 }
 ```
 
@@ -1395,7 +1395,7 @@ Name *string
 
 The name of the catalog to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#name GlueCatalog#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#name GlueCatalog#name}
 
 ---
 
@@ -1409,7 +1409,7 @@ AllowFullTableExternalDataAccess *string
 
 Allows third-party engines to access data in Amazon S3 locations that are registered with Lake Formation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
 
 ---
 
@@ -1423,7 +1423,7 @@ CatalogProperties GlueCatalogCatalogProperties
 
 A structure that specifies data lake access properties and other custom properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
 
 ---
 
@@ -1437,7 +1437,7 @@ CreateDatabaseDefaultPermissions interface{}
 
 An array of PrincipalPermissions objects for default database permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
 
 ---
 
@@ -1451,7 +1451,7 @@ CreateTableDefaultPermissions interface{}
 
 An array of PrincipalPermissions objects for default table permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
 
 ---
 
@@ -1465,7 +1465,7 @@ Description *string
 
 A description of the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#description GlueCatalog#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#description GlueCatalog#description}
 
 ---
 
@@ -1479,7 +1479,7 @@ FederatedCatalog GlueCatalogFederatedCatalog
 
 A FederatedCatalog structure that references an entity outside the Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
 
 ---
 
@@ -1493,7 +1493,7 @@ OverwriteChildResourcePermissionsWithDefault *string
 
 Specifies whether to overwrite child resource permissions with the default permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
 
 ---
 
@@ -1507,7 +1507,7 @@ Parameters *map[string]*string
 
 A map of key-value pairs that define parameters and properties of the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
 
 ---
 
@@ -1521,7 +1521,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
 
 ---
 
@@ -1535,7 +1535,7 @@ TargetRedshiftCatalog GlueCatalogTargetRedshiftCatalog
 
 A structure that describes a target catalog for resource linking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
 
 ---
 
@@ -1544,11 +1544,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 &gluecatalog.GlueCatalogCreateDatabaseDefaultPermissions {
 	Permissions: *[]*string,
-	Principal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissionsPrincipal,
+	Principal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissionsPrincipal,
 }
 ```
 
@@ -1571,7 +1571,7 @@ Permissions *[]*string
 
 The permissions that are granted to the principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
 
 ---
 
@@ -1585,7 +1585,7 @@ Principal GlueCatalogCreateDatabaseDefaultPermissionsPrincipal
 
 The Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
 
 ---
 
@@ -1594,7 +1594,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissionsPrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 &gluecatalog.GlueCatalogCreateDatabaseDefaultPermissionsPrincipal {
 	DataLakePrincipalIdentifier: *string,
@@ -1619,7 +1619,7 @@ DataLakePrincipalIdentifier *string
 
 An identifier for the Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
 
 ---
 
@@ -1628,11 +1628,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCreateTableDefaultPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 &gluecatalog.GlueCatalogCreateTableDefaultPermissions {
 	Permissions: *[]*string,
-	Principal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueCatalog.GlueCatalogCreateTableDefaultPermissionsPrincipal,
+	Principal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueCatalog.GlueCatalogCreateTableDefaultPermissionsPrincipal,
 }
 ```
 
@@ -1655,7 +1655,7 @@ Permissions *[]*string
 
 The permissions that are granted to the principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
 
 ---
 
@@ -1669,7 +1669,7 @@ Principal GlueCatalogCreateTableDefaultPermissionsPrincipal
 
 The Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
 
 ---
 
@@ -1678,7 +1678,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCreateTableDefaultPermissionsPrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 &gluecatalog.GlueCatalogCreateTableDefaultPermissionsPrincipal {
 	DataLakePrincipalIdentifier: *string,
@@ -1703,7 +1703,7 @@ DataLakePrincipalIdentifier *string
 
 An identifier for the Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
 
 ---
 
@@ -1712,7 +1712,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 &gluecatalog.GlueCatalogFederatedCatalog {
 	ConnectionName: *string,
@@ -1739,7 +1739,7 @@ ConnectionName *string
 
 The name of the connection to an external data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
 
 ---
 
@@ -1753,7 +1753,7 @@ Identifier *string
 
 A unique identifier for the federated catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
 
 ---
 
@@ -1762,7 +1762,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 &gluecatalog.GlueCatalogTags {
 	Key: *string,
@@ -1789,7 +1789,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#key GlueCatalog#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#key GlueCatalog#key}
 
 ---
 
@@ -1803,7 +1803,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#value GlueCatalog#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#value GlueCatalog#value}
 
 ---
 
@@ -1812,7 +1812,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogTargetRedshiftCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 &gluecatalog.GlueCatalogTargetRedshiftCatalog {
 	CatalogArn: *string,
@@ -1837,7 +1837,7 @@ CatalogArn *string
 
 The Amazon Resource Name (ARN) of the catalog resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
 
 ---
 
@@ -1848,7 +1848,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueCatalogCatalogPropertiesDataLakeAccessPropertiesOutputReference
 ```
@@ -2275,7 +2275,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCatalogPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogCatalogPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueCatalogCatalogPropertiesOutputReference
 ```
@@ -2577,7 +2577,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogCreateDatabaseDefaultPermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueCatalogCreateDatabaseDefaultPermissionsList
 ```
@@ -2737,7 +2737,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogCreateDatabaseDefaultPermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueCatalogCreateDatabaseDefaultPermissionsOutputReference
 ```
@@ -3075,7 +3075,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissionsPrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogCreateDatabaseDefaultPermissionsPrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueCatalogCreateDatabaseDefaultPermissionsPrincipalOutputReference
 ```
@@ -3353,7 +3353,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCreateTableDefaultPermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogCreateTableDefaultPermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueCatalogCreateTableDefaultPermissionsList
 ```
@@ -3513,7 +3513,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCreateTableDefaultPermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogCreateTableDefaultPermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueCatalogCreateTableDefaultPermissionsOutputReference
 ```
@@ -3851,7 +3851,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogCreateTableDefaultPermissionsPrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogCreateTableDefaultPermissionsPrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueCatalogCreateTableDefaultPermissionsPrincipalOutputReference
 ```
@@ -4129,7 +4129,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogFederatedCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueCatalogFederatedCatalogOutputReference
 ```
@@ -4436,7 +4436,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueCatalogTagsList
 ```
@@ -4596,7 +4596,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueCatalogTagsOutputReference
 ```
@@ -4921,7 +4921,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogTargetRedshiftCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecatalog"
 
 gluecatalog.NewGlueCatalogTargetRedshiftCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueCatalogTargetRedshiftCatalogOutputReference
 ```

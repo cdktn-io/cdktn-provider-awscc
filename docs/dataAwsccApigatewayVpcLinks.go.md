@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayVpcLinks <a name="DataAwsccApigatewayVpcLinks" id="@cdktn/provider-awscc.dataAwsccApigatewayVpcLinks.DataAwsccApigatewayVpcLinks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_vpc_links awscc_apigateway_vpc_links}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_vpc_links awscc_apigateway_vpc_links}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayVpcLinks.DataAwsccApigatewayVpcLinks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayvpclinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayvpclinks"
 
 dataawsccapigatewayvpclinks.NewDataAwsccApigatewayVpcLinks(scope Construct, id *string, config DataAwsccApigatewayVpcLinksConfig) DataAwsccApigatewayVpcLinks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayVpcLinks.DataAwsccApigatewayVpcLinks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayvpclinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayvpclinks"
 
 dataawsccapigatewayvpclinks.DataAwsccApigatewayVpcLinks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayVpcLinks.DataAwsccApigatewayVpcLinks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayvpclinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayvpclinks"
 
 dataawsccapigatewayvpclinks.DataAwsccApigatewayVpcLinks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewayvpclinks.DataAwsccApigatewayVpcLinks_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayVpcLinks.DataAwsccApigatewayVpcLinks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayvpclinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayvpclinks"
 
 dataawsccapigatewayvpclinks.DataAwsccApigatewayVpcLinks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewayvpclinks.DataAwsccApigatewayVpcLinks_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayVpcLinks.DataAwsccApigatewayVpcLinks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayvpclinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayvpclinks"
 
 dataawsccapigatewayvpclinks.DataAwsccApigatewayVpcLinks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayVpcLink
 
 The id of the existing DataAwsccApigatewayVpcLinks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_vpc_links#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_vpc_links#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayVpcLinks.DataAwsccApigatewayVpcLinksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayvpclinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayvpclinks"
 
 &dataawsccapigatewayvpclinks.DataAwsccApigatewayVpcLinksConfig {
 	Connection: interface{},

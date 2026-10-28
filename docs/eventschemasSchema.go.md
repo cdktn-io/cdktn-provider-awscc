@@ -4,12 +4,12 @@
 
 ### EventschemasSchema <a name="EventschemasSchema" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchema"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema awscc_eventschemas_schema}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema awscc_eventschemas_schema}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasschema"
 
 eventschemasschema.NewEventschemasSchema(scope Construct, id *string, config EventschemasSchemaConfig) EventschemasSchema
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchema.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasschema"
 
 eventschemasschema.EventschemasSchema_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchema.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasschema"
 
 eventschemasschema.EventschemasSchema_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ eventschemasschema.EventschemasSchema_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchema.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasschema"
 
 eventschemasschema.EventschemasSchema_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ eventschemasschema.EventschemasSchema_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchema.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasschema"
 
 eventschemasschema.EventschemasSchema_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the EventschemasSchema to impo
 
 The id of the existing EventschemasSchema that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -910,7 +910,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasschema"
 
 &eventschemasschema.EventschemasSchemaConfig {
 	Connection: interface{},
@@ -1029,7 +1029,7 @@ Content *string
 
 The source of the schema definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema#content EventschemasSchema#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema#content EventschemasSchema#content}
 
 ---
 
@@ -1043,7 +1043,7 @@ RegistryName *string
 
 The name of the schema registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema#registry_name EventschemasSchema#registry_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema#registry_name EventschemasSchema#registry_name}
 
 ---
 
@@ -1057,7 +1057,7 @@ Type *string
 
 The type of schema. Valid types include OpenApi3 and JSONSchemaDraft4.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema#type EventschemasSchema#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema#type EventschemasSchema#type}
 
 ---
 
@@ -1071,7 +1071,7 @@ Description *string
 
 A description of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema#description EventschemasSchema#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema#description EventschemasSchema#description}
 
 ---
 
@@ -1085,7 +1085,7 @@ SchemaName *string
 
 The name of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema#schema_name EventschemasSchema#schema_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema#schema_name EventschemasSchema#schema_name}
 
 ---
 
@@ -1099,7 +1099,7 @@ Tags interface{}
 
 Tags associated with the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema#tags EventschemasSchema#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema#tags EventschemasSchema#tags}
 
 ---
 
@@ -1108,7 +1108,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasschema"
 
 &eventschemasschema.EventschemasSchemaTags {
 	Key: *string,
@@ -1120,8 +1120,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventschemasschema"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema#key EventschemasSchema#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema#value EventschemasSchema#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema#key EventschemasSchema#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema#value EventschemasSchema#value}. |
 
 ---
 
@@ -1133,7 +1133,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema#key EventschemasSchema#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema#key EventschemasSchema#key}.
 
 ---
 
@@ -1145,7 +1145,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_schema#value EventschemasSchema#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_schema#value EventschemasSchema#value}.
 
 ---
 
@@ -1156,7 +1156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasschema"
 
 eventschemasschema.NewEventschemasSchemaTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventschemasSchemaTagsList
 ```
@@ -1316,7 +1316,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasschema"
 
 eventschemasschema.NewEventschemasSchemaTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventschemasSchemaTagsOutputReference
 ```

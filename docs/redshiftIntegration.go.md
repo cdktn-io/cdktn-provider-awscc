@@ -4,12 +4,12 @@
 
 ### RedshiftIntegration <a name="RedshiftIntegration" id="@cdktn/provider-awscc.redshiftIntegration.RedshiftIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_integration awscc_redshift_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_integration awscc_redshift_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftIntegration.RedshiftIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftintegration"
 
 redshiftintegration.NewRedshiftIntegration(scope Construct, id *string, config RedshiftIntegrationConfig) RedshiftIntegration
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.redshiftIntegration.RedshiftIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftintegration"
 
 redshiftintegration.RedshiftIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.redshiftIntegration.RedshiftIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftintegration"
 
 redshiftintegration.RedshiftIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ redshiftintegration.RedshiftIntegration_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.redshiftIntegration.RedshiftIntegration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftintegration"
 
 redshiftintegration.RedshiftIntegration_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ redshiftintegration.RedshiftIntegration_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.redshiftIntegration.RedshiftIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftintegration"
 
 redshiftintegration.RedshiftIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the RedshiftIntegration to imp
 
 The id of the existing RedshiftIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftIntegration.RedshiftIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftintegration"
 
 &redshiftintegration.RedshiftIntegrationConfig {
 	Connection: interface{},
@@ -1014,7 +1014,7 @@ SourceArn *string
 
 The Amazon Resource Name (ARN) of the database to use as the source for replication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_integration#source_arn RedshiftIntegration#source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_integration#source_arn RedshiftIntegration#source_arn}
 
 ---
 
@@ -1028,7 +1028,7 @@ TargetArn *string
 
 The Amazon Resource Name (ARN) of the Redshift data warehouse to use as the target for replication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_integration#target_arn RedshiftIntegration#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_integration#target_arn RedshiftIntegration#target_arn}
 
 ---
 
@@ -1042,7 +1042,7 @@ AdditionalEncryptionContext *map[string]*string
 
 An optional set of non-secret key–value pairs that contains additional contextual information about the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_integration#additional_encryption_context RedshiftIntegration#additional_encryption_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_integration#additional_encryption_context RedshiftIntegration#additional_encryption_context}
 
 ---
 
@@ -1056,7 +1056,7 @@ IntegrationName *string
 
 The name of the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_integration#integration_name RedshiftIntegration#integration_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_integration#integration_name RedshiftIntegration#integration_name}
 
 ---
 
@@ -1072,7 +1072,7 @@ An KMS key identifier for the key to use to encrypt the integration.
 
 If you don't specify an encryption key, the default AWS owned KMS key is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_integration#kms_key_id RedshiftIntegration#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_integration#kms_key_id RedshiftIntegration#kms_key_id}
 
 ---
 
@@ -1086,7 +1086,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_integration#tags RedshiftIntegration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_integration#tags RedshiftIntegration#tags}
 
 ---
 
@@ -1095,7 +1095,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftIntegration.RedshiftIntegrationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftintegration"
 
 &redshiftintegration.RedshiftIntegrationTags {
 	Key: *string,
@@ -1124,7 +1124,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_integration#key RedshiftIntegration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_integration#key RedshiftIntegration#key}
 
 ---
 
@@ -1140,7 +1140,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_integration#value RedshiftIntegration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_integration#value RedshiftIntegration#value}
 
 ---
 
@@ -1151,7 +1151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftIntegration.RedshiftIntegrationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftintegration"
 
 redshiftintegration.NewRedshiftIntegrationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftIntegrationTagsList
 ```
@@ -1311,7 +1311,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftIntegration.RedshiftIntegrationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftintegration"
 
 redshiftintegration.NewRedshiftIntegrationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftIntegrationTagsOutputReference
 ```

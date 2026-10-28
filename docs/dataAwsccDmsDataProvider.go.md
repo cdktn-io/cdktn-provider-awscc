@@ -4,12 +4,12 @@
 
 ### DataAwsccDmsDataProvider <a name="DataAwsccDmsDataProvider" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_provider awscc_dms_data_provider}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_provider awscc_dms_data_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProvider(scope Construct, id *string, config DataAwsccDmsDataProviderConfig) DataAwsccDmsDataProvider
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.DataAwsccDmsDataProvider_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.DataAwsccDmsDataProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdmsdataprovider.DataAwsccDmsDataProvider_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProvider.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.DataAwsccDmsDataProvider_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdmsdataprovider.DataAwsccDmsDataProvider_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.DataAwsccDmsDataProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDmsDataProvider t
 
 The id of the existing DataAwsccDmsDataProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_provider#id DataAwsccDmsDataProvider#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_provider#id DataAwsccDmsDataProvider#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettings {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsDocDbSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettingsDocDbSettings {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsIbmDb2LuwSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettingsIbmDb2LuwSettings {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsIbmDb2ZOsSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettingsIbmDb2ZOsSettings {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsMariaDbSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettingsMariaDbSettings {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettings {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsMongoDbSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettingsMongoDbSettings {
 
@@ -909,7 +909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsMySqlSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettingsMySqlSettings {
 
@@ -922,7 +922,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsOracleSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettingsOracleSettings {
 
@@ -935,7 +935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsPostgreSqlSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettingsPostgreSqlSettings {
 
@@ -948,7 +948,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsRedshiftSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettingsRedshiftSettings {
 
@@ -961,7 +961,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsSybaseAseSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderSettingsSybaseAseSettings {
 
@@ -974,7 +974,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 &dataawsccdmsdataprovider.DataAwsccDmsDataProviderTags {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovid
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsDocDbSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsDocDbSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsDocDbSettingsOutputReference
 ```
@@ -1293,7 +1293,7 @@ func InternalValue() DataAwsccDmsDataProviderSettingsDocDbSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsIbmDb2LuwSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsIbmDb2LuwSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsIbmDb2LuwSettingsOutputReference
 ```
@@ -1619,7 +1619,7 @@ func InternalValue() DataAwsccDmsDataProviderSettingsIbmDb2LuwSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsIbmDb2ZOsSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsIbmDb2ZOsSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsIbmDb2ZOsSettingsOutputReference
 ```
@@ -1923,7 +1923,7 @@ func InternalValue() DataAwsccDmsDataProviderSettingsIbmDb2ZOsSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsMariaDbSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsMariaDbSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsMariaDbSettingsOutputReference
 ```
@@ -2216,7 +2216,7 @@ func InternalValue() DataAwsccDmsDataProviderSettingsMariaDbSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference
 ```
@@ -2542,7 +2542,7 @@ func InternalValue() DataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsMongoDbSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsMongoDbSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsMongoDbSettingsOutputReference
 ```
@@ -2879,7 +2879,7 @@ func InternalValue() DataAwsccDmsDataProviderSettingsMongoDbSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsMySqlSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsMySqlSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsMySqlSettingsOutputReference
 ```
@@ -3172,7 +3172,7 @@ func InternalValue() DataAwsccDmsDataProviderSettingsMySqlSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsOracleSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsOracleSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsOracleSettingsOutputReference
 ```
@@ -3531,7 +3531,7 @@ func InternalValue() DataAwsccDmsDataProviderSettingsOracleSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsOutputReference
 ```
@@ -3901,7 +3901,7 @@ func InternalValue() DataAwsccDmsDataProviderSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsPostgreSqlSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsPostgreSqlSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsPostgreSqlSettingsOutputReference
 ```
@@ -4205,7 +4205,7 @@ func InternalValue() DataAwsccDmsDataProviderSettingsPostgreSqlSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsRedshiftSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsRedshiftSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsRedshiftSettingsOutputReference
 ```
@@ -4487,7 +4487,7 @@ func InternalValue() DataAwsccDmsDataProviderSettingsRedshiftSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderSettingsSybaseAseSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderSettingsSybaseAseSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataProviderSettingsSybaseAseSettingsOutputReference
 ```
@@ -4802,7 +4802,7 @@ func InternalValue() DataAwsccDmsDataProviderSettingsSybaseAseSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDmsDataProviderTagsList
 ```
@@ -4951,7 +4951,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataProvider.DataAwsccDmsDataProviderTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataprovider"
 
 dataawsccdmsdataprovider.NewDataAwsccDmsDataProviderTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDmsDataProviderTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53RecoveryreadinessResourceSet <a name="DataAwsccRoute53RecoveryreadinessResourceSet" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoveryreadiness_resource_set awscc_route53recoveryreadiness_resource_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoveryreadiness_resource_set awscc_route53recoveryreadiness_resource_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.NewDataAwsccRoute53RecoveryreadinessResourceSet(scope Construct, id *string, config DataAwsccRoute53RecoveryreadinessResourceSetConfig) DataAwsccRoute53RecoveryreadinessResourceSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessResourceSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessResourceSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessRe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessResourceSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessRe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessResourceSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Recoveryre
 
 The id of the existing DataAwsccRoute53RecoveryreadinessResourceSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoveryreadiness_resource_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoveryreadiness_resource_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 &dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessResourceSetConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoveryreadiness_resource_set#id DataAwsccRoute53RecoveryreadinessResourceSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoveryreadiness_resource_set#id DataAwsccRoute53RecoveryreadinessResourceSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 &dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessResourceSetResources {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 &dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResource {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 &dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResource {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceNlbResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 &dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceNlbResource {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceR53Resource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 &dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceR53Resource {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 &dataawsccroute53recoveryreadinessresourceset.DataAwsccRoute53RecoveryreadinessResourceSetTags {
 
@@ -843,7 +843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.NewDataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceOutputReference
 ```
@@ -1147,7 +1147,7 @@ func InternalValue() DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceNlbResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.NewDataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceNlbResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceNlbResourceOutputReference
 ```
@@ -1407,7 +1407,7 @@ func InternalValue() DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.NewDataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceOutputReference
 ```
@@ -1678,7 +1678,7 @@ func InternalValue() DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceR53ResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.NewDataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceR53ResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTargetResourceTargetResourceR53ResourceOutputReference
 ```
@@ -1949,7 +1949,7 @@ func InternalValue() DataAwsccRoute53RecoveryreadinessResourceSetResourcesDnsTar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.NewDataAwsccRoute53RecoveryreadinessResourceSetResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53RecoveryreadinessResourceSetResourcesList
 ```
@@ -2098,7 +2098,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.NewDataAwsccRoute53RecoveryreadinessResourceSetResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53RecoveryreadinessResourceSetResourcesOutputReference
 ```
@@ -2409,7 +2409,7 @@ func InternalValue() DataAwsccRoute53RecoveryreadinessResourceSetResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.NewDataAwsccRoute53RecoveryreadinessResourceSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53RecoveryreadinessResourceSetTagsList
 ```
@@ -2558,7 +2558,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessResourceSet.DataAwsccRoute53RecoveryreadinessResourceSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessresourceset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessresourceset"
 
 dataawsccroute53recoveryreadinessresourceset.NewDataAwsccRoute53RecoveryreadinessResourceSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53RecoveryreadinessResourceSetTagsOutputReference
 ```

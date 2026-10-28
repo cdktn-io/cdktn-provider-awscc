@@ -4,12 +4,12 @@
 
 ### Ec2NetworkInterface <a name="Ec2NetworkInterface" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterface"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface awscc_ec2_network_interface}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface awscc_ec2_network_interface}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterface(scope Construct, id *string, config Ec2NetworkInterfaceConfig) Ec2NetworkInterface
 ```
@@ -597,7 +597,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterface.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.Ec2NetworkInterface_IsConstruct(x interface{}) *bool
 ```
@@ -629,7 +629,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterface.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.Ec2NetworkInterface_IsTerraformElement(x interface{}) *bool
 ```
@@ -643,7 +643,7 @@ ec2networkinterface.Ec2NetworkInterface_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterface.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.Ec2NetworkInterface_IsTerraformResource(x interface{}) *bool
 ```
@@ -657,7 +657,7 @@ ec2networkinterface.Ec2NetworkInterface_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterface.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.Ec2NetworkInterface_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -686,7 +686,7 @@ The construct id used in the generated config for the Ec2NetworkInterface to imp
 
 The id of the existing Ec2NetworkInterface that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1359,7 +1359,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 &ec2networkinterface.Ec2NetworkInterfaceConfig {
 	Connection: interface{},
@@ -1370,7 +1370,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	SubnetId: *string,
-	ConnectionTrackingSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification,
+	ConnectionTrackingSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification,
 	Description: *string,
 	EnablePrimaryIpv6: interface{},
 	GroupSet: *[]*string,
@@ -1402,7 +1402,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConfig.property.subnetId">SubnetId</a></code> | <code>*string</code> | The ID of the subnet to associate with the network interface. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConfig.property.connectionTrackingSpecification">ConnectionTrackingSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification">Ec2NetworkInterfaceConnectionTrackingSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#connection_tracking_specification Ec2NetworkInterface#connection_tracking_specification}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConfig.property.connectionTrackingSpecification">ConnectionTrackingSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification">Ec2NetworkInterfaceConnectionTrackingSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#connection_tracking_specification Ec2NetworkInterface#connection_tracking_specification}. |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConfig.property.description">Description</a></code> | <code>*string</code> | A description for the network interface. |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConfig.property.enablePrimaryIpv6">EnablePrimaryIpv6</a></code> | <code>interface{}</code> | If you have instances or ENIs that rely on the IPv6 address not changing, to avoid disrupting traffic to instances or ENIs, you can enable a primary IPv6 address. |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConfig.property.groupSet">GroupSet</a></code> | <code>*[]*string</code> | A list of security group IDs associated with this network interface. |
@@ -1502,7 +1502,7 @@ SubnetId *string
 
 The ID of the subnet to associate with the network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#subnet_id Ec2NetworkInterface#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#subnet_id Ec2NetworkInterface#subnet_id}
 
 ---
 
@@ -1514,7 +1514,7 @@ ConnectionTrackingSpecification Ec2NetworkInterfaceConnectionTrackingSpecificati
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification">Ec2NetworkInterfaceConnectionTrackingSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#connection_tracking_specification Ec2NetworkInterface#connection_tracking_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#connection_tracking_specification Ec2NetworkInterface#connection_tracking_specification}.
 
 ---
 
@@ -1528,7 +1528,7 @@ Description *string
 
 A description for the network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#description Ec2NetworkInterface#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#description Ec2NetworkInterface#description}
 
 ---
 
@@ -1544,7 +1544,7 @@ If you have instances or ENIs that rely on the IPv6 address not changing, to avo
 
 Enable this option to automatically assign an IPv6 associated with the ENI attached to your instance to be the primary IPv6 address. When you enable an IPv6 address to be a primary IPv6, you cannot disable it. Traffic will be routed to the primary IPv6 address until the instance is terminated or the ENI is detached. If you have multiple IPv6 addresses associated with an ENI and you enable a primary IPv6 address, the first IPv6 address associated with the ENI becomes the primary IPv6 address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#enable_primary_ipv_6 Ec2NetworkInterface#enable_primary_ipv_6}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#enable_primary_ipv_6 Ec2NetworkInterface#enable_primary_ipv_6}
 
 ---
 
@@ -1558,7 +1558,7 @@ GroupSet *[]*string
 
 A list of security group IDs associated with this network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#group_set Ec2NetworkInterface#group_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#group_set Ec2NetworkInterface#group_set}
 
 ---
 
@@ -1572,7 +1572,7 @@ InterfaceType *string
 
 Indicates the type of network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#interface_type Ec2NetworkInterface#interface_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#interface_type Ec2NetworkInterface#interface_type}
 
 ---
 
@@ -1588,7 +1588,7 @@ The number of IPv4 prefixes to assign to a network interface.
 
 When you specify a number of IPv4 prefixes, Amazon EC2 selects these prefixes from your existing subnet CIDR reservations, if available, or from free spaces in the subnet. By default, these will be /28 prefixes. You can't specify a count of IPv4 prefixes if you've specified one of the following: specific IPv4 prefixes, specific private IPv4 addresses, or a count of private IPv4 addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_4_prefix_count Ec2NetworkInterface#ipv_4_prefix_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_4_prefix_count Ec2NetworkInterface#ipv_4_prefix_count}
 
 ---
 
@@ -1604,7 +1604,7 @@ Assigns a list of IPv4 prefixes to the network interface.
 
 If you want EC2 to automatically assign IPv4 prefixes, use the Ipv4PrefixCount property and do not specify this property. Presently, only /28 prefixes are supported. You can't specify IPv4 prefixes if you've specified one of the following: a count of IPv4 prefixes, specific private IPv4 addresses, or a count of private IPv4 addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_4_prefixes Ec2NetworkInterface#ipv_4_prefixes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_4_prefixes Ec2NetworkInterface#ipv_4_prefixes}
 
 ---
 
@@ -1620,7 +1620,7 @@ The number of IPv6 addresses to assign to a network interface.
 
 Amazon EC2 automatically selects the IPv6 addresses from the subnet range. To specify specific IPv6 addresses, use the Ipv6Addresses property and don't specify this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_6_address_count Ec2NetworkInterface#ipv_6_address_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_6_address_count Ec2NetworkInterface#ipv_6_address_count}
 
 ---
 
@@ -1636,7 +1636,7 @@ One or more specific IPv6 addresses from the IPv6 CIDR block range of your subne
 
 If you're specifying a number of IPv6 addresses, use the Ipv6AddressCount property and don't specify this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_6_addresses Ec2NetworkInterface#ipv_6_addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_6_addresses Ec2NetworkInterface#ipv_6_addresses}
 
 ---
 
@@ -1652,7 +1652,7 @@ The number of IPv6 prefixes to assign to a network interface.
 
 When you specify a number of IPv6 prefixes, Amazon EC2 selects these prefixes from your existing subnet CIDR reservations, if available, or from free spaces in the subnet. By default, these will be /80 prefixes. You can't specify a count of IPv6 prefixes if you've specified one of the following: specific IPv6 prefixes, specific IPv6 addresses, or a count of IPv6 addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_6_prefix_count Ec2NetworkInterface#ipv_6_prefix_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_6_prefix_count Ec2NetworkInterface#ipv_6_prefix_count}
 
 ---
 
@@ -1668,7 +1668,7 @@ Assigns a list of IPv6 prefixes to the network interface.
 
 If you want EC2 to automatically assign IPv6 prefixes, use the Ipv6PrefixCount property and do not specify this property. Presently, only /80 prefixes are supported. You can't specify IPv6 prefixes if you've specified one of the following: a count of IPv6 prefixes, specific IPv6 addresses, or a count of IPv6 addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_6_prefixes Ec2NetworkInterface#ipv_6_prefixes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_6_prefixes Ec2NetworkInterface#ipv_6_prefixes}
 
 ---
 
@@ -1684,7 +1684,7 @@ Assigns a single private IP address to the network interface, which is used as t
 
 If you want to specify multiple private IP address, use the PrivateIpAddresses property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#private_ip_address Ec2NetworkInterface#private_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#private_ip_address Ec2NetworkInterface#private_ip_address}
 
 ---
 
@@ -1700,7 +1700,7 @@ Assigns a list of private IP addresses to the network interface.
 
 You can specify a primary private IP address by setting the value of the Primary property to true in the PrivateIpAddressSpecification property. If you want EC2 to automatically assign private IP addresses, use the SecondaryPrivateIpAddressCount property and do not specify this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#private_ip_addresses Ec2NetworkInterface#private_ip_addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#private_ip_addresses Ec2NetworkInterface#private_ip_addresses}
 
 ---
 
@@ -1714,7 +1714,7 @@ PublicIpDnsHostnameTypeSpecification *string
 
 Public IP DNS hostname type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#public_ip_dns_hostname_type_specification Ec2NetworkInterface#public_ip_dns_hostname_type_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#public_ip_dns_hostname_type_specification Ec2NetworkInterface#public_ip_dns_hostname_type_specification}
 
 ---
 
@@ -1730,7 +1730,7 @@ The number of secondary private IPv4 addresses to assign to a network interface.
 
 When you specify a number of secondary IPv4 addresses, Amazon EC2 selects these IP addresses within the subnet's IPv4 CIDR range. You can't specify this option and specify more than one private IP address using privateIpAddresses
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#secondary_private_ip_address_count Ec2NetworkInterface#secondary_private_ip_address_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#secondary_private_ip_address_count Ec2NetworkInterface#secondary_private_ip_address_count}
 
 ---
 
@@ -1744,7 +1744,7 @@ SourceDestCheck interface{}
 
 Indicates whether traffic to or from the instance is validated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#source_dest_check Ec2NetworkInterface#source_dest_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#source_dest_check Ec2NetworkInterface#source_dest_check}
 
 ---
 
@@ -1758,7 +1758,7 @@ Tags interface{}
 
 An arbitrary set of tags (key-value pairs) for this network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#tags Ec2NetworkInterface#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#tags Ec2NetworkInterface#tags}
 
 ---
 
@@ -1767,7 +1767,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 &ec2networkinterface.Ec2NetworkInterfaceConnectionTrackingSpecification {
 	TcpEstablishedTimeout: *f64,
@@ -1780,9 +1780,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification.property.tcpEstablishedTimeout">TcpEstablishedTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#tcp_established_timeout Ec2NetworkInterface#tcp_established_timeout}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification.property.udpStreamTimeout">UdpStreamTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#udp_stream_timeout Ec2NetworkInterface#udp_stream_timeout}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification.property.udpTimeout">UdpTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#udp_timeout Ec2NetworkInterface#udp_timeout}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification.property.tcpEstablishedTimeout">TcpEstablishedTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#tcp_established_timeout Ec2NetworkInterface#tcp_established_timeout}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification.property.udpStreamTimeout">UdpStreamTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#udp_stream_timeout Ec2NetworkInterface#udp_stream_timeout}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecification.property.udpTimeout">UdpTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#udp_timeout Ec2NetworkInterface#udp_timeout}. |
 
 ---
 
@@ -1794,7 +1794,7 @@ TcpEstablishedTimeout *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#tcp_established_timeout Ec2NetworkInterface#tcp_established_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#tcp_established_timeout Ec2NetworkInterface#tcp_established_timeout}.
 
 ---
 
@@ -1806,7 +1806,7 @@ UdpStreamTimeout *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#udp_stream_timeout Ec2NetworkInterface#udp_stream_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#udp_stream_timeout Ec2NetworkInterface#udp_stream_timeout}.
 
 ---
 
@@ -1818,7 +1818,7 @@ UdpTimeout *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#udp_timeout Ec2NetworkInterface#udp_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#udp_timeout Ec2NetworkInterface#udp_timeout}.
 
 ---
 
@@ -1827,7 +1827,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv4Prefixes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 &ec2networkinterface.Ec2NetworkInterfaceIpv4Prefixes {
 	Ipv4Prefix: *string,
@@ -1838,7 +1838,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv4Prefixes.property.ipv4Prefix">Ipv4Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_4_prefix Ec2NetworkInterface#ipv_4_prefix}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv4Prefixes.property.ipv4Prefix">Ipv4Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_4_prefix Ec2NetworkInterface#ipv_4_prefix}. |
 
 ---
 
@@ -1850,7 +1850,7 @@ Ipv4Prefix *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_4_prefix Ec2NetworkInterface#ipv_4_prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_4_prefix Ec2NetworkInterface#ipv_4_prefix}.
 
 ---
 
@@ -1859,7 +1859,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv6Addresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 &ec2networkinterface.Ec2NetworkInterfaceIpv6Addresses {
 	Ipv6Address: *string,
@@ -1870,7 +1870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv6Addresses.property.ipv6Address">Ipv6Address</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_6_address Ec2NetworkInterface#ipv_6_address}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv6Addresses.property.ipv6Address">Ipv6Address</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_6_address Ec2NetworkInterface#ipv_6_address}. |
 
 ---
 
@@ -1882,7 +1882,7 @@ Ipv6Address *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_6_address Ec2NetworkInterface#ipv_6_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_6_address Ec2NetworkInterface#ipv_6_address}.
 
 ---
 
@@ -1891,7 +1891,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv6Prefixes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 &ec2networkinterface.Ec2NetworkInterfaceIpv6Prefixes {
 	Ipv6Prefix: *string,
@@ -1902,7 +1902,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv6Prefixes.property.ipv6Prefix">Ipv6Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_6_prefix Ec2NetworkInterface#ipv_6_prefix}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv6Prefixes.property.ipv6Prefix">Ipv6Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_6_prefix Ec2NetworkInterface#ipv_6_prefix}. |
 
 ---
 
@@ -1914,7 +1914,7 @@ Ipv6Prefix *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#ipv_6_prefix Ec2NetworkInterface#ipv_6_prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#ipv_6_prefix Ec2NetworkInterface#ipv_6_prefix}.
 
 ---
 
@@ -1923,7 +1923,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfacePrivateIpAddresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 &ec2networkinterface.Ec2NetworkInterfacePrivateIpAddresses {
 	Primary: interface{},
@@ -1935,8 +1935,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfacePrivateIpAddresses.property.primary">Primary</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#primary Ec2NetworkInterface#primary}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfacePrivateIpAddresses.property.privateIpAddress">PrivateIpAddress</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#private_ip_address Ec2NetworkInterface#private_ip_address}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfacePrivateIpAddresses.property.primary">Primary</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#primary Ec2NetworkInterface#primary}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfacePrivateIpAddresses.property.privateIpAddress">PrivateIpAddress</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#private_ip_address Ec2NetworkInterface#private_ip_address}. |
 
 ---
 
@@ -1948,7 +1948,7 @@ Primary interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#primary Ec2NetworkInterface#primary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#primary Ec2NetworkInterface#primary}.
 
 ---
 
@@ -1960,7 +1960,7 @@ PrivateIpAddress *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#private_ip_address Ec2NetworkInterface#private_ip_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#private_ip_address Ec2NetworkInterface#private_ip_address}.
 
 ---
 
@@ -1969,7 +1969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfacePublicIpDnsNameOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 &ec2networkinterface.Ec2NetworkInterfacePublicIpDnsNameOptions {
 
@@ -1982,7 +1982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 &ec2networkinterface.Ec2NetworkInterfaceTags {
 	Key: *string,
@@ -1994,8 +1994,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#key Ec2NetworkInterface#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#value Ec2NetworkInterface#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#key Ec2NetworkInterface#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#value Ec2NetworkInterface#value}. |
 
 ---
 
@@ -2007,7 +2007,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#key Ec2NetworkInterface#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#key Ec2NetworkInterface#key}.
 
 ---
 
@@ -2019,7 +2019,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface#value Ec2NetworkInterface#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface#value Ec2NetworkInterface#value}.
 
 ---
 
@@ -2030,7 +2030,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceConnectionTrackingSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfaceConnectionTrackingSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2NetworkInterfaceConnectionTrackingSpecificationOutputReference
 ```
@@ -2366,7 +2366,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv4PrefixesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfaceIpv4PrefixesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2NetworkInterfaceIpv4PrefixesList
 ```
@@ -2526,7 +2526,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv4PrefixesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfaceIpv4PrefixesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2NetworkInterfaceIpv4PrefixesOutputReference
 ```
@@ -2822,7 +2822,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv6AddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfaceIpv6AddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2NetworkInterfaceIpv6AddressesList
 ```
@@ -2982,7 +2982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv6AddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfaceIpv6AddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2NetworkInterfaceIpv6AddressesOutputReference
 ```
@@ -3278,7 +3278,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv6PrefixesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfaceIpv6PrefixesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2NetworkInterfaceIpv6PrefixesList
 ```
@@ -3438,7 +3438,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceIpv6PrefixesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfaceIpv6PrefixesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2NetworkInterfaceIpv6PrefixesOutputReference
 ```
@@ -3734,7 +3734,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfacePrivateIpAddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfacePrivateIpAddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2NetworkInterfacePrivateIpAddressesList
 ```
@@ -3894,7 +3894,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfacePrivateIpAddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfacePrivateIpAddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2NetworkInterfacePrivateIpAddressesOutputReference
 ```
@@ -4219,7 +4219,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfacePublicIpDnsNameOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfacePublicIpDnsNameOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2NetworkInterfacePublicIpDnsNameOptionsOutputReference
 ```
@@ -4512,7 +4512,7 @@ func InternalValue() Ec2NetworkInterfacePublicIpDnsNameOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2NetworkInterfaceTagsList
 ```
@@ -4672,7 +4672,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterface.Ec2NetworkInterfaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterface"
 
 ec2networkinterface.NewEc2NetworkInterfaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2NetworkInterfaceTagsOutputReference
 ```

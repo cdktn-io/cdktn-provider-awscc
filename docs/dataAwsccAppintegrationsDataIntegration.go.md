@@ -4,12 +4,12 @@
 
 ### DataAwsccAppintegrationsDataIntegration <a name="DataAwsccAppintegrationsDataIntegration" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appintegrations_data_integration awscc_appintegrations_data_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appintegrations_data_integration awscc_appintegrations_data_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 dataawsccappintegrationsdataintegration.NewDataAwsccAppintegrationsDataIntegration(scope Construct, id *string, config DataAwsccAppintegrationsDataIntegrationConfig) DataAwsccAppintegrationsDataIntegration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 dataawsccappintegrationsdataintegration.DataAwsccAppintegrationsDataIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 dataawsccappintegrationsdataintegration.DataAwsccAppintegrationsDataIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappintegrationsdataintegration.DataAwsccAppintegrationsDataIntegration_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 dataawsccappintegrationsdataintegration.DataAwsccAppintegrationsDataIntegration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappintegrationsdataintegration.DataAwsccAppintegrationsDataIntegration_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 dataawsccappintegrationsdataintegration.DataAwsccAppintegrationsDataIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppintegrationsDa
 
 The id of the existing DataAwsccAppintegrationsDataIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appintegrations_data_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appintegrations_data_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -701,7 +701,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 &dataawsccappintegrationsdataintegration.DataAwsccAppintegrationsDataIntegrationConfig {
 	Connection: interface{},
@@ -810,7 +810,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appintegrations_data_integration#id DataAwsccAppintegrationsDataIntegration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appintegrations_data_integration#id DataAwsccAppintegrationsDataIntegration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -822,7 +822,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegrationFileConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 &dataawsccappintegrationsdataintegration.DataAwsccAppintegrationsDataIntegrationFileConfiguration {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegratio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegrationScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 &dataawsccappintegrationsdataintegration.DataAwsccAppintegrationsDataIntegrationScheduleConfig {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegratio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegrationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 &dataawsccappintegrationsdataintegration.DataAwsccAppintegrationsDataIntegrationTags {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegrationFileConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 dataawsccappintegrationsdataintegration.NewDataAwsccAppintegrationsDataIntegrationFileConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppintegrationsDataIntegrationFileConfigurationOutputReference
 ```
@@ -1134,7 +1134,7 @@ func InternalValue() DataAwsccAppintegrationsDataIntegrationFileConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegrationScheduleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 dataawsccappintegrationsdataintegration.NewDataAwsccAppintegrationsDataIntegrationScheduleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppintegrationsDataIntegrationScheduleConfigOutputReference
 ```
@@ -1416,7 +1416,7 @@ func InternalValue() DataAwsccAppintegrationsDataIntegrationScheduleConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegrationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 dataawsccappintegrationsdataintegration.NewDataAwsccAppintegrationsDataIntegrationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppintegrationsDataIntegrationTagsList
 ```
@@ -1565,7 +1565,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegration.DataAwsccAppintegrationsDataIntegrationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationsdataintegration"
 
 dataawsccappintegrationsdataintegration.NewDataAwsccAppintegrationsDataIntegrationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppintegrationsDataIntegrationTagsOutputReference
 ```

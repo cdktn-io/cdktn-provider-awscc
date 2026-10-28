@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsRecordingConfiguration <a name="DataAwsccIvsRecordingConfiguration" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_recording_configuration awscc_ivs_recording_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_recording_configuration awscc_ivs_recording_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 dataawsccivsrecordingconfiguration.NewDataAwsccIvsRecordingConfiguration(scope Construct, id *string, config DataAwsccIvsRecordingConfigurationConfig) DataAwsccIvsRecordingConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfiguration_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfiguration_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsRecordingConfi
 
 The id of the existing DataAwsccIvsRecordingConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_recording_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_recording_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 &dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfigurationConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_recording_configuration#id DataAwsccIvsRecordingConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_recording_configuration#id DataAwsccIvsRecordingConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 &dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfigurationDestinationConfiguration {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationDestinationConfigurationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 &dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfigurationDestinationConfigurationS3 {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationRenditionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 &dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfigurationRenditionConfiguration {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 &dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfigurationTags {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationThumbnailConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 &dataawsccivsrecordingconfiguration.DataAwsccIvsRecordingConfigurationThumbnailConfiguration {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 dataawsccivsrecordingconfiguration.NewDataAwsccIvsRecordingConfigurationDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsRecordingConfigurationDestinationConfigurationOutputReference
 ```
@@ -1123,7 +1123,7 @@ func InternalValue() DataAwsccIvsRecordingConfigurationDestinationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationDestinationConfigurationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 dataawsccivsrecordingconfiguration.NewDataAwsccIvsRecordingConfigurationDestinationConfigurationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsRecordingConfigurationDestinationConfigurationS3OutputReference
 ```
@@ -1383,7 +1383,7 @@ func InternalValue() DataAwsccIvsRecordingConfigurationDestinationConfigurationS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationRenditionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 dataawsccivsrecordingconfiguration.NewDataAwsccIvsRecordingConfigurationRenditionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsRecordingConfigurationRenditionConfigurationOutputReference
 ```
@@ -1654,7 +1654,7 @@ func InternalValue() DataAwsccIvsRecordingConfigurationRenditionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 dataawsccivsrecordingconfiguration.NewDataAwsccIvsRecordingConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIvsRecordingConfigurationTagsList
 ```
@@ -1803,7 +1803,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 dataawsccivsrecordingconfiguration.NewDataAwsccIvsRecordingConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIvsRecordingConfigurationTagsOutputReference
 ```
@@ -2092,7 +2092,7 @@ func InternalValue() DataAwsccIvsRecordingConfigurationTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfiguration.DataAwsccIvsRecordingConfigurationThumbnailConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfiguration"
 
 dataawsccivsrecordingconfiguration.NewDataAwsccIvsRecordingConfigurationThumbnailConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsRecordingConfigurationThumbnailConfigurationOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspaceswebUserSettingsPlural <a name="DataAwsccWorkspaceswebUserSettingsPlural" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettingsPlural.DataAwsccWorkspaceswebUserSettingsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_settings_plural awscc_workspacesweb_user_settings_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_settings_plural awscc_workspacesweb_user_settings_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettingsPlural.DataAwsccWorkspaceswebUserSettingsPlural.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettingsplural"
 
 dataawsccworkspaceswebusersettingsplural.NewDataAwsccWorkspaceswebUserSettingsPlural(scope Construct, id *string, config DataAwsccWorkspaceswebUserSettingsPluralConfig) DataAwsccWorkspaceswebUserSettingsPlural
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettingsPlural.DataAwsccWorkspaceswebUserSettingsPlural.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettingsplural"
 
 dataawsccworkspaceswebusersettingsplural.DataAwsccWorkspaceswebUserSettingsPlural_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettingsPlural.DataAwsccWorkspaceswebUserSettingsPlural.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettingsplural"
 
 dataawsccworkspaceswebusersettingsplural.DataAwsccWorkspaceswebUserSettingsPlural_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspaceswebusersettingsplural.DataAwsccWorkspaceswebUserSettingsPlura
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettingsPlural.DataAwsccWorkspaceswebUserSettingsPlural.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettingsplural"
 
 dataawsccworkspaceswebusersettingsplural.DataAwsccWorkspaceswebUserSettingsPlural_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspaceswebusersettingsplural.DataAwsccWorkspaceswebUserSettingsPlura
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettingsPlural.DataAwsccWorkspaceswebUserSettingsPlural.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettingsplural"
 
 dataawsccworkspaceswebusersettingsplural.DataAwsccWorkspaceswebUserSettingsPlural_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebUser
 
 The id of the existing DataAwsccWorkspaceswebUserSettingsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_settings_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_settings_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettingsPlural.DataAwsccWorkspaceswebUserSettingsPluralConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettingsplural"
 
 &dataawsccworkspaceswebusersettingsplural.DataAwsccWorkspaceswebUserSettingsPluralConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueJob <a name="DataAwsccGlueJob" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_job awscc_glue_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_job awscc_glue_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 dataawsccgluejob.NewDataAwsccGlueJob(scope Construct, id *string, config DataAwsccGlueJobConfig) DataAwsccGlueJob
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJob.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 dataawsccgluejob.DataAwsccGlueJob_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJob.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 dataawsccgluejob.DataAwsccGlueJob_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgluejob.DataAwsccGlueJob_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJob.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 dataawsccgluejob.DataAwsccGlueJob_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgluejob.DataAwsccGlueJob_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJob.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 dataawsccgluejob.DataAwsccGlueJob_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueJob to import
 
 The id of the existing DataAwsccGlueJob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -840,7 +840,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJobCommand.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 &dataawsccgluejob.DataAwsccGlueJobCommand {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 &dataawsccgluejob.DataAwsccGlueJobConfig {
 	Connection: interface{},
@@ -962,7 +962,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_job#id DataAwsccGlueJob#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_job#id DataAwsccGlueJob#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -974,7 +974,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJobConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 &dataawsccgluejob.DataAwsccGlueJobConnections {
 
@@ -987,7 +987,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJobExecutionProperty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 &dataawsccgluejob.DataAwsccGlueJobExecutionProperty {
 
@@ -1000,7 +1000,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJobNotificationProperty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 &dataawsccgluejob.DataAwsccGlueJobNotificationProperty {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJobCommandOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 dataawsccgluejob.NewDataAwsccGlueJobCommandOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueJobCommandOutputReference
 ```
@@ -1308,7 +1308,7 @@ func InternalValue() DataAwsccGlueJobCommand
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJobConnectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 dataawsccgluejob.NewDataAwsccGlueJobConnectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueJobConnectionsOutputReference
 ```
@@ -1568,7 +1568,7 @@ func InternalValue() DataAwsccGlueJobConnections
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJobExecutionPropertyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 dataawsccgluejob.NewDataAwsccGlueJobExecutionPropertyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueJobExecutionPropertyOutputReference
 ```
@@ -1828,7 +1828,7 @@ func InternalValue() DataAwsccGlueJobExecutionProperty
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueJob.DataAwsccGlueJobNotificationPropertyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejob"
 
 dataawsccgluejob.NewDataAwsccGlueJobNotificationPropertyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueJobNotificationPropertyOutputReference
 ```

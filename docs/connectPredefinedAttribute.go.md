@@ -4,12 +4,12 @@
 
 ### ConnectPredefinedAttribute <a name="ConnectPredefinedAttribute" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttribute"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttribute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectpredefinedattribute"
 
 connectpredefinedattribute.NewConnectPredefinedAttribute(scope Construct, id *string, config ConnectPredefinedAttributeConfig) ConnectPredefinedAttribute
 ```
@@ -447,7 +447,7 @@ func ResetValues()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttribute.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectpredefinedattribute"
 
 connectpredefinedattribute.ConnectPredefinedAttribute_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttribute.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectpredefinedattribute"
 
 connectpredefinedattribute.ConnectPredefinedAttribute_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ connectpredefinedattribute.ConnectPredefinedAttribute_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttribute.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectpredefinedattribute"
 
 connectpredefinedattribute.ConnectPredefinedAttribute_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ connectpredefinedattribute.ConnectPredefinedAttribute_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttribute.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectpredefinedattribute"
 
 connectpredefinedattribute.ConnectPredefinedAttribute_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the ConnectPredefinedAttribute
 
 The id of the existing ConnectPredefinedAttribute that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -879,7 +879,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttributeAttributeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectpredefinedattribute"
 
 &connectpredefinedattribute.ConnectPredefinedAttributeAttributeConfiguration {
 	EnableValueValidationOnAssociation: interface{},
@@ -906,7 +906,7 @@ EnableValueValidationOnAssociation interface{}
 
 Enables customers to enforce strict validation on the specific values that this predefined attribute can hold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute#enable_value_validation_on_association ConnectPredefinedAttribute#enable_value_validation_on_association}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute#enable_value_validation_on_association ConnectPredefinedAttribute#enable_value_validation_on_association}
 
 ---
 
@@ -920,7 +920,7 @@ IsReadOnly interface{}
 
 Allows the predefined attribute to show up and be managed in the Amazon Connect UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute#is_read_only ConnectPredefinedAttribute#is_read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute#is_read_only ConnectPredefinedAttribute#is_read_only}
 
 ---
 
@@ -929,7 +929,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttributeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectpredefinedattribute"
 
 &connectpredefinedattribute.ConnectPredefinedAttributeConfig {
 	Connection: interface{},
@@ -941,9 +941,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattri
 	Provisioners: *[]interface{},
 	InstanceArn: *string,
 	Name: *string,
-	AttributeConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectPredefinedAttribute.ConnectPredefinedAttributeAttributeConfiguration,
+	AttributeConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectPredefinedAttribute.ConnectPredefinedAttributeAttributeConfiguration,
 	Purposes: *[]*string,
-	Values: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectPredefinedAttribute.ConnectPredefinedAttributeValues,
+	Values: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectPredefinedAttribute.ConnectPredefinedAttributeValues,
 }
 ```
 
@@ -1046,7 +1046,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute#instance_arn ConnectPredefinedAttribute#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute#instance_arn ConnectPredefinedAttribute#instance_arn}
 
 ---
 
@@ -1060,7 +1060,7 @@ Name *string
 
 The name of the predefined attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute#name ConnectPredefinedAttribute#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute#name ConnectPredefinedAttribute#name}
 
 ---
 
@@ -1074,7 +1074,7 @@ AttributeConfiguration ConnectPredefinedAttributeAttributeConfiguration
 
 Custom metadata associated to a Predefined attribute that controls how the attribute behaves when used by upstream services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute#attribute_configuration ConnectPredefinedAttribute#attribute_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute#attribute_configuration ConnectPredefinedAttribute#attribute_configuration}
 
 ---
 
@@ -1088,7 +1088,7 @@ Purposes *[]*string
 
 The assigned purposes of the predefined attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute#purposes ConnectPredefinedAttribute#purposes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute#purposes ConnectPredefinedAttribute#purposes}
 
 ---
 
@@ -1102,7 +1102,7 @@ Values ConnectPredefinedAttributeValues
 
 The values of a predefined attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute#values ConnectPredefinedAttribute#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute#values ConnectPredefinedAttribute#values}
 
 ---
 
@@ -1111,7 +1111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttributeValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectpredefinedattribute"
 
 &connectpredefinedattribute.ConnectPredefinedAttributeValues {
 	StringList: *[]*string,
@@ -1136,7 +1136,7 @@ StringList *[]*string
 
 Predefined attribute values of type string list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute#string_list ConnectPredefinedAttribute#string_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute#string_list ConnectPredefinedAttribute#string_list}
 
 ---
 
@@ -1147,7 +1147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttributeAttributeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectpredefinedattribute"
 
 connectpredefinedattribute.NewConnectPredefinedAttributeAttributeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectPredefinedAttributeAttributeConfigurationOutputReference
 ```
@@ -1454,7 +1454,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttributeValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattribute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectpredefinedattribute"
 
 connectpredefinedattribute.NewConnectPredefinedAttributeValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectPredefinedAttributeValuesOutputReference
 ```

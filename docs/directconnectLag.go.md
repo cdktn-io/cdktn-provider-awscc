@@ -4,12 +4,12 @@
 
 ### DirectconnectLag <a name="DirectconnectLag" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLag"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_lag awscc_directconnect_lag}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_lag awscc_directconnect_lag}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectlag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectlag"
 
 directconnectlag.NewDirectconnectLag(scope Construct, id *string, config DirectconnectLagConfig) DirectconnectLag
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLag.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectlag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectlag"
 
 directconnectlag.DirectconnectLag_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLag.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectlag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectlag"
 
 directconnectlag.DirectconnectLag_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ directconnectlag.DirectconnectLag_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLag.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectlag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectlag"
 
 directconnectlag.DirectconnectLag_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ directconnectlag.DirectconnectLag_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLag.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectlag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectlag"
 
 directconnectlag.DirectconnectLag_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the DirectconnectLag to import
 
 The id of the existing DirectconnectLag that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_lag#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_lag#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLagConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectlag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectlag"
 
 &directconnectlag.DirectconnectLagConfig {
 	Connection: interface{},
@@ -1049,7 +1049,7 @@ ConnectionsBandwidth *string
 
 The bandwidth of the individual physical dedicated connections bundled by the LAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_lag#connections_bandwidth DirectconnectLag#connections_bandwidth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_lag#connections_bandwidth DirectconnectLag#connections_bandwidth}
 
 ---
 
@@ -1063,7 +1063,7 @@ LagName *string
 
 The name of the LAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_lag#lag_name DirectconnectLag#lag_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_lag#lag_name DirectconnectLag#lag_name}
 
 ---
 
@@ -1077,7 +1077,7 @@ Location *string
 
 The location for the LAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_lag#location DirectconnectLag#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_lag#location DirectconnectLag#location}
 
 ---
 
@@ -1091,7 +1091,7 @@ MinimumLinks *f64
 
 The minimum number of physical dedicated connections that must be operational for the LAG itself to be operational.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_lag#minimum_links DirectconnectLag#minimum_links}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_lag#minimum_links DirectconnectLag#minimum_links}
 
 ---
 
@@ -1105,7 +1105,7 @@ ProviderName *string
 
 The name of the service provider associated with the requested LAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_lag#provider_name DirectconnectLag#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_lag#provider_name DirectconnectLag#provider_name}
 
 ---
 
@@ -1119,7 +1119,7 @@ RequestMacSec interface{}
 
 Indicates whether you want the LAG to support MAC Security (MACsec).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_lag#request_mac_sec DirectconnectLag#request_mac_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_lag#request_mac_sec DirectconnectLag#request_mac_sec}
 
 ---
 
@@ -1133,7 +1133,7 @@ Tags interface{}
 
 The tags associated with the LAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_lag#tags DirectconnectLag#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_lag#tags DirectconnectLag#tags}
 
 ---
 
@@ -1142,7 +1142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLagTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectlag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectlag"
 
 &directconnectlag.DirectconnectLagTags {
 	Key: *string,
@@ -1171,7 +1171,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_lag#key DirectconnectLag#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_lag#key DirectconnectLag#key}
 
 ---
 
@@ -1187,7 +1187,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_lag#value DirectconnectLag#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_lag#value DirectconnectLag#value}
 
 ---
 
@@ -1198,7 +1198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLagTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectlag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectlag"
 
 directconnectlag.NewDirectconnectLagTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DirectconnectLagTagsList
 ```
@@ -1358,7 +1358,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.directconnectLag.DirectconnectLagTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectlag"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectlag"
 
 directconnectlag.NewDirectconnectLagTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DirectconnectLagTagsOutputReference
 ```

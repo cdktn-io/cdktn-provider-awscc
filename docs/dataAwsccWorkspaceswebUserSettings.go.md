@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspaceswebUserSettings <a name="DataAwsccWorkspaceswebUserSettings" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_settings awscc_workspacesweb_user_settings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_settings awscc_workspacesweb_user_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettings(scope Construct, id *string, config DataAwsccWorkspaceswebUserSettingsConfig) DataAwsccWorkspaceswebUserSettings
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettings_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettings_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettings.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettings_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettings_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebUser
 
 The id of the existing DataAwsccWorkspaceswebUserSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsBrandingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 &dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettingsBrandingConfiguration {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationFaviconMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 &dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationFaviconMetadata {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLocalizedStrings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 &dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLocalizedStrings {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLogoMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 &dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLogoMetadata {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationWallpaperMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 &dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationWallpaperMetadata {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 &dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettingsConfig {
 	Connection: interface{},
@@ -948,7 +948,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_settings#id DataAwsccWorkspaceswebUserSettings#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_settings#id DataAwsccWorkspaceswebUserSettings#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -960,7 +960,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 &dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfiguration {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 &dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStruct {
 
@@ -986,7 +986,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 &dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStruct {
 
@@ -999,7 +999,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 &dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettingsTags {
 
@@ -1012,7 +1012,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsToolbarConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 &dataawsccworkspaceswebusersettings.DataAwsccWorkspaceswebUserSettingsToolbarConfiguration {
 
@@ -1027,7 +1027,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationFaviconMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsBrandingConfigurationFaviconMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspaceswebUserSettingsBrandingConfigurationFaviconMetadataOutputReference
 ```
@@ -1309,7 +1309,7 @@ func InternalValue() DataAwsccWorkspaceswebUserSettingsBrandingConfigurationFavi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsMap
 ```
@@ -1445,7 +1445,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsOutputReference
 ```
@@ -1791,7 +1791,7 @@ func InternalValue() DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLoca
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLogoMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsBrandingConfigurationLogoMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLogoMetadataOutputReference
 ```
@@ -2073,7 +2073,7 @@ func InternalValue() DataAwsccWorkspaceswebUserSettingsBrandingConfigurationLogo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsBrandingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspaceswebUserSettingsBrandingConfigurationOutputReference
 ```
@@ -2421,7 +2421,7 @@ func InternalValue() DataAwsccWorkspaceswebUserSettingsBrandingConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsBrandingConfigurationWallpaperMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsBrandingConfigurationWallpaperMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspaceswebUserSettingsBrandingConfigurationWallpaperMetadataOutputReference
 ```
@@ -2703,7 +2703,7 @@ func InternalValue() DataAwsccWorkspaceswebUserSettingsBrandingConfigurationWall
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStructList
 ```
@@ -2852,7 +2852,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStructOutputReference
 ```
@@ -3152,7 +3152,7 @@ func InternalValue() DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructList
 ```
@@ -3301,7 +3301,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructOutputReference
 ```
@@ -3601,7 +3601,7 @@ func InternalValue() DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConfigurationOutputReference
 ```
@@ -3872,7 +3872,7 @@ func InternalValue() DataAwsccWorkspaceswebUserSettingsCookieSynchronizationConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspaceswebUserSettingsTagsList
 ```
@@ -4021,7 +4021,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspaceswebUserSettingsTagsOutputReference
 ```
@@ -4310,7 +4310,7 @@ func InternalValue() DataAwsccWorkspaceswebUserSettingsTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettings.DataAwsccWorkspaceswebUserSettingsToolbarConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings"
 
 dataawsccworkspaceswebusersettings.NewDataAwsccWorkspaceswebUserSettingsToolbarConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspaceswebUserSettingsToolbarConfigurationOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccEvidentlyProject <a name="DataAwsccEvidentlyProject" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_project awscc_evidently_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_project awscc_evidently_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 dataawsccevidentlyproject.NewDataAwsccEvidentlyProject(scope Construct, id *string, config DataAwsccEvidentlyProjectConfig) DataAwsccEvidentlyProject
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProject.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 dataawsccevidentlyproject.DataAwsccEvidentlyProject_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProject.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 dataawsccevidentlyproject.DataAwsccEvidentlyProject_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccevidentlyproject.DataAwsccEvidentlyProject_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProject.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 dataawsccevidentlyproject.DataAwsccEvidentlyProject_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccevidentlyproject.DataAwsccEvidentlyProject_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProject.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 dataawsccevidentlyproject.DataAwsccEvidentlyProject_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEvidentlyProject 
 
 The id of the existing DataAwsccEvidentlyProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProjectAppConfigResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 &dataawsccevidentlyproject.DataAwsccEvidentlyProjectAppConfigResource {
 
@@ -666,7 +666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproj
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProjectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 &dataawsccevidentlyproject.DataAwsccEvidentlyProjectConfig {
 	Connection: interface{},
@@ -775,7 +775,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_project#id DataAwsccEvidentlyProject#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_project#id DataAwsccEvidentlyProject#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -787,7 +787,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProjectDataDelivery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 &dataawsccevidentlyproject.DataAwsccEvidentlyProjectDataDelivery {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproj
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProjectDataDeliveryS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 &dataawsccevidentlyproject.DataAwsccEvidentlyProjectDataDeliveryS3 {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproj
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProjectTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 &dataawsccevidentlyproject.DataAwsccEvidentlyProjectTags {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproj
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProjectAppConfigResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 dataawsccevidentlyproject.NewDataAwsccEvidentlyProjectAppConfigResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvidentlyProjectAppConfigResourceOutputReference
 ```
@@ -1099,7 +1099,7 @@ func InternalValue() DataAwsccEvidentlyProjectAppConfigResource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProjectDataDeliveryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 dataawsccevidentlyproject.NewDataAwsccEvidentlyProjectDataDeliveryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvidentlyProjectDataDeliveryOutputReference
 ```
@@ -1370,7 +1370,7 @@ func InternalValue() DataAwsccEvidentlyProjectDataDelivery
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProjectDataDeliveryS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 dataawsccevidentlyproject.NewDataAwsccEvidentlyProjectDataDeliveryS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvidentlyProjectDataDeliveryS3OutputReference
 ```
@@ -1641,7 +1641,7 @@ func InternalValue() DataAwsccEvidentlyProjectDataDeliveryS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProjectTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 dataawsccevidentlyproject.NewDataAwsccEvidentlyProjectTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvidentlyProjectTagsList
 ```
@@ -1790,7 +1790,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyProject.DataAwsccEvidentlyProjectTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject"
 
 dataawsccevidentlyproject.NewDataAwsccEvidentlyProjectTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvidentlyProjectTagsOutputReference
 ```

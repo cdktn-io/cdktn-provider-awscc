@@ -4,12 +4,12 @@
 
 ### ApprunnerService <a name="ApprunnerService" id="@cdktn/provider-awscc.apprunnerService.ApprunnerService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service awscc_apprunner_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service awscc_apprunner_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerService(scope Construct, id *string, config ApprunnerServiceConfig) ApprunnerService
 ```
@@ -547,7 +547,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apprunnerService.ApprunnerService.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.ApprunnerService_IsConstruct(x interface{}) *bool
 ```
@@ -579,7 +579,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apprunnerService.ApprunnerService.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.ApprunnerService_IsTerraformElement(x interface{}) *bool
 ```
@@ -593,7 +593,7 @@ apprunnerservice.ApprunnerService_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apprunnerService.ApprunnerService.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.ApprunnerService_IsTerraformResource(x interface{}) *bool
 ```
@@ -607,7 +607,7 @@ apprunnerservice.ApprunnerService_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apprunnerService.ApprunnerService.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.ApprunnerService_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -636,7 +636,7 @@ The construct id used in the generated config for the ApprunnerService to import
 
 The id of the existing ApprunnerService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1089,7 +1089,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceConfig {
 	Connection: interface{},
@@ -1099,13 +1099,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	SourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceSourceConfiguration,
+	SourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceSourceConfiguration,
 	AutoScalingConfigurationArn: *string,
-	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceEncryptionConfiguration,
-	HealthCheckConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceHealthCheckConfiguration,
-	InstanceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceInstanceConfiguration,
-	NetworkConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceNetworkConfiguration,
-	ObservabilityConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceObservabilityConfiguration,
+	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceEncryptionConfiguration,
+	HealthCheckConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceHealthCheckConfiguration,
+	InstanceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceInstanceConfiguration,
+	NetworkConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceNetworkConfiguration,
+	ObservabilityConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceObservabilityConfiguration,
 	ServiceName: *string,
 	Tags: interface{},
 }
@@ -1130,7 +1130,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
 | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceConfig.property.networkConfiguration">NetworkConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceNetworkConfiguration">ApprunnerServiceNetworkConfiguration</a></code> | Network configuration. |
 | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceConfig.property.observabilityConfiguration">ObservabilityConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceObservabilityConfiguration">ApprunnerServiceObservabilityConfiguration</a></code> | Service observability configuration. |
 | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceConfig.property.serviceName">ServiceName</a></code> | <code>*string</code> | The AppRunner Service Name. |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#tags ApprunnerService#tags}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#tags ApprunnerService#tags}. |
 
 ---
 
@@ -1214,7 +1214,7 @@ SourceConfiguration ApprunnerServiceSourceConfiguration
 
 Source Code configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#source_configuration ApprunnerService#source_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#source_configuration ApprunnerService#source_configuration}
 
 ---
 
@@ -1228,7 +1228,7 @@ AutoScalingConfigurationArn *string
 
 Autoscaling configuration ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#auto_scaling_configuration_arn ApprunnerService#auto_scaling_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#auto_scaling_configuration_arn ApprunnerService#auto_scaling_configuration_arn}
 
 ---
 
@@ -1242,7 +1242,7 @@ EncryptionConfiguration ApprunnerServiceEncryptionConfiguration
 
 Encryption configuration (KMS key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#encryption_configuration ApprunnerService#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#encryption_configuration ApprunnerService#encryption_configuration}
 
 ---
 
@@ -1256,7 +1256,7 @@ HealthCheckConfiguration ApprunnerServiceHealthCheckConfiguration
 
 Health check configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#health_check_configuration ApprunnerService#health_check_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#health_check_configuration ApprunnerService#health_check_configuration}
 
 ---
 
@@ -1270,7 +1270,7 @@ InstanceConfiguration ApprunnerServiceInstanceConfiguration
 
 Instance Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#instance_configuration ApprunnerService#instance_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#instance_configuration ApprunnerService#instance_configuration}
 
 ---
 
@@ -1284,7 +1284,7 @@ NetworkConfiguration ApprunnerServiceNetworkConfiguration
 
 Network configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#network_configuration ApprunnerService#network_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#network_configuration ApprunnerService#network_configuration}
 
 ---
 
@@ -1298,7 +1298,7 @@ ObservabilityConfiguration ApprunnerServiceObservabilityConfiguration
 
 Service observability configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#observability_configuration ApprunnerService#observability_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#observability_configuration ApprunnerService#observability_configuration}
 
 ---
 
@@ -1312,7 +1312,7 @@ ServiceName *string
 
 The AppRunner Service Name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#service_name ApprunnerService#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#service_name ApprunnerService#service_name}
 
 ---
 
@@ -1324,7 +1324,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#tags ApprunnerService#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#tags ApprunnerService#tags}.
 
 ---
 
@@ -1333,7 +1333,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceEncryptionConfiguration {
 	KmsKey: *string,
@@ -1358,7 +1358,7 @@ KmsKey *string
 
 The KMS Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#kms_key ApprunnerService#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#kms_key ApprunnerService#kms_key}
 
 ---
 
@@ -1367,7 +1367,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceHealthCheckConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceHealthCheckConfiguration {
 	HealthyThreshold: *f64,
@@ -1402,7 +1402,7 @@ HealthyThreshold *f64
 
 Health check Healthy Threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#healthy_threshold ApprunnerService#healthy_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#healthy_threshold ApprunnerService#healthy_threshold}
 
 ---
 
@@ -1416,7 +1416,7 @@ Interval *f64
 
 Health check Interval.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#interval ApprunnerService#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#interval ApprunnerService#interval}
 
 ---
 
@@ -1430,7 +1430,7 @@ Path *string
 
 Health check Path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#path ApprunnerService#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#path ApprunnerService#path}
 
 ---
 
@@ -1444,7 +1444,7 @@ Protocol *string
 
 Health Check Protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#protocol ApprunnerService#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#protocol ApprunnerService#protocol}
 
 ---
 
@@ -1458,7 +1458,7 @@ Timeout *f64
 
 Health check Timeout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#timeout ApprunnerService#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#timeout ApprunnerService#timeout}
 
 ---
 
@@ -1472,7 +1472,7 @@ UnhealthyThreshold *f64
 
 Health check Unhealthy Threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#unhealthy_threshold ApprunnerService#unhealthy_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#unhealthy_threshold ApprunnerService#unhealthy_threshold}
 
 ---
 
@@ -1481,7 +1481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceInstanceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceInstanceConfiguration {
 	Cpu: *string,
@@ -1510,7 +1510,7 @@ Cpu *string
 
 CPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#cpu ApprunnerService#cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#cpu ApprunnerService#cpu}
 
 ---
 
@@ -1524,7 +1524,7 @@ InstanceRoleArn *string
 
 Instance Role Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#instance_role_arn ApprunnerService#instance_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#instance_role_arn ApprunnerService#instance_role_arn}
 
 ---
 
@@ -1538,7 +1538,7 @@ Memory *string
 
 Memory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#memory ApprunnerService#memory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#memory ApprunnerService#memory}
 
 ---
 
@@ -1547,11 +1547,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceNetworkConfiguration {
-	EgressConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceNetworkConfigurationEgressConfiguration,
-	IngressConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceNetworkConfigurationIngressConfiguration,
+	EgressConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceNetworkConfigurationEgressConfiguration,
+	IngressConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceNetworkConfigurationIngressConfiguration,
 	IpAddressType: *string,
 }
 ```
@@ -1576,7 +1576,7 @@ EgressConfiguration ApprunnerServiceNetworkConfigurationEgressConfiguration
 
 Network egress configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#egress_configuration ApprunnerService#egress_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#egress_configuration ApprunnerService#egress_configuration}
 
 ---
 
@@ -1590,7 +1590,7 @@ IngressConfiguration ApprunnerServiceNetworkConfigurationIngressConfiguration
 
 Network ingress configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#ingress_configuration ApprunnerService#ingress_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#ingress_configuration ApprunnerService#ingress_configuration}
 
 ---
 
@@ -1604,7 +1604,7 @@ IpAddressType *string
 
 App Runner service endpoint IP address type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#ip_address_type ApprunnerService#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#ip_address_type ApprunnerService#ip_address_type}
 
 ---
 
@@ -1613,7 +1613,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceNetworkConfigurationEgressConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceNetworkConfigurationEgressConfiguration {
 	EgressType: *string,
@@ -1640,7 +1640,7 @@ EgressType *string
 
 Network egress type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#egress_type ApprunnerService#egress_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#egress_type ApprunnerService#egress_type}
 
 ---
 
@@ -1654,7 +1654,7 @@ VpcConnectorArn *string
 
 The Amazon Resource Name (ARN) of the App Runner VpcConnector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#vpc_connector_arn ApprunnerService#vpc_connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#vpc_connector_arn ApprunnerService#vpc_connector_arn}
 
 ---
 
@@ -1663,7 +1663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceNetworkConfigurationIngressConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceNetworkConfigurationIngressConfiguration {
 	IsPubliclyAccessible: interface{},
@@ -1688,7 +1688,7 @@ IsPubliclyAccessible interface{}
 
 It's set to true if the Apprunner service is publicly accessible. It's set to false otherwise.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#is_publicly_accessible ApprunnerService#is_publicly_accessible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#is_publicly_accessible ApprunnerService#is_publicly_accessible}
 
 ---
 
@@ -1697,7 +1697,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceObservabilityConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceObservabilityConfiguration {
 	ObservabilityConfigurationArn: *string,
@@ -1724,7 +1724,7 @@ ObservabilityConfigurationArn *string
 
 The Amazon Resource Name (ARN) of the App Runner ObservabilityConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#observability_configuration_arn ApprunnerService#observability_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#observability_configuration_arn ApprunnerService#observability_configuration_arn}
 
 ---
 
@@ -1738,7 +1738,7 @@ ObservabilityEnabled interface{}
 
 Observability enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#observability_enabled ApprunnerService#observability_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#observability_enabled ApprunnerService#observability_enabled}
 
 ---
 
@@ -1747,13 +1747,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfiguration {
-	AuthenticationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceSourceConfigurationAuthenticationConfiguration,
+	AuthenticationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceSourceConfigurationAuthenticationConfiguration,
 	AutoDeploymentsEnabled: interface{},
-	CodeRepository: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepository,
-	ImageRepository: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepository,
+	CodeRepository: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepository,
+	ImageRepository: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceSourceConfigurationImageRepository,
 }
 ```
 
@@ -1778,7 +1778,7 @@ AuthenticationConfiguration ApprunnerServiceSourceConfigurationAuthenticationCon
 
 Authentication Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#authentication_configuration ApprunnerService#authentication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#authentication_configuration ApprunnerService#authentication_configuration}
 
 ---
 
@@ -1792,7 +1792,7 @@ AutoDeploymentsEnabled interface{}
 
 Auto Deployment enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#auto_deployments_enabled ApprunnerService#auto_deployments_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#auto_deployments_enabled ApprunnerService#auto_deployments_enabled}
 
 ---
 
@@ -1806,7 +1806,7 @@ CodeRepository ApprunnerServiceSourceConfigurationCodeRepository
 
 Source Code Repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#code_repository ApprunnerService#code_repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#code_repository ApprunnerService#code_repository}
 
 ---
 
@@ -1820,7 +1820,7 @@ ImageRepository ApprunnerServiceSourceConfigurationImageRepository
 
 Image Repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#image_repository ApprunnerService#image_repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#image_repository ApprunnerService#image_repository}
 
 ---
 
@@ -1829,7 +1829,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationAuthenticationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfigurationAuthenticationConfiguration {
 	AccessRoleArn: *string,
@@ -1856,7 +1856,7 @@ AccessRoleArn *string
 
 Access Role Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#access_role_arn ApprunnerService#access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#access_role_arn ApprunnerService#access_role_arn}
 
 ---
 
@@ -1870,7 +1870,7 @@ ConnectionArn *string
 
 Connection Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#connection_arn ApprunnerService#connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#connection_arn ApprunnerService#connection_arn}
 
 ---
 
@@ -1879,12 +1879,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfigurationCodeRepository {
-	CodeConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfiguration,
+	CodeConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfiguration,
 	RepositoryUrl: *string,
-	SourceCodeVersion: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersion,
+	SourceCodeVersion: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersion,
 	SourceDirectory: *string,
 }
 ```
@@ -1910,7 +1910,7 @@ CodeConfiguration ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigura
 
 Code Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#code_configuration ApprunnerService#code_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#code_configuration ApprunnerService#code_configuration}
 
 ---
 
@@ -1924,7 +1924,7 @@ RepositoryUrl *string
 
 Repository Url.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#repository_url ApprunnerService#repository_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#repository_url ApprunnerService#repository_url}
 
 ---
 
@@ -1938,7 +1938,7 @@ SourceCodeVersion ApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVer
 
 Source Code Version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#source_code_version ApprunnerService#source_code_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#source_code_version ApprunnerService#source_code_version}
 
 ---
 
@@ -1952,7 +1952,7 @@ SourceDirectory *string
 
 Source Directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#source_directory ApprunnerService#source_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#source_directory ApprunnerService#source_directory}
 
 ---
 
@@ -1961,10 +1961,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfiguration {
-	CodeConfigurationValues: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues,
+	CodeConfigurationValues: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues,
 	ConfigurationSource: *string,
 }
 ```
@@ -1988,7 +1988,7 @@ CodeConfigurationValues ApprunnerServiceSourceConfigurationCodeRepositoryCodeCon
 
 Code Configuration Values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#code_configuration_values ApprunnerService#code_configuration_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#code_configuration_values ApprunnerService#code_configuration_values}
 
 ---
 
@@ -2002,7 +2002,7 @@ ConfigurationSource *string
 
 Configuration Source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#configuration_source ApprunnerService#configuration_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#configuration_source ApprunnerService#configuration_source}
 
 ---
 
@@ -2011,7 +2011,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues {
 	BuildCommand: *string,
@@ -2031,7 +2031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
 | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues.property.port">Port</a></code> | <code>*string</code> | Port. |
 | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues.property.runtime">Runtime</a></code> | <code>*string</code> | Runtime. |
 | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues.property.runtimeEnvironmentSecrets">RuntimeEnvironmentSecrets</a></code> | <code>interface{}</code> | The secrets and parameters that get referenced by your service as environment variables. |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues.property.runtimeEnvironmentVariables">RuntimeEnvironmentVariables</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#runtime_environment_variables ApprunnerService#runtime_environment_variables}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues.property.runtimeEnvironmentVariables">RuntimeEnvironmentVariables</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#runtime_environment_variables ApprunnerService#runtime_environment_variables}. |
 | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValues.property.startCommand">StartCommand</a></code> | <code>*string</code> | Start Command. |
 
 ---
@@ -2046,7 +2046,7 @@ BuildCommand *string
 
 Build Command.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#build_command ApprunnerService#build_command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#build_command ApprunnerService#build_command}
 
 ---
 
@@ -2060,7 +2060,7 @@ Port *string
 
 Port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#port ApprunnerService#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#port ApprunnerService#port}
 
 ---
 
@@ -2074,7 +2074,7 @@ Runtime *string
 
 Runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#runtime ApprunnerService#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#runtime ApprunnerService#runtime}
 
 ---
 
@@ -2088,7 +2088,7 @@ RuntimeEnvironmentSecrets interface{}
 
 The secrets and parameters that get referenced by your service as environment variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#runtime_environment_secrets ApprunnerService#runtime_environment_secrets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#runtime_environment_secrets ApprunnerService#runtime_environment_secrets}
 
 ---
 
@@ -2100,7 +2100,7 @@ RuntimeEnvironmentVariables interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#runtime_environment_variables ApprunnerService#runtime_environment_variables}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#runtime_environment_variables ApprunnerService#runtime_environment_variables}.
 
 ---
 
@@ -2114,7 +2114,7 @@ StartCommand *string
 
 Start Command.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#start_command ApprunnerService#start_command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#start_command ApprunnerService#start_command}
 
 ---
 
@@ -2123,7 +2123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecrets {
 	Name: *string,
@@ -2135,8 +2135,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecrets.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#name ApprunnerService#name}. |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecrets.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#value ApprunnerService#value}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecrets.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#name ApprunnerService#name}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecrets.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#value ApprunnerService#value}. |
 
 ---
 
@@ -2148,7 +2148,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#name ApprunnerService#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#name ApprunnerService#name}.
 
 ---
 
@@ -2160,7 +2160,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#value ApprunnerService#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#value ApprunnerService#value}.
 
 ---
 
@@ -2169,7 +2169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariables {
 	Name: *string,
@@ -2181,8 +2181,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariables.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#name ApprunnerService#name}. |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariables.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#value ApprunnerService#value}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariables.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#name ApprunnerService#name}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariables.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#value ApprunnerService#value}. |
 
 ---
 
@@ -2194,7 +2194,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#name ApprunnerService#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#name ApprunnerService#name}.
 
 ---
 
@@ -2206,7 +2206,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#value ApprunnerService#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#value ApprunnerService#value}.
 
 ---
 
@@ -2215,7 +2215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersion {
 	Type: *string,
@@ -2242,7 +2242,7 @@ Type *string
 
 Source Code Version Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#type ApprunnerService#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#type ApprunnerService#type}
 
 ---
 
@@ -2256,7 +2256,7 @@ Value *string
 
 Source Code Version Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#value ApprunnerService#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#value ApprunnerService#value}
 
 ---
 
@@ -2265,10 +2265,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfigurationImageRepository {
-	ImageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration,
+	ImageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration,
 	ImageIdentifier: *string,
 	ImageRepositoryType: *string,
 }
@@ -2294,7 +2294,7 @@ ImageConfiguration ApprunnerServiceSourceConfigurationImageRepositoryImageConfig
 
 Image Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#image_configuration ApprunnerService#image_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#image_configuration ApprunnerService#image_configuration}
 
 ---
 
@@ -2308,7 +2308,7 @@ ImageIdentifier *string
 
 Image Identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#image_identifier ApprunnerService#image_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#image_identifier ApprunnerService#image_identifier}
 
 ---
 
@@ -2322,7 +2322,7 @@ ImageRepositoryType *string
 
 Image Repository Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#image_repository_type ApprunnerService#image_repository_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#image_repository_type ApprunnerService#image_repository_type}
 
 ---
 
@@ -2331,7 +2331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration {
 	Port: *string,
@@ -2347,7 +2347,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration.property.port">Port</a></code> | <code>*string</code> | Port. |
 | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration.property.runtimeEnvironmentSecrets">RuntimeEnvironmentSecrets</a></code> | <code>interface{}</code> | The secrets and parameters that get referenced by your service as environment variables. |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration.property.runtimeEnvironmentVariables">RuntimeEnvironmentVariables</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#runtime_environment_variables ApprunnerService#runtime_environment_variables}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration.property.runtimeEnvironmentVariables">RuntimeEnvironmentVariables</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#runtime_environment_variables ApprunnerService#runtime_environment_variables}. |
 | <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguration.property.startCommand">StartCommand</a></code> | <code>*string</code> | Start Command. |
 
 ---
@@ -2362,7 +2362,7 @@ Port *string
 
 Port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#port ApprunnerService#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#port ApprunnerService#port}
 
 ---
 
@@ -2376,7 +2376,7 @@ RuntimeEnvironmentSecrets interface{}
 
 The secrets and parameters that get referenced by your service as environment variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#runtime_environment_secrets ApprunnerService#runtime_environment_secrets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#runtime_environment_secrets ApprunnerService#runtime_environment_secrets}
 
 ---
 
@@ -2388,7 +2388,7 @@ RuntimeEnvironmentVariables interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#runtime_environment_variables ApprunnerService#runtime_environment_variables}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#runtime_environment_variables ApprunnerService#runtime_environment_variables}.
 
 ---
 
@@ -2402,7 +2402,7 @@ StartCommand *string
 
 Start Command.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#start_command ApprunnerService#start_command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#start_command ApprunnerService#start_command}
 
 ---
 
@@ -2411,7 +2411,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecrets {
 	Name: *string,
@@ -2423,8 +2423,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecrets.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#name ApprunnerService#name}. |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecrets.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#value ApprunnerService#value}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecrets.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#name ApprunnerService#name}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecrets.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#value ApprunnerService#value}. |
 
 ---
 
@@ -2436,7 +2436,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#name ApprunnerService#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#name ApprunnerService#name}.
 
 ---
 
@@ -2448,7 +2448,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#value ApprunnerService#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#value ApprunnerService#value}.
 
 ---
 
@@ -2457,7 +2457,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariables {
 	Name: *string,
@@ -2469,8 +2469,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariables.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#name ApprunnerService#name}. |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariables.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#value ApprunnerService#value}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariables.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#name ApprunnerService#name}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariables.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#value ApprunnerService#value}. |
 
 ---
 
@@ -2482,7 +2482,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#name ApprunnerService#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#name ApprunnerService#name}.
 
 ---
 
@@ -2494,7 +2494,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#value ApprunnerService#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#value ApprunnerService#value}.
 
 ---
 
@@ -2503,7 +2503,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 &apprunnerservice.ApprunnerServiceTags {
 	Key: *string,
@@ -2515,8 +2515,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#key ApprunnerService#key}. |
-| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#value ApprunnerService#value}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#key ApprunnerService#key}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerService.ApprunnerServiceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#value ApprunnerService#value}. |
 
 ---
 
@@ -2528,7 +2528,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#key ApprunnerService#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#key ApprunnerService#key}.
 
 ---
 
@@ -2540,7 +2540,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_service#value ApprunnerService#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_service#value ApprunnerService#value}.
 
 ---
 
@@ -2551,7 +2551,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceEncryptionConfigurationOutputReference
 ```
@@ -2829,7 +2829,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceHealthCheckConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceHealthCheckConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceHealthCheckConfigurationOutputReference
 ```
@@ -3252,7 +3252,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceInstanceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceInstanceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceInstanceConfigurationOutputReference
 ```
@@ -3588,7 +3588,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceNetworkConfigurationEgressConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceNetworkConfigurationEgressConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceNetworkConfigurationEgressConfigurationOutputReference
 ```
@@ -3895,7 +3895,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceNetworkConfigurationIngressConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceNetworkConfigurationIngressConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceNetworkConfigurationIngressConfigurationOutputReference
 ```
@@ -4173,7 +4173,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceNetworkConfigurationOutputReference
 ```
@@ -4535,7 +4535,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceObservabilityConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceObservabilityConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceObservabilityConfigurationOutputReference
 ```
@@ -4842,7 +4842,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReference
 ```
@@ -5149,7 +5149,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesOutputReference
 ```
@@ -5598,7 +5598,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsList
 ```
@@ -5758,7 +5758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentSecretsOutputReference
 ```
@@ -6083,7 +6083,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesList
 ```
@@ -6243,7 +6243,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationCodeConfigurationValuesRuntimeEnvironmentVariablesOutputReference
 ```
@@ -6568,7 +6568,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationOutputReference
 ```
@@ -6888,7 +6888,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationCodeRepositoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceSourceConfigurationCodeRepositoryOutputReference
 ```
@@ -7279,7 +7279,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersionOutputReference
 ```
@@ -7586,7 +7586,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationOutputReference
 ```
@@ -7977,7 +7977,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsList
 ```
@@ -8137,7 +8137,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentSecretsOutputReference
 ```
@@ -8462,7 +8462,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesList
 ```
@@ -8622,7 +8622,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApprunnerServiceSourceConfigurationImageRepositoryImageConfigurationRuntimeEnvironmentVariablesOutputReference
 ```
@@ -8947,7 +8947,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationImageRepositoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationImageRepositoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceSourceConfigurationImageRepositoryOutputReference
 ```
@@ -9296,7 +9296,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApprunnerServiceSourceConfigurationOutputReference
 ```
@@ -9700,7 +9700,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApprunnerServiceTagsList
 ```
@@ -9860,7 +9860,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerService.ApprunnerServiceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnerservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnerservice"
 
 apprunnerservice.NewApprunnerServiceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApprunnerServiceTagsOutputReference
 ```

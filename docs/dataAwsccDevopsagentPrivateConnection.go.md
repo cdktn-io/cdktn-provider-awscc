@@ -4,12 +4,12 @@
 
 ### DataAwsccDevopsagentPrivateConnection <a name="DataAwsccDevopsagentPrivateConnection" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_private_connection awscc_devopsagent_private_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsagent_private_connection awscc_devopsagent_private_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 dataawsccdevopsagentprivateconnection.NewDataAwsccDevopsagentPrivateConnection(scope Construct, id *string, config DataAwsccDevopsagentPrivateConnectionConfig) DataAwsccDevopsagentPrivateConnection
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 dataawsccdevopsagentprivateconnection.DataAwsccDevopsagentPrivateConnection_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 dataawsccdevopsagentprivateconnection.DataAwsccDevopsagentPrivateConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdevopsagentprivateconnection.DataAwsccDevopsagentPrivateConnection_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnection.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 dataawsccdevopsagentprivateconnection.DataAwsccDevopsagentPrivateConnection_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdevopsagentprivateconnection.DataAwsccDevopsagentPrivateConnection_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 dataawsccdevopsagentprivateconnection.DataAwsccDevopsagentPrivateConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDevopsagentPrivat
 
 The id of the existing DataAwsccDevopsagentPrivateConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_private_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsagent_private_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 &dataawsccdevopsagentprivateconnection.DataAwsccDevopsagentPrivateConnectionConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_private_connection#id DataAwsccDevopsagentPrivateConnection#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsagent_private_connection#id DataAwsccDevopsagentPrivateConnection#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnectionConnectionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 &dataawsccdevopsagentprivateconnection.DataAwsccDevopsagentPrivateConnectionConnectionConfiguration {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnectionConnectionConfigurationSelfManaged.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 &dataawsccdevopsagentprivateconnection.DataAwsccDevopsagentPrivateConnectionConnectionConfigurationSelfManaged {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnectionConnectionConfigurationServiceManaged.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 &dataawsccdevopsagentprivateconnection.DataAwsccDevopsagentPrivateConnectionConnectionConfigurationServiceManaged {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnectionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 &dataawsccdevopsagentprivateconnection.DataAwsccDevopsagentPrivateConnectionTags {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentpr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnectionConnectionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 dataawsccdevopsagentprivateconnection.NewDataAwsccDevopsagentPrivateConnectionConnectionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentPrivateConnectionConnectionConfigurationOutputReference
 ```
@@ -1110,7 +1110,7 @@ func InternalValue() DataAwsccDevopsagentPrivateConnectionConnectionConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnectionConnectionConfigurationSelfManagedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 dataawsccdevopsagentprivateconnection.NewDataAwsccDevopsagentPrivateConnectionConnectionConfigurationSelfManagedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentPrivateConnectionConnectionConfigurationSelfManagedOutputReference
 ```
@@ -1370,7 +1370,7 @@ func InternalValue() DataAwsccDevopsagentPrivateConnectionConnectionConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnectionConnectionConfigurationServiceManagedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 dataawsccdevopsagentprivateconnection.NewDataAwsccDevopsagentPrivateConnectionConnectionConfigurationServiceManagedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentPrivateConnectionConnectionConfigurationServiceManagedOutputReference
 ```
@@ -1707,7 +1707,7 @@ func InternalValue() DataAwsccDevopsagentPrivateConnectionConnectionConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnectionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 dataawsccdevopsagentprivateconnection.NewDataAwsccDevopsagentPrivateConnectionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDevopsagentPrivateConnectionTagsList
 ```
@@ -1856,7 +1856,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentPrivateConnection.DataAwsccDevopsagentPrivateConnectionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagentprivateconnection"
 
 dataawsccdevopsagentprivateconnection.NewDataAwsccDevopsagentPrivateConnectionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDevopsagentPrivateConnectionTagsOutputReference
 ```

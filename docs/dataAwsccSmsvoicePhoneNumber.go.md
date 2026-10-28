@@ -4,12 +4,12 @@
 
 ### DataAwsccSmsvoicePhoneNumber <a name="DataAwsccSmsvoicePhoneNumber" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumber"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_phone_number awscc_smsvoice_phone_number}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_phone_number awscc_smsvoice_phone_number}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.NewDataAwsccSmsvoicePhoneNumber(scope Construct, id *string, config DataAwsccSmsvoicePhoneNumberConfig) DataAwsccSmsvoicePhoneNumber
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumber.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumber_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumber.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumber_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumber_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumber.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumber_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumber_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumber.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumber_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSmsvoicePhoneNumb
 
 The id of the existing DataAwsccSmsvoicePhoneNumber that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_phone_number#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_phone_number#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 &dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumberConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_phone_number#id DataAwsccSmsvoicePhoneNumber#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_phone_number#id DataAwsccSmsvoicePhoneNumber#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberMandatoryKeywords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 &dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumberMandatoryKeywords {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephone
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberMandatoryKeywordsHelp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 &dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumberMandatoryKeywordsHelp {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephone
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberMandatoryKeywordsStop.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 &dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumberMandatoryKeywordsStop {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephone
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberOptionalKeywords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 &dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumberOptionalKeywords {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephone
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 &dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumberTags {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephone
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberTwoWay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 &dataawsccsmsvoicephonenumber.DataAwsccSmsvoicePhoneNumberTwoWay {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephone
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberMandatoryKeywordsHelpOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.NewDataAwsccSmsvoicePhoneNumberMandatoryKeywordsHelpOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSmsvoicePhoneNumberMandatoryKeywordsHelpOutputReference
 ```
@@ -1191,7 +1191,7 @@ func InternalValue() DataAwsccSmsvoicePhoneNumberMandatoryKeywordsHelp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberMandatoryKeywordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.NewDataAwsccSmsvoicePhoneNumberMandatoryKeywordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSmsvoicePhoneNumberMandatoryKeywordsOutputReference
 ```
@@ -1462,7 +1462,7 @@ func InternalValue() DataAwsccSmsvoicePhoneNumberMandatoryKeywords
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberMandatoryKeywordsStopOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.NewDataAwsccSmsvoicePhoneNumberMandatoryKeywordsStopOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSmsvoicePhoneNumberMandatoryKeywordsStopOutputReference
 ```
@@ -1722,7 +1722,7 @@ func InternalValue() DataAwsccSmsvoicePhoneNumberMandatoryKeywordsStop
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberOptionalKeywordsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.NewDataAwsccSmsvoicePhoneNumberOptionalKeywordsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSmsvoicePhoneNumberOptionalKeywordsList
 ```
@@ -1871,7 +1871,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberOptionalKeywordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.NewDataAwsccSmsvoicePhoneNumberOptionalKeywordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSmsvoicePhoneNumberOptionalKeywordsOutputReference
 ```
@@ -2171,7 +2171,7 @@ func InternalValue() DataAwsccSmsvoicePhoneNumberOptionalKeywords
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.NewDataAwsccSmsvoicePhoneNumberTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSmsvoicePhoneNumberTagsList
 ```
@@ -2320,7 +2320,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.NewDataAwsccSmsvoicePhoneNumberTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSmsvoicePhoneNumberTagsOutputReference
 ```
@@ -2609,7 +2609,7 @@ func InternalValue() DataAwsccSmsvoicePhoneNumberTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePhoneNumber.DataAwsccSmsvoicePhoneNumberTwoWayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicephonenumber"
 
 dataawsccsmsvoicephonenumber.NewDataAwsccSmsvoicePhoneNumberTwoWayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSmsvoicePhoneNumberTwoWayOutputReference
 ```

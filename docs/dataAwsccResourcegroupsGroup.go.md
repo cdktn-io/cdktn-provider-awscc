@@ -4,12 +4,12 @@
 
 ### DataAwsccResourcegroupsGroup <a name="DataAwsccResourcegroupsGroup" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourcegroups_group awscc_resourcegroups_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourcegroups_group awscc_resourcegroups_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.NewDataAwsccResourcegroupsGroup(scope Construct, id *string, config DataAwsccResourcegroupsGroupConfig) DataAwsccResourcegroupsGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroup_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroup_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResourcegroupsGro
 
 The id of the existing DataAwsccResourcegroupsGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourcegroups_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourcegroups_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 &dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroupConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourcegroups_group#id DataAwsccResourcegroupsGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourcegroups_group#id DataAwsccResourcegroupsGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 &dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroupConfiguration {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroup
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupConfigurationParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 &dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroupConfigurationParameters {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroup
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupResourceQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 &dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroupResourceQuery {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroup
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupResourceQueryQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 &dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroupResourceQueryQuery {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroup
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupResourceQueryQueryTagFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 &dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroupResourceQueryQueryTagFilters {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroup
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 &dataawsccresourcegroupsgroup.DataAwsccResourcegroupsGroupTags {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.NewDataAwsccResourcegroupsGroupConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccResourcegroupsGroupConfigurationList
 ```
@@ -1014,7 +1014,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.NewDataAwsccResourcegroupsGroupConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccResourcegroupsGroupConfigurationOutputReference
 ```
@@ -1303,7 +1303,7 @@ func InternalValue() DataAwsccResourcegroupsGroupConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupConfigurationParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.NewDataAwsccResourcegroupsGroupConfigurationParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccResourcegroupsGroupConfigurationParametersList
 ```
@@ -1452,7 +1452,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupConfigurationParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.NewDataAwsccResourcegroupsGroupConfigurationParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccResourcegroupsGroupConfigurationParametersOutputReference
 ```
@@ -1741,7 +1741,7 @@ func InternalValue() DataAwsccResourcegroupsGroupConfigurationParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupResourceQueryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.NewDataAwsccResourcegroupsGroupResourceQueryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccResourcegroupsGroupResourceQueryOutputReference
 ```
@@ -2012,7 +2012,7 @@ func InternalValue() DataAwsccResourcegroupsGroupResourceQuery
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupResourceQueryQueryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.NewDataAwsccResourcegroupsGroupResourceQueryQueryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccResourcegroupsGroupResourceQueryQueryOutputReference
 ```
@@ -2294,7 +2294,7 @@ func InternalValue() DataAwsccResourcegroupsGroupResourceQueryQuery
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupResourceQueryQueryTagFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.NewDataAwsccResourcegroupsGroupResourceQueryQueryTagFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccResourcegroupsGroupResourceQueryQueryTagFiltersList
 ```
@@ -2443,7 +2443,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupResourceQueryQueryTagFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.NewDataAwsccResourcegroupsGroupResourceQueryQueryTagFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccResourcegroupsGroupResourceQueryQueryTagFiltersOutputReference
 ```
@@ -2732,7 +2732,7 @@ func InternalValue() DataAwsccResourcegroupsGroupResourceQueryQueryTagFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.NewDataAwsccResourcegroupsGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccResourcegroupsGroupTagsList
 ```
@@ -2881,7 +2881,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsGroup.DataAwsccResourcegroupsGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup"
 
 dataawsccresourcegroupsgroup.NewDataAwsccResourcegroupsGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccResourcegroupsGroupTagsOutputReference
 ```

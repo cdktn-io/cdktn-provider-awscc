@@ -4,12 +4,12 @@
 
 ### ConfigConnector <a name="ConfigConnector" id="@cdktn/provider-awscc.configConnector.ConfigConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector awscc_config_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector awscc_config_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConnector.ConfigConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 configconnector.NewConfigConnector(scope Construct, id *string, config ConfigConnectorConfig) ConfigConnector
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.configConnector.ConfigConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 configconnector.ConfigConnector_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.configConnector.ConfigConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 configconnector.ConfigConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ configconnector.ConfigConnector_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.configConnector.ConfigConnector.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 configconnector.ConfigConnector_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ configconnector.ConfigConnector_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.configConnector.ConfigConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 configconnector.ConfigConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the ConfigConnector to import.
 
 The id of the existing ConfigConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -810,7 +810,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 &configconnector.ConfigConnectorConfig {
 	Connection: interface{},
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ConnectorConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.configConnector.ConfigConnectorConnectorConfiguration,
+	ConnectorConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.configConnector.ConfigConnectorConnectorConfiguration,
 	Tags: interface{},
 }
 ```
@@ -921,7 +921,7 @@ ConnectorConfiguration ConfigConnectorConnectorConfiguration
 
 The configuration for the connector that specifies the third-party cloud provider connection details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
 
 ---
 
@@ -935,7 +935,7 @@ Tags interface{}
 
 The tags for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector#tags ConfigConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector#tags ConfigConnector#tags}
 
 ---
 
@@ -944,10 +944,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 &configconnector.ConfigConnectorConnectorConfiguration {
-	Azure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.configConnector.ConfigConnectorConnectorConfigurationAzure,
+	Azure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.configConnector.ConfigConnectorConnectorConfigurationAzure,
 }
 ```
 
@@ -969,7 +969,7 @@ Azure ConfigConnectorConnectorConfigurationAzure
 
 The configuration for connecting to Microsoft Azure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector#azure ConfigConnector#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector#azure ConfigConnector#azure}
 
 ---
 
@@ -978,7 +978,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationAzure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 &configconnector.ConfigConnectorConnectorConfigurationAzure {
 	ClientIdentifier: *string,
@@ -1005,7 +1005,7 @@ ClientIdentifier *string
 
 The Azure client (application) identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
 
 ---
 
@@ -1019,7 +1019,7 @@ TenantIdentifier *string
 
 The Azure tenant identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
 
 ---
 
@@ -1028,7 +1028,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConnector.ConfigConnectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 &configconnector.ConfigConnectorTags {
 	Key: *string,
@@ -1057,7 +1057,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector#key ConfigConnector#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector#key ConfigConnector#key}
 
 ---
 
@@ -1073,7 +1073,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector#value ConfigConnector#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector#value ConfigConnector#value}
 
 ---
 
@@ -1084,7 +1084,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationAzureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 configconnector.NewConfigConnectorConnectorConfigurationAzureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConfigConnectorConnectorConfigurationAzureOutputReference
 ```
@@ -1391,7 +1391,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 configconnector.NewConfigConnectorConnectorConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConfigConnectorConnectorConfigurationOutputReference
 ```
@@ -1682,7 +1682,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConnector.ConfigConnectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 configconnector.NewConfigConnectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConfigConnectorTagsList
 ```
@@ -1842,7 +1842,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConnector.ConfigConnectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector"
 
 configconnector.NewConfigConnectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConfigConnectorTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayDeployment <a name="DataAwsccApigatewayDeployment" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.NewDataAwsccApigatewayDeployment(scope Construct, id *string, config DataAwsccApigatewayDeploymentConfig) DataAwsccApigatewayDeployment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.DataAwsccApigatewayDeployment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.DataAwsccApigatewayDeployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewaydeployment.DataAwsccApigatewayDeployment_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeployment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.DataAwsccApigatewayDeployment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewaydeployment.DataAwsccApigatewayDeployment_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeployment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.DataAwsccApigatewayDeployment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayDeploym
 
 The id of the existing DataAwsccApigatewayDeployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 &dataawsccapigatewaydeployment.DataAwsccApigatewayDeploymentConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_deployment#id DataAwsccApigatewayDeployment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_deployment#id DataAwsccApigatewayDeployment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentDeploymentCanarySettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 &dataawsccapigatewaydeployment.DataAwsccApigatewayDeploymentDeploymentCanarySettings {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 &dataawsccapigatewaydeployment.DataAwsccApigatewayDeploymentStageDescription {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescriptionAccessLogSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 &dataawsccapigatewaydeployment.DataAwsccApigatewayDeploymentStageDescriptionAccessLogSetting {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescriptionCanarySetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 &dataawsccapigatewaydeployment.DataAwsccApigatewayDeploymentStageDescriptionCanarySetting {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescriptionMethodSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 &dataawsccapigatewaydeployment.DataAwsccApigatewayDeploymentStageDescriptionMethodSettings {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescriptionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 &dataawsccapigatewaydeployment.DataAwsccApigatewayDeploymentStageDescriptionTags {
 
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentDeploymentCanarySettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.NewDataAwsccApigatewayDeploymentDeploymentCanarySettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayDeploymentDeploymentCanarySettingsOutputReference
 ```
@@ -1136,7 +1136,7 @@ func InternalValue() DataAwsccApigatewayDeploymentDeploymentCanarySettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescriptionAccessLogSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.NewDataAwsccApigatewayDeploymentStageDescriptionAccessLogSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayDeploymentStageDescriptionAccessLogSettingOutputReference
 ```
@@ -1407,7 +1407,7 @@ func InternalValue() DataAwsccApigatewayDeploymentStageDescriptionAccessLogSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescriptionCanarySettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.NewDataAwsccApigatewayDeploymentStageDescriptionCanarySettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayDeploymentStageDescriptionCanarySettingOutputReference
 ```
@@ -1689,7 +1689,7 @@ func InternalValue() DataAwsccApigatewayDeploymentStageDescriptionCanarySetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescriptionMethodSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.NewDataAwsccApigatewayDeploymentStageDescriptionMethodSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApigatewayDeploymentStageDescriptionMethodSettingsList
 ```
@@ -1838,7 +1838,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescriptionMethodSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.NewDataAwsccApigatewayDeploymentStageDescriptionMethodSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApigatewayDeploymentStageDescriptionMethodSettingsOutputReference
 ```
@@ -2215,7 +2215,7 @@ func InternalValue() DataAwsccApigatewayDeploymentStageDescriptionMethodSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescriptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.NewDataAwsccApigatewayDeploymentStageDescriptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayDeploymentStageDescriptionOutputReference
 ```
@@ -2673,7 +2673,7 @@ func InternalValue() DataAwsccApigatewayDeploymentStageDescription
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescriptionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.NewDataAwsccApigatewayDeploymentStageDescriptionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApigatewayDeploymentStageDescriptionTagsList
 ```
@@ -2822,7 +2822,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDeployment.DataAwsccApigatewayDeploymentStageDescriptionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment"
 
 dataawsccapigatewaydeployment.NewDataAwsccApigatewayDeploymentStageDescriptionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApigatewayDeploymentStageDescriptionTagsOutputReference
 ```

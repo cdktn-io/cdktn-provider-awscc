@@ -4,12 +4,12 @@
 
 ### GlueSession <a name="GlueSession" id="@cdktn/provider-awscc.glueSession.GlueSession"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session awscc_glue_session}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session awscc_glue_session}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSession.GlueSession.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 gluesession.NewGlueSession(scope Construct, id *string, config GlueSessionConfig) GlueSession
 ```
@@ -523,7 +523,7 @@ func ResetWorkerType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueSession.GlueSession.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 gluesession.GlueSession_IsConstruct(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueSession.GlueSession.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 gluesession.GlueSession_IsTerraformElement(x interface{}) *bool
 ```
@@ -569,7 +569,7 @@ gluesession.GlueSession_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueSession.GlueSession.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 gluesession.GlueSession_IsTerraformResource(x interface{}) *bool
 ```
@@ -583,7 +583,7 @@ gluesession.GlueSession_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueSession.GlueSession.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 gluesession.GlueSession_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -612,7 +612,7 @@ The construct id used in the generated config for the GlueSession to import.
 
 The id of the existing GlueSession that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1197,7 +1197,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueSession.GlueSessionCommand.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 &gluesession.GlueSessionCommand {
 	Name: *string,
@@ -1224,7 +1224,7 @@ Name *string
 
 Specifies the name of the SessionCommand. Can be 'glueetl' or 'gluestreaming'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#name GlueSession#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#name GlueSession#name}
 
 ---
 
@@ -1238,7 +1238,7 @@ PythonVersion *string
 
 Specifies the Python version. The Python version indicates the version supported for jobs of type Spark.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#python_version GlueSession#python_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#python_version GlueSession#python_version}
 
 ---
 
@@ -1247,7 +1247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueSession.GlueSessionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 &gluesession.GlueSessionConfig {
 	Connection: interface{},
@@ -1257,10 +1257,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Command: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueSession.GlueSessionCommand,
+	Command: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueSession.GlueSessionCommand,
 	Role: *string,
 	SessionId: *string,
-	Connections: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueSession.GlueSessionConnections,
+	Connections: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueSession.GlueSessionConnections,
 	DefaultArguments: *map[string]*string,
 	Description: *string,
 	GlueVersion: *string,
@@ -1384,7 +1384,7 @@ Command GlueSessionCommand
 
 The SessionCommand that runs the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#command GlueSession#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#command GlueSession#command}
 
 ---
 
@@ -1398,7 +1398,7 @@ Role *string
 
 The IAM Role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#role GlueSession#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#role GlueSession#role}
 
 ---
 
@@ -1412,7 +1412,7 @@ SessionId *string
 
 The ID of the session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#session_id GlueSession#session_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#session_id GlueSession#session_id}
 
 ---
 
@@ -1426,7 +1426,7 @@ Connections GlueSessionConnections
 
 Specifies the connections used by the session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#connections GlueSession#connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#connections GlueSession#connections}
 
 ---
 
@@ -1440,7 +1440,7 @@ DefaultArguments *map[string]*string
 
 A map array of key-value pairs. Max is 75 pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#default_arguments GlueSession#default_arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#default_arguments GlueSession#default_arguments}
 
 ---
 
@@ -1454,7 +1454,7 @@ Description *string
 
 The description of the session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#description GlueSession#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#description GlueSession#description}
 
 ---
 
@@ -1470,7 +1470,7 @@ The Glue version determines the versions of Apache Spark and Python that Glue su
 
 The GlueVersion must be greater than 2.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#glue_version GlueSession#glue_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#glue_version GlueSession#glue_version}
 
 ---
 
@@ -1484,7 +1484,7 @@ IdleTimeout *f64
 
 The number of minutes when idle before session times out. Default is the value of Timeout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#idle_timeout GlueSession#idle_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#idle_timeout GlueSession#idle_timeout}
 
 ---
 
@@ -1498,7 +1498,7 @@ MaxCapacity *f64
 
 The number of Glue data processing units (DPUs) that can be allocated when the job runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#max_capacity GlueSession#max_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#max_capacity GlueSession#max_capacity}
 
 ---
 
@@ -1512,7 +1512,7 @@ NumberOfWorkers *f64
 
 The number of workers of a defined WorkerType to use for the session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#number_of_workers GlueSession#number_of_workers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#number_of_workers GlueSession#number_of_workers}
 
 ---
 
@@ -1526,7 +1526,7 @@ RequestOrigin *string
 
 The origin of the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#request_origin GlueSession#request_origin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#request_origin GlueSession#request_origin}
 
 ---
 
@@ -1540,7 +1540,7 @@ SecurityConfiguration *string
 
 The name of the SecurityConfiguration structure to be used with the session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#security_configuration GlueSession#security_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#security_configuration GlueSession#security_configuration}
 
 ---
 
@@ -1554,7 +1554,7 @@ Tags interface{}
 
 The tags belonging to the session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#tags GlueSession#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#tags GlueSession#tags}
 
 ---
 
@@ -1568,7 +1568,7 @@ Timeout *f64
 
 The number of minutes before session times out.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#timeout GlueSession#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#timeout GlueSession#timeout}
 
 ---
 
@@ -1582,7 +1582,7 @@ WorkerType *string
 
 The type of predefined worker that is allocated when a session runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#worker_type GlueSession#worker_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#worker_type GlueSession#worker_type}
 
 ---
 
@@ -1591,7 +1591,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueSession.GlueSessionConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 &gluesession.GlueSessionConnections {
 	Connections: *[]*string,
@@ -1616,7 +1616,7 @@ Connections *[]*string
 
 A list of connection names used by the session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#connections GlueSession#connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#connections GlueSession#connections}
 
 ---
 
@@ -1625,7 +1625,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueSession.GlueSessionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 &gluesession.GlueSessionTags {
 	Key: *string,
@@ -1652,7 +1652,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#key GlueSession#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#key GlueSession#key}
 
 ---
 
@@ -1666,7 +1666,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_session#value GlueSession#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_session#value GlueSession#value}
 
 ---
 
@@ -1677,7 +1677,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSession.GlueSessionCommandOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 gluesession.NewGlueSessionCommandOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueSessionCommandOutputReference
 ```
@@ -1984,7 +1984,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSession.GlueSessionConnectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 gluesession.NewGlueSessionConnectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueSessionConnectionsOutputReference
 ```
@@ -2262,7 +2262,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSession.GlueSessionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 gluesession.NewGlueSessionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueSessionTagsList
 ```
@@ -2422,7 +2422,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSession.GlueSessionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluesession"
 
 gluesession.NewGlueSessionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueSessionTagsOutputReference
 ```

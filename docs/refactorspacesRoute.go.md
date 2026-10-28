@@ -4,12 +4,12 @@
 
 ### RefactorspacesRoute <a name="RefactorspacesRoute" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRoute"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route awscc_refactorspaces_route}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route awscc_refactorspaces_route}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 refactorspacesroute.NewRefactorspacesRoute(scope Construct, id *string, config RefactorspacesRouteConfig) RefactorspacesRoute
 ```
@@ -460,7 +460,7 @@ func ResetUriPathRoute()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRoute.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 refactorspacesroute.RefactorspacesRoute_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRoute.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 refactorspacesroute.RefactorspacesRoute_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ refactorspacesroute.RefactorspacesRoute_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRoute.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 refactorspacesroute.RefactorspacesRoute_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ refactorspacesroute.RefactorspacesRoute_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRoute.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 refactorspacesroute.RefactorspacesRoute_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the RefactorspacesRoute to imp
 
 The id of the existing RefactorspacesRoute that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -947,7 +947,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 &refactorspacesroute.RefactorspacesRouteConfig {
 	Connection: interface{},
@@ -961,9 +961,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
 	EnvironmentIdentifier: *string,
 	RouteType: *string,
 	ServiceIdentifier: *string,
-	DefaultRoute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.refactorspacesRoute.RefactorspacesRouteDefaultRoute,
+	DefaultRoute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.refactorspacesRoute.RefactorspacesRouteDefaultRoute,
 	Tags: interface{},
-	UriPathRoute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute,
+	UriPathRoute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.refactorspacesRoute.RefactorspacesRouteUriPathRoute,
 }
 ```
 
@@ -978,13 +978,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
 | <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.applicationIdentifier">ApplicationIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#application_identifier RefactorspacesRoute#application_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.environmentIdentifier">EnvironmentIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#environment_identifier RefactorspacesRoute#environment_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.routeType">RouteType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#route_type RefactorspacesRoute#route_type}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.serviceIdentifier">ServiceIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#service_identifier RefactorspacesRoute#service_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.defaultRoute">DefaultRoute</a></code> | <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteDefaultRoute">RefactorspacesRouteDefaultRoute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#default_route RefactorspacesRoute#default_route}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.applicationIdentifier">ApplicationIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#application_identifier RefactorspacesRoute#application_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.environmentIdentifier">EnvironmentIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#environment_identifier RefactorspacesRoute#environment_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.routeType">RouteType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#route_type RefactorspacesRoute#route_type}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.serviceIdentifier">ServiceIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#service_identifier RefactorspacesRoute#service_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.defaultRoute">DefaultRoute</a></code> | <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteDefaultRoute">RefactorspacesRouteDefaultRoute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#default_route RefactorspacesRoute#default_route}. |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.uriPathRoute">UriPathRoute</a></code> | <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute">RefactorspacesRouteUriPathRoute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#uri_path_route RefactorspacesRoute#uri_path_route}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteConfig.property.uriPathRoute">UriPathRoute</a></code> | <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute">RefactorspacesRouteUriPathRoute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#uri_path_route RefactorspacesRoute#uri_path_route}. |
 
 ---
 
@@ -1066,7 +1066,7 @@ ApplicationIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#application_identifier RefactorspacesRoute#application_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#application_identifier RefactorspacesRoute#application_identifier}.
 
 ---
 
@@ -1078,7 +1078,7 @@ EnvironmentIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#environment_identifier RefactorspacesRoute#environment_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#environment_identifier RefactorspacesRoute#environment_identifier}.
 
 ---
 
@@ -1090,7 +1090,7 @@ RouteType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#route_type RefactorspacesRoute#route_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#route_type RefactorspacesRoute#route_type}.
 
 ---
 
@@ -1102,7 +1102,7 @@ ServiceIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#service_identifier RefactorspacesRoute#service_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#service_identifier RefactorspacesRoute#service_identifier}.
 
 ---
 
@@ -1114,7 +1114,7 @@ DefaultRoute RefactorspacesRouteDefaultRoute
 
 - *Type:* <a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteDefaultRoute">RefactorspacesRouteDefaultRoute</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#default_route RefactorspacesRoute#default_route}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#default_route RefactorspacesRoute#default_route}.
 
 ---
 
@@ -1128,7 +1128,7 @@ Tags interface{}
 
 Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#tags RefactorspacesRoute#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#tags RefactorspacesRoute#tags}
 
 ---
 
@@ -1140,7 +1140,7 @@ UriPathRoute RefactorspacesRouteUriPathRoute
 
 - *Type:* <a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute">RefactorspacesRouteUriPathRoute</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#uri_path_route RefactorspacesRoute#uri_path_route}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#uri_path_route RefactorspacesRoute#uri_path_route}.
 
 ---
 
@@ -1149,7 +1149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteDefaultRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 &refactorspacesroute.RefactorspacesRouteDefaultRoute {
 	ActivationState: *string,
@@ -1160,7 +1160,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteDefaultRoute.property.activationState">ActivationState</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#activation_state RefactorspacesRoute#activation_state}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteDefaultRoute.property.activationState">ActivationState</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#activation_state RefactorspacesRoute#activation_state}. |
 
 ---
 
@@ -1172,7 +1172,7 @@ ActivationState *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#activation_state RefactorspacesRoute#activation_state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#activation_state RefactorspacesRoute#activation_state}.
 
 ---
 
@@ -1181,7 +1181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 &refactorspacesroute.RefactorspacesRouteTags {
 	Key: *string,
@@ -1208,7 +1208,7 @@ Key *string
 
 A string used to identify this tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#key RefactorspacesRoute#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#key RefactorspacesRoute#key}
 
 ---
 
@@ -1222,7 +1222,7 @@ Value *string
 
 A string containing the value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#value RefactorspacesRoute#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#value RefactorspacesRoute#value}
 
 ---
 
@@ -1231,7 +1231,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 &refactorspacesroute.RefactorspacesRouteUriPathRoute {
 	ActivationState: *string,
@@ -1246,11 +1246,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute.property.activationState">ActivationState</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#activation_state RefactorspacesRoute#activation_state}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute.property.appendSourcePath">AppendSourcePath</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#append_source_path RefactorspacesRoute#append_source_path}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute.property.includeChildPaths">IncludeChildPaths</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#include_child_paths RefactorspacesRoute#include_child_paths}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute.property.methods">Methods</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#methods RefactorspacesRoute#methods}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute.property.sourcePath">SourcePath</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#source_path RefactorspacesRoute#source_path}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute.property.activationState">ActivationState</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#activation_state RefactorspacesRoute#activation_state}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute.property.appendSourcePath">AppendSourcePath</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#append_source_path RefactorspacesRoute#append_source_path}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute.property.includeChildPaths">IncludeChildPaths</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#include_child_paths RefactorspacesRoute#include_child_paths}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute.property.methods">Methods</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#methods RefactorspacesRoute#methods}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRoute.property.sourcePath">SourcePath</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#source_path RefactorspacesRoute#source_path}. |
 
 ---
 
@@ -1262,7 +1262,7 @@ ActivationState *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#activation_state RefactorspacesRoute#activation_state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#activation_state RefactorspacesRoute#activation_state}.
 
 ---
 
@@ -1274,7 +1274,7 @@ AppendSourcePath interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#append_source_path RefactorspacesRoute#append_source_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#append_source_path RefactorspacesRoute#append_source_path}.
 
 ---
 
@@ -1286,7 +1286,7 @@ IncludeChildPaths interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#include_child_paths RefactorspacesRoute#include_child_paths}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#include_child_paths RefactorspacesRoute#include_child_paths}.
 
 ---
 
@@ -1298,7 +1298,7 @@ Methods *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#methods RefactorspacesRoute#methods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#methods RefactorspacesRoute#methods}.
 
 ---
 
@@ -1310,7 +1310,7 @@ SourcePath *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_route#source_path RefactorspacesRoute#source_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_route#source_path RefactorspacesRoute#source_path}.
 
 ---
 
@@ -1321,7 +1321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteDefaultRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 refactorspacesroute.NewRefactorspacesRouteDefaultRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RefactorspacesRouteDefaultRouteOutputReference
 ```
@@ -1599,7 +1599,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 refactorspacesroute.NewRefactorspacesRouteTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RefactorspacesRouteTagsList
 ```
@@ -1759,7 +1759,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 refactorspacesroute.NewRefactorspacesRouteTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RefactorspacesRouteTagsOutputReference
 ```
@@ -2084,7 +2084,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesRoute.RefactorspacesRouteUriPathRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesroute"
 
 refactorspacesroute.NewRefactorspacesRouteUriPathRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RefactorspacesRouteUriPathRouteOutputReference
 ```

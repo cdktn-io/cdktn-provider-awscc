@@ -4,12 +4,12 @@
 
 ### DataAwsccFrauddetectorDetector <a name="DataAwsccFrauddetectorDetector" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_detector awscc_frauddetector_detector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_detector awscc_frauddetector_detector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetector(scope Construct, id *string, config DataAwsccFrauddetectorDetectorConfig) DataAwsccFrauddetectorDetector
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetector_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetector_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetector_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetector.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetector_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetector_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFrauddetectorDete
 
 The id of the existing DataAwsccFrauddetectorDetector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_detector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_detector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorAssociatedModels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorAssociatedModels {
 
@@ -732,7 +732,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorConfig {
 	Connection: interface{},
@@ -841,7 +841,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_detector#id DataAwsccFrauddetectorDetector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_detector#id DataAwsccFrauddetectorDetector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -853,7 +853,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorEventType {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEntityTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorEventTypeEntityTypes {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEntityTypesTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorEventTypeEntityTypesTags {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEventVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorEventTypeEventVariables {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEventVariablesTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorEventTypeEventVariablesTags {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorEventTypeLabels {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeLabelsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorEventTypeLabelsTags {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorEventTypeTags {
 
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorRules {
 
@@ -970,7 +970,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRulesOutcomes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorRulesOutcomes {
 
@@ -983,7 +983,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRulesOutcomesTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorRulesOutcomesTags {
 
@@ -996,7 +996,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRulesTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorRulesTags {
 
@@ -1009,7 +1009,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 &dataawsccfrauddetectordetector.DataAwsccFrauddetectorDetectorTags {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorAssociatedModelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorAssociatedModelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorAssociatedModelsList
 ```
@@ -1173,7 +1173,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorAssociatedModelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorAssociatedModelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorAssociatedModelsOutputReference
 ```
@@ -1451,7 +1451,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorAssociatedModels
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEntityTypesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeEntityTypesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorEventTypeEntityTypesList
 ```
@@ -1600,7 +1600,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEntityTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeEntityTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorEventTypeEntityTypesOutputReference
 ```
@@ -1944,7 +1944,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorEventTypeEntityTypes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEntityTypesTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeEntityTypesTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorEventTypeEntityTypesTagsList
 ```
@@ -2093,7 +2093,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEntityTypesTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeEntityTypesTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorEventTypeEntityTypesTagsOutputReference
 ```
@@ -2382,7 +2382,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorEventTypeEntityTypesTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEventVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeEventVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorEventTypeEventVariablesList
 ```
@@ -2531,7 +2531,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEventVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeEventVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorEventTypeEventVariablesOutputReference
 ```
@@ -2919,7 +2919,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorEventTypeEventVariables
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEventVariablesTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeEventVariablesTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorEventTypeEventVariablesTagsList
 ```
@@ -3068,7 +3068,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeEventVariablesTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeEventVariablesTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorEventTypeEventVariablesTagsOutputReference
 ```
@@ -3357,7 +3357,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorEventTypeEventVariablesTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorEventTypeLabelsList
 ```
@@ -3506,7 +3506,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorEventTypeLabelsOutputReference
 ```
@@ -3850,7 +3850,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorEventTypeLabels
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeLabelsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeLabelsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorEventTypeLabelsTagsList
 ```
@@ -3999,7 +3999,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeLabelsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeLabelsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorEventTypeLabelsTagsOutputReference
 ```
@@ -4288,7 +4288,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorEventTypeLabelsTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFrauddetectorDetectorEventTypeOutputReference
 ```
@@ -4647,7 +4647,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorEventType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorEventTypeTagsList
 ```
@@ -4796,7 +4796,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorEventTypeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorEventTypeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorEventTypeTagsOutputReference
 ```
@@ -5085,7 +5085,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorEventTypeTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorRulesList
 ```
@@ -5234,7 +5234,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRulesOutcomesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorRulesOutcomesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorRulesOutcomesList
 ```
@@ -5383,7 +5383,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRulesOutcomesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorRulesOutcomesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorRulesOutcomesOutputReference
 ```
@@ -5727,7 +5727,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorRulesOutcomes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRulesOutcomesTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorRulesOutcomesTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorRulesOutcomesTagsList
 ```
@@ -5876,7 +5876,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRulesOutcomesTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorRulesOutcomesTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorRulesOutcomesTagsOutputReference
 ```
@@ -6165,7 +6165,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorRulesOutcomesTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorRulesOutputReference
 ```
@@ -6553,7 +6553,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRulesTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorRulesTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorRulesTagsList
 ```
@@ -6702,7 +6702,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorRulesTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorRulesTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorRulesTagsOutputReference
 ```
@@ -6991,7 +6991,7 @@ func InternalValue() DataAwsccFrauddetectorDetectorRulesTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorDetectorTagsList
 ```
@@ -7140,7 +7140,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetector.DataAwsccFrauddetectorDetectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectordetector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectordetector"
 
 dataawsccfrauddetectordetector.NewDataAwsccFrauddetectorDetectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorDetectorTagsOutputReference
 ```

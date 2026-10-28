@@ -4,12 +4,12 @@
 
 ### DataAwsccCleanroomsAnalysisTemplate <a name="DataAwsccCleanroomsAnalysisTemplate" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplate(scope Construct, id *string, config DataAwsccCleanroomsAnalysisTemplateConfig) DataAwsccCleanroomsAnalysisTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplate_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplate_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCleanroomsAnalysi
 
 The id of the existing DataAwsccCleanroomsAnalysisTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_analysis_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_analysis_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateAnalysisParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateAnalysisParameters {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateConfig {
 	Connection: interface{},
@@ -885,7 +885,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_analysis_template#id DataAwsccCleanroomsAnalysisTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_analysis_template#id DataAwsccCleanroomsAnalysisTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -897,7 +897,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateErrorMessageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateErrorMessageConfiguration {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSchema {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSource {
 
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifacts {
 
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifacts {
 
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsLocation {
 
@@ -975,7 +975,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPoint {
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPointLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPointLocation {
 
@@ -1001,7 +1001,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadata {
 
@@ -1014,7 +1014,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifacts {
 
@@ -1027,7 +1027,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsAdditionalArtifactHashes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsAdditionalArtifactHashes {
 
@@ -1040,7 +1040,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsEntryPointHash.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsEntryPointHash {
 
@@ -1053,7 +1053,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParameters {
 
@@ -1066,7 +1066,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParameters {
 
@@ -1079,7 +1079,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassification {
 
@@ -1092,7 +1092,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassificationColumnMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassificationColumnMapping {
 
@@ -1105,7 +1105,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 &dataawscccleanroomsanalysistemplate.DataAwsccCleanroomsAnalysisTemplateTags {
 
@@ -1120,7 +1120,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateAnalysisParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateAnalysisParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsAnalysisTemplateAnalysisParametersList
 ```
@@ -1269,7 +1269,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateAnalysisParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateAnalysisParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsAnalysisTemplateAnalysisParametersOutputReference
 ```
@@ -1569,7 +1569,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateAnalysisParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateErrorMessageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateErrorMessageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateErrorMessageConfigurationOutputReference
 ```
@@ -1829,7 +1829,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateErrorMessageConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSchemaOutputReference
 ```
@@ -2089,7 +2089,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsList
 ```
@@ -2238,7 +2238,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsLocationOutputReference
 ```
@@ -2509,7 +2509,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditiona
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsOutputReference
 ```
@@ -2787,7 +2787,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSourceArtifactsAdditiona
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPointLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPointLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPointLocationOutputReference
 ```
@@ -3058,7 +3058,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPoin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPointOutputReference
 ```
@@ -3318,7 +3318,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSourceArtifactsEntryPoin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSourceArtifactsOutputReference
 ```
@@ -3600,7 +3600,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSourceArtifacts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsAdditionalArtifactHashesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsAdditionalArtifactHashesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsAdditionalArtifactHashesList
 ```
@@ -3749,7 +3749,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsAdditionalArtifactHashesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsAdditionalArtifactHashesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsAdditionalArtifactHashesOutputReference
 ```
@@ -4027,7 +4027,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsEntryPointHashOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsEntryPointHashOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsEntryPointHashOutputReference
 ```
@@ -4287,7 +4287,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifactsOutputReference
 ```
@@ -4558,7 +4558,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSourceMetadataArtifacts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSourceMetadataOutputReference
 ```
@@ -4818,7 +4818,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSourceMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSourceOutputReference
 ```
@@ -5089,7 +5089,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassificationColumnMappingList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassificationColumnMappingList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassificationColumnMappingList
 ```
@@ -5238,7 +5238,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassificationColumnMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassificationColumnMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassificationColumnMappingOutputReference
 ```
@@ -5538,7 +5538,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersM
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassificationOutputReference
 ```
@@ -5798,7 +5798,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersM
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersOutputReference
 ```
@@ -6080,7 +6080,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersM
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsAnalysisTemplateSyntheticDataParametersOutputReference
 ```
@@ -6340,7 +6340,7 @@ func InternalValue() DataAwsccCleanroomsAnalysisTemplateSyntheticDataParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsAnalysisTemplateTagsList
 ```
@@ -6489,7 +6489,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsAnalysisTemplate.DataAwsccCleanroomsAnalysisTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsanalysistemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsanalysistemplate"
 
 dataawscccleanroomsanalysistemplate.NewDataAwsccCleanroomsAnalysisTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsAnalysisTemplateTagsOutputReference
 ```

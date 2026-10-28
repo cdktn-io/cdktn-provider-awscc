@@ -4,12 +4,12 @@
 
 ### M2Deployment <a name="M2Deployment" id="@cdktn/provider-awscc.m2Deployment.M2Deployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/m2_deployment awscc_m2_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/m2_deployment awscc_m2_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.m2Deployment.M2Deployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/m2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/m2deployment"
 
 m2deployment.NewM2Deployment(scope Construct, id *string, config M2DeploymentConfig) M2Deployment
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.m2Deployment.M2Deployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/m2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/m2deployment"
 
 m2deployment.M2Deployment_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.m2Deployment.M2Deployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/m2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/m2deployment"
 
 m2deployment.M2Deployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ m2deployment.M2Deployment_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.m2Deployment.M2Deployment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/m2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/m2deployment"
 
 m2deployment.M2Deployment_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ m2deployment.M2Deployment_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.m2Deployment.M2Deployment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/m2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/m2deployment"
 
 m2deployment.M2Deployment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the M2Deployment to import.
 
 The id of the existing M2Deployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/m2_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/m2_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -788,7 +788,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.m2Deployment.M2DeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/m2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/m2deployment"
 
 &m2deployment.M2DeploymentConfig {
 	Connection: interface{},
@@ -901,7 +901,7 @@ ApplicationId *string
 
 The application ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/m2_deployment#application_id M2Deployment#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/m2_deployment#application_id M2Deployment#application_id}
 
 ---
 
@@ -915,7 +915,7 @@ ApplicationVersion *f64
 
 The version number of the application to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/m2_deployment#application_version M2Deployment#application_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/m2_deployment#application_version M2Deployment#application_version}
 
 ---
 
@@ -929,7 +929,7 @@ EnvironmentId *string
 
 The environment ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/m2_deployment#environment_id M2Deployment#environment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/m2_deployment#environment_id M2Deployment#environment_id}
 
 ---
 

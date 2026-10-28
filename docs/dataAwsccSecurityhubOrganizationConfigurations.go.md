@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityhubOrganizationConfigurations <a name="DataAwsccSecurityhubOrganizationConfigurations" id="@cdktn/provider-awscc.dataAwsccSecurityhubOrganizationConfigurations.DataAwsccSecurityhubOrganizationConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_organization_configurations awscc_securityhub_organization_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_organization_configurations awscc_securityhub_organization_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubOrganizationConfigurations.DataAwsccSecurityhubOrganizationConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhuborganizationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhuborganizationconfigurations"
 
 dataawsccsecurityhuborganizationconfigurations.NewDataAwsccSecurityhubOrganizationConfigurations(scope Construct, id *string, config DataAwsccSecurityhubOrganizationConfigurationsConfig) DataAwsccSecurityhubOrganizationConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityhubOrganizationConfigurations.DataAwsccSecurityhubOrganizationConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhuborganizationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhuborganizationconfigurations"
 
 dataawsccsecurityhuborganizationconfigurations.DataAwsccSecurityhubOrganizationConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityhubOrganizationConfigurations.DataAwsccSecurityhubOrganizationConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhuborganizationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhuborganizationconfigurations"
 
 dataawsccsecurityhuborganizationconfigurations.DataAwsccSecurityhubOrganizationConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityhuborganizationconfigurations.DataAwsccSecurityhubOrganizationC
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityhubOrganizationConfigurations.DataAwsccSecurityhubOrganizationConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhuborganizationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhuborganizationconfigurations"
 
 dataawsccsecurityhuborganizationconfigurations.DataAwsccSecurityhubOrganizationConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityhuborganizationconfigurations.DataAwsccSecurityhubOrganizationC
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityhubOrganizationConfigurations.DataAwsccSecurityhubOrganizationConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhuborganizationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhuborganizationconfigurations"
 
 dataawsccsecurityhuborganizationconfigurations.DataAwsccSecurityhubOrganizationConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubOrgani
 
 The id of the existing DataAwsccSecurityhubOrganizationConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_organization_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_organization_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubOrganizationConfigurations.DataAwsccSecurityhubOrganizationConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhuborganizationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhuborganizationconfigurations"
 
 &dataawsccsecurityhuborganizationconfigurations.DataAwsccSecurityhubOrganizationConfigurationsConfig {
 	Connection: interface{},

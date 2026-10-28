@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53ResolverResolverRules <a name="DataAwsccRoute53ResolverResolverRules" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverRules.DataAwsccRoute53ResolverResolverRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_rules awscc_route53resolver_resolver_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_rules awscc_route53resolver_resolver_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverRules.DataAwsccRoute53ResolverResolverRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverrules"
 
 dataawsccroute53resolverresolverrules.NewDataAwsccRoute53ResolverResolverRules(scope Construct, id *string, config DataAwsccRoute53ResolverResolverRulesConfig) DataAwsccRoute53ResolverResolverRules
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverRules.DataAwsccRoute53ResolverResolverRules.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverrules"
 
 dataawsccroute53resolverresolverrules.DataAwsccRoute53ResolverResolverRules_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverRules.DataAwsccRoute53ResolverResolverRules.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverrules"
 
 dataawsccroute53resolverresolverrules.DataAwsccRoute53ResolverResolverRules_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53resolverresolverrules.DataAwsccRoute53ResolverResolverRules_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverRules.DataAwsccRoute53ResolverResolverRules.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverrules"
 
 dataawsccroute53resolverresolverrules.DataAwsccRoute53ResolverResolverRules_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53resolverresolverrules.DataAwsccRoute53ResolverResolverRules_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverRules.DataAwsccRoute53ResolverResolverRules.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverrules"
 
 dataawsccroute53resolverresolverrules.DataAwsccRoute53ResolverResolverRules_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53ResolverRe
 
 The id of the existing DataAwsccRoute53ResolverResolverRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverRules.DataAwsccRoute53ResolverResolverRulesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverrules"
 
 &dataawsccroute53resolverresolverrules.DataAwsccRoute53ResolverResolverRulesConfig {
 	Connection: interface{},

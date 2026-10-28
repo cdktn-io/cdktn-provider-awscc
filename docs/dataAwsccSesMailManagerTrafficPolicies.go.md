@@ -4,12 +4,12 @@
 
 ### DataAwsccSesMailManagerTrafficPolicies <a name="DataAwsccSesMailManagerTrafficPolicies" id="@cdktn/provider-awscc.dataAwsccSesMailManagerTrafficPolicies.DataAwsccSesMailManagerTrafficPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_traffic_policies awscc_ses_mail_manager_traffic_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_traffic_policies awscc_ses_mail_manager_traffic_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerTrafficPolicies.DataAwsccSesMailManagerTrafficPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagertrafficpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagertrafficpolicies"
 
 dataawsccsesmailmanagertrafficpolicies.NewDataAwsccSesMailManagerTrafficPolicies(scope Construct, id *string, config DataAwsccSesMailManagerTrafficPoliciesConfig) DataAwsccSesMailManagerTrafficPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesMailManagerTrafficPolicies.DataAwsccSesMailManagerTrafficPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagertrafficpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagertrafficpolicies"
 
 dataawsccsesmailmanagertrafficpolicies.DataAwsccSesMailManagerTrafficPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesMailManagerTrafficPolicies.DataAwsccSesMailManagerTrafficPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagertrafficpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagertrafficpolicies"
 
 dataawsccsesmailmanagertrafficpolicies.DataAwsccSesMailManagerTrafficPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsesmailmanagertrafficpolicies.DataAwsccSesMailManagerTrafficPolicies_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesMailManagerTrafficPolicies.DataAwsccSesMailManagerTrafficPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagertrafficpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagertrafficpolicies"
 
 dataawsccsesmailmanagertrafficpolicies.DataAwsccSesMailManagerTrafficPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsesmailmanagertrafficpolicies.DataAwsccSesMailManagerTrafficPolicies_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesMailManagerTrafficPolicies.DataAwsccSesMailManagerTrafficPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagertrafficpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagertrafficpolicies"
 
 dataawsccsesmailmanagertrafficpolicies.DataAwsccSesMailManagerTrafficPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesMailManagerTra
 
 The id of the existing DataAwsccSesMailManagerTrafficPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_traffic_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_traffic_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerTrafficPolicies.DataAwsccSesMailManagerTrafficPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagertrafficpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagertrafficpolicies"
 
 &dataawsccsesmailmanagertrafficpolicies.DataAwsccSesMailManagerTrafficPoliciesConfig {
 	Connection: interface{},

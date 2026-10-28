@@ -4,12 +4,12 @@
 
 ### CasesField <a name="CasesField" id="@cdktn/provider-awscc.casesField.CasesField"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field awscc_cases_field}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field awscc_cases_field}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesField.CasesField.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 casesfield.NewCasesField(scope Construct, id *string, config CasesFieldConfig) CasesField
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.casesField.CasesField.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 casesfield.CasesField_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.casesField.CasesField.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 casesfield.CasesField_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ casesfield.CasesField_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.casesField.CasesField.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 casesfield.CasesField_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ casesfield.CasesField_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.casesField.CasesField.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 casesfield.CasesField_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the CasesField to import.
 
 The id of the existing CasesField that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -941,10 +941,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesField.CasesFieldAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 &casesfield.CasesFieldAttributes {
-	Text: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesField.CasesFieldAttributesText,
+	Text: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesField.CasesFieldAttributesText,
 }
 ```
 
@@ -966,7 +966,7 @@ Text CasesFieldAttributesText
 
 Field attributes for Text field type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field#text CasesField#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field#text CasesField#text}
 
 ---
 
@@ -975,7 +975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesField.CasesFieldAttributesText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 &casesfield.CasesFieldAttributesText {
 	IsMultiline: interface{},
@@ -1000,7 +1000,7 @@ IsMultiline interface{}
 
 Attribute that defines rendering component and validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field#is_multiline CasesField#is_multiline}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field#is_multiline CasesField#is_multiline}
 
 ---
 
@@ -1009,7 +1009,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesField.CasesFieldConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 &casesfield.CasesFieldConfig {
 	Connection: interface{},
@@ -1021,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
 	Provisioners: *[]interface{},
 	Name: *string,
 	Type: *string,
-	Attributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesField.CasesFieldAttributes,
+	Attributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesField.CasesFieldAttributes,
 	Description: *string,
 	DomainId: *string,
 	Tags: interface{},
@@ -1130,7 +1130,7 @@ The display name of the field as it appears to agents in the case interface.
 
 Should be descriptive and user-friendly (e.g., 'Customer Priority Level', 'Issue Category').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field#name CasesField#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field#name CasesField#name}
 
 ---
 
@@ -1146,7 +1146,7 @@ The data type of the field, which determines validation rules, input constraints
 
 Each type has specific constraints: Text (string input), Number (numeric values), Boolean (true/false), DateTime (date/time picker), SingleSelect (dropdown options), Url (URL validation), User (Amazon Connect user selection).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field#type CasesField#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field#type CasesField#type}
 
 ---
 
@@ -1160,7 +1160,7 @@ Attributes CasesFieldAttributes
 
 Field-type specific attributes that control rendering and validation behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field#attributes CasesField#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field#attributes CasesField#attributes}
 
 ---
 
@@ -1176,7 +1176,7 @@ A description explaining the purpose and usage of this field in cases.
 
 Helps agents and administrators understand what information should be captured in this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field#description CasesField#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field#description CasesField#description}
 
 ---
 
@@ -1190,7 +1190,7 @@ DomainId *string
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field#domain_id CasesField#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field#domain_id CasesField#domain_id}
 
 ---
 
@@ -1204,7 +1204,7 @@ Tags interface{}
 
 The tags that you attach to this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field#tags CasesField#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field#tags CasesField#tags}
 
 ---
 
@@ -1213,7 +1213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesField.CasesFieldTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 &casesfield.CasesFieldTags {
 	Key: *string,
@@ -1242,7 +1242,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field#key CasesField#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field#key CasesField#key}
 
 ---
 
@@ -1258,7 +1258,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field#value CasesField#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field#value CasesField#value}
 
 ---
 
@@ -1269,7 +1269,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesField.CasesFieldAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 casesfield.NewCasesFieldAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesFieldAttributesOutputReference
 ```
@@ -1560,7 +1560,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesField.CasesFieldAttributesTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 casesfield.NewCasesFieldAttributesTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesFieldAttributesTextOutputReference
 ```
@@ -1838,7 +1838,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesField.CasesFieldTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 casesfield.NewCasesFieldTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CasesFieldTagsList
 ```
@@ -1998,7 +1998,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesField.CasesFieldTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield"
 
 casesfield.NewCasesFieldTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CasesFieldTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccAutoscalingScheduledActions <a name="DataAwsccAutoscalingScheduledActions" id="@cdktn/provider-awscc.dataAwsccAutoscalingScheduledActions.DataAwsccAutoscalingScheduledActions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_scheduled_actions awscc_autoscaling_scheduled_actions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_scheduled_actions awscc_autoscaling_scheduled_actions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAutoscalingScheduledActions.DataAwsccAutoscalingScheduledActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingscheduledactions"
 
 dataawsccautoscalingscheduledactions.NewDataAwsccAutoscalingScheduledActions(scope Construct, id *string, config DataAwsccAutoscalingScheduledActionsConfig) DataAwsccAutoscalingScheduledActions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAutoscalingScheduledActions.DataAwsccAutoscalingScheduledActions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingscheduledactions"
 
 dataawsccautoscalingscheduledactions.DataAwsccAutoscalingScheduledActions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAutoscalingScheduledActions.DataAwsccAutoscalingScheduledActions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingscheduledactions"
 
 dataawsccautoscalingscheduledactions.DataAwsccAutoscalingScheduledActions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccautoscalingscheduledactions.DataAwsccAutoscalingScheduledActions_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAutoscalingScheduledActions.DataAwsccAutoscalingScheduledActions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingscheduledactions"
 
 dataawsccautoscalingscheduledactions.DataAwsccAutoscalingScheduledActions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccautoscalingscheduledactions.DataAwsccAutoscalingScheduledActions_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAutoscalingScheduledActions.DataAwsccAutoscalingScheduledActions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingscheduledactions"
 
 dataawsccautoscalingscheduledactions.DataAwsccAutoscalingScheduledActions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAutoscalingSchedu
 
 The id of the existing DataAwsccAutoscalingScheduledActions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_scheduled_actions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_scheduled_actions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAutoscalingScheduledActions.DataAwsccAutoscalingScheduledActionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingscheduledactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingscheduledactions"
 
 &dataawsccautoscalingscheduledactions.DataAwsccAutoscalingScheduledActionsConfig {
 	Connection: interface{},

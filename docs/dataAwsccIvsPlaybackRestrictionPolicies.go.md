@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsPlaybackRestrictionPolicies <a name="DataAwsccIvsPlaybackRestrictionPolicies" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackRestrictionPolicies.DataAwsccIvsPlaybackRestrictionPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_playback_restriction_policies awscc_ivs_playback_restriction_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_playback_restriction_policies awscc_ivs_playback_restriction_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackRestrictionPolicies.DataAwsccIvsPlaybackRestrictionPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackrestrictionpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackrestrictionpolicies"
 
 dataawsccivsplaybackrestrictionpolicies.NewDataAwsccIvsPlaybackRestrictionPolicies(scope Construct, id *string, config DataAwsccIvsPlaybackRestrictionPoliciesConfig) DataAwsccIvsPlaybackRestrictionPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackRestrictionPolicies.DataAwsccIvsPlaybackRestrictionPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackrestrictionpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackrestrictionpolicies"
 
 dataawsccivsplaybackrestrictionpolicies.DataAwsccIvsPlaybackRestrictionPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackRestrictionPolicies.DataAwsccIvsPlaybackRestrictionPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackrestrictionpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackrestrictionpolicies"
 
 dataawsccivsplaybackrestrictionpolicies.DataAwsccIvsPlaybackRestrictionPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivsplaybackrestrictionpolicies.DataAwsccIvsPlaybackRestrictionPolicies_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackRestrictionPolicies.DataAwsccIvsPlaybackRestrictionPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackrestrictionpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackrestrictionpolicies"
 
 dataawsccivsplaybackrestrictionpolicies.DataAwsccIvsPlaybackRestrictionPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivsplaybackrestrictionpolicies.DataAwsccIvsPlaybackRestrictionPolicies_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackRestrictionPolicies.DataAwsccIvsPlaybackRestrictionPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackrestrictionpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackrestrictionpolicies"
 
 dataawsccivsplaybackrestrictionpolicies.DataAwsccIvsPlaybackRestrictionPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsPlaybackRestri
 
 The id of the existing DataAwsccIvsPlaybackRestrictionPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_playback_restriction_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_playback_restriction_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackRestrictionPolicies.DataAwsccIvsPlaybackRestrictionPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackrestrictionpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackrestrictionpolicies"
 
 &dataawsccivsplaybackrestrictionpolicies.DataAwsccIvsPlaybackRestrictionPoliciesConfig {
 	Connection: interface{},

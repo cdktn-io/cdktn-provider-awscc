@@ -4,12 +4,12 @@
 
 ### DataAwsccAppintegrationsEventIntegrations <a name="DataAwsccAppintegrationsEventIntegrations" id="@cdktn/provider-awscc.dataAwsccAppintegrationsEventIntegrations.DataAwsccAppintegrationsEventIntegrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appintegrations_event_integrations awscc_appintegrations_event_integrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appintegrations_event_integrations awscc_appintegrations_event_integrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppintegrationsEventIntegrations.DataAwsccAppintegrationsEventIntegrations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationseventintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationseventintegrations"
 
 dataawsccappintegrationseventintegrations.NewDataAwsccAppintegrationsEventIntegrations(scope Construct, id *string, config DataAwsccAppintegrationsEventIntegrationsConfig) DataAwsccAppintegrationsEventIntegrations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppintegrationsEventIntegrations.DataAwsccAppintegrationsEventIntegrations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationseventintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationseventintegrations"
 
 dataawsccappintegrationseventintegrations.DataAwsccAppintegrationsEventIntegrations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppintegrationsEventIntegrations.DataAwsccAppintegrationsEventIntegrations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationseventintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationseventintegrations"
 
 dataawsccappintegrationseventintegrations.DataAwsccAppintegrationsEventIntegrations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappintegrationseventintegrations.DataAwsccAppintegrationsEventIntegrati
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppintegrationsEventIntegrations.DataAwsccAppintegrationsEventIntegrations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationseventintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationseventintegrations"
 
 dataawsccappintegrationseventintegrations.DataAwsccAppintegrationsEventIntegrations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappintegrationseventintegrations.DataAwsccAppintegrationsEventIntegrati
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppintegrationsEventIntegrations.DataAwsccAppintegrationsEventIntegrations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationseventintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationseventintegrations"
 
 dataawsccappintegrationseventintegrations.DataAwsccAppintegrationsEventIntegrations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppintegrationsEv
 
 The id of the existing DataAwsccAppintegrationsEventIntegrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appintegrations_event_integrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appintegrations_event_integrations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppintegrationsEventIntegrations.DataAwsccAppintegrationsEventIntegrationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappintegrationseventintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappintegrationseventintegrations"
 
 &dataawsccappintegrationseventintegrations.DataAwsccAppintegrationsEventIntegrationsConfig {
 	Connection: interface{},

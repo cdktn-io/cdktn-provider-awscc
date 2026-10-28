@@ -4,12 +4,12 @@
 
 ### DataAwsccSsoInstanceAccessControlAttributeConfigurations <a name="DataAwsccSsoInstanceAccessControlAttributeConfigurations" id="@cdktn/provider-awscc.dataAwsccSsoInstanceAccessControlAttributeConfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_instance_access_control_attribute_configurations awscc_sso_instance_access_control_attribute_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_instance_access_control_attribute_configurations awscc_sso_instance_access_control_attribute_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoInstanceAccessControlAttributeConfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstanceaccesscontrolattributeconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstanceaccesscontrolattributeconfigurations"
 
 dataawsccssoinstanceaccesscontrolattributeconfigurations.NewDataAwsccSsoInstanceAccessControlAttributeConfigurations(scope Construct, id *string, config DataAwsccSsoInstanceAccessControlAttributeConfigurationsConfig) DataAwsccSsoInstanceAccessControlAttributeConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsoInstanceAccessControlAttributeConfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstanceaccesscontrolattributeconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstanceaccesscontrolattributeconfigurations"
 
 dataawsccssoinstanceaccesscontrolattributeconfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsoInstanceAccessControlAttributeConfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstanceaccesscontrolattributeconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstanceaccesscontrolattributeconfigurations"
 
 dataawsccssoinstanceaccesscontrolattributeconfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssoinstanceaccesscontrolattributeconfigurations.DataAwsccSsoInstanceAcc
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsoInstanceAccessControlAttributeConfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstanceaccesscontrolattributeconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstanceaccesscontrolattributeconfigurations"
 
 dataawsccssoinstanceaccesscontrolattributeconfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssoinstanceaccesscontrolattributeconfigurations.DataAwsccSsoInstanceAcc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsoInstanceAccessControlAttributeConfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstanceaccesscontrolattributeconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstanceaccesscontrolattributeconfigurations"
 
 dataawsccssoinstanceaccesscontrolattributeconfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsoInstanceAccess
 
 The id of the existing DataAwsccSsoInstanceAccessControlAttributeConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_instance_access_control_attribute_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_instance_access_control_attribute_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsoInstanceAccessControlAttributeConfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstanceaccesscontrolattributeconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstanceaccesscontrolattributeconfigurations"
 
 &dataawsccssoinstanceaccesscontrolattributeconfigurations.DataAwsccSsoInstanceAccessControlAttributeConfigurationsConfig {
 	Connection: interface{},

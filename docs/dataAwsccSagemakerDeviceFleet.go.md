@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerDeviceFleet <a name="DataAwsccSagemakerDeviceFleet" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_device_fleet awscc_sagemaker_device_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_device_fleet awscc_sagemaker_device_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevicefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevicefleet"
 
 dataawsccsagemakerdevicefleet.NewDataAwsccSagemakerDeviceFleet(scope Construct, id *string, config DataAwsccSagemakerDeviceFleetConfig) DataAwsccSagemakerDeviceFleet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevicefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevicefleet"
 
 dataawsccsagemakerdevicefleet.DataAwsccSagemakerDeviceFleet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevicefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevicefleet"
 
 dataawsccsagemakerdevicefleet.DataAwsccSagemakerDeviceFleet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerdevicefleet.DataAwsccSagemakerDeviceFleet_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevicefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevicefleet"
 
 dataawsccsagemakerdevicefleet.DataAwsccSagemakerDeviceFleet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerdevicefleet.DataAwsccSagemakerDeviceFleet_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevicefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevicefleet"
 
 dataawsccsagemakerdevicefleet.DataAwsccSagemakerDeviceFleet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerDeviceFl
 
 The id of the existing DataAwsccSagemakerDeviceFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_device_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_device_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevicefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevicefleet"
 
 &dataawsccsagemakerdevicefleet.DataAwsccSagemakerDeviceFleetConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_device_fleet#id DataAwsccSagemakerDeviceFleet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_device_fleet#id DataAwsccSagemakerDeviceFleet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleetOutputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevicefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevicefleet"
 
 &dataawsccsagemakerdevicefleet.DataAwsccSagemakerDeviceFleetOutputConfig {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevicefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevicefleet"
 
 &dataawsccsagemakerdevicefleet.DataAwsccSagemakerDeviceFleetTags {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleetOutputConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevicefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevicefleet"
 
 dataawsccsagemakerdevicefleet.NewDataAwsccSagemakerDeviceFleetOutputConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerDeviceFleetOutputConfigOutputReference
 ```
@@ -1062,7 +1062,7 @@ func InternalValue() DataAwsccSagemakerDeviceFleetOutputConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevicefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevicefleet"
 
 dataawsccsagemakerdevicefleet.NewDataAwsccSagemakerDeviceFleetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerDeviceFleetTagsList
 ```
@@ -1211,7 +1211,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDeviceFleet.DataAwsccSagemakerDeviceFleetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevicefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevicefleet"
 
 dataawsccsagemakerdevicefleet.NewDataAwsccSagemakerDeviceFleetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerDeviceFleetTagsOutputReference
 ```

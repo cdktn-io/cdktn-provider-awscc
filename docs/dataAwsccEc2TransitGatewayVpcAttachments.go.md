@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2TransitGatewayVpcAttachments <a name="DataAwsccEc2TransitGatewayVpcAttachments" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayVpcAttachments.DataAwsccEc2TransitGatewayVpcAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_vpc_attachments awscc_ec2_transit_gateway_vpc_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_vpc_attachments awscc_ec2_transit_gateway_vpc_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayVpcAttachments.DataAwsccEc2TransitGatewayVpcAttachments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayvpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayvpcattachments"
 
 dataawsccec2transitgatewayvpcattachments.NewDataAwsccEc2TransitGatewayVpcAttachments(scope Construct, id *string, config DataAwsccEc2TransitGatewayVpcAttachmentsConfig) DataAwsccEc2TransitGatewayVpcAttachments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayVpcAttachments.DataAwsccEc2TransitGatewayVpcAttachments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayvpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayvpcattachments"
 
 dataawsccec2transitgatewayvpcattachments.DataAwsccEc2TransitGatewayVpcAttachments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayVpcAttachments.DataAwsccEc2TransitGatewayVpcAttachments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayvpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayvpcattachments"
 
 dataawsccec2transitgatewayvpcattachments.DataAwsccEc2TransitGatewayVpcAttachments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2transitgatewayvpcattachments.DataAwsccEc2TransitGatewayVpcAttachment
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayVpcAttachments.DataAwsccEc2TransitGatewayVpcAttachments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayvpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayvpcattachments"
 
 dataawsccec2transitgatewayvpcattachments.DataAwsccEc2TransitGatewayVpcAttachments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2transitgatewayvpcattachments.DataAwsccEc2TransitGatewayVpcAttachment
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayVpcAttachments.DataAwsccEc2TransitGatewayVpcAttachments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayvpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayvpcattachments"
 
 dataawsccec2transitgatewayvpcattachments.DataAwsccEc2TransitGatewayVpcAttachments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2TransitGateway
 
 The id of the existing DataAwsccEc2TransitGatewayVpcAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_vpc_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_vpc_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayVpcAttachments.DataAwsccEc2TransitGatewayVpcAttachmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayvpcattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayvpcattachments"
 
 &dataawsccec2transitgatewayvpcattachments.DataAwsccEc2TransitGatewayVpcAttachmentsConfig {
 	Connection: interface{},

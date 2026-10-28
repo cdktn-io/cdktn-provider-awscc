@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticacheSnapshot <a name="DataAwsccElasticacheSnapshot" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_snapshot awscc_elasticache_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_snapshot awscc_elasticache_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 dataawsccelasticachesnapshot.NewDataAwsccElasticacheSnapshot(scope Construct, id *string, config DataAwsccElasticacheSnapshotConfig) DataAwsccElasticacheSnapshot
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 dataawsccelasticachesnapshot.DataAwsccElasticacheSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 dataawsccelasticachesnapshot.DataAwsccElasticacheSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticachesnapshot.DataAwsccElasticacheSnapshot_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshot.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 dataawsccelasticachesnapshot.DataAwsccElasticacheSnapshot_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticachesnapshot.DataAwsccElasticacheSnapshot_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 dataawsccelasticachesnapshot.DataAwsccElasticacheSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticacheSnapsh
 
 The id of the existing DataAwsccElasticacheSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 &dataawsccelasticachesnapshot.DataAwsccElasticacheSnapshotConfig {
 	Connection: interface{},
@@ -1004,7 +1004,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_snapshot#id DataAwsccElasticacheSnapshot#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_snapshot#id DataAwsccElasticacheSnapshot#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1016,7 +1016,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshotNodeSnapshots.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 &dataawsccelasticachesnapshot.DataAwsccElasticacheSnapshotNodeSnapshots {
 
@@ -1029,7 +1029,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesn
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 &dataawsccelasticachesnapshot.DataAwsccElasticacheSnapshotTags {
 
@@ -1044,7 +1044,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshotNodeSnapshotsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 dataawsccelasticachesnapshot.NewDataAwsccElasticacheSnapshotNodeSnapshotsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticacheSnapshotNodeSnapshotsList
 ```
@@ -1193,7 +1193,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshotNodeSnapshotsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 dataawsccelasticachesnapshot.NewDataAwsccElasticacheSnapshotNodeSnapshotsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticacheSnapshotNodeSnapshotsOutputReference
 ```
@@ -1526,7 +1526,7 @@ func InternalValue() DataAwsccElasticacheSnapshotNodeSnapshots
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 dataawsccelasticachesnapshot.NewDataAwsccElasticacheSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticacheSnapshotTagsList
 ```
@@ -1675,7 +1675,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheSnapshot.DataAwsccElasticacheSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot"
 
 dataawsccelasticachesnapshot.NewDataAwsccElasticacheSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticacheSnapshotTagsOutputReference
 ```

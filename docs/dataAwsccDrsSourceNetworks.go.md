@@ -4,12 +4,12 @@
 
 ### DataAwsccDrsSourceNetworks <a name="DataAwsccDrsSourceNetworks" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetworks.DataAwsccDrsSourceNetworks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_source_networks awscc_drs_source_networks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_source_networks awscc_drs_source_networks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetworks.DataAwsccDrsSourceNetworks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetworks"
 
 dataawsccdrssourcenetworks.NewDataAwsccDrsSourceNetworks(scope Construct, id *string, config DataAwsccDrsSourceNetworksConfig) DataAwsccDrsSourceNetworks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetworks.DataAwsccDrsSourceNetworks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetworks"
 
 dataawsccdrssourcenetworks.DataAwsccDrsSourceNetworks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetworks.DataAwsccDrsSourceNetworks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetworks"
 
 dataawsccdrssourcenetworks.DataAwsccDrsSourceNetworks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdrssourcenetworks.DataAwsccDrsSourceNetworks_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetworks.DataAwsccDrsSourceNetworks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetworks"
 
 dataawsccdrssourcenetworks.DataAwsccDrsSourceNetworks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdrssourcenetworks.DataAwsccDrsSourceNetworks_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetworks.DataAwsccDrsSourceNetworks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetworks"
 
 dataawsccdrssourcenetworks.DataAwsccDrsSourceNetworks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDrsSourceNetworks
 
 The id of the existing DataAwsccDrsSourceNetworks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_source_networks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_source_networks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDrsSourceNetworks.DataAwsccDrsSourceNetworksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrssourcenetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrssourcenetworks"
 
 &dataawsccdrssourcenetworks.DataAwsccDrsSourceNetworksConfig {
 	Connection: interface{},

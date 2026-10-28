@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsConnection <a name="DataAwsccEventsConnection" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_connection awscc_events_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_connection awscc_events_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnection(scope Construct, id *string, config DataAwsccEventsConnectionConfig) DataAwsccEventsConnection
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.DataAwsccEventsConnection_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.DataAwsccEventsConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsconnection.DataAwsccEventsConnection_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnection.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.DataAwsccEventsConnection_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsconnection.DataAwsccEventsConnection_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.DataAwsccEventsConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsConnection 
 
 The id of the existing DataAwsccEventsConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParameters {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersApiKeyAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersApiKeyAuthParameters {
 
@@ -712,7 +712,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersBasicAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersBasicAuthParameters {
 
@@ -725,7 +725,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersConnectivityParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersConnectivityParameters {
 
@@ -738,7 +738,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersConnectivityParametersResourceParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersConnectivityParametersResourceParameters {
 
@@ -751,7 +751,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParameters {
 
@@ -764,7 +764,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersBodyParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersBodyParameters {
 
@@ -777,7 +777,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersHeaderParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersHeaderParameters {
 
@@ -790,7 +790,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersQueryStringParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersQueryStringParameters {
 
@@ -803,7 +803,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersOAuthParameters {
 
@@ -816,7 +816,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersClientParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersOAuthParametersClientParameters {
 
@@ -829,7 +829,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParameters {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParameters {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParameters {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParameters {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionConfig {
 	Connection: interface{},
@@ -990,7 +990,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_connection#id DataAwsccEventsConnection#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_connection#id DataAwsccEventsConnection#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1002,7 +1002,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionInvocationConnectivityParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionInvocationConnectivityParameters {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionInvocationConnectivityParametersResourceParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 &dataawscceventsconnection.DataAwsccEventsConnectionInvocationConnectivityParametersResourceParameters {
 
@@ -1030,7 +1030,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersApiKeyAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersApiKeyAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsConnectionAuthParametersApiKeyAuthParametersOutputReference
 ```
@@ -1301,7 +1301,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersApiKeyAuthParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersBasicAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersBasicAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsConnectionAuthParametersBasicAuthParametersOutputReference
 ```
@@ -1572,7 +1572,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersBasicAuthParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersConnectivityParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersConnectivityParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsConnectionAuthParametersConnectivityParametersOutputReference
 ```
@@ -1832,7 +1832,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersConnectivityParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersConnectivityParametersResourceParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersConnectivityParametersResourceParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsConnectionAuthParametersConnectivityParametersResourceParametersOutputReference
 ```
@@ -2103,7 +2103,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersConnectivityParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersBodyParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersInvocationHttpParametersBodyParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsConnectionAuthParametersInvocationHttpParametersBodyParametersList
 ```
@@ -2252,7 +2252,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersBodyParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersInvocationHttpParametersBodyParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsConnectionAuthParametersInvocationHttpParametersBodyParametersOutputReference
 ```
@@ -2552,7 +2552,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersInvocationHttpParame
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersHeaderParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersInvocationHttpParametersHeaderParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsConnectionAuthParametersInvocationHttpParametersHeaderParametersList
 ```
@@ -2701,7 +2701,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersHeaderParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersInvocationHttpParametersHeaderParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsConnectionAuthParametersInvocationHttpParametersHeaderParametersOutputReference
 ```
@@ -3001,7 +3001,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersInvocationHttpParame
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersInvocationHttpParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsConnectionAuthParametersInvocationHttpParametersOutputReference
 ```
@@ -3283,7 +3283,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersInvocationHttpParame
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersList
 ```
@@ -3432,7 +3432,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsConnectionAuthParametersInvocationHttpParametersQueryStringParametersOutputReference
 ```
@@ -3732,7 +3732,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersInvocationHttpParame
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersClientParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersOAuthParametersClientParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsConnectionAuthParametersOAuthParametersClientParametersOutputReference
 ```
@@ -4003,7 +4003,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersOAuthParametersClien
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersList
 ```
@@ -4152,7 +4152,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBodyParametersOutputReference
 ```
@@ -4452,7 +4452,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersOAuthParametersOAuth
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersList
 ```
@@ -4601,7 +4601,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHeaderParametersOutputReference
 ```
@@ -4901,7 +4901,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersOAuthParametersOAuth
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersOutputReference
 ```
@@ -5183,7 +5183,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersOAuthParametersOAuth
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersList
 ```
@@ -5332,7 +5332,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQueryStringParametersOutputReference
 ```
@@ -5632,7 +5632,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersOAuthParametersOAuth
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersOAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsConnectionAuthParametersOAuthParametersOutputReference
 ```
@@ -5925,7 +5925,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParametersOAuthParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionAuthParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionAuthParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsConnectionAuthParametersOutputReference
 ```
@@ -6229,7 +6229,7 @@ func InternalValue() DataAwsccEventsConnectionAuthParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionInvocationConnectivityParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionInvocationConnectivityParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsConnectionInvocationConnectivityParametersOutputReference
 ```
@@ -6489,7 +6489,7 @@ func InternalValue() DataAwsccEventsConnectionInvocationConnectivityParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnection.DataAwsccEventsConnectionInvocationConnectivityParametersResourceParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsconnection"
 
 dataawscceventsconnection.NewDataAwsccEventsConnectionInvocationConnectivityParametersResourceParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsConnectionInvocationConnectivityParametersResourceParametersOutputReference
 ```

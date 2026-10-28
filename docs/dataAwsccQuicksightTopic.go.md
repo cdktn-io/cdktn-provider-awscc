@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightTopic <a name="DataAwsccQuicksightTopic" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopic"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_topic awscc_quicksight_topic}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_topic awscc_quicksight_topic}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopic(scope Construct, id *string, config DataAwsccQuicksightTopicConfig) DataAwsccQuicksightTopic
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopic.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.DataAwsccQuicksightTopic_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopic.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.DataAwsccQuicksightTopic_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksighttopic.DataAwsccQuicksightTopic_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopic.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.DataAwsccQuicksightTopic_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksighttopic.DataAwsccQuicksightTopic_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopic.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.DataAwsccQuicksightTopic_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightTopic t
 
 The id of the existing DataAwsccQuicksightTopic that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_topic#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_topic#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_topic#id DataAwsccQuicksightTopic#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_topic#id DataAwsccQuicksightTopic#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicConfigOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicConfigOptions {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicCustomInstructions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicCustomInstructions {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSets {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsCalculatedFields {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsCellValueSynonyms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsCellValueSynonyms {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsComparativeOrder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsComparativeOrder {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormatting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormatting {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptions {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptionsNegativeFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptionsNegativeFormat {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsSemanticType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsSemanticType {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsColumns {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsCellValueSynonyms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsColumnsCellValueSynonyms {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsComparativeOrder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsColumnsComparativeOrder {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsDefaultFormatting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsColumnsDefaultFormatting {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptionsNegativeFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptionsNegativeFormat {
 
@@ -1037,7 +1037,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsSemanticType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsColumnsSemanticType {
 
@@ -1050,7 +1050,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsDataAggregation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsDataAggregation {
 
@@ -1063,7 +1063,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFilters {
 
@@ -1076,7 +1076,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersCategoryFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersCategoryFilter {
 
@@ -1089,7 +1089,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConstant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConstant {
 
@@ -1102,7 +1102,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConstantCollectiveConstant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConstantCollectiveConstant {
 
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilter {
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConstant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConstant {
 
@@ -1141,7 +1141,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConstantRangeConstant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConstantRangeConstant {
 
@@ -1154,7 +1154,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilter {
 
@@ -1167,7 +1167,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilterConstant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilterConstant {
 
@@ -1180,7 +1180,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilter {
 
@@ -1193,7 +1193,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterConstant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterConstant {
 
@@ -1206,7 +1206,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterConstantRangeConstant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterConstantRangeConstant {
 
@@ -1219,7 +1219,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilter {
 
@@ -1232,7 +1232,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilterConstant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilterConstant {
 
@@ -1245,7 +1245,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsNamedEntities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsNamedEntities {
 
@@ -1258,7 +1258,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinition {
 
@@ -1271,7 +1271,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionMetric {
 
@@ -1284,7 +1284,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesSemanticEntityType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesSemanticEntityType {
 
@@ -1297,7 +1297,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 &dataawsccquicksighttopic.DataAwsccQuicksightTopicTags {
 
@@ -1312,7 +1312,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttop
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicConfigOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicConfigOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicConfigOptionsOutputReference
 ```
@@ -1572,7 +1572,7 @@ func InternalValue() DataAwsccQuicksightTopicConfigOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicCustomInstructionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicCustomInstructionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicCustomInstructionsOutputReference
 ```
@@ -1832,7 +1832,7 @@ func InternalValue() DataAwsccQuicksightTopicCustomInstructions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsCellValueSynonymsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsCalculatedFieldsCellValueSynonymsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightTopicDataSetsCalculatedFieldsCellValueSynonymsList
 ```
@@ -1981,7 +1981,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsCellValueSynonymsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsCalculatedFieldsCellValueSynonymsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightTopicDataSetsCalculatedFieldsCellValueSynonymsOutputReference
 ```
@@ -2270,7 +2270,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsCalculatedFieldsCellValueSy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsComparativeOrderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsCalculatedFieldsComparativeOrderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsCalculatedFieldsComparativeOrderOutputReference
 ```
@@ -2552,7 +2552,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsCalculatedFieldsComparative
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptionsNegativeFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptionsNegativeFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptionsNegativeFormatOutputReference
 ```
@@ -2823,7 +2823,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultForm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptionsOutputReference
 ```
@@ -3204,7 +3204,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultForm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultFormattingOutputReference
 ```
@@ -3475,7 +3475,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsCalculatedFieldsDefaultForm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsCalculatedFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightTopicDataSetsCalculatedFieldsList
 ```
@@ -3624,7 +3624,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsCalculatedFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightTopicDataSetsCalculatedFieldsOutputReference
 ```
@@ -4078,7 +4078,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsCalculatedFields
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsCalculatedFieldsSemanticTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsCalculatedFieldsSemanticTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsCalculatedFieldsSemanticTypeOutputReference
 ```
@@ -4404,7 +4404,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsCalculatedFieldsSemanticTyp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsCellValueSynonymsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsColumnsCellValueSynonymsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightTopicDataSetsColumnsCellValueSynonymsList
 ```
@@ -4553,7 +4553,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsCellValueSynonymsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsColumnsCellValueSynonymsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightTopicDataSetsColumnsCellValueSynonymsOutputReference
 ```
@@ -4842,7 +4842,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsColumnsCellValueSynonyms
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsComparativeOrderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsColumnsComparativeOrderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsColumnsComparativeOrderOutputReference
 ```
@@ -5124,7 +5124,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsColumnsComparativeOrder
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptionsNegativeFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptionsNegativeFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptionsNegativeFormatOutputReference
 ```
@@ -5395,7 +5395,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDis
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptionsOutputReference
 ```
@@ -5776,7 +5776,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingDis
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsColumnsDefaultFormattingOutputReference
 ```
@@ -6047,7 +6047,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsColumnsDefaultFormatting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightTopicDataSetsColumnsList
 ```
@@ -6196,7 +6196,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightTopicDataSetsColumnsOutputReference
 ```
@@ -6650,7 +6650,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsColumns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsColumnsSemanticTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsColumnsSemanticTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsColumnsSemanticTypeOutputReference
 ```
@@ -6976,7 +6976,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsColumnsSemanticType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsDataAggregationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsDataAggregationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsDataAggregationOutputReference
 ```
@@ -7247,7 +7247,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsDataAggregation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConstantCollectiveConstantOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConstantCollectiveConstantOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConstantCollectiveConstantOutputReference
 ```
@@ -7507,7 +7507,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConsta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConstantOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConstantOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConstantOutputReference
 ```
@@ -7789,7 +7789,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterConsta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersCategoryFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersCategoryFilterOutputReference
 ```
@@ -8082,7 +8082,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersCategoryFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConstantOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConstantOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConstantOutputReference
 ```
@@ -8353,7 +8353,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConstantRangeConstantOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConstantRangeConstantOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConstantRangeConstantOutputReference
 ```
@@ -8624,7 +8624,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterConst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilterOutputReference
 ```
@@ -8895,7 +8895,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersDateRangeFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightTopicDataSetsFiltersList
 ```
@@ -9044,7 +9044,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilterConstantOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilterConstantOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilterConstantOutputReference
 ```
@@ -9315,7 +9315,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilte
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilterOutputReference
 ```
@@ -9586,7 +9586,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersNumericEqualityFilte
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterConstantOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterConstantOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterConstantOutputReference
 ```
@@ -9857,7 +9857,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterConstantRangeConstantOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterConstantRangeConstantOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterConstantRangeConstantOutputReference
 ```
@@ -10128,7 +10128,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilterOutputReference
 ```
@@ -10410,7 +10410,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersNumericRangeFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightTopicDataSetsFiltersOutputReference
 ```
@@ -10798,7 +10798,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilterConstantOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilterConstantOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilterConstantOutputReference
 ```
@@ -11069,7 +11069,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilterCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilterOutputReference
 ```
@@ -11351,7 +11351,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsFiltersRelativeDateFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightTopicDataSetsList
 ```
@@ -11500,7 +11500,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionList
 ```
@@ -11649,7 +11649,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionMetricOutputReference
 ```
@@ -11920,7 +11920,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionMetr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinitionOutputReference
 ```
@@ -12242,7 +12242,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsNamedEntitiesDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsNamedEntitiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightTopicDataSetsNamedEntitiesList
 ```
@@ -12391,7 +12391,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsNamedEntitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightTopicDataSetsNamedEntitiesOutputReference
 ```
@@ -12713,7 +12713,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsNamedEntities
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsNamedEntitiesSemanticEntityTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsNamedEntitiesSemanticEntityTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightTopicDataSetsNamedEntitiesSemanticEntityTypeOutputReference
 ```
@@ -12995,7 +12995,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSetsNamedEntitiesSemanticEntity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicDataSetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicDataSetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightTopicDataSetsOutputReference
 ```
@@ -13350,7 +13350,7 @@ func InternalValue() DataAwsccQuicksightTopicDataSets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightTopicTagsList
 ```
@@ -13499,7 +13499,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopic.DataAwsccQuicksightTopicTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopic"
 
 dataawsccquicksighttopic.NewDataAwsccQuicksightTopicTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightTopicTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccApplicationsignalsInstrumentationConfig <a name="DataAwsccApplicationsignalsInstrumentationConfig" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_instrumentation_config awscc_applicationsignals_instrumentation_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_instrumentation_config awscc_applicationsignals_instrumentation_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.NewDataAwsccApplicationsignalsInstrumentationConfig(scope Construct, id *string, config DataAwsccApplicationsignalsInstrumentationConfigConfig) DataAwsccApplicationsignalsInstrumentationConfig
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInstrumentationConfig_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInstrumentationConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInst
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfig.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInstrumentationConfig_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInst
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInstrumentationConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApplicationsignal
 
 The id of the existing DataAwsccApplicationsignalsInstrumentationConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_instrumentation_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_instrumentation_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigCaptureConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 &dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInstrumentationConfigCaptureConfiguration {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationCodeCapture.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 &dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationCodeCapture {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationCodeCaptureCaptureLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 &dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationCodeCaptureCaptureLimits {
 
@@ -769,7 +769,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 &dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInstrumentationConfigConfig {
 	Connection: interface{},
@@ -878,7 +878,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_instrumentation_config#id DataAwsccApplicationsignalsInstrumentationConfig#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_instrumentation_config#id DataAwsccApplicationsignalsInstrumentationConfig#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -890,7 +890,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 &dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInstrumentationConfigLocation {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigLocationCodeLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 &dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInstrumentationConfigLocationCodeLocation {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 &dataawsccapplicationsignalsinstrumentationconfig.DataAwsccApplicationsignalsInstrumentationConfigTags {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationCodeCaptureCaptureLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.NewDataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationCodeCaptureCaptureLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationCodeCaptureCaptureLimitsOutputReference
 ```
@@ -1268,7 +1268,7 @@ func InternalValue() DataAwsccApplicationsignalsInstrumentationConfigCaptureConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationCodeCaptureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.NewDataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationCodeCaptureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationCodeCaptureOutputReference
 ```
@@ -1572,7 +1572,7 @@ func InternalValue() DataAwsccApplicationsignalsInstrumentationConfigCaptureConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.NewDataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApplicationsignalsInstrumentationConfigCaptureConfigurationOutputReference
 ```
@@ -1832,7 +1832,7 @@ func InternalValue() DataAwsccApplicationsignalsInstrumentationConfigCaptureConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigLocationCodeLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.NewDataAwsccApplicationsignalsInstrumentationConfigLocationCodeLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApplicationsignalsInstrumentationConfigLocationCodeLocationOutputReference
 ```
@@ -2147,7 +2147,7 @@ func InternalValue() DataAwsccApplicationsignalsInstrumentationConfigLocationCod
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.NewDataAwsccApplicationsignalsInstrumentationConfigLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApplicationsignalsInstrumentationConfigLocationOutputReference
 ```
@@ -2407,7 +2407,7 @@ func InternalValue() DataAwsccApplicationsignalsInstrumentationConfigLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.NewDataAwsccApplicationsignalsInstrumentationConfigTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApplicationsignalsInstrumentationConfigTagsList
 ```
@@ -2556,7 +2556,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsInstrumentationConfig.DataAwsccApplicationsignalsInstrumentationConfigTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig"
 
 dataawsccapplicationsignalsinstrumentationconfig.NewDataAwsccApplicationsignalsInstrumentationConfigTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApplicationsignalsInstrumentationConfigTagsOutputReference
 ```

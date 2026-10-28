@@ -4,12 +4,12 @@
 
 ### ComprehendEntityRecognizerEndpoint <a name="ComprehendEntityRecognizerEndpoint" id="@cdktn/provider-awscc.comprehendEntityRecognizerEndpoint.ComprehendEntityRecognizerEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.comprehendEntityRecognizerEndpoint.ComprehendEntityRecognizerEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehendentityrecognizerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehendentityrecognizerendpoint"
 
 comprehendentityrecognizerendpoint.NewComprehendEntityRecognizerEndpoint(scope Construct, id *string, config ComprehendEntityRecognizerEndpointConfig) ComprehendEntityRecognizerEndpoint
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.comprehendEntityRecognizerEndpoint.ComprehendEntityRecognizerEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehendentityrecognizerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehendentityrecognizerendpoint"
 
 comprehendentityrecognizerendpoint.ComprehendEntityRecognizerEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.comprehendEntityRecognizerEndpoint.ComprehendEntityRecognizerEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehendentityrecognizerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehendentityrecognizerendpoint"
 
 comprehendentityrecognizerendpoint.ComprehendEntityRecognizerEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ comprehendentityrecognizerendpoint.ComprehendEntityRecognizerEndpoint_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.comprehendEntityRecognizerEndpoint.ComprehendEntityRecognizerEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehendentityrecognizerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehendentityrecognizerendpoint"
 
 comprehendentityrecognizerendpoint.ComprehendEntityRecognizerEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ comprehendentityrecognizerendpoint.ComprehendEntityRecognizerEndpoint_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.comprehendEntityRecognizerEndpoint.ComprehendEntityRecognizerEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehendentityrecognizerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehendentityrecognizerendpoint"
 
 comprehendentityrecognizerendpoint.ComprehendEntityRecognizerEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the ComprehendEntityRecognizer
 
 The id of the existing ComprehendEntityRecognizerEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_entity_recognizer_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_entity_recognizer_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.comprehendEntityRecognizerEndpoint.ComprehendEntityRecognizerEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehendentityrecognizerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehendentityrecognizerendpoint"
 
 &comprehendentityrecognizerendpoint.ComprehendEntityRecognizerEndpointConfig {
 	Connection: interface{},
@@ -1049,7 +1049,7 @@ The desired number of inference units to be used by the model.
 
 Each inference unit represents throughput of 100 characters per second.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_entity_recognizer_endpoint#desired_inference_units ComprehendEntityRecognizerEndpoint#desired_inference_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_entity_recognizer_endpoint#desired_inference_units ComprehendEntityRecognizerEndpoint#desired_inference_units}
 
 ---
 
@@ -1063,7 +1063,7 @@ EndpointName *string
 
 The name of the endpoint. The name must be unique within the AWS Region and account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_entity_recognizer_endpoint#endpoint_name ComprehendEntityRecognizerEndpoint#endpoint_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_entity_recognizer_endpoint#endpoint_name ComprehendEntityRecognizerEndpoint#endpoint_name}
 
 ---
 
@@ -1077,7 +1077,7 @@ DataAccessRoleArn *string
 
 The Amazon Resource Name (ARN) of the IAM role that grants Amazon Comprehend read access to trained custom models encrypted with a customer managed key (ModelKmsKeyId).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_entity_recognizer_endpoint#data_access_role_arn ComprehendEntityRecognizerEndpoint#data_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_entity_recognizer_endpoint#data_access_role_arn ComprehendEntityRecognizerEndpoint#data_access_role_arn}
 
 ---
 
@@ -1091,7 +1091,7 @@ FlywheelArn *string
 
 The Amazon Resource Name (ARN) of the flywheel to which the endpoint is attached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_entity_recognizer_endpoint#flywheel_arn ComprehendEntityRecognizerEndpoint#flywheel_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_entity_recognizer_endpoint#flywheel_arn ComprehendEntityRecognizerEndpoint#flywheel_arn}
 
 ---
 
@@ -1105,7 +1105,7 @@ ModelArn *string
 
 The Amazon Resource Name (ARN) of the entity recognizer model to which the endpoint is attached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_entity_recognizer_endpoint#model_arn ComprehendEntityRecognizerEndpoint#model_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_entity_recognizer_endpoint#model_arn ComprehendEntityRecognizerEndpoint#model_arn}
 
 ---
 
@@ -1119,7 +1119,7 @@ Tags interface{}
 
 Tags associated with the endpoint being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_entity_recognizer_endpoint#tags ComprehendEntityRecognizerEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_entity_recognizer_endpoint#tags ComprehendEntityRecognizerEndpoint#tags}
 
 ---
 
@@ -1128,7 +1128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.comprehendEntityRecognizerEndpoint.ComprehendEntityRecognizerEndpointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehendentityrecognizerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehendentityrecognizerendpoint"
 
 &comprehendentityrecognizerendpoint.ComprehendEntityRecognizerEndpointTags {
 	Key: *string,
@@ -1155,7 +1155,7 @@ Key *string
 
 The initial part of a key-value pair that forms a tag associated with a given resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_entity_recognizer_endpoint#key ComprehendEntityRecognizerEndpoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_entity_recognizer_endpoint#key ComprehendEntityRecognizerEndpoint#key}
 
 ---
 
@@ -1169,7 +1169,7 @@ Value *string
 
 The second part of a key-value pair that forms a tag associated with a given resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_entity_recognizer_endpoint#value ComprehendEntityRecognizerEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_entity_recognizer_endpoint#value ComprehendEntityRecognizerEndpoint#value}
 
 ---
 
@@ -1180,7 +1180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.comprehendEntityRecognizerEndpoint.ComprehendEntityRecognizerEndpointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehendentityrecognizerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehendentityrecognizerendpoint"
 
 comprehendentityrecognizerendpoint.NewComprehendEntityRecognizerEndpointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComprehendEntityRecognizerEndpointTagsList
 ```
@@ -1340,7 +1340,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.comprehendEntityRecognizerEndpoint.ComprehendEntityRecognizerEndpointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehendentityrecognizerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehendentityrecognizerendpoint"
 
 comprehendentityrecognizerendpoint.NewComprehendEntityRecognizerEndpointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ComprehendEntityRecognizerEndpointTagsOutputReference
 ```

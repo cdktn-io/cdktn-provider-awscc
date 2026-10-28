@@ -4,12 +4,12 @@
 
 ### QuicksightAnalysis <a name="QuicksightAnalysis" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysis"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis awscc_quicksight_analysis}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis awscc_quicksight_analysis}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysis(scope Construct, id *string, config QuicksightAnalysisConfig) QuicksightAnalysis
 ```
@@ -507,7 +507,7 @@ func ResetThemeArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysis.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.QuicksightAnalysis_IsConstruct(x interface{}) *bool
 ```
@@ -539,7 +539,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysis.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.QuicksightAnalysis_IsTerraformElement(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ quicksightanalysis.QuicksightAnalysis_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysis.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.QuicksightAnalysis_IsTerraformResource(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ quicksightanalysis.QuicksightAnalysis_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysis.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.QuicksightAnalysis_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -596,7 +596,7 @@ The construct id used in the generated config for the QuicksightAnalysis to impo
 
 The id of the existing QuicksightAnalysis that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1071,7 +1071,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisConfig {
 	Connection: interface{},
@@ -1083,10 +1083,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
 	Provisioners: *[]interface{},
 	AnalysisId: *string,
 	AwsAccountId: *string,
-	SourceEntity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightAnalysis.QuicksightAnalysisSourceEntity,
+	SourceEntity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightAnalysis.QuicksightAnalysisSourceEntity,
 	Errors: interface{},
 	Name: *string,
-	Parameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightAnalysis.QuicksightAnalysisParameters,
+	Parameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightAnalysis.QuicksightAnalysisParameters,
 	Permissions: interface{},
 	Tags: interface{},
 	ThemeArn: *string,
@@ -1104,8 +1104,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.analysisId">AnalysisId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#analysis_id QuicksightAnalysis#analysis_id}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.awsAccountId">AwsAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#aws_account_id QuicksightAnalysis#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.analysisId">AnalysisId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#analysis_id QuicksightAnalysis#analysis_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.awsAccountId">AwsAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#aws_account_id QuicksightAnalysis#aws_account_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.sourceEntity">SourceEntity</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSourceEntity">QuicksightAnalysisSourceEntity</a></code> | <p>The source entity of an analysis.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.errors">Errors</a></code> | <code>interface{}</code> | <p>Errors associated with the analysis.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.name">Name</a></code> | <code>*string</code> | <p>The descriptive name of the analysis.</p>. |
@@ -1194,7 +1194,7 @@ AnalysisId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#analysis_id QuicksightAnalysis#analysis_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#analysis_id QuicksightAnalysis#analysis_id}.
 
 ---
 
@@ -1206,7 +1206,7 @@ AwsAccountId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#aws_account_id QuicksightAnalysis#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#aws_account_id QuicksightAnalysis#aws_account_id}.
 
 ---
 
@@ -1220,7 +1220,7 @@ SourceEntity QuicksightAnalysisSourceEntity
 
 <p>The source entity of an analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#source_entity QuicksightAnalysis#source_entity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#source_entity QuicksightAnalysis#source_entity}
 
 ---
 
@@ -1234,7 +1234,7 @@ Errors interface{}
 
 <p>Errors associated with the analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#errors QuicksightAnalysis#errors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#errors QuicksightAnalysis#errors}
 
 ---
 
@@ -1248,7 +1248,7 @@ Name *string
 
 <p>The descriptive name of the analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
 
 ---
 
@@ -1262,7 +1262,7 @@ Parameters QuicksightAnalysisParameters
 
 <p>A list of QuickSight parameters and the list's override values.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#parameters QuicksightAnalysis#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#parameters QuicksightAnalysis#parameters}
 
 ---
 
@@ -1284,7 +1284,7 @@ principal listed by Amazon Resource Name (ARN). </p>
     <p>To specify no permissions, omit <code>Permissions</code>.</p>
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#permissions QuicksightAnalysis#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#permissions QuicksightAnalysis#permissions}
 
 ---
 
@@ -1298,7 +1298,7 @@ Tags interface{}
 
 <p>Contains a map of the key-value pairs for the resource tag or tags assigned to the             analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#tags QuicksightAnalysis#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#tags QuicksightAnalysis#tags}
 
 ---
 
@@ -1312,7 +1312,7 @@ ThemeArn *string
 
 <p>The ARN of the theme of the analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#theme_arn QuicksightAnalysis#theme_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#theme_arn QuicksightAnalysis#theme_arn}
 
 ---
 
@@ -1321,7 +1321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisErrors {
 	Message: *string,
@@ -1334,7 +1334,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisErrors.property.message">Message</a></code> | <code>*string</code> | <p>The message associated with the analysis error.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisErrors.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#type QuicksightAnalysis#type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisErrors.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#type QuicksightAnalysis#type}. |
 
 ---
 
@@ -1348,7 +1348,7 @@ Message *string
 
 <p>The message associated with the analysis error.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#message QuicksightAnalysis#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#message QuicksightAnalysis#message}
 
 ---
 
@@ -1360,7 +1360,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#type QuicksightAnalysis#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#type QuicksightAnalysis#type}.
 
 ---
 
@@ -1369,7 +1369,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisParameters {
 	DateTimeParameters: interface{},
@@ -1400,7 +1400,7 @@ DateTimeParameters interface{}
 
 <p>Date-time parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#date_time_parameters QuicksightAnalysis#date_time_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#date_time_parameters QuicksightAnalysis#date_time_parameters}
 
 ---
 
@@ -1414,7 +1414,7 @@ DecimalParameters interface{}
 
 <p>Decimal parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#decimal_parameters QuicksightAnalysis#decimal_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#decimal_parameters QuicksightAnalysis#decimal_parameters}
 
 ---
 
@@ -1428,7 +1428,7 @@ IntegerParameters interface{}
 
 <p>Integer parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#integer_parameters QuicksightAnalysis#integer_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#integer_parameters QuicksightAnalysis#integer_parameters}
 
 ---
 
@@ -1442,7 +1442,7 @@ StringParameters interface{}
 
 <p>String parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#string_parameters QuicksightAnalysis#string_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#string_parameters QuicksightAnalysis#string_parameters}
 
 ---
 
@@ -1451,7 +1451,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersDateTimeParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisParametersDateTimeParameters {
 	Name: *string,
@@ -1478,7 +1478,7 @@ Name *string
 
 <p>A display name for the date-time parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
 
 ---
 
@@ -1492,7 +1492,7 @@ Values *[]*string
 
 <p>The values for the date-time parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
 
 ---
 
@@ -1501,7 +1501,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersDecimalParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisParametersDecimalParameters {
 	Name: *string,
@@ -1528,7 +1528,7 @@ Name *string
 
 <p>A display name for the decimal parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
 
 ---
 
@@ -1542,7 +1542,7 @@ Values *[]*f64
 
 <p>The values for the decimal parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
 
 ---
 
@@ -1551,7 +1551,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersIntegerParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisParametersIntegerParameters {
 	Name: *string,
@@ -1578,7 +1578,7 @@ Name *string
 
 <p>The name of the integer parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
 
 ---
 
@@ -1592,7 +1592,7 @@ Values *[]*f64
 
 <p>The values for the integer parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
 
 ---
 
@@ -1601,7 +1601,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersStringParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisParametersStringParameters {
 	Name: *string,
@@ -1628,7 +1628,7 @@ Name *string
 
 <p>A display name for a string parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
 
 ---
 
@@ -1642,7 +1642,7 @@ Values *[]*string
 
 <p>The values of a string parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
 
 ---
 
@@ -1651,7 +1651,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisPermissions {
 	Actions: *[]*string,
@@ -1678,7 +1678,7 @@ Actions *[]*string
 
 <p>The IAM action to grant or revoke permissions on.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#actions QuicksightAnalysis#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#actions QuicksightAnalysis#actions}
 
 ---
 
@@ -1708,7 +1708,7 @@ ARN. Use this option only to share resources (templates) across AWS accounts.
 </li>
 </ul>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#principal QuicksightAnalysis#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#principal QuicksightAnalysis#principal}
 
 ---
 
@@ -1717,7 +1717,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSheets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisSheets {
 
@@ -1730,10 +1730,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSourceEntity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisSourceEntity {
-	SourceTemplate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightAnalysis.QuicksightAnalysisSourceEntitySourceTemplate,
+	SourceTemplate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightAnalysis.QuicksightAnalysisSourceEntitySourceTemplate,
 }
 ```
 
@@ -1755,7 +1755,7 @@ SourceTemplate QuicksightAnalysisSourceEntitySourceTemplate
 
 <p>The source template of an analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#source_template QuicksightAnalysis#source_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#source_template QuicksightAnalysis#source_template}
 
 ---
 
@@ -1764,7 +1764,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSourceEntitySourceTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisSourceEntitySourceTemplate {
 	Arn: *string,
@@ -1791,7 +1791,7 @@ Arn *string
 
 <p>The Amazon Resource Name (ARN) of the source template of an analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#arn QuicksightAnalysis#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#arn QuicksightAnalysis#arn}
 
 ---
 
@@ -1805,7 +1805,7 @@ DataSetReferences interface{}
 
 <p>The dataset references of the source template of an analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#data_set_references QuicksightAnalysis#data_set_references}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#data_set_references QuicksightAnalysis#data_set_references}
 
 ---
 
@@ -1814,7 +1814,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSourceEntitySourceTemplateDataSetReferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisSourceEntitySourceTemplateDataSetReferences {
 	DataSetArn: *string,
@@ -1841,7 +1841,7 @@ DataSetArn *string
 
 <p>Dataset Amazon Resource Name (ARN).</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#data_set_arn QuicksightAnalysis#data_set_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#data_set_arn QuicksightAnalysis#data_set_arn}
 
 ---
 
@@ -1855,7 +1855,7 @@ DataSetPlaceholder *string
 
 <p>Dataset placeholder.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#data_set_placeholder QuicksightAnalysis#data_set_placeholder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#data_set_placeholder QuicksightAnalysis#data_set_placeholder}
 
 ---
 
@@ -1864,7 +1864,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 &quicksightanalysis.QuicksightAnalysisTags {
 	Key: *string,
@@ -1891,7 +1891,7 @@ Key *string
 
 <p>Tag key.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#key QuicksightAnalysis#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#key QuicksightAnalysis#key}
 
 ---
 
@@ -1905,7 +1905,7 @@ Value *string
 
 <p>Tag value.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_analysis#value QuicksightAnalysis#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_analysis#value QuicksightAnalysis#value}
 
 ---
 
@@ -1916,7 +1916,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightAnalysisErrorsList
 ```
@@ -2076,7 +2076,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightAnalysisErrorsOutputReference
 ```
@@ -2401,7 +2401,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersDateTimeParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisParametersDateTimeParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightAnalysisParametersDateTimeParametersList
 ```
@@ -2561,7 +2561,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersDateTimeParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisParametersDateTimeParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightAnalysisParametersDateTimeParametersOutputReference
 ```
@@ -2886,7 +2886,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersDecimalParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisParametersDecimalParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightAnalysisParametersDecimalParametersList
 ```
@@ -3046,7 +3046,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersDecimalParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisParametersDecimalParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightAnalysisParametersDecimalParametersOutputReference
 ```
@@ -3371,7 +3371,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersIntegerParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisParametersIntegerParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightAnalysisParametersIntegerParametersList
 ```
@@ -3531,7 +3531,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersIntegerParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisParametersIntegerParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightAnalysisParametersIntegerParametersOutputReference
 ```
@@ -3856,7 +3856,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightAnalysisParametersOutputReference
 ```
@@ -4273,7 +4273,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersStringParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisParametersStringParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightAnalysisParametersStringParametersList
 ```
@@ -4433,7 +4433,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisParametersStringParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisParametersStringParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightAnalysisParametersStringParametersOutputReference
 ```
@@ -4758,7 +4758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisPermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisPermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightAnalysisPermissionsList
 ```
@@ -4918,7 +4918,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisPermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisPermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightAnalysisPermissionsOutputReference
 ```
@@ -5243,7 +5243,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSheetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisSheetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightAnalysisSheetsList
 ```
@@ -5392,7 +5392,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSheetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisSheetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightAnalysisSheetsOutputReference
 ```
@@ -5681,7 +5681,7 @@ func InternalValue() QuicksightAnalysisSheets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSourceEntityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisSourceEntityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightAnalysisSourceEntityOutputReference
 ```
@@ -5972,7 +5972,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSourceEntitySourceTemplateDataSetReferencesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisSourceEntitySourceTemplateDataSetReferencesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightAnalysisSourceEntitySourceTemplateDataSetReferencesList
 ```
@@ -6132,7 +6132,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSourceEntitySourceTemplateDataSetReferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisSourceEntitySourceTemplateDataSetReferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightAnalysisSourceEntitySourceTemplateDataSetReferencesOutputReference
 ```
@@ -6457,7 +6457,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSourceEntitySourceTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisSourceEntitySourceTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightAnalysisSourceEntitySourceTemplateOutputReference
 ```
@@ -6777,7 +6777,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightAnalysisTagsList
 ```
@@ -6937,7 +6937,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightanalysis"
 
 quicksightanalysis.NewQuicksightAnalysisTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightAnalysisTagsOutputReference
 ```

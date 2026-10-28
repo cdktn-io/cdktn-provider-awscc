@@ -4,12 +4,12 @@
 
 ### GlueDatabase <a name="GlueDatabase" id="@cdktn/provider-awscc.glueDatabase.GlueDatabase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database awscc_glue_database}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database awscc_glue_database}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueDatabase.GlueDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 gluedatabase.NewGlueDatabase(scope Construct, id *string, config GlueDatabaseConfig) GlueDatabase
 ```
@@ -420,7 +420,7 @@ func ResetDatabaseName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueDatabase.GlueDatabase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 gluedatabase.GlueDatabase_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueDatabase.GlueDatabase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 gluedatabase.GlueDatabase_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ gluedatabase.GlueDatabase_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueDatabase.GlueDatabase.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 gluedatabase.GlueDatabase_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ gluedatabase.GlueDatabase_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueDatabase.GlueDatabase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 gluedatabase.GlueDatabase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the GlueDatabase to import.
 
 The id of the existing GlueDatabase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -786,7 +786,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 &gluedatabase.GlueDatabaseConfig {
 	Connection: interface{},
@@ -797,7 +797,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	CatalogId: *string,
-	DatabaseInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueDatabase.GlueDatabaseDatabaseInput,
+	DatabaseInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueDatabase.GlueDatabaseDatabaseInput,
 	DatabaseName: *string,
 }
 ```
@@ -899,7 +899,7 @@ CatalogId *string
 
 The AWS account ID for the account in which to create the catalog object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#catalog_id GlueDatabase#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#catalog_id GlueDatabase#catalog_id}
 
 ---
 
@@ -913,7 +913,7 @@ DatabaseInput GlueDatabaseDatabaseInput
 
 The metadata for the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#database_input GlueDatabase#database_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#database_input GlueDatabase#database_input}
 
 ---
 
@@ -927,7 +927,7 @@ DatabaseName *string
 
 The name of the database. For hive compatibility, this is folded to lowercase when it is store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#database_name GlueDatabase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#database_name GlueDatabase#database_name}
 
 ---
 
@@ -936,16 +936,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseDatabaseInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 &gluedatabase.GlueDatabaseDatabaseInput {
 	CreateTableDefaultPermissions: interface{},
 	Description: *string,
-	FederatedDatabase: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueDatabase.GlueDatabaseDatabaseInputFederatedDatabase,
+	FederatedDatabase: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueDatabase.GlueDatabaseDatabaseInputFederatedDatabase,
 	LocationUri: *string,
 	Name: *string,
 	Parameters: *string,
-	TargetDatabase: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueDatabase.GlueDatabaseDatabaseInputTargetDatabase,
+	TargetDatabase: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueDatabase.GlueDatabaseDatabaseInputTargetDatabase,
 }
 ```
 
@@ -975,7 +975,7 @@ Creates a set of default permissions on the table for principals.
 
 Used by AWS Lake Formation. Not used in the normal course of AWS Glue operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#create_table_default_permissions GlueDatabase#create_table_default_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#create_table_default_permissions GlueDatabase#create_table_default_permissions}
 
 ---
 
@@ -989,7 +989,7 @@ Description *string
 
 A description of the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#description GlueDatabase#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#description GlueDatabase#description}
 
 ---
 
@@ -1003,7 +1003,7 @@ FederatedDatabase GlueDatabaseDatabaseInputFederatedDatabase
 
 A FederatedDatabase structure that references an entity outside the AWS Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#federated_database GlueDatabase#federated_database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#federated_database GlueDatabase#federated_database}
 
 ---
 
@@ -1017,7 +1017,7 @@ LocationUri *string
 
 The location of the database (for example, an HDFS path).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#location_uri GlueDatabase#location_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#location_uri GlueDatabase#location_uri}
 
 ---
 
@@ -1031,7 +1031,7 @@ Name *string
 
 The name of the database. For hive compatibility, this is folded to lowercase when it is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#name GlueDatabase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#name GlueDatabase#name}
 
 ---
 
@@ -1045,7 +1045,7 @@ Parameters *string
 
 These key-value pairs define parameters and properties of the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#parameters GlueDatabase#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#parameters GlueDatabase#parameters}
 
 ---
 
@@ -1059,7 +1059,7 @@ TargetDatabase GlueDatabaseDatabaseInputTargetDatabase
 
 A DatabaseIdentifier structure that describes a target database for resource linking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#target_database GlueDatabase#target_database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#target_database GlueDatabase#target_database}
 
 ---
 
@@ -1068,11 +1068,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseDatabaseInputCreateTableDefaultPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 &gluedatabase.GlueDatabaseDatabaseInputCreateTableDefaultPermissions {
 	Permissions: *[]*string,
-	Principal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueDatabase.GlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipal,
+	Principal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueDatabase.GlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipal,
 }
 ```
 
@@ -1095,7 +1095,7 @@ Permissions *[]*string
 
 The permissions that are granted to the principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#permissions GlueDatabase#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#permissions GlueDatabase#permissions}
 
 ---
 
@@ -1109,7 +1109,7 @@ Principal GlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipal
 
 The principal who is granted permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#principal GlueDatabase#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#principal GlueDatabase#principal}
 
 ---
 
@@ -1118,7 +1118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 &gluedatabase.GlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipal {
 	DataLakePrincipalIdentifier: *string,
@@ -1143,7 +1143,7 @@ DataLakePrincipalIdentifier *string
 
 An identifier for the AWS Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#data_lake_principal_identifier GlueDatabase#data_lake_principal_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#data_lake_principal_identifier GlueDatabase#data_lake_principal_identifier}
 
 ---
 
@@ -1152,7 +1152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseDatabaseInputFederatedDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 &gluedatabase.GlueDatabaseDatabaseInputFederatedDatabase {
 	ConnectionName: *string,
@@ -1179,7 +1179,7 @@ ConnectionName *string
 
 The name of the connection to the external metastore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#connection_name GlueDatabase#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#connection_name GlueDatabase#connection_name}
 
 ---
 
@@ -1193,7 +1193,7 @@ Identifier *string
 
 A unique identifier for the federated database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#identifier GlueDatabase#identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#identifier GlueDatabase#identifier}
 
 ---
 
@@ -1202,7 +1202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseDatabaseInputTargetDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 &gluedatabase.GlueDatabaseDatabaseInputTargetDatabase {
 	CatalogId: *string,
@@ -1231,7 +1231,7 @@ CatalogId *string
 
 The ID of the Data Catalog in which the database resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#catalog_id GlueDatabase#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#catalog_id GlueDatabase#catalog_id}
 
 ---
 
@@ -1245,7 +1245,7 @@ DatabaseName *string
 
 The name of the catalog database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#database_name GlueDatabase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#database_name GlueDatabase#database_name}
 
 ---
 
@@ -1259,7 +1259,7 @@ Region *string
 
 Region of the target database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_database#region GlueDatabase#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_database#region GlueDatabase#region}
 
 ---
 
@@ -1270,7 +1270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseDatabaseInputCreateTableDefaultPermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 gluedatabase.NewGlueDatabaseDatabaseInputCreateTableDefaultPermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueDatabaseDatabaseInputCreateTableDefaultPermissionsList
 ```
@@ -1430,7 +1430,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseDatabaseInputCreateTableDefaultPermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 gluedatabase.NewGlueDatabaseDatabaseInputCreateTableDefaultPermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueDatabaseDatabaseInputCreateTableDefaultPermissionsOutputReference
 ```
@@ -1768,7 +1768,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 gluedatabase.NewGlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipalOutputReference
 ```
@@ -2046,7 +2046,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseDatabaseInputFederatedDatabaseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 gluedatabase.NewGlueDatabaseDatabaseInputFederatedDatabaseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueDatabaseDatabaseInputFederatedDatabaseOutputReference
 ```
@@ -2353,7 +2353,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseDatabaseInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 gluedatabase.NewGlueDatabaseDatabaseInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueDatabaseDatabaseInputOutputReference
 ```
@@ -2844,7 +2844,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueDatabase.GlueDatabaseDatabaseInputTargetDatabaseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedatabase"
 
 gluedatabase.NewGlueDatabaseDatabaseInputTargetDatabaseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueDatabaseDatabaseInputTargetDatabaseOutputReference
 ```

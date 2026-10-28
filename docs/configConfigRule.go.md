@@ -4,12 +4,12 @@
 
 ### ConfigConfigRule <a name="ConfigConfigRule" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule awscc_config_config_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule awscc_config_config_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.NewConfigConfigRule(scope Construct, id *string, config ConfigConfigRuleConfig) ConfigConfigRule
 ```
@@ -501,7 +501,7 @@ func ResetScope()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.ConfigConfigRule_IsConstruct(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.ConfigConfigRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ configconfigrule.ConfigConfigRule_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.ConfigConfigRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ configconfigrule.ConfigConfigRule_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.ConfigConfigRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -590,7 +590,7 @@ The construct id used in the generated config for the ConfigConfigRule to import
 
 The id of the existing ConfigConfigRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -999,7 +999,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleCompliance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 &configconfigrule.ConfigConfigRuleCompliance {
 
@@ -1012,7 +1012,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 &configconfigrule.ConfigConfigRuleConfig {
 	Connection: interface{},
@@ -1022,14 +1022,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.configConfigRule.ConfigConfigRuleSource,
-	Compliance: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.configConfigRule.ConfigConfigRuleCompliance,
+	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.configConfigRule.ConfigConfigRuleSource,
+	Compliance: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.configConfigRule.ConfigConfigRuleCompliance,
 	ConfigRuleName: *string,
 	Description: *string,
 	EvaluationModes: interface{},
 	InputParameters: *string,
 	MaximumExecutionFrequency: *string,
-	Scope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.configConfigRule.ConfigConfigRuleScope,
+	Scope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.configConfigRule.ConfigConfigRuleScope,
 }
 ```
 
@@ -1135,7 +1135,7 @@ Source ConfigConfigRuleSource
 
 Provides the rule owner (```` for managed rules, ``CUSTOM_POLICY`` for Custom Policy rules, and ``CUSTOM_LAMBDA`` for Custom Lambda rules), the rule identifier, and the notifications that cause the function to evaluate your AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#source ConfigConfigRule#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#source ConfigConfigRule#source}
 
 ---
 
@@ -1149,7 +1149,7 @@ Compliance ConfigConfigRuleCompliance
 
 Indicates whether an AWS resource or CC rule is compliant and provides the number of contributors that affect the compliance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#compliance ConfigConfigRule#compliance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#compliance ConfigConfigRule#compliance}
 
 ---
 
@@ -1165,7 +1165,7 @@ A name for the CC rule.
 
 If you don't specify a name, CFN generates a unique physical ID and uses that ID for the rule name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#config_rule_name ConfigConfigRule#config_rule_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#config_rule_name ConfigConfigRule#config_rule_name}
 
 ---
 
@@ -1179,7 +1179,7 @@ Description *string
 
 The description that you provide for the CC rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#description ConfigConfigRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#description ConfigConfigRule#description}
 
 ---
 
@@ -1195,7 +1195,7 @@ The modes the CC rule can be evaluated in.
 
 The valid values are distinct objects. By default, the value is Detective evaluation mode only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#evaluation_modes ConfigConfigRule#evaluation_modes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#evaluation_modes ConfigConfigRule#evaluation_modes}
 
 ---
 
@@ -1209,7 +1209,7 @@ InputParameters *string
 
 A string, in JSON format, that is passed to the CC rule Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#input_parameters ConfigConfigRule#input_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#input_parameters ConfigConfigRule#input_parameters}
 
 ---
 
@@ -1230,7 +1230,7 @@ You can specify a value for `MaximumExecutionFrequency` when:
 
 By default, rules with a periodic trigger are evaluated every 24 hours. To change the frequency, specify a valid value for the `MaximumExecutionFrequency` parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#maximum_execution_frequency ConfigConfigRule#maximum_execution_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#maximum_execution_frequency ConfigConfigRule#maximum_execution_frequency}
 
 ---
 
@@ -1246,7 +1246,7 @@ Defines which resources can trigger an evaluation for the rule.
 
 The scope can include one or more resource types, a combination of one resource type and one resource ID, or a combination of a tag key and value. Specify a scope to constrain the resources that can trigger an evaluation for the rule. If you do not specify a scope, evaluations are triggered when any resource in the recording group changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#scope ConfigConfigRule#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#scope ConfigConfigRule#scope}
 
 ---
 
@@ -1255,7 +1255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleEvaluationModes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 &configconfigrule.ConfigConfigRuleEvaluationModes {
 	Mode: *string,
@@ -1280,7 +1280,7 @@ Mode *string
 
 The mode of an evaluation. The valid values are Detective or Proactive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#mode ConfigConfigRule#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#mode ConfigConfigRule#mode}
 
 ---
 
@@ -1289,7 +1289,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 &configconfigrule.ConfigConfigRuleScope {
 	ComplianceResourceId: *string,
@@ -1322,7 +1322,7 @@ The ID of the only AWS resource that you want to trigger an evaluation for the r
 
 If you specify a resource ID, you must specify one resource type for `ComplianceResourceTypes`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#compliance_resource_id ConfigConfigRule#compliance_resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#compliance_resource_id ConfigConfigRule#compliance_resource_id}
 
 ---
 
@@ -1338,7 +1338,7 @@ The resource types of only those AWS resources that you want to trigger an evalu
 
 You can only specify one type if you also specify a resource ID for `ComplianceResourceId`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#compliance_resource_types ConfigConfigRule#compliance_resource_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#compliance_resource_types ConfigConfigRule#compliance_resource_types}
 
 ---
 
@@ -1352,7 +1352,7 @@ TagKey *string
 
 The tag key that is applied to only those AWS resources that you want to trigger an evaluation for the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#tag_key ConfigConfigRule#tag_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#tag_key ConfigConfigRule#tag_key}
 
 ---
 
@@ -1368,7 +1368,7 @@ The tag value applied to only those AWS resources that you want to trigger an ev
 
 If you specify a value for `TagValue`, you must also specify a value for `TagKey`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#tag_value ConfigConfigRule#tag_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#tag_value ConfigConfigRule#tag_value}
 
 ---
 
@@ -1377,11 +1377,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 &configconfigrule.ConfigConfigRuleSource {
 	Owner: *string,
-	CustomPolicyDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetails,
+	CustomPolicyDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetails,
 	SourceDetails: interface{},
 	SourceIdentifier: *string,
 }
@@ -1411,7 +1411,7 @@ Indicates whether AWS or the customer owns and manages the CC rule.
 CC Managed Rules are predefined rules owned by AWS. For more information, see [Managed Rules](https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_use-managed-rules.html) in the *developer guide*.
 CC Custom Rules are rules that you can develop either with Guard (`CUSTOM_POLICY`) or LAMlong (`CUSTOM_LAMBDA`). For more information, see [Custom Rules](https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_develop-rules.html) in the *developer guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#owner ConfigConfigRule#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#owner ConfigConfigRule#owner}
 
 ---
 
@@ -1425,7 +1425,7 @@ CustomPolicyDetails ConfigConfigRuleSourceCustomPolicyDetails
 
 Provides the runtime system, policy definition, and whether debug logging is enabled. Required when owner is set to ``CUSTOM_POLICY``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#custom_policy_details ConfigConfigRule#custom_policy_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#custom_policy_details ConfigConfigRule#custom_policy_details}
 
 ---
 
@@ -1442,7 +1442,7 @@ Provides the source and the message types that cause CC to evaluate your AWS res
 It also provides the frequency with which you want CC to run evaluations for the rule if the trigger type is periodic.
 If the owner is set to `CUSTOM_POLICY`, the only acceptable values for the CC rule trigger message type are `ConfigurationItemChangeNotification` and `OversizedConfigurationItemChangeNotification`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#source_details ConfigConfigRule#source_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#source_details ConfigConfigRule#source_details}
 
 ---
 
@@ -1460,7 +1460,7 @@ For example, `IAM_PASSWORD_POLICY` is a managed rule. To reference a managed rul
 For CC Custom Lambda rules, the identifier is the Amazon Resource Name (ARN) of the rule's LAMlong function, such as `arn:aws:lambda:us-east-2:123456789012:function:custom_rule_name`.
 For CC Custom Policy rules, this field will be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#source_identifier ConfigConfigRule#source_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#source_identifier ConfigConfigRule#source_identifier}
 
 ---
 
@@ -1469,7 +1469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 &configconfigrule.ConfigConfigRuleSourceCustomPolicyDetails {
 	EnableDebugLogDelivery: interface{},
@@ -1498,7 +1498,7 @@ EnableDebugLogDelivery interface{}
 
 The boolean expression for enabling debug logging for your CC Custom Policy rule. The default value is ``false``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#enable_debug_log_delivery ConfigConfigRule#enable_debug_log_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#enable_debug_log_delivery ConfigConfigRule#enable_debug_log_delivery}
 
 ---
 
@@ -1514,7 +1514,7 @@ The runtime system for your CC Custom Policy rule.
 
 Guard is a policy-as-code language that allows you to write policies that are enforced by CC Custom Policy rules. For more information about Guard, see the [Guard GitHub Repository](https://docs.aws.amazon.com/https://github.com/aws-cloudformation/cloudformation-guard).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#policy_runtime ConfigConfigRule#policy_runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#policy_runtime ConfigConfigRule#policy_runtime}
 
 ---
 
@@ -1528,7 +1528,7 @@ PolicyText *string
 
 The policy definition containing the logic for your CC Custom Policy rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#policy_text ConfigConfigRule#policy_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#policy_text ConfigConfigRule#policy_text}
 
 ---
 
@@ -1537,7 +1537,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleSourceSourceDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 &configconfigrule.ConfigConfigRuleSourceSourceDetails {
 	EventSource: *string,
@@ -1566,7 +1566,7 @@ EventSource *string
 
 The source of the event, such as an AWS service, that triggers CC to evaluate your AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#event_source ConfigConfigRule#event_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#event_source ConfigConfigRule#event_source}
 
 ---
 
@@ -1584,7 +1584,7 @@ If you specify a value for `MaximumExecutionFrequency`, then `MessageType` must 
 By default, rules with a periodic trigger are evaluated every 24 hours. To change the frequency, specify a valid value for the `MaximumExecutionFrequency` parameter.
 Based on the valid value you choose, CC runs evaluations once for each valid value. For example, if you choose `Three_Hours`, CC runs evaluations once every three hours. In this case, `Three_Hours` is the frequency of this rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#maximum_execution_frequency ConfigConfigRule#maximum_execution_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#maximum_execution_frequency ConfigConfigRule#maximum_execution_frequency}
 
 ---
 
@@ -1607,7 +1607,7 @@ You can specify the following notification types:
 
 If you want your custom rule to be triggered by configuration changes, specify two SourceDetail objects, one for `ConfigurationItemChangeNotification` and one for `OversizedConfigurationItemChangeNotification`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_config_rule#message_type ConfigConfigRule#message_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_config_rule#message_type ConfigConfigRule#message_type}
 
 ---
 
@@ -1618,7 +1618,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleComplianceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.NewConfigConfigRuleComplianceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConfigConfigRuleComplianceOutputReference
 ```
@@ -1878,7 +1878,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleEvaluationModesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.NewConfigConfigRuleEvaluationModesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConfigConfigRuleEvaluationModesList
 ```
@@ -2038,7 +2038,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleEvaluationModesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.NewConfigConfigRuleEvaluationModesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConfigConfigRuleEvaluationModesOutputReference
 ```
@@ -2334,7 +2334,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.NewConfigConfigRuleScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConfigConfigRuleScopeOutputReference
 ```
@@ -2699,7 +2699,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.NewConfigConfigRuleSourceCustomPolicyDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConfigConfigRuleSourceCustomPolicyDetailsOutputReference
 ```
@@ -3035,7 +3035,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.NewConfigConfigRuleSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConfigConfigRuleSourceOutputReference
 ```
@@ -3419,7 +3419,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleSourceSourceDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.NewConfigConfigRuleSourceSourceDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConfigConfigRuleSourceSourceDetailsList
 ```
@@ -3579,7 +3579,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConfigRule.ConfigConfigRuleSourceSourceDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconfigrule"
 
 configconfigrule.NewConfigConfigRuleSourceSourceDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConfigConfigRuleSourceSourceDetailsOutputReference
 ```

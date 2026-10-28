@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2NetworkInsightsAnalyses <a name="DataAwsccEc2NetworkInsightsAnalyses" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAnalyses.DataAwsccEc2NetworkInsightsAnalyses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_analyses awscc_ec2_network_insights_analyses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_analyses awscc_ec2_network_insights_analyses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAnalyses.DataAwsccEc2NetworkInsightsAnalyses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsanalyses"
 
 dataawsccec2networkinsightsanalyses.NewDataAwsccEc2NetworkInsightsAnalyses(scope Construct, id *string, config DataAwsccEc2NetworkInsightsAnalysesConfig) DataAwsccEc2NetworkInsightsAnalyses
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAnalyses.DataAwsccEc2NetworkInsightsAnalyses.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsanalyses"
 
 dataawsccec2networkinsightsanalyses.DataAwsccEc2NetworkInsightsAnalyses_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAnalyses.DataAwsccEc2NetworkInsightsAnalyses.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsanalyses"
 
 dataawsccec2networkinsightsanalyses.DataAwsccEc2NetworkInsightsAnalyses_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2networkinsightsanalyses.DataAwsccEc2NetworkInsightsAnalyses_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAnalyses.DataAwsccEc2NetworkInsightsAnalyses.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsanalyses"
 
 dataawsccec2networkinsightsanalyses.DataAwsccEc2NetworkInsightsAnalyses_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2networkinsightsanalyses.DataAwsccEc2NetworkInsightsAnalyses_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAnalyses.DataAwsccEc2NetworkInsightsAnalyses.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsanalyses"
 
 dataawsccec2networkinsightsanalyses.DataAwsccEc2NetworkInsightsAnalyses_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2NetworkInsight
 
 The id of the existing DataAwsccEc2NetworkInsightsAnalyses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_analyses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_analyses#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAnalyses.DataAwsccEc2NetworkInsightsAnalysesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsanalyses"
 
 &dataawsccec2networkinsightsanalyses.DataAwsccEc2NetworkInsightsAnalysesConfig {
 	Connection: interface{},

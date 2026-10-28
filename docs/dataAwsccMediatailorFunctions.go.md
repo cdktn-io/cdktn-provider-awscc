@@ -4,12 +4,12 @@
 
 ### DataAwsccMediatailorFunctions <a name="DataAwsccMediatailorFunctions" id="@cdktn/provider-awscc.dataAwsccMediatailorFunctions.DataAwsccMediatailorFunctions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_functions awscc_mediatailor_functions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_functions awscc_mediatailor_functions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorFunctions.DataAwsccMediatailorFunctions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorfunctions"
 
 dataawsccmediatailorfunctions.NewDataAwsccMediatailorFunctions(scope Construct, id *string, config DataAwsccMediatailorFunctionsConfig) DataAwsccMediatailorFunctions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediatailorFunctions.DataAwsccMediatailorFunctions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorfunctions"
 
 dataawsccmediatailorfunctions.DataAwsccMediatailorFunctions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediatailorFunctions.DataAwsccMediatailorFunctions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorfunctions"
 
 dataawsccmediatailorfunctions.DataAwsccMediatailorFunctions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediatailorfunctions.DataAwsccMediatailorFunctions_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediatailorFunctions.DataAwsccMediatailorFunctions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorfunctions"
 
 dataawsccmediatailorfunctions.DataAwsccMediatailorFunctions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediatailorfunctions.DataAwsccMediatailorFunctions_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediatailorFunctions.DataAwsccMediatailorFunctions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorfunctions"
 
 dataawsccmediatailorfunctions.DataAwsccMediatailorFunctions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediatailorFuncti
 
 The id of the existing DataAwsccMediatailorFunctions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_functions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_functions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorFunctions.DataAwsccMediatailorFunctionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorfunctions"
 
 &dataawsccmediatailorfunctions.DataAwsccMediatailorFunctionsConfig {
 	Connection: interface{},

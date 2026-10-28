@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudwatchCompositeAlarm <a name="DataAwsccCloudwatchCompositeAlarm" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarm"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarm.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_composite_alarm#id DataAwsccCloudwatchCompositeAlarm#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_composite_alarm#id DataAwsccCloudwatchCompositeAlarm#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchComposi
 
 The id of the existing DataAwsccCloudwatchCompositeAlarm that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_composite_alarm#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_composite_alarm#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -520,6 +520,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarm.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarm.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarm.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarm.property.actionConfiguration">action_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference">DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarm.property.actionsEnabled">actions_enabled</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarm.property.actionsSuppressor">actions_suppressor</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarm.property.actionsSuppressorExtensionPeriod">actions_suppressor_extension_period</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
@@ -656,6 +657,16 @@ provider: TerraformProvider
 ```
 
 - *Type:* cdktn.TerraformProvider
+
+---
+
+##### `action_configuration`<sup>Required</sup> <a name="action_configuration" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarm.property.actionConfiguration"></a>
+
+```python
+action_configuration: DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference">DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference</a>
 
 ---
 
@@ -819,6 +830,28 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
+### DataAwsccCloudwatchCompositeAlarmActionConfiguration <a name="DataAwsccCloudwatchCompositeAlarmActionConfiguration" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cloudwatch_composite_alarm
+
+dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfiguration()
+```
+
+
+### DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation <a name="DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cloudwatch_composite_alarm
+
+dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation()
+```
+
+
 ### DataAwsccCloudwatchCompositeAlarmConfig <a name="DataAwsccCloudwatchCompositeAlarmConfig" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmConfig"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmConfig.Initializer"></a>
@@ -933,7 +966,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_composite_alarm#id DataAwsccCloudwatchCompositeAlarm#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_composite_alarm#id DataAwsccCloudwatchCompositeAlarm#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -952,6 +985,598 @@ dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmTags()
 
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference <a name="DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cloudwatch_composite_alarm
+
+dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.enabled">enabled</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.excludedTagKeys">excluded_tag_keys</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.includedTagKeys">included_tag_keys</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation">DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.enabled"></a>
+
+```python
+enabled: IResolvable
+```
+
+- *Type:* cdktn.IResolvable
+
+---
+
+##### `excluded_tag_keys`<sup>Required</sup> <a name="excluded_tag_keys" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.excludedTagKeys"></a>
+
+```python
+excluded_tag_keys: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `included_tag_keys`<sup>Required</sup> <a name="included_tag_keys" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.includedTagKeys"></a>
+
+```python
+included_tag_keys: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation">DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation</a>
+
+---
+
+
+### DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference <a name="DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_cloudwatch_composite_alarm
+
+dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.property.alarmTagsPropagation">alarm_tags_propagation</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference">DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfiguration">DataAwsccCloudwatchCompositeAlarmActionConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `alarm_tags_propagation`<sup>Required</sup> <a name="alarm_tags_propagation" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.property.alarmTagsPropagation"></a>
+
+```python
+alarm_tags_propagation: DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference">DataAwsccCloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DataAwsccCloudwatchCompositeAlarmActionConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmActionConfiguration">DataAwsccCloudwatchCompositeAlarmActionConfiguration</a>
+
+---
+
 
 ### DataAwsccCloudwatchCompositeAlarmTagsList <a name="DataAwsccCloudwatchCompositeAlarmTagsList" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarm.DataAwsccCloudwatchCompositeAlarmTagsList"></a>
 

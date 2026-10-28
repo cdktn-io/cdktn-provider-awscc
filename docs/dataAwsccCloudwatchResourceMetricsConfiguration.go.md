@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudwatchResourceMetricsConfiguration <a name="DataAwsccCloudwatchResourceMetricsConfiguration" id="@cdktn/provider-awscc.dataAwsccCloudwatchResourceMetricsConfiguration.DataAwsccCloudwatchResourceMetricsConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_resource_metrics_configuration awscc_cloudwatch_resource_metrics_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_resource_metrics_configuration awscc_cloudwatch_resource_metrics_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchResourceMetricsConfiguration.DataAwsccCloudwatchResourceMetricsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchresourcemetricsconfiguration"
 
 dataawscccloudwatchresourcemetricsconfiguration.NewDataAwsccCloudwatchResourceMetricsConfiguration(scope Construct, id *string, config DataAwsccCloudwatchResourceMetricsConfigurationConfig) DataAwsccCloudwatchResourceMetricsConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudwatchResourceMetricsConfiguration.DataAwsccCloudwatchResourceMetricsConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchresourcemetricsconfiguration"
 
 dataawscccloudwatchresourcemetricsconfiguration.DataAwsccCloudwatchResourceMetricsConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudwatchResourceMetricsConfiguration.DataAwsccCloudwatchResourceMetricsConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchresourcemetricsconfiguration"
 
 dataawscccloudwatchresourcemetricsconfiguration.DataAwsccCloudwatchResourceMetricsConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudwatchresourcemetricsconfiguration.DataAwsccCloudwatchResourceMetri
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudwatchResourceMetricsConfiguration.DataAwsccCloudwatchResourceMetricsConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchresourcemetricsconfiguration"
 
 dataawscccloudwatchresourcemetricsconfiguration.DataAwsccCloudwatchResourceMetricsConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudwatchresourcemetricsconfiguration.DataAwsccCloudwatchResourceMetri
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudwatchResourceMetricsConfiguration.DataAwsccCloudwatchResourceMetricsConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchresourcemetricsconfiguration"
 
 dataawscccloudwatchresourcemetricsconfiguration.DataAwsccCloudwatchResourceMetricsConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchResourc
 
 The id of the existing DataAwsccCloudwatchResourceMetricsConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_resource_metrics_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_resource_metrics_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchResourceMetricsConfiguration.DataAwsccCloudwatchResourceMetricsConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchresourcemetricsconfiguration"
 
 &dataawscccloudwatchresourcemetricsconfiguration.DataAwsccCloudwatchResourceMetricsConfigurationConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_resource_metrics_configuration#id DataAwsccCloudwatchResourceMetricsConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_resource_metrics_configuration#id DataAwsccCloudwatchResourceMetricsConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchResourceMetricsConfiguration.DataAwsccCloudwatchResourceMetricsConfigurationMetricSelections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchresourcemetricsconfiguration"
 
 &dataawscccloudwatchresourcemetricsconfiguration.DataAwsccCloudwatchResourceMetricsConfigurationMetricSelections {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchres
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchResourceMetricsConfiguration.DataAwsccCloudwatchResourceMetricsConfigurationMetricSelectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchresourcemetricsconfiguration"
 
 dataawscccloudwatchresourcemetricsconfiguration.NewDataAwsccCloudwatchResourceMetricsConfigurationMetricSelectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudwatchResourceMetricsConfigurationMetricSelectionsList
 ```
@@ -916,7 +916,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchResourceMetricsConfiguration.DataAwsccCloudwatchResourceMetricsConfigurationMetricSelectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchresourcemetricsconfiguration"
 
 dataawscccloudwatchresourcemetricsconfiguration.NewDataAwsccCloudwatchResourceMetricsConfigurationMetricSelectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudwatchResourceMetricsConfigurationMetricSelectionsOutputReference
 ```

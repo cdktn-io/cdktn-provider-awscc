@@ -4,12 +4,12 @@
 
 ### DataAwsccS3MultiRegionAccessPointPolicy <a name="DataAwsccS3MultiRegionAccessPointPolicy" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPointPolicy.DataAwsccS3MultiRegionAccessPointPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_multi_region_access_point_policy awscc_s3_multi_region_access_point_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_multi_region_access_point_policy awscc_s3_multi_region_access_point_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPointPolicy.DataAwsccS3MultiRegionAccessPointPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspointpolicy"
 
 dataawsccs3multiregionaccesspointpolicy.NewDataAwsccS3MultiRegionAccessPointPolicy(scope Construct, id *string, config DataAwsccS3MultiRegionAccessPointPolicyConfig) DataAwsccS3MultiRegionAccessPointPolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPointPolicy.DataAwsccS3MultiRegionAccessPointPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspointpolicy"
 
 dataawsccs3multiregionaccesspointpolicy.DataAwsccS3MultiRegionAccessPointPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPointPolicy.DataAwsccS3MultiRegionAccessPointPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspointpolicy"
 
 dataawsccs3multiregionaccesspointpolicy.DataAwsccS3MultiRegionAccessPointPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3multiregionaccesspointpolicy.DataAwsccS3MultiRegionAccessPointPolicy_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPointPolicy.DataAwsccS3MultiRegionAccessPointPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspointpolicy"
 
 dataawsccs3multiregionaccesspointpolicy.DataAwsccS3MultiRegionAccessPointPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3multiregionaccesspointpolicy.DataAwsccS3MultiRegionAccessPointPolicy_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPointPolicy.DataAwsccS3MultiRegionAccessPointPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspointpolicy"
 
 dataawsccs3multiregionaccesspointpolicy.DataAwsccS3MultiRegionAccessPointPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3MultiRegionAcce
 
 The id of the existing DataAwsccS3MultiRegionAccessPointPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_multi_region_access_point_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_multi_region_access_point_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPointPolicy.DataAwsccS3MultiRegionAccessPointPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspointpolicy"
 
 &dataawsccs3multiregionaccesspointpolicy.DataAwsccS3MultiRegionAccessPointPolicyConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_multi_region_access_point_policy#id DataAwsccS3MultiRegionAccessPointPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_multi_region_access_point_policy#id DataAwsccS3MultiRegionAccessPointPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPointPolicy.DataAwsccS3MultiRegionAccessPointPolicyPolicyStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspointpolicy"
 
 &dataawsccs3multiregionaccesspointpolicy.DataAwsccS3MultiRegionAccessPointPolicyPolicyStatus {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPointPolicy.DataAwsccS3MultiRegionAccessPointPolicyPolicyStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspointpolicy"
 
 dataawsccs3multiregionaccesspointpolicy.NewDataAwsccS3MultiRegionAccessPointPolicyPolicyStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3MultiRegionAccessPointPolicyPolicyStatusOutputReference
 ```

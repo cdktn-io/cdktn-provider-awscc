@@ -4,12 +4,12 @@
 
 ### DatazoneFormType <a name="DatazoneFormType" id="@cdktn/provider-awscc.datazoneFormType.DatazoneFormType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_form_type awscc_datazone_form_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_form_type awscc_datazone_form_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneFormType.DatazoneFormType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneformtype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneformtype"
 
 datazoneformtype.NewDatazoneFormType(scope Construct, id *string, config DatazoneFormTypeConfig) DatazoneFormType
 ```
@@ -427,7 +427,7 @@ func ResetStatus()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datazoneFormType.DatazoneFormType.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneformtype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneformtype"
 
 datazoneformtype.DatazoneFormType_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datazoneFormType.DatazoneFormType.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneformtype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneformtype"
 
 datazoneformtype.DatazoneFormType_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ datazoneformtype.DatazoneFormType_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datazoneFormType.DatazoneFormType.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneformtype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneformtype"
 
 datazoneformtype.DatazoneFormType_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ datazoneformtype.DatazoneFormType_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datazoneFormType.DatazoneFormType.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneformtype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneformtype"
 
 datazoneformtype.DatazoneFormType_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the DatazoneFormType to import
 
 The id of the existing DatazoneFormType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_form_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_form_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -925,7 +925,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datazoneFormType.DatazoneFormTypeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneformtype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneformtype"
 
 &datazoneformtype.DatazoneFormTypeConfig {
 	Connection: interface{},
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneformtype"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	DomainIdentifier: *string,
-	Model: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datazoneFormType.DatazoneFormTypeModel,
+	Model: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datazoneFormType.DatazoneFormTypeModel,
 	Name: *string,
 	OwningProjectIdentifier: *string,
 	Description: *string,
@@ -1044,7 +1044,7 @@ DomainIdentifier *string
 
 The ID of the Amazon DataZone domain in which this metadata form type is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_form_type#domain_identifier DatazoneFormType#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_form_type#domain_identifier DatazoneFormType#domain_identifier}
 
 ---
 
@@ -1058,7 +1058,7 @@ Model DatazoneFormTypeModel
 
 The model of this Amazon DataZone metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_form_type#model DatazoneFormType#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_form_type#model DatazoneFormType#model}
 
 ---
 
@@ -1072,7 +1072,7 @@ Name *string
 
 The name of this Amazon DataZone metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_form_type#name DatazoneFormType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_form_type#name DatazoneFormType#name}
 
 ---
 
@@ -1086,7 +1086,7 @@ OwningProjectIdentifier *string
 
 The ID of the Amazon DataZone project that owns this metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_form_type#owning_project_identifier DatazoneFormType#owning_project_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_form_type#owning_project_identifier DatazoneFormType#owning_project_identifier}
 
 ---
 
@@ -1100,7 +1100,7 @@ Description *string
 
 The description of this Amazon DataZone metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_form_type#description DatazoneFormType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_form_type#description DatazoneFormType#description}
 
 ---
 
@@ -1114,7 +1114,7 @@ Status *string
 
 The status of this Amazon DataZone metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_form_type#status DatazoneFormType#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_form_type#status DatazoneFormType#status}
 
 ---
 
@@ -1123,7 +1123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datazoneFormType.DatazoneFormTypeModel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneformtype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneformtype"
 
 &datazoneformtype.DatazoneFormTypeModel {
 	Smithy: *string,
@@ -1134,7 +1134,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneformtype"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneFormType.DatazoneFormTypeModel.property.smithy">Smithy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneFormType.DatazoneFormTypeModel.property.smithy">Smithy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}. |
 
 ---
 
@@ -1146,7 +1146,7 @@ Smithy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}.
 
 ---
 
@@ -1157,7 +1157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneFormType.DatazoneFormTypeModelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneformtype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneformtype"
 
 datazoneformtype.NewDatazoneFormTypeModelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatazoneFormTypeModelOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcoreCodeInterpreterCustoms <a name="DataAwsccBedrockagentcoreCodeInterpreterCustoms" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreCodeInterpreterCustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreCodeInterpreterCustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorecodeinterpretercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorecodeinterpretercustoms"
 
 dataawsccbedrockagentcorecodeinterpretercustoms.NewDataAwsccBedrockagentcoreCodeInterpreterCustoms(scope Construct, id *string, config DataAwsccBedrockagentcoreCodeInterpreterCustomsConfig) DataAwsccBedrockagentcoreCodeInterpreterCustoms
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreCodeInterpreterCustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorecodeinterpretercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorecodeinterpretercustoms"
 
 dataawsccbedrockagentcorecodeinterpretercustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreCodeInterpreterCustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorecodeinterpretercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorecodeinterpretercustoms"
 
 dataawsccbedrockagentcorecodeinterpretercustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcorecodeinterpretercustoms.DataAwsccBedrockagentcoreCodeInt
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreCodeInterpreterCustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorecodeinterpretercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorecodeinterpretercustoms"
 
 dataawsccbedrockagentcorecodeinterpretercustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcorecodeinterpretercustoms.DataAwsccBedrockagentcoreCodeInt
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreCodeInterpreterCustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorecodeinterpretercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorecodeinterpretercustoms"
 
 dataawsccbedrockagentcorecodeinterpretercustoms.DataAwsccBedrockagentcoreCodeInterpreterCustoms_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreC
 
 The id of the existing DataAwsccBedrockagentcoreCodeInterpreterCustoms that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_code_interpreter_customs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_code_interpreter_customs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreCodeInterpreterCustoms.DataAwsccBedrockagentcoreCodeInterpreterCustomsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorecodeinterpretercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorecodeinterpretercustoms"
 
 &dataawsccbedrockagentcorecodeinterpretercustoms.DataAwsccBedrockagentcoreCodeInterpreterCustomsConfig {
 	Connection: interface{},

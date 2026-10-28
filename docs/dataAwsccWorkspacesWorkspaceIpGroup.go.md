@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspacesWorkspaceIpGroup <a name="DataAwsccWorkspacesWorkspaceIpGroup" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_workspace_ip_group awscc_workspaces_workspace_ip_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_workspace_ip_group awscc_workspaces_workspace_ip_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 dataawsccworkspacesworkspaceipgroup.NewDataAwsccWorkspacesWorkspaceIpGroup(scope Construct, id *string, config DataAwsccWorkspacesWorkspaceIpGroupConfig) DataAwsccWorkspacesWorkspaceIpGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 dataawsccworkspacesworkspaceipgroup.DataAwsccWorkspacesWorkspaceIpGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 dataawsccworkspacesworkspaceipgroup.DataAwsccWorkspacesWorkspaceIpGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspacesworkspaceipgroup.DataAwsccWorkspacesWorkspaceIpGroup_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 dataawsccworkspacesworkspaceipgroup.DataAwsccWorkspacesWorkspaceIpGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspacesworkspaceipgroup.DataAwsccWorkspacesWorkspaceIpGroup_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 dataawsccworkspacesworkspaceipgroup.DataAwsccWorkspacesWorkspaceIpGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesWorkspa
 
 The id of the existing DataAwsccWorkspacesWorkspaceIpGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_workspace_ip_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_workspace_ip_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 &dataawsccworkspacesworkspaceipgroup.DataAwsccWorkspacesWorkspaceIpGroupConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_workspace_ip_group#id DataAwsccWorkspacesWorkspaceIpGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_workspace_ip_group#id DataAwsccWorkspacesWorkspaceIpGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 &dataawsccworkspacesworkspaceipgroup.DataAwsccWorkspacesWorkspaceIpGroupTags {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswor
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroupUserRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 &dataawsccworkspacesworkspaceipgroup.DataAwsccWorkspacesWorkspaceIpGroupUserRules {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 dataawsccworkspacesworkspaceipgroup.NewDataAwsccWorkspacesWorkspaceIpGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesWorkspaceIpGroupTagsList
 ```
@@ -951,7 +951,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 dataawsccworkspacesworkspaceipgroup.NewDataAwsccWorkspacesWorkspaceIpGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesWorkspaceIpGroupTagsOutputReference
 ```
@@ -1240,7 +1240,7 @@ func InternalValue() DataAwsccWorkspacesWorkspaceIpGroupTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroupUserRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 dataawsccworkspacesworkspaceipgroup.NewDataAwsccWorkspacesWorkspaceIpGroupUserRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesWorkspaceIpGroupUserRulesList
 ```
@@ -1389,7 +1389,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspaceIpGroup.DataAwsccWorkspacesWorkspaceIpGroupUserRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspaceipgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspaceipgroup"
 
 dataawsccworkspacesworkspaceipgroup.NewDataAwsccWorkspacesWorkspaceIpGroupUserRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesWorkspaceIpGroupUserRulesOutputReference
 ```

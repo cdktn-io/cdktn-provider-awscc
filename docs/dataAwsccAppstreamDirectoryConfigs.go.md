@@ -4,12 +4,12 @@
 
 ### DataAwsccAppstreamDirectoryConfigs <a name="DataAwsccAppstreamDirectoryConfigs" id="@cdktn/provider-awscc.dataAwsccAppstreamDirectoryConfigs.DataAwsccAppstreamDirectoryConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_directory_configs awscc_appstream_directory_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_directory_configs awscc_appstream_directory_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamDirectoryConfigs.DataAwsccAppstreamDirectoryConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamdirectoryconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamdirectoryconfigs"
 
 dataawsccappstreamdirectoryconfigs.NewDataAwsccAppstreamDirectoryConfigs(scope Construct, id *string, config DataAwsccAppstreamDirectoryConfigsConfig) DataAwsccAppstreamDirectoryConfigs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppstreamDirectoryConfigs.DataAwsccAppstreamDirectoryConfigs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamdirectoryconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamdirectoryconfigs"
 
 dataawsccappstreamdirectoryconfigs.DataAwsccAppstreamDirectoryConfigs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppstreamDirectoryConfigs.DataAwsccAppstreamDirectoryConfigs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamdirectoryconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamdirectoryconfigs"
 
 dataawsccappstreamdirectoryconfigs.DataAwsccAppstreamDirectoryConfigs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappstreamdirectoryconfigs.DataAwsccAppstreamDirectoryConfigs_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppstreamDirectoryConfigs.DataAwsccAppstreamDirectoryConfigs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamdirectoryconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamdirectoryconfigs"
 
 dataawsccappstreamdirectoryconfigs.DataAwsccAppstreamDirectoryConfigs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappstreamdirectoryconfigs.DataAwsccAppstreamDirectoryConfigs_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppstreamDirectoryConfigs.DataAwsccAppstreamDirectoryConfigs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamdirectoryconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamdirectoryconfigs"
 
 dataawsccappstreamdirectoryconfigs.DataAwsccAppstreamDirectoryConfigs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppstreamDirector
 
 The id of the existing DataAwsccAppstreamDirectoryConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_directory_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_directory_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamDirectoryConfigs.DataAwsccAppstreamDirectoryConfigsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamdirectoryconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamdirectoryconfigs"
 
 &dataawsccappstreamdirectoryconfigs.DataAwsccAppstreamDirectoryConfigsConfig {
 	Connection: interface{},

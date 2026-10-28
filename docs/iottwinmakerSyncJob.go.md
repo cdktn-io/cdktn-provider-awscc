@@ -4,12 +4,12 @@
 
 ### IottwinmakerSyncJob <a name="IottwinmakerSyncJob" id="@cdktn/provider-awscc.iottwinmakerSyncJob.IottwinmakerSyncJob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iottwinmakerSyncJob.IottwinmakerSyncJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakersyncjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakersyncjob"
 
 iottwinmakersyncjob.NewIottwinmakerSyncJob(scope Construct, id *string, config IottwinmakerSyncJobConfig) IottwinmakerSyncJob
 ```
@@ -407,7 +407,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iottwinmakerSyncJob.IottwinmakerSyncJob.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakersyncjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakersyncjob"
 
 iottwinmakersyncjob.IottwinmakerSyncJob_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iottwinmakerSyncJob.IottwinmakerSyncJob.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakersyncjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakersyncjob"
 
 iottwinmakersyncjob.IottwinmakerSyncJob_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ iottwinmakersyncjob.IottwinmakerSyncJob_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iottwinmakerSyncJob.IottwinmakerSyncJob.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakersyncjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakersyncjob"
 
 iottwinmakersyncjob.IottwinmakerSyncJob_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ iottwinmakersyncjob.IottwinmakerSyncJob_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iottwinmakerSyncJob.IottwinmakerSyncJob.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakersyncjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakersyncjob"
 
 iottwinmakersyncjob.IottwinmakerSyncJob_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the IottwinmakerSyncJob to imp
 
 The id of the existing IottwinmakerSyncJob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_sync_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_sync_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -839,7 +839,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iottwinmakerSyncJob.IottwinmakerSyncJobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakersyncjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakersyncjob"
 
 &iottwinmakersyncjob.IottwinmakerSyncJobConfig {
 	Connection: interface{},
@@ -954,7 +954,7 @@ SyncRole *string
 
 The IAM Role that execute SyncJob.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_sync_job#sync_role IottwinmakerSyncJob#sync_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_sync_job#sync_role IottwinmakerSyncJob#sync_role}
 
 ---
 
@@ -968,7 +968,7 @@ SyncSource *string
 
 The source of the SyncJob.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_sync_job#sync_source IottwinmakerSyncJob#sync_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_sync_job#sync_source IottwinmakerSyncJob#sync_source}
 
 ---
 
@@ -982,7 +982,7 @@ WorkspaceId *string
 
 The ID of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_sync_job#workspace_id IottwinmakerSyncJob#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_sync_job#workspace_id IottwinmakerSyncJob#workspace_id}
 
 ---
 
@@ -996,7 +996,7 @@ Tags *map[string]*string
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_sync_job#tags IottwinmakerSyncJob#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_sync_job#tags IottwinmakerSyncJob#tags}
 
 ---
 

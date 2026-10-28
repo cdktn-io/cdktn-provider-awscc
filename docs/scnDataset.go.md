@@ -4,12 +4,12 @@
 
 ### ScnDataset <a name="ScnDataset" id="@cdktn/provider-awscc.scnDataset.ScnDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset awscc_scn_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset awscc_scn_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDataset(scope Construct, id *string, config ScnDatasetConfig) ScnDataset
 ```
@@ -467,7 +467,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.scnDataset.ScnDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.ScnDataset_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.scnDataset.ScnDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.ScnDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ scndataset.ScnDataset_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.scnDataset.ScnDataset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.ScnDataset_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ scndataset.ScnDataset_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.scnDataset.ScnDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.ScnDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the ScnDataset to import.
 
 The id of the existing ScnDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataset.ScnDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 &scndataset.ScnDatasetConfig {
 	Connection: interface{},
@@ -968,8 +968,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
 	Name: *string,
 	Namespace: *string,
 	Description: *string,
-	PartitionSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataset.ScnDatasetPartitionSpec,
-	Schema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataset.ScnDatasetSchema,
+	PartitionSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataset.ScnDatasetPartitionSpec,
+	Schema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataset.ScnDatasetSchema,
 	Tags: interface{},
 }
 ```
@@ -1075,7 +1075,7 @@ InstanceId *string
 
 The Amazon Web Services Supply Chain instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#instance_id ScnDataset#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#instance_id ScnDataset#instance_id}
 
 ---
 
@@ -1089,7 +1089,7 @@ Name *string
 
 The name of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#name ScnDataset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#name ScnDataset#name}
 
 ---
 
@@ -1103,7 +1103,7 @@ Namespace *string
 
 The namespace of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#namespace ScnDataset#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#namespace ScnDataset#namespace}
 
 ---
 
@@ -1117,7 +1117,7 @@ Description *string
 
 The description of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#description ScnDataset#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#description ScnDataset#description}
 
 ---
 
@@ -1131,7 +1131,7 @@ PartitionSpec ScnDatasetPartitionSpec
 
 The partition specification of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#partition_spec ScnDataset#partition_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#partition_spec ScnDataset#partition_spec}
 
 ---
 
@@ -1145,7 +1145,7 @@ Schema ScnDatasetSchema
 
 The schema of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#schema ScnDataset#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#schema ScnDataset#schema}
 
 ---
 
@@ -1159,7 +1159,7 @@ Tags interface{}
 
 The tags for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#tags ScnDataset#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#tags ScnDataset#tags}
 
 ---
 
@@ -1168,7 +1168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataset.ScnDatasetPartitionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 &scndataset.ScnDatasetPartitionSpec {
 	Fields: interface{},
@@ -1193,7 +1193,7 @@ Fields interface{}
 
 The partition fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#fields ScnDataset#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#fields ScnDataset#fields}
 
 ---
 
@@ -1202,11 +1202,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataset.ScnDatasetPartitionSpecFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 &scndataset.ScnDatasetPartitionSpecFields {
 	Name: *string,
-	Transform: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataset.ScnDatasetPartitionSpecFieldsTransform,
+	Transform: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataset.ScnDatasetPartitionSpecFieldsTransform,
 }
 ```
 
@@ -1229,7 +1229,7 @@ Name *string
 
 The name of the partition field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#name ScnDataset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#name ScnDataset#name}
 
 ---
 
@@ -1243,7 +1243,7 @@ Transform ScnDatasetPartitionSpecFieldsTransform
 
 The transformation of the partition field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#transform ScnDataset#transform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#transform ScnDataset#transform}
 
 ---
 
@@ -1252,7 +1252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataset.ScnDatasetPartitionSpecFieldsTransform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 &scndataset.ScnDatasetPartitionSpecFieldsTransform {
 	Type: *string,
@@ -1277,7 +1277,7 @@ Type *string
 
 The type of partitioning transformation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#type ScnDataset#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#type ScnDataset#type}
 
 ---
 
@@ -1286,7 +1286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataset.ScnDatasetSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 &scndataset.ScnDatasetSchema {
 	Fields: interface{},
@@ -1315,7 +1315,7 @@ Fields interface{}
 
 The list of field details of the dataset schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#fields ScnDataset#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#fields ScnDataset#fields}
 
 ---
 
@@ -1329,7 +1329,7 @@ Name *string
 
 The name of the dataset schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#name ScnDataset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#name ScnDataset#name}
 
 ---
 
@@ -1343,7 +1343,7 @@ PrimaryKeys interface{}
 
 The list of primary key fields for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#primary_keys ScnDataset#primary_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#primary_keys ScnDataset#primary_keys}
 
 ---
 
@@ -1352,7 +1352,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataset.ScnDatasetSchemaFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 &scndataset.ScnDatasetSchemaFields {
 	IsRequired: interface{},
@@ -1381,7 +1381,7 @@ IsRequired interface{}
 
 Indicate if the field is required or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#is_required ScnDataset#is_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#is_required ScnDataset#is_required}
 
 ---
 
@@ -1395,7 +1395,7 @@ Name *string
 
 The dataset field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#name ScnDataset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#name ScnDataset#name}
 
 ---
 
@@ -1409,7 +1409,7 @@ Type *string
 
 The dataset field type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#type ScnDataset#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#type ScnDataset#type}
 
 ---
 
@@ -1418,7 +1418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataset.ScnDatasetSchemaPrimaryKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 &scndataset.ScnDatasetSchemaPrimaryKeys {
 	Name: *string,
@@ -1443,7 +1443,7 @@ Name *string
 
 The name of the primary key field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#name ScnDataset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#name ScnDataset#name}
 
 ---
 
@@ -1452,7 +1452,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataset.ScnDatasetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 &scndataset.ScnDatasetTags {
 	Key: *string,
@@ -1479,7 +1479,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#key ScnDataset#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#key ScnDataset#key}
 
 ---
 
@@ -1493,7 +1493,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset#value ScnDataset#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset#value ScnDataset#value}
 
 ---
 
@@ -1504,7 +1504,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDatasetPartitionSpecFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDatasetPartitionSpecFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ScnDatasetPartitionSpecFieldsList
 ```
@@ -1664,7 +1664,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDatasetPartitionSpecFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDatasetPartitionSpecFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ScnDatasetPartitionSpecFieldsOutputReference
 ```
@@ -2002,7 +2002,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDatasetPartitionSpecFieldsTransformOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDatasetPartitionSpecFieldsTransformOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDatasetPartitionSpecFieldsTransformOutputReference
 ```
@@ -2280,7 +2280,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDatasetPartitionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDatasetPartitionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDatasetPartitionSpecOutputReference
 ```
@@ -2571,7 +2571,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDatasetSchemaFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDatasetSchemaFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ScnDatasetSchemaFieldsList
 ```
@@ -2731,7 +2731,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDatasetSchemaFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDatasetSchemaFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ScnDatasetSchemaFieldsOutputReference
 ```
@@ -3085,7 +3085,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDatasetSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDatasetSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDatasetSchemaOutputReference
 ```
@@ -3447,7 +3447,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDatasetSchemaPrimaryKeysList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDatasetSchemaPrimaryKeysList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ScnDatasetSchemaPrimaryKeysList
 ```
@@ -3607,7 +3607,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDatasetSchemaPrimaryKeysOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDatasetSchemaPrimaryKeysOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ScnDatasetSchemaPrimaryKeysOutputReference
 ```
@@ -3903,7 +3903,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDatasetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDatasetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ScnDatasetTagsList
 ```
@@ -4063,7 +4063,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataset.ScnDatasetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset"
 
 scndataset.NewScnDatasetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ScnDatasetTagsOutputReference
 ```

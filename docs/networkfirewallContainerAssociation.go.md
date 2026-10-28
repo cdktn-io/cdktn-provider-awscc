@@ -4,12 +4,12 @@
 
 ### NetworkfirewallContainerAssociation <a name="NetworkfirewallContainerAssociation" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association awscc_networkfirewall_container_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association awscc_networkfirewall_container_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 networkfirewallcontainerassociation.NewNetworkfirewallContainerAssociation(scope Construct, id *string, config NetworkfirewallContainerAssociationConfig) NetworkfirewallContainerAssociation
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 networkfirewallcontainerassociation.NetworkfirewallContainerAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 networkfirewallcontainerassociation.NetworkfirewallContainerAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ networkfirewallcontainerassociation.NetworkfirewallContainerAssociation_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 networkfirewallcontainerassociation.NetworkfirewallContainerAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ networkfirewallcontainerassociation.NetworkfirewallContainerAssociation_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 networkfirewallcontainerassociation.NetworkfirewallContainerAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the NetworkfirewallContainerAs
 
 The id of the existing NetworkfirewallContainerAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -883,7 +883,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 &networkfirewallcontainerassociation.NetworkfirewallContainerAssociationConfig {
 	Connection: interface{},
@@ -1002,7 +1002,7 @@ The descriptive name of the container association.
 
 You can't change the name of a container association after you create it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#container_association_name NetworkfirewallContainerAssociation#container_association_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#container_association_name NetworkfirewallContainerAssociation#container_association_name}
 
 ---
 
@@ -1018,7 +1018,7 @@ The monitoring configurations for the container association.
 
 Each configuration specifies an Amazon ECS or Amazon EKS cluster to monitor and optional attribute filters to narrow which containers are tracked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#container_monitoring_configurations NetworkfirewallContainerAssociation#container_monitoring_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#container_monitoring_configurations NetworkfirewallContainerAssociation#container_monitoring_configurations}
 
 ---
 
@@ -1032,7 +1032,7 @@ Type *string
 
 The type of containers to monitor. You can't change the container type after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#type NetworkfirewallContainerAssociation#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#type NetworkfirewallContainerAssociation#type}
 
 ---
 
@@ -1046,7 +1046,7 @@ Description *string
 
 A description of the container association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#description NetworkfirewallContainerAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#description NetworkfirewallContainerAssociation#description}
 
 ---
 
@@ -1060,7 +1060,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#tags NetworkfirewallContainerAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#tags NetworkfirewallContainerAssociation#tags}
 
 ---
 
@@ -1069,7 +1069,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationContainerMonitoringConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 &networkfirewallcontainerassociation.NetworkfirewallContainerAssociationContainerMonitoringConfigurations {
 	ClusterArn: *string,
@@ -1098,7 +1098,7 @@ The ARN of the Amazon ECS or Amazon EKS cluster to monitor.
 
 The cluster must be in the same Region and account as the container association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#cluster_arn NetworkfirewallContainerAssociation#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#cluster_arn NetworkfirewallContainerAssociation#cluster_arn}
 
 ---
 
@@ -1114,7 +1114,7 @@ Key-value pairs that filter which containers are tracked.
 
 For Amazon EKS, you can filter by namespace and Kubernetes labels. For Amazon ECS, you can filter by container instance attributes (EC2 launch type only).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#attribute_filters NetworkfirewallContainerAssociation#attribute_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#attribute_filters NetworkfirewallContainerAssociation#attribute_filters}
 
 ---
 
@@ -1123,7 +1123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 &networkfirewallcontainerassociation.NetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFilters {
 	Key: *string,
@@ -1150,7 +1150,7 @@ Key *string
 
 The attribute key to filter on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#key NetworkfirewallContainerAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#key NetworkfirewallContainerAssociation#key}
 
 ---
 
@@ -1164,7 +1164,7 @@ Value *string
 
 The attribute value to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#value NetworkfirewallContainerAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#value NetworkfirewallContainerAssociation#value}
 
 ---
 
@@ -1173,7 +1173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 &networkfirewallcontainerassociation.NetworkfirewallContainerAssociationTags {
 	Key: *string,
@@ -1200,7 +1200,7 @@ Key *string
 
 The part of the key:value pair that defines a tag. Tag keys are case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#key NetworkfirewallContainerAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#key NetworkfirewallContainerAssociation#key}
 
 ---
 
@@ -1214,7 +1214,7 @@ Value *string
 
 The part of the key:value pair that defines a tag. Tag values are case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_container_association#value NetworkfirewallContainerAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_container_association#value NetworkfirewallContainerAssociation#value}
 
 ---
 
@@ -1225,7 +1225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 networkfirewallcontainerassociation.NewNetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersList
 ```
@@ -1385,7 +1385,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 networkfirewallcontainerassociation.NewNetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersOutputReference
 ```
@@ -1710,7 +1710,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationContainerMonitoringConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 networkfirewallcontainerassociation.NewNetworkfirewallContainerAssociationContainerMonitoringConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkfirewallContainerAssociationContainerMonitoringConfigurationsList
 ```
@@ -1870,7 +1870,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationContainerMonitoringConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 networkfirewallcontainerassociation.NewNetworkfirewallContainerAssociationContainerMonitoringConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkfirewallContainerAssociationContainerMonitoringConfigurationsOutputReference
 ```
@@ -2201,7 +2201,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 networkfirewallcontainerassociation.NewNetworkfirewallContainerAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkfirewallContainerAssociationTagsList
 ```
@@ -2361,7 +2361,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallcontainerassociation"
 
 networkfirewallcontainerassociation.NewNetworkfirewallContainerAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkfirewallContainerAssociationTagsOutputReference
 ```

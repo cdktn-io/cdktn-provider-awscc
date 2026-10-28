@@ -4,12 +4,12 @@
 
 ### DataAwsccAmplifyApps <a name="DataAwsccAmplifyApps" id="@cdktn/provider-awscc.dataAwsccAmplifyApps.DataAwsccAmplifyApps"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_apps awscc_amplify_apps}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_apps awscc_amplify_apps}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApps.DataAwsccAmplifyApps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapps"
 
 dataawsccamplifyapps.NewDataAwsccAmplifyApps(scope Construct, id *string, config DataAwsccAmplifyAppsConfig) DataAwsccAmplifyApps
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAmplifyApps.DataAwsccAmplifyApps.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapps"
 
 dataawsccamplifyapps.DataAwsccAmplifyApps_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAmplifyApps.DataAwsccAmplifyApps.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapps"
 
 dataawsccamplifyapps.DataAwsccAmplifyApps_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccamplifyapps.DataAwsccAmplifyApps_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAmplifyApps.DataAwsccAmplifyApps.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapps"
 
 dataawsccamplifyapps.DataAwsccAmplifyApps_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccamplifyapps.DataAwsccAmplifyApps_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAmplifyApps.DataAwsccAmplifyApps.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapps"
 
 dataawsccamplifyapps.DataAwsccAmplifyApps_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAmplifyApps to im
 
 The id of the existing DataAwsccAmplifyApps that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_apps#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_apps#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyApps.DataAwsccAmplifyAppsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapps"
 
 &dataawsccamplifyapps.DataAwsccAmplifyAppsConfig {
 	Connection: interface{},

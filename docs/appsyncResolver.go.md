@@ -4,12 +4,12 @@
 
 ### AppsyncResolver <a name="AppsyncResolver" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolver"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver awscc_appsync_resolver}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver awscc_appsync_resolver}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolver.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 appsyncresolver.NewAppsyncResolver(scope Construct, id *string, config AppsyncResolverConfig) AppsyncResolver
 ```
@@ -550,7 +550,7 @@ func ResetSyncConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolver.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 appsyncresolver.AppsyncResolver_IsConstruct(x interface{}) *bool
 ```
@@ -582,7 +582,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolver.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 appsyncresolver.AppsyncResolver_IsTerraformElement(x interface{}) *bool
 ```
@@ -596,7 +596,7 @@ appsyncresolver.AppsyncResolver_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolver.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 appsyncresolver.AppsyncResolver_IsTerraformResource(x interface{}) *bool
 ```
@@ -610,7 +610,7 @@ appsyncresolver.AppsyncResolver_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolver.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 appsyncresolver.AppsyncResolver_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -639,7 +639,7 @@ The construct id used in the generated config for the AppsyncResolver to import.
 
 The id of the existing AppsyncResolver that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1235,7 +1235,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolverCachingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 &appsyncresolver.AppsyncResolverCachingConfig {
 	CachingKeys: *[]*string,
@@ -1264,7 +1264,7 @@ The caching keys for a resolver that has caching activated.
 
 Valid values are entries from the `$context.arguments`, `$context.source`, and `$context.identity` maps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#caching_keys AppsyncResolver#caching_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#caching_keys AppsyncResolver#caching_keys}
 
 ---
 
@@ -1278,7 +1278,7 @@ Ttl *f64
 
 The TTL in seconds for a resolver that has caching activated.  Valid values are 1?3,600 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#ttl AppsyncResolver#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#ttl AppsyncResolver#ttl}
 
 ---
 
@@ -1287,7 +1287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolverConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 &appsyncresolver.AppsyncResolverConfig {
 	Connection: interface{},
@@ -1300,20 +1300,20 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
 	ApiId: *string,
 	FieldName: *string,
 	TypeName: *string,
-	CachingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appsyncResolver.AppsyncResolverCachingConfig,
+	CachingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appsyncResolver.AppsyncResolverCachingConfig,
 	Code: *string,
 	CodeS3Location: *string,
 	DataSourceName: *string,
 	Kind: *string,
 	MaxBatchSize: *f64,
 	MetricsConfig: *string,
-	PipelineConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appsyncResolver.AppsyncResolverPipelineConfig,
+	PipelineConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appsyncResolver.AppsyncResolverPipelineConfig,
 	RequestMappingTemplate: *string,
 	RequestMappingTemplateS3Location: *string,
 	ResponseMappingTemplate: *string,
 	ResponseMappingTemplateS3Location: *string,
-	Runtime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appsyncResolver.AppsyncResolverRuntime,
-	SyncConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appsyncResolver.AppsyncResolverSyncConfig,
+	Runtime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appsyncResolver.AppsyncResolverRuntime,
+	SyncConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appsyncResolver.AppsyncResolverSyncConfig,
 }
 ```
 
@@ -1428,7 +1428,7 @@ ApiId *string
 
 The APSYlong GraphQL API to which you want to attach this resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#api_id AppsyncResolver#api_id}
 
 ---
 
@@ -1442,7 +1442,7 @@ FieldName *string
 
 The GraphQL field on a type that invokes the resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#field_name AppsyncResolver#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#field_name AppsyncResolver#field_name}
 
 ---
 
@@ -1456,7 +1456,7 @@ TypeName *string
 
 The GraphQL type that invokes this resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#type_name AppsyncResolver#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#type_name AppsyncResolver#type_name}
 
 ---
 
@@ -1470,7 +1470,7 @@ CachingConfig AppsyncResolverCachingConfig
 
 The caching configuration for the resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#caching_config AppsyncResolver#caching_config}
 
 ---
 
@@ -1486,7 +1486,7 @@ The ``resolver`` code that contains the request and response functions.
 
 When code is used, the `runtime` is required. The runtime value must be `APPSYNC_JS`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#code AppsyncResolver#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#code AppsyncResolver#code}
 
 ---
 
@@ -1500,7 +1500,7 @@ CodeS3Location *string
 
 The Amazon S3 endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#code_s3_location AppsyncResolver#code_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#code_s3_location AppsyncResolver#code_s3_location}
 
 ---
 
@@ -1514,7 +1514,7 @@ DataSourceName *string
 
 The resolver data source name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#data_source_name AppsyncResolver#data_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#data_source_name AppsyncResolver#data_source_name}
 
 ---
 
@@ -1531,7 +1531,7 @@ The resolver type.
 * *UNIT*: A UNIT resolver type. A UNIT resolver is the default resolver type. You can use a UNIT resolver to run a GraphQL query against a single data source.
 * *PIPELINE*: A PIPELINE resolver type. You can use a PIPELINE resolver to invoke a series of `Function` objects in a serial manner. You can use a pipeline resolver to run a GraphQL query against multiple data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#kind AppsyncResolver#kind}
 
 ---
 
@@ -1545,7 +1545,7 @@ MaxBatchSize *f64
 
 The maximum number of resolver request inputs that will be sent to a single LAMlong function in a ``BatchInvoke`` operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#max_batch_size AppsyncResolver#max_batch_size}
 
 ---
 
@@ -1561,7 +1561,7 @@ Enables or disables enhanced resolver metrics for specified resolvers.
 
 Note that `MetricsConfig` won't be used unless the `resolverLevelMetricsBehavior` value is set to `PER_RESOLVER_METRICS`. If the `resolverLevelMetricsBehavior` is set to `FULL_REQUEST_RESOLVER_METRICS` instead, `MetricsConfig` will be ignored. However, you can still set its value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#metrics_config AppsyncResolver#metrics_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#metrics_config AppsyncResolver#metrics_config}
 
 ---
 
@@ -1575,7 +1575,7 @@ PipelineConfig AppsyncResolverPipelineConfig
 
 Functions linked with the pipeline resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#pipeline_config AppsyncResolver#pipeline_config}
 
 ---
 
@@ -1591,7 +1591,7 @@ The request mapping template.
 
 Request mapping templates are optional when using a Lambda data source. For all other data sources, a request mapping template is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#request_mapping_template AppsyncResolver#request_mapping_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#request_mapping_template AppsyncResolver#request_mapping_template}
 
 ---
 
@@ -1607,7 +1607,7 @@ The location of a request mapping template in an S3 bucket.
 
 Use this if you want to provision with a template file in S3 rather than embedding it in your CFNshort template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#request_mapping_template_s3_location AppsyncResolver#request_mapping_template_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#request_mapping_template_s3_location AppsyncResolver#request_mapping_template_s3_location}
 
 ---
 
@@ -1621,7 +1621,7 @@ ResponseMappingTemplate *string
 
 The response mapping template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#response_mapping_template AppsyncResolver#response_mapping_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#response_mapping_template AppsyncResolver#response_mapping_template}
 
 ---
 
@@ -1637,7 +1637,7 @@ The location of a response mapping template in an S3 bucket.
 
 Use this if you want to provision with a template file in S3 rather than embedding it in your CFNshort template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#response_mapping_template_s3_location AppsyncResolver#response_mapping_template_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#response_mapping_template_s3_location AppsyncResolver#response_mapping_template_s3_location}
 
 ---
 
@@ -1653,7 +1653,7 @@ Describes a runtime used by an APSYlong resolver or APSYlong function.
 
 Specifies the name and version of the runtime to use. Note that if a runtime is specified, code must also be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#runtime AppsyncResolver#runtime}
 
 ---
 
@@ -1667,7 +1667,7 @@ SyncConfig AppsyncResolverSyncConfig
 
 The ``SyncConfig`` for a resolver attached to a versioned data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#sync_config AppsyncResolver#sync_config}
 
 ---
 
@@ -1676,7 +1676,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolverPipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 &appsyncresolver.AppsyncResolverPipelineConfig {
 	Functions: *[]*string,
@@ -1701,7 +1701,7 @@ Functions *[]*string
 
 A list of ``Function`` objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#functions AppsyncResolver#functions}
 
 ---
 
@@ -1710,7 +1710,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolverRuntime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 &appsyncresolver.AppsyncResolverRuntime {
 	Name: *string,
@@ -1737,7 +1737,7 @@ Name *string
 
 The ``name`` of the runtime to use. Currently, the only allowed value is ``APPSYNC_JS``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#name AppsyncResolver#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#name AppsyncResolver#name}
 
 ---
 
@@ -1751,7 +1751,7 @@ RuntimeVersion *string
 
 The ``version`` of the runtime to use. Currently, the only allowed version is ``1.0.0``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#runtime_version AppsyncResolver#runtime_version}
 
 ---
 
@@ -1760,12 +1760,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolverSyncConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 &appsyncresolver.AppsyncResolverSyncConfig {
 	ConflictDetection: *string,
 	ConflictHandler: *string,
-	LambdaConflictHandlerConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appsyncResolver.AppsyncResolverSyncConfigLambdaConflictHandlerConfig,
+	LambdaConflictHandlerConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appsyncResolver.AppsyncResolverSyncConfigLambdaConflictHandlerConfig,
 }
 ```
 
@@ -1792,7 +1792,7 @@ The Conflict Detection strategy to use.
 * *VERSION*: Detect conflicts based on object versions for this resolver.
 * *NONE*: Do not detect conflicts when invoking this resolver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#conflict_detection AppsyncResolver#conflict_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#conflict_detection AppsyncResolver#conflict_detection}
 
 ---
 
@@ -1810,7 +1810,7 @@ The Conflict Resolution strategy to perform in the event of a conflict.
 * *AUTOMERGE*: Resolve conflicts with the Automerge conflict resolution strategy.
 * *LAMBDA*: Resolve conflicts with an LAMlong function supplied in the `LambdaConflictHandlerConfig`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#conflict_handler AppsyncResolver#conflict_handler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#conflict_handler AppsyncResolver#conflict_handler}
 
 ---
 
@@ -1824,7 +1824,7 @@ LambdaConflictHandlerConfig AppsyncResolverSyncConfigLambdaConflictHandlerConfig
 
 The ``LambdaConflictHandlerConfig`` when configuring ``LAMBDA`` as the Conflict Handler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#lambda_conflict_handler_config AppsyncResolver#lambda_conflict_handler_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#lambda_conflict_handler_config AppsyncResolver#lambda_conflict_handler_config}
 
 ---
 
@@ -1833,7 +1833,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolverSyncConfigLambdaConflictHandlerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 &appsyncresolver.AppsyncResolverSyncConfigLambdaConflictHandlerConfig {
 	LambdaConflictHandlerArn: *string,
@@ -1858,7 +1858,7 @@ LambdaConflictHandlerArn *string
 
 The Amazon Resource Name (ARN) for the Lambda function to use as the Conflict Handler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_resolver#lambda_conflict_handler_arn AppsyncResolver#lambda_conflict_handler_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_resolver#lambda_conflict_handler_arn AppsyncResolver#lambda_conflict_handler_arn}
 
 ---
 
@@ -1869,7 +1869,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolverCachingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 appsyncresolver.NewAppsyncResolverCachingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppsyncResolverCachingConfigOutputReference
 ```
@@ -2176,7 +2176,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolverPipelineConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 appsyncresolver.NewAppsyncResolverPipelineConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppsyncResolverPipelineConfigOutputReference
 ```
@@ -2454,7 +2454,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolverRuntimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 appsyncresolver.NewAppsyncResolverRuntimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppsyncResolverRuntimeOutputReference
 ```
@@ -2761,7 +2761,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 appsyncresolver.NewAppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference
 ```
@@ -3039,7 +3039,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncResolver.AppsyncResolverSyncConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncresolver"
 
 appsyncresolver.NewAppsyncResolverSyncConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppsyncResolverSyncConfigOutputReference
 ```

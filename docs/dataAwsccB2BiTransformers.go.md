@@ -4,12 +4,12 @@
 
 ### DataAwsccB2BiTransformers <a name="DataAwsccB2BiTransformers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformers.DataAwsccB2BiTransformers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_transformers awscc_b2bi_transformers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_transformers awscc_b2bi_transformers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformers.DataAwsccB2BiTransformers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformers"
 
 dataawsccb2bitransformers.NewDataAwsccB2BiTransformers(scope Construct, id *string, config DataAwsccB2BiTransformersConfig) DataAwsccB2BiTransformers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccB2BiTransformers.DataAwsccB2BiTransformers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformers"
 
 dataawsccb2bitransformers.DataAwsccB2BiTransformers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccB2BiTransformers.DataAwsccB2BiTransformers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformers"
 
 dataawsccb2bitransformers.DataAwsccB2BiTransformers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccb2bitransformers.DataAwsccB2BiTransformers_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccB2BiTransformers.DataAwsccB2BiTransformers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformers"
 
 dataawsccb2bitransformers.DataAwsccB2BiTransformers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccb2bitransformers.DataAwsccB2BiTransformers_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccB2BiTransformers.DataAwsccB2BiTransformers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformers"
 
 dataawsccb2bitransformers.DataAwsccB2BiTransformers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccB2BiTransformers 
 
 The id of the existing DataAwsccB2BiTransformers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_transformers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_transformers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiTransformers.DataAwsccB2BiTransformersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformers"
 
 &dataawsccb2bitransformers.DataAwsccB2BiTransformersConfig {
 	Connection: interface{},

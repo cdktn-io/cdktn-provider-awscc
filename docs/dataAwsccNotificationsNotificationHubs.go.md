@@ -4,12 +4,12 @@
 
 ### DataAwsccNotificationsNotificationHubs <a name="DataAwsccNotificationsNotificationHubs" id="@cdktn/provider-awscc.dataAwsccNotificationsNotificationHubs.DataAwsccNotificationsNotificationHubs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notifications_notification_hubs awscc_notifications_notification_hubs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notifications_notification_hubs awscc_notifications_notification_hubs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationsNotificationHubs.DataAwsccNotificationsNotificationHubs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsnotificationhubs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsnotificationhubs"
 
 dataawsccnotificationsnotificationhubs.NewDataAwsccNotificationsNotificationHubs(scope Construct, id *string, config DataAwsccNotificationsNotificationHubsConfig) DataAwsccNotificationsNotificationHubs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNotificationsNotificationHubs.DataAwsccNotificationsNotificationHubs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsnotificationhubs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsnotificationhubs"
 
 dataawsccnotificationsnotificationhubs.DataAwsccNotificationsNotificationHubs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNotificationsNotificationHubs.DataAwsccNotificationsNotificationHubs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsnotificationhubs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsnotificationhubs"
 
 dataawsccnotificationsnotificationhubs.DataAwsccNotificationsNotificationHubs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnotificationsnotificationhubs.DataAwsccNotificationsNotificationHubs_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNotificationsNotificationHubs.DataAwsccNotificationsNotificationHubs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsnotificationhubs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsnotificationhubs"
 
 dataawsccnotificationsnotificationhubs.DataAwsccNotificationsNotificationHubs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnotificationsnotificationhubs.DataAwsccNotificationsNotificationHubs_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNotificationsNotificationHubs.DataAwsccNotificationsNotificationHubs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsnotificationhubs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsnotificationhubs"
 
 dataawsccnotificationsnotificationhubs.DataAwsccNotificationsNotificationHubs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNotificationsNoti
 
 The id of the existing DataAwsccNotificationsNotificationHubs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notifications_notification_hubs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notifications_notification_hubs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNotificationsNotificationHubs.DataAwsccNotificationsNotificationHubsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationsnotificationhubs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationsnotificationhubs"
 
 &dataawsccnotificationsnotificationhubs.DataAwsccNotificationsNotificationHubsConfig {
 	Connection: interface{},

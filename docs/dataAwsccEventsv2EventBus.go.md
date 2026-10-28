@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsv2EventBus <a name="DataAwsccEventsv2EventBus" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBus"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_event_bus awscc_eventsv2_event_bus}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_event_bus awscc_eventsv2_event_bus}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 dataawscceventsv2eventbus.NewDataAwsccEventsv2EventBus(scope Construct, id *string, config DataAwsccEventsv2EventBusConfig) DataAwsccEventsv2EventBus
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBus.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 dataawscceventsv2eventbus.DataAwsccEventsv2EventBus_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBus.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 dataawscceventsv2eventbus.DataAwsccEventsv2EventBus_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsv2eventbus.DataAwsccEventsv2EventBus_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBus.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 dataawscceventsv2eventbus.DataAwsccEventsv2EventBus_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsv2eventbus.DataAwsccEventsv2EventBus_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBus.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 dataawscceventsv2eventbus.DataAwsccEventsv2EventBus_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsv2EventBus 
 
 The id of the existing DataAwsccEventsv2EventBus that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_event_bus#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_event_bus#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBusConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 &dataawscceventsv2eventbus.DataAwsccEventsv2EventBusConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_event_bus#id DataAwsccEventsv2EventBus#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_event_bus#id DataAwsccEventsv2EventBus#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBusEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 &dataawscceventsv2eventbus.DataAwsccEventsv2EventBusEncryptionConfiguration {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2event
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBusStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 &dataawscceventsv2eventbus.DataAwsccEventsv2EventBusStorageConfiguration {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2event
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBusTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 &dataawscceventsv2eventbus.DataAwsccEventsv2EventBusTags {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2event
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBusEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 dataawscceventsv2eventbus.NewDataAwsccEventsv2EventBusEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsv2EventBusEncryptionConfigurationOutputReference
 ```
@@ -1108,7 +1108,7 @@ func InternalValue() DataAwsccEventsv2EventBusEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBusStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 dataawscceventsv2eventbus.NewDataAwsccEventsv2EventBusStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsv2EventBusStorageConfigurationOutputReference
 ```
@@ -1368,7 +1368,7 @@ func InternalValue() DataAwsccEventsv2EventBusStorageConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBusTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 dataawscceventsv2eventbus.NewDataAwsccEventsv2EventBusTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsv2EventBusTagsList
 ```
@@ -1517,7 +1517,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventBus.DataAwsccEventsv2EventBusTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2eventbus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2eventbus"
 
 dataawscceventsv2eventbus.NewDataAwsccEventsv2EventBusTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsv2EventBusTagsOutputReference
 ```

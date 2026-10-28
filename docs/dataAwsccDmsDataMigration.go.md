@@ -4,12 +4,12 @@
 
 ### DataAwsccDmsDataMigration <a name="DataAwsccDmsDataMigration" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_migration awscc_dms_data_migration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_migration awscc_dms_data_migration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 dataawsccdmsdatamigration.NewDataAwsccDmsDataMigration(scope Construct, id *string, config DataAwsccDmsDataMigrationConfig) DataAwsccDmsDataMigration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 dataawsccdmsdatamigration.DataAwsccDmsDataMigration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 dataawsccdmsdatamigration.DataAwsccDmsDataMigration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdmsdatamigration.DataAwsccDmsDataMigration_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 dataawsccdmsdatamigration.DataAwsccDmsDataMigration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdmsdatamigration.DataAwsccDmsDataMigration_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 dataawsccdmsdatamigration.DataAwsccDmsDataMigration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDmsDataMigration 
 
 The id of the existing DataAwsccDmsDataMigration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_migration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_migration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 &dataawsccdmsdatamigration.DataAwsccDmsDataMigrationConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_migration#id DataAwsccDmsDataMigration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_migration#id DataAwsccDmsDataMigration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigrationDataMigrationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 &dataawsccdmsdatamigration.DataAwsccDmsDataMigrationDataMigrationSettings {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigrat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigrationSourceDataSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 &dataawsccdmsdatamigration.DataAwsccDmsDataMigrationSourceDataSettings {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigrat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigrationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 &dataawsccdmsdatamigration.DataAwsccDmsDataMigrationTags {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigrat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigrationDataMigrationSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 dataawsccdmsdatamigration.NewDataAwsccDmsDataMigrationDataMigrationSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDmsDataMigrationDataMigrationSettingsOutputReference
 ```
@@ -1141,7 +1141,7 @@ func InternalValue() DataAwsccDmsDataMigrationDataMigrationSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigrationSourceDataSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 dataawsccdmsdatamigration.NewDataAwsccDmsDataMigrationSourceDataSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDmsDataMigrationSourceDataSettingsList
 ```
@@ -1290,7 +1290,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigrationSourceDataSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 dataawsccdmsdatamigration.NewDataAwsccDmsDataMigrationSourceDataSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDmsDataMigrationSourceDataSettingsOutputReference
 ```
@@ -1601,7 +1601,7 @@ func InternalValue() DataAwsccDmsDataMigrationSourceDataSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigrationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 dataawsccdmsdatamigration.NewDataAwsccDmsDataMigrationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDmsDataMigrationTagsList
 ```
@@ -1750,7 +1750,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsDataMigration.DataAwsccDmsDataMigrationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration"
 
 dataawsccdmsdatamigration.NewDataAwsccDmsDataMigrationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDmsDataMigrationTagsOutputReference
 ```

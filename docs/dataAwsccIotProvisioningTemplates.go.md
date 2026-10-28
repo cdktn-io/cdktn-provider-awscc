@@ -4,12 +4,12 @@
 
 ### DataAwsccIotProvisioningTemplates <a name="DataAwsccIotProvisioningTemplates" id="@cdktn/provider-awscc.dataAwsccIotProvisioningTemplates.DataAwsccIotProvisioningTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_provisioning_templates awscc_iot_provisioning_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_provisioning_templates awscc_iot_provisioning_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotProvisioningTemplates.DataAwsccIotProvisioningTemplates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotprovisioningtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotprovisioningtemplates"
 
 dataawscciotprovisioningtemplates.NewDataAwsccIotProvisioningTemplates(scope Construct, id *string, config DataAwsccIotProvisioningTemplatesConfig) DataAwsccIotProvisioningTemplates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotProvisioningTemplates.DataAwsccIotProvisioningTemplates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotprovisioningtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotprovisioningtemplates"
 
 dataawscciotprovisioningtemplates.DataAwsccIotProvisioningTemplates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotProvisioningTemplates.DataAwsccIotProvisioningTemplates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotprovisioningtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotprovisioningtemplates"
 
 dataawscciotprovisioningtemplates.DataAwsccIotProvisioningTemplates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotprovisioningtemplates.DataAwsccIotProvisioningTemplates_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotProvisioningTemplates.DataAwsccIotProvisioningTemplates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotprovisioningtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotprovisioningtemplates"
 
 dataawscciotprovisioningtemplates.DataAwsccIotProvisioningTemplates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotprovisioningtemplates.DataAwsccIotProvisioningTemplates_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotProvisioningTemplates.DataAwsccIotProvisioningTemplates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotprovisioningtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotprovisioningtemplates"
 
 dataawscciotprovisioningtemplates.DataAwsccIotProvisioningTemplates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotProvisioningTe
 
 The id of the existing DataAwsccIotProvisioningTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_provisioning_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_provisioning_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotProvisioningTemplates.DataAwsccIotProvisioningTemplatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotprovisioningtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotprovisioningtemplates"
 
 &dataawscciotprovisioningtemplates.DataAwsccIotProvisioningTemplatesConfig {
 	Connection: interface{},

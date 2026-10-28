@@ -4,12 +4,12 @@
 
 ### DataAwsccEksAccessEntry <a name="DataAwsccEksAccessEntry" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntry"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_access_entry awscc_eks_access_entry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_access_entry awscc_eks_access_entry}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 dataawscceksaccessentry.NewDataAwsccEksAccessEntry(scope Construct, id *string, config DataAwsccEksAccessEntryConfig) DataAwsccEksAccessEntry
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntry.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 dataawscceksaccessentry.DataAwsccEksAccessEntry_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntry.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 dataawscceksaccessentry.DataAwsccEksAccessEntry_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceksaccessentry.DataAwsccEksAccessEntry_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntry.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 dataawscceksaccessentry.DataAwsccEksAccessEntry_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceksaccessentry.DataAwsccEksAccessEntry_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntry.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 dataawscceksaccessentry.DataAwsccEksAccessEntry_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEksAccessEntry to
 
 The id of the existing DataAwsccEksAccessEntry that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_access_entry#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_access_entry#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntryAccessPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 &dataawscceksaccessentry.DataAwsccEksAccessEntryAccessPolicies {
 
@@ -688,7 +688,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntryAccessPoliciesAccessScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 &dataawscceksaccessentry.DataAwsccEksAccessEntryAccessPoliciesAccessScope {
 
@@ -701,7 +701,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 &dataawscceksaccessentry.DataAwsccEksAccessEntryConfig {
 	Connection: interface{},
@@ -810,7 +810,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_access_entry#id DataAwsccEksAccessEntry#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_access_entry#id DataAwsccEksAccessEntry#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -822,7 +822,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 &dataawscceksaccessentry.DataAwsccEksAccessEntryTags {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntryAccessPoliciesAccessScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 dataawscceksaccessentry.NewDataAwsccEksAccessEntryAccessPoliciesAccessScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEksAccessEntryAccessPoliciesAccessScopeOutputReference
 ```
@@ -1108,7 +1108,7 @@ func InternalValue() DataAwsccEksAccessEntryAccessPoliciesAccessScope
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntryAccessPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 dataawscceksaccessentry.NewDataAwsccEksAccessEntryAccessPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEksAccessEntryAccessPoliciesList
 ```
@@ -1257,7 +1257,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntryAccessPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 dataawscceksaccessentry.NewDataAwsccEksAccessEntryAccessPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEksAccessEntryAccessPoliciesOutputReference
 ```
@@ -1546,7 +1546,7 @@ func InternalValue() DataAwsccEksAccessEntryAccessPolicies
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 dataawscceksaccessentry.NewDataAwsccEksAccessEntryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEksAccessEntryTagsList
 ```
@@ -1695,7 +1695,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAccessEntry.DataAwsccEksAccessEntryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry"
 
 dataawscceksaccessentry.NewDataAwsccEksAccessEntryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEksAccessEntryTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccCasesLayout <a name="DataAwsccCasesLayout" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayout"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_layout awscc_cases_layout}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_layout awscc_cases_layout}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayout(scope Construct, id *string, config DataAwsccCasesLayoutConfig) DataAwsccCasesLayout
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayout.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.DataAwsccCasesLayout_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayout.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.DataAwsccCasesLayout_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccaseslayout.DataAwsccCasesLayout_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayout.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.DataAwsccCasesLayout_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccaseslayout.DataAwsccCasesLayout_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayout.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.DataAwsccCasesLayout_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCasesLayout to im
 
 The id of the existing DataAwsccCasesLayout that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_layout#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_layout#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_layout#id DataAwsccCasesLayout#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_layout#id DataAwsccCasesLayout#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutContent {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutContentBasic {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicMoreInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutContentBasicMoreInfo {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicMoreInfoSections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutContentBasicMoreInfoSections {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroup {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupFields {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicTopPanel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutContentBasicTopPanel {
 
@@ -887,7 +887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicTopPanelSections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutContentBasicTopPanelSections {
 
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroup {
 
@@ -913,7 +913,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupFields {
 
@@ -926,7 +926,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 &dataawscccaseslayout.DataAwsccCasesLayoutTags {
 
@@ -941,7 +941,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicMoreInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicMoreInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesLayoutContentBasicMoreInfoOutputReference
 ```
@@ -1201,7 +1201,7 @@ func InternalValue() DataAwsccCasesLayoutContentBasicMoreInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsList
 ```
@@ -1350,7 +1350,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsOutputReference
 ```
@@ -1628,7 +1628,7 @@ func InternalValue() DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroupOutputReference
 ```
@@ -1899,7 +1899,7 @@ func InternalValue() DataAwsccCasesLayoutContentBasicMoreInfoSectionsFieldGroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicMoreInfoSectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicMoreInfoSectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesLayoutContentBasicMoreInfoSectionsList
 ```
@@ -2048,7 +2048,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicMoreInfoSectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicMoreInfoSectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesLayoutContentBasicMoreInfoSectionsOutputReference
 ```
@@ -2326,7 +2326,7 @@ func InternalValue() DataAwsccCasesLayoutContentBasicMoreInfoSections
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesLayoutContentBasicOutputReference
 ```
@@ -2597,7 +2597,7 @@ func InternalValue() DataAwsccCasesLayoutContentBasic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicTopPanelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicTopPanelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesLayoutContentBasicTopPanelOutputReference
 ```
@@ -2857,7 +2857,7 @@ func InternalValue() DataAwsccCasesLayoutContentBasicTopPanel
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsList
 ```
@@ -3006,7 +3006,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsOutputReference
 ```
@@ -3284,7 +3284,7 @@ func InternalValue() DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroupOutputReference
 ```
@@ -3555,7 +3555,7 @@ func InternalValue() DataAwsccCasesLayoutContentBasicTopPanelSectionsFieldGroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicTopPanelSectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicTopPanelSectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesLayoutContentBasicTopPanelSectionsList
 ```
@@ -3704,7 +3704,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentBasicTopPanelSectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentBasicTopPanelSectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesLayoutContentBasicTopPanelSectionsOutputReference
 ```
@@ -3982,7 +3982,7 @@ func InternalValue() DataAwsccCasesLayoutContentBasicTopPanelSections
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesLayoutContentOutputReference
 ```
@@ -4242,7 +4242,7 @@ func InternalValue() DataAwsccCasesLayoutContent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesLayoutTagsList
 ```
@@ -4391,7 +4391,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesLayout.DataAwsccCasesLayoutTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccaseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccaseslayout"
 
 dataawscccaseslayout.NewDataAwsccCasesLayoutTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesLayoutTagsOutputReference
 ```

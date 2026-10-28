@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural <a name="DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural awscc_workspacesweb_user_access_logging_settings_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural awscc_workspacesweb_user_access_logging_settings_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettingsplural"
 
 dataawsccworkspaceswebuseraccessloggingsettingsplural.NewDataAwsccWorkspaceswebUserAccessLoggingSettingsPlural(scope Construct, id *string, config DataAwsccWorkspaceswebUserAccessLoggingSettingsPluralConfig) DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettingsplural"
 
 dataawsccworkspaceswebuseraccessloggingsettingsplural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettingsplural"
 
 dataawsccworkspaceswebuseraccessloggingsettingsplural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspaceswebuseraccessloggingsettingsplural.DataAwsccWorkspaceswebUser
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettingsplural"
 
 dataawsccworkspaceswebuseraccessloggingsettingsplural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspaceswebuseraccessloggingsettingsplural.DataAwsccWorkspaceswebUser
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettingsplural"
 
 dataawsccworkspaceswebuseraccessloggingsettingsplural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebUser
 
 The id of the existing DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettingsPlural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPluralConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettingsplural"
 
 &dataawsccworkspaceswebuseraccessloggingsettingsplural.DataAwsccWorkspaceswebUserAccessLoggingSettingsPluralConfig {
 	Connection: interface{},

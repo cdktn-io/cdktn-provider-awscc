@@ -4,12 +4,12 @@
 
 ### SmsvoiceNotifyConfiguration <a name="SmsvoiceNotifyConfiguration" id="@cdktn/provider-awscc.smsvoiceNotifyConfiguration.SmsvoiceNotifyConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceNotifyConfiguration.SmsvoiceNotifyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicenotifyconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicenotifyconfiguration"
 
 smsvoicenotifyconfiguration.NewSmsvoiceNotifyConfiguration(scope Construct, id *string, config SmsvoiceNotifyConfigurationConfig) SmsvoiceNotifyConfiguration
 ```
@@ -448,7 +448,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.smsvoiceNotifyConfiguration.SmsvoiceNotifyConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicenotifyconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicenotifyconfiguration"
 
 smsvoicenotifyconfiguration.SmsvoiceNotifyConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.smsvoiceNotifyConfiguration.SmsvoiceNotifyConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicenotifyconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicenotifyconfiguration"
 
 smsvoicenotifyconfiguration.SmsvoiceNotifyConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ smsvoicenotifyconfiguration.SmsvoiceNotifyConfiguration_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.smsvoiceNotifyConfiguration.SmsvoiceNotifyConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicenotifyconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicenotifyconfiguration"
 
 smsvoicenotifyconfiguration.SmsvoiceNotifyConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ smsvoicenotifyconfiguration.SmsvoiceNotifyConfiguration_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.smsvoiceNotifyConfiguration.SmsvoiceNotifyConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicenotifyconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicenotifyconfiguration"
 
 smsvoicenotifyconfiguration.SmsvoiceNotifyConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the SmsvoiceNotifyConfiguratio
 
 The id of the existing SmsvoiceNotifyConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -990,7 +990,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceNotifyConfiguration.SmsvoiceNotifyConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicenotifyconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicenotifyconfiguration"
 
 &smsvoicenotifyconfiguration.SmsvoiceNotifyConfigurationConfig {
 	Connection: interface{},
@@ -1113,7 +1113,7 @@ DisplayName *string
 
 The display name to associate with the notify configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#display_name SmsvoiceNotifyConfiguration#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration#display_name SmsvoiceNotifyConfiguration#display_name}
 
 ---
 
@@ -1127,7 +1127,7 @@ EnabledChannels *[]*string
 
 An array of channels to enable for the notify configuration. Supported values include SMS and VOICE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#enabled_channels SmsvoiceNotifyConfiguration#enabled_channels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration#enabled_channels SmsvoiceNotifyConfiguration#enabled_channels}
 
 ---
 
@@ -1141,7 +1141,7 @@ UseCase *string
 
 The use case for the notify configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#use_case SmsvoiceNotifyConfiguration#use_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration#use_case SmsvoiceNotifyConfiguration#use_case}
 
 ---
 
@@ -1157,7 +1157,7 @@ The default template identifier to associate with the notify configuration.
 
 If specified, this template is used when sending messages without an explicit template identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#default_template_id SmsvoiceNotifyConfiguration#default_template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration#default_template_id SmsvoiceNotifyConfiguration#default_template_id}
 
 ---
 
@@ -1171,7 +1171,7 @@ DeletionProtectionEnabled interface{}
 
 By default this is set to false. When set to true the notify configuration can't be deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#deletion_protection_enabled SmsvoiceNotifyConfiguration#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration#deletion_protection_enabled SmsvoiceNotifyConfiguration#deletion_protection_enabled}
 
 ---
 
@@ -1185,7 +1185,7 @@ EnabledCountries *[]*string
 
 An array of two-character ISO country codes, in ISO 3166-1 alpha-2 format, that are enabled for the notify configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#enabled_countries SmsvoiceNotifyConfiguration#enabled_countries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration#enabled_countries SmsvoiceNotifyConfiguration#enabled_countries}
 
 ---
 
@@ -1199,7 +1199,7 @@ PoolId *string
 
 The identifier of the pool to associate with the notify configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#pool_id SmsvoiceNotifyConfiguration#pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration#pool_id SmsvoiceNotifyConfiguration#pool_id}
 
 ---
 
@@ -1213,7 +1213,7 @@ Tags interface{}
 
 An array of tags (key and value pairs) associated with the notify configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#tags SmsvoiceNotifyConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration#tags SmsvoiceNotifyConfiguration#tags}
 
 ---
 
@@ -1222,7 +1222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceNotifyConfiguration.SmsvoiceNotifyConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicenotifyconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicenotifyconfiguration"
 
 &smsvoicenotifyconfiguration.SmsvoiceNotifyConfigurationTags {
 	Key: *string,
@@ -1249,7 +1249,7 @@ Key *string
 
 The key identifier, or name, of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#key SmsvoiceNotifyConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration#key SmsvoiceNotifyConfiguration#key}
 
 ---
 
@@ -1263,7 +1263,7 @@ Value *string
 
 The string value associated with the key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#value SmsvoiceNotifyConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration#value SmsvoiceNotifyConfiguration#value}
 
 ---
 
@@ -1274,7 +1274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceNotifyConfiguration.SmsvoiceNotifyConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicenotifyconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicenotifyconfiguration"
 
 smsvoicenotifyconfiguration.NewSmsvoiceNotifyConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoiceNotifyConfigurationTagsList
 ```
@@ -1434,7 +1434,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceNotifyConfiguration.SmsvoiceNotifyConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicenotifyconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicenotifyconfiguration"
 
 smsvoicenotifyconfiguration.NewSmsvoiceNotifyConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoiceNotifyConfigurationTagsOutputReference
 ```

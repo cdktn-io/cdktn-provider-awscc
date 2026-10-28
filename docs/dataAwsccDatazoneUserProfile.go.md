@@ -4,12 +4,12 @@
 
 ### DataAwsccDatazoneUserProfile <a name="DataAwsccDatazoneUserProfile" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_user_profile awscc_datazone_user_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_user_profile awscc_datazone_user_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 dataawsccdatazoneuserprofile.NewDataAwsccDatazoneUserProfile(scope Construct, id *string, config DataAwsccDatazoneUserProfileConfig) DataAwsccDatazoneUserProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 dataawsccdatazoneuserprofile.DataAwsccDatazoneUserProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 dataawsccdatazoneuserprofile.DataAwsccDatazoneUserProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatazoneuserprofile.DataAwsccDatazoneUserProfile_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 dataawsccdatazoneuserprofile.DataAwsccDatazoneUserProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatazoneuserprofile.DataAwsccDatazoneUserProfile_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 dataawsccdatazoneuserprofile.DataAwsccDatazoneUserProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatazoneUserProfi
 
 The id of the existing DataAwsccDatazoneUserProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_user_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_user_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 &dataawsccdatazoneuserprofile.DataAwsccDatazoneUserProfileConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_user_profile#id DataAwsccDatazoneUserProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_user_profile#id DataAwsccDatazoneUserProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfileDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 &dataawsccdatazoneuserprofile.DataAwsccDatazoneUserProfileDetails {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfileDetailsIam.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 &dataawsccdatazoneuserprofile.DataAwsccDatazoneUserProfileDetailsIam {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfileDetailsSso.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 &dataawsccdatazoneuserprofile.DataAwsccDatazoneUserProfileDetailsSso {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfileDetailsIamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 dataawsccdatazoneuserprofile.NewDataAwsccDatazoneUserProfileDetailsIamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazoneUserProfileDetailsIamOutputReference
 ```
@@ -1130,7 +1130,7 @@ func InternalValue() DataAwsccDatazoneUserProfileDetailsIam
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfileDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 dataawsccdatazoneuserprofile.NewDataAwsccDatazoneUserProfileDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazoneUserProfileDetailsOutputReference
 ```
@@ -1401,7 +1401,7 @@ func InternalValue() DataAwsccDatazoneUserProfileDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneUserProfile.DataAwsccDatazoneUserProfileDetailsSsoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneuserprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneuserprofile"
 
 dataawsccdatazoneuserprofile.NewDataAwsccDatazoneUserProfileDetailsSsoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazoneUserProfileDetailsSsoOutputReference
 ```

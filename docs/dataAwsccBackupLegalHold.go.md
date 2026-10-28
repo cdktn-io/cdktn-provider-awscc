@@ -4,12 +4,12 @@
 
 ### DataAwsccBackupLegalHold <a name="DataAwsccBackupLegalHold" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHold"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_legal_hold awscc_backup_legal_hold}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_legal_hold awscc_backup_legal_hold}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 dataawsccbackuplegalhold.NewDataAwsccBackupLegalHold(scope Construct, id *string, config DataAwsccBackupLegalHoldConfig) DataAwsccBackupLegalHold
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHold.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 dataawsccbackuplegalhold.DataAwsccBackupLegalHold_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHold.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 dataawsccbackuplegalhold.DataAwsccBackupLegalHold_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbackuplegalhold.DataAwsccBackupLegalHold_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHold.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 dataawsccbackuplegalhold.DataAwsccBackupLegalHold_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbackuplegalhold.DataAwsccBackupLegalHold_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHold.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 dataawsccbackuplegalhold.DataAwsccBackupLegalHold_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBackupLegalHold t
 
 The id of the existing DataAwsccBackupLegalHold that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_legal_hold#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_legal_hold#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHoldConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 &dataawsccbackuplegalhold.DataAwsccBackupLegalHoldConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_legal_hold#id DataAwsccBackupLegalHold#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_legal_hold#id DataAwsccBackupLegalHold#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHoldRecoveryPointSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 &dataawsccbackuplegalhold.DataAwsccBackupLegalHoldRecoveryPointSelection {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHoldRecoveryPointSelectionDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 &dataawsccbackuplegalhold.DataAwsccBackupLegalHoldRecoveryPointSelectionDateRange {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalho
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHoldTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 &dataawsccbackuplegalhold.DataAwsccBackupLegalHoldTags {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalho
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHoldRecoveryPointSelectionDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 dataawsccbackuplegalhold.NewDataAwsccBackupLegalHoldRecoveryPointSelectionDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBackupLegalHoldRecoveryPointSelectionDateRangeOutputReference
 ```
@@ -1108,7 +1108,7 @@ func InternalValue() DataAwsccBackupLegalHoldRecoveryPointSelectionDateRange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHoldRecoveryPointSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 dataawsccbackuplegalhold.NewDataAwsccBackupLegalHoldRecoveryPointSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBackupLegalHoldRecoveryPointSelectionOutputReference
 ```
@@ -1390,7 +1390,7 @@ func InternalValue() DataAwsccBackupLegalHoldRecoveryPointSelection
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHoldTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 dataawsccbackuplegalhold.NewDataAwsccBackupLegalHoldTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBackupLegalHoldTagsList
 ```
@@ -1539,7 +1539,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupLegalHold.DataAwsccBackupLegalHoldTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplegalhold"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplegalhold"
 
 dataawsccbackuplegalhold.NewDataAwsccBackupLegalHoldTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBackupLegalHoldTagsOutputReference
 ```

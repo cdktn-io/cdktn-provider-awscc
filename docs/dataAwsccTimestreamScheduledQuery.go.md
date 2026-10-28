@@ -4,12 +4,12 @@
 
 ### DataAwsccTimestreamScheduledQuery <a name="DataAwsccTimestreamScheduledQuery" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQuery"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_scheduled_query awscc_timestream_scheduled_query}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_scheduled_query awscc_timestream_scheduled_query}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQuery(scope Construct, id *string, config DataAwsccTimestreamScheduledQueryConfig) DataAwsccTimestreamScheduledQuery
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQuery.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQuery_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQuery.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQuery_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQuery_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQuery.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQuery_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQuery_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQuery.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQuery_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTimestreamSchedul
 
 The id of the existing DataAwsccTimestreamScheduledQuery that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_scheduled_query#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_scheduled_query#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -796,7 +796,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryConfig {
 	Connection: interface{},
@@ -905,7 +905,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_scheduled_query#id DataAwsccTimestreamScheduledQuery#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_scheduled_query#id DataAwsccTimestreamScheduledQuery#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -917,7 +917,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryErrorReportConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryErrorReportConfiguration {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryErrorReportConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryErrorReportConfigurationS3Configuration {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryNotificationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryNotificationConfiguration {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryNotificationConfigurationSnsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryNotificationConfigurationSnsConfiguration {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryScheduleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryScheduleConfiguration {
 
@@ -982,7 +982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryTags {
 
@@ -995,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryTargetConfiguration {
 
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfiguration {
 
@@ -1021,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappings {
 
@@ -1034,7 +1034,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappings {
 
@@ -1047,7 +1047,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappings {
 
@@ -1060,7 +1060,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappings {
 
@@ -1073,7 +1073,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 &dataawscctimestreamscheduledquery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappings {
 
@@ -1088,7 +1088,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamsch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryErrorReportConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryErrorReportConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTimestreamScheduledQueryErrorReportConfigurationOutputReference
 ```
@@ -1348,7 +1348,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryErrorReportConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryErrorReportConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryErrorReportConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTimestreamScheduledQueryErrorReportConfigurationS3ConfigurationOutputReference
 ```
@@ -1630,7 +1630,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryErrorReportConfigurationS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryNotificationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryNotificationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTimestreamScheduledQueryNotificationConfigurationOutputReference
 ```
@@ -1890,7 +1890,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryNotificationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryNotificationConfigurationSnsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryNotificationConfigurationSnsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTimestreamScheduledQueryNotificationConfigurationSnsConfigurationOutputReference
 ```
@@ -2150,7 +2150,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryNotificationConfigurationS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryScheduleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryScheduleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTimestreamScheduledQueryScheduleConfigurationOutputReference
 ```
@@ -2410,7 +2410,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryScheduleConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTimestreamScheduledQueryTagsList
 ```
@@ -2559,7 +2559,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTimestreamScheduledQueryTagsOutputReference
 ```
@@ -2848,7 +2848,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTargetConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTimestreamScheduledQueryTargetConfigurationOutputReference
 ```
@@ -3108,7 +3108,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryTargetConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsList
 ```
@@ -3257,7 +3257,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsOutputReference
 ```
@@ -3546,7 +3546,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryTargetConfigurationTimestr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsList
 ```
@@ -3695,7 +3695,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsList
 ```
@@ -3844,7 +3844,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsOutputReference
 ```
@@ -4144,7 +4144,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryTargetConfigurationTimestr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsOutputReference
 ```
@@ -4466,7 +4466,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryTargetConfigurationTimestr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsList
 ```
@@ -4615,7 +4615,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference
 ```
@@ -4915,7 +4915,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryTargetConfigurationTimestr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsOutputReference
 ```
@@ -5186,7 +5186,7 @@ func InternalValue() DataAwsccTimestreamScheduledQueryTargetConfigurationTimestr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamScheduledQuery.DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamscheduledquery"
 
 dataawscctimestreamscheduledquery.NewDataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference
 ```

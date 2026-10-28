@@ -4,12 +4,12 @@
 
 ### DataAwsccMedialiveNetwork <a name="DataAwsccMedialiveNetwork" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_network awscc_medialive_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_network awscc_medialive_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 dataawsccmedialivenetwork.NewDataAwsccMedialiveNetwork(scope Construct, id *string, config DataAwsccMedialiveNetworkConfig) DataAwsccMedialiveNetwork
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 dataawsccmedialivenetwork.DataAwsccMedialiveNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 dataawsccmedialivenetwork.DataAwsccMedialiveNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmedialivenetwork.DataAwsccMedialiveNetwork_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetwork.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 dataawsccmedialivenetwork.DataAwsccMedialiveNetwork_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmedialivenetwork.DataAwsccMedialiveNetwork_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 dataawsccmedialivenetwork.DataAwsccMedialiveNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMedialiveNetwork 
 
 The id of the existing DataAwsccMedialiveNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 &dataawsccmedialivenetwork.DataAwsccMedialiveNetworkConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_network#id DataAwsccMedialiveNetwork#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_network#id DataAwsccMedialiveNetwork#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetworkIpPools.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 &dataawsccmedialivenetwork.DataAwsccMedialiveNetworkIpPools {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetw
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetworkRoutes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 &dataawsccmedialivenetwork.DataAwsccMedialiveNetworkRoutes {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetw
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 &dataawsccmedialivenetwork.DataAwsccMedialiveNetworkTags {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetw
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetworkIpPoolsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 dataawsccmedialivenetwork.NewDataAwsccMedialiveNetworkIpPoolsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMedialiveNetworkIpPoolsList
 ```
@@ -986,7 +986,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetworkIpPoolsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 dataawsccmedialivenetwork.NewDataAwsccMedialiveNetworkIpPoolsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMedialiveNetworkIpPoolsOutputReference
 ```
@@ -1264,7 +1264,7 @@ func InternalValue() DataAwsccMedialiveNetworkIpPools
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetworkRoutesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 dataawsccmedialivenetwork.NewDataAwsccMedialiveNetworkRoutesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMedialiveNetworkRoutesList
 ```
@@ -1413,7 +1413,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetworkRoutesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 dataawsccmedialivenetwork.NewDataAwsccMedialiveNetworkRoutesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMedialiveNetworkRoutesOutputReference
 ```
@@ -1702,7 +1702,7 @@ func InternalValue() DataAwsccMedialiveNetworkRoutes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 dataawsccmedialivenetwork.NewDataAwsccMedialiveNetworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMedialiveNetworkTagsList
 ```
@@ -1851,7 +1851,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveNetwork.DataAwsccMedialiveNetworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivenetwork"
 
 dataawsccmedialivenetwork.NewDataAwsccMedialiveNetworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMedialiveNetworkTagsOutputReference
 ```

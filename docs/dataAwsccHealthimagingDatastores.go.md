@@ -4,12 +4,12 @@
 
 ### DataAwsccHealthimagingDatastores <a name="DataAwsccHealthimagingDatastores" id="@cdktn/provider-awscc.dataAwsccHealthimagingDatastores.DataAwsccHealthimagingDatastores"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthimaging_datastores awscc_healthimaging_datastores}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthimaging_datastores awscc_healthimaging_datastores}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthimagingDatastores.DataAwsccHealthimagingDatastores.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthimagingdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthimagingdatastores"
 
 dataawscchealthimagingdatastores.NewDataAwsccHealthimagingDatastores(scope Construct, id *string, config DataAwsccHealthimagingDatastoresConfig) DataAwsccHealthimagingDatastores
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccHealthimagingDatastores.DataAwsccHealthimagingDatastores.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthimagingdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthimagingdatastores"
 
 dataawscchealthimagingdatastores.DataAwsccHealthimagingDatastores_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccHealthimagingDatastores.DataAwsccHealthimagingDatastores.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthimagingdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthimagingdatastores"
 
 dataawscchealthimagingdatastores.DataAwsccHealthimagingDatastores_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscchealthimagingdatastores.DataAwsccHealthimagingDatastores_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccHealthimagingDatastores.DataAwsccHealthimagingDatastores.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthimagingdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthimagingdatastores"
 
 dataawscchealthimagingdatastores.DataAwsccHealthimagingDatastores_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscchealthimagingdatastores.DataAwsccHealthimagingDatastores_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccHealthimagingDatastores.DataAwsccHealthimagingDatastores.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthimagingdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthimagingdatastores"
 
 dataawscchealthimagingdatastores.DataAwsccHealthimagingDatastores_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccHealthimagingData
 
 The id of the existing DataAwsccHealthimagingDatastores that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthimaging_datastores#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthimaging_datastores#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthimagingDatastores.DataAwsccHealthimagingDatastoresConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthimagingdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthimagingdatastores"
 
 &dataawscchealthimagingdatastores.DataAwsccHealthimagingDatastoresConfig {
 	Connection: interface{},

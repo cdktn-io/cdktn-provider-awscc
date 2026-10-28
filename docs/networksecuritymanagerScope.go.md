@@ -4,12 +4,12 @@
 
 ### NetworksecuritymanagerScope <a name="NetworksecuritymanagerScope" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope awscc_networksecuritymanager_scope}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_scope awscc_networksecuritymanager_scope}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerscope"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerscope"
 
 networksecuritymanagerscope.NewNetworksecuritymanagerScope(scope Construct, id *string, config NetworksecuritymanagerScopeConfig) NetworksecuritymanagerScope
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerscope"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerscope"
 
 networksecuritymanagerscope.NetworksecuritymanagerScope_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerscope"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerscope"
 
 networksecuritymanagerscope.NetworksecuritymanagerScope_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ networksecuritymanagerscope.NetworksecuritymanagerScope_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerscope"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerscope"
 
 networksecuritymanagerscope.NetworksecuritymanagerScope_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ networksecuritymanagerscope.NetworksecuritymanagerScope_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerscope"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerscope"
 
 networksecuritymanagerscope.NetworksecuritymanagerScope_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the NetworksecuritymanagerScop
 
 The id of the existing NetworksecuritymanagerScope that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_scope#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -877,7 +877,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerscope"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerscope"
 
 &networksecuritymanagerscope.NetworksecuritymanagerScopeConfig {
 	Connection: interface{},
@@ -992,7 +992,7 @@ ScopeName *string
 
 The name of the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#scope_name NetworksecuritymanagerScope#scope_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_scope#scope_name NetworksecuritymanagerScope#scope_name}
 
 ---
 
@@ -1006,7 +1006,7 @@ ScopeConfiguration *string
 
 The scope configuration as a JSON string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#scope_configuration NetworksecuritymanagerScope#scope_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_scope#scope_configuration NetworksecuritymanagerScope#scope_configuration}
 
 ---
 
@@ -1020,7 +1020,7 @@ ScopeDescription *string
 
 A description of the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#scope_description NetworksecuritymanagerScope#scope_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_scope#scope_description NetworksecuritymanagerScope#scope_description}
 
 ---
 
@@ -1034,7 +1034,7 @@ Tags interface{}
 
 The tags associated with the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#tags NetworksecuritymanagerScope#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_scope#tags NetworksecuritymanagerScope#tags}
 
 ---
 
@@ -1043,7 +1043,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerscope"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerscope"
 
 &networksecuritymanagerscope.NetworksecuritymanagerScopeTags {
 	Key: *string,
@@ -1055,8 +1055,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanager
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}. |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}. |
 
 ---
 
@@ -1068,7 +1068,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}.
 
 ---
 
@@ -1080,7 +1080,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}.
 
 ---
 
@@ -1091,7 +1091,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerscope"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerscope"
 
 networksecuritymanagerscope.NewNetworksecuritymanagerScopeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworksecuritymanagerScopeTagsList
 ```
@@ -1251,7 +1251,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagerscope"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagerscope"
 
 networksecuritymanagerscope.NewNetworksecuritymanagerScopeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworksecuritymanagerScopeTagsOutputReference
 ```

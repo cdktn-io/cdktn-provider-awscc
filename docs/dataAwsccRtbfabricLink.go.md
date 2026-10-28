@@ -4,12 +4,12 @@
 
 ### DataAwsccRtbfabricLink <a name="DataAwsccRtbfabricLink" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLink"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_link awscc_rtbfabric_link}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_link awscc_rtbfabric_link}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLink(scope Construct, id *string, config DataAwsccRtbfabricLinkConfig) DataAwsccRtbfabricLink
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLink.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.DataAwsccRtbfabricLink_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLink.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.DataAwsccRtbfabricLink_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrtbfabriclink.DataAwsccRtbfabricLink_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLink.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.DataAwsccRtbfabricLink_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrtbfabriclink.DataAwsccRtbfabricLink_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLink.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.DataAwsccRtbfabricLink_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRtbfabricLink to 
 
 The id of the existing DataAwsccRtbfabricLink that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_link#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_link#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_link#id DataAwsccRtbfabricLink#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_link#id DataAwsccRtbfabricLink#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkLinkAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkLinkAttributes {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkLinkAttributesResponderErrorMasking.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkLinkAttributesResponderErrorMasking {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkLinkLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkLinkLogSettings {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkLinkLogSettingsApplicationLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkLinkLogSettingsApplicationLogs {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampling {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParameters {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersNoBid.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersNoBid {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribute {
 
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeAction {
 
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionHeaderTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionHeaderTag {
 
@@ -981,7 +981,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionNoBid.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionNoBid {
 
@@ -994,7 +994,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfiguration {
 
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationCriteria {
 
@@ -1020,7 +1020,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkModuleConfigurationListStruct {
 
@@ -1033,7 +1033,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 &dataawsccrtbfabriclink.DataAwsccRtbfabricLinkTags {
 
@@ -1048,7 +1048,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkLinkAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkLinkAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkLinkAttributesOutputReference
 ```
@@ -1319,7 +1319,7 @@ func InternalValue() DataAwsccRtbfabricLinkLinkAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkLinkAttributesResponderErrorMaskingList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkLinkAttributesResponderErrorMaskingList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRtbfabricLinkLinkAttributesResponderErrorMaskingList
 ```
@@ -1468,7 +1468,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkLinkAttributesResponderErrorMaskingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkLinkAttributesResponderErrorMaskingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRtbfabricLinkLinkAttributesResponderErrorMaskingOutputReference
 ```
@@ -1779,7 +1779,7 @@ func InternalValue() DataAwsccRtbfabricLinkLinkAttributesResponderErrorMasking
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSamplingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSamplingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSamplingOutputReference
 ```
@@ -2050,7 +2050,7 @@ func InternalValue() DataAwsccRtbfabricLinkLinkLogSettingsApplicationLogsLinkApp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkLinkLogSettingsApplicationLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkLinkLogSettingsApplicationLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkLinkLogSettingsApplicationLogsOutputReference
 ```
@@ -2310,7 +2310,7 @@ func InternalValue() DataAwsccRtbfabricLinkLinkLogSettingsApplicationLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkLinkLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkLinkLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkLinkLogSettingsOutputReference
 ```
@@ -2570,7 +2570,7 @@ func InternalValue() DataAwsccRtbfabricLinkLinkLogSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersNoBidOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListModuleParametersNoBidOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersNoBidOutputReference
 ```
@@ -2852,7 +2852,7 @@ func InternalValue() DataAwsccRtbfabricLinkModuleConfigurationListModuleParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionHeaderTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionHeaderTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionHeaderTagOutputReference
 ```
@@ -3123,7 +3123,7 @@ func InternalValue() DataAwsccRtbfabricLinkModuleConfigurationListModuleParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionNoBidOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionNoBidOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionNoBidOutputReference
 ```
@@ -3383,7 +3383,7 @@ func InternalValue() DataAwsccRtbfabricLinkModuleConfigurationListModuleParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionOutputReference
 ```
@@ -3654,7 +3654,7 @@ func InternalValue() DataAwsccRtbfabricLinkModuleConfigurationListModuleParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationCriteriaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationCriteriaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationCriteriaList
 ```
@@ -3803,7 +3803,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationCriteriaOutputReference
 ```
@@ -4092,7 +4092,7 @@ func InternalValue() DataAwsccRtbfabricLinkModuleConfigurationListModuleParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationList
 ```
@@ -4241,7 +4241,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfigurationOutputReference
 ```
@@ -4519,7 +4519,7 @@ func InternalValue() DataAwsccRtbfabricLinkModuleConfigurationListModuleParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeOutputReference
 ```
@@ -4812,7 +4812,7 @@ func InternalValue() DataAwsccRtbfabricLinkModuleConfigurationListModuleParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkModuleConfigurationListModuleParametersOutputReference
 ```
@@ -5083,7 +5083,7 @@ func InternalValue() DataAwsccRtbfabricLinkModuleConfigurationListModuleParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRtbfabricLinkModuleConfigurationListStructList
 ```
@@ -5232,7 +5232,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkModuleConfigurationListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkModuleConfigurationListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRtbfabricLinkModuleConfigurationListStructOutputReference
 ```
@@ -5543,7 +5543,7 @@ func InternalValue() DataAwsccRtbfabricLinkModuleConfigurationListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRtbfabricLinkTagsList
 ```
@@ -5692,7 +5692,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLink.DataAwsccRtbfabricLinkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclink"
 
 dataawsccrtbfabriclink.NewDataAwsccRtbfabricLinkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRtbfabricLinkTagsOutputReference
 ```

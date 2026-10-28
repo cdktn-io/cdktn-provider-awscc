@@ -4,12 +4,12 @@
 
 ### DataAwsccKinesisStream <a name="DataAwsccKinesisStream" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesis_stream awscc_kinesis_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesis_stream awscc_kinesis_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 dataawscckinesisstream.NewDataAwsccKinesisStream(scope Construct, id *string, config DataAwsccKinesisStreamConfig) DataAwsccKinesisStream
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStream.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 dataawscckinesisstream.DataAwsccKinesisStream_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStream.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 dataawscckinesisstream.DataAwsccKinesisStream_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckinesisstream.DataAwsccKinesisStream_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStream.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 dataawscckinesisstream.DataAwsccKinesisStream_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckinesisstream.DataAwsccKinesisStream_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStream.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 dataawscckinesisstream.DataAwsccKinesisStream_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKinesisStream to 
 
 The id of the existing DataAwsccKinesisStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesis_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesis_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStreamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 &dataawscckinesisstream.DataAwsccKinesisStreamConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesis_stream#id DataAwsccKinesisStream#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesis_stream#id DataAwsccKinesisStream#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStreamStreamEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 &dataawscckinesisstream.DataAwsccKinesisStreamStreamEncryption {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStreamStreamModeDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 &dataawscckinesisstream.DataAwsccKinesisStreamStreamModeDetails {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStreamTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 &dataawscckinesisstream.DataAwsccKinesisStreamTags {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStreamWarmThroughputObject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 &dataawscckinesisstream.DataAwsccKinesisStreamWarmThroughputObject {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStreamStreamEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 dataawscckinesisstream.NewDataAwsccKinesisStreamStreamEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisStreamStreamEncryptionOutputReference
 ```
@@ -1165,7 +1165,7 @@ func InternalValue() DataAwsccKinesisStreamStreamEncryption
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStreamStreamModeDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 dataawscckinesisstream.NewDataAwsccKinesisStreamStreamModeDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisStreamStreamModeDetailsOutputReference
 ```
@@ -1425,7 +1425,7 @@ func InternalValue() DataAwsccKinesisStreamStreamModeDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStreamTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 dataawscckinesisstream.NewDataAwsccKinesisStreamTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisStreamTagsList
 ```
@@ -1574,7 +1574,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStreamTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 dataawscckinesisstream.NewDataAwsccKinesisStreamTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisStreamTagsOutputReference
 ```
@@ -1863,7 +1863,7 @@ func InternalValue() DataAwsccKinesisStreamTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisStream.DataAwsccKinesisStreamWarmThroughputObjectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream"
 
 dataawscckinesisstream.NewDataAwsccKinesisStreamWarmThroughputObjectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKinesisStreamWarmThroughputObjectOutputReference
 ```

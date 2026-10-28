@@ -4,12 +4,12 @@
 
 ### DataAwsccBatchSchedulingPolicies <a name="DataAwsccBatchSchedulingPolicies" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicies.DataAwsccBatchSchedulingPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_scheduling_policies awscc_batch_scheduling_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_scheduling_policies awscc_batch_scheduling_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicies.DataAwsccBatchSchedulingPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicies"
 
 dataawsccbatchschedulingpolicies.NewDataAwsccBatchSchedulingPolicies(scope Construct, id *string, config DataAwsccBatchSchedulingPoliciesConfig) DataAwsccBatchSchedulingPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicies.DataAwsccBatchSchedulingPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicies"
 
 dataawsccbatchschedulingpolicies.DataAwsccBatchSchedulingPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicies.DataAwsccBatchSchedulingPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicies"
 
 dataawsccbatchschedulingpolicies.DataAwsccBatchSchedulingPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbatchschedulingpolicies.DataAwsccBatchSchedulingPolicies_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicies.DataAwsccBatchSchedulingPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicies"
 
 dataawsccbatchschedulingpolicies.DataAwsccBatchSchedulingPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbatchschedulingpolicies.DataAwsccBatchSchedulingPolicies_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicies.DataAwsccBatchSchedulingPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicies"
 
 dataawsccbatchschedulingpolicies.DataAwsccBatchSchedulingPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBatchSchedulingPo
 
 The id of the existing DataAwsccBatchSchedulingPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_scheduling_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_scheduling_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchSchedulingPolicies.DataAwsccBatchSchedulingPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchschedulingpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchschedulingpolicies"
 
 &dataawsccbatchschedulingpolicies.DataAwsccBatchSchedulingPoliciesConfig {
 	Connection: interface{},

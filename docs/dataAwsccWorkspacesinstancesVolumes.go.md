@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspacesinstancesVolumes <a name="DataAwsccWorkspacesinstancesVolumes" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumes.DataAwsccWorkspacesinstancesVolumes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_volumes awscc_workspacesinstances_volumes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_volumes awscc_workspacesinstances_volumes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumes.DataAwsccWorkspacesinstancesVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumes"
 
 dataawsccworkspacesinstancesvolumes.NewDataAwsccWorkspacesinstancesVolumes(scope Construct, id *string, config DataAwsccWorkspacesinstancesVolumesConfig) DataAwsccWorkspacesinstancesVolumes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumes.DataAwsccWorkspacesinstancesVolumes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumes"
 
 dataawsccworkspacesinstancesvolumes.DataAwsccWorkspacesinstancesVolumes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumes.DataAwsccWorkspacesinstancesVolumes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumes"
 
 dataawsccworkspacesinstancesvolumes.DataAwsccWorkspacesinstancesVolumes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspacesinstancesvolumes.DataAwsccWorkspacesinstancesVolumes_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumes.DataAwsccWorkspacesinstancesVolumes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumes"
 
 dataawsccworkspacesinstancesvolumes.DataAwsccWorkspacesinstancesVolumes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspacesinstancesvolumes.DataAwsccWorkspacesinstancesVolumes_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumes.DataAwsccWorkspacesinstancesVolumes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumes"
 
 dataawsccworkspacesinstancesvolumes.DataAwsccWorkspacesinstancesVolumes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesinstanc
 
 The id of the existing DataAwsccWorkspacesinstancesVolumes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_volumes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_volumes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumes.DataAwsccWorkspacesinstancesVolumesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumes"
 
 &dataawsccworkspacesinstancesvolumes.DataAwsccWorkspacesinstancesVolumesConfig {
 	Connection: interface{},

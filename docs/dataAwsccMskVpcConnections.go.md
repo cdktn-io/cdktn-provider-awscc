@@ -4,12 +4,12 @@
 
 ### DataAwsccMskVpcConnections <a name="DataAwsccMskVpcConnections" id="@cdktn/provider-awscc.dataAwsccMskVpcConnections.DataAwsccMskVpcConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_vpc_connections awscc_msk_vpc_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_vpc_connections awscc_msk_vpc_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskVpcConnections.DataAwsccMskVpcConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskvpcconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskvpcconnections"
 
 dataawsccmskvpcconnections.NewDataAwsccMskVpcConnections(scope Construct, id *string, config DataAwsccMskVpcConnectionsConfig) DataAwsccMskVpcConnections
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMskVpcConnections.DataAwsccMskVpcConnections.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskvpcconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskvpcconnections"
 
 dataawsccmskvpcconnections.DataAwsccMskVpcConnections_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMskVpcConnections.DataAwsccMskVpcConnections.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskvpcconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskvpcconnections"
 
 dataawsccmskvpcconnections.DataAwsccMskVpcConnections_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmskvpcconnections.DataAwsccMskVpcConnections_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMskVpcConnections.DataAwsccMskVpcConnections.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskvpcconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskvpcconnections"
 
 dataawsccmskvpcconnections.DataAwsccMskVpcConnections_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmskvpcconnections.DataAwsccMskVpcConnections_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMskVpcConnections.DataAwsccMskVpcConnections.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskvpcconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskvpcconnections"
 
 dataawsccmskvpcconnections.DataAwsccMskVpcConnections_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMskVpcConnections
 
 The id of the existing DataAwsccMskVpcConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_vpc_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_vpc_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskVpcConnections.DataAwsccMskVpcConnectionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskvpcconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskvpcconnections"
 
 &dataawsccmskvpcconnections.DataAwsccMskVpcConnectionsConfig {
 	Connection: interface{},

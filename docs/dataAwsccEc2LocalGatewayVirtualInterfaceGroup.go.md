@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2LocalGatewayVirtualInterfaceGroup <a name="DataAwsccEc2LocalGatewayVirtualInterfaceGroup" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayVirtualInterfaceGroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_virtual_interface_group awscc_ec2_local_gateway_virtual_interface_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_virtual_interface_group awscc_ec2_local_gateway_virtual_interface_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayVirtualInterfaceGroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayvirtualinterfacegroup"
 
 dataawsccec2localgatewayvirtualinterfacegroup.NewDataAwsccEc2LocalGatewayVirtualInterfaceGroup(scope Construct, id *string, config DataAwsccEc2LocalGatewayVirtualInterfaceGroupConfig) DataAwsccEc2LocalGatewayVirtualInterfaceGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayVirtualInterfaceGroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayvirtualinterfacegroup"
 
 dataawsccec2localgatewayvirtualinterfacegroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayVirtualInterfaceGroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayvirtualinterfacegroup"
 
 dataawsccec2localgatewayvirtualinterfacegroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2localgatewayvirtualinterfacegroup.DataAwsccEc2LocalGatewayVirtualInt
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayVirtualInterfaceGroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayvirtualinterfacegroup"
 
 dataawsccec2localgatewayvirtualinterfacegroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2localgatewayvirtualinterfacegroup.DataAwsccEc2LocalGatewayVirtualInt
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayVirtualInterfaceGroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayvirtualinterfacegroup"
 
 dataawsccec2localgatewayvirtualinterfacegroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2LocalGatewayVi
 
 The id of the existing DataAwsccEc2LocalGatewayVirtualInterfaceGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_virtual_interface_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_virtual_interface_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayVirtualInterfaceGroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayvirtualinterfacegroup"
 
 &dataawsccec2localgatewayvirtualinterfacegroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroupConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_virtual_interface_group#id DataAwsccEc2LocalGatewayVirtualInterfaceGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_virtual_interface_group#id DataAwsccEc2LocalGatewayVirtualInterfaceGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayVirtualInterfaceGroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayvirtualinterfacegroup"
 
 &dataawsccec2localgatewayvirtualinterfacegroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroupTags {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatew
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayVirtualInterfaceGroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayvirtualinterfacegroup"
 
 dataawsccec2localgatewayvirtualinterfacegroup.NewDataAwsccEc2LocalGatewayVirtualInterfaceGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2LocalGatewayVirtualInterfaceGroupTagsList
 ```
@@ -971,7 +971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayVirtualInterfaceGroup.DataAwsccEc2LocalGatewayVirtualInterfaceGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayvirtualinterfacegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayvirtualinterfacegroup"
 
 dataawsccec2localgatewayvirtualinterfacegroup.NewDataAwsccEc2LocalGatewayVirtualInterfaceGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2LocalGatewayVirtualInterfaceGroupTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccAppsyncDataSource <a name="DataAwsccAppsyncDataSource" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_data_source awscc_appsync_data_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_data_source awscc_appsync_data_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSource(scope Construct, id *string, config DataAwsccAppsyncDataSourceConfig) DataAwsccAppsyncDataSource
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.DataAwsccAppsyncDataSource_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.DataAwsccAppsyncDataSource_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappsyncdatasource.DataAwsccAppsyncDataSource_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSource.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.DataAwsccAppsyncDataSource_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappsyncdatasource.DataAwsccAppsyncDataSource_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.DataAwsccAppsyncDataSource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppsyncDataSource
 
 The id of the existing DataAwsccAppsyncDataSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_data_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_data_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_data_source#id DataAwsccAppsyncDataSource#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_data_source#id DataAwsccAppsyncDataSource#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceDynamoDbConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceDynamoDbConfig {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdataso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceDynamoDbConfigDeltaSyncConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceDynamoDbConfigDeltaSyncConfig {
 
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdataso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceElasticsearchConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceElasticsearchConfig {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdataso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceEventBridgeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceEventBridgeConfig {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdataso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceHttpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceHttpConfig {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdataso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceHttpConfigAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceHttpConfigAuthorizationConfig {
 
@@ -940,7 +940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdataso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfig {
 
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdataso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceLambdaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceLambdaConfig {
 
@@ -966,7 +966,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdataso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceOpenSearchServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceOpenSearchServiceConfig {
 
@@ -979,7 +979,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdataso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceRelationalDatabaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceRelationalDatabaseConfig {
 
@@ -992,7 +992,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdataso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 &dataawsccappsyncdatasource.DataAwsccAppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfig {
 
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdataso
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceDynamoDbConfigDeltaSyncConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSourceDynamoDbConfigDeltaSyncConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncDataSourceDynamoDbConfigDeltaSyncConfigOutputReference
 ```
@@ -1289,7 +1289,7 @@ func InternalValue() DataAwsccAppsyncDataSourceDynamoDbConfigDeltaSyncConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceDynamoDbConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSourceDynamoDbConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncDataSourceDynamoDbConfigOutputReference
 ```
@@ -1593,7 +1593,7 @@ func InternalValue() DataAwsccAppsyncDataSourceDynamoDbConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceElasticsearchConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSourceElasticsearchConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncDataSourceElasticsearchConfigOutputReference
 ```
@@ -1864,7 +1864,7 @@ func InternalValue() DataAwsccAppsyncDataSourceElasticsearchConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceEventBridgeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSourceEventBridgeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncDataSourceEventBridgeConfigOutputReference
 ```
@@ -2124,7 +2124,7 @@ func InternalValue() DataAwsccAppsyncDataSourceEventBridgeConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfigOutputReference
 ```
@@ -2395,7 +2395,7 @@ func InternalValue() DataAwsccAppsyncDataSourceHttpConfigAuthorizationConfigAwsI
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceHttpConfigAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSourceHttpConfigAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncDataSourceHttpConfigAuthorizationConfigOutputReference
 ```
@@ -2666,7 +2666,7 @@ func InternalValue() DataAwsccAppsyncDataSourceHttpConfigAuthorizationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceHttpConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSourceHttpConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncDataSourceHttpConfigOutputReference
 ```
@@ -2937,7 +2937,7 @@ func InternalValue() DataAwsccAppsyncDataSourceHttpConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceLambdaConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSourceLambdaConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncDataSourceLambdaConfigOutputReference
 ```
@@ -3197,7 +3197,7 @@ func InternalValue() DataAwsccAppsyncDataSourceLambdaConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceOpenSearchServiceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSourceOpenSearchServiceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncDataSourceOpenSearchServiceConfigOutputReference
 ```
@@ -3468,7 +3468,7 @@ func InternalValue() DataAwsccAppsyncDataSourceOpenSearchServiceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceRelationalDatabaseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSourceRelationalDatabaseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncDataSourceRelationalDatabaseConfigOutputReference
 ```
@@ -3739,7 +3739,7 @@ func InternalValue() DataAwsccAppsyncDataSourceRelationalDatabaseConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncDataSource.DataAwsccAppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource"
 
 dataawsccappsyncdatasource.NewDataAwsccAppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutputReference
 ```

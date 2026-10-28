@@ -4,12 +4,12 @@
 
 ### SecurityhubConfigurationPolicy <a name="SecurityhubConfigurationPolicy" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy awscc_securityhub_configuration_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy awscc_securityhub_configuration_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.NewSecurityhubConfigurationPolicy(scope Construct, id *string, config SecurityhubConfigurationPolicyConfig) SecurityhubConfigurationPolicy
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.SecurityhubConfigurationPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.SecurityhubConfigurationPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ securityhubconfigurationpolicy.SecurityhubConfigurationPolicy_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.SecurityhubConfigurationPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ securityhubconfigurationpolicy.SecurityhubConfigurationPolicy_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.SecurityhubConfigurationPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the SecurityhubConfigurationPo
 
 The id of the existing SecurityhubConfigurationPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 &securityhubconfigurationpolicy.SecurityhubConfigurationPolicyConfig {
 	Connection: interface{},
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurati
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ConfigurationPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicy,
+	ConfigurationPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicy,
 	Name: *string,
 	Description: *string,
 	Tags: *map[string]*string,
@@ -985,7 +985,7 @@ ConfigurationPolicy SecurityhubConfigurationPolicyConfigurationPolicy
 
 An object that defines how Security Hub is configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#configuration_policy SecurityhubConfigurationPolicy#configuration_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#configuration_policy SecurityhubConfigurationPolicy#configuration_policy}
 
 ---
 
@@ -999,7 +999,7 @@ Name *string
 
 The name of the configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#name SecurityhubConfigurationPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#name SecurityhubConfigurationPolicy#name}
 
 ---
 
@@ -1013,7 +1013,7 @@ Description *string
 
 The description of the configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#description SecurityhubConfigurationPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#description SecurityhubConfigurationPolicy#description}
 
 ---
 
@@ -1027,7 +1027,7 @@ Tags *map[string]*string
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#tags SecurityhubConfigurationPolicy#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#tags SecurityhubConfigurationPolicy#tags}
 
 ---
 
@@ -1036,10 +1036,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 &securityhubconfigurationpolicy.SecurityhubConfigurationPolicyConfigurationPolicy {
-	SecurityHub: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHub,
+	SecurityHub: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHub,
 }
 ```
 
@@ -1061,7 +1061,7 @@ SecurityHub SecurityhubConfigurationPolicyConfigurationPolicySecurityHub
 
 An object that defines how AWS Security Hub is configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#security_hub SecurityhubConfigurationPolicy#security_hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#security_hub SecurityhubConfigurationPolicy#security_hub}
 
 ---
 
@@ -1070,11 +1070,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 &securityhubconfigurationpolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHub {
 	EnabledStandardIdentifiers: *[]*string,
-	SecurityControlsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfiguration,
+	SecurityControlsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfiguration,
 	ServiceEnabled: interface{},
 }
 ```
@@ -1099,7 +1099,7 @@ EnabledStandardIdentifiers *[]*string
 
 A list that defines which security standards are enabled in the configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#enabled_standard_identifiers SecurityhubConfigurationPolicy#enabled_standard_identifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#enabled_standard_identifiers SecurityhubConfigurationPolicy#enabled_standard_identifiers}
 
 ---
 
@@ -1113,7 +1113,7 @@ SecurityControlsConfiguration SecurityhubConfigurationPolicyConfigurationPolicyS
 
 An object that defines which security controls are enabled in an AWS Security Hub configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#security_controls_configuration SecurityhubConfigurationPolicy#security_controls_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#security_controls_configuration SecurityhubConfigurationPolicy#security_controls_configuration}
 
 ---
 
@@ -1127,7 +1127,7 @@ ServiceEnabled interface{}
 
 Indicates whether Security Hub is enabled in the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#service_enabled SecurityhubConfigurationPolicy#service_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#service_enabled SecurityhubConfigurationPolicy#service_enabled}
 
 ---
 
@@ -1136,7 +1136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 &securityhubconfigurationpolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfiguration {
 	DisabledSecurityControlIdentifiers: *[]*string,
@@ -1165,7 +1165,7 @@ DisabledSecurityControlIdentifiers *[]*string
 
 A list of security controls that are disabled in the configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#disabled_security_control_identifiers SecurityhubConfigurationPolicy#disabled_security_control_identifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#disabled_security_control_identifiers SecurityhubConfigurationPolicy#disabled_security_control_identifiers}
 
 ---
 
@@ -1179,7 +1179,7 @@ EnabledSecurityControlIdentifiers *[]*string
 
 A list of security controls that are enabled in the configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#enabled_security_control_identifiers SecurityhubConfigurationPolicy#enabled_security_control_identifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#enabled_security_control_identifiers SecurityhubConfigurationPolicy#enabled_security_control_identifiers}
 
 ---
 
@@ -1193,7 +1193,7 @@ SecurityControlCustomParameters interface{}
 
 A list of security controls and control parameter values that are included in a configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#security_control_custom_parameters SecurityhubConfigurationPolicy#security_control_custom_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#security_control_custom_parameters SecurityhubConfigurationPolicy#security_control_custom_parameters}
 
 ---
 
@@ -1202,7 +1202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 &securityhubconfigurationpolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParameters {
 	Parameters: interface{},
@@ -1229,7 +1229,7 @@ Parameters interface{}
 
 An object that specifies parameter values for a control in a configuration policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#parameters SecurityhubConfigurationPolicy#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#parameters SecurityhubConfigurationPolicy#parameters}
 
 ---
 
@@ -1243,7 +1243,7 @@ SecurityControlId *string
 
 The ID of the security control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#security_control_id SecurityhubConfigurationPolicy#security_control_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#security_control_id SecurityhubConfigurationPolicy#security_control_id}
 
 ---
 
@@ -1252,10 +1252,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 &securityhubconfigurationpolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParameters {
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValue,
 	ValueType: *string,
 }
 ```
@@ -1279,7 +1279,7 @@ Value SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityContro
 
 An object that includes the data type of a security control parameter and its current value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#value SecurityhubConfigurationPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#value SecurityhubConfigurationPolicy#value}
 
 ---
 
@@ -1293,7 +1293,7 @@ ValueType *string
 
 Identifies whether a control parameter uses a custom user-defined value or subscribes to the default AWS Security Hub behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#value_type SecurityhubConfigurationPolicy#value_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#value_type SecurityhubConfigurationPolicy#value_type}
 
 ---
 
@@ -1302,7 +1302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 &securityhubconfigurationpolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValue {
 	Boolean: interface{},
@@ -1341,7 +1341,7 @@ Boolean interface{}
 
 A control parameter that is a boolean.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#boolean SecurityhubConfigurationPolicy#boolean}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#boolean SecurityhubConfigurationPolicy#boolean}
 
 ---
 
@@ -1355,7 +1355,7 @@ Double *f64
 
 A control parameter that is a double.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#double SecurityhubConfigurationPolicy#double}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#double SecurityhubConfigurationPolicy#double}
 
 ---
 
@@ -1369,7 +1369,7 @@ Enum *string
 
 A control parameter that is an enum.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#enum SecurityhubConfigurationPolicy#enum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#enum SecurityhubConfigurationPolicy#enum}
 
 ---
 
@@ -1383,7 +1383,7 @@ EnumList *[]*string
 
 A control parameter that is a list of enums.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#enum_list SecurityhubConfigurationPolicy#enum_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#enum_list SecurityhubConfigurationPolicy#enum_list}
 
 ---
 
@@ -1397,7 +1397,7 @@ Integer *f64
 
 A control parameter that is an integer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#integer SecurityhubConfigurationPolicy#integer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#integer SecurityhubConfigurationPolicy#integer}
 
 ---
 
@@ -1411,7 +1411,7 @@ IntegerList *[]*f64
 
 A control parameter that is a list of integers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#integer_list SecurityhubConfigurationPolicy#integer_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#integer_list SecurityhubConfigurationPolicy#integer_list}
 
 ---
 
@@ -1425,7 +1425,7 @@ String *string
 
 A control parameter that is a string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#string SecurityhubConfigurationPolicy#string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#string SecurityhubConfigurationPolicy#string}
 
 ---
 
@@ -1439,7 +1439,7 @@ StringList *[]*string
 
 A control parameter that is a list of strings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_configuration_policy#string_list SecurityhubConfigurationPolicy#string_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_configuration_policy#string_list SecurityhubConfigurationPolicy#string_list}
 
 ---
 
@@ -1450,7 +1450,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.NewSecurityhubConfigurationPolicyConfigurationPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubConfigurationPolicyConfigurationPolicyOutputReference
 ```
@@ -1741,7 +1741,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.NewSecurityhubConfigurationPolicyConfigurationPolicySecurityHubOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubConfigurationPolicyConfigurationPolicySecurityHubOutputReference
 ```
@@ -2090,7 +2090,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.NewSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationOutputReference
 ```
@@ -2439,7 +2439,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.NewSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersList
 ```
@@ -2599,7 +2599,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.NewSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersOutputReference
 ```
@@ -2937,7 +2937,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.NewSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersMap(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersMap
 ```
@@ -3084,7 +3084,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.NewSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersOutputReference
 ```
@@ -3413,7 +3413,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConfigurationPolicy.SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubconfigurationpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubconfigurationpolicy"
 
 securityhubconfigurationpolicy.NewSecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurityControlsConfigurationSecurityControlCustomParametersParametersValueOutputReference
 ```

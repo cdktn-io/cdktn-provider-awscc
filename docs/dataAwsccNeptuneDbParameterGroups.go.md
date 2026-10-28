@@ -4,12 +4,12 @@
 
 ### DataAwsccNeptuneDbParameterGroups <a name="DataAwsccNeptuneDbParameterGroups" id="@cdktn/provider-awscc.dataAwsccNeptuneDbParameterGroups.DataAwsccNeptuneDbParameterGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_parameter_groups awscc_neptune_db_parameter_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_parameter_groups awscc_neptune_db_parameter_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNeptuneDbParameterGroups.DataAwsccNeptuneDbParameterGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbparametergroups"
 
 dataawsccneptunedbparametergroups.NewDataAwsccNeptuneDbParameterGroups(scope Construct, id *string, config DataAwsccNeptuneDbParameterGroupsConfig) DataAwsccNeptuneDbParameterGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNeptuneDbParameterGroups.DataAwsccNeptuneDbParameterGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbparametergroups"
 
 dataawsccneptunedbparametergroups.DataAwsccNeptuneDbParameterGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNeptuneDbParameterGroups.DataAwsccNeptuneDbParameterGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbparametergroups"
 
 dataawsccneptunedbparametergroups.DataAwsccNeptuneDbParameterGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccneptunedbparametergroups.DataAwsccNeptuneDbParameterGroups_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNeptuneDbParameterGroups.DataAwsccNeptuneDbParameterGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbparametergroups"
 
 dataawsccneptunedbparametergroups.DataAwsccNeptuneDbParameterGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccneptunedbparametergroups.DataAwsccNeptuneDbParameterGroups_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNeptuneDbParameterGroups.DataAwsccNeptuneDbParameterGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbparametergroups"
 
 dataawsccneptunedbparametergroups.DataAwsccNeptuneDbParameterGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNeptuneDbParamete
 
 The id of the existing DataAwsccNeptuneDbParameterGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_parameter_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_parameter_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNeptuneDbParameterGroups.DataAwsccNeptuneDbParameterGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbparametergroups"
 
 &dataawsccneptunedbparametergroups.DataAwsccNeptuneDbParameterGroupsConfig {
 	Connection: interface{},

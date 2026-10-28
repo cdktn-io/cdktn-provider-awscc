@@ -4,12 +4,12 @@
 
 ### SagemakerImageVersion <a name="SagemakerImageVersion" id="@cdktn/provider-awscc.sagemakerImageVersion.SagemakerImageVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version awscc_sagemaker_image_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version awscc_sagemaker_image_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerImageVersion.SagemakerImageVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerimageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerimageversion"
 
 sagemakerimageversion.NewSagemakerImageVersion(scope Construct, id *string, config SagemakerImageVersionConfig) SagemakerImageVersion
 ```
@@ -463,7 +463,7 @@ func ResetVendorGuidance()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sagemakerImageVersion.SagemakerImageVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerimageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerimageversion"
 
 sagemakerimageversion.SagemakerImageVersion_IsConstruct(x interface{}) *bool
 ```
@@ -495,7 +495,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sagemakerImageVersion.SagemakerImageVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerimageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerimageversion"
 
 sagemakerimageversion.SagemakerImageVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -509,7 +509,7 @@ sagemakerimageversion.SagemakerImageVersion_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sagemakerImageVersion.SagemakerImageVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerimageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerimageversion"
 
 sagemakerimageversion.SagemakerImageVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -523,7 +523,7 @@ sagemakerimageversion.SagemakerImageVersion_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sagemakerImageVersion.SagemakerImageVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerimageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerimageversion"
 
 sagemakerimageversion.SagemakerImageVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -552,7 +552,7 @@ The construct id used in the generated config for the SagemakerImageVersion to i
 
 The id of the existing SagemakerImageVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1049,7 +1049,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerImageVersion.SagemakerImageVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerimageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerimageversion"
 
 &sagemakerimageversion.SagemakerImageVersionConfig {
 	Connection: interface{},
@@ -1178,7 +1178,7 @@ BaseImage *string
 
 The registry path of the container image on which this image version is based.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#base_image SagemakerImageVersion#base_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#base_image SagemakerImageVersion#base_image}
 
 ---
 
@@ -1192,7 +1192,7 @@ ImageName *string
 
 The name of the image this version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#image_name SagemakerImageVersion#image_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#image_name SagemakerImageVersion#image_name}
 
 ---
 
@@ -1206,7 +1206,7 @@ Alias *string
 
 The alias of the image version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#alias SagemakerImageVersion#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#alias SagemakerImageVersion#alias}
 
 ---
 
@@ -1220,7 +1220,7 @@ Aliases *[]*string
 
 List of aliases for the image version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#aliases SagemakerImageVersion#aliases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#aliases SagemakerImageVersion#aliases}
 
 ---
 
@@ -1234,7 +1234,7 @@ Horovod interface{}
 
 Indicates Horovod compatibility.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#horovod SagemakerImageVersion#horovod}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#horovod SagemakerImageVersion#horovod}
 
 ---
 
@@ -1248,7 +1248,7 @@ JobType *string
 
 Indicates SageMaker job type compatibility.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#job_type SagemakerImageVersion#job_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#job_type SagemakerImageVersion#job_type}
 
 ---
 
@@ -1262,7 +1262,7 @@ MlFramework *string
 
 The machine learning framework vended in the image version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#ml_framework SagemakerImageVersion#ml_framework}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#ml_framework SagemakerImageVersion#ml_framework}
 
 ---
 
@@ -1276,7 +1276,7 @@ Processor *string
 
 Indicates CPU or GPU compatibility.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#processor SagemakerImageVersion#processor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#processor SagemakerImageVersion#processor}
 
 ---
 
@@ -1290,7 +1290,7 @@ ProgrammingLang *string
 
 The supported programming language and its version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#programming_lang SagemakerImageVersion#programming_lang}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#programming_lang SagemakerImageVersion#programming_lang}
 
 ---
 
@@ -1304,7 +1304,7 @@ ReleaseNotes *string
 
 The maintainer description of the image version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#release_notes SagemakerImageVersion#release_notes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#release_notes SagemakerImageVersion#release_notes}
 
 ---
 
@@ -1318,7 +1318,7 @@ VendorGuidance *string
 
 The availability of the image version specified by the maintainer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_image_version#vendor_guidance SagemakerImageVersion#vendor_guidance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_image_version#vendor_guidance SagemakerImageVersion#vendor_guidance}
 
 ---
 

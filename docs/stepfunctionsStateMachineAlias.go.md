@@ -4,12 +4,12 @@
 
 ### StepfunctionsStateMachineAlias <a name="StepfunctionsStateMachineAlias" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias"
 
 stepfunctionsstatemachinealias.NewStepfunctionsStateMachineAlias(scope Construct, id *string, config StepfunctionsStateMachineAliasConfig) StepfunctionsStateMachineAlias
 ```
@@ -461,7 +461,7 @@ func ResetStateMachineArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAlias.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias"
 
 stepfunctionsstatemachinealias.StepfunctionsStateMachineAlias_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAlias.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias"
 
 stepfunctionsstatemachinealias.StepfunctionsStateMachineAlias_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ stepfunctionsstatemachinealias.StepfunctionsStateMachineAlias_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAlias.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias"
 
 stepfunctionsstatemachinealias.StepfunctionsStateMachineAlias_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ stepfunctionsstatemachinealias.StepfunctionsStateMachineAlias_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAlias.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias"
 
 stepfunctionsstatemachinealias.StepfunctionsStateMachineAlias_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the StepfunctionsStateMachineA
 
 The id of the existing StepfunctionsStateMachineAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -882,7 +882,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias"
 
 &stepfunctionsstatemachinealias.StepfunctionsStateMachineAliasConfig {
 	Connection: interface{},
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemach
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	DeploymentPreference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasDeploymentPreference,
+	DeploymentPreference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasDeploymentPreference,
 	Description: *string,
 	Name: *string,
 	RoutingConfiguration: interface{},
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemach
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of the alias. |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasConfig.property.name">Name</a></code> | <code>*string</code> | The alias name. |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasConfig.property.routingConfiguration">RoutingConfiguration</a></code> | <code>interface{}</code> | The routing configuration of the alias. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasConfig.property.stateMachineArn">StateMachineArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#state_machine_arn StepfunctionsStateMachineAlias#state_machine_arn}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasConfig.property.stateMachineArn">StateMachineArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#state_machine_arn StepfunctionsStateMachineAlias#state_machine_arn}. |
 
 ---
 
@@ -999,7 +999,7 @@ DeploymentPreference StepfunctionsStateMachineAliasDeploymentPreference
 
 The settings to enable gradual state machine deployments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#deployment_preference StepfunctionsStateMachineAlias#deployment_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#deployment_preference StepfunctionsStateMachineAlias#deployment_preference}
 
 ---
 
@@ -1013,7 +1013,7 @@ Description *string
 
 An optional description of the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#description StepfunctionsStateMachineAlias#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#description StepfunctionsStateMachineAlias#description}
 
 ---
 
@@ -1027,7 +1027,7 @@ Name *string
 
 The alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#name StepfunctionsStateMachineAlias#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#name StepfunctionsStateMachineAlias#name}
 
 ---
 
@@ -1043,7 +1043,7 @@ The routing configuration of the alias.
 
 One or two versions can be mapped to an alias to split StartExecution requests of the same state machine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#routing_configuration StepfunctionsStateMachineAlias#routing_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#routing_configuration StepfunctionsStateMachineAlias#routing_configuration}
 
 ---
 
@@ -1055,7 +1055,7 @@ StateMachineArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#state_machine_arn StepfunctionsStateMachineAlias#state_machine_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#state_machine_arn StepfunctionsStateMachineAlias#state_machine_arn}.
 
 ---
 
@@ -1064,7 +1064,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasDeploymentPreference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias"
 
 &stepfunctionsstatemachinealias.StepfunctionsStateMachineAliasDeploymentPreference {
 	Alarms: *[]*string,
@@ -1082,7 +1082,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemach
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasDeploymentPreference.property.alarms">Alarms</a></code> | <code>*[]*string</code> | A list of CloudWatch alarm names that will be monitored during the deployment. |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasDeploymentPreference.property.interval">Interval</a></code> | <code>*f64</code> | The time in minutes between each traffic shifting increment. |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasDeploymentPreference.property.percentage">Percentage</a></code> | <code>*f64</code> | The percentage of traffic to shift to the new version in each increment. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasDeploymentPreference.property.stateMachineVersionArn">StateMachineVersionArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#state_machine_version_arn StepfunctionsStateMachineAlias#state_machine_version_arn}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasDeploymentPreference.property.stateMachineVersionArn">StateMachineVersionArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#state_machine_version_arn StepfunctionsStateMachineAlias#state_machine_version_arn}. |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasDeploymentPreference.property.type">Type</a></code> | <code>*string</code> | The type of deployment to perform. |
 
 ---
@@ -1099,7 +1099,7 @@ A list of CloudWatch alarm names that will be monitored during the deployment.
 
 The deployment will fail and rollback if any alarms go into ALARM state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#alarms StepfunctionsStateMachineAlias#alarms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#alarms StepfunctionsStateMachineAlias#alarms}
 
 ---
 
@@ -1113,7 +1113,7 @@ Interval *f64
 
 The time in minutes between each traffic shifting increment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#interval StepfunctionsStateMachineAlias#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#interval StepfunctionsStateMachineAlias#interval}
 
 ---
 
@@ -1127,7 +1127,7 @@ Percentage *f64
 
 The percentage of traffic to shift to the new version in each increment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#percentage StepfunctionsStateMachineAlias#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#percentage StepfunctionsStateMachineAlias#percentage}
 
 ---
 
@@ -1139,7 +1139,7 @@ StateMachineVersionArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#state_machine_version_arn StepfunctionsStateMachineAlias#state_machine_version_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#state_machine_version_arn StepfunctionsStateMachineAlias#state_machine_version_arn}.
 
 ---
 
@@ -1153,7 +1153,7 @@ Type *string
 
 The type of deployment to perform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#type StepfunctionsStateMachineAlias#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#type StepfunctionsStateMachineAlias#type}
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasRoutingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias"
 
 &stepfunctionsstatemachinealias.StepfunctionsStateMachineAliasRoutingConfiguration {
 	StateMachineVersionArn: *string,
@@ -1189,7 +1189,7 @@ StateMachineVersionArn *string
 
 The Amazon Resource Name (ARN) that identifies one or two state machine versions defined in the routing configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#state_machine_version_arn StepfunctionsStateMachineAlias#state_machine_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#state_machine_version_arn StepfunctionsStateMachineAlias#state_machine_version_arn}
 
 ---
 
@@ -1205,7 +1205,7 @@ The percentage of traffic you want to route to the state machine version.
 
 The sum of the weights in the routing configuration must be equal to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias#weight StepfunctionsStateMachineAlias#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias#weight StepfunctionsStateMachineAlias#weight}
 
 ---
 
@@ -1216,7 +1216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasDeploymentPreferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias"
 
 stepfunctionsstatemachinealias.NewStepfunctionsStateMachineAliasDeploymentPreferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StepfunctionsStateMachineAliasDeploymentPreferenceOutputReference
 ```
@@ -1610,7 +1610,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasRoutingConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias"
 
 stepfunctionsstatemachinealias.NewStepfunctionsStateMachineAliasRoutingConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StepfunctionsStateMachineAliasRoutingConfigurationList
 ```
@@ -1770,7 +1770,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.stepfunctionsStateMachineAlias.StepfunctionsStateMachineAliasRoutingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias"
 
 stepfunctionsstatemachinealias.NewStepfunctionsStateMachineAliasRoutingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StepfunctionsStateMachineAliasRoutingConfigurationOutputReference
 ```

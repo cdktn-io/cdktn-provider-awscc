@@ -4,12 +4,12 @@
 
 ### OdbOdbPeeringConnection <a name="OdbOdbPeeringConnection" id="@cdktn/provider-awscc.odbOdbPeeringConnection.OdbOdbPeeringConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbPeeringConnection.OdbOdbPeeringConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbpeeringconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbpeeringconnection"
 
 odbodbpeeringconnection.NewOdbOdbPeeringConnection(scope Construct, id *string, config OdbOdbPeeringConnectionConfig) OdbOdbPeeringConnection
 ```
@@ -455,7 +455,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.odbOdbPeeringConnection.OdbOdbPeeringConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbpeeringconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbpeeringconnection"
 
 odbodbpeeringconnection.OdbOdbPeeringConnection_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.odbOdbPeeringConnection.OdbOdbPeeringConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbpeeringconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbpeeringconnection"
 
 odbodbpeeringconnection.OdbOdbPeeringConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ odbodbpeeringconnection.OdbOdbPeeringConnection_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.odbOdbPeeringConnection.OdbOdbPeeringConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbpeeringconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbpeeringconnection"
 
 odbodbpeeringconnection.OdbOdbPeeringConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ odbodbpeeringconnection.OdbOdbPeeringConnection_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.odbOdbPeeringConnection.OdbOdbPeeringConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbpeeringconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbpeeringconnection"
 
 odbodbpeeringconnection.OdbOdbPeeringConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the OdbOdbPeeringConnection to
 
 The id of the existing OdbOdbPeeringConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_peering_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_peering_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -942,7 +942,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbPeeringConnection.OdbOdbPeeringConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbpeeringconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbpeeringconnection"
 
 &odbodbpeeringconnection.OdbOdbPeeringConnectionConfig {
 	Connection: interface{},
@@ -1061,7 +1061,7 @@ AdditionalPeerNetworkCidrs *[]*string
 
 The additional CIDR blocks for the ODB peering connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_peering_connection#additional_peer_network_cidrs OdbOdbPeeringConnection#additional_peer_network_cidrs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_peering_connection#additional_peer_network_cidrs OdbOdbPeeringConnection#additional_peer_network_cidrs}
 
 ---
 
@@ -1075,7 +1075,7 @@ DisplayName *string
 
 The name of the ODB peering connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_peering_connection#display_name OdbOdbPeeringConnection#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_peering_connection#display_name OdbOdbPeeringConnection#display_name}
 
 ---
 
@@ -1089,7 +1089,7 @@ OdbNetworkId *string
 
 The unique identifier of the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_peering_connection#odb_network_id OdbOdbPeeringConnection#odb_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_peering_connection#odb_network_id OdbOdbPeeringConnection#odb_network_id}
 
 ---
 
@@ -1103,7 +1103,7 @@ PeerNetworkId *string
 
 The unique identifier of the peer network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_peering_connection#peer_network_id OdbOdbPeeringConnection#peer_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_peering_connection#peer_network_id OdbOdbPeeringConnection#peer_network_id}
 
 ---
 
@@ -1117,7 +1117,7 @@ PeerNetworkRouteTableIds *[]*string
 
 The unique identifier of the VPC route table for which a route to the ODB network is automatically created during peering connection establishment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_peering_connection#peer_network_route_table_ids OdbOdbPeeringConnection#peer_network_route_table_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_peering_connection#peer_network_route_table_ids OdbOdbPeeringConnection#peer_network_route_table_ids}
 
 ---
 
@@ -1131,7 +1131,7 @@ Tags interface{}
 
 Tags to assign to the Odb peering connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_peering_connection#tags OdbOdbPeeringConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_peering_connection#tags OdbOdbPeeringConnection#tags}
 
 ---
 
@@ -1140,7 +1140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbPeeringConnection.OdbOdbPeeringConnectionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbpeeringconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbpeeringconnection"
 
 &odbodbpeeringconnection.OdbOdbPeeringConnectionTags {
 	Key: *string,
@@ -1183,7 +1183,7 @@ The value for the tag.
 
 You can specify a value that's 1 to 256 characters in length. You can use any of the following characters: Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_peering_connection#value OdbOdbPeeringConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_peering_connection#value OdbOdbPeeringConnection#value}
 
 ---
 
@@ -1194,7 +1194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbPeeringConnection.OdbOdbPeeringConnectionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbpeeringconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbpeeringconnection"
 
 odbodbpeeringconnection.NewOdbOdbPeeringConnectionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OdbOdbPeeringConnectionTagsList
 ```
@@ -1354,7 +1354,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbPeeringConnection.OdbOdbPeeringConnectionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbpeeringconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbpeeringconnection"
 
 odbodbpeeringconnection.NewOdbOdbPeeringConnectionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OdbOdbPeeringConnectionTagsOutputReference
 ```

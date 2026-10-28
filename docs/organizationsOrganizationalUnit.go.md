@@ -4,12 +4,12 @@
 
 ### OrganizationsOrganizationalUnit <a name="OrganizationsOrganizationalUnit" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_organizational_unit awscc_organizations_organizational_unit}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_organizational_unit awscc_organizations_organizational_unit}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsorganizationalunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsorganizationalunit"
 
 organizationsorganizationalunit.NewOrganizationsOrganizationalUnit(scope Construct, id *string, config OrganizationsOrganizationalUnitConfig) OrganizationsOrganizationalUnit
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsorganizationalunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsorganizationalunit"
 
 organizationsorganizationalunit.OrganizationsOrganizationalUnit_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsorganizationalunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsorganizationalunit"
 
 organizationsorganizationalunit.OrganizationsOrganizationalUnit_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ organizationsorganizationalunit.OrganizationsOrganizationalUnit_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsorganizationalunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsorganizationalunit"
 
 organizationsorganizationalunit.OrganizationsOrganizationalUnit_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ organizationsorganizationalunit.OrganizationsOrganizationalUnit_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsorganizationalunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsorganizationalunit"
 
 organizationsorganizationalunit.OrganizationsOrganizationalUnit_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the OrganizationsOrganizationa
 
 The id of the existing OrganizationsOrganizationalUnit that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_organizational_unit#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_organizational_unit#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -819,7 +819,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnitConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsorganizationalunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsorganizationalunit"
 
 &organizationsorganizationalunit.OrganizationsOrganizationalUnitConfig {
 	Connection: interface{},
@@ -932,7 +932,7 @@ Name *string
 
 The friendly name of this OU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_organizational_unit#name OrganizationsOrganizationalUnit#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_organizational_unit#name OrganizationsOrganizationalUnit#name}
 
 ---
 
@@ -946,7 +946,7 @@ ParentId *string
 
 The unique identifier (ID) of the parent root or OU that you want to create the new OU in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_organizational_unit#parent_id OrganizationsOrganizationalUnit#parent_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_organizational_unit#parent_id OrganizationsOrganizationalUnit#parent_id}
 
 ---
 
@@ -960,7 +960,7 @@ Tags interface{}
 
 A list of tags that you want to attach to the newly created OU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_organizational_unit#tags OrganizationsOrganizationalUnit#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_organizational_unit#tags OrganizationsOrganizationalUnit#tags}
 
 ---
 
@@ -969,7 +969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnitTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsorganizationalunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsorganizationalunit"
 
 &organizationsorganizationalunit.OrganizationsOrganizationalUnitTags {
 	Key: *string,
@@ -996,7 +996,7 @@ Key *string
 
 The key identifier, or name, of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_organizational_unit#key OrganizationsOrganizationalUnit#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_organizational_unit#key OrganizationsOrganizationalUnit#key}
 
 ---
 
@@ -1012,7 +1012,7 @@ The string value that's associated with the key of the tag.
 
 You can set the value of a tag to an empty string, but you can't set the value of a tag to null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_organizational_unit#value OrganizationsOrganizationalUnit#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_organizational_unit#value OrganizationsOrganizationalUnit#value}
 
 ---
 
@@ -1023,7 +1023,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnitTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsorganizationalunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsorganizationalunit"
 
 organizationsorganizationalunit.NewOrganizationsOrganizationalUnitTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrganizationsOrganizationalUnitTagsList
 ```
@@ -1183,7 +1183,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnitTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsorganizationalunit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsorganizationalunit"
 
 organizationsorganizationalunit.NewOrganizationsOrganizationalUnitTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrganizationsOrganizationalUnitTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccWisdomContent <a name="DataAwsccWisdomContent" id="@cdktn/provider-awscc.dataAwsccWisdomContent.DataAwsccWisdomContent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_content awscc_wisdom_content}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_content awscc_wisdom_content}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomContent.DataAwsccWisdomContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontent"
 
 dataawsccwisdomcontent.NewDataAwsccWisdomContent(scope Construct, id *string, config DataAwsccWisdomContentConfig) DataAwsccWisdomContent
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWisdomContent.DataAwsccWisdomContent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontent"
 
 dataawsccwisdomcontent.DataAwsccWisdomContent_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWisdomContent.DataAwsccWisdomContent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontent"
 
 dataawsccwisdomcontent.DataAwsccWisdomContent_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwisdomcontent.DataAwsccWisdomContent_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWisdomContent.DataAwsccWisdomContent.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontent"
 
 dataawsccwisdomcontent.DataAwsccWisdomContent_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwisdomcontent.DataAwsccWisdomContent_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWisdomContent.DataAwsccWisdomContent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontent"
 
 dataawsccwisdomcontent.DataAwsccWisdomContent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWisdomContent to 
 
 The id of the existing DataAwsccWisdomContent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_content#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_content#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomContent.DataAwsccWisdomContentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontent"
 
 &dataawsccwisdomcontent.DataAwsccWisdomContentConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_content#id DataAwsccWisdomContent#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_content#id DataAwsccWisdomContent#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomContent.DataAwsccWisdomContentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontent"
 
 &dataawsccwisdomcontent.DataAwsccWisdomContentTags {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomContent.DataAwsccWisdomContentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontent"
 
 dataawsccwisdomcontent.NewDataAwsccWisdomContentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomContentTagsList
 ```
@@ -1026,7 +1026,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomContent.DataAwsccWisdomContentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomcontent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomcontent"
 
 dataawsccwisdomcontent.NewDataAwsccWisdomContentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomContentTagsOutputReference
 ```

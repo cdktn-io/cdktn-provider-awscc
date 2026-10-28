@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VerifiedAccessGroups <a name="DataAwsccEc2VerifiedAccessGroups" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroups.DataAwsccEc2VerifiedAccessGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_verified_access_groups awscc_ec2_verified_access_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_verified_access_groups awscc_ec2_verified_access_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroups.DataAwsccEc2VerifiedAccessGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroups"
 
 dataawsccec2verifiedaccessgroups.NewDataAwsccEc2VerifiedAccessGroups(scope Construct, id *string, config DataAwsccEc2VerifiedAccessGroupsConfig) DataAwsccEc2VerifiedAccessGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroups.DataAwsccEc2VerifiedAccessGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroups"
 
 dataawsccec2verifiedaccessgroups.DataAwsccEc2VerifiedAccessGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroups.DataAwsccEc2VerifiedAccessGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroups"
 
 dataawsccec2verifiedaccessgroups.DataAwsccEc2VerifiedAccessGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2verifiedaccessgroups.DataAwsccEc2VerifiedAccessGroups_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroups.DataAwsccEc2VerifiedAccessGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroups"
 
 dataawsccec2verifiedaccessgroups.DataAwsccEc2VerifiedAccessGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2verifiedaccessgroups.DataAwsccEc2VerifiedAccessGroups_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroups.DataAwsccEc2VerifiedAccessGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroups"
 
 dataawsccec2verifiedaccessgroups.DataAwsccEc2VerifiedAccessGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VerifiedAccess
 
 The id of the existing DataAwsccEc2VerifiedAccessGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_verified_access_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_verified_access_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroups.DataAwsccEc2VerifiedAccessGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroups"
 
 &dataawsccec2verifiedaccessgroups.DataAwsccEc2VerifiedAccessGroupsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityhubProductSubscriptions <a name="DataAwsccSecurityhubProductSubscriptions" id="@cdktn/provider-awscc.dataAwsccSecurityhubProductSubscriptions.DataAwsccSecurityhubProductSubscriptions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_product_subscriptions awscc_securityhub_product_subscriptions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_product_subscriptions awscc_securityhub_product_subscriptions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubProductSubscriptions.DataAwsccSecurityhubProductSubscriptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubproductsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubproductsubscriptions"
 
 dataawsccsecurityhubproductsubscriptions.NewDataAwsccSecurityhubProductSubscriptions(scope Construct, id *string, config DataAwsccSecurityhubProductSubscriptionsConfig) DataAwsccSecurityhubProductSubscriptions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityhubProductSubscriptions.DataAwsccSecurityhubProductSubscriptions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubproductsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubproductsubscriptions"
 
 dataawsccsecurityhubproductsubscriptions.DataAwsccSecurityhubProductSubscriptions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityhubProductSubscriptions.DataAwsccSecurityhubProductSubscriptions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubproductsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubproductsubscriptions"
 
 dataawsccsecurityhubproductsubscriptions.DataAwsccSecurityhubProductSubscriptions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityhubproductsubscriptions.DataAwsccSecurityhubProductSubscription
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityhubProductSubscriptions.DataAwsccSecurityhubProductSubscriptions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubproductsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubproductsubscriptions"
 
 dataawsccsecurityhubproductsubscriptions.DataAwsccSecurityhubProductSubscriptions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityhubproductsubscriptions.DataAwsccSecurityhubProductSubscription
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityhubProductSubscriptions.DataAwsccSecurityhubProductSubscriptions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubproductsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubproductsubscriptions"
 
 dataawsccsecurityhubproductsubscriptions.DataAwsccSecurityhubProductSubscriptions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubProduc
 
 The id of the existing DataAwsccSecurityhubProductSubscriptions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_product_subscriptions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_product_subscriptions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubProductSubscriptions.DataAwsccSecurityhubProductSubscriptionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubproductsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubproductsubscriptions"
 
 &dataawsccsecurityhubproductsubscriptions.DataAwsccSecurityhubProductSubscriptionsConfig {
 	Connection: interface{},

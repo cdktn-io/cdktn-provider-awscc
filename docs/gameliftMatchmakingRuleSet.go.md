@@ -4,12 +4,12 @@
 
 ### GameliftMatchmakingRuleSet <a name="GameliftMatchmakingRuleSet" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_matchmaking_rule_set awscc_gamelift_matchmaking_rule_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_matchmaking_rule_set awscc_gamelift_matchmaking_rule_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftmatchmakingruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftmatchmakingruleset"
 
 gameliftmatchmakingruleset.NewGameliftMatchmakingRuleSet(scope Construct, id *string, config GameliftMatchmakingRuleSetConfig) GameliftMatchmakingRuleSet
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftmatchmakingruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftmatchmakingruleset"
 
 gameliftmatchmakingruleset.GameliftMatchmakingRuleSet_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftmatchmakingruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftmatchmakingruleset"
 
 gameliftmatchmakingruleset.GameliftMatchmakingRuleSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ gameliftmatchmakingruleset.GameliftMatchmakingRuleSet_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftmatchmakingruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftmatchmakingruleset"
 
 gameliftmatchmakingruleset.GameliftMatchmakingRuleSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ gameliftmatchmakingruleset.GameliftMatchmakingRuleSet_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftmatchmakingruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftmatchmakingruleset"
 
 gameliftmatchmakingruleset.GameliftMatchmakingRuleSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the GameliftMatchmakingRuleSet
 
 The id of the existing GameliftMatchmakingRuleSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_matchmaking_rule_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_matchmaking_rule_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -808,7 +808,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftmatchmakingruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftmatchmakingruleset"
 
 &gameliftmatchmakingruleset.GameliftMatchmakingRuleSetConfig {
 	Connection: interface{},
@@ -921,7 +921,7 @@ Name *string
 
 A unique identifier for the matchmaking rule set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_matchmaking_rule_set#name GameliftMatchmakingRuleSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_matchmaking_rule_set#name GameliftMatchmakingRuleSet#name}
 
 ---
 
@@ -935,7 +935,7 @@ RuleSetBody *string
 
 A collection of matchmaking rules, formatted as a JSON string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_matchmaking_rule_set#rule_set_body GameliftMatchmakingRuleSet#rule_set_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_matchmaking_rule_set#rule_set_body GameliftMatchmakingRuleSet#rule_set_body}
 
 ---
 
@@ -949,7 +949,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_matchmaking_rule_set#tags GameliftMatchmakingRuleSet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_matchmaking_rule_set#tags GameliftMatchmakingRuleSet#tags}
 
 ---
 
@@ -958,7 +958,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftmatchmakingruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftmatchmakingruleset"
 
 &gameliftmatchmakingruleset.GameliftMatchmakingRuleSetTags {
 	Key: *string,
@@ -987,7 +987,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_matchmaking_rule_set#key GameliftMatchmakingRuleSet#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_matchmaking_rule_set#key GameliftMatchmakingRuleSet#key}
 
 ---
 
@@ -1001,7 +1001,7 @@ Value *string
 
 The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_matchmaking_rule_set#value GameliftMatchmakingRuleSet#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_matchmaking_rule_set#value GameliftMatchmakingRuleSet#value}
 
 ---
 
@@ -1012,7 +1012,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftmatchmakingruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftmatchmakingruleset"
 
 gameliftmatchmakingruleset.NewGameliftMatchmakingRuleSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GameliftMatchmakingRuleSetTagsList
 ```
@@ -1172,7 +1172,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftmatchmakingruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftmatchmakingruleset"
 
 gameliftmatchmakingruleset.NewGameliftMatchmakingRuleSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GameliftMatchmakingRuleSetTagsOutputReference
 ```

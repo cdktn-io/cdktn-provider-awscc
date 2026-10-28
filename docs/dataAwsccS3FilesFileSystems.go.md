@@ -4,12 +4,12 @@
 
 ### DataAwsccS3FilesFileSystems <a name="DataAwsccS3FilesFileSystems" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystems.DataAwsccS3FilesFileSystems"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3files_file_systems awscc_s3files_file_systems}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3files_file_systems awscc_s3files_file_systems}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystems.DataAwsccS3FilesFileSystems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystems"
 
 dataawsccs3filesfilesystems.NewDataAwsccS3FilesFileSystems(scope Construct, id *string, config DataAwsccS3FilesFileSystemsConfig) DataAwsccS3FilesFileSystems
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystems.DataAwsccS3FilesFileSystems.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystems"
 
 dataawsccs3filesfilesystems.DataAwsccS3FilesFileSystems_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystems.DataAwsccS3FilesFileSystems.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystems"
 
 dataawsccs3filesfilesystems.DataAwsccS3FilesFileSystems_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3filesfilesystems.DataAwsccS3FilesFileSystems_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystems.DataAwsccS3FilesFileSystems.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystems"
 
 dataawsccs3filesfilesystems.DataAwsccS3FilesFileSystems_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3filesfilesystems.DataAwsccS3FilesFileSystems_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystems.DataAwsccS3FilesFileSystems.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystems"
 
 dataawsccs3filesfilesystems.DataAwsccS3FilesFileSystems_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3FilesFileSystem
 
 The id of the existing DataAwsccS3FilesFileSystems that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3files_file_systems#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3files_file_systems#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystems.DataAwsccS3FilesFileSystemsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystems"
 
 &dataawsccs3filesfilesystems.DataAwsccS3FilesFileSystemsConfig {
 	Connection: interface{},

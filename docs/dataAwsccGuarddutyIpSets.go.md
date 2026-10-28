@@ -4,12 +4,12 @@
 
 ### DataAwsccGuarddutyIpSets <a name="DataAwsccGuarddutyIpSets" id="@cdktn/provider-awscc.dataAwsccGuarddutyIpSets.DataAwsccGuarddutyIpSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_ip_sets awscc_guardduty_ip_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_ip_sets awscc_guardduty_ip_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyIpSets.DataAwsccGuarddutyIpSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutyipsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutyipsets"
 
 dataawsccguarddutyipsets.NewDataAwsccGuarddutyIpSets(scope Construct, id *string, config DataAwsccGuarddutyIpSetsConfig) DataAwsccGuarddutyIpSets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGuarddutyIpSets.DataAwsccGuarddutyIpSets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutyipsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutyipsets"
 
 dataawsccguarddutyipsets.DataAwsccGuarddutyIpSets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGuarddutyIpSets.DataAwsccGuarddutyIpSets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutyipsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutyipsets"
 
 dataawsccguarddutyipsets.DataAwsccGuarddutyIpSets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccguarddutyipsets.DataAwsccGuarddutyIpSets_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGuarddutyIpSets.DataAwsccGuarddutyIpSets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutyipsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutyipsets"
 
 dataawsccguarddutyipsets.DataAwsccGuarddutyIpSets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccguarddutyipsets.DataAwsccGuarddutyIpSets_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGuarddutyIpSets.DataAwsccGuarddutyIpSets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutyipsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutyipsets"
 
 dataawsccguarddutyipsets.DataAwsccGuarddutyIpSets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGuarddutyIpSets t
 
 The id of the existing DataAwsccGuarddutyIpSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_ip_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_ip_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGuarddutyIpSets.DataAwsccGuarddutyIpSetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutyipsets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutyipsets"
 
 &dataawsccguarddutyipsets.DataAwsccGuarddutyIpSetsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccCognitoUserPoolRiskConfigurationAttachment <a name="DataAwsccCognitoUserPoolRiskConfigurationAttachment" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachment(scope Construct, id *string, config DataAwsccCognitoUserPoolRiskConfigurationAttachmentConfig) DataAwsccCognitoUserPoolRiskConfigurationAttachment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRisk
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRisk
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCognitoUserPoolRi
 
 The id of the existing DataAwsccCognitoUserPoolRiskConfigurationAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfiguration {
 
@@ -655,7 +655,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActions {
 
@@ -668,7 +668,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsHighAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsHighAction {
 
@@ -681,7 +681,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsLowAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsLowAction {
 
@@ -694,7 +694,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsMediumAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsMediumAction {
 
@@ -707,7 +707,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfiguration {
 
@@ -720,7 +720,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationBlockEmail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationBlockEmail {
 
@@ -733,7 +733,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationMfaEmail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationMfaEmail {
 
@@ -746,7 +746,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationNoActionEmail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationNoActionEmail {
 
@@ -759,7 +759,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfiguration {
 
@@ -772,7 +772,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfigurationActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfigurationActions {
 
@@ -785,7 +785,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentConfig {
 	Connection: interface{},
@@ -894,7 +894,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment#id DataAwsccCognitoUserPoolRiskConfigurationAttachment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment#id DataAwsccCognitoUserPoolRiskConfigurationAttachment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -906,7 +906,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentRiskExceptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 &dataawscccognitouserpoolriskconfigurationattachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentRiskExceptionConfiguration {
 
@@ -921,7 +921,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsHighActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsHighActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsHighActionOutputReference
 ```
@@ -1192,7 +1192,7 @@ func InternalValue() DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsLowActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsLowActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsLowActionOutputReference
 ```
@@ -1463,7 +1463,7 @@ func InternalValue() DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsMediumActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsMediumActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsMediumActionOutputReference
 ```
@@ -1734,7 +1734,7 @@ func InternalValue() DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationActionsOutputReference
 ```
@@ -2016,7 +2016,7 @@ func InternalValue() DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationBlockEmailOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationBlockEmailOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationBlockEmailOutputReference
 ```
@@ -2298,7 +2298,7 @@ func InternalValue() DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationMfaEmailOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationMfaEmailOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationMfaEmailOutputReference
 ```
@@ -2580,7 +2580,7 @@ func InternalValue() DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationNoActionEmailOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationNoActionEmailOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationNoActionEmailOutputReference
 ```
@@ -2862,7 +2862,7 @@ func InternalValue() DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationNotifyConfigurationOutputReference
 ```
@@ -3177,7 +3177,7 @@ func InternalValue() DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationOutputReference
 ```
@@ -3448,7 +3448,7 @@ func InternalValue() DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfigurationActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfigurationActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfigurationActionsOutputReference
 ```
@@ -3708,7 +3708,7 @@ func InternalValue() DataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfigurationOutputReference
 ```
@@ -3979,7 +3979,7 @@ func InternalValue() DataAwsccCognitoUserPoolRiskConfigurationAttachmentCompromi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRiskConfigurationAttachment.DataAwsccCognitoUserPoolRiskConfigurationAttachmentRiskExceptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolriskconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolriskconfigurationattachment"
 
 dataawscccognitouserpoolriskconfigurationattachment.NewDataAwsccCognitoUserPoolRiskConfigurationAttachmentRiskExceptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRiskConfigurationAttachmentRiskExceptionConfigurationOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### Route53ResolverResolverQueryLoggingConfig <a name="Route53ResolverResolverQueryLoggingConfig" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfig.Route53ResolverResolverQueryLoggingConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfig.Route53ResolverResolverQueryLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverqueryloggingconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverqueryloggingconfig"
 
 route53resolverresolverqueryloggingconfig.NewRoute53ResolverResolverQueryLoggingConfig(scope Construct, id *string, config Route53ResolverResolverQueryLoggingConfigConfig) Route53ResolverResolverQueryLoggingConfig
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfig.Route53ResolverResolverQueryLoggingConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverqueryloggingconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverqueryloggingconfig"
 
 route53resolverresolverqueryloggingconfig.Route53ResolverResolverQueryLoggingConfig_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfig.Route53ResolverResolverQueryLoggingConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverqueryloggingconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverqueryloggingconfig"
 
 route53resolverresolverqueryloggingconfig.Route53ResolverResolverQueryLoggingConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ route53resolverresolverqueryloggingconfig.Route53ResolverResolverQueryLoggingCon
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfig.Route53ResolverResolverQueryLoggingConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverqueryloggingconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverqueryloggingconfig"
 
 route53resolverresolverqueryloggingconfig.Route53ResolverResolverQueryLoggingConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ route53resolverresolverqueryloggingconfig.Route53ResolverResolverQueryLoggingCon
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfig.Route53ResolverResolverQueryLoggingConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverqueryloggingconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverqueryloggingconfig"
 
 route53resolverresolverqueryloggingconfig.Route53ResolverResolverQueryLoggingConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the Route53ResolverResolverQue
 
 The id of the existing Route53ResolverResolverQueryLoggingConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_query_logging_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_query_logging_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -888,7 +888,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfig.Route53ResolverResolverQueryLoggingConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverqueryloggingconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverqueryloggingconfig"
 
 &route53resolverresolverqueryloggingconfig.Route53ResolverResolverQueryLoggingConfigConfig {
 	Connection: interface{},
@@ -1001,7 +1001,7 @@ DestinationArn *string
 
 destination arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_query_logging_config#destination_arn Route53ResolverResolverQueryLoggingConfig#destination_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_query_logging_config#destination_arn Route53ResolverResolverQueryLoggingConfig#destination_arn}
 
 ---
 
@@ -1015,7 +1015,7 @@ Name *string
 
 ResolverQueryLogConfigName.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_query_logging_config#name Route53ResolverResolverQueryLoggingConfig#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_query_logging_config#name Route53ResolverResolverQueryLoggingConfig#name}
 
 ---
 
@@ -1029,7 +1029,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_query_logging_config#tags Route53ResolverResolverQueryLoggingConfig#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_query_logging_config#tags Route53ResolverResolverQueryLoggingConfig#tags}
 
 ---
 
@@ -1038,7 +1038,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfig.Route53ResolverResolverQueryLoggingConfigTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverqueryloggingconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverqueryloggingconfig"
 
 &route53resolverresolverqueryloggingconfig.Route53ResolverResolverQueryLoggingConfigTags {
 	Key: *string,
@@ -1067,7 +1067,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_query_logging_config#key Route53ResolverResolverQueryLoggingConfig#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_query_logging_config#key Route53ResolverResolverQueryLoggingConfig#key}
 
 ---
 
@@ -1083,7 +1083,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_query_logging_config#value Route53ResolverResolverQueryLoggingConfig#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_query_logging_config#value Route53ResolverResolverQueryLoggingConfig#value}
 
 ---
 
@@ -1094,7 +1094,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfig.Route53ResolverResolverQueryLoggingConfigTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverqueryloggingconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverqueryloggingconfig"
 
 route53resolverresolverqueryloggingconfig.NewRoute53ResolverResolverQueryLoggingConfigTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Route53ResolverResolverQueryLoggingConfigTagsList
 ```
@@ -1254,7 +1254,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfig.Route53ResolverResolverQueryLoggingConfigTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverqueryloggingconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverqueryloggingconfig"
 
 route53resolverresolverqueryloggingconfig.NewRoute53ResolverResolverQueryLoggingConfigTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Route53ResolverResolverQueryLoggingConfigTagsOutputReference
 ```

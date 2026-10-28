@@ -4,12 +4,12 @@
 
 ### DataAwsccGuarddutyTrustedEntitySets <a name="DataAwsccGuarddutyTrustedEntitySets" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySets.DataAwsccGuarddutyTrustedEntitySets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_trusted_entity_sets awscc_guardduty_trusted_entity_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_trusted_entity_sets awscc_guardduty_trusted_entity_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySets.DataAwsccGuarddutyTrustedEntitySets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutytrustedentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutytrustedentitysets"
 
 dataawsccguarddutytrustedentitysets.NewDataAwsccGuarddutyTrustedEntitySets(scope Construct, id *string, config DataAwsccGuarddutyTrustedEntitySetsConfig) DataAwsccGuarddutyTrustedEntitySets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySets.DataAwsccGuarddutyTrustedEntitySets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutytrustedentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutytrustedentitysets"
 
 dataawsccguarddutytrustedentitysets.DataAwsccGuarddutyTrustedEntitySets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySets.DataAwsccGuarddutyTrustedEntitySets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutytrustedentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutytrustedentitysets"
 
 dataawsccguarddutytrustedentitysets.DataAwsccGuarddutyTrustedEntitySets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccguarddutytrustedentitysets.DataAwsccGuarddutyTrustedEntitySets_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySets.DataAwsccGuarddutyTrustedEntitySets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutytrustedentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutytrustedentitysets"
 
 dataawsccguarddutytrustedentitysets.DataAwsccGuarddutyTrustedEntitySets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccguarddutytrustedentitysets.DataAwsccGuarddutyTrustedEntitySets_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySets.DataAwsccGuarddutyTrustedEntitySets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutytrustedentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutytrustedentitysets"
 
 dataawsccguarddutytrustedentitysets.DataAwsccGuarddutyTrustedEntitySets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGuarddutyTrustedE
 
 The id of the existing DataAwsccGuarddutyTrustedEntitySets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_trusted_entity_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_trusted_entity_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySets.DataAwsccGuarddutyTrustedEntitySetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutytrustedentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutytrustedentitysets"
 
 &dataawsccguarddutytrustedentitysets.DataAwsccGuarddutyTrustedEntitySetsConfig {
 	Connection: interface{},

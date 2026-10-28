@@ -4,12 +4,12 @@
 
 ### DataAwsccFinspaceEnvironments <a name="DataAwsccFinspaceEnvironments" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironments.DataAwsccFinspaceEnvironments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/finspace_environments awscc_finspace_environments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/finspace_environments awscc_finspace_environments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironments.DataAwsccFinspaceEnvironments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironments"
 
 dataawsccfinspaceenvironments.NewDataAwsccFinspaceEnvironments(scope Construct, id *string, config DataAwsccFinspaceEnvironmentsConfig) DataAwsccFinspaceEnvironments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironments.DataAwsccFinspaceEnvironments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironments"
 
 dataawsccfinspaceenvironments.DataAwsccFinspaceEnvironments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironments.DataAwsccFinspaceEnvironments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironments"
 
 dataawsccfinspaceenvironments.DataAwsccFinspaceEnvironments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfinspaceenvironments.DataAwsccFinspaceEnvironments_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironments.DataAwsccFinspaceEnvironments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironments"
 
 dataawsccfinspaceenvironments.DataAwsccFinspaceEnvironments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfinspaceenvironments.DataAwsccFinspaceEnvironments_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironments.DataAwsccFinspaceEnvironments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironments"
 
 dataawsccfinspaceenvironments.DataAwsccFinspaceEnvironments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFinspaceEnvironme
 
 The id of the existing DataAwsccFinspaceEnvironments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/finspace_environments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/finspace_environments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironments.DataAwsccFinspaceEnvironmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironments"
 
 &dataawsccfinspaceenvironments.DataAwsccFinspaceEnvironmentsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerWorkteams <a name="DataAwsccSagemakerWorkteams" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteams.DataAwsccSagemakerWorkteams"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_workteams awscc_sagemaker_workteams}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_workteams awscc_sagemaker_workteams}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteams.DataAwsccSagemakerWorkteams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteams"
 
 dataawsccsagemakerworkteams.NewDataAwsccSagemakerWorkteams(scope Construct, id *string, config DataAwsccSagemakerWorkteamsConfig) DataAwsccSagemakerWorkteams
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteams.DataAwsccSagemakerWorkteams.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteams"
 
 dataawsccsagemakerworkteams.DataAwsccSagemakerWorkteams_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteams.DataAwsccSagemakerWorkteams.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteams"
 
 dataawsccsagemakerworkteams.DataAwsccSagemakerWorkteams_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerworkteams.DataAwsccSagemakerWorkteams_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteams.DataAwsccSagemakerWorkteams.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteams"
 
 dataawsccsagemakerworkteams.DataAwsccSagemakerWorkteams_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerworkteams.DataAwsccSagemakerWorkteams_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteams.DataAwsccSagemakerWorkteams.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteams"
 
 dataawsccsagemakerworkteams.DataAwsccSagemakerWorkteams_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerWorkteam
 
 The id of the existing DataAwsccSagemakerWorkteams that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_workteams#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_workteams#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteams.DataAwsccSagemakerWorkteamsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteams"
 
 &dataawsccsagemakerworkteams.DataAwsccSagemakerWorkteamsConfig {
 	Connection: interface{},

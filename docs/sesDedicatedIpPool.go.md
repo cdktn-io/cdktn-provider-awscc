@@ -4,12 +4,12 @@
 
 ### SesDedicatedIpPool <a name="SesDedicatedIpPool" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesdedicatedippool"
 
 sesdedicatedippool.NewSesDedicatedIpPool(scope Construct, id *string, config SesDedicatedIpPoolConfig) SesDedicatedIpPool
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesdedicatedippool"
 
 sesdedicatedippool.SesDedicatedIpPool_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesdedicatedippool"
 
 sesdedicatedippool.SesDedicatedIpPool_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ sesdedicatedippool.SesDedicatedIpPool_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPool.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesdedicatedippool"
 
 sesdedicatedippool.SesDedicatedIpPool_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ sesdedicatedippool.SesDedicatedIpPool_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesdedicatedippool"
 
 sesdedicatedippool.SesDedicatedIpPool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the SesDedicatedIpPool to impo
 
 The id of the existing SesDedicatedIpPool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_dedicated_ip_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_dedicated_ip_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -800,7 +800,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesdedicatedippool"
 
 &sesdedicatedippool.SesDedicatedIpPoolConfig {
 	Connection: interface{},
@@ -913,7 +913,7 @@ PoolName *string
 
 The name of the dedicated IP pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_dedicated_ip_pool#pool_name SesDedicatedIpPool#pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_dedicated_ip_pool#pool_name SesDedicatedIpPool#pool_name}
 
 ---
 
@@ -927,7 +927,7 @@ ScalingMode *string
 
 Specifies whether the dedicated IP pool is managed or not. The default value is STANDARD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_dedicated_ip_pool#scaling_mode SesDedicatedIpPool#scaling_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_dedicated_ip_pool#scaling_mode SesDedicatedIpPool#scaling_mode}
 
 ---
 
@@ -941,7 +941,7 @@ Tags interface{}
 
 The tags (keys and values) associated with the dedicated IP pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_dedicated_ip_pool#tags SesDedicatedIpPool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_dedicated_ip_pool#tags SesDedicatedIpPool#tags}
 
 ---
 
@@ -950,7 +950,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesdedicatedippool"
 
 &sesdedicatedippool.SesDedicatedIpPoolTags {
 	Key: *string,
@@ -962,8 +962,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesdedicatedippool"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}. |
 
 ---
 
@@ -975,7 +975,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}.
 
 ---
 
@@ -987,7 +987,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}.
 
 ---
 
@@ -998,7 +998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesdedicatedippool"
 
 sesdedicatedippool.NewSesDedicatedIpPoolTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SesDedicatedIpPoolTagsList
 ```
@@ -1158,7 +1158,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesDedicatedIpPool.SesDedicatedIpPoolTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesdedicatedippool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesdedicatedippool"
 
 sesdedicatedippool.NewSesDedicatedIpPoolTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SesDedicatedIpPoolTagsOutputReference
 ```

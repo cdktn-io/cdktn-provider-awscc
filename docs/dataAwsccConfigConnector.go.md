@@ -4,12 +4,12 @@
 
 ### DataAwsccConfigConnector <a name="DataAwsccConfigConnector" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_connector awscc_config_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_connector awscc_config_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 dataawsccconfigconnector.NewDataAwsccConfigConnector(scope Construct, id *string, config DataAwsccConfigConnectorConfig) DataAwsccConfigConnector
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 dataawsccconfigconnector.DataAwsccConfigConnector_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 dataawsccconfigconnector.DataAwsccConfigConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconfigconnector.DataAwsccConfigConnector_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnector.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 dataawsccconfigconnector.DataAwsccConfigConnector_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconfigconnector.DataAwsccConfigConnector_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 dataawsccconfigconnector.DataAwsccConfigConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConfigConnector t
 
 The id of the existing DataAwsccConfigConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 &dataawsccconfigconnector.DataAwsccConfigConnectorConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_connector#id DataAwsccConfigConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_connector#id DataAwsccConfigConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 &dataawsccconfigconnector.DataAwsccConfigConnectorConnectorConfiguration {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationAzure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 &dataawsccconfigconnector.DataAwsccConfigConnectorConnectorConfigurationAzure {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 &dataawsccconfigconnector.DataAwsccConfigConnectorTags {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationAzureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 dataawsccconfigconnector.NewDataAwsccConfigConnectorConnectorConfigurationAzureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConnectorConnectorConfigurationAzureOutputReference
 ```
@@ -1075,7 +1075,7 @@ func InternalValue() DataAwsccConfigConnectorConnectorConfigurationAzure
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 dataawsccconfigconnector.NewDataAwsccConfigConnectorConnectorConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConnectorConnectorConfigurationOutputReference
 ```
@@ -1335,7 +1335,7 @@ func InternalValue() DataAwsccConfigConnectorConnectorConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 dataawsccconfigconnector.NewDataAwsccConfigConnectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConfigConnectorTagsList
 ```
@@ -1484,7 +1484,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconnector"
 
 dataawsccconfigconnector.NewDataAwsccConfigConnectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConfigConnectorTagsOutputReference
 ```

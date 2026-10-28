@@ -4,12 +4,12 @@
 
 ### DataAwsccNeptuneDbClusterParameterGroups <a name="DataAwsccNeptuneDbClusterParameterGroups" id="@cdktn/provider-awscc.dataAwsccNeptuneDbClusterParameterGroups.DataAwsccNeptuneDbClusterParameterGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_cluster_parameter_groups awscc_neptune_db_cluster_parameter_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_cluster_parameter_groups awscc_neptune_db_cluster_parameter_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNeptuneDbClusterParameterGroups.DataAwsccNeptuneDbClusterParameterGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbclusterparametergroups"
 
 dataawsccneptunedbclusterparametergroups.NewDataAwsccNeptuneDbClusterParameterGroups(scope Construct, id *string, config DataAwsccNeptuneDbClusterParameterGroupsConfig) DataAwsccNeptuneDbClusterParameterGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNeptuneDbClusterParameterGroups.DataAwsccNeptuneDbClusterParameterGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbclusterparametergroups"
 
 dataawsccneptunedbclusterparametergroups.DataAwsccNeptuneDbClusterParameterGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNeptuneDbClusterParameterGroups.DataAwsccNeptuneDbClusterParameterGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbclusterparametergroups"
 
 dataawsccneptunedbclusterparametergroups.DataAwsccNeptuneDbClusterParameterGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccneptunedbclusterparametergroups.DataAwsccNeptuneDbClusterParameterGroup
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNeptuneDbClusterParameterGroups.DataAwsccNeptuneDbClusterParameterGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbclusterparametergroups"
 
 dataawsccneptunedbclusterparametergroups.DataAwsccNeptuneDbClusterParameterGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccneptunedbclusterparametergroups.DataAwsccNeptuneDbClusterParameterGroup
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNeptuneDbClusterParameterGroups.DataAwsccNeptuneDbClusterParameterGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbclusterparametergroups"
 
 dataawsccneptunedbclusterparametergroups.DataAwsccNeptuneDbClusterParameterGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNeptuneDbClusterP
 
 The id of the existing DataAwsccNeptuneDbClusterParameterGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNeptuneDbClusterParameterGroups.DataAwsccNeptuneDbClusterParameterGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbclusterparametergroups"
 
 &dataawsccneptunedbclusterparametergroups.DataAwsccNeptuneDbClusterParameterGroupsConfig {
 	Connection: interface{},

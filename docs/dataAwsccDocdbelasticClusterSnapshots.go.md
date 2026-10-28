@@ -4,12 +4,12 @@
 
 ### DataAwsccDocdbelasticClusterSnapshots <a name="DataAwsccDocdbelasticClusterSnapshots" id="@cdktn/provider-awscc.dataAwsccDocdbelasticClusterSnapshots.DataAwsccDocdbelasticClusterSnapshots"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdbelastic_cluster_snapshots awscc_docdbelastic_cluster_snapshots}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdbelastic_cluster_snapshots awscc_docdbelastic_cluster_snapshots}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDocdbelasticClusterSnapshots.DataAwsccDocdbelasticClusterSnapshots.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbelasticclustersnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbelasticclustersnapshots"
 
 dataawsccdocdbelasticclustersnapshots.NewDataAwsccDocdbelasticClusterSnapshots(scope Construct, id *string, config DataAwsccDocdbelasticClusterSnapshotsConfig) DataAwsccDocdbelasticClusterSnapshots
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDocdbelasticClusterSnapshots.DataAwsccDocdbelasticClusterSnapshots.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbelasticclustersnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbelasticclustersnapshots"
 
 dataawsccdocdbelasticclustersnapshots.DataAwsccDocdbelasticClusterSnapshots_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDocdbelasticClusterSnapshots.DataAwsccDocdbelasticClusterSnapshots.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbelasticclustersnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbelasticclustersnapshots"
 
 dataawsccdocdbelasticclustersnapshots.DataAwsccDocdbelasticClusterSnapshots_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdocdbelasticclustersnapshots.DataAwsccDocdbelasticClusterSnapshots_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDocdbelasticClusterSnapshots.DataAwsccDocdbelasticClusterSnapshots.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbelasticclustersnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbelasticclustersnapshots"
 
 dataawsccdocdbelasticclustersnapshots.DataAwsccDocdbelasticClusterSnapshots_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdocdbelasticclustersnapshots.DataAwsccDocdbelasticClusterSnapshots_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDocdbelasticClusterSnapshots.DataAwsccDocdbelasticClusterSnapshots.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbelasticclustersnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbelasticclustersnapshots"
 
 dataawsccdocdbelasticclustersnapshots.DataAwsccDocdbelasticClusterSnapshots_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDocdbelasticClust
 
 The id of the existing DataAwsccDocdbelasticClusterSnapshots that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdbelastic_cluster_snapshots#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdbelastic_cluster_snapshots#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDocdbelasticClusterSnapshots.DataAwsccDocdbelasticClusterSnapshotsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbelasticclustersnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbelasticclustersnapshots"
 
 &dataawsccdocdbelasticclustersnapshots.DataAwsccDocdbelasticClusterSnapshotsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccLookoutmetricsAlert <a name="DataAwsccLookoutmetricsAlert" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlert"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutmetrics_alert awscc_lookoutmetrics_alert}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutmetrics_alert awscc_lookoutmetrics_alert}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlert.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 dataawscclookoutmetricsalert.NewDataAwsccLookoutmetricsAlert(scope Construct, id *string, config DataAwsccLookoutmetricsAlertConfig) DataAwsccLookoutmetricsAlert
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlert.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 dataawscclookoutmetricsalert.DataAwsccLookoutmetricsAlert_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlert.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 dataawscclookoutmetricsalert.DataAwsccLookoutmetricsAlert_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclookoutmetricsalert.DataAwsccLookoutmetricsAlert_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlert.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 dataawscclookoutmetricsalert.DataAwsccLookoutmetricsAlert_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclookoutmetricsalert.DataAwsccLookoutmetricsAlert_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlert.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 dataawscclookoutmetricsalert.DataAwsccLookoutmetricsAlert_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLookoutmetricsAle
 
 The id of the existing DataAwsccLookoutmetricsAlert that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutmetrics_alert#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutmetrics_alert#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlertAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 &dataawscclookoutmetricsalert.DataAwsccLookoutmetricsAlertAction {
 
@@ -666,7 +666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlertActionLambdaConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 &dataawscclookoutmetricsalert.DataAwsccLookoutmetricsAlertActionLambdaConfiguration {
 
@@ -679,7 +679,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlertActionSnsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 &dataawscclookoutmetricsalert.DataAwsccLookoutmetricsAlertActionSnsConfiguration {
 
@@ -692,7 +692,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetric
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlertConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 &dataawscclookoutmetricsalert.DataAwsccLookoutmetricsAlertConfig {
 	Connection: interface{},
@@ -801,7 +801,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutmetrics_alert#id DataAwsccLookoutmetricsAlert#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutmetrics_alert#id DataAwsccLookoutmetricsAlert#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -815,7 +815,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlertActionLambdaConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 dataawscclookoutmetricsalert.NewDataAwsccLookoutmetricsAlertActionLambdaConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAlertActionLambdaConfigurationOutputReference
 ```
@@ -1086,7 +1086,7 @@ func InternalValue() DataAwsccLookoutmetricsAlertActionLambdaConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlertActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 dataawscclookoutmetricsalert.NewDataAwsccLookoutmetricsAlertActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAlertActionOutputReference
 ```
@@ -1357,7 +1357,7 @@ func InternalValue() DataAwsccLookoutmetricsAlertAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAlert.DataAwsccLookoutmetricsAlertActionSnsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsalert"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsalert"
 
 dataawscclookoutmetricsalert.NewDataAwsccLookoutmetricsAlertActionSnsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLookoutmetricsAlertActionSnsConfigurationOutputReference
 ```

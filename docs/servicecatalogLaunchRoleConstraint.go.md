@@ -4,12 +4,12 @@
 
 ### ServicecatalogLaunchRoleConstraint <a name="ServicecatalogLaunchRoleConstraint" id="@cdktn/provider-awscc.servicecatalogLaunchRoleConstraint.ServicecatalogLaunchRoleConstraint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogLaunchRoleConstraint.ServicecatalogLaunchRoleConstraint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchroleconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchroleconstraint"
 
 servicecataloglaunchroleconstraint.NewServicecatalogLaunchRoleConstraint(scope Construct, id *string, config ServicecatalogLaunchRoleConstraintConfig) ServicecatalogLaunchRoleConstraint
 ```
@@ -428,7 +428,7 @@ func ResetRoleArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.servicecatalogLaunchRoleConstraint.ServicecatalogLaunchRoleConstraint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchroleconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchroleconstraint"
 
 servicecataloglaunchroleconstraint.ServicecatalogLaunchRoleConstraint_IsConstruct(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.servicecatalogLaunchRoleConstraint.ServicecatalogLaunchRoleConstraint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchroleconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchroleconstraint"
 
 servicecataloglaunchroleconstraint.ServicecatalogLaunchRoleConstraint_IsTerraformElement(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ servicecataloglaunchroleconstraint.ServicecatalogLaunchRoleConstraint_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.servicecatalogLaunchRoleConstraint.ServicecatalogLaunchRoleConstraint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchroleconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchroleconstraint"
 
 servicecataloglaunchroleconstraint.ServicecatalogLaunchRoleConstraint_IsTerraformResource(x interface{}) *bool
 ```
@@ -488,7 +488,7 @@ servicecataloglaunchroleconstraint.ServicecatalogLaunchRoleConstraint_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.servicecatalogLaunchRoleConstraint.ServicecatalogLaunchRoleConstraint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchroleconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchroleconstraint"
 
 servicecataloglaunchroleconstraint.ServicecatalogLaunchRoleConstraint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -517,7 +517,7 @@ The construct id used in the generated config for the ServicecatalogLaunchRoleCo
 
 The id of the existing ServicecatalogLaunchRoleConstraint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_role_constraint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_role_constraint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -871,7 +871,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.servicecatalogLaunchRoleConstraint.ServicecatalogLaunchRoleConstraintConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchroleconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchroleconstraint"
 
 &servicecataloglaunchroleconstraint.ServicecatalogLaunchRoleConstraintConfig {
 	Connection: interface{},
@@ -990,7 +990,7 @@ PortfolioId *string
 
 The ID of the portfolio to which this launch role constraint applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_role_constraint#portfolio_id ServicecatalogLaunchRoleConstraint#portfolio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_role_constraint#portfolio_id ServicecatalogLaunchRoleConstraint#portfolio_id}
 
 ---
 
@@ -1004,7 +1004,7 @@ ProductId *string
 
 The ID of the product to which this launch role constraint applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_role_constraint#product_id ServicecatalogLaunchRoleConstraint#product_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_role_constraint#product_id ServicecatalogLaunchRoleConstraint#product_id}
 
 ---
 
@@ -1018,7 +1018,7 @@ AcceptLanguage *string
 
 The language code for the constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_role_constraint#accept_language ServicecatalogLaunchRoleConstraint#accept_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_role_constraint#accept_language ServicecatalogLaunchRoleConstraint#accept_language}
 
 ---
 
@@ -1032,7 +1032,7 @@ Description *string
 
 The description of the launch role constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_role_constraint#description ServicecatalogLaunchRoleConstraint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_role_constraint#description ServicecatalogLaunchRoleConstraint#description}
 
 ---
 
@@ -1046,7 +1046,7 @@ LocalRoleName *string
 
 The local IAM role name to use in the launch constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_role_constraint#local_role_name ServicecatalogLaunchRoleConstraint#local_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_role_constraint#local_role_name ServicecatalogLaunchRoleConstraint#local_role_name}
 
 ---
 
@@ -1060,7 +1060,7 @@ RoleArn *string
 
 The ARN of the IAM role used for the launch constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_role_constraint#role_arn ServicecatalogLaunchRoleConstraint#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_role_constraint#role_arn ServicecatalogLaunchRoleConstraint#role_arn}
 
 ---
 

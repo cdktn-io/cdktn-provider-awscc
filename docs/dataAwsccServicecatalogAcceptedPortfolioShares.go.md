@@ -4,12 +4,12 @@
 
 ### DataAwsccServicecatalogAcceptedPortfolioShares <a name="DataAwsccServicecatalogAcceptedPortfolioShares" id="@cdktn/provider-awscc.dataAwsccServicecatalogAcceptedPortfolioShares.DataAwsccServicecatalogAcceptedPortfolioShares"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_accepted_portfolio_shares awscc_servicecatalog_accepted_portfolio_shares}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_accepted_portfolio_shares awscc_servicecatalog_accepted_portfolio_shares}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogAcceptedPortfolioShares.DataAwsccServicecatalogAcceptedPortfolioShares.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogacceptedportfolioshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogacceptedportfolioshares"
 
 dataawsccservicecatalogacceptedportfolioshares.NewDataAwsccServicecatalogAcceptedPortfolioShares(scope Construct, id *string, config DataAwsccServicecatalogAcceptedPortfolioSharesConfig) DataAwsccServicecatalogAcceptedPortfolioShares
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicecatalogAcceptedPortfolioShares.DataAwsccServicecatalogAcceptedPortfolioShares.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogacceptedportfolioshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogacceptedportfolioshares"
 
 dataawsccservicecatalogacceptedportfolioshares.DataAwsccServicecatalogAcceptedPortfolioShares_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicecatalogAcceptedPortfolioShares.DataAwsccServicecatalogAcceptedPortfolioShares.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogacceptedportfolioshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogacceptedportfolioshares"
 
 dataawsccservicecatalogacceptedportfolioshares.DataAwsccServicecatalogAcceptedPortfolioShares_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicecatalogacceptedportfolioshares.DataAwsccServicecatalogAcceptedPo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicecatalogAcceptedPortfolioShares.DataAwsccServicecatalogAcceptedPortfolioShares.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogacceptedportfolioshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogacceptedportfolioshares"
 
 dataawsccservicecatalogacceptedportfolioshares.DataAwsccServicecatalogAcceptedPortfolioShares_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicecatalogacceptedportfolioshares.DataAwsccServicecatalogAcceptedPo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicecatalogAcceptedPortfolioShares.DataAwsccServicecatalogAcceptedPortfolioShares.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogacceptedportfolioshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogacceptedportfolioshares"
 
 dataawsccservicecatalogacceptedportfolioshares.DataAwsccServicecatalogAcceptedPortfolioShares_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogAcc
 
 The id of the existing DataAwsccServicecatalogAcceptedPortfolioShares that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_accepted_portfolio_shares#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_accepted_portfolio_shares#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogAcceptedPortfolioShares.DataAwsccServicecatalogAcceptedPortfolioSharesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogacceptedportfolioshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogacceptedportfolioshares"
 
 &dataawsccservicecatalogacceptedportfolioshares.DataAwsccServicecatalogAcceptedPortfolioSharesConfig {
 	Connection: interface{},

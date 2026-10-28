@@ -4,12 +4,12 @@
 
 ### DataAwsccObservabilityadminOrganizationCentralizationRules <a name="DataAwsccObservabilityadminOrganizationCentralizationRules" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRules.DataAwsccObservabilityadminOrganizationCentralizationRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_organization_centralization_rules awscc_observabilityadmin_organization_centralization_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_organization_centralization_rules awscc_observabilityadmin_organization_centralization_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRules.DataAwsccObservabilityadminOrganizationCentralizationRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrules"
 
 dataawsccobservabilityadminorganizationcentralizationrules.NewDataAwsccObservabilityadminOrganizationCentralizationRules(scope Construct, id *string, config DataAwsccObservabilityadminOrganizationCentralizationRulesConfig) DataAwsccObservabilityadminOrganizationCentralizationRules
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRules.DataAwsccObservabilityadminOrganizationCentralizationRules.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrules"
 
 dataawsccobservabilityadminorganizationcentralizationrules.DataAwsccObservabilityadminOrganizationCentralizationRules_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRules.DataAwsccObservabilityadminOrganizationCentralizationRules.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrules"
 
 dataawsccobservabilityadminorganizationcentralizationrules.DataAwsccObservabilityadminOrganizationCentralizationRules_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccobservabilityadminorganizationcentralizationrules.DataAwsccObservabilit
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRules.DataAwsccObservabilityadminOrganizationCentralizationRules.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrules"
 
 dataawsccobservabilityadminorganizationcentralizationrules.DataAwsccObservabilityadminOrganizationCentralizationRules_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccobservabilityadminorganizationcentralizationrules.DataAwsccObservabilit
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRules.DataAwsccObservabilityadminOrganizationCentralizationRules.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrules"
 
 dataawsccobservabilityadminorganizationcentralizationrules.DataAwsccObservabilityadminOrganizationCentralizationRules_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccObservabilityadmi
 
 The id of the existing DataAwsccObservabilityadminOrganizationCentralizationRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_organization_centralization_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_organization_centralization_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRules.DataAwsccObservabilityadminOrganizationCentralizationRulesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrules"
 
 &dataawsccobservabilityadminorganizationcentralizationrules.DataAwsccObservabilityadminOrganizationCentralizationRulesConfig {
 	Connection: interface{},

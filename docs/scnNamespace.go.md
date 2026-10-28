@@ -4,12 +4,12 @@
 
 ### ScnNamespace <a name="ScnNamespace" id="@cdktn/provider-awscc.scnNamespace.ScnNamespace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace awscc_scn_namespace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace awscc_scn_namespace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnNamespace.ScnNamespace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scnnamespace"
 
 scnnamespace.NewScnNamespace(scope Construct, id *string, config ScnNamespaceConfig) ScnNamespace
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.scnNamespace.ScnNamespace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scnnamespace"
 
 scnnamespace.ScnNamespace_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.scnNamespace.ScnNamespace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scnnamespace"
 
 scnnamespace.ScnNamespace_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ scnnamespace.ScnNamespace_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.scnNamespace.ScnNamespace.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scnnamespace"
 
 scnnamespace.ScnNamespace_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ scnnamespace.ScnNamespace_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.scnNamespace.ScnNamespace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scnnamespace"
 
 scnnamespace.ScnNamespace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ScnNamespace to import.
 
 The id of the existing ScnNamespace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -848,7 +848,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnNamespace.ScnNamespaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scnnamespace"
 
 &scnnamespace.ScnNamespaceConfig {
 	Connection: interface{},
@@ -963,7 +963,7 @@ InstanceId *string
 
 The Amazon Web Services Supply Chain instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace#instance_id ScnNamespace#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace#instance_id ScnNamespace#instance_id}
 
 ---
 
@@ -977,7 +977,7 @@ Name *string
 
 The name of the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace#name ScnNamespace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace#name ScnNamespace#name}
 
 ---
 
@@ -991,7 +991,7 @@ Description *string
 
 The description of the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace#description ScnNamespace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace#description ScnNamespace#description}
 
 ---
 
@@ -1005,7 +1005,7 @@ Tags interface{}
 
 The tags for the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace#tags ScnNamespace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace#tags ScnNamespace#tags}
 
 ---
 
@@ -1014,7 +1014,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnNamespace.ScnNamespaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scnnamespace"
 
 &scnnamespace.ScnNamespaceTags {
 	Key: *string,
@@ -1026,8 +1026,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.scnNamespace.ScnNamespaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace#key ScnNamespace#key}. |
-| <code><a href="#@cdktn/provider-awscc.scnNamespace.ScnNamespaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace#value ScnNamespace#value}. |
+| <code><a href="#@cdktn/provider-awscc.scnNamespace.ScnNamespaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace#key ScnNamespace#key}. |
+| <code><a href="#@cdktn/provider-awscc.scnNamespace.ScnNamespaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace#value ScnNamespace#value}. |
 
 ---
 
@@ -1039,7 +1039,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace#key ScnNamespace#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace#key ScnNamespace#key}.
 
 ---
 
@@ -1051,7 +1051,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace#value ScnNamespace#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace#value ScnNamespace#value}.
 
 ---
 
@@ -1062,7 +1062,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnNamespace.ScnNamespaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scnnamespace"
 
 scnnamespace.NewScnNamespaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ScnNamespaceTagsList
 ```
@@ -1222,7 +1222,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnNamespace.ScnNamespaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scnnamespace"
 
 scnnamespace.NewScnNamespaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ScnNamespaceTagsOutputReference
 ```

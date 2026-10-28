@@ -4,12 +4,12 @@
 
 ### DataAwsccMediatailorLiveSource <a name="DataAwsccMediatailorLiveSource" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_live_source awscc_mediatailor_live_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_live_source awscc_mediatailor_live_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 dataawsccmediatailorlivesource.NewDataAwsccMediatailorLiveSource(scope Construct, id *string, config DataAwsccMediatailorLiveSourceConfig) DataAwsccMediatailorLiveSource
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 dataawsccmediatailorlivesource.DataAwsccMediatailorLiveSource_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 dataawsccmediatailorlivesource.DataAwsccMediatailorLiveSource_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediatailorlivesource.DataAwsccMediatailorLiveSource_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSource.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 dataawsccmediatailorlivesource.DataAwsccMediatailorLiveSource_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediatailorlivesource.DataAwsccMediatailorLiveSource_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 dataawsccmediatailorlivesource.DataAwsccMediatailorLiveSource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediatailorLiveSo
 
 The id of the existing DataAwsccMediatailorLiveSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_live_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_live_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 &dataawsccmediatailorlivesource.DataAwsccMediatailorLiveSourceConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_live_source#id DataAwsccMediatailorLiveSource#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_live_source#id DataAwsccMediatailorLiveSource#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSourceHttpPackageConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 &dataawsccmediatailorlivesource.DataAwsccMediatailorLiveSourceHttpPackageConfigurations {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorli
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 &dataawsccmediatailorlivesource.DataAwsccMediatailorLiveSourceTags {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSourceHttpPackageConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 dataawsccmediatailorlivesource.NewDataAwsccMediatailorLiveSourceHttpPackageConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorLiveSourceHttpPackageConfigurationsList
 ```
@@ -940,7 +940,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSourceHttpPackageConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 dataawsccmediatailorlivesource.NewDataAwsccMediatailorLiveSourceHttpPackageConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorLiveSourceHttpPackageConfigurationsOutputReference
 ```
@@ -1240,7 +1240,7 @@ func InternalValue() DataAwsccMediatailorLiveSourceHttpPackageConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 dataawsccmediatailorlivesource.NewDataAwsccMediatailorLiveSourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorLiveSourceTagsList
 ```
@@ -1389,7 +1389,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorLiveSource.DataAwsccMediatailorLiveSourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorlivesource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorlivesource"
 
 dataawsccmediatailorlivesource.NewDataAwsccMediatailorLiveSourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorLiveSourceTagsOutputReference
 ```

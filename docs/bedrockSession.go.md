@@ -4,12 +4,12 @@
 
 ### BedrockSession <a name="BedrockSession" id="@cdktn/provider-awscc.bedrockSession.BedrockSession"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_session awscc_bedrock_session}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_session awscc_bedrock_session}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockSession.BedrockSession.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrocksession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrocksession"
 
 bedrocksession.NewBedrockSession(scope Construct, id *string, config BedrockSessionConfig) BedrockSession
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockSession.BedrockSession.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrocksession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrocksession"
 
 bedrocksession.BedrockSession_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockSession.BedrockSession.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrocksession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrocksession"
 
 bedrocksession.BedrockSession_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ bedrocksession.BedrockSession_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockSession.BedrockSession.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrocksession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrocksession"
 
 bedrocksession.BedrockSession_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ bedrocksession.BedrockSession_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockSession.BedrockSession.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrocksession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrocksession"
 
 bedrocksession.BedrockSession_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the BedrockSession to import.
 
 The id of the existing BedrockSession that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_session#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_session#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockSession.BedrockSessionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrocksession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrocksession"
 
 &bedrocksession.BedrockSessionConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ EncryptionKeyArn *string
 
 The Amazon Resource Name (ARN) of the KMS key to use to encrypt the session data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_session#encryption_key_arn BedrockSession#encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_session#encryption_key_arn BedrockSession#encryption_key_arn}
 
 ---
 
@@ -982,7 +982,7 @@ SessionMetadata *map[string]*string
 
 A map of key-value pairs containing attributes to be persisted across the session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_session#session_metadata BedrockSession#session_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_session#session_metadata BedrockSession#session_metadata}
 
 ---
 
@@ -996,7 +996,7 @@ Tags interface{}
 
 A list of tags associated with the session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_session#tags BedrockSession#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_session#tags BedrockSession#tags}
 
 ---
 
@@ -1005,7 +1005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockSession.BedrockSessionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrocksession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrocksession"
 
 &bedrocksession.BedrockSessionTags {
 	Key: *string,
@@ -1032,7 +1032,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_session#key BedrockSession#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_session#key BedrockSession#key}
 
 ---
 
@@ -1046,7 +1046,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_session#value BedrockSession#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_session#value BedrockSession#value}
 
 ---
 
@@ -1057,7 +1057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockSession.BedrockSessionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrocksession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrocksession"
 
 bedrocksession.NewBedrockSessionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockSessionTagsList
 ```
@@ -1217,7 +1217,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockSession.BedrockSessionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrocksession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrocksession"
 
 bedrocksession.NewBedrockSessionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockSessionTagsOutputReference
 ```

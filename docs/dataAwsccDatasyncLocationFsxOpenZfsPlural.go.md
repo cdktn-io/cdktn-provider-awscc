@@ -4,12 +4,12 @@
 
 ### DataAwsccDatasyncLocationFsxOpenZfsPlural <a name="DataAwsccDatasyncLocationFsxOpenZfsPlural" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfsPlural.DataAwsccDatasyncLocationFsxOpenZfsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_open_zfs_plural awscc_datasync_location_fsx_open_zfs_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_open_zfs_plural awscc_datasync_location_fsx_open_zfs_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfsPlural.DataAwsccDatasyncLocationFsxOpenZfsPlural.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfsplural"
 
 dataawsccdatasynclocationfsxopenzfsplural.NewDataAwsccDatasyncLocationFsxOpenZfsPlural(scope Construct, id *string, config DataAwsccDatasyncLocationFsxOpenZfsPluralConfig) DataAwsccDatasyncLocationFsxOpenZfsPlural
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfsPlural.DataAwsccDatasyncLocationFsxOpenZfsPlural.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfsplural"
 
 dataawsccdatasynclocationfsxopenzfsplural.DataAwsccDatasyncLocationFsxOpenZfsPlural_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfsPlural.DataAwsccDatasyncLocationFsxOpenZfsPlural.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfsplural"
 
 dataawsccdatasynclocationfsxopenzfsplural.DataAwsccDatasyncLocationFsxOpenZfsPlural_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatasynclocationfsxopenzfsplural.DataAwsccDatasyncLocationFsxOpenZfsPlu
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfsPlural.DataAwsccDatasyncLocationFsxOpenZfsPlural.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfsplural"
 
 dataawsccdatasynclocationfsxopenzfsplural.DataAwsccDatasyncLocationFsxOpenZfsPlural_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatasynclocationfsxopenzfsplural.DataAwsccDatasyncLocationFsxOpenZfsPlu
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfsPlural.DataAwsccDatasyncLocationFsxOpenZfsPlural.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfsplural"
 
 dataawsccdatasynclocationfsxopenzfsplural.DataAwsccDatasyncLocationFsxOpenZfsPlural_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationF
 
 The id of the existing DataAwsccDatasyncLocationFsxOpenZfsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_open_zfs_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_open_zfs_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfsPlural.DataAwsccDatasyncLocationFsxOpenZfsPluralConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfsplural"
 
 &dataawsccdatasynclocationfsxopenzfsplural.DataAwsccDatasyncLocationFsxOpenZfsPluralConfig {
 	Connection: interface{},

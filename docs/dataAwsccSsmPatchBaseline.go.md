@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmPatchBaseline <a name="DataAwsccSsmPatchBaseline" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaseline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_patch_baseline awscc_ssm_patch_baseline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_patch_baseline awscc_ssm_patch_baseline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaseline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaseline(scope Construct, id *string, config DataAwsccSsmPatchBaselineConfig) DataAwsccSsmPatchBaseline
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaseline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.DataAwsccSsmPatchBaseline_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaseline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.DataAwsccSsmPatchBaseline_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmpatchbaseline.DataAwsccSsmPatchBaseline_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaseline.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.DataAwsccSsmPatchBaseline_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmpatchbaseline.DataAwsccSsmPatchBaseline_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaseline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.DataAwsccSsmPatchBaseline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmPatchBaseline 
 
 The id of the existing DataAwsccSsmPatchBaseline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_patch_baseline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_patch_baseline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineApprovalRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 &dataawsccssmpatchbaseline.DataAwsccSsmPatchBaselineApprovalRules {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbasel
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineApprovalRulesPatchRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 &dataawsccssmpatchbaseline.DataAwsccSsmPatchBaselineApprovalRulesPatchRules {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbasel
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 &dataawsccssmpatchbaseline.DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroup {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbasel
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupPatchFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 &dataawsccssmpatchbaseline.DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupPatchFilters {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbasel
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 &dataawsccssmpatchbaseline.DataAwsccSsmPatchBaselineConfig {
 	Connection: interface{},
@@ -924,7 +924,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_patch_baseline#id DataAwsccSsmPatchBaseline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_patch_baseline#id DataAwsccSsmPatchBaseline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -936,7 +936,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineGlobalFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 &dataawsccssmpatchbaseline.DataAwsccSsmPatchBaselineGlobalFilters {
 
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbasel
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineGlobalFiltersPatchFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 &dataawsccssmpatchbaseline.DataAwsccSsmPatchBaselineGlobalFiltersPatchFilters {
 
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbasel
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 &dataawsccssmpatchbaseline.DataAwsccSsmPatchBaselineSources {
 
@@ -975,7 +975,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbasel
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 &dataawsccssmpatchbaseline.DataAwsccSsmPatchBaselineTags {
 
@@ -990,7 +990,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbasel
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineApprovalRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineApprovalRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmPatchBaselineApprovalRulesOutputReference
 ```
@@ -1250,7 +1250,7 @@ func InternalValue() DataAwsccSsmPatchBaselineApprovalRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineApprovalRulesPatchRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineApprovalRulesPatchRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmPatchBaselineApprovalRulesPatchRulesList
 ```
@@ -1399,7 +1399,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineApprovalRulesPatchRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineApprovalRulesPatchRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmPatchBaselineApprovalRulesPatchRulesOutputReference
 ```
@@ -1721,7 +1721,7 @@ func InternalValue() DataAwsccSsmPatchBaselineApprovalRulesPatchRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupOutputReference
 ```
@@ -1981,7 +1981,7 @@ func InternalValue() DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupPatchFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupPatchFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupPatchFiltersList
 ```
@@ -2130,7 +2130,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupPatchFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupPatchFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupPatchFiltersOutputReference
 ```
@@ -2419,7 +2419,7 @@ func InternalValue() DataAwsccSsmPatchBaselineApprovalRulesPatchRulesPatchFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineGlobalFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineGlobalFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmPatchBaselineGlobalFiltersOutputReference
 ```
@@ -2679,7 +2679,7 @@ func InternalValue() DataAwsccSsmPatchBaselineGlobalFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineGlobalFiltersPatchFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineGlobalFiltersPatchFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmPatchBaselineGlobalFiltersPatchFiltersList
 ```
@@ -2828,7 +2828,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineGlobalFiltersPatchFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineGlobalFiltersPatchFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmPatchBaselineGlobalFiltersPatchFiltersOutputReference
 ```
@@ -3117,7 +3117,7 @@ func InternalValue() DataAwsccSsmPatchBaselineGlobalFiltersPatchFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmPatchBaselineSourcesList
 ```
@@ -3266,7 +3266,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmPatchBaselineSourcesOutputReference
 ```
@@ -3566,7 +3566,7 @@ func InternalValue() DataAwsccSsmPatchBaselineSources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmPatchBaselineTagsList
 ```
@@ -3715,7 +3715,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmPatchBaseline.DataAwsccSsmPatchBaselineTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmpatchbaseline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmpatchbaseline"
 
 dataawsccssmpatchbaseline.NewDataAwsccSsmPatchBaselineTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmPatchBaselineTagsOutputReference
 ```

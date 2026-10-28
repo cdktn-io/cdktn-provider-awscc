@@ -4,12 +4,12 @@
 
 ### DataAwsccKinesisfirehoseDeliveryStreams <a name="DataAwsccKinesisfirehoseDeliveryStreams" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStreams.DataAwsccKinesisfirehoseDeliveryStreams"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisfirehose_delivery_streams awscc_kinesisfirehose_delivery_streams}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisfirehose_delivery_streams awscc_kinesisfirehose_delivery_streams}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStreams.DataAwsccKinesisfirehoseDeliveryStreams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystreams"
 
 dataawscckinesisfirehosedeliverystreams.NewDataAwsccKinesisfirehoseDeliveryStreams(scope Construct, id *string, config DataAwsccKinesisfirehoseDeliveryStreamsConfig) DataAwsccKinesisfirehoseDeliveryStreams
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStreams.DataAwsccKinesisfirehoseDeliveryStreams.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystreams"
 
 dataawscckinesisfirehosedeliverystreams.DataAwsccKinesisfirehoseDeliveryStreams_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStreams.DataAwsccKinesisfirehoseDeliveryStreams.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystreams"
 
 dataawscckinesisfirehosedeliverystreams.DataAwsccKinesisfirehoseDeliveryStreams_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckinesisfirehosedeliverystreams.DataAwsccKinesisfirehoseDeliveryStreams_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStreams.DataAwsccKinesisfirehoseDeliveryStreams.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystreams"
 
 dataawscckinesisfirehosedeliverystreams.DataAwsccKinesisfirehoseDeliveryStreams_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckinesisfirehosedeliverystreams.DataAwsccKinesisfirehoseDeliveryStreams_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStreams.DataAwsccKinesisfirehoseDeliveryStreams.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystreams"
 
 dataawscckinesisfirehosedeliverystreams.DataAwsccKinesisfirehoseDeliveryStreams_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKinesisfirehoseDe
 
 The id of the existing DataAwsccKinesisfirehoseDeliveryStreams that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisfirehose_delivery_streams#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisfirehose_delivery_streams#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisfirehoseDeliveryStreams.DataAwsccKinesisfirehoseDeliveryStreamsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisfirehosedeliverystreams"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisfirehosedeliverystreams"
 
 &dataawscckinesisfirehosedeliverystreams.DataAwsccKinesisfirehoseDeliveryStreamsConfig {
 	Connection: interface{},

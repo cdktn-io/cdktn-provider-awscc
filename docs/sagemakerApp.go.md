@@ -4,12 +4,12 @@
 
 ### SagemakerApp <a name="SagemakerApp" id="@cdktn/provider-awscc.sagemakerApp.SagemakerApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app awscc_sagemaker_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app awscc_sagemaker_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerApp.SagemakerApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerapp"
 
 sagemakerapp.NewSagemakerApp(scope Construct, id *string, config SagemakerAppConfig) SagemakerApp
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sagemakerApp.SagemakerApp.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerapp"
 
 sagemakerapp.SagemakerApp_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sagemakerApp.SagemakerApp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerapp"
 
 sagemakerapp.SagemakerApp_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ sagemakerapp.SagemakerApp_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sagemakerApp.SagemakerApp.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerapp"
 
 sagemakerapp.SagemakerApp_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ sagemakerapp.SagemakerApp_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sagemakerApp.SagemakerApp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerapp"
 
 sagemakerapp.SagemakerApp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the SagemakerApp to import.
 
 The id of the existing SagemakerApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -923,7 +923,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerApp.SagemakerAppConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerapp"
 
 &sagemakerapp.SagemakerAppConfig {
 	Connection: interface{},
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
 	DomainId: *string,
 	UserProfileName: *string,
 	RecoveryMode: interface{},
-	ResourceSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerApp.SagemakerAppResourceSpec,
+	ResourceSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerApp.SagemakerAppResourceSpec,
 	Tags: interface{},
 }
 ```
@@ -1044,7 +1044,7 @@ AppName *string
 
 The name of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#app_name SagemakerApp#app_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#app_name SagemakerApp#app_name}
 
 ---
 
@@ -1058,7 +1058,7 @@ AppType *string
 
 The type of app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#app_type SagemakerApp#app_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#app_type SagemakerApp#app_type}
 
 ---
 
@@ -1072,7 +1072,7 @@ DomainId *string
 
 The domain ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#domain_id SagemakerApp#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#domain_id SagemakerApp#domain_id}
 
 ---
 
@@ -1086,7 +1086,7 @@ UserProfileName *string
 
 The user profile name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#user_profile_name SagemakerApp#user_profile_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#user_profile_name SagemakerApp#user_profile_name}
 
 ---
 
@@ -1100,7 +1100,7 @@ RecoveryMode interface{}
 
 Indicates whether the application is launched in recovery mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#recovery_mode SagemakerApp#recovery_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#recovery_mode SagemakerApp#recovery_mode}
 
 ---
 
@@ -1114,7 +1114,7 @@ ResourceSpec SagemakerAppResourceSpec
 
 The instance type and the Amazon Resource Name (ARN) of the SageMaker image created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#resource_spec SagemakerApp#resource_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#resource_spec SagemakerApp#resource_spec}
 
 ---
 
@@ -1128,7 +1128,7 @@ Tags interface{}
 
 A list of tags to apply to the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#tags SagemakerApp#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#tags SagemakerApp#tags}
 
 ---
 
@@ -1137,7 +1137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerApp.SagemakerAppResourceSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerapp"
 
 &sagemakerapp.SagemakerAppResourceSpec {
 	InstanceType: *string,
@@ -1168,7 +1168,7 @@ InstanceType *string
 
 The instance type that the image version runs on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#instance_type SagemakerApp#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#instance_type SagemakerApp#instance_type}
 
 ---
 
@@ -1182,7 +1182,7 @@ LifecycleConfigArn *string
 
 The Amazon Resource Name (ARN) of the Lifecycle Configuration to attach to the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#lifecycle_config_arn SagemakerApp#lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#lifecycle_config_arn SagemakerApp#lifecycle_config_arn}
 
 ---
 
@@ -1196,7 +1196,7 @@ SageMakerImageArn *string
 
 The ARN of the SageMaker image that the image version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#sage_maker_image_arn SagemakerApp#sage_maker_image_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#sage_maker_image_arn SagemakerApp#sage_maker_image_arn}
 
 ---
 
@@ -1210,7 +1210,7 @@ SageMakerImageVersionArn *string
 
 The ARN of the image version created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#sage_maker_image_version_arn SagemakerApp#sage_maker_image_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#sage_maker_image_version_arn SagemakerApp#sage_maker_image_version_arn}
 
 ---
 
@@ -1219,7 +1219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerApp.SagemakerAppTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerapp"
 
 &sagemakerapp.SagemakerAppTags {
 	Key: *string,
@@ -1231,8 +1231,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerApp.SagemakerAppTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#key SagemakerApp#key}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerApp.SagemakerAppTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#value SagemakerApp#value}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerApp.SagemakerAppTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#key SagemakerApp#key}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerApp.SagemakerAppTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#value SagemakerApp#value}. |
 
 ---
 
@@ -1244,7 +1244,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#key SagemakerApp#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#key SagemakerApp#key}.
 
 ---
 
@@ -1256,7 +1256,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app#value SagemakerApp#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app#value SagemakerApp#value}.
 
 ---
 
@@ -1267,7 +1267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerApp.SagemakerAppResourceSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerapp"
 
 sagemakerapp.NewSagemakerAppResourceSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerAppResourceSpecOutputReference
 ```
@@ -1632,7 +1632,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerApp.SagemakerAppTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerapp"
 
 sagemakerapp.NewSagemakerAppTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerAppTagsList
 ```
@@ -1792,7 +1792,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerApp.SagemakerAppTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerapp"
 
 sagemakerapp.NewSagemakerAppTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerAppTagsOutputReference
 ```

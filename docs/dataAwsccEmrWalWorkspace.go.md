@@ -4,12 +4,12 @@
 
 ### DataAwsccEmrWalWorkspace <a name="DataAwsccEmrWalWorkspace" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspace.DataAwsccEmrWalWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_wal_workspace awscc_emr_wal_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_wal_workspace awscc_emr_wal_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspace.DataAwsccEmrWalWorkspace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspace"
 
 dataawsccemrwalworkspace.NewDataAwsccEmrWalWorkspace(scope Construct, id *string, config DataAwsccEmrWalWorkspaceConfig) DataAwsccEmrWalWorkspace
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspace.DataAwsccEmrWalWorkspace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspace"
 
 dataawsccemrwalworkspace.DataAwsccEmrWalWorkspace_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspace.DataAwsccEmrWalWorkspace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspace"
 
 dataawsccemrwalworkspace.DataAwsccEmrWalWorkspace_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccemrwalworkspace.DataAwsccEmrWalWorkspace_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspace.DataAwsccEmrWalWorkspace.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspace"
 
 dataawsccemrwalworkspace.DataAwsccEmrWalWorkspace_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccemrwalworkspace.DataAwsccEmrWalWorkspace_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspace.DataAwsccEmrWalWorkspace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspace"
 
 dataawsccemrwalworkspace.DataAwsccEmrWalWorkspace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEmrWalWorkspace t
 
 The id of the existing DataAwsccEmrWalWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_wal_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_wal_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspace.DataAwsccEmrWalWorkspaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspace"
 
 &dataawsccemrwalworkspace.DataAwsccEmrWalWorkspaceConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_wal_workspace#id DataAwsccEmrWalWorkspace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_wal_workspace#id DataAwsccEmrWalWorkspace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -730,7 +730,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspace.DataAwsccEmrWalWorkspaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspace"
 
 &dataawsccemrwalworkspace.DataAwsccEmrWalWorkspaceTags {
 
@@ -745,7 +745,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspace.DataAwsccEmrWalWorkspaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspace"
 
 dataawsccemrwalworkspace.NewDataAwsccEmrWalWorkspaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEmrWalWorkspaceTagsList
 ```
@@ -894,7 +894,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrWalWorkspace.DataAwsccEmrWalWorkspaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspace"
 
 dataawsccemrwalworkspace.NewDataAwsccEmrWalWorkspaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEmrWalWorkspaceTagsOutputReference
 ```

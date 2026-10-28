@@ -4,12 +4,12 @@
 
 ### MacieAllowList <a name="MacieAllowList" id="@cdktn/provider-awscc.macieAllowList.MacieAllowList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list awscc_macie_allow_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list awscc_macie_allow_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieAllowList.MacieAllowList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 macieallowlist.NewMacieAllowList(scope Construct, id *string, config MacieAllowListConfig) MacieAllowList
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.macieAllowList.MacieAllowList.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 macieallowlist.MacieAllowList_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.macieAllowList.MacieAllowList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 macieallowlist.MacieAllowList_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ macieallowlist.MacieAllowList_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.macieAllowList.MacieAllowList.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 macieallowlist.MacieAllowList_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ macieallowlist.MacieAllowList_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.macieAllowList.MacieAllowList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 macieallowlist.MacieAllowList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the MacieAllowList to import.
 
 The id of the existing MacieAllowList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -861,7 +861,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.macieAllowList.MacieAllowListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 &macieallowlist.MacieAllowListConfig {
 	Connection: interface{},
@@ -871,7 +871,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Criteria: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.macieAllowList.MacieAllowListCriteria,
+	Criteria: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.macieAllowList.MacieAllowListCriteria,
 	Name: *string,
 	Description: *string,
 	Tags: interface{},
@@ -976,7 +976,7 @@ Criteria MacieAllowListCriteria
 
 AllowList criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#criteria MacieAllowList#criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#criteria MacieAllowList#criteria}
 
 ---
 
@@ -990,7 +990,7 @@ Name *string
 
 Name of AllowList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#name MacieAllowList#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#name MacieAllowList#name}
 
 ---
 
@@ -1004,7 +1004,7 @@ Description *string
 
 Description of AllowList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#description MacieAllowList#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#description MacieAllowList#description}
 
 ---
 
@@ -1018,7 +1018,7 @@ Tags interface{}
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#tags MacieAllowList#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#tags MacieAllowList#tags}
 
 ---
 
@@ -1027,11 +1027,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 &macieallowlist.MacieAllowListCriteria {
 	Regex: *string,
-	S3WordsList: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.macieAllowList.MacieAllowListCriteriaS3WordsListStruct,
+	S3WordsList: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.macieAllowList.MacieAllowListCriteriaS3WordsListStruct,
 }
 ```
 
@@ -1054,7 +1054,7 @@ Regex *string
 
 The S3 object key for the AllowList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#regex MacieAllowList#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#regex MacieAllowList#regex}
 
 ---
 
@@ -1068,7 +1068,7 @@ S3WordsList MacieAllowListCriteriaS3WordsListStruct
 
 The S3 location for the AllowList.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#s3_words_list MacieAllowList#s3_words_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#s3_words_list MacieAllowList#s3_words_list}
 
 ---
 
@@ -1077,7 +1077,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteriaS3WordsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 &macieallowlist.MacieAllowListCriteriaS3WordsListStruct {
 	BucketName: *string,
@@ -1089,8 +1089,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteriaS3WordsListStruct.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#bucket_name MacieAllowList#bucket_name}. |
-| <code><a href="#@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteriaS3WordsListStruct.property.objectKey">ObjectKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#object_key MacieAllowList#object_key}. |
+| <code><a href="#@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteriaS3WordsListStruct.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#bucket_name MacieAllowList#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteriaS3WordsListStruct.property.objectKey">ObjectKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#object_key MacieAllowList#object_key}. |
 
 ---
 
@@ -1102,7 +1102,7 @@ BucketName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#bucket_name MacieAllowList#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#bucket_name MacieAllowList#bucket_name}.
 
 ---
 
@@ -1114,7 +1114,7 @@ ObjectKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#object_key MacieAllowList#object_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#object_key MacieAllowList#object_key}.
 
 ---
 
@@ -1123,7 +1123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.macieAllowList.MacieAllowListTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 &macieallowlist.MacieAllowListTags {
 	Key: *string,
@@ -1150,7 +1150,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#key MacieAllowList#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#key MacieAllowList#key}
 
 ---
 
@@ -1164,7 +1164,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_allow_list#value MacieAllowList#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_allow_list#value MacieAllowList#value}
 
 ---
 
@@ -1175,7 +1175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 macieallowlist.NewMacieAllowListCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MacieAllowListCriteriaOutputReference
 ```
@@ -1495,7 +1495,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieAllowList.MacieAllowListCriteriaS3WordsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 macieallowlist.NewMacieAllowListCriteriaS3WordsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MacieAllowListCriteriaS3WordsListStructOutputReference
 ```
@@ -1802,7 +1802,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieAllowList.MacieAllowListTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 macieallowlist.NewMacieAllowListTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MacieAllowListTagsList
 ```
@@ -1962,7 +1962,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieAllowList.MacieAllowListTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/macieallowlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/macieallowlist"
 
 macieallowlist.NewMacieAllowListTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MacieAllowListTagsOutputReference
 ```

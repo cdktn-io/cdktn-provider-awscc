@@ -4,12 +4,12 @@
 
 ### OdbCloudExadataInfrastructure <a name="OdbCloudExadataInfrastructure" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructure"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure awscc_odb_cloud_exadata_infrastructure}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure awscc_odb_cloud_exadata_infrastructure}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 odbcloudexadatainfrastructure.NewOdbCloudExadataInfrastructure(scope Construct, id *string, config OdbCloudExadataInfrastructureConfig) OdbCloudExadataInfrastructure
 ```
@@ -516,7 +516,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructure.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 odbcloudexadatainfrastructure.OdbCloudExadataInfrastructure_IsConstruct(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructure.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 odbcloudexadatainfrastructure.OdbCloudExadataInfrastructure_IsTerraformElement(x interface{}) *bool
 ```
@@ -562,7 +562,7 @@ odbcloudexadatainfrastructure.OdbCloudExadataInfrastructure_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructure.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 odbcloudexadatainfrastructure.OdbCloudExadataInfrastructure_IsTerraformResource(x interface{}) *bool
 ```
@@ -576,7 +576,7 @@ odbcloudexadatainfrastructure.OdbCloudExadataInfrastructure_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructure.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 odbcloudexadatainfrastructure.OdbCloudExadataInfrastructure_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -605,7 +605,7 @@ The construct id used in the generated config for the OdbCloudExadataInfrastruct
 
 The id of the existing OdbCloudExadataInfrastructure that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1289,7 +1289,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 &odbcloudexadatainfrastructure.OdbCloudExadataInfrastructureConfig {
 	Connection: interface{},
@@ -1305,7 +1305,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrast
 	CustomerContactsToSendToOci: interface{},
 	DatabaseServerType: *string,
 	DisplayName: *string,
-	MaintenanceWindow: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureMaintenanceWindow,
+	MaintenanceWindow: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureMaintenanceWindow,
 	Shape: *string,
 	StorageCount: *f64,
 	StorageServerType: *string,
@@ -1418,7 +1418,7 @@ AvailabilityZone *string
 
 The name of the Availability Zone (AZ) where the Exadata infrastructure is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#availability_zone OdbCloudExadataInfrastructure#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#availability_zone OdbCloudExadataInfrastructure#availability_zone}
 
 ---
 
@@ -1432,7 +1432,7 @@ AvailabilityZoneId *string
 
 The AZ ID of the AZ where the Exadata infrastructure is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#availability_zone_id OdbCloudExadataInfrastructure#availability_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#availability_zone_id OdbCloudExadataInfrastructure#availability_zone_id}
 
 ---
 
@@ -1446,7 +1446,7 @@ ComputeCount *f64
 
 The number of database servers for the Exadata infrastructure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#compute_count OdbCloudExadataInfrastructure#compute_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#compute_count OdbCloudExadataInfrastructure#compute_count}
 
 ---
 
@@ -1460,7 +1460,7 @@ CustomerContactsToSendToOci interface{}
 
 The email addresses of contacts to receive notification from Oracle about maintenance updates for the Exadata infrastructure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#customer_contacts_to_send_to_oci OdbCloudExadataInfrastructure#customer_contacts_to_send_to_oci}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#customer_contacts_to_send_to_oci OdbCloudExadataInfrastructure#customer_contacts_to_send_to_oci}
 
 ---
 
@@ -1476,7 +1476,7 @@ The database server model type of the Exadata infrastructure.
 
 For the list of valid model names, use the ListDbSystemShapes operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#database_server_type OdbCloudExadataInfrastructure#database_server_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#database_server_type OdbCloudExadataInfrastructure#database_server_type}
 
 ---
 
@@ -1490,7 +1490,7 @@ DisplayName *string
 
 The user-friendly name for the Exadata infrastructure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#display_name OdbCloudExadataInfrastructure#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#display_name OdbCloudExadataInfrastructure#display_name}
 
 ---
 
@@ -1504,7 +1504,7 @@ MaintenanceWindow OdbCloudExadataInfrastructureMaintenanceWindow
 
 The scheduling details for the maintenance window. Patching and system updates take place during the maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#maintenance_window OdbCloudExadataInfrastructure#maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#maintenance_window OdbCloudExadataInfrastructure#maintenance_window}
 
 ---
 
@@ -1518,7 +1518,7 @@ Shape *string
 
 The model name of the Exadata infrastructure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#shape OdbCloudExadataInfrastructure#shape}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#shape OdbCloudExadataInfrastructure#shape}
 
 ---
 
@@ -1532,7 +1532,7 @@ StorageCount *f64
 
 The number of storage servers that are activated for the Exadata infrastructure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#storage_count OdbCloudExadataInfrastructure#storage_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#storage_count OdbCloudExadataInfrastructure#storage_count}
 
 ---
 
@@ -1548,7 +1548,7 @@ The storage server model type of the Exadata infrastructure.
 
 For the list of valid model names, use the ListDbSystemShapes operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#storage_server_type OdbCloudExadataInfrastructure#storage_server_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#storage_server_type OdbCloudExadataInfrastructure#storage_server_type}
 
 ---
 
@@ -1562,7 +1562,7 @@ Tags interface{}
 
 Tags to assign to the Exadata Infrastructure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#tags OdbCloudExadataInfrastructure#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#tags OdbCloudExadataInfrastructure#tags}
 
 ---
 
@@ -1571,7 +1571,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureCustomerContactsToSendToOci.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 &odbcloudexadatainfrastructure.OdbCloudExadataInfrastructureCustomerContactsToSendToOci {
 	Email: *string,
@@ -1596,7 +1596,7 @@ Email *string
 
 The email address of the contact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#email OdbCloudExadataInfrastructure#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#email OdbCloudExadataInfrastructure#email}
 
 ---
 
@@ -1605,7 +1605,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureMaintenanceWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 &odbcloudexadatainfrastructure.OdbCloudExadataInfrastructureMaintenanceWindow {
 	CustomActionTimeoutInMins: *f64,
@@ -1646,7 +1646,7 @@ CustomActionTimeoutInMins *f64
 
 The timeout duration for custom actions in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#custom_action_timeout_in_mins OdbCloudExadataInfrastructure#custom_action_timeout_in_mins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#custom_action_timeout_in_mins OdbCloudExadataInfrastructure#custom_action_timeout_in_mins}
 
 ---
 
@@ -1660,7 +1660,7 @@ DaysOfWeek *[]*string
 
 The days of the week when maintenance can be performed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#days_of_week OdbCloudExadataInfrastructure#days_of_week}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#days_of_week OdbCloudExadataInfrastructure#days_of_week}
 
 ---
 
@@ -1674,7 +1674,7 @@ HoursOfDay *[]*f64
 
 The hours of the day when maintenance can be performed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#hours_of_day OdbCloudExadataInfrastructure#hours_of_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#hours_of_day OdbCloudExadataInfrastructure#hours_of_day}
 
 ---
 
@@ -1688,7 +1688,7 @@ IsCustomActionTimeoutEnabled interface{}
 
 Indicates whether custom action timeout is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#is_custom_action_timeout_enabled OdbCloudExadataInfrastructure#is_custom_action_timeout_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#is_custom_action_timeout_enabled OdbCloudExadataInfrastructure#is_custom_action_timeout_enabled}
 
 ---
 
@@ -1702,7 +1702,7 @@ LeadTimeInWeeks *f64
 
 The lead time in weeks before the maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#lead_time_in_weeks OdbCloudExadataInfrastructure#lead_time_in_weeks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#lead_time_in_weeks OdbCloudExadataInfrastructure#lead_time_in_weeks}
 
 ---
 
@@ -1716,7 +1716,7 @@ Months *[]*string
 
 The months when maintenance can be performed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#months OdbCloudExadataInfrastructure#months}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#months OdbCloudExadataInfrastructure#months}
 
 ---
 
@@ -1730,7 +1730,7 @@ PatchingMode *string
 
 The patching mode for the maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#patching_mode OdbCloudExadataInfrastructure#patching_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#patching_mode OdbCloudExadataInfrastructure#patching_mode}
 
 ---
 
@@ -1744,7 +1744,7 @@ Preference *string
 
 The preference for the maintenance window scheduling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#preference OdbCloudExadataInfrastructure#preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#preference OdbCloudExadataInfrastructure#preference}
 
 ---
 
@@ -1758,7 +1758,7 @@ WeeksOfMonth *[]*f64
 
 The weeks of the month when maintenance can be performed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#weeks_of_month OdbCloudExadataInfrastructure#weeks_of_month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#weeks_of_month OdbCloudExadataInfrastructure#weeks_of_month}
 
 ---
 
@@ -1767,7 +1767,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 &odbcloudexadatainfrastructure.OdbCloudExadataInfrastructureTags {
 	Key: *string,
@@ -1810,7 +1810,7 @@ The value for the tag.
 
 You can specify a value that's 1 to 256 characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_cloud_exadata_infrastructure#value OdbCloudExadataInfrastructure#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_cloud_exadata_infrastructure#value OdbCloudExadataInfrastructure#value}
 
 ---
 
@@ -1821,7 +1821,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureCustomerContactsToSendToOciList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 odbcloudexadatainfrastructure.NewOdbCloudExadataInfrastructureCustomerContactsToSendToOciList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OdbCloudExadataInfrastructureCustomerContactsToSendToOciList
 ```
@@ -1981,7 +1981,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 odbcloudexadatainfrastructure.NewOdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReference
 ```
@@ -2277,7 +2277,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureMaintenanceWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 odbcloudexadatainfrastructure.NewOdbCloudExadataInfrastructureMaintenanceWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OdbCloudExadataInfrastructureMaintenanceWindowOutputReference
 ```
@@ -2787,7 +2787,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 odbcloudexadatainfrastructure.NewOdbCloudExadataInfrastructureTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OdbCloudExadataInfrastructureTagsList
 ```
@@ -2947,7 +2947,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbcloudexadatainfrastructure"
 
 odbcloudexadatainfrastructure.NewOdbCloudExadataInfrastructureTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OdbCloudExadataInfrastructureTagsOutputReference
 ```

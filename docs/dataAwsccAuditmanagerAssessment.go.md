@@ -4,12 +4,12 @@
 
 ### DataAwsccAuditmanagerAssessment <a name="DataAwsccAuditmanagerAssessment" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/auditmanager_assessment awscc_auditmanager_assessment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/auditmanager_assessment awscc_auditmanager_assessment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessment(scope Construct, id *string, config DataAwsccAuditmanagerAssessmentConfig) DataAwsccAuditmanagerAssessment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessment_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessment_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAuditmanagerAsses
 
 The id of the existing DataAwsccAuditmanagerAssessment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/auditmanager_assessment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/auditmanager_assessment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentAssessmentReportsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 &dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessmentAssessmentReportsDestination {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagera
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentAwsAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 &dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessmentAwsAccount {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagera
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 &dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessmentConfig {
 	Connection: interface{},
@@ -865,7 +865,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/auditmanager_assessment#id DataAwsccAuditmanagerAssessment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/auditmanager_assessment#id DataAwsccAuditmanagerAssessment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -877,7 +877,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentDelegations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 &dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessmentDelegations {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagera
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentRoles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 &dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessmentRoles {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagera
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 &dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessmentScope {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagera
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentScopeAwsAccounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 &dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessmentScopeAwsAccounts {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagera
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentScopeAwsServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 &dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessmentScopeAwsServices {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagera
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 &dataawsccauditmanagerassessment.DataAwsccAuditmanagerAssessmentTags {
 
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagera
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentAssessmentReportsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentAssessmentReportsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAuditmanagerAssessmentAssessmentReportsDestinationOutputReference
 ```
@@ -1228,7 +1228,7 @@ func InternalValue() DataAwsccAuditmanagerAssessmentAssessmentReportsDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentAwsAccountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentAwsAccountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAuditmanagerAssessmentAwsAccountOutputReference
 ```
@@ -1510,7 +1510,7 @@ func InternalValue() DataAwsccAuditmanagerAssessmentAwsAccount
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentDelegationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentDelegationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAuditmanagerAssessmentDelegationsList
 ```
@@ -1659,7 +1659,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentDelegationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentDelegationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAuditmanagerAssessmentDelegationsOutputReference
 ```
@@ -2047,7 +2047,7 @@ func InternalValue() DataAwsccAuditmanagerAssessmentDelegations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentRolesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentRolesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAuditmanagerAssessmentRolesList
 ```
@@ -2196,7 +2196,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentRolesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentRolesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAuditmanagerAssessmentRolesOutputReference
 ```
@@ -2485,7 +2485,7 @@ func InternalValue() DataAwsccAuditmanagerAssessmentRoles
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentScopeAwsAccountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentScopeAwsAccountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAuditmanagerAssessmentScopeAwsAccountsList
 ```
@@ -2634,7 +2634,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentScopeAwsAccountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentScopeAwsAccountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAuditmanagerAssessmentScopeAwsAccountsOutputReference
 ```
@@ -2934,7 +2934,7 @@ func InternalValue() DataAwsccAuditmanagerAssessmentScopeAwsAccounts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentScopeAwsServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentScopeAwsServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAuditmanagerAssessmentScopeAwsServicesList
 ```
@@ -3083,7 +3083,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentScopeAwsServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentScopeAwsServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAuditmanagerAssessmentScopeAwsServicesOutputReference
 ```
@@ -3361,7 +3361,7 @@ func InternalValue() DataAwsccAuditmanagerAssessmentScopeAwsServices
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAuditmanagerAssessmentScopeOutputReference
 ```
@@ -3632,7 +3632,7 @@ func InternalValue() DataAwsccAuditmanagerAssessmentScope
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAuditmanagerAssessmentTagsList
 ```
@@ -3781,7 +3781,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessment.DataAwsccAuditmanagerAssessmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessment"
 
 dataawsccauditmanagerassessment.NewDataAwsccAuditmanagerAssessmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAuditmanagerAssessmentTagsOutputReference
 ```

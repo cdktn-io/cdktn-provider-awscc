@@ -4,12 +4,12 @@
 
 ### BedrockAutomatedReasoningPolicyVersion <a name="BedrockAutomatedReasoningPolicyVersion" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockautomatedreasoningpolicyversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockautomatedreasoningpolicyversion"
 
 bedrockautomatedreasoningpolicyversion.NewBedrockAutomatedReasoningPolicyVersion(scope Construct, id *string, config BedrockAutomatedReasoningPolicyVersionConfig) BedrockAutomatedReasoningPolicyVersion
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockautomatedreasoningpolicyversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockautomatedreasoningpolicyversion"
 
 bedrockautomatedreasoningpolicyversion.BedrockAutomatedReasoningPolicyVersion_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockautomatedreasoningpolicyversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockautomatedreasoningpolicyversion"
 
 bedrockautomatedreasoningpolicyversion.BedrockAutomatedReasoningPolicyVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ bedrockautomatedreasoningpolicyversion.BedrockAutomatedReasoningPolicyVersion_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockautomatedreasoningpolicyversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockautomatedreasoningpolicyversion"
 
 bedrockautomatedreasoningpolicyversion.BedrockAutomatedReasoningPolicyVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ bedrockautomatedreasoningpolicyversion.BedrockAutomatedReasoningPolicyVersion_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockautomatedreasoningpolicyversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockautomatedreasoningpolicyversion"
 
 bedrockautomatedreasoningpolicyversion.BedrockAutomatedReasoningPolicyVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the BedrockAutomatedReasoningP
 
 The id of the existing BedrockAutomatedReasoningPolicyVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_automated_reasoning_policy_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_automated_reasoning_policy_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockautomatedreasoningpolicyversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockautomatedreasoningpolicyversion"
 
 &bedrockautomatedreasoningpolicyversion.BedrockAutomatedReasoningPolicyVersionConfig {
 	Connection: interface{},
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockautomatedreason
 | <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionConfig.property.policyArn">PolicyArn</a></code> | <code>*string</code> | Arn of the policy. |
 | <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionConfig.property.lastUpdatedDefinitionHash">LastUpdatedDefinitionHash</a></code> | <code>*string</code> | The hash for this version. |
-| <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}. |
 
 ---
 
@@ -983,7 +983,7 @@ PolicyArn *string
 
 Arn of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_automated_reasoning_policy_version#policy_arn BedrockAutomatedReasoningPolicyVersion#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_automated_reasoning_policy_version#policy_arn BedrockAutomatedReasoningPolicyVersion#policy_arn}
 
 ---
 
@@ -997,7 +997,7 @@ LastUpdatedDefinitionHash *string
 
 The hash for this version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_automated_reasoning_policy_version#last_updated_definition_hash BedrockAutomatedReasoningPolicyVersion#last_updated_definition_hash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_automated_reasoning_policy_version#last_updated_definition_hash BedrockAutomatedReasoningPolicyVersion#last_updated_definition_hash}
 
 ---
 
@@ -1009,7 +1009,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}.
 
 ---
 
@@ -1018,7 +1018,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockautomatedreasoningpolicyversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockautomatedreasoningpolicyversion"
 
 &bedrockautomatedreasoningpolicyversion.BedrockAutomatedReasoningPolicyVersionTags {
 	Key: *string,
@@ -1045,7 +1045,7 @@ Key *string
 
 Tag Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_automated_reasoning_policy_version#key BedrockAutomatedReasoningPolicyVersion#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_automated_reasoning_policy_version#key BedrockAutomatedReasoningPolicyVersion#key}
 
 ---
 
@@ -1059,7 +1059,7 @@ Value *string
 
 Tag Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_automated_reasoning_policy_version#value BedrockAutomatedReasoningPolicyVersion#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_automated_reasoning_policy_version#value BedrockAutomatedReasoningPolicyVersion#value}
 
 ---
 
@@ -1070,7 +1070,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockautomatedreasoningpolicyversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockautomatedreasoningpolicyversion"
 
 bedrockautomatedreasoningpolicyversion.NewBedrockAutomatedReasoningPolicyVersionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockAutomatedReasoningPolicyVersionTagsList
 ```
@@ -1230,7 +1230,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAutomatedReasoningPolicyVersion.BedrockAutomatedReasoningPolicyVersionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockautomatedreasoningpolicyversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockautomatedreasoningpolicyversion"
 
 bedrockautomatedreasoningpolicyversion.NewBedrockAutomatedReasoningPolicyVersionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockAutomatedReasoningPolicyVersionTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerInferenceComponents <a name="DataAwsccSagemakerInferenceComponents" id="@cdktn/provider-awscc.dataAwsccSagemakerInferenceComponents.DataAwsccSagemakerInferenceComponents"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_inference_components awscc_sagemaker_inference_components}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_inference_components awscc_sagemaker_inference_components}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerInferenceComponents.DataAwsccSagemakerInferenceComponents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerinferencecomponents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerinferencecomponents"
 
 dataawsccsagemakerinferencecomponents.NewDataAwsccSagemakerInferenceComponents(scope Construct, id *string, config DataAwsccSagemakerInferenceComponentsConfig) DataAwsccSagemakerInferenceComponents
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerInferenceComponents.DataAwsccSagemakerInferenceComponents.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerinferencecomponents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerinferencecomponents"
 
 dataawsccsagemakerinferencecomponents.DataAwsccSagemakerInferenceComponents_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerInferenceComponents.DataAwsccSagemakerInferenceComponents.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerinferencecomponents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerinferencecomponents"
 
 dataawsccsagemakerinferencecomponents.DataAwsccSagemakerInferenceComponents_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerinferencecomponents.DataAwsccSagemakerInferenceComponents_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerInferenceComponents.DataAwsccSagemakerInferenceComponents.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerinferencecomponents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerinferencecomponents"
 
 dataawsccsagemakerinferencecomponents.DataAwsccSagemakerInferenceComponents_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerinferencecomponents.DataAwsccSagemakerInferenceComponents_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerInferenceComponents.DataAwsccSagemakerInferenceComponents.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerinferencecomponents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerinferencecomponents"
 
 dataawsccsagemakerinferencecomponents.DataAwsccSagemakerInferenceComponents_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerInferenc
 
 The id of the existing DataAwsccSagemakerInferenceComponents that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_inference_components#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_inference_components#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerInferenceComponents.DataAwsccSagemakerInferenceComponentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerinferencecomponents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerinferencecomponents"
 
 &dataawsccsagemakerinferencecomponents.DataAwsccSagemakerInferenceComponentsConfig {
 	Connection: interface{},

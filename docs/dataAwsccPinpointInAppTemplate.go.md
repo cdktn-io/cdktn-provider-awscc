@@ -4,12 +4,12 @@
 
 ### DataAwsccPinpointInAppTemplate <a name="DataAwsccPinpointInAppTemplate" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pinpoint_in_app_template awscc_pinpoint_in_app_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pinpoint_in_app_template awscc_pinpoint_in_app_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplate(scope Construct, id *string, config DataAwsccPinpointInAppTemplateConfig) DataAwsccPinpointInAppTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplate_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplate_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPinpointInAppTemp
 
 The id of the existing DataAwsccPinpointInAppTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pinpoint_in_app_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pinpoint_in_app_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pinpoint_in_app_template#id DataAwsccPinpointInAppTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pinpoint_in_app_template#id DataAwsccPinpointInAppTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContent {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentBodyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentBodyConfig {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentHeaderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentHeaderConfig {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtn {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnAndroid.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnAndroid {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnDefaultConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnDefaultConfig {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnIos.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnIos {
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnWeb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnWeb {
 
@@ -889,7 +889,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtn {
 
@@ -902,7 +902,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnAndroid.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnAndroid {
 
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnDefaultConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnDefaultConfig {
 
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnIos.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnIos {
 
@@ -941,7 +941,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnWeb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 &dataawsccpinpointinapptemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnWeb {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentBodyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentBodyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentBodyConfigOutputReference
 ```
@@ -1238,7 +1238,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContentBodyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentHeaderConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentHeaderConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentHeaderConfigOutputReference
 ```
@@ -1520,7 +1520,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContentHeaderConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPinpointInAppTemplateContentList
 ```
@@ -1669,7 +1669,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPinpointInAppTemplateContentOutputReference
 ```
@@ -2002,7 +2002,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnAndroidOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentPrimaryBtnAndroidOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentPrimaryBtnAndroidOutputReference
 ```
@@ -2273,7 +2273,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContentPrimaryBtnAndroid
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference
 ```
@@ -2588,7 +2588,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContentPrimaryBtnDefaultConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnIosOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentPrimaryBtnIosOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentPrimaryBtnIosOutputReference
 ```
@@ -2859,7 +2859,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContentPrimaryBtnIos
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentPrimaryBtnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentPrimaryBtnOutputReference
 ```
@@ -3152,7 +3152,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContentPrimaryBtn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentPrimaryBtnWebOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentPrimaryBtnWebOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentPrimaryBtnWebOutputReference
 ```
@@ -3423,7 +3423,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContentPrimaryBtnWeb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnAndroidOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentSecondaryBtnAndroidOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentSecondaryBtnAndroidOutputReference
 ```
@@ -3694,7 +3694,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContentSecondaryBtnAndroid
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReference
 ```
@@ -4009,7 +4009,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContentSecondaryBtnDefaultCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnIosOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentSecondaryBtnIosOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentSecondaryBtnIosOutputReference
 ```
@@ -4280,7 +4280,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContentSecondaryBtnIos
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentSecondaryBtnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentSecondaryBtnOutputReference
 ```
@@ -4573,7 +4573,7 @@ func InternalValue() DataAwsccPinpointInAppTemplateContentSecondaryBtn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPinpointInAppTemplate.DataAwsccPinpointInAppTemplateContentSecondaryBtnWebOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate"
 
 dataawsccpinpointinapptemplate.NewDataAwsccPinpointInAppTemplateContentSecondaryBtnWebOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPinpointInAppTemplateContentSecondaryBtnWebOutputReference
 ```

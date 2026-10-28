@@ -4,12 +4,12 @@
 
 ### DataAwsccCertificatemanagerAcmeDomainValidation <a name="DataAwsccCertificatemanagerAcmeDomainValidation" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 dataawscccertificatemanageracmedomainvalidation.NewDataAwsccCertificatemanagerAcmeDomainValidation(scope Construct, id *string, config DataAwsccCertificatemanagerAcmeDomainValidationConfig) DataAwsccCertificatemanagerAcmeDomainValidation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 dataawscccertificatemanageracmedomainvalidation.DataAwsccCertificatemanagerAcmeDomainValidation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 dataawscccertificatemanageracmedomainvalidation.DataAwsccCertificatemanagerAcmeDomainValidation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccertificatemanageracmedomainvalidation.DataAwsccCertificatemanagerAcmeD
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 dataawscccertificatemanageracmedomainvalidation.DataAwsccCertificatemanagerAcmeDomainValidation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccertificatemanageracmedomainvalidation.DataAwsccCertificatemanagerAcmeD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 dataawscccertificatemanageracmedomainvalidation.DataAwsccCertificatemanagerAcmeDomainValidation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCertificatemanage
 
 The id of the existing DataAwsccCertificatemanagerAcmeDomainValidation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_acme_domain_validation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_acme_domain_validation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 &dataawscccertificatemanageracmedomainvalidation.DataAwsccCertificatemanagerAcmeDomainValidationConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_acme_domain_validation#id DataAwsccCertificatemanagerAcmeDomainValidation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_acme_domain_validation#id DataAwsccCertificatemanagerAcmeDomainValidation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 &dataawscccertificatemanageracmedomainvalidation.DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptions {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatema
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 &dataawscccertificatemanageracmedomainvalidation.DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidation {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatema
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 &dataawscccertificatemanageracmedomainvalidation.DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScope {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatema
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 &dataawscccertificatemanageracmedomainvalidation.DataAwsccCertificatemanagerAcmeDomainValidationTags {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 dataawscccertificatemanageracmedomainvalidation.NewDataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScopeOutputReference
 ```
@@ -1099,7 +1099,7 @@ func InternalValue() DataAwsccCertificatemanagerAcmeDomainValidationPrevalidatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 dataawscccertificatemanageracmedomainvalidation.NewDataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationOutputReference
 ```
@@ -1370,7 +1370,7 @@ func InternalValue() DataAwsccCertificatemanagerAcmeDomainValidationPrevalidatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 dataawscccertificatemanageracmedomainvalidation.NewDataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCertificatemanagerAcmeDomainValidationPrevalidationOptionsOutputReference
 ```
@@ -1630,7 +1630,7 @@ func InternalValue() DataAwsccCertificatemanagerAcmeDomainValidationPrevalidatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 dataawscccertificatemanageracmedomainvalidation.NewDataAwsccCertificatemanagerAcmeDomainValidationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCertificatemanagerAcmeDomainValidationTagsList
 ```
@@ -1779,7 +1779,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeDomainValidation.DataAwsccCertificatemanagerAcmeDomainValidationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmedomainvalidation"
 
 dataawscccertificatemanageracmedomainvalidation.NewDataAwsccCertificatemanagerAcmeDomainValidationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCertificatemanagerAcmeDomainValidationTagsOutputReference
 ```

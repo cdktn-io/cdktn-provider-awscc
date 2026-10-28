@@ -4,12 +4,12 @@
 
 ### DataAwsccWafv2LoggingConfiguration <a name="DataAwsccWafv2LoggingConfiguration" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_logging_configuration awscc_wafv2_logging_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_logging_configuration awscc_wafv2_logging_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.NewDataAwsccWafv2LoggingConfiguration(scope Construct, id *string, config DataAwsccWafv2LoggingConfigurationConfig) DataAwsccWafv2LoggingConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfiguration_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfiguration_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWafv2LoggingConfi
 
 The id of the existing DataAwsccWafv2LoggingConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_logging_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_logging_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 &dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfigurationConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_logging_configuration#id DataAwsccWafv2LoggingConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_logging_configuration#id DataAwsccWafv2LoggingConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 &dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilter {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 &dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFilters {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 &dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditions {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsActionCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 &dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsActionCondition {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsLabelNameCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 &dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsLabelNameCondition {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationRedactedFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 &dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfigurationRedactedFields {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationRedactedFieldsSingleHeader.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 &dataawsccwafv2loggingconfiguration.DataAwsccWafv2LoggingConfigurationRedactedFieldsSingleHeader {
 
@@ -856,7 +856,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsActionConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.NewDataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsActionConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsActionConditionOutputReference
 ```
@@ -1116,7 +1116,7 @@ func InternalValue() DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersCondi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsLabelNameConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.NewDataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsLabelNameConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsLabelNameConditionOutputReference
 ```
@@ -1376,7 +1376,7 @@ func InternalValue() DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersCondi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.NewDataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsList
 ```
@@ -1525,7 +1525,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.NewDataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersConditionsOutputReference
 ```
@@ -1814,7 +1814,7 @@ func InternalValue() DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersCondi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.NewDataAwsccWafv2LoggingConfigurationLoggingFilterFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersList
 ```
@@ -1963,7 +1963,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.NewDataAwsccWafv2LoggingConfigurationLoggingFilterFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWafv2LoggingConfigurationLoggingFilterFiltersOutputReference
 ```
@@ -2263,7 +2263,7 @@ func InternalValue() DataAwsccWafv2LoggingConfigurationLoggingFilterFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationLoggingFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.NewDataAwsccWafv2LoggingConfigurationLoggingFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWafv2LoggingConfigurationLoggingFilterOutputReference
 ```
@@ -2534,7 +2534,7 @@ func InternalValue() DataAwsccWafv2LoggingConfigurationLoggingFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationRedactedFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.NewDataAwsccWafv2LoggingConfigurationRedactedFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWafv2LoggingConfigurationRedactedFieldsList
 ```
@@ -2683,7 +2683,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationRedactedFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.NewDataAwsccWafv2LoggingConfigurationRedactedFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWafv2LoggingConfigurationRedactedFieldsOutputReference
 ```
@@ -2994,7 +2994,7 @@ func InternalValue() DataAwsccWafv2LoggingConfigurationRedactedFields
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfiguration.DataAwsccWafv2LoggingConfigurationRedactedFieldsSingleHeaderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfiguration"
 
 dataawsccwafv2loggingconfiguration.NewDataAwsccWafv2LoggingConfigurationRedactedFieldsSingleHeaderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWafv2LoggingConfigurationRedactedFieldsSingleHeaderOutputReference
 ```

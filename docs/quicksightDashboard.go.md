@@ -4,12 +4,12 @@
 
 ### QuicksightDashboard <a name="QuicksightDashboard" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard awscc_quicksight_dashboard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard awscc_quicksight_dashboard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboard(scope Construct, id *string, config QuicksightDashboardConfig) QuicksightDashboard
 ```
@@ -514,7 +514,7 @@ func ResetVersionDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.QuicksightDashboard_IsConstruct(x interface{}) *bool
 ```
@@ -546,7 +546,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.QuicksightDashboard_IsTerraformElement(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ quicksightdashboard.QuicksightDashboard_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.QuicksightDashboard_IsTerraformResource(x interface{}) *bool
 ```
@@ -574,7 +574,7 @@ quicksightdashboard.QuicksightDashboard_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.QuicksightDashboard_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -603,7 +603,7 @@ The construct id used in the generated config for the QuicksightDashboard to imp
 
 The id of the existing QuicksightDashboard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1089,7 +1089,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardConfig {
 	Connection: interface{},
@@ -1101,10 +1101,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
 	Provisioners: *[]interface{},
 	AwsAccountId: *string,
 	DashboardId: *string,
-	SourceEntity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightDashboard.QuicksightDashboardSourceEntity,
-	DashboardPublishOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptions,
+	SourceEntity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightDashboard.QuicksightDashboardSourceEntity,
+	DashboardPublishOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightDashboard.QuicksightDashboardDashboardPublishOptions,
 	Name: *string,
-	Parameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightDashboard.QuicksightDashboardParameters,
+	Parameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightDashboard.QuicksightDashboardParameters,
 	Permissions: interface{},
 	Tags: interface{},
 	ThemeArn: *string,
@@ -1123,8 +1123,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.awsAccountId">AwsAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.dashboardId">DashboardId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.awsAccountId">AwsAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.dashboardId">DashboardId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.sourceEntity">SourceEntity</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardSourceEntity">QuicksightDashboardSourceEntity</a></code> | <p>Dashboard source entity.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.dashboardPublishOptions">DashboardPublishOptions</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptions">QuicksightDashboardDashboardPublishOptions</a></code> | <p>Dashboard publish options.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.name">Name</a></code> | <code>*string</code> | <p>The display name of the dashboard.</p>. |
@@ -1214,7 +1214,7 @@ AwsAccountId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}.
 
 ---
 
@@ -1226,7 +1226,7 @@ DashboardId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}.
 
 ---
 
@@ -1240,7 +1240,7 @@ SourceEntity QuicksightDashboardSourceEntity
 
 <p>Dashboard source entity.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
 
 ---
 
@@ -1254,7 +1254,7 @@ DashboardPublishOptions QuicksightDashboardDashboardPublishOptions
 
 <p>Dashboard publish options.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
 
 ---
 
@@ -1268,7 +1268,7 @@ Name *string
 
 <p>The display name of the dashboard.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 
 ---
 
@@ -1282,7 +1282,7 @@ Parameters QuicksightDashboardParameters
 
 <p>A list of QuickSight parameters and the list's override values.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
 
 ---
 
@@ -1304,7 +1304,7 @@ principal ARN. </p>
     <p>To specify no permissions, omit the permissions list.</p>
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
 
 ---
 
@@ -1318,7 +1318,7 @@ Tags interface{}
 
 <p>Contains a map of the key-value pairs for the resource tag or tags assigned to the             dashboard.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}
 
 ---
 
@@ -1337,7 +1337,7 @@ you add a value for this field, it overrides the value that is used in the sourc
 entity. The theme ARN must exist in the same AWS account where you create the
 dashboard.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}
 
 ---
 
@@ -1351,7 +1351,7 @@ VersionDescription *string
 
 <p>A description for the first version of the dashboard being created.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}
 
 ---
 
@@ -1360,12 +1360,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardDashboardPublishOptions {
-	AdHocFilteringOption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption,
-	ExportToCsvOption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOption,
-	SheetControlsOption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOption,
+	AdHocFilteringOption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption,
+	ExportToCsvOption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOption,
+	SheetControlsOption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOption,
 }
 ```
 
@@ -1389,7 +1389,7 @@ AdHocFilteringOption QuicksightDashboardDashboardPublishOptionsAdHocFilteringOpt
 
 <p>Ad hoc (one-time) filtering option.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#ad_hoc_filtering_option QuicksightDashboard#ad_hoc_filtering_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#ad_hoc_filtering_option QuicksightDashboard#ad_hoc_filtering_option}
 
 ---
 
@@ -1403,7 +1403,7 @@ ExportToCsvOption QuicksightDashboardDashboardPublishOptionsExportToCsvOption
 
 <p>Export to .csv option.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#export_to_csv_option QuicksightDashboard#export_to_csv_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#export_to_csv_option QuicksightDashboard#export_to_csv_option}
 
 ---
 
@@ -1417,7 +1417,7 @@ SheetControlsOption QuicksightDashboardDashboardPublishOptionsSheetControlsOptio
 
 <p>Sheet controls option.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#sheet_controls_option QuicksightDashboard#sheet_controls_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#sheet_controls_option QuicksightDashboard#sheet_controls_option}
 
 ---
 
@@ -1426,7 +1426,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption {
 	AvailabilityStatus: *string,
@@ -1437,7 +1437,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption.property.availabilityStatus">AvailabilityStatus</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption.property.availabilityStatus">AvailabilityStatus</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}. |
 
 ---
 
@@ -1449,7 +1449,7 @@ AvailabilityStatus *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}.
 
 ---
 
@@ -1458,7 +1458,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOption {
 	AvailabilityStatus: *string,
@@ -1469,7 +1469,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOption.property.availabilityStatus">AvailabilityStatus</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOption.property.availabilityStatus">AvailabilityStatus</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}. |
 
 ---
 
@@ -1481,7 +1481,7 @@ AvailabilityStatus *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}.
 
 ---
 
@@ -1490,7 +1490,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOption {
 	VisibilityState: *string,
@@ -1501,7 +1501,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOption.property.visibilityState">VisibilityState</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOption.property.visibilityState">VisibilityState</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}. |
 
 ---
 
@@ -1513,7 +1513,7 @@ VisibilityState *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}.
 
 ---
 
@@ -1522,7 +1522,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardParameters {
 	DateTimeParameters: interface{},
@@ -1553,7 +1553,7 @@ DateTimeParameters interface{}
 
 <p>Date-time parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#date_time_parameters QuicksightDashboard#date_time_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#date_time_parameters QuicksightDashboard#date_time_parameters}
 
 ---
 
@@ -1567,7 +1567,7 @@ DecimalParameters interface{}
 
 <p>Decimal parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#decimal_parameters QuicksightDashboard#decimal_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#decimal_parameters QuicksightDashboard#decimal_parameters}
 
 ---
 
@@ -1581,7 +1581,7 @@ IntegerParameters interface{}
 
 <p>Integer parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#integer_parameters QuicksightDashboard#integer_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#integer_parameters QuicksightDashboard#integer_parameters}
 
 ---
 
@@ -1595,7 +1595,7 @@ StringParameters interface{}
 
 <p>String parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#string_parameters QuicksightDashboard#string_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#string_parameters QuicksightDashboard#string_parameters}
 
 ---
 
@@ -1604,7 +1604,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersDateTimeParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardParametersDateTimeParameters {
 	Name: *string,
@@ -1631,7 +1631,7 @@ Name *string
 
 <p>A display name for the date-time parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 
 ---
 
@@ -1645,7 +1645,7 @@ Values *[]*string
 
 <p>The values for the date-time parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
 
 ---
 
@@ -1654,7 +1654,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersDecimalParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardParametersDecimalParameters {
 	Name: *string,
@@ -1681,7 +1681,7 @@ Name *string
 
 <p>A display name for the decimal parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 
 ---
 
@@ -1695,7 +1695,7 @@ Values *[]*f64
 
 <p>The values for the decimal parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
 
 ---
 
@@ -1704,7 +1704,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersIntegerParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardParametersIntegerParameters {
 	Name: *string,
@@ -1731,7 +1731,7 @@ Name *string
 
 <p>The name of the integer parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 
 ---
 
@@ -1745,7 +1745,7 @@ Values *[]*f64
 
 <p>The values for the integer parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
 
 ---
 
@@ -1754,7 +1754,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersStringParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardParametersStringParameters {
 	Name: *string,
@@ -1781,7 +1781,7 @@ Name *string
 
 <p>A display name for a string parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 
 ---
 
@@ -1795,7 +1795,7 @@ Values *[]*string
 
 <p>The values of a string parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
 
 ---
 
@@ -1804,7 +1804,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardPermissions {
 	Actions: *[]*string,
@@ -1831,7 +1831,7 @@ Actions *[]*string
 
 <p>The IAM action to grant or revoke permissions on.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}
 
 ---
 
@@ -1861,7 +1861,7 @@ ARN. Use this option only to share resources (templates) across AWS accounts.
 </li>
 </ul>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}
 
 ---
 
@@ -1870,10 +1870,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardSourceEntity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardSourceEntity {
-	SourceTemplate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplate,
+	SourceTemplate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplate,
 }
 ```
 
@@ -1895,7 +1895,7 @@ SourceTemplate QuicksightDashboardSourceEntitySourceTemplate
 
 <p>Dashboard source template.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#source_template QuicksightDashboard#source_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#source_template QuicksightDashboard#source_template}
 
 ---
 
@@ -1904,7 +1904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardSourceEntitySourceTemplate {
 	Arn: *string,
@@ -1931,7 +1931,7 @@ Arn *string
 
 <p>The Amazon Resource Name (ARN) of the resource.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#arn QuicksightDashboard#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#arn QuicksightDashboard#arn}
 
 ---
 
@@ -1945,7 +1945,7 @@ DataSetReferences interface{}
 
 <p>Dataset references.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#data_set_references QuicksightDashboard#data_set_references}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#data_set_references QuicksightDashboard#data_set_references}
 
 ---
 
@@ -1954,7 +1954,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferences {
 	DataSetArn: *string,
@@ -1981,7 +1981,7 @@ DataSetArn *string
 
 <p>Dataset Amazon Resource Name (ARN).</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#data_set_arn QuicksightDashboard#data_set_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#data_set_arn QuicksightDashboard#data_set_arn}
 
 ---
 
@@ -1995,7 +1995,7 @@ DataSetPlaceholder *string
 
 <p>Dataset placeholder.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#data_set_placeholder QuicksightDashboard#data_set_placeholder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#data_set_placeholder QuicksightDashboard#data_set_placeholder}
 
 ---
 
@@ -2004,7 +2004,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardTags {
 	Key: *string,
@@ -2031,7 +2031,7 @@ Key *string
 
 <p>Tag key.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#key QuicksightDashboard#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#key QuicksightDashboard#key}
 
 ---
 
@@ -2045,7 +2045,7 @@ Value *string
 
 <p>Tag value.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dashboard#value QuicksightDashboard#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dashboard#value QuicksightDashboard#value}
 
 ---
 
@@ -2054,7 +2054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardVersion {
 
@@ -2067,7 +2067,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardVersionErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardVersionErrors {
 
@@ -2080,7 +2080,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardVersionSheets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 &quicksightdashboard.QuicksightDashboardVersionSheets {
 
@@ -2095,7 +2095,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardDashboardPublishOptionsAdHocFilteringOptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightDashboardDashboardPublishOptionsAdHocFilteringOptionOutputReference
 ```
@@ -2373,7 +2373,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardDashboardPublishOptionsExportToCsvOptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightDashboardDashboardPublishOptionsExportToCsvOptionOutputReference
 ```
@@ -2651,7 +2651,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardDashboardPublishOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightDashboardDashboardPublishOptionsOutputReference
 ```
@@ -3026,7 +3026,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardDashboardPublishOptionsSheetControlsOptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightDashboardDashboardPublishOptionsSheetControlsOptionOutputReference
 ```
@@ -3304,7 +3304,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersDateTimeParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardParametersDateTimeParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightDashboardParametersDateTimeParametersList
 ```
@@ -3464,7 +3464,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersDateTimeParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardParametersDateTimeParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightDashboardParametersDateTimeParametersOutputReference
 ```
@@ -3789,7 +3789,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersDecimalParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardParametersDecimalParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightDashboardParametersDecimalParametersList
 ```
@@ -3949,7 +3949,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersDecimalParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardParametersDecimalParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightDashboardParametersDecimalParametersOutputReference
 ```
@@ -4274,7 +4274,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersIntegerParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardParametersIntegerParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightDashboardParametersIntegerParametersList
 ```
@@ -4434,7 +4434,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersIntegerParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardParametersIntegerParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightDashboardParametersIntegerParametersOutputReference
 ```
@@ -4759,7 +4759,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightDashboardParametersOutputReference
 ```
@@ -5176,7 +5176,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersStringParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardParametersStringParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightDashboardParametersStringParametersList
 ```
@@ -5336,7 +5336,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardParametersStringParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardParametersStringParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightDashboardParametersStringParametersOutputReference
 ```
@@ -5661,7 +5661,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardPermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardPermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightDashboardPermissionsList
 ```
@@ -5821,7 +5821,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardPermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardPermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightDashboardPermissionsOutputReference
 ```
@@ -6146,7 +6146,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardSourceEntityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardSourceEntityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightDashboardSourceEntityOutputReference
 ```
@@ -6437,7 +6437,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardSourceEntitySourceTemplateDataSetReferencesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesList
 ```
@@ -6597,7 +6597,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardSourceEntitySourceTemplateDataSetReferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesOutputReference
 ```
@@ -6922,7 +6922,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardSourceEntitySourceTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightDashboardSourceEntitySourceTemplateOutputReference
 ```
@@ -7242,7 +7242,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightDashboardTagsList
 ```
@@ -7402,7 +7402,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightDashboardTagsOutputReference
 ```
@@ -7727,7 +7727,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardVersionErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardVersionErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightDashboardVersionErrorsList
 ```
@@ -7876,7 +7876,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardVersionErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardVersionErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightDashboardVersionErrorsOutputReference
 ```
@@ -8165,7 +8165,7 @@ func InternalValue() QuicksightDashboardVersionErrors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) QuicksightDashboardVersionOutputReference
 ```
@@ -8524,7 +8524,7 @@ func InternalValue() QuicksightDashboardVersion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardVersionSheetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardVersionSheetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) QuicksightDashboardVersionSheetsList
 ```
@@ -8673,7 +8673,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardVersionSheetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdashboard"
 
 quicksightdashboard.NewQuicksightDashboardVersionSheetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) QuicksightDashboardVersionSheetsOutputReference
 ```

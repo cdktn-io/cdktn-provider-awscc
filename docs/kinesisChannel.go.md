@@ -4,12 +4,12 @@
 
 ### KinesisChannel <a name="KinesisChannel" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel awscc_kinesis_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel awscc_kinesis_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannel(scope Construct, id *string, config KinesisChannelConfig) KinesisChannel
 ```
@@ -513,7 +513,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.KinesisChannel_IsConstruct(x interface{}) *bool
 ```
@@ -545,7 +545,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.KinesisChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -559,7 +559,7 @@ kinesischannel.KinesisChannel_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.KinesisChannel_IsTerraformResource(x interface{}) *bool
 ```
@@ -573,7 +573,7 @@ kinesischannel.KinesisChannel_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.KinesisChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -602,7 +602,7 @@ The construct id used in the generated config for the KinesisChannel to import.
 
 The id of the existing KinesisChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1033,7 +1033,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelConfig {
 	Connection: interface{},
@@ -1046,10 +1046,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
 	ChannelName: *string,
 	ServiceExecutionRoleArn: *string,
 	StreamConfigurationList: interface{},
-	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kinesisChannel.KinesisChannelEncryptionConfiguration,
-	LoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kinesisChannel.KinesisChannelLoggingConfiguration,
-	S3DestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kinesisChannel.KinesisChannelS3DestinationConfiguration,
-	S3TablesDestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfiguration,
+	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kinesisChannel.KinesisChannelEncryptionConfiguration,
+	LoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kinesisChannel.KinesisChannelLoggingConfiguration,
+	S3DestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kinesisChannel.KinesisChannelS3DestinationConfiguration,
+	S3TablesDestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kinesisChannel.KinesisChannelS3TablesDestinationConfiguration,
 	Tags: interface{},
 }
 ```
@@ -1156,7 +1156,7 @@ ChannelName *string
 
 The name of the channel. The name's uniqueness is scoped per AWS account and region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#channel_name KinesisChannel#channel_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#channel_name KinesisChannel#channel_name}
 
 ---
 
@@ -1170,7 +1170,7 @@ ServiceExecutionRoleArn *string
 
 The ARN of the IAM role that the channel assumes to read from the source stream, deliver records to the destination, and (when enabled) write CloudWatch Logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#service_execution_role_arn KinesisChannel#service_execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#service_execution_role_arn KinesisChannel#service_execution_role_arn}
 
 ---
 
@@ -1186,7 +1186,7 @@ List of stream configurations associated with the channel.
 
 v1 supports a single element; the list shape allows future extensibility to fan in from multiple streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#stream_configuration_list KinesisChannel#stream_configuration_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#stream_configuration_list KinesisChannel#stream_configuration_list}
 
 ---
 
@@ -1200,7 +1200,7 @@ EncryptionConfiguration KinesisChannelEncryptionConfiguration
 
 Server-side encryption configuration for data at rest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#encryption_configuration KinesisChannel#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#encryption_configuration KinesisChannel#encryption_configuration}
 
 ---
 
@@ -1214,7 +1214,7 @@ LoggingConfiguration KinesisChannelLoggingConfiguration
 
 Configuration for delivering channel operational logs. Defaults to CloudWatch Logs disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#logging_configuration KinesisChannel#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#logging_configuration KinesisChannel#logging_configuration}
 
 ---
 
@@ -1228,7 +1228,7 @@ S3DestinationConfiguration KinesisChannelS3DestinationConfiguration
 
 Configuration for delivery to a vanilla S3 bucket destination. Exactly one of S3DestinationConfiguration and S3TablesDestinationConfiguration must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#s3_destination_configuration KinesisChannel#s3_destination_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#s3_destination_configuration KinesisChannel#s3_destination_configuration}
 
 ---
 
@@ -1242,7 +1242,7 @@ S3TablesDestinationConfiguration KinesisChannelS3TablesDestinationConfiguration
 
 Configuration for delivery to S3 Tables destinations. Exactly one of S3DestinationConfiguration and S3TablesDestinationConfiguration must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#s3_tables_destination_configuration KinesisChannel#s3_tables_destination_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#s3_tables_destination_configuration KinesisChannel#s3_tables_destination_configuration}
 
 ---
 
@@ -1256,7 +1256,7 @@ Tags interface{}
 
 An arbitrary set of tags (key-value pairs) to associate with the Kinesis channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#tags KinesisChannel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#tags KinesisChannel#tags}
 
 ---
 
@@ -1265,7 +1265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelEncryptionConfiguration {
 	EncryptionType: *string,
@@ -1292,7 +1292,7 @@ EncryptionType *string
 
 The encryption type. KMS is the only supported value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#encryption_type KinesisChannel#encryption_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#encryption_type KinesisChannel#encryption_type}
 
 ---
 
@@ -1308,7 +1308,7 @@ The customer-managed AWS KMS key.
 
 Accepts a key GUID, key ARN, alias ARN, or alias name prefixed by 'alias/'. The Kinesis Data Streams managed alias 'aws/kinesis' is not accepted - the key must be customer-owned so it can also be used by readers of the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#key_id KinesisChannel#key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#key_id KinesisChannel#key_id}
 
 ---
 
@@ -1317,10 +1317,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelLoggingConfiguration {
-	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kinesisChannel.KinesisChannelLoggingConfigurationCloudwatchLogs,
+	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kinesisChannel.KinesisChannelLoggingConfigurationCloudwatchLogs,
 }
 ```
 
@@ -1342,7 +1342,7 @@ CloudwatchLogs KinesisChannelLoggingConfigurationCloudwatchLogs
 
 CloudWatch Logs configuration block. When provided, controls whether and where the channel writes operational logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#cloudwatch_logs KinesisChannel#cloudwatch_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#cloudwatch_logs KinesisChannel#cloudwatch_logs}
 
 ---
 
@@ -1351,7 +1351,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelLoggingConfigurationCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelLoggingConfigurationCloudwatchLogs {
 	Enabled: interface{},
@@ -1380,7 +1380,7 @@ Enabled interface{}
 
 Whether CloudWatch Logs delivery is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#enabled KinesisChannel#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#enabled KinesisChannel#enabled}
 
 ---
 
@@ -1394,7 +1394,7 @@ LogGroupName *string
 
 The CloudWatch log group name. When Enabled is true and LogGroupName is omitted, the service uses the default '/aws/kinesis/<channelName>/<channelId>'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#log_group_name KinesisChannel#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#log_group_name KinesisChannel#log_group_name}
 
 ---
 
@@ -1408,7 +1408,7 @@ LogStreamName *string
 
 The CloudWatch log stream name. Defaults to the literal string 'DestinationDelivery' when omitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#log_stream_name KinesisChannel#log_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#log_stream_name KinesisChannel#log_stream_name}
 
 ---
 
@@ -1417,12 +1417,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3DestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelS3DestinationConfiguration {
 	DataFreshnessInSeconds: *f64,
-	DeadLetterQueueS3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kinesisChannel.KinesisChannelS3DestinationConfigurationDeadLetterQueueS3Configuration,
-	StorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kinesisChannel.KinesisChannelS3DestinationConfigurationStorageConfiguration,
+	DeadLetterQueueS3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kinesisChannel.KinesisChannelS3DestinationConfigurationDeadLetterQueueS3Configuration,
+	StorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kinesisChannel.KinesisChannelS3DestinationConfigurationStorageConfiguration,
 }
 ```
 
@@ -1446,7 +1446,7 @@ DataFreshnessInSeconds *f64
 
 The maximum time in seconds the channel buffers records before delivery if the minimum target file size is not reached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#data_freshness_in_seconds KinesisChannel#data_freshness_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#data_freshness_in_seconds KinesisChannel#data_freshness_in_seconds}
 
 ---
 
@@ -1462,7 +1462,7 @@ Optional dead-letter queue (DLQ) configuration for records that cannot be delive
 
 When omitted, the service auto-fills using the storage BucketARN with an error prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#dead_letter_queue_s3_configuration KinesisChannel#dead_letter_queue_s3_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#dead_letter_queue_s3_configuration KinesisChannel#dead_letter_queue_s3_configuration}
 
 ---
 
@@ -1476,7 +1476,7 @@ StorageConfiguration KinesisChannelS3DestinationConfigurationStorageConfiguratio
 
 S3 storage configuration including the destination bucket, output key template, storage class, and compression type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#storage_configuration KinesisChannel#storage_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#storage_configuration KinesisChannel#storage_configuration}
 
 ---
 
@@ -1485,7 +1485,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3DestinationConfigurationDeadLetterQueueS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelS3DestinationConfigurationDeadLetterQueueS3Configuration {
 	BucketArn: *string,
@@ -1514,7 +1514,7 @@ BucketArn *string
 
 The ARN of the S3 bucket for storing failed records.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
 
 ---
 
@@ -1528,7 +1528,7 @@ ErrorOutputPrefix *string
 
 Optional S3 key prefix under which error records are organized. When omitted, the service uses the default 'kinesis-channel/errors/<channelName>/<channelId>/'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#error_output_prefix KinesisChannel#error_output_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#error_output_prefix KinesisChannel#error_output_prefix}
 
 ---
 
@@ -1544,7 +1544,7 @@ The AWS account ID of the expected owner of the dead-letter queue S3 bucket.
 
 Used to verify bucket ownership before delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
 
 ---
 
@@ -1553,7 +1553,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3DestinationConfigurationStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelS3DestinationConfigurationStorageConfiguration {
 	BucketArn: *string,
@@ -1588,7 +1588,7 @@ The ARN of the S3 bucket for record delivery.
 
 Different channels can deliver to the same bucket. Buckets can be cross-account but must be in the same region as the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
 
 ---
 
@@ -1602,7 +1602,7 @@ CompressionType *string
 
 The compression algorithm applied to delivered objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#compression_type KinesisChannel#compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#compression_type KinesisChannel#compression_type}
 
 ---
 
@@ -1618,7 +1618,7 @@ The AWS account ID of the expected owner of the destination S3 bucket.
 
 Used to verify bucket ownership before delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
 
 ---
 
@@ -1634,7 +1634,7 @@ Optional template for the S3 object key path.
 
 Supports placeholders in the form !{name}: !{channel-name}, !{channel-id}, !{stream-name}, !{yyyy}, !{yy}, !{MM}, !{dd}, !{HH}, !{mm}, and !{extension} (a literal file extension can be supplied as !{extension:.json.gz}). When omitted, the service uses the default 'kinesis-channel/!{channel-name}/!{channel-id}/!{yyyy}/!{MM}/!{dd}/!{HH}/!{channel-name}-!{channel-id}-!{yyyy}-!{MM}-!{dd}-!{HH}-!{mm}!{extension}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#output_key_template KinesisChannel#output_key_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#output_key_template KinesisChannel#output_key_template}
 
 ---
 
@@ -1648,7 +1648,7 @@ StorageClass *string
 
 The S3 storage class for delivered objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#storage_class KinesisChannel#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#storage_class KinesisChannel#storage_class}
 
 ---
 
@@ -1657,11 +1657,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelS3TablesDestinationConfiguration {
 	DataFreshnessInSeconds: *f64,
-	DeadLetterQueueS3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3Configuration,
+	DeadLetterQueueS3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3Configuration,
 	S3TablesConfigurationList: interface{},
 }
 ```
@@ -1686,7 +1686,7 @@ DataFreshnessInSeconds *f64
 
 The maximum time in seconds the channel buffers records before delivery if the minimum target file size is not reached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#data_freshness_in_seconds KinesisChannel#data_freshness_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#data_freshness_in_seconds KinesisChannel#data_freshness_in_seconds}
 
 ---
 
@@ -1702,7 +1702,7 @@ The dead-letter queue (DLQ) configuration for records that cannot be delivered t
 
 Required for S3 Tables: there is no safe fallback because S3 Tables metadata writes are critical-path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#dead_letter_queue_s3_configuration KinesisChannel#dead_letter_queue_s3_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#dead_letter_queue_s3_configuration KinesisChannel#dead_letter_queue_s3_configuration}
 
 ---
 
@@ -1718,7 +1718,7 @@ The list of S3 Tables destinations.
 
 v1 supports a single element; the list shape allows future extensibility to fan out to multiple tables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#s3_tables_configuration_list KinesisChannel#s3_tables_configuration_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#s3_tables_configuration_list KinesisChannel#s3_tables_configuration_list}
 
 ---
 
@@ -1727,7 +1727,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3Configuration {
 	BucketArn: *string,
@@ -1756,7 +1756,7 @@ BucketArn *string
 
 The ARN of the S3 bucket for storing failed records.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#bucket_arn KinesisChannel#bucket_arn}
 
 ---
 
@@ -1770,7 +1770,7 @@ ErrorOutputPrefix *string
 
 Optional S3 key prefix under which error records are organized. When omitted, the service uses the default 'kinesis-channel/errors/<channelName>/<channelId>/'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#error_output_prefix KinesisChannel#error_output_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#error_output_prefix KinesisChannel#error_output_prefix}
 
 ---
 
@@ -1786,7 +1786,7 @@ The AWS account ID of the expected owner of the dead-letter queue S3 bucket.
 
 Used to verify bucket ownership before delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#expected_bucket_owner KinesisChannel#expected_bucket_owner}
 
 ---
 
@@ -1795,7 +1795,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpec {
 	PartitionFields: interface{},
@@ -1820,7 +1820,7 @@ PartitionFields interface{}
 
 List of partition fields that define how records are partitioned when written to the destination table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#partition_fields KinesisChannel#partition_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#partition_fields KinesisChannel#partition_fields}
 
 ---
 
@@ -1829,7 +1829,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFields {
 	SourceName: *string,
@@ -1856,7 +1856,7 @@ SourceName *string
 
 The name of the source column on which the transform is applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#source_name KinesisChannel#source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#source_name KinesisChannel#source_name}
 
 ---
 
@@ -1870,7 +1870,7 @@ Transform *string
 
 The partitioning transform applied to the SourceName column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#transform KinesisChannel#transform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#transform KinesisChannel#transform}
 
 ---
 
@@ -1879,12 +1879,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStruct {
 	CompressionType: *string,
 	Namespace: *string,
-	PartitionSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpec,
+	PartitionSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpec,
 	TableBucketArn: *string,
 	TableName: *string,
 }
@@ -1912,7 +1912,7 @@ CompressionType *string
 
 The compression algorithm applied to objects delivered to the S3 Tables destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#compression_type KinesisChannel#compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#compression_type KinesisChannel#compression_type}
 
 ---
 
@@ -1926,7 +1926,7 @@ Namespace *string
 
 The name of the S3 Tables namespace that contains the destination table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#namespace KinesisChannel#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#namespace KinesisChannel#namespace}
 
 ---
 
@@ -1940,7 +1940,7 @@ PartitionSpec KinesisChannelS3TablesDestinationConfigurationS3TablesConfiguratio
 
 The partition specification used by the destination Iceberg table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#partition_spec KinesisChannel#partition_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#partition_spec KinesisChannel#partition_spec}
 
 ---
 
@@ -1956,7 +1956,7 @@ The ARN of the S3 Tables table bucket for record delivery.
 
 Buckets can be cross-account but must be in the same region as the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#table_bucket_arn KinesisChannel#table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#table_bucket_arn KinesisChannel#table_bucket_arn}
 
 ---
 
@@ -1972,7 +1972,7 @@ The name of the destination S3 Tables table.
 
 The table is created for the customer if it does not yet exist.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#table_name KinesisChannel#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#table_name KinesisChannel#table_name}
 
 ---
 
@@ -1981,7 +1981,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelStreamConfigurationListRecordConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelStreamConfigurationListRecordConfiguration {
 	RecordFormatType: *string,
@@ -2008,7 +2008,7 @@ RecordFormatType *string
 
 The format used to interpret records read from the source stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#record_format_type KinesisChannel#record_format_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#record_format_type KinesisChannel#record_format_type}
 
 ---
 
@@ -2024,7 +2024,7 @@ The ARN of the AWS Glue Schema Registry (GSR) schema.
 
 Required for the S3 Tables destination, where it is used to create the S3 Table and to validate that the record format matches the table schema. Also used when RecordFormatType is GSR_JSON to interpret records read from the source stream. Vanilla S3 delivery writes records as S3 objects and does not need a schema. The schema must be in the same account and region as the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#gsr_schema_arn KinesisChannel#gsr_schema_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#gsr_schema_arn KinesisChannel#gsr_schema_arn}
 
 ---
 
@@ -2033,10 +2033,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelStreamConfigurationListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelStreamConfigurationListStruct {
-	RecordConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kinesisChannel.KinesisChannelStreamConfigurationListRecordConfiguration,
+	RecordConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kinesisChannel.KinesisChannelStreamConfigurationListRecordConfiguration,
 	StreamArn: *string,
 }
 ```
@@ -2060,7 +2060,7 @@ RecordConfiguration KinesisChannelStreamConfigurationListRecordConfiguration
 
 The configuration that describes how records on the source stream are encoded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#record_configuration KinesisChannel#record_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#record_configuration KinesisChannel#record_configuration}
 
 ---
 
@@ -2074,7 +2074,7 @@ StreamArn *string
 
 The Amazon resource name (ARN) of the Kinesis data stream that the channel reads from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#stream_arn KinesisChannel#stream_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#stream_arn KinesisChannel#stream_arn}
 
 ---
 
@@ -2083,7 +2083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 &kinesischannel.KinesisChannelTags {
 	Key: *string,
@@ -2112,7 +2112,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#key KinesisChannel#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#key KinesisChannel#key}
 
 ---
 
@@ -2128,7 +2128,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_channel#value KinesisChannel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_channel#value KinesisChannel#value}
 
 ---
 
@@ -2139,7 +2139,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KinesisChannelEncryptionConfigurationOutputReference
 ```
@@ -2446,7 +2446,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelLoggingConfigurationCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelLoggingConfigurationCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KinesisChannelLoggingConfigurationCloudwatchLogsOutputReference
 ```
@@ -2782,7 +2782,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KinesisChannelLoggingConfigurationOutputReference
 ```
@@ -3073,7 +3073,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3DestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelS3DestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KinesisChannelS3DestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference
 ```
@@ -3409,7 +3409,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3DestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelS3DestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KinesisChannelS3DestinationConfigurationOutputReference
 ```
@@ -3771,7 +3771,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3DestinationConfigurationStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelS3DestinationConfigurationStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KinesisChannelS3DestinationConfigurationStorageConfigurationOutputReference
 ```
@@ -4165,7 +4165,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KinesisChannelS3TablesDestinationConfigurationDeadLetterQueueS3ConfigurationOutputReference
 ```
@@ -4501,7 +4501,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelS3TablesDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KinesisChannelS3TablesDestinationConfigurationOutputReference
 ```
@@ -4863,7 +4863,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecOutputReference
 ```
@@ -5154,7 +5154,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsList
 ```
@@ -5314,7 +5314,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListPartitionSpecPartitionFieldsOutputReference
 ```
@@ -5639,7 +5639,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructList
 ```
@@ -5799,7 +5799,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KinesisChannelS3TablesDestinationConfigurationS3TablesConfigurationListStructOutputReference
 ```
@@ -6224,7 +6224,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelStreamConfigurationListRecordConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelStreamConfigurationListRecordConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KinesisChannelStreamConfigurationListRecordConfigurationOutputReference
 ```
@@ -6524,7 +6524,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelStreamConfigurationListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelStreamConfigurationListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KinesisChannelStreamConfigurationListStructList
 ```
@@ -6684,7 +6684,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelStreamConfigurationListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelStreamConfigurationListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KinesisChannelStreamConfigurationListStructOutputReference
 ```
@@ -7008,7 +7008,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KinesisChannelTagsList
 ```
@@ -7168,7 +7168,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisChannel.KinesisChannelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesischannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesischannel"
 
 kinesischannel.NewKinesisChannelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KinesisChannelTagsOutputReference
 ```

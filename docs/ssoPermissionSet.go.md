@@ -4,12 +4,12 @@
 
 ### SsoPermissionSet <a name="SsoPermissionSet" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set awscc_sso_permission_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set awscc_sso_permission_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 ssopermissionset.NewSsoPermissionSet(scope Construct, id *string, config SsoPermissionSetConfig) SsoPermissionSet
 ```
@@ -495,7 +495,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 ssopermissionset.SsoPermissionSet_IsConstruct(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 ssopermissionset.SsoPermissionSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ ssopermissionset.SsoPermissionSet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 ssopermissionset.SsoPermissionSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ ssopermissionset.SsoPermissionSet_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 ssopermissionset.SsoPermissionSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -584,7 +584,7 @@ The construct id used in the generated config for the SsoPermissionSet to import
 
 The id of the existing SsoPermissionSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1026,7 +1026,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 &ssopermissionset.SsoPermissionSetConfig {
 	Connection: interface{},
@@ -1042,7 +1042,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
 	Description: *string,
 	InlinePolicy: *string,
 	ManagedPolicies: *[]*string,
-	PermissionsBoundary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundary,
+	PermissionsBoundary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssoPermissionSet.SsoPermissionSetPermissionsBoundary,
 	RelayStateType: *string,
 	SessionDuration: *string,
 	Tags: interface{},
@@ -1062,14 +1062,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
 | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.instanceArn">InstanceArn</a></code> | <code>*string</code> | The sso instance arn that the permission set is owned. |
 | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.name">Name</a></code> | <code>*string</code> | The name you want to assign to this permission set. |
-| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.customerManagedPolicyReferences">CustomerManagedPolicyReferences</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#customer_managed_policy_references SsoPermissionSet#customer_managed_policy_references}. |
+| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.customerManagedPolicyReferences">CustomerManagedPolicyReferences</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#customer_managed_policy_references SsoPermissionSet#customer_managed_policy_references}. |
 | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.description">Description</a></code> | <code>*string</code> | The permission set description. |
 | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.inlinePolicy">InlinePolicy</a></code> | <code>*string</code> | The inline policy to put in permission set. |
-| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.managedPolicies">ManagedPolicies</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#managed_policies SsoPermissionSet#managed_policies}. |
-| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.permissionsBoundary">PermissionsBoundary</a></code> | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundary">SsoPermissionSetPermissionsBoundary</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#permissions_boundary SsoPermissionSet#permissions_boundary}. |
+| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.managedPolicies">ManagedPolicies</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#managed_policies SsoPermissionSet#managed_policies}. |
+| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.permissionsBoundary">PermissionsBoundary</a></code> | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundary">SsoPermissionSetPermissionsBoundary</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#permissions_boundary SsoPermissionSet#permissions_boundary}. |
 | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.relayStateType">RelayStateType</a></code> | <code>*string</code> | The relay state URL that redirect links to any service in the AWS Management Console. |
 | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.sessionDuration">SessionDuration</a></code> | <code>*string</code> | The length of time that a user can be signed in to an AWS account. |
-| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#tags SsoPermissionSet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#tags SsoPermissionSet#tags}. |
 
 ---
 
@@ -1153,7 +1153,7 @@ InstanceArn *string
 
 The sso instance arn that the permission set is owned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#instance_arn SsoPermissionSet#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#instance_arn SsoPermissionSet#instance_arn}
 
 ---
 
@@ -1167,7 +1167,7 @@ Name *string
 
 The name you want to assign to this permission set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}
 
 ---
 
@@ -1179,7 +1179,7 @@ CustomerManagedPolicyReferences interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#customer_managed_policy_references SsoPermissionSet#customer_managed_policy_references}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#customer_managed_policy_references SsoPermissionSet#customer_managed_policy_references}.
 
 ---
 
@@ -1193,7 +1193,7 @@ Description *string
 
 The permission set description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#description SsoPermissionSet#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#description SsoPermissionSet#description}
 
 ---
 
@@ -1207,7 +1207,7 @@ InlinePolicy *string
 
 The inline policy to put in permission set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#inline_policy SsoPermissionSet#inline_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#inline_policy SsoPermissionSet#inline_policy}
 
 ---
 
@@ -1219,7 +1219,7 @@ ManagedPolicies *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#managed_policies SsoPermissionSet#managed_policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#managed_policies SsoPermissionSet#managed_policies}.
 
 ---
 
@@ -1231,7 +1231,7 @@ PermissionsBoundary SsoPermissionSetPermissionsBoundary
 
 - *Type:* <a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundary">SsoPermissionSetPermissionsBoundary</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#permissions_boundary SsoPermissionSet#permissions_boundary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#permissions_boundary SsoPermissionSet#permissions_boundary}.
 
 ---
 
@@ -1245,7 +1245,7 @@ RelayStateType *string
 
 The relay state URL that redirect links to any service in the AWS Management Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#relay_state_type SsoPermissionSet#relay_state_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#relay_state_type SsoPermissionSet#relay_state_type}
 
 ---
 
@@ -1259,7 +1259,7 @@ SessionDuration *string
 
 The length of time that a user can be signed in to an AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#session_duration SsoPermissionSet#session_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#session_duration SsoPermissionSet#session_duration}
 
 ---
 
@@ -1271,7 +1271,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#tags SsoPermissionSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#tags SsoPermissionSet#tags}.
 
 ---
 
@@ -1280,7 +1280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetCustomerManagedPolicyReferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 &ssopermissionset.SsoPermissionSetCustomerManagedPolicyReferences {
 	Name: *string,
@@ -1292,8 +1292,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetCustomerManagedPolicyReferences.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}. |
-| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetCustomerManagedPolicyReferences.property.path">Path</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}. |
+| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetCustomerManagedPolicyReferences.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}. |
+| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetCustomerManagedPolicyReferences.property.path">Path</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}. |
 
 ---
 
@@ -1305,7 +1305,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}.
 
 ---
 
@@ -1317,7 +1317,7 @@ Path *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}.
 
 ---
 
@@ -1326,10 +1326,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 &ssopermissionset.SsoPermissionSetPermissionsBoundary {
-	CustomerManagedPolicyReference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference,
+	CustomerManagedPolicyReference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference,
 	ManagedPolicyArn: *string,
 }
 ```
@@ -1338,7 +1338,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundary.property.customerManagedPolicyReference">CustomerManagedPolicyReference</a></code> | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference">SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#customer_managed_policy_reference SsoPermissionSet#customer_managed_policy_reference}. |
+| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundary.property.customerManagedPolicyReference">CustomerManagedPolicyReference</a></code> | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference">SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#customer_managed_policy_reference SsoPermissionSet#customer_managed_policy_reference}. |
 | <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundary.property.managedPolicyArn">ManagedPolicyArn</a></code> | <code>*string</code> | The managed policy to attach. |
 
 ---
@@ -1351,7 +1351,7 @@ CustomerManagedPolicyReference SsoPermissionSetPermissionsBoundaryCustomerManage
 
 - *Type:* <a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference">SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#customer_managed_policy_reference SsoPermissionSet#customer_managed_policy_reference}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#customer_managed_policy_reference SsoPermissionSet#customer_managed_policy_reference}.
 
 ---
 
@@ -1365,7 +1365,7 @@ ManagedPolicyArn *string
 
 The managed policy to attach.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#managed_policy_arn SsoPermissionSet#managed_policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#managed_policy_arn SsoPermissionSet#managed_policy_arn}
 
 ---
 
@@ -1374,7 +1374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 &ssopermissionset.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference {
 	Name: *string,
@@ -1386,8 +1386,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}. |
-| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference.property.path">Path</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}. |
+| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}. |
+| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference.property.path">Path</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}. |
 
 ---
 
@@ -1399,7 +1399,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}.
 
 ---
 
@@ -1411,7 +1411,7 @@ Path *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}.
 
 ---
 
@@ -1420,7 +1420,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 &ssopermissionset.SsoPermissionSetTags {
 	Key: *string,
@@ -1432,8 +1432,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#key SsoPermissionSet#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#value SsoPermissionSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#key SsoPermissionSet#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#value SsoPermissionSet#value}. |
 
 ---
 
@@ -1445,7 +1445,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#key SsoPermissionSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#key SsoPermissionSet#key}.
 
 ---
 
@@ -1457,7 +1457,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_permission_set#value SsoPermissionSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_permission_set#value SsoPermissionSet#value}.
 
 ---
 
@@ -1468,7 +1468,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetCustomerManagedPolicyReferencesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 ssopermissionset.NewSsoPermissionSetCustomerManagedPolicyReferencesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsoPermissionSetCustomerManagedPolicyReferencesList
 ```
@@ -1628,7 +1628,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetCustomerManagedPolicyReferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 ssopermissionset.NewSsoPermissionSetCustomerManagedPolicyReferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsoPermissionSetCustomerManagedPolicyReferencesOutputReference
 ```
@@ -1953,7 +1953,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 ssopermissionset.NewSsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReferenceOutputReference
 ```
@@ -2260,7 +2260,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetPermissionsBoundaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 ssopermissionset.NewSsoPermissionSetPermissionsBoundaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsoPermissionSetPermissionsBoundaryOutputReference
 ```
@@ -2580,7 +2580,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 ssopermissionset.NewSsoPermissionSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsoPermissionSetTagsList
 ```
@@ -2740,7 +2740,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoPermissionSet.SsoPermissionSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssopermissionset"
 
 ssopermissionset.NewSsoPermissionSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsoPermissionSetTagsOutputReference
 ```

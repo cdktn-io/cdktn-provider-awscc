@@ -4,12 +4,12 @@
 
 ### IotResourceSpecificLogging <a name="IotResourceSpecificLogging" id="@cdktn/provider-awscc.iotResourceSpecificLogging.IotResourceSpecificLogging"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotResourceSpecificLogging.IotResourceSpecificLogging.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotresourcespecificlogging"
 
 iotresourcespecificlogging.NewIotResourceSpecificLogging(scope Construct, id *string, config IotResourceSpecificLoggingConfig) IotResourceSpecificLogging
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotResourceSpecificLogging.IotResourceSpecificLogging.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotresourcespecificlogging"
 
 iotresourcespecificlogging.IotResourceSpecificLogging_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotResourceSpecificLogging.IotResourceSpecificLogging.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotresourcespecificlogging"
 
 iotresourcespecificlogging.IotResourceSpecificLogging_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ iotresourcespecificlogging.IotResourceSpecificLogging_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotResourceSpecificLogging.IotResourceSpecificLogging.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotresourcespecificlogging"
 
 iotresourcespecificlogging.IotResourceSpecificLogging_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ iotresourcespecificlogging.IotResourceSpecificLogging_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotResourceSpecificLogging.IotResourceSpecificLogging.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotresourcespecificlogging"
 
 iotresourcespecificlogging.IotResourceSpecificLogging_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the IotResourceSpecificLogging
 
 The id of the existing IotResourceSpecificLogging that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_resource_specific_logging#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_resource_specific_logging#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -777,7 +777,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotResourceSpecificLogging.IotResourceSpecificLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotresourcespecificlogging"
 
 &iotresourcespecificlogging.IotResourceSpecificLoggingConfig {
 	Connection: interface{},
@@ -890,7 +890,7 @@ LogLevel *string
 
 The log level for a specific target. Valid values are: ERROR, WARN, INFO, DEBUG, or DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_resource_specific_logging#log_level IotResourceSpecificLogging#log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_resource_specific_logging#log_level IotResourceSpecificLogging#log_level}
 
 ---
 
@@ -904,7 +904,7 @@ TargetName *string
 
 The target name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_resource_specific_logging#target_name IotResourceSpecificLogging#target_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_resource_specific_logging#target_name IotResourceSpecificLogging#target_name}
 
 ---
 
@@ -918,7 +918,7 @@ TargetType *string
 
 The target type. Value must be THING_GROUP, CLIENT_ID, SOURCE_IP, PRINCIPAL_ID, or EVENT_TYPE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_resource_specific_logging#target_type IotResourceSpecificLogging#target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_resource_specific_logging#target_type IotResourceSpecificLogging#target_type}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontAnycastIpLists <a name="DataAwsccCloudfrontAnycastIpLists" id="@cdktn/provider-awscc.dataAwsccCloudfrontAnycastIpLists.DataAwsccCloudfrontAnycastIpLists"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_anycast_ip_lists awscc_cloudfront_anycast_ip_lists}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_anycast_ip_lists awscc_cloudfront_anycast_ip_lists}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontAnycastIpLists.DataAwsccCloudfrontAnycastIpLists.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontanycastiplists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontanycastiplists"
 
 dataawscccloudfrontanycastiplists.NewDataAwsccCloudfrontAnycastIpLists(scope Construct, id *string, config DataAwsccCloudfrontAnycastIpListsConfig) DataAwsccCloudfrontAnycastIpLists
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontAnycastIpLists.DataAwsccCloudfrontAnycastIpLists.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontanycastiplists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontanycastiplists"
 
 dataawscccloudfrontanycastiplists.DataAwsccCloudfrontAnycastIpLists_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontAnycastIpLists.DataAwsccCloudfrontAnycastIpLists.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontanycastiplists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontanycastiplists"
 
 dataawscccloudfrontanycastiplists.DataAwsccCloudfrontAnycastIpLists_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontanycastiplists.DataAwsccCloudfrontAnycastIpLists_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontAnycastIpLists.DataAwsccCloudfrontAnycastIpLists.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontanycastiplists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontanycastiplists"
 
 dataawscccloudfrontanycastiplists.DataAwsccCloudfrontAnycastIpLists_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontanycastiplists.DataAwsccCloudfrontAnycastIpLists_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontAnycastIpLists.DataAwsccCloudfrontAnycastIpLists.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontanycastiplists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontanycastiplists"
 
 dataawscccloudfrontanycastiplists.DataAwsccCloudfrontAnycastIpLists_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontAnycast
 
 The id of the existing DataAwsccCloudfrontAnycastIpLists that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_anycast_ip_lists#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_anycast_ip_lists#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontAnycastIpLists.DataAwsccCloudfrontAnycastIpListsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontanycastiplists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontanycastiplists"
 
 &dataawscccloudfrontanycastiplists.DataAwsccCloudfrontAnycastIpListsConfig {
 	Connection: interface{},

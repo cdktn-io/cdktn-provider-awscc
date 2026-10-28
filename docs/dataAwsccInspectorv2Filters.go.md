@@ -4,12 +4,12 @@
 
 ### DataAwsccInspectorv2Filters <a name="DataAwsccInspectorv2Filters" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filters.DataAwsccInspectorv2Filters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_filters awscc_inspectorv2_filters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_filters awscc_inspectorv2_filters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filters.DataAwsccInspectorv2Filters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filters"
 
 dataawsccinspectorv2filters.NewDataAwsccInspectorv2Filters(scope Construct, id *string, config DataAwsccInspectorv2FiltersConfig) DataAwsccInspectorv2Filters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filters.DataAwsccInspectorv2Filters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filters"
 
 dataawsccinspectorv2filters.DataAwsccInspectorv2Filters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filters.DataAwsccInspectorv2Filters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filters"
 
 dataawsccinspectorv2filters.DataAwsccInspectorv2Filters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccinspectorv2filters.DataAwsccInspectorv2Filters_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filters.DataAwsccInspectorv2Filters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filters"
 
 dataawsccinspectorv2filters.DataAwsccInspectorv2Filters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccinspectorv2filters.DataAwsccInspectorv2Filters_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filters.DataAwsccInspectorv2Filters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filters"
 
 dataawsccinspectorv2filters.DataAwsccInspectorv2Filters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInspectorv2Filter
 
 The id of the existing DataAwsccInspectorv2Filters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_filters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_filters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filters.DataAwsccInspectorv2FiltersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filters"
 
 &dataawsccinspectorv2filters.DataAwsccInspectorv2FiltersConfig {
 	Connection: interface{},

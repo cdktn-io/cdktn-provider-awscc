@@ -4,12 +4,12 @@
 
 ### BedrockIntelligentPromptRouter <a name="BedrockIntelligentPromptRouter" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router awscc_bedrock_intelligent_prompt_router}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router awscc_bedrock_intelligent_prompt_router}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 bedrockintelligentpromptrouter.NewBedrockIntelligentPromptRouter(scope Construct, id *string, config BedrockIntelligentPromptRouterConfig) BedrockIntelligentPromptRouter
 ```
@@ -466,7 +466,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 bedrockintelligentpromptrouter.BedrockIntelligentPromptRouter_IsConstruct(x interface{}) *bool
 ```
@@ -498,7 +498,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 bedrockintelligentpromptrouter.BedrockIntelligentPromptRouter_IsTerraformElement(x interface{}) *bool
 ```
@@ -512,7 +512,7 @@ bedrockintelligentpromptrouter.BedrockIntelligentPromptRouter_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouter.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 bedrockintelligentpromptrouter.BedrockIntelligentPromptRouter_IsTerraformResource(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ bedrockintelligentpromptrouter.BedrockIntelligentPromptRouter_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 bedrockintelligentpromptrouter.BedrockIntelligentPromptRouter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -555,7 +555,7 @@ The construct id used in the generated config for the BedrockIntelligentPromptRo
 
 The id of the existing BedrockIntelligentPromptRouter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -953,7 +953,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 &bedrockintelligentpromptrouter.BedrockIntelligentPromptRouterConfig {
 	Connection: interface{},
@@ -963,10 +963,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentprom
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	FallbackModel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterFallbackModel,
+	FallbackModel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterFallbackModel,
 	Models: interface{},
 	PromptRouterName: *string,
-	RoutingCriteria: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterRoutingCriteria,
+	RoutingCriteria: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterRoutingCriteria,
 	Description: *string,
 	Tags: interface{},
 }
@@ -1072,7 +1072,7 @@ FallbackModel BedrockIntelligentPromptRouterFallbackModel
 
 Model configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#fallback_model BedrockIntelligentPromptRouter#fallback_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#fallback_model BedrockIntelligentPromptRouter#fallback_model}
 
 ---
 
@@ -1086,7 +1086,7 @@ Models interface{}
 
 List of model configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#models BedrockIntelligentPromptRouter#models}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#models BedrockIntelligentPromptRouter#models}
 
 ---
 
@@ -1100,7 +1100,7 @@ PromptRouterName *string
 
 Name of the Prompt Router.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#prompt_router_name BedrockIntelligentPromptRouter#prompt_router_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#prompt_router_name BedrockIntelligentPromptRouter#prompt_router_name}
 
 ---
 
@@ -1114,7 +1114,7 @@ RoutingCriteria BedrockIntelligentPromptRouterRoutingCriteria
 
 Represents the criteria used for routing requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#routing_criteria BedrockIntelligentPromptRouter#routing_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#routing_criteria BedrockIntelligentPromptRouter#routing_criteria}
 
 ---
 
@@ -1128,7 +1128,7 @@ Description *string
 
 Description of the Prompt Router.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#description BedrockIntelligentPromptRouter#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#description BedrockIntelligentPromptRouter#description}
 
 ---
 
@@ -1142,7 +1142,7 @@ Tags interface{}
 
 List of Tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#tags BedrockIntelligentPromptRouter#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#tags BedrockIntelligentPromptRouter#tags}
 
 ---
 
@@ -1151,7 +1151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterFallbackModel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 &bedrockintelligentpromptrouter.BedrockIntelligentPromptRouterFallbackModel {
 	ModelArn: *string,
@@ -1176,7 +1176,7 @@ ModelArn *string
 
 Arn of underlying model which are added in the Prompt Router.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#model_arn BedrockIntelligentPromptRouter#model_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#model_arn BedrockIntelligentPromptRouter#model_arn}
 
 ---
 
@@ -1185,7 +1185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterModels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 &bedrockintelligentpromptrouter.BedrockIntelligentPromptRouterModels {
 	ModelArn: *string,
@@ -1210,7 +1210,7 @@ ModelArn *string
 
 Arn of underlying model which are added in the Prompt Router.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#model_arn BedrockIntelligentPromptRouter#model_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#model_arn BedrockIntelligentPromptRouter#model_arn}
 
 ---
 
@@ -1219,7 +1219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterRoutingCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 &bedrockintelligentpromptrouter.BedrockIntelligentPromptRouterRoutingCriteria {
 	ResponseQualityDifference: *f64,
@@ -1230,7 +1230,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentprom
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterRoutingCriteria.property.responseQualityDifference">ResponseQualityDifference</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#response_quality_difference BedrockIntelligentPromptRouter#response_quality_difference}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterRoutingCriteria.property.responseQualityDifference">ResponseQualityDifference</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#response_quality_difference BedrockIntelligentPromptRouter#response_quality_difference}. |
 
 ---
 
@@ -1242,7 +1242,7 @@ ResponseQualityDifference *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#response_quality_difference BedrockIntelligentPromptRouter#response_quality_difference}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#response_quality_difference BedrockIntelligentPromptRouter#response_quality_difference}.
 
 ---
 
@@ -1251,7 +1251,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 &bedrockintelligentpromptrouter.BedrockIntelligentPromptRouterTags {
 	Key: *string,
@@ -1278,7 +1278,7 @@ Key *string
 
 Tag Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#key BedrockIntelligentPromptRouter#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#key BedrockIntelligentPromptRouter#key}
 
 ---
 
@@ -1292,7 +1292,7 @@ Value *string
 
 Tag Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router#value BedrockIntelligentPromptRouter#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router#value BedrockIntelligentPromptRouter#value}
 
 ---
 
@@ -1303,7 +1303,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterFallbackModelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 bedrockintelligentpromptrouter.NewBedrockIntelligentPromptRouterFallbackModelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockIntelligentPromptRouterFallbackModelOutputReference
 ```
@@ -1574,7 +1574,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterModelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 bedrockintelligentpromptrouter.NewBedrockIntelligentPromptRouterModelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockIntelligentPromptRouterModelsList
 ```
@@ -1734,7 +1734,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterModelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 bedrockintelligentpromptrouter.NewBedrockIntelligentPromptRouterModelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockIntelligentPromptRouterModelsOutputReference
 ```
@@ -2023,7 +2023,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterRoutingCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 bedrockintelligentpromptrouter.NewBedrockIntelligentPromptRouterRoutingCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockIntelligentPromptRouterRoutingCriteriaOutputReference
 ```
@@ -2294,7 +2294,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 bedrockintelligentpromptrouter.NewBedrockIntelligentPromptRouterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockIntelligentPromptRouterTagsList
 ```
@@ -2454,7 +2454,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockIntelligentPromptRouter.BedrockIntelligentPromptRouterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter"
 
 bedrockintelligentpromptrouter.NewBedrockIntelligentPromptRouterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockIntelligentPromptRouterTagsOutputReference
 ```

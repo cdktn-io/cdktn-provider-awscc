@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockEnforcedGuardrailConfigurations <a name="DataAwsccBedrockEnforcedGuardrailConfigurations" id="@cdktn/provider-awscc.dataAwsccBedrockEnforcedGuardrailConfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_enforced_guardrail_configurations awscc_bedrock_enforced_guardrail_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_enforced_guardrail_configurations awscc_bedrock_enforced_guardrail_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockEnforcedGuardrailConfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockenforcedguardrailconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockenforcedguardrailconfigurations"
 
 dataawsccbedrockenforcedguardrailconfigurations.NewDataAwsccBedrockEnforcedGuardrailConfigurations(scope Construct, id *string, config DataAwsccBedrockEnforcedGuardrailConfigurationsConfig) DataAwsccBedrockEnforcedGuardrailConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockEnforcedGuardrailConfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockenforcedguardrailconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockenforcedguardrailconfigurations"
 
 dataawsccbedrockenforcedguardrailconfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockEnforcedGuardrailConfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockenforcedguardrailconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockenforcedguardrailconfigurations"
 
 dataawsccbedrockenforcedguardrailconfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockenforcedguardrailconfigurations.DataAwsccBedrockEnforcedGuardrai
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockEnforcedGuardrailConfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockenforcedguardrailconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockenforcedguardrailconfigurations"
 
 dataawsccbedrockenforcedguardrailconfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockenforcedguardrailconfigurations.DataAwsccBedrockEnforcedGuardrai
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockEnforcedGuardrailConfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockenforcedguardrailconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockenforcedguardrailconfigurations"
 
 dataawsccbedrockenforcedguardrailconfigurations.DataAwsccBedrockEnforcedGuardrailConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockEnforcedGu
 
 The id of the existing DataAwsccBedrockEnforcedGuardrailConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_enforced_guardrail_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_enforced_guardrail_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockEnforcedGuardrailConfigurations.DataAwsccBedrockEnforcedGuardrailConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockenforcedguardrailconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockenforcedguardrailconfigurations"
 
 &dataawsccbedrockenforcedguardrailconfigurations.DataAwsccBedrockEnforcedGuardrailConfigurationsConfig {
 	Connection: interface{},

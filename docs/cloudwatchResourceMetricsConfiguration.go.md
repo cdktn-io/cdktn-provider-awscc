@@ -4,12 +4,12 @@
 
 ### CloudwatchResourceMetricsConfiguration <a name="CloudwatchResourceMetricsConfiguration" id="@cdktn/provider-awscc.cloudwatchResourceMetricsConfiguration.CloudwatchResourceMetricsConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_resource_metrics_configuration awscc_cloudwatch_resource_metrics_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration awscc_cloudwatch_resource_metrics_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchResourceMetricsConfiguration.CloudwatchResourceMetricsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchresourcemetricsconfiguration"
 
 cloudwatchresourcemetricsconfiguration.NewCloudwatchResourceMetricsConfiguration(scope Construct, id *string, config CloudwatchResourceMetricsConfigurationConfig) CloudwatchResourceMetricsConfiguration
 ```
@@ -420,7 +420,7 @@ func ResetMetricSelections()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudwatchResourceMetricsConfiguration.CloudwatchResourceMetricsConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchresourcemetricsconfiguration"
 
 cloudwatchresourcemetricsconfiguration.CloudwatchResourceMetricsConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudwatchResourceMetricsConfiguration.CloudwatchResourceMetricsConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchresourcemetricsconfiguration"
 
 cloudwatchresourcemetricsconfiguration.CloudwatchResourceMetricsConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ cloudwatchresourcemetricsconfiguration.CloudwatchResourceMetricsConfiguration_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudwatchResourceMetricsConfiguration.CloudwatchResourceMetricsConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchresourcemetricsconfiguration"
 
 cloudwatchresourcemetricsconfiguration.CloudwatchResourceMetricsConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ cloudwatchresourcemetricsconfiguration.CloudwatchResourceMetricsConfiguration_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudwatchResourceMetricsConfiguration.CloudwatchResourceMetricsConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchresourcemetricsconfiguration"
 
 cloudwatchresourcemetricsconfiguration.CloudwatchResourceMetricsConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the CloudwatchResourceMetricsC
 
 The id of the existing CloudwatchResourceMetricsConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_resource_metrics_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -786,7 +786,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchResourceMetricsConfiguration.CloudwatchResourceMetricsConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchresourcemetricsconfiguration"
 
 &cloudwatchresourcemetricsconfiguration.CloudwatchResourceMetricsConfigurationConfig {
 	Connection: interface{},
@@ -897,7 +897,7 @@ ResourceArn *string
 
 The Amazon Resource Name (ARN) of the resource for which the detailed monitoring metrics configuration is managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_resource_metrics_configuration#resource_arn CloudwatchResourceMetricsConfiguration#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration#resource_arn CloudwatchResourceMetricsConfiguration#resource_arn}
 
 ---
 
@@ -911,7 +911,7 @@ MetricSelections interface{}
 
 The metric selections that define which metrics are enabled for detailed monitoring on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_resource_metrics_configuration#metric_selections CloudwatchResourceMetricsConfiguration#metric_selections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration#metric_selections CloudwatchResourceMetricsConfiguration#metric_selections}
 
 ---
 
@@ -920,7 +920,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchResourceMetricsConfiguration.CloudwatchResourceMetricsConfigurationMetricSelections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchresourcemetricsconfiguration"
 
 &cloudwatchresourcemetricsconfiguration.CloudwatchResourceMetricsConfigurationMetricSelections {
 	IncludeMetrics: *[]*string,
@@ -945,7 +945,7 @@ IncludeMetrics *[]*string
 
 The list of metric names to include in detailed monitoring for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_resource_metrics_configuration#include_metrics CloudwatchResourceMetricsConfiguration#include_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration#include_metrics CloudwatchResourceMetricsConfiguration#include_metrics}
 
 ---
 
@@ -956,7 +956,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchResourceMetricsConfiguration.CloudwatchResourceMetricsConfigurationMetricSelectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchresourcemetricsconfiguration"
 
 cloudwatchresourcemetricsconfiguration.NewCloudwatchResourceMetricsConfigurationMetricSelectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudwatchResourceMetricsConfigurationMetricSelectionsList
 ```
@@ -1116,7 +1116,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchResourceMetricsConfiguration.CloudwatchResourceMetricsConfigurationMetricSelectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchresourcemetricsconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchresourcemetricsconfiguration"
 
 cloudwatchresourcemetricsconfiguration.NewCloudwatchResourceMetricsConfigurationMetricSelectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudwatchResourceMetricsConfigurationMetricSelectionsOutputReference
 ```

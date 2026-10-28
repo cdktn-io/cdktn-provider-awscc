@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2NetworkAcls <a name="DataAwsccEc2NetworkAcls" id="@cdktn/provider-awscc.dataAwsccEc2NetworkAcls.DataAwsccEc2NetworkAcls"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_acls awscc_ec2_network_acls}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_acls awscc_ec2_network_acls}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkAcls.DataAwsccEc2NetworkAcls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkacls"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkacls"
 
 dataawsccec2networkacls.NewDataAwsccEc2NetworkAcls(scope Construct, id *string, config DataAwsccEc2NetworkAclsConfig) DataAwsccEc2NetworkAcls
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2NetworkAcls.DataAwsccEc2NetworkAcls.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkacls"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkacls"
 
 dataawsccec2networkacls.DataAwsccEc2NetworkAcls_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2NetworkAcls.DataAwsccEc2NetworkAcls.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkacls"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkacls"
 
 dataawsccec2networkacls.DataAwsccEc2NetworkAcls_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2networkacls.DataAwsccEc2NetworkAcls_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2NetworkAcls.DataAwsccEc2NetworkAcls.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkacls"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkacls"
 
 dataawsccec2networkacls.DataAwsccEc2NetworkAcls_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2networkacls.DataAwsccEc2NetworkAcls_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2NetworkAcls.DataAwsccEc2NetworkAcls.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkacls"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkacls"
 
 dataawsccec2networkacls.DataAwsccEc2NetworkAcls_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2NetworkAcls to
 
 The id of the existing DataAwsccEc2NetworkAcls that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_acls#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_acls#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkAcls.DataAwsccEc2NetworkAclsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkacls"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkacls"
 
 &dataawsccec2networkacls.DataAwsccEc2NetworkAclsConfig {
 	Connection: interface{},

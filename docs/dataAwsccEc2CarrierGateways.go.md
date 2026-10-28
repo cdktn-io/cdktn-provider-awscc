@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2CarrierGateways <a name="DataAwsccEc2CarrierGateways" id="@cdktn/provider-awscc.dataAwsccEc2CarrierGateways.DataAwsccEc2CarrierGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_carrier_gateways awscc_ec2_carrier_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_carrier_gateways awscc_ec2_carrier_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CarrierGateways.DataAwsccEc2CarrierGateways.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2carriergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2carriergateways"
 
 dataawsccec2carriergateways.NewDataAwsccEc2CarrierGateways(scope Construct, id *string, config DataAwsccEc2CarrierGatewaysConfig) DataAwsccEc2CarrierGateways
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2CarrierGateways.DataAwsccEc2CarrierGateways.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2carriergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2carriergateways"
 
 dataawsccec2carriergateways.DataAwsccEc2CarrierGateways_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2CarrierGateways.DataAwsccEc2CarrierGateways.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2carriergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2carriergateways"
 
 dataawsccec2carriergateways.DataAwsccEc2CarrierGateways_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2carriergateways.DataAwsccEc2CarrierGateways_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2CarrierGateways.DataAwsccEc2CarrierGateways.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2carriergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2carriergateways"
 
 dataawsccec2carriergateways.DataAwsccEc2CarrierGateways_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2carriergateways.DataAwsccEc2CarrierGateways_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2CarrierGateways.DataAwsccEc2CarrierGateways.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2carriergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2carriergateways"
 
 dataawsccec2carriergateways.DataAwsccEc2CarrierGateways_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2CarrierGateway
 
 The id of the existing DataAwsccEc2CarrierGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_carrier_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_carrier_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2CarrierGateways.DataAwsccEc2CarrierGatewaysConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2carriergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2carriergateways"
 
 &dataawsccec2carriergateways.DataAwsccEc2CarrierGatewaysConfig {
 	Connection: interface{},

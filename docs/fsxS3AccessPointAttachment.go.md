@@ -4,12 +4,12 @@
 
 ### FsxS3AccessPointAttachment <a name="FsxS3AccessPointAttachment" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachment(scope Construct, id *string, config FsxS3AccessPointAttachmentConfig) FsxS3AccessPointAttachment
 ```
@@ -460,7 +460,7 @@ func ResetS3AccessPoint()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.FsxS3AccessPointAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.FsxS3AccessPointAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ fsxs3accesspointattachment.FsxS3AccessPointAttachment_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.FsxS3AccessPointAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ fsxs3accesspointattachment.FsxS3AccessPointAttachment_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.FsxS3AccessPointAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the FsxS3AccessPointAttachment
 
 The id of the existing FsxS3AccessPointAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 &fsxs3accesspointattachment.FsxS3AccessPointAttachmentConfig {
 	Connection: interface{},
@@ -882,9 +882,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattach
 	Provisioners: *[]interface{},
 	Name: *string,
 	Type: *string,
-	OntapConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfiguration,
-	OpenZfsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfiguration,
-	S3AccessPoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPoint,
+	OntapConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfiguration,
+	OpenZfsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfiguration,
+	S3AccessPoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPoint,
 }
 ```
 
@@ -987,7 +987,7 @@ Name *string
 
 The name of the S3 access point attachment; also used for the name of the S3 access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
 
 ---
 
@@ -1001,7 +1001,7 @@ Type *string
 
 The type of Amazon FSx volume that the S3 access point is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
 
 ---
 
@@ -1015,7 +1015,7 @@ OntapConfiguration FsxS3AccessPointAttachmentOntapConfiguration
 
 The OntapConfiguration of the S3 access point attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#ontap_configuration FsxS3AccessPointAttachment#ontap_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#ontap_configuration FsxS3AccessPointAttachment#ontap_configuration}
 
 ---
 
@@ -1029,7 +1029,7 @@ OpenZfsConfiguration FsxS3AccessPointAttachmentOpenZfsConfiguration
 
 The OpenZFSConfiguration of the S3 access point attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#open_zfs_configuration FsxS3AccessPointAttachment#open_zfs_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#open_zfs_configuration FsxS3AccessPointAttachment#open_zfs_configuration}
 
 ---
 
@@ -1043,7 +1043,7 @@ S3AccessPoint FsxS3AccessPointAttachmentS3AccessPoint
 
 The S3 access point configuration of the S3 access point attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#s3_access_point FsxS3AccessPointAttachment#s3_access_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#s3_access_point FsxS3AccessPointAttachment#s3_access_point}
 
 ---
 
@@ -1052,10 +1052,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 &fsxs3accesspointattachment.FsxS3AccessPointAttachmentOntapConfiguration {
-	FileSystemIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentity,
+	FileSystemIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentity,
 	VolumeId: *string,
 }
 ```
@@ -1079,7 +1079,7 @@ FileSystemIdentity FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentit
 
 The file system identity used to authorize file access requests made using the S3 access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
 
 ---
 
@@ -1093,7 +1093,7 @@ VolumeId *string
 
 The ID of the FSx for ONTAP volume that the S3 access point is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
 
 ---
 
@@ -1102,12 +1102,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 &fsxs3accesspointattachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentity {
 	Type: *string,
-	UnixUser: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUser,
-	WindowsUser: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUser,
+	UnixUser: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUser,
+	WindowsUser: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUser,
 }
 ```
 
@@ -1131,7 +1131,7 @@ Type *string
 
 Specifies the FSx for ONTAP user identity type, accepts either UNIX or WINDOWS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
 
 ---
 
@@ -1145,7 +1145,7 @@ UnixUser FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUser
 
 Specifies the properties of the file system UNIX user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#unix_user FsxS3AccessPointAttachment#unix_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#unix_user FsxS3AccessPointAttachment#unix_user}
 
 ---
 
@@ -1159,7 +1159,7 @@ WindowsUser FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindow
 
 Specifies the properties of the file system Windows user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#windows_user FsxS3AccessPointAttachment#windows_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#windows_user FsxS3AccessPointAttachment#windows_user}
 
 ---
 
@@ -1168,7 +1168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 &fsxs3accesspointattachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUser {
 	Name: *string,
@@ -1193,7 +1193,7 @@ Name *string
 
 The name of the UNIX user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
 
 ---
 
@@ -1202,7 +1202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 &fsxs3accesspointattachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUser {
 	Name: *string,
@@ -1227,7 +1227,7 @@ Name *string
 
 The name of the Windows user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
 
 ---
 
@@ -1236,10 +1236,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 &fsxs3accesspointattachment.FsxS3AccessPointAttachmentOpenZfsConfiguration {
-	FileSystemIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentity,
+	FileSystemIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentity,
 	VolumeId: *string,
 }
 ```
@@ -1263,7 +1263,7 @@ FileSystemIdentity FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdent
 
 The file system identity used to authorize file access requests made using the S3 access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
 
 ---
 
@@ -1277,7 +1277,7 @@ VolumeId *string
 
 The ID of the FSx for OpenZFS volume that the S3 access point is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
 
 ---
 
@@ -1286,10 +1286,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 &fsxs3accesspointattachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentity {
-	PosixUser: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUser,
+	PosixUser: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUser,
 	Type: *string,
 }
 ```
@@ -1313,7 +1313,7 @@ PosixUser FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixU
 
 Specifies the UID and GIDs of the file system POSIX user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#posix_user FsxS3AccessPointAttachment#posix_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#posix_user FsxS3AccessPointAttachment#posix_user}
 
 ---
 
@@ -1327,7 +1327,7 @@ Type *string
 
 Specifies the FSx for OpenZFS user identity type, accepts only POSIX.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
 
 ---
 
@@ -1336,7 +1336,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 &fsxs3accesspointattachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUser {
 	Gid: *f64,
@@ -1365,7 +1365,7 @@ Gid *f64
 
 The GID of the file system user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
 
 ---
 
@@ -1379,7 +1379,7 @@ SecondaryGids interface{}
 
 The list of secondary GIDs for the file system user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#secondary_gids FsxS3AccessPointAttachment#secondary_gids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#secondary_gids FsxS3AccessPointAttachment#secondary_gids}
 
 ---
 
@@ -1393,7 +1393,7 @@ Uid *f64
 
 The UID of the file system user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#uid FsxS3AccessPointAttachment#uid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#uid FsxS3AccessPointAttachment#uid}
 
 ---
 
@@ -1402,7 +1402,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGids.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 &fsxs3accesspointattachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGids {
 	Gid: *f64,
@@ -1427,7 +1427,7 @@ Gid *f64
 
 The GID of the file system user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
 
 ---
 
@@ -1436,11 +1436,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 &fsxs3accesspointattachment.FsxS3AccessPointAttachmentS3AccessPoint {
 	Policy: *string,
-	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPointVpcConfiguration,
+	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPointVpcConfiguration,
 }
 ```
 
@@ -1463,7 +1463,7 @@ Policy *string
 
 The S3 access point's policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#policy FsxS3AccessPointAttachment#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#policy FsxS3AccessPointAttachment#policy}
 
 ---
 
@@ -1477,7 +1477,7 @@ VpcConfiguration FsxS3AccessPointAttachmentS3AccessPointVpcConfiguration
 
 The S3 access point's virtual private cloud (VPC) configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#vpc_configuration FsxS3AccessPointAttachment#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#vpc_configuration FsxS3AccessPointAttachment#vpc_configuration}
 
 ---
 
@@ -1486,7 +1486,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPointVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 &fsxs3accesspointattachment.FsxS3AccessPointAttachmentS3AccessPointVpcConfiguration {
 	VpcId: *string,
@@ -1511,7 +1511,7 @@ VpcId *string
 
 Specifies the virtual private cloud (VPC) for the S3 access point VPC configuration, if one exists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_s3_access_point_attachment#vpc_id FsxS3AccessPointAttachment#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_s3_access_point_attachment#vpc_id FsxS3AccessPointAttachment#vpc_id}
 
 ---
 
@@ -1522,7 +1522,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityOutputReference
 ```
@@ -1884,7 +1884,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUserOutputReference
 ```
@@ -2162,7 +2162,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUserOutputReference
 ```
@@ -2440,7 +2440,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachmentOntapConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxS3AccessPointAttachmentOntapConfigurationOutputReference
 ```
@@ -2760,7 +2760,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityOutputReference
 ```
@@ -3080,7 +3080,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserOutputReference
 ```
@@ -3429,7 +3429,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsList
 ```
@@ -3589,7 +3589,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUserSecondaryGidsOutputReference
 ```
@@ -3885,7 +3885,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenZfsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachmentOpenZfsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxS3AccessPointAttachmentOpenZfsConfigurationOutputReference
 ```
@@ -4205,7 +4205,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachmentS3AccessPointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxS3AccessPointAttachmentS3AccessPointOutputReference
 ```
@@ -4547,7 +4547,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxs3accesspointattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxs3accesspointattachment"
 
 fsxs3accesspointattachment.NewFsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReference
 ```

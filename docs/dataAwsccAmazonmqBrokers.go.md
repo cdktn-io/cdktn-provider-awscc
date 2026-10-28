@@ -4,12 +4,12 @@
 
 ### DataAwsccAmazonmqBrokers <a name="DataAwsccAmazonmqBrokers" id="@cdktn/provider-awscc.dataAwsccAmazonmqBrokers.DataAwsccAmazonmqBrokers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amazonmq_brokers awscc_amazonmq_brokers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amazonmq_brokers awscc_amazonmq_brokers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmazonmqBrokers.DataAwsccAmazonmqBrokers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqbrokers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqbrokers"
 
 dataawsccamazonmqbrokers.NewDataAwsccAmazonmqBrokers(scope Construct, id *string, config DataAwsccAmazonmqBrokersConfig) DataAwsccAmazonmqBrokers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAmazonmqBrokers.DataAwsccAmazonmqBrokers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqbrokers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqbrokers"
 
 dataawsccamazonmqbrokers.DataAwsccAmazonmqBrokers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAmazonmqBrokers.DataAwsccAmazonmqBrokers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqbrokers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqbrokers"
 
 dataawsccamazonmqbrokers.DataAwsccAmazonmqBrokers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccamazonmqbrokers.DataAwsccAmazonmqBrokers_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAmazonmqBrokers.DataAwsccAmazonmqBrokers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqbrokers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqbrokers"
 
 dataawsccamazonmqbrokers.DataAwsccAmazonmqBrokers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccamazonmqbrokers.DataAwsccAmazonmqBrokers_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAmazonmqBrokers.DataAwsccAmazonmqBrokers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqbrokers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqbrokers"
 
 dataawsccamazonmqbrokers.DataAwsccAmazonmqBrokers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAmazonmqBrokers t
 
 The id of the existing DataAwsccAmazonmqBrokers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amazonmq_brokers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amazonmq_brokers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmazonmqBrokers.DataAwsccAmazonmqBrokersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqbrokers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqbrokers"
 
 &dataawsccamazonmqbrokers.DataAwsccAmazonmqBrokersConfig {
 	Connection: interface{},

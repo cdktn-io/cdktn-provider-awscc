@@ -4,12 +4,12 @@
 
 ### LightsailDiskSnapshot <a name="LightsailDiskSnapshot" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk_snapshot awscc_lightsail_disk_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk_snapshot awscc_lightsail_disk_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisksnapshot"
 
 lightsaildisksnapshot.NewLightsailDiskSnapshot(scope Construct, id *string, config LightsailDiskSnapshotConfig) LightsailDiskSnapshot
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisksnapshot"
 
 lightsaildisksnapshot.LightsailDiskSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisksnapshot"
 
 lightsaildisksnapshot.LightsailDiskSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ lightsaildisksnapshot.LightsailDiskSnapshot_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisksnapshot"
 
 lightsaildisksnapshot.LightsailDiskSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ lightsaildisksnapshot.LightsailDiskSnapshot_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisksnapshot"
 
 lightsaildisksnapshot.LightsailDiskSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the LightsailDiskSnapshot to i
 
 The id of the existing LightsailDiskSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -896,7 +896,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisksnapshot"
 
 &lightsaildisksnapshot.LightsailDiskSnapshotConfig {
 	Connection: interface{},
@@ -1009,7 +1009,7 @@ DiskName *string
 
 The name of the source disk from which the snapshot was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk_snapshot#disk_name LightsailDiskSnapshot#disk_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk_snapshot#disk_name LightsailDiskSnapshot#disk_name}
 
 ---
 
@@ -1023,7 +1023,7 @@ DiskSnapshotName *string
 
 The name of the disk snapshot (e.g., my-disk-snapshot).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk_snapshot#disk_snapshot_name LightsailDiskSnapshot#disk_snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk_snapshot#disk_snapshot_name LightsailDiskSnapshot#disk_snapshot_name}
 
 ---
 
@@ -1037,7 +1037,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk_snapshot#tags LightsailDiskSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk_snapshot#tags LightsailDiskSnapshot#tags}
 
 ---
 
@@ -1046,7 +1046,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshotLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisksnapshot"
 
 &lightsaildisksnapshot.LightsailDiskSnapshotLocation {
 
@@ -1059,7 +1059,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisksnapshot"
 
 &lightsaildisksnapshot.LightsailDiskSnapshotTags {
 	Key: *string,
@@ -1088,7 +1088,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk_snapshot#key LightsailDiskSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk_snapshot#key LightsailDiskSnapshot#key}
 
 ---
 
@@ -1104,7 +1104,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk_snapshot#value LightsailDiskSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk_snapshot#value LightsailDiskSnapshot#value}
 
 ---
 
@@ -1115,7 +1115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshotLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisksnapshot"
 
 lightsaildisksnapshot.NewLightsailDiskSnapshotLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailDiskSnapshotLocationOutputReference
 ```
@@ -1386,7 +1386,7 @@ func InternalValue() LightsailDiskSnapshotLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisksnapshot"
 
 lightsaildisksnapshot.NewLightsailDiskSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailDiskSnapshotTagsList
 ```
@@ -1546,7 +1546,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDiskSnapshot.LightsailDiskSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisksnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisksnapshot"
 
 lightsaildisksnapshot.NewLightsailDiskSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailDiskSnapshotTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccQbusinessWebExperience <a name="DataAwsccQbusinessWebExperience" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperience"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_web_experience awscc_qbusiness_web_experience}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_web_experience awscc_qbusiness_web_experience}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperience.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.NewDataAwsccQbusinessWebExperience(scope Construct, id *string, config DataAwsccQbusinessWebExperienceConfig) DataAwsccQbusinessWebExperience
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperience.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperience_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperience.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperience_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperience_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperience.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperience_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperience_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperience.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperience_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQbusinessWebExper
 
 The id of the existing DataAwsccQbusinessWebExperience that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_web_experience#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_web_experience#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceBrowserExtensionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 &dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperienceBrowserExtensionConfiguration {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 &dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperienceConfig {
 	Connection: interface{},
@@ -896,7 +896,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_web_experience#id DataAwsccQbusinessWebExperience#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_web_experience#id DataAwsccQbusinessWebExperience#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -908,7 +908,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceCustomizationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 &dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperienceCustomizationConfiguration {
 
@@ -921,7 +921,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceIdentityProviderConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 &dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperienceIdentityProviderConfiguration {
 
@@ -934,7 +934,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 &dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfiguration {
 
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 &dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperienceIdentityProviderConfigurationSamlConfiguration {
 
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 &dataawsccqbusinesswebexperience.DataAwsccQbusinessWebExperienceTags {
 
@@ -975,7 +975,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceBrowserExtensionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.NewDataAwsccQbusinessWebExperienceBrowserExtensionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessWebExperienceBrowserExtensionConfigurationOutputReference
 ```
@@ -1235,7 +1235,7 @@ func InternalValue() DataAwsccQbusinessWebExperienceBrowserExtensionConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceCustomizationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.NewDataAwsccQbusinessWebExperienceCustomizationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessWebExperienceCustomizationConfigurationOutputReference
 ```
@@ -1528,7 +1528,7 @@ func InternalValue() DataAwsccQbusinessWebExperienceCustomizationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.NewDataAwsccQbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectConfigurationOutputReference
 ```
@@ -1799,7 +1799,7 @@ func InternalValue() DataAwsccQbusinessWebExperienceIdentityProviderConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceIdentityProviderConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.NewDataAwsccQbusinessWebExperienceIdentityProviderConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessWebExperienceIdentityProviderConfigurationOutputReference
 ```
@@ -2070,7 +2070,7 @@ func InternalValue() DataAwsccQbusinessWebExperienceIdentityProviderConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceIdentityProviderConfigurationSamlConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.NewDataAwsccQbusinessWebExperienceIdentityProviderConfigurationSamlConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessWebExperienceIdentityProviderConfigurationSamlConfigurationOutputReference
 ```
@@ -2330,7 +2330,7 @@ func InternalValue() DataAwsccQbusinessWebExperienceIdentityProviderConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.NewDataAwsccQbusinessWebExperienceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQbusinessWebExperienceTagsList
 ```
@@ -2479,7 +2479,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessWebExperience.DataAwsccQbusinessWebExperienceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinesswebexperience"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinesswebexperience"
 
 dataawsccqbusinesswebexperience.NewDataAwsccQbusinessWebExperienceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQbusinessWebExperienceTagsOutputReference
 ```

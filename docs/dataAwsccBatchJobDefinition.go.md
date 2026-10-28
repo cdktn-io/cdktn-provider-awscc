@@ -4,12 +4,12 @@
 
 ### DataAwsccBatchJobDefinition <a name="DataAwsccBatchJobDefinition" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_job_definition awscc_batch_job_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_job_definition awscc_batch_job_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinition(scope Construct, id *string, config DataAwsccBatchJobDefinitionConfig) DataAwsccBatchJobDefinition
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.DataAwsccBatchJobDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.DataAwsccBatchJobDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbatchjobdefinition.DataAwsccBatchJobDefinition_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinition.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.DataAwsccBatchJobDefinition_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbatchjobdefinition.DataAwsccBatchJobDefinition_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.DataAwsccBatchJobDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBatchJobDefinitio
 
 The id of the existing DataAwsccBatchJobDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_job_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_job_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionConfig {
 	Connection: interface{},
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_job_definition#id DataAwsccBatchJobDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_job_definition#id DataAwsccBatchJobDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionConsumableResourceProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionConsumableResourceProperties {
 
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionConsumableResourcePropertiesConsumableResourceListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionConsumableResourcePropertiesConsumableResourceListStruct {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerProperties {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesEnvironment {
 
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesEphemeralStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesEphemeralStorage {
 
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesFargatePlatformConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesFargatePlatformConfiguration {
 
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLinuxParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesLinuxParameters {
 
@@ -975,7 +975,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersDevices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersDevices {
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersTmpfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersTmpfs {
 
@@ -1001,7 +1001,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesLogConfiguration {
 
@@ -1014,7 +1014,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLogConfigurationSecretOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesLogConfigurationSecretOptions {
 
@@ -1027,7 +1027,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesMountPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesMountPoints {
 
@@ -1040,7 +1040,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesNetworkConfiguration {
 
@@ -1053,7 +1053,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesRepositoryCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesRepositoryCredentials {
 
@@ -1066,7 +1066,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesResourceRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesResourceRequirements {
 
@@ -1079,7 +1079,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesRuntimePlatform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesRuntimePlatform {
 
@@ -1092,7 +1092,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesSecrets {
 
@@ -1105,7 +1105,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesUlimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesUlimits {
 
@@ -1118,7 +1118,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumes {
 
@@ -1131,7 +1131,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfiguration {
 
@@ -1144,7 +1144,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig {
 
@@ -1157,7 +1157,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesHost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesHost {
 
@@ -1170,7 +1170,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfiguration {
 
@@ -1183,7 +1183,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsProperties {
 
@@ -1196,7 +1196,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskProperties {
 
@@ -1209,7 +1209,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainers {
 
@@ -1222,7 +1222,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOn {
 
@@ -1235,7 +1235,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironment {
 
@@ -1248,7 +1248,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConfiguration {
 
@@ -1261,7 +1261,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParameters {
 
@@ -1274,7 +1274,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersDevices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersDevices {
 
@@ -1287,7 +1287,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfs {
 
@@ -1300,7 +1300,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfiguration {
 
@@ -1313,7 +1313,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptions {
 
@@ -1326,7 +1326,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPoints {
 
@@ -1339,7 +1339,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersRepositoryCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersRepositoryCredentials {
 
@@ -1352,7 +1352,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequirements {
 
@@ -1365,7 +1365,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecrets {
 
@@ -1378,7 +1378,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimits {
 
@@ -1391,7 +1391,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesEphemeralStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesEphemeralStorage {
 
@@ -1404,7 +1404,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfiguration {
 
@@ -1417,7 +1417,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatform {
 
@@ -1430,7 +1430,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumes {
 
@@ -1443,7 +1443,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfiguration {
 
@@ -1456,7 +1456,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig {
 
@@ -1469,7 +1469,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesHost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesHost {
 
@@ -1482,7 +1482,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfiguration {
 
@@ -1495,7 +1495,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksProperties {
 
@@ -1508,7 +1508,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodProperties {
 
@@ -1521,7 +1521,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainers {
 
@@ -1534,7 +1534,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersEnv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersEnv {
 
@@ -1547,7 +1547,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersResources {
 
@@ -1560,7 +1560,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContext.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContext {
 
@@ -1573,7 +1573,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMounts {
 
@@ -1586,7 +1586,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesImagePullSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesImagePullSecrets {
 
@@ -1599,7 +1599,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainers {
 
@@ -1612,7 +1612,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnv {
 
@@ -1625,7 +1625,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersResources {
 
@@ -1638,7 +1638,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContext.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContext {
 
@@ -1651,7 +1651,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMounts {
 
@@ -1664,7 +1664,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesMetadata {
 
@@ -1677,7 +1677,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumes {
 
@@ -1690,7 +1690,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDir.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDir {
 
@@ -1703,7 +1703,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPath {
 
@@ -1716,7 +1716,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolumeClaim.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolumeClaim {
 
@@ -1729,7 +1729,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesSecret.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesSecret {
 
@@ -1742,7 +1742,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodeProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodeProperties {
 
@@ -1755,7 +1755,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangeProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangeProperties {
 
@@ -1768,7 +1768,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourceProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourceProperties {
 
@@ -1781,7 +1781,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesConsumableResourceListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesConsumableResourceListStruct {
 
@@ -1794,7 +1794,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainer {
 
@@ -1807,7 +1807,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnvironment {
 
@@ -1820,7 +1820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEphemeralStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEphemeralStorage {
 
@@ -1833,7 +1833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParameters {
 
@@ -1846,7 +1846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersDevices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersDevices {
 
@@ -1859,7 +1859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersTmpfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersTmpfs {
 
@@ -1872,7 +1872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfiguration {
 
@@ -1885,7 +1885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationSecretOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationSecretOptions {
 
@@ -1898,7 +1898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPoints {
 
@@ -1911,7 +1911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRepositoryCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRepositoryCredentials {
 
@@ -1924,7 +1924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourceRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourceRequirements {
 
@@ -1937,7 +1937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntimePlatform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntimePlatform {
 
@@ -1950,7 +1950,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecrets {
 
@@ -1963,7 +1963,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimits {
 
@@ -1976,7 +1976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes {
 
@@ -1989,7 +1989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfiguration {
 
@@ -2002,7 +2002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfigurationAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfigurationAuthorizationConfig {
 
@@ -2015,7 +2015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesHost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesHost {
 
@@ -2028,7 +2028,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfiguration {
 
@@ -2041,7 +2041,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsProperties {
 
@@ -2054,7 +2054,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskProperties {
 
@@ -2067,7 +2067,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainers {
 
@@ -2080,7 +2080,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersDependsOn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersDependsOn {
 
@@ -2093,7 +2093,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersEnvironment {
 
@@ -2106,7 +2106,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersFirelensConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersFirelensConfiguration {
 
@@ -2119,7 +2119,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParameters {
 
@@ -2132,7 +2132,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersDevices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersDevices {
 
@@ -2145,7 +2145,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfs {
 
@@ -2158,7 +2158,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfiguration {
 
@@ -2171,7 +2171,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptions {
 
@@ -2184,7 +2184,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersMountPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersMountPoints {
 
@@ -2197,7 +2197,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersRepositoryCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersRepositoryCredentials {
 
@@ -2210,7 +2210,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersResourceRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersResourceRequirements {
 
@@ -2223,7 +2223,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersSecrets {
 
@@ -2236,7 +2236,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersUlimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersUlimits {
 
@@ -2249,7 +2249,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumes {
 
@@ -2262,7 +2262,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfiguration {
 
@@ -2275,7 +2275,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfig {
 
@@ -2288,7 +2288,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesHost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesHost {
 
@@ -2301,7 +2301,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfiguration {
 
@@ -2314,7 +2314,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksProperties {
 
@@ -2327,7 +2327,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodProperties {
 
@@ -2340,7 +2340,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainers {
 
@@ -2353,7 +2353,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersEnv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersEnv {
 
@@ -2366,7 +2366,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersResources {
 
@@ -2379,7 +2379,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersSecurityContext.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersSecurityContext {
 
@@ -2392,7 +2392,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersVolumeMounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersVolumeMounts {
 
@@ -2405,7 +2405,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesImagePullSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesImagePullSecrets {
 
@@ -2418,7 +2418,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainers {
 
@@ -2431,7 +2431,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersEnv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersEnv {
 
@@ -2444,7 +2444,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersResources {
 
@@ -2457,7 +2457,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersSecurityContext.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersSecurityContext {
 
@@ -2470,7 +2470,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersVolumeMounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersVolumeMounts {
 
@@ -2483,7 +2483,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesMetadata {
 
@@ -2496,7 +2496,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumes {
 
@@ -2509,7 +2509,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesEmptyDir.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesEmptyDir {
 
@@ -2522,7 +2522,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesHostPath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesHostPath {
 
@@ -2535,7 +2535,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesPersistentVolumeClaim.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesPersistentVolumeClaim {
 
@@ -2548,7 +2548,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesSecret.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesSecret {
 
@@ -2561,7 +2561,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionResourceRetentionPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionResourceRetentionPolicy {
 
@@ -2574,7 +2574,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionRetryStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionRetryStrategy {
 
@@ -2587,7 +2587,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionRetryStrategyEvaluateOnExit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionRetryStrategyEvaluateOnExit {
 
@@ -2600,7 +2600,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 &dataawsccbatchjobdefinition.DataAwsccBatchJobDefinitionTimeout {
 
@@ -2615,7 +2615,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionConsumableResourcePropertiesConsumableResourceListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionConsumableResourcePropertiesConsumableResourceListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionConsumableResourcePropertiesConsumableResourceListStructList
 ```
@@ -2764,7 +2764,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionConsumableResourcePropertiesConsumableResourceListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionConsumableResourcePropertiesConsumableResourceListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionConsumableResourcePropertiesConsumableResourceListStructOutputReference
 ```
@@ -3053,7 +3053,7 @@ func InternalValue() DataAwsccBatchJobDefinitionConsumableResourcePropertiesCons
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionConsumableResourcePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionConsumableResourcePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionConsumableResourcePropertiesOutputReference
 ```
@@ -3313,7 +3313,7 @@ func InternalValue() DataAwsccBatchJobDefinitionConsumableResourceProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesEnvironmentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesEnvironmentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesEnvironmentList
 ```
@@ -3462,7 +3462,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesEnvironmentOutputReference
 ```
@@ -3751,7 +3751,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesEnvironment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesEphemeralStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesEphemeralStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesEphemeralStorageOutputReference
 ```
@@ -4011,7 +4011,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesEphemeralStor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesFargatePlatformConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesFargatePlatformConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesFargatePlatformConfigurationOutputReference
 ```
@@ -4271,7 +4271,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesFargatePlatfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersDevicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersDevicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersDevicesList
 ```
@@ -4420,7 +4420,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersDevicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersDevicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersDevicesOutputReference
 ```
@@ -4720,7 +4720,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesLinuxParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersOutputReference
 ```
@@ -5035,7 +5035,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesLinuxParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersTmpfsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersTmpfsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersTmpfsList
 ```
@@ -5184,7 +5184,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersTmpfsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersTmpfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesLinuxParametersTmpfsOutputReference
 ```
@@ -5484,7 +5484,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesLinuxParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesLogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesLogConfigurationOutputReference
 ```
@@ -5766,7 +5766,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesLogConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLogConfigurationSecretOptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesLogConfigurationSecretOptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesLogConfigurationSecretOptionsList
 ```
@@ -5915,7 +5915,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesLogConfigurationSecretOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesLogConfigurationSecretOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesLogConfigurationSecretOptionsOutputReference
 ```
@@ -6204,7 +6204,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesLogConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesMountPointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesMountPointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesMountPointsList
 ```
@@ -6353,7 +6353,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesMountPointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesMountPointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesMountPointsOutputReference
 ```
@@ -6653,7 +6653,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesMountPoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesNetworkConfigurationOutputReference
 ```
@@ -6913,7 +6913,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesNetworkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesOutputReference
 ```
@@ -7415,7 +7415,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesRepositoryCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesRepositoryCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesRepositoryCredentialsOutputReference
 ```
@@ -7675,7 +7675,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesRepositoryCre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesResourceRequirementsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesResourceRequirementsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesResourceRequirementsList
 ```
@@ -7824,7 +7824,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesResourceRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesResourceRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesResourceRequirementsOutputReference
 ```
@@ -8113,7 +8113,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesResourceRequi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesRuntimePlatformOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesRuntimePlatformOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesRuntimePlatformOutputReference
 ```
@@ -8384,7 +8384,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesRuntimePlatfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesSecretsList
 ```
@@ -8533,7 +8533,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesSecretsOutputReference
 ```
@@ -8822,7 +8822,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesSecrets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesUlimitsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesUlimitsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesUlimitsList
 ```
@@ -8971,7 +8971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesUlimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesUlimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesUlimitsOutputReference
 ```
@@ -9271,7 +9271,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesUlimits
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference
 ```
@@ -9542,7 +9542,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVol
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationOutputReference
 ```
@@ -9846,7 +9846,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesVolumesEfsVol
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesHostOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesVolumesHostOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesVolumesHostOutputReference
 ```
@@ -10106,7 +10106,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesVolumesHost
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesVolumesList
 ```
@@ -10255,7 +10255,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionContainerPropertiesVolumesOutputReference
 ```
@@ -10566,7 +10566,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesVolumes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurationOutputReference
 ```
@@ -10859,7 +10859,7 @@ func InternalValue() DataAwsccBatchJobDefinitionContainerPropertiesVolumesS3File
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesOutputReference
 ```
@@ -11119,7 +11119,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOnList
 ```
@@ -11268,7 +11268,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOnOutputReference
 ```
@@ -11557,7 +11557,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironmentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironmentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironmentList
 ```
@@ -11706,7 +11706,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironmentOutputReference
 ```
@@ -11995,7 +11995,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConfigurationOutputReference
 ```
@@ -12266,7 +12266,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesList
 ```
@@ -12415,7 +12415,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesOutputReference
 ```
@@ -12715,7 +12715,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersOutputReference
 ```
@@ -13030,7 +13030,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsList
 ```
@@ -13179,7 +13179,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsOutputReference
 ```
@@ -13479,7 +13479,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersList
 ```
@@ -13628,7 +13628,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationOutputReference
 ```
@@ -13910,7 +13910,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsList
 ```
@@ -14059,7 +14059,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference
 ```
@@ -14348,7 +14348,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsList
 ```
@@ -14497,7 +14497,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsOutputReference
 ```
@@ -14797,7 +14797,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputReference
 ```
@@ -15273,7 +15273,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersRepositoryCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersRepositoryCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersRepositoryCredentialsOutputReference
 ```
@@ -15533,7 +15533,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequirementsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequirementsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequirementsList
 ```
@@ -15682,7 +15682,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequirementsOutputReference
 ```
@@ -15971,7 +15971,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecretsList
 ```
@@ -16120,7 +16120,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecretsOutputReference
 ```
@@ -16409,7 +16409,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsList
 ```
@@ -16558,7 +16558,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsOutputReference
 ```
@@ -16858,7 +16858,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesConta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesEphemeralStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesEphemeralStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesEphemeralStorageOutputReference
 ```
@@ -17118,7 +17118,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesEphem
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesList
 ```
@@ -17267,7 +17267,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOutputReference
 ```
@@ -17527,7 +17527,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesNetwo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference
 ```
@@ -17926,7 +17926,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatformOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatformOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatformOutputReference
 ```
@@ -18197,7 +18197,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesRunti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference
 ```
@@ -18468,7 +18468,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolum
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationOutputReference
 ```
@@ -18772,7 +18772,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolum
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesHostOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesHostOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesHostOutputReference
 ```
@@ -19032,7 +19032,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolum
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesList
 ```
@@ -19181,7 +19181,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesOutputReference
 ```
@@ -19492,7 +19492,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolum
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfigurationOutputReference
 ```
@@ -19785,7 +19785,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesVolum
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEksPropertiesOutputReference
 ```
@@ -20045,7 +20045,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersEnvList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersEnvList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersEnvList
 ```
@@ -20194,7 +20194,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersEnvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersEnvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersEnvOutputReference
 ```
@@ -20483,7 +20483,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersList
 ```
@@ -20632,7 +20632,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReference
 ```
@@ -20998,7 +20998,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersResourcesOutputReference
 ```
@@ -21269,7 +21269,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference
 ```
@@ -21584,7 +21584,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsList
 ```
@@ -21733,7 +21733,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsOutputReference
 ```
@@ -22044,7 +22044,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesContai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesImagePullSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesImagePullSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesImagePullSecretsList
 ```
@@ -22193,7 +22193,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesImagePullSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesImagePullSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesImagePullSecretsOutputReference
 ```
@@ -22471,7 +22471,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesImageP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnvList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnvList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnvList
 ```
@@ -22620,7 +22620,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnvOutputReference
 ```
@@ -22909,7 +22909,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersList
 ```
@@ -23058,7 +23058,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference
 ```
@@ -23424,7 +23424,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersResourcesOutputReference
 ```
@@ -23695,7 +23695,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference
 ```
@@ -24010,7 +24010,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMountsList
 ```
@@ -24159,7 +24159,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMountsOutputReference
 ```
@@ -24470,7 +24470,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesInitCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesMetadataOutputReference
 ```
@@ -24752,7 +24752,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesMetada
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesOutputReference
 ```
@@ -25100,7 +25100,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDirOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDirOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDirOutputReference
 ```
@@ -25371,7 +25371,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolume
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputReference
 ```
@@ -25631,7 +25631,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolume
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesList
 ```
@@ -25780,7 +25780,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesOutputReference
 ```
@@ -26102,7 +26102,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolume
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolumeClaimOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolumeClaimOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolumeClaimOutputReference
 ```
@@ -26373,7 +26373,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolume
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesSecretOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesSecretOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolumesSecretOutputReference
 ```
@@ -26644,7 +26644,7 @@ func InternalValue() DataAwsccBatchJobDefinitionEksPropertiesPodPropertiesVolume
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesConsumableResourceListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesConsumableResourceListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesConsumableResourceListStructList
 ```
@@ -26793,7 +26793,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesConsumableResourceListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesConsumableResourceListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesConsumableResourceListStructOutputReference
 ```
@@ -27082,7 +27082,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResourcePropertiesOutputReference
 ```
@@ -27342,7 +27342,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnvironmentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnvironmentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnvironmentList
 ```
@@ -27491,7 +27491,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnvironmentOutputReference
 ```
@@ -27780,7 +27780,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEphemeralStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEphemeralStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEphemeralStorageOutputReference
 ```
@@ -28040,7 +28040,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersDevicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersDevicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersDevicesList
 ```
@@ -28189,7 +28189,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersDevicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersDevicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersDevicesOutputReference
 ```
@@ -28489,7 +28489,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersOutputReference
 ```
@@ -28804,7 +28804,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersTmpfsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersTmpfsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersTmpfsList
 ```
@@ -28953,7 +28953,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersTmpfsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersTmpfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxParametersTmpfsOutputReference
 ```
@@ -29253,7 +29253,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationOutputReference
 ```
@@ -29535,7 +29535,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationSecretOptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationSecretOptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationSecretOptionsList
 ```
@@ -29684,7 +29684,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationSecretOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationSecretOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConfigurationSecretOptionsOutputReference
 ```
@@ -29973,7 +29973,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPointsList
 ```
@@ -30122,7 +30122,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPointsOutputReference
 ```
@@ -30422,7 +30422,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputReference
 ```
@@ -30913,7 +30913,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRepositoryCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRepositoryCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRepositoryCredentialsOutputReference
 ```
@@ -31173,7 +31173,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourceRequirementsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourceRequirementsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourceRequirementsList
 ```
@@ -31322,7 +31322,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourceRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourceRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourceRequirementsOutputReference
 ```
@@ -31611,7 +31611,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntimePlatformOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntimePlatformOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntimePlatformOutputReference
 ```
@@ -31882,7 +31882,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecretsList
 ```
@@ -32031,7 +32031,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecretsOutputReference
 ```
@@ -32320,7 +32320,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimitsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimitsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimitsList
 ```
@@ -32469,7 +32469,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimitsOutputReference
 ```
@@ -32769,7 +32769,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference
 ```
@@ -33040,7 +33040,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesEfsVolumeConfigurationOutputReference
 ```
@@ -33344,7 +33344,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesHostOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesHostOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesHostOutputReference
 ```
@@ -33604,7 +33604,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesList
 ```
@@ -33753,7 +33753,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesOutputReference
 ```
@@ -34064,7 +34064,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference
 ```
@@ -34357,7 +34357,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesOutputReference
 ```
@@ -34617,7 +34617,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersDependsOnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersDependsOnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersDependsOnList
 ```
@@ -34766,7 +34766,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersDependsOnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersDependsOnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersDependsOnOutputReference
 ```
@@ -35055,7 +35055,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersEnvironmentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersEnvironmentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersEnvironmentList
 ```
@@ -35204,7 +35204,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersEnvironmentOutputReference
 ```
@@ -35493,7 +35493,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersFirelensConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersFirelensConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersFirelensConfigurationOutputReference
 ```
@@ -35764,7 +35764,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesList
 ```
@@ -35913,7 +35913,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersDevicesOutputReference
 ```
@@ -36213,7 +36213,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersOutputReference
 ```
@@ -36528,7 +36528,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsList
 ```
@@ -36677,7 +36677,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfsOutputReference
 ```
@@ -36977,7 +36977,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersList
 ```
@@ -37126,7 +37126,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationOutputReference
 ```
@@ -37408,7 +37408,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsList
 ```
@@ -37557,7 +37557,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference
 ```
@@ -37846,7 +37846,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersMountPointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersMountPointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersMountPointsList
 ```
@@ -37995,7 +37995,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersMountPointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersMountPointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersMountPointsOutputReference
 ```
@@ -38295,7 +38295,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersOutputReference
 ```
@@ -38771,7 +38771,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersRepositoryCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersRepositoryCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersRepositoryCredentialsOutputReference
 ```
@@ -39031,7 +39031,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersResourceRequirementsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersResourceRequirementsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersResourceRequirementsList
 ```
@@ -39180,7 +39180,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersResourceRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersResourceRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersResourceRequirementsOutputReference
 ```
@@ -39469,7 +39469,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersSecretsList
 ```
@@ -39618,7 +39618,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersSecretsOutputReference
 ```
@@ -39907,7 +39907,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersUlimitsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersUlimitsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersUlimitsList
 ```
@@ -40056,7 +40056,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersUlimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersUlimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersUlimitsOutputReference
 ```
@@ -40356,7 +40356,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesList
 ```
@@ -40505,7 +40505,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesOutputReference
 ```
@@ -40849,7 +40849,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference
 ```
@@ -41120,7 +41120,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesEfsVolumeConfigurationOutputReference
 ```
@@ -41424,7 +41424,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesHostOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesHostOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesHostOutputReference
 ```
@@ -41684,7 +41684,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesList
 ```
@@ -41833,7 +41833,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesOutputReference
 ```
@@ -42144,7 +42144,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesVolumesS3FilesVolumeConfigurationOutputReference
 ```
@@ -42437,7 +42437,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesOutputReference
 ```
@@ -42697,7 +42697,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersEnvList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersEnvList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersEnvList
 ```
@@ -42846,7 +42846,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersEnvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersEnvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersEnvOutputReference
 ```
@@ -43135,7 +43135,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersList
 ```
@@ -43284,7 +43284,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersOutputReference
 ```
@@ -43650,7 +43650,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersResourcesOutputReference
 ```
@@ -43921,7 +43921,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersSecurityContextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersSecurityContextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersSecurityContextOutputReference
 ```
@@ -44236,7 +44236,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersVolumeMountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersVolumeMountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersVolumeMountsList
 ```
@@ -44385,7 +44385,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersVolumeMountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersVolumeMountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersVolumeMountsOutputReference
 ```
@@ -44696,7 +44696,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesImagePullSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesImagePullSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesImagePullSecretsList
 ```
@@ -44845,7 +44845,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesImagePullSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesImagePullSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesImagePullSecretsOutputReference
 ```
@@ -45123,7 +45123,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersEnvList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersEnvList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersEnvList
 ```
@@ -45272,7 +45272,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersEnvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersEnvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersEnvOutputReference
 ```
@@ -45561,7 +45561,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersList
 ```
@@ -45710,7 +45710,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersOutputReference
 ```
@@ -46076,7 +46076,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersResourcesOutputReference
 ```
@@ -46347,7 +46347,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference
 ```
@@ -46662,7 +46662,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersVolumeMountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersVolumeMountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersVolumeMountsList
 ```
@@ -46811,7 +46811,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersVolumeMountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersVolumeMountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesInitContainersVolumeMountsOutputReference
 ```
@@ -47122,7 +47122,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesMetadataOutputReference
 ```
@@ -47404,7 +47404,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesOutputReference
 ```
@@ -47752,7 +47752,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesEmptyDirOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesEmptyDirOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesEmptyDirOutputReference
 ```
@@ -48023,7 +48023,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesHostPathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesHostPathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesHostPathOutputReference
 ```
@@ -48283,7 +48283,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesList
 ```
@@ -48432,7 +48432,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesOutputReference
 ```
@@ -48754,7 +48754,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesPersistentVolumeClaimOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesPersistentVolumeClaimOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesPersistentVolumeClaimOutputReference
 ```
@@ -49025,7 +49025,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesSecretOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesSecretOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesVolumesSecretOutputReference
 ```
@@ -49296,7 +49296,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesList
 ```
@@ -49445,7 +49445,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertiesOutputReference
 ```
@@ -49778,7 +49778,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodePropertiesNodeRangePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionNodePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionNodePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionNodePropertiesOutputReference
 ```
@@ -50060,7 +50060,7 @@ func InternalValue() DataAwsccBatchJobDefinitionNodeProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionResourceRetentionPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionResourceRetentionPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionResourceRetentionPolicyOutputReference
 ```
@@ -50320,7 +50320,7 @@ func InternalValue() DataAwsccBatchJobDefinitionResourceRetentionPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionRetryStrategyEvaluateOnExitList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionRetryStrategyEvaluateOnExitList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBatchJobDefinitionRetryStrategyEvaluateOnExitList
 ```
@@ -50469,7 +50469,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference
 ```
@@ -50780,7 +50780,7 @@ func InternalValue() DataAwsccBatchJobDefinitionRetryStrategyEvaluateOnExit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionRetryStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionRetryStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionRetryStrategyOutputReference
 ```
@@ -51051,7 +51051,7 @@ func InternalValue() DataAwsccBatchJobDefinitionRetryStrategy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobdefinition"
 
 dataawsccbatchjobdefinition.NewDataAwsccBatchJobDefinitionTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBatchJobDefinitionTimeoutOutputReference
 ```

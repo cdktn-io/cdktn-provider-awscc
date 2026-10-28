@@ -4,12 +4,12 @@
 
 ### DataAwsccIotfleethubApplications <a name="DataAwsccIotfleethubApplications" id="@cdktn/provider-awscc.dataAwsccIotfleethubApplications.DataAwsccIotfleethubApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleethub_applications awscc_iotfleethub_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleethub_applications awscc_iotfleethub_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleethubApplications.DataAwsccIotfleethubApplications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleethubapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleethubapplications"
 
 dataawscciotfleethubapplications.NewDataAwsccIotfleethubApplications(scope Construct, id *string, config DataAwsccIotfleethubApplicationsConfig) DataAwsccIotfleethubApplications
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotfleethubApplications.DataAwsccIotfleethubApplications.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleethubapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleethubapplications"
 
 dataawscciotfleethubapplications.DataAwsccIotfleethubApplications_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotfleethubApplications.DataAwsccIotfleethubApplications.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleethubapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleethubapplications"
 
 dataawscciotfleethubapplications.DataAwsccIotfleethubApplications_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotfleethubapplications.DataAwsccIotfleethubApplications_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotfleethubApplications.DataAwsccIotfleethubApplications.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleethubapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleethubapplications"
 
 dataawscciotfleethubapplications.DataAwsccIotfleethubApplications_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotfleethubapplications.DataAwsccIotfleethubApplications_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotfleethubApplications.DataAwsccIotfleethubApplications.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleethubapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleethubapplications"
 
 dataawscciotfleethubapplications.DataAwsccIotfleethubApplications_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotfleethubApplic
 
 The id of the existing DataAwsccIotfleethubApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleethub_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleethub_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleethubApplications.DataAwsccIotfleethubApplicationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleethubapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleethubapplications"
 
 &dataawscciotfleethubapplications.DataAwsccIotfleethubApplicationsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccKmsAliases <a name="DataAwsccKmsAliases" id="@cdktn/provider-awscc.dataAwsccKmsAliases.DataAwsccKmsAliases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kms_aliases awscc_kms_aliases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kms_aliases awscc_kms_aliases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKmsAliases.DataAwsccKmsAliases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsaliases"
 
 dataawscckmsaliases.NewDataAwsccKmsAliases(scope Construct, id *string, config DataAwsccKmsAliasesConfig) DataAwsccKmsAliases
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKmsAliases.DataAwsccKmsAliases.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsaliases"
 
 dataawscckmsaliases.DataAwsccKmsAliases_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKmsAliases.DataAwsccKmsAliases.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsaliases"
 
 dataawscckmsaliases.DataAwsccKmsAliases_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckmsaliases.DataAwsccKmsAliases_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKmsAliases.DataAwsccKmsAliases.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsaliases"
 
 dataawscckmsaliases.DataAwsccKmsAliases_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckmsaliases.DataAwsccKmsAliases_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKmsAliases.DataAwsccKmsAliases.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsaliases"
 
 dataawscckmsaliases.DataAwsccKmsAliases_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKmsAliases to imp
 
 The id of the existing DataAwsccKmsAliases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kms_aliases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kms_aliases#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKmsAliases.DataAwsccKmsAliasesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsaliases"
 
 &dataawscckmsaliases.DataAwsccKmsAliasesConfig {
 	Connection: interface{},

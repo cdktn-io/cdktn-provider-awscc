@@ -4,12 +4,12 @@
 
 ### OpensearchserverlessVpcEndpoint <a name="OpensearchserverlessVpcEndpoint" id="@cdktn/provider-awscc.opensearchserverlessVpcEndpoint.OpensearchserverlessVpcEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_vpc_endpoint awscc_opensearchserverless_vpc_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_vpc_endpoint awscc_opensearchserverless_vpc_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessVpcEndpoint.OpensearchserverlessVpcEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlessvpcendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlessvpcendpoint"
 
 opensearchserverlessvpcendpoint.NewOpensearchserverlessVpcEndpoint(scope Construct, id *string, config OpensearchserverlessVpcEndpointConfig) OpensearchserverlessVpcEndpoint
 ```
@@ -407,7 +407,7 @@ func ResetSecurityGroupIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.opensearchserverlessVpcEndpoint.OpensearchserverlessVpcEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlessvpcendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlessvpcendpoint"
 
 opensearchserverlessvpcendpoint.OpensearchserverlessVpcEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.opensearchserverlessVpcEndpoint.OpensearchserverlessVpcEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlessvpcendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlessvpcendpoint"
 
 opensearchserverlessvpcendpoint.OpensearchserverlessVpcEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ opensearchserverlessvpcendpoint.OpensearchserverlessVpcEndpoint_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.opensearchserverlessVpcEndpoint.OpensearchserverlessVpcEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlessvpcendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlessvpcendpoint"
 
 opensearchserverlessvpcendpoint.OpensearchserverlessVpcEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ opensearchserverlessvpcendpoint.OpensearchserverlessVpcEndpoint_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.opensearchserverlessVpcEndpoint.OpensearchserverlessVpcEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlessvpcendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlessvpcendpoint"
 
 opensearchserverlessvpcendpoint.OpensearchserverlessVpcEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the OpensearchserverlessVpcEnd
 
 The id of the existing OpensearchserverlessVpcEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_vpc_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_vpc_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -806,7 +806,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserverlessVpcEndpoint.OpensearchserverlessVpcEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlessvpcendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlessvpcendpoint"
 
 &opensearchserverlessvpcendpoint.OpensearchserverlessVpcEndpointConfig {
 	Connection: interface{},
@@ -921,7 +921,7 @@ Name *string
 
 The name of the VPC Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_vpc_endpoint#name OpensearchserverlessVpcEndpoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_vpc_endpoint#name OpensearchserverlessVpcEndpoint#name}
 
 ---
 
@@ -935,7 +935,7 @@ SubnetIds *[]*string
 
 The ID of one or more subnets in which to create an endpoint network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_vpc_endpoint#subnet_ids OpensearchserverlessVpcEndpoint#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_vpc_endpoint#subnet_ids OpensearchserverlessVpcEndpoint#subnet_ids}
 
 ---
 
@@ -949,7 +949,7 @@ VpcId *string
 
 The ID of the VPC in which the endpoint will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_vpc_endpoint#vpc_id OpensearchserverlessVpcEndpoint#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_vpc_endpoint#vpc_id OpensearchserverlessVpcEndpoint#vpc_id}
 
 ---
 
@@ -963,7 +963,7 @@ SecurityGroupIds *[]*string
 
 The ID of one or more security groups to associate with the endpoint network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_vpc_endpoint#security_group_ids OpensearchserverlessVpcEndpoint#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_vpc_endpoint#security_group_ids OpensearchserverlessVpcEndpoint#security_group_ids}
 
 ---
 

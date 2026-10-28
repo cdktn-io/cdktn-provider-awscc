@@ -4,12 +4,12 @@
 
 ### DataAwsccGrafanaWorkspaces <a name="DataAwsccGrafanaWorkspaces" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspaces.DataAwsccGrafanaWorkspaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/grafana_workspaces awscc_grafana_workspaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/grafana_workspaces awscc_grafana_workspaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspaces.DataAwsccGrafanaWorkspaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspaces"
 
 dataawsccgrafanaworkspaces.NewDataAwsccGrafanaWorkspaces(scope Construct, id *string, config DataAwsccGrafanaWorkspacesConfig) DataAwsccGrafanaWorkspaces
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspaces.DataAwsccGrafanaWorkspaces.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspaces"
 
 dataawsccgrafanaworkspaces.DataAwsccGrafanaWorkspaces_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspaces.DataAwsccGrafanaWorkspaces.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspaces"
 
 dataawsccgrafanaworkspaces.DataAwsccGrafanaWorkspaces_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgrafanaworkspaces.DataAwsccGrafanaWorkspaces_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspaces.DataAwsccGrafanaWorkspaces.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspaces"
 
 dataawsccgrafanaworkspaces.DataAwsccGrafanaWorkspaces_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgrafanaworkspaces.DataAwsccGrafanaWorkspaces_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspaces.DataAwsccGrafanaWorkspaces.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspaces"
 
 dataawsccgrafanaworkspaces.DataAwsccGrafanaWorkspaces_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGrafanaWorkspaces
 
 The id of the existing DataAwsccGrafanaWorkspaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/grafana_workspaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/grafana_workspaces#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspaces.DataAwsccGrafanaWorkspacesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspaces"
 
 &dataawsccgrafanaworkspaces.DataAwsccGrafanaWorkspacesConfig {
 	Connection: interface{},

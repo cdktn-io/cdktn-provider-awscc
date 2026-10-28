@@ -4,12 +4,12 @@
 
 ### DataAwsccEfsFileSystem <a name="DataAwsccEfsFileSystem" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystem"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/efs_file_system awscc_efs_file_system}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/efs_file_system awscc_efs_file_system}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.NewDataAwsccEfsFileSystem(scope Construct, id *string, config DataAwsccEfsFileSystemConfig) DataAwsccEfsFileSystem
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystem.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.DataAwsccEfsFileSystem_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystem.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.DataAwsccEfsFileSystem_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccefsfilesystem.DataAwsccEfsFileSystem_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystem.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.DataAwsccEfsFileSystem_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccefsfilesystem.DataAwsccEfsFileSystem_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystem.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.DataAwsccEfsFileSystem_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEfsFileSystem to 
 
 The id of the existing DataAwsccEfsFileSystem that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/efs_file_system#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/efs_file_system#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemBackupPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 &dataawsccefsfilesystem.DataAwsccEfsFileSystemBackupPolicy {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 &dataawsccefsfilesystem.DataAwsccEfsFileSystemConfig {
 	Connection: interface{},
@@ -874,7 +874,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/efs_file_system#id DataAwsccEfsFileSystem#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/efs_file_system#id DataAwsccEfsFileSystem#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -886,7 +886,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemFileSystemProtection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 &dataawsccefsfilesystem.DataAwsccEfsFileSystemFileSystemProtection {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemFileSystemTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 &dataawsccefsfilesystem.DataAwsccEfsFileSystemFileSystemTags {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemLifecyclePolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 &dataawsccefsfilesystem.DataAwsccEfsFileSystemLifecyclePolicies {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemReplicationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 &dataawsccefsfilesystem.DataAwsccEfsFileSystemReplicationConfiguration {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemReplicationConfigurationDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 &dataawsccefsfilesystem.DataAwsccEfsFileSystemReplicationConfigurationDestinations {
 
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemBackupPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.NewDataAwsccEfsFileSystemBackupPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEfsFileSystemBackupPolicyOutputReference
 ```
@@ -1213,7 +1213,7 @@ func InternalValue() DataAwsccEfsFileSystemBackupPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemFileSystemProtectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.NewDataAwsccEfsFileSystemFileSystemProtectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEfsFileSystemFileSystemProtectionOutputReference
 ```
@@ -1473,7 +1473,7 @@ func InternalValue() DataAwsccEfsFileSystemFileSystemProtection
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemFileSystemTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.NewDataAwsccEfsFileSystemFileSystemTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEfsFileSystemFileSystemTagsList
 ```
@@ -1622,7 +1622,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemFileSystemTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.NewDataAwsccEfsFileSystemFileSystemTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEfsFileSystemFileSystemTagsOutputReference
 ```
@@ -1911,7 +1911,7 @@ func InternalValue() DataAwsccEfsFileSystemFileSystemTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemLifecyclePoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.NewDataAwsccEfsFileSystemLifecyclePoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEfsFileSystemLifecyclePoliciesList
 ```
@@ -2060,7 +2060,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemLifecyclePoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.NewDataAwsccEfsFileSystemLifecyclePoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEfsFileSystemLifecyclePoliciesOutputReference
 ```
@@ -2360,7 +2360,7 @@ func InternalValue() DataAwsccEfsFileSystemLifecyclePolicies
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemReplicationConfigurationDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.NewDataAwsccEfsFileSystemReplicationConfigurationDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEfsFileSystemReplicationConfigurationDestinationsList
 ```
@@ -2509,7 +2509,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemReplicationConfigurationDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.NewDataAwsccEfsFileSystemReplicationConfigurationDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEfsFileSystemReplicationConfigurationDestinationsOutputReference
 ```
@@ -2853,7 +2853,7 @@ func InternalValue() DataAwsccEfsFileSystemReplicationConfigurationDestinations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsFileSystem.DataAwsccEfsFileSystemReplicationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsfilesystem"
 
 dataawsccefsfilesystem.NewDataAwsccEfsFileSystemReplicationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEfsFileSystemReplicationConfigurationOutputReference
 ```

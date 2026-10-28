@@ -4,12 +4,12 @@
 
 ### DataAwsccIoteventsAlarmModel <a name="DataAwsccIoteventsAlarmModel" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_alarm_model awscc_iotevents_alarm_model}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_alarm_model awscc_iotevents_alarm_model}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModel(scope Construct, id *string, config DataAwsccIoteventsAlarmModelConfig) DataAwsccIoteventsAlarmModel
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModel_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModel_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModel_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModel.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModel_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModel_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIoteventsAlarmMod
 
 The id of the existing DataAwsccIoteventsAlarmModel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_alarm_model#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_alarm_model#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmCapabilities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmCapabilities {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmCapabilitiesAcknowledgeFlow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmCapabilitiesAcknowledgeFlow {
 
@@ -712,7 +712,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmCapabilitiesInitializationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmCapabilitiesInitializationConfiguration {
 
@@ -725,7 +725,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActions {
 
@@ -738,7 +738,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActions {
 
@@ -751,7 +751,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDb {
 
@@ -764,7 +764,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbPayload {
 
@@ -777,7 +777,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2 {
 
@@ -790,7 +790,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2Payload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2Payload {
 
@@ -803,7 +803,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFirehose {
 
@@ -816,7 +816,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFirehosePayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFirehosePayload {
 
@@ -829,7 +829,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotEvents {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsPayload {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWise.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWise {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValue {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueTimestamp {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueValue {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublish {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishPayload {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLambda {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaPayload {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSns {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSnsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSnsPayload {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSqs {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSqsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSqsPayload {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmRule {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmRuleSimpleRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelAlarmRuleSimpleRule {
 
@@ -1037,7 +1037,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelConfig {
 	Connection: interface{},
@@ -1146,7 +1146,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_alarm_model#id DataAwsccIoteventsAlarmModel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_alarm_model#id DataAwsccIoteventsAlarmModel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1158,7 +1158,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 &dataawsccioteventsalarmmodel.DataAwsccIoteventsAlarmModelTags {
 
@@ -1173,7 +1173,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmCapabilitiesAcknowledgeFlowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmCapabilitiesAcknowledgeFlowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmCapabilitiesAcknowledgeFlowOutputReference
 ```
@@ -1433,7 +1433,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmCapabilitiesAcknowledgeFlo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmCapabilitiesInitializationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmCapabilitiesInitializationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmCapabilitiesInitializationConfigurationOutputReference
 ```
@@ -1693,7 +1693,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmCapabilitiesInitialization
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmCapabilitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmCapabilitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmCapabilitiesOutputReference
 ```
@@ -1964,7 +1964,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmCapabilities
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputReference
 ```
@@ -2323,7 +2323,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbPayloadOutputReference
 ```
@@ -2594,7 +2594,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2OutputReference
 ```
@@ -2865,7 +2865,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2PayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2PayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2PayloadOutputReference
 ```
@@ -3136,7 +3136,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsDy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFirehoseOutputReference
 ```
@@ -3418,7 +3418,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFirehosePayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFirehosePayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFirehosePayloadOutputReference
 ```
@@ -3689,7 +3689,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsOutputReference
 ```
@@ -3960,7 +3960,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsPayloadOutputReference
 ```
@@ -4231,7 +4231,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseOutputReference
 ```
@@ -4535,7 +4535,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueOutputReference
 ```
@@ -4817,7 +4817,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueTimestampOutputReference
 ```
@@ -5088,7 +5088,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueValueOutputReference
 ```
@@ -5381,7 +5381,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishOutputReference
 ```
@@ -5652,7 +5652,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishPayloadOutputReference
 ```
@@ -5923,7 +5923,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsIo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaOutputReference
 ```
@@ -6194,7 +6194,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaPayloadOutputReference
 ```
@@ -6465,7 +6465,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsLa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsList
 ```
@@ -6614,7 +6614,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsOutputReference
 ```
@@ -6980,7 +6980,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSnsOutputReference
 ```
@@ -7251,7 +7251,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSnsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSnsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSnsPayloadOutputReference
 ```
@@ -7522,7 +7522,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSqsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSqsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSqsOutputReference
 ```
@@ -7804,7 +7804,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSq
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSqsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSqsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSqsPayloadOutputReference
 ```
@@ -8075,7 +8075,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActionsAlarmActionsSq
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmEventActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmEventActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmEventActionsOutputReference
 ```
@@ -8335,7 +8335,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmEventActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmRuleOutputReference
 ```
@@ -8595,7 +8595,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelAlarmRuleSimpleRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelAlarmRuleSimpleRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsAlarmModelAlarmRuleSimpleRuleOutputReference
 ```
@@ -8877,7 +8877,7 @@ func InternalValue() DataAwsccIoteventsAlarmModelAlarmRuleSimpleRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsAlarmModelTagsList
 ```
@@ -9026,7 +9026,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsAlarmModel.DataAwsccIoteventsAlarmModelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsalarmmodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsalarmmodel"
 
 dataawsccioteventsalarmmodel.NewDataAwsccIoteventsAlarmModelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsAlarmModelTagsOutputReference
 ```

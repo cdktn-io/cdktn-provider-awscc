@@ -4,12 +4,12 @@
 
 ### DataAwsccEcsTaskDefinition <a name="DataAwsccEcsTaskDefinition" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinition(scope Construct, id *string, config DataAwsccEcsTaskDefinitionConfig) DataAwsccEcsTaskDefinition
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.DataAwsccEcsTaskDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.DataAwsccEcsTaskDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecstaskdefinition.DataAwsccEcsTaskDefinition_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinition.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.DataAwsccEcsTaskDefinition_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecstaskdefinition.DataAwsccEcsTaskDefinition_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.DataAwsccEcsTaskDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcsTaskDefinition
 
 The id of the existing DataAwsccEcsTaskDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_task_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_task_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -796,7 +796,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionConfig {
 	Connection: interface{},
@@ -905,7 +905,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_task_definition#id DataAwsccEcsTaskDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_task_definition#id DataAwsccEcsTaskDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -917,7 +917,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitions {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsDependsOn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsDependsOn {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironment {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentFiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentFiles {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsExtraHosts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsExtraHosts {
 
@@ -982,7 +982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsFirelensConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsFirelensConfiguration {
 
@@ -995,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsHealthCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsHealthCheck {
 
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParameters {
 
@@ -1021,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersCapabilities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersCapabilities {
 
@@ -1034,7 +1034,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersDevices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersDevices {
 
@@ -1047,7 +1047,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersTmpfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersTmpfs {
 
@@ -1060,7 +1060,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfiguration {
 
@@ -1073,7 +1073,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurationSecretOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurationSecretOptions {
 
@@ -1086,7 +1086,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsMountPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsMountPoints {
 
@@ -1099,7 +1099,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsPortMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsPortMappings {
 
@@ -1112,7 +1112,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsRepositoryCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsRepositoryCredentials {
 
@@ -1125,9 +1125,35 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirements {
+
+}
+```
+
+
+### DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy <a name="DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
+
+&dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy {
+
+}
+```
+
+
+### DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps <a name="DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
+
+&dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps {
 
 }
 ```
@@ -1138,7 +1164,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsRestartPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsRestartPolicy {
 
@@ -1151,7 +1177,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsSecrets {
 
@@ -1164,7 +1190,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsSystemControls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsSystemControls {
 
@@ -1177,7 +1203,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsUlimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsUlimits {
 
@@ -1190,7 +1216,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsVolumesFrom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsVolumesFrom {
 
@@ -1203,7 +1229,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionEphemeralStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionEphemeralStorage {
 
@@ -1216,7 +1242,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionInferenceAccelerators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionInferenceAccelerators {
 
@@ -1229,7 +1255,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionPlacementConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionPlacementConstraints {
 
@@ -1242,7 +1268,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionProxyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionProxyConfiguration {
 
@@ -1255,7 +1281,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionProxyConfigurationProxyConfigurationProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionProxyConfigurationProxyConfigurationProperties {
 
@@ -1268,7 +1294,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionRuntimePlatform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionRuntimePlatform {
 
@@ -1281,7 +1307,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionTags {
 
@@ -1294,7 +1320,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionVolumes {
 
@@ -1307,7 +1333,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesDockerVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionVolumesDockerVolumeConfiguration {
 
@@ -1320,7 +1346,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesEfsVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionVolumesEfsVolumeConfiguration {
 
@@ -1333,7 +1359,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesEfsVolumeConfigurationAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionVolumesEfsVolumeConfigurationAuthorizationConfig {
 
@@ -1346,7 +1372,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolumeConfiguration {
 
@@ -1359,7 +1385,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolumeConfigurationAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolumeConfigurationAuthorizationConfig {
 
@@ -1372,7 +1398,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesHost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionVolumesHost {
 
@@ -1385,7 +1411,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesS3FilesVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 &dataawsccecstaskdefinition.DataAwsccEcsTaskDefinitionVolumesS3FilesVolumeConfiguration {
 
@@ -1400,7 +1426,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefini
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsDependsOnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsDependsOnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsDependsOnList
 ```
@@ -1549,7 +1575,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsDependsOnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsDependsOnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsDependsOnOutputReference
 ```
@@ -1838,7 +1864,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsDependsOn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentFilesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentFilesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentFilesList
 ```
@@ -1987,7 +2013,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentFilesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentFilesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentFilesOutputReference
 ```
@@ -2276,7 +2302,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentList
 ```
@@ -2425,7 +2451,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironmentOutputReference
 ```
@@ -2714,7 +2740,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsEnvironment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsExtraHostsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsExtraHostsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsExtraHostsList
 ```
@@ -2863,7 +2889,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsExtraHostsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsExtraHostsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsExtraHostsOutputReference
 ```
@@ -3152,7 +3178,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsExtraHosts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsFirelensConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsFirelensConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionContainerDefinitionsFirelensConfigurationOutputReference
 ```
@@ -3423,7 +3449,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsFirelensConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsHealthCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsHealthCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionContainerDefinitionsHealthCheckOutputReference
 ```
@@ -3727,7 +3753,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsHealthCheck
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersCapabilitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersCapabilitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersCapabilitiesOutputReference
 ```
@@ -3998,7 +4024,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersDevicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersDevicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersDevicesList
 ```
@@ -4147,7 +4173,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersDevicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersDevicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersDevicesOutputReference
 ```
@@ -4447,7 +4473,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersOutputReference
 ```
@@ -4773,7 +4799,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersTmpfsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersTmpfsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersTmpfsList
 ```
@@ -4922,7 +4948,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersTmpfsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersTmpfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParametersTmpfsOutputReference
 ```
@@ -5222,7 +5248,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsLinuxParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsList
 ```
@@ -5371,7 +5397,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurationOutputReference
 ```
@@ -5653,7 +5679,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurationSecretOptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurationSecretOptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurationSecretOptionsList
 ```
@@ -5802,7 +5828,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurationSecretOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurationSecretOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurationSecretOptionsOutputReference
 ```
@@ -6091,7 +6117,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsLogConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsMountPointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsMountPointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsMountPointsList
 ```
@@ -6240,7 +6266,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsMountPointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsMountPointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsMountPointsOutputReference
 ```
@@ -6540,7 +6566,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsMountPoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsOutputReference
 ```
@@ -7269,7 +7295,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsPortMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsPortMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsPortMappingsList
 ```
@@ -7418,7 +7444,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsPortMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsPortMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsPortMappingsOutputReference
 ```
@@ -7751,7 +7777,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsPortMappings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsRepositoryCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsRepositoryCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionContainerDefinitionsRepositoryCredentialsOutputReference
 ```
@@ -8011,7 +8037,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsRepositoryCre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsList
 ```
@@ -8160,7 +8186,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference
 ```
@@ -8383,6 +8409,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference.property.sharingStrategy">SharingStrategy</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference">DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference.property.type">Type</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference.property.value">Value</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirements">DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirements</a></code> | *No description.* |
@@ -8410,6 +8437,16 @@ func Fqn() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `SharingStrategy`<sup>Required</sup> <a name="SharingStrategy" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference.property.sharingStrategy"></a>
+
+```go
+func SharingStrategy() DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference">DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference</a>
 
 ---
 
@@ -8444,12 +8481,543 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequi
 ---
 
 
+### DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference <a name="DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
+
+dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.property.maxComputePercent">MaxComputePercent</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.property.memory">Memory</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps">DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `MaxComputePercent`<sup>Required</sup> <a name="MaxComputePercent" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.property.maxComputePercent"></a>
+
+```go
+func MaxComputePercent() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `Memory`<sup>Required</sup> <a name="Memory" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.property.memory"></a>
+
+```go
+func Memory() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps">DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps</a>
+
+---
+
+
+### DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference <a name="DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
+
+dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.property.nvidiaMps">NvidiaMps</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference">DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy">DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NvidiaMps`<sup>Required</sup> <a name="NvidiaMps" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.property.nvidiaMps"></a>
+
+```go
+func NvidiaMps() DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference">DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy">DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy</a>
+
+---
+
+
 ### DataAwsccEcsTaskDefinitionContainerDefinitionsRestartPolicyOutputReference <a name="DataAwsccEcsTaskDefinitionContainerDefinitionsRestartPolicyOutputReference" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsRestartPolicyOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsRestartPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsRestartPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionContainerDefinitionsRestartPolicyOutputReference
 ```
@@ -8731,7 +9299,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsRestartPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsSecretsList
 ```
@@ -8880,7 +9448,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsSecretsOutputReference
 ```
@@ -9169,7 +9737,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsSecrets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsSystemControlsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsSystemControlsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsSystemControlsList
 ```
@@ -9318,7 +9886,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsSystemControlsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsSystemControlsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsSystemControlsOutputReference
 ```
@@ -9607,7 +10175,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsSystemControl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsUlimitsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsUlimitsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsUlimitsList
 ```
@@ -9756,7 +10324,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsUlimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsUlimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsUlimitsOutputReference
 ```
@@ -10056,7 +10624,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsUlimits
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsVolumesFromList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsVolumesFromList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsVolumesFromList
 ```
@@ -10205,7 +10773,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionContainerDefinitionsVolumesFromOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionContainerDefinitionsVolumesFromOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionContainerDefinitionsVolumesFromOutputReference
 ```
@@ -10494,7 +11062,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionContainerDefinitionsVolumesFrom
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionEphemeralStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionEphemeralStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionEphemeralStorageOutputReference
 ```
@@ -10754,7 +11322,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionEphemeralStorage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionInferenceAcceleratorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionInferenceAcceleratorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionInferenceAcceleratorsList
 ```
@@ -10903,7 +11471,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionInferenceAcceleratorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionInferenceAcceleratorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionInferenceAcceleratorsOutputReference
 ```
@@ -11192,7 +11760,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionInferenceAccelerators
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionPlacementConstraintsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionPlacementConstraintsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionPlacementConstraintsList
 ```
@@ -11341,7 +11909,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionPlacementConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionPlacementConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionPlacementConstraintsOutputReference
 ```
@@ -11630,7 +12198,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionPlacementConstraints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionProxyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionProxyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionProxyConfigurationOutputReference
 ```
@@ -11912,7 +12480,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionProxyConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionProxyConfigurationProxyConfigurationPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionProxyConfigurationProxyConfigurationPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionProxyConfigurationProxyConfigurationPropertiesList
 ```
@@ -12061,7 +12629,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionProxyConfigurationProxyConfigurationPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionProxyConfigurationProxyConfigurationPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionProxyConfigurationProxyConfigurationPropertiesOutputReference
 ```
@@ -12350,7 +12918,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionProxyConfigurationProxyConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionRuntimePlatformOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionRuntimePlatformOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionRuntimePlatformOutputReference
 ```
@@ -12621,7 +13189,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionRuntimePlatform
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionTagsList
 ```
@@ -12770,7 +13338,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionTagsOutputReference
 ```
@@ -13059,7 +13627,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesDockerVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionVolumesDockerVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionVolumesDockerVolumeConfigurationOutputReference
 ```
@@ -13363,7 +13931,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionVolumesDockerVolumeConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionVolumesEfsVolumeConfigurationAuthorizationConfigOutputReference
 ```
@@ -13634,7 +14202,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionVolumesEfsVolumeConfigurationAuth
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesEfsVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionVolumesEfsVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionVolumesEfsVolumeConfigurationOutputReference
 ```
@@ -13938,7 +14506,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionVolumesEfsVolumeConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolumeConfigurationAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolumeConfigurationAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolumeConfigurationAuthorizationConfigOutputReference
 ```
@@ -14209,7 +14777,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolume
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolumeConfigurationOutputReference
 ```
@@ -14491,7 +15059,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionVolumesFsxWindowsFileServerVolume
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesHostOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionVolumesHostOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionVolumesHostOutputReference
 ```
@@ -14751,7 +15319,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionVolumesHost
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcsTaskDefinitionVolumesList
 ```
@@ -14900,7 +15468,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcsTaskDefinitionVolumesOutputReference
 ```
@@ -15244,7 +15812,7 @@ func InternalValue() DataAwsccEcsTaskDefinitionVolumes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsTaskDefinition.DataAwsccEcsTaskDefinitionVolumesS3FilesVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition"
 
 dataawsccecstaskdefinition.NewDataAwsccEcsTaskDefinitionVolumesS3FilesVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcsTaskDefinitionVolumesS3FilesVolumeConfigurationOutputReference
 ```

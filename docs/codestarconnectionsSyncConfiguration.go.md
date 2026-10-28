@@ -4,12 +4,12 @@
 
 ### CodestarconnectionsSyncConfiguration <a name="CodestarconnectionsSyncConfiguration" id="@cdktn/provider-awscc.codestarconnectionsSyncConfiguration.CodestarconnectionsSyncConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codestarconnectionsSyncConfiguration.CodestarconnectionsSyncConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionssyncconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionssyncconfiguration"
 
 codestarconnectionssyncconfiguration.NewCodestarconnectionsSyncConfiguration(scope Construct, id *string, config CodestarconnectionsSyncConfigurationConfig) CodestarconnectionsSyncConfiguration
 ```
@@ -414,7 +414,7 @@ func ResetTriggerResourceUpdateOn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codestarconnectionsSyncConfiguration.CodestarconnectionsSyncConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionssyncconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionssyncconfiguration"
 
 codestarconnectionssyncconfiguration.CodestarconnectionsSyncConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codestarconnectionsSyncConfiguration.CodestarconnectionsSyncConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionssyncconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionssyncconfiguration"
 
 codestarconnectionssyncconfiguration.CodestarconnectionsSyncConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ codestarconnectionssyncconfiguration.CodestarconnectionsSyncConfiguration_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codestarconnectionsSyncConfiguration.CodestarconnectionsSyncConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionssyncconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionssyncconfiguration"
 
 codestarconnectionssyncconfiguration.CodestarconnectionsSyncConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ codestarconnectionssyncconfiguration.CodestarconnectionsSyncConfiguration_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codestarconnectionsSyncConfiguration.CodestarconnectionsSyncConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionssyncconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionssyncconfiguration"
 
 codestarconnectionssyncconfiguration.CodestarconnectionsSyncConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the CodestarconnectionsSyncCon
 
 The id of the existing CodestarconnectionsSyncConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -923,7 +923,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codestarconnectionsSyncConfiguration.CodestarconnectionsSyncConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionssyncconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionssyncconfiguration"
 
 &codestarconnectionssyncconfiguration.CodestarconnectionsSyncConfigurationConfig {
 	Connection: interface{},
@@ -1046,7 +1046,7 @@ Branch *string
 
 The name of the branch of the repository from which resources are to be synchronized,.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration#branch CodestarconnectionsSyncConfiguration#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration#branch CodestarconnectionsSyncConfiguration#branch}
 
 ---
 
@@ -1060,7 +1060,7 @@ ConfigFile *string
 
 The source provider repository path of the sync configuration file of the respective SyncType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration#config_file CodestarconnectionsSyncConfiguration#config_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration#config_file CodestarconnectionsSyncConfiguration#config_file}
 
 ---
 
@@ -1074,7 +1074,7 @@ RepositoryLinkId *string
 
 A UUID that uniquely identifies the RepositoryLink that the SyncConfig is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration#repository_link_id CodestarconnectionsSyncConfiguration#repository_link_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration#repository_link_id CodestarconnectionsSyncConfiguration#repository_link_id}
 
 ---
 
@@ -1088,7 +1088,7 @@ ResourceName *string
 
 The name of the resource that is being synchronized to the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration#resource_name CodestarconnectionsSyncConfiguration#resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration#resource_name CodestarconnectionsSyncConfiguration#resource_name}
 
 ---
 
@@ -1102,7 +1102,7 @@ RoleArn *string
 
 The IAM Role that allows AWS to update CloudFormation stacks based on content in the specified repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration#role_arn CodestarconnectionsSyncConfiguration#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration#role_arn CodestarconnectionsSyncConfiguration#role_arn}
 
 ---
 
@@ -1116,7 +1116,7 @@ SyncType *string
 
 The type of resource synchronization service that is to be configured, for example, CFN_STACK_SYNC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration#sync_type CodestarconnectionsSyncConfiguration#sync_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration#sync_type CodestarconnectionsSyncConfiguration#sync_type}
 
 ---
 
@@ -1130,7 +1130,7 @@ PublishDeploymentStatus *string
 
 Whether to enable or disable publishing of deployment status to source providers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration#publish_deployment_status CodestarconnectionsSyncConfiguration#publish_deployment_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration#publish_deployment_status CodestarconnectionsSyncConfiguration#publish_deployment_status}
 
 ---
 
@@ -1144,7 +1144,7 @@ TriggerResourceUpdateOn *string
 
 When to trigger Git sync to begin the stack update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration#trigger_resource_update_on CodestarconnectionsSyncConfiguration#trigger_resource_update_on}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration#trigger_resource_update_on CodestarconnectionsSyncConfiguration#trigger_resource_update_on}
 
 ---
 

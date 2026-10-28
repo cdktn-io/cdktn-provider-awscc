@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53RecoverycontrolSafetyRule <a name="DataAwsccRoute53RecoverycontrolSafetyRule" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 dataawsccroute53recoverycontrolsafetyrule.NewDataAwsccRoute53RecoverycontrolSafetyRule(scope Construct, id *string, config DataAwsccRoute53RecoverycontrolSafetyRuleConfig) DataAwsccRoute53RecoverycontrolSafetyRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 dataawsccroute53recoverycontrolsafetyrule.DataAwsccRoute53RecoverycontrolSafetyRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 dataawsccroute53recoverycontrolsafetyrule.DataAwsccRoute53RecoverycontrolSafetyRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53recoverycontrolsafetyrule.DataAwsccRoute53RecoverycontrolSafetyR
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 dataawsccroute53recoverycontrolsafetyrule.DataAwsccRoute53RecoverycontrolSafetyRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53recoverycontrolsafetyrule.DataAwsccRoute53RecoverycontrolSafetyR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 dataawsccroute53recoverycontrolsafetyrule.DataAwsccRoute53RecoverycontrolSafetyRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Recoveryco
 
 The id of the existing DataAwsccRoute53RecoverycontrolSafetyRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_safety_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_safety_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRuleAssertionRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 &dataawsccroute53recoverycontrolsafetyrule.DataAwsccRoute53RecoverycontrolSafetyRuleAssertionRule {
 
@@ -688,7 +688,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 &dataawsccroute53recoverycontrolsafetyrule.DataAwsccRoute53RecoverycontrolSafetyRuleConfig {
 	Connection: interface{},
@@ -797,7 +797,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_safety_rule#id DataAwsccRoute53RecoverycontrolSafetyRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_safety_rule#id DataAwsccRoute53RecoverycontrolSafetyRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -809,7 +809,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRuleGatingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 &dataawsccroute53recoverycontrolsafetyrule.DataAwsccRoute53RecoverycontrolSafetyRuleGatingRule {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRuleRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 &dataawsccroute53recoverycontrolsafetyrule.DataAwsccRoute53RecoverycontrolSafetyRuleRuleConfig {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 &dataawsccroute53recoverycontrolsafetyrule.DataAwsccRoute53RecoverycontrolSafetyRuleTags {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRuleAssertionRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 dataawsccroute53recoverycontrolsafetyrule.NewDataAwsccRoute53RecoverycontrolSafetyRuleAssertionRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRoute53RecoverycontrolSafetyRuleAssertionRuleOutputReference
 ```
@@ -1121,7 +1121,7 @@ func InternalValue() DataAwsccRoute53RecoverycontrolSafetyRuleAssertionRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRuleGatingRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 dataawsccroute53recoverycontrolsafetyrule.NewDataAwsccRoute53RecoverycontrolSafetyRuleGatingRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRoute53RecoverycontrolSafetyRuleGatingRuleOutputReference
 ```
@@ -1403,7 +1403,7 @@ func InternalValue() DataAwsccRoute53RecoverycontrolSafetyRuleGatingRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRuleRuleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 dataawsccroute53recoverycontrolsafetyrule.NewDataAwsccRoute53RecoverycontrolSafetyRuleRuleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRoute53RecoverycontrolSafetyRuleRuleConfigOutputReference
 ```
@@ -1685,7 +1685,7 @@ func InternalValue() DataAwsccRoute53RecoverycontrolSafetyRuleRuleConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 dataawsccroute53recoverycontrolsafetyrule.NewDataAwsccRoute53RecoverycontrolSafetyRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53RecoverycontrolSafetyRuleTagsList
 ```
@@ -1834,7 +1834,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolSafetyRule.DataAwsccRoute53RecoverycontrolSafetyRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolsafetyrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolsafetyrule"
 
 dataawsccroute53recoverycontrolsafetyrule.NewDataAwsccRoute53RecoverycontrolSafetyRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53RecoverycontrolSafetyRuleTagsOutputReference
 ```

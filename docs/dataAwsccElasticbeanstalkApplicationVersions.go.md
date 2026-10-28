@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticbeanstalkApplicationVersions <a name="DataAwsccElasticbeanstalkApplicationVersions" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplicationVersions.DataAwsccElasticbeanstalkApplicationVersions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_application_versions awscc_elasticbeanstalk_application_versions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_application_versions awscc_elasticbeanstalk_application_versions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplicationVersions.DataAwsccElasticbeanstalkApplicationVersions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplicationversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplicationversions"
 
 dataawsccelasticbeanstalkapplicationversions.NewDataAwsccElasticbeanstalkApplicationVersions(scope Construct, id *string, config DataAwsccElasticbeanstalkApplicationVersionsConfig) DataAwsccElasticbeanstalkApplicationVersions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplicationVersions.DataAwsccElasticbeanstalkApplicationVersions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplicationversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplicationversions"
 
 dataawsccelasticbeanstalkapplicationversions.DataAwsccElasticbeanstalkApplicationVersions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplicationVersions.DataAwsccElasticbeanstalkApplicationVersions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplicationversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplicationversions"
 
 dataawsccelasticbeanstalkapplicationversions.DataAwsccElasticbeanstalkApplicationVersions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticbeanstalkapplicationversions.DataAwsccElasticbeanstalkApplicatio
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplicationVersions.DataAwsccElasticbeanstalkApplicationVersions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplicationversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplicationversions"
 
 dataawsccelasticbeanstalkapplicationversions.DataAwsccElasticbeanstalkApplicationVersions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticbeanstalkapplicationversions.DataAwsccElasticbeanstalkApplicatio
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplicationVersions.DataAwsccElasticbeanstalkApplicationVersions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplicationversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplicationversions"
 
 dataawsccelasticbeanstalkapplicationversions.DataAwsccElasticbeanstalkApplicationVersions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticbeanstalkA
 
 The id of the existing DataAwsccElasticbeanstalkApplicationVersions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_application_versions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_application_versions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplicationVersions.DataAwsccElasticbeanstalkApplicationVersionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplicationversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplicationversions"
 
 &dataawsccelasticbeanstalkapplicationversions.DataAwsccElasticbeanstalkApplicationVersionsConfig {
 	Connection: interface{},

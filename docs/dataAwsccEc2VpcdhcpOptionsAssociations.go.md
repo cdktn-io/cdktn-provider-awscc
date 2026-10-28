@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VpcdhcpOptionsAssociations <a name="DataAwsccEc2VpcdhcpOptionsAssociations" id="@cdktn/provider-awscc.dataAwsccEc2VpcdhcpOptionsAssociations.DataAwsccEc2VpcdhcpOptionsAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpcdhcp_options_associations awscc_ec2_vpcdhcp_options_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpcdhcp_options_associations awscc_ec2_vpcdhcp_options_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcdhcpOptionsAssociations.DataAwsccEc2VpcdhcpOptionsAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcdhcpoptionsassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcdhcpoptionsassociations"
 
 dataawsccec2vpcdhcpoptionsassociations.NewDataAwsccEc2VpcdhcpOptionsAssociations(scope Construct, id *string, config DataAwsccEc2VpcdhcpOptionsAssociationsConfig) DataAwsccEc2VpcdhcpOptionsAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VpcdhcpOptionsAssociations.DataAwsccEc2VpcdhcpOptionsAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcdhcpoptionsassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcdhcpoptionsassociations"
 
 dataawsccec2vpcdhcpoptionsassociations.DataAwsccEc2VpcdhcpOptionsAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VpcdhcpOptionsAssociations.DataAwsccEc2VpcdhcpOptionsAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcdhcpoptionsassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcdhcpoptionsassociations"
 
 dataawsccec2vpcdhcpoptionsassociations.DataAwsccEc2VpcdhcpOptionsAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2vpcdhcpoptionsassociations.DataAwsccEc2VpcdhcpOptionsAssociations_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VpcdhcpOptionsAssociations.DataAwsccEc2VpcdhcpOptionsAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcdhcpoptionsassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcdhcpoptionsassociations"
 
 dataawsccec2vpcdhcpoptionsassociations.DataAwsccEc2VpcdhcpOptionsAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2vpcdhcpoptionsassociations.DataAwsccEc2VpcdhcpOptionsAssociations_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VpcdhcpOptionsAssociations.DataAwsccEc2VpcdhcpOptionsAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcdhcpoptionsassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcdhcpoptionsassociations"
 
 dataawsccec2vpcdhcpoptionsassociations.DataAwsccEc2VpcdhcpOptionsAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpcdhcpOptions
 
 The id of the existing DataAwsccEc2VpcdhcpOptionsAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpcdhcp_options_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpcdhcp_options_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpcdhcpOptionsAssociations.DataAwsccEc2VpcdhcpOptionsAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcdhcpoptionsassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcdhcpoptionsassociations"
 
 &dataawsccec2vpcdhcpoptionsassociations.DataAwsccEc2VpcdhcpOptionsAssociationsConfig {
 	Connection: interface{},

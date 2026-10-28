@@ -4,12 +4,12 @@
 
 ### DataAwsccDatasyncLocationEfs <a name="DataAwsccDatasyncLocationEfs" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_efs awscc_datasync_location_efs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_efs awscc_datasync_location_efs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefs"
 
 dataawsccdatasynclocationefs.NewDataAwsccDatasyncLocationEfs(scope Construct, id *string, config DataAwsccDatasyncLocationEfsConfig) DataAwsccDatasyncLocationEfs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefs"
 
 dataawsccdatasynclocationefs.DataAwsccDatasyncLocationEfs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefs"
 
 dataawsccdatasynclocationefs.DataAwsccDatasyncLocationEfs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatasynclocationefs.DataAwsccDatasyncLocationEfs_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefs"
 
 dataawsccdatasynclocationefs.DataAwsccDatasyncLocationEfs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatasynclocationefs.DataAwsccDatasyncLocationEfs_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefs"
 
 dataawsccdatasynclocationefs.DataAwsccDatasyncLocationEfs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationE
 
 The id of the existing DataAwsccDatasyncLocationEfs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_efs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_efs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefs"
 
 &dataawsccdatasynclocationefs.DataAwsccDatasyncLocationEfsConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_efs#id DataAwsccDatasyncLocationEfs#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_efs#id DataAwsccDatasyncLocationEfs#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfsEc2Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefs"
 
 &dataawsccdatasynclocationefs.DataAwsccDatasyncLocationEfsEc2Config {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefs"
 
 &dataawsccdatasynclocationefs.DataAwsccDatasyncLocationEfsTags {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfsEc2ConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefs"
 
 dataawsccdatasynclocationefs.NewDataAwsccDatasyncLocationEfsEc2ConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationEfsEc2ConfigOutputReference
 ```
@@ -1106,7 +1106,7 @@ func InternalValue() DataAwsccDatasyncLocationEfsEc2Config
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefs"
 
 dataawsccdatasynclocationefs.NewDataAwsccDatasyncLocationEfsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatasyncLocationEfsTagsList
 ```
@@ -1255,7 +1255,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationEfs.DataAwsccDatasyncLocationEfsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefs"
 
 dataawsccdatasynclocationefs.NewDataAwsccDatasyncLocationEfsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatasyncLocationEfsTagsOutputReference
 ```

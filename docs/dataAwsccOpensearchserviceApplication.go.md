@@ -4,12 +4,12 @@
 
 ### DataAwsccOpensearchserviceApplication <a name="DataAwsccOpensearchserviceApplication" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchservice_application awscc_opensearchservice_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchservice_application awscc_opensearchservice_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.NewDataAwsccOpensearchserviceApplication(scope Construct, id *string, config DataAwsccOpensearchserviceApplicationConfig) DataAwsccOpensearchserviceApplication
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.DataAwsccOpensearchserviceApplication_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.DataAwsccOpensearchserviceApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccopensearchserviceapplication.DataAwsccOpensearchserviceApplication_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplication.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.DataAwsccOpensearchserviceApplication_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccopensearchserviceapplication.DataAwsccOpensearchserviceApplication_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.DataAwsccOpensearchserviceApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOpensearchservice
 
 The id of the existing DataAwsccOpensearchserviceApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchservice_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchservice_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationAppConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 &dataawsccopensearchserviceapplication.DataAwsccOpensearchserviceApplicationAppConfigs {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchser
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 &dataawsccopensearchserviceapplication.DataAwsccOpensearchserviceApplicationConfig {
 	Connection: interface{},
@@ -808,7 +808,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchservice_application#id DataAwsccOpensearchserviceApplication#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchservice_application#id DataAwsccOpensearchserviceApplication#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -820,7 +820,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationDataSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 &dataawsccopensearchserviceapplication.DataAwsccOpensearchserviceApplicationDataSources {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchser
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationIamIdentityCenterOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 &dataawsccopensearchserviceapplication.DataAwsccOpensearchserviceApplicationIamIdentityCenterOptions {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchser
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 &dataawsccopensearchserviceapplication.DataAwsccOpensearchserviceApplicationTags {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchser
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationAppConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.NewDataAwsccOpensearchserviceApplicationAppConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOpensearchserviceApplicationAppConfigsList
 ```
@@ -1010,7 +1010,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationAppConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.NewDataAwsccOpensearchserviceApplicationAppConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOpensearchserviceApplicationAppConfigsOutputReference
 ```
@@ -1299,7 +1299,7 @@ func InternalValue() DataAwsccOpensearchserviceApplicationAppConfigs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationDataSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.NewDataAwsccOpensearchserviceApplicationDataSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOpensearchserviceApplicationDataSourcesList
 ```
@@ -1448,7 +1448,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationDataSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.NewDataAwsccOpensearchserviceApplicationDataSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOpensearchserviceApplicationDataSourcesOutputReference
 ```
@@ -1737,7 +1737,7 @@ func InternalValue() DataAwsccOpensearchserviceApplicationDataSources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationIamIdentityCenterOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.NewDataAwsccOpensearchserviceApplicationIamIdentityCenterOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOpensearchserviceApplicationIamIdentityCenterOptionsOutputReference
 ```
@@ -2019,7 +2019,7 @@ func InternalValue() DataAwsccOpensearchserviceApplicationIamIdentityCenterOptio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.NewDataAwsccOpensearchserviceApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOpensearchserviceApplicationTagsList
 ```
@@ -2168,7 +2168,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplication.DataAwsccOpensearchserviceApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserviceapplication"
 
 dataawsccopensearchserviceapplication.NewDataAwsccOpensearchserviceApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOpensearchserviceApplicationTagsOutputReference
 ```

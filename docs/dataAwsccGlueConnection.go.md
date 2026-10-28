@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueConnection <a name="DataAwsccGlueConnection" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_connection awscc_glue_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_connection awscc_glue_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.NewDataAwsccGlueConnection(scope Construct, id *string, config DataAwsccGlueConnectionConfig) DataAwsccGlueConnection
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.DataAwsccGlueConnection_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.DataAwsccGlueConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccglueconnection.DataAwsccGlueConnection_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnection.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.DataAwsccGlueConnection_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccglueconnection.DataAwsccGlueConnection_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.DataAwsccGlueConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueConnection to
 
 The id of the existing DataAwsccGlueConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 &dataawsccglueconnection.DataAwsccGlueConnectionConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_connection#id DataAwsccGlueConnection#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_connection#id DataAwsccGlueConnection#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 &dataawsccglueconnection.DataAwsccGlueConnectionConnectionInput {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnectio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 &dataawsccglueconnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfiguration {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnectio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 &dataawsccglueconnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentials {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnectio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2Properties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 &dataawsccglueconnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2Properties {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnectio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 &dataawsccglueconnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnectio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 &dataawsccglueconnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplication {
 
@@ -830,7 +830,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnectio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2Credentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 &dataawsccglueconnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2Credentials {
 
@@ -843,7 +843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnectio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputPhysicalConnectionRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 &dataawsccglueconnection.DataAwsccGlueConnectionConnectionInputPhysicalConnectionRequirements {
 
@@ -858,7 +858,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnectio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.NewDataAwsccGlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentialsOutputReference
 ```
@@ -1129,7 +1129,7 @@ func InternalValue() DataAwsccGlueConnectionConnectionInputAuthenticationConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.NewDataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesOutputReference
 ```
@@ -1400,7 +1400,7 @@ func InternalValue() DataAwsccGlueConnectionConnectionInputAuthenticationConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplicationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.NewDataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplicationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplicationOutputReference
 ```
@@ -1671,7 +1671,7 @@ func InternalValue() DataAwsccGlueConnectionConnectionInputAuthenticationConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2CredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.NewDataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2CredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2CredentialsOutputReference
 ```
@@ -1964,7 +1964,7 @@ func InternalValue() DataAwsccGlueConnectionConnectionInputAuthenticationConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.NewDataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOutputReference
 ```
@@ -2279,7 +2279,7 @@ func InternalValue() DataAwsccGlueConnectionConnectionInputAuthenticationConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.NewDataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueConnectionConnectionInputAuthenticationConfigurationOutputReference
 ```
@@ -2594,7 +2594,7 @@ func InternalValue() DataAwsccGlueConnectionConnectionInputAuthenticationConfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.NewDataAwsccGlueConnectionConnectionInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueConnectionConnectionInputOutputReference
 ```
@@ -2975,7 +2975,7 @@ func InternalValue() DataAwsccGlueConnectionConnectionInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueConnection.DataAwsccGlueConnectionConnectionInputPhysicalConnectionRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueconnection"
 
 dataawsccglueconnection.NewDataAwsccGlueConnectionConnectionInputPhysicalConnectionRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueConnectionConnectionInputPhysicalConnectionRequirementsOutputReference
 ```

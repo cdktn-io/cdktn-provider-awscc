@@ -4,12 +4,12 @@
 
 ### DataAwsccNotificationscontactsEmailContact <a name="DataAwsccNotificationscontactsEmailContact" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContact"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notificationscontacts_email_contact awscc_notificationscontacts_email_contact}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notificationscontacts_email_contact awscc_notificationscontacts_email_contact}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContact.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact"
 
 dataawsccnotificationscontactsemailcontact.NewDataAwsccNotificationscontactsEmailContact(scope Construct, id *string, config DataAwsccNotificationscontactsEmailContactConfig) DataAwsccNotificationscontactsEmailContact
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContact.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact"
 
 dataawsccnotificationscontactsemailcontact.DataAwsccNotificationscontactsEmailContact_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContact.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact"
 
 dataawsccnotificationscontactsemailcontact.DataAwsccNotificationscontactsEmailContact_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnotificationscontactsemailcontact.DataAwsccNotificationscontactsEmailCo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContact.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact"
 
 dataawsccnotificationscontactsemailcontact.DataAwsccNotificationscontactsEmailContact_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnotificationscontactsemailcontact.DataAwsccNotificationscontactsEmailCo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContact.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact"
 
 dataawsccnotificationscontactsemailcontact.DataAwsccNotificationscontactsEmailContact_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNotificationscont
 
 The id of the existing DataAwsccNotificationscontactsEmailContact that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notificationscontacts_email_contact#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notificationscontacts_email_contact#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContactConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact"
 
 &dataawsccnotificationscontactsemailcontact.DataAwsccNotificationscontactsEmailContactConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notificationscontacts_email_contact#id DataAwsccNotificationscontactsEmailContact#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notificationscontacts_email_contact#id DataAwsccNotificationscontactsEmailContact#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContactEmailContact.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact"
 
 &dataawsccnotificationscontactsemailcontact.DataAwsccNotificationscontactsEmailContactEmailContact {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotifications
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContactTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact"
 
 &dataawsccnotificationscontactsemailcontact.DataAwsccNotificationscontactsEmailContactTags {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotifications
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContactEmailContactOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact"
 
 dataawsccnotificationscontactsemailcontact.NewDataAwsccNotificationscontactsEmailContactEmailContactOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNotificationscontactsEmailContactEmailContactOutputReference
 ```
@@ -1106,7 +1106,7 @@ func InternalValue() DataAwsccNotificationscontactsEmailContactEmailContact
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContactTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact"
 
 dataawsccnotificationscontactsemailcontact.NewDataAwsccNotificationscontactsEmailContactTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNotificationscontactsEmailContactTagsList
 ```
@@ -1255,7 +1255,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContact.DataAwsccNotificationscontactsEmailContactTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact"
 
 dataawsccnotificationscontactsemailcontact.NewDataAwsccNotificationscontactsEmailContactTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNotificationscontactsEmailContactTagsOutputReference
 ```

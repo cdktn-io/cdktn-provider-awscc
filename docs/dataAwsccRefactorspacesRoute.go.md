@@ -4,12 +4,12 @@
 
 ### DataAwsccRefactorspacesRoute <a name="DataAwsccRefactorspacesRoute" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRoute"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/refactorspaces_route awscc_refactorspaces_route}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/refactorspaces_route awscc_refactorspaces_route}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 dataawsccrefactorspacesroute.NewDataAwsccRefactorspacesRoute(scope Construct, id *string, config DataAwsccRefactorspacesRouteConfig) DataAwsccRefactorspacesRoute
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRoute.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 dataawsccrefactorspacesroute.DataAwsccRefactorspacesRoute_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRoute.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 dataawsccrefactorspacesroute.DataAwsccRefactorspacesRoute_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrefactorspacesroute.DataAwsccRefactorspacesRoute_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRoute.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 dataawsccrefactorspacesroute.DataAwsccRefactorspacesRoute_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrefactorspacesroute.DataAwsccRefactorspacesRoute_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRoute.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 dataawsccrefactorspacesroute.DataAwsccRefactorspacesRoute_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRefactorspacesRou
 
 The id of the existing DataAwsccRefactorspacesRoute that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/refactorspaces_route#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/refactorspaces_route#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRouteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 &dataawsccrefactorspacesroute.DataAwsccRefactorspacesRouteConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/refactorspaces_route#id DataAwsccRefactorspacesRoute#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/refactorspaces_route#id DataAwsccRefactorspacesRoute#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRouteDefaultRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 &dataawsccrefactorspacesroute.DataAwsccRefactorspacesRouteDefaultRoute {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspace
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRouteTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 &dataawsccrefactorspacesroute.DataAwsccRefactorspacesRouteTags {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspace
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRouteUriPathRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 &dataawsccrefactorspacesroute.DataAwsccRefactorspacesRouteUriPathRoute {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspace
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRouteDefaultRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 dataawsccrefactorspacesroute.NewDataAwsccRefactorspacesRouteDefaultRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRefactorspacesRouteDefaultRouteOutputReference
 ```
@@ -1119,7 +1119,7 @@ func InternalValue() DataAwsccRefactorspacesRouteDefaultRoute
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRouteTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 dataawsccrefactorspacesroute.NewDataAwsccRefactorspacesRouteTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRefactorspacesRouteTagsList
 ```
@@ -1268,7 +1268,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRouteTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 dataawsccrefactorspacesroute.NewDataAwsccRefactorspacesRouteTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRefactorspacesRouteTagsOutputReference
 ```
@@ -1557,7 +1557,7 @@ func InternalValue() DataAwsccRefactorspacesRouteTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRefactorspacesRoute.DataAwsccRefactorspacesRouteUriPathRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesroute"
 
 dataawsccrefactorspacesroute.NewDataAwsccRefactorspacesRouteUriPathRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRefactorspacesRouteUriPathRouteOutputReference
 ```

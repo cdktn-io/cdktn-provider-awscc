@@ -4,12 +4,12 @@
 
 ### Eventsv2ResourcePolicy <a name="Eventsv2ResourcePolicy" id="@cdktn/provider-awscc.eventsv2ResourcePolicy.Eventsv2ResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_resource_policy awscc_eventsv2_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_resource_policy awscc_eventsv2_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsv2ResourcePolicy.Eventsv2ResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsv2resourcepolicy"
 
 eventsv2resourcepolicy.NewEventsv2ResourcePolicy(scope Construct, id *string, config Eventsv2ResourcePolicyConfig) Eventsv2ResourcePolicy
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.eventsv2ResourcePolicy.Eventsv2ResourcePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsv2resourcepolicy"
 
 eventsv2resourcepolicy.Eventsv2ResourcePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.eventsv2ResourcePolicy.Eventsv2ResourcePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsv2resourcepolicy"
 
 eventsv2resourcepolicy.Eventsv2ResourcePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ eventsv2resourcepolicy.Eventsv2ResourcePolicy_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.eventsv2ResourcePolicy.Eventsv2ResourcePolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsv2resourcepolicy"
 
 eventsv2resourcepolicy.Eventsv2ResourcePolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ eventsv2resourcepolicy.Eventsv2ResourcePolicy_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.eventsv2ResourcePolicy.Eventsv2ResourcePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsv2resourcepolicy"
 
 eventsv2resourcepolicy.Eventsv2ResourcePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Eventsv2ResourcePolicy to 
 
 The id of the existing Eventsv2ResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -755,7 +755,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsv2ResourcePolicy.Eventsv2ResourcePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsv2resourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsv2resourcepolicy"
 
 &eventsv2resourcepolicy.Eventsv2ResourcePolicyConfig {
 	Connection: interface{},
@@ -868,7 +868,7 @@ The Amazon Resource Name (ARN) of the event bus whose resource policy this is.
 
 The bus must already exist. This resource does not create it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_resource_policy#event_bus_arn Eventsv2ResourcePolicy#event_bus_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_resource_policy#event_bus_arn Eventsv2ResourcePolicy#event_bus_arn}
 
 ---
 
@@ -884,7 +884,7 @@ The resource policy document, as a JSON object.
 
 The document can be up to 20 KB. This quota is adjustable. An empty object is not a valid policy. To remove the policy, delete this resource. The principals in the document must exist and be visible to the service when the policy is written. When you create a new IAM role or user, that principal might not be immediately visible to the service. You might need to enforce a delay before you include it in the document. For more information, see "Changes that I make are not always immediately visible" in the IAM User Guide. Declare Version. Write AWS account and role principals as ARNs rather than as account IDs. Write a single Action, Resource, or principal value as a scalar rather than as a one-element list. The service returns these forms as you wrote them. It normalizes other forms, and a normalized value can appear as drift. A stack update replaces the whole policy with this document, including any change made outside CloudFormation. For more information about event bus resource policies, see the Amazon EventBridge User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_resource_policy#policy_document Eventsv2ResourcePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_resource_policy#policy_document Eventsv2ResourcePolicy#policy_document}
 
 ---
 

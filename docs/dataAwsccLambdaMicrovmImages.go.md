@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaMicrovmImages <a name="DataAwsccLambdaMicrovmImages" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImages.DataAwsccLambdaMicrovmImages"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_microvm_images awscc_lambda_microvm_images}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_microvm_images awscc_lambda_microvm_images}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImages.DataAwsccLambdaMicrovmImages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimages"
 
 dataawscclambdamicrovmimages.NewDataAwsccLambdaMicrovmImages(scope Construct, id *string, config DataAwsccLambdaMicrovmImagesConfig) DataAwsccLambdaMicrovmImages
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImages.DataAwsccLambdaMicrovmImages.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimages"
 
 dataawscclambdamicrovmimages.DataAwsccLambdaMicrovmImages_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImages.DataAwsccLambdaMicrovmImages.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimages"
 
 dataawscclambdamicrovmimages.DataAwsccLambdaMicrovmImages_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdamicrovmimages.DataAwsccLambdaMicrovmImages_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImages.DataAwsccLambdaMicrovmImages.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimages"
 
 dataawscclambdamicrovmimages.DataAwsccLambdaMicrovmImages_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdamicrovmimages.DataAwsccLambdaMicrovmImages_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImages.DataAwsccLambdaMicrovmImages.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimages"
 
 dataawscclambdamicrovmimages.DataAwsccLambdaMicrovmImages_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaMicrovmImag
 
 The id of the existing DataAwsccLambdaMicrovmImages that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_microvm_images#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_microvm_images#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImages.DataAwsccLambdaMicrovmImagesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimages"
 
 &dataawscclambdamicrovmimages.DataAwsccLambdaMicrovmImagesConfig {
 	Connection: interface{},

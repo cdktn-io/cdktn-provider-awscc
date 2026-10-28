@@ -4,12 +4,12 @@
 
 ### Ec2InstanceConnectEndpoint <a name="Ec2InstanceConnectEndpoint" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 ec2instanceconnectendpoint.NewEc2InstanceConnectEndpoint(scope Construct, id *string, config Ec2InstanceConnectEndpointConfig) Ec2InstanceConnectEndpoint
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 ec2instanceconnectendpoint.Ec2InstanceConnectEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 ec2instanceconnectendpoint.Ec2InstanceConnectEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ ec2instanceconnectendpoint.Ec2InstanceConnectEndpoint_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 ec2instanceconnectendpoint.Ec2InstanceConnectEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ ec2instanceconnectendpoint.Ec2InstanceConnectEndpoint_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 ec2instanceconnectendpoint.Ec2InstanceConnectEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the Ec2InstanceConnectEndpoint
 
 The id of the existing Ec2InstanceConnectEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_connect_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_connect_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -972,7 +972,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 &ec2instanceconnectendpoint.Ec2InstanceConnectEndpointConfig {
 	Connection: interface{},
@@ -1089,7 +1089,7 @@ SubnetId *string
 
 The ID of the subnet in which the EC2 Instance Connect Endpoint was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_connect_endpoint#subnet_id Ec2InstanceConnectEndpoint#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_connect_endpoint#subnet_id Ec2InstanceConnectEndpoint#subnet_id}
 
 ---
 
@@ -1103,7 +1103,7 @@ ClientToken *string
 
 The client token of the instance connect endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_connect_endpoint#client_token Ec2InstanceConnectEndpoint#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_connect_endpoint#client_token Ec2InstanceConnectEndpoint#client_token}
 
 ---
 
@@ -1117,7 +1117,7 @@ PreserveClientIp interface{}
 
 Indicates whether your client's IP address is preserved as the source when you connect to a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_connect_endpoint#preserve_client_ip Ec2InstanceConnectEndpoint#preserve_client_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_connect_endpoint#preserve_client_ip Ec2InstanceConnectEndpoint#preserve_client_ip}
 
 ---
 
@@ -1131,7 +1131,7 @@ SecurityGroupIds *[]*string
 
 The security groups associated with the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_connect_endpoint#security_group_ids Ec2InstanceConnectEndpoint#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_connect_endpoint#security_group_ids Ec2InstanceConnectEndpoint#security_group_ids}
 
 ---
 
@@ -1145,7 +1145,7 @@ Tags interface{}
 
 The tags assigned to the EC2 Instance Connect Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_connect_endpoint#tags Ec2InstanceConnectEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_connect_endpoint#tags Ec2InstanceConnectEndpoint#tags}
 
 ---
 
@@ -1154,7 +1154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointPublicDnsNames.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 &ec2instanceconnectendpoint.Ec2InstanceConnectEndpointPublicDnsNames {
 
@@ -1167,7 +1167,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointPublicDnsNamesDualstack.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 &ec2instanceconnectendpoint.Ec2InstanceConnectEndpointPublicDnsNamesDualstack {
 
@@ -1180,7 +1180,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointPublicDnsNamesIpv4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 &ec2instanceconnectendpoint.Ec2InstanceConnectEndpointPublicDnsNamesIpv4 {
 
@@ -1193,7 +1193,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 &ec2instanceconnectendpoint.Ec2InstanceConnectEndpointTags {
 	Key: *string,
@@ -1205,8 +1205,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_connect_endpoint#key Ec2InstanceConnectEndpoint#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_connect_endpoint#value Ec2InstanceConnectEndpoint#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_connect_endpoint#key Ec2InstanceConnectEndpoint#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_connect_endpoint#value Ec2InstanceConnectEndpoint#value}. |
 
 ---
 
@@ -1218,7 +1218,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_connect_endpoint#key Ec2InstanceConnectEndpoint#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_connect_endpoint#key Ec2InstanceConnectEndpoint#key}.
 
 ---
 
@@ -1230,7 +1230,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_connect_endpoint#value Ec2InstanceConnectEndpoint#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_connect_endpoint#value Ec2InstanceConnectEndpoint#value}.
 
 ---
 
@@ -1241,7 +1241,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointPublicDnsNamesDualstackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 ec2instanceconnectendpoint.NewEc2InstanceConnectEndpointPublicDnsNamesDualstackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2InstanceConnectEndpointPublicDnsNamesDualstackOutputReference
 ```
@@ -1512,7 +1512,7 @@ func InternalValue() Ec2InstanceConnectEndpointPublicDnsNamesDualstack
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointPublicDnsNamesIpv4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 ec2instanceconnectendpoint.NewEc2InstanceConnectEndpointPublicDnsNamesIpv4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2InstanceConnectEndpointPublicDnsNamesIpv4OutputReference
 ```
@@ -1783,7 +1783,7 @@ func InternalValue() Ec2InstanceConnectEndpointPublicDnsNamesIpv4
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointPublicDnsNamesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 ec2instanceconnectendpoint.NewEc2InstanceConnectEndpointPublicDnsNamesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2InstanceConnectEndpointPublicDnsNamesOutputReference
 ```
@@ -2054,7 +2054,7 @@ func InternalValue() Ec2InstanceConnectEndpointPublicDnsNames
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 ec2instanceconnectendpoint.NewEc2InstanceConnectEndpointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2InstanceConnectEndpointTagsList
 ```
@@ -2214,7 +2214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceconnectendpoint"
 
 ec2instanceconnectendpoint.NewEc2InstanceConnectEndpointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2InstanceConnectEndpointTagsOutputReference
 ```

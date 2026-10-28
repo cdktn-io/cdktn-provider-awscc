@@ -4,12 +4,12 @@
 
 ### RedshiftEndpointAccess <a name="RedshiftEndpointAccess" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccess"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_access awscc_redshift_endpoint_access}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_access awscc_redshift_endpoint_access}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 redshiftendpointaccess.NewRedshiftEndpointAccess(scope Construct, id *string, config RedshiftEndpointAccessConfig) RedshiftEndpointAccess
 ```
@@ -407,7 +407,7 @@ func ResetResourceOwner()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccess.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 redshiftendpointaccess.RedshiftEndpointAccess_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccess.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 redshiftendpointaccess.RedshiftEndpointAccess_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ redshiftendpointaccess.RedshiftEndpointAccess_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccess.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 redshiftendpointaccess.RedshiftEndpointAccess_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ redshiftendpointaccess.RedshiftEndpointAccess_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccess.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 redshiftendpointaccess.RedshiftEndpointAccess_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the RedshiftEndpointAccess to 
 
 The id of the existing RedshiftEndpointAccess that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_access#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_access#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -883,7 +883,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 &redshiftendpointaccess.RedshiftEndpointAccessConfig {
 	Connection: interface{},
@@ -1002,7 +1002,7 @@ A unique identifier for the cluster.
 
 You use this identifier to refer to the cluster for any subsequent cluster operations such as deleting or modifying. All alphabetical characters must be lower case, no hypens at the end, no two consecutive hyphens. Cluster name should be unique for all clusters within an AWS account
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_access#cluster_identifier RedshiftEndpointAccess#cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_access#cluster_identifier RedshiftEndpointAccess#cluster_identifier}
 
 ---
 
@@ -1016,7 +1016,7 @@ EndpointName *string
 
 The name of the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_access#endpoint_name RedshiftEndpointAccess#endpoint_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_access#endpoint_name RedshiftEndpointAccess#endpoint_name}
 
 ---
 
@@ -1030,7 +1030,7 @@ SubnetGroupName *string
 
 The subnet group name where Amazon Redshift chooses to deploy the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_access#subnet_group_name RedshiftEndpointAccess#subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_access#subnet_group_name RedshiftEndpointAccess#subnet_group_name}
 
 ---
 
@@ -1044,7 +1044,7 @@ VpcSecurityGroupIds *[]*string
 
 A list of vpc security group ids to apply to the created endpoint access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_access#vpc_security_group_ids RedshiftEndpointAccess#vpc_security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_access#vpc_security_group_ids RedshiftEndpointAccess#vpc_security_group_ids}
 
 ---
 
@@ -1058,7 +1058,7 @@ ResourceOwner *string
 
 The AWS account ID of the owner of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_endpoint_access#resource_owner RedshiftEndpointAccess#resource_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_endpoint_access#resource_owner RedshiftEndpointAccess#resource_owner}
 
 ---
 
@@ -1067,7 +1067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccessVpcEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 &redshiftendpointaccess.RedshiftEndpointAccessVpcEndpoint {
 
@@ -1080,7 +1080,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccessVpcEndpointNetworkInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 &redshiftendpointaccess.RedshiftEndpointAccessVpcEndpointNetworkInterfaces {
 
@@ -1093,7 +1093,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccessVpcSecurityGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 &redshiftendpointaccess.RedshiftEndpointAccessVpcSecurityGroups {
 
@@ -1108,7 +1108,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccessVpcEndpointNetworkInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 redshiftendpointaccess.NewRedshiftEndpointAccessVpcEndpointNetworkInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftEndpointAccessVpcEndpointNetworkInterfacesList
 ```
@@ -1257,7 +1257,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccessVpcEndpointNetworkInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 redshiftendpointaccess.NewRedshiftEndpointAccessVpcEndpointNetworkInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftEndpointAccessVpcEndpointNetworkInterfacesOutputReference
 ```
@@ -1568,7 +1568,7 @@ func InternalValue() RedshiftEndpointAccessVpcEndpointNetworkInterfaces
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccessVpcEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 redshiftendpointaccess.NewRedshiftEndpointAccessVpcEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RedshiftEndpointAccessVpcEndpointOutputReference
 ```
@@ -1850,7 +1850,7 @@ func InternalValue() RedshiftEndpointAccessVpcEndpoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccessVpcSecurityGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 redshiftendpointaccess.NewRedshiftEndpointAccessVpcSecurityGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftEndpointAccessVpcSecurityGroupsList
 ```
@@ -1999,7 +1999,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftEndpointAccess.RedshiftEndpointAccessVpcSecurityGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftendpointaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftendpointaccess"
 
 redshiftendpointaccess.NewRedshiftEndpointAccessVpcSecurityGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftEndpointAccessVpcSecurityGroupsOutputReference
 ```

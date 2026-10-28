@@ -4,12 +4,12 @@
 
 ### DataAwsccMediatailorPrefetchSchedule <a name="DataAwsccMediatailorPrefetchSchedule" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_prefetch_schedule awscc_mediatailor_prefetch_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_prefetch_schedule awscc_mediatailor_prefetch_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchSchedule(scope Construct, id *string, config DataAwsccMediatailorPrefetchScheduleConfig) DataAwsccMediatailorPrefetchSchedule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchSchedule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchSchedule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchSchedule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchSchedule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchSchedule_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchSchedule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchSchedule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchSchedule_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchSchedule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchSchedule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediatailorPrefet
 
 The id of the existing DataAwsccMediatailorPrefetchSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_prefetch_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_prefetch_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_prefetch_schedule#id DataAwsccMediatailorPrefetchSchedule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_prefetch_schedule#id DataAwsccMediatailorPrefetchSchedule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleConsumption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleConsumption {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleConsumptionAvailMatchingCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleConsumptionAvailMatchingCriteria {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfiguration {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumption {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumptionAvailMatchingCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumptionAvailMatchingCriteria {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrieval.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrieval {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalTrafficShapingRetrievalWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalTrafficShapingRetrievalWindow {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalTrafficShapingTpsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalTrafficShapingTpsConfiguration {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRetrieval.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleRetrieval {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRetrievalTrafficShapingRetrievalWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleRetrievalTrafficShapingRetrievalWindow {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRetrievalTrafficShapingTpsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleRetrievalTrafficShapingTpsConfiguration {
 
@@ -950,7 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 &dataawsccmediatailorprefetchschedule.DataAwsccMediatailorPrefetchScheduleTags {
 
@@ -965,7 +965,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleConsumptionAvailMatchingCriteriaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleConsumptionAvailMatchingCriteriaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorPrefetchScheduleConsumptionAvailMatchingCriteriaList
 ```
@@ -1114,7 +1114,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleConsumptionAvailMatchingCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleConsumptionAvailMatchingCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorPrefetchScheduleConsumptionAvailMatchingCriteriaOutputReference
 ```
@@ -1403,7 +1403,7 @@ func InternalValue() DataAwsccMediatailorPrefetchScheduleConsumptionAvailMatchin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleConsumptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleConsumptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorPrefetchScheduleConsumptionOutputReference
 ```
@@ -1685,7 +1685,7 @@ func InternalValue() DataAwsccMediatailorPrefetchScheduleConsumption
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationOutputReference
 ```
@@ -1978,7 +1978,7 @@ func InternalValue() DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumptionAvailMatchingCriteriaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumptionAvailMatchingCriteriaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumptionAvailMatchingCriteriaList
 ```
@@ -2127,7 +2127,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumptionAvailMatchingCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumptionAvailMatchingCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumptionAvailMatchingCriteriaOutputReference
 ```
@@ -2416,7 +2416,7 @@ func InternalValue() DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringConsumptionOutputReference
 ```
@@ -2687,7 +2687,7 @@ func InternalValue() DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalOutputReference
 ```
@@ -2991,7 +2991,7 @@ func InternalValue() DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalTrafficShapingRetrievalWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalTrafficShapingRetrievalWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalTrafficShapingRetrievalWindowOutputReference
 ```
@@ -3251,7 +3251,7 @@ func InternalValue() DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalTrafficShapingTpsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalTrafficShapingTpsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfigurationRecurringRetrievalTrafficShapingTpsConfigurationOutputReference
 ```
@@ -3522,7 +3522,7 @@ func InternalValue() DataAwsccMediatailorPrefetchScheduleRecurringPrefetchConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRetrievalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleRetrievalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorPrefetchScheduleRetrievalOutputReference
 ```
@@ -3837,7 +3837,7 @@ func InternalValue() DataAwsccMediatailorPrefetchScheduleRetrieval
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRetrievalTrafficShapingRetrievalWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleRetrievalTrafficShapingRetrievalWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorPrefetchScheduleRetrievalTrafficShapingRetrievalWindowOutputReference
 ```
@@ -4097,7 +4097,7 @@ func InternalValue() DataAwsccMediatailorPrefetchScheduleRetrievalTrafficShaping
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleRetrievalTrafficShapingTpsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleRetrievalTrafficShapingTpsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorPrefetchScheduleRetrievalTrafficShapingTpsConfigurationOutputReference
 ```
@@ -4368,7 +4368,7 @@ func InternalValue() DataAwsccMediatailorPrefetchScheduleRetrievalTrafficShaping
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorPrefetchScheduleTagsList
 ```
@@ -4517,7 +4517,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorPrefetchSchedule.DataAwsccMediatailorPrefetchScheduleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprefetchschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprefetchschedule"
 
 dataawsccmediatailorprefetchschedule.NewDataAwsccMediatailorPrefetchScheduleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorPrefetchScheduleTagsOutputReference
 ```

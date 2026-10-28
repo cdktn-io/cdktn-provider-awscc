@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcoreOAuth2CredentialProviders <a name="DataAwsccBedrockagentcoreOAuth2CredentialProviders" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOAuth2CredentialProviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOAuth2CredentialProviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreoauth2credentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreoauth2credentialproviders"
 
 dataawsccbedrockagentcoreoauth2credentialproviders.NewDataAwsccBedrockagentcoreOAuth2CredentialProviders(scope Construct, id *string, config DataAwsccBedrockagentcoreOAuth2CredentialProvidersConfig) DataAwsccBedrockagentcoreOAuth2CredentialProviders
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOAuth2CredentialProviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreoauth2credentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreoauth2credentialproviders"
 
 dataawsccbedrockagentcoreoauth2credentialproviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOAuth2CredentialProviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreoauth2credentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreoauth2credentialproviders"
 
 dataawsccbedrockagentcoreoauth2credentialproviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcoreoauth2credentialproviders.DataAwsccBedrockagentcoreOAut
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOAuth2CredentialProviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreoauth2credentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreoauth2credentialproviders"
 
 dataawsccbedrockagentcoreoauth2credentialproviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcoreoauth2credentialproviders.DataAwsccBedrockagentcoreOAut
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOAuth2CredentialProviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreoauth2credentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreoauth2credentialproviders"
 
 dataawsccbedrockagentcoreoauth2credentialproviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreO
 
 The id of the existing DataAwsccBedrockagentcoreOAuth2CredentialProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOAuth2CredentialProviders.DataAwsccBedrockagentcoreOAuth2CredentialProvidersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreoauth2credentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreoauth2credentialproviders"
 
 &dataawsccbedrockagentcoreoauth2credentialproviders.DataAwsccBedrockagentcoreOAuth2CredentialProvidersConfig {
 	Connection: interface{},

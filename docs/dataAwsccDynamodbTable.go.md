@@ -4,12 +4,12 @@
 
 ### DataAwsccDynamodbTable <a name="DataAwsccDynamodbTable" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_table awscc_dynamodb_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_table awscc_dynamodb_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTable(scope Construct, id *string, config DataAwsccDynamodbTableConfig) DataAwsccDynamodbTable
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.DataAwsccDynamodbTable_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.DataAwsccDynamodbTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdynamodbtable.DataAwsccDynamodbTable_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTable.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.DataAwsccDynamodbTable_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdynamodbtable.DataAwsccDynamodbTable_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.DataAwsccDynamodbTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDynamodbTable to 
 
 The id of the existing DataAwsccDynamodbTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -840,7 +840,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableAttributeDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableAttributeDefinitions {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableConfig {
 	Connection: interface{},
@@ -962,7 +962,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_table#id DataAwsccDynamodbTable#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_table#id DataAwsccDynamodbTable#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -974,7 +974,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableContributorInsightsSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableContributorInsightsSpecification {
 
@@ -987,7 +987,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableGlobalSecondaryIndexes {
 
@@ -1000,7 +1000,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesContributorInsightsSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableGlobalSecondaryIndexesContributorInsightsSpecification {
 
@@ -1013,7 +1013,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesKeySchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableGlobalSecondaryIndexesKeySchema {
 
@@ -1026,7 +1026,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesOnDemandThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableGlobalSecondaryIndexesOnDemandThroughput {
 
@@ -1039,7 +1039,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesProjection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableGlobalSecondaryIndexesProjection {
 
@@ -1052,7 +1052,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesProvisionedThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableGlobalSecondaryIndexesProvisionedThroughput {
 
@@ -1065,7 +1065,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesWarmThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableGlobalSecondaryIndexesWarmThroughput {
 
@@ -1078,7 +1078,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableImportSourceSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableImportSourceSpecification {
 
@@ -1091,7 +1091,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableImportSourceSpecificationInputFormatOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableImportSourceSpecificationInputFormatOptions {
 
@@ -1104,7 +1104,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableImportSourceSpecificationInputFormatOptionsCsv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableImportSourceSpecificationInputFormatOptionsCsv {
 
@@ -1117,7 +1117,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableImportSourceSpecificationS3BucketSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableImportSourceSpecificationS3BucketSource {
 
@@ -1130,7 +1130,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableKinesisStreamSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableKinesisStreamSpecification {
 
@@ -1143,7 +1143,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableLocalSecondaryIndexes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableLocalSecondaryIndexes {
 
@@ -1156,7 +1156,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableLocalSecondaryIndexesKeySchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableLocalSecondaryIndexesKeySchema {
 
@@ -1169,7 +1169,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableLocalSecondaryIndexesProjection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableLocalSecondaryIndexesProjection {
 
@@ -1182,7 +1182,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableOnDemandThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableOnDemandThroughput {
 
@@ -1195,7 +1195,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTablePointInTimeRecoverySpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTablePointInTimeRecoverySpecification {
 
@@ -1208,7 +1208,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableProvisionedThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableProvisionedThroughput {
 
@@ -1221,7 +1221,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableResourcePolicy {
 
@@ -1234,7 +1234,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableSseSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableSseSpecification {
 
@@ -1247,7 +1247,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableStreamSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableStreamSpecification {
 
@@ -1260,7 +1260,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableStreamSpecificationResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableStreamSpecificationResourcePolicy {
 
@@ -1273,7 +1273,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableStreamSpecificationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableStreamSpecificationTags {
 
@@ -1286,7 +1286,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableTags {
 
@@ -1299,7 +1299,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableTimeToLiveSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableTimeToLiveSpecification {
 
@@ -1312,7 +1312,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableVectorIndexes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableVectorIndexes {
 
@@ -1325,7 +1325,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableVectorIndexesProjection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableVectorIndexesProjection {
 
@@ -1338,7 +1338,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableVectorIndexesSearchSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableVectorIndexesSearchSchema {
 
@@ -1351,7 +1351,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableVectorIndexesVectorAttribute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableVectorIndexesVectorAttribute {
 
@@ -1364,7 +1364,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableWarmThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 &dataawsccdynamodbtable.DataAwsccDynamodbTableWarmThroughput {
 
@@ -1379,7 +1379,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableAttributeDefinitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableAttributeDefinitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDynamodbTableAttributeDefinitionsList
 ```
@@ -1528,7 +1528,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableAttributeDefinitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableAttributeDefinitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDynamodbTableAttributeDefinitionsOutputReference
 ```
@@ -1817,7 +1817,7 @@ func InternalValue() DataAwsccDynamodbTableAttributeDefinitions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableContributorInsightsSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableContributorInsightsSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableContributorInsightsSpecificationOutputReference
 ```
@@ -2088,7 +2088,7 @@ func InternalValue() DataAwsccDynamodbTableContributorInsightsSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesContributorInsightsSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableGlobalSecondaryIndexesContributorInsightsSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableGlobalSecondaryIndexesContributorInsightsSpecificationOutputReference
 ```
@@ -2359,7 +2359,7 @@ func InternalValue() DataAwsccDynamodbTableGlobalSecondaryIndexesContributorInsi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesKeySchemaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableGlobalSecondaryIndexesKeySchemaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDynamodbTableGlobalSecondaryIndexesKeySchemaList
 ```
@@ -2508,7 +2508,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesKeySchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableGlobalSecondaryIndexesKeySchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDynamodbTableGlobalSecondaryIndexesKeySchemaOutputReference
 ```
@@ -2797,7 +2797,7 @@ func InternalValue() DataAwsccDynamodbTableGlobalSecondaryIndexesKeySchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableGlobalSecondaryIndexesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDynamodbTableGlobalSecondaryIndexesList
 ```
@@ -2946,7 +2946,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesOnDemandThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableGlobalSecondaryIndexesOnDemandThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableGlobalSecondaryIndexesOnDemandThroughputOutputReference
 ```
@@ -3217,7 +3217,7 @@ func InternalValue() DataAwsccDynamodbTableGlobalSecondaryIndexesOnDemandThrough
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableGlobalSecondaryIndexesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDynamodbTableGlobalSecondaryIndexesOutputReference
 ```
@@ -3561,7 +3561,7 @@ func InternalValue() DataAwsccDynamodbTableGlobalSecondaryIndexes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesProjectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableGlobalSecondaryIndexesProjectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableGlobalSecondaryIndexesProjectionOutputReference
 ```
@@ -3832,7 +3832,7 @@ func InternalValue() DataAwsccDynamodbTableGlobalSecondaryIndexesProjection
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesProvisionedThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableGlobalSecondaryIndexesProvisionedThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableGlobalSecondaryIndexesProvisionedThroughputOutputReference
 ```
@@ -4103,7 +4103,7 @@ func InternalValue() DataAwsccDynamodbTableGlobalSecondaryIndexesProvisionedThro
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableGlobalSecondaryIndexesWarmThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableGlobalSecondaryIndexesWarmThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableGlobalSecondaryIndexesWarmThroughputOutputReference
 ```
@@ -4374,7 +4374,7 @@ func InternalValue() DataAwsccDynamodbTableGlobalSecondaryIndexesWarmThroughput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableImportSourceSpecificationInputFormatOptionsCsvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableImportSourceSpecificationInputFormatOptionsCsvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableImportSourceSpecificationInputFormatOptionsCsvOutputReference
 ```
@@ -4645,7 +4645,7 @@ func InternalValue() DataAwsccDynamodbTableImportSourceSpecificationInputFormatO
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableImportSourceSpecificationInputFormatOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableImportSourceSpecificationInputFormatOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableImportSourceSpecificationInputFormatOptionsOutputReference
 ```
@@ -4905,7 +4905,7 @@ func InternalValue() DataAwsccDynamodbTableImportSourceSpecificationInputFormatO
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableImportSourceSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableImportSourceSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableImportSourceSpecificationOutputReference
 ```
@@ -5198,7 +5198,7 @@ func InternalValue() DataAwsccDynamodbTableImportSourceSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableImportSourceSpecificationS3BucketSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableImportSourceSpecificationS3BucketSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableImportSourceSpecificationS3BucketSourceOutputReference
 ```
@@ -5480,7 +5480,7 @@ func InternalValue() DataAwsccDynamodbTableImportSourceSpecificationS3BucketSour
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableKinesisStreamSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableKinesisStreamSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableKinesisStreamSpecificationOutputReference
 ```
@@ -5751,7 +5751,7 @@ func InternalValue() DataAwsccDynamodbTableKinesisStreamSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableLocalSecondaryIndexesKeySchemaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableLocalSecondaryIndexesKeySchemaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDynamodbTableLocalSecondaryIndexesKeySchemaList
 ```
@@ -5900,7 +5900,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableLocalSecondaryIndexesKeySchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableLocalSecondaryIndexesKeySchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDynamodbTableLocalSecondaryIndexesKeySchemaOutputReference
 ```
@@ -6189,7 +6189,7 @@ func InternalValue() DataAwsccDynamodbTableLocalSecondaryIndexesKeySchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableLocalSecondaryIndexesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableLocalSecondaryIndexesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDynamodbTableLocalSecondaryIndexesList
 ```
@@ -6338,7 +6338,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableLocalSecondaryIndexesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableLocalSecondaryIndexesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDynamodbTableLocalSecondaryIndexesOutputReference
 ```
@@ -6638,7 +6638,7 @@ func InternalValue() DataAwsccDynamodbTableLocalSecondaryIndexes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableLocalSecondaryIndexesProjectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableLocalSecondaryIndexesProjectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableLocalSecondaryIndexesProjectionOutputReference
 ```
@@ -6909,7 +6909,7 @@ func InternalValue() DataAwsccDynamodbTableLocalSecondaryIndexesProjection
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableOnDemandThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableOnDemandThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableOnDemandThroughputOutputReference
 ```
@@ -7180,7 +7180,7 @@ func InternalValue() DataAwsccDynamodbTableOnDemandThroughput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTablePointInTimeRecoverySpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTablePointInTimeRecoverySpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTablePointInTimeRecoverySpecificationOutputReference
 ```
@@ -7451,7 +7451,7 @@ func InternalValue() DataAwsccDynamodbTablePointInTimeRecoverySpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableProvisionedThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableProvisionedThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableProvisionedThroughputOutputReference
 ```
@@ -7722,7 +7722,7 @@ func InternalValue() DataAwsccDynamodbTableProvisionedThroughput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableResourcePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableResourcePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableResourcePolicyOutputReference
 ```
@@ -7982,7 +7982,7 @@ func InternalValue() DataAwsccDynamodbTableResourcePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableSseSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableSseSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableSseSpecificationOutputReference
 ```
@@ -8264,7 +8264,7 @@ func InternalValue() DataAwsccDynamodbTableSseSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableStreamSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableStreamSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableStreamSpecificationOutputReference
 ```
@@ -8546,7 +8546,7 @@ func InternalValue() DataAwsccDynamodbTableStreamSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableStreamSpecificationResourcePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableStreamSpecificationResourcePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableStreamSpecificationResourcePolicyOutputReference
 ```
@@ -8806,7 +8806,7 @@ func InternalValue() DataAwsccDynamodbTableStreamSpecificationResourcePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableStreamSpecificationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableStreamSpecificationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDynamodbTableStreamSpecificationTagsList
 ```
@@ -8955,7 +8955,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableStreamSpecificationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableStreamSpecificationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDynamodbTableStreamSpecificationTagsOutputReference
 ```
@@ -9244,7 +9244,7 @@ func InternalValue() DataAwsccDynamodbTableStreamSpecificationTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDynamodbTableTagsList
 ```
@@ -9393,7 +9393,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDynamodbTableTagsOutputReference
 ```
@@ -9682,7 +9682,7 @@ func InternalValue() DataAwsccDynamodbTableTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableTimeToLiveSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableTimeToLiveSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableTimeToLiveSpecificationOutputReference
 ```
@@ -9953,7 +9953,7 @@ func InternalValue() DataAwsccDynamodbTableTimeToLiveSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableVectorIndexesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableVectorIndexesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDynamodbTableVectorIndexesList
 ```
@@ -10102,7 +10102,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableVectorIndexesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableVectorIndexesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDynamodbTableVectorIndexesOutputReference
 ```
@@ -10435,7 +10435,7 @@ func InternalValue() DataAwsccDynamodbTableVectorIndexes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableVectorIndexesProjectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableVectorIndexesProjectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableVectorIndexesProjectionOutputReference
 ```
@@ -10706,7 +10706,7 @@ func InternalValue() DataAwsccDynamodbTableVectorIndexesProjection
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableVectorIndexesSearchSchemaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableVectorIndexesSearchSchemaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDynamodbTableVectorIndexesSearchSchemaList
 ```
@@ -10855,7 +10855,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableVectorIndexesSearchSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableVectorIndexesSearchSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDynamodbTableVectorIndexesSearchSchemaOutputReference
 ```
@@ -11144,7 +11144,7 @@ func InternalValue() DataAwsccDynamodbTableVectorIndexesSearchSchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableVectorIndexesVectorAttributeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableVectorIndexesVectorAttributeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableVectorIndexesVectorAttributeOutputReference
 ```
@@ -11404,7 +11404,7 @@ func InternalValue() DataAwsccDynamodbTableVectorIndexesVectorAttribute
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbTable.DataAwsccDynamodbTableWarmThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbtable"
 
 dataawsccdynamodbtable.NewDataAwsccDynamodbTableWarmThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDynamodbTableWarmThroughputOutputReference
 ```

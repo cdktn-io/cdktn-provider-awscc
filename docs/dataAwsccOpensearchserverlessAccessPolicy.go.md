@@ -4,12 +4,12 @@
 
 ### DataAwsccOpensearchserverlessAccessPolicy <a name="DataAwsccOpensearchserverlessAccessPolicy" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessAccessPolicy.DataAwsccOpensearchserverlessAccessPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessAccessPolicy.DataAwsccOpensearchserverlessAccessPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlessaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlessaccesspolicy"
 
 dataawsccopensearchserverlessaccesspolicy.NewDataAwsccOpensearchserverlessAccessPolicy(scope Construct, id *string, config DataAwsccOpensearchserverlessAccessPolicyConfig) DataAwsccOpensearchserverlessAccessPolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessAccessPolicy.DataAwsccOpensearchserverlessAccessPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlessaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlessaccesspolicy"
 
 dataawsccopensearchserverlessaccesspolicy.DataAwsccOpensearchserverlessAccessPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessAccessPolicy.DataAwsccOpensearchserverlessAccessPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlessaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlessaccesspolicy"
 
 dataawsccopensearchserverlessaccesspolicy.DataAwsccOpensearchserverlessAccessPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccopensearchserverlessaccesspolicy.DataAwsccOpensearchserverlessAccessPol
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessAccessPolicy.DataAwsccOpensearchserverlessAccessPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlessaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlessaccesspolicy"
 
 dataawsccopensearchserverlessaccesspolicy.DataAwsccOpensearchserverlessAccessPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccopensearchserverlessaccesspolicy.DataAwsccOpensearchserverlessAccessPol
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessAccessPolicy.DataAwsccOpensearchserverlessAccessPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlessaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlessaccesspolicy"
 
 dataawsccopensearchserverlessaccesspolicy.DataAwsccOpensearchserverlessAccessPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOpensearchserverl
 
 The id of the existing DataAwsccOpensearchserverlessAccessPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchserverless_access_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchserverless_access_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessAccessPolicy.DataAwsccOpensearchserverlessAccessPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlessaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlessaccesspolicy"
 
 &dataawsccopensearchserverlessaccesspolicy.DataAwsccOpensearchserverlessAccessPolicyConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchserverless_access_policy#id DataAwsccOpensearchserverlessAccessPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchserverless_access_policy#id DataAwsccOpensearchserverlessAccessPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

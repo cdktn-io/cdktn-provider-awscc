@@ -4,12 +4,12 @@
 
 ### LightsailDistribution <a name="LightsailDistribution" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistribution"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution awscc_lightsail_distribution}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution awscc_lightsail_distribution}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistribution.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.NewLightsailDistribution(scope Construct, id *string, config LightsailDistributionConfig) LightsailDistribution
 ```
@@ -507,7 +507,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistribution.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.LightsailDistribution_IsConstruct(x interface{}) *bool
 ```
@@ -539,7 +539,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistribution.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.LightsailDistribution_IsTerraformElement(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ lightsaildistribution.LightsailDistribution_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistribution.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.LightsailDistribution_IsTerraformResource(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ lightsaildistribution.LightsailDistribution_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistribution.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.LightsailDistribution_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -596,7 +596,7 @@ The construct id used in the generated config for the LightsailDistribution to i
 
 The id of the existing LightsailDistribution that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1060,7 +1060,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionCacheBehaviors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 &lightsaildistribution.LightsailDistributionCacheBehaviors {
 	Behavior: *string,
@@ -1087,7 +1087,7 @@ Behavior *string
 
 The cache behavior for the specified path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
 
 ---
 
@@ -1103,7 +1103,7 @@ The path to a directory or file to cached, or not cache.
 
 Use an asterisk symbol to specify wildcard directories (path/to/assets/*), and file types (*.html, *jpg, *js). Directories and file paths are case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#path LightsailDistribution#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#path LightsailDistribution#path}
 
 ---
 
@@ -1112,15 +1112,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 &lightsaildistribution.LightsailDistributionCacheBehaviorSettings {
 	AllowedHttpMethods: *string,
 	CachedHttpMethods: *string,
 	DefaultTtl: *f64,
-	ForwardedCookies: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedCookies,
-	ForwardedHeaders: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedHeaders,
-	ForwardedQueryStrings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStrings,
+	ForwardedCookies: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedCookies,
+	ForwardedHeaders: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedHeaders,
+	ForwardedQueryStrings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStrings,
 	MaximumTtl: *f64,
 	MinimumTtl: *f64,
 }
@@ -1151,7 +1151,7 @@ AllowedHttpMethods *string
 
 The HTTP methods that are processed and forwarded to the distribution's origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#allowed_http_methods LightsailDistribution#allowed_http_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#allowed_http_methods LightsailDistribution#allowed_http_methods}
 
 ---
 
@@ -1165,7 +1165,7 @@ CachedHttpMethods *string
 
 The HTTP method responses that are cached by your distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#cached_http_methods LightsailDistribution#cached_http_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#cached_http_methods LightsailDistribution#cached_http_methods}
 
 ---
 
@@ -1179,7 +1179,7 @@ DefaultTtl *f64
 
 The default amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the content has been updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#default_ttl LightsailDistribution#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#default_ttl LightsailDistribution#default_ttl}
 
 ---
 
@@ -1195,7 +1195,7 @@ An object that describes the cookies that are forwarded to the origin.
 
 Your content is cached based on the cookies that are forwarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#forwarded_cookies LightsailDistribution#forwarded_cookies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#forwarded_cookies LightsailDistribution#forwarded_cookies}
 
 ---
 
@@ -1211,7 +1211,7 @@ An object that describes the headers that are forwarded to the origin.
 
 Your content is cached based on the headers that are forwarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#forwarded_headers LightsailDistribution#forwarded_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#forwarded_headers LightsailDistribution#forwarded_headers}
 
 ---
 
@@ -1227,7 +1227,7 @@ An object that describes the query strings that are forwarded to the origin.
 
 Your content is cached based on the query strings that are forwarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#forwarded_query_strings LightsailDistribution#forwarded_query_strings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#forwarded_query_strings LightsailDistribution#forwarded_query_strings}
 
 ---
 
@@ -1241,7 +1241,7 @@ MaximumTtl *f64
 
 The maximum amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the object has been updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#maximum_ttl LightsailDistribution#maximum_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#maximum_ttl LightsailDistribution#maximum_ttl}
 
 ---
 
@@ -1255,7 +1255,7 @@ MinimumTtl *f64
 
 The minimum amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the object has been updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#minimum_ttl LightsailDistribution#minimum_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#minimum_ttl LightsailDistribution#minimum_ttl}
 
 ---
 
@@ -1264,7 +1264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedCookies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 &lightsaildistribution.LightsailDistributionCacheBehaviorSettingsForwardedCookies {
 	CookiesAllowList: *[]*string,
@@ -1291,7 +1291,7 @@ CookiesAllowList *[]*string
 
 The specific cookies to forward to your distribution's origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#cookies_allow_list LightsailDistribution#cookies_allow_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#cookies_allow_list LightsailDistribution#cookies_allow_list}
 
 ---
 
@@ -1305,7 +1305,7 @@ Option *string
 
 Specifies which cookies to forward to the distribution's origin for a cache behavior: all, none, or allow-list to forward only the cookies specified in the cookiesAllowList parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
 
 ---
 
@@ -1314,7 +1314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 &lightsaildistribution.LightsailDistributionCacheBehaviorSettingsForwardedHeaders {
 	HeadersAllowList: *[]*string,
@@ -1341,7 +1341,7 @@ HeadersAllowList *[]*string
 
 The specific headers to forward to your distribution's origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#headers_allow_list LightsailDistribution#headers_allow_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#headers_allow_list LightsailDistribution#headers_allow_list}
 
 ---
 
@@ -1355,7 +1355,7 @@ Option *string
 
 The headers that you want your distribution to forward to your origin and base caching on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
 
 ---
 
@@ -1364,7 +1364,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStrings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 &lightsaildistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStrings {
 	Option: interface{},
@@ -1391,7 +1391,7 @@ Option interface{}
 
 Indicates whether the distribution forwards and caches based on query strings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
 
 ---
 
@@ -1405,7 +1405,7 @@ QueryStringsAllowList *[]*string
 
 The specific query strings that the distribution forwards to the origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#query_strings_allow_list LightsailDistribution#query_strings_allow_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#query_strings_allow_list LightsailDistribution#query_strings_allow_list}
 
 ---
 
@@ -1414,7 +1414,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 &lightsaildistribution.LightsailDistributionConfig {
 	Connection: interface{},
@@ -1425,11 +1425,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	BundleId: *string,
-	DefaultCacheBehavior: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailDistribution.LightsailDistributionDefaultCacheBehavior,
+	DefaultCacheBehavior: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailDistribution.LightsailDistributionDefaultCacheBehavior,
 	DistributionName: *string,
-	Origin: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailDistribution.LightsailDistributionOrigin,
+	Origin: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailDistribution.LightsailDistributionOrigin,
 	CacheBehaviors: interface{},
-	CacheBehaviorSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettings,
+	CacheBehaviorSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailDistribution.LightsailDistributionCacheBehaviorSettings,
 	CertificateName: *string,
 	IpAddressType: *string,
 	IsEnabled: interface{},
@@ -1541,7 +1541,7 @@ BundleId *string
 
 The bundle ID to use for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#bundle_id LightsailDistribution#bundle_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#bundle_id LightsailDistribution#bundle_id}
 
 ---
 
@@ -1555,7 +1555,7 @@ DefaultCacheBehavior LightsailDistributionDefaultCacheBehavior
 
 An object that describes the default cache behavior for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#default_cache_behavior LightsailDistribution#default_cache_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#default_cache_behavior LightsailDistribution#default_cache_behavior}
 
 ---
 
@@ -1569,7 +1569,7 @@ DistributionName *string
 
 The name for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#distribution_name LightsailDistribution#distribution_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#distribution_name LightsailDistribution#distribution_name}
 
 ---
 
@@ -1583,7 +1583,7 @@ Origin LightsailDistributionOrigin
 
 An object that describes the origin resource for the distribution, such as a Lightsail instance or load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#origin LightsailDistribution#origin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#origin LightsailDistribution#origin}
 
 ---
 
@@ -1597,7 +1597,7 @@ CacheBehaviors interface{}
 
 An array of objects that describe the per-path cache behavior for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#cache_behaviors LightsailDistribution#cache_behaviors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#cache_behaviors LightsailDistribution#cache_behaviors}
 
 ---
 
@@ -1611,7 +1611,7 @@ CacheBehaviorSettings LightsailDistributionCacheBehaviorSettings
 
 An object that describes the cache behavior settings for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#cache_behavior_settings LightsailDistribution#cache_behavior_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#cache_behavior_settings LightsailDistribution#cache_behavior_settings}
 
 ---
 
@@ -1625,7 +1625,7 @@ CertificateName *string
 
 The certificate attached to the Distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#certificate_name LightsailDistribution#certificate_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#certificate_name LightsailDistribution#certificate_name}
 
 ---
 
@@ -1639,7 +1639,7 @@ IpAddressType *string
 
 The IP address type for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#ip_address_type LightsailDistribution#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#ip_address_type LightsailDistribution#ip_address_type}
 
 ---
 
@@ -1653,7 +1653,7 @@ IsEnabled interface{}
 
 Indicates whether the distribution is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#is_enabled LightsailDistribution#is_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#is_enabled LightsailDistribution#is_enabled}
 
 ---
 
@@ -1667,7 +1667,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#tags LightsailDistribution#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#tags LightsailDistribution#tags}
 
 ---
 
@@ -1676,7 +1676,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionDefaultCacheBehavior.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 &lightsaildistribution.LightsailDistributionDefaultCacheBehavior {
 	Behavior: *string,
@@ -1701,7 +1701,7 @@ Behavior *string
 
 The cache behavior of the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
 
 ---
 
@@ -1710,7 +1710,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionOrigin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 &lightsaildistribution.LightsailDistributionOrigin {
 	Name: *string,
@@ -1739,7 +1739,7 @@ Name *string
 
 The name of the origin resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
 
 ---
 
@@ -1753,7 +1753,7 @@ ProtocolPolicy *string
 
 The protocol that your Amazon Lightsail distribution uses when establishing a connection with your origin to pull content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#protocol_policy LightsailDistribution#protocol_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#protocol_policy LightsailDistribution#protocol_policy}
 
 ---
 
@@ -1767,7 +1767,7 @@ RegionName *string
 
 The AWS Region name of the origin resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#region_name LightsailDistribution#region_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#region_name LightsailDistribution#region_name}
 
 ---
 
@@ -1776,7 +1776,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 &lightsaildistribution.LightsailDistributionTags {
 	Key: *string,
@@ -1805,7 +1805,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#key LightsailDistribution#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#key LightsailDistribution#key}
 
 ---
 
@@ -1821,7 +1821,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_distribution#value LightsailDistribution#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_distribution#value LightsailDistribution#value}
 
 ---
 
@@ -1832,7 +1832,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.NewLightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference
 ```
@@ -2139,7 +2139,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.NewLightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputReference
 ```
@@ -2446,7 +2446,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.NewLightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference
 ```
@@ -2753,7 +2753,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.NewLightsailDistributionCacheBehaviorSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailDistributionCacheBehaviorSettingsOutputReference
 ```
@@ -3273,7 +3273,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionCacheBehaviorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.NewLightsailDistributionCacheBehaviorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailDistributionCacheBehaviorsList
 ```
@@ -3433,7 +3433,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionCacheBehaviorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.NewLightsailDistributionCacheBehaviorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailDistributionCacheBehaviorsOutputReference
 ```
@@ -3758,7 +3758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionDefaultCacheBehaviorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.NewLightsailDistributionDefaultCacheBehaviorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailDistributionDefaultCacheBehaviorOutputReference
 ```
@@ -4036,7 +4036,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionOriginOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.NewLightsailDistributionOriginOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailDistributionOriginOutputReference
 ```
@@ -4372,7 +4372,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.NewLightsailDistributionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailDistributionTagsList
 ```
@@ -4532,7 +4532,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistributionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildistribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildistribution"
 
 lightsaildistribution.NewLightsailDistributionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailDistributionTagsOutputReference
 ```

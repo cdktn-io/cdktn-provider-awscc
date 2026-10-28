@@ -4,12 +4,12 @@
 
 ### DataAwsccApprunnerServices <a name="DataAwsccApprunnerServices" id="@cdktn/provider-awscc.dataAwsccApprunnerServices.DataAwsccApprunnerServices"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_services awscc_apprunner_services}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_services awscc_apprunner_services}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerServices.DataAwsccApprunnerServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservices"
 
 dataawsccapprunnerservices.NewDataAwsccApprunnerServices(scope Construct, id *string, config DataAwsccApprunnerServicesConfig) DataAwsccApprunnerServices
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApprunnerServices.DataAwsccApprunnerServices.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservices"
 
 dataawsccapprunnerservices.DataAwsccApprunnerServices_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApprunnerServices.DataAwsccApprunnerServices.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservices"
 
 dataawsccapprunnerservices.DataAwsccApprunnerServices_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapprunnerservices.DataAwsccApprunnerServices_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApprunnerServices.DataAwsccApprunnerServices.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservices"
 
 dataawsccapprunnerservices.DataAwsccApprunnerServices_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapprunnerservices.DataAwsccApprunnerServices_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApprunnerServices.DataAwsccApprunnerServices.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservices"
 
 dataawsccapprunnerservices.DataAwsccApprunnerServices_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApprunnerServices
 
 The id of the existing DataAwsccApprunnerServices that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_services#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_services#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerServices.DataAwsccApprunnerServicesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservices"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservices"
 
 &dataawsccapprunnerservices.DataAwsccApprunnerServicesConfig {
 	Connection: interface{},

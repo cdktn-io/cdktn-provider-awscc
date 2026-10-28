@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectcampaignsCampaign <a name="DataAwsccConnectcampaignsCampaign" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaign"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connectcampaigns_campaign awscc_connectcampaigns_campaign}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connectcampaigns_campaign awscc_connectcampaigns_campaign}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaign.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.NewDataAwsccConnectcampaignsCampaign(scope Construct, id *string, config DataAwsccConnectcampaignsCampaignConfig) DataAwsccConnectcampaignsCampaign
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaign.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaign_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaign.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaign_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaign_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaign.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaign_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaign_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaign.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaign_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectcampaignsC
 
 The id of the existing DataAwsccConnectcampaignsCampaign that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connectcampaigns_campaign#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connectcampaigns_campaign#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 &dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaignConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connectcampaigns_campaign#id DataAwsccConnectcampaignsCampaign#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connectcampaigns_campaign#id DataAwsccConnectcampaignsCampaign#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignDialerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 &dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaignDialerConfig {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignDialerConfigAgentlessDialerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 &dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaignDialerConfigAgentlessDialerConfig {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignDialerConfigPredictiveDialerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 &dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaignDialerConfigPredictiveDialerConfig {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignDialerConfigProgressiveDialerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 &dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaignDialerConfigProgressiveDialerConfig {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignOutboundCallConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 &dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaignOutboundCallConfig {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignOutboundCallConfigAnswerMachineDetectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 &dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaignOutboundCallConfigAnswerMachineDetectionConfig {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 &dataawsccconnectcampaignscampaign.DataAwsccConnectcampaignsCampaignTags {
 
@@ -867,7 +867,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignDialerConfigAgentlessDialerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.NewDataAwsccConnectcampaignsCampaignDialerConfigAgentlessDialerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsCampaignDialerConfigAgentlessDialerConfigOutputReference
 ```
@@ -1127,7 +1127,7 @@ func InternalValue() DataAwsccConnectcampaignsCampaignDialerConfigAgentlessDiale
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignDialerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.NewDataAwsccConnectcampaignsCampaignDialerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsCampaignDialerConfigOutputReference
 ```
@@ -1409,7 +1409,7 @@ func InternalValue() DataAwsccConnectcampaignsCampaignDialerConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignDialerConfigPredictiveDialerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.NewDataAwsccConnectcampaignsCampaignDialerConfigPredictiveDialerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsCampaignDialerConfigPredictiveDialerConfigOutputReference
 ```
@@ -1680,7 +1680,7 @@ func InternalValue() DataAwsccConnectcampaignsCampaignDialerConfigPredictiveDial
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignDialerConfigProgressiveDialerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.NewDataAwsccConnectcampaignsCampaignDialerConfigProgressiveDialerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsCampaignDialerConfigProgressiveDialerConfigOutputReference
 ```
@@ -1951,7 +1951,7 @@ func InternalValue() DataAwsccConnectcampaignsCampaignDialerConfigProgressiveDia
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignOutboundCallConfigAnswerMachineDetectionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.NewDataAwsccConnectcampaignsCampaignOutboundCallConfigAnswerMachineDetectionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsCampaignOutboundCallConfigAnswerMachineDetectionConfigOutputReference
 ```
@@ -2222,7 +2222,7 @@ func InternalValue() DataAwsccConnectcampaignsCampaignOutboundCallConfigAnswerMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignOutboundCallConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.NewDataAwsccConnectcampaignsCampaignOutboundCallConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsCampaignOutboundCallConfigOutputReference
 ```
@@ -2515,7 +2515,7 @@ func InternalValue() DataAwsccConnectcampaignsCampaignOutboundCallConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.NewDataAwsccConnectcampaignsCampaignTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsCampaignTagsList
 ```
@@ -2664,7 +2664,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsCampaign.DataAwsccConnectcampaignsCampaignTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign"
 
 dataawsccconnectcampaignscampaign.NewDataAwsccConnectcampaignsCampaignTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsCampaignTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaNetworkConnectors <a name="DataAwsccLambdaNetworkConnectors" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnectors.DataAwsccLambdaNetworkConnectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_network_connectors awscc_lambda_network_connectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_network_connectors awscc_lambda_network_connectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnectors.DataAwsccLambdaNetworkConnectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdanetworkconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdanetworkconnectors"
 
 dataawscclambdanetworkconnectors.NewDataAwsccLambdaNetworkConnectors(scope Construct, id *string, config DataAwsccLambdaNetworkConnectorsConfig) DataAwsccLambdaNetworkConnectors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnectors.DataAwsccLambdaNetworkConnectors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdanetworkconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdanetworkconnectors"
 
 dataawscclambdanetworkconnectors.DataAwsccLambdaNetworkConnectors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnectors.DataAwsccLambdaNetworkConnectors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdanetworkconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdanetworkconnectors"
 
 dataawscclambdanetworkconnectors.DataAwsccLambdaNetworkConnectors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdanetworkconnectors.DataAwsccLambdaNetworkConnectors_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnectors.DataAwsccLambdaNetworkConnectors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdanetworkconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdanetworkconnectors"
 
 dataawscclambdanetworkconnectors.DataAwsccLambdaNetworkConnectors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdanetworkconnectors.DataAwsccLambdaNetworkConnectors_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnectors.DataAwsccLambdaNetworkConnectors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdanetworkconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdanetworkconnectors"
 
 dataawscclambdanetworkconnectors.DataAwsccLambdaNetworkConnectors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaNetworkConn
 
 The id of the existing DataAwsccLambdaNetworkConnectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_network_connectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_network_connectors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnectors.DataAwsccLambdaNetworkConnectorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdanetworkconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdanetworkconnectors"
 
 &dataawscclambdanetworkconnectors.DataAwsccLambdaNetworkConnectorsConfig {
 	Connection: interface{},

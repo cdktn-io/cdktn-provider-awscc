@@ -4,12 +4,12 @@
 
 ### CodepipelinePipeline <a name="CodepipelinePipeline" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipeline(scope Construct, id *string, config CodepipelinePipelineConfig) CodepipelinePipeline
 ```
@@ -561,7 +561,7 @@ func ResetVariables()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.CodepipelinePipeline_IsConstruct(x interface{}) *bool
 ```
@@ -593,7 +593,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.CodepipelinePipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -607,7 +607,7 @@ codepipelinepipeline.CodepipelinePipeline_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipeline.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.CodepipelinePipeline_IsTerraformResource(x interface{}) *bool
 ```
@@ -621,7 +621,7 @@ codepipelinepipeline.CodepipelinePipeline_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.CodepipelinePipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -650,7 +650,7 @@ The construct id used in the generated config for the CodepipelinePipeline to im
 
 The id of the existing CodepipelinePipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1147,10 +1147,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineArtifactStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineArtifactStore {
-	EncryptionKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoreEncryptionKey,
+	EncryptionKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineArtifactStoreEncryptionKey,
 	Location: *string,
 	Type: *string,
 }
@@ -1176,7 +1176,7 @@ EncryptionKey CodepipelinePipelineArtifactStoreEncryptionKey
 
 Represents information about the key used to encrypt data in the artifact store, such as an AWS Key Management Service (AWS KMS) key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#encryption_key CodepipelinePipeline#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#encryption_key CodepipelinePipeline#encryption_key}
 
 ---
 
@@ -1192,7 +1192,7 @@ The S3 bucket used for storing the artifacts for a pipeline.
 
 You can specify the name of an S3 bucket but not a folder in the bucket. A folder to contain the pipeline artifacts is created for you based on the name of the pipeline. You can use any S3 bucket in the same AWS Region as the pipeline to store your pipeline artifacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#location CodepipelinePipeline#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#location CodepipelinePipeline#location}
 
 ---
 
@@ -1206,7 +1206,7 @@ Type *string
 
 The type of the artifact store, such as S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -1215,7 +1215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoreEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineArtifactStoreEncryptionKey {
 	Id: *string,
@@ -1244,7 +1244,7 @@ The ID used to identify the key.
 
 For an AWS KMS key, you can use the key ID, the key ARN, or the alias ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#id CodepipelinePipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#id CodepipelinePipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1263,7 +1263,7 @@ The type of encryption key, such as an AWS KMS key.
 
 When creating or updating a pipeline, the value must be set to 'KMS'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -1272,10 +1272,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineArtifactStores.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineArtifactStores {
-	ArtifactStore: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoresArtifactStore,
+	ArtifactStore: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineArtifactStoresArtifactStore,
 	Region: *string,
 }
 ```
@@ -1299,7 +1299,7 @@ ArtifactStore CodepipelinePipelineArtifactStoresArtifactStore
 
 The S3 bucket where artifacts for the pipeline are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#artifact_store CodepipelinePipeline#artifact_store}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#artifact_store CodepipelinePipeline#artifact_store}
 
 ---
 
@@ -1313,7 +1313,7 @@ Region *string
 
 The action declaration's AWS Region, such as us-east-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
 
 ---
 
@@ -1322,10 +1322,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoresArtifactStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineArtifactStoresArtifactStore {
-	EncryptionKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoresArtifactStoreEncryptionKey,
+	EncryptionKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineArtifactStoresArtifactStoreEncryptionKey,
 	Location: *string,
 	Type: *string,
 }
@@ -1351,7 +1351,7 @@ EncryptionKey CodepipelinePipelineArtifactStoresArtifactStoreEncryptionKey
 
 Represents information about the key used to encrypt data in the artifact store, such as an AWS Key Management Service (AWS KMS) key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#encryption_key CodepipelinePipeline#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#encryption_key CodepipelinePipeline#encryption_key}
 
 ---
 
@@ -1367,7 +1367,7 @@ The S3 bucket used for storing the artifacts for a pipeline.
 
 You can specify the name of an S3 bucket but not a folder in the bucket. A folder to contain the pipeline artifacts is created for you based on the name of the pipeline. You can use any S3 bucket in the same AWS Region as the pipeline to store your pipeline artifacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#location CodepipelinePipeline#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#location CodepipelinePipeline#location}
 
 ---
 
@@ -1381,7 +1381,7 @@ Type *string
 
 The type of the artifact store, such as S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -1390,7 +1390,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoresArtifactStoreEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineArtifactStoresArtifactStoreEncryptionKey {
 	Id: *string,
@@ -1419,7 +1419,7 @@ The ID used to identify the key.
 
 For an AWS KMS key, you can use the key ID, the key ARN, or the alias ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#id CodepipelinePipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#id CodepipelinePipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1438,7 +1438,7 @@ The type of encryption key, such as an AWS KMS key.
 
 When creating or updating a pipeline, the value must be set to 'KMS'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -1447,7 +1447,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineConfig {
 	Connection: interface{},
@@ -1459,7 +1459,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 	Provisioners: *[]interface{},
 	RoleArn: *string,
 	Stages: interface{},
-	ArtifactStore: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineArtifactStore,
+	ArtifactStore: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineArtifactStore,
 	ArtifactStores: interface{},
 	DisableInboundStageTransitions: interface{},
 	ExecutionMode: *string,
@@ -1578,7 +1578,7 @@ RoleArn *string
 
 The Amazon Resource Name (ARN) for CodePipeline to use to either perform actions with no actionRoleArn, or to use to assume roles for actions with an actionRoleArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
 
 ---
 
@@ -1592,7 +1592,7 @@ Stages interface{}
 
 Represents information about a stage and its definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#stages CodepipelinePipeline#stages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#stages CodepipelinePipeline#stages}
 
 ---
 
@@ -1606,7 +1606,7 @@ ArtifactStore CodepipelinePipelineArtifactStore
 
 The S3 bucket where artifacts for the pipeline are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#artifact_store CodepipelinePipeline#artifact_store}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#artifact_store CodepipelinePipeline#artifact_store}
 
 ---
 
@@ -1622,7 +1622,7 @@ A mapping of artifactStore objects and their corresponding AWS Regions.
 
 There must be an artifact store for the pipeline Region and for each cross-region action in the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#artifact_stores CodepipelinePipeline#artifact_stores}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#artifact_stores CodepipelinePipeline#artifact_stores}
 
 ---
 
@@ -1636,7 +1636,7 @@ DisableInboundStageTransitions interface{}
 
 Represents the input of a DisableStageTransition action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#disable_inbound_stage_transitions CodepipelinePipeline#disable_inbound_stage_transitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#disable_inbound_stage_transitions CodepipelinePipeline#disable_inbound_stage_transitions}
 
 ---
 
@@ -1650,7 +1650,7 @@ ExecutionMode *string
 
 The method that the pipeline will use to handle multiple executions. The default mode is SUPERSEDED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#execution_mode CodepipelinePipeline#execution_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#execution_mode CodepipelinePipeline#execution_mode}
 
 ---
 
@@ -1664,7 +1664,7 @@ Name *string
 
 The name of the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -1678,7 +1678,7 @@ PipelineType *string
 
 CodePipeline provides the following pipeline types, which differ in characteristics and price, so that you can tailor your pipeline features and cost to the needs of your applications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#pipeline_type CodepipelinePipeline#pipeline_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#pipeline_type CodepipelinePipeline#pipeline_type}
 
 ---
 
@@ -1692,7 +1692,7 @@ RestartExecutionOnUpdate interface{}
 
 Indicates whether to rerun the CodePipeline pipeline after you update it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#restart_execution_on_update CodepipelinePipeline#restart_execution_on_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#restart_execution_on_update CodepipelinePipeline#restart_execution_on_update}
 
 ---
 
@@ -1706,7 +1706,7 @@ Tags interface{}
 
 Specifies the tags applied to the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#tags CodepipelinePipeline#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#tags CodepipelinePipeline#tags}
 
 ---
 
@@ -1720,7 +1720,7 @@ Triggers interface{}
 
 The trigger configuration specifying a type of event, such as Git tags, that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#triggers CodepipelinePipeline#triggers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#triggers CodepipelinePipeline#triggers}
 
 ---
 
@@ -1736,7 +1736,7 @@ A list that defines the pipeline variables for a pipeline resource.
 
 Variable names can have alphanumeric and underscore characters, and the values must match [A-Za-z0-9@-_]+.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#variables CodepipelinePipeline#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#variables CodepipelinePipeline#variables}
 
 ---
 
@@ -1745,7 +1745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineDisableInboundStageTransitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineDisableInboundStageTransitions {
 	Reason: *string,
@@ -1774,7 +1774,7 @@ The reason given to the user that a stage is disabled, such as waiting for manua
 
 This message is displayed in the pipeline console UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#reason CodepipelinePipeline#reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#reason CodepipelinePipeline#reason}
 
 ---
 
@@ -1788,7 +1788,7 @@ StageName *string
 
 The name of the stage where you want to disable the inbound or outbound transition of artifacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#stage_name CodepipelinePipeline#stage_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#stage_name CodepipelinePipeline#stage_name}
 
 ---
 
@@ -1797,15 +1797,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStages {
 	Actions: interface{},
 	Name: *string,
-	BeforeEntry: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntry,
+	BeforeEntry: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntry,
 	Blockers: interface{},
-	OnFailure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure,
-	OnSuccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccess,
+	OnFailure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineStagesOnFailure,
+	OnSuccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineStagesOnSuccess,
 }
 ```
 
@@ -1813,10 +1813,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.actions">Actions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#actions CodepipelinePipeline#actions}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.actions">Actions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#actions CodepipelinePipeline#actions}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.name">Name</a></code> | <code>*string</code> | The name of the stage. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.beforeEntry">BeforeEntry</a></code> | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntry">CodepipelinePipelineStagesBeforeEntry</a></code> | The method to use before stage runs. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.blockers">Blockers</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#blockers CodepipelinePipeline#blockers}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.blockers">Blockers</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#blockers CodepipelinePipeline#blockers}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.onFailure">OnFailure</a></code> | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure">CodepipelinePipelineStagesOnFailure</a></code> | The method to use when a stage has not completed successfully. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStages.property.onSuccess">OnSuccess</a></code> | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccess">CodepipelinePipelineStagesOnSuccess</a></code> | The method to use when a stage has completed successfully. |
 
@@ -1830,7 +1830,7 @@ Actions interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#actions CodepipelinePipeline#actions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#actions CodepipelinePipeline#actions}.
 
 ---
 
@@ -1844,7 +1844,7 @@ Name *string
 
 The name of the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -1858,7 +1858,7 @@ BeforeEntry CodepipelinePipelineStagesBeforeEntry
 
 The method to use before stage runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#before_entry CodepipelinePipeline#before_entry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#before_entry CodepipelinePipeline#before_entry}
 
 ---
 
@@ -1870,7 +1870,7 @@ Blockers interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#blockers CodepipelinePipeline#blockers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#blockers CodepipelinePipeline#blockers}.
 
 ---
 
@@ -1884,7 +1884,7 @@ OnFailure CodepipelinePipelineStagesOnFailure
 
 The method to use when a stage has not completed successfully.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#on_failure CodepipelinePipeline#on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#on_failure CodepipelinePipeline#on_failure}
 
 ---
 
@@ -1898,7 +1898,7 @@ OnSuccess CodepipelinePipelineStagesOnSuccess
 
 The method to use when a stage has completed successfully.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#on_success CodepipelinePipeline#on_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#on_success CodepipelinePipeline#on_success}
 
 ---
 
@@ -1907,10 +1907,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesActions {
-	ActionTypeId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsActionTypeId,
+	ActionTypeId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineStagesActionsActionTypeId,
 	Name: *string,
 	Commands: *[]*string,
 	Configuration: *string,
@@ -1935,9 +1935,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.commands">Commands</a></code> | <code>*[]*string</code> | The shell commands to run with your compute action in CodePipeline. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.configuration">Configuration</a></code> | <code>*string</code> | The action's configuration. These are key-value pairs that specify input values for an action. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.environmentVariables">EnvironmentVariables</a></code> | <code>interface{}</code> | The list of environment variables that are input to a compute based action. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.inputArtifacts">InputArtifacts</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.inputArtifacts">InputArtifacts</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.namespace">Namespace</a></code> | <code>*string</code> | The variable namespace associated with the action. All variables produced as output by this action fall under this namespace. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.outputArtifacts">OutputArtifacts</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#output_artifacts CodepipelinePipeline#output_artifacts}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.outputArtifacts">OutputArtifacts</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#output_artifacts CodepipelinePipeline#output_artifacts}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.outputVariables">OutputVariables</a></code> | <code>*[]*string</code> | The list of variables that are to be exported from the compute action. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.region">Region</a></code> | <code>*string</code> | The action declaration's AWS Region, such as us-east-1. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActions.property.roleArn">RoleArn</a></code> | <code>*string</code> | The ARN of the IAM service role that performs the declared action. |
@@ -1956,7 +1956,7 @@ ActionTypeId CodepipelinePipelineStagesActionsActionTypeId
 
 Represents information about an action type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#action_type_id CodepipelinePipeline#action_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#action_type_id CodepipelinePipeline#action_type_id}
 
 ---
 
@@ -1970,7 +1970,7 @@ Name *string
 
 The action declaration's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -1984,7 +1984,7 @@ Commands *[]*string
 
 The shell commands to run with your compute action in CodePipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
 
 ---
 
@@ -1998,7 +1998,7 @@ Configuration *string
 
 The action's configuration. These are key-value pairs that specify input values for an action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
 
 ---
 
@@ -2012,7 +2012,7 @@ EnvironmentVariables interface{}
 
 The list of environment variables that are input to a compute based action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#environment_variables CodepipelinePipeline#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#environment_variables CodepipelinePipeline#environment_variables}
 
 ---
 
@@ -2024,7 +2024,7 @@ InputArtifacts interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
 
 ---
 
@@ -2038,7 +2038,7 @@ Namespace *string
 
 The variable namespace associated with the action. All variables produced as output by this action fall under this namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#namespace CodepipelinePipeline#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#namespace CodepipelinePipeline#namespace}
 
 ---
 
@@ -2050,7 +2050,7 @@ OutputArtifacts interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#output_artifacts CodepipelinePipeline#output_artifacts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#output_artifacts CodepipelinePipeline#output_artifacts}.
 
 ---
 
@@ -2064,7 +2064,7 @@ OutputVariables *[]*string
 
 The list of variables that are to be exported from the compute action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#output_variables CodepipelinePipeline#output_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#output_variables CodepipelinePipeline#output_variables}
 
 ---
 
@@ -2078,7 +2078,7 @@ Region *string
 
 The action declaration's AWS Region, such as us-east-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
 
 ---
 
@@ -2094,7 +2094,7 @@ The ARN of the IAM service role that performs the declared action.
 
 This is assumed through the roleArn for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
 
 ---
 
@@ -2108,7 +2108,7 @@ RunOrder *f64
 
 The order in which actions are run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#run_order CodepipelinePipeline#run_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#run_order CodepipelinePipeline#run_order}
 
 ---
 
@@ -2122,7 +2122,7 @@ TimeoutInMinutes *f64
 
 A timeout duration in minutes that can be applied against the ActionType?s default timeout value specified in Quotas for AWS CodePipeline. This attribute is available only to the manual approval ActionType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#timeout_in_minutes CodepipelinePipeline#timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#timeout_in_minutes CodepipelinePipeline#timeout_in_minutes}
 
 ---
 
@@ -2131,7 +2131,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsActionTypeId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesActionsActionTypeId {
 	Category: *string,
@@ -2164,7 +2164,7 @@ A category defines what kind of action can be taken in the stage, and constrains
 
 Valid categories are limited to one of the values below.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
 
 ---
 
@@ -2180,7 +2180,7 @@ The creator of the action being called.
 
 There are three valid values for the Owner field in the action category section within your pipeline structure: AWS, ThirdParty, and Custom.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
 
 ---
 
@@ -2196,7 +2196,7 @@ The provider of the service being called by the action.
 
 Valid providers are determined by the action category. For example, an action in the Deploy category type might have a provider of CodeDeploy, which would be specified as CodeDeploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
 
 ---
 
@@ -2210,7 +2210,7 @@ Version *string
 
 A string that describes the action version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
 
 ---
 
@@ -2219,7 +2219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesActionsEnvironmentVariables {
 	Name: *string,
@@ -2248,7 +2248,7 @@ Name *string
 
 The name of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2262,7 +2262,7 @@ Type *string
 
 The type of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -2276,7 +2276,7 @@ Value *string
 
 The value of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#value CodepipelinePipeline#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#value CodepipelinePipeline#value}
 
 ---
 
@@ -2285,7 +2285,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsInputArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesActionsInputArtifacts {
 	Name: *string,
@@ -2310,7 +2310,7 @@ Name *string
 
 The name of the artifact to be worked on (for example, "My App").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2319,7 +2319,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsOutputArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesActionsOutputArtifacts {
 	Files: *[]*string,
@@ -2346,7 +2346,7 @@ Files *[]*string
 
 The files that you want to associate with the output artifact that will be exported from the compute action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#files CodepipelinePipeline#files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#files CodepipelinePipeline#files}
 
 ---
 
@@ -2360,7 +2360,7 @@ Name *string
 
 The name of the output of an artifact, such as "My App".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2369,7 +2369,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesBeforeEntry {
 	Conditions: interface{},
@@ -2380,7 +2380,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntry.property.conditions">Conditions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntry.property.conditions">Conditions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
 
 ---
 
@@ -2392,7 +2392,7 @@ Conditions interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
 
 ---
 
@@ -2401,7 +2401,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesBeforeEntryConditions {
 	Result: *string,
@@ -2414,7 +2414,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditions.property.result">Result</a></code> | <code>*string</code> | The specified result for when the failure conditions are met, such as rolling back the stage. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditions.property.rules">Rules</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditions.property.rules">Rules</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
 
 ---
 
@@ -2428,7 +2428,7 @@ Result *string
 
 The specified result for when the failure conditions are met, such as rolling back the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
 
 ---
 
@@ -2440,7 +2440,7 @@ Rules interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
 
 ---
 
@@ -2449,7 +2449,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules {
 	Commands: *[]*string,
@@ -2458,7 +2458,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 	Name: *string,
 	Region: *string,
 	RoleArn: *string,
-	RuleTypeId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeId,
+	RuleTypeId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeId,
 }
 ```
 
@@ -2468,7 +2468,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.commands">Commands</a></code> | <code>*[]*string</code> | The shell commands to run with your compute action in CodePipeline. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.configuration">Configuration</a></code> | <code>*string</code> | The rule's configuration. These are key-value pairs that specify input values for a rule. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.inputArtifacts">InputArtifacts</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.inputArtifacts">InputArtifacts</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.name">Name</a></code> | <code>*string</code> | The rule declaration's name. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.region">Region</a></code> | <code>*string</code> | The rule declaration's AWS Region, such as us-east-1. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRules.property.roleArn">RoleArn</a></code> | <code>*string</code> | The ARN of the IAM service role that performs the declared rule. |
@@ -2486,7 +2486,7 @@ Commands *[]*string
 
 The shell commands to run with your compute action in CodePipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
 
 ---
 
@@ -2500,7 +2500,7 @@ Configuration *string
 
 The rule's configuration. These are key-value pairs that specify input values for a rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
 
 ---
 
@@ -2512,7 +2512,7 @@ InputArtifacts interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
 
 ---
 
@@ -2526,7 +2526,7 @@ Name *string
 
 The rule declaration's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2540,7 +2540,7 @@ Region *string
 
 The rule declaration's AWS Region, such as us-east-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
 
 ---
 
@@ -2556,7 +2556,7 @@ The ARN of the IAM service role that performs the declared rule.
 
 This is assumed through the roleArn for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
 
 ---
 
@@ -2570,7 +2570,7 @@ RuleTypeId CodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeId
 
 Represents information about a rule type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
 
 ---
 
@@ -2579,7 +2579,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifacts {
 	Name: *string,
@@ -2604,7 +2604,7 @@ Name *string
 
 The name of the artifact to be worked on (for example, "My App").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2613,7 +2613,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeId {
 	Category: *string,
@@ -2644,7 +2644,7 @@ Category *string
 
 A category for the provider type for the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
 
 ---
 
@@ -2658,7 +2658,7 @@ Owner *string
 
 The creator of the rule being called. Only AWS is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
 
 ---
 
@@ -2672,7 +2672,7 @@ Provider *string
 
 The provider of the service being called by the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
 
 ---
 
@@ -2686,7 +2686,7 @@ Version *string
 
 A string that describes the rule version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
 
 ---
 
@@ -2695,7 +2695,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBlockers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesBlockers {
 	Name: *string,
@@ -2722,7 +2722,7 @@ Name *string
 
 Reserved for future use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2736,7 +2736,7 @@ Type *string
 
 Reserved for future use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#type CodepipelinePipeline#type}
 
 ---
 
@@ -2745,12 +2745,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesOnFailure {
 	Conditions: interface{},
 	Result: *string,
-	RetryConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureRetryConfiguration,
+	RetryConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineStagesOnFailureRetryConfiguration,
 }
 ```
 
@@ -2758,7 +2758,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure.property.conditions">Conditions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure.property.conditions">Conditions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure.property.result">Result</a></code> | <code>*string</code> | The specified result for when the failure conditions are met, such as rolling back the stage. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailure.property.retryConfiguration">RetryConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureRetryConfiguration">CodepipelinePipelineStagesOnFailureRetryConfiguration</a></code> | The configuration that specifies the retry configuration for a stage. |
 
@@ -2772,7 +2772,7 @@ Conditions interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
 
 ---
 
@@ -2786,7 +2786,7 @@ Result *string
 
 The specified result for when the failure conditions are met, such as rolling back the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
 
 ---
 
@@ -2800,7 +2800,7 @@ RetryConfiguration CodepipelinePipelineStagesOnFailureRetryConfiguration
 
 The configuration that specifies the retry configuration for a stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#retry_configuration CodepipelinePipeline#retry_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#retry_configuration CodepipelinePipeline#retry_configuration}
 
 ---
 
@@ -2809,7 +2809,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesOnFailureConditions {
 	Result: *string,
@@ -2822,7 +2822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditions.property.result">Result</a></code> | <code>*string</code> | The specified result for when the failure conditions are met, such as rolling back the stage. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditions.property.rules">Rules</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditions.property.rules">Rules</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
 
 ---
 
@@ -2836,7 +2836,7 @@ Result *string
 
 The specified result for when the failure conditions are met, such as rolling back the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
 
 ---
 
@@ -2848,7 +2848,7 @@ Rules interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
 
 ---
 
@@ -2857,7 +2857,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesOnFailureConditionsRules {
 	Commands: *[]*string,
@@ -2866,7 +2866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 	Name: *string,
 	Region: *string,
 	RoleArn: *string,
-	RuleTypeId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeId,
+	RuleTypeId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeId,
 }
 ```
 
@@ -2876,7 +2876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.commands">Commands</a></code> | <code>*[]*string</code> | The shell commands to run with your compute action in CodePipeline. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.configuration">Configuration</a></code> | <code>*string</code> | The rule's configuration. These are key-value pairs that specify input values for a rule. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.inputArtifacts">InputArtifacts</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.inputArtifacts">InputArtifacts</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.name">Name</a></code> | <code>*string</code> | The rule declaration's name. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.region">Region</a></code> | <code>*string</code> | The rule declaration's AWS Region, such as us-east-1. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRules.property.roleArn">RoleArn</a></code> | <code>*string</code> | The ARN of the IAM service role that performs the declared rule. |
@@ -2894,7 +2894,7 @@ Commands *[]*string
 
 The shell commands to run with your compute action in CodePipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
 
 ---
 
@@ -2908,7 +2908,7 @@ Configuration *string
 
 The rule's configuration. These are key-value pairs that specify input values for a rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
 
 ---
 
@@ -2920,7 +2920,7 @@ InputArtifacts interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
 
 ---
 
@@ -2934,7 +2934,7 @@ Name *string
 
 The rule declaration's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -2948,7 +2948,7 @@ Region *string
 
 The rule declaration's AWS Region, such as us-east-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
 
 ---
 
@@ -2964,7 +2964,7 @@ The ARN of the IAM service role that performs the declared rule.
 
 This is assumed through the roleArn for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
 
 ---
 
@@ -2978,7 +2978,7 @@ RuleTypeId CodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeId
 
 Represents information about a rule type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
 
 ---
 
@@ -2987,7 +2987,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifacts {
 	Name: *string,
@@ -3012,7 +3012,7 @@ Name *string
 
 The name of the artifact to be worked on (for example, "My App").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -3021,7 +3021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeId {
 	Category: *string,
@@ -3052,7 +3052,7 @@ Category *string
 
 A category for the provider type for the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
 
 ---
 
@@ -3066,7 +3066,7 @@ Owner *string
 
 The creator of the rule being called. Only AWS is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
 
 ---
 
@@ -3080,7 +3080,7 @@ Provider *string
 
 The provider of the service being called by the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
 
 ---
 
@@ -3094,7 +3094,7 @@ Version *string
 
 A string that describes the rule version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
 
 ---
 
@@ -3103,7 +3103,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureRetryConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesOnFailureRetryConfiguration {
 	RetryMode: *string,
@@ -3130,7 +3130,7 @@ The specified retry mode type for the given stage.
 
 FAILED_ACTIONS will retry only the failed actions. ALL_ACTIONS will retry both failed and successful
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#retry_mode CodepipelinePipeline#retry_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#retry_mode CodepipelinePipeline#retry_mode}
 
 ---
 
@@ -3139,7 +3139,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesOnSuccess {
 	Conditions: interface{},
@@ -3150,7 +3150,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccess.property.conditions">Conditions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccess.property.conditions">Conditions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}. |
 
 ---
 
@@ -3162,7 +3162,7 @@ Conditions interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#conditions CodepipelinePipeline#conditions}.
 
 ---
 
@@ -3171,7 +3171,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesOnSuccessConditions {
 	Result: *string,
@@ -3184,7 +3184,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditions.property.result">Result</a></code> | <code>*string</code> | The specified result for when the failure conditions are met, such as rolling back the stage. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditions.property.rules">Rules</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditions.property.rules">Rules</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}. |
 
 ---
 
@@ -3198,7 +3198,7 @@ Result *string
 
 The specified result for when the failure conditions are met, such as rolling back the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#result CodepipelinePipeline#result}
 
 ---
 
@@ -3210,7 +3210,7 @@ Rules interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#rules CodepipelinePipeline#rules}.
 
 ---
 
@@ -3219,7 +3219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesOnSuccessConditionsRules {
 	Commands: *[]*string,
@@ -3228,7 +3228,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 	Name: *string,
 	Region: *string,
 	RoleArn: *string,
-	RuleTypeId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeId,
+	RuleTypeId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeId,
 }
 ```
 
@@ -3238,7 +3238,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.commands">Commands</a></code> | <code>*[]*string</code> | The shell commands to run with your compute action in CodePipeline. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.configuration">Configuration</a></code> | <code>*string</code> | The rule's configuration. These are key-value pairs that specify input values for a rule. |
-| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.inputArtifacts">InputArtifacts</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
+| <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.inputArtifacts">InputArtifacts</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.name">Name</a></code> | <code>*string</code> | The rule declaration's name. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.region">Region</a></code> | <code>*string</code> | The rule declaration's AWS Region, such as us-east-1. |
 | <code><a href="#@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRules.property.roleArn">RoleArn</a></code> | <code>*string</code> | The ARN of the IAM service role that performs the declared rule. |
@@ -3256,7 +3256,7 @@ Commands *[]*string
 
 The shell commands to run with your compute action in CodePipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#commands CodepipelinePipeline#commands}
 
 ---
 
@@ -3270,7 +3270,7 @@ Configuration *string
 
 The rule's configuration. These are key-value pairs that specify input values for a rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#configuration CodepipelinePipeline#configuration}
 
 ---
 
@@ -3282,7 +3282,7 @@ InputArtifacts interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#input_artifacts CodepipelinePipeline#input_artifacts}.
 
 ---
 
@@ -3296,7 +3296,7 @@ Name *string
 
 The rule declaration's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -3310,7 +3310,7 @@ Region *string
 
 The rule declaration's AWS Region, such as us-east-1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#region CodepipelinePipeline#region}
 
 ---
 
@@ -3326,7 +3326,7 @@ The ARN of the IAM service role that performs the declared rule.
 
 This is assumed through the roleArn for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#role_arn CodepipelinePipeline#role_arn}
 
 ---
 
@@ -3340,7 +3340,7 @@ RuleTypeId CodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeId
 
 Represents information about a rule type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#rule_type_id CodepipelinePipeline#rule_type_id}
 
 ---
 
@@ -3349,7 +3349,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifacts {
 	Name: *string,
@@ -3374,7 +3374,7 @@ Name *string
 
 The name of the artifact to be worked on (for example, "My App").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -3383,7 +3383,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeId {
 	Category: *string,
@@ -3414,7 +3414,7 @@ Category *string
 
 A category for the provider type for the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#category CodepipelinePipeline#category}
 
 ---
 
@@ -3428,7 +3428,7 @@ Owner *string
 
 The creator of the rule being called. Only AWS is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#owner CodepipelinePipeline#owner}
 
 ---
 
@@ -3442,7 +3442,7 @@ Provider *string
 
 The provider of the service being called by the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#provider CodepipelinePipeline#provider}
 
 ---
 
@@ -3456,7 +3456,7 @@ Version *string
 
 A string that describes the rule version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#version CodepipelinePipeline#version}
 
 ---
 
@@ -3465,7 +3465,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineTags {
 	Key: *string,
@@ -3492,7 +3492,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#key CodepipelinePipeline#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#key CodepipelinePipeline#key}
 
 ---
 
@@ -3506,7 +3506,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#value CodepipelinePipeline#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#value CodepipelinePipeline#value}
 
 ---
 
@@ -3515,10 +3515,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineTriggers {
-	GitConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfiguration,
+	GitConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineTriggersGitConfiguration,
 	ProviderType: *string,
 }
 ```
@@ -3542,7 +3542,7 @@ GitConfiguration CodepipelinePipelineTriggersGitConfiguration
 
 A type of trigger configuration for Git-based source actions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#git_configuration CodepipelinePipeline#git_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#git_configuration CodepipelinePipeline#git_configuration}
 
 ---
 
@@ -3556,7 +3556,7 @@ ProviderType *string
 
 The source provider for the event, such as connections configured for a repository with Git tags, for the specified trigger configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#provider_type CodepipelinePipeline#provider_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#provider_type CodepipelinePipeline#provider_type}
 
 ---
 
@@ -3565,7 +3565,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineTriggersGitConfiguration {
 	PullRequest: interface{},
@@ -3594,7 +3594,7 @@ PullRequest interface{}
 
 The field where the repository event that will start the pipeline is specified as pull requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#pull_request CodepipelinePipeline#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#pull_request CodepipelinePipeline#pull_request}
 
 ---
 
@@ -3608,7 +3608,7 @@ Push interface{}
 
 The field where the repository event that will start the pipeline, such as pushing Git tags, is specified with details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#push CodepipelinePipeline#push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#push CodepipelinePipeline#push}
 
 ---
 
@@ -3624,7 +3624,7 @@ The name of the pipeline source action where the trigger configuration, such as 
 
 The trigger configuration will start the pipeline upon the specified change only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#source_action_name CodepipelinePipeline#source_action_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#source_action_name CodepipelinePipeline#source_action_name}
 
 ---
 
@@ -3633,12 +3633,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPullRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineTriggersGitConfigurationPullRequest {
-	Branches: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestBranches,
+	Branches: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestBranches,
 	Events: *[]*string,
-	FilePaths: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestFilePaths,
+	FilePaths: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestFilePaths,
 }
 ```
 
@@ -3662,7 +3662,7 @@ Branches CodepipelinePipelineTriggersGitConfigurationPullRequestBranches
 
 The Git repository branches specified as filter criteria to start the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#branches CodepipelinePipeline#branches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#branches CodepipelinePipeline#branches}
 
 ---
 
@@ -3676,7 +3676,7 @@ Events *[]*string
 
 The field that specifies which pull request events to filter on (opened, updated, closed) for the trigger configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#events CodepipelinePipeline#events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#events CodepipelinePipeline#events}
 
 ---
 
@@ -3690,7 +3690,7 @@ FilePaths CodepipelinePipelineTriggersGitConfigurationPullRequestFilePaths
 
 The Git repository file paths specified as filter criteria to start the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#file_paths CodepipelinePipeline#file_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#file_paths CodepipelinePipeline#file_paths}
 
 ---
 
@@ -3699,7 +3699,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestBranches.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestBranches {
 	Excludes: *[]*string,
@@ -3726,7 +3726,7 @@ Excludes *[]*string
 
 The list of patterns of Git branches that, when a commit is pushed, are to be excluded from starting the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
 
 ---
 
@@ -3740,7 +3740,7 @@ Includes *[]*string
 
 The list of patterns of Git branches that, when a commit is pushed, are to be included as criteria that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
 
 ---
 
@@ -3749,7 +3749,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestFilePaths.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestFilePaths {
 	Excludes: *[]*string,
@@ -3776,7 +3776,7 @@ Excludes *[]*string
 
 The list of patterns of Git repository file paths that, when a commit is pushed, are to be excluded from starting the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
 
 ---
 
@@ -3790,7 +3790,7 @@ Includes *[]*string
 
 The list of patterns of Git repository file paths that, when a commit is pushed, are to be included as criteria that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
 
 ---
 
@@ -3799,12 +3799,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPush.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineTriggersGitConfigurationPush {
-	Branches: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushBranches,
-	FilePaths: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushFilePaths,
-	Tags: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushTags,
+	Branches: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushBranches,
+	FilePaths: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushFilePaths,
+	Tags: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushTags,
 }
 ```
 
@@ -3828,7 +3828,7 @@ Branches CodepipelinePipelineTriggersGitConfigurationPushBranches
 
 The Git repository branches specified as filter criteria to start the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#branches CodepipelinePipeline#branches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#branches CodepipelinePipeline#branches}
 
 ---
 
@@ -3842,7 +3842,7 @@ FilePaths CodepipelinePipelineTriggersGitConfigurationPushFilePaths
 
 The Git repository file paths specified as filter criteria to start the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#file_paths CodepipelinePipeline#file_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#file_paths CodepipelinePipeline#file_paths}
 
 ---
 
@@ -3856,7 +3856,7 @@ Tags CodepipelinePipelineTriggersGitConfigurationPushTags
 
 The Git tags specified as filter criteria for whether a Git tag repository event will start the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#tags CodepipelinePipeline#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#tags CodepipelinePipeline#tags}
 
 ---
 
@@ -3865,7 +3865,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushBranches.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineTriggersGitConfigurationPushBranches {
 	Excludes: *[]*string,
@@ -3892,7 +3892,7 @@ Excludes *[]*string
 
 The list of patterns of Git branches that, when a commit is pushed, are to be excluded from starting the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
 
 ---
 
@@ -3906,7 +3906,7 @@ Includes *[]*string
 
 The list of patterns of Git branches that, when a commit is pushed, are to be included as criteria that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
 
 ---
 
@@ -3915,7 +3915,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushFilePaths.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineTriggersGitConfigurationPushFilePaths {
 	Excludes: *[]*string,
@@ -3942,7 +3942,7 @@ Excludes *[]*string
 
 The list of patterns of Git repository file paths that, when a commit is pushed, are to be excluded from starting the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
 
 ---
 
@@ -3956,7 +3956,7 @@ Includes *[]*string
 
 The list of patterns of Git repository file paths that, when a commit is pushed, are to be included as criteria that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
 
 ---
 
@@ -3965,7 +3965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineTriggersGitConfigurationPushTags {
 	Excludes: *[]*string,
@@ -3992,7 +3992,7 @@ Excludes *[]*string
 
 The list of patterns of Git tags that, when pushed, are to be excluded from starting the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#excludes CodepipelinePipeline#excludes}
 
 ---
 
@@ -4006,7 +4006,7 @@ Includes *[]*string
 
 The list of patterns of Git tags that, when pushed, are to be included as criteria that starts the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#includes CodepipelinePipeline#includes}
 
 ---
 
@@ -4015,7 +4015,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 &codepipelinepipeline.CodepipelinePipelineVariables {
 	DefaultValue: *string,
@@ -4044,7 +4044,7 @@ DefaultValue *string
 
 The value of a pipeline-level variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#default_value CodepipelinePipeline#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#default_value CodepipelinePipeline#default_value}
 
 ---
 
@@ -4060,7 +4060,7 @@ The description of a pipeline-level variable.
 
 It's used to add additional context about the variable, and not being used at time when pipeline executes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#description CodepipelinePipeline#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#description CodepipelinePipeline#description}
 
 ---
 
@@ -4074,7 +4074,7 @@ Name *string
 
 The name of a pipeline-level variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline#name CodepipelinePipeline#name}
 
 ---
 
@@ -4085,7 +4085,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoreEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineArtifactStoreEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineArtifactStoreEncryptionKeyOutputReference
 ```
@@ -4392,7 +4392,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineArtifactStoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineArtifactStoreOutputReference
 ```
@@ -4741,7 +4741,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoresArtifactStoreEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineArtifactStoresArtifactStoreEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineArtifactStoresArtifactStoreEncryptionKeyOutputReference
 ```
@@ -5048,7 +5048,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoresArtifactStoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineArtifactStoresArtifactStoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineArtifactStoresArtifactStoreOutputReference
 ```
@@ -5397,7 +5397,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoresList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineArtifactStoresList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineArtifactStoresList
 ```
@@ -5557,7 +5557,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineArtifactStoresOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineArtifactStoresOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineArtifactStoresOutputReference
 ```
@@ -5895,7 +5895,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineDisableInboundStageTransitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineDisableInboundStageTransitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineDisableInboundStageTransitionsList
 ```
@@ -6055,7 +6055,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineDisableInboundStageTransitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineDisableInboundStageTransitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineDisableInboundStageTransitionsOutputReference
 ```
@@ -6380,7 +6380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsActionTypeIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesActionsActionTypeIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineStagesActionsActionTypeIdOutputReference
 ```
@@ -6717,7 +6717,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesActionsEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesActionsEnvironmentVariablesList
 ```
@@ -6877,7 +6877,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesActionsEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesActionsEnvironmentVariablesOutputReference
 ```
@@ -7231,7 +7231,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsInputArtifactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesActionsInputArtifactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesActionsInputArtifactsList
 ```
@@ -7391,7 +7391,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsInputArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesActionsInputArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesActionsInputArtifactsOutputReference
 ```
@@ -7687,7 +7687,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesActionsList
 ```
@@ -7847,7 +7847,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsOutputArtifactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesActionsOutputArtifactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesActionsOutputArtifactsList
 ```
@@ -8007,7 +8007,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsOutputArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesActionsOutputArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesActionsOutputArtifactsOutputReference
 ```
@@ -8332,7 +8332,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesActionsOutputReference
 ```
@@ -9014,7 +9014,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesBeforeEntryConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesBeforeEntryConditionsList
 ```
@@ -9174,7 +9174,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesBeforeEntryConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesBeforeEntryConditionsOutputReference
 ```
@@ -9512,7 +9512,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsList
 ```
@@ -9672,7 +9672,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsOutputReference
 ```
@@ -9968,7 +9968,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesBeforeEntryConditionsRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesBeforeEntryConditionsRulesList
 ```
@@ -10128,7 +10128,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesBeforeEntryConditionsRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesBeforeEntryConditionsRulesOutputReference
 ```
@@ -10624,7 +10624,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeIdOutputReference
 ```
@@ -10989,7 +10989,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBeforeEntryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesBeforeEntryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineStagesBeforeEntryOutputReference
 ```
@@ -11280,7 +11280,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBlockersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesBlockersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesBlockersList
 ```
@@ -11440,7 +11440,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesBlockersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesBlockersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesBlockersOutputReference
 ```
@@ -11765,7 +11765,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesList
 ```
@@ -11925,7 +11925,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnFailureConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesOnFailureConditionsList
 ```
@@ -12085,7 +12085,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnFailureConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesOnFailureConditionsOutputReference
 ```
@@ -12423,7 +12423,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsList
 ```
@@ -12583,7 +12583,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsOutputReference
 ```
@@ -12879,7 +12879,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnFailureConditionsRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesOnFailureConditionsRulesList
 ```
@@ -13039,7 +13039,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnFailureConditionsRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesOnFailureConditionsRulesOutputReference
 ```
@@ -13535,7 +13535,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeIdOutputReference
 ```
@@ -13900,7 +13900,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnFailureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineStagesOnFailureOutputReference
 ```
@@ -14262,7 +14262,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnFailureRetryConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnFailureRetryConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineStagesOnFailureRetryConfigurationOutputReference
 ```
@@ -14540,7 +14540,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnSuccessConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesOnSuccessConditionsList
 ```
@@ -14700,7 +14700,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnSuccessConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesOnSuccessConditionsOutputReference
 ```
@@ -15038,7 +15038,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsList
 ```
@@ -15198,7 +15198,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsOutputReference
 ```
@@ -15494,7 +15494,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnSuccessConditionsRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineStagesOnSuccessConditionsRulesList
 ```
@@ -15654,7 +15654,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnSuccessConditionsRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesOnSuccessConditionsRulesOutputReference
 ```
@@ -16150,7 +16150,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeIdOutputReference
 ```
@@ -16515,7 +16515,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOnSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOnSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineStagesOnSuccessOutputReference
 ```
@@ -16806,7 +16806,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineStagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineStagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineStagesOutputReference
 ```
@@ -17298,7 +17298,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineTagsList
 ```
@@ -17458,7 +17458,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineTagsOutputReference
 ```
@@ -17783,7 +17783,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersGitConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineTriggersGitConfigurationOutputReference
 ```
@@ -18145,7 +18145,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestBranchesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersGitConfigurationPullRequestBranchesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineTriggersGitConfigurationPullRequestBranchesOutputReference
 ```
@@ -18452,7 +18452,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestFilePathsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersGitConfigurationPullRequestFilePathsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineTriggersGitConfigurationPullRequestFilePathsOutputReference
 ```
@@ -18759,7 +18759,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersGitConfigurationPullRequestList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineTriggersGitConfigurationPullRequestList
 ```
@@ -18919,7 +18919,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPullRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersGitConfigurationPullRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineTriggersGitConfigurationPullRequestOutputReference
 ```
@@ -19299,7 +19299,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushBranchesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersGitConfigurationPushBranchesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineTriggersGitConfigurationPushBranchesOutputReference
 ```
@@ -19606,7 +19606,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushFilePathsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersGitConfigurationPushFilePathsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineTriggersGitConfigurationPushFilePathsOutputReference
 ```
@@ -19913,7 +19913,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersGitConfigurationPushList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineTriggersGitConfigurationPushList
 ```
@@ -20073,7 +20073,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersGitConfigurationPushOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineTriggersGitConfigurationPushOutputReference
 ```
@@ -20466,7 +20466,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersGitConfigurationPushTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersGitConfigurationPushTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodepipelinePipelineTriggersGitConfigurationPushTagsOutputReference
 ```
@@ -20773,7 +20773,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineTriggersList
 ```
@@ -20933,7 +20933,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineTriggersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineTriggersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineTriggersOutputReference
 ```
@@ -21271,7 +21271,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelinePipelineVariablesList
 ```
@@ -21431,7 +21431,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codepipelinePipeline.CodepipelinePipelineVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline"
 
 codepipelinepipeline.NewCodepipelinePipelineVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodepipelinePipelineVariablesOutputReference
 ```

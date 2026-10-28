@@ -4,12 +4,12 @@
 
 ### DataAwsccTimestreamInfluxDbClusters <a name="DataAwsccTimestreamInfluxDbClusters" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbClusters.DataAwsccTimestreamInfluxDbClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_influx_db_clusters awscc_timestream_influx_db_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_influx_db_clusters awscc_timestream_influx_db_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbClusters.DataAwsccTimestreamInfluxDbClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbclusters"
 
 dataawscctimestreaminfluxdbclusters.NewDataAwsccTimestreamInfluxDbClusters(scope Construct, id *string, config DataAwsccTimestreamInfluxDbClustersConfig) DataAwsccTimestreamInfluxDbClusters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbClusters.DataAwsccTimestreamInfluxDbClusters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbclusters"
 
 dataawscctimestreaminfluxdbclusters.DataAwsccTimestreamInfluxDbClusters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbClusters.DataAwsccTimestreamInfluxDbClusters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbclusters"
 
 dataawscctimestreaminfluxdbclusters.DataAwsccTimestreamInfluxDbClusters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctimestreaminfluxdbclusters.DataAwsccTimestreamInfluxDbClusters_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbClusters.DataAwsccTimestreamInfluxDbClusters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbclusters"
 
 dataawscctimestreaminfluxdbclusters.DataAwsccTimestreamInfluxDbClusters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctimestreaminfluxdbclusters.DataAwsccTimestreamInfluxDbClusters_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbClusters.DataAwsccTimestreamInfluxDbClusters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbclusters"
 
 dataawscctimestreaminfluxdbclusters.DataAwsccTimestreamInfluxDbClusters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTimestreamInfluxD
 
 The id of the existing DataAwsccTimestreamInfluxDbClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_influx_db_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_influx_db_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbClusters.DataAwsccTimestreamInfluxDbClustersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbclusters"
 
 &dataawscctimestreaminfluxdbclusters.DataAwsccTimestreamInfluxDbClustersConfig {
 	Connection: interface{},

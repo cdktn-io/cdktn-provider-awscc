@@ -4,12 +4,12 @@
 
 ### LightsailContainer <a name="LightsailContainer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container awscc_lightsail_container}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container awscc_lightsail_container}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainer(scope Construct, id *string, config LightsailContainerConfig) LightsailContainer
 ```
@@ -487,7 +487,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.LightsailContainer_IsConstruct(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.LightsailContainer_IsTerraformElement(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ lightsailcontainer.LightsailContainer_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainer.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.LightsailContainer_IsTerraformResource(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ lightsailcontainer.LightsailContainer_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.LightsailContainer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -576,7 +576,7 @@ The construct id used in the generated config for the LightsailContainer to impo
 
 The id of the existing LightsailContainer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -996,7 +996,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 &lightsailcontainer.LightsailContainerConfig {
 	Connection: interface{},
@@ -1009,9 +1009,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
 	Power: *string,
 	Scale: *f64,
 	ServiceName: *string,
-	ContainerServiceDeployment: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailContainer.LightsailContainerContainerServiceDeployment,
+	ContainerServiceDeployment: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailContainer.LightsailContainerContainerServiceDeployment,
 	IsDisabled: interface{},
-	PrivateRegistryAccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailContainer.LightsailContainerPrivateRegistryAccess,
+	PrivateRegistryAccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailContainer.LightsailContainerPrivateRegistryAccess,
 	PublicDomainNames: interface{},
 	Tags: interface{},
 }
@@ -1119,7 +1119,7 @@ Power *string
 
 The power specification for the container service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#power LightsailContainer#power}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#power LightsailContainer#power}
 
 ---
 
@@ -1133,7 +1133,7 @@ Scale *f64
 
 The scale specification for the container service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#scale LightsailContainer#scale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#scale LightsailContainer#scale}
 
 ---
 
@@ -1147,7 +1147,7 @@ ServiceName *string
 
 The name for the container service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#service_name LightsailContainer#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#service_name LightsailContainer#service_name}
 
 ---
 
@@ -1161,7 +1161,7 @@ ContainerServiceDeployment LightsailContainerContainerServiceDeployment
 
 Describes a container deployment configuration of an Amazon Lightsail container service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#container_service_deployment LightsailContainer#container_service_deployment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#container_service_deployment LightsailContainer#container_service_deployment}
 
 ---
 
@@ -1175,7 +1175,7 @@ IsDisabled interface{}
 
 A Boolean value to indicate whether the container service is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#is_disabled LightsailContainer#is_disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#is_disabled LightsailContainer#is_disabled}
 
 ---
 
@@ -1189,7 +1189,7 @@ PrivateRegistryAccess LightsailContainerPrivateRegistryAccess
 
 A Boolean value to indicate whether the container service has access to private container image repositories, such as Amazon Elastic Container Registry (Amazon ECR) private repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#private_registry_access LightsailContainer#private_registry_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#private_registry_access LightsailContainer#private_registry_access}
 
 ---
 
@@ -1203,7 +1203,7 @@ PublicDomainNames interface{}
 
 The public domain names to use with the container service, such as example.com and www.example.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#public_domain_names LightsailContainer#public_domain_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#public_domain_names LightsailContainer#public_domain_names}
 
 ---
 
@@ -1217,7 +1217,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#tags LightsailContainer#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#tags LightsailContainer#tags}
 
 ---
 
@@ -1226,11 +1226,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 &lightsailcontainer.LightsailContainerContainerServiceDeployment {
 	Containers: interface{},
-	PublicEndpoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentPublicEndpoint,
+	PublicEndpoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailContainer.LightsailContainerContainerServiceDeploymentPublicEndpoint,
 }
 ```
 
@@ -1253,7 +1253,7 @@ Containers interface{}
 
 An object that describes the configuration for the containers of the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#containers LightsailContainer#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#containers LightsailContainer#containers}
 
 ---
 
@@ -1267,7 +1267,7 @@ PublicEndpoint LightsailContainerContainerServiceDeploymentPublicEndpoint
 
 An object that describes the endpoint of the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#public_endpoint LightsailContainer#public_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#public_endpoint LightsailContainer#public_endpoint}
 
 ---
 
@@ -1276,7 +1276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 &lightsailcontainer.LightsailContainerContainerServiceDeploymentContainers {
 	Command: *[]*string,
@@ -1309,7 +1309,7 @@ Command *[]*string
 
 The launch command for the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#command LightsailContainer#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#command LightsailContainer#command}
 
 ---
 
@@ -1323,7 +1323,7 @@ ContainerName *string
 
 The name of the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#container_name LightsailContainer#container_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#container_name LightsailContainer#container_name}
 
 ---
 
@@ -1337,7 +1337,7 @@ Environment interface{}
 
 The environment variables of the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#environment LightsailContainer#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#environment LightsailContainer#environment}
 
 ---
 
@@ -1351,7 +1351,7 @@ Image *string
 
 The name of the image used for the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#image LightsailContainer#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#image LightsailContainer#image}
 
 ---
 
@@ -1365,7 +1365,7 @@ Ports interface{}
 
 The open firewall ports of the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#ports LightsailContainer#ports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#ports LightsailContainer#ports}
 
 ---
 
@@ -1374,7 +1374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 &lightsailcontainer.LightsailContainerContainerServiceDeploymentContainersEnvironment {
 	Value: *string,
@@ -1386,8 +1386,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersEnvironment.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#value LightsailContainer#value}. |
-| <code><a href="#@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersEnvironment.property.variable">Variable</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#variable LightsailContainer#variable}. |
+| <code><a href="#@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersEnvironment.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#value LightsailContainer#value}. |
+| <code><a href="#@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersEnvironment.property.variable">Variable</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#variable LightsailContainer#variable}. |
 
 ---
 
@@ -1399,7 +1399,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#value LightsailContainer#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#value LightsailContainer#value}.
 
 ---
 
@@ -1411,7 +1411,7 @@ Variable *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#variable LightsailContainer#variable}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#variable LightsailContainer#variable}.
 
 ---
 
@@ -1420,7 +1420,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersPorts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 &lightsailcontainer.LightsailContainerContainerServiceDeploymentContainersPorts {
 	Port: *string,
@@ -1432,8 +1432,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersPorts.property.port">Port</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#port LightsailContainer#port}. |
-| <code><a href="#@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersPorts.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#protocol LightsailContainer#protocol}. |
+| <code><a href="#@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersPorts.property.port">Port</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#port LightsailContainer#port}. |
+| <code><a href="#@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersPorts.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#protocol LightsailContainer#protocol}. |
 
 ---
 
@@ -1445,7 +1445,7 @@ Port *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#port LightsailContainer#port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#port LightsailContainer#port}.
 
 ---
 
@@ -1457,7 +1457,7 @@ Protocol *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#protocol LightsailContainer#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#protocol LightsailContainer#protocol}.
 
 ---
 
@@ -1466,12 +1466,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentPublicEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 &lightsailcontainer.LightsailContainerContainerServiceDeploymentPublicEndpoint {
 	ContainerName: *string,
 	ContainerPort: *f64,
-	HealthCheckConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfig,
+	HealthCheckConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailContainer.LightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfig,
 }
 ```
 
@@ -1495,7 +1495,7 @@ ContainerName *string
 
 The name of the container for the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#container_name LightsailContainer#container_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#container_name LightsailContainer#container_name}
 
 ---
 
@@ -1509,7 +1509,7 @@ ContainerPort *f64
 
 The port of the container to which traffic is forwarded to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#container_port LightsailContainer#container_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#container_port LightsailContainer#container_port}
 
 ---
 
@@ -1523,7 +1523,7 @@ HealthCheckConfig LightsailContainerContainerServiceDeploymentPublicEndpointHeal
 
 An object that describes the health check configuration of the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#health_check_config LightsailContainer#health_check_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#health_check_config LightsailContainer#health_check_config}
 
 ---
 
@@ -1532,7 +1532,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 &lightsailcontainer.LightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfig {
 	HealthyThreshold: *f64,
@@ -1569,7 +1569,7 @@ The number of consecutive health checks successes required before moving the con
 
 The default value is 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#healthy_threshold LightsailContainer#healthy_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#healthy_threshold LightsailContainer#healthy_threshold}
 
 ---
 
@@ -1585,7 +1585,7 @@ The approximate interval, in seconds, between health checks of an individual con
 
 You can specify between 5 and 300 seconds. The default value is 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#interval_seconds LightsailContainer#interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#interval_seconds LightsailContainer#interval_seconds}
 
 ---
 
@@ -1599,7 +1599,7 @@ Path *string
 
 The path on the container on which to perform the health check. The default value is /.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#path LightsailContainer#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#path LightsailContainer#path}
 
 ---
 
@@ -1615,7 +1615,7 @@ The HTTP codes to use when checking for a successful response from a container.
 
 You can specify values between 200 and 499. You can specify multiple values (for example, 200,202) or a range of values (for example, 200-299).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#success_codes LightsailContainer#success_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#success_codes LightsailContainer#success_codes}
 
 ---
 
@@ -1631,7 +1631,7 @@ The amount of time, in seconds, during which no response means a failed health c
 
 You can specify between 2 and 60 seconds. The default value is 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#timeout_seconds LightsailContainer#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#timeout_seconds LightsailContainer#timeout_seconds}
 
 ---
 
@@ -1647,7 +1647,7 @@ The number of consecutive health check failures required before moving the conta
 
 The default value is 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#unhealthy_threshold LightsailContainer#unhealthy_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#unhealthy_threshold LightsailContainer#unhealthy_threshold}
 
 ---
 
@@ -1656,10 +1656,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerPrivateRegistryAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 &lightsailcontainer.LightsailContainerPrivateRegistryAccess {
-	EcrImagePullerRole: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailContainer.LightsailContainerPrivateRegistryAccessEcrImagePullerRole,
+	EcrImagePullerRole: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailContainer.LightsailContainerPrivateRegistryAccessEcrImagePullerRole,
 }
 ```
 
@@ -1681,7 +1681,7 @@ EcrImagePullerRole LightsailContainerPrivateRegistryAccessEcrImagePullerRole
 
 An object to describe a request to activate or deactivate the role that you can use to grant an Amazon Lightsail container service access to Amazon Elastic Container Registry (Amazon ECR) private repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#ecr_image_puller_role LightsailContainer#ecr_image_puller_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#ecr_image_puller_role LightsailContainer#ecr_image_puller_role}
 
 ---
 
@@ -1690,7 +1690,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerPrivateRegistryAccessEcrImagePullerRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 &lightsailcontainer.LightsailContainerPrivateRegistryAccessEcrImagePullerRole {
 	IsActive: interface{},
@@ -1715,7 +1715,7 @@ IsActive interface{}
 
 A Boolean value that indicates whether to activate the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#is_active LightsailContainer#is_active}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#is_active LightsailContainer#is_active}
 
 ---
 
@@ -1724,7 +1724,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerPublicDomainNames.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 &lightsailcontainer.LightsailContainerPublicDomainNames {
 	CertificateName: *string,
@@ -1736,7 +1736,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lightsailContainer.LightsailContainerPublicDomainNames.property.certificateName">CertificateName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#certificate_name LightsailContainer#certificate_name}. |
+| <code><a href="#@cdktn/provider-awscc.lightsailContainer.LightsailContainerPublicDomainNames.property.certificateName">CertificateName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#certificate_name LightsailContainer#certificate_name}. |
 | <code><a href="#@cdktn/provider-awscc.lightsailContainer.LightsailContainerPublicDomainNames.property.domainNames">DomainNames</a></code> | <code>*[]*string</code> | An object that describes the configuration for the containers of the deployment. |
 
 ---
@@ -1749,7 +1749,7 @@ CertificateName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#certificate_name LightsailContainer#certificate_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#certificate_name LightsailContainer#certificate_name}.
 
 ---
 
@@ -1763,7 +1763,7 @@ DomainNames *[]*string
 
 An object that describes the configuration for the containers of the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#domain_names LightsailContainer#domain_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#domain_names LightsailContainer#domain_names}
 
 ---
 
@@ -1772,7 +1772,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 &lightsailcontainer.LightsailContainerTags {
 	Key: *string,
@@ -1801,7 +1801,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#key LightsailContainer#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#key LightsailContainer#key}
 
 ---
 
@@ -1817,7 +1817,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_container#value LightsailContainer#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_container#value LightsailContainer#value}
 
 ---
 
@@ -1828,7 +1828,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersEnvironmentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerContainerServiceDeploymentContainersEnvironmentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailContainerContainerServiceDeploymentContainersEnvironmentList
 ```
@@ -1988,7 +1988,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerContainerServiceDeploymentContainersEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailContainerContainerServiceDeploymentContainersEnvironmentOutputReference
 ```
@@ -2313,7 +2313,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerContainerServiceDeploymentContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailContainerContainerServiceDeploymentContainersList
 ```
@@ -2473,7 +2473,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerContainerServiceDeploymentContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailContainerContainerServiceDeploymentContainersOutputReference
 ```
@@ -2911,7 +2911,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersPortsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerContainerServiceDeploymentContainersPortsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailContainerContainerServiceDeploymentContainersPortsList
 ```
@@ -3071,7 +3071,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentContainersPortsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerContainerServiceDeploymentContainersPortsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailContainerContainerServiceDeploymentContainersPortsOutputReference
 ```
@@ -3396,7 +3396,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerContainerServiceDeploymentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailContainerContainerServiceDeploymentOutputReference
 ```
@@ -3729,7 +3729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfigOutputReference
 ```
@@ -4152,7 +4152,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerContainerServiceDeploymentPublicEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerContainerServiceDeploymentPublicEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailContainerContainerServiceDeploymentPublicEndpointOutputReference
 ```
@@ -4501,7 +4501,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerPrivateRegistryAccessEcrImagePullerRoleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerPrivateRegistryAccessEcrImagePullerRoleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailContainerPrivateRegistryAccessEcrImagePullerRoleOutputReference
 ```
@@ -4790,7 +4790,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerPrivateRegistryAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerPrivateRegistryAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailContainerPrivateRegistryAccessOutputReference
 ```
@@ -5081,7 +5081,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerPublicDomainNamesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerPublicDomainNamesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailContainerPublicDomainNamesList
 ```
@@ -5241,7 +5241,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerPublicDomainNamesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerPublicDomainNamesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailContainerPublicDomainNamesOutputReference
 ```
@@ -5566,7 +5566,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailContainerTagsList
 ```
@@ -5726,7 +5726,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailContainer.LightsailContainerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailcontainer"
 
 lightsailcontainer.NewLightsailContainerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailContainerTagsOutputReference
 ```

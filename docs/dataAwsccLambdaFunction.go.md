@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaFunction <a name="DataAwsccLambdaFunction" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_function awscc_lambda_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_function awscc_lambda_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunction(scope Construct, id *string, config DataAwsccLambdaFunctionConfig) DataAwsccLambdaFunction
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.DataAwsccLambdaFunction_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.DataAwsccLambdaFunction_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdafunction.DataAwsccLambdaFunction_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunction.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.DataAwsccLambdaFunction_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdafunction.DataAwsccLambdaFunction_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.DataAwsccLambdaFunction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaFunction to
 
 The id of the existing DataAwsccLambdaFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -950,7 +950,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionCapacityProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionCapacityProviderConfig {
 
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfig {
 
@@ -976,7 +976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionCode {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionConfig {
 	Connection: interface{},
@@ -1098,7 +1098,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_function#id DataAwsccLambdaFunction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_function#id DataAwsccLambdaFunction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1110,7 +1110,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionDeadLetterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionDeadLetterConfig {
 
@@ -1123,7 +1123,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionDurableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionDurableConfig {
 
@@ -1136,7 +1136,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionEnvironment {
 
@@ -1149,7 +1149,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionEphemeralStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionEphemeralStorage {
 
@@ -1162,7 +1162,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionFileSystemConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionFileSystemConfigs {
 
@@ -1175,7 +1175,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionFunctionScalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionFunctionScalingConfig {
 
@@ -1188,7 +1188,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionImageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionImageConfig {
 
@@ -1201,7 +1201,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionLoggingConfig {
 
@@ -1214,7 +1214,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionRuntimeManagementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionRuntimeManagementConfig {
 
@@ -1227,7 +1227,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionSnapStart.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionSnapStart {
 
@@ -1240,7 +1240,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionSnapStartResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionSnapStartResponse {
 
@@ -1253,7 +1253,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionTags {
 
@@ -1266,7 +1266,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionTenancyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionTenancyConfig {
 
@@ -1279,7 +1279,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionTracingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionTracingConfig {
 
@@ -1292,7 +1292,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 &dataawscclambdafunction.DataAwsccLambdaFunctionVpcConfig {
 
@@ -1307,7 +1307,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunctio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference
 ```
@@ -1589,7 +1589,7 @@ func InternalValue() DataAwsccLambdaFunctionCapacityProviderConfigLambdaManagedI
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionCapacityProviderConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionCapacityProviderConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionCapacityProviderConfigOutputReference
 ```
@@ -1849,7 +1849,7 @@ func InternalValue() DataAwsccLambdaFunctionCapacityProviderConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionCodeOutputReference
 ```
@@ -2175,7 +2175,7 @@ func InternalValue() DataAwsccLambdaFunctionCode
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionDeadLetterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionDeadLetterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionDeadLetterConfigOutputReference
 ```
@@ -2435,7 +2435,7 @@ func InternalValue() DataAwsccLambdaFunctionDeadLetterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionDurableConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionDurableConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionDurableConfigOutputReference
 ```
@@ -2706,7 +2706,7 @@ func InternalValue() DataAwsccLambdaFunctionDurableConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionEnvironmentOutputReference
 ```
@@ -2966,7 +2966,7 @@ func InternalValue() DataAwsccLambdaFunctionEnvironment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionEphemeralStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionEphemeralStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionEphemeralStorageOutputReference
 ```
@@ -3226,7 +3226,7 @@ func InternalValue() DataAwsccLambdaFunctionEphemeralStorage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionFileSystemConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionFileSystemConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaFunctionFileSystemConfigsList
 ```
@@ -3375,7 +3375,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionFileSystemConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionFileSystemConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaFunctionFileSystemConfigsOutputReference
 ```
@@ -3664,7 +3664,7 @@ func InternalValue() DataAwsccLambdaFunctionFileSystemConfigs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionFunctionScalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionFunctionScalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionFunctionScalingConfigOutputReference
 ```
@@ -3935,7 +3935,7 @@ func InternalValue() DataAwsccLambdaFunctionFunctionScalingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionImageConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionImageConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionImageConfigOutputReference
 ```
@@ -4217,7 +4217,7 @@ func InternalValue() DataAwsccLambdaFunctionImageConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionLoggingConfigOutputReference
 ```
@@ -4510,7 +4510,7 @@ func InternalValue() DataAwsccLambdaFunctionLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionRuntimeManagementConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionRuntimeManagementConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionRuntimeManagementConfigOutputReference
 ```
@@ -4781,7 +4781,7 @@ func InternalValue() DataAwsccLambdaFunctionRuntimeManagementConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionSnapStartOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionSnapStartOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionSnapStartOutputReference
 ```
@@ -5041,7 +5041,7 @@ func InternalValue() DataAwsccLambdaFunctionSnapStart
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionSnapStartResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionSnapStartResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionSnapStartResponseOutputReference
 ```
@@ -5312,7 +5312,7 @@ func InternalValue() DataAwsccLambdaFunctionSnapStartResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaFunctionTagsList
 ```
@@ -5461,7 +5461,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaFunctionTagsOutputReference
 ```
@@ -5750,7 +5750,7 @@ func InternalValue() DataAwsccLambdaFunctionTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionTenancyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionTenancyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionTenancyConfigOutputReference
 ```
@@ -6010,7 +6010,7 @@ func InternalValue() DataAwsccLambdaFunctionTenancyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionTracingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionTracingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionTracingConfigOutputReference
 ```
@@ -6270,7 +6270,7 @@ func InternalValue() DataAwsccLambdaFunctionTracingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunction.DataAwsccLambdaFunctionVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdafunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdafunction"
 
 dataawscclambdafunction.NewDataAwsccLambdaFunctionVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaFunctionVpcConfigOutputReference
 ```

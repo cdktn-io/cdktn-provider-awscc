@@ -4,12 +4,12 @@
 
 ### WellarchitectedAgentContext <a name="WellarchitectedAgentContext" id="@cdktn/provider-awscc.wellarchitectedAgentContext.WellarchitectedAgentContext"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_context awscc_wellarchitected_agent_context}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_context awscc_wellarchitected_agent_context}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedAgentContext.WellarchitectedAgentContext.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentcontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentcontext"
 
 wellarchitectedagentcontext.NewWellarchitectedAgentContext(scope Construct, id *string, config WellarchitectedAgentContextConfig) WellarchitectedAgentContext
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wellarchitectedAgentContext.WellarchitectedAgentContext.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentcontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentcontext"
 
 wellarchitectedagentcontext.WellarchitectedAgentContext_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wellarchitectedAgentContext.WellarchitectedAgentContext.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentcontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentcontext"
 
 wellarchitectedagentcontext.WellarchitectedAgentContext_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ wellarchitectedagentcontext.WellarchitectedAgentContext_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wellarchitectedAgentContext.WellarchitectedAgentContext.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentcontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentcontext"
 
 wellarchitectedagentcontext.WellarchitectedAgentContext_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ wellarchitectedagentcontext.WellarchitectedAgentContext_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wellarchitectedAgentContext.WellarchitectedAgentContext.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentcontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentcontext"
 
 wellarchitectedagentcontext.WellarchitectedAgentContext_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the WellarchitectedAgentContex
 
 The id of the existing WellarchitectedAgentContext that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_context#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_context#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -876,7 +876,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wellarchitectedAgentContext.WellarchitectedAgentContextConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentcontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentcontext"
 
 &wellarchitectedagentcontext.WellarchitectedAgentContextConfig {
 	Connection: interface{},
@@ -991,7 +991,7 @@ Content *string
 
 The free-form content of the Agent Context, supplied as an arbitrary JSON object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_context#content WellarchitectedAgentContext#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_context#content WellarchitectedAgentContext#content}
 
 ---
 
@@ -1005,7 +1005,7 @@ ContextType *string
 
 The type of the Agent Context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_context#context_type WellarchitectedAgentContext#context_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_context#context_type WellarchitectedAgentContext#context_type}
 
 ---
 
@@ -1021,7 +1021,7 @@ The Amazon Resource Name (ARN) of the parent Agent Profile that owns this contex
 
 Pass `!Ref` of the parent AWS::WellArchitected::AgentProfile to flow its ARN here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_context#profile_arn WellarchitectedAgentContext#profile_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_context#profile_arn WellarchitectedAgentContext#profile_arn}
 
 ---
 
@@ -1035,7 +1035,7 @@ Title *string
 
 The title of the Agent Context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_context#title WellarchitectedAgentContext#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_context#title WellarchitectedAgentContext#title}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### ImagebuilderComponent <a name="ImagebuilderComponent" id="@cdktn/provider-awscc.imagebuilderComponent.ImagebuilderComponent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component awscc_imagebuilder_component}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component awscc_imagebuilder_component}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderComponent.ImagebuilderComponent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuildercomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuildercomponent"
 
 imagebuildercomponent.NewImagebuilderComponent(scope Construct, id *string, config ImagebuilderComponentConfig) ImagebuilderComponent
 ```
@@ -449,7 +449,7 @@ func ResetUri()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.imagebuilderComponent.ImagebuilderComponent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuildercomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuildercomponent"
 
 imagebuildercomponent.ImagebuilderComponent_IsConstruct(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.imagebuilderComponent.ImagebuilderComponent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuildercomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuildercomponent"
 
 imagebuildercomponent.ImagebuilderComponent_IsTerraformElement(x interface{}) *bool
 ```
@@ -495,7 +495,7 @@ imagebuildercomponent.ImagebuilderComponent_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.imagebuilderComponent.ImagebuilderComponent.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuildercomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuildercomponent"
 
 imagebuildercomponent.ImagebuilderComponent_IsTerraformResource(x interface{}) *bool
 ```
@@ -509,7 +509,7 @@ imagebuildercomponent.ImagebuilderComponent_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.imagebuilderComponent.ImagebuilderComponent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuildercomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuildercomponent"
 
 imagebuildercomponent.ImagebuilderComponent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -538,7 +538,7 @@ The construct id used in the generated config for the ImagebuilderComponent to i
 
 The id of the existing ImagebuilderComponent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1013,7 +1013,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderComponent.ImagebuilderComponentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuildercomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuildercomponent"
 
 &imagebuildercomponent.ImagebuilderComponentConfig {
 	Connection: interface{},
@@ -1140,7 +1140,7 @@ Name *string
 
 The name of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component#name ImagebuilderComponent#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component#name ImagebuilderComponent#name}
 
 ---
 
@@ -1154,7 +1154,7 @@ Platform *string
 
 The platform of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component#platform ImagebuilderComponent#platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component#platform ImagebuilderComponent#platform}
 
 ---
 
@@ -1168,7 +1168,7 @@ Version *string
 
 The version of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component#version ImagebuilderComponent#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component#version ImagebuilderComponent#version}
 
 ---
 
@@ -1182,7 +1182,7 @@ ChangeDescription *string
 
 The change description of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component#change_description ImagebuilderComponent#change_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component#change_description ImagebuilderComponent#change_description}
 
 ---
 
@@ -1196,7 +1196,7 @@ Data *string
 
 The data of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component#data ImagebuilderComponent#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component#data ImagebuilderComponent#data}
 
 ---
 
@@ -1210,7 +1210,7 @@ Description *string
 
 The description of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component#description ImagebuilderComponent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component#description ImagebuilderComponent#description}
 
 ---
 
@@ -1224,7 +1224,7 @@ KmsKeyId *string
 
 The KMS key identifier used to encrypt the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component#kms_key_id ImagebuilderComponent#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component#kms_key_id ImagebuilderComponent#kms_key_id}
 
 ---
 
@@ -1238,7 +1238,7 @@ SupportedOsVersions *[]*string
 
 The operating system (OS) version supported by the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component#supported_os_versions ImagebuilderComponent#supported_os_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component#supported_os_versions ImagebuilderComponent#supported_os_versions}
 
 ---
 
@@ -1252,7 +1252,7 @@ Tags *map[string]*string
 
 The tags associated with the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component#tags ImagebuilderComponent#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component#tags ImagebuilderComponent#tags}
 
 ---
 
@@ -1266,7 +1266,7 @@ Uri *string
 
 The uri of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_component#uri ImagebuilderComponent#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_component#uri ImagebuilderComponent#uri}
 
 ---
 
@@ -1275,7 +1275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderComponent.ImagebuilderComponentLatestVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuildercomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuildercomponent"
 
 &imagebuildercomponent.ImagebuilderComponentLatestVersion {
 
@@ -1290,7 +1290,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuildercomponent"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderComponent.ImagebuilderComponentLatestVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuildercomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuildercomponent"
 
 imagebuildercomponent.NewImagebuilderComponentLatestVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ImagebuilderComponentLatestVersionOutputReference
 ```

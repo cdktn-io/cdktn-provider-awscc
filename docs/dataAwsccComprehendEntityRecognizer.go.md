@@ -4,12 +4,12 @@
 
 ### DataAwsccComprehendEntityRecognizer <a name="DataAwsccComprehendEntityRecognizer" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_entity_recognizer awscc_comprehend_entity_recognizer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_entity_recognizer awscc_comprehend_entity_recognizer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizer(scope Construct, id *string, config DataAwsccComprehendEntityRecognizerConfig) DataAwsccComprehendEntityRecognizer
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizer_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizer_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizer_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizer.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizer_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizer_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccComprehendEntityR
 
 The id of the existing DataAwsccComprehendEntityRecognizer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_entity_recognizer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_entity_recognizer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 &dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizerConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_entity_recognizer#id DataAwsccComprehendEntityRecognizer#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_entity_recognizer#id DataAwsccComprehendEntityRecognizer#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 &dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizerInputDataConfig {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigAnnotations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 &dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigAnnotations {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigAugmentedManifests.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 &dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigAugmentedManifests {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigDocuments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 &dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigDocuments {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigEntityListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 &dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigEntityListStruct {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigEntityTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 &dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigEntityTypes {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 &dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizerTags {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 &dataawscccomprehendentityrecognizer.DataAwsccComprehendEntityRecognizerVpcConfig {
 
@@ -935,7 +935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigAnnotationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizerInputDataConfigAnnotationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendEntityRecognizerInputDataConfigAnnotationsOutputReference
 ```
@@ -1206,7 +1206,7 @@ func InternalValue() DataAwsccComprehendEntityRecognizerInputDataConfigAnnotatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigAugmentedManifestsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizerInputDataConfigAugmentedManifestsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComprehendEntityRecognizerInputDataConfigAugmentedManifestsList
 ```
@@ -1355,7 +1355,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigAugmentedManifestsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizerInputDataConfigAugmentedManifestsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComprehendEntityRecognizerInputDataConfigAugmentedManifestsOutputReference
 ```
@@ -1688,7 +1688,7 @@ func InternalValue() DataAwsccComprehendEntityRecognizerInputDataConfigAugmented
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigDocumentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizerInputDataConfigDocumentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendEntityRecognizerInputDataConfigDocumentsOutputReference
 ```
@@ -1970,7 +1970,7 @@ func InternalValue() DataAwsccComprehendEntityRecognizerInputDataConfigDocuments
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigEntityListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizerInputDataConfigEntityListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendEntityRecognizerInputDataConfigEntityListStructOutputReference
 ```
@@ -2230,7 +2230,7 @@ func InternalValue() DataAwsccComprehendEntityRecognizerInputDataConfigEntityLis
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigEntityTypesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizerInputDataConfigEntityTypesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComprehendEntityRecognizerInputDataConfigEntityTypesList
 ```
@@ -2379,7 +2379,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigEntityTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizerInputDataConfigEntityTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComprehendEntityRecognizerInputDataConfigEntityTypesOutputReference
 ```
@@ -2657,7 +2657,7 @@ func InternalValue() DataAwsccComprehendEntityRecognizerInputDataConfigEntityTyp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerInputDataConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizerInputDataConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendEntityRecognizerInputDataConfigOutputReference
 ```
@@ -2972,7 +2972,7 @@ func InternalValue() DataAwsccComprehendEntityRecognizerInputDataConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComprehendEntityRecognizerTagsList
 ```
@@ -3121,7 +3121,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComprehendEntityRecognizerTagsOutputReference
 ```
@@ -3410,7 +3410,7 @@ func InternalValue() DataAwsccComprehendEntityRecognizerTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizer.DataAwsccComprehendEntityRecognizerVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizer"
 
 dataawscccomprehendentityrecognizer.NewDataAwsccComprehendEntityRecognizerVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendEntityRecognizerVpcConfigOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccS3OutpostsEndpoint <a name="DataAwsccS3OutpostsEndpoint" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3outposts_endpoint awscc_s3outposts_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3outposts_endpoint awscc_s3outposts_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsendpoint"
 
 dataawsccs3outpostsendpoint.NewDataAwsccS3OutpostsEndpoint(scope Construct, id *string, config DataAwsccS3OutpostsEndpointConfig) DataAwsccS3OutpostsEndpoint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsendpoint"
 
 dataawsccs3outpostsendpoint.DataAwsccS3OutpostsEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsendpoint"
 
 dataawsccs3outpostsendpoint.DataAwsccS3OutpostsEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3outpostsendpoint.DataAwsccS3OutpostsEndpoint_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpoint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsendpoint"
 
 dataawsccs3outpostsendpoint.DataAwsccS3OutpostsEndpoint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3outpostsendpoint.DataAwsccS3OutpostsEndpoint_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsendpoint"
 
 dataawsccs3outpostsendpoint.DataAwsccS3OutpostsEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3OutpostsEndpoin
 
 The id of the existing DataAwsccS3OutpostsEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3outposts_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3outposts_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsendpoint"
 
 &dataawsccs3outpostsendpoint.DataAwsccS3OutpostsEndpointConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3outposts_endpoint#id DataAwsccS3OutpostsEndpoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3outposts_endpoint#id DataAwsccS3OutpostsEndpoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpointFailedReason.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsendpoint"
 
 &dataawsccs3outpostsendpoint.DataAwsccS3OutpostsEndpointFailedReason {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsend
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpointNetworkInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsendpoint"
 
 &dataawsccs3outpostsendpoint.DataAwsccS3OutpostsEndpointNetworkInterfaces {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsend
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpointFailedReasonOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsendpoint"
 
 dataawsccs3outpostsendpoint.NewDataAwsccS3OutpostsEndpointFailedReasonOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3OutpostsEndpointFailedReasonOutputReference
 ```
@@ -1139,7 +1139,7 @@ func InternalValue() DataAwsccS3OutpostsEndpointFailedReason
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpointNetworkInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsendpoint"
 
 dataawsccs3outpostsendpoint.NewDataAwsccS3OutpostsEndpointNetworkInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3OutpostsEndpointNetworkInterfacesList
 ```
@@ -1288,7 +1288,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsEndpoint.DataAwsccS3OutpostsEndpointNetworkInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsendpoint"
 
 dataawsccs3outpostsendpoint.NewDataAwsccS3OutpostsEndpointNetworkInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3OutpostsEndpointNetworkInterfacesOutputReference
 ```

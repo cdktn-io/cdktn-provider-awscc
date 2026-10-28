@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspacesinstancesWorkspaceInstances <a name="DataAwsccWorkspacesinstancesWorkspaceInstances" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstances.DataAwsccWorkspacesinstancesWorkspaceInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_workspace_instances awscc_workspacesinstances_workspace_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_workspace_instances awscc_workspacesinstances_workspace_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstances.DataAwsccWorkspacesinstancesWorkspaceInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstances"
 
 dataawsccworkspacesinstancesworkspaceinstances.NewDataAwsccWorkspacesinstancesWorkspaceInstances(scope Construct, id *string, config DataAwsccWorkspacesinstancesWorkspaceInstancesConfig) DataAwsccWorkspacesinstancesWorkspaceInstances
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstances.DataAwsccWorkspacesinstancesWorkspaceInstances.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstances"
 
 dataawsccworkspacesinstancesworkspaceinstances.DataAwsccWorkspacesinstancesWorkspaceInstances_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstances.DataAwsccWorkspacesinstancesWorkspaceInstances.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstances"
 
 dataawsccworkspacesinstancesworkspaceinstances.DataAwsccWorkspacesinstancesWorkspaceInstances_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspacesinstancesworkspaceinstances.DataAwsccWorkspacesinstancesWorks
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstances.DataAwsccWorkspacesinstancesWorkspaceInstances.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstances"
 
 dataawsccworkspacesinstancesworkspaceinstances.DataAwsccWorkspacesinstancesWorkspaceInstances_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspacesinstancesworkspaceinstances.DataAwsccWorkspacesinstancesWorks
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstances.DataAwsccWorkspacesinstancesWorkspaceInstances.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstances"
 
 dataawsccworkspacesinstancesworkspaceinstances.DataAwsccWorkspacesinstancesWorkspaceInstances_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesinstanc
 
 The id of the existing DataAwsccWorkspacesinstancesWorkspaceInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_workspace_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_workspace_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstances.DataAwsccWorkspacesinstancesWorkspaceInstancesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstances"
 
 &dataawsccworkspacesinstancesworkspaceinstances.DataAwsccWorkspacesinstancesWorkspaceInstancesConfig {
 	Connection: interface{},

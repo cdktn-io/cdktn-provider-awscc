@@ -4,12 +4,12 @@
 
 ### DataAwsccMediatailorSourceLocation <a name="DataAwsccMediatailorSourceLocation" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_source_location awscc_mediatailor_source_location}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_source_location awscc_mediatailor_source_location}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.NewDataAwsccMediatailorSourceLocation(scope Construct, id *string, config DataAwsccMediatailorSourceLocationConfig) DataAwsccMediatailorSourceLocation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocation_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocation_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediatailorSource
 
 The id of the existing DataAwsccMediatailorSourceLocation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_source_location#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_source_location#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationAccessConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 &dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocationAccessConfiguration {
 
@@ -677,7 +677,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationAccessConfigurationSecretsManagerAccessTokenConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 &dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocationAccessConfigurationSecretsManagerAccessTokenConfiguration {
 
@@ -690,7 +690,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 &dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocationConfig {
 	Connection: interface{},
@@ -799,7 +799,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_source_location#id DataAwsccMediatailorSourceLocation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_source_location#id DataAwsccMediatailorSourceLocation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -811,7 +811,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationDefaultSegmentDeliveryConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 &dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocationDefaultSegmentDeliveryConfiguration {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationHttpConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 &dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocationHttpConfiguration {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationSegmentDeliveryConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 &dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocationSegmentDeliveryConfigurations {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 &dataawsccmediatailorsourcelocation.DataAwsccMediatailorSourceLocationTags {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorso
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationAccessConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.NewDataAwsccMediatailorSourceLocationAccessConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorSourceLocationAccessConfigurationOutputReference
 ```
@@ -1136,7 +1136,7 @@ func InternalValue() DataAwsccMediatailorSourceLocationAccessConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationAccessConfigurationSecretsManagerAccessTokenConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.NewDataAwsccMediatailorSourceLocationAccessConfigurationSecretsManagerAccessTokenConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorSourceLocationAccessConfigurationSecretsManagerAccessTokenConfigurationOutputReference
 ```
@@ -1418,7 +1418,7 @@ func InternalValue() DataAwsccMediatailorSourceLocationAccessConfigurationSecret
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationDefaultSegmentDeliveryConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.NewDataAwsccMediatailorSourceLocationDefaultSegmentDeliveryConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorSourceLocationDefaultSegmentDeliveryConfigurationOutputReference
 ```
@@ -1678,7 +1678,7 @@ func InternalValue() DataAwsccMediatailorSourceLocationDefaultSegmentDeliveryCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationHttpConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.NewDataAwsccMediatailorSourceLocationHttpConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorSourceLocationHttpConfigurationOutputReference
 ```
@@ -1938,7 +1938,7 @@ func InternalValue() DataAwsccMediatailorSourceLocationHttpConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationSegmentDeliveryConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.NewDataAwsccMediatailorSourceLocationSegmentDeliveryConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorSourceLocationSegmentDeliveryConfigurationsList
 ```
@@ -2087,7 +2087,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationSegmentDeliveryConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.NewDataAwsccMediatailorSourceLocationSegmentDeliveryConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorSourceLocationSegmentDeliveryConfigurationsOutputReference
 ```
@@ -2376,7 +2376,7 @@ func InternalValue() DataAwsccMediatailorSourceLocationSegmentDeliveryConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.NewDataAwsccMediatailorSourceLocationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorSourceLocationTagsList
 ```
@@ -2525,7 +2525,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorSourceLocation.DataAwsccMediatailorSourceLocationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorsourcelocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorsourcelocation"
 
 dataawsccmediatailorsourcelocation.NewDataAwsccMediatailorSourceLocationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorSourceLocationTagsOutputReference
 ```

@@ -4,7 +4,7 @@
 
 ### DrsRecoveryPlan <a name="DrsRecoveryPlan" id="@cdktn/provider-awscc.drsRecoveryPlan.DrsRecoveryPlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan awscc_drs_recovery_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan awscc_drs_recovery_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.drsRecoveryPlan.DrsRecoveryPlan.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the Recovery Plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#name DrsRecoveryPlan#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan#name DrsRecoveryPlan#name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the Recovery Plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#description DrsRecoveryPlan#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan#description DrsRecoveryPlan#description}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags associated with the Recovery Plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#tags DrsRecoveryPlan#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan#tags DrsRecoveryPlan#tags}
 
 ---
 
@@ -656,7 +656,7 @@ The construct id used in the generated config for the DrsRecoveryPlan to import.
 
 The id of the existing DrsRecoveryPlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1101,7 +1101,7 @@ name: str
 
 The name of the Recovery Plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#name DrsRecoveryPlan#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan#name DrsRecoveryPlan#name}
 
 ---
 
@@ -1115,7 +1115,7 @@ description: str
 
 The description of the Recovery Plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#description DrsRecoveryPlan#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan#description DrsRecoveryPlan#description}
 
 ---
 
@@ -1129,7 +1129,7 @@ tags: IResolvable | typing.List[DrsRecoveryPlanTags]
 
 The tags associated with the Recovery Plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#tags DrsRecoveryPlan#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan#tags DrsRecoveryPlan#tags}
 
 ---
 
@@ -1150,8 +1150,8 @@ drsRecoveryPlan.DrsRecoveryPlanTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.drsRecoveryPlan.DrsRecoveryPlanTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#key DrsRecoveryPlan#key}. |
-| <code><a href="#@cdktn/provider-awscc.drsRecoveryPlan.DrsRecoveryPlanTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#value DrsRecoveryPlan#value}. |
+| <code><a href="#@cdktn/provider-awscc.drsRecoveryPlan.DrsRecoveryPlanTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan#key DrsRecoveryPlan#key}. |
+| <code><a href="#@cdktn/provider-awscc.drsRecoveryPlan.DrsRecoveryPlanTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan#value DrsRecoveryPlan#value}. |
 
 ---
 
@@ -1163,7 +1163,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#key DrsRecoveryPlan#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan#key DrsRecoveryPlan#key}.
 
 ---
 
@@ -1175,7 +1175,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#value DrsRecoveryPlan#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan#value DrsRecoveryPlan#value}.
 
 ---
 

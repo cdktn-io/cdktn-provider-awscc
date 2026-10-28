@@ -4,12 +4,12 @@
 
 ### MacieCustomDataIdentifier <a name="MacieCustomDataIdentifier" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifier"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_custom_data_identifier awscc_macie_custom_data_identifier}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_custom_data_identifier awscc_macie_custom_data_identifier}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciecustomdataidentifier"
 
 maciecustomdataidentifier.NewMacieCustomDataIdentifier(scope Construct, id *string, config MacieCustomDataIdentifierConfig) MacieCustomDataIdentifier
 ```
@@ -448,7 +448,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifier.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciecustomdataidentifier"
 
 maciecustomdataidentifier.MacieCustomDataIdentifier_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifier.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciecustomdataidentifier"
 
 maciecustomdataidentifier.MacieCustomDataIdentifier_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ maciecustomdataidentifier.MacieCustomDataIdentifier_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifier.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciecustomdataidentifier"
 
 maciecustomdataidentifier.MacieCustomDataIdentifier_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ maciecustomdataidentifier.MacieCustomDataIdentifier_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifier.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciecustomdataidentifier"
 
 maciecustomdataidentifier.MacieCustomDataIdentifier_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the MacieCustomDataIdentifier 
 
 The id of the existing MacieCustomDataIdentifier that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_custom_data_identifier#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_custom_data_identifier#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -924,7 +924,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifierConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciecustomdataidentifier"
 
 &maciecustomdataidentifier.MacieCustomDataIdentifierConfig {
 	Connection: interface{},
@@ -1045,7 +1045,7 @@ Name *string
 
 Name of custom data identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_custom_data_identifier#name MacieCustomDataIdentifier#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_custom_data_identifier#name MacieCustomDataIdentifier#name}
 
 ---
 
@@ -1059,7 +1059,7 @@ Regex *string
 
 Regular expression for custom data identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_custom_data_identifier#regex MacieCustomDataIdentifier#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_custom_data_identifier#regex MacieCustomDataIdentifier#regex}
 
 ---
 
@@ -1073,7 +1073,7 @@ Description *string
 
 Description of custom data identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_custom_data_identifier#description MacieCustomDataIdentifier#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_custom_data_identifier#description MacieCustomDataIdentifier#description}
 
 ---
 
@@ -1087,7 +1087,7 @@ IgnoreWords *[]*string
 
 Words to be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_custom_data_identifier#ignore_words MacieCustomDataIdentifier#ignore_words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_custom_data_identifier#ignore_words MacieCustomDataIdentifier#ignore_words}
 
 ---
 
@@ -1101,7 +1101,7 @@ Keywords *[]*string
 
 Keywords to be matched against.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_custom_data_identifier#keywords MacieCustomDataIdentifier#keywords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_custom_data_identifier#keywords MacieCustomDataIdentifier#keywords}
 
 ---
 
@@ -1115,7 +1115,7 @@ MaximumMatchDistance *f64
 
 Maximum match distance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_custom_data_identifier#maximum_match_distance MacieCustomDataIdentifier#maximum_match_distance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_custom_data_identifier#maximum_match_distance MacieCustomDataIdentifier#maximum_match_distance}
 
 ---
 
@@ -1129,7 +1129,7 @@ Tags interface{}
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_custom_data_identifier#tags MacieCustomDataIdentifier#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_custom_data_identifier#tags MacieCustomDataIdentifier#tags}
 
 ---
 
@@ -1138,7 +1138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifierTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciecustomdataidentifier"
 
 &maciecustomdataidentifier.MacieCustomDataIdentifierTags {
 	Key: *string,
@@ -1165,7 +1165,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_custom_data_identifier#key MacieCustomDataIdentifier#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_custom_data_identifier#key MacieCustomDataIdentifier#key}
 
 ---
 
@@ -1179,7 +1179,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_custom_data_identifier#value MacieCustomDataIdentifier#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_custom_data_identifier#value MacieCustomDataIdentifier#value}
 
 ---
 
@@ -1190,7 +1190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifierTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciecustomdataidentifier"
 
 maciecustomdataidentifier.NewMacieCustomDataIdentifierTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MacieCustomDataIdentifierTagsList
 ```
@@ -1350,7 +1350,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifierTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciecustomdataidentifier"
 
 maciecustomdataidentifier.NewMacieCustomDataIdentifierTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MacieCustomDataIdentifierTagsOutputReference
 ```

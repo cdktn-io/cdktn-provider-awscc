@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcoreHarnesses <a name="DataAwsccBedrockagentcoreHarnesses" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreHarnesses.DataAwsccBedrockagentcoreHarnesses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_harnesses awscc_bedrockagentcore_harnesses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_harnesses awscc_bedrockagentcore_harnesses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreHarnesses.DataAwsccBedrockagentcoreHarnesses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreharnesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreharnesses"
 
 dataawsccbedrockagentcoreharnesses.NewDataAwsccBedrockagentcoreHarnesses(scope Construct, id *string, config DataAwsccBedrockagentcoreHarnessesConfig) DataAwsccBedrockagentcoreHarnesses
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreHarnesses.DataAwsccBedrockagentcoreHarnesses.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreharnesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreharnesses"
 
 dataawsccbedrockagentcoreharnesses.DataAwsccBedrockagentcoreHarnesses_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreHarnesses.DataAwsccBedrockagentcoreHarnesses.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreharnesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreharnesses"
 
 dataawsccbedrockagentcoreharnesses.DataAwsccBedrockagentcoreHarnesses_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcoreharnesses.DataAwsccBedrockagentcoreHarnesses_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreHarnesses.DataAwsccBedrockagentcoreHarnesses.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreharnesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreharnesses"
 
 dataawsccbedrockagentcoreharnesses.DataAwsccBedrockagentcoreHarnesses_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcoreharnesses.DataAwsccBedrockagentcoreHarnesses_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreHarnesses.DataAwsccBedrockagentcoreHarnesses.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreharnesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreharnesses"
 
 dataawsccbedrockagentcoreharnesses.DataAwsccBedrockagentcoreHarnesses_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreH
 
 The id of the existing DataAwsccBedrockagentcoreHarnesses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_harnesses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_harnesses#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreHarnesses.DataAwsccBedrockagentcoreHarnessesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreharnesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreharnesses"
 
 &dataawsccbedrockagentcoreharnesses.DataAwsccBedrockagentcoreHarnessesConfig {
 	Connection: interface{},

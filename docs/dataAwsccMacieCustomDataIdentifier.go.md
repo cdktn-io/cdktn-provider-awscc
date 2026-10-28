@@ -4,12 +4,12 @@
 
 ### DataAwsccMacieCustomDataIdentifier <a name="DataAwsccMacieCustomDataIdentifier" id="@cdktn/provider-awscc.dataAwsccMacieCustomDataIdentifier.DataAwsccMacieCustomDataIdentifier"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_custom_data_identifier awscc_macie_custom_data_identifier}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_custom_data_identifier awscc_macie_custom_data_identifier}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieCustomDataIdentifier.DataAwsccMacieCustomDataIdentifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciecustomdataidentifier"
 
 dataawsccmaciecustomdataidentifier.NewDataAwsccMacieCustomDataIdentifier(scope Construct, id *string, config DataAwsccMacieCustomDataIdentifierConfig) DataAwsccMacieCustomDataIdentifier
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMacieCustomDataIdentifier.DataAwsccMacieCustomDataIdentifier.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciecustomdataidentifier"
 
 dataawsccmaciecustomdataidentifier.DataAwsccMacieCustomDataIdentifier_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMacieCustomDataIdentifier.DataAwsccMacieCustomDataIdentifier.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciecustomdataidentifier"
 
 dataawsccmaciecustomdataidentifier.DataAwsccMacieCustomDataIdentifier_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmaciecustomdataidentifier.DataAwsccMacieCustomDataIdentifier_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMacieCustomDataIdentifier.DataAwsccMacieCustomDataIdentifier.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciecustomdataidentifier"
 
 dataawsccmaciecustomdataidentifier.DataAwsccMacieCustomDataIdentifier_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmaciecustomdataidentifier.DataAwsccMacieCustomDataIdentifier_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMacieCustomDataIdentifier.DataAwsccMacieCustomDataIdentifier.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciecustomdataidentifier"
 
 dataawsccmaciecustomdataidentifier.DataAwsccMacieCustomDataIdentifier_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMacieCustomDataId
 
 The id of the existing DataAwsccMacieCustomDataIdentifier that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_custom_data_identifier#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_custom_data_identifier#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMacieCustomDataIdentifier.DataAwsccMacieCustomDataIdentifierConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciecustomdataidentifier"
 
 &dataawsccmaciecustomdataidentifier.DataAwsccMacieCustomDataIdentifierConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_custom_data_identifier#id DataAwsccMacieCustomDataIdentifier#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_custom_data_identifier#id DataAwsccMacieCustomDataIdentifier#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMacieCustomDataIdentifier.DataAwsccMacieCustomDataIdentifierTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciecustomdataidentifier"
 
 &dataawsccmaciecustomdataidentifier.DataAwsccMacieCustomDataIdentifierTags {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciecustomda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieCustomDataIdentifier.DataAwsccMacieCustomDataIdentifierTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciecustomdataidentifier"
 
 dataawsccmaciecustomdataidentifier.NewDataAwsccMacieCustomDataIdentifierTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMacieCustomDataIdentifierTagsList
 ```
@@ -971,7 +971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieCustomDataIdentifier.DataAwsccMacieCustomDataIdentifierTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciecustomdataidentifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciecustomdataidentifier"
 
 dataawsccmaciecustomdataidentifier.NewDataAwsccMacieCustomDataIdentifierTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMacieCustomDataIdentifierTagsOutputReference
 ```

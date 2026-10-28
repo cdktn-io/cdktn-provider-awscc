@@ -4,12 +4,12 @@
 
 ### IotCustomMetric <a name="IotCustomMetric" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetric"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_custom_metric awscc_iot_custom_metric}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_custom_metric awscc_iot_custom_metric}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcustommetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcustommetric"
 
 iotcustommetric.NewIotCustomMetric(scope Construct, id *string, config IotCustomMetricConfig) IotCustomMetric
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetric.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcustommetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcustommetric"
 
 iotcustommetric.IotCustomMetric_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetric.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcustommetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcustommetric"
 
 iotcustommetric.IotCustomMetric_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ iotcustommetric.IotCustomMetric_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetric.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcustommetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcustommetric"
 
 iotcustommetric.IotCustomMetric_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ iotcustommetric.IotCustomMetric_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetric.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcustommetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcustommetric"
 
 iotcustommetric.IotCustomMetric_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the IotCustomMetric to import.
 
 The id of the existing IotCustomMetric that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_custom_metric#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_custom_metric#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -833,7 +833,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetricConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcustommetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcustommetric"
 
 &iotcustommetric.IotCustomMetricConfig {
 	Connection: interface{},
@@ -948,7 +948,7 @@ MetricType *string
 
 The type of the custom metric. Types include string-list, ip-address-list, number-list, and number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_custom_metric#metric_type IotCustomMetric#metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_custom_metric#metric_type IotCustomMetric#metric_type}
 
 ---
 
@@ -964,7 +964,7 @@ Field represents a friendly name in the console for the custom metric;
 
 it doesn't have to be unique. Don't use this name as the metric identifier in the device metric report. Can be updated once defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_custom_metric#display_name IotCustomMetric#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_custom_metric#display_name IotCustomMetric#display_name}
 
 ---
 
@@ -980,7 +980,7 @@ The name of the custom metric.
 
 This will be used in the metric report submitted from the device/thing. Shouldn't begin with aws: . Cannot be updated once defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_custom_metric#metric_name IotCustomMetric#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_custom_metric#metric_name IotCustomMetric#metric_name}
 
 ---
 
@@ -994,7 +994,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_custom_metric#tags IotCustomMetric#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_custom_metric#tags IotCustomMetric#tags}
 
 ---
 
@@ -1003,7 +1003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetricTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcustommetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcustommetric"
 
 &iotcustommetric.IotCustomMetricTags {
 	Key: *string,
@@ -1030,7 +1030,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_custom_metric#key IotCustomMetric#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_custom_metric#key IotCustomMetric#key}
 
 ---
 
@@ -1044,7 +1044,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_custom_metric#value IotCustomMetric#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_custom_metric#value IotCustomMetric#value}
 
 ---
 
@@ -1055,7 +1055,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetricTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcustommetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcustommetric"
 
 iotcustommetric.NewIotCustomMetricTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotCustomMetricTagsList
 ```
@@ -1215,7 +1215,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetricTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcustommetric"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcustommetric"
 
 iotcustommetric.NewIotCustomMetricTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotCustomMetricTagsOutputReference
 ```

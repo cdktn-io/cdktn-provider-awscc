@@ -4,12 +4,12 @@
 
 ### DataAwsccSupportauthzSupportPermits <a name="DataAwsccSupportauthzSupportPermits" id="@cdktn/provider-awscc.dataAwsccSupportauthzSupportPermits.DataAwsccSupportauthzSupportPermits"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportauthz_support_permits awscc_supportauthz_support_permits}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportauthz_support_permits awscc_supportauthz_support_permits}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSupportauthzSupportPermits.DataAwsccSupportauthzSupportPermits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportauthzsupportpermits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportauthzsupportpermits"
 
 dataawsccsupportauthzsupportpermits.NewDataAwsccSupportauthzSupportPermits(scope Construct, id *string, config DataAwsccSupportauthzSupportPermitsConfig) DataAwsccSupportauthzSupportPermits
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSupportauthzSupportPermits.DataAwsccSupportauthzSupportPermits.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportauthzsupportpermits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportauthzsupportpermits"
 
 dataawsccsupportauthzsupportpermits.DataAwsccSupportauthzSupportPermits_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSupportauthzSupportPermits.DataAwsccSupportauthzSupportPermits.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportauthzsupportpermits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportauthzsupportpermits"
 
 dataawsccsupportauthzsupportpermits.DataAwsccSupportauthzSupportPermits_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsupportauthzsupportpermits.DataAwsccSupportauthzSupportPermits_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSupportauthzSupportPermits.DataAwsccSupportauthzSupportPermits.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportauthzsupportpermits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportauthzsupportpermits"
 
 dataawsccsupportauthzsupportpermits.DataAwsccSupportauthzSupportPermits_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsupportauthzsupportpermits.DataAwsccSupportauthzSupportPermits_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSupportauthzSupportPermits.DataAwsccSupportauthzSupportPermits.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportauthzsupportpermits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportauthzsupportpermits"
 
 dataawsccsupportauthzsupportpermits.DataAwsccSupportauthzSupportPermits_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSupportauthzSuppo
 
 The id of the existing DataAwsccSupportauthzSupportPermits that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportauthz_support_permits#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportauthz_support_permits#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSupportauthzSupportPermits.DataAwsccSupportauthzSupportPermitsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportauthzsupportpermits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportauthzsupportpermits"
 
 &dataawsccsupportauthzsupportpermits.DataAwsccSupportauthzSupportPermitsConfig {
 	Connection: interface{},

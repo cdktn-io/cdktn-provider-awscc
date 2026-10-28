@@ -4,12 +4,12 @@
 
 ### DataAwsccMskServerlessCluster <a name="DataAwsccMskServerlessCluster" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_serverless_cluster awscc_msk_serverless_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_serverless_cluster awscc_msk_serverless_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 dataawsccmskserverlesscluster.NewDataAwsccMskServerlessCluster(scope Construct, id *string, config DataAwsccMskServerlessClusterConfig) DataAwsccMskServerlessCluster
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 dataawsccmskserverlesscluster.DataAwsccMskServerlessCluster_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 dataawsccmskserverlesscluster.DataAwsccMskServerlessCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmskserverlesscluster.DataAwsccMskServerlessCluster_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessCluster.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 dataawsccmskserverlesscluster.DataAwsccMskServerlessCluster_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmskserverlesscluster.DataAwsccMskServerlessCluster_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 dataawsccmskserverlesscluster.DataAwsccMskServerlessCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMskServerlessClus
 
 The id of the existing DataAwsccMskServerlessCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_serverless_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_serverless_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessClusterClientAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 &dataawsccmskserverlesscluster.DataAwsccMskServerlessClusterClientAuthentication {
 
@@ -655,7 +655,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessClusterClientAuthenticationSasl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 &dataawsccmskserverlesscluster.DataAwsccMskServerlessClusterClientAuthenticationSasl {
 
@@ -668,7 +668,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessClusterClientAuthenticationSaslIam.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 &dataawsccmskserverlesscluster.DataAwsccMskServerlessClusterClientAuthenticationSaslIam {
 
@@ -681,7 +681,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverless
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 &dataawsccmskserverlesscluster.DataAwsccMskServerlessClusterConfig {
 	Connection: interface{},
@@ -790,7 +790,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_serverless_cluster#id DataAwsccMskServerlessCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_serverless_cluster#id DataAwsccMskServerlessCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -802,7 +802,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessClusterVpcConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 &dataawsccmskserverlesscluster.DataAwsccMskServerlessClusterVpcConfigs {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverless
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessClusterClientAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 dataawsccmskserverlesscluster.NewDataAwsccMskServerlessClusterClientAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskServerlessClusterClientAuthenticationOutputReference
 ```
@@ -1077,7 +1077,7 @@ func InternalValue() DataAwsccMskServerlessClusterClientAuthentication
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessClusterClientAuthenticationSaslIamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 dataawsccmskserverlesscluster.NewDataAwsccMskServerlessClusterClientAuthenticationSaslIamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskServerlessClusterClientAuthenticationSaslIamOutputReference
 ```
@@ -1337,7 +1337,7 @@ func InternalValue() DataAwsccMskServerlessClusterClientAuthenticationSaslIam
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessClusterClientAuthenticationSaslOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 dataawsccmskserverlesscluster.NewDataAwsccMskServerlessClusterClientAuthenticationSaslOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskServerlessClusterClientAuthenticationSaslOutputReference
 ```
@@ -1597,7 +1597,7 @@ func InternalValue() DataAwsccMskServerlessClusterClientAuthenticationSasl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessClusterVpcConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 dataawsccmskserverlesscluster.NewDataAwsccMskServerlessClusterVpcConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMskServerlessClusterVpcConfigsList
 ```
@@ -1746,7 +1746,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskServerlessCluster.DataAwsccMskServerlessClusterVpcConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlesscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlesscluster"
 
 dataawsccmskserverlesscluster.NewDataAwsccMskServerlessClusterVpcConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMskServerlessClusterVpcConfigsOutputReference
 ```

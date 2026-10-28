@@ -4,12 +4,12 @@
 
 ### AppsyncSourceApiAssociation <a name="AppsyncSourceApiAssociation" id="@cdktn/provider-awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_source_api_association awscc_appsync_source_api_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_source_api_association awscc_appsync_source_api_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncsourceapiassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncsourceapiassociation"
 
 appsyncsourceapiassociation.NewAppsyncSourceApiAssociation(scope Construct, id *string, config AppsyncSourceApiAssociationConfig) AppsyncSourceApiAssociation
 ```
@@ -441,7 +441,7 @@ func ResetSourceApiIdentifier()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncsourceapiassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncsourceapiassociation"
 
 appsyncsourceapiassociation.AppsyncSourceApiAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncsourceapiassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncsourceapiassociation"
 
 appsyncsourceapiassociation.AppsyncSourceApiAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ appsyncsourceapiassociation.AppsyncSourceApiAssociation_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncsourceapiassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncsourceapiassociation"
 
 appsyncsourceapiassociation.AppsyncSourceApiAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ appsyncsourceapiassociation.AppsyncSourceApiAssociation_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncsourceapiassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncsourceapiassociation"
 
 appsyncsourceapiassociation.AppsyncSourceApiAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the AppsyncSourceApiAssociatio
 
 The id of the existing AppsyncSourceApiAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_source_api_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_source_api_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncsourceapiassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncsourceapiassociation"
 
 &appsyncsourceapiassociation.AppsyncSourceApiAssociationConfig {
 	Connection: interface{},
@@ -940,7 +940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncsourceapiassoci
 	Provisioners: *[]interface{},
 	Description: *string,
 	MergedApiIdentifier: *string,
-	SourceApiAssociationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociationSourceApiAssociationConfig,
+	SourceApiAssociationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appsyncSourceApiAssociation.AppsyncSourceApiAssociationSourceApiAssociationConfig,
 	SourceApiIdentifier: *string,
 }
 ```
@@ -1043,7 +1043,7 @@ Description *string
 
 Description of the SourceApiAssociation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
 
 ---
 
@@ -1057,7 +1057,7 @@ MergedApiIdentifier *string
 
 Identifier of the Merged GraphQLApi to associate. It could be either GraphQLApi ApiId or ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_source_api_association#merged_api_identifier AppsyncSourceApiAssociation#merged_api_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_source_api_association#merged_api_identifier AppsyncSourceApiAssociation#merged_api_identifier}
 
 ---
 
@@ -1071,7 +1071,7 @@ SourceApiAssociationConfig AppsyncSourceApiAssociationSourceApiAssociationConfig
 
 Customized configuration for SourceApiAssociation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
 
 ---
 
@@ -1085,7 +1085,7 @@ SourceApiIdentifier *string
 
 Identifier of the Source GraphQLApi to associate. It could be either GraphQLApi ApiId or ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_source_api_association#source_api_identifier AppsyncSourceApiAssociation#source_api_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_source_api_association#source_api_identifier AppsyncSourceApiAssociation#source_api_identifier}
 
 ---
 
@@ -1094,7 +1094,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociationSourceApiAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncsourceapiassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncsourceapiassociation"
 
 &appsyncsourceapiassociation.AppsyncSourceApiAssociationSourceApiAssociationConfig {
 	MergeType: *string,
@@ -1121,7 +1121,7 @@ Configuration of the merged behavior for the association.
 
 For example when it could be auto or has to be manual.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_source_api_association#merge_type AppsyncSourceApiAssociation#merge_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_source_api_association#merge_type AppsyncSourceApiAssociation#merge_type}
 
 ---
 
@@ -1132,7 +1132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociationSourceApiAssociationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncsourceapiassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncsourceapiassociation"
 
 appsyncsourceapiassociation.NewAppsyncSourceApiAssociationSourceApiAssociationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppsyncSourceApiAssociationSourceApiAssociationConfigOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccConfigConformancePack <a name="DataAwsccConfigConformancePack" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePack"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_conformance_pack awscc_config_conformance_pack}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_conformance_pack awscc_config_conformance_pack}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePack.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 dataawsccconfigconformancepack.NewDataAwsccConfigConformancePack(scope Construct, id *string, config DataAwsccConfigConformancePackConfig) DataAwsccConfigConformancePack
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePack.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 dataawsccconfigconformancepack.DataAwsccConfigConformancePack_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePack.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 dataawsccconfigconformancepack.DataAwsccConfigConformancePack_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconfigconformancepack.DataAwsccConfigConformancePack_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePack.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 dataawsccconfigconformancepack.DataAwsccConfigConformancePack_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconfigconformancepack.DataAwsccConfigConformancePack_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePack.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 dataawsccconfigconformancepack.DataAwsccConfigConformancePack_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConfigConformance
 
 The id of the existing DataAwsccConfigConformancePack that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_conformance_pack#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_conformance_pack#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePackConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 &dataawsccconfigconformancepack.DataAwsccConfigConformancePackConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_conformance_pack#id DataAwsccConfigConformancePack#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_conformance_pack#id DataAwsccConfigConformancePack#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePackConformancePackInputParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 &dataawsccconfigconformancepack.DataAwsccConfigConformancePackConformancePackInputParameters {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePackTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 &dataawsccconfigconformancepack.DataAwsccConfigConformancePackTags {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconform
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePackTemplateSsmDocumentDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 &dataawsccconfigconformancepack.DataAwsccConfigConformancePackTemplateSsmDocumentDetails {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconform
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePackConformancePackInputParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 dataawsccconfigconformancepack.NewDataAwsccConfigConformancePackConformancePackInputParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConfigConformancePackConformancePackInputParametersList
 ```
@@ -997,7 +997,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePackConformancePackInputParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 dataawsccconfigconformancepack.NewDataAwsccConfigConformancePackConformancePackInputParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConfigConformancePackConformancePackInputParametersOutputReference
 ```
@@ -1286,7 +1286,7 @@ func InternalValue() DataAwsccConfigConformancePackConformancePackInputParameter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePackTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 dataawsccconfigconformancepack.NewDataAwsccConfigConformancePackTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConfigConformancePackTagsList
 ```
@@ -1435,7 +1435,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePackTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 dataawsccconfigconformancepack.NewDataAwsccConfigConformancePackTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConfigConformancePackTagsOutputReference
 ```
@@ -1724,7 +1724,7 @@ func InternalValue() DataAwsccConfigConformancePackTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConformancePack.DataAwsccConfigConformancePackTemplateSsmDocumentDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconformancepack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconformancepack"
 
 dataawsccconfigconformancepack.NewDataAwsccConfigConformancePackTemplateSsmDocumentDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConformancePackTemplateSsmDocumentDetailsOutputReference
 ```

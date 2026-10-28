@@ -4,12 +4,12 @@
 
 ### DataAwsccDatabrewProjects <a name="DataAwsccDatabrewProjects" id="@cdktn/provider-awscc.dataAwsccDatabrewProjects.DataAwsccDatabrewProjects"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_projects awscc_databrew_projects}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_projects awscc_databrew_projects}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewProjects.DataAwsccDatabrewProjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewprojects"
 
 dataawsccdatabrewprojects.NewDataAwsccDatabrewProjects(scope Construct, id *string, config DataAwsccDatabrewProjectsConfig) DataAwsccDatabrewProjects
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatabrewProjects.DataAwsccDatabrewProjects.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewprojects"
 
 dataawsccdatabrewprojects.DataAwsccDatabrewProjects_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatabrewProjects.DataAwsccDatabrewProjects.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewprojects"
 
 dataawsccdatabrewprojects.DataAwsccDatabrewProjects_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatabrewprojects.DataAwsccDatabrewProjects_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatabrewProjects.DataAwsccDatabrewProjects.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewprojects"
 
 dataawsccdatabrewprojects.DataAwsccDatabrewProjects_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatabrewprojects.DataAwsccDatabrewProjects_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatabrewProjects.DataAwsccDatabrewProjects.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewprojects"
 
 dataawsccdatabrewprojects.DataAwsccDatabrewProjects_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatabrewProjects 
 
 The id of the existing DataAwsccDatabrewProjects that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_projects#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_projects#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewProjects.DataAwsccDatabrewProjectsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewprojects"
 
 &dataawsccdatabrewprojects.DataAwsccDatabrewProjectsConfig {
 	Connection: interface{},

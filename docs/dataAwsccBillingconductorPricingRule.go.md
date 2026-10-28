@@ -4,12 +4,12 @@
 
 ### DataAwsccBillingconductorPricingRule <a name="DataAwsccBillingconductorPricingRule" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 dataawsccbillingconductorpricingrule.NewDataAwsccBillingconductorPricingRule(scope Construct, id *string, config DataAwsccBillingconductorPricingRuleConfig) DataAwsccBillingconductorPricingRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 dataawsccbillingconductorpricingrule.DataAwsccBillingconductorPricingRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 dataawsccbillingconductorpricingrule.DataAwsccBillingconductorPricingRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbillingconductorpricingrule.DataAwsccBillingconductorPricingRule_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 dataawsccbillingconductorpricingrule.DataAwsccBillingconductorPricingRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbillingconductorpricingrule.DataAwsccBillingconductorPricingRule_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 dataawsccbillingconductorpricingrule.DataAwsccBillingconductorPricingRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBillingconductorP
 
 The id of the existing DataAwsccBillingconductorPricingRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billingconductor_pricing_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billingconductor_pricing_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 &dataawsccbillingconductorpricingrule.DataAwsccBillingconductorPricingRuleConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billingconductor_pricing_rule#id DataAwsccBillingconductorPricingRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billingconductor_pricing_rule#id DataAwsccBillingconductorPricingRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 &dataawsccbillingconductorpricingrule.DataAwsccBillingconductorPricingRuleTags {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconduc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRuleTiering.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 &dataawsccbillingconductorpricingrule.DataAwsccBillingconductorPricingRuleTiering {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconduc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRuleTieringCustomTiers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 &dataawsccbillingconductorpricingrule.DataAwsccBillingconductorPricingRuleTieringCustomTiers {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconduc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRuleTieringFreeTier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 &dataawsccbillingconductorpricingrule.DataAwsccBillingconductorPricingRuleTieringFreeTier {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconduc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 dataawsccbillingconductorpricingrule.NewDataAwsccBillingconductorPricingRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBillingconductorPricingRuleTagsList
 ```
@@ -1076,7 +1076,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 dataawsccbillingconductorpricingrule.NewDataAwsccBillingconductorPricingRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBillingconductorPricingRuleTagsOutputReference
 ```
@@ -1365,7 +1365,7 @@ func InternalValue() DataAwsccBillingconductorPricingRuleTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRuleTieringCustomTiersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 dataawsccbillingconductorpricingrule.NewDataAwsccBillingconductorPricingRuleTieringCustomTiersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBillingconductorPricingRuleTieringCustomTiersList
 ```
@@ -1514,7 +1514,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRuleTieringCustomTiersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 dataawsccbillingconductorpricingrule.NewDataAwsccBillingconductorPricingRuleTieringCustomTiersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBillingconductorPricingRuleTieringCustomTiersOutputReference
 ```
@@ -1814,7 +1814,7 @@ func InternalValue() DataAwsccBillingconductorPricingRuleTieringCustomTiers
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRuleTieringFreeTierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 dataawsccbillingconductorpricingrule.NewDataAwsccBillingconductorPricingRuleTieringFreeTierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBillingconductorPricingRuleTieringFreeTierOutputReference
 ```
@@ -2074,7 +2074,7 @@ func InternalValue() DataAwsccBillingconductorPricingRuleTieringFreeTier
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingRule.DataAwsccBillingconductorPricingRuleTieringOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingrule"
 
 dataawsccbillingconductorpricingrule.NewDataAwsccBillingconductorPricingRuleTieringOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBillingconductorPricingRuleTieringOutputReference
 ```

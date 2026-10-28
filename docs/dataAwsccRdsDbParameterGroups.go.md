@@ -4,12 +4,12 @@
 
 ### DataAwsccRdsDbParameterGroups <a name="DataAwsccRdsDbParameterGroups" id="@cdktn/provider-awscc.dataAwsccRdsDbParameterGroups.DataAwsccRdsDbParameterGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_parameter_groups awscc_rds_db_parameter_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_parameter_groups awscc_rds_db_parameter_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbParameterGroups.DataAwsccRdsDbParameterGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbparametergroups"
 
 dataawsccrdsdbparametergroups.NewDataAwsccRdsDbParameterGroups(scope Construct, id *string, config DataAwsccRdsDbParameterGroupsConfig) DataAwsccRdsDbParameterGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRdsDbParameterGroups.DataAwsccRdsDbParameterGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbparametergroups"
 
 dataawsccrdsdbparametergroups.DataAwsccRdsDbParameterGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRdsDbParameterGroups.DataAwsccRdsDbParameterGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbparametergroups"
 
 dataawsccrdsdbparametergroups.DataAwsccRdsDbParameterGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrdsdbparametergroups.DataAwsccRdsDbParameterGroups_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRdsDbParameterGroups.DataAwsccRdsDbParameterGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbparametergroups"
 
 dataawsccrdsdbparametergroups.DataAwsccRdsDbParameterGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrdsdbparametergroups.DataAwsccRdsDbParameterGroups_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRdsDbParameterGroups.DataAwsccRdsDbParameterGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbparametergroups"
 
 dataawsccrdsdbparametergroups.DataAwsccRdsDbParameterGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRdsDbParameterGro
 
 The id of the existing DataAwsccRdsDbParameterGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_parameter_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_parameter_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsDbParameterGroups.DataAwsccRdsDbParameterGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbparametergroups"
 
 &dataawsccrdsdbparametergroups.DataAwsccRdsDbParameterGroupsConfig {
 	Connection: interface{},

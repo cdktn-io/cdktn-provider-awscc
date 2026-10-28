@@ -4,12 +4,12 @@
 
 ### DataAwsccAthenaPreparedStatement <a name="DataAwsccAthenaPreparedStatement" id="@cdktn/provider-awscc.dataAwsccAthenaPreparedStatement.DataAwsccAthenaPreparedStatement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_prepared_statement awscc_athena_prepared_statement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_prepared_statement awscc_athena_prepared_statement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAthenaPreparedStatement.DataAwsccAthenaPreparedStatement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenapreparedstatement"
 
 dataawsccathenapreparedstatement.NewDataAwsccAthenaPreparedStatement(scope Construct, id *string, config DataAwsccAthenaPreparedStatementConfig) DataAwsccAthenaPreparedStatement
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAthenaPreparedStatement.DataAwsccAthenaPreparedStatement.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenapreparedstatement"
 
 dataawsccathenapreparedstatement.DataAwsccAthenaPreparedStatement_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAthenaPreparedStatement.DataAwsccAthenaPreparedStatement.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenapreparedstatement"
 
 dataawsccathenapreparedstatement.DataAwsccAthenaPreparedStatement_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccathenapreparedstatement.DataAwsccAthenaPreparedStatement_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAthenaPreparedStatement.DataAwsccAthenaPreparedStatement.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenapreparedstatement"
 
 dataawsccathenapreparedstatement.DataAwsccAthenaPreparedStatement_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccathenapreparedstatement.DataAwsccAthenaPreparedStatement_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAthenaPreparedStatement.DataAwsccAthenaPreparedStatement.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenapreparedstatement"
 
 dataawsccathenapreparedstatement.DataAwsccAthenaPreparedStatement_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAthenaPreparedSta
 
 The id of the existing DataAwsccAthenaPreparedStatement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_prepared_statement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_prepared_statement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAthenaPreparedStatement.DataAwsccAthenaPreparedStatementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenapreparedstatement"
 
 &dataawsccathenapreparedstatement.DataAwsccAthenaPreparedStatementConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_prepared_statement#id DataAwsccAthenaPreparedStatement#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_prepared_statement#id DataAwsccAthenaPreparedStatement#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

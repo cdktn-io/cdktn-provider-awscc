@@ -4,12 +4,12 @@
 
 ### AccountaccessEntitlement <a name="AccountaccessEntitlement" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 accountaccessentitlement.NewAccountaccessEntitlement(scope Construct, id *string, config AccountaccessEntitlementConfig) AccountaccessEntitlement
 ```
@@ -413,7 +413,7 @@ func PutEntitlement(value AccountaccessEntitlementEntitlement)
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlement.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 accountaccessentitlement.AccountaccessEntitlement_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlement.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 accountaccessentitlement.AccountaccessEntitlement_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ accountaccessentitlement.AccountaccessEntitlement_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlement.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 accountaccessentitlement.AccountaccessEntitlement_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ accountaccessentitlement.AccountaccessEntitlement_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlement.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 accountaccessentitlement.AccountaccessEntitlement_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the AccountaccessEntitlement t
 
 The id of the existing AccountaccessEntitlement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -779,7 +779,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 &accountaccessentitlement.AccountaccessEntitlementConfig {
 	Connection: interface{},
@@ -790,7 +790,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitleme
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ApplicationArn: *string,
-	Entitlement: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlement,
+	Entitlement: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.accountaccessEntitlement.AccountaccessEntitlementEntitlement,
 }
 ```
 
@@ -890,7 +890,7 @@ ApplicationArn *string
 
 The ARN of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#application_arn AccountaccessEntitlement#application_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#application_arn AccountaccessEntitlement#application_arn}
 
 ---
 
@@ -904,7 +904,7 @@ Entitlement AccountaccessEntitlementEntitlement
 
 The entitlement details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#entitlement AccountaccessEntitlement#entitlement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#entitlement AccountaccessEntitlement#entitlement}
 
 ---
 
@@ -913,10 +913,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 &accountaccessentitlement.AccountaccessEntitlementEntitlement {
-	PrincipalRole: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRole,
+	PrincipalRole: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRole,
 }
 ```
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitleme
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlement.property.principalRole">PrincipalRole</a></code> | <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRole">AccountaccessEntitlementEntitlementPrincipalRole</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#principal_role AccountaccessEntitlement#principal_role}. |
+| <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlement.property.principalRole">PrincipalRole</a></code> | <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRole">AccountaccessEntitlementEntitlementPrincipalRole</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#principal_role AccountaccessEntitlement#principal_role}. |
 
 ---
 
@@ -936,7 +936,7 @@ PrincipalRole AccountaccessEntitlementEntitlementPrincipalRole
 
 - *Type:* <a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRole">AccountaccessEntitlementEntitlementPrincipalRole</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#principal_role AccountaccessEntitlement#principal_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#principal_role AccountaccessEntitlement#principal_role}.
 
 ---
 
@@ -945,10 +945,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 &accountaccessentitlement.AccountaccessEntitlementEntitlementPrincipalRole {
-	Principal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipal,
+	Principal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipal,
 	RoleArn: *string,
 }
 ```
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitleme
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRole.property.principal">Principal</a></code> | <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipal">AccountaccessEntitlementEntitlementPrincipalRolePrincipal</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#principal AccountaccessEntitlement#principal}. |
+| <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRole.property.principal">Principal</a></code> | <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipal">AccountaccessEntitlementEntitlementPrincipalRolePrincipal</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#principal AccountaccessEntitlement#principal}. |
 | <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRole.property.roleArn">RoleArn</a></code> | <code>*string</code> | The ARN of the IAM role. |
 
 ---
@@ -970,7 +970,7 @@ Principal AccountaccessEntitlementEntitlementPrincipalRolePrincipal
 
 - *Type:* <a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipal">AccountaccessEntitlementEntitlementPrincipalRolePrincipal</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#principal AccountaccessEntitlement#principal}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#principal AccountaccessEntitlement#principal}.
 
 ---
 
@@ -984,7 +984,7 @@ RoleArn *string
 
 The ARN of the IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#role_arn AccountaccessEntitlement#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#role_arn AccountaccessEntitlement#role_arn}
 
 ---
 
@@ -993,10 +993,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 &accountaccessentitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipal {
-	IdentityCenter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter,
+	IdentityCenter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter,
 }
 ```
 
@@ -1004,7 +1004,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitleme
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipal.property.identityCenter">IdentityCenter</a></code> | <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter">AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#identity_center AccountaccessEntitlement#identity_center}. |
+| <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipal.property.identityCenter">IdentityCenter</a></code> | <code><a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter">AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#identity_center AccountaccessEntitlement#identity_center}. |
 
 ---
 
@@ -1016,7 +1016,7 @@ IdentityCenter AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentity
 
 - *Type:* <a href="#@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter">AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#identity_center AccountaccessEntitlement#identity_center}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#identity_center AccountaccessEntitlement#identity_center}.
 
 ---
 
@@ -1025,7 +1025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 &accountaccessentitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter {
 	GroupId: *string,
@@ -1052,7 +1052,7 @@ GroupId *string
 
 The ID of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#group_id AccountaccessEntitlement#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#group_id AccountaccessEntitlement#group_id}
 
 ---
 
@@ -1066,7 +1066,7 @@ UserId *string
 
 The ID of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accountaccess_entitlement#user_id AccountaccessEntitlement#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accountaccess_entitlement#user_id AccountaccessEntitlement#user_id}
 
 ---
 
@@ -1077,7 +1077,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 accountaccessentitlement.NewAccountaccessEntitlementEntitlementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AccountaccessEntitlementEntitlementOutputReference
 ```
@@ -1361,7 +1361,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRoleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 accountaccessentitlement.NewAccountaccessEntitlementEntitlementPrincipalRoleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AccountaccessEntitlementEntitlementPrincipalRoleOutputReference
 ```
@@ -1678,7 +1678,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 accountaccessentitlement.NewAccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenterOutputReference
 ```
@@ -1985,7 +1985,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.accountaccessEntitlement.AccountaccessEntitlementEntitlementPrincipalRolePrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accountaccessentitlement"
 
 accountaccessentitlement.NewAccountaccessEntitlementEntitlementPrincipalRolePrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AccountaccessEntitlementEntitlementPrincipalRolePrincipalOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccDynamodbBackup <a name="DataAwsccDynamodbBackup" id="@cdktn/provider-awscc.dataAwsccDynamodbBackup.DataAwsccDynamodbBackup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_backup awscc_dynamodb_backup}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_backup awscc_dynamodb_backup}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbBackup.DataAwsccDynamodbBackup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbbackup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbbackup"
 
 dataawsccdynamodbbackup.NewDataAwsccDynamodbBackup(scope Construct, id *string, config DataAwsccDynamodbBackupConfig) DataAwsccDynamodbBackup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDynamodbBackup.DataAwsccDynamodbBackup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbbackup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbbackup"
 
 dataawsccdynamodbbackup.DataAwsccDynamodbBackup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDynamodbBackup.DataAwsccDynamodbBackup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbbackup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbbackup"
 
 dataawsccdynamodbbackup.DataAwsccDynamodbBackup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdynamodbbackup.DataAwsccDynamodbBackup_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDynamodbBackup.DataAwsccDynamodbBackup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbbackup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbbackup"
 
 dataawsccdynamodbbackup.DataAwsccDynamodbBackup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdynamodbbackup.DataAwsccDynamodbBackup_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDynamodbBackup.DataAwsccDynamodbBackup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbbackup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbbackup"
 
 dataawsccdynamodbbackup.DataAwsccDynamodbBackup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDynamodbBackup to
 
 The id of the existing DataAwsccDynamodbBackup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_backup#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_backup#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbBackup.DataAwsccDynamodbBackupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbbackup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbbackup"
 
 &dataawsccdynamodbbackup.DataAwsccDynamodbBackupConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_backup#id DataAwsccDynamodbBackup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_backup#id DataAwsccDynamodbBackup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

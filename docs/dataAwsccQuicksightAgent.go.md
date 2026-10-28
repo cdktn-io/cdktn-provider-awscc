@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightAgent <a name="DataAwsccQuicksightAgent" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_agent awscc_quicksight_agent}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_agent awscc_quicksight_agent}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 dataawsccquicksightagent.NewDataAwsccQuicksightAgent(scope Construct, id *string, config DataAwsccQuicksightAgentConfig) DataAwsccQuicksightAgent
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 dataawsccquicksightagent.DataAwsccQuicksightAgent_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 dataawsccquicksightagent.DataAwsccQuicksightAgent_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksightagent.DataAwsccQuicksightAgent_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgent.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 dataawsccquicksightagent.DataAwsccQuicksightAgent_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksightagent.DataAwsccQuicksightAgent_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 dataawsccquicksightagent.DataAwsccQuicksightAgent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightAgent t
 
 The id of the existing DataAwsccQuicksightAgent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_agent#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_agent#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -796,7 +796,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 &dataawsccquicksightagent.DataAwsccQuicksightAgentConfig {
 	Connection: interface{},
@@ -905,7 +905,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_agent#id DataAwsccQuicksightAgent#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_agent#id DataAwsccQuicksightAgent#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -917,7 +917,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentCustomPromptInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 &dataawsccquicksightagent.DataAwsccQuicksightAgentCustomPromptInput {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentCustomPromptInputExistingPrompt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 &dataawsccquicksightagent.DataAwsccQuicksightAgentCustomPromptInputExistingPrompt {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentCustomPromptInputNewPrompt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 &dataawsccquicksightagent.DataAwsccQuicksightAgentCustomPromptInputNewPrompt {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentCustomPromptInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 &dataawsccquicksightagent.DataAwsccQuicksightAgentCustomPromptInterface {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 &dataawsccquicksightagent.DataAwsccQuicksightAgentTags {
 
@@ -984,7 +984,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentCustomPromptInputExistingPromptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 dataawsccquicksightagent.NewDataAwsccQuicksightAgentCustomPromptInputExistingPromptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightAgentCustomPromptInputExistingPromptOutputReference
 ```
@@ -1266,7 +1266,7 @@ func InternalValue() DataAwsccQuicksightAgentCustomPromptInputExistingPrompt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentCustomPromptInputNewPromptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 dataawsccquicksightagent.NewDataAwsccQuicksightAgentCustomPromptInputNewPromptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightAgentCustomPromptInputNewPromptOutputReference
 ```
@@ -1570,7 +1570,7 @@ func InternalValue() DataAwsccQuicksightAgentCustomPromptInputNewPrompt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentCustomPromptInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 dataawsccquicksightagent.NewDataAwsccQuicksightAgentCustomPromptInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightAgentCustomPromptInputOutputReference
 ```
@@ -1841,7 +1841,7 @@ func InternalValue() DataAwsccQuicksightAgentCustomPromptInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentCustomPromptInterfaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 dataawsccquicksightagent.NewDataAwsccQuicksightAgentCustomPromptInterfaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightAgentCustomPromptInterfaceOutputReference
 ```
@@ -2189,7 +2189,7 @@ func InternalValue() DataAwsccQuicksightAgentCustomPromptInterface
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 dataawsccquicksightagent.NewDataAwsccQuicksightAgentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightAgentTagsList
 ```
@@ -2338,7 +2338,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightAgent.DataAwsccQuicksightAgentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent"
 
 dataawsccquicksightagent.NewDataAwsccQuicksightAgentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightAgentTagsOutputReference
 ```

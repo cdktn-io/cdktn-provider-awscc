@@ -4,12 +4,12 @@
 
 ### DataAwsccBackupBackupVault <a name="DataAwsccBackupBackupVault" id="@cdktn/provider-awscc.dataAwsccBackupBackupVault.DataAwsccBackupBackupVault"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_backup_vault awscc_backup_backup_vault}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_backup_vault awscc_backup_backup_vault}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupVault.DataAwsccBackupBackupVault.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupvault"
 
 dataawsccbackupbackupvault.NewDataAwsccBackupBackupVault(scope Construct, id *string, config DataAwsccBackupBackupVaultConfig) DataAwsccBackupBackupVault
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBackupBackupVault.DataAwsccBackupBackupVault.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupvault"
 
 dataawsccbackupbackupvault.DataAwsccBackupBackupVault_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBackupBackupVault.DataAwsccBackupBackupVault.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupvault"
 
 dataawsccbackupbackupvault.DataAwsccBackupBackupVault_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbackupbackupvault.DataAwsccBackupBackupVault_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBackupBackupVault.DataAwsccBackupBackupVault.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupvault"
 
 dataawsccbackupbackupvault.DataAwsccBackupBackupVault_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbackupbackupvault.DataAwsccBackupBackupVault_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBackupBackupVault.DataAwsccBackupBackupVault.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupvault"
 
 dataawsccbackupbackupvault.DataAwsccBackupBackupVault_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBackupBackupVault
 
 The id of the existing DataAwsccBackupBackupVault that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_backup_vault#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_backup_vault#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupBackupVault.DataAwsccBackupBackupVaultConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupvault"
 
 &dataawsccbackupbackupvault.DataAwsccBackupBackupVaultConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_backup_vault#id DataAwsccBackupBackupVault#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_backup_vault#id DataAwsccBackupBackupVault#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupBackupVault.DataAwsccBackupBackupVaultLockConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupvault"
 
 &dataawsccbackupbackupvault.DataAwsccBackupBackupVaultLockConfiguration {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupBackupVault.DataAwsccBackupBackupVaultNotifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupvault"
 
 &dataawsccbackupbackupvault.DataAwsccBackupBackupVaultNotifications {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupVault.DataAwsccBackupBackupVaultLockConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupvault"
 
 dataawsccbackupbackupvault.NewDataAwsccBackupBackupVaultLockConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBackupBackupVaultLockConfigurationOutputReference
 ```
@@ -1095,7 +1095,7 @@ func InternalValue() DataAwsccBackupBackupVaultLockConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupVault.DataAwsccBackupBackupVaultNotificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupvault"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupvault"
 
 dataawsccbackupbackupvault.NewDataAwsccBackupBackupVaultNotificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBackupBackupVaultNotificationsOutputReference
 ```

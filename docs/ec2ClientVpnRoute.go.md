@@ -4,12 +4,12 @@
 
 ### Ec2ClientVpnRoute <a name="Ec2ClientVpnRoute" id="@cdktn/provider-awscc.ec2ClientVpnRoute.Ec2ClientVpnRoute"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route awscc_ec2_client_vpn_route}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_route awscc_ec2_client_vpn_route}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2ClientVpnRoute.Ec2ClientVpnRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnroute"
 
 ec2clientvpnroute.NewEc2ClientVpnRoute(scope Construct, id *string, config Ec2ClientVpnRouteConfig) Ec2ClientVpnRoute
 ```
@@ -414,7 +414,7 @@ func ResetTargetVpcSubnetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2ClientVpnRoute.Ec2ClientVpnRoute.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnroute"
 
 ec2clientvpnroute.Ec2ClientVpnRoute_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2ClientVpnRoute.Ec2ClientVpnRoute.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnroute"
 
 ec2clientvpnroute.Ec2ClientVpnRoute_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2clientvpnroute.Ec2ClientVpnRoute_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2ClientVpnRoute.Ec2ClientVpnRoute.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnroute"
 
 ec2clientvpnroute.Ec2ClientVpnRoute_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ ec2clientvpnroute.Ec2ClientVpnRoute_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2ClientVpnRoute.Ec2ClientVpnRoute.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnroute"
 
 ec2clientvpnroute.Ec2ClientVpnRoute_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Ec2ClientVpnRoute to impor
 
 The id of the existing Ec2ClientVpnRoute that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_route#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -813,7 +813,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2ClientVpnRoute.Ec2ClientVpnRouteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnroute"
 
 &ec2clientvpnroute.Ec2ClientVpnRouteConfig {
 	Connection: interface{},
@@ -928,7 +928,7 @@ ClientVpnEndpointId *string
 
 The ID of the Client VPN endpoint to which to add the route.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route#client_vpn_endpoint_id Ec2ClientVpnRoute#client_vpn_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_route#client_vpn_endpoint_id Ec2ClientVpnRoute#client_vpn_endpoint_id}
 
 ---
 
@@ -944,7 +944,7 @@ The IPv4 address range, in CIDR notation, of the route destination.
 
 For example: To add a route for Internet access, enter 0.0.0.0/0. To add a route for a peered VPC, enter the peered VPC's IPv4 CIDR range. To add a route for an on-premises network, enter the AWS Site-to-Site VPN connection's IPv4 CIDR range. To add a route for the local network, enter the client CIDR range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route#destination_cidr_block Ec2ClientVpnRoute#destination_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_route#destination_cidr_block Ec2ClientVpnRoute#destination_cidr_block}
 
 ---
 
@@ -958,7 +958,7 @@ Description *string
 
 A brief description of the route.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route#description Ec2ClientVpnRoute#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_route#description Ec2ClientVpnRoute#description}
 
 ---
 
@@ -974,7 +974,7 @@ The ID of the subnet through which you want to route traffic.
 
 The specified subnet must be an existing target network of the Client VPN endpoint. Alternatively, if you're adding a route for the local network, specify local.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route#target_vpc_subnet_id Ec2ClientVpnRoute#target_vpc_subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_route#target_vpc_subnet_id Ec2ClientVpnRoute#target_vpc_subnet_id}
 
 ---
 

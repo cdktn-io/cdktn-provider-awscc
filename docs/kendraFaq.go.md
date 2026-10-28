@@ -4,12 +4,12 @@
 
 ### KendraFaq <a name="KendraFaq" id="@cdktn/provider-awscc.kendraFaq.KendraFaq"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq awscc_kendra_faq}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq awscc_kendra_faq}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraFaq.KendraFaq.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafaq"
 
 kendrafaq.NewKendraFaq(scope Construct, id *string, config KendraFaqConfig) KendraFaq
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kendraFaq.KendraFaq.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafaq"
 
 kendrafaq.KendraFaq_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kendraFaq.KendraFaq.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafaq"
 
 kendrafaq.KendraFaq_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ kendrafaq.KendraFaq_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kendraFaq.KendraFaq.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafaq"
 
 kendrafaq.KendraFaq_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ kendrafaq.KendraFaq_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kendraFaq.KendraFaq.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafaq"
 
 kendrafaq.KendraFaq_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the KendraFaq to import.
 
 The id of the existing KendraFaq that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -952,7 +952,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraFaq.KendraFaqConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafaq"
 
 &kendrafaq.KendraFaqConfig {
 	Connection: interface{},
@@ -965,7 +965,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
 	IndexId: *string,
 	Name: *string,
 	RoleArn: *string,
-	S3Path: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kendraFaq.KendraFaqS3Path,
+	S3Path: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kendraFaq.KendraFaqS3Path,
 	Description: *string,
 	FileFormat: *string,
 	LanguageCode: *string,
@@ -1075,7 +1075,7 @@ IndexId *string
 
 Index ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#index_id KendraFaq#index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#index_id KendraFaq#index_id}
 
 ---
 
@@ -1089,7 +1089,7 @@ Name *string
 
 FAQ name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#name KendraFaq#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#name KendraFaq#name}
 
 ---
 
@@ -1103,7 +1103,7 @@ RoleArn *string
 
 FAQ role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#role_arn KendraFaq#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#role_arn KendraFaq#role_arn}
 
 ---
 
@@ -1117,7 +1117,7 @@ S3Path KendraFaqS3Path
 
 FAQ S3 path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#s3_path KendraFaq#s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#s3_path KendraFaq#s3_path}
 
 ---
 
@@ -1131,7 +1131,7 @@ Description *string
 
 FAQ description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#description KendraFaq#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#description KendraFaq#description}
 
 ---
 
@@ -1145,7 +1145,7 @@ FileFormat *string
 
 FAQ file format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#file_format KendraFaq#file_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#file_format KendraFaq#file_format}
 
 ---
 
@@ -1159,7 +1159,7 @@ LanguageCode *string
 
 The code for a language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#language_code KendraFaq#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#language_code KendraFaq#language_code}
 
 ---
 
@@ -1173,7 +1173,7 @@ Tags interface{}
 
 Tags for labeling the FAQ.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#tags KendraFaq#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#tags KendraFaq#tags}
 
 ---
 
@@ -1182,7 +1182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraFaq.KendraFaqS3Path.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafaq"
 
 &kendrafaq.KendraFaqS3Path {
 	Bucket: *string,
@@ -1194,8 +1194,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendraFaq.KendraFaqS3Path.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#bucket KendraFaq#bucket}. |
-| <code><a href="#@cdktn/provider-awscc.kendraFaq.KendraFaqS3Path.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#key KendraFaq#key}. |
+| <code><a href="#@cdktn/provider-awscc.kendraFaq.KendraFaqS3Path.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#bucket KendraFaq#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.kendraFaq.KendraFaqS3Path.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#key KendraFaq#key}. |
 
 ---
 
@@ -1207,7 +1207,7 @@ Bucket *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#bucket KendraFaq#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#bucket KendraFaq#bucket}.
 
 ---
 
@@ -1219,7 +1219,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#key KendraFaq#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#key KendraFaq#key}.
 
 ---
 
@@ -1228,7 +1228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraFaq.KendraFaqTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafaq"
 
 &kendrafaq.KendraFaqTags {
 	Key: *string,
@@ -1255,7 +1255,7 @@ Key *string
 
 A string used to identify this tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#key KendraFaq#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#key KendraFaq#key}
 
 ---
 
@@ -1269,7 +1269,7 @@ Value *string
 
 A string containing the value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_faq#value KendraFaq#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_faq#value KendraFaq#value}
 
 ---
 
@@ -1280,7 +1280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraFaq.KendraFaqS3PathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafaq"
 
 kendrafaq.NewKendraFaqS3PathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KendraFaqS3PathOutputReference
 ```
@@ -1573,7 +1573,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraFaq.KendraFaqTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafaq"
 
 kendrafaq.NewKendraFaqTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KendraFaqTagsList
 ```
@@ -1733,7 +1733,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraFaq.KendraFaqTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafaq"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafaq"
 
 kendrafaq.NewKendraFaqTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KendraFaqTagsOutputReference
 ```

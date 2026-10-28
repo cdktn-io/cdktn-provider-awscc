@@ -4,12 +4,12 @@
 
 ### DataAwsccAmplifyBranch <a name="DataAwsccAmplifyBranch" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranch"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_branch awscc_amplify_branch}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_branch awscc_amplify_branch}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 dataawsccamplifybranch.NewDataAwsccAmplifyBranch(scope Construct, id *string, config DataAwsccAmplifyBranchConfig) DataAwsccAmplifyBranch
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranch.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 dataawsccamplifybranch.DataAwsccAmplifyBranch_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranch.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 dataawsccamplifybranch.DataAwsccAmplifyBranch_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccamplifybranch.DataAwsccAmplifyBranch_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranch.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 dataawsccamplifybranch.DataAwsccAmplifyBranch_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccamplifybranch.DataAwsccAmplifyBranch_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranch.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 dataawsccamplifybranch.DataAwsccAmplifyBranch_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAmplifyBranch to 
 
 The id of the existing DataAwsccAmplifyBranch that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_branch#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_branch#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranchBackend.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 &dataawsccamplifybranch.DataAwsccAmplifyBranchBackend {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranchBasicAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 &dataawsccamplifybranch.DataAwsccAmplifyBranchBasicAuthConfig {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranchConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 &dataawsccamplifybranch.DataAwsccAmplifyBranchConfig {
 	Connection: interface{},
@@ -909,7 +909,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_branch#id DataAwsccAmplifyBranch#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_branch#id DataAwsccAmplifyBranch#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -921,7 +921,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranchEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 &dataawsccamplifybranch.DataAwsccAmplifyBranchEnvironmentVariables {
 
@@ -934,7 +934,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranchTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 &dataawsccamplifybranch.DataAwsccAmplifyBranchTags {
 
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranchBackendOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 dataawsccamplifybranch.NewDataAwsccAmplifyBranchBackendOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAmplifyBranchBackendOutputReference
 ```
@@ -1209,7 +1209,7 @@ func InternalValue() DataAwsccAmplifyBranchBackend
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranchBasicAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 dataawsccamplifybranch.NewDataAwsccAmplifyBranchBasicAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAmplifyBranchBasicAuthConfigOutputReference
 ```
@@ -1491,7 +1491,7 @@ func InternalValue() DataAwsccAmplifyBranchBasicAuthConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranchEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 dataawsccamplifybranch.NewDataAwsccAmplifyBranchEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAmplifyBranchEnvironmentVariablesList
 ```
@@ -1640,7 +1640,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranchEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 dataawsccamplifybranch.NewDataAwsccAmplifyBranchEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAmplifyBranchEnvironmentVariablesOutputReference
 ```
@@ -1929,7 +1929,7 @@ func InternalValue() DataAwsccAmplifyBranchEnvironmentVariables
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranchTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 dataawsccamplifybranch.NewDataAwsccAmplifyBranchTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAmplifyBranchTagsList
 ```
@@ -2078,7 +2078,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyBranch.DataAwsccAmplifyBranchTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifybranch"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifybranch"
 
 dataawsccamplifybranch.NewDataAwsccAmplifyBranchTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAmplifyBranchTagsOutputReference
 ```

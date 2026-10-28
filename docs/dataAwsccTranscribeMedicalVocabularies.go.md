@@ -4,12 +4,12 @@
 
 ### DataAwsccTranscribeMedicalVocabularies <a name="DataAwsccTranscribeMedicalVocabularies" id="@cdktn/provider-awscc.dataAwsccTranscribeMedicalVocabularies.DataAwsccTranscribeMedicalVocabularies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_medical_vocabularies awscc_transcribe_medical_vocabularies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_medical_vocabularies awscc_transcribe_medical_vocabularies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeMedicalVocabularies.DataAwsccTranscribeMedicalVocabularies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribemedicalvocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribemedicalvocabularies"
 
 dataawscctranscribemedicalvocabularies.NewDataAwsccTranscribeMedicalVocabularies(scope Construct, id *string, config DataAwsccTranscribeMedicalVocabulariesConfig) DataAwsccTranscribeMedicalVocabularies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTranscribeMedicalVocabularies.DataAwsccTranscribeMedicalVocabularies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribemedicalvocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribemedicalvocabularies"
 
 dataawscctranscribemedicalvocabularies.DataAwsccTranscribeMedicalVocabularies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTranscribeMedicalVocabularies.DataAwsccTranscribeMedicalVocabularies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribemedicalvocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribemedicalvocabularies"
 
 dataawscctranscribemedicalvocabularies.DataAwsccTranscribeMedicalVocabularies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctranscribemedicalvocabularies.DataAwsccTranscribeMedicalVocabularies_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTranscribeMedicalVocabularies.DataAwsccTranscribeMedicalVocabularies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribemedicalvocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribemedicalvocabularies"
 
 dataawscctranscribemedicalvocabularies.DataAwsccTranscribeMedicalVocabularies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctranscribemedicalvocabularies.DataAwsccTranscribeMedicalVocabularies_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTranscribeMedicalVocabularies.DataAwsccTranscribeMedicalVocabularies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribemedicalvocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribemedicalvocabularies"
 
 dataawscctranscribemedicalvocabularies.DataAwsccTranscribeMedicalVocabularies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTranscribeMedical
 
 The id of the existing DataAwsccTranscribeMedicalVocabularies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_medical_vocabularies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_medical_vocabularies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeMedicalVocabularies.DataAwsccTranscribeMedicalVocabulariesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribemedicalvocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribemedicalvocabularies"
 
 &dataawscctranscribemedicalvocabularies.DataAwsccTranscribeMedicalVocabulariesConfig {
 	Connection: interface{},

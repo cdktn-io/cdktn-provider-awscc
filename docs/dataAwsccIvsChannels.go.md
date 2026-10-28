@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsChannels <a name="DataAwsccIvsChannels" id="@cdktn/provider-awscc.dataAwsccIvsChannels.DataAwsccIvsChannels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_channels awscc_ivs_channels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_channels awscc_ivs_channels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsChannels.DataAwsccIvsChannels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschannels"
 
 dataawsccivschannels.NewDataAwsccIvsChannels(scope Construct, id *string, config DataAwsccIvsChannelsConfig) DataAwsccIvsChannels
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsChannels.DataAwsccIvsChannels.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschannels"
 
 dataawsccivschannels.DataAwsccIvsChannels_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsChannels.DataAwsccIvsChannels.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschannels"
 
 dataawsccivschannels.DataAwsccIvsChannels_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivschannels.DataAwsccIvsChannels_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsChannels.DataAwsccIvsChannels.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschannels"
 
 dataawsccivschannels.DataAwsccIvsChannels_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivschannels.DataAwsccIvsChannels_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsChannels.DataAwsccIvsChannels.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschannels"
 
 dataawsccivschannels.DataAwsccIvsChannels_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsChannels to im
 
 The id of the existing DataAwsccIvsChannels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_channels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_channels#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsChannels.DataAwsccIvsChannelsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschannels"
 
 &dataawsccivschannels.DataAwsccIvsChannelsConfig {
 	Connection: interface{},

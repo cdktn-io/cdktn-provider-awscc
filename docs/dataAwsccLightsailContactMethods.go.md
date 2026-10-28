@@ -4,12 +4,12 @@
 
 ### DataAwsccLightsailContactMethods <a name="DataAwsccLightsailContactMethods" id="@cdktn/provider-awscc.dataAwsccLightsailContactMethods.DataAwsccLightsailContactMethods"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_contact_methods awscc_lightsail_contact_methods}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_contact_methods awscc_lightsail_contact_methods}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContactMethods.DataAwsccLightsailContactMethods.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontactmethods"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontactmethods"
 
 dataawscclightsailcontactmethods.NewDataAwsccLightsailContactMethods(scope Construct, id *string, config DataAwsccLightsailContactMethodsConfig) DataAwsccLightsailContactMethods
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLightsailContactMethods.DataAwsccLightsailContactMethods.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontactmethods"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontactmethods"
 
 dataawscclightsailcontactmethods.DataAwsccLightsailContactMethods_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLightsailContactMethods.DataAwsccLightsailContactMethods.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontactmethods"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontactmethods"
 
 dataawscclightsailcontactmethods.DataAwsccLightsailContactMethods_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclightsailcontactmethods.DataAwsccLightsailContactMethods_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLightsailContactMethods.DataAwsccLightsailContactMethods.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontactmethods"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontactmethods"
 
 dataawscclightsailcontactmethods.DataAwsccLightsailContactMethods_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclightsailcontactmethods.DataAwsccLightsailContactMethods_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLightsailContactMethods.DataAwsccLightsailContactMethods.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontactmethods"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontactmethods"
 
 dataawscclightsailcontactmethods.DataAwsccLightsailContactMethods_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailContactM
 
 The id of the existing DataAwsccLightsailContactMethods that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_contact_methods#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_contact_methods#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContactMethods.DataAwsccLightsailContactMethodsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontactmethods"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontactmethods"
 
 &dataawscclightsailcontactmethods.DataAwsccLightsailContactMethodsConfig {
 	Connection: interface{},

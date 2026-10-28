@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmincidentsReplicationSet <a name="DataAwsccSsmincidentsReplicationSet" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmincidents_replication_set awscc_ssmincidents_replication_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmincidents_replication_set awscc_ssmincidents_replication_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 dataawsccssmincidentsreplicationset.NewDataAwsccSsmincidentsReplicationSet(scope Construct, id *string, config DataAwsccSsmincidentsReplicationSetConfig) DataAwsccSsmincidentsReplicationSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 dataawsccssmincidentsreplicationset.DataAwsccSsmincidentsReplicationSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 dataawsccssmincidentsreplicationset.DataAwsccSsmincidentsReplicationSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmincidentsreplicationset.DataAwsccSsmincidentsReplicationSet_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 dataawsccssmincidentsreplicationset.DataAwsccSsmincidentsReplicationSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmincidentsreplicationset.DataAwsccSsmincidentsReplicationSet_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 dataawsccssmincidentsreplicationset.DataAwsccSsmincidentsReplicationSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmincidentsRepli
 
 The id of the existing DataAwsccSsmincidentsReplicationSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmincidents_replication_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmincidents_replication_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 &dataawsccssmincidentsreplicationset.DataAwsccSsmincidentsReplicationSetConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmincidents_replication_set#id DataAwsccSsmincidentsReplicationSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmincidents_replication_set#id DataAwsccSsmincidentsReplicationSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSetRegions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 &dataawsccssmincidentsreplicationset.DataAwsccSsmincidentsReplicationSetRegions {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSetRegionsRegionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 &dataawsccssmincidentsreplicationset.DataAwsccSsmincidentsReplicationSetRegionsRegionConfiguration {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 &dataawsccssmincidentsreplicationset.DataAwsccSsmincidentsReplicationSetTags {
 
@@ -793,7 +793,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSetRegionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 dataawsccssmincidentsreplicationset.NewDataAwsccSsmincidentsReplicationSetRegionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmincidentsReplicationSetRegionsList
 ```
@@ -942,7 +942,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSetRegionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 dataawsccssmincidentsreplicationset.NewDataAwsccSsmincidentsReplicationSetRegionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmincidentsReplicationSetRegionsOutputReference
 ```
@@ -1231,7 +1231,7 @@ func InternalValue() DataAwsccSsmincidentsReplicationSetRegions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSetRegionsRegionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 dataawsccssmincidentsreplicationset.NewDataAwsccSsmincidentsReplicationSetRegionsRegionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmincidentsReplicationSetRegionsRegionConfigurationOutputReference
 ```
@@ -1491,7 +1491,7 @@ func InternalValue() DataAwsccSsmincidentsReplicationSetRegionsRegionConfigurati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 dataawsccssmincidentsreplicationset.NewDataAwsccSsmincidentsReplicationSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmincidentsReplicationSetTagsList
 ```
@@ -1640,7 +1640,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmincidentsReplicationSet.DataAwsccSsmincidentsReplicationSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmincidentsreplicationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmincidentsreplicationset"
 
 dataawsccssmincidentsreplicationset.NewDataAwsccSsmincidentsReplicationSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmincidentsReplicationSetTagsOutputReference
 ```

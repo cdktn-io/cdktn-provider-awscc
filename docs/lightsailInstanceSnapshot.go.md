@@ -4,12 +4,12 @@
 
 ### LightsailInstanceSnapshot <a name="LightsailInstanceSnapshot" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_instance_snapshot awscc_lightsail_instance_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_instance_snapshot awscc_lightsail_instance_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailinstancesnapshot"
 
 lightsailinstancesnapshot.NewLightsailInstanceSnapshot(scope Construct, id *string, config LightsailInstanceSnapshotConfig) LightsailInstanceSnapshot
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailinstancesnapshot"
 
 lightsailinstancesnapshot.LightsailInstanceSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailinstancesnapshot"
 
 lightsailinstancesnapshot.LightsailInstanceSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ lightsailinstancesnapshot.LightsailInstanceSnapshot_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailinstancesnapshot"
 
 lightsailinstancesnapshot.LightsailInstanceSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ lightsailinstancesnapshot.LightsailInstanceSnapshot_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailinstancesnapshot"
 
 lightsailinstancesnapshot.LightsailInstanceSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the LightsailInstanceSnapshot 
 
 The id of the existing LightsailInstanceSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_instance_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_instance_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -885,7 +885,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailinstancesnapshot"
 
 &lightsailinstancesnapshot.LightsailInstanceSnapshotConfig {
 	Connection: interface{},
@@ -998,7 +998,7 @@ InstanceName *string
 
 The instance from which the snapshot was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_instance_snapshot#instance_name LightsailInstanceSnapshot#instance_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_instance_snapshot#instance_name LightsailInstanceSnapshot#instance_name}
 
 ---
 
@@ -1012,7 +1012,7 @@ InstanceSnapshotName *string
 
 The name of the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_instance_snapshot#instance_snapshot_name LightsailInstanceSnapshot#instance_snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_instance_snapshot#instance_snapshot_name LightsailInstanceSnapshot#instance_snapshot_name}
 
 ---
 
@@ -1026,7 +1026,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_instance_snapshot#tags LightsailInstanceSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_instance_snapshot#tags LightsailInstanceSnapshot#tags}
 
 ---
 
@@ -1035,7 +1035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshotLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailinstancesnapshot"
 
 &lightsailinstancesnapshot.LightsailInstanceSnapshotLocation {
 
@@ -1048,7 +1048,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnaps
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailinstancesnapshot"
 
 &lightsailinstancesnapshot.LightsailInstanceSnapshotTags {
 	Key: *string,
@@ -1077,7 +1077,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_instance_snapshot#key LightsailInstanceSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_instance_snapshot#key LightsailInstanceSnapshot#key}
 
 ---
 
@@ -1093,7 +1093,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_instance_snapshot#value LightsailInstanceSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_instance_snapshot#value LightsailInstanceSnapshot#value}
 
 ---
 
@@ -1104,7 +1104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshotLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailinstancesnapshot"
 
 lightsailinstancesnapshot.NewLightsailInstanceSnapshotLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailInstanceSnapshotLocationOutputReference
 ```
@@ -1375,7 +1375,7 @@ func InternalValue() LightsailInstanceSnapshotLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailinstancesnapshot"
 
 lightsailinstancesnapshot.NewLightsailInstanceSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailInstanceSnapshotTagsList
 ```
@@ -1535,7 +1535,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailInstanceSnapshot.LightsailInstanceSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailinstancesnapshot"
 
 lightsailinstancesnapshot.NewLightsailInstanceSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailInstanceSnapshotTagsOutputReference
 ```

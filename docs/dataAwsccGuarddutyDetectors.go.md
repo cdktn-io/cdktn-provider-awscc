@@ -4,12 +4,12 @@
 
 ### DataAwsccGuarddutyDetectors <a name="DataAwsccGuarddutyDetectors" id="@cdktn/provider-awscc.dataAwsccGuarddutyDetectors.DataAwsccGuarddutyDetectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_detectors awscc_guardduty_detectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_detectors awscc_guardduty_detectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyDetectors.DataAwsccGuarddutyDetectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutydetectors"
 
 dataawsccguarddutydetectors.NewDataAwsccGuarddutyDetectors(scope Construct, id *string, config DataAwsccGuarddutyDetectorsConfig) DataAwsccGuarddutyDetectors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGuarddutyDetectors.DataAwsccGuarddutyDetectors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutydetectors"
 
 dataawsccguarddutydetectors.DataAwsccGuarddutyDetectors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGuarddutyDetectors.DataAwsccGuarddutyDetectors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutydetectors"
 
 dataawsccguarddutydetectors.DataAwsccGuarddutyDetectors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccguarddutydetectors.DataAwsccGuarddutyDetectors_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGuarddutyDetectors.DataAwsccGuarddutyDetectors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutydetectors"
 
 dataawsccguarddutydetectors.DataAwsccGuarddutyDetectors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccguarddutydetectors.DataAwsccGuarddutyDetectors_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGuarddutyDetectors.DataAwsccGuarddutyDetectors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutydetectors"
 
 dataawsccguarddutydetectors.DataAwsccGuarddutyDetectors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGuarddutyDetector
 
 The id of the existing DataAwsccGuarddutyDetectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_detectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_detectors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGuarddutyDetectors.DataAwsccGuarddutyDetectorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutydetectors"
 
 &dataawsccguarddutydetectors.DataAwsccGuarddutyDetectorsConfig {
 	Connection: interface{},

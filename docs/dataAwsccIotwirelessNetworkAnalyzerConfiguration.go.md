@@ -4,12 +4,12 @@
 
 ### DataAwsccIotwirelessNetworkAnalyzerConfiguration <a name="DataAwsccIotwirelessNetworkAnalyzerConfiguration" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfiguration"
 
 dataawscciotwirelessnetworkanalyzerconfiguration.NewDataAwsccIotwirelessNetworkAnalyzerConfiguration(scope Construct, id *string, config DataAwsccIotwirelessNetworkAnalyzerConfigurationConfig) DataAwsccIotwirelessNetworkAnalyzerConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfiguration"
 
 dataawscciotwirelessnetworkanalyzerconfiguration.DataAwsccIotwirelessNetworkAnalyzerConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfiguration"
 
 dataawscciotwirelessnetworkanalyzerconfiguration.DataAwsccIotwirelessNetworkAnalyzerConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotwirelessnetworkanalyzerconfiguration.DataAwsccIotwirelessNetworkAnal
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfiguration"
 
 dataawscciotwirelessnetworkanalyzerconfiguration.DataAwsccIotwirelessNetworkAnalyzerConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotwirelessnetworkanalyzerconfiguration.DataAwsccIotwirelessNetworkAnal
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfiguration"
 
 dataawscciotwirelessnetworkanalyzerconfiguration.DataAwsccIotwirelessNetworkAnalyzerConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessNetwor
 
 The id of the existing DataAwsccIotwirelessNetworkAnalyzerConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_network_analyzer_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_network_analyzer_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfiguration"
 
 &dataawscciotwirelessnetworkanalyzerconfiguration.DataAwsccIotwirelessNetworkAnalyzerConfigurationConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_network_analyzer_configuration#id DataAwsccIotwirelessNetworkAnalyzerConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_network_analyzer_configuration#id DataAwsccIotwirelessNetworkAnalyzerConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfiguration"
 
 &dataawscciotwirelessnetworkanalyzerconfiguration.DataAwsccIotwirelessNetworkAnalyzerConfigurationTags {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfigurationTraceContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfiguration"
 
 &dataawscciotwirelessnetworkanalyzerconfiguration.DataAwsccIotwirelessNetworkAnalyzerConfigurationTraceContent {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfiguration"
 
 dataawscciotwirelessnetworkanalyzerconfiguration.NewDataAwsccIotwirelessNetworkAnalyzerConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotwirelessNetworkAnalyzerConfigurationTagsList
 ```
@@ -962,7 +962,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfiguration"
 
 dataawscciotwirelessnetworkanalyzerconfiguration.NewDataAwsccIotwirelessNetworkAnalyzerConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotwirelessNetworkAnalyzerConfigurationTagsOutputReference
 ```
@@ -1251,7 +1251,7 @@ func InternalValue() DataAwsccIotwirelessNetworkAnalyzerConfigurationTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessNetworkAnalyzerConfiguration.DataAwsccIotwirelessNetworkAnalyzerConfigurationTraceContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfiguration"
 
 dataawscciotwirelessnetworkanalyzerconfiguration.NewDataAwsccIotwirelessNetworkAnalyzerConfigurationTraceContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessNetworkAnalyzerConfigurationTraceContentOutputReference
 ```

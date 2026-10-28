@@ -4,12 +4,12 @@
 
 ### IvsPublicKey <a name="IvsPublicKey" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key awscc_ivs_public_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key awscc_ivs_public_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivspublickey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivspublickey"
 
 ivspublickey.NewIvsPublicKey(scope Construct, id *string, config IvsPublicKeyConfig) IvsPublicKey
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivspublickey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivspublickey"
 
 ivspublickey.IvsPublicKey_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivspublickey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivspublickey"
 
 ivspublickey.IvsPublicKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ ivspublickey.IvsPublicKey_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKey.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivspublickey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivspublickey"
 
 ivspublickey.IvsPublicKey_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ ivspublickey.IvsPublicKey_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivspublickey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivspublickey"
 
 ivspublickey.IvsPublicKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the IvsPublicKey to import.
 
 The id of the existing IvsPublicKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -822,7 +822,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivspublickey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivspublickey"
 
 &ivspublickey.IvsPublicKeyConfig {
 	Connection: interface{},
@@ -935,7 +935,7 @@ Name *string
 
 Name of the public key to be imported. The value does not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key#name IvsPublicKey#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key#name IvsPublicKey#name}
 
 ---
 
@@ -949,7 +949,7 @@ PublicKeyMaterial *string
 
 The public portion of a customer-generated key pair. This field is required to create the AWS::IVS::PublicKey resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key#public_key_material IvsPublicKey#public_key_material}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key#public_key_material IvsPublicKey#public_key_material}
 
 ---
 
@@ -963,7 +963,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key#tags IvsPublicKey#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key#tags IvsPublicKey#tags}
 
 ---
 
@@ -972,7 +972,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivspublickey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivspublickey"
 
 &ivspublickey.IvsPublicKeyTags {
 	Key: *string,
@@ -984,8 +984,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivspublickey"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key#key IvsPublicKey#key}. |
-| <code><a href="#@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key#value IvsPublicKey#value}. |
+| <code><a href="#@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key#key IvsPublicKey#key}. |
+| <code><a href="#@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key#value IvsPublicKey#value}. |
 
 ---
 
@@ -997,7 +997,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key#key IvsPublicKey#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key#key IvsPublicKey#key}.
 
 ---
 
@@ -1009,7 +1009,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key#value IvsPublicKey#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key#value IvsPublicKey#value}.
 
 ---
 
@@ -1020,7 +1020,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivspublickey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivspublickey"
 
 ivspublickey.NewIvsPublicKeyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IvsPublicKeyTagsList
 ```
@@ -1180,7 +1180,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivspublickey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivspublickey"
 
 ivspublickey.NewIvsPublicKeyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IvsPublicKeyTagsOutputReference
 ```

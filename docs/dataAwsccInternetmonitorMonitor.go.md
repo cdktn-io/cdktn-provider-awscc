@@ -4,12 +4,12 @@
 
 ### DataAwsccInternetmonitorMonitor <a name="DataAwsccInternetmonitorMonitor" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitor"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/internetmonitor_monitor awscc_internetmonitor_monitor}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/internetmonitor_monitor awscc_internetmonitor_monitor}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.NewDataAwsccInternetmonitorMonitor(scope Construct, id *string, config DataAwsccInternetmonitorMonitorConfig) DataAwsccInternetmonitorMonitor
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitor.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitor_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitor.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitor_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitor_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitor.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitor_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitor_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitor.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitor_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInternetmonitorMo
 
 The id of the existing DataAwsccInternetmonitorMonitor that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/internetmonitor_monitor#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/internetmonitor_monitor#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 &dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitorConfig {
 	Connection: interface{},
@@ -883,7 +883,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/internetmonitor_monitor#id DataAwsccInternetmonitorMonitor#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/internetmonitor_monitor#id DataAwsccInternetmonitorMonitor#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -895,7 +895,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorHealthEventsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 &dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitorHealthEventsConfig {
 
@@ -908,7 +908,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEventsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 &dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEventsConfig {
 
@@ -921,7 +921,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEventsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 &dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEventsConfig {
 
@@ -934,7 +934,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorInternetMeasurementsLogDelivery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 &dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitorInternetMeasurementsLogDelivery {
 
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorInternetMeasurementsLogDeliveryS3Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 &dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitorInternetMeasurementsLogDeliveryS3Config {
 
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 &dataawsccinternetmonitormonitor.DataAwsccInternetmonitorMonitorTags {
 
@@ -975,7 +975,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEventsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.NewDataAwsccInternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEventsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEventsConfigOutputReference
 ```
@@ -1257,7 +1257,7 @@ func InternalValue() DataAwsccInternetmonitorMonitorHealthEventsConfigAvailabili
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorHealthEventsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.NewDataAwsccInternetmonitorMonitorHealthEventsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInternetmonitorMonitorHealthEventsConfigOutputReference
 ```
@@ -1550,7 +1550,7 @@ func InternalValue() DataAwsccInternetmonitorMonitorHealthEventsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEventsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.NewDataAwsccInternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEventsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEventsConfigOutputReference
 ```
@@ -1832,7 +1832,7 @@ func InternalValue() DataAwsccInternetmonitorMonitorHealthEventsConfigPerformanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.NewDataAwsccInternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference
 ```
@@ -2092,7 +2092,7 @@ func InternalValue() DataAwsccInternetmonitorMonitorInternetMeasurementsLogDeliv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.NewDataAwsccInternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutputReference
 ```
@@ -2374,7 +2374,7 @@ func InternalValue() DataAwsccInternetmonitorMonitorInternetMeasurementsLogDeliv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.NewDataAwsccInternetmonitorMonitorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInternetmonitorMonitorTagsList
 ```
@@ -2523,7 +2523,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitor.DataAwsccInternetmonitorMonitorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitor"
 
 dataawsccinternetmonitormonitor.NewDataAwsccInternetmonitorMonitorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInternetmonitorMonitorTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudformationTypeActivations <a name="DataAwsccCloudformationTypeActivations" id="@cdktn/provider-awscc.dataAwsccCloudformationTypeActivations.DataAwsccCloudformationTypeActivations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_type_activations awscc_cloudformation_type_activations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_type_activations awscc_cloudformation_type_activations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationTypeActivations.DataAwsccCloudformationTypeActivations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationtypeactivations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationtypeactivations"
 
 dataawscccloudformationtypeactivations.NewDataAwsccCloudformationTypeActivations(scope Construct, id *string, config DataAwsccCloudformationTypeActivationsConfig) DataAwsccCloudformationTypeActivations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudformationTypeActivations.DataAwsccCloudformationTypeActivations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationtypeactivations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationtypeactivations"
 
 dataawscccloudformationtypeactivations.DataAwsccCloudformationTypeActivations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudformationTypeActivations.DataAwsccCloudformationTypeActivations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationtypeactivations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationtypeactivations"
 
 dataawscccloudformationtypeactivations.DataAwsccCloudformationTypeActivations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudformationtypeactivations.DataAwsccCloudformationTypeActivations_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudformationTypeActivations.DataAwsccCloudformationTypeActivations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationtypeactivations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationtypeactivations"
 
 dataawscccloudformationtypeactivations.DataAwsccCloudformationTypeActivations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudformationtypeactivations.DataAwsccCloudformationTypeActivations_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudformationTypeActivations.DataAwsccCloudformationTypeActivations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationtypeactivations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationtypeactivations"
 
 dataawscccloudformationtypeactivations.DataAwsccCloudformationTypeActivations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudformationTyp
 
 The id of the existing DataAwsccCloudformationTypeActivations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_type_activations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_type_activations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudformationTypeActivations.DataAwsccCloudformationTypeActivationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationtypeactivations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationtypeactivations"
 
 &dataawscccloudformationtypeactivations.DataAwsccCloudformationTypeActivationsConfig {
 	Connection: interface{},

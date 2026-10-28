@@ -4,12 +4,12 @@
 
 ### DataAwsccLogsQueryDefinitions <a name="DataAwsccLogsQueryDefinitions" id="@cdktn/provider-awscc.dataAwsccLogsQueryDefinitions.DataAwsccLogsQueryDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsQueryDefinitions.DataAwsccLogsQueryDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsquerydefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsquerydefinitions"
 
 dataawscclogsquerydefinitions.NewDataAwsccLogsQueryDefinitions(scope Construct, id *string, config DataAwsccLogsQueryDefinitionsConfig) DataAwsccLogsQueryDefinitions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLogsQueryDefinitions.DataAwsccLogsQueryDefinitions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsquerydefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsquerydefinitions"
 
 dataawscclogsquerydefinitions.DataAwsccLogsQueryDefinitions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLogsQueryDefinitions.DataAwsccLogsQueryDefinitions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsquerydefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsquerydefinitions"
 
 dataawscclogsquerydefinitions.DataAwsccLogsQueryDefinitions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclogsquerydefinitions.DataAwsccLogsQueryDefinitions_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLogsQueryDefinitions.DataAwsccLogsQueryDefinitions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsquerydefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsquerydefinitions"
 
 dataawscclogsquerydefinitions.DataAwsccLogsQueryDefinitions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclogsquerydefinitions.DataAwsccLogsQueryDefinitions_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLogsQueryDefinitions.DataAwsccLogsQueryDefinitions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsquerydefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsquerydefinitions"
 
 dataawscclogsquerydefinitions.DataAwsccLogsQueryDefinitions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLogsQueryDefiniti
 
 The id of the existing DataAwsccLogsQueryDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_query_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_query_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsQueryDefinitions.DataAwsccLogsQueryDefinitionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsquerydefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsquerydefinitions"
 
 &dataawscclogsquerydefinitions.DataAwsccLogsQueryDefinitionsConfig {
 	Connection: interface{},

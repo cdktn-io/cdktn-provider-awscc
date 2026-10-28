@@ -4,12 +4,12 @@
 
 ### DataAwsccOutpostsOutposts <a name="DataAwsccOutpostsOutposts" id="@cdktn/provider-awscc.dataAwsccOutpostsOutposts.DataAwsccOutpostsOutposts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/outposts_outposts awscc_outposts_outposts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/outposts_outposts awscc_outposts_outposts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOutpostsOutposts.DataAwsccOutpostsOutposts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostsoutposts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostsoutposts"
 
 dataawsccoutpostsoutposts.NewDataAwsccOutpostsOutposts(scope Construct, id *string, config DataAwsccOutpostsOutpostsConfig) DataAwsccOutpostsOutposts
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOutpostsOutposts.DataAwsccOutpostsOutposts.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostsoutposts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostsoutposts"
 
 dataawsccoutpostsoutposts.DataAwsccOutpostsOutposts_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOutpostsOutposts.DataAwsccOutpostsOutposts.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostsoutposts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostsoutposts"
 
 dataawsccoutpostsoutposts.DataAwsccOutpostsOutposts_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccoutpostsoutposts.DataAwsccOutpostsOutposts_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOutpostsOutposts.DataAwsccOutpostsOutposts.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostsoutposts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostsoutposts"
 
 dataawsccoutpostsoutposts.DataAwsccOutpostsOutposts_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccoutpostsoutposts.DataAwsccOutpostsOutposts_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOutpostsOutposts.DataAwsccOutpostsOutposts.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostsoutposts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostsoutposts"
 
 dataawsccoutpostsoutposts.DataAwsccOutpostsOutposts_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOutpostsOutposts 
 
 The id of the existing DataAwsccOutpostsOutposts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/outposts_outposts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/outposts_outposts#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOutpostsOutposts.DataAwsccOutpostsOutpostsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostsoutposts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostsoutposts"
 
 &dataawsccoutpostsoutposts.DataAwsccOutpostsOutpostsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### HealthimagingDatastore <a name="HealthimagingDatastore" id="@cdktn/provider-awscc.healthimagingDatastore.HealthimagingDatastore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.healthimagingDatastore.HealthimagingDatastore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthimagingdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthimagingdatastore"
 
 healthimagingdatastore.NewHealthimagingDatastore(scope Construct, id *string, config HealthimagingDatastoreConfig) HealthimagingDatastore
 ```
@@ -421,7 +421,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.healthimagingDatastore.HealthimagingDatastore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthimagingdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthimagingdatastore"
 
 healthimagingdatastore.HealthimagingDatastore_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.healthimagingDatastore.HealthimagingDatastore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthimagingdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthimagingdatastore"
 
 healthimagingdatastore.HealthimagingDatastore_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ healthimagingdatastore.HealthimagingDatastore_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.healthimagingDatastore.HealthimagingDatastore.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthimagingdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthimagingdatastore"
 
 healthimagingdatastore.HealthimagingDatastore_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ healthimagingdatastore.HealthimagingDatastore_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.healthimagingDatastore.HealthimagingDatastore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthimagingdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthimagingdatastore"
 
 healthimagingdatastore.HealthimagingDatastore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the HealthimagingDatastore to 
 
 The id of the existing HealthimagingDatastore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthimaging_datastore#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthimaging_datastore#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -842,7 +842,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.healthimagingDatastore.HealthimagingDatastoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthimagingdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthimagingdatastore"
 
 &healthimagingdatastore.HealthimagingDatastoreConfig {
 	Connection: interface{},
@@ -955,7 +955,7 @@ DatastoreName *string
 
 User friendly name for Datastore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthimaging_datastore#datastore_name HealthimagingDatastore#datastore_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthimaging_datastore#datastore_name HealthimagingDatastore#datastore_name}
 
 ---
 
@@ -969,7 +969,7 @@ KmsKeyArn *string
 
 ARN referencing a KMS key or KMS key alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthimaging_datastore#kms_key_arn HealthimagingDatastore#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthimaging_datastore#kms_key_arn HealthimagingDatastore#kms_key_arn}
 
 ---
 
@@ -983,7 +983,7 @@ Tags *map[string]*string
 
 A Map of key value pairs for Tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthimaging_datastore#tags HealthimagingDatastore#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthimaging_datastore#tags HealthimagingDatastore#tags}
 
 ---
 

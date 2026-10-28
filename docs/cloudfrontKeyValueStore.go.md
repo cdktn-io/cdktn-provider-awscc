@@ -4,12 +4,12 @@
 
 ### CloudfrontKeyValueStore <a name="CloudfrontKeyValueStore" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore"
 
 cloudfrontkeyvaluestore.NewCloudfrontKeyValueStore(scope Construct, id *string, config CloudfrontKeyValueStoreConfig) CloudfrontKeyValueStore
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore"
 
 cloudfrontkeyvaluestore.CloudfrontKeyValueStore_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore"
 
 cloudfrontkeyvaluestore.CloudfrontKeyValueStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ cloudfrontkeyvaluestore.CloudfrontKeyValueStore_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStore.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore"
 
 cloudfrontkeyvaluestore.CloudfrontKeyValueStore_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ cloudfrontkeyvaluestore.CloudfrontKeyValueStore_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore"
 
 cloudfrontkeyvaluestore.CloudfrontKeyValueStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the CloudfrontKeyValueStore to
 
 The id of the existing CloudfrontKeyValueStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_value_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_value_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -868,7 +868,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore"
 
 &cloudfrontkeyvaluestore.CloudfrontKeyValueStoreConfig {
 	Connection: interface{},
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestor
 	Provisioners: *[]interface{},
 	Name: *string,
 	Comment: *string,
-	ImportSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStoreImportSource,
+	ImportSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontKeyValueStore.CloudfrontKeyValueStoreImportSource,
 	Tags: interface{},
 }
 ```
@@ -983,7 +983,7 @@ Name *string
 
 The name of the key value store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}
 
 ---
 
@@ -999,7 +999,7 @@ A comment to describe the Key Value Store.
 
 Omitting `Comment` from the template during updates will clear the existing comment (set to empty string). To preserve an existing comment, you must explicitly include it in the template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}
 
 ---
 
@@ -1013,7 +1013,7 @@ ImportSource CloudfrontKeyValueStoreImportSource
 
 The import source for the key value store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_value_store#import_source CloudfrontKeyValueStore#import_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_value_store#import_source CloudfrontKeyValueStore#import_source}
 
 ---
 
@@ -1027,7 +1027,7 @@ Tags interface{}
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}
 
 ---
 
@@ -1036,7 +1036,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStoreImportSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore"
 
 &cloudfrontkeyvaluestore.CloudfrontKeyValueStoreImportSource {
 	SourceArn: *string,
@@ -1063,7 +1063,7 @@ SourceArn *string
 
 The Amazon Resource Name (ARN) of the import source for the key value store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_value_store#source_arn CloudfrontKeyValueStore#source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_value_store#source_arn CloudfrontKeyValueStore#source_arn}
 
 ---
 
@@ -1077,7 +1077,7 @@ SourceType *string
 
 The source type of the import source for the key value store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_value_store#source_type CloudfrontKeyValueStore#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_value_store#source_type CloudfrontKeyValueStore#source_type}
 
 ---
 
@@ -1086,7 +1086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStoreTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore"
 
 &cloudfrontkeyvaluestore.CloudfrontKeyValueStoreTags {
 	Key: *string,
@@ -1138,7 +1138,7 @@ The string length should be between 0 and 256 characters. Valid characters inclu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStoreImportSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore"
 
 cloudfrontkeyvaluestore.NewCloudfrontKeyValueStoreImportSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontKeyValueStoreImportSourceOutputReference
 ```
@@ -1445,7 +1445,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStoreTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore"
 
 cloudfrontkeyvaluestore.NewCloudfrontKeyValueStoreTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontKeyValueStoreTagsList
 ```
@@ -1605,7 +1605,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontKeyValueStore.CloudfrontKeyValueStoreTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore"
 
 cloudfrontkeyvaluestore.NewCloudfrontKeyValueStoreTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudfrontKeyValueStoreTagsOutputReference
 ```

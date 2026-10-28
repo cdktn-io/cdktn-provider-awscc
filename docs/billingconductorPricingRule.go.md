@@ -4,12 +4,12 @@
 
 ### BillingconductorPricingRule <a name="BillingconductorPricingRule" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 billingconductorpricingrule.NewBillingconductorPricingRule(scope Construct, id *string, config BillingconductorPricingRuleConfig) BillingconductorPricingRule
 ```
@@ -482,7 +482,7 @@ func ResetUsageType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 billingconductorpricingrule.BillingconductorPricingRule_IsConstruct(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 billingconductorpricingrule.BillingconductorPricingRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ billingconductorpricingrule.BillingconductorPricingRule_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 billingconductorpricingrule.BillingconductorPricingRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -542,7 +542,7 @@ billingconductorpricingrule.BillingconductorPricingRule_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 billingconductorpricingrule.BillingconductorPricingRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -571,7 +571,7 @@ The construct id used in the generated config for the BillingconductorPricingRul
 
 The id of the existing BillingconductorPricingRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1068,7 +1068,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 &billingconductorpricingrule.BillingconductorPricingRuleConfig {
 	Connection: interface{},
@@ -1087,7 +1087,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricin
 	Operation: *string,
 	Service: *string,
 	Tags: interface{},
-	Tiering: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.billingconductorPricingRule.BillingconductorPricingRuleTiering,
+	Tiering: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.billingconductorPricingRule.BillingconductorPricingRuleTiering,
 	UsageType: *string,
 }
 ```
@@ -1111,7 +1111,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricin
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.modifierPercentage">ModifierPercentage</a></code> | <code>*f64</code> | Pricing rule modifier percentage. |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.operation">Operation</a></code> | <code>*string</code> | The Operation which a SKU pricing rule is modifying. |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.service">Service</a></code> | <code>*string</code> | The service which a pricing rule is applied on. |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}. |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.tiering">Tiering</a></code> | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTiering">BillingconductorPricingRuleTiering</a></code> | The set of tiering configurations for the pricing rule. |
 | <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleConfig.property.usageType">UsageType</a></code> | <code>*string</code> | The UsageType which a SKU pricing rule is modifying. |
 
@@ -1197,7 +1197,7 @@ Name *string
 
 Pricing rule name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#name BillingconductorPricingRule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#name BillingconductorPricingRule#name}
 
 ---
 
@@ -1211,7 +1211,7 @@ Scope *string
 
 A term used to categorize the granularity of a Pricing Rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#scope BillingconductorPricingRule#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#scope BillingconductorPricingRule#scope}
 
 ---
 
@@ -1225,7 +1225,7 @@ Type *string
 
 One of MARKUP, DISCOUNT or TIERING that describes the behaviour of the pricing rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#type BillingconductorPricingRule#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#type BillingconductorPricingRule#type}
 
 ---
 
@@ -1241,7 +1241,7 @@ The seller of services provided by AWS, their affiliates, or third-party provide
 
 Supported billing entities are AWS, AWS Marketplace, and AISPL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#billing_entity BillingconductorPricingRule#billing_entity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#billing_entity BillingconductorPricingRule#billing_entity}
 
 ---
 
@@ -1255,7 +1255,7 @@ Description *string
 
 Pricing rule description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#description BillingconductorPricingRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#description BillingconductorPricingRule#description}
 
 ---
 
@@ -1269,7 +1269,7 @@ ModifierPercentage *f64
 
 Pricing rule modifier percentage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#modifier_percentage BillingconductorPricingRule#modifier_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#modifier_percentage BillingconductorPricingRule#modifier_percentage}
 
 ---
 
@@ -1283,7 +1283,7 @@ Operation *string
 
 The Operation which a SKU pricing rule is modifying.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#operation BillingconductorPricingRule#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#operation BillingconductorPricingRule#operation}
 
 ---
 
@@ -1297,7 +1297,7 @@ Service *string
 
 The service which a pricing rule is applied on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#service BillingconductorPricingRule#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#service BillingconductorPricingRule#service}
 
 ---
 
@@ -1309,7 +1309,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}.
 
 ---
 
@@ -1323,7 +1323,7 @@ Tiering BillingconductorPricingRuleTiering
 
 The set of tiering configurations for the pricing rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#tiering BillingconductorPricingRule#tiering}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#tiering BillingconductorPricingRule#tiering}
 
 ---
 
@@ -1337,7 +1337,7 @@ UsageType *string
 
 The UsageType which a SKU pricing rule is modifying.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#usage_type BillingconductorPricingRule#usage_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#usage_type BillingconductorPricingRule#usage_type}
 
 ---
 
@@ -1346,7 +1346,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 &billingconductorpricingrule.BillingconductorPricingRuleTags {
 	Key: *string,
@@ -1358,8 +1358,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}. |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}. |
 
 ---
 
@@ -1371,7 +1371,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}.
 
 ---
 
@@ -1383,7 +1383,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}.
 
 ---
 
@@ -1392,11 +1392,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTiering.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 &billingconductorpricingrule.BillingconductorPricingRuleTiering {
 	CustomTiers: interface{},
-	FreeTier: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTier,
+	FreeTier: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTier,
 }
 ```
 
@@ -1421,7 +1421,7 @@ The set of custom volume tiers for a SKU-scoped TIERING pricing rule.
 
 Tiers must start at 0, be contiguous, and the last tier must have no end range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#custom_tiers BillingconductorPricingRule#custom_tiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#custom_tiers BillingconductorPricingRule#custom_tiers}
 
 ---
 
@@ -1435,7 +1435,7 @@ FreeTier BillingconductorPricingRuleTieringFreeTier
 
 The possible customizable free tier configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#free_tier BillingconductorPricingRule#free_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#free_tier BillingconductorPricingRule#free_tier}
 
 ---
 
@@ -1444,7 +1444,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 &billingconductorpricingrule.BillingconductorPricingRuleTieringCustomTiers {
 	BeginRangeInclusive: *f64,
@@ -1473,7 +1473,7 @@ BeginRangeInclusive *f64
 
 The inclusive beginning of the tier's usage range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#begin_range_inclusive BillingconductorPricingRule#begin_range_inclusive}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#begin_range_inclusive BillingconductorPricingRule#begin_range_inclusive}
 
 ---
 
@@ -1487,7 +1487,7 @@ EndRangeExclusive *f64
 
 The exclusive end of the tier's usage range. Omit for the last tier (infinity).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#end_range_exclusive BillingconductorPricingRule#end_range_exclusive}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#end_range_exclusive BillingconductorPricingRule#end_range_exclusive}
 
 ---
 
@@ -1501,7 +1501,7 @@ RateValue *f64
 
 The custom rate applied to usage within the tier's range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#rate_value BillingconductorPricingRule#rate_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#rate_value BillingconductorPricingRule#rate_value}
 
 ---
 
@@ -1510,7 +1510,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 &billingconductorpricingrule.BillingconductorPricingRuleTieringFreeTier {
 	Activated: interface{},
@@ -1521,7 +1521,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTier.property.activated">Activated</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}. |
+| <code><a href="#@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTier.property.activated">Activated</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}. |
 
 ---
 
@@ -1533,7 +1533,7 @@ Activated interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}.
 
 ---
 
@@ -1544,7 +1544,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 billingconductorpricingrule.NewBillingconductorPricingRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BillingconductorPricingRuleTagsList
 ```
@@ -1704,7 +1704,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 billingconductorpricingrule.NewBillingconductorPricingRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BillingconductorPricingRuleTagsOutputReference
 ```
@@ -2029,7 +2029,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 billingconductorpricingrule.NewBillingconductorPricingRuleTieringCustomTiersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BillingconductorPricingRuleTieringCustomTiersList
 ```
@@ -2189,7 +2189,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringCustomTiersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 billingconductorpricingrule.NewBillingconductorPricingRuleTieringCustomTiersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BillingconductorPricingRuleTieringCustomTiersOutputReference
 ```
@@ -2543,7 +2543,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringFreeTierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 billingconductorpricingrule.NewBillingconductorPricingRuleTieringFreeTierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BillingconductorPricingRuleTieringFreeTierOutputReference
 ```
@@ -2821,7 +2821,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.billingconductorPricingRule.BillingconductorPricingRuleTieringOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingrule"
 
 billingconductorpricingrule.NewBillingconductorPricingRuleTieringOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BillingconductorPricingRuleTieringOutputReference
 ```

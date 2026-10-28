@@ -4,12 +4,12 @@
 
 ### MediaconnectBridgeOutput <a name="MediaconnectBridgeOutput" id="@cdktn/provider-awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutput"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridgeoutput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridgeoutput"
 
 mediaconnectbridgeoutput.NewMediaconnectBridgeOutput(scope Construct, id *string, config MediaconnectBridgeOutputConfig) MediaconnectBridgeOutput
 ```
@@ -413,7 +413,7 @@ func PutNetworkOutput(value MediaconnectBridgeOutputNetworkOutput)
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutput.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridgeoutput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridgeoutput"
 
 mediaconnectbridgeoutput.MediaconnectBridgeOutput_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutput.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridgeoutput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridgeoutput"
 
 mediaconnectbridgeoutput.MediaconnectBridgeOutput_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ mediaconnectbridgeoutput.MediaconnectBridgeOutput_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutput.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridgeoutput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridgeoutput"
 
 mediaconnectbridgeoutput.MediaconnectBridgeOutput_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ mediaconnectbridgeoutput.MediaconnectBridgeOutput_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutput.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridgeoutput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridgeoutput"
 
 mediaconnectbridgeoutput.MediaconnectBridgeOutput_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the MediaconnectBridgeOutput t
 
 The id of the existing MediaconnectBridgeOutput that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -779,7 +779,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridgeoutput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridgeoutput"
 
 &mediaconnectbridgeoutput.MediaconnectBridgeOutputConfig {
 	Connection: interface{},
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridgeoutp
 	Provisioners: *[]interface{},
 	BridgeArn: *string,
 	Name: *string,
-	NetworkOutput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutputNetworkOutput,
+	NetworkOutput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectBridgeOutput.MediaconnectBridgeOutputNetworkOutput,
 }
 ```
 
@@ -892,7 +892,7 @@ BridgeArn *string
 
 The Amazon Resource Number (ARN) of the bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output#bridge_arn MediaconnectBridgeOutput#bridge_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output#bridge_arn MediaconnectBridgeOutput#bridge_arn}
 
 ---
 
@@ -906,7 +906,7 @@ Name *string
 
 The network output name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output#name MediaconnectBridgeOutput#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output#name MediaconnectBridgeOutput#name}
 
 ---
 
@@ -920,7 +920,7 @@ NetworkOutput MediaconnectBridgeOutputNetworkOutput
 
 The output of the bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output#network_output MediaconnectBridgeOutput#network_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output#network_output MediaconnectBridgeOutput#network_output}
 
 ---
 
@@ -929,7 +929,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutputNetworkOutput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridgeoutput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridgeoutput"
 
 &mediaconnectbridgeoutput.MediaconnectBridgeOutputNetworkOutput {
 	IpAddress: *string,
@@ -962,7 +962,7 @@ IpAddress *string
 
 The network output IP Address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output#ip_address MediaconnectBridgeOutput#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output#ip_address MediaconnectBridgeOutput#ip_address}
 
 ---
 
@@ -976,7 +976,7 @@ NetworkName *string
 
 The network output's gateway network name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output#network_name MediaconnectBridgeOutput#network_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output#network_name MediaconnectBridgeOutput#network_name}
 
 ---
 
@@ -990,7 +990,7 @@ Port *f64
 
 The network output port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output#port MediaconnectBridgeOutput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output#port MediaconnectBridgeOutput#port}
 
 ---
 
@@ -1004,7 +1004,7 @@ Protocol *string
 
 The network output protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output#protocol MediaconnectBridgeOutput#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output#protocol MediaconnectBridgeOutput#protocol}
 
 ---
 
@@ -1018,7 +1018,7 @@ Ttl *f64
 
 The network output TTL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output#ttl MediaconnectBridgeOutput#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output#ttl MediaconnectBridgeOutput#ttl}
 
 ---
 
@@ -1029,7 +1029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutputNetworkOutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridgeoutput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridgeoutput"
 
 mediaconnectbridgeoutput.NewMediaconnectBridgeOutputNetworkOutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectBridgeOutputNetworkOutputOutputReference
 ```

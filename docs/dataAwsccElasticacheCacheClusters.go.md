@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticacheCacheClusters <a name="DataAwsccElasticacheCacheClusters" id="@cdktn/provider-awscc.dataAwsccElasticacheCacheClusters.DataAwsccElasticacheCacheClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_cache_clusters awscc_elasticache_cache_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_cache_clusters awscc_elasticache_cache_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheCacheClusters.DataAwsccElasticacheCacheClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachecacheclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachecacheclusters"
 
 dataawsccelasticachecacheclusters.NewDataAwsccElasticacheCacheClusters(scope Construct, id *string, config DataAwsccElasticacheCacheClustersConfig) DataAwsccElasticacheCacheClusters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticacheCacheClusters.DataAwsccElasticacheCacheClusters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachecacheclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachecacheclusters"
 
 dataawsccelasticachecacheclusters.DataAwsccElasticacheCacheClusters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticacheCacheClusters.DataAwsccElasticacheCacheClusters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachecacheclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachecacheclusters"
 
 dataawsccelasticachecacheclusters.DataAwsccElasticacheCacheClusters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticachecacheclusters.DataAwsccElasticacheCacheClusters_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticacheCacheClusters.DataAwsccElasticacheCacheClusters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachecacheclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachecacheclusters"
 
 dataawsccelasticachecacheclusters.DataAwsccElasticacheCacheClusters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticachecacheclusters.DataAwsccElasticacheCacheClusters_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticacheCacheClusters.DataAwsccElasticacheCacheClusters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachecacheclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachecacheclusters"
 
 dataawsccelasticachecacheclusters.DataAwsccElasticacheCacheClusters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticacheCacheC
 
 The id of the existing DataAwsccElasticacheCacheClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_cache_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_cache_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticacheCacheClusters.DataAwsccElasticacheCacheClustersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachecacheclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachecacheclusters"
 
 &dataawsccelasticachecacheclusters.DataAwsccElasticacheCacheClustersConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### SmsvoiceRcsAgent <a name="SmsvoiceRcsAgent" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicercsagent"
 
 smsvoicercsagent.NewSmsvoiceRcsAgent(scope Construct, id *string, config SmsvoiceRcsAgentConfig) SmsvoiceRcsAgent
 ```
@@ -490,7 +490,7 @@ func ResetTwoWayRcsEventsEnabled()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicercsagent"
 
 smsvoicercsagent.SmsvoiceRcsAgent_IsConstruct(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicercsagent"
 
 smsvoicercsagent.SmsvoiceRcsAgent_IsTerraformElement(x interface{}) *bool
 ```
@@ -536,7 +536,7 @@ smsvoicercsagent.SmsvoiceRcsAgent_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgent.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicercsagent"
 
 smsvoicercsagent.SmsvoiceRcsAgent_IsTerraformResource(x interface{}) *bool
 ```
@@ -550,7 +550,7 @@ smsvoicercsagent.SmsvoiceRcsAgent_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicercsagent"
 
 smsvoicercsagent.SmsvoiceRcsAgent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -579,7 +579,7 @@ The construct id used in the generated config for the SmsvoiceRcsAgent to import
 
 The id of the existing SmsvoiceRcsAgent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1098,7 +1098,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicercsagent"
 
 &smsvoicercsagent.SmsvoiceRcsAgentConfig {
 	Connection: interface{},
@@ -1227,7 +1227,7 @@ DeletionProtectionEnabled interface{}
 
 When set to true the RCS agent can't be deleted. By default this is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#deletion_protection_enabled SmsvoiceRcsAgent#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#deletion_protection_enabled SmsvoiceRcsAgent#deletion_protection_enabled}
 
 ---
 
@@ -1241,7 +1241,7 @@ OptOutListName *string
 
 The name of the opt-out list associated with the RCS agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#opt_out_list_name SmsvoiceRcsAgent#opt_out_list_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#opt_out_list_name SmsvoiceRcsAgent#opt_out_list_name}
 
 ---
 
@@ -1257,7 +1257,7 @@ When set to true you're responsible for responding to HELP and STOP requests, an
 
 By default this is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#self_managed_opt_outs_enabled SmsvoiceRcsAgent#self_managed_opt_outs_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#self_managed_opt_outs_enabled SmsvoiceRcsAgent#self_managed_opt_outs_enabled}
 
 ---
 
@@ -1271,7 +1271,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to the RCS agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#tags SmsvoiceRcsAgent#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#tags SmsvoiceRcsAgent#tags}
 
 ---
 
@@ -1285,7 +1285,7 @@ TwoWayChannelArn *string
 
 The Amazon Resource Name (ARN) of the two way channel where inbound messages are delivered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#two_way_channel_arn SmsvoiceRcsAgent#two_way_channel_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#two_way_channel_arn SmsvoiceRcsAgent#two_way_channel_arn}
 
 ---
 
@@ -1299,7 +1299,7 @@ TwoWayChannelRole *string
 
 The Amazon Resource Name (ARN) of an IAM role for the service to assume in order to post inbound messages to the two way channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#two_way_channel_role SmsvoiceRcsAgent#two_way_channel_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#two_way_channel_role SmsvoiceRcsAgent#two_way_channel_role}
 
 ---
 
@@ -1313,7 +1313,7 @@ TwoWayEnabled interface{}
 
 When set to true two-way messaging is enabled for the RCS agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#two_way_enabled SmsvoiceRcsAgent#two_way_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#two_way_enabled SmsvoiceRcsAgent#two_way_enabled}
 
 ---
 
@@ -1327,7 +1327,7 @@ TwoWayMediaS3BucketName *string
 
 The name of the Amazon S3 bucket where inbound RCS media objects are written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#two_way_media_s3_bucket_name SmsvoiceRcsAgent#two_way_media_s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#two_way_media_s3_bucket_name SmsvoiceRcsAgent#two_way_media_s3_bucket_name}
 
 ---
 
@@ -1341,7 +1341,7 @@ TwoWayMediaS3KeyPrefix *string
 
 The key prefix used for inbound RCS media objects in the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#two_way_media_s3_key_prefix SmsvoiceRcsAgent#two_way_media_s3_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#two_way_media_s3_key_prefix SmsvoiceRcsAgent#two_way_media_s3_key_prefix}
 
 ---
 
@@ -1357,7 +1357,7 @@ The Amazon Resource Name (ARN) of the IAM role used to write inbound RCS media f
 
 The role must have s3:PutObject permission on the bucket and a trust policy allowing sms-voice.amazonaws.com to assume it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#two_way_media_s3_role SmsvoiceRcsAgent#two_way_media_s3_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#two_way_media_s3_role SmsvoiceRcsAgent#two_way_media_s3_role}
 
 ---
 
@@ -1373,7 +1373,7 @@ The list of RCS event types enabled for two-way messaging.
 
 An empty list disables all event types. The special value ALL enables all current and future event types and must be the only element if used. Requires TwoWayEnabled to be true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#two_way_rcs_events_enabled SmsvoiceRcsAgent#two_way_rcs_events_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#two_way_rcs_events_enabled SmsvoiceRcsAgent#two_way_rcs_events_enabled}
 
 ---
 
@@ -1382,7 +1382,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicercsagent"
 
 &smsvoicercsagent.SmsvoiceRcsAgentTags {
 	Key: *string,
@@ -1409,7 +1409,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#key SmsvoiceRcsAgent#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#key SmsvoiceRcsAgent#key}
 
 ---
 
@@ -1423,7 +1423,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#value SmsvoiceRcsAgent#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_rcs_agent#value SmsvoiceRcsAgent#value}
 
 ---
 
@@ -1432,7 +1432,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgentTestingAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicercsagent"
 
 &smsvoicercsagent.SmsvoiceRcsAgentTestingAgent {
 
@@ -1447,7 +1447,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicercsagent"
 
 smsvoicercsagent.NewSmsvoiceRcsAgentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoiceRcsAgentTagsList
 ```
@@ -1607,7 +1607,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicercsagent"
 
 smsvoicercsagent.NewSmsvoiceRcsAgentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoiceRcsAgentTagsOutputReference
 ```
@@ -1932,7 +1932,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceRcsAgent.SmsvoiceRcsAgentTestingAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicercsagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicercsagent"
 
 smsvoicercsagent.NewSmsvoiceRcsAgentTestingAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoiceRcsAgentTestingAgentOutputReference
 ```

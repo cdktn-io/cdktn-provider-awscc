@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockPrompt <a name="DataAwsccBedrockPrompt" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPrompt"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_prompt awscc_bedrock_prompt}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_prompt awscc_bedrock_prompt}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPrompt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPrompt(scope Construct, id *string, config DataAwsccBedrockPromptConfig) DataAwsccBedrockPrompt
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPrompt.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.DataAwsccBedrockPrompt_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPrompt.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.DataAwsccBedrockPrompt_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockprompt.DataAwsccBedrockPrompt_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPrompt.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.DataAwsccBedrockPrompt_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockprompt.DataAwsccBedrockPrompt_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPrompt.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.DataAwsccBedrockPrompt_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockPrompt to 
 
 The id of the existing DataAwsccBedrockPrompt that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_prompt#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_prompt#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_prompt#id DataAwsccBedrockPrompt#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_prompt#id DataAwsccBedrockPrompt#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariants.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariants {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsGenAiResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsGenAiResource {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsGenAiResourceAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsGenAiResourceAgent {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsInferenceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsInferenceConfiguration {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsInferenceConfigurationText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsInferenceConfigurationText {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsMetadata {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfiguration {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChat {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatInputVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatInputVariables {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessages {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContent {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePoint {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatSystem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatSystem {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatSystemCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatSystemCachePoint {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfiguration {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoice.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoice {
 
@@ -1037,7 +1037,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceTool {
 
@@ -1050,7 +1050,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationTools.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationTools {
 
@@ -1063,7 +1063,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePoint {
 
@@ -1076,7 +1076,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec {
 
@@ -1089,7 +1089,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema {
 
@@ -1102,7 +1102,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationText {
 
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationTextCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationTextCachePoint {
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationTextInputVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationTextInputVariables {
 
@@ -1141,7 +1141,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationTextTextS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 &dataawsccbedrockprompt.DataAwsccBedrockPromptVariantsTemplateConfigurationTextTextS3Location {
 
@@ -1156,7 +1156,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsGenAiResourceAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsGenAiResourceAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsGenAiResourceAgentOutputReference
 ```
@@ -1416,7 +1416,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsGenAiResourceAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsGenAiResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsGenAiResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsGenAiResourceOutputReference
 ```
@@ -1676,7 +1676,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsGenAiResource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsInferenceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsInferenceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsInferenceConfigurationOutputReference
 ```
@@ -1936,7 +1936,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsInferenceConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsInferenceConfigurationTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsInferenceConfigurationTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsInferenceConfigurationTextOutputReference
 ```
@@ -2229,7 +2229,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsInferenceConfigurationText
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockPromptVariantsList
 ```
@@ -2378,7 +2378,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockPromptVariantsMetadataList
 ```
@@ -2527,7 +2527,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockPromptVariantsMetadataOutputReference
 ```
@@ -2816,7 +2816,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockPromptVariantsOutputReference
 ```
@@ -3171,7 +3171,7 @@ func InternalValue() DataAwsccBedrockPromptVariants
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatInputVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatInputVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationChatInputVariablesList
 ```
@@ -3320,7 +3320,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatInputVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatInputVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationChatInputVariablesOutputReference
 ```
@@ -3598,7 +3598,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatInpu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePointOutputReference
 ```
@@ -3858,7 +3858,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatMess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContentList
 ```
@@ -4007,7 +4007,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesContentOutputReference
 ```
@@ -4296,7 +4296,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatMess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesList
 ```
@@ -4445,7 +4445,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationChatMessagesOutputReference
 ```
@@ -4734,7 +4734,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatMess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationChatOutputReference
 ```
@@ -5027,7 +5027,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatSystemCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatSystemCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationChatSystemCachePointOutputReference
 ```
@@ -5287,7 +5287,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatSyst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatSystemList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatSystemList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationChatSystemList
 ```
@@ -5436,7 +5436,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatSystemOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatSystemOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationChatSystemOutputReference
 ```
@@ -5725,7 +5725,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatSyst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationOutputReference
 ```
@@ -5996,7 +5996,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceOutputReference
 ```
@@ -6278,7 +6278,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference
 ```
@@ -6538,7 +6538,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePointOutputReference
 ```
@@ -6798,7 +6798,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsList
 ```
@@ -6947,7 +6947,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsOutputReference
 ```
@@ -7236,7 +7236,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchemaOutputReference
 ```
@@ -7496,7 +7496,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecOutputReference
 ```
@@ -7778,7 +7778,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationChatTool
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationOutputReference
 ```
@@ -8049,7 +8049,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationTextCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationTextCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationTextCachePointOutputReference
 ```
@@ -8309,7 +8309,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationTextCach
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationTextInputVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationTextInputVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationTextInputVariablesList
 ```
@@ -8458,7 +8458,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationTextInputVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationTextInputVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockPromptVariantsTemplateConfigurationTextInputVariablesOutputReference
 ```
@@ -8736,7 +8736,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationTextInpu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationTextOutputReference
 ```
@@ -9029,7 +9029,7 @@ func InternalValue() DataAwsccBedrockPromptVariantsTemplateConfigurationText
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompt.DataAwsccBedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockprompt"
 
 dataawsccbedrockprompt.NewDataAwsccBedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53QueryLoggingConfigs <a name="DataAwsccRoute53QueryLoggingConfigs" id="@cdktn/provider-awscc.dataAwsccRoute53QueryLoggingConfigs.DataAwsccRoute53QueryLoggingConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_query_logging_configs awscc_route53_query_logging_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_query_logging_configs awscc_route53_query_logging_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53QueryLoggingConfigs.DataAwsccRoute53QueryLoggingConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53queryloggingconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53queryloggingconfigs"
 
 dataawsccroute53queryloggingconfigs.NewDataAwsccRoute53QueryLoggingConfigs(scope Construct, id *string, config DataAwsccRoute53QueryLoggingConfigsConfig) DataAwsccRoute53QueryLoggingConfigs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53QueryLoggingConfigs.DataAwsccRoute53QueryLoggingConfigs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53queryloggingconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53queryloggingconfigs"
 
 dataawsccroute53queryloggingconfigs.DataAwsccRoute53QueryLoggingConfigs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53QueryLoggingConfigs.DataAwsccRoute53QueryLoggingConfigs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53queryloggingconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53queryloggingconfigs"
 
 dataawsccroute53queryloggingconfigs.DataAwsccRoute53QueryLoggingConfigs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53queryloggingconfigs.DataAwsccRoute53QueryLoggingConfigs_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53QueryLoggingConfigs.DataAwsccRoute53QueryLoggingConfigs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53queryloggingconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53queryloggingconfigs"
 
 dataawsccroute53queryloggingconfigs.DataAwsccRoute53QueryLoggingConfigs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53queryloggingconfigs.DataAwsccRoute53QueryLoggingConfigs_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53QueryLoggingConfigs.DataAwsccRoute53QueryLoggingConfigs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53queryloggingconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53queryloggingconfigs"
 
 dataawsccroute53queryloggingconfigs.DataAwsccRoute53QueryLoggingConfigs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53QueryLoggi
 
 The id of the existing DataAwsccRoute53QueryLoggingConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_query_logging_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_query_logging_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53QueryLoggingConfigs.DataAwsccRoute53QueryLoggingConfigsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53queryloggingconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53queryloggingconfigs"
 
 &dataawsccroute53queryloggingconfigs.DataAwsccRoute53QueryLoggingConfigsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccEvidentlyExperiment <a name="DataAwsccEvidentlyExperiment" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperiment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_experiment awscc_evidently_experiment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_experiment awscc_evidently_experiment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperiment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.NewDataAwsccEvidentlyExperiment(scope Construct, id *string, config DataAwsccEvidentlyExperimentConfig) DataAwsccEvidentlyExperiment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperiment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.DataAwsccEvidentlyExperiment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperiment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.DataAwsccEvidentlyExperiment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccevidentlyexperiment.DataAwsccEvidentlyExperiment_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperiment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.DataAwsccEvidentlyExperiment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccevidentlyexperiment.DataAwsccEvidentlyExperiment_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperiment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.DataAwsccEvidentlyExperiment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEvidentlyExperime
 
 The id of the existing DataAwsccEvidentlyExperiment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_experiment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_experiment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 &dataawsccevidentlyexperiment.DataAwsccEvidentlyExperimentConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_experiment#id DataAwsccEvidentlyExperiment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_experiment#id DataAwsccEvidentlyExperiment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentMetricGoals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 &dataawsccevidentlyexperiment.DataAwsccEvidentlyExperimentMetricGoals {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexpe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentOnlineAbConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 &dataawsccevidentlyexperiment.DataAwsccEvidentlyExperimentOnlineAbConfig {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexpe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentOnlineAbConfigTreatmentWeights.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 &dataawsccevidentlyexperiment.DataAwsccEvidentlyExperimentOnlineAbConfigTreatmentWeights {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexpe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentRunningStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 &dataawsccevidentlyexperiment.DataAwsccEvidentlyExperimentRunningStatus {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexpe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 &dataawsccevidentlyexperiment.DataAwsccEvidentlyExperimentTags {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexpe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentTreatments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 &dataawsccevidentlyexperiment.DataAwsccEvidentlyExperimentTreatments {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexpe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentMetricGoalsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.NewDataAwsccEvidentlyExperimentMetricGoalsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvidentlyExperimentMetricGoalsList
 ```
@@ -1080,7 +1080,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentMetricGoalsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.NewDataAwsccEvidentlyExperimentMetricGoalsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvidentlyExperimentMetricGoalsOutputReference
 ```
@@ -1413,7 +1413,7 @@ func InternalValue() DataAwsccEvidentlyExperimentMetricGoals
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentOnlineAbConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.NewDataAwsccEvidentlyExperimentOnlineAbConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvidentlyExperimentOnlineAbConfigOutputReference
 ```
@@ -1684,7 +1684,7 @@ func InternalValue() DataAwsccEvidentlyExperimentOnlineAbConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentOnlineAbConfigTreatmentWeightsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.NewDataAwsccEvidentlyExperimentOnlineAbConfigTreatmentWeightsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvidentlyExperimentOnlineAbConfigTreatmentWeightsList
 ```
@@ -1833,7 +1833,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentOnlineAbConfigTreatmentWeightsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.NewDataAwsccEvidentlyExperimentOnlineAbConfigTreatmentWeightsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvidentlyExperimentOnlineAbConfigTreatmentWeightsOutputReference
 ```
@@ -2122,7 +2122,7 @@ func InternalValue() DataAwsccEvidentlyExperimentOnlineAbConfigTreatmentWeights
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentRunningStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.NewDataAwsccEvidentlyExperimentRunningStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEvidentlyExperimentRunningStatusOutputReference
 ```
@@ -2415,7 +2415,7 @@ func InternalValue() DataAwsccEvidentlyExperimentRunningStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.NewDataAwsccEvidentlyExperimentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvidentlyExperimentTagsList
 ```
@@ -2564,7 +2564,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.NewDataAwsccEvidentlyExperimentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvidentlyExperimentTagsOutputReference
 ```
@@ -2853,7 +2853,7 @@ func InternalValue() DataAwsccEvidentlyExperimentTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentTreatmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.NewDataAwsccEvidentlyExperimentTreatmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEvidentlyExperimentTreatmentsList
 ```
@@ -3002,7 +3002,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvidentlyExperiment.DataAwsccEvidentlyExperimentTreatmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment"
 
 dataawsccevidentlyexperiment.NewDataAwsccEvidentlyExperimentTreatmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEvidentlyExperimentTreatmentsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### SagemakerDevice <a name="SagemakerDevice" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDevice"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_device awscc_sagemaker_device}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_device awscc_sagemaker_device}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDevice.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdevice"
 
 sagemakerdevice.NewSagemakerDevice(scope Construct, id *string, config SagemakerDeviceConfig) SagemakerDevice
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDevice.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdevice"
 
 sagemakerdevice.SagemakerDevice_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDevice.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdevice"
 
 sagemakerdevice.SagemakerDevice_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ sagemakerdevice.SagemakerDevice_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDevice.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdevice"
 
 sagemakerdevice.SagemakerDevice_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ sagemakerdevice.SagemakerDevice_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDevice.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdevice"
 
 sagemakerdevice.SagemakerDevice_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SagemakerDevice to import.
 
 The id of the existing SagemakerDevice that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_device#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_device#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -806,7 +806,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDeviceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdevice"
 
 &sagemakerdevice.SagemakerDeviceConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	DeviceFleetName: *string,
-	Device: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerDevice.SagemakerDeviceDevice,
+	Device: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerDevice.SagemakerDeviceDevice,
 	Tags: interface{},
 }
 ```
@@ -919,7 +919,7 @@ DeviceFleetName *string
 
 The name of the edge device fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_device#device_fleet_name SagemakerDevice#device_fleet_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_device#device_fleet_name SagemakerDevice#device_fleet_name}
 
 ---
 
@@ -933,7 +933,7 @@ Device SagemakerDeviceDevice
 
 The Edge Device you want to register against a device fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_device#device SagemakerDevice#device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_device#device SagemakerDevice#device}
 
 ---
 
@@ -947,7 +947,7 @@ Tags interface{}
 
 Associate tags with the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_device#tags SagemakerDevice#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_device#tags SagemakerDevice#tags}
 
 ---
 
@@ -956,7 +956,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDeviceDevice.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdevice"
 
 &sagemakerdevice.SagemakerDeviceDevice {
 	Description: *string,
@@ -985,7 +985,7 @@ Description *string
 
 Description of the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_device#description SagemakerDevice#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_device#description SagemakerDevice#description}
 
 ---
 
@@ -999,7 +999,7 @@ DeviceName *string
 
 The name of the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_device#device_name SagemakerDevice#device_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_device#device_name SagemakerDevice#device_name}
 
 ---
 
@@ -1013,7 +1013,7 @@ IotThingName *string
 
 AWS Internet of Things (IoT) object name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_device#iot_thing_name SagemakerDevice#iot_thing_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_device#iot_thing_name SagemakerDevice#iot_thing_name}
 
 ---
 
@@ -1022,7 +1022,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDeviceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdevice"
 
 &sagemakerdevice.SagemakerDeviceTags {
 	Key: *string,
@@ -1051,7 +1051,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_device#key SagemakerDevice#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_device#key SagemakerDevice#key}
 
 ---
 
@@ -1067,7 +1067,7 @@ The key value of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_device#value SagemakerDevice#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_device#value SagemakerDevice#value}
 
 ---
 
@@ -1078,7 +1078,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDeviceDeviceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdevice"
 
 sagemakerdevice.NewSagemakerDeviceDeviceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerDeviceDeviceOutputReference
 ```
@@ -1414,7 +1414,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDeviceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdevice"
 
 sagemakerdevice.NewSagemakerDeviceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerDeviceTagsList
 ```
@@ -1574,7 +1574,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDeviceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdevice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdevice"
 
 sagemakerdevice.NewSagemakerDeviceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerDeviceTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccDeadlineFarms <a name="DataAwsccDeadlineFarms" id="@cdktn/provider-awscc.dataAwsccDeadlineFarms.DataAwsccDeadlineFarms"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_farms awscc_deadline_farms}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_farms awscc_deadline_farms}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFarms.DataAwsccDeadlineFarms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarms"
 
 dataawsccdeadlinefarms.NewDataAwsccDeadlineFarms(scope Construct, id *string, config DataAwsccDeadlineFarmsConfig) DataAwsccDeadlineFarms
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDeadlineFarms.DataAwsccDeadlineFarms.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarms"
 
 dataawsccdeadlinefarms.DataAwsccDeadlineFarms_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDeadlineFarms.DataAwsccDeadlineFarms.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarms"
 
 dataawsccdeadlinefarms.DataAwsccDeadlineFarms_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdeadlinefarms.DataAwsccDeadlineFarms_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDeadlineFarms.DataAwsccDeadlineFarms.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarms"
 
 dataawsccdeadlinefarms.DataAwsccDeadlineFarms_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdeadlinefarms.DataAwsccDeadlineFarms_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDeadlineFarms.DataAwsccDeadlineFarms.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarms"
 
 dataawsccdeadlinefarms.DataAwsccDeadlineFarms_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDeadlineFarms to 
 
 The id of the existing DataAwsccDeadlineFarms that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_farms#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_farms#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFarms.DataAwsccDeadlineFarmsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefarms"
 
 &dataawsccdeadlinefarms.DataAwsccDeadlineFarmsConfig {
 	Connection: interface{},

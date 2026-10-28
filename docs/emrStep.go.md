@@ -4,12 +4,12 @@
 
 ### EmrStep <a name="EmrStep" id="@cdktn/provider-awscc.emrStep.EmrStep"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step awscc_emr_step}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step awscc_emr_step}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.emrStep.EmrStep.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep"
 
 emrstep.NewEmrStep(scope Construct, id *string, config EmrStepConfig) EmrStep
 ```
@@ -427,7 +427,7 @@ func ResetLogUri()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.emrStep.EmrStep.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep"
 
 emrstep.EmrStep_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.emrStep.EmrStep.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep"
 
 emrstep.EmrStep_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ emrstep.EmrStep_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.emrStep.EmrStep.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep"
 
 emrstep.EmrStep_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ emrstep.EmrStep_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.emrStep.EmrStep.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep"
 
 emrstep.EmrStep_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the EmrStep to import.
 
 The id of the existing EmrStep that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.emrStep.EmrStepConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep"
 
 &emrstep.EmrStepConfig {
 	Connection: interface{},
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ActionOnFailure: *string,
-	HadoopJarStep: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.emrStep.EmrStepHadoopJarStep,
+	HadoopJarStep: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.emrStep.EmrStepHadoopJarStep,
 	JobFlowId: *string,
 	Name: *string,
 	EncryptionKeyArn: *string,
@@ -989,7 +989,7 @@ ActionOnFailure *string
 
 This specifies what action to take when the cluster step fails. Possible values are CANCEL_AND_WAIT and CONTINUE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#action_on_failure EmrStep#action_on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#action_on_failure EmrStep#action_on_failure}
 
 ---
 
@@ -1005,7 +1005,7 @@ The HadoopJarStepConfig property type specifies a job flow step consisting of a 
 
 The main function submits a job for the cluster to execute as a step on the master node, and then waits for the job to finish or fail before executing subsequent steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#hadoop_jar_step EmrStep#hadoop_jar_step}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#hadoop_jar_step EmrStep#hadoop_jar_step}
 
 ---
 
@@ -1019,7 +1019,7 @@ JobFlowId *string
 
 A string that uniquely identifies the cluster (job flow).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#job_flow_id EmrStep#job_flow_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#job_flow_id EmrStep#job_flow_id}
 
 ---
 
@@ -1033,7 +1033,7 @@ Name *string
 
 The name of the cluster step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#name EmrStep#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#name EmrStep#name}
 
 ---
 
@@ -1049,7 +1049,7 @@ The KMS key ARN to encrypt the logs published to the given Amazon S3 destination
 
 When omitted, EMR falls back to cluster-level logging behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#encryption_key_arn EmrStep#encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#encryption_key_arn EmrStep#encryption_key_arn}
 
 ---
 
@@ -1063,7 +1063,7 @@ LogUri *string
 
 The Amazon S3 destination URI for log publishing. When omitted, EMR falls back to cluster-level logging behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#log_uri EmrStep#log_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#log_uri EmrStep#log_uri}
 
 ---
 
@@ -1072,7 +1072,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep"
 
 &emrstep.EmrStepHadoopJarStep {
 	Jar: *string,
@@ -1086,10 +1086,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.jar">Jar</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#jar EmrStep#jar}. |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.args">Args</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#args EmrStep#args}. |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.mainClass">MainClass</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#main_class EmrStep#main_class}. |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.stepProperties">StepProperties</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#step_properties EmrStep#step_properties}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.jar">Jar</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#jar EmrStep#jar}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.args">Args</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#args EmrStep#args}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.mainClass">MainClass</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#main_class EmrStep#main_class}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.stepProperties">StepProperties</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#step_properties EmrStep#step_properties}. |
 
 ---
 
@@ -1101,7 +1101,7 @@ Jar *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#jar EmrStep#jar}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#jar EmrStep#jar}.
 
 ---
 
@@ -1113,7 +1113,7 @@ Args *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#args EmrStep#args}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#args EmrStep#args}.
 
 ---
 
@@ -1125,7 +1125,7 @@ MainClass *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#main_class EmrStep#main_class}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#main_class EmrStep#main_class}.
 
 ---
 
@@ -1137,7 +1137,7 @@ StepProperties interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#step_properties EmrStep#step_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#step_properties EmrStep#step_properties}.
 
 ---
 
@@ -1146,7 +1146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep"
 
 &emrstep.EmrStepHadoopJarStepStepProperties {
 	Key: *string,
@@ -1158,8 +1158,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#key EmrStep#key}. |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#value EmrStep#value}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#key EmrStep#key}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#value EmrStep#value}. |
 
 ---
 
@@ -1171,7 +1171,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#key EmrStep#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#key EmrStep#key}.
 
 ---
 
@@ -1183,7 +1183,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step#value EmrStep#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step#value EmrStep#value}.
 
 ---
 
@@ -1194,7 +1194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep"
 
 emrstep.NewEmrStepHadoopJarStepOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EmrStepHadoopJarStepOutputReference
 ```
@@ -1565,7 +1565,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep"
 
 emrstep.NewEmrStepHadoopJarStepStepPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EmrStepHadoopJarStepStepPropertiesList
 ```
@@ -1725,7 +1725,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep"
 
 emrstep.NewEmrStepHadoopJarStepStepPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EmrStepHadoopJarStepStepPropertiesOutputReference
 ```

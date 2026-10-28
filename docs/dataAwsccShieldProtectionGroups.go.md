@@ -4,12 +4,12 @@
 
 ### DataAwsccShieldProtectionGroups <a name="DataAwsccShieldProtectionGroups" id="@cdktn/provider-awscc.dataAwsccShieldProtectionGroups.DataAwsccShieldProtectionGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_protection_groups awscc_shield_protection_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_protection_groups awscc_shield_protection_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccShieldProtectionGroups.DataAwsccShieldProtectionGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldprotectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldprotectiongroups"
 
 dataawsccshieldprotectiongroups.NewDataAwsccShieldProtectionGroups(scope Construct, id *string, config DataAwsccShieldProtectionGroupsConfig) DataAwsccShieldProtectionGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccShieldProtectionGroups.DataAwsccShieldProtectionGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldprotectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldprotectiongroups"
 
 dataawsccshieldprotectiongroups.DataAwsccShieldProtectionGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccShieldProtectionGroups.DataAwsccShieldProtectionGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldprotectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldprotectiongroups"
 
 dataawsccshieldprotectiongroups.DataAwsccShieldProtectionGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccshieldprotectiongroups.DataAwsccShieldProtectionGroups_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccShieldProtectionGroups.DataAwsccShieldProtectionGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldprotectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldprotectiongroups"
 
 dataawsccshieldprotectiongroups.DataAwsccShieldProtectionGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccshieldprotectiongroups.DataAwsccShieldProtectionGroups_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccShieldProtectionGroups.DataAwsccShieldProtectionGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldprotectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldprotectiongroups"
 
 dataawsccshieldprotectiongroups.DataAwsccShieldProtectionGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccShieldProtectionG
 
 The id of the existing DataAwsccShieldProtectionGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_protection_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_protection_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccShieldProtectionGroups.DataAwsccShieldProtectionGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldprotectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldprotectiongroups"
 
 &dataawsccshieldprotectiongroups.DataAwsccShieldProtectionGroupsConfig {
 	Connection: interface{},

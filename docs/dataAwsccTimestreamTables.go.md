@@ -4,12 +4,12 @@
 
 ### DataAwsccTimestreamTables <a name="DataAwsccTimestreamTables" id="@cdktn/provider-awscc.dataAwsccTimestreamTables.DataAwsccTimestreamTables"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_tables awscc_timestream_tables}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_tables awscc_timestream_tables}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamTables.DataAwsccTimestreamTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamtables"
 
 dataawscctimestreamtables.NewDataAwsccTimestreamTables(scope Construct, id *string, config DataAwsccTimestreamTablesConfig) DataAwsccTimestreamTables
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTimestreamTables.DataAwsccTimestreamTables.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamtables"
 
 dataawscctimestreamtables.DataAwsccTimestreamTables_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTimestreamTables.DataAwsccTimestreamTables.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamtables"
 
 dataawscctimestreamtables.DataAwsccTimestreamTables_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctimestreamtables.DataAwsccTimestreamTables_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTimestreamTables.DataAwsccTimestreamTables.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamtables"
 
 dataawscctimestreamtables.DataAwsccTimestreamTables_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctimestreamtables.DataAwsccTimestreamTables_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTimestreamTables.DataAwsccTimestreamTables.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamtables"
 
 dataawscctimestreamtables.DataAwsccTimestreamTables_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTimestreamTables 
 
 The id of the existing DataAwsccTimestreamTables that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_tables#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_tables#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamTables.DataAwsccTimestreamTablesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreamtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreamtables"
 
 &dataawscctimestreamtables.DataAwsccTimestreamTablesConfig {
 	Connection: interface{},

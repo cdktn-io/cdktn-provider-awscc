@@ -4,12 +4,12 @@
 
 ### Ec2VpcdhcpOptionsAssociation <a name="Ec2VpcdhcpOptionsAssociation" id="@cdktn/provider-awscc.ec2VpcdhcpOptionsAssociation.Ec2VpcdhcpOptionsAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpcdhcpOptionsAssociation.Ec2VpcdhcpOptionsAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcdhcpoptionsassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcdhcpoptionsassociation"
 
 ec2vpcdhcpoptionsassociation.NewEc2VpcdhcpOptionsAssociation(scope Construct, id *string, config Ec2VpcdhcpOptionsAssociationConfig) Ec2VpcdhcpOptionsAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2VpcdhcpOptionsAssociation.Ec2VpcdhcpOptionsAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcdhcpoptionsassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcdhcpoptionsassociation"
 
 ec2vpcdhcpoptionsassociation.Ec2VpcdhcpOptionsAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2VpcdhcpOptionsAssociation.Ec2VpcdhcpOptionsAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcdhcpoptionsassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcdhcpoptionsassociation"
 
 ec2vpcdhcpoptionsassociation.Ec2VpcdhcpOptionsAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ec2vpcdhcpoptionsassociation.Ec2VpcdhcpOptionsAssociation_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2VpcdhcpOptionsAssociation.Ec2VpcdhcpOptionsAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcdhcpoptionsassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcdhcpoptionsassociation"
 
 ec2vpcdhcpoptionsassociation.Ec2VpcdhcpOptionsAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2vpcdhcpoptionsassociation.Ec2VpcdhcpOptionsAssociation_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2VpcdhcpOptionsAssociation.Ec2VpcdhcpOptionsAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcdhcpoptionsassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcdhcpoptionsassociation"
 
 ec2vpcdhcpoptionsassociation.Ec2VpcdhcpOptionsAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2VpcdhcpOptionsAssociati
 
 The id of the existing Ec2VpcdhcpOptionsAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpcdhcp_options_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpcdhcp_options_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VpcdhcpOptionsAssociation.Ec2VpcdhcpOptionsAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcdhcpoptionsassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcdhcpoptionsassociation"
 
 &ec2vpcdhcpoptionsassociation.Ec2VpcdhcpOptionsAssociationConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ DhcpOptionsId *string
 
 The ID of the DHCP options set, or default to associate no DHCP options with the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpcdhcp_options_association#dhcp_options_id Ec2VpcdhcpOptionsAssociation#dhcp_options_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpcdhcp_options_association#dhcp_options_id Ec2VpcdhcpOptionsAssociation#dhcp_options_id}
 
 ---
 
@@ -869,7 +869,7 @@ VpcId *string
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpcdhcp_options_association#vpc_id Ec2VpcdhcpOptionsAssociation#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpcdhcp_options_association#vpc_id Ec2VpcdhcpOptionsAssociation#vpc_id}
 
 ---
 

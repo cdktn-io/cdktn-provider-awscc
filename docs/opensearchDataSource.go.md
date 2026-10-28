@@ -4,12 +4,12 @@
 
 ### OpensearchDataSource <a name="OpensearchDataSource" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearch_data_source awscc_opensearch_data_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearch_data_source awscc_opensearch_data_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchdatasource"
 
 opensearchdatasource.NewOpensearchDataSource(scope Construct, id *string, config OpensearchDataSourceConfig) OpensearchDataSource
 ```
@@ -420,7 +420,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchdatasource"
 
 opensearchdatasource.OpensearchDataSource_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchdatasource"
 
 opensearchdatasource.OpensearchDataSource_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ opensearchdatasource.OpensearchDataSource_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSource.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchdatasource"
 
 opensearchdatasource.OpensearchDataSource_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ opensearchdatasource.OpensearchDataSource_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchdatasource"
 
 opensearchdatasource.OpensearchDataSource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the OpensearchDataSource to im
 
 The id of the existing OpensearchDataSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearch_data_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearch_data_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -830,7 +830,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchdatasource"
 
 &opensearchdatasource.OpensearchDataSourceConfig {
 	Connection: interface{},
@@ -840,7 +840,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchdatasource"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	DataSourceType: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.opensearchDataSource.OpensearchDataSourceDataSourceType,
+	DataSourceType: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.opensearchDataSource.OpensearchDataSourceDataSourceType,
 	DomainName: *string,
 	Name: *string,
 	Description: *string,
@@ -945,7 +945,7 @@ DataSourceType OpensearchDataSourceDataSourceType
 
 The type of data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearch_data_source#data_source_type OpensearchDataSource#data_source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearch_data_source#data_source_type OpensearchDataSource#data_source_type}
 
 ---
 
@@ -959,7 +959,7 @@ DomainName *string
 
 The name of the OpenSearch Service domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearch_data_source#domain_name OpensearchDataSource#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearch_data_source#domain_name OpensearchDataSource#domain_name}
 
 ---
 
@@ -973,7 +973,7 @@ Name *string
 
 The name of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearch_data_source#name OpensearchDataSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearch_data_source#name OpensearchDataSource#name}
 
 ---
 
@@ -987,7 +987,7 @@ Description *string
 
 A description of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearch_data_source#description OpensearchDataSource#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearch_data_source#description OpensearchDataSource#description}
 
 ---
 
@@ -996,10 +996,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSourceDataSourceType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchdatasource"
 
 &opensearchdatasource.OpensearchDataSourceDataSourceType {
-	S3GlueDataCatalog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.opensearchDataSource.OpensearchDataSourceDataSourceTypeS3GlueDataCatalog,
+	S3GlueDataCatalog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.opensearchDataSource.OpensearchDataSourceDataSourceTypeS3GlueDataCatalog,
 }
 ```
 
@@ -1021,7 +1021,7 @@ S3GlueDataCatalog OpensearchDataSourceDataSourceTypeS3GlueDataCatalog
 
 Configuration for an S3 Glue Data Catalog data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearch_data_source#s3_glue_data_catalog OpensearchDataSource#s3_glue_data_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearch_data_source#s3_glue_data_catalog OpensearchDataSource#s3_glue_data_catalog}
 
 ---
 
@@ -1030,7 +1030,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSourceDataSourceTypeS3GlueDataCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchdatasource"
 
 &opensearchdatasource.OpensearchDataSourceDataSourceTypeS3GlueDataCatalog {
 	RoleArn: *string,
@@ -1055,7 +1055,7 @@ RoleArn *string
 
 The ARN of the IAM role that grants OpenSearch Service permission to access the Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearch_data_source#role_arn OpensearchDataSource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearch_data_source#role_arn OpensearchDataSource#role_arn}
 
 ---
 
@@ -1066,7 +1066,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSourceDataSourceTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchdatasource"
 
 opensearchdatasource.NewOpensearchDataSourceDataSourceTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OpensearchDataSourceDataSourceTypeOutputReference
 ```
@@ -1357,7 +1357,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchDataSource.OpensearchDataSourceDataSourceTypeS3GlueDataCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchdatasource"
 
 opensearchdatasource.NewOpensearchDataSourceDataSourceTypeS3GlueDataCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OpensearchDataSourceDataSourceTypeS3GlueDataCatalogOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccSesMailManagerIngressPoint <a name="DataAwsccSesMailManagerIngressPoint" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.NewDataAwsccSesMailManagerIngressPoint(scope Construct, id *string, config DataAwsccSesMailManagerIngressPointConfig) DataAwsccSesMailManagerIngressPoint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPoint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPoint_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPoint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPoint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPoint_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesMailManagerIng
 
 The id of the existing DataAwsccSesMailManagerIngressPoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_ingress_point#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_ingress_point#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 &dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPointConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_ingress_point#id DataAwsccSesMailManagerIngressPoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_ingress_point#id DataAwsccSesMailManagerIngressPoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointIngressPointConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 &dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPointIngressPointConfiguration {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointIngressPointConfigurationTlsAuthConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 &dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPointIngressPointConfigurationTlsAuthConfiguration {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigurationTrustStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 &dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigurationTrustStore {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 &dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPointNetworkConfiguration {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointNetworkConfigurationPrivateNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 &dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPointNetworkConfigurationPrivateNetworkConfiguration {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointNetworkConfigurationPublicNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 &dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPointNetworkConfigurationPublicNetworkConfiguration {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 &dataawsccsesmailmanageringresspoint.DataAwsccSesMailManagerIngressPointTags {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointIngressPointConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.NewDataAwsccSesMailManagerIngressPointIngressPointConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerIngressPointIngressPointConfigurationOutputReference
 ```
@@ -1226,7 +1226,7 @@ func InternalValue() DataAwsccSesMailManagerIngressPointIngressPointConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.NewDataAwsccSesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigurationOutputReference
 ```
@@ -1486,7 +1486,7 @@ func InternalValue() DataAwsccSesMailManagerIngressPointIngressPointConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigurationTrustStoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.NewDataAwsccSesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigurationTrustStoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigurationTrustStoreOutputReference
 ```
@@ -1768,7 +1768,7 @@ func InternalValue() DataAwsccSesMailManagerIngressPointIngressPointConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.NewDataAwsccSesMailManagerIngressPointNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerIngressPointNetworkConfigurationOutputReference
 ```
@@ -2039,7 +2039,7 @@ func InternalValue() DataAwsccSesMailManagerIngressPointNetworkConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointNetworkConfigurationPrivateNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.NewDataAwsccSesMailManagerIngressPointNetworkConfigurationPrivateNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerIngressPointNetworkConfigurationPrivateNetworkConfigurationOutputReference
 ```
@@ -2299,7 +2299,7 @@ func InternalValue() DataAwsccSesMailManagerIngressPointNetworkConfigurationPriv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointNetworkConfigurationPublicNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.NewDataAwsccSesMailManagerIngressPointNetworkConfigurationPublicNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerIngressPointNetworkConfigurationPublicNetworkConfigurationOutputReference
 ```
@@ -2559,7 +2559,7 @@ func InternalValue() DataAwsccSesMailManagerIngressPointNetworkConfigurationPubl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.NewDataAwsccSesMailManagerIngressPointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesMailManagerIngressPointTagsList
 ```
@@ -2708,7 +2708,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoint.DataAwsccSesMailManagerIngressPointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint"
 
 dataawsccsesmailmanageringresspoint.NewDataAwsccSesMailManagerIngressPointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesMailManagerIngressPointTagsOutputReference
 ```

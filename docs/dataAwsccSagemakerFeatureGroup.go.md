@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerFeatureGroup <a name="DataAwsccSagemakerFeatureGroup" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_feature_group awscc_sagemaker_feature_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_feature_group awscc_sagemaker_feature_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroup(scope Construct, id *string, config DataAwsccSagemakerFeatureGroupConfig) DataAwsccSagemakerFeatureGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroup_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroup_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerFeatureG
 
 The id of the existing DataAwsccSagemakerFeatureGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_feature_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_feature_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 &dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroupConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_feature_group#id DataAwsccSagemakerFeatureGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_feature_group#id DataAwsccSagemakerFeatureGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupFeatureDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 &dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroupFeatureDefinitions {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOfflineStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 &dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroupOfflineStoreConfig {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOfflineStoreConfigDataCatalogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 &dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroupOfflineStoreConfigDataCatalogConfig {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOfflineStoreConfigS3StorageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 &dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroupOfflineStoreConfigS3StorageConfig {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOnlineStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 &dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroupOnlineStoreConfig {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOnlineStoreConfigSecurityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 &dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroupOnlineStoreConfigSecurityConfig {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOnlineStoreConfigTtlDuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 &dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroupOnlineStoreConfigTtlDuration {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 &dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroupTags {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupThroughputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 &dataawsccsagemakerfeaturegroup.DataAwsccSagemakerFeatureGroupThroughputConfig {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupFeatureDefinitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroupFeatureDefinitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerFeatureGroupFeatureDefinitionsList
 ```
@@ -1108,7 +1108,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupFeatureDefinitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroupFeatureDefinitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerFeatureGroupFeatureDefinitionsOutputReference
 ```
@@ -1397,7 +1397,7 @@ func InternalValue() DataAwsccSagemakerFeatureGroupFeatureDefinitions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOfflineStoreConfigDataCatalogConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroupOfflineStoreConfigDataCatalogConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerFeatureGroupOfflineStoreConfigDataCatalogConfigOutputReference
 ```
@@ -1679,7 +1679,7 @@ func InternalValue() DataAwsccSagemakerFeatureGroupOfflineStoreConfigDataCatalog
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOfflineStoreConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroupOfflineStoreConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerFeatureGroupOfflineStoreConfigOutputReference
 ```
@@ -1972,7 +1972,7 @@ func InternalValue() DataAwsccSagemakerFeatureGroupOfflineStoreConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOfflineStoreConfigS3StorageConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroupOfflineStoreConfigS3StorageConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerFeatureGroupOfflineStoreConfigS3StorageConfigOutputReference
 ```
@@ -2243,7 +2243,7 @@ func InternalValue() DataAwsccSagemakerFeatureGroupOfflineStoreConfigS3StorageCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOnlineStoreConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroupOnlineStoreConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerFeatureGroupOnlineStoreConfigOutputReference
 ```
@@ -2536,7 +2536,7 @@ func InternalValue() DataAwsccSagemakerFeatureGroupOnlineStoreConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOnlineStoreConfigSecurityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroupOnlineStoreConfigSecurityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerFeatureGroupOnlineStoreConfigSecurityConfigOutputReference
 ```
@@ -2796,7 +2796,7 @@ func InternalValue() DataAwsccSagemakerFeatureGroupOnlineStoreConfigSecurityConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference
 ```
@@ -3067,7 +3067,7 @@ func InternalValue() DataAwsccSagemakerFeatureGroupOnlineStoreConfigTtlDuration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerFeatureGroupTagsList
 ```
@@ -3216,7 +3216,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerFeatureGroupTagsOutputReference
 ```
@@ -3505,7 +3505,7 @@ func InternalValue() DataAwsccSagemakerFeatureGroupTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerFeatureGroup.DataAwsccSagemakerFeatureGroupThroughputConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerfeaturegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerfeaturegroup"
 
 dataawsccsagemakerfeaturegroup.NewDataAwsccSagemakerFeatureGroupThroughputConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerFeatureGroupThroughputConfigOutputReference
 ```

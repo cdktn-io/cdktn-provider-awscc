@@ -4,12 +4,12 @@
 
 ### SecurityhubStandard <a name="SecurityhubStandard" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_standard awscc_securityhub_standard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_standard awscc_securityhub_standard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubstandard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubstandard"
 
 securityhubstandard.NewSecurityhubStandard(scope Construct, id *string, config SecurityhubStandardConfig) SecurityhubStandard
 ```
@@ -420,7 +420,7 @@ func ResetDisabledStandardsControls()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandard.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubstandard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubstandard"
 
 securityhubstandard.SecurityhubStandard_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandard.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubstandard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubstandard"
 
 securityhubstandard.SecurityhubStandard_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ securityhubstandard.SecurityhubStandard_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandard.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubstandard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubstandard"
 
 securityhubstandard.SecurityhubStandard_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ securityhubstandard.SecurityhubStandard_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandard.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubstandard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubstandard"
 
 securityhubstandard.SecurityhubStandard_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the SecurityhubStandard to imp
 
 The id of the existing SecurityhubStandard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_standard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_standard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -775,7 +775,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandardConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubstandard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubstandard"
 
 &securityhubstandard.SecurityhubStandardConfig {
 	Connection: interface{},
@@ -888,7 +888,7 @@ The ARN of the standard that you want to enable.
 
 To view a list of available ASH standards and their ARNs, use the [DescribeStandards](https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DescribeStandards.html) API operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_standard#standards_arn SecurityhubStandard#standards_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_standard#standards_arn SecurityhubStandard#standards_arn}
 
 ---
 
@@ -902,7 +902,7 @@ DisabledStandardsControls interface{}
 
 Specifies which controls are to be disabled in a standard.   *Maximum*: ``100``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_standard#disabled_standards_controls SecurityhubStandard#disabled_standards_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_standard#disabled_standards_controls SecurityhubStandard#disabled_standards_controls}
 
 ---
 
@@ -911,7 +911,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandardDisabledStandardsControls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubstandard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubstandard"
 
 &securityhubstandard.SecurityhubStandardDisabledStandardsControls {
 	Reason: *string,
@@ -940,7 +940,7 @@ A user-defined reason for changing a control's enablement status in a specified 
 
 If you are disabling a control, then this property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_standard#reason SecurityhubStandard#reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_standard#reason SecurityhubStandard#reason}
 
 ---
 
@@ -954,7 +954,7 @@ StandardsControlArn *string
 
 The Amazon Resource Name (ARN) of the control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_standard#standards_control_arn SecurityhubStandard#standards_control_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_standard#standards_control_arn SecurityhubStandard#standards_control_arn}
 
 ---
 
@@ -965,7 +965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandardDisabledStandardsControlsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubstandard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubstandard"
 
 securityhubstandard.NewSecurityhubStandardDisabledStandardsControlsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubStandardDisabledStandardsControlsList
 ```
@@ -1125,7 +1125,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandardDisabledStandardsControlsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubstandard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubstandard"
 
 securityhubstandard.NewSecurityhubStandardDisabledStandardsControlsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityhubStandardDisabledStandardsControlsOutputReference
 ```

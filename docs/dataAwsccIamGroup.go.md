@@ -4,12 +4,12 @@
 
 ### DataAwsccIamGroup <a name="DataAwsccIamGroup" id="@cdktn/provider-awscc.dataAwsccIamGroup.DataAwsccIamGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_group awscc_iam_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_group awscc_iam_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamGroup.DataAwsccIamGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamgroup"
 
 dataawscciamgroup.NewDataAwsccIamGroup(scope Construct, id *string, config DataAwsccIamGroupConfig) DataAwsccIamGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIamGroup.DataAwsccIamGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamgroup"
 
 dataawscciamgroup.DataAwsccIamGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIamGroup.DataAwsccIamGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamgroup"
 
 dataawscciamgroup.DataAwsccIamGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciamgroup.DataAwsccIamGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIamGroup.DataAwsccIamGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamgroup"
 
 dataawscciamgroup.DataAwsccIamGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciamgroup.DataAwsccIamGroup_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIamGroup.DataAwsccIamGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamgroup"
 
 dataawscciamgroup.DataAwsccIamGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIamGroup to impor
 
 The id of the existing DataAwsccIamGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamGroup.DataAwsccIamGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamgroup"
 
 &dataawscciamgroup.DataAwsccIamGroupConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_group#id DataAwsccIamGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_group#id DataAwsccIamGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamGroup.DataAwsccIamGroupPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamgroup"
 
 &dataawscciamgroup.DataAwsccIamGroupPolicies {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamgroup"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamGroup.DataAwsccIamGroupPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamgroup"
 
 dataawscciamgroup.NewDataAwsccIamGroupPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIamGroupPoliciesList
 ```
@@ -927,7 +927,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamGroup.DataAwsccIamGroupPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamgroup"
 
 dataawscciamgroup.NewDataAwsccIamGroupPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIamGroupPoliciesOutputReference
 ```

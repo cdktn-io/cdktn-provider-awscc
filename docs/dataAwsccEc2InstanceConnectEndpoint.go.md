@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2InstanceConnectEndpoint <a name="DataAwsccEc2InstanceConnectEndpoint" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 dataawsccec2instanceconnectendpoint.NewDataAwsccEc2InstanceConnectEndpoint(scope Construct, id *string, config DataAwsccEc2InstanceConnectEndpointConfig) DataAwsccEc2InstanceConnectEndpoint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 dataawsccec2instanceconnectendpoint.DataAwsccEc2InstanceConnectEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 dataawsccec2instanceconnectendpoint.DataAwsccEc2InstanceConnectEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2instanceconnectendpoint.DataAwsccEc2InstanceConnectEndpoint_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpoint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 dataawsccec2instanceconnectendpoint.DataAwsccEc2InstanceConnectEndpoint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2instanceconnectendpoint.DataAwsccEc2InstanceConnectEndpoint_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 dataawsccec2instanceconnectendpoint.DataAwsccEc2InstanceConnectEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2InstanceConnec
 
 The id of the existing DataAwsccEc2InstanceConnectEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance_connect_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance_connect_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 &dataawsccec2instanceconnectendpoint.DataAwsccEc2InstanceConnectEndpointConfig {
 	Connection: interface{},
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance_connect_endpoint#id DataAwsccEc2InstanceConnectEndpoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance_connect_endpoint#id DataAwsccEc2InstanceConnectEndpoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpointPublicDnsNames.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 &dataawsccec2instanceconnectendpoint.DataAwsccEc2InstanceConnectEndpointPublicDnsNames {
 
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpointPublicDnsNamesDualstack.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 &dataawsccec2instanceconnectendpoint.DataAwsccEc2InstanceConnectEndpointPublicDnsNamesDualstack {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpointPublicDnsNamesIpv4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 &dataawsccec2instanceconnectendpoint.DataAwsccEc2InstanceConnectEndpointPublicDnsNamesIpv4 {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 &dataawsccec2instanceconnectendpoint.DataAwsccEc2InstanceConnectEndpointTags {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceco
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpointPublicDnsNamesDualstackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 dataawsccec2instanceconnectendpoint.NewDataAwsccEc2InstanceConnectEndpointPublicDnsNamesDualstackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceConnectEndpointPublicDnsNamesDualstackOutputReference
 ```
@@ -1209,7 +1209,7 @@ func InternalValue() DataAwsccEc2InstanceConnectEndpointPublicDnsNamesDualstack
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpointPublicDnsNamesIpv4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 dataawsccec2instanceconnectendpoint.NewDataAwsccEc2InstanceConnectEndpointPublicDnsNamesIpv4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceConnectEndpointPublicDnsNamesIpv4OutputReference
 ```
@@ -1480,7 +1480,7 @@ func InternalValue() DataAwsccEc2InstanceConnectEndpointPublicDnsNamesIpv4
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpointPublicDnsNamesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 dataawsccec2instanceconnectendpoint.NewDataAwsccEc2InstanceConnectEndpointPublicDnsNamesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceConnectEndpointPublicDnsNamesOutputReference
 ```
@@ -1751,7 +1751,7 @@ func InternalValue() DataAwsccEc2InstanceConnectEndpointPublicDnsNames
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 dataawsccec2instanceconnectendpoint.NewDataAwsccEc2InstanceConnectEndpointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceConnectEndpointTagsList
 ```
@@ -1900,7 +1900,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoint.DataAwsccEc2InstanceConnectEndpointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoint"
 
 dataawsccec2instanceconnectendpoint.NewDataAwsccEc2InstanceConnectEndpointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceConnectEndpointTagsOutputReference
 ```

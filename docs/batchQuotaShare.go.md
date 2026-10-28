@@ -4,12 +4,12 @@
 
 ### BatchQuotaShare <a name="BatchQuotaShare" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShare"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share awscc_batch_quota_share}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share awscc_batch_quota_share}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShare.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 batchquotashare.NewBatchQuotaShare(scope Construct, id *string, config BatchQuotaShareConfig) BatchQuotaShare
 ```
@@ -453,7 +453,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShare.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 batchquotashare.BatchQuotaShare_IsConstruct(x interface{}) *bool
 ```
@@ -485,7 +485,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShare.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 batchquotashare.BatchQuotaShare_IsTerraformElement(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ batchquotashare.BatchQuotaShare_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShare.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 batchquotashare.BatchQuotaShare_IsTerraformResource(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ batchquotashare.BatchQuotaShare_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShare.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 batchquotashare.BatchQuotaShare_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -542,7 +542,7 @@ The construct id used in the generated config for the BatchQuotaShare to import.
 
 The id of the existing BatchQuotaShare that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -918,7 +918,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShareCapacityLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 &batchquotashare.BatchQuotaShareCapacityLimits {
 	CapacityUnit: *string,
@@ -945,7 +945,7 @@ CapacityUnit *string
 
 The unit of compute capacity for the capacityLimit. For example, `ml.m5.large`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#capacity_unit BatchQuotaShare#capacity_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#capacity_unit BatchQuotaShare#capacity_unit}
 
 ---
 
@@ -961,7 +961,7 @@ The maximum capacity available for the quota share.
 
 This value represents the maximum quantity of a resource that can be allocated to jobs in the quota share without borrowing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#max_capacity BatchQuotaShare#max_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#max_capacity BatchQuotaShare#max_capacity}
 
 ---
 
@@ -970,7 +970,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShareConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 &batchquotashare.BatchQuotaShareConfig {
 	Connection: interface{},
@@ -982,9 +982,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
 	Provisioners: *[]interface{},
 	CapacityLimits: interface{},
 	JobQueue: *string,
-	PreemptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.batchQuotaShare.BatchQuotaSharePreemptionConfiguration,
+	PreemptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.batchQuotaShare.BatchQuotaSharePreemptionConfiguration,
 	QuotaShareName: *string,
-	ResourceSharingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.batchQuotaShare.BatchQuotaShareResourceSharingConfiguration,
+	ResourceSharingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.batchQuotaShare.BatchQuotaShareResourceSharingConfiguration,
 	State: *string,
 	Tags: *map[string]*string,
 }
@@ -1091,7 +1091,7 @@ CapacityLimits interface{}
 
 A list that specifies the quantity and type of compute capacity allocated to the quota share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#capacity_limits BatchQuotaShare#capacity_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#capacity_limits BatchQuotaShare#capacity_limits}
 
 ---
 
@@ -1107,7 +1107,7 @@ The AWS Batch job queue associated with the quota share.
 
 This can be the job queue name or ARN. A job queue must be in the `VALID` state before you can associate it with a quota share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#job_queue BatchQuotaShare#job_queue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#job_queue BatchQuotaShare#job_queue}
 
 ---
 
@@ -1121,7 +1121,7 @@ PreemptionConfiguration BatchQuotaSharePreemptionConfiguration
 
 Specifies the preemption behavior for jobs in a quota share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#preemption_configuration BatchQuotaShare#preemption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#preemption_configuration BatchQuotaShare#preemption_configuration}
 
 ---
 
@@ -1137,7 +1137,7 @@ The name of the quota share.
 
 It can be up to 128 characters long. It can contain uppercase and lowercase letters, numbers, hyphens (-), and underscores (_).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#quota_share_name BatchQuotaShare#quota_share_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#quota_share_name BatchQuotaShare#quota_share_name}
 
 ---
 
@@ -1151,7 +1151,7 @@ ResourceSharingConfiguration BatchQuotaShareResourceSharingConfiguration
 
 Specifies whether a quota share reserves, lends, or both lends and borrows idle compute capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#resource_sharing_configuration BatchQuotaShare#resource_sharing_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#resource_sharing_configuration BatchQuotaShare#resource_sharing_configuration}
 
 ---
 
@@ -1167,7 +1167,7 @@ The state of the quota share.
 
 If the quota share is `ENABLED`, it is able to accept jobs. If the quota share is `DISABLED`, new jobs won't be accepted but jobs already submitted can finish. The default state is `ENABLED`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#state BatchQuotaShare#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#state BatchQuotaShare#state}
 
 ---
 
@@ -1183,7 +1183,7 @@ The tags that you apply to the quota share to help you categorize and organize y
 
 Each tag consists of a key and an optional value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#tags BatchQuotaShare#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#tags BatchQuotaShare#tags}
 
 ---
 
@@ -1192,7 +1192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaSharePreemptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 &batchquotashare.BatchQuotaSharePreemptionConfiguration {
 	InSharePreemption: *string,
@@ -1217,7 +1217,7 @@ InSharePreemption *string
 
 Specifies whether jobs within a quota share can be preempted by another, higher priority job in the same quota share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#in_share_preemption BatchQuotaShare#in_share_preemption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#in_share_preemption BatchQuotaShare#in_share_preemption}
 
 ---
 
@@ -1226,7 +1226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShareResourceSharingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 &batchquotashare.BatchQuotaShareResourceSharingConfiguration {
 	Strategy: *string,
@@ -1255,7 +1255,7 @@ The resource sharing strategy for the quota share.
 
 The `RESERVE` strategy allows a quota share to reserve idle capacity for itself. `LEND` configures the share to lend its idle capacity to another share in need of capacity. The `LEND_AND_BORROW` strategy configures the share to borrow idle capacity from an underutilized share, as well as lend to another share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#strategy BatchQuotaShare#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#strategy BatchQuotaShare#strategy}
 
 ---
 
@@ -1271,7 +1271,7 @@ The maximum percentage of additional capacity that the quota share can borrow fr
 
 `BorrowLimit` can only be applied to quota shares with a strategy of `LEND_AND_BORROW`. This value is expressed as a percentage of the quota share's configured CapacityLimits. The `BorrowLimit` is applied uniformly across all capacity units. For example, if the `BorrowLimit` is 200, the quota share can borrow up to 200% of its configured `maxCapacity` for each capacity unit. The default `BorrowLimit` is -1, which indicates unlimited borrowing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share#borrow_limit BatchQuotaShare#borrow_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share#borrow_limit BatchQuotaShare#borrow_limit}
 
 ---
 
@@ -1282,7 +1282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShareCapacityLimitsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 batchquotashare.NewBatchQuotaShareCapacityLimitsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BatchQuotaShareCapacityLimitsList
 ```
@@ -1442,7 +1442,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShareCapacityLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 batchquotashare.NewBatchQuotaShareCapacityLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BatchQuotaShareCapacityLimitsOutputReference
 ```
@@ -1753,7 +1753,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaSharePreemptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 batchquotashare.NewBatchQuotaSharePreemptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BatchQuotaSharePreemptionConfigurationOutputReference
 ```
@@ -2024,7 +2024,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.batchQuotaShare.BatchQuotaShareResourceSharingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare"
 
 batchquotashare.NewBatchQuotaShareResourceSharingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BatchQuotaShareResourceSharingConfigurationOutputReference
 ```

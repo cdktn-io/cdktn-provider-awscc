@@ -4,12 +4,12 @@
 
 ### BcmpricingcalculatorBillScenario <a name="BcmpricingcalculatorBillScenario" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenario"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_bill_scenario awscc_bcmpricingcalculator_bill_scenario}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_scenario awscc_bcmpricingcalculator_bill_scenario}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenario.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbillscenario"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorbillscenario"
 
 bcmpricingcalculatorbillscenario.NewBcmpricingcalculatorBillScenario(scope Construct, id *string, config BcmpricingcalculatorBillScenarioConfig) BcmpricingcalculatorBillScenario
 ```
@@ -448,7 +448,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenario.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbillscenario"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorbillscenario"
 
 bcmpricingcalculatorbillscenario.BcmpricingcalculatorBillScenario_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenario.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbillscenario"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorbillscenario"
 
 bcmpricingcalculatorbillscenario.BcmpricingcalculatorBillScenario_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ bcmpricingcalculatorbillscenario.BcmpricingcalculatorBillScenario_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenario.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbillscenario"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorbillscenario"
 
 bcmpricingcalculatorbillscenario.BcmpricingcalculatorBillScenario_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ bcmpricingcalculatorbillscenario.BcmpricingcalculatorBillScenario_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenario.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbillscenario"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorbillscenario"
 
 bcmpricingcalculatorbillscenario.BcmpricingcalculatorBillScenario_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the BcmpricingcalculatorBillSc
 
 The id of the existing BcmpricingcalculatorBillScenario that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_bill_scenario#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_scenario#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -924,7 +924,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenarioBillInterval.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbillscenario"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorbillscenario"
 
 &bcmpricingcalculatorbillscenario.BcmpricingcalculatorBillScenarioBillInterval {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenarioConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbillscenario"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorbillscenario"
 
 &bcmpricingcalculatorbillscenario.BcmpricingcalculatorBillScenarioConfig {
 	Connection: interface{},
@@ -1054,7 +1054,7 @@ CostCategoryGroupSharingPreferenceArn *string
 
 The ARN of the cost category group sharing preference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_bill_scenario#cost_category_group_sharing_preference_arn BcmpricingcalculatorBillScenario#cost_category_group_sharing_preference_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_scenario#cost_category_group_sharing_preference_arn BcmpricingcalculatorBillScenario#cost_category_group_sharing_preference_arn}
 
 ---
 
@@ -1068,7 +1068,7 @@ ExpiresAt *string
 
 The timestamp when the bill scenario expires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_bill_scenario#expires_at BcmpricingcalculatorBillScenario#expires_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_scenario#expires_at BcmpricingcalculatorBillScenario#expires_at}
 
 ---
 
@@ -1082,7 +1082,7 @@ GroupSharingPreference *string
 
 The group sharing preference for the bill scenario.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_bill_scenario#group_sharing_preference BcmpricingcalculatorBillScenario#group_sharing_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_scenario#group_sharing_preference BcmpricingcalculatorBillScenario#group_sharing_preference}
 
 ---
 
@@ -1096,7 +1096,7 @@ Name *string
 
 The name of the bill scenario.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_bill_scenario#name BcmpricingcalculatorBillScenario#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_scenario#name BcmpricingcalculatorBillScenario#name}
 
 ---
 
@@ -1110,7 +1110,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_bill_scenario#tags BcmpricingcalculatorBillScenario#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_scenario#tags BcmpricingcalculatorBillScenario#tags}
 
 ---
 
@@ -1119,7 +1119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenarioTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbillscenario"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorbillscenario"
 
 &bcmpricingcalculatorbillscenario.BcmpricingcalculatorBillScenarioTags {
 	Key: *string,
@@ -1131,8 +1131,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenarioTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_bill_scenario#key BcmpricingcalculatorBillScenario#key}. |
-| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenarioTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_bill_scenario#value BcmpricingcalculatorBillScenario#value}. |
+| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenarioTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_scenario#key BcmpricingcalculatorBillScenario#key}. |
+| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenarioTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_scenario#value BcmpricingcalculatorBillScenario#value}. |
 
 ---
 
@@ -1144,7 +1144,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_bill_scenario#key BcmpricingcalculatorBillScenario#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_scenario#key BcmpricingcalculatorBillScenario#key}.
 
 ---
 
@@ -1156,7 +1156,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_bill_scenario#value BcmpricingcalculatorBillScenario#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_scenario#value BcmpricingcalculatorBillScenario#value}.
 
 ---
 
@@ -1167,7 +1167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenarioBillIntervalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbillscenario"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorbillscenario"
 
 bcmpricingcalculatorbillscenario.NewBcmpricingcalculatorBillScenarioBillIntervalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BcmpricingcalculatorBillScenarioBillIntervalOutputReference
 ```
@@ -1438,7 +1438,7 @@ func InternalValue() BcmpricingcalculatorBillScenarioBillInterval
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenarioTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbillscenario"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorbillscenario"
 
 bcmpricingcalculatorbillscenario.NewBcmpricingcalculatorBillScenarioTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BcmpricingcalculatorBillScenarioTagsList
 ```
@@ -1598,7 +1598,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmpricingcalculatorBillScenario.BcmpricingcalculatorBillScenarioTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorbillscenario"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorbillscenario"
 
 bcmpricingcalculatorbillscenario.NewBcmpricingcalculatorBillScenarioTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BcmpricingcalculatorBillScenarioTagsOutputReference
 ```

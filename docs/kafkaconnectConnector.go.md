@@ -4,12 +4,12 @@
 
 ### KafkaconnectConnector <a name="KafkaconnectConnector" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector awscc_kafkaconnect_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector awscc_kafkaconnect_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnector(scope Construct, id *string, config KafkaconnectConnectorConfig) KafkaconnectConnector
 ```
@@ -539,7 +539,7 @@ func ResetWorkerConfiguration()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.KafkaconnectConnector_IsConstruct(x interface{}) *bool
 ```
@@ -571,7 +571,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.KafkaconnectConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -585,7 +585,7 @@ kafkaconnectconnector.KafkaconnectConnector_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnector.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.KafkaconnectConnector_IsTerraformResource(x interface{}) *bool
 ```
@@ -599,7 +599,7 @@ kafkaconnectconnector.KafkaconnectConnector_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.KafkaconnectConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -628,7 +628,7 @@ The construct id used in the generated config for the KafkaconnectConnector to i
 
 The id of the existing KafkaconnectConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1158,11 +1158,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorCapacity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorCapacity {
-	AutoScaling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScaling,
-	ProvisionedCapacity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityProvisionedCapacity,
+	AutoScaling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScaling,
+	ProvisionedCapacity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorCapacityProvisionedCapacity,
 }
 ```
 
@@ -1185,7 +1185,7 @@ AutoScaling KafkaconnectConnectorCapacityAutoScaling
 
 Details about auto scaling of a connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#auto_scaling KafkaconnectConnector#auto_scaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#auto_scaling KafkaconnectConnector#auto_scaling}
 
 ---
 
@@ -1199,7 +1199,7 @@ ProvisionedCapacity KafkaconnectConnectorCapacityProvisionedCapacity
 
 Details about a fixed capacity allocated to a connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#provisioned_capacity KafkaconnectConnector#provisioned_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#provisioned_capacity KafkaconnectConnector#provisioned_capacity}
 
 ---
 
@@ -1208,15 +1208,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorCapacityAutoScaling {
 	MaxAutoscalingTaskCount: *f64,
 	MaxWorkerCount: *f64,
 	McuCount: *f64,
 	MinWorkerCount: *f64,
-	ScaleInPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScalingScaleInPolicy,
-	ScaleOutPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScalingScaleOutPolicy,
+	ScaleInPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScalingScaleInPolicy,
+	ScaleOutPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScalingScaleOutPolicy,
 }
 ```
 
@@ -1243,7 +1243,7 @@ MaxAutoscalingTaskCount *f64
 
 The maximum number of tasks allocated to the connector during autoscaling operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#max_autoscaling_task_count KafkaconnectConnector#max_autoscaling_task_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#max_autoscaling_task_count KafkaconnectConnector#max_autoscaling_task_count}
 
 ---
 
@@ -1257,7 +1257,7 @@ MaxWorkerCount *f64
 
 The maximum number of workers for a connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#max_worker_count KafkaconnectConnector#max_worker_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#max_worker_count KafkaconnectConnector#max_worker_count}
 
 ---
 
@@ -1271,7 +1271,7 @@ McuCount *f64
 
 Specifies how many MSK Connect Units (MCU) as the minimum scaling unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#mcu_count KafkaconnectConnector#mcu_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#mcu_count KafkaconnectConnector#mcu_count}
 
 ---
 
@@ -1285,7 +1285,7 @@ MinWorkerCount *f64
 
 The minimum number of workers for a connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#min_worker_count KafkaconnectConnector#min_worker_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#min_worker_count KafkaconnectConnector#min_worker_count}
 
 ---
 
@@ -1299,7 +1299,7 @@ ScaleInPolicy KafkaconnectConnectorCapacityAutoScalingScaleInPolicy
 
 Information about the scale in policy of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#scale_in_policy KafkaconnectConnector#scale_in_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#scale_in_policy KafkaconnectConnector#scale_in_policy}
 
 ---
 
@@ -1313,7 +1313,7 @@ ScaleOutPolicy KafkaconnectConnectorCapacityAutoScalingScaleOutPolicy
 
 Information about the scale out policy of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#scale_out_policy KafkaconnectConnector#scale_out_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#scale_out_policy KafkaconnectConnector#scale_out_policy}
 
 ---
 
@@ -1322,7 +1322,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScalingScaleInPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorCapacityAutoScalingScaleInPolicy {
 	CpuUtilizationPercentage: *f64,
@@ -1347,7 +1347,7 @@ CpuUtilizationPercentage *f64
 
 Specifies the CPU utilization percentage threshold at which connector scale in should trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#cpu_utilization_percentage KafkaconnectConnector#cpu_utilization_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#cpu_utilization_percentage KafkaconnectConnector#cpu_utilization_percentage}
 
 ---
 
@@ -1356,7 +1356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScalingScaleOutPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorCapacityAutoScalingScaleOutPolicy {
 	CpuUtilizationPercentage: *f64,
@@ -1381,7 +1381,7 @@ CpuUtilizationPercentage *f64
 
 Specifies the CPU utilization percentage threshold at which connector scale out should trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#cpu_utilization_percentage KafkaconnectConnector#cpu_utilization_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#cpu_utilization_percentage KafkaconnectConnector#cpu_utilization_percentage}
 
 ---
 
@@ -1390,7 +1390,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityProvisionedCapacity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorCapacityProvisionedCapacity {
 	McuCount: *f64,
@@ -1417,7 +1417,7 @@ McuCount *f64
 
 Specifies how many MSK Connect Units (MCU) are allocated to the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#mcu_count KafkaconnectConnector#mcu_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#mcu_count KafkaconnectConnector#mcu_count}
 
 ---
 
@@ -1431,7 +1431,7 @@ WorkerCount *f64
 
 Number of workers for a connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#worker_count KafkaconnectConnector#worker_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#worker_count KafkaconnectConnector#worker_count}
 
 ---
 
@@ -1440,7 +1440,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorConfig {
 	Connection: interface{},
@@ -1450,20 +1450,20 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Capacity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorCapacity,
+	Capacity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorCapacity,
 	ConnectorConfiguration: *map[string]*string,
 	ConnectorName: *string,
-	KafkaCluster: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaCluster,
-	KafkaClusterClientAuthentication: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterClientAuthentication,
-	KafkaClusterEncryptionInTransit: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterEncryptionInTransit,
+	KafkaCluster: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorKafkaCluster,
+	KafkaClusterClientAuthentication: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterClientAuthentication,
+	KafkaClusterEncryptionInTransit: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterEncryptionInTransit,
 	KafkaConnectVersion: *string,
 	Plugins: interface{},
 	ServiceExecutionRoleArn: *string,
 	ConnectorDescription: *string,
-	LogDelivery: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorLogDelivery,
+	LogDelivery: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorLogDelivery,
 	NetworkType: *string,
 	Tags: interface{},
-	WorkerConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorWorkerConfiguration,
+	WorkerConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorWorkerConfiguration,
 }
 ```
 
@@ -1575,7 +1575,7 @@ Capacity KafkaconnectConnectorCapacity
 
 Information about the capacity allocated to the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#capacity KafkaconnectConnector#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#capacity KafkaconnectConnector#capacity}
 
 ---
 
@@ -1589,7 +1589,7 @@ ConnectorConfiguration *map[string]*string
 
 The configuration for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#connector_configuration KafkaconnectConnector#connector_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#connector_configuration KafkaconnectConnector#connector_configuration}
 
 ---
 
@@ -1603,7 +1603,7 @@ ConnectorName *string
 
 The name of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#connector_name KafkaconnectConnector#connector_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#connector_name KafkaconnectConnector#connector_name}
 
 ---
 
@@ -1617,7 +1617,7 @@ KafkaCluster KafkaconnectConnectorKafkaCluster
 
 Details of how to connect to the Kafka cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#kafka_cluster KafkaconnectConnector#kafka_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#kafka_cluster KafkaconnectConnector#kafka_cluster}
 
 ---
 
@@ -1631,7 +1631,7 @@ KafkaClusterClientAuthentication KafkaconnectConnectorKafkaClusterClientAuthenti
 
 Details of the client authentication used by the Kafka cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#kafka_cluster_client_authentication KafkaconnectConnector#kafka_cluster_client_authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#kafka_cluster_client_authentication KafkaconnectConnector#kafka_cluster_client_authentication}
 
 ---
 
@@ -1645,7 +1645,7 @@ KafkaClusterEncryptionInTransit KafkaconnectConnectorKafkaClusterEncryptionInTra
 
 Details of encryption in transit to the Kafka cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#kafka_cluster_encryption_in_transit KafkaconnectConnector#kafka_cluster_encryption_in_transit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#kafka_cluster_encryption_in_transit KafkaconnectConnector#kafka_cluster_encryption_in_transit}
 
 ---
 
@@ -1659,7 +1659,7 @@ KafkaConnectVersion *string
 
 The version of Kafka Connect. It has to be compatible with both the Kafka cluster's version and the plugins.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#kafka_connect_version KafkaconnectConnector#kafka_connect_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#kafka_connect_version KafkaconnectConnector#kafka_connect_version}
 
 ---
 
@@ -1673,7 +1673,7 @@ Plugins interface{}
 
 List of plugins to use with the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#plugins KafkaconnectConnector#plugins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#plugins KafkaconnectConnector#plugins}
 
 ---
 
@@ -1687,7 +1687,7 @@ ServiceExecutionRoleArn *string
 
 The Amazon Resource Name (ARN) of the IAM role used by the connector to access Amazon S3 objects and other external resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#service_execution_role_arn KafkaconnectConnector#service_execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#service_execution_role_arn KafkaconnectConnector#service_execution_role_arn}
 
 ---
 
@@ -1701,7 +1701,7 @@ ConnectorDescription *string
 
 A summary description of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#connector_description KafkaconnectConnector#connector_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#connector_description KafkaconnectConnector#connector_description}
 
 ---
 
@@ -1715,7 +1715,7 @@ LogDelivery KafkaconnectConnectorLogDelivery
 
 Details of what logs are delivered and where they are delivered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#log_delivery KafkaconnectConnector#log_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#log_delivery KafkaconnectConnector#log_delivery}
 
 ---
 
@@ -1729,7 +1729,7 @@ NetworkType *string
 
 The network type of the Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#network_type KafkaconnectConnector#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#network_type KafkaconnectConnector#network_type}
 
 ---
 
@@ -1743,7 +1743,7 @@ Tags interface{}
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#tags KafkaconnectConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#tags KafkaconnectConnector#tags}
 
 ---
 
@@ -1757,7 +1757,7 @@ WorkerConfiguration KafkaconnectConnectorWorkerConfiguration
 
 Specifies the worker configuration to use with the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#worker_configuration KafkaconnectConnector#worker_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#worker_configuration KafkaconnectConnector#worker_configuration}
 
 ---
 
@@ -1766,10 +1766,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorKafkaCluster {
-	ApacheKafkaCluster: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterApacheKafkaCluster,
+	ApacheKafkaCluster: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterApacheKafkaCluster,
 }
 ```
 
@@ -1791,7 +1791,7 @@ ApacheKafkaCluster KafkaconnectConnectorKafkaClusterApacheKafkaCluster
 
 Details of how to connect to an Apache Kafka cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#apache_kafka_cluster KafkaconnectConnector#apache_kafka_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#apache_kafka_cluster KafkaconnectConnector#apache_kafka_cluster}
 
 ---
 
@@ -1800,11 +1800,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterApacheKafkaCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorKafkaClusterApacheKafkaCluster {
 	BootstrapServers: *string,
-	Vpc: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterApacheKafkaClusterVpc,
+	Vpc: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterApacheKafkaClusterVpc,
 }
 ```
 
@@ -1827,7 +1827,7 @@ BootstrapServers *string
 
 The bootstrap servers string of the Apache Kafka cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#bootstrap_servers KafkaconnectConnector#bootstrap_servers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#bootstrap_servers KafkaconnectConnector#bootstrap_servers}
 
 ---
 
@@ -1841,7 +1841,7 @@ Vpc KafkaconnectConnectorKafkaClusterApacheKafkaClusterVpc
 
 Information about a VPC used with the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#vpc KafkaconnectConnector#vpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#vpc KafkaconnectConnector#vpc}
 
 ---
 
@@ -1850,7 +1850,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterApacheKafkaClusterVpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorKafkaClusterApacheKafkaClusterVpc {
 	SecurityGroups: *[]*string,
@@ -1877,7 +1877,7 @@ SecurityGroups *[]*string
 
 The AWS security groups to associate with the elastic network interfaces in order to specify what the connector has access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#security_groups KafkaconnectConnector#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#security_groups KafkaconnectConnector#security_groups}
 
 ---
 
@@ -1893,7 +1893,7 @@ The list of subnets to connect to in the virtual private cloud (VPC).
 
 AWS creates elastic network interfaces inside these subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#subnets KafkaconnectConnector#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#subnets KafkaconnectConnector#subnets}
 
 ---
 
@@ -1902,7 +1902,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterClientAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorKafkaClusterClientAuthentication {
 	AuthenticationType: *string,
@@ -1929,7 +1929,7 @@ The type of client authentication used to connect to the Kafka cluster.
 
 Value NONE means that no client authentication is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#authentication_type KafkaconnectConnector#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#authentication_type KafkaconnectConnector#authentication_type}
 
 ---
 
@@ -1938,7 +1938,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterEncryptionInTransit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorKafkaClusterEncryptionInTransit {
 	EncryptionType: *string,
@@ -1963,7 +1963,7 @@ EncryptionType *string
 
 The type of encryption in transit to the Kafka cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#encryption_type KafkaconnectConnector#encryption_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#encryption_type KafkaconnectConnector#encryption_type}
 
 ---
 
@@ -1972,10 +1972,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorLogDelivery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorLogDelivery {
-	WorkerLogDelivery: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDelivery,
+	WorkerLogDelivery: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDelivery,
 }
 ```
 
@@ -1997,7 +1997,7 @@ WorkerLogDelivery KafkaconnectConnectorLogDeliveryWorkerLogDelivery
 
 Specifies where worker logs are delivered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#worker_log_delivery KafkaconnectConnector#worker_log_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#worker_log_delivery KafkaconnectConnector#worker_log_delivery}
 
 ---
 
@@ -2006,12 +2006,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDelivery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorLogDeliveryWorkerLogDelivery {
-	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs,
-	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehose,
-	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3,
+	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs,
+	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehose,
+	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3,
 }
 ```
 
@@ -2035,7 +2035,7 @@ CloudwatchLogs KafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs
 
 Details about delivering logs to Amazon CloudWatch Logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#cloudwatch_logs KafkaconnectConnector#cloudwatch_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#cloudwatch_logs KafkaconnectConnector#cloudwatch_logs}
 
 ---
 
@@ -2049,7 +2049,7 @@ Firehose KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehose
 
 Details about delivering logs to Amazon Kinesis Data Firehose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#firehose KafkaconnectConnector#firehose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#firehose KafkaconnectConnector#firehose}
 
 ---
 
@@ -2063,7 +2063,7 @@ S3 KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3
 
 Details about delivering logs to Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#s3 KafkaconnectConnector#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#s3 KafkaconnectConnector#s3}
 
 ---
 
@@ -2072,7 +2072,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs {
 	Enabled: interface{},
@@ -2099,7 +2099,7 @@ Enabled interface{}
 
 Specifies whether the logs get sent to the specified CloudWatch Logs destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
 
 ---
 
@@ -2113,7 +2113,7 @@ LogGroup *string
 
 The CloudWatch log group that is the destination for log delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#log_group KafkaconnectConnector#log_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#log_group KafkaconnectConnector#log_group}
 
 ---
 
@@ -2122,7 +2122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehose {
 	DeliveryStream: *string,
@@ -2149,7 +2149,7 @@ DeliveryStream *string
 
 The Kinesis Data Firehose delivery stream that is the destination for log delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#delivery_stream KafkaconnectConnector#delivery_stream}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#delivery_stream KafkaconnectConnector#delivery_stream}
 
 ---
 
@@ -2163,7 +2163,7 @@ Enabled interface{}
 
 Specifies whether the logs get sent to the specified Kinesis Data Firehose delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
 
 ---
 
@@ -2172,7 +2172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3 {
 	Bucket: *string,
@@ -2201,7 +2201,7 @@ Bucket *string
 
 The name of the S3 bucket that is the destination for log delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#bucket KafkaconnectConnector#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#bucket KafkaconnectConnector#bucket}
 
 ---
 
@@ -2215,7 +2215,7 @@ Enabled interface{}
 
 Specifies whether the logs get sent to the specified Amazon S3 destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
 
 ---
 
@@ -2229,7 +2229,7 @@ Prefix *string
 
 The S3 prefix that is the destination for log delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#prefix KafkaconnectConnector#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#prefix KafkaconnectConnector#prefix}
 
 ---
 
@@ -2238,10 +2238,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorPlugins.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorPlugins {
-	CustomPlugin: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectConnector.KafkaconnectConnectorPluginsCustomPlugin,
+	CustomPlugin: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectConnector.KafkaconnectConnectorPluginsCustomPlugin,
 }
 ```
 
@@ -2263,7 +2263,7 @@ CustomPlugin KafkaconnectConnectorPluginsCustomPlugin
 
 Details about a custom plugin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#custom_plugin KafkaconnectConnector#custom_plugin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#custom_plugin KafkaconnectConnector#custom_plugin}
 
 ---
 
@@ -2272,7 +2272,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorPluginsCustomPlugin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorPluginsCustomPlugin {
 	CustomPluginArn: *string,
@@ -2299,7 +2299,7 @@ CustomPluginArn *string
 
 The Amazon Resource Name (ARN) of the custom plugin to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#custom_plugin_arn KafkaconnectConnector#custom_plugin_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#custom_plugin_arn KafkaconnectConnector#custom_plugin_arn}
 
 ---
 
@@ -2313,7 +2313,7 @@ Revision *f64
 
 The revision of the custom plugin to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#revision KafkaconnectConnector#revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#revision KafkaconnectConnector#revision}
 
 ---
 
@@ -2322,7 +2322,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorTags {
 	Key: *string,
@@ -2334,8 +2334,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#key KafkaconnectConnector#key}. |
-| <code><a href="#@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#value KafkaconnectConnector#value}. |
+| <code><a href="#@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#key KafkaconnectConnector#key}. |
+| <code><a href="#@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#value KafkaconnectConnector#value}. |
 
 ---
 
@@ -2347,7 +2347,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#key KafkaconnectConnector#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#key KafkaconnectConnector#key}.
 
 ---
 
@@ -2359,7 +2359,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#value KafkaconnectConnector#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#value KafkaconnectConnector#value}.
 
 ---
 
@@ -2368,7 +2368,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorWorkerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 &kafkaconnectconnector.KafkaconnectConnectorWorkerConfiguration {
 	Revision: *f64,
@@ -2395,7 +2395,7 @@ Revision *f64
 
 The revision of the worker configuration to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#revision KafkaconnectConnector#revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#revision KafkaconnectConnector#revision}
 
 ---
 
@@ -2409,7 +2409,7 @@ WorkerConfigurationArn *string
 
 The Amazon Resource Name (ARN) of the worker configuration to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_connector#worker_configuration_arn KafkaconnectConnector#worker_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_connector#worker_configuration_arn KafkaconnectConnector#worker_configuration_arn}
 
 ---
 
@@ -2420,7 +2420,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorCapacityAutoScalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorCapacityAutoScalingOutputReference
 ```
@@ -2869,7 +2869,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScalingScaleInPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorCapacityAutoScalingScaleInPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorCapacityAutoScalingScaleInPolicyOutputReference
 ```
@@ -3147,7 +3147,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityAutoScalingScaleOutPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorCapacityAutoScalingScaleOutPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorCapacityAutoScalingScaleOutPolicyOutputReference
 ```
@@ -3425,7 +3425,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorCapacityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorCapacityOutputReference
 ```
@@ -3758,7 +3758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorCapacityProvisionedCapacityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorCapacityProvisionedCapacityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorCapacityProvisionedCapacityOutputReference
 ```
@@ -4065,7 +4065,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterApacheKafkaClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorKafkaClusterApacheKafkaClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorKafkaClusterApacheKafkaClusterOutputReference
 ```
@@ -4371,7 +4371,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference
 ```
@@ -4664,7 +4664,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterClientAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorKafkaClusterClientAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorKafkaClusterClientAuthenticationOutputReference
 ```
@@ -4935,7 +4935,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterEncryptionInTransitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorKafkaClusterEncryptionInTransitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorKafkaClusterEncryptionInTransitOutputReference
 ```
@@ -5206,7 +5206,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorKafkaClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorKafkaClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorKafkaClusterOutputReference
 ```
@@ -5490,7 +5490,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorLogDeliveryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorLogDeliveryOutputReference
 ```
@@ -5781,7 +5781,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutputReference
 ```
@@ -6088,7 +6088,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputReference
 ```
@@ -6395,7 +6395,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorLogDeliveryWorkerLogDeliveryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorLogDeliveryWorkerLogDeliveryOutputReference
 ```
@@ -6770,7 +6770,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference
 ```
@@ -7106,7 +7106,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorPluginsCustomPluginOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorPluginsCustomPluginOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorPluginsCustomPluginOutputReference
 ```
@@ -7399,7 +7399,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorPluginsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorPluginsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KafkaconnectConnectorPluginsList
 ```
@@ -7559,7 +7559,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorPluginsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorPluginsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KafkaconnectConnectorPluginsOutputReference
 ```
@@ -7861,7 +7861,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KafkaconnectConnectorTagsList
 ```
@@ -8021,7 +8021,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KafkaconnectConnectorTagsOutputReference
 ```
@@ -8346,7 +8346,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectConnector.KafkaconnectConnectorWorkerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectconnector"
 
 kafkaconnectconnector.NewKafkaconnectConnectorWorkerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectConnectorWorkerConfigurationOutputReference
 ```

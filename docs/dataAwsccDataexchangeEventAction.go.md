@@ -4,12 +4,12 @@
 
 ### DataAwsccDataexchangeEventAction <a name="DataAwsccDataexchangeEventAction" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dataexchange_event_action awscc_dataexchange_event_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dataexchange_event_action awscc_dataexchange_event_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.NewDataAwsccDataexchangeEventAction(scope Construct, id *string, config DataAwsccDataexchangeEventActionConfig) DataAwsccDataexchangeEventAction
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventAction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventAction_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventAction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventAction_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventAction_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventAction.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventAction_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventAction_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventAction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventAction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDataexchangeEvent
 
 The id of the existing DataAwsccDataexchangeEventAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dataexchange_event_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dataexchange_event_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 &dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventActionAction {
 
@@ -677,7 +677,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionActionExportRevisionToS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 &dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventActionActionExportRevisionToS3 {
 
@@ -690,7 +690,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionActionExportRevisionToS3Encryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 &dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventActionActionExportRevisionToS3Encryption {
 
@@ -703,7 +703,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionActionExportRevisionToS3RevisionDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 &dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventActionActionExportRevisionToS3RevisionDestination {
 
@@ -716,7 +716,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 &dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventActionConfig {
 	Connection: interface{},
@@ -825,7 +825,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dataexchange_event_action#id DataAwsccDataexchangeEventAction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dataexchange_event_action#id DataAwsccDataexchangeEventAction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -837,7 +837,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionEvent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 &dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventActionEvent {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionEventRevisionPublished.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 &dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventActionEventRevisionPublished {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 &dataawsccdataexchangeeventaction.DataAwsccDataexchangeEventActionTags {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangee
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.NewDataAwsccDataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference
 ```
@@ -1149,7 +1149,7 @@ func InternalValue() DataAwsccDataexchangeEventActionActionExportRevisionToS3Enc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionActionExportRevisionToS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.NewDataAwsccDataexchangeEventActionActionExportRevisionToS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDataexchangeEventActionActionExportRevisionToS3OutputReference
 ```
@@ -1420,7 +1420,7 @@ func InternalValue() DataAwsccDataexchangeEventActionActionExportRevisionToS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionActionExportRevisionToS3RevisionDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.NewDataAwsccDataexchangeEventActionActionExportRevisionToS3RevisionDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDataexchangeEventActionActionExportRevisionToS3RevisionDestinationOutputReference
 ```
@@ -1691,7 +1691,7 @@ func InternalValue() DataAwsccDataexchangeEventActionActionExportRevisionToS3Rev
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.NewDataAwsccDataexchangeEventActionActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDataexchangeEventActionActionOutputReference
 ```
@@ -1951,7 +1951,7 @@ func InternalValue() DataAwsccDataexchangeEventActionAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionEventOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.NewDataAwsccDataexchangeEventActionEventOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDataexchangeEventActionEventOutputReference
 ```
@@ -2211,7 +2211,7 @@ func InternalValue() DataAwsccDataexchangeEventActionEvent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionEventRevisionPublishedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.NewDataAwsccDataexchangeEventActionEventRevisionPublishedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDataexchangeEventActionEventRevisionPublishedOutputReference
 ```
@@ -2471,7 +2471,7 @@ func InternalValue() DataAwsccDataexchangeEventActionEventRevisionPublished
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.NewDataAwsccDataexchangeEventActionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDataexchangeEventActionTagsList
 ```
@@ -2620,7 +2620,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDataexchangeEventAction.DataAwsccDataexchangeEventActionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction"
 
 dataawsccdataexchangeeventaction.NewDataAwsccDataexchangeEventActionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDataexchangeEventActionTagsOutputReference
 ```

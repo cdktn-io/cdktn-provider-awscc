@@ -4,12 +4,12 @@
 
 ### DsqlCluster <a name="DsqlCluster" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster awscc_dsql_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster awscc_dsql_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 dsqlcluster.NewDsqlCluster(scope Construct, id *string, config DsqlClusterConfig) DsqlCluster
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 dsqlcluster.DsqlCluster_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 dsqlcluster.DsqlCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ dsqlcluster.DsqlCluster_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 dsqlcluster.DsqlCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ dsqlcluster.DsqlCluster_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 dsqlcluster.DsqlCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the DsqlCluster to import.
 
 The id of the existing DsqlCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -970,7 +970,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 &dsqlcluster.DsqlClusterConfig {
 	Connection: interface{},
@@ -982,7 +982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
 	Provisioners: *[]interface{},
 	DeletionProtectionEnabled: interface{},
 	KmsEncryptionKey: *string,
-	MultiRegionProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dsqlCluster.DsqlClusterMultiRegionProperties,
+	MultiRegionProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dsqlCluster.DsqlClusterMultiRegionProperties,
 	PolicyDocument: *string,
 	Tags: interface{},
 }
@@ -1003,7 +1003,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.kmsEncryptionKey">KmsEncryptionKey</a></code> | <code>*string</code> | The KMS key that encrypts data on the cluster. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.multiRegionProperties">MultiRegionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties">DsqlClusterMultiRegionProperties</a></code> | The Multi-region properties associated to this cluster. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.policyDocument">PolicyDocument</a></code> | <code>*string</code> | The IAM policy applied to the cluster resource. |
-| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}. |
 
 ---
 
@@ -1087,7 +1087,7 @@ DeletionProtectionEnabled interface{}
 
 Whether deletion protection is enabled in this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
 
 ---
 
@@ -1101,7 +1101,7 @@ KmsEncryptionKey *string
 
 The KMS key that encrypts data on the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
 
 ---
 
@@ -1115,7 +1115,7 @@ MultiRegionProperties DsqlClusterMultiRegionProperties
 
 The Multi-region properties associated to this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
 
 ---
 
@@ -1129,7 +1129,7 @@ PolicyDocument *string
 
 The IAM policy applied to the cluster resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
 
 ---
 
@@ -1141,7 +1141,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}.
 
 ---
 
@@ -1150,7 +1150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterEncryptionDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 &dsqlcluster.DsqlClusterEncryptionDetails {
 
@@ -1163,7 +1163,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 &dsqlcluster.DsqlClusterMultiRegionProperties {
 	Clusters: *[]*string,
@@ -1175,7 +1175,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties.property.clusters">Clusters</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties.property.clusters">Clusters</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties.property.witnessRegion">WitnessRegion</a></code> | <code>*string</code> | The witness region in a multi-region cluster. |
 
 ---
@@ -1188,7 +1188,7 @@ Clusters *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}.
 
 ---
 
@@ -1202,7 +1202,7 @@ WitnessRegion *string
 
 The witness region in a multi-region cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}
 
 ---
 
@@ -1211,7 +1211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 &dsqlcluster.DsqlClusterTags {
 	Key: *string,
@@ -1240,7 +1240,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#key DsqlCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#key DsqlCluster#key}
 
 ---
 
@@ -1256,7 +1256,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dsql_cluster#value DsqlCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dsql_cluster#value DsqlCluster#value}
 
 ---
 
@@ -1267,7 +1267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterEncryptionDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 dsqlcluster.NewDsqlClusterEncryptionDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DsqlClusterEncryptionDetailsOutputReference
 ```
@@ -1549,7 +1549,7 @@ func InternalValue() DsqlClusterEncryptionDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 dsqlcluster.NewDsqlClusterMultiRegionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DsqlClusterMultiRegionPropertiesOutputReference
 ```
@@ -1856,7 +1856,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 dsqlcluster.NewDsqlClusterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DsqlClusterTagsList
 ```
@@ -2016,7 +2016,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dsqlcluster"
 
 dsqlcluster.NewDsqlClusterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DsqlClusterTagsOutputReference
 ```

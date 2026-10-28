@@ -4,12 +4,12 @@
 
 ### SsmServiceSetting <a name="SsmServiceSetting" id="@cdktn/provider-awscc.ssmServiceSetting.SsmServiceSetting"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_service_setting awscc_ssm_service_setting}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_service_setting awscc_ssm_service_setting}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmServiceSetting.SsmServiceSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmservicesetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmservicesetting"
 
 ssmservicesetting.NewSsmServiceSetting(scope Construct, id *string, config SsmServiceSettingConfig) SsmServiceSetting
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssmServiceSetting.SsmServiceSetting.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmservicesetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmservicesetting"
 
 ssmservicesetting.SsmServiceSetting_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssmServiceSetting.SsmServiceSetting.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmservicesetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmservicesetting"
 
 ssmservicesetting.SsmServiceSetting_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ssmservicesetting.SsmServiceSetting_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssmServiceSetting.SsmServiceSetting.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmservicesetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmservicesetting"
 
 ssmservicesetting.SsmServiceSetting_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ssmservicesetting.SsmServiceSetting_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssmServiceSetting.SsmServiceSetting.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmservicesetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmservicesetting"
 
 ssmservicesetting.SsmServiceSetting_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SsmServiceSetting to impor
 
 The id of the existing SsmServiceSetting that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_service_setting#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_service_setting#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -788,7 +788,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmServiceSetting.SsmServiceSettingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmservicesetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmservicesetting"
 
 &ssmservicesetting.SsmServiceSettingConfig {
 	Connection: interface{},
@@ -899,7 +899,7 @@ SettingId *string
 
 The ID of the service setting, such as /ssm/parameter-store/high-throughput-enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_service_setting#setting_id SsmServiceSetting#setting_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_service_setting#setting_id SsmServiceSetting#setting_id}
 
 ---
 
@@ -913,7 +913,7 @@ SettingValue *string
 
 The value of the service setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_service_setting#setting_value SsmServiceSetting#setting_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_service_setting#setting_value SsmServiceSetting#setting_value}
 
 ---
 

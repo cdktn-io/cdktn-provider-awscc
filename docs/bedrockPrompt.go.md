@@ -4,12 +4,12 @@
 
 ### BedrockPrompt <a name="BedrockPrompt" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPrompt"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt awscc_bedrock_prompt}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt awscc_bedrock_prompt}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPrompt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPrompt(scope Construct, id *string, config BedrockPromptConfig) BedrockPrompt
 ```
@@ -448,7 +448,7 @@ func ResetVariants()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPrompt.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.BedrockPrompt_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPrompt.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.BedrockPrompt_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ bedrockprompt.BedrockPrompt_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPrompt.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.BedrockPrompt_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ bedrockprompt.BedrockPrompt_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPrompt.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.BedrockPrompt_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the BedrockPrompt to import.
 
 The id of the existing BedrockPrompt that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -935,7 +935,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptConfig {
 	Connection: interface{},
@@ -1054,7 +1054,7 @@ Name *string
 
 Name for a prompt resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -1068,7 +1068,7 @@ CustomerEncryptionKeyArn *string
 
 A KMS key ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#customer_encryption_key_arn BedrockPrompt#customer_encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#customer_encryption_key_arn BedrockPrompt#customer_encryption_key_arn}
 
 ---
 
@@ -1082,7 +1082,7 @@ DefaultVariant *string
 
 Name for a variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#default_variant BedrockPrompt#default_variant}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#default_variant BedrockPrompt#default_variant}
 
 ---
 
@@ -1096,7 +1096,7 @@ Description *string
 
 Name for a prompt resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
 
 ---
 
@@ -1110,7 +1110,7 @@ Tags *map[string]*string
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#tags BedrockPrompt#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#tags BedrockPrompt#tags}
 
 ---
 
@@ -1124,7 +1124,7 @@ Variants interface{}
 
 List of prompt variants.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#variants BedrockPrompt#variants}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#variants BedrockPrompt#variants}
 
 ---
 
@@ -1133,16 +1133,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariants.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariants {
 	AdditionalModelRequestFields: *string,
-	GenAiResource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsGenAiResource,
-	InferenceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsInferenceConfiguration,
+	GenAiResource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsGenAiResource,
+	InferenceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsInferenceConfiguration,
 	Metadata: interface{},
 	ModelId: *string,
 	Name: *string,
-	TemplateConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfiguration,
+	TemplateConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfiguration,
 	TemplateType: *string,
 }
 ```
@@ -1172,7 +1172,7 @@ AdditionalModelRequestFields *string
 
 Contains model-specific configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#additional_model_request_fields BedrockPrompt#additional_model_request_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#additional_model_request_fields BedrockPrompt#additional_model_request_fields}
 
 ---
 
@@ -1186,7 +1186,7 @@ GenAiResource BedrockPromptVariantsGenAiResource
 
 Target resource to invoke with Prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#gen_ai_resource BedrockPrompt#gen_ai_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#gen_ai_resource BedrockPrompt#gen_ai_resource}
 
 ---
 
@@ -1200,7 +1200,7 @@ InferenceConfiguration BedrockPromptVariantsInferenceConfiguration
 
 Model inference configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#inference_configuration BedrockPrompt#inference_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#inference_configuration BedrockPrompt#inference_configuration}
 
 ---
 
@@ -1214,7 +1214,7 @@ Metadata interface{}
 
 List of metadata to associate with the prompt variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#metadata BedrockPrompt#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#metadata BedrockPrompt#metadata}
 
 ---
 
@@ -1228,7 +1228,7 @@ ModelId *string
 
 ARN or Id of a Bedrock Foundational Model or Inference Profile, or the ARN of a imported model, or a provisioned throughput ARN for custom models.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#model_id BedrockPrompt#model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#model_id BedrockPrompt#model_id}
 
 ---
 
@@ -1242,7 +1242,7 @@ Name *string
 
 Name for a variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -1256,7 +1256,7 @@ TemplateConfiguration BedrockPromptVariantsTemplateConfiguration
 
 Prompt template configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#template_configuration BedrockPrompt#template_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#template_configuration BedrockPrompt#template_configuration}
 
 ---
 
@@ -1270,7 +1270,7 @@ TemplateType *string
 
 Prompt template type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#template_type BedrockPrompt#template_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#template_type BedrockPrompt#template_type}
 
 ---
 
@@ -1279,10 +1279,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsGenAiResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsGenAiResource {
-	Agent: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsGenAiResourceAgent,
+	Agent: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsGenAiResourceAgent,
 }
 ```
 
@@ -1304,7 +1304,7 @@ Agent BedrockPromptVariantsGenAiResourceAgent
 
 Target Agent to invoke with Prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#agent BedrockPrompt#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#agent BedrockPrompt#agent}
 
 ---
 
@@ -1313,7 +1313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsGenAiResourceAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsGenAiResourceAgent {
 	AgentIdentifier: *string,
@@ -1338,7 +1338,7 @@ AgentIdentifier *string
 
 Arn representation of the Agent Alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#agent_identifier BedrockPrompt#agent_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#agent_identifier BedrockPrompt#agent_identifier}
 
 ---
 
@@ -1347,10 +1347,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsInferenceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsInferenceConfiguration {
-	Text: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsInferenceConfigurationText,
+	Text: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsInferenceConfigurationText,
 }
 ```
 
@@ -1372,7 +1372,7 @@ Text BedrockPromptVariantsInferenceConfigurationText
 
 Prompt model inference configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -1381,7 +1381,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsInferenceConfigurationText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsInferenceConfigurationText {
 	MaxTokens: *f64,
@@ -1412,7 +1412,7 @@ MaxTokens *f64
 
 Maximum length of output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#max_tokens BedrockPrompt#max_tokens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#max_tokens BedrockPrompt#max_tokens}
 
 ---
 
@@ -1426,7 +1426,7 @@ StopSequences *[]*string
 
 List of stop sequences.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#stop_sequences BedrockPrompt#stop_sequences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#stop_sequences BedrockPrompt#stop_sequences}
 
 ---
 
@@ -1440,7 +1440,7 @@ Temperature *f64
 
 Controls randomness, higher values increase diversity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#temperature BedrockPrompt#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#temperature BedrockPrompt#temperature}
 
 ---
 
@@ -1454,7 +1454,7 @@ TopP *f64
 
 Cumulative probability cutoff for token selection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#top_p BedrockPrompt#top_p}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#top_p BedrockPrompt#top_p}
 
 ---
 
@@ -1463,7 +1463,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsMetadata {
 	Key: *string,
@@ -1490,7 +1490,7 @@ Key *string
 
 The key of a metadata tag for a prompt variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
 
 ---
 
@@ -1504,7 +1504,7 @@ Value *string
 
 The value of a metadata tag for a prompt variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#value BedrockPrompt#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#value BedrockPrompt#value}
 
 ---
 
@@ -1513,11 +1513,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfiguration {
-	Chat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChat,
-	Text: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationText,
+	Chat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChat,
+	Text: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationText,
 }
 ```
 
@@ -1540,7 +1540,7 @@ Chat BedrockPromptVariantsTemplateConfigurationChat
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#chat BedrockPrompt#chat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#chat BedrockPrompt#chat}
 
 ---
 
@@ -1554,7 +1554,7 @@ Text BedrockPromptVariantsTemplateConfigurationText
 
 Configuration for text prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -1563,13 +1563,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChat {
 	InputVariables: interface{},
 	Messages: interface{},
 	SystemAttribute: interface{},
-	ToolConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfiguration,
+	ToolConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfiguration,
 }
 ```
 
@@ -1594,7 +1594,7 @@ InputVariables interface{}
 
 List of input variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
 
 ---
 
@@ -1608,7 +1608,7 @@ Messages interface{}
 
 List of messages for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#messages BedrockPrompt#messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#messages BedrockPrompt#messages}
 
 ---
 
@@ -1622,7 +1622,7 @@ SystemAttribute interface{}
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#system BedrockPrompt#system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#system BedrockPrompt#system}
 
 ---
 
@@ -1636,7 +1636,7 @@ ToolConfiguration BedrockPromptVariantsTemplateConfigurationChatToolConfiguratio
 
 Tool configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#tool_configuration BedrockPrompt#tool_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#tool_configuration BedrockPrompt#tool_configuration}
 
 ---
 
@@ -1645,7 +1645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatInputVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatInputVariables {
 	Name: *string,
@@ -1670,7 +1670,7 @@ Name *string
 
 Name for an input variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -1679,7 +1679,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatMessages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatMessages {
 	Content: interface{},
@@ -1706,7 +1706,7 @@ Content interface{}
 
 List of Content Blocks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#content BedrockPrompt#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#content BedrockPrompt#content}
 
 ---
 
@@ -1720,7 +1720,7 @@ Role *string
 
 Conversation roles for the chat prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#role BedrockPrompt#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#role BedrockPrompt#role}
 
 ---
 
@@ -1729,10 +1729,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatMessagesContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatMessagesContent {
-	CachePoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePoint,
+	CachePoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePoint,
 	Text: *string,
 }
 ```
@@ -1756,7 +1756,7 @@ CachePoint BedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePoi
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -1770,7 +1770,7 @@ Text *string
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -1779,7 +1779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePoint {
 	Type: *string,
@@ -1804,7 +1804,7 @@ Type *string
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -1813,10 +1813,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatSystem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatSystem {
-	CachePoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatSystemCachePoint,
+	CachePoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatSystemCachePoint,
 	Text: *string,
 }
 ```
@@ -1840,7 +1840,7 @@ CachePoint BedrockPromptVariantsTemplateConfigurationChatSystemCachePoint
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -1854,7 +1854,7 @@ Text *string
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -1863,7 +1863,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatSystemCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatSystemCachePoint {
 	Type: *string,
@@ -1888,7 +1888,7 @@ Type *string
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -1897,10 +1897,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatToolConfiguration {
-	ToolChoice: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoice,
+	ToolChoice: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoice,
 	Tools: interface{},
 }
 ```
@@ -1924,7 +1924,7 @@ ToolChoice BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolCh
 
 Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#tool_choice BedrockPrompt#tool_choice}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#tool_choice BedrockPrompt#tool_choice}
 
 ---
 
@@ -1938,7 +1938,7 @@ Tools interface{}
 
 List of Tools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#tools BedrockPrompt#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#tools BedrockPrompt#tools}
 
 ---
 
@@ -1947,12 +1947,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoice.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoice {
 	Any: *string,
 	Auto: *string,
-	Tool: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceTool,
+	Tool: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceTool,
 }
 ```
 
@@ -1976,7 +1976,7 @@ Any *string
 
 Any Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#any BedrockPrompt#any}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#any BedrockPrompt#any}
 
 ---
 
@@ -1990,7 +1990,7 @@ Auto *string
 
 Auto Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#auto BedrockPrompt#auto}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#auto BedrockPrompt#auto}
 
 ---
 
@@ -2004,7 +2004,7 @@ Tool BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceTo
 
 Specific Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#tool BedrockPrompt#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#tool BedrockPrompt#tool}
 
 ---
 
@@ -2013,7 +2013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceTool {
 	Name: *string,
@@ -2038,7 +2038,7 @@ Name *string
 
 Tool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -2047,11 +2047,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTools.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTools {
-	CachePoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePoint,
-	ToolSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec,
+	CachePoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePoint,
+	ToolSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec,
 }
 ```
 
@@ -2074,7 +2074,7 @@ CachePoint BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsC
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -2088,7 +2088,7 @@ ToolSpec BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToo
 
 Tool specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#tool_spec BedrockPrompt#tool_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#tool_spec BedrockPrompt#tool_spec}
 
 ---
 
@@ -2097,7 +2097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePoint {
 	Type: *string,
@@ -2122,7 +2122,7 @@ Type *string
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -2131,11 +2131,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec {
 	Description: *string,
-	InputSchema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema,
+	InputSchema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema,
 	Name: *string,
 }
 ```
@@ -2144,7 +2144,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}. |
 | <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.inputSchema">InputSchema</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema">BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema</a></code> | Tool input schema. |
 | <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.name">Name</a></code> | <code>*string</code> | Tool name. |
 
@@ -2158,7 +2158,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}.
 
 ---
 
@@ -2172,7 +2172,7 @@ InputSchema BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTools
 
 Tool input schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#input_schema BedrockPrompt#input_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#input_schema BedrockPrompt#input_schema}
 
 ---
 
@@ -2186,7 +2186,7 @@ Name *string
 
 Tool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -2195,7 +2195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema {
 	Json: *string,
@@ -2206,7 +2206,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema.property.json">Json</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema.property.json">Json</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}. |
 
 ---
 
@@ -2218,7 +2218,7 @@ Json *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}.
 
 ---
 
@@ -2227,13 +2227,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationText {
-	CachePoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextCachePoint,
+	CachePoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextCachePoint,
 	InputVariables: interface{},
 	Text: *string,
-	TextS3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextTextS3Location,
+	TextS3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextTextS3Location,
 }
 ```
 
@@ -2258,7 +2258,7 @@ CachePoint BedrockPromptVariantsTemplateConfigurationTextCachePoint
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -2272,7 +2272,7 @@ InputVariables interface{}
 
 List of input variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
 
 ---
 
@@ -2286,7 +2286,7 @@ Text *string
 
 Prompt content for String prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -2300,7 +2300,7 @@ TextS3Location BedrockPromptVariantsTemplateConfigurationTextTextS3Location
 
 The identifier for the S3 resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#text_s3_location BedrockPrompt#text_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#text_s3_location BedrockPrompt#text_s3_location}
 
 ---
 
@@ -2309,7 +2309,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextCachePoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationTextCachePoint {
 	Type: *string,
@@ -2334,7 +2334,7 @@ Type *string
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -2343,7 +2343,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextInputVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationTextInputVariables {
 	Name: *string,
@@ -2368,7 +2368,7 @@ Name *string
 
 Name for an input variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -2377,7 +2377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextTextS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 &bedrockprompt.BedrockPromptVariantsTemplateConfigurationTextTextS3Location {
 	Bucket: *string,
@@ -2406,7 +2406,7 @@ Bucket *string
 
 A bucket in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#bucket BedrockPrompt#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#bucket BedrockPrompt#bucket}
 
 ---
 
@@ -2420,7 +2420,7 @@ Key *string
 
 A object key in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
 
 ---
 
@@ -2434,7 +2434,7 @@ Version *string
 
 The version of the the S3 object to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt#version BedrockPrompt#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt#version BedrockPrompt#version}
 
 ---
 
@@ -2445,7 +2445,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsGenAiResourceAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsGenAiResourceAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsGenAiResourceAgentOutputReference
 ```
@@ -2723,7 +2723,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsGenAiResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsGenAiResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsGenAiResourceOutputReference
 ```
@@ -3014,7 +3014,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsInferenceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsInferenceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsInferenceConfigurationOutputReference
 ```
@@ -3305,7 +3305,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsInferenceConfigurationTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsInferenceConfigurationTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsInferenceConfigurationTextOutputReference
 ```
@@ -3670,7 +3670,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVariantsList
 ```
@@ -3830,7 +3830,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVariantsMetadataList
 ```
@@ -3990,7 +3990,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVariantsMetadataOutputReference
 ```
@@ -4315,7 +4315,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVariantsOutputReference
 ```
@@ -4866,7 +4866,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatInputVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatInputVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVariantsTemplateConfigurationChatInputVariablesList
 ```
@@ -5026,7 +5026,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatInputVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatInputVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVariantsTemplateConfigurationChatInputVariablesOutputReference
 ```
@@ -5322,7 +5322,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationChatMessagesContentCachePointOutputReference
 ```
@@ -5600,7 +5600,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatMessagesContentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatMessagesContentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVariantsTemplateConfigurationChatMessagesContentList
 ```
@@ -5760,7 +5760,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatMessagesContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatMessagesContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVariantsTemplateConfigurationChatMessagesContentOutputReference
 ```
@@ -6098,7 +6098,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatMessagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatMessagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVariantsTemplateConfigurationChatMessagesList
 ```
@@ -6258,7 +6258,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatMessagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatMessagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVariantsTemplateConfigurationChatMessagesOutputReference
 ```
@@ -6596,7 +6596,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationChatOutputReference
 ```
@@ -7013,7 +7013,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatSystemCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatSystemCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationChatSystemCachePointOutputReference
 ```
@@ -7291,7 +7291,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatSystemList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatSystemList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVariantsTemplateConfigurationChatSystemList
 ```
@@ -7451,7 +7451,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatSystemOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatSystemOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVariantsTemplateConfigurationChatSystemOutputReference
 ```
@@ -7789,7 +7789,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatToolConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationChatToolConfigurationOutputReference
 ```
@@ -8122,7 +8122,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceOutputReference
 ```
@@ -8471,7 +8471,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference
 ```
@@ -8749,7 +8749,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePointOutputReference
 ```
@@ -9027,7 +9027,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsList
 ```
@@ -9187,7 +9187,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsOutputReference
 ```
@@ -9538,7 +9538,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchemaOutputReference
 ```
@@ -9816,7 +9816,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecOutputReference
 ```
@@ -10165,7 +10165,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationOutputReference
 ```
@@ -10498,7 +10498,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextCachePointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationTextCachePointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationTextCachePointOutputReference
 ```
@@ -10776,7 +10776,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextInputVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationTextInputVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockPromptVariantsTemplateConfigurationTextInputVariablesList
 ```
@@ -10936,7 +10936,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextInputVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationTextInputVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockPromptVariantsTemplateConfigurationTextInputVariablesOutputReference
 ```
@@ -11232,7 +11232,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationTextOutputReference
 ```
@@ -11636,7 +11636,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockprompt"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockprompt"
 
 bedrockprompt.NewBedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputReference
 ```

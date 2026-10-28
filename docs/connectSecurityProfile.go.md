@@ -4,12 +4,12 @@
 
 ### ConnectSecurityProfile <a name="ConnectSecurityProfile" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile awscc_connect_security_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile awscc_connect_security_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfile(scope Construct, id *string, config ConnectSecurityProfileConfig) ConnectSecurityProfile
 ```
@@ -535,7 +535,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.ConnectSecurityProfile_IsConstruct(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.ConnectSecurityProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ connectsecurityprofile.ConnectSecurityProfile_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.ConnectSecurityProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -595,7 +595,7 @@ connectsecurityprofile.ConnectSecurityProfile_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.ConnectSecurityProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -624,7 +624,7 @@ The construct id used in the generated config for the ConnectSecurityProfile to 
 
 The id of the existing ConnectSecurityProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1132,7 +1132,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileAllowedAccessControlTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 &connectsecurityprofile.ConnectSecurityProfileAllowedAccessControlTags {
 	Key: *string,
@@ -1161,7 +1161,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#key ConnectSecurityProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#key ConnectSecurityProfile#key}
 
 ---
 
@@ -1177,7 +1177,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#value ConnectSecurityProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#value ConnectSecurityProfile#value}
 
 ---
 
@@ -1186,7 +1186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileAllowedFlowModules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 &connectsecurityprofile.ConnectSecurityProfileAllowedFlowModules {
 	FlowModuleId: *string,
@@ -1213,7 +1213,7 @@ FlowModuleId *string
 
 The identifier of the application that you want to give access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#flow_module_id ConnectSecurityProfile#flow_module_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#flow_module_id ConnectSecurityProfile#flow_module_id}
 
 ---
 
@@ -1227,7 +1227,7 @@ Type *string
 
 The type of the first-party application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#type ConnectSecurityProfile#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#type ConnectSecurityProfile#type}
 
 ---
 
@@ -1236,7 +1236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileApplications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 &connectsecurityprofile.ConnectSecurityProfileApplications {
 	ApplicationPermissions: *[]*string,
@@ -1265,7 +1265,7 @@ ApplicationPermissions *[]*string
 
 The permissions that the agent is granted on the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#application_permissions ConnectSecurityProfile#application_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#application_permissions ConnectSecurityProfile#application_permissions}
 
 ---
 
@@ -1279,7 +1279,7 @@ Namespace *string
 
 Namespace of the application that you want to give access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#namespace ConnectSecurityProfile#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#namespace ConnectSecurityProfile#namespace}
 
 ---
 
@@ -1293,7 +1293,7 @@ Type *string
 
 The type of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#type ConnectSecurityProfile#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#type ConnectSecurityProfile#type}
 
 ---
 
@@ -1302,7 +1302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 &connectsecurityprofile.ConnectSecurityProfileConfig {
 	Connection: interface{},
@@ -1319,7 +1319,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile
 	AllowedFlowModules: interface{},
 	Applications: interface{},
 	Description: *string,
-	GranularAccessControlConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfiguration,
+	GranularAccessControlConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfiguration,
 	HierarchyRestrictedResources: *[]*string,
 	Permissions: *[]*string,
 	TagRestrictedResources: *[]*string,
@@ -1345,7 +1345,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile
 | <code><a href="#@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileConfig.property.allowedFlowModules">AllowedFlowModules</a></code> | <code>interface{}</code> | The list of flow-module resources to be linked to a security profile in Amazon Connect. |
 | <code><a href="#@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileConfig.property.applications">Applications</a></code> | <code>interface{}</code> | A list of third-party applications that the security profile will give access to. |
 | <code><a href="#@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileConfig.property.description">Description</a></code> | <code>*string</code> | The description of the security profile. |
-| <code><a href="#@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileConfig.property.granularAccessControlConfiguration">GranularAccessControlConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfiguration">ConnectSecurityProfileGranularAccessControlConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#granular_access_control_configuration ConnectSecurityProfile#granular_access_control_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileConfig.property.granularAccessControlConfiguration">GranularAccessControlConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfiguration">ConnectSecurityProfileGranularAccessControlConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#granular_access_control_configuration ConnectSecurityProfile#granular_access_control_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileConfig.property.hierarchyRestrictedResources">HierarchyRestrictedResources</a></code> | <code>*[]*string</code> | The list of resources that a security profile applies hierarchy restrictions to in Amazon Connect. |
 | <code><a href="#@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileConfig.property.permissions">Permissions</a></code> | <code>*[]*string</code> | Permissions assigned to the security profile. |
 | <code><a href="#@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileConfig.property.tagRestrictedResources">TagRestrictedResources</a></code> | <code>*[]*string</code> | The list of resources that a security profile applies tag restrictions to in Amazon Connect. |
@@ -1433,7 +1433,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#instance_arn ConnectSecurityProfile#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#instance_arn ConnectSecurityProfile#instance_arn}
 
 ---
 
@@ -1447,7 +1447,7 @@ SecurityProfileName *string
 
 The name of the security profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#security_profile_name ConnectSecurityProfile#security_profile_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#security_profile_name ConnectSecurityProfile#security_profile_name}
 
 ---
 
@@ -1461,7 +1461,7 @@ AllowedAccessControlHierarchyGroupId *string
 
 The identifier of the hierarchy group that a security profile uses to restrict access to resources in Amazon Connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#allowed_access_control_hierarchy_group_id ConnectSecurityProfile#allowed_access_control_hierarchy_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#allowed_access_control_hierarchy_group_id ConnectSecurityProfile#allowed_access_control_hierarchy_group_id}
 
 ---
 
@@ -1475,7 +1475,7 @@ AllowedAccessControlTags interface{}
 
 The list of tags that a security profile uses to restrict access to resources in Amazon Connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#allowed_access_control_tags ConnectSecurityProfile#allowed_access_control_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#allowed_access_control_tags ConnectSecurityProfile#allowed_access_control_tags}
 
 ---
 
@@ -1489,7 +1489,7 @@ AllowedFlowModules interface{}
 
 The list of flow-module resources to be linked to a security profile in Amazon Connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#allowed_flow_modules ConnectSecurityProfile#allowed_flow_modules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#allowed_flow_modules ConnectSecurityProfile#allowed_flow_modules}
 
 ---
 
@@ -1503,7 +1503,7 @@ Applications interface{}
 
 A list of third-party applications that the security profile will give access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#applications ConnectSecurityProfile#applications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#applications ConnectSecurityProfile#applications}
 
 ---
 
@@ -1517,7 +1517,7 @@ Description *string
 
 The description of the security profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#description ConnectSecurityProfile#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#description ConnectSecurityProfile#description}
 
 ---
 
@@ -1529,7 +1529,7 @@ GranularAccessControlConfiguration ConnectSecurityProfileGranularAccessControlCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfiguration">ConnectSecurityProfileGranularAccessControlConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#granular_access_control_configuration ConnectSecurityProfile#granular_access_control_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#granular_access_control_configuration ConnectSecurityProfile#granular_access_control_configuration}.
 
 ---
 
@@ -1543,7 +1543,7 @@ HierarchyRestrictedResources *[]*string
 
 The list of resources that a security profile applies hierarchy restrictions to in Amazon Connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#hierarchy_restricted_resources ConnectSecurityProfile#hierarchy_restricted_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#hierarchy_restricted_resources ConnectSecurityProfile#hierarchy_restricted_resources}
 
 ---
 
@@ -1557,7 +1557,7 @@ Permissions *[]*string
 
 Permissions assigned to the security profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#permissions ConnectSecurityProfile#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#permissions ConnectSecurityProfile#permissions}
 
 ---
 
@@ -1571,7 +1571,7 @@ TagRestrictedResources *[]*string
 
 The list of resources that a security profile applies tag restrictions to in Amazon Connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#tag_restricted_resources ConnectSecurityProfile#tag_restricted_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#tag_restricted_resources ConnectSecurityProfile#tag_restricted_resources}
 
 ---
 
@@ -1585,7 +1585,7 @@ Tags interface{}
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#tags ConnectSecurityProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#tags ConnectSecurityProfile#tags}
 
 ---
 
@@ -1594,10 +1594,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 &connectsecurityprofile.ConnectSecurityProfileGranularAccessControlConfiguration {
-	DataTableAccessControlConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfiguration,
+	DataTableAccessControlConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfiguration,
 }
 ```
 
@@ -1619,7 +1619,7 @@ DataTableAccessControlConfiguration ConnectSecurityProfileGranularAccessControlC
 
 Defines the access control configuration for data tables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#data_table_access_control_configuration ConnectSecurityProfile#data_table_access_control_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#data_table_access_control_configuration ConnectSecurityProfile#data_table_access_control_configuration}
 
 ---
 
@@ -1628,10 +1628,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 &connectsecurityprofile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfiguration {
-	PrimaryAttributeAccessControlConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfiguration,
+	PrimaryAttributeAccessControlConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfiguration,
 }
 ```
 
@@ -1653,7 +1653,7 @@ PrimaryAttributeAccessControlConfiguration ConnectSecurityProfileGranularAccessC
 
 Contains the configuration for record-based access control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#primary_attribute_access_control_configuration ConnectSecurityProfile#primary_attribute_access_control_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#primary_attribute_access_control_configuration ConnectSecurityProfile#primary_attribute_access_control_configuration}
 
 ---
 
@@ -1662,7 +1662,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 &connectsecurityprofile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfiguration {
 	PrimaryAttributeValues: interface{},
@@ -1687,7 +1687,7 @@ PrimaryAttributeValues interface{}
 
 An array of PrimaryAttributeValue objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#primary_attribute_values ConnectSecurityProfile#primary_attribute_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#primary_attribute_values ConnectSecurityProfile#primary_attribute_values}
 
 ---
 
@@ -1696,7 +1696,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationPrimaryAttributeValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 &connectsecurityprofile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationPrimaryAttributeValues {
 	AccessType: *string,
@@ -1725,7 +1725,7 @@ AccessType *string
 
 Specifies the type of access granted. Currently, only "ALLOW" is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#access_type ConnectSecurityProfile#access_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#access_type ConnectSecurityProfile#access_type}
 
 ---
 
@@ -1739,7 +1739,7 @@ AttributeName *string
 
 The name of the primary attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#attribute_name ConnectSecurityProfile#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#attribute_name ConnectSecurityProfile#attribute_name}
 
 ---
 
@@ -1753,7 +1753,7 @@ Values *[]*string
 
 An array of allowed primary values for the specified primary attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#values ConnectSecurityProfile#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#values ConnectSecurityProfile#values}
 
 ---
 
@@ -1762,7 +1762,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 &connectsecurityprofile.ConnectSecurityProfileTags {
 	Key: *string,
@@ -1791,7 +1791,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#key ConnectSecurityProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#key ConnectSecurityProfile#key}
 
 ---
 
@@ -1807,7 +1807,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile#value ConnectSecurityProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile#value ConnectSecurityProfile#value}
 
 ---
 
@@ -1818,7 +1818,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileAllowedAccessControlTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileAllowedAccessControlTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectSecurityProfileAllowedAccessControlTagsList
 ```
@@ -1978,7 +1978,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileAllowedAccessControlTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileAllowedAccessControlTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectSecurityProfileAllowedAccessControlTagsOutputReference
 ```
@@ -2303,7 +2303,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileAllowedFlowModulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileAllowedFlowModulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectSecurityProfileAllowedFlowModulesList
 ```
@@ -2463,7 +2463,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileAllowedFlowModulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileAllowedFlowModulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectSecurityProfileAllowedFlowModulesOutputReference
 ```
@@ -2788,7 +2788,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileApplicationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileApplicationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectSecurityProfileApplicationsList
 ```
@@ -2948,7 +2948,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileApplicationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileApplicationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectSecurityProfileApplicationsOutputReference
 ```
@@ -3302,7 +3302,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference
 ```
@@ -3593,7 +3593,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationOutputReference
 ```
@@ -3884,7 +3884,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationPrimaryAttributeValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationPrimaryAttributeValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationPrimaryAttributeValuesList
 ```
@@ -4044,7 +4044,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationPrimaryAttributeValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationPrimaryAttributeValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfigurationPrimaryAttributeValuesOutputReference
 ```
@@ -4398,7 +4398,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileGranularAccessControlConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileGranularAccessControlConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectSecurityProfileGranularAccessControlConfigurationOutputReference
 ```
@@ -4689,7 +4689,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectSecurityProfileTagsList
 ```
@@ -4849,7 +4849,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityProfile.ConnectSecurityProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile"
 
 connectsecurityprofile.NewConnectSecurityProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectSecurityProfileTagsOutputReference
 ```

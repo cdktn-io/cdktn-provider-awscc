@@ -4,12 +4,12 @@
 
 ### DataAwsccDeadlineWorker <a name="DataAwsccDeadlineWorker" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorker"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_worker awscc_deadline_worker}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_worker awscc_deadline_worker}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorker.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 dataawsccdeadlineworker.NewDataAwsccDeadlineWorker(scope Construct, id *string, config DataAwsccDeadlineWorkerConfig) DataAwsccDeadlineWorker
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorker.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 dataawsccdeadlineworker.DataAwsccDeadlineWorker_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorker.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 dataawsccdeadlineworker.DataAwsccDeadlineWorker_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdeadlineworker.DataAwsccDeadlineWorker_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorker.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 dataawsccdeadlineworker.DataAwsccDeadlineWorker_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdeadlineworker.DataAwsccDeadlineWorker_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorker.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 dataawsccdeadlineworker.DataAwsccDeadlineWorker_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDeadlineWorker to
 
 The id of the existing DataAwsccDeadlineWorker that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_worker#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_worker#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorkerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 &dataawsccdeadlineworker.DataAwsccDeadlineWorkerConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_worker#id DataAwsccDeadlineWorker#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_worker#id DataAwsccDeadlineWorker#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorkerHostProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 &dataawsccdeadlineworker.DataAwsccDeadlineWorkerHostProperties {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworke
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorkerHostPropertiesIpAddresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 &dataawsccdeadlineworker.DataAwsccDeadlineWorkerHostPropertiesIpAddresses {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworke
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorkerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 &dataawsccdeadlineworker.DataAwsccDeadlineWorkerTags {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworke
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorkerHostPropertiesIpAddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 dataawsccdeadlineworker.NewDataAwsccDeadlineWorkerHostPropertiesIpAddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineWorkerHostPropertiesIpAddressesOutputReference
 ```
@@ -1119,7 +1119,7 @@ func InternalValue() DataAwsccDeadlineWorkerHostPropertiesIpAddresses
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorkerHostPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 dataawsccdeadlineworker.NewDataAwsccDeadlineWorkerHostPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineWorkerHostPropertiesOutputReference
 ```
@@ -1390,7 +1390,7 @@ func InternalValue() DataAwsccDeadlineWorkerHostProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorkerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 dataawsccdeadlineworker.NewDataAwsccDeadlineWorkerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineWorkerTagsList
 ```
@@ -1539,7 +1539,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineWorker.DataAwsccDeadlineWorkerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlineworker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlineworker"
 
 dataawsccdeadlineworker.NewDataAwsccDeadlineWorkerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineWorkerTagsOutputReference
 ```

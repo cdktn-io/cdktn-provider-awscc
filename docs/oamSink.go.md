@@ -4,12 +4,12 @@
 
 ### OamSink <a name="OamSink" id="@cdktn/provider-awscc.oamSink.OamSink"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_sink awscc_oam_sink}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_sink awscc_oam_sink}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.oamSink.OamSink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamsink"
 
 oamsink.NewOamSink(scope Construct, id *string, config OamSinkConfig) OamSink
 ```
@@ -414,7 +414,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.oamSink.OamSink.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamsink"
 
 oamsink.OamSink_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.oamSink.OamSink.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamsink"
 
 oamsink.OamSink_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ oamsink.OamSink_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.oamSink.OamSink.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamsink"
 
 oamsink.OamSink_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ oamsink.OamSink_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.oamSink.OamSink.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamsink"
 
 oamsink.OamSink_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the OamSink to import.
 
 The id of the existing OamSink that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_sink#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_sink#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -791,7 +791,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.oamSink.OamSinkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/oamsink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/oamsink"
 
 &oamsink.OamSinkConfig {
 	Connection: interface{},
@@ -904,7 +904,7 @@ Name *string
 
 The name of the ObservabilityAccessManager Sink.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_sink#name OamSink#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_sink#name OamSink#name}
 
 ---
 
@@ -918,7 +918,7 @@ Policy *string
 
 The policy of this ObservabilityAccessManager Sink.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_sink#policy OamSink#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_sink#policy OamSink#policy}
 
 ---
 
@@ -932,7 +932,7 @@ Tags *map[string]*string
 
 Tags to apply to the sink.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/oam_sink#tags OamSink#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/oam_sink#tags OamSink#tags}
 
 ---
 

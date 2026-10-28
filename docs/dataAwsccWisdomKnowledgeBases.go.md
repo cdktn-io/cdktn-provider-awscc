@@ -4,12 +4,12 @@
 
 ### DataAwsccWisdomKnowledgeBases <a name="DataAwsccWisdomKnowledgeBases" id="@cdktn/provider-awscc.dataAwsccWisdomKnowledgeBases.DataAwsccWisdomKnowledgeBases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_knowledge_bases awscc_wisdom_knowledge_bases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_knowledge_bases awscc_wisdom_knowledge_bases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomKnowledgeBases.DataAwsccWisdomKnowledgeBases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomknowledgebases"
 
 dataawsccwisdomknowledgebases.NewDataAwsccWisdomKnowledgeBases(scope Construct, id *string, config DataAwsccWisdomKnowledgeBasesConfig) DataAwsccWisdomKnowledgeBases
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWisdomKnowledgeBases.DataAwsccWisdomKnowledgeBases.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomknowledgebases"
 
 dataawsccwisdomknowledgebases.DataAwsccWisdomKnowledgeBases_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWisdomKnowledgeBases.DataAwsccWisdomKnowledgeBases.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomknowledgebases"
 
 dataawsccwisdomknowledgebases.DataAwsccWisdomKnowledgeBases_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwisdomknowledgebases.DataAwsccWisdomKnowledgeBases_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWisdomKnowledgeBases.DataAwsccWisdomKnowledgeBases.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomknowledgebases"
 
 dataawsccwisdomknowledgebases.DataAwsccWisdomKnowledgeBases_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwisdomknowledgebases.DataAwsccWisdomKnowledgeBases_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWisdomKnowledgeBases.DataAwsccWisdomKnowledgeBases.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomknowledgebases"
 
 dataawsccwisdomknowledgebases.DataAwsccWisdomKnowledgeBases_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWisdomKnowledgeBa
 
 The id of the existing DataAwsccWisdomKnowledgeBases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_knowledge_bases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_knowledge_bases#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomKnowledgeBases.DataAwsccWisdomKnowledgeBasesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomknowledgebases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomknowledgebases"
 
 &dataawsccwisdomknowledgebases.DataAwsccWisdomKnowledgeBasesConfig {
 	Connection: interface{},

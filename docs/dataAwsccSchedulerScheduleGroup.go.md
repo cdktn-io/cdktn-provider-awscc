@@ -4,12 +4,12 @@
 
 ### DataAwsccSchedulerScheduleGroup <a name="DataAwsccSchedulerScheduleGroup" id="@cdktn/provider-awscc.dataAwsccSchedulerScheduleGroup.DataAwsccSchedulerScheduleGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scheduler_schedule_group awscc_scheduler_schedule_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scheduler_schedule_group awscc_scheduler_schedule_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSchedulerScheduleGroup.DataAwsccSchedulerScheduleGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccschedulerschedulegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccschedulerschedulegroup"
 
 dataawsccschedulerschedulegroup.NewDataAwsccSchedulerScheduleGroup(scope Construct, id *string, config DataAwsccSchedulerScheduleGroupConfig) DataAwsccSchedulerScheduleGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSchedulerScheduleGroup.DataAwsccSchedulerScheduleGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccschedulerschedulegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccschedulerschedulegroup"
 
 dataawsccschedulerschedulegroup.DataAwsccSchedulerScheduleGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSchedulerScheduleGroup.DataAwsccSchedulerScheduleGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccschedulerschedulegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccschedulerschedulegroup"
 
 dataawsccschedulerschedulegroup.DataAwsccSchedulerScheduleGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccschedulerschedulegroup.DataAwsccSchedulerScheduleGroup_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSchedulerScheduleGroup.DataAwsccSchedulerScheduleGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccschedulerschedulegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccschedulerschedulegroup"
 
 dataawsccschedulerschedulegroup.DataAwsccSchedulerScheduleGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccschedulerschedulegroup.DataAwsccSchedulerScheduleGroup_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSchedulerScheduleGroup.DataAwsccSchedulerScheduleGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccschedulerschedulegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccschedulerschedulegroup"
 
 dataawsccschedulerschedulegroup.DataAwsccSchedulerScheduleGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSchedulerSchedule
 
 The id of the existing DataAwsccSchedulerScheduleGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scheduler_schedule_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scheduler_schedule_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSchedulerScheduleGroup.DataAwsccSchedulerScheduleGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccschedulerschedulegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccschedulerschedulegroup"
 
 &dataawsccschedulerschedulegroup.DataAwsccSchedulerScheduleGroupConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scheduler_schedule_group#id DataAwsccSchedulerScheduleGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scheduler_schedule_group#id DataAwsccSchedulerScheduleGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSchedulerScheduleGroup.DataAwsccSchedulerScheduleGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccschedulerschedulegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccschedulerschedulegroup"
 
 &dataawsccschedulerschedulegroup.DataAwsccSchedulerScheduleGroupTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccschedulersche
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSchedulerScheduleGroup.DataAwsccSchedulerScheduleGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccschedulerschedulegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccschedulerschedulegroup"
 
 dataawsccschedulerschedulegroup.NewDataAwsccSchedulerScheduleGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSchedulerScheduleGroupTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSchedulerScheduleGroup.DataAwsccSchedulerScheduleGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccschedulerschedulegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccschedulerschedulegroup"
 
 dataawsccschedulerschedulegroup.NewDataAwsccSchedulerScheduleGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSchedulerScheduleGroupTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### NetworkmanagerLink <a name="NetworkmanagerLink" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLink"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link awscc_networkmanager_link}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link awscc_networkmanager_link}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerlink"
 
 networkmanagerlink.NewNetworkmanagerLink(scope Construct, id *string, config NetworkmanagerLinkConfig) NetworkmanagerLink
 ```
@@ -454,7 +454,7 @@ func ResetType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLink.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerlink"
 
 networkmanagerlink.NetworkmanagerLink_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLink.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerlink"
 
 networkmanagerlink.NetworkmanagerLink_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ networkmanagerlink.NetworkmanagerLink_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLink.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerlink"
 
 networkmanagerlink.NetworkmanagerLink_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ networkmanagerlink.NetworkmanagerLink_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLink.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerlink"
 
 networkmanagerlink.NetworkmanagerLink_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the NetworkmanagerLink to impo
 
 The id of the existing NetworkmanagerLink that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -952,7 +952,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLinkBandwidth.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerlink"
 
 &networkmanagerlink.NetworkmanagerLinkBandwidth {
 	DownloadSpeed: *f64,
@@ -979,7 +979,7 @@ DownloadSpeed *f64
 
 Download speed in Mbps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#download_speed NetworkmanagerLink#download_speed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#download_speed NetworkmanagerLink#download_speed}
 
 ---
 
@@ -993,7 +993,7 @@ UploadSpeed *f64
 
 Upload speed in Mbps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#upload_speed NetworkmanagerLink#upload_speed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#upload_speed NetworkmanagerLink#upload_speed}
 
 ---
 
@@ -1002,7 +1002,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLinkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerlink"
 
 &networkmanagerlink.NetworkmanagerLinkConfig {
 	Connection: interface{},
@@ -1012,7 +1012,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Bandwidth: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.networkmanagerLink.NetworkmanagerLinkBandwidth,
+	Bandwidth: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.networkmanagerLink.NetworkmanagerLinkBandwidth,
 	GlobalNetworkId: *string,
 	SiteId: *string,
 	Description: *string,
@@ -1123,7 +1123,7 @@ Bandwidth NetworkmanagerLinkBandwidth
 
 The Bandwidth for the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#bandwidth NetworkmanagerLink#bandwidth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#bandwidth NetworkmanagerLink#bandwidth}
 
 ---
 
@@ -1137,7 +1137,7 @@ GlobalNetworkId *string
 
 The ID of the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#global_network_id NetworkmanagerLink#global_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#global_network_id NetworkmanagerLink#global_network_id}
 
 ---
 
@@ -1151,7 +1151,7 @@ SiteId *string
 
 The ID of the site.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#site_id NetworkmanagerLink#site_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#site_id NetworkmanagerLink#site_id}
 
 ---
 
@@ -1165,7 +1165,7 @@ Description *string
 
 The description of the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#description NetworkmanagerLink#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#description NetworkmanagerLink#description}
 
 ---
 
@@ -1179,7 +1179,7 @@ ProviderName *string
 
 The provider of the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#provider_name NetworkmanagerLink#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#provider_name NetworkmanagerLink#provider_name}
 
 ---
 
@@ -1193,7 +1193,7 @@ Tags interface{}
 
 The tags for the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#tags NetworkmanagerLink#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#tags NetworkmanagerLink#tags}
 
 ---
 
@@ -1207,7 +1207,7 @@ Type *string
 
 The type of the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#type NetworkmanagerLink#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#type NetworkmanagerLink#type}
 
 ---
 
@@ -1216,7 +1216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLinkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerlink"
 
 &networkmanagerlink.NetworkmanagerLinkTags {
 	Key: *string,
@@ -1245,7 +1245,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#key NetworkmanagerLink#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#key NetworkmanagerLink#key}
 
 ---
 
@@ -1261,7 +1261,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_link#value NetworkmanagerLink#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_link#value NetworkmanagerLink#value}
 
 ---
 
@@ -1272,7 +1272,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLinkBandwidthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerlink"
 
 networkmanagerlink.NewNetworkmanagerLinkBandwidthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerLinkBandwidthOutputReference
 ```
@@ -1579,7 +1579,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLinkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerlink"
 
 networkmanagerlink.NewNetworkmanagerLinkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerLinkTagsList
 ```
@@ -1739,7 +1739,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLinkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerlink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerlink"
 
 networkmanagerlink.NewNetworkmanagerLinkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerLinkTagsOutputReference
 ```

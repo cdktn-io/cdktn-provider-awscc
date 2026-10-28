@@ -4,12 +4,12 @@
 
 ### OpensearchserverlessCollectionIndex <a name="OpensearchserverlessCollectionIndex" id="@cdktn/provider-awscc.opensearchserverlessCollectionIndex.OpensearchserverlessCollectionIndex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessCollectionIndex.OpensearchserverlessCollectionIndex.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollectionindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollectionindex"
 
 opensearchserverlesscollectionindex.NewOpensearchserverlessCollectionIndex(scope Construct, id *string, config OpensearchserverlessCollectionIndexConfig) OpensearchserverlessCollectionIndex
 ```
@@ -407,7 +407,7 @@ func ResetIndexSchema()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.opensearchserverlessCollectionIndex.OpensearchserverlessCollectionIndex.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollectionindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollectionindex"
 
 opensearchserverlesscollectionindex.OpensearchserverlessCollectionIndex_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.opensearchserverlessCollectionIndex.OpensearchserverlessCollectionIndex.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollectionindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollectionindex"
 
 opensearchserverlesscollectionindex.OpensearchserverlessCollectionIndex_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ opensearchserverlesscollectionindex.OpensearchserverlessCollectionIndex_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.opensearchserverlessCollectionIndex.OpensearchserverlessCollectionIndex.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollectionindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollectionindex"
 
 opensearchserverlesscollectionindex.OpensearchserverlessCollectionIndex_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ opensearchserverlesscollectionindex.OpensearchserverlessCollectionIndex_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.opensearchserverlessCollectionIndex.OpensearchserverlessCollectionIndex.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollectionindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollectionindex"
 
 opensearchserverlesscollectionindex.OpensearchserverlessCollectionIndex_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the OpensearchserverlessCollec
 
 The id of the existing OpensearchserverlessCollectionIndex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserverlessCollectionIndex.OpensearchserverlessCollectionIndexConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollectionindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollectionindex"
 
 &opensearchserverlesscollectionindex.OpensearchserverlessCollectionIndexConfig {
 	Connection: interface{},
@@ -886,7 +886,7 @@ CollectionIndexId *string
 
 The identifier of the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection_index#collection_index_id OpensearchserverlessCollectionIndex#collection_index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection_index#collection_index_id OpensearchserverlessCollectionIndex#collection_index_id}
 
 ---
 
@@ -900,7 +900,7 @@ IndexName *string
 
 The name of the collection index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection_index#index_name OpensearchserverlessCollectionIndex#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection_index#index_name OpensearchserverlessCollectionIndex#index_name}
 
 ---
 
@@ -914,7 +914,7 @@ IndexSchema *string
 
 The Mappings for the collection index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection_index#index_schema OpensearchserverlessCollectionIndex#index_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection_index#index_schema OpensearchserverlessCollectionIndex#index_schema}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### IamRolePolicy <a name="IamRolePolicy" id="@cdktn/provider-awscc.iamRolePolicy.IamRolePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_role_policy awscc_iam_role_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_role_policy awscc_iam_role_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamRolePolicy.IamRolePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamrolepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamrolepolicy"
 
 iamrolepolicy.NewIamRolePolicy(scope Construct, id *string, config IamRolePolicyConfig) IamRolePolicy
 ```
@@ -407,7 +407,7 @@ func ResetPolicyDocument()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iamRolePolicy.IamRolePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamrolepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamrolepolicy"
 
 iamrolepolicy.IamRolePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iamRolePolicy.IamRolePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamrolepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamrolepolicy"
 
 iamrolepolicy.IamRolePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ iamrolepolicy.IamRolePolicy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iamRolePolicy.IamRolePolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamrolepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamrolepolicy"
 
 iamrolepolicy.IamRolePolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ iamrolepolicy.IamRolePolicy_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iamRolePolicy.IamRolePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamrolepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamrolepolicy"
 
 iamrolepolicy.IamRolePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the IamRolePolicy to import.
 
 The id of the existing IamRolePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_role_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_role_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iamRolePolicy.IamRolePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamrolepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamrolepolicy"
 
 &iamrolepolicy.IamRolePolicyConfig {
 	Connection: interface{},
@@ -888,7 +888,7 @@ The name of the policy document.
 
 This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_role_policy#policy_name IamRolePolicy#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_role_policy#policy_name IamRolePolicy#policy_name}
 
 ---
 
@@ -904,7 +904,7 @@ The name of the role to associate the policy with.
 
 This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_role_policy#role_name IamRolePolicy#role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_role_policy#role_name IamRolePolicy#role_name}
 
 ---
 
@@ -925,7 +925,7 @@ The [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)
 * The printable characters in the Basic Latin and Latin-1 Supplement character set (through `\u00FF`)
 * The special characters tab (`\u0009`), line feed (`\u000A`), and carriage return (`\u000D`)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_role_policy#policy_document IamRolePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_role_policy#policy_document IamRolePolicy#policy_document}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccRamResourceShares <a name="DataAwsccRamResourceShares" id="@cdktn/provider-awscc.dataAwsccRamResourceShares.DataAwsccRamResourceShares"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_resource_shares awscc_ram_resource_shares}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_resource_shares awscc_ram_resource_shares}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRamResourceShares.DataAwsccRamResourceShares.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramresourceshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramresourceshares"
 
 dataawsccramresourceshares.NewDataAwsccRamResourceShares(scope Construct, id *string, config DataAwsccRamResourceSharesConfig) DataAwsccRamResourceShares
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRamResourceShares.DataAwsccRamResourceShares.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramresourceshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramresourceshares"
 
 dataawsccramresourceshares.DataAwsccRamResourceShares_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRamResourceShares.DataAwsccRamResourceShares.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramresourceshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramresourceshares"
 
 dataawsccramresourceshares.DataAwsccRamResourceShares_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccramresourceshares.DataAwsccRamResourceShares_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRamResourceShares.DataAwsccRamResourceShares.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramresourceshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramresourceshares"
 
 dataawsccramresourceshares.DataAwsccRamResourceShares_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccramresourceshares.DataAwsccRamResourceShares_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRamResourceShares.DataAwsccRamResourceShares.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramresourceshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramresourceshares"
 
 dataawsccramresourceshares.DataAwsccRamResourceShares_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRamResourceShares
 
 The id of the existing DataAwsccRamResourceShares that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_resource_shares#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_resource_shares#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRamResourceShares.DataAwsccRamResourceSharesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramresourceshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramresourceshares"
 
 &dataawsccramresourceshares.DataAwsccRamResourceSharesConfig {
 	Connection: interface{},

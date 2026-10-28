@@ -4,12 +4,12 @@
 
 ### DataAwsccAmazonmqConfigurations <a name="DataAwsccAmazonmqConfigurations" id="@cdktn/provider-awscc.dataAwsccAmazonmqConfigurations.DataAwsccAmazonmqConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amazonmq_configurations awscc_amazonmq_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amazonmq_configurations awscc_amazonmq_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmazonmqConfigurations.DataAwsccAmazonmqConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqconfigurations"
 
 dataawsccamazonmqconfigurations.NewDataAwsccAmazonmqConfigurations(scope Construct, id *string, config DataAwsccAmazonmqConfigurationsConfig) DataAwsccAmazonmqConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAmazonmqConfigurations.DataAwsccAmazonmqConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqconfigurations"
 
 dataawsccamazonmqconfigurations.DataAwsccAmazonmqConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAmazonmqConfigurations.DataAwsccAmazonmqConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqconfigurations"
 
 dataawsccamazonmqconfigurations.DataAwsccAmazonmqConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccamazonmqconfigurations.DataAwsccAmazonmqConfigurations_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAmazonmqConfigurations.DataAwsccAmazonmqConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqconfigurations"
 
 dataawsccamazonmqconfigurations.DataAwsccAmazonmqConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccamazonmqconfigurations.DataAwsccAmazonmqConfigurations_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAmazonmqConfigurations.DataAwsccAmazonmqConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqconfigurations"
 
 dataawsccamazonmqconfigurations.DataAwsccAmazonmqConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAmazonmqConfigura
 
 The id of the existing DataAwsccAmazonmqConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amazonmq_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amazonmq_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmazonmqConfigurations.DataAwsccAmazonmqConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqconfigurations"
 
 &dataawsccamazonmqconfigurations.DataAwsccAmazonmqConfigurationsConfig {
 	Connection: interface{},

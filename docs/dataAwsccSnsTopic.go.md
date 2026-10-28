@@ -4,12 +4,12 @@
 
 ### DataAwsccSnsTopic <a name="DataAwsccSnsTopic" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopic"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topic awscc_sns_topic}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topic awscc_sns_topic}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 dataawsccsnstopic.NewDataAwsccSnsTopic(scope Construct, id *string, config DataAwsccSnsTopicConfig) DataAwsccSnsTopic
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopic.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 dataawsccsnstopic.DataAwsccSnsTopic_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopic.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 dataawsccsnstopic.DataAwsccSnsTopic_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsnstopic.DataAwsccSnsTopic_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopic.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 dataawsccsnstopic.DataAwsccSnsTopic_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsnstopic.DataAwsccSnsTopic_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopic.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 dataawsccsnstopic.DataAwsccSnsTopic_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSnsTopic to impor
 
 The id of the existing DataAwsccSnsTopic that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topic#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topic#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 &dataawsccsnstopic.DataAwsccSnsTopicConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topic#id DataAwsccSnsTopic#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topic#id DataAwsccSnsTopic#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopicDeliveryStatusLogging.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 &dataawsccsnstopic.DataAwsccSnsTopicDeliveryStatusLogging {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopicSubscription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 &dataawsccsnstopic.DataAwsccSnsTopicSubscription {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopicTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 &dataawsccsnstopic.DataAwsccSnsTopicTags {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopicDeliveryStatusLoggingList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 dataawsccsnstopic.NewDataAwsccSnsTopicDeliveryStatusLoggingList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSnsTopicDeliveryStatusLoggingList
 ```
@@ -1063,7 +1063,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopicDeliveryStatusLoggingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 dataawsccsnstopic.NewDataAwsccSnsTopicDeliveryStatusLoggingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSnsTopicDeliveryStatusLoggingOutputReference
 ```
@@ -1374,7 +1374,7 @@ func InternalValue() DataAwsccSnsTopicDeliveryStatusLogging
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopicSubscriptionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 dataawsccsnstopic.NewDataAwsccSnsTopicSubscriptionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSnsTopicSubscriptionList
 ```
@@ -1523,7 +1523,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopicSubscriptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 dataawsccsnstopic.NewDataAwsccSnsTopicSubscriptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSnsTopicSubscriptionOutputReference
 ```
@@ -1812,7 +1812,7 @@ func InternalValue() DataAwsccSnsTopicSubscription
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopicTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 dataawsccsnstopic.NewDataAwsccSnsTopicTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSnsTopicTagsList
 ```
@@ -1961,7 +1961,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSnsTopic.DataAwsccSnsTopicTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopic"
 
 dataawsccsnstopic.NewDataAwsccSnsTopicTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSnsTopicTagsOutputReference
 ```

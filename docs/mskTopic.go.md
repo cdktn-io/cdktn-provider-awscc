@@ -4,12 +4,12 @@
 
 ### MskTopic <a name="MskTopic" id="@cdktn/provider-awscc.mskTopic.MskTopic"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_topic awscc_msk_topic}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_topic awscc_msk_topic}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mskTopic.MskTopic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/msktopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/msktopic"
 
 msktopic.NewMskTopic(scope Construct, id *string, config MskTopicConfig) MskTopic
 ```
@@ -407,7 +407,7 @@ func ResetConfigs()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mskTopic.MskTopic.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/msktopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/msktopic"
 
 msktopic.MskTopic_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mskTopic.MskTopic.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/msktopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/msktopic"
 
 msktopic.MskTopic_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ msktopic.MskTopic_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mskTopic.MskTopic.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/msktopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/msktopic"
 
 msktopic.MskTopic_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ msktopic.MskTopic_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mskTopic.MskTopic.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/msktopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/msktopic"
 
 msktopic.MskTopic_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the MskTopic to import.
 
 The id of the existing MskTopic that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_topic#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_topic#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -828,7 +828,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mskTopic.MskTopicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/msktopic"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/msktopic"
 
 &msktopic.MskTopicConfig {
 	Connection: interface{},
@@ -945,7 +945,7 @@ ClusterArn *string
 
 The Amazon Resource Name (ARN) of the MSK cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}
 
 ---
 
@@ -959,7 +959,7 @@ PartitionCount *f64
 
 The number of partitions for the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}
 
 ---
 
@@ -973,7 +973,7 @@ ReplicationFactor *f64
 
 The replication factor for the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}
 
 ---
 
@@ -987,7 +987,7 @@ TopicName *string
 
 The name of the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_topic#topic_name MskTopic#topic_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_topic#topic_name MskTopic#topic_name}
 
 ---
 
@@ -1001,7 +1001,7 @@ Configs *string
 
 Base64 encoded configuration properties of the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_topic#configs MskTopic#configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_topic#configs MskTopic#configs}
 
 ---
 

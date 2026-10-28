@@ -4,12 +4,12 @@
 
 ### BedrockApplicationInferenceProfile <a name="BedrockApplicationInferenceProfile" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 bedrockapplicationinferenceprofile.NewBedrockApplicationInferenceProfile(scope Construct, id *string, config BedrockApplicationInferenceProfileConfig) BedrockApplicationInferenceProfile
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 bedrockapplicationinferenceprofile.BedrockApplicationInferenceProfile_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 bedrockapplicationinferenceprofile.BedrockApplicationInferenceProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ bedrockapplicationinferenceprofile.BedrockApplicationInferenceProfile_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 bedrockapplicationinferenceprofile.BedrockApplicationInferenceProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ bedrockapplicationinferenceprofile.BedrockApplicationInferenceProfile_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 bedrockapplicationinferenceprofile.BedrockApplicationInferenceProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the BedrockApplicationInferenc
 
 The id of the existing BedrockApplicationInferenceProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_application_inference_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_application_inference_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -923,7 +923,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 &bedrockapplicationinferenceprofile.BedrockApplicationInferenceProfileConfig {
 	Connection: interface{},
@@ -935,7 +935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinfe
 	Provisioners: *[]interface{},
 	InferenceProfileName: *string,
 	Description: *string,
-	ModelSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileModelSource,
+	ModelSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileModelSource,
 	Tags: interface{},
 }
 ```
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinfe
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.inferenceProfileName">InferenceProfileName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_application_inference_profile#inference_profile_name BedrockApplicationInferenceProfile#inference_profile_name}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.inferenceProfileName">InferenceProfileName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_application_inference_profile#inference_profile_name BedrockApplicationInferenceProfile#inference_profile_name}. |
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.description">Description</a></code> | <code>*string</code> | Description of the inference profile. |
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.modelSource">ModelSource</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileModelSource">BedrockApplicationInferenceProfileModelSource</a></code> | Various ways to encode a list of models in a CreateInferenceProfile request. |
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.tags">Tags</a></code> | <code>interface{}</code> | List of Tags. |
@@ -1036,7 +1036,7 @@ InferenceProfileName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_application_inference_profile#inference_profile_name BedrockApplicationInferenceProfile#inference_profile_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_application_inference_profile#inference_profile_name BedrockApplicationInferenceProfile#inference_profile_name}.
 
 ---
 
@@ -1050,7 +1050,7 @@ Description *string
 
 Description of the inference profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_application_inference_profile#description BedrockApplicationInferenceProfile#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_application_inference_profile#description BedrockApplicationInferenceProfile#description}
 
 ---
 
@@ -1064,7 +1064,7 @@ ModelSource BedrockApplicationInferenceProfileModelSource
 
 Various ways to encode a list of models in a CreateInferenceProfile request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_application_inference_profile#model_source BedrockApplicationInferenceProfile#model_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_application_inference_profile#model_source BedrockApplicationInferenceProfile#model_source}
 
 ---
 
@@ -1078,7 +1078,7 @@ Tags interface{}
 
 List of Tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_application_inference_profile#tags BedrockApplicationInferenceProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_application_inference_profile#tags BedrockApplicationInferenceProfile#tags}
 
 ---
 
@@ -1087,7 +1087,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileModels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 &bedrockapplicationinferenceprofile.BedrockApplicationInferenceProfileModels {
 
@@ -1100,7 +1100,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinfe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileModelSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 &bedrockapplicationinferenceprofile.BedrockApplicationInferenceProfileModelSource {
 	CopyFrom: *string,
@@ -1128,7 +1128,7 @@ Source arns for a custom inference profile to copy its regional load balancing c
 This
 can either be a foundation model or predefined inference profile ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_application_inference_profile#copy_from BedrockApplicationInferenceProfile#copy_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_application_inference_profile#copy_from BedrockApplicationInferenceProfile#copy_from}
 
 ---
 
@@ -1137,7 +1137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 &bedrockapplicationinferenceprofile.BedrockApplicationInferenceProfileTags {
 	Key: *string,
@@ -1164,7 +1164,7 @@ Key *string
 
 Tag Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_application_inference_profile#key BedrockApplicationInferenceProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_application_inference_profile#key BedrockApplicationInferenceProfile#key}
 
 ---
 
@@ -1178,7 +1178,7 @@ Value *string
 
 Tag Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_application_inference_profile#value BedrockApplicationInferenceProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_application_inference_profile#value BedrockApplicationInferenceProfile#value}
 
 ---
 
@@ -1189,7 +1189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileModelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 bedrockapplicationinferenceprofile.NewBedrockApplicationInferenceProfileModelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockApplicationInferenceProfileModelsList
 ```
@@ -1338,7 +1338,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileModelSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 bedrockapplicationinferenceprofile.NewBedrockApplicationInferenceProfileModelSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockApplicationInferenceProfileModelSourceOutputReference
 ```
@@ -1616,7 +1616,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileModelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 bedrockapplicationinferenceprofile.NewBedrockApplicationInferenceProfileModelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockApplicationInferenceProfileModelsOutputReference
 ```
@@ -1894,7 +1894,7 @@ func InternalValue() BedrockApplicationInferenceProfileModels
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 bedrockapplicationinferenceprofile.NewBedrockApplicationInferenceProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockApplicationInferenceProfileTagsList
 ```
@@ -2054,7 +2054,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockapplicationinferenceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockapplicationinferenceprofile"
 
 bedrockapplicationinferenceprofile.NewBedrockApplicationInferenceProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockApplicationInferenceProfileTagsOutputReference
 ```

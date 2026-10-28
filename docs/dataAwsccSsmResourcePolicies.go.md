@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmResourcePolicies <a name="DataAwsccSsmResourcePolicies" id="@cdktn/provider-awscc.dataAwsccSsmResourcePolicies.DataAwsccSsmResourcePolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_resource_policies awscc_ssm_resource_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_resource_policies awscc_ssm_resource_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmResourcePolicies.DataAwsccSsmResourcePolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcepolicies"
 
 dataawsccssmresourcepolicies.NewDataAwsccSsmResourcePolicies(scope Construct, id *string, config DataAwsccSsmResourcePoliciesConfig) DataAwsccSsmResourcePolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmResourcePolicies.DataAwsccSsmResourcePolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcepolicies"
 
 dataawsccssmresourcepolicies.DataAwsccSsmResourcePolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmResourcePolicies.DataAwsccSsmResourcePolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcepolicies"
 
 dataawsccssmresourcepolicies.DataAwsccSsmResourcePolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmresourcepolicies.DataAwsccSsmResourcePolicies_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmResourcePolicies.DataAwsccSsmResourcePolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcepolicies"
 
 dataawsccssmresourcepolicies.DataAwsccSsmResourcePolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmresourcepolicies.DataAwsccSsmResourcePolicies_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmResourcePolicies.DataAwsccSsmResourcePolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcepolicies"
 
 dataawsccssmresourcepolicies.DataAwsccSsmResourcePolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmResourcePolici
 
 The id of the existing DataAwsccSsmResourcePolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_resource_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_resource_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmResourcePolicies.DataAwsccSsmResourcePoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcepolicies"
 
 &dataawsccssmresourcepolicies.DataAwsccSsmResourcePoliciesConfig {
 	Connection: interface{},

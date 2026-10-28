@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsAdConfiguration <a name="DataAwsccIvsAdConfiguration" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_ad_configuration awscc_ivs_ad_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_ad_configuration awscc_ivs_ad_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 dataawsccivsadconfiguration.NewDataAwsccIvsAdConfiguration(scope Construct, id *string, config DataAwsccIvsAdConfigurationConfig) DataAwsccIvsAdConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 dataawsccivsadconfiguration.DataAwsccIvsAdConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 dataawsccivsadconfiguration.DataAwsccIvsAdConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivsadconfiguration.DataAwsccIvsAdConfiguration_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 dataawsccivsadconfiguration.DataAwsccIvsAdConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivsadconfiguration.DataAwsccIvsAdConfiguration_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 dataawsccivsadconfiguration.DataAwsccIvsAdConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsAdConfiguratio
 
 The id of the existing DataAwsccIvsAdConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_ad_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_ad_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 &dataawsccivsadconfiguration.DataAwsccIvsAdConfigurationConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_ad_configuration#id DataAwsccIvsAdConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_ad_configuration#id DataAwsccIvsAdConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfigurationMediaTailorPlaybackConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 &dataawsccivsadconfiguration.DataAwsccIvsAdConfigurationMediaTailorPlaybackConfigurations {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfigur
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfigurationPostRollConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 &dataawsccivsadconfiguration.DataAwsccIvsAdConfigurationPostRollConfiguration {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfigur
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 &dataawsccivsadconfiguration.DataAwsccIvsAdConfigurationTags {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfigurationMediaTailorPlaybackConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 dataawsccivsadconfiguration.NewDataAwsccIvsAdConfigurationMediaTailorPlaybackConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIvsAdConfigurationMediaTailorPlaybackConfigurationsList
 ```
@@ -953,7 +953,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfigurationMediaTailorPlaybackConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 dataawsccivsadconfiguration.NewDataAwsccIvsAdConfigurationMediaTailorPlaybackConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIvsAdConfigurationMediaTailorPlaybackConfigurationsOutputReference
 ```
@@ -1231,7 +1231,7 @@ func InternalValue() DataAwsccIvsAdConfigurationMediaTailorPlaybackConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfigurationPostRollConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 dataawsccivsadconfiguration.NewDataAwsccIvsAdConfigurationPostRollConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsAdConfigurationPostRollConfigurationOutputReference
 ```
@@ -1502,7 +1502,7 @@ func InternalValue() DataAwsccIvsAdConfigurationPostRollConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 dataawsccivsadconfiguration.NewDataAwsccIvsAdConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIvsAdConfigurationTagsList
 ```
@@ -1651,7 +1651,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsAdConfiguration.DataAwsccIvsAdConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsadconfiguration"
 
 dataawsccivsadconfiguration.NewDataAwsccIvsAdConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIvsAdConfigurationTagsOutputReference
 ```

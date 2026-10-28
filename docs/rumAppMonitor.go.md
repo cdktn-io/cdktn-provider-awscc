@@ -4,12 +4,12 @@
 
 ### RumAppMonitor <a name="RumAppMonitor" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitor"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor awscc_rum_app_monitor}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor awscc_rum_app_monitor}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitor(scope Construct, id *string, config RumAppMonitorConfig) RumAppMonitor
 ```
@@ -528,7 +528,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitor.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.RumAppMonitor_IsConstruct(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitor.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.RumAppMonitor_IsTerraformElement(x interface{}) *bool
 ```
@@ -574,7 +574,7 @@ rumappmonitor.RumAppMonitor_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitor.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.RumAppMonitor_IsTerraformResource(x interface{}) *bool
 ```
@@ -588,7 +588,7 @@ rumappmonitor.RumAppMonitor_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitor.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.RumAppMonitor_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -617,7 +617,7 @@ The construct id used in the generated config for the RumAppMonitor to import.
 
 The id of the existing RumAppMonitor that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1059,7 +1059,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorAppMonitorConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 &rumappmonitor.RumAppMonitorAppMonitorConfiguration {
 	AllowCookies: interface{},
@@ -1104,7 +1104,7 @@ If you set this to true, the RUM web client sets two cookies, a session cookie a
 
 The cookies allow the RUM web client to collect data relating to the number of users an application has and the behavior of the application across a sequence of events. Cookies are stored in the top-level domain of the current page.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#allow_cookies RumAppMonitor#allow_cookies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#allow_cookies RumAppMonitor#allow_cookies}
 
 ---
 
@@ -1120,7 +1120,7 @@ If you set this to true, RUM enables xray tracing for the user sessions that RUM
 
 RUM adds an xray trace header to allowed HTTP requests. It also records an xray segment for allowed HTTP requests. You can see traces and segments from these user sessions in the xray console and the CW ServiceLens console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#enable_x_ray RumAppMonitor#enable_x_ray}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#enable_x_ray RumAppMonitor#enable_x_ray}
 
 ---
 
@@ -1136,7 +1136,7 @@ A list of URLs in your website or application to exclude from RUM data collectio
 
 You can't include both ExcludedPages and IncludedPages in the same operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#excluded_pages RumAppMonitor#excluded_pages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#excluded_pages RumAppMonitor#excluded_pages}
 
 ---
 
@@ -1150,7 +1150,7 @@ FavoritePages *[]*string
 
 A list of pages in the RUM console that are to be displayed with a favorite icon.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#favorite_pages RumAppMonitor#favorite_pages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#favorite_pages RumAppMonitor#favorite_pages}
 
 ---
 
@@ -1164,7 +1164,7 @@ GuestRoleArn *string
 
 The ARN of the guest IAM role that is attached to the identity pool that is used to authorize the sending of data to RUM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#guest_role_arn RumAppMonitor#guest_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#guest_role_arn RumAppMonitor#guest_role_arn}
 
 ---
 
@@ -1178,7 +1178,7 @@ IdentityPoolId *string
 
 The ID of the identity pool that is used to authorize the sending of data to RUM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#identity_pool_id RumAppMonitor#identity_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#identity_pool_id RumAppMonitor#identity_pool_id}
 
 ---
 
@@ -1194,7 +1194,7 @@ If this app monitor is to collect data from only certain pages in your applicati
 
 You can't include both ExcludedPages and IncludedPages in the same operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#included_pages RumAppMonitor#included_pages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#included_pages RumAppMonitor#included_pages}
 
 ---
 
@@ -1208,7 +1208,7 @@ MetricDestinations interface{}
 
 An array of structures which define the destinations and the metrics that you want to send.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#metric_destinations RumAppMonitor#metric_destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#metric_destinations RumAppMonitor#metric_destinations}
 
 ---
 
@@ -1224,7 +1224,7 @@ Specifies the percentage of user sessions to use for RUM data collection.
 
 Choosing a higher percentage gives you more data but also incurs more costs. The number you specify is the percentage of user sessions that will be used. If you omit this parameter, the default of 10 is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#session_sample_rate RumAppMonitor#session_sample_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#session_sample_rate RumAppMonitor#session_sample_rate}
 
 ---
 
@@ -1238,7 +1238,7 @@ Telemetries *[]*string
 
 An array that lists the types of telemetry data that this app monitor is to collect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#telemetries RumAppMonitor#telemetries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#telemetries RumAppMonitor#telemetries}
 
 ---
 
@@ -1247,7 +1247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorAppMonitorConfigurationMetricDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 &rumappmonitor.RumAppMonitorAppMonitorConfigurationMetricDestinations {
 	Destination: *string,
@@ -1280,7 +1280,7 @@ Defines the destination to send the metrics to.
 
 Valid values are CloudWatch and Evidently. Note: Evidently has been discontinued and is no longer supported - requests with Evidently will be rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#destination RumAppMonitor#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#destination RumAppMonitor#destination}
 
 ---
 
@@ -1298,7 +1298,7 @@ If Destination is CloudWatch, do not use this parameter.
 
 This parameter specifies the ARN of the Evidently experiment that will receive the extended metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#destination_arn RumAppMonitor#destination_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#destination_arn RumAppMonitor#destination_arn}
 
 ---
 
@@ -1316,7 +1316,7 @@ If Destination is CloudWatch, do not use this parameter.
 
 This parameter specifies the ARN of an IAM role that RUM will assume to write to the Evidently experiment that you are sending metrics to. This role must have permission to write to that experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#iam_role_arn RumAppMonitor#iam_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#iam_role_arn RumAppMonitor#iam_role_arn}
 
 ---
 
@@ -1330,7 +1330,7 @@ MetricDefinitions interface{}
 
 An array of structures which define the metrics that you want to send.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#metric_definitions RumAppMonitor#metric_definitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#metric_definitions RumAppMonitor#metric_definitions}
 
 ---
 
@@ -1339,7 +1339,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 &rumappmonitor.RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitions {
 	DimensionKeys: *map[string]*string,
@@ -1390,7 +1390,7 @@ This field is a map of field paths to dimension names. It defines the dimensions
 
 All dimensions listed in this field must also be included in EventPattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#dimension_keys RumAppMonitor#dimension_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#dimension_keys RumAppMonitor#dimension_keys}
 
 ---
 
@@ -1418,7 +1418,7 @@ Example event patterns:
 
 If the metrics destination' is CloudWatch and the event also matches a value in DimensionKeys, then the metric is published with the specified dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#event_pattern RumAppMonitor#event_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#event_pattern RumAppMonitor#event_pattern}
 
 ---
 
@@ -1500,7 +1500,7 @@ SpanPayloadSize
 
 LogEventPayloadSize
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#name RumAppMonitor#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#name RumAppMonitor#name}
 
 ---
 
@@ -1514,7 +1514,7 @@ Namespace *string
 
 The namespace used by CloudWatch Metrics for the metric that is defined in this structure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#namespace RumAppMonitor#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#namespace RumAppMonitor#namespace}
 
 ---
 
@@ -1530,7 +1530,7 @@ The CloudWatch metric unit to use for this metric.
 
 If you omit this field, the metric is recorded with no unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#unit_label RumAppMonitor#unit_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#unit_label RumAppMonitor#unit_label}
 
 ---
 
@@ -1548,7 +1548,7 @@ If you omit this field, a hardcoded value of 1 is pushed as the metric value. Th
 
 If this metric is sent to Evidently, this field will be passed to Evidently raw and Evidently will handle data extraction from the event. Note: Evidently has been discontinued.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#value_key RumAppMonitor#value_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#value_key RumAppMonitor#value_key}
 
 ---
 
@@ -1557,7 +1557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 &rumappmonitor.RumAppMonitorConfig {
 	Connection: interface{},
@@ -1568,14 +1568,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	AppMonitorConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.rumAppMonitor.RumAppMonitorAppMonitorConfiguration,
-	CustomEvents: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.rumAppMonitor.RumAppMonitorCustomEvents,
+	AppMonitorConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.rumAppMonitor.RumAppMonitorAppMonitorConfiguration,
+	CustomEvents: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.rumAppMonitor.RumAppMonitorCustomEvents,
 	CwLogEnabled: interface{},
-	DeobfuscationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.rumAppMonitor.RumAppMonitorDeobfuscationConfiguration,
+	DeobfuscationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.rumAppMonitor.RumAppMonitorDeobfuscationConfiguration,
 	Domain: *string,
 	DomainList: *[]*string,
 	Platform: *string,
-	ResourcePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.rumAppMonitor.RumAppMonitorResourcePolicy,
+	ResourcePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.rumAppMonitor.RumAppMonitorResourcePolicy,
 	Tags: interface{},
 }
 ```
@@ -1598,7 +1598,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
 | <code><a href="#@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorConfig.property.deobfuscationConfiguration">DeobfuscationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorDeobfuscationConfiguration">RumAppMonitorDeobfuscationConfiguration</a></code> | A structure that contains the configuration for how an app monitor can deobfuscate stack traces. |
 | <code><a href="#@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorConfig.property.domain">Domain</a></code> | <code>*string</code> | The top-level internet domain name for which your application has administrative authority. |
 | <code><a href="#@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorConfig.property.domainList">DomainList</a></code> | <code>*[]*string</code> | The top-level internet domain names for which your application has administrative authority. |
-| <code><a href="#@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorConfig.property.platform">Platform</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#platform RumAppMonitor#platform}. |
+| <code><a href="#@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorConfig.property.platform">Platform</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#platform RumAppMonitor#platform}. |
 | <code><a href="#@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorConfig.property.resourcePolicy">ResourcePolicy</a></code> | <code><a href="#@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorResourcePolicy">RumAppMonitorResourcePolicy</a></code> | A structure that defines resource policy attached to your app monitor. |
 | <code><a href="#@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Assigns one or more tags (key-value pairs) to the app monitor. |
 
@@ -1684,7 +1684,7 @@ Name *string
 
 A name for the app monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#name RumAppMonitor#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#name RumAppMonitor#name}
 
 ---
 
@@ -1698,7 +1698,7 @@ AppMonitorConfiguration RumAppMonitorAppMonitorConfiguration
 
 AppMonitor configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#app_monitor_configuration RumAppMonitor#app_monitor_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#app_monitor_configuration RumAppMonitor#app_monitor_configuration}
 
 ---
 
@@ -1712,7 +1712,7 @@ CustomEvents RumAppMonitorCustomEvents
 
 AppMonitor custom events configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#custom_events RumAppMonitor#custom_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#custom_events RumAppMonitor#custom_events}
 
 ---
 
@@ -1728,7 +1728,7 @@ Data collected by RUM is kept by RUM for 30 days and then deleted.
 
 This parameter specifies whether RUM sends a copy of this telemetry data to CWLlong in your account. This enables you to keep the telemetry data for more than 30 days, but it does incur CWLlong charges. If you omit this parameter, the default is false
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#cw_log_enabled RumAppMonitor#cw_log_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#cw_log_enabled RumAppMonitor#cw_log_enabled}
 
 ---
 
@@ -1742,7 +1742,7 @@ DeobfuscationConfiguration RumAppMonitorDeobfuscationConfiguration
 
 A structure that contains the configuration for how an app monitor can deobfuscate stack traces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#deobfuscation_configuration RumAppMonitor#deobfuscation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#deobfuscation_configuration RumAppMonitor#deobfuscation_configuration}
 
 ---
 
@@ -1758,7 +1758,7 @@ The top-level internet domain name for which your application has administrative
 
 The CreateAppMonitor requires either the domain or the domain list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#domain RumAppMonitor#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#domain RumAppMonitor#domain}
 
 ---
 
@@ -1774,7 +1774,7 @@ The top-level internet domain names for which your application has administrativ
 
 The CreateAppMonitor requires either the domain or the domain list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#domain_list RumAppMonitor#domain_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#domain_list RumAppMonitor#domain_list}
 
 ---
 
@@ -1786,7 +1786,7 @@ Platform *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#platform RumAppMonitor#platform}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#platform RumAppMonitor#platform}.
 
 ---
 
@@ -1800,7 +1800,7 @@ ResourcePolicy RumAppMonitorResourcePolicy
 
 A structure that defines resource policy attached to your app monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#resource_policy RumAppMonitor#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#resource_policy RumAppMonitor#resource_policy}
 
 ---
 
@@ -1816,7 +1816,7 @@ Assigns one or more tags (key-value pairs) to the app monitor.
 
 Tags can help you organize and categorize your resources. You can also use them to scope user permissions by granting a user permission to access or change only resources with certain tag values. Tags don't have any semantic meaning to AWS and are interpreted strictly as strings of characters.You can associate as many as 50 tags with an app monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#tags RumAppMonitor#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#tags RumAppMonitor#tags}
 
 ---
 
@@ -1825,7 +1825,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorCustomEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 &rumappmonitor.RumAppMonitorCustomEvents {
 	Status: *string,
@@ -1850,7 +1850,7 @@ Status *string
 
 Indicates whether AppMonitor accepts custom events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}
 
 ---
 
@@ -1859,10 +1859,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorDeobfuscationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 &rumappmonitor.RumAppMonitorDeobfuscationConfiguration {
-	JavaScriptSourceMaps: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.rumAppMonitor.RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMaps,
+	JavaScriptSourceMaps: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.rumAppMonitor.RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMaps,
 }
 ```
 
@@ -1884,7 +1884,7 @@ JavaScriptSourceMaps RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMaps
 
 A structure that contains the configuration for how an app monitor can unminify JavaScript error stack traces using source maps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#java_script_source_maps RumAppMonitor#java_script_source_maps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#java_script_source_maps RumAppMonitor#java_script_source_maps}
 
 ---
 
@@ -1893,7 +1893,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMaps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 &rumappmonitor.RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMaps {
 	S3Uri: *string,
@@ -1922,7 +1922,7 @@ The S3Uri of the bucket or folder that stores the source map files.
 
 It is required if status is ENABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#s3_uri RumAppMonitor#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#s3_uri RumAppMonitor#s3_uri}
 
 ---
 
@@ -1938,7 +1938,7 @@ Specifies whether JavaScript error stack traces should be unminified for this ap
 
 The default is for JavaScript error stack trace unminification to be DISABLED
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}
 
 ---
 
@@ -1947,7 +1947,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 &rumappmonitor.RumAppMonitorResourcePolicy {
 	PolicyDocument: *string,
@@ -1974,7 +1974,7 @@ PolicyDocument *string
 
 The JSON to use as the resource policy. The document can be up to 4 KB in size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#policy_document RumAppMonitor#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#policy_document RumAppMonitor#policy_document}
 
 ---
 
@@ -1992,7 +1992,7 @@ You can provide the revision ID of your existing policy to make mutating request
 
 When you assign a policy revision ID, then later requests about that policy will be rejected with an InvalidPolicyRevisionIdException error if they don't provide the correct current revision ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#policy_revision_id RumAppMonitor#policy_revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#policy_revision_id RumAppMonitor#policy_revision_id}
 
 ---
 
@@ -2001,7 +2001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 &rumappmonitor.RumAppMonitorTags {
 	Key: *string,
@@ -2030,7 +2030,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#key RumAppMonitor#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#key RumAppMonitor#key}
 
 ---
 
@@ -2046,7 +2046,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rum_app_monitor#value RumAppMonitor#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rum_app_monitor#value RumAppMonitor#value}
 
 ---
 
@@ -2057,7 +2057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorAppMonitorConfigurationMetricDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitorAppMonitorConfigurationMetricDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RumAppMonitorAppMonitorConfigurationMetricDestinationsList
 ```
@@ -2217,7 +2217,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsList
 ```
@@ -2377,7 +2377,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsOutputReference
 ```
@@ -2818,7 +2818,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReference
 ```
@@ -3214,7 +3214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorAppMonitorConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitorAppMonitorConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RumAppMonitorAppMonitorConfigurationOutputReference
 ```
@@ -3766,7 +3766,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorCustomEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitorCustomEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RumAppMonitorCustomEventsOutputReference
 ```
@@ -4044,7 +4044,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMapsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitorDeobfuscationConfigurationJavaScriptSourceMapsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMapsOutputReference
 ```
@@ -4351,7 +4351,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorDeobfuscationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitorDeobfuscationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RumAppMonitorDeobfuscationConfigurationOutputReference
 ```
@@ -4642,7 +4642,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorResourcePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitorResourcePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RumAppMonitorResourcePolicyOutputReference
 ```
@@ -4949,7 +4949,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RumAppMonitorTagsList
 ```
@@ -5109,7 +5109,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rumAppMonitor.RumAppMonitorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rumappmonitor"
 
 rumappmonitor.NewRumAppMonitorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RumAppMonitorTagsOutputReference
 ```

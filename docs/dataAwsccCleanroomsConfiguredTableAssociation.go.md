@@ -4,12 +4,12 @@
 
 ### DataAwsccCleanroomsConfiguredTableAssociation <a name="DataAwsccCleanroomsConfiguredTableAssociation" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_configured_table_association awscc_cleanrooms_configured_table_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_configured_table_association awscc_cleanrooms_configured_table_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.NewDataAwsccCleanroomsConfiguredTableAssociation(scope Construct, id *string, config DataAwsccCleanroomsConfiguredTableAssociationConfig) DataAwsccCleanroomsConfiguredTableAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTable
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTable
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCleanroomsConfigu
 
 The id of the existing DataAwsccCleanroomsConfiguredTableAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_configured_table_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_configured_table_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 &dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociationConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_configured_table_association#id DataAwsccCleanroomsConfiguredTableAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_configured_table_association#id DataAwsccCleanroomsConfiguredTableAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 &dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRules {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 &dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicy {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 &dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1 {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1Aggregation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 &dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1Aggregation {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1Custom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 &dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1Custom {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1ListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 &dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1ListStruct {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 &dataawscccleanroomsconfiguredtableassociation.DataAwsccCleanroomsConfiguredTableAssociationTags {
 
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.NewDataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesList
 ```
@@ -1049,7 +1049,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.NewDataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesOutputReference
 ```
@@ -1338,7 +1338,7 @@ func InternalValue() DataAwsccCleanroomsConfiguredTableAssociationConfiguredTabl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.NewDataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyOutputReference
 ```
@@ -1598,7 +1598,7 @@ func InternalValue() DataAwsccCleanroomsConfiguredTableAssociationConfiguredTabl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1AggregationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.NewDataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1AggregationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1AggregationOutputReference
 ```
@@ -1869,7 +1869,7 @@ func InternalValue() DataAwsccCleanroomsConfiguredTableAssociationConfiguredTabl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1CustomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.NewDataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1CustomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1CustomOutputReference
 ```
@@ -2140,7 +2140,7 @@ func InternalValue() DataAwsccCleanroomsConfiguredTableAssociationConfiguredTabl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1ListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.NewDataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1ListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1ListStructOutputReference
 ```
@@ -2411,7 +2411,7 @@ func InternalValue() DataAwsccCleanroomsConfiguredTableAssociationConfiguredTabl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.NewDataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsConfiguredTableAssociationConfiguredTableAssociationAnalysisRulesPolicyV1OutputReference
 ```
@@ -2693,7 +2693,7 @@ func InternalValue() DataAwsccCleanroomsConfiguredTableAssociationConfiguredTabl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.NewDataAwsccCleanroomsConfiguredTableAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsConfiguredTableAssociationTagsList
 ```
@@ -2842,7 +2842,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTableAssociation.DataAwsccCleanroomsConfiguredTableAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtableassociation"
 
 dataawscccleanroomsconfiguredtableassociation.NewDataAwsccCleanroomsConfiguredTableAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsConfiguredTableAssociationTagsOutputReference
 ```

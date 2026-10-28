@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsStorageConfiguration <a name="DataAwsccIvsStorageConfiguration" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration"
 
 dataawsccivsstorageconfiguration.NewDataAwsccIvsStorageConfiguration(scope Construct, id *string, config DataAwsccIvsStorageConfigurationConfig) DataAwsccIvsStorageConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration"
 
 dataawsccivsstorageconfiguration.DataAwsccIvsStorageConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration"
 
 dataawsccivsstorageconfiguration.DataAwsccIvsStorageConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivsstorageconfiguration.DataAwsccIvsStorageConfiguration_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration"
 
 dataawsccivsstorageconfiguration.DataAwsccIvsStorageConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivsstorageconfiguration.DataAwsccIvsStorageConfiguration_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration"
 
 dataawsccivsstorageconfiguration.DataAwsccIvsStorageConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsStorageConfigu
 
 The id of the existing DataAwsccIvsStorageConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_storage_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_storage_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration"
 
 &dataawsccivsstorageconfiguration.DataAwsccIvsStorageConfigurationConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_storage_configuration#id DataAwsccIvsStorageConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_storage_configuration#id DataAwsccIvsStorageConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfigurationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration"
 
 &dataawsccivsstorageconfiguration.DataAwsccIvsStorageConfigurationS3 {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstoragecon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration"
 
 &dataawsccivsstorageconfiguration.DataAwsccIvsStorageConfigurationTags {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstoragecon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfigurationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration"
 
 dataawsccivsstorageconfiguration.NewDataAwsccIvsStorageConfigurationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsStorageConfigurationS3OutputReference
 ```
@@ -1040,7 +1040,7 @@ func InternalValue() DataAwsccIvsStorageConfigurationS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration"
 
 dataawsccivsstorageconfiguration.NewDataAwsccIvsStorageConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIvsStorageConfigurationTagsList
 ```
@@ -1189,7 +1189,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStorageConfiguration.DataAwsccIvsStorageConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration"
 
 dataawsccivsstorageconfiguration.NewDataAwsccIvsStorageConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIvsStorageConfigurationTagsOutputReference
 ```

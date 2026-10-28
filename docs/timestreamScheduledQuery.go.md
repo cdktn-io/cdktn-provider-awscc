@@ -4,12 +4,12 @@
 
 ### TimestreamScheduledQuery <a name="TimestreamScheduledQuery" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQuery"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQuery(scope Construct, id *string, config TimestreamScheduledQueryConfig) TimestreamScheduledQuery
 ```
@@ -500,7 +500,7 @@ func ResetTargetConfiguration()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQuery.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.TimestreamScheduledQuery_IsConstruct(x interface{}) *bool
 ```
@@ -532,7 +532,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQuery.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.TimestreamScheduledQuery_IsTerraformElement(x interface{}) *bool
 ```
@@ -546,7 +546,7 @@ timestreamscheduledquery.TimestreamScheduledQuery_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQuery.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.TimestreamScheduledQuery_IsTerraformResource(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ timestreamscheduledquery.TimestreamScheduledQuery_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQuery.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.TimestreamScheduledQuery_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -589,7 +589,7 @@ The construct id used in the generated config for the TimestreamScheduledQuery t
 
 The id of the existing TimestreamScheduledQuery that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1119,7 +1119,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryConfig {
 	Connection: interface{},
@@ -1129,16 +1129,16 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledque
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ErrorReportConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamScheduledQuery.TimestreamScheduledQueryErrorReportConfiguration,
-	NotificationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamScheduledQuery.TimestreamScheduledQueryNotificationConfiguration,
+	ErrorReportConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamScheduledQuery.TimestreamScheduledQueryErrorReportConfiguration,
+	NotificationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamScheduledQuery.TimestreamScheduledQueryNotificationConfiguration,
 	QueryString: *string,
-	ScheduleConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamScheduledQuery.TimestreamScheduledQueryScheduleConfiguration,
+	ScheduleConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamScheduledQuery.TimestreamScheduledQueryScheduleConfiguration,
 	ScheduledQueryExecutionRoleArn: *string,
 	ClientToken: *string,
 	KmsKeyId: *string,
 	ScheduledQueryName: *string,
 	Tags: interface{},
-	TargetConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfiguration,
+	TargetConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfiguration,
 }
 ```
 
@@ -1246,7 +1246,7 @@ ErrorReportConfiguration TimestreamScheduledQueryErrorReportConfiguration
 
 Configuration for error reporting. Error reports will be generated when a problem is encountered when writing the query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#error_report_configuration TimestreamScheduledQuery#error_report_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#error_report_configuration TimestreamScheduledQuery#error_report_configuration}
 
 ---
 
@@ -1262,7 +1262,7 @@ Notification configuration for the scheduled query.
 
 A notification is sent by Timestream when a query run finishes, when the state is updated or when you delete it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#notification_configuration TimestreamScheduledQuery#notification_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#notification_configuration TimestreamScheduledQuery#notification_configuration}
 
 ---
 
@@ -1290,7 +1290,7 @@ ScheduleConfiguration TimestreamScheduledQueryScheduleConfiguration
 
 Configuration for when the scheduled query is executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#schedule_configuration TimestreamScheduledQuery#schedule_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#schedule_configuration TimestreamScheduledQuery#schedule_configuration}
 
 ---
 
@@ -1304,7 +1304,7 @@ ScheduledQueryExecutionRoleArn *string
 
 The ARN for the IAM role that Timestream will assume when running the scheduled query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#scheduled_query_execution_role_arn TimestreamScheduledQuery#scheduled_query_execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#scheduled_query_execution_role_arn TimestreamScheduledQuery#scheduled_query_execution_role_arn}
 
 ---
 
@@ -1320,7 +1320,7 @@ Using a ClientToken makes the call to CreateScheduledQuery idempotent, in other 
 
 Making multiple identical CreateScheduledQuery requests has the same effect as making a single request. If CreateScheduledQuery is called without a ClientToken, the Query SDK generates a ClientToken on your behalf. After 8 hours, any request with the same ClientToken is treated as a new request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#client_token TimestreamScheduledQuery#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#client_token TimestreamScheduledQuery#client_token}
 
 ---
 
@@ -1336,7 +1336,7 @@ The Amazon KMS key used to encrypt the scheduled query resource, at-rest.
 
 If the Amazon KMS key is not specified, the scheduled query resource will be encrypted with a Timestream owned Amazon KMS key. To specify a KMS key, use the key ID, key ARN, alias name, or alias ARN. When using an alias name, prefix the name with alias/. If ErrorReportConfiguration uses SSE_KMS as encryption type, the same KmsKeyId is used to encrypt the error report at rest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#kms_key_id TimestreamScheduledQuery#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#kms_key_id TimestreamScheduledQuery#kms_key_id}
 
 ---
 
@@ -1350,7 +1350,7 @@ ScheduledQueryName *string
 
 The name of the scheduled query. Scheduled query names must be unique within each Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#scheduled_query_name TimestreamScheduledQuery#scheduled_query_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#scheduled_query_name TimestreamScheduledQuery#scheduled_query_name}
 
 ---
 
@@ -1364,7 +1364,7 @@ Tags interface{}
 
 A list of key-value pairs to label the scheduled query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#tags TimestreamScheduledQuery#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#tags TimestreamScheduledQuery#tags}
 
 ---
 
@@ -1378,7 +1378,7 @@ TargetConfiguration TimestreamScheduledQueryTargetConfiguration
 
 Configuration of target store where scheduled query results are written to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#target_configuration TimestreamScheduledQuery#target_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#target_configuration TimestreamScheduledQuery#target_configuration}
 
 ---
 
@@ -1387,10 +1387,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryErrorReportConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryErrorReportConfiguration {
-	S3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamScheduledQuery.TimestreamScheduledQueryErrorReportConfigurationS3Configuration,
+	S3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamScheduledQuery.TimestreamScheduledQueryErrorReportConfigurationS3Configuration,
 }
 ```
 
@@ -1412,7 +1412,7 @@ S3Configuration TimestreamScheduledQueryErrorReportConfigurationS3Configuration
 
 Details on S3 location for error reports that result from running a query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#s3_configuration TimestreamScheduledQuery#s3_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#s3_configuration TimestreamScheduledQuery#s3_configuration}
 
 ---
 
@@ -1421,7 +1421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryErrorReportConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryErrorReportConfigurationS3Configuration {
 	BucketName: *string,
@@ -1450,7 +1450,7 @@ BucketName *string
 
 Name of the S3 bucket under which error reports will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#bucket_name TimestreamScheduledQuery#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#bucket_name TimestreamScheduledQuery#bucket_name}
 
 ---
 
@@ -1466,7 +1466,7 @@ Encryption at rest options for the error reports.
 
 If no encryption option is specified, Timestream will choose SSE_S3 as default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#encryption_option TimestreamScheduledQuery#encryption_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#encryption_option TimestreamScheduledQuery#encryption_option}
 
 ---
 
@@ -1480,7 +1480,7 @@ ObjectKeyPrefix *string
 
 Prefix for error report keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#object_key_prefix TimestreamScheduledQuery#object_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#object_key_prefix TimestreamScheduledQuery#object_key_prefix}
 
 ---
 
@@ -1489,10 +1489,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryNotificationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryNotificationConfiguration {
-	SnsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamScheduledQuery.TimestreamScheduledQueryNotificationConfigurationSnsConfiguration,
+	SnsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamScheduledQuery.TimestreamScheduledQueryNotificationConfigurationSnsConfiguration,
 }
 ```
 
@@ -1514,7 +1514,7 @@ SnsConfiguration TimestreamScheduledQueryNotificationConfigurationSnsConfigurati
 
 SNS configuration for notification upon scheduled query execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#sns_configuration TimestreamScheduledQuery#sns_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#sns_configuration TimestreamScheduledQuery#sns_configuration}
 
 ---
 
@@ -1523,7 +1523,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryNotificationConfigurationSnsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryNotificationConfigurationSnsConfiguration {
 	TopicArn: *string,
@@ -1548,7 +1548,7 @@ TopicArn *string
 
 SNS topic ARN that the scheduled query status notifications will be sent to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#topic_arn TimestreamScheduledQuery#topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#topic_arn TimestreamScheduledQuery#topic_arn}
 
 ---
 
@@ -1557,7 +1557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryScheduleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryScheduleConfiguration {
 	ScheduleExpression: *string,
@@ -1584,7 +1584,7 @@ An expression that denotes when to trigger the scheduled query run.
 
 This can be a cron expression or a rate expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#schedule_expression TimestreamScheduledQuery#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#schedule_expression TimestreamScheduledQuery#schedule_expression}
 
 ---
 
@@ -1593,7 +1593,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryTags {
 	Key: *string,
@@ -1622,7 +1622,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#key TimestreamScheduledQuery#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#key TimestreamScheduledQuery#key}
 
 ---
 
@@ -1638,7 +1638,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#value TimestreamScheduledQuery#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#value TimestreamScheduledQuery#value}
 
 ---
 
@@ -1647,10 +1647,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryTargetConfiguration {
-	TimestreamConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfiguration,
+	TimestreamConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfiguration,
 }
 ```
 
@@ -1672,7 +1672,7 @@ TimestreamConfiguration TimestreamScheduledQueryTargetConfigurationTimestreamCon
 
 Configuration needed to write data into the Timestream database and table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#timestream_configuration TimestreamScheduledQuery#timestream_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#timestream_configuration TimestreamScheduledQuery#timestream_configuration}
 
 ---
 
@@ -1681,14 +1681,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryTargetConfigurationTimestreamConfiguration {
 	DatabaseName: *string,
 	DimensionMappings: interface{},
 	MeasureNameColumn: *string,
 	MixedMeasureMappings: interface{},
-	MultiMeasureMappings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappings,
+	MultiMeasureMappings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappings,
 	TableName: *string,
 	TimeColumn: *string,
 }
@@ -1718,7 +1718,7 @@ DatabaseName *string
 
 Name of Timestream database to which the query result will be written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#database_name TimestreamScheduledQuery#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#database_name TimestreamScheduledQuery#database_name}
 
 ---
 
@@ -1732,7 +1732,7 @@ DimensionMappings interface{}
 
 This is to allow mapping column(s) from the query result to the dimension in the destination table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#dimension_mappings TimestreamScheduledQuery#dimension_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#dimension_mappings TimestreamScheduledQuery#dimension_mappings}
 
 ---
 
@@ -1746,7 +1746,7 @@ MeasureNameColumn *string
 
 Name of the measure name column from the query result.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#measure_name_column TimestreamScheduledQuery#measure_name_column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#measure_name_column TimestreamScheduledQuery#measure_name_column}
 
 ---
 
@@ -1760,7 +1760,7 @@ MixedMeasureMappings interface{}
 
 Specifies how to map measures to multi-measure records.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#mixed_measure_mappings TimestreamScheduledQuery#mixed_measure_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#mixed_measure_mappings TimestreamScheduledQuery#mixed_measure_mappings}
 
 ---
 
@@ -1776,7 +1776,7 @@ Only one of MixedMeasureMappings or MultiMeasureMappings is to be provided.
 
 MultiMeasureMappings can be used to ingest data as multi measures in the derived table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#multi_measure_mappings TimestreamScheduledQuery#multi_measure_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#multi_measure_mappings TimestreamScheduledQuery#multi_measure_mappings}
 
 ---
 
@@ -1792,7 +1792,7 @@ Name of Timestream table that the query result will be written to.
 
 The table should be within the same database that is provided in Timestream configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#table_name TimestreamScheduledQuery#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#table_name TimestreamScheduledQuery#table_name}
 
 ---
 
@@ -1808,7 +1808,7 @@ Column from query result that should be used as the time column in destination t
 
 Column type for this should be TIMESTAMP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#time_column TimestreamScheduledQuery#time_column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#time_column TimestreamScheduledQuery#time_column}
 
 ---
 
@@ -1817,7 +1817,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappings {
 	DimensionValueType: *string,
@@ -1844,7 +1844,7 @@ DimensionValueType *string
 
 Type for the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#dimension_value_type TimestreamScheduledQuery#dimension_value_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#dimension_value_type TimestreamScheduledQuery#dimension_value_type}
 
 ---
 
@@ -1858,7 +1858,7 @@ Name *string
 
 Column name from query result.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#name TimestreamScheduledQuery#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#name TimestreamScheduledQuery#name}
 
 ---
 
@@ -1867,7 +1867,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappings {
 	MeasureName: *string,
@@ -1902,7 +1902,7 @@ Refers to the value of the measure name in a result row.
 
 This field is required if MeasureNameColumn is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#measure_name TimestreamScheduledQuery#measure_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#measure_name TimestreamScheduledQuery#measure_name}
 
 ---
 
@@ -1916,7 +1916,7 @@ MeasureValueType *string
 
 Type of the value that is to be read from SourceColumn. If the mapping is for MULTI, use MeasureValueType.MULTI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
 
 ---
 
@@ -1930,7 +1930,7 @@ MultiMeasureAttributeMappings interface{}
 
 Required. Attribute mappings to be used for mapping query results to ingest data for multi-measure attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#multi_measure_attribute_mappings TimestreamScheduledQuery#multi_measure_attribute_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#multi_measure_attribute_mappings TimestreamScheduledQuery#multi_measure_attribute_mappings}
 
 ---
 
@@ -1944,7 +1944,7 @@ SourceColumn *string
 
 This field refers to the source column from which the measure value is to be read for result materialization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
 
 ---
 
@@ -1960,7 +1960,7 @@ Target measure name to be used.
 
 If not provided, the target measure name by default would be MeasureName if provided, or SourceColumn otherwise.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#target_measure_name TimestreamScheduledQuery#target_measure_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#target_measure_name TimestreamScheduledQuery#target_measure_name}
 
 ---
 
@@ -1969,7 +1969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappings {
 	MeasureValueType: *string,
@@ -1998,7 +1998,7 @@ MeasureValueType *string
 
 Value type of the measure value column to be read from the query result.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
 
 ---
 
@@ -2012,7 +2012,7 @@ SourceColumn *string
 
 Source measure value column in the query result where the attribute value is to be read.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
 
 ---
 
@@ -2028,7 +2028,7 @@ Custom name to be used for attribute name in derived table.
 
 If not provided, source column name would be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#target_multi_measure_attribute_name TimestreamScheduledQuery#target_multi_measure_attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#target_multi_measure_attribute_name TimestreamScheduledQuery#target_multi_measure_attribute_name}
 
 ---
 
@@ -2037,7 +2037,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappings {
 	MultiMeasureAttributeMappings: interface{},
@@ -2064,7 +2064,7 @@ MultiMeasureAttributeMappings interface{}
 
 Required. Attribute mappings to be used for mapping query results to ingest data for multi-measure attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#multi_measure_attribute_mappings TimestreamScheduledQuery#multi_measure_attribute_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#multi_measure_attribute_mappings TimestreamScheduledQuery#multi_measure_attribute_mappings}
 
 ---
 
@@ -2080,7 +2080,7 @@ Name of the target multi-measure in the derived table.
 
 Required if MeasureNameColumn is not provided. If MeasureNameColumn is provided then the value from that column will be used as the multi-measure name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#target_multi_measure_name TimestreamScheduledQuery#target_multi_measure_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#target_multi_measure_name TimestreamScheduledQuery#target_multi_measure_name}
 
 ---
 
@@ -2089,7 +2089,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 &timestreamscheduledquery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappings {
 	MeasureValueType: *string,
@@ -2118,7 +2118,7 @@ MeasureValueType *string
 
 Value type of the measure value column to be read from the query result.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
 
 ---
 
@@ -2132,7 +2132,7 @@ SourceColumn *string
 
 Source measure value column in the query result where the attribute value is to be read.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
 
 ---
 
@@ -2148,7 +2148,7 @@ Custom name to be used for attribute name in derived table.
 
 If not provided, source column name would be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query#target_multi_measure_attribute_name TimestreamScheduledQuery#target_multi_measure_attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query#target_multi_measure_attribute_name TimestreamScheduledQuery#target_multi_measure_attribute_name}
 
 ---
 
@@ -2159,7 +2159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryErrorReportConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryErrorReportConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamScheduledQueryErrorReportConfigurationOutputReference
 ```
@@ -2443,7 +2443,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryErrorReportConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryErrorReportConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamScheduledQueryErrorReportConfigurationS3ConfigurationOutputReference
 ```
@@ -2772,7 +2772,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryNotificationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryNotificationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamScheduledQueryNotificationConfigurationOutputReference
 ```
@@ -3056,7 +3056,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryNotificationConfigurationSnsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryNotificationConfigurationSnsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamScheduledQueryNotificationConfigurationSnsConfigurationOutputReference
 ```
@@ -3327,7 +3327,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryScheduleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryScheduleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamScheduledQueryScheduleConfigurationOutputReference
 ```
@@ -3598,7 +3598,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TimestreamScheduledQueryTagsList
 ```
@@ -3758,7 +3758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TimestreamScheduledQueryTagsOutputReference
 ```
@@ -4083,7 +4083,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTargetConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamScheduledQueryTargetConfigurationOutputReference
 ```
@@ -4374,7 +4374,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsList
 ```
@@ -4534,7 +4534,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappingsOutputReference
 ```
@@ -4859,7 +4859,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsList
 ```
@@ -5019,7 +5019,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsList
 ```
@@ -5179,7 +5179,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappingsOutputReference
 ```
@@ -5533,7 +5533,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsOutputReference
 ```
@@ -5958,7 +5958,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsList
 ```
@@ -6118,7 +6118,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference
 ```
@@ -6472,7 +6472,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsOutputReference
 ```
@@ -6792,7 +6792,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamScheduledQuery.TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery"
 
 timestreamscheduledquery.NewTimestreamScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference
 ```

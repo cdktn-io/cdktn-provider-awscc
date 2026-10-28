@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspacesinstancesWorkspaceInstance <a name="DataAwsccWorkspacesinstancesWorkspaceInstance" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstance(scope Construct, id *string, config DataAwsccWorkspacesinstancesWorkspaceInstanceConfig) DataAwsccWorkspacesinstancesWorkspaceInstance
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstance_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorksp
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstance.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstance_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorksp
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesinstanc
 
 The id of the existing DataAwsccWorkspacesinstancesWorkspaceInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_workspace_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_workspace_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_workspace_instance#id DataAwsccWorkspacesinstancesWorkspaceInstance#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_workspace_instance#id DataAwsccWorkspacesinstancesWorkspaceInstance#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceEc2ManagedInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceEc2ManagedInstance {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstance {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappings {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappingsEbs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappingsEbs {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecification {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationCapacityReservationTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationCapacityReservationTarget {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCpuOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCpuOptions {
 
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCreditSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCreditSpecification {
 
@@ -867,7 +867,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceEnclaveOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceEnclaveOptions {
 
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceHibernationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceHibernationOptions {
 
@@ -893,7 +893,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceIamInstanceProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceIamInstanceProfile {
 
@@ -906,7 +906,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceLicenseSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceLicenseSpecifications {
 
@@ -919,7 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMaintenanceOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMaintenanceOptions {
 
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMetadataOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMetadataOptions {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMonitoring.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMonitoring {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterfaces {
 
@@ -971,7 +971,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkPerformanceOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkPerformanceOptions {
 
@@ -984,7 +984,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstancePlacement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstancePlacement {
 
@@ -997,7 +997,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstancePrivateDnsNameOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstancePrivateDnsNameOptions {
 
@@ -1010,7 +1010,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecifications {
 
@@ -1023,7 +1023,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsTags {
 
@@ -1036,7 +1036,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 &dataawsccworkspacesinstancesworkspaceinstance.DataAwsccWorkspacesinstancesWorkspaceInstanceTags {
 
@@ -1051,7 +1051,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesins
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceEc2ManagedInstanceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceEc2ManagedInstanceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceEc2ManagedInstanceOutputReference
 ```
@@ -1311,7 +1311,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceEc2ManagedInst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappingsEbsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappingsEbsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappingsEbsOutputReference
 ```
@@ -1626,7 +1626,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappingsList
 ```
@@ -1775,7 +1775,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappingsOutputReference
 ```
@@ -2086,7 +2086,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationCapacityReservationTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationCapacityReservationTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationCapacityReservationTargetOutputReference
 ```
@@ -2357,7 +2357,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference
 ```
@@ -2628,7 +2628,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCpuOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCpuOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCpuOptionsOutputReference
 ```
@@ -2899,7 +2899,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCreditSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCreditSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCreditSpecificationOutputReference
 ```
@@ -3159,7 +3159,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceEnclaveOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceEnclaveOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceEnclaveOptionsOutputReference
 ```
@@ -3419,7 +3419,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceHibernationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceHibernationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceHibernationOptionsOutputReference
 ```
@@ -3679,7 +3679,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceIamInstanceProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceIamInstanceProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceIamInstanceProfileOutputReference
 ```
@@ -3950,7 +3950,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceLicenseSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceLicenseSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceLicenseSpecificationsList
 ```
@@ -4099,7 +4099,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceLicenseSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceLicenseSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceLicenseSpecificationsOutputReference
 ```
@@ -4377,7 +4377,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMaintenanceOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMaintenanceOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMaintenanceOptionsOutputReference
 ```
@@ -4637,7 +4637,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMetadataOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMetadataOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMetadataOptionsOutputReference
 ```
@@ -4941,7 +4941,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMonitoringOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMonitoringOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceMonitoringOutputReference
 ```
@@ -5201,7 +5201,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterfacesList
 ```
@@ -5350,7 +5350,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterfacesOutputReference
 ```
@@ -5661,7 +5661,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkPerformanceOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkPerformanceOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkPerformanceOptionsOutputReference
 ```
@@ -5921,7 +5921,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference
 ```
@@ -6445,7 +6445,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstancePlacementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstancePlacementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstancePlacementOutputReference
 ```
@@ -6749,7 +6749,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstancePrivateDnsNameOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstancePrivateDnsNameOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstancePrivateDnsNameOptionsOutputReference
 ```
@@ -7031,7 +7031,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsList
 ```
@@ -7180,7 +7180,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsOutputReference
 ```
@@ -7469,7 +7469,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsTagsList
 ```
@@ -7618,7 +7618,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecificationsTagsOutputReference
 ```
@@ -7907,7 +7907,7 @@ func InternalValue() DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceTagsList
 ```
@@ -8056,7 +8056,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesWorkspaceInstance.DataAwsccWorkspacesinstancesWorkspaceInstanceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstance"
 
 dataawsccworkspacesinstancesworkspaceinstance.NewDataAwsccWorkspacesinstancesWorkspaceInstanceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesinstancesWorkspaceInstanceTagsOutputReference
 ```

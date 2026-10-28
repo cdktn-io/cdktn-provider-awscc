@@ -4,12 +4,12 @@
 
 ### DataAwsccCloud9EnvironmentEc2 <a name="DataAwsccCloud9EnvironmentEc2" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloud9_environment_ec2 awscc_cloud9_environment_ec2}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloud9_environment_ec2 awscc_cloud9_environment_ec2}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 dataawscccloud9environmentec2.NewDataAwsccCloud9EnvironmentEc2(scope Construct, id *string, config DataAwsccCloud9EnvironmentEc2Config) DataAwsccCloud9EnvironmentEc2
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 dataawscccloud9environmentec2.DataAwsccCloud9EnvironmentEc2_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 dataawscccloud9environmentec2.DataAwsccCloud9EnvironmentEc2_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloud9environmentec2.DataAwsccCloud9EnvironmentEc2_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 dataawscccloud9environmentec2.DataAwsccCloud9EnvironmentEc2_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloud9environmentec2.DataAwsccCloud9EnvironmentEc2_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 dataawscccloud9environmentec2.DataAwsccCloud9EnvironmentEc2_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloud9Environment
 
 The id of the existing DataAwsccCloud9EnvironmentEc2 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloud9_environment_ec2#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloud9_environment_ec2#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 &dataawscccloud9environmentec2.DataAwsccCloud9EnvironmentEc2Config {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloud9_environment_ec2#id DataAwsccCloud9EnvironmentEc2#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloud9_environment_ec2#id DataAwsccCloud9EnvironmentEc2#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2Repositories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 &dataawscccloud9environmentec2.DataAwsccCloud9EnvironmentEc2Repositories {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environ
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2Tags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 &dataawscccloud9environmentec2.DataAwsccCloud9EnvironmentEc2Tags {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environ
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2RepositoriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 dataawscccloud9environmentec2.NewDataAwsccCloud9EnvironmentEc2RepositoriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloud9EnvironmentEc2RepositoriesList
 ```
@@ -1017,7 +1017,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2RepositoriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 dataawscccloud9environmentec2.NewDataAwsccCloud9EnvironmentEc2RepositoriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloud9EnvironmentEc2RepositoriesOutputReference
 ```
@@ -1306,7 +1306,7 @@ func InternalValue() DataAwsccCloud9EnvironmentEc2Repositories
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2TagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 dataawscccloud9environmentec2.NewDataAwsccCloud9EnvironmentEc2TagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloud9EnvironmentEc2TagsList
 ```
@@ -1455,7 +1455,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2.DataAwsccCloud9EnvironmentEc2TagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloud9environmentec2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloud9environmentec2"
 
 dataawscccloud9environmentec2.NewDataAwsccCloud9EnvironmentEc2TagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloud9EnvironmentEc2TagsOutputReference
 ```

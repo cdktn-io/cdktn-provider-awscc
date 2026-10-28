@@ -4,12 +4,12 @@
 
 ### CloudformationPublicTypeVersion <a name="CloudformationPublicTypeVersion" id="@cdktn/provider-awscc.cloudformationPublicTypeVersion.CloudformationPublicTypeVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_public_type_version awscc_cloudformation_public_type_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_public_type_version awscc_cloudformation_public_type_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationPublicTypeVersion.CloudformationPublicTypeVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublictypeversion"
 
 cloudformationpublictypeversion.NewCloudformationPublicTypeVersion(scope Construct, id *string, config CloudformationPublicTypeVersionConfig) CloudformationPublicTypeVersion
 ```
@@ -435,7 +435,7 @@ func ResetTypeName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudformationPublicTypeVersion.CloudformationPublicTypeVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublictypeversion"
 
 cloudformationpublictypeversion.CloudformationPublicTypeVersion_IsConstruct(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudformationPublicTypeVersion.CloudformationPublicTypeVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublictypeversion"
 
 cloudformationpublictypeversion.CloudformationPublicTypeVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ cloudformationpublictypeversion.CloudformationPublicTypeVersion_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudformationPublicTypeVersion.CloudformationPublicTypeVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublictypeversion"
 
 cloudformationpublictypeversion.CloudformationPublicTypeVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -495,7 +495,7 @@ cloudformationpublictypeversion.CloudformationPublicTypeVersion_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudformationPublicTypeVersion.CloudformationPublicTypeVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublictypeversion"
 
 cloudformationpublictypeversion.CloudformationPublicTypeVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -524,7 +524,7 @@ The construct id used in the generated config for the CloudformationPublicTypeVe
 
 The id of the existing CloudformationPublicTypeVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_public_type_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_public_type_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -878,7 +878,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationPublicTypeVersion.CloudformationPublicTypeVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublictypeversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublictypeversion"
 
 &cloudformationpublictypeversion.CloudformationPublicTypeVersionConfig {
 	Connection: interface{},
@@ -995,7 +995,7 @@ Arn *string
 
 The Amazon Resource Number (ARN) of the extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_public_type_version#arn CloudformationPublicTypeVersion#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_public_type_version#arn CloudformationPublicTypeVersion#arn}
 
 ---
 
@@ -1009,7 +1009,7 @@ LogDeliveryBucket *string
 
 A url to the S3 bucket where logs for the testType run will be available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_public_type_version#log_delivery_bucket CloudformationPublicTypeVersion#log_delivery_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_public_type_version#log_delivery_bucket CloudformationPublicTypeVersion#log_delivery_bucket}
 
 ---
 
@@ -1023,7 +1023,7 @@ PublicVersionNumber *string
 
 The version number of a public third-party extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_public_type_version#public_version_number CloudformationPublicTypeVersion#public_version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_public_type_version#public_version_number CloudformationPublicTypeVersion#public_version_number}
 
 ---
 
@@ -1037,7 +1037,7 @@ Type *string
 
 The kind of extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_public_type_version#type CloudformationPublicTypeVersion#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_public_type_version#type CloudformationPublicTypeVersion#type}
 
 ---
 
@@ -1053,7 +1053,7 @@ The name of the type being registered.
 
 We recommend that type names adhere to the following pattern: company_or_organization::service::type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_public_type_version#type_name CloudformationPublicTypeVersion#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_public_type_version#type_name CloudformationPublicTypeVersion#type_name}
 
 ---
 

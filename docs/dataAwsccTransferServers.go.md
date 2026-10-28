@@ -4,12 +4,12 @@
 
 ### DataAwsccTransferServers <a name="DataAwsccTransferServers" id="@cdktn/provider-awscc.dataAwsccTransferServers.DataAwsccTransferServers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_servers awscc_transfer_servers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_servers awscc_transfer_servers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferServers.DataAwsccTransferServers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferservers"
 
 dataawscctransferservers.NewDataAwsccTransferServers(scope Construct, id *string, config DataAwsccTransferServersConfig) DataAwsccTransferServers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTransferServers.DataAwsccTransferServers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferservers"
 
 dataawscctransferservers.DataAwsccTransferServers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTransferServers.DataAwsccTransferServers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferservers"
 
 dataawscctransferservers.DataAwsccTransferServers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctransferservers.DataAwsccTransferServers_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTransferServers.DataAwsccTransferServers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferservers"
 
 dataawscctransferservers.DataAwsccTransferServers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctransferservers.DataAwsccTransferServers_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTransferServers.DataAwsccTransferServers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferservers"
 
 dataawscctransferservers.DataAwsccTransferServers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTransferServers t
 
 The id of the existing DataAwsccTransferServers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_servers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_servers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferServers.DataAwsccTransferServersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferservers"
 
 &dataawscctransferservers.DataAwsccTransferServersConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DevopsagentPrivateConnection <a name="DevopsagentPrivateConnection" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection awscc_devopsagent_private_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection awscc_devopsagent_private_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 devopsagentprivateconnection.NewDevopsagentPrivateConnection(scope Construct, id *string, config DevopsagentPrivateConnectionConfig) DevopsagentPrivateConnection
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 devopsagentprivateconnection.DevopsagentPrivateConnection_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 devopsagentprivateconnection.DevopsagentPrivateConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ devopsagentprivateconnection.DevopsagentPrivateConnection_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 devopsagentprivateconnection.DevopsagentPrivateConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ devopsagentprivateconnection.DevopsagentPrivateConnection_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 devopsagentprivateconnection.DevopsagentPrivateConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the DevopsagentPrivateConnecti
 
 The id of the existing DevopsagentPrivateConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -861,7 +861,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 &devopsagentprivateconnection.DevopsagentPrivateConnectionConfig {
 	Connection: interface{},
@@ -871,7 +871,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconn
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ConnectionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfiguration,
+	ConnectionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfiguration,
 	Name: *string,
 	Certificate: *string,
 	Tags: interface{},
@@ -976,7 +976,7 @@ ConnectionConfiguration DevopsagentPrivateConnectionConnectionConfiguration
 
 The connection configuration for the Private Connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#connection_configuration DevopsagentPrivateConnection#connection_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#connection_configuration DevopsagentPrivateConnection#connection_configuration}
 
 ---
 
@@ -990,7 +990,7 @@ Name *string
 
 Unique name for this Private Connection within the account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#name DevopsagentPrivateConnection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#name DevopsagentPrivateConnection#name}
 
 ---
 
@@ -1004,7 +1004,7 @@ Certificate *string
 
 Certificate for the Private Connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#certificate DevopsagentPrivateConnection#certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#certificate DevopsagentPrivateConnection#certificate}
 
 ---
 
@@ -1018,7 +1018,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#tags DevopsagentPrivateConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#tags DevopsagentPrivateConnection#tags}
 
 ---
 
@@ -1027,11 +1027,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 &devopsagentprivateconnection.DevopsagentPrivateConnectionConnectionConfiguration {
-	SelfManaged: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfigurationSelfManaged,
-	ServiceManaged: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfigurationServiceManaged,
+	SelfManaged: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfigurationSelfManaged,
+	ServiceManaged: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfigurationServiceManaged,
 }
 ```
 
@@ -1054,7 +1054,7 @@ SelfManaged DevopsagentPrivateConnectionConnectionConfigurationSelfManaged
 
 Configuration for a self-managed Private Connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#self_managed DevopsagentPrivateConnection#self_managed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#self_managed DevopsagentPrivateConnection#self_managed}
 
 ---
 
@@ -1068,7 +1068,7 @@ ServiceManaged DevopsagentPrivateConnectionConnectionConfigurationServiceManaged
 
 Configuration for a service-managed Private Connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#service_managed DevopsagentPrivateConnection#service_managed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#service_managed DevopsagentPrivateConnection#service_managed}
 
 ---
 
@@ -1077,7 +1077,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfigurationSelfManaged.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 &devopsagentprivateconnection.DevopsagentPrivateConnectionConnectionConfigurationSelfManaged {
 	ResourceConfigurationId: *string,
@@ -1102,7 +1102,7 @@ ResourceConfigurationId *string
 
 The ARN of the Resource Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#resource_configuration_id DevopsagentPrivateConnection#resource_configuration_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#resource_configuration_id DevopsagentPrivateConnection#resource_configuration_id}
 
 ---
 
@@ -1111,7 +1111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfigurationServiceManaged.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 &devopsagentprivateconnection.DevopsagentPrivateConnectionConnectionConfigurationServiceManaged {
 	DnsResolution: *string,
@@ -1150,7 +1150,7 @@ DnsResolution *string
 
 DNS resolution mode for the resource gateway. Defaults to PUBLIC when not set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#dns_resolution DevopsagentPrivateConnection#dns_resolution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#dns_resolution DevopsagentPrivateConnection#dns_resolution}
 
 ---
 
@@ -1164,7 +1164,7 @@ HostAddress *string
 
 IP address or DNS name of the target resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#host_address DevopsagentPrivateConnection#host_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#host_address DevopsagentPrivateConnection#host_address}
 
 ---
 
@@ -1178,7 +1178,7 @@ IpAddressType *string
 
 IP address type of the service-managed Resource Gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#ip_address_type DevopsagentPrivateConnection#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#ip_address_type DevopsagentPrivateConnection#ip_address_type}
 
 ---
 
@@ -1192,7 +1192,7 @@ Ipv4AddressesPerEni *f64
 
 Number of IPv4 addresses in each ENI for the service-managed Resource Gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#ipv_4_addresses_per_eni DevopsagentPrivateConnection#ipv_4_addresses_per_eni}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#ipv_4_addresses_per_eni DevopsagentPrivateConnection#ipv_4_addresses_per_eni}
 
 ---
 
@@ -1206,7 +1206,7 @@ PortRanges *[]*string
 
 TCP port ranges that a consumer can use to access the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#port_ranges DevopsagentPrivateConnection#port_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#port_ranges DevopsagentPrivateConnection#port_ranges}
 
 ---
 
@@ -1220,7 +1220,7 @@ SecurityGroupIds *[]*string
 
 Security groups to attach to the service-managed Resource Gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#security_group_ids DevopsagentPrivateConnection#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#security_group_ids DevopsagentPrivateConnection#security_group_ids}
 
 ---
 
@@ -1234,7 +1234,7 @@ SubnetIds *[]*string
 
 Subnets that the service-managed Resource Gateway will span.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#subnet_ids DevopsagentPrivateConnection#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#subnet_ids DevopsagentPrivateConnection#subnet_ids}
 
 ---
 
@@ -1248,7 +1248,7 @@ VpcId *string
 
 VPC to create the service-managed Resource Gateway in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#vpc_id DevopsagentPrivateConnection#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#vpc_id DevopsagentPrivateConnection#vpc_id}
 
 ---
 
@@ -1257,7 +1257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 &devopsagentprivateconnection.DevopsagentPrivateConnectionTags {
 	Key: *string,
@@ -1284,7 +1284,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#key DevopsagentPrivateConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#key DevopsagentPrivateConnection#key}
 
 ---
 
@@ -1298,7 +1298,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_private_connection#value DevopsagentPrivateConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_private_connection#value DevopsagentPrivateConnection#value}
 
 ---
 
@@ -1309,7 +1309,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 devopsagentprivateconnection.NewDevopsagentPrivateConnectionConnectionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentPrivateConnectionConnectionConfigurationOutputReference
 ```
@@ -1642,7 +1642,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfigurationSelfManagedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 devopsagentprivateconnection.NewDevopsagentPrivateConnectionConnectionConfigurationSelfManagedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentPrivateConnectionConnectionConfigurationSelfManagedOutputReference
 ```
@@ -1920,7 +1920,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 devopsagentprivateconnection.NewDevopsagentPrivateConnectionConnectionConfigurationServiceManagedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOutputReference
 ```
@@ -2401,7 +2401,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 devopsagentprivateconnection.NewDevopsagentPrivateConnectionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DevopsagentPrivateConnectionTagsList
 ```
@@ -2561,7 +2561,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentPrivateConnection.DevopsagentPrivateConnectionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentprivateconnection"
 
 devopsagentprivateconnection.NewDevopsagentPrivateConnectionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DevopsagentPrivateConnectionTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcoreConfigurationBundles <a name="DataAwsccBedrockagentcoreConfigurationBundles" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundles.DataAwsccBedrockagentcoreConfigurationBundles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundles.DataAwsccBedrockagentcoreConfigurationBundles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundles"
 
 dataawsccbedrockagentcoreconfigurationbundles.NewDataAwsccBedrockagentcoreConfigurationBundles(scope Construct, id *string, config DataAwsccBedrockagentcoreConfigurationBundlesConfig) DataAwsccBedrockagentcoreConfigurationBundles
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundles.DataAwsccBedrockagentcoreConfigurationBundles.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundles"
 
 dataawsccbedrockagentcoreconfigurationbundles.DataAwsccBedrockagentcoreConfigurationBundles_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundles.DataAwsccBedrockagentcoreConfigurationBundles.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundles"
 
 dataawsccbedrockagentcoreconfigurationbundles.DataAwsccBedrockagentcoreConfigurationBundles_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcoreconfigurationbundles.DataAwsccBedrockagentcoreConfigura
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundles.DataAwsccBedrockagentcoreConfigurationBundles.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundles"
 
 dataawsccbedrockagentcoreconfigurationbundles.DataAwsccBedrockagentcoreConfigurationBundles_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcoreconfigurationbundles.DataAwsccBedrockagentcoreConfigura
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundles.DataAwsccBedrockagentcoreConfigurationBundles.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundles"
 
 dataawsccbedrockagentcoreconfigurationbundles.DataAwsccBedrockagentcoreConfigurationBundles_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreC
 
 The id of the existing DataAwsccBedrockagentcoreConfigurationBundles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_configuration_bundles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_configuration_bundles#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundles.DataAwsccBedrockagentcoreConfigurationBundlesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundles"
 
 &dataawsccbedrockagentcoreconfigurationbundles.DataAwsccBedrockagentcoreConfigurationBundlesConfig {
 	Connection: interface{},

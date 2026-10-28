@@ -4,12 +4,12 @@
 
 ### DataAwsccServicediscoveryPublicDnsNamespaces <a name="DataAwsccServicediscoveryPublicDnsNamespaces" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPublicDnsNamespaces.DataAwsccServicediscoveryPublicDnsNamespaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicediscovery_public_dns_namespaces awscc_servicediscovery_public_dns_namespaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicediscovery_public_dns_namespaces awscc_servicediscovery_public_dns_namespaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPublicDnsNamespaces.DataAwsccServicediscoveryPublicDnsNamespaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoverypublicdnsnamespaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoverypublicdnsnamespaces"
 
 dataawsccservicediscoverypublicdnsnamespaces.NewDataAwsccServicediscoveryPublicDnsNamespaces(scope Construct, id *string, config DataAwsccServicediscoveryPublicDnsNamespacesConfig) DataAwsccServicediscoveryPublicDnsNamespaces
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPublicDnsNamespaces.DataAwsccServicediscoveryPublicDnsNamespaces.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoverypublicdnsnamespaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoverypublicdnsnamespaces"
 
 dataawsccservicediscoverypublicdnsnamespaces.DataAwsccServicediscoveryPublicDnsNamespaces_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPublicDnsNamespaces.DataAwsccServicediscoveryPublicDnsNamespaces.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoverypublicdnsnamespaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoverypublicdnsnamespaces"
 
 dataawsccservicediscoverypublicdnsnamespaces.DataAwsccServicediscoveryPublicDnsNamespaces_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicediscoverypublicdnsnamespaces.DataAwsccServicediscoveryPublicDnsN
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPublicDnsNamespaces.DataAwsccServicediscoveryPublicDnsNamespaces.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoverypublicdnsnamespaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoverypublicdnsnamespaces"
 
 dataawsccservicediscoverypublicdnsnamespaces.DataAwsccServicediscoveryPublicDnsNamespaces_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicediscoverypublicdnsnamespaces.DataAwsccServicediscoveryPublicDnsN
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPublicDnsNamespaces.DataAwsccServicediscoveryPublicDnsNamespaces.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoverypublicdnsnamespaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoverypublicdnsnamespaces"
 
 dataawsccservicediscoverypublicdnsnamespaces.DataAwsccServicediscoveryPublicDnsNamespaces_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicediscoveryP
 
 The id of the existing DataAwsccServicediscoveryPublicDnsNamespaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicediscovery_public_dns_namespaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicediscovery_public_dns_namespaces#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPublicDnsNamespaces.DataAwsccServicediscoveryPublicDnsNamespacesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoverypublicdnsnamespaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoverypublicdnsnamespaces"
 
 &dataawsccservicediscoverypublicdnsnamespaces.DataAwsccServicediscoveryPublicDnsNamespacesConfig {
 	Connection: interface{},

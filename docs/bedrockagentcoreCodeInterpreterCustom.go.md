@@ -4,12 +4,12 @@
 
 ### BedrockagentcoreCodeInterpreterCustom <a name="BedrockagentcoreCodeInterpreterCustom" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustom"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom awscc_bedrockagentcore_code_interpreter_custom}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom awscc_bedrockagentcore_code_interpreter_custom}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 bedrockagentcorecodeinterpretercustom.NewBedrockagentcoreCodeInterpreterCustom(scope Construct, id *string, config BedrockagentcoreCodeInterpreterCustomConfig) BedrockagentcoreCodeInterpreterCustom
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustom.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 bedrockagentcorecodeinterpretercustom.BedrockagentcoreCodeInterpreterCustom_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustom.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 bedrockagentcorecodeinterpretercustom.BedrockagentcoreCodeInterpreterCustom_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ bedrockagentcorecodeinterpretercustom.BedrockagentcoreCodeInterpreterCustom_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustom.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 bedrockagentcorecodeinterpretercustom.BedrockagentcoreCodeInterpreterCustom_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ bedrockagentcorecodeinterpretercustom.BedrockagentcoreCodeInterpreterCustom_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustom.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 bedrockagentcorecodeinterpretercustom.BedrockagentcoreCodeInterpreterCustom_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the BedrockagentcoreCodeInterp
 
 The id of the existing BedrockagentcoreCodeInterpreterCustom that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -952,10 +952,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomCertificates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 &bedrockagentcorecodeinterpretercustom.BedrockagentcoreCodeInterpreterCustomCertificates {
-	CertificateLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomCertificatesCertificateLocation,
+	CertificateLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomCertificatesCertificateLocation,
 }
 ```
 
@@ -977,7 +977,7 @@ CertificateLocation BedrockagentcoreCodeInterpreterCustomCertificatesCertificate
 
 Certificate location in Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#certificate_location BedrockagentcoreCodeInterpreterCustom#certificate_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#certificate_location BedrockagentcoreCodeInterpreterCustom#certificate_location}
 
 ---
 
@@ -986,7 +986,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomCertificatesCertificateLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 &bedrockagentcorecodeinterpretercustom.BedrockagentcoreCodeInterpreterCustomCertificatesCertificateLocation {
 	SecretArn: *string,
@@ -1011,7 +1011,7 @@ SecretArn *string
 
 Secrets Manager secret ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#secret_arn BedrockagentcoreCodeInterpreterCustom#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#secret_arn BedrockagentcoreCodeInterpreterCustom#secret_arn}
 
 ---
 
@@ -1020,7 +1020,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 &bedrockagentcorecodeinterpretercustom.BedrockagentcoreCodeInterpreterCustomConfig {
 	Connection: interface{},
@@ -1031,7 +1031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodein
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	NetworkConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomNetworkConfiguration,
+	NetworkConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomNetworkConfiguration,
 	Certificates: interface{},
 	Description: *string,
 	ExecutionRoleArn: *string,
@@ -1139,7 +1139,7 @@ Name *string
 
 The name of the code interpreter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#name BedrockagentcoreCodeInterpreterCustom#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#name BedrockagentcoreCodeInterpreterCustom#name}
 
 ---
 
@@ -1153,7 +1153,7 @@ NetworkConfiguration BedrockagentcoreCodeInterpreterCustomNetworkConfiguration
 
 Network configuration for code interpreter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#network_configuration BedrockagentcoreCodeInterpreterCustom#network_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#network_configuration BedrockagentcoreCodeInterpreterCustom#network_configuration}
 
 ---
 
@@ -1167,7 +1167,7 @@ Certificates interface{}
 
 List of root CA certificates in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#certificates BedrockagentcoreCodeInterpreterCustom#certificates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#certificates BedrockagentcoreCodeInterpreterCustom#certificates}
 
 ---
 
@@ -1181,7 +1181,7 @@ Description *string
 
 The description of the code interpreter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#description BedrockagentcoreCodeInterpreterCustom#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#description BedrockagentcoreCodeInterpreterCustom#description}
 
 ---
 
@@ -1195,7 +1195,7 @@ ExecutionRoleArn *string
 
 The ARN of the IAM role that the code interpreter uses to access resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#execution_role_arn BedrockagentcoreCodeInterpreterCustom#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#execution_role_arn BedrockagentcoreCodeInterpreterCustom#execution_role_arn}
 
 ---
 
@@ -1209,7 +1209,7 @@ Tags *map[string]*string
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#tags BedrockagentcoreCodeInterpreterCustom#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#tags BedrockagentcoreCodeInterpreterCustom#tags}
 
 ---
 
@@ -1218,11 +1218,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 &bedrockagentcorecodeinterpretercustom.BedrockagentcoreCodeInterpreterCustomNetworkConfiguration {
 	NetworkMode: *string,
-	VpcConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomNetworkConfigurationVpcConfig,
+	VpcConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomNetworkConfigurationVpcConfig,
 }
 ```
 
@@ -1245,7 +1245,7 @@ NetworkMode *string
 
 Network modes supported by code interpreter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#network_mode BedrockagentcoreCodeInterpreterCustom#network_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#network_mode BedrockagentcoreCodeInterpreterCustom#network_mode}
 
 ---
 
@@ -1259,7 +1259,7 @@ VpcConfig BedrockagentcoreCodeInterpreterCustomNetworkConfigurationVpcConfig
 
 Network mode configuration for VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#vpc_config BedrockagentcoreCodeInterpreterCustom#vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#vpc_config BedrockagentcoreCodeInterpreterCustom#vpc_config}
 
 ---
 
@@ -1268,7 +1268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomNetworkConfigurationVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 &bedrockagentcorecodeinterpretercustom.BedrockagentcoreCodeInterpreterCustomNetworkConfigurationVpcConfig {
 	SecurityGroups: *[]*string,
@@ -1295,7 +1295,7 @@ SecurityGroups *[]*string
 
 Security groups for VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#security_groups BedrockagentcoreCodeInterpreterCustom#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#security_groups BedrockagentcoreCodeInterpreterCustom#security_groups}
 
 ---
 
@@ -1309,7 +1309,7 @@ Subnets *[]*string
 
 Subnets for VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_code_interpreter_custom#subnets BedrockagentcoreCodeInterpreterCustom#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_code_interpreter_custom#subnets BedrockagentcoreCodeInterpreterCustom#subnets}
 
 ---
 
@@ -1320,7 +1320,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomCertificatesCertificateLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 bedrockagentcorecodeinterpretercustom.NewBedrockagentcoreCodeInterpreterCustomCertificatesCertificateLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockagentcoreCodeInterpreterCustomCertificatesCertificateLocationOutputReference
 ```
@@ -1598,7 +1598,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomCertificatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 bedrockagentcorecodeinterpretercustom.NewBedrockagentcoreCodeInterpreterCustomCertificatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockagentcoreCodeInterpreterCustomCertificatesList
 ```
@@ -1758,7 +1758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomCertificatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 bedrockagentcorecodeinterpretercustom.NewBedrockagentcoreCodeInterpreterCustomCertificatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockagentcoreCodeInterpreterCustomCertificatesOutputReference
 ```
@@ -2067,7 +2067,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 bedrockagentcorecodeinterpretercustom.NewBedrockagentcoreCodeInterpreterCustomNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockagentcoreCodeInterpreterCustomNetworkConfigurationOutputReference
 ```
@@ -2387,7 +2387,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcoreCodeInterpreterCustom.BedrockagentcoreCodeInterpreterCustomNetworkConfigurationVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorecodeinterpretercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorecodeinterpretercustom"
 
 bedrockagentcorecodeinterpretercustom.NewBedrockagentcoreCodeInterpreterCustomNetworkConfigurationVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockagentcoreCodeInterpreterCustomNetworkConfigurationVpcConfigOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccRdsDbClusterEndpoints <a name="DataAwsccRdsDbClusterEndpoints" id="@cdktn/provider-awscc.dataAwsccRdsDbClusterEndpoints.DataAwsccRdsDbClusterEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_cluster_endpoints awscc_rds_db_cluster_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_cluster_endpoints awscc_rds_db_cluster_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbClusterEndpoints.DataAwsccRdsDbClusterEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbclusterendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbclusterendpoints"
 
 dataawsccrdsdbclusterendpoints.NewDataAwsccRdsDbClusterEndpoints(scope Construct, id *string, config DataAwsccRdsDbClusterEndpointsConfig) DataAwsccRdsDbClusterEndpoints
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRdsDbClusterEndpoints.DataAwsccRdsDbClusterEndpoints.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbclusterendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbclusterendpoints"
 
 dataawsccrdsdbclusterendpoints.DataAwsccRdsDbClusterEndpoints_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRdsDbClusterEndpoints.DataAwsccRdsDbClusterEndpoints.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbclusterendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbclusterendpoints"
 
 dataawsccrdsdbclusterendpoints.DataAwsccRdsDbClusterEndpoints_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrdsdbclusterendpoints.DataAwsccRdsDbClusterEndpoints_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRdsDbClusterEndpoints.DataAwsccRdsDbClusterEndpoints.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbclusterendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbclusterendpoints"
 
 dataawsccrdsdbclusterendpoints.DataAwsccRdsDbClusterEndpoints_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrdsdbclusterendpoints.DataAwsccRdsDbClusterEndpoints_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRdsDbClusterEndpoints.DataAwsccRdsDbClusterEndpoints.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbclusterendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbclusterendpoints"
 
 dataawsccrdsdbclusterendpoints.DataAwsccRdsDbClusterEndpoints_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRdsDbClusterEndpo
 
 The id of the existing DataAwsccRdsDbClusterEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_cluster_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_cluster_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsDbClusterEndpoints.DataAwsccRdsDbClusterEndpointsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbclusterendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbclusterendpoints"
 
 &dataawsccrdsdbclusterendpoints.DataAwsccRdsDbClusterEndpointsConfig {
 	Connection: interface{},

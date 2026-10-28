@@ -4,12 +4,12 @@
 
 ### Resiliencehubv2Service <a name="Resiliencehubv2Service" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2Service(scope Construct, id *string, config Resiliencehubv2ServiceConfig) Resiliencehubv2Service
 ```
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.putAssertions">PutAssertions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.putAssociatedSystems">PutAssociatedSystems</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.putDevOpsAgentConfiguration">PutDevOpsAgentConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.putInputSources">PutInputSources</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.putPermissionModel">PutPermissionModel</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.putReportConfiguration">PutReportConfiguration</a></code> | *No description.* |
@@ -84,6 +85,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.resetAssociatedSystems">ResetAssociatedSystems</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.resetDependencyDiscovery">ResetDependencyDiscovery</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.resetDescription">ResetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.resetDevOpsAgentConfiguration">ResetDevOpsAgentConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.resetInputSources">ResetInputSources</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.resetKmsKeyId">ResetKmsKeyId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.resetPermissionModel">ResetPermissionModel</a></code> | *No description.* |
@@ -426,6 +428,18 @@ func PutAssociatedSystems(value interface{})
 
 ---
 
+##### `PutDevOpsAgentConfiguration` <a name="PutDevOpsAgentConfiguration" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.putDevOpsAgentConfiguration"></a>
+
+```go
+func PutDevOpsAgentConfiguration(value Resiliencehubv2ServiceDevOpsAgentConfiguration)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.putDevOpsAgentConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfiguration">Resiliencehubv2ServiceDevOpsAgentConfiguration</a>
+
+---
+
 ##### `PutInputSources` <a name="PutInputSources" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.putInputSources"></a>
 
 ```go
@@ -498,6 +512,12 @@ func ResetDependencyDiscovery()
 func ResetDescription()
 ```
 
+##### `ResetDevOpsAgentConfiguration` <a name="ResetDevOpsAgentConfiguration" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.resetDevOpsAgentConfiguration"></a>
+
+```go
+func ResetDevOpsAgentConfiguration()
+```
+
 ##### `ResetInputSources` <a name="ResetInputSources" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.resetInputSources"></a>
 
 ```go
@@ -548,7 +568,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.Resiliencehubv2Service_IsConstruct(x interface{}) *bool
 ```
@@ -580,7 +600,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.Resiliencehubv2Service_IsTerraformElement(x interface{}) *bool
 ```
@@ -594,7 +614,7 @@ resiliencehubv2service.Resiliencehubv2Service_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.Resiliencehubv2Service_IsTerraformResource(x interface{}) *bool
 ```
@@ -608,7 +628,7 @@ resiliencehubv2service.Resiliencehubv2Service_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.Resiliencehubv2Service_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -637,7 +657,7 @@ The construct id used in the generated config for the Resiliencehubv2Service to 
 
 The id of the existing Resiliencehubv2Service that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -670,6 +690,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.assertions">Assertions</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceAssertionsList">Resiliencehubv2ServiceAssertionsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.associatedSystems">AssociatedSystems</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceAssociatedSystemsList">Resiliencehubv2ServiceAssociatedSystemsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.createdAt">CreatedAt</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.devOpsAgentConfiguration">DevOpsAgentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference">Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.effectivePolicyValues">EffectivePolicyValues</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesOutputReference">Resiliencehubv2ServiceEffectivePolicyValuesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.inputSources">InputSources</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesList">Resiliencehubv2ServiceInputSourcesList</a></code> | *No description.* |
@@ -682,6 +703,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.associatedSystemsInput">AssociatedSystemsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.dependencyDiscoveryInput">DependencyDiscoveryInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.devOpsAgentConfigurationInput">DevOpsAgentConfigurationInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.inputSourcesInput">InputSourcesInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.kmsKeyIdInput">KmsKeyIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
@@ -871,6 +893,16 @@ func CreatedAt() *string
 
 ---
 
+##### `DevOpsAgentConfiguration`<sup>Required</sup> <a name="DevOpsAgentConfiguration" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.devOpsAgentConfiguration"></a>
+
+```go
+func DevOpsAgentConfiguration() Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference">Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference</a>
+
+---
+
 ##### `EffectivePolicyValues`<sup>Required</sup> <a name="EffectivePolicyValues" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.effectivePolicyValues"></a>
 
 ```go
@@ -988,6 +1020,16 @@ func DescriptionInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `DevOpsAgentConfigurationInput`<sup>Optional</sup> <a name="DevOpsAgentConfigurationInput" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.property.devOpsAgentConfigurationInput"></a>
+
+```go
+func DevOpsAgentConfigurationInput() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -1156,7 +1198,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceAssertions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceAssertions {
 	Text: *string,
@@ -1181,7 +1223,7 @@ Text *string
 
 The text of the assertion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#text Resiliencehubv2Service#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#text Resiliencehubv2Service#text}
 
 ---
 
@@ -1190,7 +1232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceAssociatedSystems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceAssociatedSystems {
 	SystemArn: *string,
@@ -1217,7 +1259,7 @@ SystemArn *string
 
 The system ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#system_arn Resiliencehubv2Service#system_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#system_arn Resiliencehubv2Service#system_arn}
 
 ---
 
@@ -1231,7 +1273,7 @@ UserJourneyIds *[]*string
 
 User journey IDs associated with this system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#user_journey_ids Resiliencehubv2Service#user_journey_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#user_journey_ids Resiliencehubv2Service#user_journey_ids}
 
 ---
 
@@ -1240,7 +1282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceConfig {
 	Connection: interface{},
@@ -1256,11 +1298,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service
 	AssociatedSystems: interface{},
 	DependencyDiscovery: *string,
 	Description: *string,
+	DevOpsAgentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfiguration,
 	InputSources: interface{},
 	KmsKeyId: *string,
-	PermissionModel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel,
+	PermissionModel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel,
 	PolicyArn: *string,
-	ReportConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfiguration,
+	ReportConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resiliencehubv2Service.Resiliencehubv2ServiceReportConfiguration,
 	Tags: interface{},
 }
 ```
@@ -1282,9 +1325,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.associatedSystems">AssociatedSystems</a></code> | <code>interface{}</code> | Systems associated with this service. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.dependencyDiscovery">DependencyDiscovery</a></code> | <code>*string</code> | Dependency discovery state. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.description">Description</a></code> | <code>*string</code> | The description of the service. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.devOpsAgentConfiguration">DevOpsAgentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfiguration">Resiliencehubv2ServiceDevOpsAgentConfiguration</a></code> | Links the service to an AWS DevOps Agent Agent Space. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.inputSources">InputSources</a></code> | <code>interface{}</code> | Input sources for this service. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.kmsKeyId">KmsKeyId</a></code> | <code>*string</code> | The KMS key ID for encrypting service data. |
-| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.permissionModel">PermissionModel</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.permissionModel">PermissionModel</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.policyArn">PolicyArn</a></code> | <code>*string</code> | The ARN of the resilience policy to associate. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.reportConfiguration">ReportConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfiguration">Resiliencehubv2ServiceReportConfiguration</a></code> | Configuration for automatic report generation on a Service. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Tags assigned to the service. |
@@ -1371,7 +1415,7 @@ Name *string
 
 The name of the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#name Resiliencehubv2Service#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#name Resiliencehubv2Service#name}
 
 ---
 
@@ -1385,7 +1429,7 @@ Regions *[]*string
 
 AWS regions for the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#regions Resiliencehubv2Service#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#regions Resiliencehubv2Service#regions}
 
 ---
 
@@ -1399,7 +1443,7 @@ Assertions interface{}
 
 Assertions associated with this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#assertions Resiliencehubv2Service#assertions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#assertions Resiliencehubv2Service#assertions}
 
 ---
 
@@ -1413,7 +1457,7 @@ AssociatedSystems interface{}
 
 Systems associated with this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#associated_systems Resiliencehubv2Service#associated_systems}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#associated_systems Resiliencehubv2Service#associated_systems}
 
 ---
 
@@ -1427,7 +1471,7 @@ DependencyDiscovery *string
 
 Dependency discovery state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#dependency_discovery Resiliencehubv2Service#dependency_discovery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#dependency_discovery Resiliencehubv2Service#dependency_discovery}
 
 ---
 
@@ -1441,7 +1485,23 @@ Description *string
 
 The description of the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#description Resiliencehubv2Service#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#description Resiliencehubv2Service#description}
+
+---
+
+##### `DevOpsAgentConfiguration`<sup>Optional</sup> <a name="DevOpsAgentConfiguration" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.devOpsAgentConfiguration"></a>
+
+```go
+DevOpsAgentConfiguration Resiliencehubv2ServiceDevOpsAgentConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfiguration">Resiliencehubv2ServiceDevOpsAgentConfiguration</a>
+
+Links the service to an AWS DevOps Agent Agent Space.
+
+Provide AgentSpaceArn to connect the service; omit this property to leave an existing link unchanged. The DevOps Agent integration is governed by the service's resilience policy and operates in analysis-only mode.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#dev_ops_agent_configuration Resiliencehubv2Service#dev_ops_agent_configuration}
 
 ---
 
@@ -1455,7 +1515,7 @@ InputSources interface{}
 
 Input sources for this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#input_sources Resiliencehubv2Service#input_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#input_sources Resiliencehubv2Service#input_sources}
 
 ---
 
@@ -1469,7 +1529,7 @@ KmsKeyId *string
 
 The KMS key ID for encrypting service data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#kms_key_id Resiliencehubv2Service#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#kms_key_id Resiliencehubv2Service#kms_key_id}
 
 ---
 
@@ -1481,7 +1541,7 @@ PermissionModel Resiliencehubv2ServicePermissionModel
 
 - *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}.
 
 ---
 
@@ -1495,7 +1555,7 @@ PolicyArn *string
 
 The ARN of the resilience policy to associate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#policy_arn Resiliencehubv2Service#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#policy_arn Resiliencehubv2Service#policy_arn}
 
 ---
 
@@ -1509,7 +1569,7 @@ ReportConfiguration Resiliencehubv2ServiceReportConfiguration
 
 Configuration for automatic report generation on a Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#report_configuration Resiliencehubv2Service#report_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#report_configuration Resiliencehubv2Service#report_configuration}
 
 ---
 
@@ -1523,7 +1583,41 @@ Tags interface{}
 
 Tags assigned to the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#tags Resiliencehubv2Service#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#tags Resiliencehubv2Service#tags}
+
+---
+
+### Resiliencehubv2ServiceDevOpsAgentConfiguration <a name="Resiliencehubv2ServiceDevOpsAgentConfiguration" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfiguration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
+
+&resiliencehubv2service.Resiliencehubv2ServiceDevOpsAgentConfiguration {
+	AgentSpaceArn: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfiguration.property.agentSpaceArn">AgentSpaceArn</a></code> | <code>*string</code> | The ARN of the DevOps Agent Agent Space to link to this service. |
+
+---
+
+##### `AgentSpaceArn`<sup>Optional</sup> <a name="AgentSpaceArn" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfiguration.property.agentSpaceArn"></a>
+
+```go
+AgentSpaceArn *string
+```
+
+- *Type:* *string
+
+The ARN of the DevOps Agent Agent Space to link to this service.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#agent_space_arn Resiliencehubv2Service#agent_space_arn}
 
 ---
 
@@ -1532,7 +1626,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceEffectivePolicyValues {
 
@@ -1545,7 +1639,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesAvailabilitySlo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceEffectivePolicyValuesAvailabilitySlo {
 
@@ -1558,7 +1652,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiAzDrApproach.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceEffectivePolicyValuesMultiAzDrApproach {
 
@@ -1571,7 +1665,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiAzRpo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceEffectivePolicyValuesMultiAzRpo {
 
@@ -1584,7 +1678,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiAzRto.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceEffectivePolicyValuesMultiAzRto {
 
@@ -1597,7 +1691,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionDrApproach.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionDrApproach {
 
@@ -1610,7 +1704,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionRpo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionRpo {
 
@@ -1623,7 +1717,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionRto.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionRto {
 
@@ -1636,10 +1730,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceInputSources {
-	ResourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration,
+	ResourceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration,
 }
 ```
 
@@ -1661,7 +1755,7 @@ ResourceConfiguration Resiliencehubv2ServiceInputSourcesResourceConfiguration
 
 Resource configuration for an input source. Provide exactly one field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#resource_configuration Resiliencehubv2Service#resource_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#resource_configuration Resiliencehubv2Service#resource_configuration}
 
 ---
 
@@ -1670,12 +1764,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceInputSourcesResourceConfiguration {
 	CfnStackArn: *string,
 	DesignFileS3Url: *string,
-	Eks: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks,
+	Eks: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks,
 	ResourceTags: interface{},
 	TfStateFileUrl: *string,
 }
@@ -1687,7 +1781,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.cfnStackArn">CfnStackArn</a></code> | <code>*string</code> | ARN of a CloudFormation stack. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.designFileS3Url">DesignFileS3Url</a></code> | <code>*string</code> | S3 URL of a design file. |
-| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.eks">Eks</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks">Resiliencehubv2ServiceInputSourcesResourceConfigurationEks</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.eks">Eks</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks">Resiliencehubv2ServiceInputSourcesResourceConfigurationEks</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.resourceTags">ResourceTags</a></code> | <code>interface{}</code> | Resource tags to discover resources. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.tfStateFileUrl">TfStateFileUrl</a></code> | <code>*string</code> | URL of a Terraform state file. |
 
@@ -1703,7 +1797,7 @@ CfnStackArn *string
 
 ARN of a CloudFormation stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#cfn_stack_arn Resiliencehubv2Service#cfn_stack_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#cfn_stack_arn Resiliencehubv2Service#cfn_stack_arn}
 
 ---
 
@@ -1717,7 +1811,7 @@ DesignFileS3Url *string
 
 S3 URL of a design file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#design_file_s3_url Resiliencehubv2Service#design_file_s3_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#design_file_s3_url Resiliencehubv2Service#design_file_s3_url}
 
 ---
 
@@ -1729,7 +1823,7 @@ Eks Resiliencehubv2ServiceInputSourcesResourceConfigurationEks
 
 - *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks">Resiliencehubv2ServiceInputSourcesResourceConfigurationEks</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}.
 
 ---
 
@@ -1743,7 +1837,7 @@ ResourceTags interface{}
 
 Resource tags to discover resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#resource_tags Resiliencehubv2Service#resource_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#resource_tags Resiliencehubv2Service#resource_tags}
 
 ---
 
@@ -1757,7 +1851,7 @@ TfStateFileUrl *string
 
 URL of a Terraform state file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#tf_state_file_url Resiliencehubv2Service#tf_state_file_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#tf_state_file_url Resiliencehubv2Service#tf_state_file_url}
 
 ---
 
@@ -1766,11 +1860,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks {
 	ClusterArn: *string,
-	LabelSelector: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelector,
+	LabelSelector: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelector,
 	Namespaces: *[]*string,
 }
 ```
@@ -1795,7 +1889,7 @@ ClusterArn *string
 
 ARN of the EKS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#cluster_arn Resiliencehubv2Service#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#cluster_arn Resiliencehubv2Service#cluster_arn}
 
 ---
 
@@ -1811,7 +1905,7 @@ Kubernetes label selector that scopes discovery to matching objects in the speci
 
 An object must satisfy both MatchLabels and MatchExpressions. Specify at least one of them; a selector carrying neither is treated as though no selector were supplied, and all supported objects in the specified namespaces are discovered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#label_selector Resiliencehubv2Service#label_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#label_selector Resiliencehubv2Service#label_selector}
 
 ---
 
@@ -1825,7 +1919,7 @@ Namespaces *[]*string
 
 EKS namespaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#namespaces Resiliencehubv2Service#namespaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#namespaces Resiliencehubv2Service#namespaces}
 
 ---
 
@@ -1834,7 +1928,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelector {
 	MatchExpressions: interface{},
@@ -1861,7 +1955,7 @@ MatchExpressions interface{}
 
 Label selector requirements an object must satisfy to be discovered. Up to 20 requirements, all of which must match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#match_expressions Resiliencehubv2Service#match_expressions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#match_expressions Resiliencehubv2Service#match_expressions}
 
 ---
 
@@ -1875,7 +1969,7 @@ MatchLabels *map[string]*string
 
 Label key/value pairs an object must carry to be discovered. Up to 20 pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#match_labels Resiliencehubv2Service#match_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#match_labels Resiliencehubv2Service#match_labels}
 
 ---
 
@@ -1884,7 +1978,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorMatchExpressions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorMatchExpressions {
 	Key: *string,
@@ -1913,7 +2007,7 @@ Key *string
 
 Label key the requirement applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
 
 ---
 
@@ -1927,7 +2021,7 @@ Operator *string
 
 Operator applied to the label key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#operator Resiliencehubv2Service#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#operator Resiliencehubv2Service#operator}
 
 ---
 
@@ -1943,7 +2037,7 @@ Label values the requirement compares against.
 
 Up to 20 values. Required for IN and NOT_IN; omit for EXISTS and DOES_NOT_EXIST.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
 
 ---
 
@@ -1952,7 +2046,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTags {
 	Key: *string,
@@ -1979,7 +2073,7 @@ Key *string
 
 Tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
 
 ---
 
@@ -1993,7 +2087,7 @@ Values *[]*string
 
 Tag values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
 
 ---
 
@@ -2002,7 +2096,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServicePermissionModel {
 	CrossAccountRoleArns: interface{},
@@ -2029,7 +2123,7 @@ CrossAccountRoleArns interface{}
 
 Cross-account role ARNs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#cross_account_role_arns Resiliencehubv2Service#cross_account_role_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#cross_account_role_arns Resiliencehubv2Service#cross_account_role_arns}
 
 ---
 
@@ -2043,7 +2137,7 @@ InvokerRoleName *string
 
 Name of the invoker IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#invoker_role_name Resiliencehubv2Service#invoker_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#invoker_role_name Resiliencehubv2Service#invoker_role_name}
 
 ---
 
@@ -2052,7 +2146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModelCrossAccountRoleArns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServicePermissionModelCrossAccountRoleArns {
 	CrossAccountRoleArn: *string,
@@ -2079,7 +2173,7 @@ CrossAccountRoleArn *string
 
 ARN of the cross-account IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#cross_account_role_arn Resiliencehubv2Service#cross_account_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#cross_account_role_arn Resiliencehubv2Service#cross_account_role_arn}
 
 ---
 
@@ -2093,7 +2187,7 @@ ExternalId *string
 
 External ID for cross-account access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#external_id Resiliencehubv2Service#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#external_id Resiliencehubv2Service#external_id}
 
 ---
 
@@ -2102,7 +2196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceReportConfiguration {
 	ReportOutput: interface{},
@@ -2127,7 +2221,7 @@ ReportOutput interface{}
 
 Output destinations for generated reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#report_output Resiliencehubv2Service#report_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#report_output Resiliencehubv2Service#report_output}
 
 ---
 
@@ -2136,10 +2230,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfigurationReportOutput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceReportConfigurationReportOutput {
-	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfigurationReportOutputS3,
+	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.resiliencehubv2Service.Resiliencehubv2ServiceReportConfigurationReportOutputS3,
 }
 ```
 
@@ -2161,7 +2255,7 @@ S3 Resiliencehubv2ServiceReportConfigurationReportOutputS3
 
 S3 configuration for report output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#s3 Resiliencehubv2Service#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#s3 Resiliencehubv2Service#s3}
 
 ---
 
@@ -2170,7 +2264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfigurationReportOutputS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceReportConfigurationReportOutputS3 {
 	BucketOwner: *string,
@@ -2197,7 +2291,7 @@ BucketOwner *string
 
 Account ID of the bucket owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#bucket_owner Resiliencehubv2Service#bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#bucket_owner Resiliencehubv2Service#bucket_owner}
 
 ---
 
@@ -2211,7 +2305,7 @@ BucketPath *string
 
 S3 bucket path where reports will be written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#bucket_path Resiliencehubv2Service#bucket_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#bucket_path Resiliencehubv2Service#bucket_path}
 
 ---
 
@@ -2220,7 +2314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 &resiliencehubv2service.Resiliencehubv2ServiceTags {
 	Key: *string,
@@ -2247,7 +2341,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
 
 ---
 
@@ -2261,7 +2355,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service#value Resiliencehubv2Service#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#value Resiliencehubv2Service#value}
 
 ---
 
@@ -2272,7 +2366,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceAssertionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceAssertionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Resiliencehubv2ServiceAssertionsList
 ```
@@ -2432,7 +2526,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceAssertionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceAssertionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Resiliencehubv2ServiceAssertionsOutputReference
 ```
@@ -2728,7 +2822,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceAssociatedSystemsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceAssociatedSystemsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Resiliencehubv2ServiceAssociatedSystemsList
 ```
@@ -2888,7 +2982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceAssociatedSystemsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceAssociatedSystemsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Resiliencehubv2ServiceAssociatedSystemsOutputReference
 ```
@@ -3208,12 +3302,290 @@ func InternalValue() interface{}
 ---
 
 
+### Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference <a name="Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
+
+resiliencehubv2service.NewResiliencehubv2ServiceDevOpsAgentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.resetAgentSpaceArn">ResetAgentSpaceArn</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetAgentSpaceArn` <a name="ResetAgentSpaceArn" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.resetAgentSpaceArn"></a>
+
+```go
+func ResetAgentSpaceArn()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.property.agentSpaceArnInput">AgentSpaceArnInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.property.agentSpaceArn">AgentSpaceArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AgentSpaceArnInput`<sup>Optional</sup> <a name="AgentSpaceArnInput" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.property.agentSpaceArnInput"></a>
+
+```go
+func AgentSpaceArnInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AgentSpaceArn`<sup>Required</sup> <a name="AgentSpaceArn" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.property.agentSpaceArn"></a>
+
+```go
+func AgentSpaceArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
 ### Resiliencehubv2ServiceEffectivePolicyValuesAvailabilitySloOutputReference <a name="Resiliencehubv2ServiceEffectivePolicyValuesAvailabilitySloOutputReference" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesAvailabilitySloOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesAvailabilitySloOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceEffectivePolicyValuesAvailabilitySloOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceEffectivePolicyValuesAvailabilitySloOutputReference
 ```
@@ -3484,7 +3856,7 @@ func InternalValue() Resiliencehubv2ServiceEffectivePolicyValuesAvailabilitySlo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiAzDrApproachOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceEffectivePolicyValuesMultiAzDrApproachOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceEffectivePolicyValuesMultiAzDrApproachOutputReference
 ```
@@ -3755,7 +4127,7 @@ func InternalValue() Resiliencehubv2ServiceEffectivePolicyValuesMultiAzDrApproac
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiAzRpoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceEffectivePolicyValuesMultiAzRpoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceEffectivePolicyValuesMultiAzRpoOutputReference
 ```
@@ -4026,7 +4398,7 @@ func InternalValue() Resiliencehubv2ServiceEffectivePolicyValuesMultiAzRpo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiAzRtoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceEffectivePolicyValuesMultiAzRtoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceEffectivePolicyValuesMultiAzRtoOutputReference
 ```
@@ -4297,7 +4669,7 @@ func InternalValue() Resiliencehubv2ServiceEffectivePolicyValuesMultiAzRto
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionDrApproachOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceEffectivePolicyValuesMultiRegionDrApproachOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionDrApproachOutputReference
 ```
@@ -4568,7 +4940,7 @@ func InternalValue() Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionDrApp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionRpoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceEffectivePolicyValuesMultiRegionRpoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionRpoOutputReference
 ```
@@ -4839,7 +5211,7 @@ func InternalValue() Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionRpo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionRtoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceEffectivePolicyValuesMultiRegionRtoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionRtoOutputReference
 ```
@@ -5110,7 +5482,7 @@ func InternalValue() Resiliencehubv2ServiceEffectivePolicyValuesMultiRegionRto
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceEffectivePolicyValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceEffectivePolicyValuesOutputReference
 ```
@@ -5436,7 +5808,7 @@ func InternalValue() Resiliencehubv2ServiceEffectivePolicyValues
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceInputSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Resiliencehubv2ServiceInputSourcesList
 ```
@@ -5596,7 +5968,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceInputSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Resiliencehubv2ServiceInputSourcesOutputReference
 ```
@@ -5905,7 +6277,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorMatchExpressionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorMatchExpressionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorMatchExpressionsList
 ```
@@ -6065,7 +6437,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorMatchExpressionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorMatchExpressionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorMatchExpressionsOutputReference
 ```
@@ -6419,7 +6791,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorOutputReference
 ```
@@ -6739,7 +7111,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputReference
 ```
@@ -7088,7 +7460,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceInputSourcesResourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceInputSourcesResourceConfigurationOutputReference
 ```
@@ -7508,7 +7880,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceInputSourcesResourceConfigurationResourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTagsList
 ```
@@ -7668,7 +8040,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceInputSourcesResourceConfigurationResourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTagsOutputReference
 ```
@@ -7993,7 +8365,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModelCrossAccountRoleArnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServicePermissionModelCrossAccountRoleArnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Resiliencehubv2ServicePermissionModelCrossAccountRoleArnsList
 ```
@@ -8153,7 +8525,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModelCrossAccountRoleArnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServicePermissionModelCrossAccountRoleArnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Resiliencehubv2ServicePermissionModelCrossAccountRoleArnsOutputReference
 ```
@@ -8478,7 +8850,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServicePermissionModelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServicePermissionModelOutputReference
 ```
@@ -8798,7 +9170,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceReportConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceReportConfigurationOutputReference
 ```
@@ -9089,7 +9461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfigurationReportOutputList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceReportConfigurationReportOutputList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Resiliencehubv2ServiceReportConfigurationReportOutputList
 ```
@@ -9249,7 +9621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfigurationReportOutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceReportConfigurationReportOutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Resiliencehubv2ServiceReportConfigurationReportOutputOutputReference
 ```
@@ -9558,7 +9930,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfigurationReportOutputS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceReportConfigurationReportOutputS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Resiliencehubv2ServiceReportConfigurationReportOutputS3OutputReference
 ```
@@ -9865,7 +10237,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Resiliencehubv2ServiceTagsList
 ```
@@ -10025,7 +10397,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service"
 
 resiliencehubv2service.NewResiliencehubv2ServiceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Resiliencehubv2ServiceTagsOutputReference
 ```

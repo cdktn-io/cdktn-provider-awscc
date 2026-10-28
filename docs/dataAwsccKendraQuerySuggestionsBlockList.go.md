@@ -4,12 +4,12 @@
 
 ### DataAwsccKendraQuerySuggestionsBlockList <a name="DataAwsccKendraQuerySuggestionsBlockList" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_query_suggestions_block_list awscc_kendra_query_suggestions_block_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_query_suggestions_block_list awscc_kendra_query_suggestions_block_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraquerysuggestionsblocklist"
 
 dataawscckendraquerysuggestionsblocklist.NewDataAwsccKendraQuerySuggestionsBlockList(scope Construct, id *string, config DataAwsccKendraQuerySuggestionsBlockListConfig) DataAwsccKendraQuerySuggestionsBlockList
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockList.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraquerysuggestionsblocklist"
 
 dataawscckendraquerysuggestionsblocklist.DataAwsccKendraQuerySuggestionsBlockList_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraquerysuggestionsblocklist"
 
 dataawscckendraquerysuggestionsblocklist.DataAwsccKendraQuerySuggestionsBlockList_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckendraquerysuggestionsblocklist.DataAwsccKendraQuerySuggestionsBlockLis
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockList.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraquerysuggestionsblocklist"
 
 dataawscckendraquerysuggestionsblocklist.DataAwsccKendraQuerySuggestionsBlockList_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckendraquerysuggestionsblocklist.DataAwsccKendraQuerySuggestionsBlockLis
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraquerysuggestionsblocklist"
 
 dataawscckendraquerysuggestionsblocklist.DataAwsccKendraQuerySuggestionsBlockList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKendraQuerySugges
 
 The id of the existing DataAwsccKendraQuerySuggestionsBlockList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_query_suggestions_block_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_query_suggestions_block_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraquerysuggestionsblocklist"
 
 &dataawscckendraquerysuggestionsblocklist.DataAwsccKendraQuerySuggestionsBlockListConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_query_suggestions_block_list#id DataAwsccKendraQuerySuggestionsBlockList#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_query_suggestions_block_list#id DataAwsccKendraQuerySuggestionsBlockList#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockListSourceS3Path.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraquerysuggestionsblocklist"
 
 &dataawscckendraquerysuggestionsblocklist.DataAwsccKendraQuerySuggestionsBlockListSourceS3Path {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockListTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraquerysuggestionsblocklist"
 
 &dataawscckendraquerysuggestionsblocklist.DataAwsccKendraQuerySuggestionsBlockListTags {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockListSourceS3PathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraquerysuggestionsblocklist"
 
 dataawscckendraquerysuggestionsblocklist.NewDataAwsccKendraQuerySuggestionsBlockListSourceS3PathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraQuerySuggestionsBlockListSourceS3PathOutputReference
 ```
@@ -1095,7 +1095,7 @@ func InternalValue() DataAwsccKendraQuerySuggestionsBlockListSourceS3Path
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockListTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraquerysuggestionsblocklist"
 
 dataawscckendraquerysuggestionsblocklist.NewDataAwsccKendraQuerySuggestionsBlockListTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraQuerySuggestionsBlockListTagsList
 ```
@@ -1244,7 +1244,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraQuerySuggestionsBlockList.DataAwsccKendraQuerySuggestionsBlockListTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendraquerysuggestionsblocklist"
 
 dataawscckendraquerysuggestionsblocklist.NewDataAwsccKendraQuerySuggestionsBlockListTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraQuerySuggestionsBlockListTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccBillingconductorBillingGroup <a name="DataAwsccBillingconductorBillingGroup" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billingconductor_billing_group awscc_billingconductor_billing_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billingconductor_billing_group awscc_billingconductor_billing_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 dataawsccbillingconductorbillinggroup.NewDataAwsccBillingconductorBillingGroup(scope Construct, id *string, config DataAwsccBillingconductorBillingGroupConfig) DataAwsccBillingconductorBillingGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 dataawsccbillingconductorbillinggroup.DataAwsccBillingconductorBillingGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 dataawsccbillingconductorbillinggroup.DataAwsccBillingconductorBillingGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbillingconductorbillinggroup.DataAwsccBillingconductorBillingGroup_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 dataawsccbillingconductorbillinggroup.DataAwsccBillingconductorBillingGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbillingconductorbillinggroup.DataAwsccBillingconductorBillingGroup_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 dataawsccbillingconductorbillinggroup.DataAwsccBillingconductorBillingGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBillingconductorB
 
 The id of the existing DataAwsccBillingconductorBillingGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billingconductor_billing_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billingconductor_billing_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroupAccountGrouping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 &dataawsccbillingconductorbillinggroup.DataAwsccBillingconductorBillingGroupAccountGrouping {
 
@@ -732,7 +732,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconduc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroupComputationPreference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 &dataawsccbillingconductorbillinggroup.DataAwsccBillingconductorBillingGroupComputationPreference {
 
@@ -745,7 +745,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconduc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 &dataawsccbillingconductorbillinggroup.DataAwsccBillingconductorBillingGroupConfig {
 	Connection: interface{},
@@ -854,7 +854,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billingconductor_billing_group#id DataAwsccBillingconductorBillingGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billingconductor_billing_group#id DataAwsccBillingconductorBillingGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -866,7 +866,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 &dataawsccbillingconductorbillinggroup.DataAwsccBillingconductorBillingGroupTags {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconduc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroupAccountGroupingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 dataawsccbillingconductorbillinggroup.NewDataAwsccBillingconductorBillingGroupAccountGroupingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBillingconductorBillingGroupAccountGroupingOutputReference
 ```
@@ -1163,7 +1163,7 @@ func InternalValue() DataAwsccBillingconductorBillingGroupAccountGrouping
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroupComputationPreferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 dataawsccbillingconductorbillinggroup.NewDataAwsccBillingconductorBillingGroupComputationPreferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBillingconductorBillingGroupComputationPreferenceOutputReference
 ```
@@ -1423,7 +1423,7 @@ func InternalValue() DataAwsccBillingconductorBillingGroupComputationPreference
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 dataawsccbillingconductorbillinggroup.NewDataAwsccBillingconductorBillingGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBillingconductorBillingGroupTagsList
 ```
@@ -1572,7 +1572,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorBillingGroup.DataAwsccBillingconductorBillingGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorbillinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorbillinggroup"
 
 dataawsccbillingconductorbillinggroup.NewDataAwsccBillingconductorBillingGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBillingconductorBillingGroupTagsOutputReference
 ```

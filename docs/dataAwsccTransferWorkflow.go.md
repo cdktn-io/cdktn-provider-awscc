@@ -4,12 +4,12 @@
 
 ### DataAwsccTransferWorkflow <a name="DataAwsccTransferWorkflow" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_workflow awscc_transfer_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_workflow awscc_transfer_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflow(scope Construct, id *string, config DataAwsccTransferWorkflowConfig) DataAwsccTransferWorkflow
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.DataAwsccTransferWorkflow_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.DataAwsccTransferWorkflow_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctransferworkflow.DataAwsccTransferWorkflow_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.DataAwsccTransferWorkflow_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctransferworkflow.DataAwsccTransferWorkflow_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.DataAwsccTransferWorkflow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTransferWorkflow 
 
 The id of the existing DataAwsccTransferWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_workflow#id DataAwsccTransferWorkflow#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_workflow#id DataAwsccTransferWorkflow#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionSteps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionSteps {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetails {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocation {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocation {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsCustomStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionStepsCustomStepDetails {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetails {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocation {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocation {
 
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsDeleteStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionStepsDeleteStepDetails {
 
@@ -904,7 +904,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsTagStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionStepsTagStepDetails {
 
@@ -917,7 +917,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsTags {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowSteps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowSteps {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsCopyStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowStepsCopyStepDetails {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFileLocation {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocation {
 
@@ -982,7 +982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsCustomStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowStepsCustomStepDetails {
 
@@ -995,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsDecryptStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowStepsDecryptStepDetails {
 
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocation {
 
@@ -1021,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation {
 
@@ -1034,7 +1034,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocation {
 
@@ -1047,7 +1047,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsDeleteStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowStepsDeleteStepDetails {
 
@@ -1060,7 +1060,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsTagStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowStepsTagStepDetails {
 
@@ -1073,7 +1073,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsTagStepDetailsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowStepsTagStepDetailsTags {
 
@@ -1086,7 +1086,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 &dataawscctransferworkflow.DataAwsccTransferWorkflowTags {
 
@@ -1101,7 +1101,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationOutputReference
 ```
@@ -1361,7 +1361,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference
 ```
@@ -1632,7 +1632,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference
 ```
@@ -1925,7 +1925,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionStepsCopyStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference
 ```
@@ -2218,7 +2218,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionStepsCustomStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference
 ```
@@ -2489,7 +2489,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationOutputReference
 ```
@@ -2760,7 +2760,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference
 ```
@@ -3031,7 +3031,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference
 ```
@@ -3335,7 +3335,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionStepsDecryptStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference
 ```
@@ -3606,7 +3606,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionStepsDeleteStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTransferWorkflowOnExceptionStepsList
 ```
@@ -3755,7 +3755,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTransferWorkflowOnExceptionStepsOutputReference
 ```
@@ -4088,7 +4088,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionSteps
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsOutputReference
 ```
@@ -4370,7 +4370,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionStepsTagStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsTagsList
 ```
@@ -4519,7 +4519,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference
 ```
@@ -4808,7 +4808,7 @@ func InternalValue() DataAwsccTransferWorkflowOnExceptionStepsTagStepDetailsTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFileLocationOutputReference
 ```
@@ -5068,7 +5068,7 @@ func InternalValue() DataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFil
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference
 ```
@@ -5339,7 +5339,7 @@ func InternalValue() DataAwsccTransferWorkflowStepsCopyStepDetailsDestinationFil
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsCopyStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsCopyStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowStepsCopyStepDetailsOutputReference
 ```
@@ -5632,7 +5632,7 @@ func InternalValue() DataAwsccTransferWorkflowStepsCopyStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsCustomStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsCustomStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowStepsCustomStepDetailsOutputReference
 ```
@@ -5925,7 +5925,7 @@ func InternalValue() DataAwsccTransferWorkflowStepsCustomStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference
 ```
@@ -6196,7 +6196,7 @@ func InternalValue() DataAwsccTransferWorkflowStepsDecryptStepDetailsDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference
 ```
@@ -6467,7 +6467,7 @@ func InternalValue() DataAwsccTransferWorkflowStepsDecryptStepDetailsDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference
 ```
@@ -6738,7 +6738,7 @@ func InternalValue() DataAwsccTransferWorkflowStepsDecryptStepDetailsDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsDecryptStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsDecryptStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowStepsDecryptStepDetailsOutputReference
 ```
@@ -7042,7 +7042,7 @@ func InternalValue() DataAwsccTransferWorkflowStepsDecryptStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsDeleteStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsDeleteStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowStepsDeleteStepDetailsOutputReference
 ```
@@ -7313,7 +7313,7 @@ func InternalValue() DataAwsccTransferWorkflowStepsDeleteStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTransferWorkflowStepsList
 ```
@@ -7462,7 +7462,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTransferWorkflowStepsOutputReference
 ```
@@ -7795,7 +7795,7 @@ func InternalValue() DataAwsccTransferWorkflowSteps
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsTagStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsTagStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTransferWorkflowStepsTagStepDetailsOutputReference
 ```
@@ -8077,7 +8077,7 @@ func InternalValue() DataAwsccTransferWorkflowStepsTagStepDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsTagStepDetailsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsTagStepDetailsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTransferWorkflowStepsTagStepDetailsTagsList
 ```
@@ -8226,7 +8226,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsTagStepDetailsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowStepsTagStepDetailsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTransferWorkflowStepsTagStepDetailsTagsOutputReference
 ```
@@ -8515,7 +8515,7 @@ func InternalValue() DataAwsccTransferWorkflowStepsTagStepDetailsTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTransferWorkflowTagsList
 ```
@@ -8664,7 +8664,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflow"
 
 dataawscctransferworkflow.NewDataAwsccTransferWorkflowTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTransferWorkflowTagsOutputReference
 ```

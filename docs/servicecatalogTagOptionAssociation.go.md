@@ -4,12 +4,12 @@
 
 ### ServicecatalogTagOptionAssociation <a name="ServicecatalogTagOptionAssociation" id="@cdktn/provider-awscc.servicecatalogTagOptionAssociation.ServicecatalogTagOptionAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_tag_option_association awscc_servicecatalog_tag_option_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_tag_option_association awscc_servicecatalog_tag_option_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogTagOptionAssociation.ServicecatalogTagOptionAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogtagoptionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogtagoptionassociation"
 
 servicecatalogtagoptionassociation.NewServicecatalogTagOptionAssociation(scope Construct, id *string, config ServicecatalogTagOptionAssociationConfig) ServicecatalogTagOptionAssociation
 ```
@@ -414,7 +414,7 @@ func ResetTagOptionId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.servicecatalogTagOptionAssociation.ServicecatalogTagOptionAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogtagoptionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogtagoptionassociation"
 
 servicecatalogtagoptionassociation.ServicecatalogTagOptionAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.servicecatalogTagOptionAssociation.ServicecatalogTagOptionAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogtagoptionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogtagoptionassociation"
 
 servicecatalogtagoptionassociation.ServicecatalogTagOptionAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ servicecatalogtagoptionassociation.ServicecatalogTagOptionAssociation_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.servicecatalogTagOptionAssociation.ServicecatalogTagOptionAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogtagoptionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogtagoptionassociation"
 
 servicecatalogtagoptionassociation.ServicecatalogTagOptionAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ servicecatalogtagoptionassociation.ServicecatalogTagOptionAssociation_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.servicecatalogTagOptionAssociation.ServicecatalogTagOptionAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogtagoptionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogtagoptionassociation"
 
 servicecatalogtagoptionassociation.ServicecatalogTagOptionAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the ServicecatalogTagOptionAss
 
 The id of the existing ServicecatalogTagOptionAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_tag_option_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_tag_option_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -758,7 +758,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.servicecatalogTagOptionAssociation.ServicecatalogTagOptionAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogtagoptionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogtagoptionassociation"
 
 &servicecatalogtagoptionassociation.ServicecatalogTagOptionAssociationConfig {
 	Connection: interface{},
@@ -869,7 +869,7 @@ ResourceId *string
 
 The CloudformationProduct or Portfolio identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_tag_option_association#resource_id ServicecatalogTagOptionAssociation#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_tag_option_association#resource_id ServicecatalogTagOptionAssociation#resource_id}
 
 ---
 
@@ -883,7 +883,7 @@ TagOptionId *string
 
 The TagOption identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_tag_option_association#tag_option_id ServicecatalogTagOptionAssociation#tag_option_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_tag_option_association#tag_option_id ServicecatalogTagOptionAssociation#tag_option_id}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccLicensemanagerReportGenerator <a name="DataAwsccLicensemanagerReportGenerator" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGenerator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanager_report_generator awscc_licensemanager_report_generator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_report_generator awscc_licensemanager_report_generator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGenerator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 dataawscclicensemanagerreportgenerator.NewDataAwsccLicensemanagerReportGenerator(scope Construct, id *string, config DataAwsccLicensemanagerReportGeneratorConfig) DataAwsccLicensemanagerReportGenerator
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGenerator.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 dataawscclicensemanagerreportgenerator.DataAwsccLicensemanagerReportGenerator_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGenerator.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 dataawscclicensemanagerreportgenerator.DataAwsccLicensemanagerReportGenerator_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclicensemanagerreportgenerator.DataAwsccLicensemanagerReportGenerator_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGenerator.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 dataawscclicensemanagerreportgenerator.DataAwsccLicensemanagerReportGenerator_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclicensemanagerreportgenerator.DataAwsccLicensemanagerReportGenerator_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGenerator.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 dataawscclicensemanagerreportgenerator.DataAwsccLicensemanagerReportGenerator_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLicensemanagerRep
 
 The id of the existing DataAwsccLicensemanagerReportGenerator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanager_report_generator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_report_generator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGeneratorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 &dataawscclicensemanagerreportgenerator.DataAwsccLicensemanagerReportGeneratorConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanager_report_generator#id DataAwsccLicensemanagerReportGenerator#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_report_generator#id DataAwsccLicensemanagerReportGenerator#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGeneratorReportContext.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 &dataawscclicensemanagerreportgenerator.DataAwsccLicensemanagerReportGeneratorReportContext {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGeneratorReportFrequency.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 &dataawscclicensemanagerreportgenerator.DataAwsccLicensemanagerReportGeneratorReportFrequency {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGeneratorS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 &dataawscclicensemanagerreportgenerator.DataAwsccLicensemanagerReportGeneratorS3Location {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGeneratorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 &dataawscclicensemanagerreportgenerator.DataAwsccLicensemanagerReportGeneratorTags {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGeneratorReportContextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 dataawscclicensemanagerreportgenerator.NewDataAwsccLicensemanagerReportGeneratorReportContextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLicensemanagerReportGeneratorReportContextOutputReference
 ```
@@ -1165,7 +1165,7 @@ func InternalValue() DataAwsccLicensemanagerReportGeneratorReportContext
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGeneratorReportFrequencyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 dataawscclicensemanagerreportgenerator.NewDataAwsccLicensemanagerReportGeneratorReportFrequencyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLicensemanagerReportGeneratorReportFrequencyOutputReference
 ```
@@ -1436,7 +1436,7 @@ func InternalValue() DataAwsccLicensemanagerReportGeneratorReportFrequency
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGeneratorS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 dataawscclicensemanagerreportgenerator.NewDataAwsccLicensemanagerReportGeneratorS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLicensemanagerReportGeneratorS3LocationOutputReference
 ```
@@ -1707,7 +1707,7 @@ func InternalValue() DataAwsccLicensemanagerReportGeneratorS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGeneratorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 dataawscclicensemanagerreportgenerator.NewDataAwsccLicensemanagerReportGeneratorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLicensemanagerReportGeneratorTagsList
 ```
@@ -1856,7 +1856,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerReportGenerator.DataAwsccLicensemanagerReportGeneratorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerator"
 
 dataawscclicensemanagerreportgenerator.NewDataAwsccLicensemanagerReportGeneratorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLicensemanagerReportGeneratorTagsOutputReference
 ```

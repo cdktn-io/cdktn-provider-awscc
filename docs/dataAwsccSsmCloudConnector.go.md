@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmCloudConnector <a name="DataAwsccSsmCloudConnector" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_cloud_connector awscc_ssm_cloud_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_cloud_connector awscc_ssm_cloud_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnector(scope Construct, id *string, config DataAwsccSsmCloudConnectorConfig) DataAwsccSsmCloudConnector
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.DataAwsccSsmCloudConnector_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.DataAwsccSsmCloudConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmcloudconnector.DataAwsccSsmCloudConnector_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnector.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.DataAwsccSsmCloudConnector_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmcloudconnector.DataAwsccSsmCloudConnector_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.DataAwsccSsmCloudConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmCloudConnector
 
 The id of the existing DataAwsccSsmCloudConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 &dataawsccssmcloudconnector.DataAwsccSsmCloudConnectorConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_cloud_connector#id DataAwsccSsmCloudConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_cloud_connector#id DataAwsccSsmCloudConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 &dataawsccssmcloudconnector.DataAwsccSsmCloudConnectorConfiguration {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationAzureConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 &dataawsccssmcloudconnector.DataAwsccSsmCloudConnectorConfigurationAzureConfiguration {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 &dataawsccssmcloudconnector.DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargets {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 &dataawsccssmcloudconnector.DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptions {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 &dataawsccssmcloudconnector.DataAwsccSsmCloudConnectorTags {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationAzureConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnectorConfigurationAzureConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmCloudConnectorConfigurationAzureConfigurationOutputReference
 ```
@@ -1189,7 +1189,7 @@ func InternalValue() DataAwsccSsmCloudConnectorConfigurationAzureConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsOutputReference
 ```
@@ -1449,7 +1449,7 @@ func InternalValue() DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsList
 ```
@@ -1598,7 +1598,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptionsOutputReference
 ```
@@ -1887,7 +1887,7 @@ func InternalValue() DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnectorConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmCloudConnectorConfigurationOutputReference
 ```
@@ -2147,7 +2147,7 @@ func InternalValue() DataAwsccSsmCloudConnectorConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmCloudConnectorTagsList
 ```
@@ -2296,7 +2296,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcloudconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmCloudConnectorTagsOutputReference
 ```

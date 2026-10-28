@@ -4,12 +4,12 @@
 
 ### DataAwsccObservabilityadminOrganizationCentralizationRule <a name="DataAwsccObservabilityadminOrganizationCentralizationRule" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_organization_centralization_rule awscc_observabilityadmin_organization_centralization_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_organization_centralization_rule awscc_observabilityadmin_organization_centralization_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRule(scope Construct, id *string, config DataAwsccObservabilityadminOrganizationCentralizationRuleConfig) DataAwsccObservabilityadminOrganizationCentralizationRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservability
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservability
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccObservabilityadmi
 
 The id of the existing DataAwsccObservabilityadminOrganizationCentralizationRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_organization_centralization_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_organization_centralization_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_organization_centralization_rule#id DataAwsccObservabilityadminOrganizationCentralizationRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_organization_centralization_rule#id DataAwsccObservabilityadminOrganizationCentralizationRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRule {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestination {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfiguration {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationBackupConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationBackupConfiguration {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogGroupNameConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogGroupNameConfiguration {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfiguration {
 
@@ -830,7 +830,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfiguration {
 
@@ -843,7 +843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfiguration {
 
@@ -856,7 +856,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfigurationBackupConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfigurationBackupConfiguration {
 
@@ -869,7 +869,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSource {
 
@@ -882,7 +882,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfiguration {
 
@@ -895,7 +895,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceMetricsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceMetricsConfiguration {
 
@@ -908,7 +908,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 &dataawsccobservabilityadminorganizationcentralizationrule.DataAwsccObservabilityadminOrganizationCentralizationRuleTags {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationBackupConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationBackupConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationBackupConfigurationOutputReference
 ```
@@ -1194,7 +1194,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogGroupNameConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogGroupNameConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogGroupNameConfigurationOutputReference
 ```
@@ -1454,7 +1454,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference
 ```
@@ -1747,7 +1747,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference
 ```
@@ -2040,7 +2040,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference
 ```
@@ -2311,7 +2311,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfigurationBackupConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfigurationBackupConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfigurationBackupConfigurationOutputReference
 ```
@@ -2571,7 +2571,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfigurationOutputReference
 ```
@@ -2831,7 +2831,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationOutputReference
 ```
@@ -3124,7 +3124,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleOutputReference
 ```
@@ -3395,7 +3395,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceOutputReference
 ```
@@ -3688,7 +3688,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference
 ```
@@ -3970,7 +3970,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceMetricsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceMetricsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceMetricsConfigurationOutputReference
 ```
@@ -4230,7 +4230,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationCentralizationRuleRu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccObservabilityadminOrganizationCentralizationRuleTagsList
 ```
@@ -4379,7 +4379,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationCentralizationRule.DataAwsccObservabilityadminOrganizationCentralizationRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationcentralizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationcentralizationrule"
 
 dataawsccobservabilityadminorganizationcentralizationrule.NewDataAwsccObservabilityadminOrganizationCentralizationRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccObservabilityadminOrganizationCentralizationRuleTagsOutputReference
 ```

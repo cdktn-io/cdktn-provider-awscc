@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectSecurityKeys <a name="DataAwsccConnectSecurityKeys" id="@cdktn/provider-awscc.dataAwsccConnectSecurityKeys.DataAwsccConnectSecurityKeys"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_security_keys awscc_connect_security_keys}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_security_keys awscc_connect_security_keys}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectSecurityKeys.DataAwsccConnectSecurityKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectsecuritykeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectsecuritykeys"
 
 dataawsccconnectsecuritykeys.NewDataAwsccConnectSecurityKeys(scope Construct, id *string, config DataAwsccConnectSecurityKeysConfig) DataAwsccConnectSecurityKeys
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectSecurityKeys.DataAwsccConnectSecurityKeys.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectsecuritykeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectsecuritykeys"
 
 dataawsccconnectsecuritykeys.DataAwsccConnectSecurityKeys_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectSecurityKeys.DataAwsccConnectSecurityKeys.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectsecuritykeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectsecuritykeys"
 
 dataawsccconnectsecuritykeys.DataAwsccConnectSecurityKeys_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectsecuritykeys.DataAwsccConnectSecurityKeys_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectSecurityKeys.DataAwsccConnectSecurityKeys.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectsecuritykeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectsecuritykeys"
 
 dataawsccconnectsecuritykeys.DataAwsccConnectSecurityKeys_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectsecuritykeys.DataAwsccConnectSecurityKeys_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectSecurityKeys.DataAwsccConnectSecurityKeys.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectsecuritykeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectsecuritykeys"
 
 dataawsccconnectsecuritykeys.DataAwsccConnectSecurityKeys_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectSecurityKe
 
 The id of the existing DataAwsccConnectSecurityKeys that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_security_keys#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_security_keys#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectSecurityKeys.DataAwsccConnectSecurityKeysConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectsecuritykeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectsecuritykeys"
 
 &dataawsccconnectsecuritykeys.DataAwsccConnectSecurityKeysConfig {
 	Connection: interface{},

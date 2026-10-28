@@ -4,12 +4,12 @@
 
 ### Ec2SqlHaStandbyDetectedInstance <a name="Ec2SqlHaStandbyDetectedInstance" id="@cdktn/provider-awscc.ec2SqlHaStandbyDetectedInstance.Ec2SqlHaStandbyDetectedInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_sql_ha_standby_detected_instance awscc_ec2_sql_ha_standby_detected_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_sql_ha_standby_detected_instance awscc_ec2_sql_ha_standby_detected_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SqlHaStandbyDetectedInstance.Ec2SqlHaStandbyDetectedInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2sqlhastandbydetectedinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2sqlhastandbydetectedinstance"
 
 ec2sqlhastandbydetectedinstance.NewEc2SqlHaStandbyDetectedInstance(scope Construct, id *string, config Ec2SqlHaStandbyDetectedInstanceConfig) Ec2SqlHaStandbyDetectedInstance
 ```
@@ -407,7 +407,7 @@ func ResetSqlServerCredentials()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2SqlHaStandbyDetectedInstance.Ec2SqlHaStandbyDetectedInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2sqlhastandbydetectedinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2sqlhastandbydetectedinstance"
 
 ec2sqlhastandbydetectedinstance.Ec2SqlHaStandbyDetectedInstance_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2SqlHaStandbyDetectedInstance.Ec2SqlHaStandbyDetectedInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2sqlhastandbydetectedinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2sqlhastandbydetectedinstance"
 
 ec2sqlhastandbydetectedinstance.Ec2SqlHaStandbyDetectedInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ ec2sqlhastandbydetectedinstance.Ec2SqlHaStandbyDetectedInstance_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2SqlHaStandbyDetectedInstance.Ec2SqlHaStandbyDetectedInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2sqlhastandbydetectedinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2sqlhastandbydetectedinstance"
 
 ec2sqlhastandbydetectedinstance.Ec2SqlHaStandbyDetectedInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ ec2sqlhastandbydetectedinstance.Ec2SqlHaStandbyDetectedInstance_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2SqlHaStandbyDetectedInstance.Ec2SqlHaStandbyDetectedInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2sqlhastandbydetectedinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2sqlhastandbydetectedinstance"
 
 ec2sqlhastandbydetectedinstance.Ec2SqlHaStandbyDetectedInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the Ec2SqlHaStandbyDetectedIns
 
 The id of the existing Ec2SqlHaStandbyDetectedInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_sql_ha_standby_detected_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_sql_ha_standby_detected_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -784,7 +784,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2SqlHaStandbyDetectedInstance.Ec2SqlHaStandbyDetectedInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2sqlhastandbydetectedinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2sqlhastandbydetectedinstance"
 
 &ec2sqlhastandbydetectedinstance.Ec2SqlHaStandbyDetectedInstanceConfig {
 	Connection: interface{},
@@ -895,7 +895,7 @@ InstanceId *string
 
 The ID of the EC2 instance to enable for SQL Server high availability standby detection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_sql_ha_standby_detected_instance#instance_id Ec2SqlHaStandbyDetectedInstance#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_sql_ha_standby_detected_instance#instance_id Ec2SqlHaStandbyDetectedInstance#instance_id}
 
 ---
 
@@ -911,7 +911,7 @@ The ARN of the AWS Secrets Manager secret containing SQL Server access credentia
 
 If not specified, AWS Systems Manager agent will use default local user credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_sql_ha_standby_detected_instance#sql_server_credentials Ec2SqlHaStandbyDetectedInstance#sql_server_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_sql_ha_standby_detected_instance#sql_server_credentials Ec2SqlHaStandbyDetectedInstance#sql_server_credentials}
 
 ---
 

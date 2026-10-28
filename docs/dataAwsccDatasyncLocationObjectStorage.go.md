@@ -4,12 +4,12 @@
 
 ### DataAwsccDatasyncLocationObjectStorage <a name="DataAwsccDatasyncLocationObjectStorage" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_object_storage awscc_datasync_location_object_storage}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_object_storage awscc_datasync_location_object_storage}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.NewDataAwsccDatasyncLocationObjectStorage(scope Construct, id *string, config DataAwsccDatasyncLocationObjectStorageConfig) DataAwsccDatasyncLocationObjectStorage
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorage_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorage_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorage_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorage_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorage_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationO
 
 The id of the existing DataAwsccDatasyncLocationObjectStorage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageCmkSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 &dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorageCmkSecretConfig {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 &dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorageConfig {
 	Connection: interface{},
@@ -885,7 +885,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_object_storage#id DataAwsccDatasyncLocationObjectStorage#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_object_storage#id DataAwsccDatasyncLocationObjectStorage#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -897,7 +897,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageCustomSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 &dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorageCustomSecretConfig {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 &dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentity {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 &dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity {
 
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 &dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc {
 
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageManagedSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 &dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorageManagedSecretConfig {
 
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 &dataawsccdatasynclocationobjectstorage.DataAwsccDatasyncLocationObjectStorageTags {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageCmkSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.NewDataAwsccDatasyncLocationObjectStorageCmkSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationObjectStorageCmkSecretConfigOutputReference
 ```
@@ -1248,7 +1248,7 @@ func InternalValue() DataAwsccDatasyncLocationObjectStorageCmkSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageCustomSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.NewDataAwsccDatasyncLocationObjectStorageCustomSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationObjectStorageCustomSecretConfigOutputReference
 ```
@@ -1519,7 +1519,7 @@ func InternalValue() DataAwsccDatasyncLocationObjectStorageCustomSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.NewDataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference
 ```
@@ -1812,7 +1812,7 @@ func InternalValue() DataAwsccDatasyncLocationObjectStorageFederatedIdentityExte
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.NewDataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference
 ```
@@ -2072,7 +2072,7 @@ func InternalValue() DataAwsccDatasyncLocationObjectStorageFederatedIdentityExte
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.NewDataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference
 ```
@@ -2343,7 +2343,7 @@ func InternalValue() DataAwsccDatasyncLocationObjectStorageFederatedIdentity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageManagedSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.NewDataAwsccDatasyncLocationObjectStorageManagedSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationObjectStorageManagedSecretConfigOutputReference
 ```
@@ -2603,7 +2603,7 @@ func InternalValue() DataAwsccDatasyncLocationObjectStorageManagedSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.NewDataAwsccDatasyncLocationObjectStorageTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatasyncLocationObjectStorageTagsList
 ```
@@ -2752,7 +2752,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationobjectstorage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationobjectstorage"
 
 dataawsccdatasynclocationobjectstorage.NewDataAwsccDatasyncLocationObjectStorageTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatasyncLocationObjectStorageTagsOutputReference
 ```

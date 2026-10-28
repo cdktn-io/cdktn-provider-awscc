@@ -4,12 +4,12 @@
 
 ### DataAwsccImagebuilderImagePipeline <a name="DataAwsccImagebuilderImagePipeline" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipeline(scope Construct, id *string, config DataAwsccImagebuilderImagePipelineConfig) DataAwsccImagebuilderImagePipeline
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipeline_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipeline_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipeline.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipeline_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipeline_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccImagebuilderImage
 
 The id of the existing DataAwsccImagebuilderImagePipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_image_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_image_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -785,7 +785,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 &dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipelineConfig {
 	Connection: interface{},
@@ -894,7 +894,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_image_pipeline#id DataAwsccImagebuilderImagePipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_image_pipeline#id DataAwsccImagebuilderImagePipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -906,7 +906,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 &dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipelineImageScanningConfiguration {
 
@@ -919,7 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 &dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration {
 
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageTestsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 &dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipelineImageTestsConfiguration {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 &dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipelineLoggingConfiguration {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 &dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipelineSchedule {
 
@@ -971,7 +971,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineScheduleAutoDisablePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 &dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipelineScheduleAutoDisablePolicy {
 
@@ -984,7 +984,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineWorkflows.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 &dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipelineWorkflows {
 
@@ -997,7 +997,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineWorkflowsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 &dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipelineWorkflowsParameters {
 
@@ -1012,7 +1012,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationEcrConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipelineImageScanningConfigurationEcrConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderImagePipelineImageScanningConfigurationEcrConfigurationOutputReference
 ```
@@ -1283,7 +1283,7 @@ func InternalValue() DataAwsccImagebuilderImagePipelineImageScanningConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference
 ```
@@ -1554,7 +1554,7 @@ func InternalValue() DataAwsccImagebuilderImagePipelineImageScanningConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageTestsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipelineImageTestsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderImagePipelineImageTestsConfigurationOutputReference
 ```
@@ -1825,7 +1825,7 @@ func InternalValue() DataAwsccImagebuilderImagePipelineImageTestsConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipelineLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderImagePipelineLoggingConfigurationOutputReference
 ```
@@ -2096,7 +2096,7 @@ func InternalValue() DataAwsccImagebuilderImagePipelineLoggingConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineScheduleAutoDisablePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipelineScheduleAutoDisablePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderImagePipelineScheduleAutoDisablePolicyOutputReference
 ```
@@ -2356,7 +2356,7 @@ func InternalValue() DataAwsccImagebuilderImagePipelineScheduleAutoDisablePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipelineScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderImagePipelineScheduleOutputReference
 ```
@@ -2649,7 +2649,7 @@ func InternalValue() DataAwsccImagebuilderImagePipelineSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineWorkflowsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipelineWorkflowsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccImagebuilderImagePipelineWorkflowsList
 ```
@@ -2798,7 +2798,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineWorkflowsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipelineWorkflowsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccImagebuilderImagePipelineWorkflowsOutputReference
 ```
@@ -3109,7 +3109,7 @@ func InternalValue() DataAwsccImagebuilderImagePipelineWorkflows
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineWorkflowsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipelineWorkflowsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccImagebuilderImagePipelineWorkflowsParametersList
 ```
@@ -3258,7 +3258,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineWorkflowsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipelineWorkflowsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccImagebuilderImagePipelineWorkflowsParametersOutputReference
 ```

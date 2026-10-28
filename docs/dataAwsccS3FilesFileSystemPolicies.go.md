@@ -4,12 +4,12 @@
 
 ### DataAwsccS3FilesFileSystemPolicies <a name="DataAwsccS3FilesFileSystemPolicies" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystemPolicies.DataAwsccS3FilesFileSystemPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3files_file_system_policies awscc_s3files_file_system_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3files_file_system_policies awscc_s3files_file_system_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystemPolicies.DataAwsccS3FilesFileSystemPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystempolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystempolicies"
 
 dataawsccs3filesfilesystempolicies.NewDataAwsccS3FilesFileSystemPolicies(scope Construct, id *string, config DataAwsccS3FilesFileSystemPoliciesConfig) DataAwsccS3FilesFileSystemPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystemPolicies.DataAwsccS3FilesFileSystemPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystempolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystempolicies"
 
 dataawsccs3filesfilesystempolicies.DataAwsccS3FilesFileSystemPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystemPolicies.DataAwsccS3FilesFileSystemPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystempolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystempolicies"
 
 dataawsccs3filesfilesystempolicies.DataAwsccS3FilesFileSystemPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3filesfilesystempolicies.DataAwsccS3FilesFileSystemPolicies_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystemPolicies.DataAwsccS3FilesFileSystemPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystempolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystempolicies"
 
 dataawsccs3filesfilesystempolicies.DataAwsccS3FilesFileSystemPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3filesfilesystempolicies.DataAwsccS3FilesFileSystemPolicies_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystemPolicies.DataAwsccS3FilesFileSystemPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystempolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystempolicies"
 
 dataawsccs3filesfilesystempolicies.DataAwsccS3FilesFileSystemPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3FilesFileSystem
 
 The id of the existing DataAwsccS3FilesFileSystemPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3files_file_system_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3files_file_system_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystemPolicies.DataAwsccS3FilesFileSystemPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystempolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystempolicies"
 
 &dataawsccs3filesfilesystempolicies.DataAwsccS3FilesFileSystemPoliciesConfig {
 	Connection: interface{},

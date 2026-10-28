@@ -4,12 +4,12 @@
 
 ### DataAwsccMedialiveEventBridgeRuleTemplateGroups <a name="DataAwsccMedialiveEventBridgeRuleTemplateGroups" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplateGroups.DataAwsccMedialiveEventBridgeRuleTemplateGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_event_bridge_rule_template_groups awscc_medialive_event_bridge_rule_template_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_event_bridge_rule_template_groups awscc_medialive_event_bridge_rule_template_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplateGroups.DataAwsccMedialiveEventBridgeRuleTemplateGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplategroups"
 
 dataawsccmedialiveeventbridgeruletemplategroups.NewDataAwsccMedialiveEventBridgeRuleTemplateGroups(scope Construct, id *string, config DataAwsccMedialiveEventBridgeRuleTemplateGroupsConfig) DataAwsccMedialiveEventBridgeRuleTemplateGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplateGroups.DataAwsccMedialiveEventBridgeRuleTemplateGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplategroups"
 
 dataawsccmedialiveeventbridgeruletemplategroups.DataAwsccMedialiveEventBridgeRuleTemplateGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplateGroups.DataAwsccMedialiveEventBridgeRuleTemplateGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplategroups"
 
 dataawsccmedialiveeventbridgeruletemplategroups.DataAwsccMedialiveEventBridgeRuleTemplateGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmedialiveeventbridgeruletemplategroups.DataAwsccMedialiveEventBridgeRul
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplateGroups.DataAwsccMedialiveEventBridgeRuleTemplateGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplategroups"
 
 dataawsccmedialiveeventbridgeruletemplategroups.DataAwsccMedialiveEventBridgeRuleTemplateGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmedialiveeventbridgeruletemplategroups.DataAwsccMedialiveEventBridgeRul
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplateGroups.DataAwsccMedialiveEventBridgeRuleTemplateGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplategroups"
 
 dataawsccmedialiveeventbridgeruletemplategroups.DataAwsccMedialiveEventBridgeRuleTemplateGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMedialiveEventBri
 
 The id of the existing DataAwsccMedialiveEventBridgeRuleTemplateGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_event_bridge_rule_template_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_event_bridge_rule_template_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplateGroups.DataAwsccMedialiveEventBridgeRuleTemplateGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplategroups"
 
 &dataawsccmedialiveeventbridgeruletemplategroups.DataAwsccMedialiveEventBridgeRuleTemplateGroupsConfig {
 	Connection: interface{},

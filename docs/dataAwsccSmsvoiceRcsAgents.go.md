@@ -4,12 +4,12 @@
 
 ### DataAwsccSmsvoiceRcsAgents <a name="DataAwsccSmsvoiceRcsAgents" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRcsAgents.DataAwsccSmsvoiceRcsAgents"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_rcs_agents awscc_smsvoice_rcs_agents}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_rcs_agents awscc_smsvoice_rcs_agents}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRcsAgents.DataAwsccSmsvoiceRcsAgents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicercsagents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicercsagents"
 
 dataawsccsmsvoicercsagents.NewDataAwsccSmsvoiceRcsAgents(scope Construct, id *string, config DataAwsccSmsvoiceRcsAgentsConfig) DataAwsccSmsvoiceRcsAgents
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRcsAgents.DataAwsccSmsvoiceRcsAgents.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicercsagents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicercsagents"
 
 dataawsccsmsvoicercsagents.DataAwsccSmsvoiceRcsAgents_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRcsAgents.DataAwsccSmsvoiceRcsAgents.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicercsagents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicercsagents"
 
 dataawsccsmsvoicercsagents.DataAwsccSmsvoiceRcsAgents_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsmsvoicercsagents.DataAwsccSmsvoiceRcsAgents_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRcsAgents.DataAwsccSmsvoiceRcsAgents.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicercsagents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicercsagents"
 
 dataawsccsmsvoicercsagents.DataAwsccSmsvoiceRcsAgents_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsmsvoicercsagents.DataAwsccSmsvoiceRcsAgents_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRcsAgents.DataAwsccSmsvoiceRcsAgents.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicercsagents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicercsagents"
 
 dataawsccsmsvoicercsagents.DataAwsccSmsvoiceRcsAgents_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSmsvoiceRcsAgents
 
 The id of the existing DataAwsccSmsvoiceRcsAgents that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_rcs_agents#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_rcs_agents#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRcsAgents.DataAwsccSmsvoiceRcsAgentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicercsagents"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicercsagents"
 
 &dataawsccsmsvoicercsagents.DataAwsccSmsvoiceRcsAgentsConfig {
 	Connection: interface{},

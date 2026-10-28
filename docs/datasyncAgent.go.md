@@ -4,12 +4,12 @@
 
 ### DatasyncAgent <a name="DatasyncAgent" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent awscc_datasync_agent}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent awscc_datasync_agent}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasyncagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasyncagent"
 
 datasyncagent.NewDatasyncAgent(scope Construct, id *string, config DatasyncAgentConfig) DatasyncAgent
 ```
@@ -455,7 +455,7 @@ func ResetVpcEndpointId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasyncagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasyncagent"
 
 datasyncagent.DatasyncAgent_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasyncagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasyncagent"
 
 datasyncagent.DatasyncAgent_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ datasyncagent.DatasyncAgent_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgent.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasyncagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasyncagent"
 
 datasyncagent.DatasyncAgent_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ datasyncagent.DatasyncAgent_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasyncagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasyncagent"
 
 datasyncagent.DatasyncAgent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the DatasyncAgent to import.
 
 The id of the existing DatasyncAgent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -909,7 +909,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasyncagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasyncagent"
 
 &datasyncagent.DatasyncAgentConfig {
 	Connection: interface{},
@@ -1028,7 +1028,7 @@ ActivationKey *string
 
 Activation key of the Agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent#activation_key DatasyncAgent#activation_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent#activation_key DatasyncAgent#activation_key}
 
 ---
 
@@ -1042,7 +1042,7 @@ AgentName *string
 
 The name configured for the agent. Text reference used to identify the agent in the console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent#agent_name DatasyncAgent#agent_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent#agent_name DatasyncAgent#agent_name}
 
 ---
 
@@ -1056,7 +1056,7 @@ SecurityGroupArns *[]*string
 
 The ARNs of the security group used to protect your data transfer task subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent#security_group_arns DatasyncAgent#security_group_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent#security_group_arns DatasyncAgent#security_group_arns}
 
 ---
 
@@ -1070,7 +1070,7 @@ SubnetArns *[]*string
 
 The ARNs of the subnets in which DataSync will create elastic network interfaces for each data transfer task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent#subnet_arns DatasyncAgent#subnet_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent#subnet_arns DatasyncAgent#subnet_arns}
 
 ---
 
@@ -1084,7 +1084,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent#tags DatasyncAgent#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent#tags DatasyncAgent#tags}
 
 ---
 
@@ -1098,7 +1098,7 @@ VpcEndpointId *string
 
 The ID of the VPC endpoint that the agent has access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent#vpc_endpoint_id DatasyncAgent#vpc_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent#vpc_endpoint_id DatasyncAgent#vpc_endpoint_id}
 
 ---
 
@@ -1107,7 +1107,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasyncagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasyncagent"
 
 &datasyncagent.DatasyncAgentTags {
 	Key: *string,
@@ -1134,7 +1134,7 @@ Key *string
 
 The key for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent#key DatasyncAgent#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent#key DatasyncAgent#key}
 
 ---
 
@@ -1148,7 +1148,7 @@ Value *string
 
 The value for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent#value DatasyncAgent#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent#value DatasyncAgent#value}
 
 ---
 
@@ -1159,7 +1159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasyncagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasyncagent"
 
 datasyncagent.NewDatasyncAgentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatasyncAgentTagsList
 ```
@@ -1319,7 +1319,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncAgent.DatasyncAgentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasyncagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasyncagent"
 
 datasyncagent.NewDatasyncAgentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatasyncAgentTagsOutputReference
 ```

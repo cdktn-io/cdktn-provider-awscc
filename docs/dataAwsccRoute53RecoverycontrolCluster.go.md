@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53RecoverycontrolCluster <a name="DataAwsccRoute53RecoverycontrolCluster" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 dataawsccroute53recoverycontrolcluster.NewDataAwsccRoute53RecoverycontrolCluster(scope Construct, id *string, config DataAwsccRoute53RecoverycontrolClusterConfig) DataAwsccRoute53RecoverycontrolCluster
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 dataawsccroute53recoverycontrolcluster.DataAwsccRoute53RecoverycontrolCluster_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 dataawsccroute53recoverycontrolcluster.DataAwsccRoute53RecoverycontrolCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53recoverycontrolcluster.DataAwsccRoute53RecoverycontrolCluster_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolCluster.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 dataawsccroute53recoverycontrolcluster.DataAwsccRoute53RecoverycontrolCluster_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53recoverycontrolcluster.DataAwsccRoute53RecoverycontrolCluster_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 dataawsccroute53recoverycontrolcluster.DataAwsccRoute53RecoverycontrolCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Recoveryco
 
 The id of the existing DataAwsccRoute53RecoverycontrolCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolClusterClusterEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 &dataawsccroute53recoverycontrolcluster.DataAwsccRoute53RecoverycontrolClusterClusterEndpoints {
 
@@ -666,7 +666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 &dataawsccroute53recoverycontrolcluster.DataAwsccRoute53RecoverycontrolClusterConfig {
 	Connection: interface{},
@@ -775,7 +775,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_cluster#id DataAwsccRoute53RecoverycontrolCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_cluster#id DataAwsccRoute53RecoverycontrolCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -787,7 +787,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolClusterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 &dataawsccroute53recoverycontrolcluster.DataAwsccRoute53RecoverycontrolClusterTags {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolClusterClusterEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 dataawsccroute53recoverycontrolcluster.NewDataAwsccRoute53RecoverycontrolClusterClusterEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53RecoverycontrolClusterClusterEndpointsList
 ```
@@ -951,7 +951,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolClusterClusterEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 dataawsccroute53recoverycontrolcluster.NewDataAwsccRoute53RecoverycontrolClusterClusterEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53RecoverycontrolClusterClusterEndpointsOutputReference
 ```
@@ -1240,7 +1240,7 @@ func InternalValue() DataAwsccRoute53RecoverycontrolClusterClusterEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolClusterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 dataawsccroute53recoverycontrolcluster.NewDataAwsccRoute53RecoverycontrolClusterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53RecoverycontrolClusterTagsList
 ```
@@ -1389,7 +1389,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolCluster.DataAwsccRoute53RecoverycontrolClusterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcluster"
 
 dataawsccroute53recoverycontrolcluster.NewDataAwsccRoute53RecoverycontrolClusterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53RecoverycontrolClusterTagsOutputReference
 ```

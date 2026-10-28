@@ -4,12 +4,12 @@
 
 ### DataAwsccCleanroomsmlTrainingDatasets <a name="DataAwsccCleanroomsmlTrainingDatasets" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlTrainingDatasets.DataAwsccCleanroomsmlTrainingDatasets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanroomsml_training_datasets awscc_cleanroomsml_training_datasets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanroomsml_training_datasets awscc_cleanroomsml_training_datasets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlTrainingDatasets.DataAwsccCleanroomsmlTrainingDatasets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmltrainingdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmltrainingdatasets"
 
 dataawscccleanroomsmltrainingdatasets.NewDataAwsccCleanroomsmlTrainingDatasets(scope Construct, id *string, config DataAwsccCleanroomsmlTrainingDatasetsConfig) DataAwsccCleanroomsmlTrainingDatasets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlTrainingDatasets.DataAwsccCleanroomsmlTrainingDatasets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmltrainingdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmltrainingdatasets"
 
 dataawscccleanroomsmltrainingdatasets.DataAwsccCleanroomsmlTrainingDatasets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlTrainingDatasets.DataAwsccCleanroomsmlTrainingDatasets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmltrainingdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmltrainingdatasets"
 
 dataawscccleanroomsmltrainingdatasets.DataAwsccCleanroomsmlTrainingDatasets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccleanroomsmltrainingdatasets.DataAwsccCleanroomsmlTrainingDatasets_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlTrainingDatasets.DataAwsccCleanroomsmlTrainingDatasets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmltrainingdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmltrainingdatasets"
 
 dataawscccleanroomsmltrainingdatasets.DataAwsccCleanroomsmlTrainingDatasets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccleanroomsmltrainingdatasets.DataAwsccCleanroomsmlTrainingDatasets_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlTrainingDatasets.DataAwsccCleanroomsmlTrainingDatasets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmltrainingdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmltrainingdatasets"
 
 dataawscccleanroomsmltrainingdatasets.DataAwsccCleanroomsmlTrainingDatasets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCleanroomsmlTrain
 
 The id of the existing DataAwsccCleanroomsmlTrainingDatasets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanroomsml_training_datasets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanroomsml_training_datasets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlTrainingDatasets.DataAwsccCleanroomsmlTrainingDatasetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmltrainingdatasets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmltrainingdatasets"
 
 &dataawscccleanroomsmltrainingdatasets.DataAwsccCleanroomsmlTrainingDatasetsConfig {
 	Connection: interface{},

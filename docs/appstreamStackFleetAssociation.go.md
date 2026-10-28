@@ -4,12 +4,12 @@
 
 ### AppstreamStackFleetAssociation <a name="AppstreamStackFleetAssociation" id="@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackfleetassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackfleetassociation"
 
 appstreamstackfleetassociation.NewAppstreamStackFleetAssociation(scope Construct, id *string, config AppstreamStackFleetAssociationConfig) AppstreamStackFleetAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackfleetassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackfleetassociation"
 
 appstreamstackfleetassociation.AppstreamStackFleetAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackfleetassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackfleetassociation"
 
 appstreamstackfleetassociation.AppstreamStackFleetAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ appstreamstackfleetassociation.AppstreamStackFleetAssociation_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackfleetassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackfleetassociation"
 
 appstreamstackfleetassociation.AppstreamStackFleetAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ appstreamstackfleetassociation.AppstreamStackFleetAssociation_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackfleetassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackfleetassociation"
 
 appstreamstackfleetassociation.AppstreamStackFleetAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the AppstreamStackFleetAssocia
 
 The id of the existing AppstreamStackFleetAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_fleet_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_fleet_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackfleetassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackfleetassociation"
 
 &appstreamstackfleetassociation.AppstreamStackFleetAssociationConfig {
 	Connection: interface{},
@@ -857,7 +857,7 @@ The name of the fleet.
 
 To associate a fleet with a stack, you must specify a dependency on the fleet resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_fleet_association#fleet_name AppstreamStackFleetAssociation#fleet_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_fleet_association#fleet_name AppstreamStackFleetAssociation#fleet_name}
 
 ---
 
@@ -873,7 +873,7 @@ The name of the stack.
 
 To associate a fleet with a stack, you must specify a dependency on the stack resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_fleet_association#stack_name AppstreamStackFleetAssociation#stack_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_fleet_association#stack_name AppstreamStackFleetAssociation#stack_name}
 
 ---
 

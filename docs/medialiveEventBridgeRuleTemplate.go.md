@@ -4,12 +4,12 @@
 
 ### MedialiveEventBridgeRuleTemplate <a name="MedialiveEventBridgeRuleTemplate" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_event_bridge_rule_template awscc_medialive_event_bridge_rule_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_event_bridge_rule_template awscc_medialive_event_bridge_rule_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialiveeventbridgeruletemplate"
 
 medialiveeventbridgeruletemplate.NewMedialiveEventBridgeRuleTemplate(scope Construct, id *string, config MedialiveEventBridgeRuleTemplateConfig) MedialiveEventBridgeRuleTemplate
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialiveeventbridgeruletemplate"
 
 medialiveeventbridgeruletemplate.MedialiveEventBridgeRuleTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialiveeventbridgeruletemplate"
 
 medialiveeventbridgeruletemplate.MedialiveEventBridgeRuleTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ medialiveeventbridgeruletemplate.MedialiveEventBridgeRuleTemplate_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialiveeventbridgeruletemplate"
 
 medialiveeventbridgeruletemplate.MedialiveEventBridgeRuleTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ medialiveeventbridgeruletemplate.MedialiveEventBridgeRuleTemplate_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialiveeventbridgeruletemplate"
 
 medialiveeventbridgeruletemplate.MedialiveEventBridgeRuleTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the MedialiveEventBridgeRuleTe
 
 The id of the existing MedialiveEventBridgeRuleTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_event_bridge_rule_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_event_bridge_rule_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -939,7 +939,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialiveeventbridgeruletemplate"
 
 &medialiveeventbridgeruletemplate.MedialiveEventBridgeRuleTemplateConfig {
 	Connection: interface{},
@@ -1058,7 +1058,7 @@ EventType *string
 
 The type of event to match with the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_event_bridge_rule_template#event_type MedialiveEventBridgeRuleTemplate#event_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_event_bridge_rule_template#event_type MedialiveEventBridgeRuleTemplate#event_type}
 
 ---
 
@@ -1072,7 +1072,7 @@ Name *string
 
 A resource's name. Names must be unique within the scope of a resource type in a specific region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_event_bridge_rule_template#name MedialiveEventBridgeRuleTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_event_bridge_rule_template#name MedialiveEventBridgeRuleTemplate#name}
 
 ---
 
@@ -1086,7 +1086,7 @@ Description *string
 
 A resource's optional description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_event_bridge_rule_template#description MedialiveEventBridgeRuleTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_event_bridge_rule_template#description MedialiveEventBridgeRuleTemplate#description}
 
 ---
 
@@ -1100,7 +1100,7 @@ EventTargets interface{}
 
 Placeholder documentation for __listOfEventBridgeRuleTemplateTarget.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_event_bridge_rule_template#event_targets MedialiveEventBridgeRuleTemplate#event_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_event_bridge_rule_template#event_targets MedialiveEventBridgeRuleTemplate#event_targets}
 
 ---
 
@@ -1114,7 +1114,7 @@ GroupIdentifier *string
 
 An eventbridge rule template group's identifier. Can be either be its id or current name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_event_bridge_rule_template#group_identifier MedialiveEventBridgeRuleTemplate#group_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_event_bridge_rule_template#group_identifier MedialiveEventBridgeRuleTemplate#group_identifier}
 
 ---
 
@@ -1128,7 +1128,7 @@ Tags *map[string]*string
 
 Represents the tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_event_bridge_rule_template#tags MedialiveEventBridgeRuleTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_event_bridge_rule_template#tags MedialiveEventBridgeRuleTemplate#tags}
 
 ---
 
@@ -1137,7 +1137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialiveeventbridgeruletemplate"
 
 &medialiveeventbridgeruletemplate.MedialiveEventBridgeRuleTemplateEventTargets {
 	Arn: *string,
@@ -1162,7 +1162,7 @@ Arn *string
 
 Target ARNs must be either an SNS topic or CloudWatch log group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_event_bridge_rule_template#arn MedialiveEventBridgeRuleTemplate#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_event_bridge_rule_template#arn MedialiveEventBridgeRuleTemplate#arn}
 
 ---
 
@@ -1173,7 +1173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialiveeventbridgeruletemplate"
 
 medialiveeventbridgeruletemplate.NewMedialiveEventBridgeRuleTemplateEventTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveEventBridgeRuleTemplateEventTargetsList
 ```
@@ -1333,7 +1333,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialiveeventbridgeruletemplate"
 
 medialiveeventbridgeruletemplate.NewMedialiveEventBridgeRuleTemplateEventTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveEventBridgeRuleTemplateEventTargetsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccRedshiftClusterParameterGroups <a name="DataAwsccRedshiftClusterParameterGroups" id="@cdktn/provider-awscc.dataAwsccRedshiftClusterParameterGroups.DataAwsccRedshiftClusterParameterGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_cluster_parameter_groups awscc_redshift_cluster_parameter_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_cluster_parameter_groups awscc_redshift_cluster_parameter_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftClusterParameterGroups.DataAwsccRedshiftClusterParameterGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftclusterparametergroups"
 
 dataawsccredshiftclusterparametergroups.NewDataAwsccRedshiftClusterParameterGroups(scope Construct, id *string, config DataAwsccRedshiftClusterParameterGroupsConfig) DataAwsccRedshiftClusterParameterGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRedshiftClusterParameterGroups.DataAwsccRedshiftClusterParameterGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftclusterparametergroups"
 
 dataawsccredshiftclusterparametergroups.DataAwsccRedshiftClusterParameterGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRedshiftClusterParameterGroups.DataAwsccRedshiftClusterParameterGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftclusterparametergroups"
 
 dataawsccredshiftclusterparametergroups.DataAwsccRedshiftClusterParameterGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccredshiftclusterparametergroups.DataAwsccRedshiftClusterParameterGroups_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRedshiftClusterParameterGroups.DataAwsccRedshiftClusterParameterGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftclusterparametergroups"
 
 dataawsccredshiftclusterparametergroups.DataAwsccRedshiftClusterParameterGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccredshiftclusterparametergroups.DataAwsccRedshiftClusterParameterGroups_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRedshiftClusterParameterGroups.DataAwsccRedshiftClusterParameterGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftclusterparametergroups"
 
 dataawsccredshiftclusterparametergroups.DataAwsccRedshiftClusterParameterGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftClusterPa
 
 The id of the existing DataAwsccRedshiftClusterParameterGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftClusterParameterGroups.DataAwsccRedshiftClusterParameterGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftclusterparametergroups"
 
 &dataawsccredshiftclusterparametergroups.DataAwsccRedshiftClusterParameterGroupsConfig {
 	Connection: interface{},

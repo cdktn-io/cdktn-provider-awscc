@@ -4,12 +4,12 @@
 
 ### CloudformationHookTypeConfig <a name="CloudformationHookTypeConfig" id="@cdktn/provider-awscc.cloudformationHookTypeConfig.CloudformationHookTypeConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationHookTypeConfig.CloudformationHookTypeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhooktypeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhooktypeconfig"
 
 cloudformationhooktypeconfig.NewCloudformationHookTypeConfig(scope Construct, id *string, config CloudformationHookTypeConfigConfig) CloudformationHookTypeConfig
 ```
@@ -428,7 +428,7 @@ func ResetTypeName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudformationHookTypeConfig.CloudformationHookTypeConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhooktypeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhooktypeconfig"
 
 cloudformationhooktypeconfig.CloudformationHookTypeConfig_IsConstruct(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudformationHookTypeConfig.CloudformationHookTypeConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhooktypeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhooktypeconfig"
 
 cloudformationhooktypeconfig.CloudformationHookTypeConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ cloudformationhooktypeconfig.CloudformationHookTypeConfig_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudformationHookTypeConfig.CloudformationHookTypeConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhooktypeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhooktypeconfig"
 
 cloudformationhooktypeconfig.CloudformationHookTypeConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -488,7 +488,7 @@ cloudformationhooktypeconfig.CloudformationHookTypeConfig_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudformationHookTypeConfig.CloudformationHookTypeConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhooktypeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhooktypeconfig"
 
 cloudformationhooktypeconfig.CloudformationHookTypeConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -517,7 +517,7 @@ The construct id used in the generated config for the CloudformationHookTypeConf
 
 The id of the existing CloudformationHookTypeConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_type_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_type_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -827,7 +827,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationHookTypeConfig.CloudformationHookTypeConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhooktypeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhooktypeconfig"
 
 &cloudformationhooktypeconfig.CloudformationHookTypeConfigConfig {
 	Connection: interface{},
@@ -942,7 +942,7 @@ Configuration *string
 
 The configuration data for the extension, in this account and region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_type_config#configuration CloudformationHookTypeConfig#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_type_config#configuration CloudformationHookTypeConfig#configuration}
 
 ---
 
@@ -956,7 +956,7 @@ ConfigurationAlias *string
 
 An alias by which to refer to this extension configuration data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_type_config#configuration_alias CloudformationHookTypeConfig#configuration_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_type_config#configuration_alias CloudformationHookTypeConfig#configuration_alias}
 
 ---
 
@@ -970,7 +970,7 @@ TypeArn *string
 
 The Amazon Resource Name (ARN) of the type without version number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_type_config#type_arn CloudformationHookTypeConfig#type_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_type_config#type_arn CloudformationHookTypeConfig#type_arn}
 
 ---
 
@@ -986,7 +986,7 @@ The name of the type being registered.
 
 We recommend that type names adhere to the following pattern: company_or_organization::service::type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_type_config#type_name CloudformationHookTypeConfig#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_type_config#type_name CloudformationHookTypeConfig#type_name}
 
 ---
 

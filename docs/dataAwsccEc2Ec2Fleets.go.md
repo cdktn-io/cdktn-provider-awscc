@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2Ec2Fleets <a name="DataAwsccEc2Ec2Fleets" id="@cdktn/provider-awscc.dataAwsccEc2Ec2Fleets.DataAwsccEc2Ec2Fleets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ec2_fleets awscc_ec2_ec2_fleets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ec2_fleets awscc_ec2_ec2_fleets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Ec2Fleets.DataAwsccEc2Ec2Fleets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ec2fleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ec2fleets"
 
 dataawsccec2ec2fleets.NewDataAwsccEc2Ec2Fleets(scope Construct, id *string, config DataAwsccEc2Ec2FleetsConfig) DataAwsccEc2Ec2Fleets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2Ec2Fleets.DataAwsccEc2Ec2Fleets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ec2fleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ec2fleets"
 
 dataawsccec2ec2fleets.DataAwsccEc2Ec2Fleets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2Ec2Fleets.DataAwsccEc2Ec2Fleets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ec2fleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ec2fleets"
 
 dataawsccec2ec2fleets.DataAwsccEc2Ec2Fleets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2ec2fleets.DataAwsccEc2Ec2Fleets_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2Ec2Fleets.DataAwsccEc2Ec2Fleets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ec2fleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ec2fleets"
 
 dataawsccec2ec2fleets.DataAwsccEc2Ec2Fleets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2ec2fleets.DataAwsccEc2Ec2Fleets_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2Ec2Fleets.DataAwsccEc2Ec2Fleets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ec2fleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ec2fleets"
 
 dataawsccec2ec2fleets.DataAwsccEc2Ec2Fleets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2Ec2Fleets to i
 
 The id of the existing DataAwsccEc2Ec2Fleets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ec2_fleets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ec2_fleets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Ec2Fleets.DataAwsccEc2Ec2FleetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ec2fleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ec2fleets"
 
 &dataawsccec2ec2fleets.DataAwsccEc2Ec2FleetsConfig {
 	Connection: interface{},

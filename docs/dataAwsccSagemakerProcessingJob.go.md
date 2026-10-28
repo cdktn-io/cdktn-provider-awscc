@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerProcessingJob <a name="DataAwsccSagemakerProcessingJob" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_processing_job awscc_sagemaker_processing_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_processing_job awscc_sagemaker_processing_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJob(scope Construct, id *string, config DataAwsccSagemakerProcessingJobConfig) DataAwsccSagemakerProcessingJob
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJob.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJob_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJob.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJob_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJob_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJob.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJob_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJob_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJob.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJob_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerProcessi
 
 The id of the existing DataAwsccSagemakerProcessingJob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_processing_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_processing_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -829,7 +829,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobAppSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobAppSpecification {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobConfig {
 	Connection: interface{},
@@ -951,7 +951,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_processing_job#id DataAwsccSagemakerProcessingJob#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_processing_job#id DataAwsccSagemakerProcessingJob#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -963,7 +963,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobExperimentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobExperimentConfig {
 
@@ -976,7 +976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobNetworkConfig {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobNetworkConfigVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobNetworkConfigVpcConfig {
 
@@ -1002,7 +1002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingInputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobProcessingInputs {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinition {
 
@@ -1028,7 +1028,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionAthenaDatasetDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionAthenaDatasetDefinition {
 
@@ -1041,7 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionRedshiftDatasetDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionRedshiftDatasetDefinition {
 
@@ -1054,7 +1054,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingInputsS3Input.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobProcessingInputsS3Input {
 
@@ -1067,7 +1067,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingOutputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobProcessingOutputConfig {
 
@@ -1080,7 +1080,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputs {
 
@@ -1093,7 +1093,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsFeatureStoreOutput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsFeatureStoreOutput {
 
@@ -1106,7 +1106,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsS3Output.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsS3Output {
 
@@ -1119,7 +1119,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobProcessingResources {
 
@@ -1132,7 +1132,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingResourcesClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobProcessingResourcesClusterConfig {
 
@@ -1145,7 +1145,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobStoppingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobStoppingCondition {
 
@@ -1158,7 +1158,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 &dataawsccsagemakerprocessingjob.DataAwsccSagemakerProcessingJobTags {
 
@@ -1173,7 +1173,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerproc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobAppSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobAppSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobAppSpecificationOutputReference
 ```
@@ -1455,7 +1455,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobAppSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobExperimentConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobExperimentConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobExperimentConfigOutputReference
 ```
@@ -1748,7 +1748,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobExperimentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobNetworkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobNetworkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobNetworkConfigOutputReference
 ```
@@ -2030,7 +2030,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobNetworkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobNetworkConfigVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobNetworkConfigVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobNetworkConfigVpcConfigOutputReference
 ```
@@ -2301,7 +2301,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobNetworkConfigVpcConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionAthenaDatasetDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionAthenaDatasetDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionAthenaDatasetDefinitionOutputReference
 ```
@@ -2638,7 +2638,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionOutputReference
 ```
@@ -2942,7 +2942,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionRedshiftDatasetDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionRedshiftDatasetDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefinitionRedshiftDatasetDefinitionOutputReference
 ```
@@ -3290,7 +3290,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobProcessingInputsDatasetDefin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingInputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingInputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerProcessingJobProcessingInputsList
 ```
@@ -3439,7 +3439,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingInputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingInputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerProcessingJobProcessingInputsOutputReference
 ```
@@ -3750,7 +3750,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobProcessingInputs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingInputsS3InputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingInputsS3InputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobProcessingInputsS3InputOutputReference
 ```
@@ -4065,7 +4065,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobProcessingInputsS3Input
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingOutputConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputReference
 ```
@@ -4336,7 +4336,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobProcessingOutputConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsFeatureStoreOutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsFeatureStoreOutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsFeatureStoreOutputOutputReference
 ```
@@ -4596,7 +4596,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobProcessingOutputConfigOutput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsList
 ```
@@ -4745,7 +4745,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsOutputReference
 ```
@@ -5056,7 +5056,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobProcessingOutputConfigOutput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsS3OutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsS3OutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobProcessingOutputConfigOutputsS3OutputOutputReference
 ```
@@ -5338,7 +5338,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobProcessingOutputConfigOutput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingResourcesClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingResourcesClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobProcessingResourcesClusterConfigOutputReference
 ```
@@ -5631,7 +5631,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobProcessingResourcesClusterCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobProcessingResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobProcessingResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobProcessingResourcesOutputReference
 ```
@@ -5891,7 +5891,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobProcessingResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobStoppingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobStoppingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerProcessingJobStoppingConditionOutputReference
 ```
@@ -6151,7 +6151,7 @@ func InternalValue() DataAwsccSagemakerProcessingJobStoppingCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerProcessingJobTagsList
 ```
@@ -6300,7 +6300,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJob.DataAwsccSagemakerProcessingJobTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjob"
 
 dataawsccsagemakerprocessingjob.NewDataAwsccSagemakerProcessingJobTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerProcessingJobTagsOutputReference
 ```

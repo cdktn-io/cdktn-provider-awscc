@@ -4,12 +4,12 @@
 
 ### SesTenant <a name="SesTenant" id="@cdktn/provider-awscc.sesTenant.SesTenant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant awscc_ses_tenant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant awscc_ses_tenant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.NewSesTenant(scope Construct, id *string, config SesTenantConfig) SesTenant
 ```
@@ -480,7 +480,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sesTenant.SesTenant.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.SesTenant_IsConstruct(x interface{}) *bool
 ```
@@ -512,7 +512,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sesTenant.SesTenant.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.SesTenant_IsTerraformElement(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ sestenant.SesTenant_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sesTenant.SesTenant.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.SesTenant_IsTerraformResource(x interface{}) *bool
 ```
@@ -540,7 +540,7 @@ sestenant.SesTenant_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sesTenant.SesTenant.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.SesTenant_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -569,7 +569,7 @@ The construct id used in the generated config for the SesTenant to import.
 
 The id of the existing SesTenant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -901,7 +901,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 &sestenant.SesTenantConfig {
 	Connection: interface{},
@@ -912,9 +912,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	TenantName: *string,
-	ReputationEntity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesTenant.SesTenantReputationEntity,
+	ReputationEntity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesTenant.SesTenantReputationEntity,
 	ResourceAssociations: interface{},
-	SuppressionAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesTenant.SesTenantSuppressionAttributes,
+	SuppressionAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesTenant.SesTenantSuppressionAttributes,
 	Tags: interface{},
 }
 ```
@@ -1018,7 +1018,7 @@ TenantName *string
 
 The name of the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
 
 ---
 
@@ -1032,7 +1032,7 @@ ReputationEntity SesTenantReputationEntity
 
 The reputation configuration for the tenant. Sending status remains managed by SES.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#reputation_entity SesTenant#reputation_entity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#reputation_entity SesTenant#reputation_entity}
 
 ---
 
@@ -1046,7 +1046,7 @@ ResourceAssociations interface{}
 
 The list of resources to associate with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
 
 ---
 
@@ -1060,7 +1060,7 @@ SuppressionAttributes SesTenantSuppressionAttributes
 
 The suppression attributes for the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppression_attributes SesTenant#suppression_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#suppression_attributes SesTenant#suppression_attributes}
 
 ---
 
@@ -1074,7 +1074,7 @@ Tags interface{}
 
 The tags (keys and values) associated with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#tags SesTenant#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#tags SesTenant#tags}
 
 ---
 
@@ -1083,10 +1083,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 &sestenant.SesTenantReputationEntity {
-	Policy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesTenant.SesTenantReputationEntityPolicy,
+	Policy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesTenant.SesTenantReputationEntityPolicy,
 }
 ```
 
@@ -1108,7 +1108,7 @@ Policy SesTenantReputationEntityPolicy
 
 The reputation policy for the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#policy SesTenant#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#policy SesTenant#policy}
 
 ---
 
@@ -1117,7 +1117,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 &sestenant.SesTenantReputationEntityPolicy {
 	ReputationEntityPolicy: *string,
@@ -1142,7 +1142,7 @@ ReputationEntityPolicy *string
 
 The ARN of an SES-managed reputation policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#reputation_entity_policy SesTenant#reputation_entity_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#reputation_entity_policy SesTenant#reputation_entity_policy}
 
 ---
 
@@ -1151,7 +1151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 &sestenant.SesTenantResourceAssociations {
 	ResourceArn: *string,
@@ -1176,7 +1176,7 @@ ResourceArn *string
 
 The ARN of the resource to associate with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#resource_arn SesTenant#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#resource_arn SesTenant#resource_arn}
 
 ---
 
@@ -1185,7 +1185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 &sestenant.SesTenantSuppressionAttributes {
 	SuppressedReasons: *[]*string,
@@ -1212,7 +1212,7 @@ SuppressedReasons *[]*string
 
 The reasons that cause messages to be added to the suppression list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppressed_reasons SesTenant#suppressed_reasons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#suppressed_reasons SesTenant#suppressed_reasons}
 
 ---
 
@@ -1226,7 +1226,7 @@ SuppressionScope *string
 
 The scope of the suppression list for the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppression_scope SesTenant#suppression_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#suppression_scope SesTenant#suppression_scope}
 
 ---
 
@@ -1235,7 +1235,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 &sestenant.SesTenantTags {
 	Key: *string,
@@ -1262,7 +1262,7 @@ Key *string
 
 The key of the key-value tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#key SesTenant#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#key SesTenant#key}
 
 ---
 
@@ -1276,7 +1276,7 @@ Value *string
 
 The value of the key-value tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#value SesTenant#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#value SesTenant#value}
 
 ---
 
@@ -1287,7 +1287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.NewSesTenantReputationEntityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesTenantReputationEntityOutputReference
 ```
@@ -1578,7 +1578,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.NewSesTenantReputationEntityPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesTenantReputationEntityPolicyOutputReference
 ```
@@ -1856,7 +1856,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.NewSesTenantResourceAssociationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SesTenantResourceAssociationsList
 ```
@@ -2016,7 +2016,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.NewSesTenantResourceAssociationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SesTenantResourceAssociationsOutputReference
 ```
@@ -2312,7 +2312,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.NewSesTenantSuppressionAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesTenantSuppressionAttributesOutputReference
 ```
@@ -2619,7 +2619,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.NewSesTenantTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SesTenantTagsList
 ```
@@ -2779,7 +2779,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant"
 
 sestenant.NewSesTenantTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SesTenantTagsOutputReference
 ```

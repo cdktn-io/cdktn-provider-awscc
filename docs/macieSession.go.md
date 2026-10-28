@@ -4,12 +4,12 @@
 
 ### MacieSession <a name="MacieSession" id="@cdktn/provider-awscc.macieSession.MacieSession"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_session awscc_macie_session}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_session awscc_macie_session}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieSession.MacieSession.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciesession"
 
 maciesession.NewMacieSession(scope Construct, id *string, config MacieSessionConfig) MacieSession
 ```
@@ -414,7 +414,7 @@ func ResetStatus()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.macieSession.MacieSession.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciesession"
 
 maciesession.MacieSession_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.macieSession.MacieSession.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciesession"
 
 maciesession.MacieSession_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ maciesession.MacieSession_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.macieSession.MacieSession.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciesession"
 
 maciesession.MacieSession_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ maciesession.MacieSession_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.macieSession.MacieSession.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciesession"
 
 maciesession.MacieSession_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the MacieSession to import.
 
 The id of the existing MacieSession that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_session#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_session#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -791,7 +791,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.macieSession.MacieSessionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciesession"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciesession"
 
 &maciesession.MacieSessionConfig {
 	Connection: interface{},
@@ -902,7 +902,7 @@ FindingPublishingFrequency *string
 
 A enumeration value that specifies how frequently finding updates are published.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_session#finding_publishing_frequency MacieSession#finding_publishing_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_session#finding_publishing_frequency MacieSession#finding_publishing_frequency}
 
 ---
 
@@ -916,7 +916,7 @@ Status *string
 
 A enumeration value that specifies the status of the Macie Session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_session#status MacieSession#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_session#status MacieSession#status}
 
 ---
 

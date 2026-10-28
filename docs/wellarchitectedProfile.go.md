@@ -4,12 +4,12 @@
 
 ### WellarchitectedProfile <a name="WellarchitectedProfile" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 wellarchitectedprofile.NewWellarchitectedProfile(scope Construct, id *string, config WellarchitectedProfileConfig) WellarchitectedProfile
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 wellarchitectedprofile.WellarchitectedProfile_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 wellarchitectedprofile.WellarchitectedProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ wellarchitectedprofile.WellarchitectedProfile_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 wellarchitectedprofile.WellarchitectedProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ wellarchitectedprofile.WellarchitectedProfile_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 wellarchitectedprofile.WellarchitectedProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the WellarchitectedProfile to 
 
 The id of the existing WellarchitectedProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -876,7 +876,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 &wellarchitectedprofile.WellarchitectedProfileConfig {
 	Connection: interface{},
@@ -991,7 +991,7 @@ ProfileDescription *string
 
 The profile description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_profile#profile_description WellarchitectedProfile#profile_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_profile#profile_description WellarchitectedProfile#profile_description}
 
 ---
 
@@ -1005,7 +1005,7 @@ ProfileName *string
 
 The name of the profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_profile#profile_name WellarchitectedProfile#profile_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_profile#profile_name WellarchitectedProfile#profile_name}
 
 ---
 
@@ -1019,7 +1019,7 @@ ProfileQuestions interface{}
 
 The profile questions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_profile#profile_questions WellarchitectedProfile#profile_questions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_profile#profile_questions WellarchitectedProfile#profile_questions}
 
 ---
 
@@ -1033,7 +1033,7 @@ Tags interface{}
 
 The tags assigned to the profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_profile#tags WellarchitectedProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_profile#tags WellarchitectedProfile#tags}
 
 ---
 
@@ -1042,7 +1042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfileProfileQuestions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 &wellarchitectedprofile.WellarchitectedProfileProfileQuestions {
 	QuestionId: *string,
@@ -1069,7 +1069,7 @@ QuestionId *string
 
 The ID of the question.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_profile#question_id WellarchitectedProfile#question_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_profile#question_id WellarchitectedProfile#question_id}
 
 ---
 
@@ -1083,7 +1083,7 @@ SelectedChoiceIds *[]*string
 
 The selected choices.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_profile#selected_choice_ids WellarchitectedProfile#selected_choice_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_profile#selected_choice_ids WellarchitectedProfile#selected_choice_ids}
 
 ---
 
@@ -1092,7 +1092,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 &wellarchitectedprofile.WellarchitectedProfileTags {
 	Key: *string,
@@ -1119,7 +1119,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_profile#key WellarchitectedProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_profile#key WellarchitectedProfile#key}
 
 ---
 
@@ -1133,7 +1133,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_profile#value WellarchitectedProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_profile#value WellarchitectedProfile#value}
 
 ---
 
@@ -1144,7 +1144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfileProfileQuestionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 wellarchitectedprofile.NewWellarchitectedProfileProfileQuestionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WellarchitectedProfileProfileQuestionsList
 ```
@@ -1304,7 +1304,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfileProfileQuestionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 wellarchitectedprofile.NewWellarchitectedProfileProfileQuestionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WellarchitectedProfileProfileQuestionsOutputReference
 ```
@@ -1629,7 +1629,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 wellarchitectedprofile.NewWellarchitectedProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WellarchitectedProfileTagsList
 ```
@@ -1789,7 +1789,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedProfile.WellarchitectedProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedprofile"
 
 wellarchitectedprofile.NewWellarchitectedProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WellarchitectedProfileTagsOutputReference
 ```

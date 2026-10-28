@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerCodeRepository <a name="DataAwsccSagemakerCodeRepository" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_code_repository awscc_sagemaker_code_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_code_repository awscc_sagemaker_code_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercoderepository"
 
 dataawsccsagemakercoderepository.NewDataAwsccSagemakerCodeRepository(scope Construct, id *string, config DataAwsccSagemakerCodeRepositoryConfig) DataAwsccSagemakerCodeRepository
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepository.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercoderepository"
 
 dataawsccsagemakercoderepository.DataAwsccSagemakerCodeRepository_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepository.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercoderepository"
 
 dataawsccsagemakercoderepository.DataAwsccSagemakerCodeRepository_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakercoderepository.DataAwsccSagemakerCodeRepository_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepository.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercoderepository"
 
 dataawsccsagemakercoderepository.DataAwsccSagemakerCodeRepository_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakercoderepository.DataAwsccSagemakerCodeRepository_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepository.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercoderepository"
 
 dataawsccsagemakercoderepository.DataAwsccSagemakerCodeRepository_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerCodeRepo
 
 The id of the existing DataAwsccSagemakerCodeRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_code_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_code_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepositoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercoderepository"
 
 &dataawsccsagemakercoderepository.DataAwsccSagemakerCodeRepositoryConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_code_repository#id DataAwsccSagemakerCodeRepository#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_code_repository#id DataAwsccSagemakerCodeRepository#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepositoryGitConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercoderepository"
 
 &dataawsccsagemakercoderepository.DataAwsccSagemakerCodeRepositoryGitConfig {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepositoryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercoderepository"
 
 &dataawsccsagemakercoderepository.DataAwsccSagemakerCodeRepositoryTags {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercode
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepositoryGitConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercoderepository"
 
 dataawsccsagemakercoderepository.NewDataAwsccSagemakerCodeRepositoryGitConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerCodeRepositoryGitConfigOutputReference
 ```
@@ -1062,7 +1062,7 @@ func InternalValue() DataAwsccSagemakerCodeRepositoryGitConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepositoryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercoderepository"
 
 dataawsccsagemakercoderepository.NewDataAwsccSagemakerCodeRepositoryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerCodeRepositoryTagsList
 ```
@@ -1211,7 +1211,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepository.DataAwsccSagemakerCodeRepositoryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercoderepository"
 
 dataawsccsagemakercoderepository.NewDataAwsccSagemakerCodeRepositoryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerCodeRepositoryTagsOutputReference
 ```

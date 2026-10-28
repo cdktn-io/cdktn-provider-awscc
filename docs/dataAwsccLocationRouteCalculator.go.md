@@ -4,12 +4,12 @@
 
 ### DataAwsccLocationRouteCalculator <a name="DataAwsccLocationRouteCalculator" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_route_calculator awscc_location_route_calculator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_route_calculator awscc_location_route_calculator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationroutecalculator"
 
 dataawscclocationroutecalculator.NewDataAwsccLocationRouteCalculator(scope Construct, id *string, config DataAwsccLocationRouteCalculatorConfig) DataAwsccLocationRouteCalculator
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculator.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationroutecalculator"
 
 dataawscclocationroutecalculator.DataAwsccLocationRouteCalculator_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculator.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationroutecalculator"
 
 dataawscclocationroutecalculator.DataAwsccLocationRouteCalculator_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclocationroutecalculator.DataAwsccLocationRouteCalculator_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculator.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationroutecalculator"
 
 dataawscclocationroutecalculator.DataAwsccLocationRouteCalculator_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclocationroutecalculator.DataAwsccLocationRouteCalculator_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculator.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationroutecalculator"
 
 dataawscclocationroutecalculator.DataAwsccLocationRouteCalculator_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLocationRouteCalc
 
 The id of the existing DataAwsccLocationRouteCalculator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_route_calculator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_route_calculator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculatorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationroutecalculator"
 
 &dataawscclocationroutecalculator.DataAwsccLocationRouteCalculatorConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_route_calculator#id DataAwsccLocationRouteCalculator#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_route_calculator#id DataAwsccLocationRouteCalculator#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculatorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationroutecalculator"
 
 &dataawscclocationroutecalculator.DataAwsccLocationRouteCalculatorTags {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationroute
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculatorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationroutecalculator"
 
 dataawscclocationroutecalculator.NewDataAwsccLocationRouteCalculatorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLocationRouteCalculatorTagsList
 ```
@@ -971,7 +971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculatorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationroutecalculator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationroutecalculator"
 
 dataawscclocationroutecalculator.NewDataAwsccLocationRouteCalculatorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLocationRouteCalculatorTagsOutputReference
 ```

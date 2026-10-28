@@ -4,12 +4,12 @@
 
 ### DataAwsccDatabrewRuleset <a name="DataAwsccDatabrewRuleset" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRuleset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_ruleset awscc_databrew_ruleset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_ruleset awscc_databrew_ruleset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRuleset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.NewDataAwsccDatabrewRuleset(scope Construct, id *string, config DataAwsccDatabrewRulesetConfig) DataAwsccDatabrewRuleset
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRuleset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.DataAwsccDatabrewRuleset_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRuleset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.DataAwsccDatabrewRuleset_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatabrewruleset.DataAwsccDatabrewRuleset_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRuleset.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.DataAwsccDatabrewRuleset_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatabrewruleset.DataAwsccDatabrewRuleset_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRuleset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.DataAwsccDatabrewRuleset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatabrewRuleset t
 
 The id of the existing DataAwsccDatabrewRuleset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_ruleset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_ruleset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 &dataawsccdatabrewruleset.DataAwsccDatabrewRulesetConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_ruleset#id DataAwsccDatabrewRuleset#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_ruleset#id DataAwsccDatabrewRuleset#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 &dataawsccdatabrewruleset.DataAwsccDatabrewRulesetRules {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrules
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetRulesColumnSelectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 &dataawsccdatabrewruleset.DataAwsccDatabrewRulesetRulesColumnSelectors {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrules
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetRulesSubstitutionMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 &dataawsccdatabrewruleset.DataAwsccDatabrewRulesetRulesSubstitutionMap {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrules
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetRulesThreshold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 &dataawsccdatabrewruleset.DataAwsccDatabrewRulesetRulesThreshold {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrules
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 &dataawsccdatabrewruleset.DataAwsccDatabrewRulesetTags {
 
@@ -830,7 +830,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetRulesColumnSelectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.NewDataAwsccDatabrewRulesetRulesColumnSelectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewRulesetRulesColumnSelectorsList
 ```
@@ -979,7 +979,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetRulesColumnSelectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.NewDataAwsccDatabrewRulesetRulesColumnSelectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewRulesetRulesColumnSelectorsOutputReference
 ```
@@ -1268,7 +1268,7 @@ func InternalValue() DataAwsccDatabrewRulesetRulesColumnSelectors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.NewDataAwsccDatabrewRulesetRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewRulesetRulesList
 ```
@@ -1417,7 +1417,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.NewDataAwsccDatabrewRulesetRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewRulesetRulesOutputReference
 ```
@@ -1750,7 +1750,7 @@ func InternalValue() DataAwsccDatabrewRulesetRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetRulesSubstitutionMapList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.NewDataAwsccDatabrewRulesetRulesSubstitutionMapList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewRulesetRulesSubstitutionMapList
 ```
@@ -1899,7 +1899,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetRulesSubstitutionMapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.NewDataAwsccDatabrewRulesetRulesSubstitutionMapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewRulesetRulesSubstitutionMapOutputReference
 ```
@@ -2188,7 +2188,7 @@ func InternalValue() DataAwsccDatabrewRulesetRulesSubstitutionMap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetRulesThresholdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.NewDataAwsccDatabrewRulesetRulesThresholdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewRulesetRulesThresholdOutputReference
 ```
@@ -2470,7 +2470,7 @@ func InternalValue() DataAwsccDatabrewRulesetRulesThreshold
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.NewDataAwsccDatabrewRulesetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewRulesetTagsList
 ```
@@ -2619,7 +2619,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRuleset.DataAwsccDatabrewRulesetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewruleset"
 
 dataawsccdatabrewruleset.NewDataAwsccDatabrewRulesetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewRulesetTagsOutputReference
 ```

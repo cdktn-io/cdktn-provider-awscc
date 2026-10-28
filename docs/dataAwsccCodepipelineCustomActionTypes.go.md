@@ -4,12 +4,12 @@
 
 ### DataAwsccCodepipelineCustomActionTypes <a name="DataAwsccCodepipelineCustomActionTypes" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionTypes.DataAwsccCodepipelineCustomActionTypes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codepipeline_custom_action_types awscc_codepipeline_custom_action_types}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codepipeline_custom_action_types awscc_codepipeline_custom_action_types}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionTypes.DataAwsccCodepipelineCustomActionTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontypes"
 
 dataawscccodepipelinecustomactiontypes.NewDataAwsccCodepipelineCustomActionTypes(scope Construct, id *string, config DataAwsccCodepipelineCustomActionTypesConfig) DataAwsccCodepipelineCustomActionTypes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionTypes.DataAwsccCodepipelineCustomActionTypes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontypes"
 
 dataawscccodepipelinecustomactiontypes.DataAwsccCodepipelineCustomActionTypes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionTypes.DataAwsccCodepipelineCustomActionTypes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontypes"
 
 dataawscccodepipelinecustomactiontypes.DataAwsccCodepipelineCustomActionTypes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodepipelinecustomactiontypes.DataAwsccCodepipelineCustomActionTypes_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionTypes.DataAwsccCodepipelineCustomActionTypes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontypes"
 
 dataawscccodepipelinecustomactiontypes.DataAwsccCodepipelineCustomActionTypes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodepipelinecustomactiontypes.DataAwsccCodepipelineCustomActionTypes_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionTypes.DataAwsccCodepipelineCustomActionTypes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontypes"
 
 dataawscccodepipelinecustomactiontypes.DataAwsccCodepipelineCustomActionTypes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodepipelineCusto
 
 The id of the existing DataAwsccCodepipelineCustomActionTypes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codepipeline_custom_action_types#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codepipeline_custom_action_types#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionTypes.DataAwsccCodepipelineCustomActionTypesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontypes"
 
 &dataawscccodepipelinecustomactiontypes.DataAwsccCodepipelineCustomActionTypesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### Ec2IpPoolRouteTableAssociation <a name="Ec2IpPoolRouteTableAssociation" id="@cdktn/provider-awscc.ec2IpPoolRouteTableAssociation.Ec2IpPoolRouteTableAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IpPoolRouteTableAssociation.Ec2IpPoolRouteTableAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ippoolroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ippoolroutetableassociation"
 
 ec2ippoolroutetableassociation.NewEc2IpPoolRouteTableAssociation(scope Construct, id *string, config Ec2IpPoolRouteTableAssociationConfig) Ec2IpPoolRouteTableAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2IpPoolRouteTableAssociation.Ec2IpPoolRouteTableAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ippoolroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ippoolroutetableassociation"
 
 ec2ippoolroutetableassociation.Ec2IpPoolRouteTableAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2IpPoolRouteTableAssociation.Ec2IpPoolRouteTableAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ippoolroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ippoolroutetableassociation"
 
 ec2ippoolroutetableassociation.Ec2IpPoolRouteTableAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ec2ippoolroutetableassociation.Ec2IpPoolRouteTableAssociation_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2IpPoolRouteTableAssociation.Ec2IpPoolRouteTableAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ippoolroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ippoolroutetableassociation"
 
 ec2ippoolroutetableassociation.Ec2IpPoolRouteTableAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2ippoolroutetableassociation.Ec2IpPoolRouteTableAssociation_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2IpPoolRouteTableAssociation.Ec2IpPoolRouteTableAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ippoolroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ippoolroutetableassociation"
 
 ec2ippoolroutetableassociation.Ec2IpPoolRouteTableAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2IpPoolRouteTableAssocia
 
 The id of the existing Ec2IpPoolRouteTableAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ip_pool_route_table_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ip_pool_route_table_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -755,7 +755,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2IpPoolRouteTableAssociation.Ec2IpPoolRouteTableAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ippoolroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ippoolroutetableassociation"
 
 &ec2ippoolroutetableassociation.Ec2IpPoolRouteTableAssociationConfig {
 	Connection: interface{},
@@ -866,7 +866,7 @@ PublicIpv4Pool *string
 
 The ID of the public IPv4 pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ip_pool_route_table_association#public_ipv_4_pool Ec2IpPoolRouteTableAssociation#public_ipv_4_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ip_pool_route_table_association#public_ipv_4_pool Ec2IpPoolRouteTableAssociation#public_ipv_4_pool}
 
 ---
 
@@ -880,7 +880,7 @@ RouteTableId *string
 
 The ID of the route table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ip_pool_route_table_association#route_table_id Ec2IpPoolRouteTableAssociation#route_table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ip_pool_route_table_association#route_table_id Ec2IpPoolRouteTableAssociation#route_table_id}
 
 ---
 

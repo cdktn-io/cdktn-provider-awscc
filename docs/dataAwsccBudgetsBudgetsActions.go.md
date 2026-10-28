@@ -4,12 +4,12 @@
 
 ### DataAwsccBudgetsBudgetsActions <a name="DataAwsccBudgetsBudgetsActions" id="@cdktn/provider-awscc.dataAwsccBudgetsBudgetsActions.DataAwsccBudgetsBudgetsActions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/budgets_budgets_actions awscc_budgets_budgets_actions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/budgets_budgets_actions awscc_budgets_budgets_actions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBudgetsBudgetsActions.DataAwsccBudgetsBudgetsActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbudgetsbudgetsactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbudgetsbudgetsactions"
 
 dataawsccbudgetsbudgetsactions.NewDataAwsccBudgetsBudgetsActions(scope Construct, id *string, config DataAwsccBudgetsBudgetsActionsConfig) DataAwsccBudgetsBudgetsActions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBudgetsBudgetsActions.DataAwsccBudgetsBudgetsActions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbudgetsbudgetsactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbudgetsbudgetsactions"
 
 dataawsccbudgetsbudgetsactions.DataAwsccBudgetsBudgetsActions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBudgetsBudgetsActions.DataAwsccBudgetsBudgetsActions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbudgetsbudgetsactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbudgetsbudgetsactions"
 
 dataawsccbudgetsbudgetsactions.DataAwsccBudgetsBudgetsActions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbudgetsbudgetsactions.DataAwsccBudgetsBudgetsActions_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBudgetsBudgetsActions.DataAwsccBudgetsBudgetsActions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbudgetsbudgetsactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbudgetsbudgetsactions"
 
 dataawsccbudgetsbudgetsactions.DataAwsccBudgetsBudgetsActions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbudgetsbudgetsactions.DataAwsccBudgetsBudgetsActions_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBudgetsBudgetsActions.DataAwsccBudgetsBudgetsActions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbudgetsbudgetsactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbudgetsbudgetsactions"
 
 dataawsccbudgetsbudgetsactions.DataAwsccBudgetsBudgetsActions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBudgetsBudgetsAct
 
 The id of the existing DataAwsccBudgetsBudgetsActions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/budgets_budgets_actions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/budgets_budgets_actions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBudgetsBudgetsActions.DataAwsccBudgetsBudgetsActionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbudgetsbudgetsactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbudgetsbudgetsactions"
 
 &dataawsccbudgetsbudgetsactions.DataAwsccBudgetsBudgetsActionsConfig {
 	Connection: interface{},

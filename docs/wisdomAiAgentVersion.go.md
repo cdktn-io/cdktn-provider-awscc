@@ -4,12 +4,12 @@
 
 ### WisdomAiAgentVersion <a name="WisdomAiAgentVersion" id="@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiagentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiagentversion"
 
 wisdomaiagentversion.NewWisdomAiAgentVersion(scope Construct, id *string, config WisdomAiAgentVersionConfig) WisdomAiAgentVersion
 ```
@@ -407,7 +407,7 @@ func ResetModifiedTimeSeconds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiagentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiagentversion"
 
 wisdomaiagentversion.WisdomAiAgentVersion_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiagentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiagentversion"
 
 wisdomaiagentversion.WisdomAiAgentVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ wisdomaiagentversion.WisdomAiAgentVersion_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiagentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiagentversion"
 
 wisdomaiagentversion.WisdomAiAgentVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ wisdomaiagentversion.WisdomAiAgentVersion_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiagentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiagentversion"
 
 wisdomaiagentversion.WisdomAiAgentVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the WisdomAiAgentVersion to im
 
 The id of the existing WisdomAiAgentVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -817,7 +817,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiagentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiagentversion"
 
 &wisdomaiagentversion.WisdomAiAgentVersionConfig {
 	Connection: interface{},
@@ -844,9 +844,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiagentversion"
 | <code><a href="#@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersionConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersionConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersionConfig.property.aiAgentId">AiAgentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent_version#ai_agent_id WisdomAiAgentVersion#ai_agent_id}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersionConfig.property.assistantId">AssistantId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent_version#assistant_id WisdomAiAgentVersion#assistant_id}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersionConfig.property.modifiedTimeSeconds">ModifiedTimeSeconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent_version#modified_time_seconds WisdomAiAgentVersion#modified_time_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersionConfig.property.aiAgentId">AiAgentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent_version#ai_agent_id WisdomAiAgentVersion#ai_agent_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersionConfig.property.assistantId">AssistantId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent_version#assistant_id WisdomAiAgentVersion#assistant_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiAgentVersion.WisdomAiAgentVersionConfig.property.modifiedTimeSeconds">ModifiedTimeSeconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent_version#modified_time_seconds WisdomAiAgentVersion#modified_time_seconds}. |
 
 ---
 
@@ -928,7 +928,7 @@ AiAgentId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent_version#ai_agent_id WisdomAiAgentVersion#ai_agent_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent_version#ai_agent_id WisdomAiAgentVersion#ai_agent_id}.
 
 ---
 
@@ -940,7 +940,7 @@ AssistantId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent_version#assistant_id WisdomAiAgentVersion#assistant_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent_version#assistant_id WisdomAiAgentVersion#assistant_id}.
 
 ---
 
@@ -952,7 +952,7 @@ ModifiedTimeSeconds *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent_version#modified_time_seconds WisdomAiAgentVersion#modified_time_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent_version#modified_time_seconds WisdomAiAgentVersion#modified_time_seconds}.
 
 ---
 

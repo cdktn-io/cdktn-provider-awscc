@@ -4,12 +4,12 @@
 
 ### DataAwsccDmsMigrationProjects <a name="DataAwsccDmsMigrationProjects" id="@cdktn/provider-awscc.dataAwsccDmsMigrationProjects.DataAwsccDmsMigrationProjects"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_migration_projects awscc_dms_migration_projects}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_migration_projects awscc_dms_migration_projects}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsMigrationProjects.DataAwsccDmsMigrationProjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsmigrationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsmigrationprojects"
 
 dataawsccdmsmigrationprojects.NewDataAwsccDmsMigrationProjects(scope Construct, id *string, config DataAwsccDmsMigrationProjectsConfig) DataAwsccDmsMigrationProjects
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDmsMigrationProjects.DataAwsccDmsMigrationProjects.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsmigrationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsmigrationprojects"
 
 dataawsccdmsmigrationprojects.DataAwsccDmsMigrationProjects_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDmsMigrationProjects.DataAwsccDmsMigrationProjects.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsmigrationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsmigrationprojects"
 
 dataawsccdmsmigrationprojects.DataAwsccDmsMigrationProjects_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdmsmigrationprojects.DataAwsccDmsMigrationProjects_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDmsMigrationProjects.DataAwsccDmsMigrationProjects.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsmigrationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsmigrationprojects"
 
 dataawsccdmsmigrationprojects.DataAwsccDmsMigrationProjects_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdmsmigrationprojects.DataAwsccDmsMigrationProjects_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDmsMigrationProjects.DataAwsccDmsMigrationProjects.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsmigrationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsmigrationprojects"
 
 dataawsccdmsmigrationprojects.DataAwsccDmsMigrationProjects_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDmsMigrationProje
 
 The id of the existing DataAwsccDmsMigrationProjects that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_migration_projects#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_migration_projects#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDmsMigrationProjects.DataAwsccDmsMigrationProjectsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsmigrationprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsmigrationprojects"
 
 &dataawsccdmsmigrationprojects.DataAwsccDmsMigrationProjectsConfig {
 	Connection: interface{},

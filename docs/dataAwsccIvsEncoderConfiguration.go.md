@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsEncoderConfiguration <a name="DataAwsccIvsEncoderConfiguration" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_encoder_configuration awscc_ivs_encoder_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_encoder_configuration awscc_ivs_encoder_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencoderconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsencoderconfiguration"
 
 dataawsccivsencoderconfiguration.NewDataAwsccIvsEncoderConfiguration(scope Construct, id *string, config DataAwsccIvsEncoderConfigurationConfig) DataAwsccIvsEncoderConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencoderconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsencoderconfiguration"
 
 dataawsccivsencoderconfiguration.DataAwsccIvsEncoderConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencoderconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsencoderconfiguration"
 
 dataawsccivsencoderconfiguration.DataAwsccIvsEncoderConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivsencoderconfiguration.DataAwsccIvsEncoderConfiguration_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencoderconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsencoderconfiguration"
 
 dataawsccivsencoderconfiguration.DataAwsccIvsEncoderConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivsencoderconfiguration.DataAwsccIvsEncoderConfiguration_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencoderconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsencoderconfiguration"
 
 dataawsccivsencoderconfiguration.DataAwsccIvsEncoderConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsEncoderConfigu
 
 The id of the existing DataAwsccIvsEncoderConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_encoder_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_encoder_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencoderconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsencoderconfiguration"
 
 &dataawsccivsencoderconfiguration.DataAwsccIvsEncoderConfigurationConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_encoder_configuration#id DataAwsccIvsEncoderConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_encoder_configuration#id DataAwsccIvsEncoderConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencoderconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsencoderconfiguration"
 
 &dataawsccivsencoderconfiguration.DataAwsccIvsEncoderConfigurationTags {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencodercon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfigurationVideo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencoderconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsencoderconfiguration"
 
 &dataawsccivsencoderconfiguration.DataAwsccIvsEncoderConfigurationVideo {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencodercon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencoderconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsencoderconfiguration"
 
 dataawsccivsencoderconfiguration.NewDataAwsccIvsEncoderConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIvsEncoderConfigurationTagsList
 ```
@@ -929,7 +929,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencoderconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsencoderconfiguration"
 
 dataawsccivsencoderconfiguration.NewDataAwsccIvsEncoderConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIvsEncoderConfigurationTagsOutputReference
 ```
@@ -1218,7 +1218,7 @@ func InternalValue() DataAwsccIvsEncoderConfigurationTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsEncoderConfiguration.DataAwsccIvsEncoderConfigurationVideoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsencoderconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsencoderconfiguration"
 
 dataawsccivsencoderconfiguration.NewDataAwsccIvsEncoderConfigurationVideoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsEncoderConfigurationVideoOutputReference
 ```

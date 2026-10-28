@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueSecurityConfigurations <a name="DataAwsccGlueSecurityConfigurations" id="@cdktn/provider-awscc.dataAwsccGlueSecurityConfigurations.DataAwsccGlueSecurityConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_security_configurations awscc_glue_security_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_security_configurations awscc_glue_security_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueSecurityConfigurations.DataAwsccGlueSecurityConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesecurityconfigurations"
 
 dataawsccgluesecurityconfigurations.NewDataAwsccGlueSecurityConfigurations(scope Construct, id *string, config DataAwsccGlueSecurityConfigurationsConfig) DataAwsccGlueSecurityConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueSecurityConfigurations.DataAwsccGlueSecurityConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesecurityconfigurations"
 
 dataawsccgluesecurityconfigurations.DataAwsccGlueSecurityConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueSecurityConfigurations.DataAwsccGlueSecurityConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesecurityconfigurations"
 
 dataawsccgluesecurityconfigurations.DataAwsccGlueSecurityConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgluesecurityconfigurations.DataAwsccGlueSecurityConfigurations_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueSecurityConfigurations.DataAwsccGlueSecurityConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesecurityconfigurations"
 
 dataawsccgluesecurityconfigurations.DataAwsccGlueSecurityConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgluesecurityconfigurations.DataAwsccGlueSecurityConfigurations_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueSecurityConfigurations.DataAwsccGlueSecurityConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesecurityconfigurations"
 
 dataawsccgluesecurityconfigurations.DataAwsccGlueSecurityConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueSecurityConfi
 
 The id of the existing DataAwsccGlueSecurityConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_security_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_security_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueSecurityConfigurations.DataAwsccGlueSecurityConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesecurityconfigurations"
 
 &dataawsccgluesecurityconfigurations.DataAwsccGlueSecurityConfigurationsConfig {
 	Connection: interface{},

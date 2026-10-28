@@ -4,12 +4,12 @@
 
 ### DataAwsccDatasyncLocationFsxOntaps <a name="DataAwsccDatasyncLocationFsxOntaps" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntaps.DataAwsccDatasyncLocationFsxOntaps"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_ontaps awscc_datasync_location_fsx_ontaps}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_ontaps awscc_datasync_location_fsx_ontaps}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntaps.DataAwsccDatasyncLocationFsxOntaps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontaps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontaps"
 
 dataawsccdatasynclocationfsxontaps.NewDataAwsccDatasyncLocationFsxOntaps(scope Construct, id *string, config DataAwsccDatasyncLocationFsxOntapsConfig) DataAwsccDatasyncLocationFsxOntaps
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntaps.DataAwsccDatasyncLocationFsxOntaps.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontaps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontaps"
 
 dataawsccdatasynclocationfsxontaps.DataAwsccDatasyncLocationFsxOntaps_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntaps.DataAwsccDatasyncLocationFsxOntaps.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontaps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontaps"
 
 dataawsccdatasynclocationfsxontaps.DataAwsccDatasyncLocationFsxOntaps_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatasynclocationfsxontaps.DataAwsccDatasyncLocationFsxOntaps_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntaps.DataAwsccDatasyncLocationFsxOntaps.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontaps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontaps"
 
 dataawsccdatasynclocationfsxontaps.DataAwsccDatasyncLocationFsxOntaps_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatasynclocationfsxontaps.DataAwsccDatasyncLocationFsxOntaps_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntaps.DataAwsccDatasyncLocationFsxOntaps.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontaps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontaps"
 
 dataawsccdatasynclocationfsxontaps.DataAwsccDatasyncLocationFsxOntaps_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationF
 
 The id of the existing DataAwsccDatasyncLocationFsxOntaps that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_ontaps#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_ontaps#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntaps.DataAwsccDatasyncLocationFsxOntapsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontaps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontaps"
 
 &dataawsccdatasynclocationfsxontaps.DataAwsccDatasyncLocationFsxOntapsConfig {
 	Connection: interface{},

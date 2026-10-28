@@ -4,7 +4,7 @@
 
 ### DataAwsccStoragegatewayNfsFileShares <a name="DataAwsccStoragegatewayNfsFileShares" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShares.DataAwsccStoragegatewayNfsFileShares"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/storagegateway_nfs_file_shares awscc_storagegateway_nfs_file_shares}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/storagegateway_nfs_file_shares awscc_storagegateway_nfs_file_shares}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShares.DataAwsccStoragegatewayNfsFileShares.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccStoragegatewayNfs
 
 The id of the existing DataAwsccStoragegatewayNfsFileShares that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/storagegateway_nfs_file_shares#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/storagegateway_nfs_file_shares#import import section} in the documentation of this resource for the id to use
 
 ---
 

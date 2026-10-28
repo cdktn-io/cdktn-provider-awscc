@@ -4,12 +4,12 @@
 
 ### DataAwsccDatabrewRecipes <a name="DataAwsccDatabrewRecipes" id="@cdktn/provider-awscc.dataAwsccDatabrewRecipes.DataAwsccDatabrewRecipes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_recipes awscc_databrew_recipes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_recipes awscc_databrew_recipes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRecipes.DataAwsccDatabrewRecipes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrecipes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewrecipes"
 
 dataawsccdatabrewrecipes.NewDataAwsccDatabrewRecipes(scope Construct, id *string, config DataAwsccDatabrewRecipesConfig) DataAwsccDatabrewRecipes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatabrewRecipes.DataAwsccDatabrewRecipes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrecipes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewrecipes"
 
 dataawsccdatabrewrecipes.DataAwsccDatabrewRecipes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatabrewRecipes.DataAwsccDatabrewRecipes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrecipes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewrecipes"
 
 dataawsccdatabrewrecipes.DataAwsccDatabrewRecipes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatabrewrecipes.DataAwsccDatabrewRecipes_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatabrewRecipes.DataAwsccDatabrewRecipes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrecipes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewrecipes"
 
 dataawsccdatabrewrecipes.DataAwsccDatabrewRecipes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatabrewrecipes.DataAwsccDatabrewRecipes_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatabrewRecipes.DataAwsccDatabrewRecipes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrecipes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewrecipes"
 
 dataawsccdatabrewrecipes.DataAwsccDatabrewRecipes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatabrewRecipes t
 
 The id of the existing DataAwsccDatabrewRecipes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_recipes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_recipes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewRecipes.DataAwsccDatabrewRecipesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrecipes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewrecipes"
 
 &dataawsccdatabrewrecipes.DataAwsccDatabrewRecipesConfig {
 	Connection: interface{},

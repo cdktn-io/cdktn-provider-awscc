@@ -4,12 +4,12 @@
 
 ### SmsvoiceProtectConfiguration <a name="SmsvoiceProtectConfiguration" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.NewSmsvoiceProtectConfiguration(scope Construct, id *string, config SmsvoiceProtectConfigurationConfig) SmsvoiceProtectConfiguration
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.SmsvoiceProtectConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.SmsvoiceProtectConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ smsvoiceprotectconfiguration.SmsvoiceProtectConfiguration_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.SmsvoiceProtectConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ smsvoiceprotectconfiguration.SmsvoiceProtectConfiguration_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.SmsvoiceProtectConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the SmsvoiceProtectConfigurati
 
 The id of the existing SmsvoiceProtectConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -835,7 +835,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 &smsvoiceprotectconfiguration.SmsvoiceProtectConfigurationConfig {
 	Connection: interface{},
@@ -845,7 +845,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfigu
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	CountryRuleSet: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSet,
+	CountryRuleSet: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSet,
 	DeletionProtectionEnabled: interface{},
 	Tags: interface{},
 }
@@ -948,7 +948,7 @@ CountryRuleSet SmsvoiceProtectConfigurationCountryRuleSet
 
 An array of CountryRule containing the rules for the NumberCapability.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#country_rule_set SmsvoiceProtectConfiguration#country_rule_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#country_rule_set SmsvoiceProtectConfiguration#country_rule_set}
 
 ---
 
@@ -964,7 +964,7 @@ When set to true deletion protection is enabled and protect configuration cannot
 
 By default this is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#deletion_protection_enabled SmsvoiceProtectConfiguration#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#deletion_protection_enabled SmsvoiceProtectConfiguration#deletion_protection_enabled}
 
 ---
 
@@ -978,7 +978,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#tags SmsvoiceProtectConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#tags SmsvoiceProtectConfiguration#tags}
 
 ---
 
@@ -987,7 +987,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 &smsvoiceprotectconfiguration.SmsvoiceProtectConfigurationCountryRuleSet {
 	Mms: interface{},
@@ -1000,9 +1000,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfigu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSet.property.mms">Mms</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#mms SmsvoiceProtectConfiguration#mms}. |
-| <code><a href="#@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSet.property.sms">Sms</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#sms SmsvoiceProtectConfiguration#sms}. |
-| <code><a href="#@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSet.property.voice">Voice</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#voice SmsvoiceProtectConfiguration#voice}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSet.property.mms">Mms</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#mms SmsvoiceProtectConfiguration#mms}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSet.property.sms">Sms</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#sms SmsvoiceProtectConfiguration#sms}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSet.property.voice">Voice</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#voice SmsvoiceProtectConfiguration#voice}. |
 
 ---
 
@@ -1014,7 +1014,7 @@ Mms interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#mms SmsvoiceProtectConfiguration#mms}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#mms SmsvoiceProtectConfiguration#mms}.
 
 ---
 
@@ -1026,7 +1026,7 @@ Sms interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#sms SmsvoiceProtectConfiguration#sms}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#sms SmsvoiceProtectConfiguration#sms}.
 
 ---
 
@@ -1038,7 +1038,7 @@ Voice interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#voice SmsvoiceProtectConfiguration#voice}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#voice SmsvoiceProtectConfiguration#voice}.
 
 ---
 
@@ -1047,7 +1047,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSetMms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 &smsvoiceprotectconfiguration.SmsvoiceProtectConfigurationCountryRuleSetMms {
 	CountryCode: *string,
@@ -1074,7 +1074,7 @@ CountryCode *string
 
 The two-letter ISO country code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
 
 ---
 
@@ -1088,7 +1088,7 @@ ProtectStatus *string
 
 The types of protection that can be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
 
 ---
 
@@ -1097,7 +1097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSetSms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 &smsvoiceprotectconfiguration.SmsvoiceProtectConfigurationCountryRuleSetSms {
 	CountryCode: *string,
@@ -1124,7 +1124,7 @@ CountryCode *string
 
 The two-letter ISO country code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
 
 ---
 
@@ -1138,7 +1138,7 @@ ProtectStatus *string
 
 The types of protection that can be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
 
 ---
 
@@ -1147,7 +1147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSetVoice.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 &smsvoiceprotectconfiguration.SmsvoiceProtectConfigurationCountryRuleSetVoice {
 	CountryCode: *string,
@@ -1174,7 +1174,7 @@ CountryCode *string
 
 The two-letter ISO country code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#country_code SmsvoiceProtectConfiguration#country_code}
 
 ---
 
@@ -1188,7 +1188,7 @@ ProtectStatus *string
 
 The types of protection that can be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#protect_status SmsvoiceProtectConfiguration#protect_status}
 
 ---
 
@@ -1197,7 +1197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 &smsvoiceprotectconfiguration.SmsvoiceProtectConfigurationTags {
 	Key: *string,
@@ -1226,7 +1226,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#key SmsvoiceProtectConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#key SmsvoiceProtectConfiguration#key}
 
 ---
 
@@ -1242,7 +1242,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration#value SmsvoiceProtectConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration#value SmsvoiceProtectConfiguration#value}
 
 ---
 
@@ -1253,7 +1253,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSetMmsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.NewSmsvoiceProtectConfigurationCountryRuleSetMmsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoiceProtectConfigurationCountryRuleSetMmsList
 ```
@@ -1413,7 +1413,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSetMmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.NewSmsvoiceProtectConfigurationCountryRuleSetMmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoiceProtectConfigurationCountryRuleSetMmsOutputReference
 ```
@@ -1738,7 +1738,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.NewSmsvoiceProtectConfigurationCountryRuleSetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoiceProtectConfigurationCountryRuleSetOutputReference
 ```
@@ -2113,7 +2113,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSetSmsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.NewSmsvoiceProtectConfigurationCountryRuleSetSmsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoiceProtectConfigurationCountryRuleSetSmsList
 ```
@@ -2273,7 +2273,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSetSmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.NewSmsvoiceProtectConfigurationCountryRuleSetSmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoiceProtectConfigurationCountryRuleSetSmsOutputReference
 ```
@@ -2598,7 +2598,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSetVoiceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.NewSmsvoiceProtectConfigurationCountryRuleSetVoiceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoiceProtectConfigurationCountryRuleSetVoiceList
 ```
@@ -2758,7 +2758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationCountryRuleSetVoiceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.NewSmsvoiceProtectConfigurationCountryRuleSetVoiceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoiceProtectConfigurationCountryRuleSetVoiceOutputReference
 ```
@@ -3083,7 +3083,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.NewSmsvoiceProtectConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoiceProtectConfigurationTagsList
 ```
@@ -3243,7 +3243,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceProtectConfiguration.SmsvoiceProtectConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration"
 
 smsvoiceprotectconfiguration.NewSmsvoiceProtectConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoiceProtectConfigurationTagsOutputReference
 ```

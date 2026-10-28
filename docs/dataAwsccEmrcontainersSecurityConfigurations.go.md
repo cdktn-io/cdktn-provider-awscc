@@ -4,12 +4,12 @@
 
 ### DataAwsccEmrcontainersSecurityConfigurations <a name="DataAwsccEmrcontainersSecurityConfigurations" id="@cdktn/provider-awscc.dataAwsccEmrcontainersSecurityConfigurations.DataAwsccEmrcontainersSecurityConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emrcontainers_security_configurations awscc_emrcontainers_security_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emrcontainers_security_configurations awscc_emrcontainers_security_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrcontainersSecurityConfigurations.DataAwsccEmrcontainersSecurityConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainerssecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainerssecurityconfigurations"
 
 dataawsccemrcontainerssecurityconfigurations.NewDataAwsccEmrcontainersSecurityConfigurations(scope Construct, id *string, config DataAwsccEmrcontainersSecurityConfigurationsConfig) DataAwsccEmrcontainersSecurityConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEmrcontainersSecurityConfigurations.DataAwsccEmrcontainersSecurityConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainerssecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainerssecurityconfigurations"
 
 dataawsccemrcontainerssecurityconfigurations.DataAwsccEmrcontainersSecurityConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEmrcontainersSecurityConfigurations.DataAwsccEmrcontainersSecurityConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainerssecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainerssecurityconfigurations"
 
 dataawsccemrcontainerssecurityconfigurations.DataAwsccEmrcontainersSecurityConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccemrcontainerssecurityconfigurations.DataAwsccEmrcontainersSecurityConfi
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEmrcontainersSecurityConfigurations.DataAwsccEmrcontainersSecurityConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainerssecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainerssecurityconfigurations"
 
 dataawsccemrcontainerssecurityconfigurations.DataAwsccEmrcontainersSecurityConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccemrcontainerssecurityconfigurations.DataAwsccEmrcontainersSecurityConfi
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEmrcontainersSecurityConfigurations.DataAwsccEmrcontainersSecurityConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainerssecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainerssecurityconfigurations"
 
 dataawsccemrcontainerssecurityconfigurations.DataAwsccEmrcontainersSecurityConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEmrcontainersSecu
 
 The id of the existing DataAwsccEmrcontainersSecurityConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emrcontainers_security_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emrcontainers_security_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrcontainersSecurityConfigurations.DataAwsccEmrcontainersSecurityConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrcontainerssecurityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrcontainerssecurityconfigurations"
 
 &dataawsccemrcontainerssecurityconfigurations.DataAwsccEmrcontainersSecurityConfigurationsConfig {
 	Connection: interface{},

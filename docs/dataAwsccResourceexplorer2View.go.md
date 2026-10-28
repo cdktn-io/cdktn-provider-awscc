@@ -4,12 +4,12 @@
 
 ### DataAwsccResourceexplorer2View <a name="DataAwsccResourceexplorer2View" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2View"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourceexplorer2_view awscc_resourceexplorer2_view}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourceexplorer2_view awscc_resourceexplorer2_view}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2View.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view"
 
 dataawsccresourceexplorer2view.NewDataAwsccResourceexplorer2View(scope Construct, id *string, config DataAwsccResourceexplorer2ViewConfig) DataAwsccResourceexplorer2View
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2View.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view"
 
 dataawsccresourceexplorer2view.DataAwsccResourceexplorer2View_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2View.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view"
 
 dataawsccresourceexplorer2view.DataAwsccResourceexplorer2View_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccresourceexplorer2view.DataAwsccResourceexplorer2View_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2View.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view"
 
 dataawsccresourceexplorer2view.DataAwsccResourceexplorer2View_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccresourceexplorer2view.DataAwsccResourceexplorer2View_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2View.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view"
 
 dataawsccresourceexplorer2view.DataAwsccResourceexplorer2View_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResourceexplorer2
 
 The id of the existing DataAwsccResourceexplorer2View that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourceexplorer2_view#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourceexplorer2_view#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2ViewConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view"
 
 &dataawsccresourceexplorer2view.DataAwsccResourceexplorer2ViewConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourceexplorer2_view#id DataAwsccResourceexplorer2View#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourceexplorer2_view#id DataAwsccResourceexplorer2View#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2ViewFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view"
 
 &dataawsccresourceexplorer2view.DataAwsccResourceexplorer2ViewFilters {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2ViewIncludedProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view"
 
 &dataawsccresourceexplorer2view.DataAwsccResourceexplorer2ViewIncludedProperties {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2ViewFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view"
 
 dataawsccresourceexplorer2view.NewDataAwsccResourceexplorer2ViewFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccResourceexplorer2ViewFiltersOutputReference
 ```
@@ -1062,7 +1062,7 @@ func InternalValue() DataAwsccResourceexplorer2ViewFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2ViewIncludedPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view"
 
 dataawsccresourceexplorer2view.NewDataAwsccResourceexplorer2ViewIncludedPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccResourceexplorer2ViewIncludedPropertiesList
 ```
@@ -1211,7 +1211,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2View.DataAwsccResourceexplorer2ViewIncludedPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view"
 
 dataawsccresourceexplorer2view.NewDataAwsccResourceexplorer2ViewIncludedPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccResourceexplorer2ViewIncludedPropertiesOutputReference
 ```

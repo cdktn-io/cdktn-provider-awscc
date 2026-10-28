@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerEndpointConfigs <a name="DataAwsccSagemakerEndpointConfigs" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpointConfigs.DataAwsccSagemakerEndpointConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_endpoint_configs awscc_sagemaker_endpoint_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_endpoint_configs awscc_sagemaker_endpoint_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpointConfigs.DataAwsccSagemakerEndpointConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpointconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpointconfigs"
 
 dataawsccsagemakerendpointconfigs.NewDataAwsccSagemakerEndpointConfigs(scope Construct, id *string, config DataAwsccSagemakerEndpointConfigsConfig) DataAwsccSagemakerEndpointConfigs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpointConfigs.DataAwsccSagemakerEndpointConfigs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpointconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpointconfigs"
 
 dataawsccsagemakerendpointconfigs.DataAwsccSagemakerEndpointConfigs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpointConfigs.DataAwsccSagemakerEndpointConfigs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpointconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpointconfigs"
 
 dataawsccsagemakerendpointconfigs.DataAwsccSagemakerEndpointConfigs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerendpointconfigs.DataAwsccSagemakerEndpointConfigs_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpointConfigs.DataAwsccSagemakerEndpointConfigs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpointconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpointconfigs"
 
 dataawsccsagemakerendpointconfigs.DataAwsccSagemakerEndpointConfigs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerendpointconfigs.DataAwsccSagemakerEndpointConfigs_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpointConfigs.DataAwsccSagemakerEndpointConfigs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpointconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpointconfigs"
 
 dataawsccsagemakerendpointconfigs.DataAwsccSagemakerEndpointConfigs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerEndpoint
 
 The id of the existing DataAwsccSagemakerEndpointConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_endpoint_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_endpoint_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpointConfigs.DataAwsccSagemakerEndpointConfigsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpointconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpointconfigs"
 
 &dataawsccsagemakerendpointconfigs.DataAwsccSagemakerEndpointConfigsConfig {
 	Connection: interface{},

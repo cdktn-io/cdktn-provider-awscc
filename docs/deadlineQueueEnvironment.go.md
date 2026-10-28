@@ -4,12 +4,12 @@
 
 ### DeadlineQueueEnvironment <a name="DeadlineQueueEnvironment" id="@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment awscc_deadline_queue_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment awscc_deadline_queue_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinequeueenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinequeueenvironment"
 
 deadlinequeueenvironment.NewDeadlineQueueEnvironment(scope Construct, id *string, config DeadlineQueueEnvironmentConfig) DeadlineQueueEnvironment
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinequeueenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinequeueenvironment"
 
 deadlinequeueenvironment.DeadlineQueueEnvironment_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinequeueenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinequeueenvironment"
 
 deadlinequeueenvironment.DeadlineQueueEnvironment_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ deadlinequeueenvironment.DeadlineQueueEnvironment_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinequeueenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinequeueenvironment"
 
 deadlinequeueenvironment.DeadlineQueueEnvironment_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ deadlinequeueenvironment.DeadlineQueueEnvironment_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinequeueenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinequeueenvironment"
 
 deadlinequeueenvironment.DeadlineQueueEnvironment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the DeadlineQueueEnvironment t
 
 The id of the existing DeadlineQueueEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -832,7 +832,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinequeueenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinequeueenvironment"
 
 &deadlinequeueenvironment.DeadlineQueueEnvironmentConfig {
 	Connection: interface{},
@@ -861,11 +861,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinequeueenvironme
 | <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.farmId">FarmId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment#farm_id DeadlineQueueEnvironment#farm_id}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.priority">Priority</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment#priority DeadlineQueueEnvironment#priority}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.queueId">QueueId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment#queue_id DeadlineQueueEnvironment#queue_id}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.template">Template</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment#template DeadlineQueueEnvironment#template}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.templateType">TemplateType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment#template_type DeadlineQueueEnvironment#template_type}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.farmId">FarmId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment#farm_id DeadlineQueueEnvironment#farm_id}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.priority">Priority</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment#priority DeadlineQueueEnvironment#priority}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.queueId">QueueId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment#queue_id DeadlineQueueEnvironment#queue_id}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.template">Template</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment#template DeadlineQueueEnvironment#template}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineQueueEnvironment.DeadlineQueueEnvironmentConfig.property.templateType">TemplateType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment#template_type DeadlineQueueEnvironment#template_type}. |
 
 ---
 
@@ -947,7 +947,7 @@ FarmId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment#farm_id DeadlineQueueEnvironment#farm_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment#farm_id DeadlineQueueEnvironment#farm_id}.
 
 ---
 
@@ -959,7 +959,7 @@ Priority *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment#priority DeadlineQueueEnvironment#priority}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment#priority DeadlineQueueEnvironment#priority}.
 
 ---
 
@@ -971,7 +971,7 @@ QueueId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment#queue_id DeadlineQueueEnvironment#queue_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment#queue_id DeadlineQueueEnvironment#queue_id}.
 
 ---
 
@@ -983,7 +983,7 @@ Template *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment#template DeadlineQueueEnvironment#template}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment#template DeadlineQueueEnvironment#template}.
 
 ---
 
@@ -995,7 +995,7 @@ TemplateType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment#template_type DeadlineQueueEnvironment#template_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment#template_type DeadlineQueueEnvironment#template_type}.
 
 ---
 

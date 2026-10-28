@@ -4,12 +4,12 @@
 
 ### DataAwsccRtbfabricLinkRoutingRule <a name="DataAwsccRtbfabricLinkRoutingRule" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 dataawsccrtbfabriclinkroutingrule.NewDataAwsccRtbfabricLinkRoutingRule(scope Construct, id *string, config DataAwsccRtbfabricLinkRoutingRuleConfig) DataAwsccRtbfabricLinkRoutingRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 dataawsccrtbfabriclinkroutingrule.DataAwsccRtbfabricLinkRoutingRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 dataawsccrtbfabriclinkroutingrule.DataAwsccRtbfabricLinkRoutingRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrtbfabriclinkroutingrule.DataAwsccRtbfabricLinkRoutingRule_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 dataawsccrtbfabriclinkroutingrule.DataAwsccRtbfabricLinkRoutingRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrtbfabriclinkroutingrule.DataAwsccRtbfabricLinkRoutingRule_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 dataawsccrtbfabriclinkroutingrule.DataAwsccRtbfabricLinkRoutingRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRtbfabricLinkRout
 
 The id of the existing DataAwsccRtbfabricLinkRoutingRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_link_routing_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_link_routing_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRuleConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 &dataawsccrtbfabriclinkroutingrule.DataAwsccRtbfabricLinkRoutingRuleConditions {
 
@@ -710,7 +710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRuleConditionsQueryStringEquals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 &dataawsccrtbfabriclinkroutingrule.DataAwsccRtbfabricLinkRoutingRuleConditionsQueryStringEquals {
 
@@ -723,7 +723,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 &dataawsccrtbfabriclinkroutingrule.DataAwsccRtbfabricLinkRoutingRuleConfig {
 	Connection: interface{},
@@ -832,7 +832,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_link_routing_rule#id DataAwsccRtbfabricLinkRoutingRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_link_routing_rule#id DataAwsccRtbfabricLinkRoutingRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -844,7 +844,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 &dataawsccrtbfabriclinkroutingrule.DataAwsccRtbfabricLinkRoutingRuleTags {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclink
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRuleConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 dataawsccrtbfabriclinkroutingrule.NewDataAwsccRtbfabricLinkRoutingRuleConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkRoutingRuleConditionsOutputReference
 ```
@@ -1174,7 +1174,7 @@ func InternalValue() DataAwsccRtbfabricLinkRoutingRuleConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRuleConditionsQueryStringEqualsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 dataawsccrtbfabriclinkroutingrule.NewDataAwsccRtbfabricLinkRoutingRuleConditionsQueryStringEqualsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricLinkRoutingRuleConditionsQueryStringEqualsOutputReference
 ```
@@ -1445,7 +1445,7 @@ func InternalValue() DataAwsccRtbfabricLinkRoutingRuleConditionsQueryStringEqual
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 dataawsccrtbfabriclinkroutingrule.NewDataAwsccRtbfabricLinkRoutingRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRtbfabricLinkRoutingRuleTagsList
 ```
@@ -1594,7 +1594,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricLinkRoutingRule.DataAwsccRtbfabricLinkRoutingRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule"
 
 dataawsccrtbfabriclinkroutingrule.NewDataAwsccRtbfabricLinkRoutingRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRtbfabricLinkRoutingRuleTagsOutputReference
 ```

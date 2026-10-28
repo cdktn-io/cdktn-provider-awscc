@@ -4,12 +4,12 @@
 
 ### DataAwsccDeadlineMonitors <a name="DataAwsccDeadlineMonitors" id="@cdktn/provider-awscc.dataAwsccDeadlineMonitors.DataAwsccDeadlineMonitors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_monitors awscc_deadline_monitors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_monitors awscc_deadline_monitors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineMonitors.DataAwsccDeadlineMonitors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemonitors"
 
 dataawsccdeadlinemonitors.NewDataAwsccDeadlineMonitors(scope Construct, id *string, config DataAwsccDeadlineMonitorsConfig) DataAwsccDeadlineMonitors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDeadlineMonitors.DataAwsccDeadlineMonitors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemonitors"
 
 dataawsccdeadlinemonitors.DataAwsccDeadlineMonitors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDeadlineMonitors.DataAwsccDeadlineMonitors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemonitors"
 
 dataawsccdeadlinemonitors.DataAwsccDeadlineMonitors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdeadlinemonitors.DataAwsccDeadlineMonitors_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDeadlineMonitors.DataAwsccDeadlineMonitors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemonitors"
 
 dataawsccdeadlinemonitors.DataAwsccDeadlineMonitors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdeadlinemonitors.DataAwsccDeadlineMonitors_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDeadlineMonitors.DataAwsccDeadlineMonitors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemonitors"
 
 dataawsccdeadlinemonitors.DataAwsccDeadlineMonitors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDeadlineMonitors 
 
 The id of the existing DataAwsccDeadlineMonitors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_monitors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_monitors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineMonitors.DataAwsccDeadlineMonitorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemonitors"
 
 &dataawsccdeadlinemonitors.DataAwsccDeadlineMonitorsConfig {
 	Connection: interface{},

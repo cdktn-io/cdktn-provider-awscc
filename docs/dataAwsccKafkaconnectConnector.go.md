@@ -4,12 +4,12 @@
 
 ### DataAwsccKafkaconnectConnector <a name="DataAwsccKafkaconnectConnector" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kafkaconnect_connector awscc_kafkaconnect_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kafkaconnect_connector awscc_kafkaconnect_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnector(scope Construct, id *string, config DataAwsccKafkaconnectConnectorConfig) DataAwsccKafkaconnectConnector
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnector_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnector_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnector.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnector_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnector_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKafkaconnectConne
 
 The id of the existing DataAwsccKafkaconnectConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kafkaconnect_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kafkaconnect_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorCapacity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorCapacity {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorCapacityAutoScaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorCapacityAutoScaling {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorCapacityAutoScalingScaleInPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorCapacityAutoScalingScaleInPolicy {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorCapacityAutoScalingScaleOutPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorCapacityAutoScalingScaleOutPolicy {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorCapacityProvisionedCapacity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorCapacityProvisionedCapacity {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorConfig {
 	Connection: interface{},
@@ -926,7 +926,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kafkaconnect_connector#id DataAwsccKafkaconnectConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kafkaconnect_connector#id DataAwsccKafkaconnectConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -938,7 +938,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorKafkaCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorKafkaCluster {
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaCluster {
 
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaClusterVpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaClusterVpc {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorKafkaClusterClientAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorKafkaClusterClientAuthentication {
 
@@ -990,7 +990,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorKafkaClusterEncryptionInTransit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorKafkaClusterEncryptionInTransit {
 
@@ -1003,7 +1003,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorLogDelivery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorLogDelivery {
 
@@ -1016,7 +1016,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDelivery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDelivery {
 
@@ -1029,7 +1029,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs {
 
@@ -1042,7 +1042,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehose {
 
@@ -1055,7 +1055,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3 {
 
@@ -1068,7 +1068,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorPlugins.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorPlugins {
 
@@ -1081,7 +1081,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorPluginsCustomPlugin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorPluginsCustomPlugin {
 
@@ -1094,7 +1094,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorTags {
 
@@ -1107,7 +1107,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorWorkerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 &dataawscckafkaconnectconnector.DataAwsccKafkaconnectConnectorWorkerConfiguration {
 
@@ -1122,7 +1122,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorCapacityAutoScalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorCapacityAutoScalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorCapacityAutoScalingOutputReference
 ```
@@ -1437,7 +1437,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorCapacityAutoScaling
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorCapacityAutoScalingScaleInPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorCapacityAutoScalingScaleInPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorCapacityAutoScalingScaleInPolicyOutputReference
 ```
@@ -1697,7 +1697,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorCapacityAutoScalingScaleInPol
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorCapacityAutoScalingScaleOutPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorCapacityAutoScalingScaleOutPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorCapacityAutoScalingScaleOutPolicyOutputReference
 ```
@@ -1957,7 +1957,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorCapacityAutoScalingScaleOutPo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorCapacityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorCapacityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorCapacityOutputReference
 ```
@@ -2228,7 +2228,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorCapacity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorCapacityProvisionedCapacityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorCapacityProvisionedCapacityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorCapacityProvisionedCapacityOutputReference
 ```
@@ -2499,7 +2499,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorCapacityProvisionedCapacity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaClusterOutputReference
 ```
@@ -2770,7 +2770,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaCluste
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference
 ```
@@ -3041,7 +3041,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorKafkaClusterApacheKafkaCluste
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorKafkaClusterClientAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorKafkaClusterClientAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorKafkaClusterClientAuthenticationOutputReference
 ```
@@ -3301,7 +3301,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorKafkaClusterClientAuthenticat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorKafkaClusterEncryptionInTransitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorKafkaClusterEncryptionInTransitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorKafkaClusterEncryptionInTransitOutputReference
 ```
@@ -3561,7 +3561,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorKafkaClusterEncryptionInTrans
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorKafkaClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorKafkaClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorKafkaClusterOutputReference
 ```
@@ -3821,7 +3821,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorKafkaCluster
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorLogDeliveryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorLogDeliveryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorLogDeliveryOutputReference
 ```
@@ -4081,7 +4081,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorLogDelivery
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutputReference
 ```
@@ -4352,7 +4352,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputReference
 ```
@@ -4623,7 +4623,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryOutputReference
 ```
@@ -4905,7 +4905,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDelivery
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference
 ```
@@ -5187,7 +5187,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorLogDeliveryWorkerLogDeliveryS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorPluginsCustomPluginOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorPluginsCustomPluginOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorPluginsCustomPluginOutputReference
 ```
@@ -5458,7 +5458,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorPluginsCustomPlugin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorPluginsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorPluginsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKafkaconnectConnectorPluginsList
 ```
@@ -5607,7 +5607,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorPluginsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorPluginsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKafkaconnectConnectorPluginsOutputReference
 ```
@@ -5885,7 +5885,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorPlugins
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKafkaconnectConnectorTagsList
 ```
@@ -6034,7 +6034,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKafkaconnectConnectorTagsOutputReference
 ```
@@ -6323,7 +6323,7 @@ func InternalValue() DataAwsccKafkaconnectConnectorTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnector.DataAwsccKafkaconnectConnectorWorkerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnector"
 
 dataawscckafkaconnectconnector.NewDataAwsccKafkaconnectConnectorWorkerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKafkaconnectConnectorWorkerConfigurationOutputReference
 ```

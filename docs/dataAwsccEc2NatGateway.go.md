@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2NatGateway <a name="DataAwsccEc2NatGateway" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_nat_gateway awscc_ec2_nat_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_nat_gateway awscc_ec2_nat_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 dataawsccec2natgateway.NewDataAwsccEc2NatGateway(scope Construct, id *string, config DataAwsccEc2NatGatewayConfig) DataAwsccEc2NatGateway
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 dataawsccec2natgateway.DataAwsccEc2NatGateway_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 dataawsccec2natgateway.DataAwsccEc2NatGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2natgateway.DataAwsccEc2NatGateway_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGateway.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 dataawsccec2natgateway.DataAwsccEc2NatGateway_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2natgateway.DataAwsccEc2NatGateway_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 dataawsccec2natgateway.DataAwsccEc2NatGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2NatGateway to 
 
 The id of the existing DataAwsccEc2NatGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_nat_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_nat_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGatewayAvailabilityZoneAddresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 &dataawsccec2natgateway.DataAwsccEc2NatGatewayAvailabilityZoneAddresses {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 &dataawsccec2natgateway.DataAwsccEc2NatGatewayConfig {
 	Connection: interface{},
@@ -896,7 +896,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_nat_gateway#id DataAwsccEc2NatGateway#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_nat_gateway#id DataAwsccEc2NatGateway#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -908,7 +908,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 &dataawsccec2natgateway.DataAwsccEc2NatGatewayTags {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGatewayAvailabilityZoneAddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 dataawsccec2natgateway.NewDataAwsccEc2NatGatewayAvailabilityZoneAddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2NatGatewayAvailabilityZoneAddressesList
 ```
@@ -1072,7 +1072,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGatewayAvailabilityZoneAddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 dataawsccec2natgateway.NewDataAwsccEc2NatGatewayAvailabilityZoneAddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2NatGatewayAvailabilityZoneAddressesOutputReference
 ```
@@ -1372,7 +1372,7 @@ func InternalValue() DataAwsccEc2NatGatewayAvailabilityZoneAddresses
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 dataawsccec2natgateway.NewDataAwsccEc2NatGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2NatGatewayTagsList
 ```
@@ -1521,7 +1521,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NatGateway.DataAwsccEc2NatGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway"
 
 dataawsccec2natgateway.NewDataAwsccEc2NatGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2NatGatewayTagsOutputReference
 ```

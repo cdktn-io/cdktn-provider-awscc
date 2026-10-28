@@ -4,12 +4,12 @@
 
 ### OmicsAnnotationStore <a name="OmicsAnnotationStore" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store awscc_omics_annotation_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store awscc_omics_annotation_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 omicsannotationstore.NewOmicsAnnotationStore(scope Construct, id *string, config OmicsAnnotationStoreConfig) OmicsAnnotationStore
 ```
@@ -474,7 +474,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 omicsannotationstore.OmicsAnnotationStore_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 omicsannotationstore.OmicsAnnotationStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ omicsannotationstore.OmicsAnnotationStore_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStore.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 omicsannotationstore.OmicsAnnotationStore_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ omicsannotationstore.OmicsAnnotationStore_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 omicsannotationstore.OmicsAnnotationStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the OmicsAnnotationStore to im
 
 The id of the existing OmicsAnnotationStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1005,7 +1005,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 &omicsannotationstore.OmicsAnnotationStoreConfig {
 	Connection: interface{},
@@ -1018,9 +1018,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
 	Name: *string,
 	StoreFormat: *string,
 	Description: *string,
-	Reference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.omicsAnnotationStore.OmicsAnnotationStoreReference,
-	SseConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.omicsAnnotationStore.OmicsAnnotationStoreSseConfig,
-	StoreOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptions,
+	Reference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.omicsAnnotationStore.OmicsAnnotationStoreReference,
+	SseConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.omicsAnnotationStore.OmicsAnnotationStoreSseConfig,
+	StoreOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.omicsAnnotationStore.OmicsAnnotationStoreStoreOptions,
 	Tags: *map[string]*string,
 }
 ```
@@ -1036,13 +1036,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
 | <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#name OmicsAnnotationStore#name}. |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.storeFormat">StoreFormat</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#store_format OmicsAnnotationStore#store_format}. |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#description OmicsAnnotationStore#description}. |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.reference">Reference</a></code> | <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreReference">OmicsAnnotationStoreReference</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#reference OmicsAnnotationStore#reference}. |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.sseConfig">SseConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreSseConfig">OmicsAnnotationStoreSseConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#sse_config OmicsAnnotationStore#sse_config}. |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.storeOptions">StoreOptions</a></code> | <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptions">OmicsAnnotationStoreStoreOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#store_options OmicsAnnotationStore#store_options}. |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#tags OmicsAnnotationStore#tags}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#name OmicsAnnotationStore#name}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.storeFormat">StoreFormat</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#store_format OmicsAnnotationStore#store_format}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#description OmicsAnnotationStore#description}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.reference">Reference</a></code> | <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreReference">OmicsAnnotationStoreReference</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#reference OmicsAnnotationStore#reference}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.sseConfig">SseConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreSseConfig">OmicsAnnotationStoreSseConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#sse_config OmicsAnnotationStore#sse_config}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.storeOptions">StoreOptions</a></code> | <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptions">OmicsAnnotationStoreStoreOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#store_options OmicsAnnotationStore#store_options}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#tags OmicsAnnotationStore#tags}. |
 
 ---
 
@@ -1124,7 +1124,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#name OmicsAnnotationStore#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#name OmicsAnnotationStore#name}.
 
 ---
 
@@ -1136,7 +1136,7 @@ StoreFormat *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#store_format OmicsAnnotationStore#store_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#store_format OmicsAnnotationStore#store_format}.
 
 ---
 
@@ -1148,7 +1148,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#description OmicsAnnotationStore#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#description OmicsAnnotationStore#description}.
 
 ---
 
@@ -1160,7 +1160,7 @@ Reference OmicsAnnotationStoreReference
 
 - *Type:* <a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreReference">OmicsAnnotationStoreReference</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#reference OmicsAnnotationStore#reference}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#reference OmicsAnnotationStore#reference}.
 
 ---
 
@@ -1172,7 +1172,7 @@ SseConfig OmicsAnnotationStoreSseConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreSseConfig">OmicsAnnotationStoreSseConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#sse_config OmicsAnnotationStore#sse_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#sse_config OmicsAnnotationStore#sse_config}.
 
 ---
 
@@ -1184,7 +1184,7 @@ StoreOptions OmicsAnnotationStoreStoreOptions
 
 - *Type:* <a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptions">OmicsAnnotationStoreStoreOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#store_options OmicsAnnotationStore#store_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#store_options OmicsAnnotationStore#store_options}.
 
 ---
 
@@ -1196,7 +1196,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#tags OmicsAnnotationStore#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#tags OmicsAnnotationStore#tags}.
 
 ---
 
@@ -1205,7 +1205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 &omicsannotationstore.OmicsAnnotationStoreReference {
 	ReferenceArn: *string,
@@ -1216,7 +1216,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreReference.property.referenceArn">ReferenceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#reference_arn OmicsAnnotationStore#reference_arn}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreReference.property.referenceArn">ReferenceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#reference_arn OmicsAnnotationStore#reference_arn}. |
 
 ---
 
@@ -1228,7 +1228,7 @@ ReferenceArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#reference_arn OmicsAnnotationStore#reference_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#reference_arn OmicsAnnotationStore#reference_arn}.
 
 ---
 
@@ -1237,7 +1237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreSseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 &omicsannotationstore.OmicsAnnotationStoreSseConfig {
 	KeyArn: *string,
@@ -1249,8 +1249,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreSseConfig.property.keyArn">KeyArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#key_arn OmicsAnnotationStore#key_arn}. |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreSseConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#type OmicsAnnotationStore#type}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreSseConfig.property.keyArn">KeyArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#key_arn OmicsAnnotationStore#key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreSseConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#type OmicsAnnotationStore#type}. |
 
 ---
 
@@ -1262,7 +1262,7 @@ KeyArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#key_arn OmicsAnnotationStore#key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#key_arn OmicsAnnotationStore#key_arn}.
 
 ---
 
@@ -1274,7 +1274,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#type OmicsAnnotationStore#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#type OmicsAnnotationStore#type}.
 
 ---
 
@@ -1283,10 +1283,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 &omicsannotationstore.OmicsAnnotationStoreStoreOptions {
-	TsvStoreOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions,
+	TsvStoreOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions,
 }
 ```
 
@@ -1294,7 +1294,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptions.property.tsvStoreOptions">TsvStoreOptions</a></code> | <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions">OmicsAnnotationStoreStoreOptionsTsvStoreOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#tsv_store_options OmicsAnnotationStore#tsv_store_options}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptions.property.tsvStoreOptions">TsvStoreOptions</a></code> | <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions">OmicsAnnotationStoreStoreOptionsTsvStoreOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#tsv_store_options OmicsAnnotationStore#tsv_store_options}. |
 
 ---
 
@@ -1306,7 +1306,7 @@ TsvStoreOptions OmicsAnnotationStoreStoreOptionsTsvStoreOptions
 
 - *Type:* <a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions">OmicsAnnotationStoreStoreOptionsTsvStoreOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#tsv_store_options OmicsAnnotationStore#tsv_store_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#tsv_store_options OmicsAnnotationStore#tsv_store_options}.
 
 ---
 
@@ -1315,7 +1315,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 &omicsannotationstore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions {
 	AnnotationType: *string,
@@ -1328,9 +1328,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions.property.annotationType">AnnotationType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#annotation_type OmicsAnnotationStore#annotation_type}. |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions.property.formatToHeader">FormatToHeader</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#format_to_header OmicsAnnotationStore#format_to_header}. |
-| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions.property.schema">Schema</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#schema OmicsAnnotationStore#schema}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions.property.annotationType">AnnotationType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#annotation_type OmicsAnnotationStore#annotation_type}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions.property.formatToHeader">FormatToHeader</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#format_to_header OmicsAnnotationStore#format_to_header}. |
+| <code><a href="#@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptions.property.schema">Schema</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#schema OmicsAnnotationStore#schema}. |
 
 ---
 
@@ -1342,7 +1342,7 @@ AnnotationType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#annotation_type OmicsAnnotationStore#annotation_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#annotation_type OmicsAnnotationStore#annotation_type}.
 
 ---
 
@@ -1354,7 +1354,7 @@ FormatToHeader *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#format_to_header OmicsAnnotationStore#format_to_header}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#format_to_header OmicsAnnotationStore#format_to_header}.
 
 ---
 
@@ -1366,7 +1366,7 @@ Schema interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store#schema OmicsAnnotationStore#schema}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store#schema OmicsAnnotationStore#schema}.
 
 ---
 
@@ -1377,7 +1377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 omicsannotationstore.NewOmicsAnnotationStoreReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OmicsAnnotationStoreReferenceOutputReference
 ```
@@ -1655,7 +1655,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreSseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 omicsannotationstore.NewOmicsAnnotationStoreSseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OmicsAnnotationStoreSseConfigOutputReference
 ```
@@ -1962,7 +1962,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 omicsannotationstore.NewOmicsAnnotationStoreStoreOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OmicsAnnotationStoreStoreOptionsOutputReference
 ```
@@ -2253,7 +2253,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsAnnotationStore.OmicsAnnotationStoreStoreOptionsTsvStoreOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore"
 
 omicsannotationstore.NewOmicsAnnotationStoreStoreOptionsTsvStoreOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OmicsAnnotationStoreStoreOptionsTsvStoreOptionsOutputReference
 ```

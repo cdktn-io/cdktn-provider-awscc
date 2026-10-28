@@ -4,12 +4,12 @@
 
 ### ConnectApprovedOrigin <a name="ConnectApprovedOrigin" id="@cdktn/provider-awscc.connectApprovedOrigin.ConnectApprovedOrigin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_approved_origin awscc_connect_approved_origin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_approved_origin awscc_connect_approved_origin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectApprovedOrigin.ConnectApprovedOrigin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectapprovedorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectapprovedorigin"
 
 connectapprovedorigin.NewConnectApprovedOrigin(scope Construct, id *string, config ConnectApprovedOriginConfig) ConnectApprovedOrigin
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectApprovedOrigin.ConnectApprovedOrigin.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectapprovedorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectapprovedorigin"
 
 connectapprovedorigin.ConnectApprovedOrigin_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectApprovedOrigin.ConnectApprovedOrigin.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectapprovedorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectapprovedorigin"
 
 connectapprovedorigin.ConnectApprovedOrigin_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ connectapprovedorigin.ConnectApprovedOrigin_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectApprovedOrigin.ConnectApprovedOrigin.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectapprovedorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectapprovedorigin"
 
 connectapprovedorigin.ConnectApprovedOrigin_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ connectapprovedorigin.ConnectApprovedOrigin_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectApprovedOrigin.ConnectApprovedOrigin.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectapprovedorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectapprovedorigin"
 
 connectapprovedorigin.ConnectApprovedOrigin_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ConnectApprovedOrigin to i
 
 The id of the existing ConnectApprovedOrigin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_approved_origin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_approved_origin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectApprovedOrigin.ConnectApprovedOriginConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectapprovedorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectapprovedorigin"
 
 &connectapprovedorigin.ConnectApprovedOriginConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ InstanceId *string
 
 Amazon Connect instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_approved_origin#instance_id ConnectApprovedOrigin#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_approved_origin#instance_id ConnectApprovedOrigin#instance_id}
 
 ---
 
@@ -869,7 +869,7 @@ Origin *string
 
 Domain name to be added to the allowlist of instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_approved_origin#origin ConnectApprovedOrigin#origin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_approved_origin#origin ConnectApprovedOrigin#origin}
 
 ---
 

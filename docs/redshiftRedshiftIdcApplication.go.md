@@ -4,12 +4,12 @@
 
 ### RedshiftRedshiftIdcApplication <a name="RedshiftRedshiftIdcApplication" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplication(scope Construct, id *string, config RedshiftRedshiftIdcApplicationConfig) RedshiftRedshiftIdcApplication
 ```
@@ -481,7 +481,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.RedshiftRedshiftIdcApplication_IsConstruct(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.RedshiftRedshiftIdcApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ redshiftredshiftidcapplication.RedshiftRedshiftIdcApplication_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.RedshiftRedshiftIdcApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ redshiftredshiftidcapplication.RedshiftRedshiftIdcApplication_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.RedshiftRedshiftIdcApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -570,7 +570,7 @@ The construct id used in the generated config for the RedshiftRedshiftIdcApplica
 
 The id of the existing RedshiftRedshiftIdcApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1034,7 +1034,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationAuthorizedTokenIssuerListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 &redshiftredshiftidcapplication.RedshiftRedshiftIdcApplicationAuthorizedTokenIssuerListStruct {
 	AuthorizedAudiencesList: *[]*string,
@@ -1061,7 +1061,7 @@ AuthorizedAudiencesList *[]*string
 
 The list of audiences for the authorized token issuer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#authorized_audiences_list RedshiftRedshiftIdcApplication#authorized_audiences_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#authorized_audiences_list RedshiftRedshiftIdcApplication#authorized_audiences_list}
 
 ---
 
@@ -1075,7 +1075,7 @@ TrustedTokenIssuerArn *string
 
 The ARN for the authorized token issuer for integrating Amazon Redshift with IDC Identity Center.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#trusted_token_issuer_arn RedshiftRedshiftIdcApplication#trusted_token_issuer_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#trusted_token_issuer_arn RedshiftRedshiftIdcApplication#trusted_token_issuer_arn}
 
 ---
 
@@ -1084,7 +1084,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 &redshiftredshiftidcapplication.RedshiftRedshiftIdcApplicationConfig {
 	Connection: interface{},
@@ -1213,7 +1213,7 @@ The IAM role ARN for the Amazon Redshift IAM Identity Center application instanc
 
 It has the required permissions to be assumed and invoke the IDC Identity Center API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#iam_role_arn RedshiftRedshiftIdcApplication#iam_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#iam_role_arn RedshiftRedshiftIdcApplication#iam_role_arn}
 
 ---
 
@@ -1227,7 +1227,7 @@ IdcDisplayName *string
 
 The display name for the Amazon Redshift IAM Identity Center application instance. It appears in the console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#idc_display_name RedshiftRedshiftIdcApplication#idc_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#idc_display_name RedshiftRedshiftIdcApplication#idc_display_name}
 
 ---
 
@@ -1241,7 +1241,7 @@ IdcInstanceArn *string
 
 The Amazon resource name (ARN) of the IAM Identity Center instance where Amazon Redshift creates a new managed application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#idc_instance_arn RedshiftRedshiftIdcApplication#idc_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#idc_instance_arn RedshiftRedshiftIdcApplication#idc_instance_arn}
 
 ---
 
@@ -1255,7 +1255,7 @@ RedshiftIdcApplicationName *string
 
 The name of the Redshift application in IAM Identity Center.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#redshift_idc_application_name RedshiftRedshiftIdcApplication#redshift_idc_application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#redshift_idc_application_name RedshiftRedshiftIdcApplication#redshift_idc_application_name}
 
 ---
 
@@ -1269,7 +1269,7 @@ ApplicationType *string
 
 The type of application being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#application_type RedshiftRedshiftIdcApplication#application_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#application_type RedshiftRedshiftIdcApplication#application_type}
 
 ---
 
@@ -1283,7 +1283,7 @@ AuthorizedTokenIssuerList interface{}
 
 The token issuer list for the Amazon Redshift IAM Identity Center application instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#authorized_token_issuer_list RedshiftRedshiftIdcApplication#authorized_token_issuer_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#authorized_token_issuer_list RedshiftRedshiftIdcApplication#authorized_token_issuer_list}
 
 ---
 
@@ -1299,7 +1299,7 @@ The namespace for the Amazon Redshift IAM Identity Center application instance.
 
 It determines which managed application verifies the connection token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#identity_namespace RedshiftRedshiftIdcApplication#identity_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#identity_namespace RedshiftRedshiftIdcApplication#identity_namespace}
 
 ---
 
@@ -1313,7 +1313,7 @@ ServiceIntegrations interface{}
 
 A collection of service integrations for the Redshift IAM Identity Center application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#service_integrations RedshiftRedshiftIdcApplication#service_integrations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#service_integrations RedshiftRedshiftIdcApplication#service_integrations}
 
 ---
 
@@ -1327,7 +1327,7 @@ SsoTagKeys *[]*string
 
 A list of tag keys that Redshift Identity Center applications copy to IAM Identity Center.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#sso_tag_keys RedshiftRedshiftIdcApplication#sso_tag_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#sso_tag_keys RedshiftRedshiftIdcApplication#sso_tag_keys}
 
 ---
 
@@ -1341,7 +1341,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#tags RedshiftRedshiftIdcApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#tags RedshiftRedshiftIdcApplication#tags}
 
 ---
 
@@ -1350,7 +1350,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 &redshiftredshiftidcapplication.RedshiftRedshiftIdcApplicationServiceIntegrations {
 	LakeFormation: interface{},
@@ -1379,7 +1379,7 @@ LakeFormation interface{}
 
 A list of scopes set up for Lake Formation integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#lake_formation RedshiftRedshiftIdcApplication#lake_formation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#lake_formation RedshiftRedshiftIdcApplication#lake_formation}
 
 ---
 
@@ -1393,7 +1393,7 @@ Redshift interface{}
 
 A list of scopes set up for Amazon Redshift integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#redshift RedshiftRedshiftIdcApplication#redshift}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#redshift RedshiftRedshiftIdcApplication#redshift}
 
 ---
 
@@ -1407,7 +1407,7 @@ S3AccessGrants interface{}
 
 A list of scopes set up for S3 Access Grants integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#s3_access_grants RedshiftRedshiftIdcApplication#s3_access_grants}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#s3_access_grants RedshiftRedshiftIdcApplication#s3_access_grants}
 
 ---
 
@@ -1416,10 +1416,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 &redshiftredshiftidcapplication.RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormation {
-	LakeFormationQuery: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationLakeFormationQuery,
+	LakeFormationQuery: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationLakeFormationQuery,
 }
 ```
 
@@ -1441,7 +1441,7 @@ LakeFormationQuery RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormatio
 
 The Lake Formation scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#lake_formation_query RedshiftRedshiftIdcApplication#lake_formation_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#lake_formation_query RedshiftRedshiftIdcApplication#lake_formation_query}
 
 ---
 
@@ -1450,7 +1450,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationLakeFormationQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 &redshiftredshiftidcapplication.RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationLakeFormationQuery {
 	Authorization: *string,
@@ -1475,7 +1475,7 @@ Authorization *string
 
 Determines whether the query scope is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#authorization RedshiftRedshiftIdcApplication#authorization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#authorization RedshiftRedshiftIdcApplication#authorization}
 
 ---
 
@@ -1484,10 +1484,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsRedshift.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 &redshiftredshiftidcapplication.RedshiftRedshiftIdcApplicationServiceIntegrationsRedshift {
-	Connect: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftConnect,
+	Connect: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftConnect,
 }
 ```
 
@@ -1509,7 +1509,7 @@ Connect RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftConnect
 
 The Amazon Redshift connect integration scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#connect RedshiftRedshiftIdcApplication#connect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#connect RedshiftRedshiftIdcApplication#connect}
 
 ---
 
@@ -1518,7 +1518,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftConnect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 &redshiftredshiftidcapplication.RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftConnect {
 	Authorization: *string,
@@ -1543,7 +1543,7 @@ Authorization *string
 
 Determines whether the Amazon Redshift connect integration is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#authorization RedshiftRedshiftIdcApplication#authorization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#authorization RedshiftRedshiftIdcApplication#authorization}
 
 ---
 
@@ -1552,10 +1552,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrants.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 &redshiftredshiftidcapplication.RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrants {
-	ReadWriteAccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsReadWriteAccess,
+	ReadWriteAccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsReadWriteAccess,
 }
 ```
 
@@ -1577,7 +1577,7 @@ ReadWriteAccess RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsR
 
 The S3 Access Grants scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#read_write_access RedshiftRedshiftIdcApplication#read_write_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#read_write_access RedshiftRedshiftIdcApplication#read_write_access}
 
 ---
 
@@ -1586,7 +1586,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsReadWriteAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 &redshiftredshiftidcapplication.RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsReadWriteAccess {
 	Authorization: *string,
@@ -1611,7 +1611,7 @@ Authorization *string
 
 Determines whether the read/write scope is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#authorization RedshiftRedshiftIdcApplication#authorization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#authorization RedshiftRedshiftIdcApplication#authorization}
 
 ---
 
@@ -1620,7 +1620,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 &redshiftredshiftidcapplication.RedshiftRedshiftIdcApplicationTags {
 	Key: *string,
@@ -1647,7 +1647,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#key RedshiftRedshiftIdcApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#key RedshiftRedshiftIdcApplication#key}
 
 ---
 
@@ -1661,7 +1661,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application#value RedshiftRedshiftIdcApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application#value RedshiftRedshiftIdcApplication#value}
 
 ---
 
@@ -1672,7 +1672,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationAuthorizedTokenIssuerListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationAuthorizedTokenIssuerListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftRedshiftIdcApplicationAuthorizedTokenIssuerListStructList
 ```
@@ -1832,7 +1832,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationAuthorizedTokenIssuerListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationAuthorizedTokenIssuerListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftRedshiftIdcApplicationAuthorizedTokenIssuerListStructOutputReference
 ```
@@ -2157,7 +2157,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationLakeFormationQueryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationLakeFormationQueryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationLakeFormationQueryOutputReference
 ```
@@ -2435,7 +2435,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationList
 ```
@@ -2595,7 +2595,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationOutputReference
 ```
@@ -2904,7 +2904,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationServiceIntegrationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftRedshiftIdcApplicationServiceIntegrationsList
 ```
@@ -3064,7 +3064,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationServiceIntegrationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftRedshiftIdcApplicationServiceIntegrationsOutputReference
 ```
@@ -3457,7 +3457,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftConnectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftConnectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftConnectOutputReference
 ```
@@ -3735,7 +3735,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftList
 ```
@@ -3895,7 +3895,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftOutputReference
 ```
@@ -4204,7 +4204,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsList
 ```
@@ -4364,7 +4364,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsOutputReference
 ```
@@ -4673,7 +4673,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsReadWriteAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsReadWriteAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RedshiftRedshiftIdcApplicationServiceIntegrationsS3AccessGrantsReadWriteAccessOutputReference
 ```
@@ -4951,7 +4951,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftRedshiftIdcApplicationTagsList
 ```
@@ -5111,7 +5111,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftRedshiftIdcApplication.RedshiftRedshiftIdcApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication"
 
 redshiftredshiftidcapplication.NewRedshiftRedshiftIdcApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftRedshiftIdcApplicationTagsOutputReference
 ```

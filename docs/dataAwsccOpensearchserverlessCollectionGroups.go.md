@@ -4,12 +4,12 @@
 
 ### DataAwsccOpensearchserverlessCollectionGroups <a name="DataAwsccOpensearchserverlessCollectionGroups" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollectionGroups.DataAwsccOpensearchserverlessCollectionGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchserverless_collection_groups awscc_opensearchserverless_collection_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchserverless_collection_groups awscc_opensearchserverless_collection_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollectionGroups.DataAwsccOpensearchserverlessCollectionGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollectiongroups"
 
 dataawsccopensearchserverlesscollectiongroups.NewDataAwsccOpensearchserverlessCollectionGroups(scope Construct, id *string, config DataAwsccOpensearchserverlessCollectionGroupsConfig) DataAwsccOpensearchserverlessCollectionGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollectionGroups.DataAwsccOpensearchserverlessCollectionGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollectiongroups"
 
 dataawsccopensearchserverlesscollectiongroups.DataAwsccOpensearchserverlessCollectionGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollectionGroups.DataAwsccOpensearchserverlessCollectionGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollectiongroups"
 
 dataawsccopensearchserverlesscollectiongroups.DataAwsccOpensearchserverlessCollectionGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccopensearchserverlesscollectiongroups.DataAwsccOpensearchserverlessColle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollectionGroups.DataAwsccOpensearchserverlessCollectionGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollectiongroups"
 
 dataawsccopensearchserverlesscollectiongroups.DataAwsccOpensearchserverlessCollectionGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccopensearchserverlesscollectiongroups.DataAwsccOpensearchserverlessColle
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollectionGroups.DataAwsccOpensearchserverlessCollectionGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollectiongroups"
 
 dataawsccopensearchserverlesscollectiongroups.DataAwsccOpensearchserverlessCollectionGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOpensearchserverl
 
 The id of the existing DataAwsccOpensearchserverlessCollectionGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchserverless_collection_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchserverless_collection_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollectionGroups.DataAwsccOpensearchserverlessCollectionGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollectiongroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollectiongroups"
 
 &dataawsccopensearchserverlesscollectiongroups.DataAwsccOpensearchserverlessCollectionGroupsConfig {
 	Connection: interface{},

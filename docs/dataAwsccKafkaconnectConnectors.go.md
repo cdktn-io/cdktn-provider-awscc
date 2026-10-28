@@ -4,12 +4,12 @@
 
 ### DataAwsccKafkaconnectConnectors <a name="DataAwsccKafkaconnectConnectors" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnectors.DataAwsccKafkaconnectConnectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kafkaconnect_connectors awscc_kafkaconnect_connectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kafkaconnect_connectors awscc_kafkaconnect_connectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnectors.DataAwsccKafkaconnectConnectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnectors"
 
 dataawscckafkaconnectconnectors.NewDataAwsccKafkaconnectConnectors(scope Construct, id *string, config DataAwsccKafkaconnectConnectorsConfig) DataAwsccKafkaconnectConnectors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnectors.DataAwsccKafkaconnectConnectors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnectors"
 
 dataawscckafkaconnectconnectors.DataAwsccKafkaconnectConnectors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnectors.DataAwsccKafkaconnectConnectors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnectors"
 
 dataawscckafkaconnectconnectors.DataAwsccKafkaconnectConnectors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckafkaconnectconnectors.DataAwsccKafkaconnectConnectors_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnectors.DataAwsccKafkaconnectConnectors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnectors"
 
 dataawscckafkaconnectconnectors.DataAwsccKafkaconnectConnectors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckafkaconnectconnectors.DataAwsccKafkaconnectConnectors_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnectors.DataAwsccKafkaconnectConnectors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnectors"
 
 dataawscckafkaconnectconnectors.DataAwsccKafkaconnectConnectors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKafkaconnectConne
 
 The id of the existing DataAwsccKafkaconnectConnectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kafkaconnect_connectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kafkaconnect_connectors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectConnectors.DataAwsccKafkaconnectConnectorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectconnectors"
 
 &dataawscckafkaconnectconnectors.DataAwsccKafkaconnectConnectorsConfig {
 	Connection: interface{},

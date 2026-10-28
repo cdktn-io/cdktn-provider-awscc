@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayClientCertificates <a name="DataAwsccApigatewayClientCertificates" id="@cdktn/provider-awscc.dataAwsccApigatewayClientCertificates.DataAwsccApigatewayClientCertificates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_client_certificates awscc_apigateway_client_certificates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_client_certificates awscc_apigateway_client_certificates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayClientCertificates.DataAwsccApigatewayClientCertificates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayclientcertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayclientcertificates"
 
 dataawsccapigatewayclientcertificates.NewDataAwsccApigatewayClientCertificates(scope Construct, id *string, config DataAwsccApigatewayClientCertificatesConfig) DataAwsccApigatewayClientCertificates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayClientCertificates.DataAwsccApigatewayClientCertificates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayclientcertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayclientcertificates"
 
 dataawsccapigatewayclientcertificates.DataAwsccApigatewayClientCertificates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayClientCertificates.DataAwsccApigatewayClientCertificates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayclientcertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayclientcertificates"
 
 dataawsccapigatewayclientcertificates.DataAwsccApigatewayClientCertificates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewayclientcertificates.DataAwsccApigatewayClientCertificates_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayClientCertificates.DataAwsccApigatewayClientCertificates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayclientcertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayclientcertificates"
 
 dataawsccapigatewayclientcertificates.DataAwsccApigatewayClientCertificates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewayclientcertificates.DataAwsccApigatewayClientCertificates_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayClientCertificates.DataAwsccApigatewayClientCertificates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayclientcertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayclientcertificates"
 
 dataawsccapigatewayclientcertificates.DataAwsccApigatewayClientCertificates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayClientC
 
 The id of the existing DataAwsccApigatewayClientCertificates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_client_certificates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_client_certificates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayClientCertificates.DataAwsccApigatewayClientCertificatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayclientcertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayclientcertificates"
 
 &dataawsccapigatewayclientcertificates.DataAwsccApigatewayClientCertificatesConfig {
 	Connection: interface{},

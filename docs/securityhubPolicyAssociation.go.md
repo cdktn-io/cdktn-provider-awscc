@@ -4,12 +4,12 @@
 
 ### SecurityhubPolicyAssociation <a name="SecurityhubPolicyAssociation" id="@cdktn/provider-awscc.securityhubPolicyAssociation.SecurityhubPolicyAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_policy_association awscc_securityhub_policy_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_policy_association awscc_securityhub_policy_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubPolicyAssociation.SecurityhubPolicyAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubpolicyassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubpolicyassociation"
 
 securityhubpolicyassociation.NewSecurityhubPolicyAssociation(scope Construct, id *string, config SecurityhubPolicyAssociationConfig) SecurityhubPolicyAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securityhubPolicyAssociation.SecurityhubPolicyAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubpolicyassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubpolicyassociation"
 
 securityhubpolicyassociation.SecurityhubPolicyAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securityhubPolicyAssociation.SecurityhubPolicyAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubpolicyassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubpolicyassociation"
 
 securityhubpolicyassociation.SecurityhubPolicyAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ securityhubpolicyassociation.SecurityhubPolicyAssociation_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securityhubPolicyAssociation.SecurityhubPolicyAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubpolicyassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubpolicyassociation"
 
 securityhubpolicyassociation.SecurityhubPolicyAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ securityhubpolicyassociation.SecurityhubPolicyAssociation_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securityhubPolicyAssociation.SecurityhubPolicyAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubpolicyassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubpolicyassociation"
 
 securityhubpolicyassociation.SecurityhubPolicyAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SecurityhubPolicyAssociati
 
 The id of the existing SecurityhubPolicyAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_policy_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_policy_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -821,7 +821,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubPolicyAssociation.SecurityhubPolicyAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubpolicyassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubpolicyassociation"
 
 &securityhubpolicyassociation.SecurityhubPolicyAssociationConfig {
 	Connection: interface{},
@@ -934,7 +934,7 @@ ConfigurationPolicyId *string
 
 The universally unique identifier (UUID) of the configuration policy or a value of SELF_MANAGED_SECURITY_HUB for a self-managed configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_policy_association#configuration_policy_id SecurityhubPolicyAssociation#configuration_policy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_policy_association#configuration_policy_id SecurityhubPolicyAssociation#configuration_policy_id}
 
 ---
 
@@ -948,7 +948,7 @@ TargetId *string
 
 The identifier of the target account, organizational unit, or the root.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_policy_association#target_id SecurityhubPolicyAssociation#target_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_policy_association#target_id SecurityhubPolicyAssociation#target_id}
 
 ---
 
@@ -962,7 +962,7 @@ TargetType *string
 
 Indicates whether the target is an AWS account, organizational unit, or the organization root.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_policy_association#target_type SecurityhubPolicyAssociation#target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_policy_association#target_type SecurityhubPolicyAssociation#target_type}
 
 ---
 

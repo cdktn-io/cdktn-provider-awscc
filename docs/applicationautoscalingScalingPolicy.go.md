@@ -4,12 +4,12 @@
 
 ### ApplicationautoscalingScalingPolicy <a name="ApplicationautoscalingScalingPolicy" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy awscc_applicationautoscaling_scaling_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy awscc_applicationautoscaling_scaling_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicy(scope Construct, id *string, config ApplicationautoscalingScalingPolicyConfig) ApplicationautoscalingScalingPolicy
 ```
@@ -488,7 +488,7 @@ func ResetTargetTrackingScalingPolicyConfiguration()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicy_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicy_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the ApplicationautoscalingScal
 
 The id of the existing ApplicationautoscalingScalingPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -997,7 +997,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyConfig {
 	Connection: interface{},
@@ -1009,13 +1009,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscaling
 	Provisioners: *[]interface{},
 	PolicyName: *string,
 	PolicyType: *string,
-	PredictiveScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfiguration,
+	PredictiveScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfiguration,
 	ResourceId: *string,
 	ScalableDimension: *string,
 	ScalingTargetId: *string,
 	ServiceNamespace: *string,
-	StepScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyStepScalingPolicyConfiguration,
-	TargetTrackingScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfiguration,
+	StepScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyStepScalingPolicyConfiguration,
+	TargetTrackingScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfiguration,
 }
 ```
 
@@ -1124,7 +1124,7 @@ The name of the scaling policy.
 
 Updates to the name of a target tracking scaling policy are not supported, unless you also update the metric used for scaling. To change only a target tracking scaling policy's name, first delete the policy by removing the existing `AWS::ApplicationAutoScaling::ScalingPolicy` resource from the template and updating the stack. Then, recreate the resource with the same settings and a different name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#policy_name ApplicationautoscalingScalingPolicy#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#policy_name ApplicationautoscalingScalingPolicy#policy_name}
 
 ---
 
@@ -1143,7 +1143,7 @@ The following policy types are supported:
 `StepScaling`—Not supported for DynamoDB, Amazon Comprehend, Lambda, Amazon Keyspaces, Amazon MSK, Amazon ElastiCache, or Neptune.
 `PredictiveScaling`—Only supported for Amazon ECS
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#policy_type ApplicationautoscalingScalingPolicy#policy_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#policy_type ApplicationautoscalingScalingPolicy#policy_type}
 
 ---
 
@@ -1157,7 +1157,7 @@ PredictiveScalingPolicyConfiguration ApplicationautoscalingScalingPolicyPredicti
 
 The predictive scaling policy configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#predictive_scaling_policy_configuration ApplicationautoscalingScalingPolicy#predictive_scaling_policy_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#predictive_scaling_policy_configuration ApplicationautoscalingScalingPolicy#predictive_scaling_policy_configuration}
 
 ---
 
@@ -1194,7 +1194,7 @@ This string consists of the resource type and unique identifier.
 * SageMaker inference component - The resource type is `inference-component` and the unique identifier is the resource ID. Example: `inference-component/my-inference-component`.
 * Pool of WorkSpaces - The resource type is `workspacespool` and the unique identifier is the pool ID. Example: `workspacespool/wspool-123456`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#resource_id ApplicationautoscalingScalingPolicy#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#resource_id ApplicationautoscalingScalingPolicy#resource_id}
 
 ---
 
@@ -1235,7 +1235,7 @@ This string consists of the service namespace, resource type, and scaling proper
 * `sagemaker:inference-component:DesiredCopyCount` - The number of copies across an endpoint for a SageMaker inference component.
 * `workspaces:workspacespool:DesiredUserSessions` - The number of user sessions for the WorkSpaces in the pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#scalable_dimension ApplicationautoscalingScalingPolicy#scalable_dimension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#scalable_dimension ApplicationautoscalingScalingPolicy#scalable_dimension}
 
 ---
 
@@ -1252,7 +1252,7 @@ The CloudFormation-generated ID of an Application Auto Scaling scalable target.
 For more information about the ID, see the Return Value section of the `AWS::ApplicationAutoScaling::ScalableTarget` resource.
 You must specify either the `ScalingTargetId` property, or the `ResourceId`, `ScalableDimension`, and `ServiceNamespace` properties, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#scaling_target_id ApplicationautoscalingScalingPolicy#scaling_target_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#scaling_target_id ApplicationautoscalingScalingPolicy#scaling_target_id}
 
 ---
 
@@ -1266,7 +1266,7 @@ ServiceNamespace *string
 
 The namespace of the AWS service that provides the resource, or a ``custom-resource``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#service_namespace ApplicationautoscalingScalingPolicy#service_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#service_namespace ApplicationautoscalingScalingPolicy#service_namespace}
 
 ---
 
@@ -1280,7 +1280,7 @@ StepScalingPolicyConfiguration ApplicationautoscalingScalingPolicyStepScalingPol
 
 A step scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#step_scaling_policy_configuration ApplicationautoscalingScalingPolicy#step_scaling_policy_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#step_scaling_policy_configuration ApplicationautoscalingScalingPolicy#step_scaling_policy_configuration}
 
 ---
 
@@ -1294,7 +1294,7 @@ TargetTrackingScalingPolicyConfiguration ApplicationautoscalingScalingPolicyTarg
 
 A target tracking scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#target_tracking_scaling_policy_configuration ApplicationautoscalingScalingPolicy#target_tracking_scaling_policy_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#target_tracking_scaling_policy_configuration ApplicationautoscalingScalingPolicy#target_tracking_scaling_policy_configuration}
 
 ---
 
@@ -1303,7 +1303,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfiguration {
 	MaxCapacityBreachBehavior: *string,
@@ -1338,7 +1338,7 @@ Defines the behavior that should be applied if the forecast capacity approaches 
 
 Defaults to `HonorMaxCapacity` if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#max_capacity_breach_behavior ApplicationautoscalingScalingPolicy#max_capacity_breach_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#max_capacity_breach_behavior ApplicationautoscalingScalingPolicy#max_capacity_breach_behavior}
 
 ---
 
@@ -1355,7 +1355,7 @@ The size of the capacity buffer to use when the forecast capacity is close to or
 The value is specified as a percentage relative to the forecast capacity. For example, if the buffer is 10, this means a 10 percent buffer, such that if the forecast capacity is 50, and the maximum capacity is 40, then the effective maximum capacity is 55.
 Required if the `MaxCapacityBreachBehavior` property is set to `IncreaseMaxCapacity`, and cannot be used otherwise.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#max_capacity_buffer ApplicationautoscalingScalingPolicy#max_capacity_buffer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#max_capacity_buffer ApplicationautoscalingScalingPolicy#max_capacity_buffer}
 
 ---
 
@@ -1371,7 +1371,7 @@ This structure includes the metrics and target utilization to use for predictive
 
 This is an array, but we currently only support a single metric specification. That is, you can specify a target value and a single metric pair, or a target value and one scaling metric and one load metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_specifications ApplicationautoscalingScalingPolicy#metric_specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_specifications ApplicationautoscalingScalingPolicy#metric_specifications}
 
 ---
 
@@ -1385,7 +1385,7 @@ Mode *string
 
 The predictive scaling mode. Defaults to ``ForecastOnly`` if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#mode ApplicationautoscalingScalingPolicy#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#mode ApplicationautoscalingScalingPolicy#mode}
 
 ---
 
@@ -1401,7 +1401,7 @@ The amount of time, in seconds, that the start time can be advanced.
 
 The value must be less than the forecast interval duration of 3600 seconds (60 minutes). Defaults to 300 seconds if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#scheduling_buffer_time ApplicationautoscalingScalingPolicy#scheduling_buffer_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#scheduling_buffer_time ApplicationautoscalingScalingPolicy#scheduling_buffer_time}
 
 ---
 
@@ -1410,15 +1410,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecifications {
-	CustomizedCapacityMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecification,
-	CustomizedLoadMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecification,
-	CustomizedScalingMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecification,
-	PredefinedLoadMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedLoadMetricSpecification,
-	PredefinedMetricPairSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedMetricPairSpecification,
-	PredefinedScalingMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedScalingMetricSpecification,
+	CustomizedCapacityMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecification,
+	CustomizedLoadMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecification,
+	CustomizedScalingMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecification,
+	PredefinedLoadMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedLoadMetricSpecification,
+	PredefinedMetricPairSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedMetricPairSpecification,
+	PredefinedScalingMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedScalingMetricSpecification,
 	TargetValue: *f64,
 }
 ```
@@ -1447,7 +1447,7 @@ CustomizedCapacityMetricSpecification ApplicationautoscalingScalingPolicyPredict
 
 The customized capacity metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#customized_capacity_metric_specification ApplicationautoscalingScalingPolicy#customized_capacity_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#customized_capacity_metric_specification ApplicationautoscalingScalingPolicy#customized_capacity_metric_specification}
 
 ---
 
@@ -1461,7 +1461,7 @@ CustomizedLoadMetricSpecification ApplicationautoscalingScalingPolicyPredictiveS
 
 The customized load metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#customized_load_metric_specification ApplicationautoscalingScalingPolicy#customized_load_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#customized_load_metric_specification ApplicationautoscalingScalingPolicy#customized_load_metric_specification}
 
 ---
 
@@ -1475,7 +1475,7 @@ CustomizedScalingMetricSpecification ApplicationautoscalingScalingPolicyPredicti
 
 The customized scaling metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#customized_scaling_metric_specification ApplicationautoscalingScalingPolicy#customized_scaling_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#customized_scaling_metric_specification ApplicationautoscalingScalingPolicy#customized_scaling_metric_specification}
 
 ---
 
@@ -1489,7 +1489,7 @@ PredefinedLoadMetricSpecification ApplicationautoscalingScalingPolicyPredictiveS
 
 The predefined load metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#predefined_load_metric_specification ApplicationautoscalingScalingPolicy#predefined_load_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#predefined_load_metric_specification ApplicationautoscalingScalingPolicy#predefined_load_metric_specification}
 
 ---
 
@@ -1503,7 +1503,7 @@ PredefinedMetricPairSpecification ApplicationautoscalingScalingPolicyPredictiveS
 
 The predefined metric pair specification that determines the appropriate scaling metric and load metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_pair_specification ApplicationautoscalingScalingPolicy#predefined_metric_pair_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_pair_specification ApplicationautoscalingScalingPolicy#predefined_metric_pair_specification}
 
 ---
 
@@ -1517,7 +1517,7 @@ PredefinedScalingMetricSpecification ApplicationautoscalingScalingPolicyPredicti
 
 The predefined scaling metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#predefined_scaling_metric_specification ApplicationautoscalingScalingPolicy#predefined_scaling_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#predefined_scaling_metric_specification ApplicationautoscalingScalingPolicy#predefined_scaling_metric_specification}
 
 ---
 
@@ -1531,7 +1531,7 @@ TargetValue *f64
 
 Specifies the target utilization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#target_value ApplicationautoscalingScalingPolicy#target_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#target_value ApplicationautoscalingScalingPolicy#target_value}
 
 ---
 
@@ -1540,7 +1540,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecification {
 	MetricDataQueries: interface{},
@@ -1565,7 +1565,7 @@ MetricDataQueries interface{}
 
 One or more metric data queries to provide data points for a metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}
 
 ---
 
@@ -1574,13 +1574,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueries {
 	Expression: *string,
 	Id: *string,
 	Label: *string,
-	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStat,
+	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStat,
 	ReturnData: interface{},
 }
 ```
@@ -1610,7 +1610,7 @@ The math expression to perform on the returned data, if this object is performin
 This expression can use the `Id` of the other metrics to refer to those metrics, and can also use the `Id` of other expressions to use the result of those expressions.
 Conditional: Within each `MetricDataQuery` object, you must specify either `Expression` or `MetricStat`, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
 
 ---
 
@@ -1626,7 +1626,7 @@ A short name that identifies the object's results in the response.
 
 This name must be unique among all `MetricDataQuery` objects specified for a single scaling policy. If you are performing math expressions on this set of data, this name represents that data and can serve as a variable in the mathematical expression. The valid characters are letters, numbers, and underscores. The first character must be a lowercase letter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1645,7 +1645,7 @@ A human-readable label for this metric or expression.
 
 This is especially useful if this is a math expression, so that you know what the value represents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
 
 ---
 
@@ -1661,7 +1661,7 @@ Information about the metric data to return.
 
 Conditional: Within each `MetricDataQuery` object, you must specify either `Expression` or `MetricStat`, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
 
 ---
 
@@ -1678,7 +1678,7 @@ Indicates whether to return the timestamps and raw data values of this metric.
 If you use any math expressions, specify `true` for this value for only the final math expression that the metric specification is based on. You must specify `false` for `ReturnData` for all the other metrics and expressions used in the metric specification.
 If you are only retrieving metrics and not performing any math expressions, do not specify anything for `ReturnData`. This sets it to its default (`true`).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
 
 ---
 
@@ -1687,10 +1687,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStat {
-	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetric,
+	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetric,
 	Stat: *string,
 	Unit: *string,
 }
@@ -1718,7 +1718,7 @@ The CloudWatch metric to return, including the metric name, namespace, and dimen
 
 To get the exact metric name, namespace, and dimensions, inspect the [Metric](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Metric.html) object that is returned by a call to [ListMetrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_ListMetrics.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
 
 ---
 
@@ -1735,7 +1735,7 @@ The statistic to return.
 It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*.
 The most commonly used metrics for predictive scaling are `Average` and `Sum`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
 
 ---
 
@@ -1751,7 +1751,7 @@ The unit to use for the returned data points.
 
 For a complete list of the units that CloudWatch supports, see the [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html) data type in the *Amazon CloudWatch API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
 
 ---
 
@@ -1760,7 +1760,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetric {
 	Dimensions: interface{},
@@ -1789,7 +1789,7 @@ Dimensions interface{}
 
 Describes the dimensions of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
 
 ---
 
@@ -1803,7 +1803,7 @@ MetricName *string
 
 The name of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
 
 ---
 
@@ -1817,7 +1817,7 @@ Namespace *string
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
 
 ---
 
@@ -1826,7 +1826,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricDimensions {
 	Name: *string,
@@ -1853,7 +1853,7 @@ Name *string
 
 The name of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
 
 ---
 
@@ -1867,7 +1867,7 @@ Value *string
 
 The value of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
 
 ---
 
@@ -1876,7 +1876,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecification {
 	MetricDataQueries: interface{},
@@ -1887,7 +1887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscaling
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecification.property.metricDataQueries">MetricDataQueries</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}. |
+| <code><a href="#@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecification.property.metricDataQueries">MetricDataQueries</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}. |
 
 ---
 
@@ -1899,7 +1899,7 @@ MetricDataQueries interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}.
 
 ---
 
@@ -1908,13 +1908,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueries {
 	Expression: *string,
 	Id: *string,
 	Label: *string,
-	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStat,
+	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStat,
 	ReturnData: interface{},
 }
 ```
@@ -1944,7 +1944,7 @@ The math expression to perform on the returned data, if this object is performin
 This expression can use the `Id` of the other metrics to refer to those metrics, and can also use the `Id` of other expressions to use the result of those expressions.
 Conditional: Within each `MetricDataQuery` object, you must specify either `Expression` or `MetricStat`, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
 
 ---
 
@@ -1960,7 +1960,7 @@ A short name that identifies the object's results in the response.
 
 This name must be unique among all `MetricDataQuery` objects specified for a single scaling policy. If you are performing math expressions on this set of data, this name represents that data and can serve as a variable in the mathematical expression. The valid characters are letters, numbers, and underscores. The first character must be a lowercase letter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1979,7 +1979,7 @@ A human-readable label for this metric or expression.
 
 This is especially useful if this is a math expression, so that you know what the value represents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
 
 ---
 
@@ -1995,7 +1995,7 @@ Information about the metric data to return.
 
 Conditional: Within each `MetricDataQuery` object, you must specify either `Expression` or `MetricStat`, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
 
 ---
 
@@ -2012,7 +2012,7 @@ Indicates whether to return the timestamps and raw data values of this metric.
 If you use any math expressions, specify `true` for this value for only the final math expression that the metric specification is based on. You must specify `false` for `ReturnData` for all the other metrics and expressions used in the metric specification.
 If you are only retrieving metrics and not performing any math expressions, do not specify anything for `ReturnData`. This sets it to its default (`true`).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
 
 ---
 
@@ -2021,10 +2021,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStat {
-	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetric,
+	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetric,
 	Stat: *string,
 	Unit: *string,
 }
@@ -2052,7 +2052,7 @@ The CloudWatch metric to return, including the metric name, namespace, and dimen
 
 To get the exact metric name, namespace, and dimensions, inspect the [Metric](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Metric.html) object that is returned by a call to [ListMetrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_ListMetrics.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
 
 ---
 
@@ -2069,7 +2069,7 @@ The statistic to return.
 It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*.
 The most commonly used metrics for predictive scaling are `Average` and `Sum`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
 
 ---
 
@@ -2085,7 +2085,7 @@ The unit to use for the returned data points.
 
 For a complete list of the units that CloudWatch supports, see the [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html) data type in the *Amazon CloudWatch API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
 
 ---
 
@@ -2094,7 +2094,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetric {
 	Dimensions: interface{},
@@ -2123,7 +2123,7 @@ Dimensions interface{}
 
 Describes the dimensions of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
 
 ---
 
@@ -2137,7 +2137,7 @@ MetricName *string
 
 The name of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
 
 ---
 
@@ -2151,7 +2151,7 @@ Namespace *string
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
 
 ---
 
@@ -2160,7 +2160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricDimensions {
 	Name: *string,
@@ -2187,7 +2187,7 @@ Name *string
 
 The name of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
 
 ---
 
@@ -2201,7 +2201,7 @@ Value *string
 
 The value of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
 
 ---
 
@@ -2210,7 +2210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecification {
 	MetricDataQueries: interface{},
@@ -2235,7 +2235,7 @@ MetricDataQueries interface{}
 
 One or more metric data queries to provide data points for a metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}
 
 ---
 
@@ -2244,13 +2244,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueries {
 	Expression: *string,
 	Id: *string,
 	Label: *string,
-	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStat,
+	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStat,
 	ReturnData: interface{},
 }
 ```
@@ -2280,7 +2280,7 @@ The math expression to perform on the returned data, if this object is performin
 This expression can use the `Id` of the other metrics to refer to those metrics, and can also use the `Id` of other expressions to use the result of those expressions.
 Conditional: Within each `MetricDataQuery` object, you must specify either `Expression` or `MetricStat`, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
 
 ---
 
@@ -2296,7 +2296,7 @@ A short name that identifies the object's results in the response.
 
 This name must be unique among all `MetricDataQuery` objects specified for a single scaling policy. If you are performing math expressions on this set of data, this name represents that data and can serve as a variable in the mathematical expression. The valid characters are letters, numbers, and underscores. The first character must be a lowercase letter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2315,7 +2315,7 @@ A human-readable label for this metric or expression.
 
 This is especially useful if this is a math expression, so that you know what the value represents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
 
 ---
 
@@ -2331,7 +2331,7 @@ Information about the metric data to return.
 
 Conditional: Within each `MetricDataQuery` object, you must specify either `Expression` or `MetricStat`, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
 
 ---
 
@@ -2348,7 +2348,7 @@ Indicates whether to return the timestamps and raw data values of this metric.
 If you use any math expressions, specify `true` for this value for only the final math expression that the metric specification is based on. You must specify `false` for `ReturnData` for all the other metrics and expressions used in the metric specification.
 If you are only retrieving metrics and not performing any math expressions, do not specify anything for `ReturnData`. This sets it to its default (`true`).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
 
 ---
 
@@ -2357,10 +2357,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStat {
-	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetric,
+	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetric,
 	Stat: *string,
 	Unit: *string,
 }
@@ -2388,7 +2388,7 @@ The CloudWatch metric to return, including the metric name, namespace, and dimen
 
 To get the exact metric name, namespace, and dimensions, inspect the [Metric](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Metric.html) object that is returned by a call to [ListMetrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_ListMetrics.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
 
 ---
 
@@ -2405,7 +2405,7 @@ The statistic to return.
 It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*.
 The most commonly used metrics for predictive scaling are `Average` and `Sum`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
 
 ---
 
@@ -2421,7 +2421,7 @@ The unit to use for the returned data points.
 
 For a complete list of the units that CloudWatch supports, see the [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html) data type in the *Amazon CloudWatch API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
 
 ---
 
@@ -2430,7 +2430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetric {
 	Dimensions: interface{},
@@ -2459,7 +2459,7 @@ Dimensions interface{}
 
 Describes the dimensions of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
 
 ---
 
@@ -2473,7 +2473,7 @@ MetricName *string
 
 The name of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
 
 ---
 
@@ -2487,7 +2487,7 @@ Namespace *string
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
 
 ---
 
@@ -2496,7 +2496,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricDimensions {
 	Name: *string,
@@ -2523,7 +2523,7 @@ Name *string
 
 The name of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
 
 ---
 
@@ -2537,7 +2537,7 @@ Value *string
 
 The value of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
 
 ---
 
@@ -2546,7 +2546,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedLoadMetricSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedLoadMetricSpecification {
 	PredefinedMetricType: *string,
@@ -2573,7 +2573,7 @@ PredefinedMetricType *string
 
 The metric type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
 
 ---
 
@@ -2587,7 +2587,7 @@ ResourceLabel *string
 
 A label that uniquely identifies a target group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
 
 ---
 
@@ -2596,7 +2596,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedMetricPairSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedMetricPairSpecification {
 	PredefinedMetricType: *string,
@@ -2625,7 +2625,7 @@ Indicates which metrics to use.
 
 There are two different types of metrics for each metric type: one is a load metric and one is a scaling metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
 
 ---
 
@@ -2639,7 +2639,7 @@ ResourceLabel *string
 
 A label that uniquely identifies a specific target group from which to determine the total and average request count.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
 
 ---
 
@@ -2648,7 +2648,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedScalingMetricSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedScalingMetricSpecification {
 	PredefinedMetricType: *string,
@@ -2675,7 +2675,7 @@ PredefinedMetricType *string
 
 The metric type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
 
 ---
 
@@ -2689,7 +2689,7 @@ ResourceLabel *string
 
 A label that uniquely identifies a specific target group from which to determine the average request count.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
 
 ---
 
@@ -2698,7 +2698,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyStepScalingPolicyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyStepScalingPolicyConfiguration {
 	AdjustmentType: *string,
@@ -2731,7 +2731,7 @@ AdjustmentType *string
 
 Specifies whether the ``ScalingAdjustment`` value in the ``StepAdjustment`` property is an absolute number or a percentage of the current capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#adjustment_type ApplicationautoscalingScalingPolicy#adjustment_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#adjustment_type ApplicationautoscalingScalingPolicy#adjustment_type}
 
 ---
 
@@ -2747,7 +2747,7 @@ The amount of time, in seconds, to wait for a previous scaling activity to take 
 
 If not specified, the default value is 300. For more information, see [Cooldown period](https://docs.aws.amazon.com/autoscaling/application/userguide/step-scaling-policy-overview.html#step-scaling-cooldown) in the *Application Auto Scaling User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#cooldown ApplicationautoscalingScalingPolicy#cooldown}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#cooldown ApplicationautoscalingScalingPolicy#cooldown}
 
 ---
 
@@ -2763,7 +2763,7 @@ The aggregation type for the CloudWatch metrics.
 
 Valid values are `Minimum`, `Maximum`, and `Average`. If the aggregation type is null, the value is treated as `Average`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_aggregation_type ApplicationautoscalingScalingPolicy#metric_aggregation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_aggregation_type ApplicationautoscalingScalingPolicy#metric_aggregation_type}
 
 ---
 
@@ -2779,7 +2779,7 @@ The minimum value to scale by when the adjustment type is ``PercentChangeInCapac
 
 For example, suppose that you create a step scaling policy to scale out an Amazon ECS service by 25 percent and you specify a `MinAdjustmentMagnitude` of 2. If the service has 4 tasks and the scaling policy is performed, 25 percent of 4 is 1. However, because you specified a `MinAdjustmentMagnitude` of 2, Application Auto Scaling scales out the service by 2 tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#min_adjustment_magnitude ApplicationautoscalingScalingPolicy#min_adjustment_magnitude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#min_adjustment_magnitude ApplicationautoscalingScalingPolicy#min_adjustment_magnitude}
 
 ---
 
@@ -2795,7 +2795,7 @@ A set of adjustments that enable you to scale based on the size of the alarm bre
 
 At least one step adjustment is required if you are adding a new step scaling policy configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#step_adjustments ApplicationautoscalingScalingPolicy#step_adjustments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#step_adjustments ApplicationautoscalingScalingPolicy#step_adjustments}
 
 ---
 
@@ -2804,7 +2804,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustments {
 	MetricIntervalLowerBound: *f64,
@@ -2836,7 +2836,7 @@ The lower bound for the difference between the alarm threshold and the CloudWatc
 If the metric value is above the breach threshold, the lower bound is inclusive (the metric must be greater than or equal to the threshold plus the lower bound). Otherwise, it is exclusive (the metric must be greater than the threshold plus the lower bound). A null value indicates negative infinity.
 You must specify at least one upper or lower bound.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_interval_lower_bound ApplicationautoscalingScalingPolicy#metric_interval_lower_bound}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_interval_lower_bound ApplicationautoscalingScalingPolicy#metric_interval_lower_bound}
 
 ---
 
@@ -2853,7 +2853,7 @@ The upper bound for the difference between the alarm threshold and the CloudWatc
 If the metric value is above the breach threshold, the upper bound is exclusive (the metric must be less than the threshold plus the upper bound). Otherwise, it is inclusive (the metric must be less than or equal to the threshold plus the upper bound). A null value indicates positive infinity.
 You must specify at least one upper or lower bound.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_interval_upper_bound ApplicationautoscalingScalingPolicy#metric_interval_upper_bound}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_interval_upper_bound ApplicationautoscalingScalingPolicy#metric_interval_upper_bound}
 
 ---
 
@@ -2869,7 +2869,7 @@ The amount by which to scale.
 
 The adjustment is based on the value that you specified in the `AdjustmentType` property (either an absolute number or a percentage). A positive value adds to the current capacity and a negative number subtracts from the current capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#scaling_adjustment ApplicationautoscalingScalingPolicy#scaling_adjustment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#scaling_adjustment ApplicationautoscalingScalingPolicy#scaling_adjustment}
 
 ---
 
@@ -2878,12 +2878,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfiguration {
-	CustomizedMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecification,
+	CustomizedMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecification,
 	DisableScaleIn: interface{},
-	PredefinedMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationPredefinedMetricSpecification,
+	PredefinedMetricSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationPredefinedMetricSpecification,
 	ScaleInCooldown: *f64,
 	ScaleOutCooldown: *f64,
 	TargetValue: *f64,
@@ -2913,7 +2913,7 @@ CustomizedMetricSpecification ApplicationautoscalingScalingPolicyTargetTrackingS
 
 A customized metric. You can specify either a predefined metric or a customized metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#customized_metric_specification ApplicationautoscalingScalingPolicy#customized_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#customized_metric_specification ApplicationautoscalingScalingPolicy#customized_metric_specification}
 
 ---
 
@@ -2929,7 +2929,7 @@ Indicates whether scale in by the target tracking scaling policy is disabled.
 
 If the value is `true`, scale in is disabled and the target tracking scaling policy won't remove capacity from the scalable target. Otherwise, scale in is enabled and the target tracking scaling policy can remove capacity from the scalable target. The default value is `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#disable_scale_in ApplicationautoscalingScalingPolicy#disable_scale_in}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#disable_scale_in ApplicationautoscalingScalingPolicy#disable_scale_in}
 
 ---
 
@@ -2943,7 +2943,7 @@ PredefinedMetricSpecification ApplicationautoscalingScalingPolicyTargetTrackingS
 
 A predefined metric. You can specify either a predefined metric or a customized metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_specification ApplicationautoscalingScalingPolicy#predefined_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_specification ApplicationautoscalingScalingPolicy#predefined_metric_specification}
 
 ---
 
@@ -2959,7 +2959,7 @@ The amount of time, in seconds, after a scale-in activity completes before anoth
 
 For more information and for default values, see [Define cooldown periods](https://docs.aws.amazon.com/autoscaling/application/userguide/target-tracking-scaling-policy-overview.html#target-tracking-cooldown) in the *Application Auto Scaling User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#scale_in_cooldown ApplicationautoscalingScalingPolicy#scale_in_cooldown}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#scale_in_cooldown ApplicationautoscalingScalingPolicy#scale_in_cooldown}
 
 ---
 
@@ -2975,7 +2975,7 @@ The amount of time, in seconds, to wait for a previous scale-out activity to tak
 
 For more information and for default values, see [Define cooldown periods](https://docs.aws.amazon.com/autoscaling/application/userguide/target-tracking-scaling-policy-overview.html#target-tracking-cooldown) in the *Application Auto Scaling User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#scale_out_cooldown ApplicationautoscalingScalingPolicy#scale_out_cooldown}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#scale_out_cooldown ApplicationautoscalingScalingPolicy#scale_out_cooldown}
 
 ---
 
@@ -2991,7 +2991,7 @@ The target value for the metric.
 
 Although this property accepts numbers of type Double, it won't accept values that are either too small or too large. Values must be in the range of -2^360 to 2^360. The value must be a valid number based on the choice of metric. For example, if the metric is CPU utilization, then the target value is a percent value that represents how much of the CPU can be used before scaling out.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#target_value ApplicationautoscalingScalingPolicy#target_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#target_value ApplicationautoscalingScalingPolicy#target_value}
 
 ---
 
@@ -3000,7 +3000,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecification {
 	Dimensions: interface{},
@@ -3037,7 +3037,7 @@ The dimensions of the metric.
 
 Conditional: If you published your metric with dimensions, you must specify the same dimensions in your scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
 
 ---
 
@@ -3053,7 +3053,7 @@ The name of the metric.
 
 To get the exact metric name, namespace, and dimensions, inspect the [Metric](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Metric.html) object that's returned by a call to [ListMetrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_ListMetrics.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
 
 ---
 
@@ -3069,7 +3069,7 @@ The metrics to include in the target tracking scaling policy, as a metric data q
 
 This can include both raw metric and metric math expressions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metrics ApplicationautoscalingScalingPolicy#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metrics ApplicationautoscalingScalingPolicy#metrics}
 
 ---
 
@@ -3083,7 +3083,7 @@ Namespace *string
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
 
 ---
 
@@ -3097,7 +3097,7 @@ Statistic *string
 
 The statistic of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#statistic ApplicationautoscalingScalingPolicy#statistic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#statistic ApplicationautoscalingScalingPolicy#statistic}
 
 ---
 
@@ -3113,7 +3113,7 @@ The unit of the metric.
 
 For a complete list of the units that CloudWatch supports, see the [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html) data type in the *Amazon CloudWatch API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
 
 ---
 
@@ -3122,7 +3122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationDimensions {
 	Name: *string,
@@ -3149,7 +3149,7 @@ Name *string
 
 The name of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
 
 ---
 
@@ -3163,7 +3163,7 @@ Value *string
 
 The value of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
 
 ---
 
@@ -3172,13 +3172,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetrics {
 	Expression: *string,
 	Id: *string,
 	Label: *string,
-	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStat,
+	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStat,
 	ReturnData: interface{},
 }
 ```
@@ -3208,7 +3208,7 @@ The math expression to perform on the returned data, if this object is performin
 This expression can use the `Id` of the other metrics to refer to those metrics, and can also use the `Id` of other expressions to use the result of those expressions.
 Conditional: Within each `TargetTrackingMetricDataQuery` object, you must specify either `Expression` or `MetricStat`, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
 
 ---
 
@@ -3224,7 +3224,7 @@ A short name that identifies the object's results in the response.
 
 This name must be unique among all `MetricDataQuery` objects specified for a single scaling policy. If you are performing math expressions on this set of data, this name represents that data and can serve as a variable in the mathematical expression. The valid characters are letters, numbers, and underscores. The first character must be a lowercase letter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3243,7 +3243,7 @@ A human-readable label for this metric or expression.
 
 This is especially useful if this is a math expression, so that you know what the value represents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
 
 ---
 
@@ -3259,7 +3259,7 @@ Information about the metric data to return.
 
 Conditional: Within each `MetricDataQuery` object, you must specify either `Expression` or `MetricStat`, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
 
 ---
 
@@ -3276,7 +3276,7 @@ Indicates whether to return the timestamps and raw data values of this metric.
 If you use any math expressions, specify `true` for this value for only the final math expression that the metric specification is based on. You must specify `false` for `ReturnData` for all the other metrics and expressions used in the metric specification.
 If you are only retrieving metrics and not performing any math expressions, do not specify anything for `ReturnData`. This sets it to its default (`true`).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
 
 ---
 
@@ -3285,10 +3285,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStat {
-	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric,
+	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric,
 	Stat: *string,
 	Unit: *string,
 }
@@ -3316,7 +3316,7 @@ The CloudWatch metric to return, including the metric name, namespace, and dimen
 
 To get the exact metric name, namespace, and dimensions, inspect the [Metric](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Metric.html) object that is returned by a call to [ListMetrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_ListMetrics.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
 
 ---
 
@@ -3333,7 +3333,7 @@ The statistic to return.
 It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*.
 The most commonly used metric for scaling is `Average`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
 
 ---
 
@@ -3349,7 +3349,7 @@ The unit to use for the returned data points.
 
 For a complete list of the units that CloudWatch supports, see the [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html) data type in the *Amazon CloudWatch API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
 
 ---
 
@@ -3358,7 +3358,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric {
 	Dimensions: interface{},
@@ -3390,7 +3390,7 @@ The dimensions for the metric.
 For the list of available dimensions, see the AWS documentation available from the table in [services that publish CloudWatch metrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/aws-services-cloudwatch-metrics.html) in the *Amazon CloudWatch User Guide*.
 Conditional: If you published your metric with dimensions, you must specify the same dimensions in your scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
 
 ---
 
@@ -3404,7 +3404,7 @@ MetricName *string
 
 The name of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
 
 ---
 
@@ -3420,7 +3420,7 @@ The namespace of the metric.
 
 For more information, see the table in [services that publish CloudWatch metrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/aws-services-cloudwatch-metrics.html) in the *Amazon CloudWatch User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
 
 ---
 
@@ -3429,7 +3429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricDimensions {
 	Name: *string,
@@ -3456,7 +3456,7 @@ Name *string
 
 The name of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
 
 ---
 
@@ -3470,7 +3470,7 @@ Value *string
 
 The value of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
 
 ---
 
@@ -3479,7 +3479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationPredefinedMetricSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 &applicationautoscalingscalingpolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationPredefinedMetricSpecification {
 	PredefinedMetricType: *string,
@@ -3506,7 +3506,7 @@ PredefinedMetricType *string
 
 The metric type. The ``ALBRequestCountPerTarget`` metric type applies only to Spot fleet requests and ECS services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
 
 ---
 
@@ -3530,7 +3530,7 @@ Where:
 
 To find the ARN for an Application Load Balancer, use the [DescribeLoadBalancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeLoadBalancers.html) API operation. To find the ARN for the target group, use the [DescribeTargetGroups](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeTargetGroups.html) API operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
 
 ---
 
@@ -3541,7 +3541,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesList
 ```
@@ -3701,7 +3701,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsList
 ```
@@ -3861,7 +3861,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsOutputReference
 ```
@@ -4186,7 +4186,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricOutputReference
 ```
@@ -4535,7 +4535,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatOutputReference
 ```
@@ -4884,7 +4884,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesOutputReference
 ```
@@ -5309,7 +5309,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationOutputReference
 ```
@@ -5600,7 +5600,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesList
 ```
@@ -5760,7 +5760,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsList
 ```
@@ -5920,7 +5920,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsOutputReference
 ```
@@ -6245,7 +6245,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricOutputReference
 ```
@@ -6594,7 +6594,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatOutputReference
 ```
@@ -6943,7 +6943,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesOutputReference
 ```
@@ -7368,7 +7368,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationOutputReference
 ```
@@ -7659,7 +7659,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesList
 ```
@@ -7819,7 +7819,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsList
 ```
@@ -7979,7 +7979,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricDimensionsOutputReference
 ```
@@ -8304,7 +8304,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricOutputReference
 ```
@@ -8653,7 +8653,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatOutputReference
 ```
@@ -9002,7 +9002,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesOutputReference
 ```
@@ -9427,7 +9427,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationOutputReference
 ```
@@ -9718,7 +9718,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsList
 ```
@@ -9878,7 +9878,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsOutputReference
 ```
@@ -10426,7 +10426,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedLoadMetricSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedLoadMetricSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedLoadMetricSpecificationOutputReference
 ```
@@ -10733,7 +10733,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedMetricPairSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedMetricPairSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedMetricPairSpecificationOutputReference
 ```
@@ -11040,7 +11040,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedScalingMetricSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedScalingMetricSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsPredefinedScalingMetricSpecificationOutputReference
 ```
@@ -11347,7 +11347,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationOutputReference
 ```
@@ -11754,7 +11754,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationOutputReference
 ```
@@ -12161,7 +12161,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsList
 ```
@@ -12321,7 +12321,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference
 ```
@@ -12675,7 +12675,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationDimensionsList
 ```
@@ -12835,7 +12835,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationDimensionsOutputReference
 ```
@@ -13160,7 +13160,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsList
 ```
@@ -13320,7 +13320,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricDimensionsList
 ```
@@ -13480,7 +13480,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricDimensionsOutputReference
 ```
@@ -13805,7 +13805,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricOutputReference
 ```
@@ -14154,7 +14154,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatOutputReference
 ```
@@ -14503,7 +14503,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsOutputReference
 ```
@@ -14928,7 +14928,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationOutputReference
 ```
@@ -15377,7 +15377,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference
 ```
@@ -15826,7 +15826,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationPredefinedMetricSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalingpolicy"
 
 applicationautoscalingscalingpolicy.NewApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationPredefinedMetricSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationPredefinedMetricSpecificationOutputReference
 ```

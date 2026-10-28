@@ -4,12 +4,12 @@
 
 ### DataAwsccDlmLifecyclePolicy <a name="DataAwsccDlmLifecyclePolicy" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicy(scope Construct, id *string, config DataAwsccDlmLifecyclePolicyConfig) DataAwsccDlmLifecyclePolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicy_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicy_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDlmLifecyclePolic
 
 The id of the existing DataAwsccDlmLifecyclePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dlm_lifecycle_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dlm_lifecycle_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dlm_lifecycle_policy#id DataAwsccDlmLifecyclePolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dlm_lifecycle_policy#id DataAwsccDlmLifecyclePolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyCrossRegionCopyTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyCrossRegionCopyTargets {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyExclusions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyExclusions {
 
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyExclusionsExcludeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyExclusionsExcludeTags {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetails {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActions {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopy {
 
@@ -940,7 +940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyEncryptionConfiguration {
 
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyRetainRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyRetainRule {
 
@@ -966,7 +966,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsCrossRegionCopyTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsCrossRegionCopyTargets {
 
@@ -979,7 +979,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsEventSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsEventSource {
 
@@ -992,7 +992,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsEventSourceParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsEventSourceParameters {
 
@@ -1005,7 +1005,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsExclusions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsExclusions {
 
@@ -1018,7 +1018,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsExcludeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsExcludeTags {
 
@@ -1031,7 +1031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsParameters {
 
@@ -1044,7 +1044,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsParametersExcludeDataVolumeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsParametersExcludeDataVolumeTags {
 
@@ -1057,7 +1057,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedules {
 
@@ -1070,7 +1070,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRule {
 
@@ -1083,7 +1083,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleRetainRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleRetainRule {
 
@@ -1096,7 +1096,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleRetainRuleRetentionArchiveTier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleRetainRuleRetentionArchiveTier {
 
@@ -1109,7 +1109,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRule {
 
@@ -1122,7 +1122,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRuleScripts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRuleScripts {
 
@@ -1135,7 +1135,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRules {
 
@@ -1148,7 +1148,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesDeprecateRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesDeprecateRule {
 
@@ -1161,7 +1161,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesRetainRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesRetainRule {
 
@@ -1174,7 +1174,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesDeprecateRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesDeprecateRule {
 
@@ -1187,7 +1187,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesFastRestoreRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesFastRestoreRule {
 
@@ -1200,7 +1200,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesRetainRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesRetainRule {
 
@@ -1213,7 +1213,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesShareRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesShareRules {
 
@@ -1226,7 +1226,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesTagsToAdd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesTagsToAdd {
 
@@ -1239,7 +1239,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesVariableTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesVariableTags {
 
@@ -1252,7 +1252,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsTargetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsTargetTags {
 
@@ -1265,7 +1265,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 &dataawsccdlmlifecyclepolicy.DataAwsccDlmLifecyclePolicyTags {
 
@@ -1280,7 +1280,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyCrossRegionCopyTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyCrossRegionCopyTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyCrossRegionCopyTargetsList
 ```
@@ -1429,7 +1429,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyCrossRegionCopyTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyCrossRegionCopyTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyCrossRegionCopyTargetsOutputReference
 ```
@@ -1707,7 +1707,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyCrossRegionCopyTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyExclusionsExcludeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyExclusionsExcludeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyExclusionsExcludeTagsList
 ```
@@ -1856,7 +1856,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyExclusionsExcludeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyExclusionsExcludeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyExclusionsExcludeTagsOutputReference
 ```
@@ -2145,7 +2145,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyExclusionsExcludeTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyExclusionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyExclusionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyExclusionsOutputReference
 ```
@@ -2427,7 +2427,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyExclusions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyEncryptionConfigurationOutputReference
 ```
@@ -2698,7 +2698,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyList
 ```
@@ -2847,7 +2847,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyOutputReference
 ```
@@ -3147,7 +3147,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyRetainRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyRetainRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionCopyRetainRuleOutputReference
 ```
@@ -3418,7 +3418,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsActionsCrossRegionC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsActionsList
 ```
@@ -3567,7 +3567,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsActionsOutputReference
 ```
@@ -3856,7 +3856,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsCrossRegionCopyTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsCrossRegionCopyTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsCrossRegionCopyTargetsList
 ```
@@ -4005,7 +4005,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsCrossRegionCopyTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsCrossRegionCopyTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsCrossRegionCopyTargetsOutputReference
 ```
@@ -4283,7 +4283,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsCrossRegionCopyTarg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsEventSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsEventSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsEventSourceOutputReference
 ```
@@ -4554,7 +4554,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsEventSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsEventSourceParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsEventSourceParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsEventSourceParametersOutputReference
 ```
@@ -4836,7 +4836,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsEventSourceParamete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsExcludeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsExcludeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsExcludeTagsList
 ```
@@ -4985,7 +4985,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsExcludeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsExcludeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsExcludeTagsOutputReference
 ```
@@ -5274,7 +5274,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsExcludeTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsExclusionsOutputReference
 ```
@@ -5556,7 +5556,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsExclusions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsOutputReference
 ```
@@ -5981,7 +5981,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsParametersExcludeDataVolumeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsParametersExcludeDataVolumeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsParametersExcludeDataVolumeTagsList
 ```
@@ -6130,7 +6130,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsParametersExcludeDataVolumeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsParametersExcludeDataVolumeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsParametersExcludeDataVolumeTagsOutputReference
 ```
@@ -6419,7 +6419,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsParametersExcludeDa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsParametersOutputReference
 ```
@@ -6701,7 +6701,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleOutputReference
 ```
@@ -6961,7 +6961,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRul
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleRetainRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleRetainRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleRetainRuleOutputReference
 ```
@@ -7221,7 +7221,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRul
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleRetainRuleRetentionArchiveTierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleRetainRuleRetentionArchiveTierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRuleRetainRuleRetentionArchiveTierOutputReference
 ```
@@ -7503,7 +7503,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesArchiveRul
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRuleOutputReference
 ```
@@ -7818,7 +7818,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRuleScriptsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRuleScriptsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRuleScriptsList
 ```
@@ -7967,7 +7967,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRuleScriptsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRuleScriptsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRuleScriptsOutputReference
 ```
@@ -8300,7 +8300,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCreateRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesDeprecateRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesDeprecateRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesDeprecateRuleOutputReference
 ```
@@ -8571,7 +8571,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesList
 ```
@@ -8720,7 +8720,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesOutputReference
 ```
@@ -9064,7 +9064,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesRetainRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesRetainRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegionCopyRulesRetainRuleOutputReference
 ```
@@ -9335,7 +9335,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesCrossRegio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesDeprecateRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesDeprecateRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesDeprecateRuleOutputReference
 ```
@@ -9617,7 +9617,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesDeprecateR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesFastRestoreRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesFastRestoreRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesFastRestoreRuleOutputReference
 ```
@@ -9921,7 +9921,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesFastRestor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesList
 ```
@@ -10070,7 +10070,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesOutputReference
 ```
@@ -10458,7 +10458,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesRetainRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesRetainRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesRetainRuleOutputReference
 ```
@@ -10740,7 +10740,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesRetainRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesShareRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesShareRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesShareRulesList
 ```
@@ -10889,7 +10889,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesShareRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesShareRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesShareRulesOutputReference
 ```
@@ -11189,7 +11189,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesShareRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesTagsToAddList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesTagsToAddList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesTagsToAddList
 ```
@@ -11338,7 +11338,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesTagsToAddOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesTagsToAddOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesTagsToAddOutputReference
 ```
@@ -11627,7 +11627,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesTagsToAdd
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesVariableTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesVariableTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesVariableTagsList
 ```
@@ -11776,7 +11776,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesVariableTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesVariableTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesVariableTagsOutputReference
 ```
@@ -12065,7 +12065,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsSchedulesVariableTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsTargetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsTargetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsTargetTagsList
 ```
@@ -12214,7 +12214,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyPolicyDetailsTargetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyPolicyDetailsTargetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyPolicyDetailsTargetTagsOutputReference
 ```
@@ -12503,7 +12503,7 @@ func InternalValue() DataAwsccDlmLifecyclePolicyPolicyDetailsTargetTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDlmLifecyclePolicyTagsList
 ```
@@ -12652,7 +12652,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicy.DataAwsccDlmLifecyclePolicyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy"
 
 dataawsccdlmlifecyclepolicy.NewDataAwsccDlmLifecyclePolicyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDlmLifecyclePolicyTagsOutputReference
 ```

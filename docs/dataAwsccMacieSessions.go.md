@@ -4,12 +4,12 @@
 
 ### DataAwsccMacieSessions <a name="DataAwsccMacieSessions" id="@cdktn/provider-awscc.dataAwsccMacieSessions.DataAwsccMacieSessions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_sessions awscc_macie_sessions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_sessions awscc_macie_sessions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieSessions.DataAwsccMacieSessions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciesessions"
 
 dataawsccmaciesessions.NewDataAwsccMacieSessions(scope Construct, id *string, config DataAwsccMacieSessionsConfig) DataAwsccMacieSessions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMacieSessions.DataAwsccMacieSessions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciesessions"
 
 dataawsccmaciesessions.DataAwsccMacieSessions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMacieSessions.DataAwsccMacieSessions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciesessions"
 
 dataawsccmaciesessions.DataAwsccMacieSessions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmaciesessions.DataAwsccMacieSessions_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMacieSessions.DataAwsccMacieSessions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciesessions"
 
 dataawsccmaciesessions.DataAwsccMacieSessions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmaciesessions.DataAwsccMacieSessions_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMacieSessions.DataAwsccMacieSessions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciesessions"
 
 dataawsccmaciesessions.DataAwsccMacieSessions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMacieSessions to 
 
 The id of the existing DataAwsccMacieSessions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_sessions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_sessions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMacieSessions.DataAwsccMacieSessionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciesessions"
 
 &dataawsccmaciesessions.DataAwsccMacieSessionsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### IotStream <a name="IotStream" id="@cdktn/provider-awscc.iotStream.IotStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream awscc_iot_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream awscc_iot_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotStream.IotStream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 iotstream.NewIotStream(scope Construct, id *string, config IotStreamConfig) IotStream
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotStream.IotStream.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 iotstream.IotStream_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotStream.IotStream.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 iotstream.IotStream_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ iotstream.IotStream_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotStream.IotStream.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 iotstream.IotStream_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ iotstream.IotStream_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotStream.IotStream.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 iotstream.IotStream_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the IotStream to import.
 
 The id of the existing IotStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -894,7 +894,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotStream.IotStreamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 &iotstream.IotStreamConfig {
 	Connection: interface{},
@@ -1011,7 +1011,7 @@ Files interface{}
 
 The files to stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#files IotStream#files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#files IotStream#files}
 
 ---
 
@@ -1025,7 +1025,7 @@ RoleArn *string
 
 An IAM role that allows the IoT service principal to access your S3 files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#role_arn IotStream#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#role_arn IotStream#role_arn}
 
 ---
 
@@ -1039,7 +1039,7 @@ StreamId *string
 
 The stream ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#stream_id IotStream#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#stream_id IotStream#stream_id}
 
 ---
 
@@ -1053,7 +1053,7 @@ Description *string
 
 The description of the stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#description IotStream#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#description IotStream#description}
 
 ---
 
@@ -1067,7 +1067,7 @@ Tags interface{}
 
 Metadata which can be used to manage streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#tags IotStream#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#tags IotStream#tags}
 
 ---
 
@@ -1076,11 +1076,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotStream.IotStreamFiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 &iotstream.IotStreamFiles {
 	FileId: *f64,
-	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotStream.IotStreamFilesS3Location,
+	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotStream.IotStreamFilesS3Location,
 }
 ```
 
@@ -1103,7 +1103,7 @@ FileId *f64
 
 The file ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#file_id IotStream#file_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#file_id IotStream#file_id}
 
 ---
 
@@ -1117,7 +1117,7 @@ S3Location IotStreamFilesS3Location
 
 The location of the file in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#s3_location IotStream#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#s3_location IotStream#s3_location}
 
 ---
 
@@ -1126,7 +1126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotStream.IotStreamFilesS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 &iotstream.IotStreamFilesS3Location {
 	Bucket: *string,
@@ -1155,7 +1155,7 @@ Bucket *string
 
 The S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#bucket IotStream#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#bucket IotStream#bucket}
 
 ---
 
@@ -1169,7 +1169,7 @@ Key *string
 
 The S3 key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#key IotStream#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#key IotStream#key}
 
 ---
 
@@ -1183,7 +1183,7 @@ Version *string
 
 The S3 bucket version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#version IotStream#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#version IotStream#version}
 
 ---
 
@@ -1192,7 +1192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotStream.IotStreamTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 &iotstream.IotStreamTags {
 	Key: *string,
@@ -1219,7 +1219,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#key IotStream#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#key IotStream#key}
 
 ---
 
@@ -1233,7 +1233,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_stream#value IotStream#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_stream#value IotStream#value}
 
 ---
 
@@ -1244,7 +1244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotStream.IotStreamFilesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 iotstream.NewIotStreamFilesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotStreamFilesList
 ```
@@ -1404,7 +1404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotStream.IotStreamFilesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 iotstream.NewIotStreamFilesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotStreamFilesOutputReference
 ```
@@ -1742,7 +1742,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotStream.IotStreamFilesS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 iotstream.NewIotStreamFilesS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotStreamFilesS3LocationOutputReference
 ```
@@ -2078,7 +2078,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotStream.IotStreamTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 iotstream.NewIotStreamTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotStreamTagsList
 ```
@@ -2238,7 +2238,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotStream.IotStreamTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotstream"
 
 iotstream.NewIotStreamTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotStreamTagsOutputReference
 ```

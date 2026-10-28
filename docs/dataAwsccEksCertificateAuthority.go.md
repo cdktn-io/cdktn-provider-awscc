@@ -4,12 +4,12 @@
 
 ### DataAwsccEksCertificateAuthority <a name="DataAwsccEksCertificateAuthority" id="@cdktn/provider-awscc.dataAwsccEksCertificateAuthority.DataAwsccEksCertificateAuthority"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_certificate_authority awscc_eks_certificate_authority}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_certificate_authority awscc_eks_certificate_authority}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCertificateAuthority.DataAwsccEksCertificateAuthority.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscertificateauthority"
 
 dataawsccekscertificateauthority.NewDataAwsccEksCertificateAuthority(scope Construct, id *string, config DataAwsccEksCertificateAuthorityConfig) DataAwsccEksCertificateAuthority
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEksCertificateAuthority.DataAwsccEksCertificateAuthority.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscertificateauthority"
 
 dataawsccekscertificateauthority.DataAwsccEksCertificateAuthority_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEksCertificateAuthority.DataAwsccEksCertificateAuthority.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscertificateauthority"
 
 dataawsccekscertificateauthority.DataAwsccEksCertificateAuthority_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccekscertificateauthority.DataAwsccEksCertificateAuthority_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEksCertificateAuthority.DataAwsccEksCertificateAuthority.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscertificateauthority"
 
 dataawsccekscertificateauthority.DataAwsccEksCertificateAuthority_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccekscertificateauthority.DataAwsccEksCertificateAuthority_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEksCertificateAuthority.DataAwsccEksCertificateAuthority.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscertificateauthority"
 
 dataawsccekscertificateauthority.DataAwsccEksCertificateAuthority_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEksCertificateAut
 
 The id of the existing DataAwsccEksCertificateAuthority that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_certificate_authority#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_certificate_authority#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCertificateAuthority.DataAwsccEksCertificateAuthorityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscertificateauthority"
 
 &dataawsccekscertificateauthority.DataAwsccEksCertificateAuthorityConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_certificate_authority#id DataAwsccEksCertificateAuthority#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_certificate_authority#id DataAwsccEksCertificateAuthority#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCertificateAuthority.DataAwsccEksCertificateAuthorityScheduledEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscertificateauthority"
 
 &dataawsccekscertificateauthority.DataAwsccEksCertificateAuthorityScheduledEvents {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCertificateAuthority.DataAwsccEksCertificateAuthorityValidity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscertificateauthority"
 
 &dataawsccekscertificateauthority.DataAwsccEksCertificateAuthorityValidity {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCertificateAuthority.DataAwsccEksCertificateAuthorityScheduledEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscertificateauthority"
 
 dataawsccekscertificateauthority.NewDataAwsccEksCertificateAuthorityScheduledEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEksCertificateAuthorityScheduledEventsOutputReference
 ```
@@ -1139,7 +1139,7 @@ func InternalValue() DataAwsccEksCertificateAuthorityScheduledEvents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCertificateAuthority.DataAwsccEksCertificateAuthorityValidityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscertificateauthority"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscertificateauthority"
 
 dataawsccekscertificateauthority.NewDataAwsccEksCertificateAuthorityValidityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEksCertificateAuthorityValidityOutputReference
 ```

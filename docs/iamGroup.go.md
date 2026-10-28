@@ -4,12 +4,12 @@
 
 ### IamGroup <a name="IamGroup" id="@cdktn/provider-awscc.iamGroup.IamGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group awscc_iam_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group awscc_iam_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamGroup.IamGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgroup"
 
 iamgroup.NewIamGroup(scope Construct, id *string, config IamGroupConfig) IamGroup
 ```
@@ -441,7 +441,7 @@ func ResetPolicies()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iamGroup.IamGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgroup"
 
 iamgroup.IamGroup_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iamGroup.IamGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgroup"
 
 iamgroup.IamGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ iamgroup.IamGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iamGroup.IamGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgroup"
 
 iamgroup.IamGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ iamgroup.IamGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iamGroup.IamGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgroup"
 
 iamgroup.IamGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the IamGroup to import.
 
 The id of the existing IamGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -840,7 +840,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iamGroup.IamGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgroup"
 
 &iamgroup.IamGroupConfig {
 	Connection: interface{},
@@ -961,7 +961,7 @@ If you specify a name, you cannot perform updates that require replacement of th
 If you specify a name, you must specify the `CAPABILITY_NAMED_IAM` value to acknowledge your template's capabilities. For more information, see [Acknowledging Resources in Templates](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-iam-template.html#using-iam-capabilities).
 Naming an IAM resource can cause an unrecoverable error if you reuse the same template in multiple Regions. To prevent this, we recommend using `Fn::Join` and `AWS::Region` to create a Region-specific name, as in the following example: `{"Fn::Join": ["", [{"Ref": "AWS::Region"}, {"Ref": "MyResourceName"}]]}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group#group_name IamGroup#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group#group_name IamGroup#group_name}
 
 ---
 
@@ -977,7 +977,7 @@ The Amazon Resource Name (ARN) of the IAM policy you want to attach.
 
 For more information about ARNs, see [Amazon Resource Names (ARNs)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) in the *General Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group#managed_policy_arns IamGroup#managed_policy_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group#managed_policy_arns IamGroup#managed_policy_arns}
 
 ---
 
@@ -995,7 +995,7 @@ For more information about paths, see [IAM identifiers](https://docs.aws.amazon.
 This parameter is optional. If it is not included, it defaults to a slash (/).
 This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of either a forward slash (/) by itself or a string that must begin and end with forward slashes. In addition, it can contain any ASCII character from the ! (`\u0021`) through the DEL character (`\u007F`), including most punctuation characters, digits, and upper and lowercased letters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group#path IamGroup#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group#path IamGroup#path}
 
 ---
 
@@ -1013,7 +1013,7 @@ To view AWS::IAM::Group snippets, see [Declaring an Group Resource](https://docs
 The name of each inline policy for a role, user, or group must be unique. If you don't choose unique names, updates to the IAM identity will fail.
 For information about limits on the number of inline policies that you can embed in a group, see [Limitations on Entities](https://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html) in the *User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group#policies IamGroup#policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group#policies IamGroup#policies}
 
 ---
 
@@ -1022,7 +1022,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iamGroup.IamGroupPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgroup"
 
 &iamgroup.IamGroupPolicies {
 	PolicyDocument: *string,
@@ -1049,7 +1049,7 @@ PolicyDocument *string
 
 The policy document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group#policy_document IamGroup#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group#policy_document IamGroup#policy_document}
 
 ---
 
@@ -1063,7 +1063,7 @@ PolicyName *string
 
 The friendly name (not ARN) identifying the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group#policy_name IamGroup#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group#policy_name IamGroup#policy_name}
 
 ---
 
@@ -1074,7 +1074,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamGroup.IamGroupPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgroup"
 
 iamgroup.NewIamGroupPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IamGroupPoliciesList
 ```
@@ -1234,7 +1234,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamGroup.IamGroupPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgroup"
 
 iamgroup.NewIamGroupPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IamGroupPoliciesOutputReference
 ```

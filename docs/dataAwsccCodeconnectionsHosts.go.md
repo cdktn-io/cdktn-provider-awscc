@@ -4,12 +4,12 @@
 
 ### DataAwsccCodeconnectionsHosts <a name="DataAwsccCodeconnectionsHosts" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHosts.DataAwsccCodeconnectionsHosts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codeconnections_hosts awscc_codeconnections_hosts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codeconnections_hosts awscc_codeconnections_hosts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHosts.DataAwsccCodeconnectionsHosts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshosts"
 
 dataawscccodeconnectionshosts.NewDataAwsccCodeconnectionsHosts(scope Construct, id *string, config DataAwsccCodeconnectionsHostsConfig) DataAwsccCodeconnectionsHosts
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHosts.DataAwsccCodeconnectionsHosts.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshosts"
 
 dataawscccodeconnectionshosts.DataAwsccCodeconnectionsHosts_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHosts.DataAwsccCodeconnectionsHosts.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshosts"
 
 dataawscccodeconnectionshosts.DataAwsccCodeconnectionsHosts_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodeconnectionshosts.DataAwsccCodeconnectionsHosts_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHosts.DataAwsccCodeconnectionsHosts.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshosts"
 
 dataawscccodeconnectionshosts.DataAwsccCodeconnectionsHosts_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodeconnectionshosts.DataAwsccCodeconnectionsHosts_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHosts.DataAwsccCodeconnectionsHosts.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshosts"
 
 dataawscccodeconnectionshosts.DataAwsccCodeconnectionsHosts_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodeconnectionsHo
 
 The id of the existing DataAwsccCodeconnectionsHosts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codeconnections_hosts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codeconnections_hosts#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHosts.DataAwsccCodeconnectionsHostsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshosts"
 
 &dataawscccodeconnectionshosts.DataAwsccCodeconnectionsHostsConfig {
 	Connection: interface{},

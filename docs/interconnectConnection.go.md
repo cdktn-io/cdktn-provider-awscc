@@ -4,12 +4,12 @@
 
 ### InterconnectConnection <a name="InterconnectConnection" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection awscc_interconnect_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection awscc_interconnect_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 interconnectconnection.NewInterconnectConnection(scope Construct, id *string, config InterconnectConnectionConfig) InterconnectConnection
 ```
@@ -488,7 +488,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 interconnectconnection.InterconnectConnection_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 interconnectconnection.InterconnectConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ interconnectconnection.InterconnectConnection_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 interconnectconnection.InterconnectConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ interconnectconnection.InterconnectConnection_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 interconnectconnection.InterconnectConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the InterconnectConnection to 
 
 The id of the existing InterconnectConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1052,7 +1052,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnectionAttachPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 &interconnectconnection.InterconnectConnectionAttachPoint {
 	Arn: *string,
@@ -1079,7 +1079,7 @@ Arn *string
 
 The ARN of the resource to attach to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#arn InterconnectConnection#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#arn InterconnectConnection#arn}
 
 ---
 
@@ -1093,7 +1093,7 @@ DirectConnectGateway *string
 
 The ID of the Direct Connect Gateway to attach to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#direct_connect_gateway InterconnectConnection#direct_connect_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#direct_connect_gateway InterconnectConnection#direct_connect_gateway}
 
 ---
 
@@ -1102,7 +1102,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 &interconnectconnection.InterconnectConnectionConfig {
 	Connection: interface{},
@@ -1112,12 +1112,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	AttachPoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.interconnectConnection.InterconnectConnectionAttachPoint,
+	AttachPoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.interconnectConnection.InterconnectConnectionAttachPoint,
 	ActivationKey: *string,
 	Bandwidth: *string,
 	Description: *string,
 	EnvironmentId: *string,
-	RemoteAccount: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.interconnectConnection.InterconnectConnectionRemoteAccount,
+	RemoteAccount: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.interconnectConnection.InterconnectConnectionRemoteAccount,
 	RemoteOwnerAccount: *string,
 	Tags: interface{},
 }
@@ -1225,7 +1225,7 @@ AttachPoint InterconnectConnectionAttachPoint
 
 The logical attachment point in your AWS network where the managed connection will be connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#attach_point InterconnectConnection#attach_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#attach_point InterconnectConnection#attach_point}
 
 ---
 
@@ -1239,7 +1239,7 @@ ActivationKey *string
 
 The activation key for accepting a connection proposal from a partner CSP. Mutually exclusive with EnvironmentId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#activation_key InterconnectConnection#activation_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#activation_key InterconnectConnection#activation_key}
 
 ---
 
@@ -1253,7 +1253,7 @@ Bandwidth *string
 
 The bandwidth of the connection (e.g., 50Mbps, 1Gbps). Required when creating a connection through AWS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#bandwidth InterconnectConnection#bandwidth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#bandwidth InterconnectConnection#bandwidth}
 
 ---
 
@@ -1267,7 +1267,7 @@ Description *string
 
 A description of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#description InterconnectConnection#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#description InterconnectConnection#description}
 
 ---
 
@@ -1281,7 +1281,7 @@ EnvironmentId *string
 
 The ID of the environment for the connection. Required when creating a connection through AWS. Mutually exclusive with ActivationKey.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#environment_id InterconnectConnection#environment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#environment_id InterconnectConnection#environment_id}
 
 ---
 
@@ -1295,7 +1295,7 @@ RemoteAccount InterconnectConnectionRemoteAccount
 
 The remote account identifier for the connection. Required when creating a connection through AWS. Replaces RemoteOwnerAccount.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#remote_account InterconnectConnection#remote_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#remote_account InterconnectConnection#remote_account}
 
 ---
 
@@ -1309,7 +1309,7 @@ RemoteOwnerAccount *string
 
 Deprecated. Use RemoteAccount instead. The account ID of the remote owner. Required when creating a connection through AWS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#remote_owner_account InterconnectConnection#remote_owner_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#remote_owner_account InterconnectConnection#remote_owner_account}
 
 ---
 
@@ -1323,7 +1323,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#tags InterconnectConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#tags InterconnectConnection#tags}
 
 ---
 
@@ -1332,7 +1332,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnectionProviderName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 &interconnectconnection.InterconnectConnectionProviderName {
 
@@ -1345,7 +1345,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnectionRemoteAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 &interconnectconnection.InterconnectConnectionRemoteAccount {
 	Identifier: *string,
@@ -1370,7 +1370,7 @@ Identifier *string
 
 The identifier of the remote account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#identifier InterconnectConnection#identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#identifier InterconnectConnection#identifier}
 
 ---
 
@@ -1379,7 +1379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnectionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 &interconnectconnection.InterconnectConnectionTags {
 	Key: *string,
@@ -1408,7 +1408,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#key InterconnectConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#key InterconnectConnection#key}
 
 ---
 
@@ -1424,7 +1424,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection#value InterconnectConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection#value InterconnectConnection#value}
 
 ---
 
@@ -1435,7 +1435,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnectionAttachPointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 interconnectconnection.NewInterconnectConnectionAttachPointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) InterconnectConnectionAttachPointOutputReference
 ```
@@ -1742,7 +1742,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnectionProviderNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 interconnectconnection.NewInterconnectConnectionProviderNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) InterconnectConnectionProviderNameOutputReference
 ```
@@ -2013,7 +2013,7 @@ func InternalValue() InterconnectConnectionProviderName
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnectionRemoteAccountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 interconnectconnection.NewInterconnectConnectionRemoteAccountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) InterconnectConnectionRemoteAccountOutputReference
 ```
@@ -2291,7 +2291,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnectionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 interconnectconnection.NewInterconnectConnectionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) InterconnectConnectionTagsList
 ```
@@ -2451,7 +2451,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.interconnectConnection.InterconnectConnectionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection"
 
 interconnectconnection.NewInterconnectConnectionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) InterconnectConnectionTagsOutputReference
 ```

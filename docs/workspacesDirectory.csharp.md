@@ -4,7 +4,7 @@
 
 ### WorkspacesDirectory <a name="WorkspacesDirectory" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectory"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory awscc_workspaces_directory}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory awscc_workspaces_directory}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectory.Initializer"></a>
 
@@ -739,7 +739,7 @@ The construct id used in the generated config for the WorkspacesDirectory to imp
 
 The id of the existing WorkspacesDirectory that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1538,7 +1538,7 @@ public string DomainName { get; set; }
 
 The name of the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#domain_name WorkspacesDirectory#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#domain_name WorkspacesDirectory#domain_name}
 
 ---
 
@@ -1552,7 +1552,7 @@ public string ServiceAccountSecretArn { get; set; }
 
 Indicates the secret ARN on the service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#service_account_secret_arn WorkspacesDirectory#service_account_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#service_account_secret_arn WorkspacesDirectory#service_account_secret_arn}
 
 ---
 
@@ -1588,7 +1588,7 @@ public string CertificateAuthorityArn { get; set; }
 
 The Amazon Resource Name (ARN) of the Amazon Web Services Certificate Manager Private CA resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#certificate_authority_arn WorkspacesDirectory#certificate_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#certificate_authority_arn WorkspacesDirectory#certificate_authority_arn}
 
 ---
 
@@ -1602,7 +1602,7 @@ public string Status { get; set; }
 
 The status of the certificate-based authentication properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
 
 ---
 
@@ -1756,7 +1756,7 @@ public WorkspacesDirectoryActiveDirectoryConfig ActiveDirectoryConfig { get; set
 
 Information about the Active Directory config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#active_directory_config WorkspacesDirectory#active_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#active_directory_config WorkspacesDirectory#active_directory_config}
 
 ---
 
@@ -1770,7 +1770,7 @@ public WorkspacesDirectoryCertificateBasedAuthProperties CertificateBasedAuthPro
 
 Describes the properties of the certificate-based authentication you want to use with your WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#certificate_based_auth_properties WorkspacesDirectory#certificate_based_auth_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#certificate_based_auth_properties WorkspacesDirectory#certificate_based_auth_properties}
 
 ---
 
@@ -1784,7 +1784,7 @@ public bool|IResolvable EnableSelfService { get; set; }
 
 Indicates whether self-service capabilities are enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#enable_self_service WorkspacesDirectory#enable_self_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#enable_self_service WorkspacesDirectory#enable_self_service}
 
 ---
 
@@ -1798,7 +1798,7 @@ public string EndpointEncryptionMode { get; set; }
 
 Endpoint encryption mode that allows you to configure the specified directory between Standard TLS and FIPS 140-2 validated mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#endpoint_encryption_mode WorkspacesDirectory#endpoint_encryption_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#endpoint_encryption_mode WorkspacesDirectory#endpoint_encryption_mode}
 
 ---
 
@@ -1812,7 +1812,7 @@ public string IdcInstanceArn { get; set; }
 
 The Amazon Resource Name (ARN) of the identity center instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#idc_instance_arn WorkspacesDirectory#idc_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#idc_instance_arn WorkspacesDirectory#idc_instance_arn}
 
 ---
 
@@ -1826,7 +1826,7 @@ public string[] IpGroupIds { get; set; }
 
 The identifiers of the IP access control groups associated with the directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#ip_group_ids WorkspacesDirectory#ip_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#ip_group_ids WorkspacesDirectory#ip_group_ids}
 
 ---
 
@@ -1840,7 +1840,7 @@ public WorkspacesDirectoryMicrosoftEntraConfig MicrosoftEntraConfig { get; set; 
 
 Specifies the configurations of the Microsoft Entra.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#microsoft_entra_config WorkspacesDirectory#microsoft_entra_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#microsoft_entra_config WorkspacesDirectory#microsoft_entra_config}
 
 ---
 
@@ -1854,7 +1854,7 @@ public WorkspacesDirectorySamlProperties SamlProperties { get; set; }
 
 Describes the enablement status, user access URL, and relay state parameter name that are used for configuring federation with an SAML 2.0 identity provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#saml_properties WorkspacesDirectory#saml_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#saml_properties WorkspacesDirectory#saml_properties}
 
 ---
 
@@ -1868,7 +1868,7 @@ public WorkspacesDirectorySelfservicePermissions SelfservicePermissions { get; s
 
 Describes the self-service permissions for a directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#selfservice_permissions WorkspacesDirectory#selfservice_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#selfservice_permissions WorkspacesDirectory#selfservice_permissions}
 
 ---
 
@@ -1882,7 +1882,7 @@ public WorkspacesDirectoryStreamingProperties StreamingProperties { get; set; }
 
 Describes the streaming properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#streaming_properties WorkspacesDirectory#streaming_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#streaming_properties WorkspacesDirectory#streaming_properties}
 
 ---
 
@@ -1896,7 +1896,7 @@ public string[] SubnetIds { get; set; }
 
 The identifiers of the subnets for your virtual private cloud (VPC).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#subnet_ids WorkspacesDirectory#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#subnet_ids WorkspacesDirectory#subnet_ids}
 
 ---
 
@@ -1910,7 +1910,7 @@ public IResolvable|WorkspacesDirectoryTags[] Tags { get; set; }
 
 The tags associated with the directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#tags WorkspacesDirectory#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#tags WorkspacesDirectory#tags}
 
 ---
 
@@ -1924,7 +1924,7 @@ public string Tenancy { get; set; }
 
 Indicates whether your WorkSpace directory is dedicated or shared.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#tenancy WorkspacesDirectory#tenancy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#tenancy WorkspacesDirectory#tenancy}
 
 ---
 
@@ -1938,7 +1938,7 @@ public string UserIdentityType { get; set; }
 
 The type of identity management the user is using.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#user_identity_type WorkspacesDirectory#user_identity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#user_identity_type WorkspacesDirectory#user_identity_type}
 
 ---
 
@@ -1952,7 +1952,7 @@ public WorkspacesDirectoryWorkspaceAccessProperties WorkspaceAccessProperties { 
 
 The device types and operating systems that can be used to access a WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#workspace_access_properties WorkspacesDirectory#workspace_access_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#workspace_access_properties WorkspacesDirectory#workspace_access_properties}
 
 ---
 
@@ -1966,7 +1966,7 @@ public WorkspacesDirectoryWorkspaceCreationProperties WorkspaceCreationPropertie
 
 The default values that are used to create WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#workspace_creation_properties WorkspacesDirectory#workspace_creation_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#workspace_creation_properties WorkspacesDirectory#workspace_creation_properties}
 
 ---
 
@@ -1980,7 +1980,7 @@ public string WorkspaceDirectoryDescription { get; set; }
 
 Description of the directory to register.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#workspace_directory_description WorkspacesDirectory#workspace_directory_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#workspace_directory_description WorkspacesDirectory#workspace_directory_description}
 
 ---
 
@@ -1994,7 +1994,7 @@ public string WorkspaceDirectoryName { get; set; }
 
 The name of the directory to register.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#workspace_directory_name WorkspacesDirectory#workspace_directory_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#workspace_directory_name WorkspacesDirectory#workspace_directory_name}
 
 ---
 
@@ -2008,7 +2008,7 @@ public string WorkspaceType { get; set; }
 
 Indicates whether the directory's WorkSpace type is personal or pools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#workspace_type WorkspacesDirectory#workspace_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#workspace_type WorkspacesDirectory#workspace_type}
 
 ---
 
@@ -2057,7 +2057,7 @@ public string ApplicationConfigSecretArn { get; set; }
 
 The Amazon Resource Name (ARN) of the application config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#application_config_secret_arn WorkspacesDirectory#application_config_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#application_config_secret_arn WorkspacesDirectory#application_config_secret_arn}
 
 ---
 
@@ -2071,7 +2071,7 @@ public string TenantId { get; set; }
 
 The identifier of the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#tenant_id WorkspacesDirectory#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#tenant_id WorkspacesDirectory#tenant_id}
 
 ---
 
@@ -2109,7 +2109,7 @@ public string RelayStateParameterName { get; set; }
 
 The relay state parameter name supported by the SAML 2.0 identity provider (IdP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#relay_state_parameter_name WorkspacesDirectory#relay_state_parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#relay_state_parameter_name WorkspacesDirectory#relay_state_parameter_name}
 
 ---
 
@@ -2123,7 +2123,7 @@ public string Status { get; set; }
 
 Indicates the status of SAML 2.0 authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
 
 ---
 
@@ -2137,7 +2137,7 @@ public string UserAccessUrl { get; set; }
 
 The SAML 2.0 identity provider (IdP) user access URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#user_access_url WorkspacesDirectory#user_access_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#user_access_url WorkspacesDirectory#user_access_url}
 
 ---
 
@@ -2179,7 +2179,7 @@ public string ChangeComputeType { get; set; }
 
 Specifies whether users can change the compute type (bundle) for their WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#change_compute_type WorkspacesDirectory#change_compute_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#change_compute_type WorkspacesDirectory#change_compute_type}
 
 ---
 
@@ -2193,7 +2193,7 @@ public string IncreaseVolumeSize { get; set; }
 
 Specifies whether users can increase the volume size of the drives on their WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#increase_volume_size WorkspacesDirectory#increase_volume_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#increase_volume_size WorkspacesDirectory#increase_volume_size}
 
 ---
 
@@ -2207,7 +2207,7 @@ public string RebuildWorkspace { get; set; }
 
 Specifies whether users can rebuild the operating system of a WorkSpace to its original state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#rebuild_workspace WorkspacesDirectory#rebuild_workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#rebuild_workspace WorkspacesDirectory#rebuild_workspace}
 
 ---
 
@@ -2221,7 +2221,7 @@ public string RestartWorkspace { get; set; }
 
 Specifies whether users can restart their WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#restart_workspace WorkspacesDirectory#restart_workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#restart_workspace WorkspacesDirectory#restart_workspace}
 
 ---
 
@@ -2235,7 +2235,7 @@ public string SwitchRunningMode { get; set; }
 
 Specifies whether users can switch the running mode of their WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#switch_running_mode WorkspacesDirectory#switch_running_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#switch_running_mode WorkspacesDirectory#switch_running_mode}
 
 ---
 
@@ -2275,7 +2275,7 @@ public WorkspacesDirectoryStreamingPropertiesGlobalAccelerator GlobalAccelerator
 
 Describes the Global Accelerator for directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#global_accelerator WorkspacesDirectory#global_accelerator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#global_accelerator WorkspacesDirectory#global_accelerator}
 
 ---
 
@@ -2289,7 +2289,7 @@ public IResolvable|WorkspacesDirectoryStreamingPropertiesStorageConnectors[] Sto
 
 Indicates the storage connector used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#storage_connectors WorkspacesDirectory#storage_connectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#storage_connectors WorkspacesDirectory#storage_connectors}
 
 ---
 
@@ -2303,7 +2303,7 @@ public string StreamingExperiencePreferredProtocol { get; set; }
 
 Indicates the type of preferred protocol for the streaming experience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#streaming_experience_preferred_protocol WorkspacesDirectory#streaming_experience_preferred_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#streaming_experience_preferred_protocol WorkspacesDirectory#streaming_experience_preferred_protocol}
 
 ---
 
@@ -2317,7 +2317,7 @@ public IResolvable|WorkspacesDirectoryStreamingPropertiesUserSettings[] UserSett
 
 Indicates the permission settings associated with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#user_settings WorkspacesDirectory#user_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#user_settings WorkspacesDirectory#user_settings}
 
 ---
 
@@ -2353,7 +2353,7 @@ public string Mode { get; set; }
 
 Indicates if Global Accelerator for directory is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#mode WorkspacesDirectory#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#mode WorkspacesDirectory#mode}
 
 ---
 
@@ -2367,7 +2367,7 @@ public string PreferredProtocol { get; set; }
 
 Indicates the preferred protocol for Global Accelerator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#preferred_protocol WorkspacesDirectory#preferred_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#preferred_protocol WorkspacesDirectory#preferred_protocol}
 
 ---
 
@@ -2403,7 +2403,7 @@ public string ConnectorType { get; set; }
 
 The type of connector used to save user files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#connector_type WorkspacesDirectory#connector_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#connector_type WorkspacesDirectory#connector_type}
 
 ---
 
@@ -2417,7 +2417,7 @@ public string Status { get; set; }
 
 Indicates if the storage connector is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
 
 ---
 
@@ -2455,7 +2455,7 @@ public string Action { get; set; }
 
 Indicates the type of action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#action WorkspacesDirectory#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#action WorkspacesDirectory#action}
 
 ---
 
@@ -2469,7 +2469,7 @@ public double MaximumLength { get; set; }
 
 Indicates the maximum character length for the specified user setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#maximum_length WorkspacesDirectory#maximum_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#maximum_length WorkspacesDirectory#maximum_length}
 
 ---
 
@@ -2483,7 +2483,7 @@ public string Permission { get; set; }
 
 Indicates if the setting is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#permission WorkspacesDirectory#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#permission WorkspacesDirectory#permission}
 
 ---
 
@@ -2519,7 +2519,7 @@ public string Key { get; set; }
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#key WorkspacesDirectory#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#key WorkspacesDirectory#key}
 
 ---
 
@@ -2533,7 +2533,7 @@ public string Value { get; set; }
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#value WorkspacesDirectory#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#value WorkspacesDirectory#value}
 
 ---
 
@@ -2585,7 +2585,7 @@ public WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig AccessEn
 
 Describes the access endpoint configuration for a WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#access_endpoint_config WorkspacesDirectory#access_endpoint_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#access_endpoint_config WorkspacesDirectory#access_endpoint_config}
 
 ---
 
@@ -2599,7 +2599,7 @@ public string DeviceTypeAndroid { get; set; }
 
 Indicates whether users can use Android and Android-compatible Chrome OS devices to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_android WorkspacesDirectory#device_type_android}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_android WorkspacesDirectory#device_type_android}
 
 ---
 
@@ -2613,7 +2613,7 @@ public string DeviceTypeChromeOs { get; set; }
 
 Indicates whether users can use Chromebooks to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_chrome_os WorkspacesDirectory#device_type_chrome_os}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_chrome_os WorkspacesDirectory#device_type_chrome_os}
 
 ---
 
@@ -2627,7 +2627,7 @@ public string DeviceTypeIos { get; set; }
 
 Indicates whether users can use iOS devices to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_ios WorkspacesDirectory#device_type_ios}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_ios WorkspacesDirectory#device_type_ios}
 
 ---
 
@@ -2641,7 +2641,7 @@ public string DeviceTypeLinux { get; set; }
 
 Indicates whether users can use Linux clients to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_linux WorkspacesDirectory#device_type_linux}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_linux WorkspacesDirectory#device_type_linux}
 
 ---
 
@@ -2655,7 +2655,7 @@ public string DeviceTypeOsx { get; set; }
 
 Indicates whether users can use macOS clients to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_osx WorkspacesDirectory#device_type_osx}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_osx WorkspacesDirectory#device_type_osx}
 
 ---
 
@@ -2669,7 +2669,7 @@ public string DeviceTypeWeb { get; set; }
 
 Indicates whether users can access their WorkSpaces through a web browser.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_web WorkspacesDirectory#device_type_web}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_web WorkspacesDirectory#device_type_web}
 
 ---
 
@@ -2683,7 +2683,7 @@ public string DeviceTypeWindows { get; set; }
 
 Indicates whether users can use Windows clients to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_windows WorkspacesDirectory#device_type_windows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_windows WorkspacesDirectory#device_type_windows}
 
 ---
 
@@ -2697,7 +2697,7 @@ public string DeviceTypeWorkSpacesThinClient { get; set; }
 
 Indicates whether users can access their WorkSpaces through a WorkSpaces Thin Client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_work_spaces_thin_client WorkspacesDirectory#device_type_work_spaces_thin_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_work_spaces_thin_client WorkspacesDirectory#device_type_work_spaces_thin_client}
 
 ---
 
@@ -2711,7 +2711,7 @@ public string DeviceTypeZeroClient { get; set; }
 
 Indicates whether users can use zero client devices to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_zero_client WorkspacesDirectory#device_type_zero_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_zero_client WorkspacesDirectory#device_type_zero_client}
 
 ---
 
@@ -2747,7 +2747,7 @@ public IResolvable|WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointCon
 
 Indicates a list of access endpoints associated with this directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#access_endpoints WorkspacesDirectory#access_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#access_endpoints WorkspacesDirectory#access_endpoints}
 
 ---
 
@@ -2761,7 +2761,7 @@ public string[] InternetFallbackProtocols { get; set; }
 
 Indicates a list of protocols that fallback to using the public Internet when streaming over a VPC endpoint is not available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#internet_fallback_protocols WorkspacesDirectory#internet_fallback_protocols}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#internet_fallback_protocols WorkspacesDirectory#internet_fallback_protocols}
 
 ---
 
@@ -2797,7 +2797,7 @@ public string AccessEndpointType { get; set; }
 
 Indicates the type of access endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#access_endpoint_type WorkspacesDirectory#access_endpoint_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#access_endpoint_type WorkspacesDirectory#access_endpoint_type}
 
 ---
 
@@ -2811,7 +2811,7 @@ public string VpcEndpointId { get; set; }
 
 Indicates the VPC endpoint to use for access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#vpc_endpoint_id WorkspacesDirectory#vpc_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#vpc_endpoint_id WorkspacesDirectory#vpc_endpoint_id}
 
 ---
 
@@ -2855,7 +2855,7 @@ public string CustomSecurityGroupId { get; set; }
 
 The identifier of the default security group to apply to WorkSpaces when they are created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#custom_security_group_id WorkspacesDirectory#custom_security_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#custom_security_group_id WorkspacesDirectory#custom_security_group_id}
 
 ---
 
@@ -2869,7 +2869,7 @@ public string DefaultOu { get; set; }
 
 The organizational unit (OU) in the directory for the WorkSpace machine accounts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#default_ou WorkspacesDirectory#default_ou}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#default_ou WorkspacesDirectory#default_ou}
 
 ---
 
@@ -2883,7 +2883,7 @@ public bool|IResolvable EnableInternetAccess { get; set; }
 
 Specifies whether to automatically assign an Elastic public IP address to WorkSpaces in this directory by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#enable_internet_access WorkspacesDirectory#enable_internet_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#enable_internet_access WorkspacesDirectory#enable_internet_access}
 
 ---
 
@@ -2897,7 +2897,7 @@ public bool|IResolvable EnableMaintenanceMode { get; set; }
 
 Specifies whether maintenance mode is enabled for WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#enable_maintenance_mode WorkspacesDirectory#enable_maintenance_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#enable_maintenance_mode WorkspacesDirectory#enable_maintenance_mode}
 
 ---
 
@@ -2911,7 +2911,7 @@ public string InstanceIamRoleArn { get; set; }
 
 Indicates the IAM role ARN of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#instance_iam_role_arn WorkspacesDirectory#instance_iam_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#instance_iam_role_arn WorkspacesDirectory#instance_iam_role_arn}
 
 ---
 
@@ -2925,7 +2925,7 @@ public bool|IResolvable UserEnabledAsLocalAdministrator { get; set; }
 
 Specifies whether WorkSpace users are local administrators on their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#user_enabled_as_local_administrator WorkspacesDirectory#user_enabled_as_local_administrator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#user_enabled_as_local_administrator WorkspacesDirectory#user_enabled_as_local_administrator}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkfirewallRuleGroups <a name="DataAwsccNetworkfirewallRuleGroups" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallRuleGroups.DataAwsccNetworkfirewallRuleGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_rule_groups awscc_networkfirewall_rule_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_rule_groups awscc_networkfirewall_rule_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallRuleGroups.DataAwsccNetworkfirewallRuleGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallrulegroups"
 
 dataawsccnetworkfirewallrulegroups.NewDataAwsccNetworkfirewallRuleGroups(scope Construct, id *string, config DataAwsccNetworkfirewallRuleGroupsConfig) DataAwsccNetworkfirewallRuleGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallRuleGroups.DataAwsccNetworkfirewallRuleGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallrulegroups"
 
 dataawsccnetworkfirewallrulegroups.DataAwsccNetworkfirewallRuleGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallRuleGroups.DataAwsccNetworkfirewallRuleGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallrulegroups"
 
 dataawsccnetworkfirewallrulegroups.DataAwsccNetworkfirewallRuleGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkfirewallrulegroups.DataAwsccNetworkfirewallRuleGroups_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallRuleGroups.DataAwsccNetworkfirewallRuleGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallrulegroups"
 
 dataawsccnetworkfirewallrulegroups.DataAwsccNetworkfirewallRuleGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkfirewallrulegroups.DataAwsccNetworkfirewallRuleGroups_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallRuleGroups.DataAwsccNetworkfirewallRuleGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallrulegroups"
 
 dataawsccnetworkfirewallrulegroups.DataAwsccNetworkfirewallRuleGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkfirewallRu
 
 The id of the existing DataAwsccNetworkfirewallRuleGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_rule_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_rule_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallRuleGroups.DataAwsccNetworkfirewallRuleGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallrulegroups"
 
 &dataawsccnetworkfirewallrulegroups.DataAwsccNetworkfirewallRuleGroupsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccFrauddetectorOutcome <a name="DataAwsccFrauddetectorOutcome" id="@cdktn/provider-awscc.dataAwsccFrauddetectorOutcome.DataAwsccFrauddetectorOutcome"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_outcome awscc_frauddetector_outcome}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_outcome awscc_frauddetector_outcome}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorOutcome.DataAwsccFrauddetectorOutcome.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoroutcome"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoroutcome"
 
 dataawsccfrauddetectoroutcome.NewDataAwsccFrauddetectorOutcome(scope Construct, id *string, config DataAwsccFrauddetectorOutcomeConfig) DataAwsccFrauddetectorOutcome
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFrauddetectorOutcome.DataAwsccFrauddetectorOutcome.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoroutcome"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoroutcome"
 
 dataawsccfrauddetectoroutcome.DataAwsccFrauddetectorOutcome_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFrauddetectorOutcome.DataAwsccFrauddetectorOutcome.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoroutcome"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoroutcome"
 
 dataawsccfrauddetectoroutcome.DataAwsccFrauddetectorOutcome_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfrauddetectoroutcome.DataAwsccFrauddetectorOutcome_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFrauddetectorOutcome.DataAwsccFrauddetectorOutcome.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoroutcome"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoroutcome"
 
 dataawsccfrauddetectoroutcome.DataAwsccFrauddetectorOutcome_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfrauddetectoroutcome.DataAwsccFrauddetectorOutcome_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFrauddetectorOutcome.DataAwsccFrauddetectorOutcome.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoroutcome"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoroutcome"
 
 dataawsccfrauddetectoroutcome.DataAwsccFrauddetectorOutcome_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFrauddetectorOutc
 
 The id of the existing DataAwsccFrauddetectorOutcome that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_outcome#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_outcome#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorOutcome.DataAwsccFrauddetectorOutcomeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoroutcome"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoroutcome"
 
 &dataawsccfrauddetectoroutcome.DataAwsccFrauddetectorOutcomeConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_outcome#id DataAwsccFrauddetectorOutcome#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_outcome#id DataAwsccFrauddetectorOutcome#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorOutcome.DataAwsccFrauddetectorOutcomeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoroutcome"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoroutcome"
 
 &dataawsccfrauddetectoroutcome.DataAwsccFrauddetectorOutcomeTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetector
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorOutcome.DataAwsccFrauddetectorOutcomeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoroutcome"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoroutcome"
 
 dataawsccfrauddetectoroutcome.NewDataAwsccFrauddetectorOutcomeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFrauddetectorOutcomeTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorOutcome.DataAwsccFrauddetectorOutcomeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoroutcome"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoroutcome"
 
 dataawsccfrauddetectoroutcome.NewDataAwsccFrauddetectorOutcomeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFrauddetectorOutcomeTagsOutputReference
 ```

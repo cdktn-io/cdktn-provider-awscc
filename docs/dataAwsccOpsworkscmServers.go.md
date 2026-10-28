@@ -4,12 +4,12 @@
 
 ### DataAwsccOpsworkscmServers <a name="DataAwsccOpsworkscmServers" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServers.DataAwsccOpsworkscmServers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opsworkscm_servers awscc_opsworkscm_servers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opsworkscm_servers awscc_opsworkscm_servers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServers.DataAwsccOpsworkscmServers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmservers"
 
 dataawsccopsworkscmservers.NewDataAwsccOpsworkscmServers(scope Construct, id *string, config DataAwsccOpsworkscmServersConfig) DataAwsccOpsworkscmServers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServers.DataAwsccOpsworkscmServers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmservers"
 
 dataawsccopsworkscmservers.DataAwsccOpsworkscmServers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServers.DataAwsccOpsworkscmServers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmservers"
 
 dataawsccopsworkscmservers.DataAwsccOpsworkscmServers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccopsworkscmservers.DataAwsccOpsworkscmServers_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServers.DataAwsccOpsworkscmServers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmservers"
 
 dataawsccopsworkscmservers.DataAwsccOpsworkscmServers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccopsworkscmservers.DataAwsccOpsworkscmServers_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServers.DataAwsccOpsworkscmServers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmservers"
 
 dataawsccopsworkscmservers.DataAwsccOpsworkscmServers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOpsworkscmServers
 
 The id of the existing DataAwsccOpsworkscmServers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opsworkscm_servers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opsworkscm_servers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServers.DataAwsccOpsworkscmServersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmservers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmservers"
 
 &dataawsccopsworkscmservers.DataAwsccOpsworkscmServersConfig {
 	Connection: interface{},

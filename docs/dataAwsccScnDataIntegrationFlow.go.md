@@ -4,12 +4,12 @@
 
 ### DataAwsccScnDataIntegrationFlow <a name="DataAwsccScnDataIntegrationFlow" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scn_data_integration_flow awscc_scn_data_integration_flow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scn_data_integration_flow awscc_scn_data_integration_flow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlow(scope Construct, id *string, config DataAwsccScnDataIntegrationFlowConfig) DataAwsccScnDataIntegrationFlow
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlow_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlow_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlow_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlow.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlow_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlow_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccScnDataIntegratio
 
 The id of the existing DataAwsccScnDataIntegrationFlow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scn_data_integration_flow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scn_data_integration_flow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scn_data_integration_flow#id DataAwsccScnDataIntegrationFlow#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scn_data_integration_flow#id DataAwsccScnDataIntegrationFlow#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowSources {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesDatasetSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowSourcesDatasetSource {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptions {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategy {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriority.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriority {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFields {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesS3Source.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowSourcesS3Source {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesS3SourceOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowSourcesS3SourceOptions {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowTags {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowTarget {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetDatasetTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowTargetDatasetTarget {
 
@@ -950,7 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptions {
 
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategy {
 
@@ -976,7 +976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriority.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriority {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFields {
 
@@ -1002,7 +1002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTransformation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowTransformation {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTransformationSqlTransformation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 &dataawsccscndataintegrationflow.DataAwsccScnDataIntegrationFlowTransformationSqlTransformation {
 
@@ -1030,7 +1030,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsList
 ```
@@ -1179,7 +1179,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsOutputReference
 ```
@@ -1468,7 +1468,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityOutputReference
 ```
@@ -1728,7 +1728,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyOutputReference
 ```
@@ -1999,7 +1999,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptionsOutputReference
 ```
@@ -2281,7 +2281,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowSourcesDatasetSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowSourcesDatasetSourceOutputReference
 ```
@@ -2552,7 +2552,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowSourcesDatasetSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccScnDataIntegrationFlowSourcesList
 ```
@@ -2701,7 +2701,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccScnDataIntegrationFlowSourcesOutputReference
 ```
@@ -3012,7 +3012,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowSources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesS3SourceOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowSourcesS3SourceOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowSourcesS3SourceOptionsOutputReference
 ```
@@ -3272,7 +3272,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowSourcesS3SourceOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowSourcesS3SourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowSourcesS3SourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowSourcesS3SourceOutputReference
 ```
@@ -3554,7 +3554,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowSourcesS3Source
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccScnDataIntegrationFlowTagsList
 ```
@@ -3703,7 +3703,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccScnDataIntegrationFlowTagsOutputReference
 ```
@@ -3992,7 +3992,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsList
 ```
@@ -4141,7 +4141,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsOutputReference
 ```
@@ -4430,7 +4430,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityOutputReference
 ```
@@ -4690,7 +4690,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyOutputReference
 ```
@@ -4961,7 +4961,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptionsOutputReference
 ```
@@ -5243,7 +5243,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowTargetDatasetTargetOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetDatasetTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowTargetDatasetTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowTargetDatasetTargetOutputReference
 ```
@@ -5514,7 +5514,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowTargetDatasetTarget
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowTargetOutputReference
 ```
@@ -5785,7 +5785,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowTarget
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTransformationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowTransformationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowTransformationOutputReference
 ```
@@ -6056,7 +6056,7 @@ func InternalValue() DataAwsccScnDataIntegrationFlowTransformation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataIntegrationFlow.DataAwsccScnDataIntegrationFlowTransformationSqlTransformationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataintegrationflow"
 
 dataawsccscndataintegrationflow.NewDataAwsccScnDataIntegrationFlowTransformationSqlTransformationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDataIntegrationFlowTransformationSqlTransformationOutputReference
 ```

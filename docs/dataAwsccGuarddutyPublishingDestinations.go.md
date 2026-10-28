@@ -4,12 +4,12 @@
 
 ### DataAwsccGuarddutyPublishingDestinations <a name="DataAwsccGuarddutyPublishingDestinations" id="@cdktn/provider-awscc.dataAwsccGuarddutyPublishingDestinations.DataAwsccGuarddutyPublishingDestinations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyPublishingDestinations.DataAwsccGuarddutyPublishingDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutypublishingdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutypublishingdestinations"
 
 dataawsccguarddutypublishingdestinations.NewDataAwsccGuarddutyPublishingDestinations(scope Construct, id *string, config DataAwsccGuarddutyPublishingDestinationsConfig) DataAwsccGuarddutyPublishingDestinations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGuarddutyPublishingDestinations.DataAwsccGuarddutyPublishingDestinations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutypublishingdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutypublishingdestinations"
 
 dataawsccguarddutypublishingdestinations.DataAwsccGuarddutyPublishingDestinations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGuarddutyPublishingDestinations.DataAwsccGuarddutyPublishingDestinations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutypublishingdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutypublishingdestinations"
 
 dataawsccguarddutypublishingdestinations.DataAwsccGuarddutyPublishingDestinations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccguarddutypublishingdestinations.DataAwsccGuarddutyPublishingDestination
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGuarddutyPublishingDestinations.DataAwsccGuarddutyPublishingDestinations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutypublishingdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutypublishingdestinations"
 
 dataawsccguarddutypublishingdestinations.DataAwsccGuarddutyPublishingDestinations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccguarddutypublishingdestinations.DataAwsccGuarddutyPublishingDestination
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGuarddutyPublishingDestinations.DataAwsccGuarddutyPublishingDestinations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutypublishingdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutypublishingdestinations"
 
 dataawsccguarddutypublishingdestinations.DataAwsccGuarddutyPublishingDestinations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGuarddutyPublishi
 
 The id of the existing DataAwsccGuarddutyPublishingDestinations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_publishing_destinations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_publishing_destinations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGuarddutyPublishingDestinations.DataAwsccGuarddutyPublishingDestinationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutypublishingdestinations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutypublishingdestinations"
 
 &dataawsccguarddutypublishingdestinations.DataAwsccGuarddutyPublishingDestinationsConfig {
 	Connection: interface{},

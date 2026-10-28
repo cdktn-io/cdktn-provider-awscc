@@ -4,12 +4,12 @@
 
 ### DataAwsccHealthlakeDataTransformationProfile <a name="DataAwsccHealthlakeDataTransformationProfile" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 dataawscchealthlakedatatransformationprofile.NewDataAwsccHealthlakeDataTransformationProfile(scope Construct, id *string, config DataAwsccHealthlakeDataTransformationProfileConfig) DataAwsccHealthlakeDataTransformationProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformationProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformationProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformati
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformationProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformati
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformationProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccHealthlakeDataTra
 
 The id of the existing DataAwsccHealthlakeDataTransformationProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_data_transformation_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_data_transformation_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 &dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformationProfileConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_data_transformation_profile#id DataAwsccHealthlakeDataTransformationProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_data_transformation_profile#id DataAwsccHealthlakeDataTransformationProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 &dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformationProfileSource {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileSourceExistingVersionedProfileId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 &dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformationProfileSourceExistingVersionedProfileId {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileSourceProfileMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 &dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformationProfileSourceProfileMapping {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileSourceStarterProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 &dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformationProfileSourceStarterProfile {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 &dataawscchealthlakedatatransformationprofile.DataAwsccHealthlakeDataTransformationProfileTags {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileSourceExistingVersionedProfileIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 dataawscchealthlakedatatransformationprofile.NewDataAwsccHealthlakeDataTransformationProfileSourceExistingVersionedProfileIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccHealthlakeDataTransformationProfileSourceExistingVersionedProfileIdOutputReference
 ```
@@ -1145,7 +1145,7 @@ func InternalValue() DataAwsccHealthlakeDataTransformationProfileSourceExistingV
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 dataawscchealthlakedatatransformationprofile.NewDataAwsccHealthlakeDataTransformationProfileSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccHealthlakeDataTransformationProfileSourceOutputReference
 ```
@@ -1427,7 +1427,7 @@ func InternalValue() DataAwsccHealthlakeDataTransformationProfileSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileSourceProfileMappingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 dataawscchealthlakedatatransformationprofile.NewDataAwsccHealthlakeDataTransformationProfileSourceProfileMappingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccHealthlakeDataTransformationProfileSourceProfileMappingOutputReference
 ```
@@ -1687,7 +1687,7 @@ func InternalValue() DataAwsccHealthlakeDataTransformationProfileSourceProfileMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileSourceStarterProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 dataawscchealthlakedatatransformationprofile.NewDataAwsccHealthlakeDataTransformationProfileSourceStarterProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccHealthlakeDataTransformationProfileSourceStarterProfileOutputReference
 ```
@@ -1947,7 +1947,7 @@ func InternalValue() DataAwsccHealthlakeDataTransformationProfileSourceStarterPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 dataawscchealthlakedatatransformationprofile.NewDataAwsccHealthlakeDataTransformationProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccHealthlakeDataTransformationProfileTagsList
 ```
@@ -2096,7 +2096,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeDataTransformationProfile.DataAwsccHealthlakeDataTransformationProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakedatatransformationprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakedatatransformationprofile"
 
 dataawscchealthlakedatatransformationprofile.NewDataAwsccHealthlakeDataTransformationProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccHealthlakeDataTransformationProfileTagsOutputReference
 ```

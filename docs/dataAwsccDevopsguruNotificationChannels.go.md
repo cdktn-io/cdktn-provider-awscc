@@ -4,12 +4,12 @@
 
 ### DataAwsccDevopsguruNotificationChannels <a name="DataAwsccDevopsguruNotificationChannels" id="@cdktn/provider-awscc.dataAwsccDevopsguruNotificationChannels.DataAwsccDevopsguruNotificationChannels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsguru_notification_channels awscc_devopsguru_notification_channels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsguru_notification_channels awscc_devopsguru_notification_channels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsguruNotificationChannels.DataAwsccDevopsguruNotificationChannels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsgurunotificationchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsgurunotificationchannels"
 
 dataawsccdevopsgurunotificationchannels.NewDataAwsccDevopsguruNotificationChannels(scope Construct, id *string, config DataAwsccDevopsguruNotificationChannelsConfig) DataAwsccDevopsguruNotificationChannels
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDevopsguruNotificationChannels.DataAwsccDevopsguruNotificationChannels.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsgurunotificationchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsgurunotificationchannels"
 
 dataawsccdevopsgurunotificationchannels.DataAwsccDevopsguruNotificationChannels_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDevopsguruNotificationChannels.DataAwsccDevopsguruNotificationChannels.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsgurunotificationchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsgurunotificationchannels"
 
 dataawsccdevopsgurunotificationchannels.DataAwsccDevopsguruNotificationChannels_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdevopsgurunotificationchannels.DataAwsccDevopsguruNotificationChannels_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDevopsguruNotificationChannels.DataAwsccDevopsguruNotificationChannels.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsgurunotificationchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsgurunotificationchannels"
 
 dataawsccdevopsgurunotificationchannels.DataAwsccDevopsguruNotificationChannels_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdevopsgurunotificationchannels.DataAwsccDevopsguruNotificationChannels_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDevopsguruNotificationChannels.DataAwsccDevopsguruNotificationChannels.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsgurunotificationchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsgurunotificationchannels"
 
 dataawsccdevopsgurunotificationchannels.DataAwsccDevopsguruNotificationChannels_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDevopsguruNotific
 
 The id of the existing DataAwsccDevopsguruNotificationChannels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsguru_notification_channels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsguru_notification_channels#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsguruNotificationChannels.DataAwsccDevopsguruNotificationChannelsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsgurunotificationchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsgurunotificationchannels"
 
 &dataawsccdevopsgurunotificationchannels.DataAwsccDevopsguruNotificationChannelsConfig {
 	Connection: interface{},

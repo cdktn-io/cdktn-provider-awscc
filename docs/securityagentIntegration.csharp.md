@@ -4,7 +4,7 @@
 
 ### SecurityagentIntegration <a name="SecurityagentIntegration" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration awscc_securityagent_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration awscc_securityagent_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegration.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the SecurityagentIntegration t
 
 The id of the existing SecurityagentIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1060,7 +1060,7 @@ public string DisplayName { get; set; }
 
 The display name for the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#display_name SecurityagentIntegration#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#display_name SecurityagentIntegration#display_name}
 
 ---
 
@@ -1074,7 +1074,7 @@ public string ProviderName { get; set; }
 
 The integration provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#provider_name SecurityagentIntegration#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#provider_name SecurityagentIntegration#provider_name}
 
 ---
 
@@ -1090,7 +1090,7 @@ The identifier of the AWS KMS key to use for encrypting data associated with the
 
 Can be a key ID, key ARN, alias name, or alias ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#kms_key_id SecurityagentIntegration#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#kms_key_id SecurityagentIntegration#kms_key_id}
 
 ---
 
@@ -1104,7 +1104,7 @@ public string PrivateConnectionName { get; set; }
 
 The name of an active private connection used to reach a self-hosted provider instance over private networking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#private_connection_name SecurityagentIntegration#private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#private_connection_name SecurityagentIntegration#private_connection_name}
 
 ---
 
@@ -1118,7 +1118,7 @@ public SecurityagentIntegrationProviderInput ProviderInput { get; set; }
 
 The provider-specific input required to create the integration. Exactly one of the provider input objects must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#provider_input SecurityagentIntegration#provider_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#provider_input SecurityagentIntegration#provider_input}
 
 ---
 
@@ -1132,7 +1132,7 @@ public IResolvable|SecurityagentIntegrationTags[] Tags { get; set; }
 
 The tags to associate with the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#tags SecurityagentIntegration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#tags SecurityagentIntegration#tags}
 
 ---
 
@@ -1172,7 +1172,7 @@ public SecurityagentIntegrationProviderInputBitbucket Bitbucket { get; set; }
 
 The input required to create a Bitbucket integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#bitbucket SecurityagentIntegration#bitbucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#bitbucket SecurityagentIntegration#bitbucket}
 
 ---
 
@@ -1186,7 +1186,7 @@ public SecurityagentIntegrationProviderInputConfluence Confluence { get; set; }
 
 The input required to create a Confluence integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#confluence SecurityagentIntegration#confluence}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#confluence SecurityagentIntegration#confluence}
 
 ---
 
@@ -1200,7 +1200,7 @@ public SecurityagentIntegrationProviderInputGithub Github { get; set; }
 
 The input required to create a GitHub integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#github SecurityagentIntegration#github}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#github SecurityagentIntegration#github}
 
 ---
 
@@ -1214,7 +1214,7 @@ public SecurityagentIntegrationProviderInputGitlab Gitlab { get; set; }
 
 The input required to create a GitLab integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#gitlab SecurityagentIntegration#gitlab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#gitlab SecurityagentIntegration#gitlab}
 
 ---
 
@@ -1254,7 +1254,7 @@ public string Code { get; set; }
 
 The OAuth 2.0 authorization code returned from the consent redirect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
 
 ---
 
@@ -1268,7 +1268,7 @@ public string InstallationId { get; set; }
 
 The Atlassian installation identifier, available from the Atlassian administration console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
 
 ---
 
@@ -1282,7 +1282,7 @@ public string State { get; set; }
 
 The CSRF state token echoed back from the OAuth redirect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
 
 ---
 
@@ -1296,7 +1296,7 @@ public string Workspace { get; set; }
 
 The Bitbucket workspace slug that identifies the workspace to integrate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#workspace SecurityagentIntegration#workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#workspace SecurityagentIntegration#workspace}
 
 ---
 
@@ -1336,7 +1336,7 @@ public string Code { get; set; }
 
 The OAuth 2.0 authorization code returned from the consent redirect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
 
 ---
 
@@ -1350,7 +1350,7 @@ public string InstallationId { get; set; }
 
 The Atlassian installation identifier, available from the Atlassian administration console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
 
 ---
 
@@ -1364,7 +1364,7 @@ public string SiteUrl { get; set; }
 
 The Confluence Cloud site URL, for example https://mysite.atlassian.net.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#site_url SecurityagentIntegration#site_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#site_url SecurityagentIntegration#site_url}
 
 ---
 
@@ -1378,7 +1378,7 @@ public string State { get; set; }
 
 The CSRF state token echoed back from the OAuth redirect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
 
 ---
 
@@ -1420,7 +1420,7 @@ public string Code { get; set; }
 
 The OAuth authorization code received from GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
 
 ---
 
@@ -1436,7 +1436,7 @@ The installation identifier provided by GitHub Enterprise Server on the install 
 
 Required for GitHub Enterprise Server integrations and ignored for GitHub.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
 
 ---
 
@@ -1450,7 +1450,7 @@ public string OrganizationName { get; set; }
 
 The name of the GitHub organization to integrate with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#organization_name SecurityagentIntegration#organization_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#organization_name SecurityagentIntegration#organization_name}
 
 ---
 
@@ -1464,7 +1464,7 @@ public string State { get; set; }
 
 The CSRF state token for validating the OAuth flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
 
 ---
 
@@ -1478,7 +1478,7 @@ public string TargetUrl { get; set; }
 
 The HTTPS URL of a self-hosted GitHub Enterprise Server instance. Omit this value for GitHub.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#target_url SecurityagentIntegration#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#target_url SecurityagentIntegration#target_url}
 
 ---
 
@@ -1518,7 +1518,7 @@ public string AccessToken { get; set; }
 
 The GitLab access token used to authenticate. This can be a personal access token or a group access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#access_token SecurityagentIntegration#access_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#access_token SecurityagentIntegration#access_token}
 
 ---
 
@@ -1532,7 +1532,7 @@ public string GroupId { get; set; }
 
 The identifier of the GitLab group. Required when TokenType is GROUP and ignored for personal tokens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#group_id SecurityagentIntegration#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#group_id SecurityagentIntegration#group_id}
 
 ---
 
@@ -1546,7 +1546,7 @@ public string TargetUrl { get; set; }
 
 The HTTPS URL of a self-managed GitLab instance. Omit this value for GitLab SaaS (gitlab.com).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#target_url SecurityagentIntegration#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#target_url SecurityagentIntegration#target_url}
 
 ---
 
@@ -1560,7 +1560,7 @@ public string TokenType { get; set; }
 
 The type of GitLab access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#token_type SecurityagentIntegration#token_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#token_type SecurityagentIntegration#token_type}
 
 ---
 
@@ -1596,7 +1596,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#key SecurityagentIntegration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#key SecurityagentIntegration#key}
 
 ---
 
@@ -1610,7 +1610,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#value SecurityagentIntegration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#value SecurityagentIntegration#value}
 
 ---
 

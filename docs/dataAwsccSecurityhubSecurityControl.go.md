@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityhubSecurityControl <a name="DataAwsccSecurityhubSecurityControl" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_security_control awscc_securityhub_security_control}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_security_control awscc_securityhub_security_control}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol"
 
 dataawsccsecurityhubsecuritycontrol.NewDataAwsccSecurityhubSecurityControl(scope Construct, id *string, config DataAwsccSecurityhubSecurityControlConfig) DataAwsccSecurityhubSecurityControl
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControl.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol"
 
 dataawsccsecurityhubsecuritycontrol.DataAwsccSecurityhubSecurityControl_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol"
 
 dataawsccsecurityhubsecuritycontrol.DataAwsccSecurityhubSecurityControl_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityhubsecuritycontrol.DataAwsccSecurityhubSecurityControl_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControl.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol"
 
 dataawsccsecurityhubsecuritycontrol.DataAwsccSecurityhubSecurityControl_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityhubsecuritycontrol.DataAwsccSecurityhubSecurityControl_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControl.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol"
 
 dataawsccsecurityhubsecuritycontrol.DataAwsccSecurityhubSecurityControl_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubSecuri
 
 The id of the existing DataAwsccSecurityhubSecurityControl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_security_control#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_security_control#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol"
 
 &dataawsccsecurityhubsecuritycontrol.DataAwsccSecurityhubSecurityControlConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_security_control#id DataAwsccSecurityhubSecurityControl#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_security_control#id DataAwsccSecurityhubSecurityControl#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControlParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol"
 
 &dataawsccsecurityhubsecuritycontrol.DataAwsccSecurityhubSecurityControlParameters {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubse
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControlParametersValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol"
 
 &dataawsccsecurityhubsecuritycontrol.DataAwsccSecurityhubSecurityControlParametersValue {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubse
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControlParametersMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol"
 
 dataawsccsecurityhubsecuritycontrol.NewDataAwsccSecurityhubSecurityControlParametersMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubSecurityControlParametersMap
 ```
@@ -916,7 +916,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControlParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol"
 
 dataawsccsecurityhubsecuritycontrol.NewDataAwsccSecurityhubSecurityControlParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccSecurityhubSecurityControlParametersOutputReference
 ```
@@ -1196,7 +1196,7 @@ func InternalValue() DataAwsccSecurityhubSecurityControlParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubSecurityControl.DataAwsccSecurityhubSecurityControlParametersValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol"
 
 dataawsccsecurityhubsecuritycontrol.NewDataAwsccSecurityhubSecurityControlParametersValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubSecurityControlParametersValueOutputReference
 ```

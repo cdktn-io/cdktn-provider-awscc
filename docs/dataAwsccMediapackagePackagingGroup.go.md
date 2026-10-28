@@ -4,12 +4,12 @@
 
 ### DataAwsccMediapackagePackagingGroup <a name="DataAwsccMediapackagePackagingGroup" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_group awscc_mediapackage_packaging_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_group awscc_mediapackage_packaging_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 dataawsccmediapackagepackaginggroup.NewDataAwsccMediapackagePackagingGroup(scope Construct, id *string, config DataAwsccMediapackagePackagingGroupConfig) DataAwsccMediapackagePackagingGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 dataawsccmediapackagepackaginggroup.DataAwsccMediapackagePackagingGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 dataawsccmediapackagepackaginggroup.DataAwsccMediapackagePackagingGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediapackagepackaginggroup.DataAwsccMediapackagePackagingGroup_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 dataawsccmediapackagepackaginggroup.DataAwsccMediapackagePackagingGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediapackagepackaginggroup.DataAwsccMediapackagePackagingGroup_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 dataawsccmediapackagepackaginggroup.DataAwsccMediapackagePackagingGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediapackagePacka
 
 The id of the existing DataAwsccMediapackagePackagingGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroupAuthorization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 &dataawsccmediapackagepackaginggroup.DataAwsccMediapackagePackagingGroupAuthorization {
 
@@ -666,7 +666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 &dataawsccmediapackagepackaginggroup.DataAwsccMediapackagePackagingGroupConfig {
 	Connection: interface{},
@@ -775,7 +775,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_group#id DataAwsccMediapackagePackagingGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_group#id DataAwsccMediapackagePackagingGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -787,7 +787,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroupEgressAccessLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 &dataawsccmediapackagepackaginggroup.DataAwsccMediapackagePackagingGroupEgressAccessLogs {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 &dataawsccmediapackagepackaginggroup.DataAwsccMediapackagePackagingGroupTags {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroupAuthorizationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 dataawsccmediapackagepackaginggroup.NewDataAwsccMediapackagePackagingGroupAuthorizationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingGroupAuthorizationOutputReference
 ```
@@ -1086,7 +1086,7 @@ func InternalValue() DataAwsccMediapackagePackagingGroupAuthorization
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroupEgressAccessLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 dataawsccmediapackagepackaginggroup.NewDataAwsccMediapackagePackagingGroupEgressAccessLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingGroupEgressAccessLogsOutputReference
 ```
@@ -1346,7 +1346,7 @@ func InternalValue() DataAwsccMediapackagePackagingGroupEgressAccessLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 dataawsccmediapackagepackaginggroup.NewDataAwsccMediapackagePackagingGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediapackagePackagingGroupTagsList
 ```
@@ -1495,7 +1495,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingGroup.DataAwsccMediapackagePackagingGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroup"
 
 dataawsccmediapackagepackaginggroup.NewDataAwsccMediapackagePackagingGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediapackagePackagingGroupTagsOutputReference
 ```

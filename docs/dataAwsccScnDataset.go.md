@@ -4,12 +4,12 @@
 
 ### DataAwsccScnDataset <a name="DataAwsccScnDataset" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scn_dataset awscc_scn_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scn_dataset awscc_scn_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDataset(scope Construct, id *string, config DataAwsccScnDatasetConfig) DataAwsccScnDataset
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.DataAwsccScnDataset_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.DataAwsccScnDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccscndataset.DataAwsccScnDataset_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDataset.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.DataAwsccScnDataset_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccscndataset.DataAwsccScnDataset_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.DataAwsccScnDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccScnDataset to imp
 
 The id of the existing DataAwsccScnDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scn_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scn_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 &dataawsccscndataset.DataAwsccScnDatasetConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scn_dataset#id DataAwsccScnDataset#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scn_dataset#id DataAwsccScnDataset#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetPartitionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 &dataawsccscndataset.DataAwsccScnDatasetPartitionSpec {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetPartitionSpecFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 &dataawsccscndataset.DataAwsccScnDatasetPartitionSpecFields {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetPartitionSpecFieldsTransform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 &dataawsccscndataset.DataAwsccScnDatasetPartitionSpecFieldsTransform {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 &dataawsccscndataset.DataAwsccScnDatasetSchema {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetSchemaFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 &dataawsccscndataset.DataAwsccScnDatasetSchemaFields {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetSchemaPrimaryKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 &dataawsccscndataset.DataAwsccScnDatasetSchemaPrimaryKeys {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 &dataawsccscndataset.DataAwsccScnDatasetTags {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetPartitionSpecFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDatasetPartitionSpecFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccScnDatasetPartitionSpecFieldsList
 ```
@@ -1060,7 +1060,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetPartitionSpecFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDatasetPartitionSpecFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccScnDatasetPartitionSpecFieldsOutputReference
 ```
@@ -1349,7 +1349,7 @@ func InternalValue() DataAwsccScnDatasetPartitionSpecFields
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetPartitionSpecFieldsTransformOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDatasetPartitionSpecFieldsTransformOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDatasetPartitionSpecFieldsTransformOutputReference
 ```
@@ -1609,7 +1609,7 @@ func InternalValue() DataAwsccScnDatasetPartitionSpecFieldsTransform
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetPartitionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDatasetPartitionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDatasetPartitionSpecOutputReference
 ```
@@ -1869,7 +1869,7 @@ func InternalValue() DataAwsccScnDatasetPartitionSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetSchemaFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDatasetSchemaFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccScnDatasetSchemaFieldsList
 ```
@@ -2018,7 +2018,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetSchemaFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDatasetSchemaFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccScnDatasetSchemaFieldsOutputReference
 ```
@@ -2318,7 +2318,7 @@ func InternalValue() DataAwsccScnDatasetSchemaFields
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDatasetSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccScnDatasetSchemaOutputReference
 ```
@@ -2600,7 +2600,7 @@ func InternalValue() DataAwsccScnDatasetSchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetSchemaPrimaryKeysList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDatasetSchemaPrimaryKeysList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccScnDatasetSchemaPrimaryKeysList
 ```
@@ -2749,7 +2749,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetSchemaPrimaryKeysOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDatasetSchemaPrimaryKeysOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccScnDatasetSchemaPrimaryKeysOutputReference
 ```
@@ -3027,7 +3027,7 @@ func InternalValue() DataAwsccScnDatasetSchemaPrimaryKeys
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDatasetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccScnDatasetTagsList
 ```
@@ -3176,7 +3176,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccScnDataset.DataAwsccScnDatasetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscndataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscndataset"
 
 dataawsccscndataset.NewDataAwsccScnDatasetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccScnDatasetTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccSesEmailIdentity <a name="DataAwsccSesEmailIdentity" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentity"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_email_identity awscc_ses_email_identity}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_email_identity awscc_ses_email_identity}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.NewDataAwsccSesEmailIdentity(scope Construct, id *string, config DataAwsccSesEmailIdentityConfig) DataAwsccSesEmailIdentity
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentity.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.DataAwsccSesEmailIdentity_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentity.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.DataAwsccSesEmailIdentity_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsesemailidentity.DataAwsccSesEmailIdentity_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentity.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.DataAwsccSesEmailIdentity_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsesemailidentity.DataAwsccSesEmailIdentity_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentity.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.DataAwsccSesEmailIdentity_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesEmailIdentity 
 
 The id of the existing DataAwsccSesEmailIdentity that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_email_identity#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_email_identity#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 &dataawsccsesemailidentity.DataAwsccSesEmailIdentityConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_email_identity#id DataAwsccSesEmailIdentity#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_email_identity#id DataAwsccSesEmailIdentity#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityConfigurationSetAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 &dataawsccsesemailidentity.DataAwsccSesEmailIdentityConfigurationSetAttributes {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailident
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityDkimAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 &dataawsccsesemailidentity.DataAwsccSesEmailIdentityDkimAttributes {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailident
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityDkimSigningAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 &dataawsccsesemailidentity.DataAwsccSesEmailIdentityDkimSigningAttributes {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailident
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityFeedbackAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 &dataawsccsesemailidentity.DataAwsccSesEmailIdentityFeedbackAttributes {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailident
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityMailFromAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 &dataawsccsesemailidentity.DataAwsccSesEmailIdentityMailFromAttributes {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailident
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 &dataawsccsesemailidentity.DataAwsccSesEmailIdentityTags {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailident
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityConfigurationSetAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.NewDataAwsccSesEmailIdentityConfigurationSetAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesEmailIdentityConfigurationSetAttributesOutputReference
 ```
@@ -1191,7 +1191,7 @@ func InternalValue() DataAwsccSesEmailIdentityConfigurationSetAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityDkimAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.NewDataAwsccSesEmailIdentityDkimAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesEmailIdentityDkimAttributesOutputReference
 ```
@@ -1451,7 +1451,7 @@ func InternalValue() DataAwsccSesEmailIdentityDkimAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityDkimSigningAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.NewDataAwsccSesEmailIdentityDkimSigningAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesEmailIdentityDkimSigningAttributesOutputReference
 ```
@@ -1733,7 +1733,7 @@ func InternalValue() DataAwsccSesEmailIdentityDkimSigningAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityFeedbackAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.NewDataAwsccSesEmailIdentityFeedbackAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesEmailIdentityFeedbackAttributesOutputReference
 ```
@@ -1993,7 +1993,7 @@ func InternalValue() DataAwsccSesEmailIdentityFeedbackAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityMailFromAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.NewDataAwsccSesEmailIdentityMailFromAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesEmailIdentityMailFromAttributesOutputReference
 ```
@@ -2264,7 +2264,7 @@ func InternalValue() DataAwsccSesEmailIdentityMailFromAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.NewDataAwsccSesEmailIdentityTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesEmailIdentityTagsList
 ```
@@ -2413,7 +2413,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesEmailIdentity.DataAwsccSesEmailIdentityTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity"
 
 dataawsccsesemailidentity.NewDataAwsccSesEmailIdentityTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesEmailIdentityTagsOutputReference
 ```

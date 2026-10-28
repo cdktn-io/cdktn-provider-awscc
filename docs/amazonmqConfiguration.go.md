@@ -4,12 +4,12 @@
 
 ### AmazonmqConfiguration <a name="AmazonmqConfiguration" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amazonmqconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/amazonmqconfiguration"
 
 amazonmqconfiguration.NewAmazonmqConfiguration(scope Construct, id *string, config AmazonmqConfigurationConfig) AmazonmqConfiguration
 ```
@@ -448,7 +448,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amazonmqconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/amazonmqconfiguration"
 
 amazonmqconfiguration.AmazonmqConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amazonmqconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/amazonmqconfiguration"
 
 amazonmqconfiguration.AmazonmqConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ amazonmqconfiguration.AmazonmqConfiguration_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amazonmqconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/amazonmqconfiguration"
 
 amazonmqconfiguration.AmazonmqConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ amazonmqconfiguration.AmazonmqConfiguration_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amazonmqconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/amazonmqconfiguration"
 
 amazonmqconfiguration.AmazonmqConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the AmazonmqConfiguration to i
 
 The id of the existing AmazonmqConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -935,7 +935,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amazonmqconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/amazonmqconfiguration"
 
 &amazonmqconfiguration.AmazonmqConfigurationConfig {
 	Connection: interface{},
@@ -1056,7 +1056,7 @@ EngineType *string
 
 The type of broker engine. Note: Currently, Amazon MQ only supports ACTIVEMQ for creating and editing broker configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#engine_type AmazonmqConfiguration#engine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#engine_type AmazonmqConfiguration#engine_type}
 
 ---
 
@@ -1070,7 +1070,7 @@ Name *string
 
 The name of the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#name AmazonmqConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#name AmazonmqConfiguration#name}
 
 ---
 
@@ -1084,7 +1084,7 @@ AuthenticationStrategy *string
 
 The authentication strategy associated with the configuration. The default is SIMPLE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#authentication_strategy AmazonmqConfiguration#authentication_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#authentication_strategy AmazonmqConfiguration#authentication_strategy}
 
 ---
 
@@ -1098,7 +1098,7 @@ Data *string
 
 The base64-encoded XML configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#data AmazonmqConfiguration#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#data AmazonmqConfiguration#data}
 
 ---
 
@@ -1112,7 +1112,7 @@ Description *string
 
 The description of the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#description AmazonmqConfiguration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#description AmazonmqConfiguration#description}
 
 ---
 
@@ -1126,7 +1126,7 @@ EngineVersion *string
 
 The version of the broker engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#engine_version AmazonmqConfiguration#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#engine_version AmazonmqConfiguration#engine_version}
 
 ---
 
@@ -1140,7 +1140,7 @@ Tags interface{}
 
 Create tags when creating the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#tags AmazonmqConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#tags AmazonmqConfiguration#tags}
 
 ---
 
@@ -1149,7 +1149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amazonmqconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/amazonmqconfiguration"
 
 &amazonmqconfiguration.AmazonmqConfigurationTags {
 	Key: *string,
@@ -1161,8 +1161,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amazonmqconfiguration"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#key AmazonmqConfiguration#key}. |
-| <code><a href="#@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#value AmazonmqConfiguration#value}. |
+| <code><a href="#@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#key AmazonmqConfiguration#key}. |
+| <code><a href="#@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#value AmazonmqConfiguration#value}. |
 
 ---
 
@@ -1174,7 +1174,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#key AmazonmqConfiguration#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#key AmazonmqConfiguration#key}.
 
 ---
 
@@ -1186,7 +1186,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amazonmq_configuration#value AmazonmqConfiguration#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amazonmq_configuration#value AmazonmqConfiguration#value}.
 
 ---
 
@@ -1197,7 +1197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amazonmqconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/amazonmqconfiguration"
 
 amazonmqconfiguration.NewAmazonmqConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AmazonmqConfigurationTagsList
 ```
@@ -1357,7 +1357,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.amazonmqConfiguration.AmazonmqConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amazonmqconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/amazonmqconfiguration"
 
 amazonmqconfiguration.NewAmazonmqConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AmazonmqConfigurationTagsOutputReference
 ```

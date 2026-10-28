@@ -4,12 +4,12 @@
 
 ### CodeconnectionsHost <a name="CodeconnectionsHost" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHost"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host awscc_codeconnections_host}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host awscc_codeconnections_host}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeconnectionshost"
 
 codeconnectionshost.NewCodeconnectionsHost(scope Construct, id *string, config CodeconnectionsHostConfig) CodeconnectionsHost
 ```
@@ -440,7 +440,7 @@ func ResetVpcConfiguration()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHost.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeconnectionshost"
 
 codeconnectionshost.CodeconnectionsHost_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHost.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeconnectionshost"
 
 codeconnectionshost.CodeconnectionsHost_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ codeconnectionshost.CodeconnectionsHost_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHost.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeconnectionshost"
 
 codeconnectionshost.CodeconnectionsHost_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ codeconnectionshost.CodeconnectionsHost_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHost.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeconnectionshost"
 
 codeconnectionshost.CodeconnectionsHost_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the CodeconnectionsHost to imp
 
 The id of the existing CodeconnectionsHost that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -883,7 +883,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHostConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeconnectionshost"
 
 &codeconnectionshost.CodeconnectionsHostConfig {
 	Connection: interface{},
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
 	ProviderEndpoint: *string,
 	ProviderType: *string,
 	Tags: interface{},
-	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codeconnectionsHost.CodeconnectionsHostVpcConfiguration,
+	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codeconnectionsHost.CodeconnectionsHostVpcConfiguration,
 }
 ```
 
@@ -1000,7 +1000,7 @@ Name *string
 
 The name of the host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#name CodeconnectionsHost#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#name CodeconnectionsHost#name}
 
 ---
 
@@ -1014,7 +1014,7 @@ ProviderEndpoint *string
 
 The endpoint of the infrastructure where your provider type is installed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#provider_endpoint CodeconnectionsHost#provider_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#provider_endpoint CodeconnectionsHost#provider_endpoint}
 
 ---
 
@@ -1028,7 +1028,7 @@ ProviderType *string
 
 The name of the installed provider to be associated with your connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#provider_type CodeconnectionsHost#provider_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#provider_type CodeconnectionsHost#provider_type}
 
 ---
 
@@ -1042,7 +1042,7 @@ Tags interface{}
 
 Tags to apply to the host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#tags CodeconnectionsHost#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#tags CodeconnectionsHost#tags}
 
 ---
 
@@ -1056,7 +1056,7 @@ VpcConfiguration CodeconnectionsHostVpcConfiguration
 
 The VPC configuration provisioned for the host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#vpc_configuration CodeconnectionsHost#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#vpc_configuration CodeconnectionsHost#vpc_configuration}
 
 ---
 
@@ -1065,7 +1065,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHostTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeconnectionshost"
 
 &codeconnectionshost.CodeconnectionsHostTags {
 	Key: *string,
@@ -1092,7 +1092,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#key CodeconnectionsHost#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#key CodeconnectionsHost#key}
 
 ---
 
@@ -1106,7 +1106,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#value CodeconnectionsHost#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#value CodeconnectionsHost#value}
 
 ---
 
@@ -1115,7 +1115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHostVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeconnectionshost"
 
 &codeconnectionshost.CodeconnectionsHostVpcConfiguration {
 	SecurityGroupIds: *[]*string,
@@ -1146,7 +1146,7 @@ SecurityGroupIds *[]*string
 
 The ID of the security group or security groups associated with the Amazon VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#security_group_ids CodeconnectionsHost#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#security_group_ids CodeconnectionsHost#security_group_ids}
 
 ---
 
@@ -1160,7 +1160,7 @@ SubnetIds *[]*string
 
 The ID of the subnet or subnets associated with the Amazon VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#subnet_ids CodeconnectionsHost#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#subnet_ids CodeconnectionsHost#subnet_ids}
 
 ---
 
@@ -1174,7 +1174,7 @@ TlsCertificate *string
 
 The value of the Transport Layer Security (TLS) certificate associated with the infrastructure where your provider type is installed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#tls_certificate CodeconnectionsHost#tls_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#tls_certificate CodeconnectionsHost#tls_certificate}
 
 ---
 
@@ -1188,7 +1188,7 @@ VpcId *string
 
 The ID of the Amazon VPC connected to the infrastructure where your provider type is installed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeconnections_host#vpc_id CodeconnectionsHost#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeconnections_host#vpc_id CodeconnectionsHost#vpc_id}
 
 ---
 
@@ -1199,7 +1199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHostTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeconnectionshost"
 
 codeconnectionshost.NewCodeconnectionsHostTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodeconnectionsHostTagsList
 ```
@@ -1359,7 +1359,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHostTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeconnectionshost"
 
 codeconnectionshost.NewCodeconnectionsHostTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodeconnectionsHostTagsOutputReference
 ```
@@ -1684,7 +1684,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeconnectionsHost.CodeconnectionsHostVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeconnectionshost"
 
 codeconnectionshost.NewCodeconnectionsHostVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodeconnectionsHostVpcConfigurationOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccInspectorv2CodeSecurityIntegrations <a name="DataAwsccInspectorv2CodeSecurityIntegrations" id="@cdktn/provider-awscc.dataAwsccInspectorv2CodeSecurityIntegrations.DataAwsccInspectorv2CodeSecurityIntegrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_code_security_integrations awscc_inspectorv2_code_security_integrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_code_security_integrations awscc_inspectorv2_code_security_integrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CodeSecurityIntegrations.DataAwsccInspectorv2CodeSecurityIntegrations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2codesecurityintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2codesecurityintegrations"
 
 dataawsccinspectorv2codesecurityintegrations.NewDataAwsccInspectorv2CodeSecurityIntegrations(scope Construct, id *string, config DataAwsccInspectorv2CodeSecurityIntegrationsConfig) DataAwsccInspectorv2CodeSecurityIntegrations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccInspectorv2CodeSecurityIntegrations.DataAwsccInspectorv2CodeSecurityIntegrations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2codesecurityintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2codesecurityintegrations"
 
 dataawsccinspectorv2codesecurityintegrations.DataAwsccInspectorv2CodeSecurityIntegrations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccInspectorv2CodeSecurityIntegrations.DataAwsccInspectorv2CodeSecurityIntegrations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2codesecurityintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2codesecurityintegrations"
 
 dataawsccinspectorv2codesecurityintegrations.DataAwsccInspectorv2CodeSecurityIntegrations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccinspectorv2codesecurityintegrations.DataAwsccInspectorv2CodeSecurityInt
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccInspectorv2CodeSecurityIntegrations.DataAwsccInspectorv2CodeSecurityIntegrations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2codesecurityintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2codesecurityintegrations"
 
 dataawsccinspectorv2codesecurityintegrations.DataAwsccInspectorv2CodeSecurityIntegrations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccinspectorv2codesecurityintegrations.DataAwsccInspectorv2CodeSecurityInt
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccInspectorv2CodeSecurityIntegrations.DataAwsccInspectorv2CodeSecurityIntegrations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2codesecurityintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2codesecurityintegrations"
 
 dataawsccinspectorv2codesecurityintegrations.DataAwsccInspectorv2CodeSecurityIntegrations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInspectorv2CodeSe
 
 The id of the existing DataAwsccInspectorv2CodeSecurityIntegrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_code_security_integrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_code_security_integrations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2CodeSecurityIntegrations.DataAwsccInspectorv2CodeSecurityIntegrationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2codesecurityintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2codesecurityintegrations"
 
 &dataawsccinspectorv2codesecurityintegrations.DataAwsccInspectorv2CodeSecurityIntegrationsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspaceswebBrowserSettingsPlural <a name="DataAwsccWorkspaceswebBrowserSettingsPlural" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebBrowserSettingsPlural.DataAwsccWorkspaceswebBrowserSettingsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_browser_settings_plural awscc_workspacesweb_browser_settings_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_browser_settings_plural awscc_workspacesweb_browser_settings_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebBrowserSettingsPlural.DataAwsccWorkspaceswebBrowserSettingsPlural.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebbrowsersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebbrowsersettingsplural"
 
 dataawsccworkspaceswebbrowsersettingsplural.NewDataAwsccWorkspaceswebBrowserSettingsPlural(scope Construct, id *string, config DataAwsccWorkspaceswebBrowserSettingsPluralConfig) DataAwsccWorkspaceswebBrowserSettingsPlural
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebBrowserSettingsPlural.DataAwsccWorkspaceswebBrowserSettingsPlural.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebbrowsersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebbrowsersettingsplural"
 
 dataawsccworkspaceswebbrowsersettingsplural.DataAwsccWorkspaceswebBrowserSettingsPlural_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebBrowserSettingsPlural.DataAwsccWorkspaceswebBrowserSettingsPlural.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebbrowsersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebbrowsersettingsplural"
 
 dataawsccworkspaceswebbrowsersettingsplural.DataAwsccWorkspaceswebBrowserSettingsPlural_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspaceswebbrowsersettingsplural.DataAwsccWorkspaceswebBrowserSetting
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebBrowserSettingsPlural.DataAwsccWorkspaceswebBrowserSettingsPlural.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebbrowsersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebbrowsersettingsplural"
 
 dataawsccworkspaceswebbrowsersettingsplural.DataAwsccWorkspaceswebBrowserSettingsPlural_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspaceswebbrowsersettingsplural.DataAwsccWorkspaceswebBrowserSetting
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebBrowserSettingsPlural.DataAwsccWorkspaceswebBrowserSettingsPlural.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebbrowsersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebbrowsersettingsplural"
 
 dataawsccworkspaceswebbrowsersettingsplural.DataAwsccWorkspaceswebBrowserSettingsPlural_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebBrow
 
 The id of the existing DataAwsccWorkspaceswebBrowserSettingsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_browser_settings_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_browser_settings_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebBrowserSettingsPlural.DataAwsccWorkspaceswebBrowserSettingsPluralConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebbrowsersettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebbrowsersettingsplural"
 
 &dataawsccworkspaceswebbrowsersettingsplural.DataAwsccWorkspaceswebBrowserSettingsPluralConfig {
 	Connection: interface{},

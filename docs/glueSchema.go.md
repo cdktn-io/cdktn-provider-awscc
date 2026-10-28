@@ -4,12 +4,12 @@
 
 ### GlueSchema <a name="GlueSchema" id="@cdktn/provider-awscc.glueSchema.GlueSchema"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema awscc_glue_schema}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema awscc_glue_schema}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSchema.GlueSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 glueschema.NewGlueSchema(scope Construct, id *string, config GlueSchemaConfig) GlueSchema
 ```
@@ -474,7 +474,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueSchema.GlueSchema.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 glueschema.GlueSchema_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueSchema.GlueSchema.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 glueschema.GlueSchema_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ glueschema.GlueSchema_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueSchema.GlueSchema.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 glueschema.GlueSchema_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ glueschema.GlueSchema_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueSchema.GlueSchema.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 glueschema.GlueSchema_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the GlueSchema to import.
 
 The id of the existing GlueSchema that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -972,7 +972,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueSchema.GlueSchemaCheckpointVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 &glueschema.GlueSchemaCheckpointVersion {
 	IsLatest: interface{},
@@ -999,7 +999,7 @@ IsLatest interface{}
 
 Indicates if the latest version needs to be updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#is_latest GlueSchema#is_latest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#is_latest GlueSchema#is_latest}
 
 ---
 
@@ -1013,7 +1013,7 @@ VersionNumber *f64
 
 Indicates the version number in the schema to update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#version_number GlueSchema#version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#version_number GlueSchema#version_number}
 
 ---
 
@@ -1022,7 +1022,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueSchema.GlueSchemaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 &glueschema.GlueSchemaConfig {
 	Connection: interface{},
@@ -1035,9 +1035,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
 	Compatibility: *string,
 	DataFormat: *string,
 	Name: *string,
-	CheckpointVersion: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueSchema.GlueSchemaCheckpointVersion,
+	CheckpointVersion: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueSchema.GlueSchemaCheckpointVersion,
 	Description: *string,
-	Registry: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueSchema.GlueSchemaRegistry,
+	Registry: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueSchema.GlueSchemaRegistry,
 	SchemaDefinition: *string,
 	Tags: interface{},
 }
@@ -1145,7 +1145,7 @@ Compatibility *string
 
 Compatibility setting for the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#compatibility GlueSchema#compatibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#compatibility GlueSchema#compatibility}
 
 ---
 
@@ -1159,7 +1159,7 @@ DataFormat *string
 
 Data format name to use for the schema. Accepted values: 'AVRO', 'JSON', 'PROTOBUF'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#data_format GlueSchema#data_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#data_format GlueSchema#data_format}
 
 ---
 
@@ -1173,7 +1173,7 @@ Name *string
 
 Name of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#name GlueSchema#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#name GlueSchema#name}
 
 ---
 
@@ -1187,7 +1187,7 @@ CheckpointVersion GlueSchemaCheckpointVersion
 
 Specify checkpoint version for update. This is only required to update the Compatibility.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#checkpoint_version GlueSchema#checkpoint_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#checkpoint_version GlueSchema#checkpoint_version}
 
 ---
 
@@ -1201,7 +1201,7 @@ Description *string
 
 A description of the schema. If description is not provided, there will not be any default value for this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#description GlueSchema#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#description GlueSchema#description}
 
 ---
 
@@ -1215,7 +1215,7 @@ Registry GlueSchemaRegistry
 
 Identifier for the registry which the schema is part of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#registry GlueSchema#registry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#registry GlueSchema#registry}
 
 ---
 
@@ -1229,7 +1229,7 @@ SchemaDefinition *string
 
 Definition for the initial schema version in plain-text.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#schema_definition GlueSchema#schema_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#schema_definition GlueSchema#schema_definition}
 
 ---
 
@@ -1243,7 +1243,7 @@ Tags interface{}
 
 List of tags to tag the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#tags GlueSchema#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#tags GlueSchema#tags}
 
 ---
 
@@ -1252,7 +1252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueSchema.GlueSchemaRegistry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 &glueschema.GlueSchemaRegistry {
 	Arn: *string,
@@ -1279,7 +1279,7 @@ Arn *string
 
 Amazon Resource Name for the Registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#arn GlueSchema#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#arn GlueSchema#arn}
 
 ---
 
@@ -1293,7 +1293,7 @@ Name *string
 
 Name of the registry in which the schema will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#name GlueSchema#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#name GlueSchema#name}
 
 ---
 
@@ -1302,7 +1302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueSchema.GlueSchemaTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 &glueschema.GlueSchemaTags {
 	Key: *string,
@@ -1329,7 +1329,7 @@ Key *string
 
 A key to identify the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#key GlueSchema#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#key GlueSchema#key}
 
 ---
 
@@ -1343,7 +1343,7 @@ Value *string
 
 Corresponding tag value for the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema#value GlueSchema#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema#value GlueSchema#value}
 
 ---
 
@@ -1354,7 +1354,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSchema.GlueSchemaCheckpointVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 glueschema.NewGlueSchemaCheckpointVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueSchemaCheckpointVersionOutputReference
 ```
@@ -1661,7 +1661,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSchema.GlueSchemaRegistryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 glueschema.NewGlueSchemaRegistryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueSchemaRegistryOutputReference
 ```
@@ -1968,7 +1968,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSchema.GlueSchemaTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 glueschema.NewGlueSchemaTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueSchemaTagsList
 ```
@@ -2128,7 +2128,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSchema.GlueSchemaTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschema"
 
 glueschema.NewGlueSchemaTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueSchemaTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccIotsecuretunnelingTunnel <a name="DataAwsccIotsecuretunnelingTunnel" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 dataawscciotsecuretunnelingtunnel.NewDataAwsccIotsecuretunnelingTunnel(scope Construct, id *string, config DataAwsccIotsecuretunnelingTunnelConfig) DataAwsccIotsecuretunnelingTunnel
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 dataawscciotsecuretunnelingtunnel.DataAwsccIotsecuretunnelingTunnel_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 dataawscciotsecuretunnelingtunnel.DataAwsccIotsecuretunnelingTunnel_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsecuretunnelingtunnel.DataAwsccIotsecuretunnelingTunnel_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnel.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 dataawscciotsecuretunnelingtunnel.DataAwsccIotsecuretunnelingTunnel_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsecuretunnelingtunnel.DataAwsccIotsecuretunnelingTunnel_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 dataawscciotsecuretunnelingtunnel.DataAwsccIotsecuretunnelingTunnel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsecuretunnelin
 
 The id of the existing DataAwsccIotsecuretunnelingTunnel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsecuretunneling_tunnel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsecuretunneling_tunnel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 &dataawscciotsecuretunnelingtunnel.DataAwsccIotsecuretunnelingTunnelConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsecuretunneling_tunnel#id DataAwsccIotsecuretunnelingTunnel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsecuretunneling_tunnel#id DataAwsccIotsecuretunnelingTunnel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnelDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 &dataawscciotsecuretunnelingtunnel.DataAwsccIotsecuretunnelingTunnelDestinationConfig {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunn
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 &dataawscciotsecuretunnelingtunnel.DataAwsccIotsecuretunnelingTunnelTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunn
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnelTimeoutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 &dataawscciotsecuretunnelingtunnel.DataAwsccIotsecuretunnelingTunnelTimeoutConfig {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnelDestinationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 dataawscciotsecuretunnelingtunnel.NewDataAwsccIotsecuretunnelingTunnelDestinationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsecuretunnelingTunnelDestinationConfigOutputReference
 ```
@@ -1097,7 +1097,7 @@ func InternalValue() DataAwsccIotsecuretunnelingTunnelDestinationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 dataawscciotsecuretunnelingtunnel.NewDataAwsccIotsecuretunnelingTunnelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotsecuretunnelingTunnelTagsList
 ```
@@ -1246,7 +1246,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 dataawscciotsecuretunnelingtunnel.NewDataAwsccIotsecuretunnelingTunnelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotsecuretunnelingTunnelTagsOutputReference
 ```
@@ -1535,7 +1535,7 @@ func InternalValue() DataAwsccIotsecuretunnelingTunnelTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnel.DataAwsccIotsecuretunnelingTunnelTimeoutConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnel"
 
 dataawscciotsecuretunnelingtunnel.NewDataAwsccIotsecuretunnelingTunnelTimeoutConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsecuretunnelingTunnelTimeoutConfigOutputReference
 ```

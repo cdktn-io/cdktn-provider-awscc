@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaMicrovmImage <a name="DataAwsccLambdaMicrovmImage" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_microvm_image awscc_lambda_microvm_image}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_microvm_image awscc_lambda_microvm_image}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImage(scope Construct, id *string, config DataAwsccLambdaMicrovmImageConfig) DataAwsccLambdaMicrovmImage
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImage_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImage_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImage_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImage.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImage_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImage_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaMicrovmImag
 
 The id of the existing DataAwsccLambdaMicrovmImage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_microvm_image#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_microvm_image#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -807,7 +807,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageCodeArtifact.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 &dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImageCodeArtifact {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 &dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImageConfig {
 	Connection: interface{},
@@ -929,7 +929,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_microvm_image#id DataAwsccLambdaMicrovmImage#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_microvm_image#id DataAwsccLambdaMicrovmImage#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -941,7 +941,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageCpuConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 &dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImageCpuConfigurations {
 
@@ -954,7 +954,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 &dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImageEnvironmentVariables {
 
@@ -967,7 +967,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageHooks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 &dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImageHooks {
 
@@ -980,7 +980,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageHooksMicrovmHooks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 &dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImageHooksMicrovmHooks {
 
@@ -993,7 +993,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageHooksMicrovmImageHooks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 &dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImageHooksMicrovmImageHooks {
 
@@ -1006,7 +1006,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageLogging.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 &dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImageLogging {
 
@@ -1019,7 +1019,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageLoggingCloudwatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 &dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImageLoggingCloudwatch {
 
@@ -1032,7 +1032,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 &dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImageResources {
 
@@ -1045,7 +1045,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 &dataawscclambdamicrovmimage.DataAwsccLambdaMicrovmImageTags {
 
@@ -1060,7 +1060,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageCodeArtifactOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageCodeArtifactOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaMicrovmImageCodeArtifactOutputReference
 ```
@@ -1320,7 +1320,7 @@ func InternalValue() DataAwsccLambdaMicrovmImageCodeArtifact
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageCpuConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageCpuConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaMicrovmImageCpuConfigurationsList
 ```
@@ -1469,7 +1469,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageCpuConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageCpuConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaMicrovmImageCpuConfigurationsOutputReference
 ```
@@ -1747,7 +1747,7 @@ func InternalValue() DataAwsccLambdaMicrovmImageCpuConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaMicrovmImageEnvironmentVariablesList
 ```
@@ -1896,7 +1896,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaMicrovmImageEnvironmentVariablesOutputReference
 ```
@@ -2185,7 +2185,7 @@ func InternalValue() DataAwsccLambdaMicrovmImageEnvironmentVariables
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageHooksMicrovmHooksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageHooksMicrovmHooksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaMicrovmImageHooksMicrovmHooksOutputReference
 ```
@@ -2522,7 +2522,7 @@ func InternalValue() DataAwsccLambdaMicrovmImageHooksMicrovmHooks
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageHooksMicrovmImageHooksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageHooksMicrovmImageHooksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaMicrovmImageHooksMicrovmImageHooksOutputReference
 ```
@@ -2815,7 +2815,7 @@ func InternalValue() DataAwsccLambdaMicrovmImageHooksMicrovmImageHooks
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageHooksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageHooksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaMicrovmImageHooksOutputReference
 ```
@@ -3097,7 +3097,7 @@ func InternalValue() DataAwsccLambdaMicrovmImageHooks
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageLoggingCloudwatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageLoggingCloudwatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaMicrovmImageLoggingCloudwatchOutputReference
 ```
@@ -3368,7 +3368,7 @@ func InternalValue() DataAwsccLambdaMicrovmImageLoggingCloudwatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageLoggingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageLoggingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaMicrovmImageLoggingOutputReference
 ```
@@ -3639,7 +3639,7 @@ func InternalValue() DataAwsccLambdaMicrovmImageLogging
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaMicrovmImageResourcesList
 ```
@@ -3788,7 +3788,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaMicrovmImageResourcesOutputReference
 ```
@@ -4066,7 +4066,7 @@ func InternalValue() DataAwsccLambdaMicrovmImageResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaMicrovmImageTagsList
 ```
@@ -4215,7 +4215,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaMicrovmImage.DataAwsccLambdaMicrovmImageTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdamicrovmimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdamicrovmimage"
 
 dataawscclambdamicrovmimage.NewDataAwsccLambdaMicrovmImageTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaMicrovmImageTagsOutputReference
 ```

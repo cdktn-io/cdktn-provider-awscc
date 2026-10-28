@@ -4,12 +4,12 @@
 
 ### DataAwsccIamOidcProviders <a name="DataAwsccIamOidcProviders" id="@cdktn/provider-awscc.dataAwsccIamOidcProviders.DataAwsccIamOidcProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_oidc_providers awscc_iam_oidc_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_oidc_providers awscc_iam_oidc_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamOidcProviders.DataAwsccIamOidcProviders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamoidcproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamoidcproviders"
 
 dataawscciamoidcproviders.NewDataAwsccIamOidcProviders(scope Construct, id *string, config DataAwsccIamOidcProvidersConfig) DataAwsccIamOidcProviders
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIamOidcProviders.DataAwsccIamOidcProviders.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamoidcproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamoidcproviders"
 
 dataawscciamoidcproviders.DataAwsccIamOidcProviders_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIamOidcProviders.DataAwsccIamOidcProviders.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamoidcproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamoidcproviders"
 
 dataawscciamoidcproviders.DataAwsccIamOidcProviders_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciamoidcproviders.DataAwsccIamOidcProviders_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIamOidcProviders.DataAwsccIamOidcProviders.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamoidcproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamoidcproviders"
 
 dataawscciamoidcproviders.DataAwsccIamOidcProviders_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciamoidcproviders.DataAwsccIamOidcProviders_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIamOidcProviders.DataAwsccIamOidcProviders.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamoidcproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamoidcproviders"
 
 dataawscciamoidcproviders.DataAwsccIamOidcProviders_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIamOidcProviders 
 
 The id of the existing DataAwsccIamOidcProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_oidc_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_oidc_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamOidcProviders.DataAwsccIamOidcProvidersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamoidcproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamoidcproviders"
 
 &dataawscciamoidcproviders.DataAwsccIamOidcProvidersConfig {
 	Connection: interface{},

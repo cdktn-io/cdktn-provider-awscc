@@ -4,12 +4,12 @@
 
 ### LightsailKeyPair <a name="LightsailKeyPair" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPair"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_key_pair awscc_lightsail_key_pair}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_key_pair awscc_lightsail_key_pair}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPair.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailkeypair"
 
 lightsailkeypair.NewLightsailKeyPair(scope Construct, id *string, config LightsailKeyPairConfig) LightsailKeyPair
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPair.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailkeypair"
 
 lightsailkeypair.LightsailKeyPair_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPair.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailkeypair"
 
 lightsailkeypair.LightsailKeyPair_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ lightsailkeypair.LightsailKeyPair_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPair.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailkeypair"
 
 lightsailkeypair.LightsailKeyPair_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ lightsailkeypair.LightsailKeyPair_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPair.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailkeypair"
 
 lightsailkeypair.LightsailKeyPair_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the LightsailKeyPair to import
 
 The id of the existing LightsailKeyPair that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_key_pair#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_key_pair#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -830,7 +830,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPairConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailkeypair"
 
 &lightsailkeypair.LightsailKeyPairConfig {
 	Connection: interface{},
@@ -941,7 +941,7 @@ KeyPairName *string
 
 The name of the key pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_key_pair#key_pair_name LightsailKeyPair#key_pair_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_key_pair#key_pair_name LightsailKeyPair#key_pair_name}
 
 ---
 
@@ -955,7 +955,7 @@ Tags interface{}
 
 The tag keys and optional values to add to the resource during create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_key_pair#tags LightsailKeyPair#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_key_pair#tags LightsailKeyPair#tags}
 
 ---
 
@@ -964,7 +964,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPairLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailkeypair"
 
 &lightsailkeypair.LightsailKeyPairLocation {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPairTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailkeypair"
 
 &lightsailkeypair.LightsailKeyPairTags {
 	Key: *string,
@@ -1004,7 +1004,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_key_pair#key LightsailKeyPair#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_key_pair#key LightsailKeyPair#key}
 
 ---
 
@@ -1018,7 +1018,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_key_pair#value LightsailKeyPair#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_key_pair#value LightsailKeyPair#value}
 
 ---
 
@@ -1029,7 +1029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPairLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailkeypair"
 
 lightsailkeypair.NewLightsailKeyPairLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailKeyPairLocationOutputReference
 ```
@@ -1300,7 +1300,7 @@ func InternalValue() LightsailKeyPairLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPairTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailkeypair"
 
 lightsailkeypair.NewLightsailKeyPairTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailKeyPairTagsList
 ```
@@ -1460,7 +1460,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailKeyPair.LightsailKeyPairTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailkeypair"
 
 lightsailkeypair.NewLightsailKeyPairTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailKeyPairTagsOutputReference
 ```

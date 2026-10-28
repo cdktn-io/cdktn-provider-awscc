@@ -4,12 +4,12 @@
 
 ### DataAwsccMemorydbUsers <a name="DataAwsccMemorydbUsers" id="@cdktn/provider-awscc.dataAwsccMemorydbUsers.DataAwsccMemorydbUsers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_users awscc_memorydb_users}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_users awscc_memorydb_users}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMemorydbUsers.DataAwsccMemorydbUsers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbusers"
 
 dataawsccmemorydbusers.NewDataAwsccMemorydbUsers(scope Construct, id *string, config DataAwsccMemorydbUsersConfig) DataAwsccMemorydbUsers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMemorydbUsers.DataAwsccMemorydbUsers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbusers"
 
 dataawsccmemorydbusers.DataAwsccMemorydbUsers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMemorydbUsers.DataAwsccMemorydbUsers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbusers"
 
 dataawsccmemorydbusers.DataAwsccMemorydbUsers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmemorydbusers.DataAwsccMemorydbUsers_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMemorydbUsers.DataAwsccMemorydbUsers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbusers"
 
 dataawsccmemorydbusers.DataAwsccMemorydbUsers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmemorydbusers.DataAwsccMemorydbUsers_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMemorydbUsers.DataAwsccMemorydbUsers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbusers"
 
 dataawsccmemorydbusers.DataAwsccMemorydbUsers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMemorydbUsers to 
 
 The id of the existing DataAwsccMemorydbUsers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_users#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_users#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMemorydbUsers.DataAwsccMemorydbUsersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbusers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbusers"
 
 &dataawsccmemorydbusers.DataAwsccMemorydbUsersConfig {
 	Connection: interface{},

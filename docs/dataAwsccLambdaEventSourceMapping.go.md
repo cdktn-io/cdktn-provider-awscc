@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaEventSourceMapping <a name="DataAwsccLambdaEventSourceMapping" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMapping"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_event_source_mapping awscc_lambda_event_source_mapping}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_event_source_mapping awscc_lambda_event_source_mapping}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMapping(scope Construct, id *string, config DataAwsccLambdaEventSourceMappingConfig) DataAwsccLambdaEventSourceMapping
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMapping.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMapping_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMapping.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMapping_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMapping_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMapping.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMapping_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMapping_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMapping.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMapping_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaEventSource
 
 The id of the existing DataAwsccLambdaEventSourceMapping that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_event_source_mapping#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_event_source_mapping#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -917,7 +917,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfig {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfig {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigs {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigs {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingConfig {
 	Connection: interface{},
@@ -1078,7 +1078,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_event_source_mapping#id DataAwsccLambdaEventSourceMapping#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_event_source_mapping#id DataAwsccLambdaEventSourceMapping#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1090,7 +1090,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingDestinationConfig {
 
@@ -1103,7 +1103,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingDestinationConfigOnFailure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingDestinationConfigOnFailure {
 
@@ -1116,7 +1116,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingDocumentDbEventSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingDocumentDbEventSourceConfig {
 
@@ -1129,7 +1129,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingFilterCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingFilterCriteria {
 
@@ -1142,7 +1142,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingFilterCriteriaFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingFilterCriteriaFilters {
 
@@ -1155,7 +1155,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingLoggingConfig {
 
@@ -1168,7 +1168,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingMetricsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingMetricsConfig {
 
@@ -1181,7 +1181,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingProvisionedPollerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingProvisionedPollerConfig {
 
@@ -1194,7 +1194,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingScalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingScalingConfig {
 
@@ -1207,7 +1207,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedEventSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingSelfManagedEventSource {
 
@@ -1220,7 +1220,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedEventSourceEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingSelfManagedEventSourceEndpoints {
 
@@ -1233,7 +1233,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfig {
 
@@ -1246,7 +1246,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfig {
 
@@ -1259,7 +1259,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigs {
 
@@ -1272,7 +1272,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigs {
 
@@ -1285,7 +1285,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSourceAccessConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingSourceAccessConfigurations {
 
@@ -1298,7 +1298,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 &dataawscclambdaeventsourcemapping.DataAwsccLambdaEventSourceMappingTags {
 
@@ -1313,7 +1313,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventso
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigOutputReference
 ```
@@ -1584,7 +1584,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsList
 ```
@@ -1733,7 +1733,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsOutputReference
 ```
@@ -2022,7 +2022,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigOutputReference
 ```
@@ -2315,7 +2315,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsList
 ```
@@ -2464,7 +2464,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsOutputReference
 ```
@@ -2742,7 +2742,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingAmazonManagedKafkaEventSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingDestinationConfigOnFailureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingDestinationConfigOnFailureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingDestinationConfigOnFailureOutputReference
 ```
@@ -3002,7 +3002,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingDestinationConfigOnFailure
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingDestinationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingDestinationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingDestinationConfigOutputReference
 ```
@@ -3262,7 +3262,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingDestinationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingDocumentDbEventSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingDocumentDbEventSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingDocumentDbEventSourceConfigOutputReference
 ```
@@ -3544,7 +3544,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingDocumentDbEventSourceConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingFilterCriteriaFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingFilterCriteriaFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaEventSourceMappingFilterCriteriaFiltersList
 ```
@@ -3693,7 +3693,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingFilterCriteriaFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingFilterCriteriaFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaEventSourceMappingFilterCriteriaFiltersOutputReference
 ```
@@ -3971,7 +3971,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingFilterCriteriaFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingFilterCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingFilterCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingFilterCriteriaOutputReference
 ```
@@ -4231,7 +4231,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingFilterCriteria
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingLoggingConfigOutputReference
 ```
@@ -4491,7 +4491,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingMetricsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingMetricsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingMetricsConfigOutputReference
 ```
@@ -4751,7 +4751,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingMetricsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingProvisionedPollerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingProvisionedPollerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingProvisionedPollerConfigOutputReference
 ```
@@ -5033,7 +5033,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingProvisionedPollerConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingScalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingScalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingScalingConfigOutputReference
 ```
@@ -5293,7 +5293,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingScalingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedEventSourceEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingSelfManagedEventSourceEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingSelfManagedEventSourceEndpointsOutputReference
 ```
@@ -5553,7 +5553,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingSelfManagedEventSourceEndp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedEventSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingSelfManagedEventSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingSelfManagedEventSourceOutputReference
 ```
@@ -5813,7 +5813,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingSelfManagedEventSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference
 ```
@@ -6095,7 +6095,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsList
 ```
@@ -6244,7 +6244,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigsOutputReference
 ```
@@ -6533,7 +6533,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigOutputReference
 ```
@@ -6826,7 +6826,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsList
 ```
@@ -6975,7 +6975,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigSchemaValidationConfigsOutputReference
 ```
@@ -7253,7 +7253,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSourceAccessConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingSourceAccessConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaEventSourceMappingSourceAccessConfigurationsList
 ```
@@ -7402,7 +7402,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSourceAccessConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingSourceAccessConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaEventSourceMappingSourceAccessConfigurationsOutputReference
 ```
@@ -7691,7 +7691,7 @@ func InternalValue() DataAwsccLambdaEventSourceMappingSourceAccessConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaEventSourceMappingTagsList
 ```
@@ -7840,7 +7840,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemapping"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemapping"
 
 dataawscclambdaeventsourcemapping.NewDataAwsccLambdaEventSourceMappingTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaEventSourceMappingTagsOutputReference
 ```

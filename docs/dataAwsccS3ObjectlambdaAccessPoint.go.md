@@ -4,12 +4,12 @@
 
 ### DataAwsccS3ObjectlambdaAccessPoint <a name="DataAwsccS3ObjectlambdaAccessPoint" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3objectlambda_access_point awscc_s3objectlambda_access_point}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3objectlambda_access_point awscc_s3objectlambda_access_point}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.NewDataAwsccS3ObjectlambdaAccessPoint(scope Construct, id *string, config DataAwsccS3ObjectlambdaAccessPointConfig) DataAwsccS3ObjectlambdaAccessPoint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPoint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPoint_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPoint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPoint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPoint_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3ObjectlambdaAcc
 
 The id of the existing DataAwsccS3ObjectlambdaAccessPoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3objectlambda_access_point#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3objectlambda_access_point#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 &dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPointAlias {
 
@@ -677,7 +677,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 &dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPointConfig {
 	Connection: interface{},
@@ -786,7 +786,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3objectlambda_access_point#id DataAwsccS3ObjectlambdaAccessPoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3objectlambda_access_point#id DataAwsccS3ObjectlambdaAccessPoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -798,7 +798,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 &dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfiguration {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 &dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurations {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsContentTransformation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 &dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsContentTransformation {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsContentTransformationAwsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 &dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsContentTransformationAwsLambda {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointPolicyStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 &dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPointPolicyStatus {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointPublicAccessBlockConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 &dataawsccs3objectlambdaaccesspoint.DataAwsccS3ObjectlambdaAccessPointPublicAccessBlockConfiguration {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambd
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointAliasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.NewDataAwsccS3ObjectlambdaAccessPointAliasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3ObjectlambdaAccessPointAliasOutputReference
 ```
@@ -1149,7 +1149,7 @@ func InternalValue() DataAwsccS3ObjectlambdaAccessPointAlias
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.NewDataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationOutputReference
 ```
@@ -1442,7 +1442,7 @@ func InternalValue() DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsContentTransformationAwsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.NewDataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsContentTransformationAwsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsContentTransformationAwsLambdaOutputReference
 ```
@@ -1713,7 +1713,7 @@ func InternalValue() DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsContentTransformationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.NewDataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsContentTransformationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsContentTransformationOutputReference
 ```
@@ -1973,7 +1973,7 @@ func InternalValue() DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.NewDataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsList
 ```
@@ -2122,7 +2122,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.NewDataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationConfigurationsOutputReference
 ```
@@ -2411,7 +2411,7 @@ func InternalValue() DataAwsccS3ObjectlambdaAccessPointObjectLambdaConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointPolicyStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.NewDataAwsccS3ObjectlambdaAccessPointPolicyStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3ObjectlambdaAccessPointPolicyStatusOutputReference
 ```
@@ -2671,7 +2671,7 @@ func InternalValue() DataAwsccS3ObjectlambdaAccessPointPolicyStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoint.DataAwsccS3ObjectlambdaAccessPointPublicAccessBlockConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3objectlambdaaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3objectlambdaaccesspoint"
 
 dataawsccs3objectlambdaaccesspoint.NewDataAwsccS3ObjectlambdaAccessPointPublicAccessBlockConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3ObjectlambdaAccessPointPublicAccessBlockConfigurationOutputReference
 ```

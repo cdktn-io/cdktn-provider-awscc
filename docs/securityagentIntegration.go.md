@@ -4,12 +4,12 @@
 
 ### SecurityagentIntegration <a name="SecurityagentIntegration" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration awscc_securityagent_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration awscc_securityagent_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.NewSecurityagentIntegration(scope Construct, id *string, config SecurityagentIntegrationConfig) SecurityagentIntegration
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.SecurityagentIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.SecurityagentIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ securityagentintegration.SecurityagentIntegration_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.SecurityagentIntegration_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ securityagentintegration.SecurityagentIntegration_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.SecurityagentIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the SecurityagentIntegration t
 
 The id of the existing SecurityagentIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -941,7 +941,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 &securityagentintegration.SecurityagentIntegrationConfig {
 	Connection: interface{},
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegrati
 	ProviderName: *string,
 	KmsKeyId: *string,
 	PrivateConnectionName: *string,
-	ProviderInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityagentIntegration.SecurityagentIntegrationProviderInput,
+	ProviderInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityagentIntegration.SecurityagentIntegrationProviderInput,
 	Tags: interface{},
 }
 ```
@@ -1060,7 +1060,7 @@ DisplayName *string
 
 The display name for the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#display_name SecurityagentIntegration#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#display_name SecurityagentIntegration#display_name}
 
 ---
 
@@ -1074,7 +1074,7 @@ ProviderName *string
 
 The integration provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#provider_name SecurityagentIntegration#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#provider_name SecurityagentIntegration#provider_name}
 
 ---
 
@@ -1090,7 +1090,7 @@ The identifier of the AWS KMS key to use for encrypting data associated with the
 
 Can be a key ID, key ARN, alias name, or alias ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#kms_key_id SecurityagentIntegration#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#kms_key_id SecurityagentIntegration#kms_key_id}
 
 ---
 
@@ -1104,7 +1104,7 @@ PrivateConnectionName *string
 
 The name of an active private connection used to reach a self-hosted provider instance over private networking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#private_connection_name SecurityagentIntegration#private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#private_connection_name SecurityagentIntegration#private_connection_name}
 
 ---
 
@@ -1118,7 +1118,7 @@ ProviderInput SecurityagentIntegrationProviderInput
 
 The provider-specific input required to create the integration. Exactly one of the provider input objects must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#provider_input SecurityagentIntegration#provider_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#provider_input SecurityagentIntegration#provider_input}
 
 ---
 
@@ -1132,7 +1132,7 @@ Tags interface{}
 
 The tags to associate with the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#tags SecurityagentIntegration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#tags SecurityagentIntegration#tags}
 
 ---
 
@@ -1141,13 +1141,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationProviderInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 &securityagentintegration.SecurityagentIntegrationProviderInput {
-	Bitbucket: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityagentIntegration.SecurityagentIntegrationProviderInputBitbucket,
-	Confluence: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityagentIntegration.SecurityagentIntegrationProviderInputConfluence,
-	Github: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityagentIntegration.SecurityagentIntegrationProviderInputGithub,
-	Gitlab: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityagentIntegration.SecurityagentIntegrationProviderInputGitlab,
+	Bitbucket: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityagentIntegration.SecurityagentIntegrationProviderInputBitbucket,
+	Confluence: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityagentIntegration.SecurityagentIntegrationProviderInputConfluence,
+	Github: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityagentIntegration.SecurityagentIntegrationProviderInputGithub,
+	Gitlab: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityagentIntegration.SecurityagentIntegrationProviderInputGitlab,
 }
 ```
 
@@ -1172,7 +1172,7 @@ Bitbucket SecurityagentIntegrationProviderInputBitbucket
 
 The input required to create a Bitbucket integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#bitbucket SecurityagentIntegration#bitbucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#bitbucket SecurityagentIntegration#bitbucket}
 
 ---
 
@@ -1186,7 +1186,7 @@ Confluence SecurityagentIntegrationProviderInputConfluence
 
 The input required to create a Confluence integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#confluence SecurityagentIntegration#confluence}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#confluence SecurityagentIntegration#confluence}
 
 ---
 
@@ -1200,7 +1200,7 @@ Github SecurityagentIntegrationProviderInputGithub
 
 The input required to create a GitHub integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#github SecurityagentIntegration#github}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#github SecurityagentIntegration#github}
 
 ---
 
@@ -1214,7 +1214,7 @@ Gitlab SecurityagentIntegrationProviderInputGitlab
 
 The input required to create a GitLab integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#gitlab SecurityagentIntegration#gitlab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#gitlab SecurityagentIntegration#gitlab}
 
 ---
 
@@ -1223,7 +1223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationProviderInputBitbucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 &securityagentintegration.SecurityagentIntegrationProviderInputBitbucket {
 	Code: *string,
@@ -1254,7 +1254,7 @@ Code *string
 
 The OAuth 2.0 authorization code returned from the consent redirect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
 
 ---
 
@@ -1268,7 +1268,7 @@ InstallationId *string
 
 The Atlassian installation identifier, available from the Atlassian administration console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
 
 ---
 
@@ -1282,7 +1282,7 @@ State *string
 
 The CSRF state token echoed back from the OAuth redirect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
 
 ---
 
@@ -1296,7 +1296,7 @@ Workspace *string
 
 The Bitbucket workspace slug that identifies the workspace to integrate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#workspace SecurityagentIntegration#workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#workspace SecurityagentIntegration#workspace}
 
 ---
 
@@ -1305,7 +1305,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationProviderInputConfluence.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 &securityagentintegration.SecurityagentIntegrationProviderInputConfluence {
 	Code: *string,
@@ -1336,7 +1336,7 @@ Code *string
 
 The OAuth 2.0 authorization code returned from the consent redirect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
 
 ---
 
@@ -1350,7 +1350,7 @@ InstallationId *string
 
 The Atlassian installation identifier, available from the Atlassian administration console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
 
 ---
 
@@ -1364,7 +1364,7 @@ SiteUrl *string
 
 The Confluence Cloud site URL, for example https://mysite.atlassian.net.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#site_url SecurityagentIntegration#site_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#site_url SecurityagentIntegration#site_url}
 
 ---
 
@@ -1378,7 +1378,7 @@ State *string
 
 The CSRF state token echoed back from the OAuth redirect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
 
 ---
 
@@ -1387,7 +1387,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationProviderInputGithub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 &securityagentintegration.SecurityagentIntegrationProviderInputGithub {
 	Code: *string,
@@ -1420,7 +1420,7 @@ Code *string
 
 The OAuth authorization code received from GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#code SecurityagentIntegration#code}
 
 ---
 
@@ -1436,7 +1436,7 @@ The installation identifier provided by GitHub Enterprise Server on the install 
 
 Required for GitHub Enterprise Server integrations and ignored for GitHub.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#installation_id SecurityagentIntegration#installation_id}
 
 ---
 
@@ -1450,7 +1450,7 @@ OrganizationName *string
 
 The name of the GitHub organization to integrate with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#organization_name SecurityagentIntegration#organization_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#organization_name SecurityagentIntegration#organization_name}
 
 ---
 
@@ -1464,7 +1464,7 @@ State *string
 
 The CSRF state token for validating the OAuth flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#state SecurityagentIntegration#state}
 
 ---
 
@@ -1478,7 +1478,7 @@ TargetUrl *string
 
 The HTTPS URL of a self-hosted GitHub Enterprise Server instance. Omit this value for GitHub.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#target_url SecurityagentIntegration#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#target_url SecurityagentIntegration#target_url}
 
 ---
 
@@ -1487,7 +1487,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationProviderInputGitlab.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 &securityagentintegration.SecurityagentIntegrationProviderInputGitlab {
 	AccessToken: *string,
@@ -1518,7 +1518,7 @@ AccessToken *string
 
 The GitLab access token used to authenticate. This can be a personal access token or a group access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#access_token SecurityagentIntegration#access_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#access_token SecurityagentIntegration#access_token}
 
 ---
 
@@ -1532,7 +1532,7 @@ GroupId *string
 
 The identifier of the GitLab group. Required when TokenType is GROUP and ignored for personal tokens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#group_id SecurityagentIntegration#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#group_id SecurityagentIntegration#group_id}
 
 ---
 
@@ -1546,7 +1546,7 @@ TargetUrl *string
 
 The HTTPS URL of a self-managed GitLab instance. Omit this value for GitLab SaaS (gitlab.com).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#target_url SecurityagentIntegration#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#target_url SecurityagentIntegration#target_url}
 
 ---
 
@@ -1560,7 +1560,7 @@ TokenType *string
 
 The type of GitLab access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#token_type SecurityagentIntegration#token_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#token_type SecurityagentIntegration#token_type}
 
 ---
 
@@ -1569,7 +1569,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 &securityagentintegration.SecurityagentIntegrationTags {
 	Key: *string,
@@ -1596,7 +1596,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#key SecurityagentIntegration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#key SecurityagentIntegration#key}
 
 ---
 
@@ -1610,7 +1610,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#value SecurityagentIntegration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#value SecurityagentIntegration#value}
 
 ---
 
@@ -1621,7 +1621,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationProviderInputBitbucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.NewSecurityagentIntegrationProviderInputBitbucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityagentIntegrationProviderInputBitbucketOutputReference
 ```
@@ -1986,7 +1986,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationProviderInputConfluenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.NewSecurityagentIntegrationProviderInputConfluenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityagentIntegrationProviderInputConfluenceOutputReference
 ```
@@ -2351,7 +2351,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationProviderInputGithubOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.NewSecurityagentIntegrationProviderInputGithubOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityagentIntegrationProviderInputGithubOutputReference
 ```
@@ -2745,7 +2745,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationProviderInputGitlabOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.NewSecurityagentIntegrationProviderInputGitlabOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityagentIntegrationProviderInputGitlabOutputReference
 ```
@@ -3110,7 +3110,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationProviderInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.NewSecurityagentIntegrationProviderInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityagentIntegrationProviderInputOutputReference
 ```
@@ -3527,7 +3527,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.NewSecurityagentIntegrationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityagentIntegrationTagsList
 ```
@@ -3687,7 +3687,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentIntegration.SecurityagentIntegrationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentintegration"
 
 securityagentintegration.NewSecurityagentIntegrationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityagentIntegrationTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccResiliencehubv2Policy <a name="DataAwsccResiliencehubv2Policy" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_policy awscc_resiliencehubv2_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_policy awscc_resiliencehubv2_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 dataawsccresiliencehubv2policy.NewDataAwsccResiliencehubv2Policy(scope Construct, id *string, config DataAwsccResiliencehubv2PolicyConfig) DataAwsccResiliencehubv2Policy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2Policy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2Policy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2Policy_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2Policy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2Policy_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2Policy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResiliencehubv2Po
 
 The id of the existing DataAwsccResiliencehubv2Policy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyAvailabilitySlo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 &dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2PolicyAvailabilitySlo {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehub
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 &dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2PolicyConfig {
 	Connection: interface{},
@@ -852,7 +852,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_policy#id DataAwsccResiliencehubv2Policy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_policy#id DataAwsccResiliencehubv2Policy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -864,7 +864,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyDataRecovery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 &dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2PolicyDataRecovery {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehub
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyMultiAz.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 &dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2PolicyMultiAz {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehub
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyMultiRegion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 &dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2PolicyMultiRegion {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehub
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 &dataawsccresiliencehubv2policy.DataAwsccResiliencehubv2PolicyTags {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehub
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyAvailabilitySloOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 dataawsccresiliencehubv2policy.NewDataAwsccResiliencehubv2PolicyAvailabilitySloOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccResiliencehubv2PolicyAvailabilitySloOutputReference
 ```
@@ -1178,7 +1178,7 @@ func InternalValue() DataAwsccResiliencehubv2PolicyAvailabilitySlo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyDataRecoveryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 dataawsccresiliencehubv2policy.NewDataAwsccResiliencehubv2PolicyDataRecoveryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccResiliencehubv2PolicyDataRecoveryOutputReference
 ```
@@ -1438,7 +1438,7 @@ func InternalValue() DataAwsccResiliencehubv2PolicyDataRecovery
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyMultiAzOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 dataawsccresiliencehubv2policy.NewDataAwsccResiliencehubv2PolicyMultiAzOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccResiliencehubv2PolicyMultiAzOutputReference
 ```
@@ -1720,7 +1720,7 @@ func InternalValue() DataAwsccResiliencehubv2PolicyMultiAz
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyMultiRegionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 dataawsccresiliencehubv2policy.NewDataAwsccResiliencehubv2PolicyMultiRegionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccResiliencehubv2PolicyMultiRegionOutputReference
 ```
@@ -2002,7 +2002,7 @@ func InternalValue() DataAwsccResiliencehubv2PolicyMultiRegion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 dataawsccresiliencehubv2policy.NewDataAwsccResiliencehubv2PolicyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccResiliencehubv2PolicyTagsList
 ```
@@ -2151,7 +2151,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2policy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2policy"
 
 dataawsccresiliencehubv2policy.NewDataAwsccResiliencehubv2PolicyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccResiliencehubv2PolicyTagsOutputReference
 ```

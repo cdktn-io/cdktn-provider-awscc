@@ -4,12 +4,12 @@
 
 ### IvsPlaybackKeyPair <a name="IvsPlaybackKeyPair" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPair"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_playback_key_pair awscc_ivs_playback_key_pair}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_playback_key_pair awscc_ivs_playback_key_pair}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPair.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsplaybackkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsplaybackkeypair"
 
 ivsplaybackkeypair.NewIvsPlaybackKeyPair(scope Construct, id *string, config IvsPlaybackKeyPairConfig) IvsPlaybackKeyPair
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPair.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsplaybackkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsplaybackkeypair"
 
 ivsplaybackkeypair.IvsPlaybackKeyPair_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPair.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsplaybackkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsplaybackkeypair"
 
 ivsplaybackkeypair.IvsPlaybackKeyPair_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ ivsplaybackkeypair.IvsPlaybackKeyPair_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPair.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsplaybackkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsplaybackkeypair"
 
 ivsplaybackkeypair.IvsPlaybackKeyPair_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ ivsplaybackkeypair.IvsPlaybackKeyPair_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPair.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsplaybackkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsplaybackkeypair"
 
 ivsplaybackkeypair.IvsPlaybackKeyPair_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the IvsPlaybackKeyPair to impo
 
 The id of the existing IvsPlaybackKeyPair that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_playback_key_pair#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_playback_key_pair#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -822,7 +822,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsplaybackkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsplaybackkeypair"
 
 &ivsplaybackkeypair.IvsPlaybackKeyPairConfig {
 	Connection: interface{},
@@ -937,7 +937,7 @@ An arbitrary string (a nickname) assigned to a playback key pair that helps the 
 
 The value does not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_playback_key_pair#name IvsPlaybackKeyPair#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_playback_key_pair#name IvsPlaybackKeyPair#name}
 
 ---
 
@@ -951,7 +951,7 @@ PublicKeyMaterial *string
 
 The public portion of a customer-generated key pair. This field is required to create the AWS::IVS::PlaybackKeyPair resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_playback_key_pair#public_key_material IvsPlaybackKeyPair#public_key_material}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_playback_key_pair#public_key_material IvsPlaybackKeyPair#public_key_material}
 
 ---
 
@@ -965,7 +965,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_playback_key_pair#tags IvsPlaybackKeyPair#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_playback_key_pair#tags IvsPlaybackKeyPair#tags}
 
 ---
 
@@ -974,7 +974,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsplaybackkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsplaybackkeypair"
 
 &ivsplaybackkeypair.IvsPlaybackKeyPairTags {
 	Key: *string,
@@ -986,8 +986,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsplaybackkeypair"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_playback_key_pair#key IvsPlaybackKeyPair#key}. |
-| <code><a href="#@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_playback_key_pair#value IvsPlaybackKeyPair#value}. |
+| <code><a href="#@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_playback_key_pair#key IvsPlaybackKeyPair#key}. |
+| <code><a href="#@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_playback_key_pair#value IvsPlaybackKeyPair#value}. |
 
 ---
 
@@ -999,7 +999,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_playback_key_pair#key IvsPlaybackKeyPair#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_playback_key_pair#key IvsPlaybackKeyPair#key}.
 
 ---
 
@@ -1011,7 +1011,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_playback_key_pair#value IvsPlaybackKeyPair#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_playback_key_pair#value IvsPlaybackKeyPair#value}.
 
 ---
 
@@ -1022,7 +1022,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsplaybackkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsplaybackkeypair"
 
 ivsplaybackkeypair.NewIvsPlaybackKeyPairTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IvsPlaybackKeyPairTagsList
 ```
@@ -1182,7 +1182,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsPlaybackKeyPair.IvsPlaybackKeyPairTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsplaybackkeypair"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsplaybackkeypair"
 
 ivsplaybackkeypair.NewIvsPlaybackKeyPairTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IvsPlaybackKeyPairTagsOutputReference
 ```

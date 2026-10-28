@@ -4,12 +4,12 @@
 
 ### LakeformationDataCellsFilter <a name="LakeformationDataCellsFilter" id="@cdktn/provider-awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter awscc_lakeformation_data_cells_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter awscc_lakeformation_data_cells_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationdatacellsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationdatacellsfilter"
 
 lakeformationdatacellsfilter.NewLakeformationDataCellsFilter(scope Construct, id *string, config LakeformationDataCellsFilterConfig) LakeformationDataCellsFilter
 ```
@@ -447,7 +447,7 @@ func ResetRowFilter()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationdatacellsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationdatacellsfilter"
 
 lakeformationdatacellsfilter.LakeformationDataCellsFilter_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationdatacellsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationdatacellsfilter"
 
 lakeformationdatacellsfilter.LakeformationDataCellsFilter_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ lakeformationdatacellsfilter.LakeformationDataCellsFilter_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilter.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationdatacellsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationdatacellsfilter"
 
 lakeformationdatacellsfilter.LakeformationDataCellsFilter_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ lakeformationdatacellsfilter.LakeformationDataCellsFilter_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationdatacellsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationdatacellsfilter"
 
 lakeformationdatacellsfilter.LakeformationDataCellsFilter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the LakeformationDataCellsFilt
 
 The id of the existing LakeformationDataCellsFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -901,7 +901,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilterColumnWildcard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationdatacellsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationdatacellsfilter"
 
 &lakeformationdatacellsfilter.LakeformationDataCellsFilterColumnWildcard {
 	ExcludedColumnNames: *[]*string,
@@ -926,7 +926,7 @@ ExcludedColumnNames *[]*string
 
 A list of column names to be excluded from the Data Cells Filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter#excluded_column_names LakeformationDataCellsFilter#excluded_column_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter#excluded_column_names LakeformationDataCellsFilter#excluded_column_names}
 
 ---
 
@@ -935,7 +935,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationdatacellsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationdatacellsfilter"
 
 &lakeformationdatacellsfilter.LakeformationDataCellsFilterConfig {
 	Connection: interface{},
@@ -950,8 +950,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationdatacells
 	TableCatalogId: *string,
 	TableName: *string,
 	ColumnNames: *[]*string,
-	ColumnWildcard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilterColumnWildcard,
-	RowFilter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilterRowFilter,
+	ColumnWildcard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationDataCellsFilter.LakeformationDataCellsFilterColumnWildcard,
+	RowFilter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationDataCellsFilter.LakeformationDataCellsFilterRowFilter,
 }
 ```
 
@@ -1056,7 +1056,7 @@ DatabaseName *string
 
 The name of the Database that the Table resides in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter#database_name LakeformationDataCellsFilter#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter#database_name LakeformationDataCellsFilter#database_name}
 
 ---
 
@@ -1070,7 +1070,7 @@ Name *string
 
 The desired name of the Data Cells Filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter#name LakeformationDataCellsFilter#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter#name LakeformationDataCellsFilter#name}
 
 ---
 
@@ -1084,7 +1084,7 @@ TableCatalogId *string
 
 The Catalog Id of the Table on which to create a Data Cells Filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter#table_catalog_id LakeformationDataCellsFilter#table_catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter#table_catalog_id LakeformationDataCellsFilter#table_catalog_id}
 
 ---
 
@@ -1098,7 +1098,7 @@ TableName *string
 
 The name of the Table to create a Data Cells Filter for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter#table_name LakeformationDataCellsFilter#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter#table_name LakeformationDataCellsFilter#table_name}
 
 ---
 
@@ -1112,7 +1112,7 @@ ColumnNames *[]*string
 
 A list of columns to be included in this Data Cells Filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter#column_names LakeformationDataCellsFilter#column_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter#column_names LakeformationDataCellsFilter#column_names}
 
 ---
 
@@ -1126,7 +1126,7 @@ ColumnWildcard LakeformationDataCellsFilterColumnWildcard
 
 An object representing the Data Cells Filter's Columns. Either Column Names or a Wildcard is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter#column_wildcard LakeformationDataCellsFilter#column_wildcard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter#column_wildcard LakeformationDataCellsFilter#column_wildcard}
 
 ---
 
@@ -1140,7 +1140,7 @@ RowFilter LakeformationDataCellsFilterRowFilter
 
 An object representing the Data Cells Filter's Row Filter. Either a Filter Expression or a Wildcard is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter#row_filter LakeformationDataCellsFilter#row_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter#row_filter LakeformationDataCellsFilter#row_filter}
 
 ---
 
@@ -1149,7 +1149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilterRowFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationdatacellsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationdatacellsfilter"
 
 &lakeformationdatacellsfilter.LakeformationDataCellsFilterRowFilter {
 	AllRowsWildcard: *string,
@@ -1176,7 +1176,7 @@ AllRowsWildcard *string
 
 An empty object representing a row wildcard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter#all_rows_wildcard LakeformationDataCellsFilter#all_rows_wildcard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter#all_rows_wildcard LakeformationDataCellsFilter#all_rows_wildcard}
 
 ---
 
@@ -1190,7 +1190,7 @@ FilterExpression *string
 
 A PartiQL predicate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_data_cells_filter#filter_expression LakeformationDataCellsFilter#filter_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_data_cells_filter#filter_expression LakeformationDataCellsFilter#filter_expression}
 
 ---
 
@@ -1201,7 +1201,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilterColumnWildcardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationdatacellsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationdatacellsfilter"
 
 lakeformationdatacellsfilter.NewLakeformationDataCellsFilterColumnWildcardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationDataCellsFilterColumnWildcardOutputReference
 ```
@@ -1479,7 +1479,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationDataCellsFilter.LakeformationDataCellsFilterRowFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationdatacellsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationdatacellsfilter"
 
 lakeformationdatacellsfilter.NewLakeformationDataCellsFilterRowFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationDataCellsFilterRowFilterOutputReference
 ```

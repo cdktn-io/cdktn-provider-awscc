@@ -4,12 +4,12 @@
 
 ### DataAwsccIotwirelessFuotaTasks <a name="DataAwsccIotwirelessFuotaTasks" id="@cdktn/provider-awscc.dataAwsccIotwirelessFuotaTasks.DataAwsccIotwirelessFuotaTasks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_fuota_tasks awscc_iotwireless_fuota_tasks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_fuota_tasks awscc_iotwireless_fuota_tasks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessFuotaTasks.DataAwsccIotwirelessFuotaTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessfuotatasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessfuotatasks"
 
 dataawscciotwirelessfuotatasks.NewDataAwsccIotwirelessFuotaTasks(scope Construct, id *string, config DataAwsccIotwirelessFuotaTasksConfig) DataAwsccIotwirelessFuotaTasks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotwirelessFuotaTasks.DataAwsccIotwirelessFuotaTasks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessfuotatasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessfuotatasks"
 
 dataawscciotwirelessfuotatasks.DataAwsccIotwirelessFuotaTasks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotwirelessFuotaTasks.DataAwsccIotwirelessFuotaTasks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessfuotatasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessfuotatasks"
 
 dataawscciotwirelessfuotatasks.DataAwsccIotwirelessFuotaTasks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotwirelessfuotatasks.DataAwsccIotwirelessFuotaTasks_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotwirelessFuotaTasks.DataAwsccIotwirelessFuotaTasks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessfuotatasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessfuotatasks"
 
 dataawscciotwirelessfuotatasks.DataAwsccIotwirelessFuotaTasks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotwirelessfuotatasks.DataAwsccIotwirelessFuotaTasks_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotwirelessFuotaTasks.DataAwsccIotwirelessFuotaTasks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessfuotatasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessfuotatasks"
 
 dataawscciotwirelessfuotatasks.DataAwsccIotwirelessFuotaTasks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessFuotaT
 
 The id of the existing DataAwsccIotwirelessFuotaTasks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_fuota_tasks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_fuota_tasks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessFuotaTasks.DataAwsccIotwirelessFuotaTasksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessfuotatasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessfuotatasks"
 
 &dataawscciotwirelessfuotatasks.DataAwsccIotwirelessFuotaTasksConfig {
 	Connection: interface{},

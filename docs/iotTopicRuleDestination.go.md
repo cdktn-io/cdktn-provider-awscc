@@ -4,12 +4,12 @@
 
 ### IotTopicRuleDestination <a name="IotTopicRuleDestination" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 iottopicruledestination.NewIotTopicRuleDestination(scope Construct, id *string, config IotTopicRuleDestinationConfig) IotTopicRuleDestination
 ```
@@ -467,7 +467,7 @@ func ResetVpcProperties()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 iottopicruledestination.IotTopicRuleDestination_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 iottopicruledestination.IotTopicRuleDestination_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ iottopicruledestination.IotTopicRuleDestination_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 iottopicruledestination.IotTopicRuleDestination_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ iottopicruledestination.IotTopicRuleDestination_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestination.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 iottopicruledestination.IotTopicRuleDestination_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the IotTopicRuleDestination to
 
 The id of the existing IotTopicRuleDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -877,7 +877,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 &iottopicruledestination.IotTopicRuleDestinationConfig {
 	Connection: interface{},
@@ -887,10 +887,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestinatio
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	HttpUrlProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties,
-	InfluxDbProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties,
+	HttpUrlProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties,
+	InfluxDbProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties,
 	Status: *string,
-	VpcProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties,
+	VpcProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties,
 }
 ```
 
@@ -992,7 +992,7 @@ HttpUrlProperties IotTopicRuleDestinationHttpUrlProperties
 
 HTTP URL destination properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#http_url_properties IotTopicRuleDestination#http_url_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#http_url_properties IotTopicRuleDestination#http_url_properties}
 
 ---
 
@@ -1006,7 +1006,7 @@ InfluxDbProperties IotTopicRuleDestinationInfluxDbProperties
 
 InfluxDB destination properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#influx_db_properties IotTopicRuleDestination#influx_db_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#influx_db_properties IotTopicRuleDestination#influx_db_properties}
 
 ---
 
@@ -1020,7 +1020,7 @@ Status *string
 
 The status of the TopicRuleDestination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#status IotTopicRuleDestination#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#status IotTopicRuleDestination#status}
 
 ---
 
@@ -1034,7 +1034,7 @@ VpcProperties IotTopicRuleDestinationVpcProperties
 
 VPC destination properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#vpc_properties IotTopicRuleDestination#vpc_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#vpc_properties IotTopicRuleDestination#vpc_properties}
 
 ---
 
@@ -1043,7 +1043,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 &iottopicruledestination.IotTopicRuleDestinationHttpUrlProperties {
 	ConfirmationUrl: *string,
@@ -1054,7 +1054,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestinatio
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties.property.confirmationUrl">ConfirmationUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlProperties.property.confirmationUrl">ConfirmationUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}. |
 
 ---
 
@@ -1066,7 +1066,7 @@ ConfirmationUrl *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#confirmation_url IotTopicRuleDestination#confirmation_url}.
 
 ---
 
@@ -1075,7 +1075,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 &iottopicruledestination.IotTopicRuleDestinationInfluxDbProperties {
 	Endpoint: *string,
@@ -1108,7 +1108,7 @@ Endpoint *string
 
 The endpoint URL of the InfluxDB database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#endpoint IotTopicRuleDestination#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#endpoint IotTopicRuleDestination#endpoint}
 
 ---
 
@@ -1122,7 +1122,7 @@ InfluxDbVersion *string
 
 The version of the InfluxDB database (for example, V2 or V3).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#influx_db_version IotTopicRuleDestination#influx_db_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#influx_db_version IotTopicRuleDestination#influx_db_version}
 
 ---
 
@@ -1136,7 +1136,7 @@ SecretId *string
 
 The ARN or name of the Secrets Manager secret containing the InfluxDB API token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#secret_id IotTopicRuleDestination#secret_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#secret_id IotTopicRuleDestination#secret_id}
 
 ---
 
@@ -1150,7 +1150,7 @@ SecretKey *string
 
 The key name within the secret that contains the InfluxDB token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#secret_key IotTopicRuleDestination#secret_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#secret_key IotTopicRuleDestination#secret_key}
 
 ---
 
@@ -1164,7 +1164,7 @@ SecretType *string
 
 The type of the secret value (SecretString or SecretBinary).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#secret_type IotTopicRuleDestination#secret_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#secret_type IotTopicRuleDestination#secret_type}
 
 ---
 
@@ -1173,7 +1173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 &iottopicruledestination.IotTopicRuleDestinationVpcProperties {
 	RoleArn: *string,
@@ -1187,10 +1187,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestinatio
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.securityGroups">SecurityGroups</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}. |
-| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}. |
-| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.vpcId">VpcId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.securityGroups">SecurityGroups</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcProperties.property.vpcId">VpcId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}. |
 
 ---
 
@@ -1202,7 +1202,7 @@ RoleArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#role_arn IotTopicRuleDestination#role_arn}.
 
 ---
 
@@ -1214,7 +1214,7 @@ SecurityGroups *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#security_groups IotTopicRuleDestination#security_groups}.
 
 ---
 
@@ -1226,7 +1226,7 @@ SubnetIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#subnet_ids IotTopicRuleDestination#subnet_ids}.
 
 ---
 
@@ -1238,7 +1238,7 @@ VpcId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination#vpc_id IotTopicRuleDestination#vpc_id}.
 
 ---
 
@@ -1249,7 +1249,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationHttpUrlPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 iottopicruledestination.NewIotTopicRuleDestinationHttpUrlPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotTopicRuleDestinationHttpUrlPropertiesOutputReference
 ```
@@ -1527,7 +1527,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationInfluxDbPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 iottopicruledestination.NewIotTopicRuleDestinationInfluxDbPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotTopicRuleDestinationInfluxDbPropertiesOutputReference
 ```
@@ -1921,7 +1921,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotTopicRuleDestination.IotTopicRuleDestinationVpcPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination"
 
 iottopicruledestination.NewIotTopicRuleDestinationVpcPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotTopicRuleDestinationVpcPropertiesOutputReference
 ```

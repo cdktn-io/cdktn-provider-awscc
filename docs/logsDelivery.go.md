@@ -4,12 +4,12 @@
 
 ### LogsDelivery <a name="LogsDelivery" id="@cdktn/provider-awscc.logsDelivery.LogsDelivery"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery awscc_logs_delivery}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery awscc_logs_delivery}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsDelivery.LogsDelivery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdelivery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdelivery"
 
 logsdelivery.NewLogsDelivery(scope Construct, id *string, config LogsDeliveryConfig) LogsDelivery
 ```
@@ -448,7 +448,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.logsDelivery.LogsDelivery.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdelivery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdelivery"
 
 logsdelivery.LogsDelivery_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.logsDelivery.LogsDelivery.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdelivery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdelivery"
 
 logsdelivery.LogsDelivery_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ logsdelivery.LogsDelivery_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.logsDelivery.LogsDelivery.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdelivery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdelivery"
 
 logsdelivery.LogsDelivery_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ logsdelivery.LogsDelivery_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.logsDelivery.LogsDelivery.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdelivery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdelivery"
 
 logsdelivery.LogsDelivery_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the LogsDelivery to import.
 
 The id of the existing LogsDelivery that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -935,7 +935,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsDelivery.LogsDeliveryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdelivery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdelivery"
 
 &logsdelivery.LogsDeliveryConfig {
 	Connection: interface{},
@@ -1056,7 +1056,7 @@ DeliveryDestinationArn *string
 
 The ARN of the delivery destination that is associated with this delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery#delivery_destination_arn LogsDelivery#delivery_destination_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery#delivery_destination_arn LogsDelivery#delivery_destination_arn}
 
 ---
 
@@ -1070,7 +1070,7 @@ DeliverySourceName *string
 
 The name of the delivery source that is associated with this delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery#delivery_source_name LogsDelivery#delivery_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery#delivery_source_name LogsDelivery#delivery_source_name}
 
 ---
 
@@ -1084,7 +1084,7 @@ FieldDelimiter *string
 
 The field delimiter to use between record fields when the final output format of a delivery is in Plain , W3C , or Raw format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery#field_delimiter LogsDelivery#field_delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery#field_delimiter LogsDelivery#field_delimiter}
 
 ---
 
@@ -1100,7 +1100,7 @@ The list of record fields to be delivered to the destination, in order.
 
 If the delivery's log source has mandatory fields, they must be included in this list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery#record_fields LogsDelivery#record_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery#record_fields LogsDelivery#record_fields}
 
 ---
 
@@ -1114,7 +1114,7 @@ S3EnableHiveCompatiblePath interface{}
 
 This parameter causes the S3 objects that contain delivered logs to use a prefix structure that allows for integration with Apache Hive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery#s3_enable_hive_compatible_path LogsDelivery#s3_enable_hive_compatible_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery#s3_enable_hive_compatible_path LogsDelivery#s3_enable_hive_compatible_path}
 
 ---
 
@@ -1130,7 +1130,7 @@ This string allows re-configuring the S3 object prefix to contain either static 
 
 The valid variables to use in the suffix path will vary by each log source. See ConfigurationTemplate$allowedSuffixPathFields for more info on what values are supported in the suffix path for each log source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery#s3_suffix_path LogsDelivery#s3_suffix_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery#s3_suffix_path LogsDelivery#s3_suffix_path}
 
 ---
 
@@ -1144,7 +1144,7 @@ Tags interface{}
 
 The tags that have been assigned to this delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery#tags LogsDelivery#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery#tags LogsDelivery#tags}
 
 ---
 
@@ -1153,7 +1153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsDelivery.LogsDeliveryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdelivery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdelivery"
 
 &logsdelivery.LogsDeliveryTags {
 	Key: *string,
@@ -1180,7 +1180,7 @@ Key *string
 
 The key name of the tag. You can specify a value that is 1 to 128 Unicode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery#key LogsDelivery#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery#key LogsDelivery#key}
 
 ---
 
@@ -1194,7 +1194,7 @@ Value *string
 
 The value for the tag. You can specify a value that is 0 to 256 Unicode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery#value LogsDelivery#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery#value LogsDelivery#value}
 
 ---
 
@@ -1205,7 +1205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsDelivery.LogsDeliveryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdelivery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdelivery"
 
 logsdelivery.NewLogsDeliveryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LogsDeliveryTagsList
 ```
@@ -1365,7 +1365,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsDelivery.LogsDeliveryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdelivery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdelivery"
 
 logsdelivery.NewLogsDeliveryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LogsDeliveryTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### EksPodIdentityAssociation <a name="EksPodIdentityAssociation" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association awscc_eks_pod_identity_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association awscc_eks_pod_identity_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekspodidentityassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekspodidentityassociation"
 
 ekspodidentityassociation.NewEksPodIdentityAssociation(scope Construct, id *string, config EksPodIdentityAssociationConfig) EksPodIdentityAssociation
 ```
@@ -441,7 +441,7 @@ func ResetTargetRoleArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekspodidentityassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekspodidentityassociation"
 
 ekspodidentityassociation.EksPodIdentityAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekspodidentityassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekspodidentityassociation"
 
 ekspodidentityassociation.EksPodIdentityAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ ekspodidentityassociation.EksPodIdentityAssociation_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekspodidentityassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekspodidentityassociation"
 
 ekspodidentityassociation.EksPodIdentityAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ ekspodidentityassociation.EksPodIdentityAssociation_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekspodidentityassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekspodidentityassociation"
 
 ekspodidentityassociation.EksPodIdentityAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the EksPodIdentityAssociation 
 
 The id of the existing EksPodIdentityAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -950,7 +950,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekspodidentityassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekspodidentityassociation"
 
 &ekspodidentityassociation.EksPodIdentityAssociationConfig {
 	Connection: interface{},
@@ -1073,7 +1073,7 @@ ClusterName *string
 
 The cluster that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association#cluster_name EksPodIdentityAssociation#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association#cluster_name EksPodIdentityAssociation#cluster_name}
 
 ---
 
@@ -1087,7 +1087,7 @@ Namespace *string
 
 The Kubernetes namespace that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association#namespace EksPodIdentityAssociation#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association#namespace EksPodIdentityAssociation#namespace}
 
 ---
 
@@ -1101,7 +1101,7 @@ RoleArn *string
 
 The IAM role ARN that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association#role_arn EksPodIdentityAssociation#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association#role_arn EksPodIdentityAssociation#role_arn}
 
 ---
 
@@ -1115,7 +1115,7 @@ ServiceAccount *string
 
 The Kubernetes service account that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association#service_account EksPodIdentityAssociation#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association#service_account EksPodIdentityAssociation#service_account}
 
 ---
 
@@ -1129,7 +1129,7 @@ DisableSessionTags interface{}
 
 The Disable Session Tags of the pod identity association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association#disable_session_tags EksPodIdentityAssociation#disable_session_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association#disable_session_tags EksPodIdentityAssociation#disable_session_tags}
 
 ---
 
@@ -1143,7 +1143,7 @@ Policy *string
 
 The policy of the pod identity association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association#policy EksPodIdentityAssociation#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association#policy EksPodIdentityAssociation#policy}
 
 ---
 
@@ -1157,7 +1157,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association#tags EksPodIdentityAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association#tags EksPodIdentityAssociation#tags}
 
 ---
 
@@ -1171,7 +1171,7 @@ TargetRoleArn *string
 
 The Target Role Arn of the pod identity association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association#target_role_arn EksPodIdentityAssociation#target_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association#target_role_arn EksPodIdentityAssociation#target_role_arn}
 
 ---
 
@@ -1180,7 +1180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekspodidentityassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekspodidentityassociation"
 
 &ekspodidentityassociation.EksPodIdentityAssociationTags {
 	Key: *string,
@@ -1209,7 +1209,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association#key EksPodIdentityAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association#key EksPodIdentityAssociation#key}
 
 ---
 
@@ -1225,7 +1225,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_pod_identity_association#value EksPodIdentityAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_pod_identity_association#value EksPodIdentityAssociation#value}
 
 ---
 
@@ -1236,7 +1236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekspodidentityassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekspodidentityassociation"
 
 ekspodidentityassociation.NewEksPodIdentityAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EksPodIdentityAssociationTagsList
 ```
@@ -1396,7 +1396,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekspodidentityassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ekspodidentityassociation"
 
 ekspodidentityassociation.NewEksPodIdentityAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EksPodIdentityAssociationTagsOutputReference
 ```

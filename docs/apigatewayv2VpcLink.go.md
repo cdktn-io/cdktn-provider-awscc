@@ -4,12 +4,12 @@
 
 ### Apigatewayv2VpcLink <a name="Apigatewayv2VpcLink" id="@cdktn/provider-awscc.apigatewayv2VpcLink.Apigatewayv2VpcLink"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_vpc_link awscc_apigatewayv2_vpc_link}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_vpc_link awscc_apigatewayv2_vpc_link}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2VpcLink.Apigatewayv2VpcLink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2vpclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2vpclink"
 
 apigatewayv2vpclink.NewApigatewayv2VpcLink(scope Construct, id *string, config Apigatewayv2VpcLinkConfig) Apigatewayv2VpcLink
 ```
@@ -414,7 +414,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apigatewayv2VpcLink.Apigatewayv2VpcLink.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2vpclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2vpclink"
 
 apigatewayv2vpclink.Apigatewayv2VpcLink_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apigatewayv2VpcLink.Apigatewayv2VpcLink.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2vpclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2vpclink"
 
 apigatewayv2vpclink.Apigatewayv2VpcLink_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ apigatewayv2vpclink.Apigatewayv2VpcLink_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apigatewayv2VpcLink.Apigatewayv2VpcLink.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2vpclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2vpclink"
 
 apigatewayv2vpclink.Apigatewayv2VpcLink_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ apigatewayv2vpclink.Apigatewayv2VpcLink_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apigatewayv2VpcLink.Apigatewayv2VpcLink.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2vpclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2vpclink"
 
 apigatewayv2vpclink.Apigatewayv2VpcLink_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Apigatewayv2VpcLink to imp
 
 The id of the existing Apigatewayv2VpcLink that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_vpc_link#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_vpc_link#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -813,7 +813,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2VpcLink.Apigatewayv2VpcLinkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2vpclink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2vpclink"
 
 &apigatewayv2vpclink.Apigatewayv2VpcLinkConfig {
 	Connection: interface{},
@@ -928,7 +928,7 @@ Name *string
 
 The name of the VPC link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_vpc_link#name Apigatewayv2VpcLink#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_vpc_link#name Apigatewayv2VpcLink#name}
 
 ---
 
@@ -942,7 +942,7 @@ SubnetIds *[]*string
 
 A list of subnet IDs to include in the VPC link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_vpc_link#subnet_ids Apigatewayv2VpcLink#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_vpc_link#subnet_ids Apigatewayv2VpcLink#subnet_ids}
 
 ---
 
@@ -956,7 +956,7 @@ SecurityGroupIds *[]*string
 
 A list of security group IDs for the VPC link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_vpc_link#security_group_ids Apigatewayv2VpcLink#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_vpc_link#security_group_ids Apigatewayv2VpcLink#security_group_ids}
 
 ---
 
@@ -970,7 +970,7 @@ Tags *map[string]*string
 
 The collection of tags. Each tag element is associated with a given resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_vpc_link#tags Apigatewayv2VpcLink#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_vpc_link#tags Apigatewayv2VpcLink#tags}
 
 ---
 

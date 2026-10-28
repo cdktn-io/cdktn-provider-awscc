@@ -4,12 +4,12 @@
 
 ### BedrockagentcoreRuntimeEndpoint <a name="BedrockagentcoreRuntimeEndpoint" id="@cdktn/provider-awscc.bedrockagentcoreRuntimeEndpoint.BedrockagentcoreRuntimeEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcoreRuntimeEndpoint.BedrockagentcoreRuntimeEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcoreruntimeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcoreruntimeendpoint"
 
 bedrockagentcoreruntimeendpoint.NewBedrockagentcoreRuntimeEndpoint(scope Construct, id *string, config BedrockagentcoreRuntimeEndpointConfig) BedrockagentcoreRuntimeEndpoint
 ```
@@ -421,7 +421,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockagentcoreRuntimeEndpoint.BedrockagentcoreRuntimeEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcoreruntimeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcoreruntimeendpoint"
 
 bedrockagentcoreruntimeendpoint.BedrockagentcoreRuntimeEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockagentcoreRuntimeEndpoint.BedrockagentcoreRuntimeEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcoreruntimeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcoreruntimeendpoint"
 
 bedrockagentcoreruntimeendpoint.BedrockagentcoreRuntimeEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ bedrockagentcoreruntimeendpoint.BedrockagentcoreRuntimeEndpoint_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockagentcoreRuntimeEndpoint.BedrockagentcoreRuntimeEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcoreruntimeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcoreruntimeendpoint"
 
 bedrockagentcoreruntimeendpoint.BedrockagentcoreRuntimeEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ bedrockagentcoreruntimeendpoint.BedrockagentcoreRuntimeEndpoint_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockagentcoreRuntimeEndpoint.BedrockagentcoreRuntimeEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcoreruntimeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcoreruntimeendpoint"
 
 bedrockagentcoreruntimeendpoint.BedrockagentcoreRuntimeEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the BedrockagentcoreRuntimeEnd
 
 The id of the existing BedrockagentcoreRuntimeEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_runtime_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_runtime_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,7 +930,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockagentcoreRuntimeEndpoint.BedrockagentcoreRuntimeEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcoreruntimeendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcoreruntimeendpoint"
 
 &bedrockagentcoreruntimeendpoint.BedrockagentcoreRuntimeEndpointConfig {
 	Connection: interface{},
@@ -1047,7 +1047,7 @@ AgentRuntimeId *string
 
 The ID of the parent Agent Runtime (required for creation).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_runtime_endpoint#agent_runtime_id BedrockagentcoreRuntimeEndpoint#agent_runtime_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_runtime_endpoint#agent_runtime_id BedrockagentcoreRuntimeEndpoint#agent_runtime_id}
 
 ---
 
@@ -1061,7 +1061,7 @@ Name *string
 
 The name of the Agent Runtime Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_runtime_endpoint#name BedrockagentcoreRuntimeEndpoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_runtime_endpoint#name BedrockagentcoreRuntimeEndpoint#name}
 
 ---
 
@@ -1075,7 +1075,7 @@ AgentRuntimeVersion *string
 
 The version of the AgentCore Runtime to use for the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_runtime_endpoint#agent_runtime_version BedrockagentcoreRuntimeEndpoint#agent_runtime_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_runtime_endpoint#agent_runtime_version BedrockagentcoreRuntimeEndpoint#agent_runtime_version}
 
 ---
 
@@ -1089,7 +1089,7 @@ Description *string
 
 The description of the AgentCore Runtime endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_runtime_endpoint#description BedrockagentcoreRuntimeEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_runtime_endpoint#description BedrockagentcoreRuntimeEndpoint#description}
 
 ---
 
@@ -1103,7 +1103,7 @@ Tags *map[string]*string
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_runtime_endpoint#tags BedrockagentcoreRuntimeEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_runtime_endpoint#tags BedrockagentcoreRuntimeEndpoint#tags}
 
 ---
 

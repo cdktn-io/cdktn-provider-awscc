@@ -4,12 +4,12 @@
 
 ### DevopsguruLogAnomalyDetectionIntegration <a name="DevopsguruLogAnomalyDetectionIntegration" id="@cdktn/provider-awscc.devopsguruLogAnomalyDetectionIntegration.DevopsguruLogAnomalyDetectionIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsguruLogAnomalyDetectionIntegration.DevopsguruLogAnomalyDetectionIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsguruloganomalydetectionintegration"
 
 devopsguruloganomalydetectionintegration.NewDevopsguruLogAnomalyDetectionIntegration(scope Construct, id *string, config DevopsguruLogAnomalyDetectionIntegrationConfig) DevopsguruLogAnomalyDetectionIntegration
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.devopsguruLogAnomalyDetectionIntegration.DevopsguruLogAnomalyDetectionIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsguruloganomalydetectionintegration"
 
 devopsguruloganomalydetectionintegration.DevopsguruLogAnomalyDetectionIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.devopsguruLogAnomalyDetectionIntegration.DevopsguruLogAnomalyDetectionIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsguruloganomalydetectionintegration"
 
 devopsguruloganomalydetectionintegration.DevopsguruLogAnomalyDetectionIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ devopsguruloganomalydetectionintegration.DevopsguruLogAnomalyDetectionIntegratio
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.devopsguruLogAnomalyDetectionIntegration.DevopsguruLogAnomalyDetectionIntegration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsguruloganomalydetectionintegration"
 
 devopsguruloganomalydetectionintegration.DevopsguruLogAnomalyDetectionIntegration_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ devopsguruloganomalydetectionintegration.DevopsguruLogAnomalyDetectionIntegratio
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.devopsguruLogAnomalyDetectionIntegration.DevopsguruLogAnomalyDetectionIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsguruloganomalydetectionintegration"
 
 devopsguruloganomalydetectionintegration.DevopsguruLogAnomalyDetectionIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the DevopsguruLogAnomalyDetect
 
 The id of the existing DevopsguruLogAnomalyDetectionIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_log_anomaly_detection_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_log_anomaly_detection_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -711,7 +711,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsguruLogAnomalyDetectionIntegration.DevopsguruLogAnomalyDetectionIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsguruloganomalydetectionintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsguruloganomalydetectionintegration"
 
 &devopsguruloganomalydetectionintegration.DevopsguruLogAnomalyDetectionIntegrationConfig {
 	Connection: interface{},

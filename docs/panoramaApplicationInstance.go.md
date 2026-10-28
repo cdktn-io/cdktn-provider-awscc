@@ -4,12 +4,12 @@
 
 ### PanoramaApplicationInstance <a name="PanoramaApplicationInstance" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance awscc_panorama_application_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance awscc_panorama_application_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 panoramaapplicationinstance.NewPanoramaApplicationInstance(scope Construct, id *string, config PanoramaApplicationInstanceConfig) PanoramaApplicationInstance
 ```
@@ -481,7 +481,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 panoramaapplicationinstance.PanoramaApplicationInstance_IsConstruct(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 panoramaapplicationinstance.PanoramaApplicationInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ panoramaapplicationinstance.PanoramaApplicationInstance_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 panoramaapplicationinstance.PanoramaApplicationInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ panoramaapplicationinstance.PanoramaApplicationInstance_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 panoramaapplicationinstance.PanoramaApplicationInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -570,7 +570,7 @@ The construct id used in the generated config for the PanoramaApplicationInstanc
 
 The id of the existing PanoramaApplicationInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1045,7 +1045,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 &panoramaapplicationinstance.PanoramaApplicationInstanceConfig {
 	Connection: interface{},
@@ -1056,10 +1056,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationins
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	DefaultRuntimeContextDevice: *string,
-	ManifestPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.panoramaApplicationInstance.PanoramaApplicationInstanceManifestPayload,
+	ManifestPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.panoramaApplicationInstance.PanoramaApplicationInstanceManifestPayload,
 	ApplicationInstanceIdToReplace: *string,
 	Description: *string,
-	ManifestOverridesPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.panoramaApplicationInstance.PanoramaApplicationInstanceManifestOverridesPayload,
+	ManifestOverridesPayload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.panoramaApplicationInstance.PanoramaApplicationInstanceManifestOverridesPayload,
 	Name: *string,
 	RuntimeRoleArn: *string,
 	Tags: interface{},
@@ -1168,7 +1168,7 @@ DefaultRuntimeContextDevice *string
 
 The device's ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#default_runtime_context_device PanoramaApplicationInstance#default_runtime_context_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#default_runtime_context_device PanoramaApplicationInstance#default_runtime_context_device}
 
 ---
 
@@ -1182,7 +1182,7 @@ ManifestPayload PanoramaApplicationInstanceManifestPayload
 
 The application's manifest document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#manifest_payload PanoramaApplicationInstance#manifest_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#manifest_payload PanoramaApplicationInstance#manifest_payload}
 
 ---
 
@@ -1196,7 +1196,7 @@ ApplicationInstanceIdToReplace *string
 
 The ID of an application instance to replace with the new instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#application_instance_id_to_replace PanoramaApplicationInstance#application_instance_id_to_replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#application_instance_id_to_replace PanoramaApplicationInstance#application_instance_id_to_replace}
 
 ---
 
@@ -1210,7 +1210,7 @@ Description *string
 
 A description for the application instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#description PanoramaApplicationInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#description PanoramaApplicationInstance#description}
 
 ---
 
@@ -1224,7 +1224,7 @@ ManifestOverridesPayload PanoramaApplicationInstanceManifestOverridesPayload
 
 Setting overrides for the application manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#manifest_overrides_payload PanoramaApplicationInstance#manifest_overrides_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#manifest_overrides_payload PanoramaApplicationInstance#manifest_overrides_payload}
 
 ---
 
@@ -1238,7 +1238,7 @@ Name *string
 
 A name for the application instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#name PanoramaApplicationInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#name PanoramaApplicationInstance#name}
 
 ---
 
@@ -1252,7 +1252,7 @@ RuntimeRoleArn *string
 
 The ARN of a runtime role for the application instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#runtime_role_arn PanoramaApplicationInstance#runtime_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#runtime_role_arn PanoramaApplicationInstance#runtime_role_arn}
 
 ---
 
@@ -1266,7 +1266,7 @@ Tags interface{}
 
 Tags for the application instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#tags PanoramaApplicationInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#tags PanoramaApplicationInstance#tags}
 
 ---
 
@@ -1275,7 +1275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceManifestOverridesPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 &panoramaapplicationinstance.PanoramaApplicationInstanceManifestOverridesPayload {
 	PayloadData: *string,
@@ -1300,7 +1300,7 @@ PayloadData *string
 
 The overrides document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#payload_data PanoramaApplicationInstance#payload_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#payload_data PanoramaApplicationInstance#payload_data}
 
 ---
 
@@ -1309,7 +1309,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceManifestPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 &panoramaapplicationinstance.PanoramaApplicationInstanceManifestPayload {
 	PayloadData: *string,
@@ -1334,7 +1334,7 @@ PayloadData *string
 
 The application manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#payload_data PanoramaApplicationInstance#payload_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#payload_data PanoramaApplicationInstance#payload_data}
 
 ---
 
@@ -1343,7 +1343,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 &panoramaapplicationinstance.PanoramaApplicationInstanceTags {
 	Key: *string,
@@ -1355,8 +1355,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationins
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#key PanoramaApplicationInstance#key}. |
-| <code><a href="#@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#value PanoramaApplicationInstance#value}. |
+| <code><a href="#@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#key PanoramaApplicationInstance#key}. |
+| <code><a href="#@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#value PanoramaApplicationInstance#value}. |
 
 ---
 
@@ -1368,7 +1368,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#key PanoramaApplicationInstance#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#key PanoramaApplicationInstance#key}.
 
 ---
 
@@ -1380,7 +1380,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_application_instance#value PanoramaApplicationInstance#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_application_instance#value PanoramaApplicationInstance#value}.
 
 ---
 
@@ -1391,7 +1391,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceManifestOverridesPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 panoramaapplicationinstance.NewPanoramaApplicationInstanceManifestOverridesPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PanoramaApplicationInstanceManifestOverridesPayloadOutputReference
 ```
@@ -1669,7 +1669,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceManifestPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 panoramaapplicationinstance.NewPanoramaApplicationInstanceManifestPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PanoramaApplicationInstanceManifestPayloadOutputReference
 ```
@@ -1947,7 +1947,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 panoramaapplicationinstance.NewPanoramaApplicationInstanceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PanoramaApplicationInstanceTagsList
 ```
@@ -2107,7 +2107,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramaapplicationinstance"
 
 panoramaapplicationinstance.NewPanoramaApplicationInstanceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PanoramaApplicationInstanceTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccIotJobTemplates <a name="DataAwsccIotJobTemplates" id="@cdktn/provider-awscc.dataAwsccIotJobTemplates.DataAwsccIotJobTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_job_templates awscc_iot_job_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_job_templates awscc_iot_job_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplates.DataAwsccIotJobTemplates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplates"
 
 dataawscciotjobtemplates.NewDataAwsccIotJobTemplates(scope Construct, id *string, config DataAwsccIotJobTemplatesConfig) DataAwsccIotJobTemplates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotJobTemplates.DataAwsccIotJobTemplates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplates"
 
 dataawscciotjobtemplates.DataAwsccIotJobTemplates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotJobTemplates.DataAwsccIotJobTemplates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplates"
 
 dataawscciotjobtemplates.DataAwsccIotJobTemplates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotjobtemplates.DataAwsccIotJobTemplates_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotJobTemplates.DataAwsccIotJobTemplates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplates"
 
 dataawscciotjobtemplates.DataAwsccIotJobTemplates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotjobtemplates.DataAwsccIotJobTemplates_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotJobTemplates.DataAwsccIotJobTemplates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplates"
 
 dataawscciotjobtemplates.DataAwsccIotJobTemplates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotJobTemplates t
 
 The id of the existing DataAwsccIotJobTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_job_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_job_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotJobTemplates.DataAwsccIotJobTemplatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobtemplates"
 
 &dataawscciotjobtemplates.DataAwsccIotJobTemplatesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccS3AccessPoint <a name="DataAwsccS3AccessPoint" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_point awscc_s3_access_point}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_point awscc_s3_access_point}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 dataawsccs3accesspoint.NewDataAwsccS3AccessPoint(scope Construct, id *string, config DataAwsccS3AccessPointConfig) DataAwsccS3AccessPoint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 dataawsccs3accesspoint.DataAwsccS3AccessPoint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 dataawsccs3accesspoint.DataAwsccS3AccessPoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3accesspoint.DataAwsccS3AccessPoint_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPoint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 dataawsccs3accesspoint.DataAwsccS3AccessPoint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3accesspoint.DataAwsccS3AccessPoint_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 dataawsccs3accesspoint.DataAwsccS3AccessPoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3AccessPoint to 
 
 The id of the existing DataAwsccS3AccessPoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_point#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_point#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 &dataawsccs3accesspoint.DataAwsccS3AccessPointConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_point#id DataAwsccS3AccessPoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_point#id DataAwsccS3AccessPoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPointPublicAccessBlockConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 &dataawsccs3accesspoint.DataAwsccS3AccessPointPublicAccessBlockConfiguration {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 &dataawsccs3accesspoint.DataAwsccS3AccessPointTags {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPointVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 &dataawsccs3accesspoint.DataAwsccS3AccessPointVpcConfiguration {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPointPublicAccessBlockConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 dataawsccs3accesspoint.NewDataAwsccS3AccessPointPublicAccessBlockConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3AccessPointPublicAccessBlockConfigurationOutputReference
 ```
@@ -1152,7 +1152,7 @@ func InternalValue() DataAwsccS3AccessPointPublicAccessBlockConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 dataawsccs3accesspoint.NewDataAwsccS3AccessPointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3AccessPointTagsList
 ```
@@ -1301,7 +1301,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 dataawsccs3accesspoint.NewDataAwsccS3AccessPointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3AccessPointTagsOutputReference
 ```
@@ -1590,7 +1590,7 @@ func InternalValue() DataAwsccS3AccessPointTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessPoint.DataAwsccS3AccessPointVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint"
 
 dataawsccs3accesspoint.NewDataAwsccS3AccessPointVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3AccessPointVpcConfigurationOutputReference
 ```

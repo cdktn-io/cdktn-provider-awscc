@@ -4,12 +4,12 @@
 
 ### CloudfrontConnectionFunction <a name="CloudfrontConnectionFunction" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_connection_function awscc_cloudfront_connection_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_connection_function awscc_cloudfront_connection_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 cloudfrontconnectionfunction.NewCloudfrontConnectionFunction(scope Construct, id *string, config CloudfrontConnectionFunctionConfig) CloudfrontConnectionFunction
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 cloudfrontconnectionfunction.CloudfrontConnectionFunction_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 cloudfrontconnectionfunction.CloudfrontConnectionFunction_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ cloudfrontconnectionfunction.CloudfrontConnectionFunction_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunction.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 cloudfrontconnectionfunction.CloudfrontConnectionFunction_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ cloudfrontconnectionfunction.CloudfrontConnectionFunction_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 cloudfrontconnectionfunction.CloudfrontConnectionFunction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the CloudfrontConnectionFuncti
 
 The id of the existing CloudfrontConnectionFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_connection_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_connection_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -927,7 +927,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 &cloudfrontconnectionfunction.CloudfrontConnectionFunctionConfig {
 	Connection: interface{},
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfu
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ConnectionFunctionCode: *string,
-	ConnectionFunctionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfig,
+	ConnectionFunctionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfig,
 	Name: *string,
 	AutoPublish: interface{},
 	Tags: interface{},
@@ -1044,7 +1044,7 @@ ConnectionFunctionCode *string
 
 The code for the connection function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_connection_function#connection_function_code CloudfrontConnectionFunction#connection_function_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_connection_function#connection_function_code CloudfrontConnectionFunction#connection_function_code}
 
 ---
 
@@ -1058,7 +1058,7 @@ ConnectionFunctionConfig CloudfrontConnectionFunctionConnectionFunctionConfig
 
 Contains configuration information about a CloudFront function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_connection_function#connection_function_config CloudfrontConnectionFunction#connection_function_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_connection_function#connection_function_config CloudfrontConnectionFunction#connection_function_config}
 
 ---
 
@@ -1072,7 +1072,7 @@ Name *string
 
 The connection function name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_connection_function#name CloudfrontConnectionFunction#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_connection_function#name CloudfrontConnectionFunction#name}
 
 ---
 
@@ -1086,7 +1086,7 @@ AutoPublish interface{}
 
 A flag that determines whether to automatically publish the function to the ``LIVE`` stage when it?s created. To automatically publish to the ``LIVE`` stage, set this property to ``true``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_connection_function#auto_publish CloudfrontConnectionFunction#auto_publish}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_connection_function#auto_publish CloudfrontConnectionFunction#auto_publish}
 
 ---
 
@@ -1100,7 +1100,7 @@ Tags interface{}
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_connection_function#tags CloudfrontConnectionFunction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_connection_function#tags CloudfrontConnectionFunction#tags}
 
 ---
 
@@ -1109,7 +1109,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 &cloudfrontconnectionfunction.CloudfrontConnectionFunctionConnectionFunctionConfig {
 	Comment: *string,
@@ -1138,7 +1138,7 @@ Comment *string
 
 A comment to describe the function. The comment cannot be longer than 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_connection_function#comment CloudfrontConnectionFunction#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_connection_function#comment CloudfrontConnectionFunction#comment}
 
 ---
 
@@ -1152,7 +1152,7 @@ Runtime *string
 
 The function's runtime environment version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_connection_function#runtime CloudfrontConnectionFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_connection_function#runtime CloudfrontConnectionFunction#runtime}
 
 ---
 
@@ -1166,7 +1166,7 @@ KeyValueStoreAssociations interface{}
 
 The configuration for the key value store associations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_connection_function#key_value_store_associations CloudfrontConnectionFunction#key_value_store_associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_connection_function#key_value_store_associations CloudfrontConnectionFunction#key_value_store_associations}
 
 ---
 
@@ -1175,7 +1175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 &cloudfrontconnectionfunction.CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociations {
 	KeyValueStoreArn: *string,
@@ -1200,7 +1200,7 @@ KeyValueStoreArn *string
 
 The Amazon Resource Name (ARN) of the key value store association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_connection_function#key_value_store_arn CloudfrontConnectionFunction#key_value_store_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_connection_function#key_value_store_arn CloudfrontConnectionFunction#key_value_store_arn}
 
 ---
 
@@ -1209,7 +1209,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunctionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 &cloudfrontconnectionfunction.CloudfrontConnectionFunctionTags {
 	Key: *string,
@@ -1261,7 +1261,7 @@ The string length should be between 0 and 256 characters. Valid characters inclu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 cloudfrontconnectionfunction.NewCloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociationsList
 ```
@@ -1421,7 +1421,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 cloudfrontconnectionfunction.NewCloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociationsOutputReference
 ```
@@ -1717,7 +1717,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 cloudfrontconnectionfunction.NewCloudfrontConnectionFunctionConnectionFunctionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontConnectionFunctionConnectionFunctionConfigOutputReference
 ```
@@ -2052,7 +2052,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunctionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 cloudfrontconnectionfunction.NewCloudfrontConnectionFunctionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontConnectionFunctionTagsList
 ```
@@ -2212,7 +2212,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontConnectionFunction.CloudfrontConnectionFunctionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontconnectionfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectionfunction"
 
 cloudfrontconnectionfunction.NewCloudfrontConnectionFunctionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudfrontConnectionFunctionTagsOutputReference
 ```

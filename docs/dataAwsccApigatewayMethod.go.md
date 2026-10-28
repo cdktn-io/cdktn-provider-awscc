@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayMethod <a name="DataAwsccApigatewayMethod" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethod"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_method awscc_apigateway_method}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_method awscc_apigateway_method}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 dataawsccapigatewaymethod.NewDataAwsccApigatewayMethod(scope Construct, id *string, config DataAwsccApigatewayMethodConfig) DataAwsccApigatewayMethod
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethod.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 dataawsccapigatewaymethod.DataAwsccApigatewayMethod_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethod.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 dataawsccapigatewaymethod.DataAwsccApigatewayMethod_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewaymethod.DataAwsccApigatewayMethod_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethod.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 dataawsccapigatewaymethod.DataAwsccApigatewayMethod_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewaymethod.DataAwsccApigatewayMethod_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethod.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 dataawsccapigatewaymethod.DataAwsccApigatewayMethod_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayMethod 
 
 The id of the existing DataAwsccApigatewayMethod that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_method#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_method#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethodConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 &dataawsccapigatewaymethod.DataAwsccApigatewayMethodConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_method#id DataAwsccApigatewayMethod#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_method#id DataAwsccApigatewayMethod#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethodIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 &dataawsccapigatewaymethod.DataAwsccApigatewayMethodIntegration {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethodIntegrationIntegrationResponses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 &dataawsccapigatewaymethod.DataAwsccApigatewayMethodIntegrationIntegrationResponses {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethodMethodResponses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 &dataawsccapigatewaymethod.DataAwsccApigatewayMethodMethodResponses {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethodIntegrationIntegrationResponsesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 dataawsccapigatewaymethod.NewDataAwsccApigatewayMethodIntegrationIntegrationResponsesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApigatewayMethodIntegrationIntegrationResponsesList
 ```
@@ -1041,7 +1041,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethodIntegrationIntegrationResponsesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 dataawsccapigatewaymethod.NewDataAwsccApigatewayMethodIntegrationIntegrationResponsesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApigatewayMethodIntegrationIntegrationResponsesOutputReference
 ```
@@ -1363,7 +1363,7 @@ func InternalValue() DataAwsccApigatewayMethodIntegrationIntegrationResponses
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethodIntegrationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 dataawsccapigatewaymethod.NewDataAwsccApigatewayMethodIntegrationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayMethodIntegrationOutputReference
 ```
@@ -1788,7 +1788,7 @@ func InternalValue() DataAwsccApigatewayMethodIntegration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethodMethodResponsesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 dataawsccapigatewaymethod.NewDataAwsccApigatewayMethodMethodResponsesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApigatewayMethodMethodResponsesList
 ```
@@ -1937,7 +1937,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayMethod.DataAwsccApigatewayMethodMethodResponsesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod"
 
 dataawsccapigatewaymethod.NewDataAwsccApigatewayMethodMethodResponsesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApigatewayMethodMethodResponsesOutputReference
 ```

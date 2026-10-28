@@ -4,12 +4,12 @@
 
 ### DataAwsccB2BiPartnership <a name="DataAwsccB2BiPartnership" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnership"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_partnership awscc_b2bi_partnership}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_partnership awscc_b2bi_partnership}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnership.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnership(scope Construct, id *string, config DataAwsccB2BiPartnershipConfig) DataAwsccB2BiPartnership
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnership.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.DataAwsccB2BiPartnership_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnership.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.DataAwsccB2BiPartnership_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccb2bipartnership.DataAwsccB2BiPartnership_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnership.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.DataAwsccB2BiPartnership_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccb2bipartnership.DataAwsccB2BiPartnership_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnership.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.DataAwsccB2BiPartnership_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccB2BiPartnership t
 
 The id of the existing DataAwsccB2BiPartnership that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_partnership#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_partnership#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptions {
 
@@ -732,7 +732,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsInboundEdi.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptionsInboundEdi {
 
@@ -745,7 +745,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12 {
 
@@ -758,7 +758,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions {
 
@@ -771,7 +771,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdi.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdi {
 
@@ -784,7 +784,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12 {
 
@@ -797,7 +797,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12Common.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12Common {
 
@@ -810,7 +810,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers {
 
@@ -823,7 +823,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters {
 
@@ -836,7 +836,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders {
 
@@ -849,7 +849,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders {
 
@@ -862,7 +862,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipConfig {
 	Connection: interface{},
@@ -984,7 +984,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_partnership#id DataAwsccB2BiPartnership#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_partnership#id DataAwsccB2BiPartnership#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -996,7 +996,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 &dataawsccb2bipartnership.DataAwsccB2BiPartnershipTags {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnersh
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsInboundEdiOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiOutputReference
 ```
@@ -1271,7 +1271,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptionsInboundEdi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptionsOutputReference
 ```
@@ -1542,7 +1542,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12Ackno
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12OutputReference
 ```
@@ -1802,7 +1802,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptionsInboundEdiX12
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiOutputReference
 ```
@@ -2062,7 +2062,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbersOutputReference
 ```
@@ -2344,7 +2344,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12Comm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimitersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimitersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimitersOutputReference
 ```
@@ -2626,7 +2626,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12Comm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeadersOutputReference
 ```
@@ -2908,7 +2908,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12Comm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeadersOutputReference
 ```
@@ -3234,7 +3234,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12Comm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12CommonOutputReference
 ```
@@ -3549,7 +3549,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12Comm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12OutputReference
 ```
@@ -3820,7 +3820,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptionsOutputReference
 ```
@@ -4102,7 +4102,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptionsOutboundEdiX12Wrap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipCapabilityOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipCapabilityOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccB2BiPartnershipCapabilityOptionsOutputReference
 ```
@@ -4373,7 +4373,7 @@ func InternalValue() DataAwsccB2BiPartnershipCapabilityOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccB2BiPartnershipTagsList
 ```
@@ -4522,7 +4522,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiPartnership.DataAwsccB2BiPartnershipTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bipartnership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bipartnership"
 
 dataawsccb2bipartnership.NewDataAwsccB2BiPartnershipTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccB2BiPartnershipTagsOutputReference
 ```

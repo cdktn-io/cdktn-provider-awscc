@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2PlacementGroups <a name="DataAwsccEc2PlacementGroups" id="@cdktn/provider-awscc.dataAwsccEc2PlacementGroups.DataAwsccEc2PlacementGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_placement_groups awscc_ec2_placement_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_placement_groups awscc_ec2_placement_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2PlacementGroups.DataAwsccEc2PlacementGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2placementgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2placementgroups"
 
 dataawsccec2placementgroups.NewDataAwsccEc2PlacementGroups(scope Construct, id *string, config DataAwsccEc2PlacementGroupsConfig) DataAwsccEc2PlacementGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2PlacementGroups.DataAwsccEc2PlacementGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2placementgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2placementgroups"
 
 dataawsccec2placementgroups.DataAwsccEc2PlacementGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2PlacementGroups.DataAwsccEc2PlacementGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2placementgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2placementgroups"
 
 dataawsccec2placementgroups.DataAwsccEc2PlacementGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2placementgroups.DataAwsccEc2PlacementGroups_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2PlacementGroups.DataAwsccEc2PlacementGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2placementgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2placementgroups"
 
 dataawsccec2placementgroups.DataAwsccEc2PlacementGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2placementgroups.DataAwsccEc2PlacementGroups_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2PlacementGroups.DataAwsccEc2PlacementGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2placementgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2placementgroups"
 
 dataawsccec2placementgroups.DataAwsccEc2PlacementGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2PlacementGroup
 
 The id of the existing DataAwsccEc2PlacementGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_placement_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_placement_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2PlacementGroups.DataAwsccEc2PlacementGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2placementgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2placementgroups"
 
 &dataawsccec2placementgroups.DataAwsccEc2PlacementGroupsConfig {
 	Connection: interface{},

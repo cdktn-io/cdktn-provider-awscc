@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightTheme <a name="DataAwsccQuicksightTheme" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightTheme"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_theme awscc_quicksight_theme}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_theme awscc_quicksight_theme}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightTheme.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightTheme(scope Construct, id *string, config DataAwsccQuicksightThemeConfig) DataAwsccQuicksightTheme
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightTheme.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.DataAwsccQuicksightTheme_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightTheme.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.DataAwsccQuicksightTheme_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksighttheme.DataAwsccQuicksightTheme_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightTheme.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.DataAwsccQuicksightTheme_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksighttheme.DataAwsccQuicksightTheme_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightTheme.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.DataAwsccQuicksightTheme_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightTheme t
 
 The id of the existing DataAwsccQuicksightTheme that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_theme#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_theme#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_theme#id DataAwsccQuicksightTheme#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_theme#id DataAwsccQuicksightTheme#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfiguration {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationDataColorPalette.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationDataColorPalette {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationSheet {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackground.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationSheetBackground {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationSheetTile {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationSheetTileBorder {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileLayout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationSheetTileLayout {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileLayoutGutter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationSheetTileLayoutGutter {
 
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileLayoutMargin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationSheetTileLayoutMargin {
 
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypography.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypography {
 
@@ -981,7 +981,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration {
 
@@ -994,7 +994,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize {
 
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight {
 
@@ -1020,7 +1020,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration {
 
@@ -1033,7 +1033,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize {
 
@@ -1046,7 +1046,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight {
 
@@ -1059,7 +1059,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration {
 
@@ -1072,7 +1072,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize {
 
@@ -1085,7 +1085,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight {
 
@@ -1098,7 +1098,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyFontFamilies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyFontFamilies {
 
@@ -1111,7 +1111,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration {
 
@@ -1124,7 +1124,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize {
 
@@ -1137,7 +1137,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight {
 
@@ -1150,7 +1150,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration {
 
@@ -1163,7 +1163,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize {
 
@@ -1176,7 +1176,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight {
 
@@ -1189,7 +1189,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration {
 
@@ -1202,7 +1202,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration {
 
@@ -1215,7 +1215,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize {
 
@@ -1228,7 +1228,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight {
 
@@ -1241,7 +1241,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration {
 
@@ -1254,7 +1254,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration {
 
@@ -1267,7 +1267,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize {
 
@@ -1280,7 +1280,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight {
 
@@ -1293,7 +1293,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationUiColorPalette.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeConfigurationUiColorPalette {
 
@@ -1306,7 +1306,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemePermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemePermissions {
 
@@ -1319,7 +1319,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeTags {
 
@@ -1332,7 +1332,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersion {
 
@@ -1345,7 +1345,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfiguration {
 
@@ -1358,7 +1358,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationDataColorPalette.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationDataColorPalette {
 
@@ -1371,7 +1371,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationSheet {
 
@@ -1384,7 +1384,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackground.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackground {
 
@@ -1397,7 +1397,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationSheetTile {
 
@@ -1410,7 +1410,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorder {
 
@@ -1423,7 +1423,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileLayout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileLayout {
 
@@ -1436,7 +1436,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutGutter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutGutter {
 
@@ -1449,7 +1449,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutMargin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutMargin {
 
@@ -1462,7 +1462,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypography.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypography {
 
@@ -1475,7 +1475,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration {
 
@@ -1488,7 +1488,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize {
 
@@ -1501,7 +1501,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight {
 
@@ -1514,7 +1514,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration {
 
@@ -1527,7 +1527,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize {
 
@@ -1540,7 +1540,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight {
 
@@ -1553,7 +1553,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration {
 
@@ -1566,7 +1566,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize {
 
@@ -1579,7 +1579,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight {
 
@@ -1592,7 +1592,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamilies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamilies {
 
@@ -1605,7 +1605,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration {
 
@@ -1618,7 +1618,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize {
 
@@ -1631,7 +1631,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight {
 
@@ -1644,7 +1644,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration {
 
@@ -1657,7 +1657,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize {
 
@@ -1670,7 +1670,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight {
 
@@ -1683,7 +1683,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration {
 
@@ -1696,7 +1696,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration {
 
@@ -1709,7 +1709,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize {
 
@@ -1722,7 +1722,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight {
 
@@ -1735,7 +1735,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration {
 
@@ -1748,7 +1748,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration {
 
@@ -1761,7 +1761,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize {
 
@@ -1774,7 +1774,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight {
 
@@ -1787,7 +1787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationUiColorPalette.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionConfigurationUiColorPalette {
 
@@ -1800,7 +1800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 &dataawsccquicksighttheme.DataAwsccQuicksightThemeVersionErrors {
 
@@ -1815,7 +1815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationDataColorPaletteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationDataColorPaletteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationDataColorPaletteOutputReference
 ```
@@ -2097,7 +2097,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationDataColorPalette
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationOutputReference
 ```
@@ -2390,7 +2390,7 @@ func InternalValue() DataAwsccQuicksightThemeConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference
 ```
@@ -2661,7 +2661,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationSheetBackground
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationSheetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationSheetOutputReference
 ```
@@ -2943,7 +2943,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationSheet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference
 ```
@@ -3225,7 +3225,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationSheetTileBorder
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileLayoutGutterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationSheetTileLayoutGutterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationSheetTileLayoutGutterOutputReference
 ```
@@ -3485,7 +3485,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationSheetTileLayoutGutter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileLayoutMarginOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationSheetTileLayoutMarginOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationSheetTileLayoutMarginOutputReference
 ```
@@ -3745,7 +3745,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationSheetTileLayoutMargin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileLayoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationSheetTileLayoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationSheetTileLayoutOutputReference
 ```
@@ -4016,7 +4016,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationSheetTileLayout
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationSheetTileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationSheetTileOutputReference
 ```
@@ -4309,7 +4309,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationSheetTile
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference
 ```
@@ -4569,7 +4569,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference
 ```
@@ -4829,7 +4829,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference
 ```
@@ -5144,7 +5144,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference
 ```
@@ -5404,7 +5404,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference
 ```
@@ -5664,7 +5664,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference
 ```
@@ -5979,7 +5979,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference
 ```
@@ -6239,7 +6239,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyDataLabelFon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference
 ```
@@ -6499,7 +6499,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyDataLabelFon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference
 ```
@@ -6814,7 +6814,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyDataLabelFon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyFontFamiliesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyFontFamiliesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightThemeConfigurationTypographyFontFamiliesList
 ```
@@ -6963,7 +6963,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyFontFamiliesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyFontFamiliesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightThemeConfigurationTypographyFontFamiliesOutputReference
 ```
@@ -7241,7 +7241,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyFontFamilies
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference
 ```
@@ -7501,7 +7501,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyLegendTitleF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference
 ```
@@ -7761,7 +7761,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyLegendTitleF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference
 ```
@@ -8076,7 +8076,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyLegendTitleF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference
 ```
@@ -8336,7 +8336,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyLegendValueF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference
 ```
@@ -8596,7 +8596,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyLegendValueF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference
 ```
@@ -8911,7 +8911,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyLegendValueF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyOutputReference
 ```
@@ -9248,7 +9248,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypography
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference
 ```
@@ -9508,7 +9508,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyVisualSubtit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference
 ```
@@ -9768,7 +9768,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyVisualSubtit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference
 ```
@@ -10083,7 +10083,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyVisualSubtit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference
 ```
@@ -10365,7 +10365,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyVisualSubtit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference
 ```
@@ -10625,7 +10625,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyVisualTitleF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference
 ```
@@ -10885,7 +10885,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyVisualTitleF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference
 ```
@@ -11200,7 +11200,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyVisualTitleF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference
 ```
@@ -11482,7 +11482,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationTypographyVisualTitleF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationUiColorPaletteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeConfigurationUiColorPaletteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeConfigurationUiColorPaletteOutputReference
 ```
@@ -11907,7 +11907,7 @@ func InternalValue() DataAwsccQuicksightThemeConfigurationUiColorPalette
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemePermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemePermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightThemePermissionsList
 ```
@@ -12056,7 +12056,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemePermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemePermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightThemePermissionsOutputReference
 ```
@@ -12345,7 +12345,7 @@ func InternalValue() DataAwsccQuicksightThemePermissions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightThemeTagsList
 ```
@@ -12494,7 +12494,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightThemeTagsOutputReference
 ```
@@ -12783,7 +12783,7 @@ func InternalValue() DataAwsccQuicksightThemeTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationDataColorPaletteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationDataColorPaletteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationDataColorPaletteOutputReference
 ```
@@ -13065,7 +13065,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationDataColorPalett
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationOutputReference
 ```
@@ -13358,7 +13358,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference
 ```
@@ -13629,7 +13629,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationSheetBackground
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationSheetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference
 ```
@@ -13911,7 +13911,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationSheet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference
 ```
@@ -14193,7 +14193,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationSheetTileBorder
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutGutterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutGutterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutGutterOutputReference
 ```
@@ -14453,7 +14453,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationSheetTileLayout
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutMarginOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutMarginOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutMarginOutputReference
 ```
@@ -14713,7 +14713,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationSheetTileLayout
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutOutputReference
 ```
@@ -14984,7 +14984,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationSheetTileLayout
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference
 ```
@@ -15277,7 +15277,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationSheetTile
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference
 ```
@@ -15537,7 +15537,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyAxisL
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference
 ```
@@ -15797,7 +15797,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyAxisL
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference
 ```
@@ -16112,7 +16112,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyAxisL
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference
 ```
@@ -16372,7 +16372,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyAxisT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference
 ```
@@ -16632,7 +16632,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyAxisT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference
 ```
@@ -16947,7 +16947,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyAxisT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference
 ```
@@ -17207,7 +17207,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyDataL
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference
 ```
@@ -17467,7 +17467,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyDataL
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference
 ```
@@ -17782,7 +17782,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyDataL
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamiliesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyFontFamiliesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamiliesList
 ```
@@ -17931,7 +17931,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamiliesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyFontFamiliesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamiliesOutputReference
 ```
@@ -18209,7 +18209,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyFontF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference
 ```
@@ -18469,7 +18469,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyLegen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference
 ```
@@ -18729,7 +18729,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyLegen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference
 ```
@@ -19044,7 +19044,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyLegen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference
 ```
@@ -19304,7 +19304,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyLegen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference
 ```
@@ -19564,7 +19564,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyLegen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference
 ```
@@ -19879,7 +19879,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyLegen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference
 ```
@@ -20216,7 +20216,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypography
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference
 ```
@@ -20476,7 +20476,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyVisua
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference
 ```
@@ -20736,7 +20736,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyVisua
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference
 ```
@@ -21051,7 +21051,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyVisua
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference
 ```
@@ -21333,7 +21333,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyVisua
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference
 ```
@@ -21593,7 +21593,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyVisua
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference
 ```
@@ -21853,7 +21853,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyVisua
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference
 ```
@@ -22168,7 +22168,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyVisua
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference
 ```
@@ -22450,7 +22450,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationTypographyVisua
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationUiColorPaletteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionConfigurationUiColorPaletteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionConfigurationUiColorPaletteOutputReference
 ```
@@ -22875,7 +22875,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionConfigurationUiColorPalette
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightThemeVersionErrorsList
 ```
@@ -23024,7 +23024,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightThemeVersionErrorsOutputReference
 ```
@@ -23313,7 +23313,7 @@ func InternalValue() DataAwsccQuicksightThemeVersionErrors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttheme"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttheme"
 
 dataawsccquicksighttheme.NewDataAwsccQuicksightThemeVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightThemeVersionOutputReference
 ```

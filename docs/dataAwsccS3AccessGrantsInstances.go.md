@@ -4,12 +4,12 @@
 
 ### DataAwsccS3AccessGrantsInstances <a name="DataAwsccS3AccessGrantsInstances" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsInstances.DataAwsccS3AccessGrantsInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_grants_instances awscc_s3_access_grants_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_grants_instances awscc_s3_access_grants_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsInstances.DataAwsccS3AccessGrantsInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantsinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantsinstances"
 
 dataawsccs3accessgrantsinstances.NewDataAwsccS3AccessGrantsInstances(scope Construct, id *string, config DataAwsccS3AccessGrantsInstancesConfig) DataAwsccS3AccessGrantsInstances
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsInstances.DataAwsccS3AccessGrantsInstances.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantsinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantsinstances"
 
 dataawsccs3accessgrantsinstances.DataAwsccS3AccessGrantsInstances_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsInstances.DataAwsccS3AccessGrantsInstances.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantsinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantsinstances"
 
 dataawsccs3accessgrantsinstances.DataAwsccS3AccessGrantsInstances_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3accessgrantsinstances.DataAwsccS3AccessGrantsInstances_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsInstances.DataAwsccS3AccessGrantsInstances.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantsinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantsinstances"
 
 dataawsccs3accessgrantsinstances.DataAwsccS3AccessGrantsInstances_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3accessgrantsinstances.DataAwsccS3AccessGrantsInstances_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsInstances.DataAwsccS3AccessGrantsInstances.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantsinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantsinstances"
 
 dataawsccs3accessgrantsinstances.DataAwsccS3AccessGrantsInstances_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3AccessGrantsIns
 
 The id of the existing DataAwsccS3AccessGrantsInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_grants_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_grants_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3AccessGrantsInstances.DataAwsccS3AccessGrantsInstancesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accessgrantsinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accessgrantsinstances"
 
 &dataawsccs3accessgrantsinstances.DataAwsccS3AccessGrantsInstancesConfig {
 	Connection: interface{},

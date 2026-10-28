@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticacheReplicationGroups <a name="DataAwsccElasticacheReplicationGroups" id="@cdktn/provider-awscc.dataAwsccElasticacheReplicationGroups.DataAwsccElasticacheReplicationGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_replication_groups awscc_elasticache_replication_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_replication_groups awscc_elasticache_replication_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheReplicationGroups.DataAwsccElasticacheReplicationGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachereplicationgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachereplicationgroups"
 
 dataawsccelasticachereplicationgroups.NewDataAwsccElasticacheReplicationGroups(scope Construct, id *string, config DataAwsccElasticacheReplicationGroupsConfig) DataAwsccElasticacheReplicationGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticacheReplicationGroups.DataAwsccElasticacheReplicationGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachereplicationgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachereplicationgroups"
 
 dataawsccelasticachereplicationgroups.DataAwsccElasticacheReplicationGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticacheReplicationGroups.DataAwsccElasticacheReplicationGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachereplicationgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachereplicationgroups"
 
 dataawsccelasticachereplicationgroups.DataAwsccElasticacheReplicationGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticachereplicationgroups.DataAwsccElasticacheReplicationGroups_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticacheReplicationGroups.DataAwsccElasticacheReplicationGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachereplicationgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachereplicationgroups"
 
 dataawsccelasticachereplicationgroups.DataAwsccElasticacheReplicationGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticachereplicationgroups.DataAwsccElasticacheReplicationGroups_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticacheReplicationGroups.DataAwsccElasticacheReplicationGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachereplicationgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachereplicationgroups"
 
 dataawsccelasticachereplicationgroups.DataAwsccElasticacheReplicationGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticacheReplic
 
 The id of the existing DataAwsccElasticacheReplicationGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_replication_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_replication_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticacheReplicationGroups.DataAwsccElasticacheReplicationGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachereplicationgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachereplicationgroups"
 
 &dataawsccelasticachereplicationgroups.DataAwsccElasticacheReplicationGroupsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccS3TablesTableBucket <a name="DataAwsccS3TablesTableBucket" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucket(scope Construct, id *string, config DataAwsccS3TablesTableBucketConfig) DataAwsccS3TablesTableBucket
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucket.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucket_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucket.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucket_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucket_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucket.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucket_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucket_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucket.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucket_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3TablesTableBuck
 
 The id of the existing DataAwsccS3TablesTableBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 &dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucketConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table_bucket#id DataAwsccS3TablesTableBucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table_bucket#id DataAwsccS3TablesTableBucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 &dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucketEncryptionConfiguration {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketMetricsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 &dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucketMetricsConfiguration {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketReplicationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 &dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucketReplicationConfiguration {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketReplicationConfigurationRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 &dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucketReplicationConfigurationRules {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketReplicationConfigurationRulesDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 &dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucketReplicationConfigurationRulesDestinations {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketStorageClassConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 &dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucketStorageClassConfiguration {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 &dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucketTags {
 
@@ -887,7 +887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketUnreferencedFileRemoval.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 &dataawsccs3tablestablebucket.DataAwsccS3TablesTableBucketUnreferencedFileRemoval {
 
@@ -902,7 +902,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucketEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableBucketEncryptionConfigurationOutputReference
 ```
@@ -1173,7 +1173,7 @@ func InternalValue() DataAwsccS3TablesTableBucketEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketMetricsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucketMetricsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableBucketMetricsConfigurationOutputReference
 ```
@@ -1433,7 +1433,7 @@ func InternalValue() DataAwsccS3TablesTableBucketMetricsConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketReplicationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucketReplicationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableBucketReplicationConfigurationOutputReference
 ```
@@ -1704,7 +1704,7 @@ func InternalValue() DataAwsccS3TablesTableBucketReplicationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketReplicationConfigurationRulesDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucketReplicationConfigurationRulesDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3TablesTableBucketReplicationConfigurationRulesDestinationsList
 ```
@@ -1853,7 +1853,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketReplicationConfigurationRulesDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucketReplicationConfigurationRulesDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3TablesTableBucketReplicationConfigurationRulesDestinationsOutputReference
 ```
@@ -2131,7 +2131,7 @@ func InternalValue() DataAwsccS3TablesTableBucketReplicationConfigurationRulesDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketReplicationConfigurationRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucketReplicationConfigurationRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3TablesTableBucketReplicationConfigurationRulesList
 ```
@@ -2280,7 +2280,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketReplicationConfigurationRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucketReplicationConfigurationRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3TablesTableBucketReplicationConfigurationRulesOutputReference
 ```
@@ -2558,7 +2558,7 @@ func InternalValue() DataAwsccS3TablesTableBucketReplicationConfigurationRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketStorageClassConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucketStorageClassConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableBucketStorageClassConfigurationOutputReference
 ```
@@ -2818,7 +2818,7 @@ func InternalValue() DataAwsccS3TablesTableBucketStorageClassConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucketTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3TablesTableBucketTagsList
 ```
@@ -2967,7 +2967,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucketTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3TablesTableBucketTagsOutputReference
 ```
@@ -3256,7 +3256,7 @@ func InternalValue() DataAwsccS3TablesTableBucketTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucket.DataAwsccS3TablesTableBucketUnreferencedFileRemovalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket"
 
 dataawsccs3tablestablebucket.NewDataAwsccS3TablesTableBucketUnreferencedFileRemovalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableBucketUnreferencedFileRemovalOutputReference
 ```

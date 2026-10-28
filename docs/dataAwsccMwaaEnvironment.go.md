@@ -4,12 +4,12 @@
 
 ### DataAwsccMwaaEnvironment <a name="DataAwsccMwaaEnvironment" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaa_environment awscc_mwaa_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaa_environment awscc_mwaa_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.NewDataAwsccMwaaEnvironment(scope Construct, id *string, config DataAwsccMwaaEnvironmentConfig) DataAwsccMwaaEnvironment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.DataAwsccMwaaEnvironment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.DataAwsccMwaaEnvironment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmwaaenvironment.DataAwsccMwaaEnvironment_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.DataAwsccMwaaEnvironment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmwaaenvironment.DataAwsccMwaaEnvironment_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.DataAwsccMwaaEnvironment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMwaaEnvironment t
 
 The id of the existing DataAwsccMwaaEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaa_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaa_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 &dataawsccmwaaenvironment.DataAwsccMwaaEnvironmentConfig {
 	Connection: interface{},
@@ -1037,7 +1037,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaa_environment#id DataAwsccMwaaEnvironment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaa_environment#id DataAwsccMwaaEnvironment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1049,7 +1049,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 &dataawsccmwaaenvironment.DataAwsccMwaaEnvironmentLoggingConfiguration {
 
@@ -1062,7 +1062,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironme
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfigurationDagProcessingLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 &dataawsccmwaaenvironment.DataAwsccMwaaEnvironmentLoggingConfigurationDagProcessingLogs {
 
@@ -1075,7 +1075,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironme
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfigurationSchedulerLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 &dataawsccmwaaenvironment.DataAwsccMwaaEnvironmentLoggingConfigurationSchedulerLogs {
 
@@ -1088,7 +1088,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironme
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfigurationTaskLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 &dataawsccmwaaenvironment.DataAwsccMwaaEnvironmentLoggingConfigurationTaskLogs {
 
@@ -1101,7 +1101,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironme
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfigurationWebserverLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 &dataawsccmwaaenvironment.DataAwsccMwaaEnvironmentLoggingConfigurationWebserverLogs {
 
@@ -1114,7 +1114,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironme
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfigurationWorkerLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 &dataawsccmwaaenvironment.DataAwsccMwaaEnvironmentLoggingConfigurationWorkerLogs {
 
@@ -1127,7 +1127,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironme
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 &dataawsccmwaaenvironment.DataAwsccMwaaEnvironmentNetworkConfiguration {
 
@@ -1142,7 +1142,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironme
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfigurationDagProcessingLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.NewDataAwsccMwaaEnvironmentLoggingConfigurationDagProcessingLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaEnvironmentLoggingConfigurationDagProcessingLogsOutputReference
 ```
@@ -1424,7 +1424,7 @@ func InternalValue() DataAwsccMwaaEnvironmentLoggingConfigurationDagProcessingLo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.NewDataAwsccMwaaEnvironmentLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaEnvironmentLoggingConfigurationOutputReference
 ```
@@ -1728,7 +1728,7 @@ func InternalValue() DataAwsccMwaaEnvironmentLoggingConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.NewDataAwsccMwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference
 ```
@@ -2010,7 +2010,7 @@ func InternalValue() DataAwsccMwaaEnvironmentLoggingConfigurationSchedulerLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfigurationTaskLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.NewDataAwsccMwaaEnvironmentLoggingConfigurationTaskLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaEnvironmentLoggingConfigurationTaskLogsOutputReference
 ```
@@ -2292,7 +2292,7 @@ func InternalValue() DataAwsccMwaaEnvironmentLoggingConfigurationTaskLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.NewDataAwsccMwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference
 ```
@@ -2574,7 +2574,7 @@ func InternalValue() DataAwsccMwaaEnvironmentLoggingConfigurationWebserverLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentLoggingConfigurationWorkerLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.NewDataAwsccMwaaEnvironmentLoggingConfigurationWorkerLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaEnvironmentLoggingConfigurationWorkerLogsOutputReference
 ```
@@ -2856,7 +2856,7 @@ func InternalValue() DataAwsccMwaaEnvironmentLoggingConfigurationWorkerLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMwaaEnvironment.DataAwsccMwaaEnvironmentNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment"
 
 dataawsccmwaaenvironment.NewDataAwsccMwaaEnvironmentNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMwaaEnvironmentNetworkConfigurationOutputReference
 ```

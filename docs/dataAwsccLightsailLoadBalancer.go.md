@@ -4,12 +4,12 @@
 
 ### DataAwsccLightsailLoadBalancer <a name="DataAwsccLightsailLoadBalancer" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancer.DataAwsccLightsailLoadBalancer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_load_balancer awscc_lightsail_load_balancer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_load_balancer awscc_lightsail_load_balancer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancer.DataAwsccLightsailLoadBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancer"
 
 dataawscclightsailloadbalancer.NewDataAwsccLightsailLoadBalancer(scope Construct, id *string, config DataAwsccLightsailLoadBalancerConfig) DataAwsccLightsailLoadBalancer
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancer.DataAwsccLightsailLoadBalancer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancer"
 
 dataawscclightsailloadbalancer.DataAwsccLightsailLoadBalancer_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancer.DataAwsccLightsailLoadBalancer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancer"
 
 dataawscclightsailloadbalancer.DataAwsccLightsailLoadBalancer_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclightsailloadbalancer.DataAwsccLightsailLoadBalancer_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancer.DataAwsccLightsailLoadBalancer.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancer"
 
 dataawscclightsailloadbalancer.DataAwsccLightsailLoadBalancer_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclightsailloadbalancer.DataAwsccLightsailLoadBalancer_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancer.DataAwsccLightsailLoadBalancer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancer"
 
 dataawscclightsailloadbalancer.DataAwsccLightsailLoadBalancer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailLoadBala
 
 The id of the existing DataAwsccLightsailLoadBalancer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_load_balancer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_load_balancer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancer.DataAwsccLightsailLoadBalancerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancer"
 
 &dataawscclightsailloadbalancer.DataAwsccLightsailLoadBalancerConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_load_balancer#id DataAwsccLightsailLoadBalancer#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_load_balancer#id DataAwsccLightsailLoadBalancer#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancer.DataAwsccLightsailLoadBalancerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancer"
 
 &dataawscclightsailloadbalancer.DataAwsccLightsailLoadBalancerTags {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailload
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancer.DataAwsccLightsailLoadBalancerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancer"
 
 dataawscclightsailloadbalancer.NewDataAwsccLightsailLoadBalancerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLightsailLoadBalancerTagsList
 ```
@@ -982,7 +982,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancer.DataAwsccLightsailLoadBalancerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancer"
 
 dataawscclightsailloadbalancer.NewDataAwsccLightsailLoadBalancerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLightsailLoadBalancerTagsOutputReference
 ```

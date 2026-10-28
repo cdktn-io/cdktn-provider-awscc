@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayDomainNameV2S <a name="DataAwsccApigatewayDomainNameV2S" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameV2S.DataAwsccApigatewayDomainNameV2S"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_domain_name_v2s awscc_apigateway_domain_name_v2s}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_domain_name_v2s awscc_apigateway_domain_name_v2s}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameV2S.DataAwsccApigatewayDomainNameV2S.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnamev2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnamev2s"
 
 dataawsccapigatewaydomainnamev2s.NewDataAwsccApigatewayDomainNameV2S(scope Construct, id *string, config DataAwsccApigatewayDomainNameV2SConfig) DataAwsccApigatewayDomainNameV2S
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameV2S.DataAwsccApigatewayDomainNameV2S.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnamev2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnamev2s"
 
 dataawsccapigatewaydomainnamev2s.DataAwsccApigatewayDomainNameV2S_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameV2S.DataAwsccApigatewayDomainNameV2S.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnamev2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnamev2s"
 
 dataawsccapigatewaydomainnamev2s.DataAwsccApigatewayDomainNameV2S_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewaydomainnamev2s.DataAwsccApigatewayDomainNameV2S_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameV2S.DataAwsccApigatewayDomainNameV2S.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnamev2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnamev2s"
 
 dataawsccapigatewaydomainnamev2s.DataAwsccApigatewayDomainNameV2S_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewaydomainnamev2s.DataAwsccApigatewayDomainNameV2S_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameV2S.DataAwsccApigatewayDomainNameV2S.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnamev2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnamev2s"
 
 dataawsccapigatewaydomainnamev2s.DataAwsccApigatewayDomainNameV2S_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayDomainN
 
 The id of the existing DataAwsccApigatewayDomainNameV2S that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_domain_name_v2s#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_domain_name_v2s#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameV2S.DataAwsccApigatewayDomainNameV2SConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnamev2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnamev2s"
 
 &dataawsccapigatewaydomainnamev2s.DataAwsccApigatewayDomainNameV2SConfig {
 	Connection: interface{},

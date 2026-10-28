@@ -4,12 +4,12 @@
 
 ### SagemakerContext <a name="SagemakerContext" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContext"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context awscc_sagemaker_context}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context awscc_sagemaker_context}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContext.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercontext"
 
 sagemakercontext.NewSagemakerContext(scope Construct, id *string, config SagemakerContextConfig) SagemakerContext
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContext.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercontext"
 
 sagemakercontext.SagemakerContext_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContext.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercontext"
 
 sagemakercontext.SagemakerContext_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ sagemakercontext.SagemakerContext_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContext.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercontext"
 
 sagemakercontext.SagemakerContext_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ sagemakercontext.SagemakerContext_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContext.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercontext"
 
 sagemakercontext.SagemakerContext_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the SagemakerContext to import
 
 The id of the existing SagemakerContext that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -912,7 +912,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContextConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercontext"
 
 &sagemakercontext.SagemakerContextConfig {
 	Connection: interface{},
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
 	Provisioners: *[]interface{},
 	ContextName: *string,
 	ContextType: *string,
-	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerContext.SagemakerContextSource,
+	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerContext.SagemakerContextSource,
 	Description: *string,
 	Properties: *map[string]*string,
 	Tags: interface{},
@@ -1031,7 +1031,7 @@ ContextName *string
 
 The name of the context. Must be unique to your account in an AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#context_name SagemakerContext#context_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#context_name SagemakerContext#context_name}
 
 ---
 
@@ -1045,7 +1045,7 @@ ContextType *string
 
 The context type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#context_type SagemakerContext#context_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#context_type SagemakerContext#context_type}
 
 ---
 
@@ -1059,7 +1059,7 @@ Source SagemakerContextSource
 
 The source type, ID, and URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#source SagemakerContext#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#source SagemakerContext#source}
 
 ---
 
@@ -1073,7 +1073,7 @@ Description *string
 
 The description of the context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#description SagemakerContext#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#description SagemakerContext#description}
 
 ---
 
@@ -1087,7 +1087,7 @@ Properties *map[string]*string
 
 A list of properties to add to the context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#properties SagemakerContext#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#properties SagemakerContext#properties}
 
 ---
 
@@ -1101,7 +1101,7 @@ Tags interface{}
 
 A list of tags to apply to the context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#tags SagemakerContext#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#tags SagemakerContext#tags}
 
 ---
 
@@ -1110,7 +1110,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContextSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercontext"
 
 &sagemakercontext.SagemakerContextSource {
 	SourceUri: *string,
@@ -1139,7 +1139,7 @@ SourceUri *string
 
 The URI of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#source_uri SagemakerContext#source_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#source_uri SagemakerContext#source_uri}
 
 ---
 
@@ -1153,7 +1153,7 @@ SourceId *string
 
 The ID of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#source_id SagemakerContext#source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#source_id SagemakerContext#source_id}
 
 ---
 
@@ -1167,7 +1167,7 @@ SourceType *string
 
 The type of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#source_type SagemakerContext#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#source_type SagemakerContext#source_type}
 
 ---
 
@@ -1176,7 +1176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContextTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercontext"
 
 &sagemakercontext.SagemakerContextTags {
 	Key: *string,
@@ -1203,7 +1203,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#key SagemakerContext#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#key SagemakerContext#key}
 
 ---
 
@@ -1217,7 +1217,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_context#value SagemakerContext#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_context#value SagemakerContext#value}
 
 ---
 
@@ -1228,7 +1228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContextSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercontext"
 
 sagemakercontext.NewSagemakerContextSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerContextSourceOutputReference
 ```
@@ -1557,7 +1557,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContextTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercontext"
 
 sagemakercontext.NewSagemakerContextTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerContextTagsList
 ```
@@ -1717,7 +1717,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContextTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercontext"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercontext"
 
 sagemakercontext.NewSagemakerContextTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerContextTagsOutputReference
 ```

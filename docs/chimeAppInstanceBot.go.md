@@ -4,12 +4,12 @@
 
 ### ChimeAppInstanceBot <a name="ChimeAppInstanceBot" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot awscc_chime_app_instance_bot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot awscc_chime_app_instance_bot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 chimeappinstancebot.NewChimeAppInstanceBot(scope Construct, id *string, config ChimeAppInstanceBotConfig) ChimeAppInstanceBot
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 chimeappinstancebot.ChimeAppInstanceBot_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 chimeappinstancebot.ChimeAppInstanceBot_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ chimeappinstancebot.ChimeAppInstanceBot_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 chimeappinstancebot.ChimeAppInstanceBot_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ chimeappinstancebot.ChimeAppInstanceBot_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 chimeappinstancebot.ChimeAppInstanceBot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the ChimeAppInstanceBot to imp
 
 The id of the existing ChimeAppInstanceBot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -890,7 +890,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 &chimeappinstancebot.ChimeAppInstanceBotConfig {
 	Connection: interface{},
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	AppInstanceArn: *string,
-	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.chimeAppInstanceBot.ChimeAppInstanceBotConfiguration,
+	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.chimeAppInstanceBot.ChimeAppInstanceBotConfiguration,
 	Metadata: *string,
 	Name: *string,
 	Tags: interface{},
@@ -1007,7 +1007,7 @@ AppInstanceArn *string
 
 The ARN of the AppInstance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#app_instance_arn ChimeAppInstanceBot#app_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#app_instance_arn ChimeAppInstanceBot#app_instance_arn}
 
 ---
 
@@ -1021,7 +1021,7 @@ Configuration ChimeAppInstanceBotConfiguration
 
 A structure that contains configuration data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#configuration ChimeAppInstanceBot#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#configuration ChimeAppInstanceBot#configuration}
 
 ---
 
@@ -1035,7 +1035,7 @@ Metadata *string
 
 The metadata of the AppInstanceBot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#metadata ChimeAppInstanceBot#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#metadata ChimeAppInstanceBot#metadata}
 
 ---
 
@@ -1049,7 +1049,7 @@ Name *string
 
 The name of the AppInstanceBot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#name ChimeAppInstanceBot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#name ChimeAppInstanceBot#name}
 
 ---
 
@@ -1063,7 +1063,7 @@ Tags interface{}
 
 The tags assigned to the AppInstanceBot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#tags ChimeAppInstanceBot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#tags ChimeAppInstanceBot#tags}
 
 ---
 
@@ -1072,10 +1072,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBotConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 &chimeappinstancebot.ChimeAppInstanceBotConfiguration {
-	Lex: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.chimeAppInstanceBot.ChimeAppInstanceBotConfigurationLex,
+	Lex: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.chimeAppInstanceBot.ChimeAppInstanceBotConfigurationLex,
 }
 ```
 
@@ -1097,7 +1097,7 @@ Lex ChimeAppInstanceBotConfigurationLex
 
 The configuration for an Amazon Lex V2 bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#lex ChimeAppInstanceBot#lex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#lex ChimeAppInstanceBot#lex}
 
 ---
 
@@ -1106,12 +1106,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBotConfigurationLex.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 &chimeappinstancebot.ChimeAppInstanceBotConfigurationLex {
 	LexBotAliasArn: *string,
 	LocaleId: *string,
-	InvokedBy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.chimeAppInstanceBot.ChimeAppInstanceBotConfigurationLexInvokedBy,
+	InvokedBy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.chimeAppInstanceBot.ChimeAppInstanceBotConfigurationLexInvokedBy,
 	RespondsTo: *string,
 	WelcomeIntent: *string,
 }
@@ -1139,7 +1139,7 @@ LexBotAliasArn *string
 
 The ARN of the Amazon Lex V2 bot's alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#lex_bot_alias_arn ChimeAppInstanceBot#lex_bot_alias_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#lex_bot_alias_arn ChimeAppInstanceBot#lex_bot_alias_arn}
 
 ---
 
@@ -1153,7 +1153,7 @@ LocaleId *string
 
 Identifies the Amazon Lex V2 bot's language and locale.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#locale_id ChimeAppInstanceBot#locale_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#locale_id ChimeAppInstanceBot#locale_id}
 
 ---
 
@@ -1167,7 +1167,7 @@ InvokedBy ChimeAppInstanceBotConfigurationLexInvokedBy
 
 Specifies the type of message that triggers a bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#invoked_by ChimeAppInstanceBot#invoked_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#invoked_by ChimeAppInstanceBot#invoked_by}
 
 ---
 
@@ -1181,7 +1181,7 @@ RespondsTo *string
 
 Determines whether the Amazon Lex V2 bot responds to all standard messages. Control messages are not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#responds_to ChimeAppInstanceBot#responds_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#responds_to ChimeAppInstanceBot#responds_to}
 
 ---
 
@@ -1195,7 +1195,7 @@ WelcomeIntent *string
 
 The name of the welcome intent configured in the Amazon Lex V2 bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#welcome_intent ChimeAppInstanceBot#welcome_intent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#welcome_intent ChimeAppInstanceBot#welcome_intent}
 
 ---
 
@@ -1204,7 +1204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBotConfigurationLexInvokedBy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 &chimeappinstancebot.ChimeAppInstanceBotConfigurationLexInvokedBy {
 	StandardMessages: *string,
@@ -1231,7 +1231,7 @@ StandardMessages *string
 
 Sets standard messages as the bot trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#standard_messages ChimeAppInstanceBot#standard_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#standard_messages ChimeAppInstanceBot#standard_messages}
 
 ---
 
@@ -1245,7 +1245,7 @@ TargetedMessages *string
 
 Sets targeted messages as the bot trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#targeted_messages ChimeAppInstanceBot#targeted_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#targeted_messages ChimeAppInstanceBot#targeted_messages}
 
 ---
 
@@ -1254,7 +1254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 &chimeappinstancebot.ChimeAppInstanceBotTags {
 	Key: *string,
@@ -1281,7 +1281,7 @@ Key *string
 
 The key in a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#key ChimeAppInstanceBot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#key ChimeAppInstanceBot#key}
 
 ---
 
@@ -1295,7 +1295,7 @@ Value *string
 
 The value in a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance_bot#value ChimeAppInstanceBot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance_bot#value ChimeAppInstanceBot#value}
 
 ---
 
@@ -1306,7 +1306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBotConfigurationLexInvokedByOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 chimeappinstancebot.NewChimeAppInstanceBotConfigurationLexInvokedByOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ChimeAppInstanceBotConfigurationLexInvokedByOutputReference
 ```
@@ -1613,7 +1613,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBotConfigurationLexOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 chimeappinstancebot.NewChimeAppInstanceBotConfigurationLexOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ChimeAppInstanceBotConfigurationLexOutputReference
 ```
@@ -2006,7 +2006,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBotConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 chimeappinstancebot.NewChimeAppInstanceBotConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ChimeAppInstanceBotConfigurationOutputReference
 ```
@@ -2290,7 +2290,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 chimeappinstancebot.NewChimeAppInstanceBotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ChimeAppInstanceBotTagsList
 ```
@@ -2450,7 +2450,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeAppInstanceBot.ChimeAppInstanceBotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstancebot"
 
 chimeappinstancebot.NewChimeAppInstanceBotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ChimeAppInstanceBotTagsOutputReference
 ```

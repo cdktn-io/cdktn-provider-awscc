@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkmanagerGlobalNetworks <a name="DataAwsccNetworkmanagerGlobalNetworks" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerGlobalNetworks.DataAwsccNetworkmanagerGlobalNetworks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_global_networks awscc_networkmanager_global_networks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_global_networks awscc_networkmanager_global_networks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerGlobalNetworks.DataAwsccNetworkmanagerGlobalNetworks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerglobalnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerglobalnetworks"
 
 dataawsccnetworkmanagerglobalnetworks.NewDataAwsccNetworkmanagerGlobalNetworks(scope Construct, id *string, config DataAwsccNetworkmanagerGlobalNetworksConfig) DataAwsccNetworkmanagerGlobalNetworks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerGlobalNetworks.DataAwsccNetworkmanagerGlobalNetworks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerglobalnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerglobalnetworks"
 
 dataawsccnetworkmanagerglobalnetworks.DataAwsccNetworkmanagerGlobalNetworks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerGlobalNetworks.DataAwsccNetworkmanagerGlobalNetworks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerglobalnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerglobalnetworks"
 
 dataawsccnetworkmanagerglobalnetworks.DataAwsccNetworkmanagerGlobalNetworks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkmanagerglobalnetworks.DataAwsccNetworkmanagerGlobalNetworks_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerGlobalNetworks.DataAwsccNetworkmanagerGlobalNetworks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerglobalnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerglobalnetworks"
 
 dataawsccnetworkmanagerglobalnetworks.DataAwsccNetworkmanagerGlobalNetworks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkmanagerglobalnetworks.DataAwsccNetworkmanagerGlobalNetworks_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerGlobalNetworks.DataAwsccNetworkmanagerGlobalNetworks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerglobalnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerglobalnetworks"
 
 dataawsccnetworkmanagerglobalnetworks.DataAwsccNetworkmanagerGlobalNetworks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerGlo
 
 The id of the existing DataAwsccNetworkmanagerGlobalNetworks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_global_networks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_global_networks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerGlobalNetworks.DataAwsccNetworkmanagerGlobalNetworksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerglobalnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerglobalnetworks"
 
 &dataawsccnetworkmanagerglobalnetworks.DataAwsccNetworkmanagerGlobalNetworksConfig {
 	Connection: interface{},

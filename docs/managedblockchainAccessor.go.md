@@ -4,12 +4,12 @@
 
 ### ManagedblockchainAccessor <a name="ManagedblockchainAccessor" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/managedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/managedblockchainaccessor"
 
 managedblockchainaccessor.NewManagedblockchainAccessor(scope Construct, id *string, config ManagedblockchainAccessorConfig) ManagedblockchainAccessor
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/managedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/managedblockchainaccessor"
 
 managedblockchainaccessor.ManagedblockchainAccessor_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/managedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/managedblockchainaccessor"
 
 managedblockchainaccessor.ManagedblockchainAccessor_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ managedblockchainaccessor.ManagedblockchainAccessor_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/managedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/managedblockchainaccessor"
 
 managedblockchainaccessor.ManagedblockchainAccessor_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ managedblockchainaccessor.ManagedblockchainAccessor_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/managedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/managedblockchainaccessor"
 
 managedblockchainaccessor.ManagedblockchainAccessor_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ManagedblockchainAccessor 
 
 The id of the existing ManagedblockchainAccessor that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -848,7 +848,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/managedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/managedblockchainaccessor"
 
 &managedblockchainaccessor.ManagedblockchainAccessorConfig {
 	Connection: interface{},
@@ -875,8 +875,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/managedblockchainacces
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.accessorType">AccessorType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}. |
-| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.networkType">NetworkType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}. |
+| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.accessorType">AccessorType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}. |
+| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.networkType">NetworkType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}. |
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -959,7 +959,7 @@ AccessorType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}.
 
 ---
 
@@ -971,7 +971,7 @@ NetworkType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}.
 
 ---
 
@@ -985,7 +985,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor#tags ManagedblockchainAccessor#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor#tags ManagedblockchainAccessor#tags}
 
 ---
 
@@ -994,7 +994,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/managedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/managedblockchainaccessor"
 
 &managedblockchainaccessor.ManagedblockchainAccessorTags {
 	Key: *string,
@@ -1023,7 +1023,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor#key ManagedblockchainAccessor#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor#key ManagedblockchainAccessor#key}
 
 ---
 
@@ -1039,7 +1039,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor#value ManagedblockchainAccessor#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor#value ManagedblockchainAccessor#value}
 
 ---
 
@@ -1050,7 +1050,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/managedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/managedblockchainaccessor"
 
 managedblockchainaccessor.NewManagedblockchainAccessorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManagedblockchainAccessorTagsList
 ```
@@ -1210,7 +1210,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/managedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/managedblockchainaccessor"
 
 managedblockchainaccessor.NewManagedblockchainAccessorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ManagedblockchainAccessorTagsOutputReference
 ```

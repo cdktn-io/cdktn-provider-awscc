@@ -4,12 +4,12 @@
 
 ### DataAwsccBcmpricingcalculatorWorkloadEstimates <a name="DataAwsccBcmpricingcalculatorWorkloadEstimates" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorWorkloadEstimates.DataAwsccBcmpricingcalculatorWorkloadEstimates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcmpricingcalculator_workload_estimates awscc_bcmpricingcalculator_workload_estimates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcmpricingcalculator_workload_estimates awscc_bcmpricingcalculator_workload_estimates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorWorkloadEstimates.DataAwsccBcmpricingcalculatorWorkloadEstimates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorworkloadestimates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorworkloadestimates"
 
 dataawsccbcmpricingcalculatorworkloadestimates.NewDataAwsccBcmpricingcalculatorWorkloadEstimates(scope Construct, id *string, config DataAwsccBcmpricingcalculatorWorkloadEstimatesConfig) DataAwsccBcmpricingcalculatorWorkloadEstimates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorWorkloadEstimates.DataAwsccBcmpricingcalculatorWorkloadEstimates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorworkloadestimates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorworkloadestimates"
 
 dataawsccbcmpricingcalculatorworkloadestimates.DataAwsccBcmpricingcalculatorWorkloadEstimates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorWorkloadEstimates.DataAwsccBcmpricingcalculatorWorkloadEstimates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorworkloadestimates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorworkloadestimates"
 
 dataawsccbcmpricingcalculatorworkloadestimates.DataAwsccBcmpricingcalculatorWorkloadEstimates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbcmpricingcalculatorworkloadestimates.DataAwsccBcmpricingcalculatorWork
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorWorkloadEstimates.DataAwsccBcmpricingcalculatorWorkloadEstimates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorworkloadestimates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorworkloadestimates"
 
 dataawsccbcmpricingcalculatorworkloadestimates.DataAwsccBcmpricingcalculatorWorkloadEstimates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbcmpricingcalculatorworkloadestimates.DataAwsccBcmpricingcalculatorWork
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorWorkloadEstimates.DataAwsccBcmpricingcalculatorWorkloadEstimates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorworkloadestimates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorworkloadestimates"
 
 dataawsccbcmpricingcalculatorworkloadestimates.DataAwsccBcmpricingcalculatorWorkloadEstimates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBcmpricingcalcula
 
 The id of the existing DataAwsccBcmpricingcalculatorWorkloadEstimates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcmpricingcalculator_workload_estimates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcmpricingcalculator_workload_estimates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorWorkloadEstimates.DataAwsccBcmpricingcalculatorWorkloadEstimatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmpricingcalculatorworkloadestimates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmpricingcalculatorworkloadestimates"
 
 &dataawsccbcmpricingcalculatorworkloadestimates.DataAwsccBcmpricingcalculatorWorkloadEstimatesConfig {
 	Connection: interface{},

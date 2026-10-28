@@ -4,12 +4,12 @@
 
 ### DataAwsccRekognitionCollections <a name="DataAwsccRekognitionCollections" id="@cdktn/provider-awscc.dataAwsccRekognitionCollections.DataAwsccRekognitionCollections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rekognition_collections awscc_rekognition_collections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rekognition_collections awscc_rekognition_collections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRekognitionCollections.DataAwsccRekognitionCollections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitioncollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitioncollections"
 
 dataawsccrekognitioncollections.NewDataAwsccRekognitionCollections(scope Construct, id *string, config DataAwsccRekognitionCollectionsConfig) DataAwsccRekognitionCollections
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRekognitionCollections.DataAwsccRekognitionCollections.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitioncollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitioncollections"
 
 dataawsccrekognitioncollections.DataAwsccRekognitionCollections_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRekognitionCollections.DataAwsccRekognitionCollections.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitioncollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitioncollections"
 
 dataawsccrekognitioncollections.DataAwsccRekognitionCollections_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrekognitioncollections.DataAwsccRekognitionCollections_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRekognitionCollections.DataAwsccRekognitionCollections.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitioncollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitioncollections"
 
 dataawsccrekognitioncollections.DataAwsccRekognitionCollections_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrekognitioncollections.DataAwsccRekognitionCollections_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRekognitionCollections.DataAwsccRekognitionCollections.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitioncollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitioncollections"
 
 dataawsccrekognitioncollections.DataAwsccRekognitionCollections_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRekognitionCollec
 
 The id of the existing DataAwsccRekognitionCollections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rekognition_collections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rekognition_collections#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRekognitionCollections.DataAwsccRekognitionCollectionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitioncollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitioncollections"
 
 &dataawsccrekognitioncollections.DataAwsccRekognitionCollectionsConfig {
 	Connection: interface{},

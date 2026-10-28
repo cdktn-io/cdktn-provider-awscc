@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerProcessingJobs <a name="DataAwsccSagemakerProcessingJobs" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJobs.DataAwsccSagemakerProcessingJobs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_processing_jobs awscc_sagemaker_processing_jobs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_processing_jobs awscc_sagemaker_processing_jobs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJobs.DataAwsccSagemakerProcessingJobs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjobs"
 
 dataawsccsagemakerprocessingjobs.NewDataAwsccSagemakerProcessingJobs(scope Construct, id *string, config DataAwsccSagemakerProcessingJobsConfig) DataAwsccSagemakerProcessingJobs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJobs.DataAwsccSagemakerProcessingJobs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjobs"
 
 dataawsccsagemakerprocessingjobs.DataAwsccSagemakerProcessingJobs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJobs.DataAwsccSagemakerProcessingJobs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjobs"
 
 dataawsccsagemakerprocessingjobs.DataAwsccSagemakerProcessingJobs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerprocessingjobs.DataAwsccSagemakerProcessingJobs_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJobs.DataAwsccSagemakerProcessingJobs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjobs"
 
 dataawsccsagemakerprocessingjobs.DataAwsccSagemakerProcessingJobs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerprocessingjobs.DataAwsccSagemakerProcessingJobs_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJobs.DataAwsccSagemakerProcessingJobs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjobs"
 
 dataawsccsagemakerprocessingjobs.DataAwsccSagemakerProcessingJobs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerProcessi
 
 The id of the existing DataAwsccSagemakerProcessingJobs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_processing_jobs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_processing_jobs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJobs.DataAwsccSagemakerProcessingJobsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerprocessingjobs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerprocessingjobs"
 
 &dataawsccsagemakerprocessingjobs.DataAwsccSagemakerProcessingJobsConfig {
 	Connection: interface{},

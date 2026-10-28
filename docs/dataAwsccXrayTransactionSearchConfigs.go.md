@@ -4,12 +4,12 @@
 
 ### DataAwsccXrayTransactionSearchConfigs <a name="DataAwsccXrayTransactionSearchConfigs" id="@cdktn/provider-awscc.dataAwsccXrayTransactionSearchConfigs.DataAwsccXrayTransactionSearchConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_transaction_search_configs awscc_xray_transaction_search_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_transaction_search_configs awscc_xray_transaction_search_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXrayTransactionSearchConfigs.DataAwsccXrayTransactionSearchConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraytransactionsearchconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraytransactionsearchconfigs"
 
 dataawsccxraytransactionsearchconfigs.NewDataAwsccXrayTransactionSearchConfigs(scope Construct, id *string, config DataAwsccXrayTransactionSearchConfigsConfig) DataAwsccXrayTransactionSearchConfigs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccXrayTransactionSearchConfigs.DataAwsccXrayTransactionSearchConfigs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraytransactionsearchconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraytransactionsearchconfigs"
 
 dataawsccxraytransactionsearchconfigs.DataAwsccXrayTransactionSearchConfigs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccXrayTransactionSearchConfigs.DataAwsccXrayTransactionSearchConfigs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraytransactionsearchconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraytransactionsearchconfigs"
 
 dataawsccxraytransactionsearchconfigs.DataAwsccXrayTransactionSearchConfigs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccxraytransactionsearchconfigs.DataAwsccXrayTransactionSearchConfigs_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccXrayTransactionSearchConfigs.DataAwsccXrayTransactionSearchConfigs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraytransactionsearchconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraytransactionsearchconfigs"
 
 dataawsccxraytransactionsearchconfigs.DataAwsccXrayTransactionSearchConfigs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccxraytransactionsearchconfigs.DataAwsccXrayTransactionSearchConfigs_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccXrayTransactionSearchConfigs.DataAwsccXrayTransactionSearchConfigs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraytransactionsearchconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraytransactionsearchconfigs"
 
 dataawsccxraytransactionsearchconfigs.DataAwsccXrayTransactionSearchConfigs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccXrayTransactionSe
 
 The id of the existing DataAwsccXrayTransactionSearchConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_transaction_search_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_transaction_search_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXrayTransactionSearchConfigs.DataAwsccXrayTransactionSearchConfigsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraytransactionsearchconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraytransactionsearchconfigs"
 
 &dataawsccxraytransactionsearchconfigs.DataAwsccXrayTransactionSearchConfigsConfig {
 	Connection: interface{},

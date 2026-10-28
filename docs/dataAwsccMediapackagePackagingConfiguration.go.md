@@ -4,12 +4,12 @@
 
 ### DataAwsccMediapackagePackagingConfiguration <a name="DataAwsccMediapackagePackagingConfiguration" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_configuration awscc_mediapackage_packaging_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_configuration awscc_mediapackage_packaging_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfiguration(scope Construct, id *string, config DataAwsccMediapackagePackagingConfigurationConfig) DataAwsccMediapackagePackagingConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfig
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfig
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediapackagePacka
 
 The id of the existing DataAwsccMediapackagePackagingConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackage {
 
@@ -688,7 +688,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageEncryption {
 
@@ -701,7 +701,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionSpekeKeyProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionSpekeKeyProvider {
 
@@ -714,7 +714,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionSpekeKeyProviderEncryptionContractConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionSpekeKeyProviderEncryptionContractConfiguration {
 
@@ -727,7 +727,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifests.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifests {
 
@@ -740,7 +740,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifestsStreamSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifestsStreamSelection {
 
@@ -753,7 +753,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationConfig {
 	Connection: interface{},
@@ -862,7 +862,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_configuration#id DataAwsccMediapackagePackagingConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_configuration#id DataAwsccMediapackagePackagingConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -874,7 +874,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationDashPackage {
 
@@ -887,7 +887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageDashManifests.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageDashManifests {
 
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageDashManifestsStreamSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageDashManifestsStreamSelection {
 
@@ -913,7 +913,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageEncryption {
 
@@ -926,7 +926,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageEncryptionSpekeKeyProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageEncryptionSpekeKeyProvider {
 
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageEncryptionSpekeKeyProviderEncryptionContractConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageEncryptionSpekeKeyProviderEncryptionContractConfiguration {
 
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackage {
 
@@ -965,7 +965,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageEncryption {
 
@@ -978,7 +978,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionSpekeKeyProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionSpekeKeyProvider {
 
@@ -991,7 +991,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionSpekeKeyProviderEncryptionContractConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionSpekeKeyProviderEncryptionContractConfiguration {
 
@@ -1004,7 +1004,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifests.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifests {
 
@@ -1017,7 +1017,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifestsStreamSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifestsStreamSelection {
 
@@ -1030,7 +1030,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationMssPackage {
 
@@ -1043,7 +1043,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageEncryption {
 
@@ -1056,7 +1056,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageEncryptionSpekeKeyProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageEncryptionSpekeKeyProvider {
 
@@ -1069,7 +1069,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageEncryptionSpekeKeyProviderEncryptionContractConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageEncryptionSpekeKeyProviderEncryptionContractConfiguration {
 
@@ -1082,7 +1082,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageMssManifests.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageMssManifests {
 
@@ -1095,7 +1095,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageMssManifestsStreamSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageMssManifestsStreamSelection {
 
@@ -1108,7 +1108,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 &dataawsccmediapackagepackagingconfiguration.DataAwsccMediapackagePackagingConfigurationTags {
 
@@ -1123,7 +1123,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionOutputReference
 ```
@@ -1383,7 +1383,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationCmafPackageEncry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference
 ```
@@ -1654,7 +1654,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationCmafPackageEncry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionSpekeKeyProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionSpekeKeyProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationCmafPackageEncryptionSpekeKeyProviderOutputReference
 ```
@@ -1947,7 +1947,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationCmafPackageEncry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifestsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifestsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifestsList
 ```
@@ -2096,7 +2096,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifestsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifestsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifestsOutputReference
 ```
@@ -2429,7 +2429,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationCmafPackageHlsMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifestsStreamSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifestsStreamSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationCmafPackageHlsManifestsStreamSelectionOutputReference
 ```
@@ -2711,7 +2711,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationCmafPackageHlsMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationCmafPackageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationCmafPackageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationCmafPackageOutputReference
 ```
@@ -3004,7 +3004,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationCmafPackage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageDashManifestsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationDashPackageDashManifestsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediapackagePackagingConfigurationDashPackageDashManifestsList
 ```
@@ -3153,7 +3153,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageDashManifestsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationDashPackageDashManifestsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediapackagePackagingConfigurationDashPackageDashManifestsOutputReference
 ```
@@ -3486,7 +3486,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationDashPackageDashM
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageDashManifestsStreamSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationDashPackageDashManifestsStreamSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationDashPackageDashManifestsStreamSelectionOutputReference
 ```
@@ -3768,7 +3768,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationDashPackageDashM
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationDashPackageEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationDashPackageEncryptionOutputReference
 ```
@@ -4028,7 +4028,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationDashPackageEncry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationDashPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationDashPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference
 ```
@@ -4299,7 +4299,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationDashPackageEncry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageEncryptionSpekeKeyProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationDashPackageEncryptionSpekeKeyProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationDashPackageEncryptionSpekeKeyProviderOutputReference
 ```
@@ -4592,7 +4592,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationDashPackageEncry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationDashPackageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationDashPackageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationDashPackageOutputReference
 ```
@@ -4918,7 +4918,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationDashPackage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionOutputReference
 ```
@@ -5200,7 +5200,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationHlsPackageEncryp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference
 ```
@@ -5471,7 +5471,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationHlsPackageEncryp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionSpekeKeyProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionSpekeKeyProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationHlsPackageEncryptionSpekeKeyProviderOutputReference
 ```
@@ -5764,7 +5764,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationHlsPackageEncryp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifestsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifestsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifestsList
 ```
@@ -5913,7 +5913,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifestsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifestsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifestsOutputReference
 ```
@@ -6246,7 +6246,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationHlsPackageHlsMan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifestsStreamSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifestsStreamSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationHlsPackageHlsManifestsStreamSelectionOutputReference
 ```
@@ -6528,7 +6528,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationHlsPackageHlsMan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationHlsPackageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationHlsPackageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationHlsPackageOutputReference
 ```
@@ -6832,7 +6832,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationHlsPackage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationMssPackageEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationMssPackageEncryptionOutputReference
 ```
@@ -7092,7 +7092,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationMssPackageEncryp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationMssPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationMssPackageEncryptionSpekeKeyProviderEncryptionContractConfigurationOutputReference
 ```
@@ -7363,7 +7363,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationMssPackageEncryp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageEncryptionSpekeKeyProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationMssPackageEncryptionSpekeKeyProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationMssPackageEncryptionSpekeKeyProviderOutputReference
 ```
@@ -7656,7 +7656,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationMssPackageEncryp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageMssManifestsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationMssPackageMssManifestsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediapackagePackagingConfigurationMssPackageMssManifestsList
 ```
@@ -7805,7 +7805,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageMssManifestsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationMssPackageMssManifestsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediapackagePackagingConfigurationMssPackageMssManifestsOutputReference
 ```
@@ -8094,7 +8094,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationMssPackageMssMan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageMssManifestsStreamSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationMssPackageMssManifestsStreamSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationMssPackageMssManifestsStreamSelectionOutputReference
 ```
@@ -8376,7 +8376,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationMssPackageMssMan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationMssPackageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationMssPackageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagePackagingConfigurationMssPackageOutputReference
 ```
@@ -8658,7 +8658,7 @@ func InternalValue() DataAwsccMediapackagePackagingConfigurationMssPackage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediapackagePackagingConfigurationTagsList
 ```
@@ -8807,7 +8807,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagePackagingConfiguration.DataAwsccMediapackagePackagingConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfiguration"
 
 dataawsccmediapackagepackagingconfiguration.NewDataAwsccMediapackagePackagingConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediapackagePackagingConfigurationTagsOutputReference
 ```

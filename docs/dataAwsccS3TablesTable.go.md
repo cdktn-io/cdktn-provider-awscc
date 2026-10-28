@@ -4,12 +4,12 @@
 
 ### DataAwsccS3TablesTable <a name="DataAwsccS3TablesTable" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table awscc_s3tables_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table awscc_s3tables_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTable(scope Construct, id *string, config DataAwsccS3TablesTableConfig) DataAwsccS3TablesTable
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.DataAwsccS3TablesTable_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.DataAwsccS3TablesTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3tablestable.DataAwsccS3TablesTable_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTable.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.DataAwsccS3TablesTable_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3tablestable.DataAwsccS3TablesTable_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.DataAwsccS3TablesTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3TablesTable to 
 
 The id of the existing DataAwsccS3TablesTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableCompaction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableCompaction {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableConfig {
 	Connection: interface{},
@@ -852,7 +852,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table#id DataAwsccS3TablesTable#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table#id DataAwsccS3TablesTable#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -864,7 +864,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableIcebergMetadata {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpec {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecFields {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableIcebergMetadataIcebergSchema {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStruct {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2 {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStruct {
 
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSortOrder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableIcebergMetadataIcebergSortOrder {
 
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSortOrderFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableIcebergMetadataIcebergSortOrderFields {
 
@@ -981,7 +981,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableSnapshotManagement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableSnapshotManagement {
 
@@ -994,7 +994,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableStorageClassConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableStorageClassConfiguration {
 
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 &dataawsccs3tablestable.DataAwsccS3TablesTableTags {
 
@@ -1022,7 +1022,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableCompactionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableCompactionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableCompactionOutputReference
 ```
@@ -1293,7 +1293,7 @@ func InternalValue() DataAwsccS3TablesTableCompaction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecFieldsList
 ```
@@ -1442,7 +1442,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecFieldsOutputReference
 ```
@@ -1753,7 +1753,7 @@ func InternalValue() DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpecOutputReference
 ```
@@ -2024,7 +2024,7 @@ func InternalValue() DataAwsccS3TablesTableIcebergMetadataIcebergPartitionSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableIcebergMetadataIcebergSchemaOutputReference
 ```
@@ -2284,7 +2284,7 @@ func InternalValue() DataAwsccS3TablesTableIcebergMetadataIcebergSchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStructList
 ```
@@ -2433,7 +2433,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStructOutputReference
 ```
@@ -2744,7 +2744,7 @@ func InternalValue() DataAwsccS3TablesTableIcebergMetadataIcebergSchemaSchemaFie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2OutputReference
 ```
@@ -3037,7 +3037,7 @@ func InternalValue() DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStructList
 ```
@@ -3186,7 +3186,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStructOutputReference
 ```
@@ -3508,7 +3508,7 @@ func InternalValue() DataAwsccS3TablesTableIcebergMetadataIcebergSchemaV2SchemaV
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSortOrderFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergSortOrderFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3TablesTableIcebergMetadataIcebergSortOrderFieldsList
 ```
@@ -3657,7 +3657,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSortOrderFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergSortOrderFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3TablesTableIcebergMetadataIcebergSortOrderFieldsOutputReference
 ```
@@ -3968,7 +3968,7 @@ func InternalValue() DataAwsccS3TablesTableIcebergMetadataIcebergSortOrderFields
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataIcebergSortOrderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataIcebergSortOrderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableIcebergMetadataIcebergSortOrderOutputReference
 ```
@@ -4239,7 +4239,7 @@ func InternalValue() DataAwsccS3TablesTableIcebergMetadataIcebergSortOrder
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableIcebergMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableIcebergMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableIcebergMetadataOutputReference
 ```
@@ -4543,7 +4543,7 @@ func InternalValue() DataAwsccS3TablesTableIcebergMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableSnapshotManagementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableSnapshotManagementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableSnapshotManagementOutputReference
 ```
@@ -4825,7 +4825,7 @@ func InternalValue() DataAwsccS3TablesTableSnapshotManagement
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableStorageClassConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableStorageClassConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3TablesTableStorageClassConfigurationOutputReference
 ```
@@ -5085,7 +5085,7 @@ func InternalValue() DataAwsccS3TablesTableStorageClassConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3TablesTableTagsList
 ```
@@ -5234,7 +5234,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTable.DataAwsccS3TablesTableTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestable"
 
 dataawsccs3tablestable.NewDataAwsccS3TablesTableTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3TablesTableTagsOutputReference
 ```

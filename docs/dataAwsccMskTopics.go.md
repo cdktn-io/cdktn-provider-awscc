@@ -4,12 +4,12 @@
 
 ### DataAwsccMskTopics <a name="DataAwsccMskTopics" id="@cdktn/provider-awscc.dataAwsccMskTopics.DataAwsccMskTopics"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_topics awscc_msk_topics}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_topics awscc_msk_topics}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskTopics.DataAwsccMskTopics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmsktopics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmsktopics"
 
 dataawsccmsktopics.NewDataAwsccMskTopics(scope Construct, id *string, config DataAwsccMskTopicsConfig) DataAwsccMskTopics
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMskTopics.DataAwsccMskTopics.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmsktopics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmsktopics"
 
 dataawsccmsktopics.DataAwsccMskTopics_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMskTopics.DataAwsccMskTopics.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmsktopics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmsktopics"
 
 dataawsccmsktopics.DataAwsccMskTopics_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmsktopics.DataAwsccMskTopics_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMskTopics.DataAwsccMskTopics.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmsktopics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmsktopics"
 
 dataawsccmsktopics.DataAwsccMskTopics_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmsktopics.DataAwsccMskTopics_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMskTopics.DataAwsccMskTopics.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmsktopics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmsktopics"
 
 dataawsccmsktopics.DataAwsccMskTopics_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMskTopics to impo
 
 The id of the existing DataAwsccMskTopics that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_topics#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_topics#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskTopics.DataAwsccMskTopicsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmsktopics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmsktopics"
 
 &dataawsccmsktopics.DataAwsccMskTopicsConfig {
 	Connection: interface{},

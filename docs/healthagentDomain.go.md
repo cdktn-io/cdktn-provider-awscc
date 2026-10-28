@@ -4,12 +4,12 @@
 
 ### HealthagentDomain <a name="HealthagentDomain" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthagent_domain awscc_healthagent_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthagent_domain awscc_healthagent_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthagentdomain"
 
 healthagentdomain.NewHealthagentDomain(scope Construct, id *string, config HealthagentDomainConfig) HealthagentDomain
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthagentdomain"
 
 healthagentdomain.HealthagentDomain_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthagentdomain"
 
 healthagentdomain.HealthagentDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ healthagentdomain.HealthagentDomain_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomain.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthagentdomain"
 
 healthagentdomain.HealthagentDomain_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ healthagentdomain.HealthagentDomain_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthagentdomain"
 
 healthagentdomain.HealthagentDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the HealthagentDomain to impor
 
 The id of the existing HealthagentDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthagent_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthagent_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -819,7 +819,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthagentdomain"
 
 &healthagentdomain.HealthagentDomainConfig {
 	Connection: interface{},
@@ -930,7 +930,7 @@ Name *string
 
 The name of the Domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthagent_domain#name HealthagentDomain#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthagent_domain#name HealthagentDomain#name}
 
 ---
 
@@ -944,7 +944,7 @@ Tags interface{}
 
 Tags associated with the Domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthagent_domain#tags HealthagentDomain#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthagent_domain#tags HealthagentDomain#tags}
 
 ---
 
@@ -953,7 +953,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomainEncryptionContext.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthagentdomain"
 
 &healthagentdomain.HealthagentDomainEncryptionContext {
 
@@ -966,7 +966,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomainTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthagentdomain"
 
 &healthagentdomain.HealthagentDomainTags {
 	Key: *string,
@@ -978,8 +978,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.healthagentDomain.HealthagentDomainTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthagent_domain#key HealthagentDomain#key}. |
-| <code><a href="#@cdktn/provider-awscc.healthagentDomain.HealthagentDomainTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthagent_domain#value HealthagentDomain#value}. |
+| <code><a href="#@cdktn/provider-awscc.healthagentDomain.HealthagentDomainTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthagent_domain#key HealthagentDomain#key}. |
+| <code><a href="#@cdktn/provider-awscc.healthagentDomain.HealthagentDomainTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthagent_domain#value HealthagentDomain#value}. |
 
 ---
 
@@ -991,7 +991,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthagent_domain#key HealthagentDomain#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthagent_domain#key HealthagentDomain#key}.
 
 ---
 
@@ -1003,7 +1003,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthagent_domain#value HealthagentDomain#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthagent_domain#value HealthagentDomain#value}.
 
 ---
 
@@ -1014,7 +1014,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomainEncryptionContextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthagentdomain"
 
 healthagentdomain.NewHealthagentDomainEncryptionContextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) HealthagentDomainEncryptionContextOutputReference
 ```
@@ -1274,7 +1274,7 @@ func InternalValue() HealthagentDomainEncryptionContext
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomainTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthagentdomain"
 
 healthagentdomain.NewHealthagentDomainTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) HealthagentDomainTagsList
 ```
@@ -1434,7 +1434,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.healthagentDomain.HealthagentDomainTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthagentdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthagentdomain"
 
 healthagentdomain.NewHealthagentDomainTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) HealthagentDomainTagsOutputReference
 ```

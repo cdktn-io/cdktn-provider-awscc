@@ -4,12 +4,12 @@
 
 ### DataAwsccInspectorv2CisScanConfiguration <a name="DataAwsccInspectorv2CisScanConfiguration" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_cis_scan_configuration awscc_inspectorv2_cis_scan_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_cis_scan_configuration awscc_inspectorv2_cis_scan_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.NewDataAwsccInspectorv2CisScanConfiguration(scope Construct, id *string, config DataAwsccInspectorv2CisScanConfigurationConfig) DataAwsccInspectorv2CisScanConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfiguratio
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfiguratio
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInspectorv2CisSca
 
 The id of the existing DataAwsccInspectorv2CisScanConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_cis_scan_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_cis_scan_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 &dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfigurationConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_cis_scan_configuration#id DataAwsccInspectorv2CisScanConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_cis_scan_configuration#id DataAwsccInspectorv2CisScanConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 &dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfigurationSchedule {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2ci
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleDaily.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 &dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleDaily {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2ci
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleDailyStartTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 &dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleDailyStartTime {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2ci
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleMonthly.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 &dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleMonthly {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2ci
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleMonthlyStartTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 &dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleMonthlyStartTime {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2ci
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleWeekly.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 &dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleWeekly {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2ci
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleWeeklyStartTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 &dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleWeeklyStartTime {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2ci
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 &dataawsccinspectorv2cisscanconfiguration.DataAwsccInspectorv2CisScanConfigurationTargets {
 
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2ci
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleDailyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.NewDataAwsccInspectorv2CisScanConfigurationScheduleDailyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2CisScanConfigurationScheduleDailyOutputReference
 ```
@@ -1140,7 +1140,7 @@ func InternalValue() DataAwsccInspectorv2CisScanConfigurationScheduleDaily
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleDailyStartTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.NewDataAwsccInspectorv2CisScanConfigurationScheduleDailyStartTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2CisScanConfigurationScheduleDailyStartTimeOutputReference
 ```
@@ -1411,7 +1411,7 @@ func InternalValue() DataAwsccInspectorv2CisScanConfigurationScheduleDailyStartT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleMonthlyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.NewDataAwsccInspectorv2CisScanConfigurationScheduleMonthlyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2CisScanConfigurationScheduleMonthlyOutputReference
 ```
@@ -1682,7 +1682,7 @@ func InternalValue() DataAwsccInspectorv2CisScanConfigurationScheduleMonthly
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleMonthlyStartTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.NewDataAwsccInspectorv2CisScanConfigurationScheduleMonthlyStartTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2CisScanConfigurationScheduleMonthlyStartTimeOutputReference
 ```
@@ -1953,7 +1953,7 @@ func InternalValue() DataAwsccInspectorv2CisScanConfigurationScheduleMonthlyStar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.NewDataAwsccInspectorv2CisScanConfigurationScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2CisScanConfigurationScheduleOutputReference
 ```
@@ -2246,7 +2246,7 @@ func InternalValue() DataAwsccInspectorv2CisScanConfigurationSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleWeeklyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.NewDataAwsccInspectorv2CisScanConfigurationScheduleWeeklyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2CisScanConfigurationScheduleWeeklyOutputReference
 ```
@@ -2517,7 +2517,7 @@ func InternalValue() DataAwsccInspectorv2CisScanConfigurationScheduleWeekly
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationScheduleWeeklyStartTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.NewDataAwsccInspectorv2CisScanConfigurationScheduleWeeklyStartTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2CisScanConfigurationScheduleWeeklyStartTimeOutputReference
 ```
@@ -2788,7 +2788,7 @@ func InternalValue() DataAwsccInspectorv2CisScanConfigurationScheduleWeeklyStart
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfiguration.DataAwsccInspectorv2CisScanConfigurationTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfiguration"
 
 dataawsccinspectorv2cisscanconfiguration.NewDataAwsccInspectorv2CisScanConfigurationTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2CisScanConfigurationTargetsOutputReference
 ```

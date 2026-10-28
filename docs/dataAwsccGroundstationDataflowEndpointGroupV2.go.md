@@ -4,12 +4,12 @@
 
 ### DataAwsccGroundstationDataflowEndpointGroupV2 <a name="DataAwsccGroundstationDataflowEndpointGroupV2" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2 awscc_groundstation_dataflow_endpoint_group_v2}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2 awscc_groundstation_dataflow_endpoint_group_v2}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2(scope Construct, id *string, config DataAwsccGroundstationDataflowEndpointGroupV2Config) DataAwsccGroundstationDataflowEndpointGroupV2
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndp
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndp
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGroundstationData
 
 The id of the existing DataAwsccGroundstationDataflowEndpointGroupV2 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2Config {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2#id DataAwsccGroundstationDataflowEndpointGroupV2#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2#id DataAwsccGroundstationDataflowEndpointGroupV2#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetails {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpoint {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetails {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetails {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddress {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddress {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRange {
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPort {
 
@@ -889,7 +889,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortSocketAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortSocketAddress {
 
@@ -902,7 +902,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpoint {
 
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetails {
 
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetails {
 
@@ -941,7 +941,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddress {
 
@@ -954,7 +954,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddress {
 
@@ -967,7 +967,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRange {
 
@@ -980,7 +980,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPort {
 
@@ -993,7 +993,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortSocketAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortSocketAddress {
 
@@ -1006,7 +1006,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2Endpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2Endpoints {
 
@@ -1019,7 +1019,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpoint {
 
@@ -1032,7 +1032,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetails {
 
@@ -1045,7 +1045,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetails {
 
@@ -1058,7 +1058,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddress {
 
@@ -1071,7 +1071,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddress {
 
@@ -1084,7 +1084,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRange {
 
@@ -1097,7 +1097,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPort {
 
@@ -1110,7 +1110,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortSocketAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortSocketAddress {
 
@@ -1123,7 +1123,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpoint {
 
@@ -1136,7 +1136,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetails {
 
@@ -1149,7 +1149,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetails {
 
@@ -1162,7 +1162,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddress {
 
@@ -1175,7 +1175,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddress {
 
@@ -1188,7 +1188,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRange {
 
@@ -1201,7 +1201,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPort {
 
@@ -1214,7 +1214,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortSocketAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortSocketAddress {
 
@@ -1227,7 +1227,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2Tags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 &dataawsccgroundstationdataflowendpointgroupv2.DataAwsccGroundstationDataflowEndpointGroupV2Tags {
 
@@ -1242,7 +1242,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference
 ```
@@ -1513,7 +1513,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference
 ```
@@ -1784,7 +1784,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference
 ```
@@ -2055,7 +2055,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortOutputReference
 ```
@@ -2326,7 +2326,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortSocketAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortSocketAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortSocketAddressOutputReference
 ```
@@ -2597,7 +2597,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference
 ```
@@ -2868,7 +2868,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference
 ```
@@ -3128,7 +3128,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsDownlinkAwsGroundStationAgentEndpointOutputReference
 ```
@@ -3421,7 +3421,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsList
 ```
@@ -3570,7 +3570,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsOutputReference
 ```
@@ -3859,7 +3859,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference
 ```
@@ -4130,7 +4130,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference
 ```
@@ -4401,7 +4401,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference
 ```
@@ -4672,7 +4672,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortOutputReference
 ```
@@ -4943,7 +4943,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortSocketAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortSocketAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortSocketAddressOutputReference
 ```
@@ -5214,7 +5214,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference
 ```
@@ -5485,7 +5485,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference
 ```
@@ -5745,7 +5745,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetailsUplinkAwsGroundStationAgentEndpointOutputReference
 ```
@@ -6038,7 +6038,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference
 ```
@@ -6309,7 +6309,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference
 ```
@@ -6580,7 +6580,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference
 ```
@@ -6851,7 +6851,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortOutputReference
 ```
@@ -7122,7 +7122,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortSocketAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortSocketAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsEgressAddressAndPortSocketAddressOutputReference
 ```
@@ -7393,7 +7393,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference
 ```
@@ -7664,7 +7664,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference
 ```
@@ -7924,7 +7924,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStationAgentEndpointOutputReference
 ```
@@ -8195,7 +8195,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsDownl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsList
 ```
@@ -8344,7 +8344,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsOutputReference
 ```
@@ -8633,7 +8633,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2Endpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressOutputReference
 ```
@@ -8904,7 +8904,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressOutputReference
 ```
@@ -9175,7 +9175,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsAgentIpAndPortAddressSocketAddressPortRangeOutputReference
 ```
@@ -9446,7 +9446,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortOutputReference
 ```
@@ -9717,7 +9717,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortSocketAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortSocketAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsIngressAddressAndPortSocketAddressOutputReference
 ```
@@ -9988,7 +9988,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsAgentConnectionDetailsOutputReference
 ```
@@ -10259,7 +10259,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointDataflowDetailsOutputReference
 ```
@@ -10519,7 +10519,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStationAgentEndpointOutputReference
 ```
@@ -10790,7 +10790,7 @@ func InternalValue() DataAwsccGroundstationDataflowEndpointGroupV2EndpointsUplin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2TagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2TagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGroundstationDataflowEndpointGroupV2TagsList
 ```
@@ -10939,7 +10939,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2.DataAwsccGroundstationDataflowEndpointGroupV2TagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2"
 
 dataawsccgroundstationdataflowendpointgroupv2.NewDataAwsccGroundstationDataflowEndpointGroupV2TagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGroundstationDataflowEndpointGroupV2TagsOutputReference
 ```

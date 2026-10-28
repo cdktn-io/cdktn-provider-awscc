@@ -4,12 +4,12 @@
 
 ### ScnInstance <a name="ScnInstance" id="@cdktn/provider-awscc.scnInstance.ScnInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance awscc_scn_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance awscc_scn_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnInstance.ScnInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scninstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scninstance"
 
 scninstance.NewScnInstance(scope Construct, id *string, config ScnInstanceConfig) ScnInstance
 ```
@@ -441,7 +441,7 @@ func ResetWebAppDnsDomain()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.scnInstance.ScnInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scninstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scninstance"
 
 scninstance.ScnInstance_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.scnInstance.ScnInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scninstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scninstance"
 
 scninstance.ScnInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ scninstance.ScnInstance_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.scnInstance.ScnInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scninstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scninstance"
 
 scninstance.ScnInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ scninstance.ScnInstance_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.scnInstance.ScnInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scninstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scninstance"
 
 scninstance.ScnInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the ScnInstance to import.
 
 The id of the existing ScnInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -906,7 +906,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnInstance.ScnInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scninstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scninstance"
 
 &scninstance.ScnInstanceConfig {
 	Connection: interface{},
@@ -1021,7 +1021,7 @@ InstanceDescription *string
 
 The instance description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance#instance_description ScnInstance#instance_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance#instance_description ScnInstance#instance_description}
 
 ---
 
@@ -1035,7 +1035,7 @@ InstanceName *string
 
 The instance name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance#instance_name ScnInstance#instance_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance#instance_name ScnInstance#instance_name}
 
 ---
 
@@ -1049,7 +1049,7 @@ Tags interface{}
 
 Tags for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance#tags ScnInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance#tags ScnInstance#tags}
 
 ---
 
@@ -1063,7 +1063,7 @@ WebAppDnsDomain *string
 
 The WebApp DNS domain name of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance#web_app_dns_domain ScnInstance#web_app_dns_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance#web_app_dns_domain ScnInstance#web_app_dns_domain}
 
 ---
 
@@ -1072,7 +1072,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnInstance.ScnInstanceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scninstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scninstance"
 
 &scninstance.ScnInstanceTags {
 	Key: *string,
@@ -1099,7 +1099,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance#key ScnInstance#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance#key ScnInstance#key}
 
 ---
 
@@ -1113,7 +1113,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance#value ScnInstance#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance#value ScnInstance#value}
 
 ---
 
@@ -1124,7 +1124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnInstance.ScnInstanceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scninstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scninstance"
 
 scninstance.NewScnInstanceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ScnInstanceTagsList
 ```
@@ -1284,7 +1284,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnInstance.ScnInstanceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scninstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scninstance"
 
 scninstance.NewScnInstanceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ScnInstanceTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsPlaybackKeyPairs <a name="DataAwsccIvsPlaybackKeyPairs" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackKeyPairs.DataAwsccIvsPlaybackKeyPairs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_playback_key_pairs awscc_ivs_playback_key_pairs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_playback_key_pairs awscc_ivs_playback_key_pairs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackKeyPairs.DataAwsccIvsPlaybackKeyPairs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackkeypairs"
 
 dataawsccivsplaybackkeypairs.NewDataAwsccIvsPlaybackKeyPairs(scope Construct, id *string, config DataAwsccIvsPlaybackKeyPairsConfig) DataAwsccIvsPlaybackKeyPairs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackKeyPairs.DataAwsccIvsPlaybackKeyPairs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackkeypairs"
 
 dataawsccivsplaybackkeypairs.DataAwsccIvsPlaybackKeyPairs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackKeyPairs.DataAwsccIvsPlaybackKeyPairs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackkeypairs"
 
 dataawsccivsplaybackkeypairs.DataAwsccIvsPlaybackKeyPairs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivsplaybackkeypairs.DataAwsccIvsPlaybackKeyPairs_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackKeyPairs.DataAwsccIvsPlaybackKeyPairs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackkeypairs"
 
 dataawsccivsplaybackkeypairs.DataAwsccIvsPlaybackKeyPairs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivsplaybackkeypairs.DataAwsccIvsPlaybackKeyPairs_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackKeyPairs.DataAwsccIvsPlaybackKeyPairs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackkeypairs"
 
 dataawsccivsplaybackkeypairs.DataAwsccIvsPlaybackKeyPairs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsPlaybackKeyPai
 
 The id of the existing DataAwsccIvsPlaybackKeyPairs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_playback_key_pairs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_playback_key_pairs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsPlaybackKeyPairs.DataAwsccIvsPlaybackKeyPairsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackkeypairs"
 
 &dataawsccivsplaybackkeypairs.DataAwsccIvsPlaybackKeyPairsConfig {
 	Connection: interface{},

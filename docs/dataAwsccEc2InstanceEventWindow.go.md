@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2InstanceEventWindow <a name="DataAwsccEc2InstanceEventWindow" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance_event_window awscc_ec2_instance_event_window}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance_event_window awscc_ec2_instance_event_window}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 dataawsccec2instanceeventwindow.NewDataAwsccEc2InstanceEventWindow(scope Construct, id *string, config DataAwsccEc2InstanceEventWindowConfig) DataAwsccEc2InstanceEventWindow
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 dataawsccec2instanceeventwindow.DataAwsccEc2InstanceEventWindow_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 dataawsccec2instanceeventwindow.DataAwsccEc2InstanceEventWindow_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2instanceeventwindow.DataAwsccEc2InstanceEventWindow_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindow.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 dataawsccec2instanceeventwindow.DataAwsccEc2InstanceEventWindow_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2instanceeventwindow.DataAwsccEc2InstanceEventWindow_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 dataawsccec2instanceeventwindow.DataAwsccEc2InstanceEventWindow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2InstanceEventW
 
 The id of the existing DataAwsccEc2InstanceEventWindow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance_event_window#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance_event_window#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 &dataawsccec2instanceeventwindow.DataAwsccEc2InstanceEventWindowConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance_event_window#id DataAwsccEc2InstanceEventWindow#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance_event_window#id DataAwsccEc2InstanceEventWindow#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindowTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 &dataawsccec2instanceeventwindow.DataAwsccEc2InstanceEventWindowTags {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceev
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindowTimeRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 &dataawsccec2instanceeventwindow.DataAwsccEc2InstanceEventWindowTimeRanges {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceev
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindowTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 dataawsccec2instanceeventwindow.NewDataAwsccEc2InstanceEventWindowTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceEventWindowTagsList
 ```
@@ -962,7 +962,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindowTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 dataawsccec2instanceeventwindow.NewDataAwsccEc2InstanceEventWindowTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceEventWindowTagsOutputReference
 ```
@@ -1251,7 +1251,7 @@ func InternalValue() DataAwsccEc2InstanceEventWindowTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindowTimeRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 dataawsccec2instanceeventwindow.NewDataAwsccEc2InstanceEventWindowTimeRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceEventWindowTimeRangesList
 ```
@@ -1400,7 +1400,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindow.DataAwsccEc2InstanceEventWindowTimeRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceeventwindow"
 
 dataawsccec2instanceeventwindow.NewDataAwsccEc2InstanceEventWindowTimeRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceEventWindowTimeRangesOutputReference
 ```

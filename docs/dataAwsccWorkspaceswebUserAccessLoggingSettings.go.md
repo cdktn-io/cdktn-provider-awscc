@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspaceswebUserAccessLoggingSettings <a name="DataAwsccWorkspaceswebUserAccessLoggingSettings" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettings.DataAwsccWorkspaceswebUserAccessLoggingSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettings.DataAwsccWorkspaceswebUserAccessLoggingSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettings"
 
 dataawsccworkspaceswebuseraccessloggingsettings.NewDataAwsccWorkspaceswebUserAccessLoggingSettings(scope Construct, id *string, config DataAwsccWorkspaceswebUserAccessLoggingSettingsConfig) DataAwsccWorkspaceswebUserAccessLoggingSettings
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettings.DataAwsccWorkspaceswebUserAccessLoggingSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettings"
 
 dataawsccworkspaceswebuseraccessloggingsettings.DataAwsccWorkspaceswebUserAccessLoggingSettings_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettings.DataAwsccWorkspaceswebUserAccessLoggingSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettings"
 
 dataawsccworkspaceswebuseraccessloggingsettings.DataAwsccWorkspaceswebUserAccessLoggingSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspaceswebuseraccessloggingsettings.DataAwsccWorkspaceswebUserAccess
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettings.DataAwsccWorkspaceswebUserAccessLoggingSettings.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettings"
 
 dataawsccworkspaceswebuseraccessloggingsettings.DataAwsccWorkspaceswebUserAccessLoggingSettings_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspaceswebuseraccessloggingsettings.DataAwsccWorkspaceswebUserAccess
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettings.DataAwsccWorkspaceswebUserAccessLoggingSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettings"
 
 dataawsccworkspaceswebuseraccessloggingsettings.DataAwsccWorkspaceswebUserAccessLoggingSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebUser
 
 The id of the existing DataAwsccWorkspaceswebUserAccessLoggingSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_access_logging_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_access_logging_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettings.DataAwsccWorkspaceswebUserAccessLoggingSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettings"
 
 &dataawsccworkspaceswebuseraccessloggingsettings.DataAwsccWorkspaceswebUserAccessLoggingSettingsConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_access_logging_settings#id DataAwsccWorkspaceswebUserAccessLoggingSettings#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_access_logging_settings#id DataAwsccWorkspaceswebUserAccessLoggingSettings#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettings.DataAwsccWorkspaceswebUserAccessLoggingSettingsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettings"
 
 &dataawsccworkspaceswebuseraccessloggingsettings.DataAwsccWorkspaceswebUserAccessLoggingSettingsTags {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesweb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettings.DataAwsccWorkspaceswebUserAccessLoggingSettingsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettings"
 
 dataawsccworkspaceswebuseraccessloggingsettings.NewDataAwsccWorkspaceswebUserAccessLoggingSettingsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspaceswebUserAccessLoggingSettingsTagsList
 ```
@@ -916,7 +916,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserAccessLoggingSettings.DataAwsccWorkspaceswebUserAccessLoggingSettingsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettings"
 
 dataawsccworkspaceswebuseraccessloggingsettings.NewDataAwsccWorkspaceswebUserAccessLoggingSettingsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspaceswebUserAccessLoggingSettingsTagsOutputReference
 ```

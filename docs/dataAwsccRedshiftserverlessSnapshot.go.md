@@ -4,12 +4,12 @@
 
 ### DataAwsccRedshiftserverlessSnapshot <a name="DataAwsccRedshiftserverlessSnapshot" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshiftserverless_snapshot awscc_redshiftserverless_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshiftserverless_snapshot awscc_redshiftserverless_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlesssnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlesssnapshot"
 
 dataawsccredshiftserverlesssnapshot.NewDataAwsccRedshiftserverlessSnapshot(scope Construct, id *string, config DataAwsccRedshiftserverlessSnapshotConfig) DataAwsccRedshiftserverlessSnapshot
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlesssnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlesssnapshot"
 
 dataawsccredshiftserverlesssnapshot.DataAwsccRedshiftserverlessSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlesssnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlesssnapshot"
 
 dataawsccredshiftserverlesssnapshot.DataAwsccRedshiftserverlessSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccredshiftserverlesssnapshot.DataAwsccRedshiftserverlessSnapshot_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshot.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlesssnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlesssnapshot"
 
 dataawsccredshiftserverlesssnapshot.DataAwsccRedshiftserverlessSnapshot_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccredshiftserverlesssnapshot.DataAwsccRedshiftserverlessSnapshot_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlesssnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlesssnapshot"
 
 dataawsccredshiftserverlesssnapshot.DataAwsccRedshiftserverlessSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftserverles
 
 The id of the existing DataAwsccRedshiftserverlessSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshiftserverless_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshiftserverless_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlesssnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlesssnapshot"
 
 &dataawsccredshiftserverlesssnapshot.DataAwsccRedshiftserverlessSnapshotConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshiftserverless_snapshot#id DataAwsccRedshiftserverlessSnapshot#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshiftserverless_snapshot#id DataAwsccRedshiftserverlessSnapshot#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshotSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlesssnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlesssnapshot"
 
 &dataawsccredshiftserverlesssnapshot.DataAwsccRedshiftserverlessSnapshotSnapshot {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserve
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlesssnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlesssnapshot"
 
 &dataawsccredshiftserverlesssnapshot.DataAwsccRedshiftserverlessSnapshotTags {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserve
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshotSnapshotOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlesssnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlesssnapshot"
 
 dataawsccredshiftserverlesssnapshot.NewDataAwsccRedshiftserverlessSnapshotSnapshotOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRedshiftserverlessSnapshotSnapshotOutputReference
 ```
@@ -1161,7 +1161,7 @@ func InternalValue() DataAwsccRedshiftserverlessSnapshotSnapshot
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlesssnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlesssnapshot"
 
 dataawsccredshiftserverlesssnapshot.NewDataAwsccRedshiftserverlessSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRedshiftserverlessSnapshotTagsList
 ```
@@ -1310,7 +1310,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshot.DataAwsccRedshiftserverlessSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlesssnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlesssnapshot"
 
 dataawsccredshiftserverlesssnapshot.NewDataAwsccRedshiftserverlessSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRedshiftserverlessSnapshotTagsOutputReference
 ```

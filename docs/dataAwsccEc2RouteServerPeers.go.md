@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2RouteServerPeers <a name="DataAwsccEc2RouteServerPeers" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPeers.DataAwsccEc2RouteServerPeers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_server_peers awscc_ec2_route_server_peers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_server_peers awscc_ec2_route_server_peers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPeers.DataAwsccEc2RouteServerPeers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpeers"
 
 dataawsccec2routeserverpeers.NewDataAwsccEc2RouteServerPeers(scope Construct, id *string, config DataAwsccEc2RouteServerPeersConfig) DataAwsccEc2RouteServerPeers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPeers.DataAwsccEc2RouteServerPeers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpeers"
 
 dataawsccec2routeserverpeers.DataAwsccEc2RouteServerPeers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPeers.DataAwsccEc2RouteServerPeers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpeers"
 
 dataawsccec2routeserverpeers.DataAwsccEc2RouteServerPeers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2routeserverpeers.DataAwsccEc2RouteServerPeers_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPeers.DataAwsccEc2RouteServerPeers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpeers"
 
 dataawsccec2routeserverpeers.DataAwsccEc2RouteServerPeers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2routeserverpeers.DataAwsccEc2RouteServerPeers_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPeers.DataAwsccEc2RouteServerPeers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpeers"
 
 dataawsccec2routeserverpeers.DataAwsccEc2RouteServerPeers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2RouteServerPee
 
 The id of the existing DataAwsccEc2RouteServerPeers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_server_peers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_server_peers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPeers.DataAwsccEc2RouteServerPeersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverpeers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverpeers"
 
 &dataawsccec2routeserverpeers.DataAwsccEc2RouteServerPeersConfig {
 	Connection: interface{},

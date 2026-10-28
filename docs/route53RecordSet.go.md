@@ -4,12 +4,12 @@
 
 ### Route53RecordSet <a name="Route53RecordSet" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set awscc_route53_record_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set awscc_route53_record_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 route53recordset.NewRoute53RecordSet(scope Construct, id *string, config Route53RecordSetConfig) Route53RecordSet
 ```
@@ -537,7 +537,7 @@ func ResetWeight()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 route53recordset.Route53RecordSet_IsConstruct(x interface{}) *bool
 ```
@@ -569,7 +569,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 route53recordset.Route53RecordSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -583,7 +583,7 @@ route53recordset.Route53RecordSet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 route53recordset.Route53RecordSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -597,7 +597,7 @@ route53recordset.Route53RecordSet_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 route53recordset.Route53RecordSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -626,7 +626,7 @@ The construct id used in the generated config for the Route53RecordSet to import
 
 The id of the existing Route53RecordSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1189,7 +1189,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAliasTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 &route53recordset.Route53RecordSetAliasTarget {
 	DnsName: *string,
@@ -1218,7 +1218,7 @@ DnsName *string
 
 The value that you specify depends on where you want to route queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
 
 ---
 
@@ -1232,7 +1232,7 @@ EvaluateTargetHealth interface{}
 
 When EvaluateTargetHealth is true, an alias resource record set inherits the health of the referenced AWS resource, such as an ELB load balancer or another resource record set in the hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
 
 ---
 
@@ -1246,7 +1246,7 @@ HostedZoneId *string
 
 The value used depends on where you want to route traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
 
 ---
 
@@ -1255,7 +1255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetCidrRoutingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 &route53recordset.Route53RecordSetCidrRoutingConfig {
 	CollectionId: *string,
@@ -1282,7 +1282,7 @@ CollectionId *string
 
 The CIDR collection ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
 
 ---
 
@@ -1296,7 +1296,7 @@ LocationName *string
 
 The CIDR collection location name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
 
 ---
 
@@ -1305,7 +1305,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 &route53recordset.Route53RecordSetConfig {
 	Connection: interface{},
@@ -1317,11 +1317,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
 	Provisioners: *[]interface{},
 	Name: *string,
 	Type: *string,
-	AliasTarget: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.route53RecordSet.Route53RecordSetAliasTarget,
-	CidrRoutingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.route53RecordSet.Route53RecordSetCidrRoutingConfig,
+	AliasTarget: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.route53RecordSet.Route53RecordSetAliasTarget,
+	CidrRoutingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.route53RecordSet.Route53RecordSetCidrRoutingConfig,
 	Comment: *string,
 	Failover: *string,
-	GeoLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.route53RecordSet.Route53RecordSetGeoLocation,
+	GeoLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.route53RecordSet.Route53RecordSetGeoLocation,
 	HealthCheckId: *string,
 	HostedZoneId: *string,
 	HostedZoneName: *string,
@@ -1444,7 +1444,7 @@ Name *string
 
 The name of the record that you want to create, update, or delete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#name Route53RecordSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#name Route53RecordSet#name}
 
 ---
 
@@ -1458,7 +1458,7 @@ Type *string
 
 The DNS record type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#type Route53RecordSet#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#type Route53RecordSet#type}
 
 ---
 
@@ -1472,7 +1472,7 @@ AliasTarget Route53RecordSetAliasTarget
 
 Alias resource record sets only: Information about the AWS resource, such as a CloudFront distribution or an Amazon S3 bucket, that you want to route traffic to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
 
 ---
 
@@ -1486,7 +1486,7 @@ CidrRoutingConfig Route53RecordSetCidrRoutingConfig
 
 The object that is specified in resource record set object when you are linking a resource record set to a CIDR location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
 
 ---
 
@@ -1500,7 +1500,7 @@ Comment *string
 
 Optional: Any comments you want to include about a change batch request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
 
 ---
 
@@ -1516,7 +1516,7 @@ To configure failover, you add the Failover element to two resource record sets.
 
 For one resource record set, you specify PRIMARY as the value for Failover; for the other resource record set, you specify SECONDARY. In addition, you include the HealthCheckId element and specify the health check that you want Amazon Route 53 to perform for each resource record set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
 
 ---
 
@@ -1530,7 +1530,7 @@ GeoLocation Route53RecordSetGeoLocation
 
 A complex type that lets you control how Amazon Route 53 responds to DNS queries based on the geographic origin of the query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
 
 ---
 
@@ -1544,7 +1544,7 @@ HealthCheckId *string
 
 If you want Amazon Route 53 to return this resource record set in response to a DNS query only when the status of a health check is healthy, include the HealthCheckId element and specify the ID of the applicable health check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
 
 ---
 
@@ -1558,7 +1558,7 @@ HostedZoneId *string
 
 The ID of the hosted zone that you want to create records in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
 
 ---
 
@@ -1574,7 +1574,7 @@ The name of the hosted zone that you want to create records in.
 
 You must include a trailing dot (for example, www.example.com.) as part of the HostedZoneName.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
 
 ---
 
@@ -1588,7 +1588,7 @@ MultiValueAnswer interface{}
 
 To route traffic approximately randomly to multiple resources, such as web servers, create one multivalue answer record for each resource and specify true for MultiValueAnswer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
 
 ---
 
@@ -1602,7 +1602,7 @@ Region *string
 
 The Amazon EC2 Region where you created the resource that this resource record set refers to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#region Route53RecordSet#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#region Route53RecordSet#region}
 
 ---
 
@@ -1616,7 +1616,7 @@ ResourceRecords *[]*string
 
 One or more values that correspond with the value that you specified for the Type property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
 
 ---
 
@@ -1630,7 +1630,7 @@ SetIdentifier *string
 
 An identifier that differentiates among multiple resource record sets that have the same combination of name and type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
 
 ---
 
@@ -1644,7 +1644,7 @@ Ttl *string
 
 The resource record cache time to live (TTL), in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
 
 ---
 
@@ -1660,7 +1660,7 @@ Among resource record sets that have the same combination of DNS name and type, 
 
 Route 53 calculates the sum of the weights for the resource record sets that have the same combination of DNS name and type. Route 53 then responds to queries based on the ratio of a resource's weight to the total.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
 
 ---
 
@@ -1669,7 +1669,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetGeoLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 &route53recordset.Route53RecordSetGeoLocation {
 	ContinentCode: *string,
@@ -1698,7 +1698,7 @@ ContinentCode *string
 
 For geolocation resource record sets, a two-letter abbreviation that identifies a continent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
 
 ---
 
@@ -1712,7 +1712,7 @@ CountryCode *string
 
 For geolocation resource record sets, the two-letter code for a country.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
 
 ---
 
@@ -1726,7 +1726,7 @@ SubdivisionCode *string
 
 For geolocation resource record sets, the two-letter code for a state of the United States.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
 
 ---
 
@@ -1737,7 +1737,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAliasTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 route53recordset.NewRoute53RecordSetAliasTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Route53RecordSetAliasTargetOutputReference
 ```
@@ -2073,7 +2073,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetCidrRoutingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 route53recordset.NewRoute53RecordSetCidrRoutingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Route53RecordSetCidrRoutingConfigOutputReference
 ```
@@ -2380,7 +2380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetGeoLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recordset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recordset"
 
 route53recordset.NewRoute53RecordSetGeoLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Route53RecordSetGeoLocationOutputReference
 ```

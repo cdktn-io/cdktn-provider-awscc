@@ -4,12 +4,12 @@
 
 ### AppsyncApiKey <a name="AppsyncApiKey" id="@cdktn/provider-awscc.appsyncApiKey.AppsyncApiKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_api_key awscc_appsync_api_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_api_key awscc_appsync_api_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncApiKey.AppsyncApiKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncapikey"
 
 appsyncapikey.NewAppsyncApiKey(scope Construct, id *string, config AppsyncApiKeyConfig) AppsyncApiKey
 ```
@@ -414,7 +414,7 @@ func ResetExpires()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appsyncApiKey.AppsyncApiKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncapikey"
 
 appsyncapikey.AppsyncApiKey_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appsyncApiKey.AppsyncApiKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncapikey"
 
 appsyncapikey.AppsyncApiKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ appsyncapikey.AppsyncApiKey_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appsyncApiKey.AppsyncApiKey.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncapikey"
 
 appsyncapikey.AppsyncApiKey_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ appsyncapikey.AppsyncApiKey_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appsyncApiKey.AppsyncApiKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncapikey"
 
 appsyncapikey.AppsyncApiKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the AppsyncApiKey to import.
 
 The id of the existing AppsyncApiKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_api_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_api_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -813,7 +813,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncApiKey.AppsyncApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncapikey"
 
 &appsyncapikey.AppsyncApiKeyConfig {
 	Connection: interface{},
@@ -926,7 +926,7 @@ ApiId *string
 
 Unique AWS AppSync GraphQL API ID for this API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_api_key#api_id AppsyncApiKey#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_api_key#api_id AppsyncApiKey#api_id}
 
 ---
 
@@ -940,7 +940,7 @@ Description *string
 
 Unique description of your API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_api_key#description AppsyncApiKey#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_api_key#description AppsyncApiKey#description}
 
 ---
 
@@ -956,7 +956,7 @@ The time after which the API key expires.
 
 The date is represented as seconds since the epoch, rounded down to the nearest hour.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_api_key#expires AppsyncApiKey#expires}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_api_key#expires AppsyncApiKey#expires}
 
 ---
 

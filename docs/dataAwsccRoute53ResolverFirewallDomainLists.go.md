@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53ResolverFirewallDomainLists <a name="DataAwsccRoute53ResolverFirewallDomainLists" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallDomainLists.DataAwsccRoute53ResolverFirewallDomainLists"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_firewall_domain_lists awscc_route53resolver_firewall_domain_lists}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_firewall_domain_lists awscc_route53resolver_firewall_domain_lists}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallDomainLists.DataAwsccRoute53ResolverFirewallDomainLists.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewalldomainlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewalldomainlists"
 
 dataawsccroute53resolverfirewalldomainlists.NewDataAwsccRoute53ResolverFirewallDomainLists(scope Construct, id *string, config DataAwsccRoute53ResolverFirewallDomainListsConfig) DataAwsccRoute53ResolverFirewallDomainLists
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallDomainLists.DataAwsccRoute53ResolverFirewallDomainLists.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewalldomainlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewalldomainlists"
 
 dataawsccroute53resolverfirewalldomainlists.DataAwsccRoute53ResolverFirewallDomainLists_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallDomainLists.DataAwsccRoute53ResolverFirewallDomainLists.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewalldomainlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewalldomainlists"
 
 dataawsccroute53resolverfirewalldomainlists.DataAwsccRoute53ResolverFirewallDomainLists_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53resolverfirewalldomainlists.DataAwsccRoute53ResolverFirewallDoma
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallDomainLists.DataAwsccRoute53ResolverFirewallDomainLists.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewalldomainlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewalldomainlists"
 
 dataawsccroute53resolverfirewalldomainlists.DataAwsccRoute53ResolverFirewallDomainLists_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53resolverfirewalldomainlists.DataAwsccRoute53ResolverFirewallDoma
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallDomainLists.DataAwsccRoute53ResolverFirewallDomainLists.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewalldomainlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewalldomainlists"
 
 dataawsccroute53resolverfirewalldomainlists.DataAwsccRoute53ResolverFirewallDomainLists_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53ResolverFi
 
 The id of the existing DataAwsccRoute53ResolverFirewallDomainLists that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_firewall_domain_lists#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_firewall_domain_lists#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallDomainLists.DataAwsccRoute53ResolverFirewallDomainListsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewalldomainlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewalldomainlists"
 
 &dataawsccroute53resolverfirewalldomainlists.DataAwsccRoute53ResolverFirewallDomainListsConfig {
 	Connection: interface{},

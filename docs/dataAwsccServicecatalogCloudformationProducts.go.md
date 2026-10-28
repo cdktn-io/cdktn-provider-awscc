@@ -4,12 +4,12 @@
 
 ### DataAwsccServicecatalogCloudformationProducts <a name="DataAwsccServicecatalogCloudformationProducts" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProducts.DataAwsccServicecatalogCloudformationProducts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProducts.DataAwsccServicecatalogCloudformationProducts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproducts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproducts"
 
 dataawsccservicecatalogcloudformationproducts.NewDataAwsccServicecatalogCloudformationProducts(scope Construct, id *string, config DataAwsccServicecatalogCloudformationProductsConfig) DataAwsccServicecatalogCloudformationProducts
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProducts.DataAwsccServicecatalogCloudformationProducts.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproducts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproducts"
 
 dataawsccservicecatalogcloudformationproducts.DataAwsccServicecatalogCloudformationProducts_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProducts.DataAwsccServicecatalogCloudformationProducts.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproducts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproducts"
 
 dataawsccservicecatalogcloudformationproducts.DataAwsccServicecatalogCloudformationProducts_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicecatalogcloudformationproducts.DataAwsccServicecatalogCloudformat
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProducts.DataAwsccServicecatalogCloudformationProducts.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproducts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproducts"
 
 dataawsccservicecatalogcloudformationproducts.DataAwsccServicecatalogCloudformationProducts_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicecatalogcloudformationproducts.DataAwsccServicecatalogCloudformat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProducts.DataAwsccServicecatalogCloudformationProducts.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproducts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproducts"
 
 dataawsccservicecatalogcloudformationproducts.DataAwsccServicecatalogCloudformationProducts_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogClo
 
 The id of the existing DataAwsccServicecatalogCloudformationProducts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_cloudformation_products#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_cloudformation_products#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogCloudformationProducts.DataAwsccServicecatalogCloudformationProductsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproducts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproducts"
 
 &dataawsccservicecatalogcloudformationproducts.DataAwsccServicecatalogCloudformationProductsConfig {
 	Connection: interface{},

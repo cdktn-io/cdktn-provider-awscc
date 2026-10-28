@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerWorkteam <a name="DataAwsccSagemakerWorkteam" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteam"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteam.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.NewDataAwsccSagemakerWorkteam(scope Construct, id *string, config DataAwsccSagemakerWorkteamConfig) DataAwsccSagemakerWorkteam
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteam.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteam_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteam.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteam_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteam_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteam.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteam_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteam_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteam.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteam_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerWorkteam
 
 The id of the existing DataAwsccSagemakerWorkteam that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_workteam#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_workteam#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 &dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteamConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_workteam#id DataAwsccSagemakerWorkteam#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_workteam#id DataAwsccSagemakerWorkteam#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamMemberDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 &dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteamMemberDefinitions {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamMemberDefinitionsCognitoMemberDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 &dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteamMemberDefinitionsCognitoMemberDefinition {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamMemberDefinitionsOidcMemberDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 &dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteamMemberDefinitionsOidcMemberDefinition {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamNotificationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 &dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteamNotificationConfiguration {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 &dataawsccsagemakerworkteam.DataAwsccSagemakerWorkteamTags {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerwork
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamMemberDefinitionsCognitoMemberDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.NewDataAwsccSagemakerWorkteamMemberDefinitionsCognitoMemberDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerWorkteamMemberDefinitionsCognitoMemberDefinitionOutputReference
 ```
@@ -1134,7 +1134,7 @@ func InternalValue() DataAwsccSagemakerWorkteamMemberDefinitionsCognitoMemberDef
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamMemberDefinitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.NewDataAwsccSagemakerWorkteamMemberDefinitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerWorkteamMemberDefinitionsList
 ```
@@ -1283,7 +1283,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamMemberDefinitionsOidcMemberDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.NewDataAwsccSagemakerWorkteamMemberDefinitionsOidcMemberDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerWorkteamMemberDefinitionsOidcMemberDefinitionOutputReference
 ```
@@ -1543,7 +1543,7 @@ func InternalValue() DataAwsccSagemakerWorkteamMemberDefinitionsOidcMemberDefini
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamMemberDefinitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.NewDataAwsccSagemakerWorkteamMemberDefinitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerWorkteamMemberDefinitionsOutputReference
 ```
@@ -1832,7 +1832,7 @@ func InternalValue() DataAwsccSagemakerWorkteamMemberDefinitions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamNotificationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.NewDataAwsccSagemakerWorkteamNotificationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerWorkteamNotificationConfigurationOutputReference
 ```
@@ -2092,7 +2092,7 @@ func InternalValue() DataAwsccSagemakerWorkteamNotificationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.NewDataAwsccSagemakerWorkteamTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerWorkteamTagsList
 ```
@@ -2241,7 +2241,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkteam.DataAwsccSagemakerWorkteamTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam"
 
 dataawsccsagemakerworkteam.NewDataAwsccSagemakerWorkteamTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerWorkteamTagsOutputReference
 ```

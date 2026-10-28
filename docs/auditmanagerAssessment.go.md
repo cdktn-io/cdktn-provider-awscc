@@ -4,12 +4,12 @@
 
 ### AuditmanagerAssessment <a name="AuditmanagerAssessment" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment awscc_auditmanager_assessment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment awscc_auditmanager_assessment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessment(scope Construct, id *string, config AuditmanagerAssessmentConfig) AuditmanagerAssessment
 ```
@@ -548,7 +548,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.AuditmanagerAssessment_IsConstruct(x interface{}) *bool
 ```
@@ -580,7 +580,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.AuditmanagerAssessment_IsTerraformElement(x interface{}) *bool
 ```
@@ -594,7 +594,7 @@ auditmanagerassessment.AuditmanagerAssessment_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.AuditmanagerAssessment_IsTerraformResource(x interface{}) *bool
 ```
@@ -608,7 +608,7 @@ auditmanagerassessment.AuditmanagerAssessment_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.AuditmanagerAssessment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -637,7 +637,7 @@ The construct id used in the generated config for the AuditmanagerAssessment to 
 
 The id of the existing AuditmanagerAssessment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1101,7 +1101,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentAssessmentReportsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 &auditmanagerassessment.AuditmanagerAssessmentAssessmentReportsDestination {
 	Destination: *string,
@@ -1128,7 +1128,7 @@ Destination *string
 
 The URL of the specified Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#destination AuditmanagerAssessment#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#destination AuditmanagerAssessment#destination}
 
 ---
 
@@ -1142,7 +1142,7 @@ DestinationType *string
 
 The destination type, such as Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#destination_type AuditmanagerAssessment#destination_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#destination_type AuditmanagerAssessment#destination_type}
 
 ---
 
@@ -1151,7 +1151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentAwsAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 &auditmanagerassessment.AuditmanagerAssessmentAwsAccount {
 	EmailAddress: *string,
@@ -1180,7 +1180,7 @@ EmailAddress *string
 
 The unique identifier for the email account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#email_address AuditmanagerAssessment#email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#email_address AuditmanagerAssessment#email_address}
 
 ---
 
@@ -1194,7 +1194,7 @@ Id *string
 
 The identifier for the specified AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1211,7 +1211,7 @@ Name *string
 
 The name of the specified AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
 
 ---
 
@@ -1220,7 +1220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 &auditmanagerassessment.AuditmanagerAssessmentConfig {
 	Connection: interface{},
@@ -1230,14 +1230,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	AssessmentReportsDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.auditmanagerAssessment.AuditmanagerAssessmentAssessmentReportsDestination,
-	AwsAccount: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.auditmanagerAssessment.AuditmanagerAssessmentAwsAccount,
+	AssessmentReportsDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.auditmanagerAssessment.AuditmanagerAssessmentAssessmentReportsDestination,
+	AwsAccount: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.auditmanagerAssessment.AuditmanagerAssessmentAwsAccount,
 	Delegations: interface{},
 	Description: *string,
 	FrameworkId: *string,
 	Name: *string,
 	Roles: interface{},
-	Scope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.auditmanagerAssessment.AuditmanagerAssessmentScope,
+	Scope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.auditmanagerAssessment.AuditmanagerAssessmentScope,
 	Status: *string,
 	Tags: interface{},
 }
@@ -1347,7 +1347,7 @@ AssessmentReportsDestination AuditmanagerAssessmentAssessmentReportsDestination
 
 The destination in which evidence reports are stored for the specified assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#assessment_reports_destination AuditmanagerAssessment#assessment_reports_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#assessment_reports_destination AuditmanagerAssessment#assessment_reports_destination}
 
 ---
 
@@ -1361,7 +1361,7 @@ AwsAccount AuditmanagerAssessmentAwsAccount
 
 The AWS account associated with the assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#aws_account AuditmanagerAssessment#aws_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#aws_account AuditmanagerAssessment#aws_account}
 
 ---
 
@@ -1375,7 +1375,7 @@ Delegations interface{}
 
 The list of delegations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#delegations AuditmanagerAssessment#delegations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#delegations AuditmanagerAssessment#delegations}
 
 ---
 
@@ -1389,7 +1389,7 @@ Description *string
 
 The description of the specified assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#description AuditmanagerAssessment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#description AuditmanagerAssessment#description}
 
 ---
 
@@ -1403,7 +1403,7 @@ FrameworkId *string
 
 The identifier for the specified framework.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#framework_id AuditmanagerAssessment#framework_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#framework_id AuditmanagerAssessment#framework_id}
 
 ---
 
@@ -1417,7 +1417,7 @@ Name *string
 
 The name of the related assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
 
 ---
 
@@ -1431,7 +1431,7 @@ Roles interface{}
 
 The list of roles for the specified assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#roles AuditmanagerAssessment#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#roles AuditmanagerAssessment#roles}
 
 ---
 
@@ -1445,7 +1445,7 @@ Scope AuditmanagerAssessmentScope
 
 The wrapper that contains the AWS accounts and AWS services in scope for the assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#scope AuditmanagerAssessment#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#scope AuditmanagerAssessment#scope}
 
 ---
 
@@ -1459,7 +1459,7 @@ Status *string
 
 The status of the specified assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#status AuditmanagerAssessment#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#status AuditmanagerAssessment#status}
 
 ---
 
@@ -1473,7 +1473,7 @@ Tags interface{}
 
 The tags associated with the assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#tags AuditmanagerAssessment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#tags AuditmanagerAssessment#tags}
 
 ---
 
@@ -1482,7 +1482,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 &auditmanagerassessment.AuditmanagerAssessmentDelegations {
 	AssessmentId: *string,
@@ -1503,13 +1503,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.assessmentId">AssessmentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#assessment_id AuditmanagerAssessment#assessment_id}. |
+| <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.assessmentId">AssessmentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#assessment_id AuditmanagerAssessment#assessment_id}. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.assessmentName">AssessmentName</a></code> | <code>*string</code> | The name of the related assessment. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.comment">Comment</a></code> | <code>*string</code> | The comment related to the delegation. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.controlSetId">ControlSetId</a></code> | <code>*string</code> | The identifier for the specified control set. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.createdBy">CreatedBy</a></code> | <code>*string</code> | The IAM user or role that performed the action. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.creationTime">CreationTime</a></code> | <code>*f64</code> | The sequence of characters that identifies when the event occurred. |
-| <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}. |
+| <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.lastUpdated">LastUpdated</a></code> | <code>*f64</code> | The sequence of characters that identifies when the event occurred. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.roleArn">RoleArn</a></code> | <code>*string</code> | The Amazon Resource Name (ARN) of the IAM user or role. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.roleType">RoleType</a></code> | <code>*string</code> | The IAM role type. |
@@ -1525,7 +1525,7 @@ AssessmentId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#assessment_id AuditmanagerAssessment#assessment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#assessment_id AuditmanagerAssessment#assessment_id}.
 
 ---
 
@@ -1539,7 +1539,7 @@ AssessmentName *string
 
 The name of the related assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#assessment_name AuditmanagerAssessment#assessment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#assessment_name AuditmanagerAssessment#assessment_name}
 
 ---
 
@@ -1553,7 +1553,7 @@ Comment *string
 
 The comment related to the delegation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#comment AuditmanagerAssessment#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#comment AuditmanagerAssessment#comment}
 
 ---
 
@@ -1567,7 +1567,7 @@ ControlSetId *string
 
 The identifier for the specified control set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#control_set_id AuditmanagerAssessment#control_set_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#control_set_id AuditmanagerAssessment#control_set_id}
 
 ---
 
@@ -1581,7 +1581,7 @@ CreatedBy *string
 
 The IAM user or role that performed the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#created_by AuditmanagerAssessment#created_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#created_by AuditmanagerAssessment#created_by}
 
 ---
 
@@ -1595,7 +1595,7 @@ CreationTime *f64
 
 The sequence of characters that identifies when the event occurred.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#creation_time AuditmanagerAssessment#creation_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#creation_time AuditmanagerAssessment#creation_time}
 
 ---
 
@@ -1607,7 +1607,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1624,7 +1624,7 @@ LastUpdated *f64
 
 The sequence of characters that identifies when the event occurred.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#last_updated AuditmanagerAssessment#last_updated}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#last_updated AuditmanagerAssessment#last_updated}
 
 ---
 
@@ -1638,7 +1638,7 @@ RoleArn *string
 
 The Amazon Resource Name (ARN) of the IAM user or role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}
 
 ---
 
@@ -1652,7 +1652,7 @@ RoleType *string
 
 The IAM role type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}
 
 ---
 
@@ -1666,7 +1666,7 @@ Status *string
 
 The status of the delegation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#status AuditmanagerAssessment#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#status AuditmanagerAssessment#status}
 
 ---
 
@@ -1675,7 +1675,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentRoles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 &auditmanagerassessment.AuditmanagerAssessmentRoles {
 	RoleArn: *string,
@@ -1702,7 +1702,7 @@ RoleArn *string
 
 The Amazon Resource Name (ARN) of the IAM user or role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}
 
 ---
 
@@ -1716,7 +1716,7 @@ RoleType *string
 
 The IAM role type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}
 
 ---
 
@@ -1725,7 +1725,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 &auditmanagerassessment.AuditmanagerAssessmentScope {
 	AwsAccounts: interface{},
@@ -1752,7 +1752,7 @@ AwsAccounts interface{}
 
 The AWS accounts included in scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#aws_accounts AuditmanagerAssessment#aws_accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#aws_accounts AuditmanagerAssessment#aws_accounts}
 
 ---
 
@@ -1766,7 +1766,7 @@ AwsServices interface{}
 
 The AWS services included in scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#aws_services AuditmanagerAssessment#aws_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#aws_services AuditmanagerAssessment#aws_services}
 
 ---
 
@@ -1775,7 +1775,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsAccounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 &auditmanagerassessment.AuditmanagerAssessmentScopeAwsAccounts {
 	EmailAddress: *string,
@@ -1804,7 +1804,7 @@ EmailAddress *string
 
 The unique identifier for the email account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#email_address AuditmanagerAssessment#email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#email_address AuditmanagerAssessment#email_address}
 
 ---
 
@@ -1818,7 +1818,7 @@ Id *string
 
 The identifier for the specified AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1835,7 +1835,7 @@ Name *string
 
 The name of the specified AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
 
 ---
 
@@ -1844,7 +1844,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 &auditmanagerassessment.AuditmanagerAssessmentScopeAwsServices {
 	ServiceName: *string,
@@ -1869,7 +1869,7 @@ ServiceName *string
 
 The name of the AWS service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#service_name AuditmanagerAssessment#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#service_name AuditmanagerAssessment#service_name}
 
 ---
 
@@ -1878,7 +1878,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 &auditmanagerassessment.AuditmanagerAssessmentTags {
 	Key: *string,
@@ -1907,7 +1907,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#key AuditmanagerAssessment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#key AuditmanagerAssessment#key}
 
 ---
 
@@ -1923,7 +1923,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/auditmanager_assessment#value AuditmanagerAssessment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/auditmanager_assessment#value AuditmanagerAssessment#value}
 
 ---
 
@@ -1934,7 +1934,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentAssessmentReportsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentAssessmentReportsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AuditmanagerAssessmentAssessmentReportsDestinationOutputReference
 ```
@@ -2241,7 +2241,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentAwsAccountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentAwsAccountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AuditmanagerAssessmentAwsAccountOutputReference
 ```
@@ -2577,7 +2577,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentDelegationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AuditmanagerAssessmentDelegationsList
 ```
@@ -2737,7 +2737,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentDelegationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AuditmanagerAssessmentDelegationsOutputReference
 ```
@@ -3323,7 +3323,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentRolesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentRolesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AuditmanagerAssessmentRolesList
 ```
@@ -3483,7 +3483,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentRolesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentRolesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AuditmanagerAssessmentRolesOutputReference
 ```
@@ -3808,7 +3808,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsAccountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentScopeAwsAccountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AuditmanagerAssessmentScopeAwsAccountsList
 ```
@@ -3968,7 +3968,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsAccountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentScopeAwsAccountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AuditmanagerAssessmentScopeAwsAccountsOutputReference
 ```
@@ -4322,7 +4322,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentScopeAwsServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AuditmanagerAssessmentScopeAwsServicesList
 ```
@@ -4482,7 +4482,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentScopeAwsServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AuditmanagerAssessmentScopeAwsServicesOutputReference
 ```
@@ -4778,7 +4778,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AuditmanagerAssessmentScopeOutputReference
 ```
@@ -5111,7 +5111,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AuditmanagerAssessmentTagsList
 ```
@@ -5271,7 +5271,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/auditmanagerassessment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/auditmanagerassessment"
 
 auditmanagerassessment.NewAuditmanagerAssessmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AuditmanagerAssessmentTagsOutputReference
 ```

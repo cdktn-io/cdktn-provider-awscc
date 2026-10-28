@@ -4,12 +4,12 @@
 
 ### OmicsVariantStore <a name="OmicsVariantStore" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store awscc_omics_variant_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store awscc_omics_variant_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsvariantstore"
 
 omicsvariantstore.NewOmicsVariantStore(scope Construct, id *string, config OmicsVariantStoreConfig) OmicsVariantStore
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsvariantstore"
 
 omicsvariantstore.OmicsVariantStore_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsvariantstore"
 
 omicsvariantstore.OmicsVariantStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ omicsvariantstore.OmicsVariantStore_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStore.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsvariantstore"
 
 omicsvariantstore.OmicsVariantStore_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ omicsvariantstore.OmicsVariantStore_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsvariantstore"
 
 omicsvariantstore.OmicsVariantStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the OmicsVariantStore to impor
 
 The id of the existing OmicsVariantStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -934,7 +934,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsvariantstore"
 
 &omicsvariantstore.OmicsVariantStoreConfig {
 	Connection: interface{},
@@ -945,9 +945,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	Reference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.omicsVariantStore.OmicsVariantStoreReference,
+	Reference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.omicsVariantStore.OmicsVariantStoreReference,
 	Description: *string,
-	SseConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.omicsVariantStore.OmicsVariantStoreSseConfig,
+	SseConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.omicsVariantStore.OmicsVariantStoreSseConfig,
 	Tags: *map[string]*string,
 }
 ```
@@ -963,11 +963,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
 | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#name OmicsVariantStore#name}. |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.reference">Reference</a></code> | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReference">OmicsVariantStoreReference</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#reference OmicsVariantStore#reference}. |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#description OmicsVariantStore#description}. |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.sseConfig">SseConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig">OmicsVariantStoreSseConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#sse_config OmicsVariantStore#sse_config}. |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#tags OmicsVariantStore#tags}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#name OmicsVariantStore#name}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.reference">Reference</a></code> | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReference">OmicsVariantStoreReference</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#reference OmicsVariantStore#reference}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#description OmicsVariantStore#description}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.sseConfig">SseConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig">OmicsVariantStoreSseConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#sse_config OmicsVariantStore#sse_config}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#tags OmicsVariantStore#tags}. |
 
 ---
 
@@ -1049,7 +1049,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#name OmicsVariantStore#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#name OmicsVariantStore#name}.
 
 ---
 
@@ -1061,7 +1061,7 @@ Reference OmicsVariantStoreReference
 
 - *Type:* <a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReference">OmicsVariantStoreReference</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#reference OmicsVariantStore#reference}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#reference OmicsVariantStore#reference}.
 
 ---
 
@@ -1073,7 +1073,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#description OmicsVariantStore#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#description OmicsVariantStore#description}.
 
 ---
 
@@ -1085,7 +1085,7 @@ SseConfig OmicsVariantStoreSseConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig">OmicsVariantStoreSseConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#sse_config OmicsVariantStore#sse_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#sse_config OmicsVariantStore#sse_config}.
 
 ---
 
@@ -1097,7 +1097,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#tags OmicsVariantStore#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#tags OmicsVariantStore#tags}.
 
 ---
 
@@ -1106,7 +1106,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsvariantstore"
 
 &omicsvariantstore.OmicsVariantStoreReference {
 	ReferenceArn: *string,
@@ -1117,7 +1117,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReference.property.referenceArn">ReferenceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#reference_arn OmicsVariantStore#reference_arn}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReference.property.referenceArn">ReferenceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#reference_arn OmicsVariantStore#reference_arn}. |
 
 ---
 
@@ -1129,7 +1129,7 @@ ReferenceArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#reference_arn OmicsVariantStore#reference_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#reference_arn OmicsVariantStore#reference_arn}.
 
 ---
 
@@ -1138,7 +1138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsvariantstore"
 
 &omicsvariantstore.OmicsVariantStoreSseConfig {
 	KeyArn: *string,
@@ -1150,8 +1150,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig.property.keyArn">KeyArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#key_arn OmicsVariantStore#key_arn}. |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#type OmicsVariantStore#type}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig.property.keyArn">KeyArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#key_arn OmicsVariantStore#key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#type OmicsVariantStore#type}. |
 
 ---
 
@@ -1163,7 +1163,7 @@ KeyArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#key_arn OmicsVariantStore#key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#key_arn OmicsVariantStore#key_arn}.
 
 ---
 
@@ -1175,7 +1175,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_variant_store#type OmicsVariantStore#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_variant_store#type OmicsVariantStore#type}.
 
 ---
 
@@ -1186,7 +1186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsvariantstore"
 
 omicsvariantstore.NewOmicsVariantStoreReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OmicsVariantStoreReferenceOutputReference
 ```
@@ -1457,7 +1457,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsvariantstore"
 
 omicsvariantstore.NewOmicsVariantStoreSseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OmicsVariantStoreSseConfigOutputReference
 ```

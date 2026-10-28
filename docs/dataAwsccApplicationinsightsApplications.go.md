@@ -4,12 +4,12 @@
 
 ### DataAwsccApplicationinsightsApplications <a name="DataAwsccApplicationinsightsApplications" id="@cdktn/provider-awscc.dataAwsccApplicationinsightsApplications.DataAwsccApplicationinsightsApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationinsights_applications awscc_applicationinsights_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationinsights_applications awscc_applicationinsights_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationinsightsApplications.DataAwsccApplicationinsightsApplications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationinsightsapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationinsightsapplications"
 
 dataawsccapplicationinsightsapplications.NewDataAwsccApplicationinsightsApplications(scope Construct, id *string, config DataAwsccApplicationinsightsApplicationsConfig) DataAwsccApplicationinsightsApplications
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApplicationinsightsApplications.DataAwsccApplicationinsightsApplications.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationinsightsapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationinsightsapplications"
 
 dataawsccapplicationinsightsapplications.DataAwsccApplicationinsightsApplications_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApplicationinsightsApplications.DataAwsccApplicationinsightsApplications.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationinsightsapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationinsightsapplications"
 
 dataawsccapplicationinsightsapplications.DataAwsccApplicationinsightsApplications_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapplicationinsightsapplications.DataAwsccApplicationinsightsApplication
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApplicationinsightsApplications.DataAwsccApplicationinsightsApplications.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationinsightsapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationinsightsapplications"
 
 dataawsccapplicationinsightsapplications.DataAwsccApplicationinsightsApplications_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapplicationinsightsapplications.DataAwsccApplicationinsightsApplication
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApplicationinsightsApplications.DataAwsccApplicationinsightsApplications.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationinsightsapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationinsightsapplications"
 
 dataawsccapplicationinsightsapplications.DataAwsccApplicationinsightsApplications_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApplicationinsigh
 
 The id of the existing DataAwsccApplicationinsightsApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationinsights_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationinsights_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationinsightsApplications.DataAwsccApplicationinsightsApplicationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationinsightsapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationinsightsapplications"
 
 &dataawsccapplicationinsightsapplications.DataAwsccApplicationinsightsApplicationsConfig {
 	Connection: interface{},

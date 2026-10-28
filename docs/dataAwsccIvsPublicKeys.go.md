@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsPublicKeys <a name="DataAwsccIvsPublicKeys" id="@cdktn/provider-awscc.dataAwsccIvsPublicKeys.DataAwsccIvsPublicKeys"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_public_keys awscc_ivs_public_keys}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_public_keys awscc_ivs_public_keys}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsPublicKeys.DataAwsccIvsPublicKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivspublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivspublickeys"
 
 dataawsccivspublickeys.NewDataAwsccIvsPublicKeys(scope Construct, id *string, config DataAwsccIvsPublicKeysConfig) DataAwsccIvsPublicKeys
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsPublicKeys.DataAwsccIvsPublicKeys.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivspublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivspublickeys"
 
 dataawsccivspublickeys.DataAwsccIvsPublicKeys_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsPublicKeys.DataAwsccIvsPublicKeys.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivspublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivspublickeys"
 
 dataawsccivspublickeys.DataAwsccIvsPublicKeys_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivspublickeys.DataAwsccIvsPublicKeys_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsPublicKeys.DataAwsccIvsPublicKeys.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivspublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivspublickeys"
 
 dataawsccivspublickeys.DataAwsccIvsPublicKeys_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivspublickeys.DataAwsccIvsPublicKeys_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsPublicKeys.DataAwsccIvsPublicKeys.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivspublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivspublickeys"
 
 dataawsccivspublickeys.DataAwsccIvsPublicKeys_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsPublicKeys to 
 
 The id of the existing DataAwsccIvsPublicKeys that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_public_keys#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_public_keys#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsPublicKeys.DataAwsccIvsPublicKeysConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivspublickeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivspublickeys"
 
 &dataawsccivspublickeys.DataAwsccIvsPublicKeysConfig {
 	Connection: interface{},

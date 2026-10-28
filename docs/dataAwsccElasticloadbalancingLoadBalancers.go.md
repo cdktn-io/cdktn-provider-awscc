@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticloadbalancingLoadBalancers <a name="DataAwsccElasticloadbalancingLoadBalancers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingLoadBalancers.DataAwsccElasticloadbalancingLoadBalancers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancing_load_balancers awscc_elasticloadbalancing_load_balancers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancing_load_balancers awscc_elasticloadbalancing_load_balancers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingLoadBalancers.DataAwsccElasticloadbalancingLoadBalancers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingloadbalancers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingloadbalancers"
 
 dataawsccelasticloadbalancingloadbalancers.NewDataAwsccElasticloadbalancingLoadBalancers(scope Construct, id *string, config DataAwsccElasticloadbalancingLoadBalancersConfig) DataAwsccElasticloadbalancingLoadBalancers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingLoadBalancers.DataAwsccElasticloadbalancingLoadBalancers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingloadbalancers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingloadbalancers"
 
 dataawsccelasticloadbalancingloadbalancers.DataAwsccElasticloadbalancingLoadBalancers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingLoadBalancers.DataAwsccElasticloadbalancingLoadBalancers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingloadbalancers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingloadbalancers"
 
 dataawsccelasticloadbalancingloadbalancers.DataAwsccElasticloadbalancingLoadBalancers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticloadbalancingloadbalancers.DataAwsccElasticloadbalancingLoadBala
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingLoadBalancers.DataAwsccElasticloadbalancingLoadBalancers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingloadbalancers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingloadbalancers"
 
 dataawsccelasticloadbalancingloadbalancers.DataAwsccElasticloadbalancingLoadBalancers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticloadbalancingloadbalancers.DataAwsccElasticloadbalancingLoadBala
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingLoadBalancers.DataAwsccElasticloadbalancingLoadBalancers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingloadbalancers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingloadbalancers"
 
 dataawsccelasticloadbalancingloadbalancers.DataAwsccElasticloadbalancingLoadBalancers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticloadbalanc
 
 The id of the existing DataAwsccElasticloadbalancingLoadBalancers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancing_load_balancers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancing_load_balancers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingLoadBalancers.DataAwsccElasticloadbalancingLoadBalancersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingloadbalancers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingloadbalancers"
 
 &dataawsccelasticloadbalancingloadbalancers.DataAwsccElasticloadbalancingLoadBalancersConfig {
 	Connection: interface{},

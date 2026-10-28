@@ -4,12 +4,12 @@
 
 ### DataAwsccAthenaNamedQueries <a name="DataAwsccAthenaNamedQueries" id="@cdktn/provider-awscc.dataAwsccAthenaNamedQueries.DataAwsccAthenaNamedQueries"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_named_queries awscc_athena_named_queries}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_named_queries awscc_athena_named_queries}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAthenaNamedQueries.DataAwsccAthenaNamedQueries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenanamedqueries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenanamedqueries"
 
 dataawsccathenanamedqueries.NewDataAwsccAthenaNamedQueries(scope Construct, id *string, config DataAwsccAthenaNamedQueriesConfig) DataAwsccAthenaNamedQueries
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAthenaNamedQueries.DataAwsccAthenaNamedQueries.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenanamedqueries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenanamedqueries"
 
 dataawsccathenanamedqueries.DataAwsccAthenaNamedQueries_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAthenaNamedQueries.DataAwsccAthenaNamedQueries.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenanamedqueries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenanamedqueries"
 
 dataawsccathenanamedqueries.DataAwsccAthenaNamedQueries_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccathenanamedqueries.DataAwsccAthenaNamedQueries_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAthenaNamedQueries.DataAwsccAthenaNamedQueries.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenanamedqueries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenanamedqueries"
 
 dataawsccathenanamedqueries.DataAwsccAthenaNamedQueries_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccathenanamedqueries.DataAwsccAthenaNamedQueries_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAthenaNamedQueries.DataAwsccAthenaNamedQueries.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenanamedqueries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenanamedqueries"
 
 dataawsccathenanamedqueries.DataAwsccAthenaNamedQueries_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAthenaNamedQuerie
 
 The id of the existing DataAwsccAthenaNamedQueries that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_named_queries#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_named_queries#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAthenaNamedQueries.DataAwsccAthenaNamedQueriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenanamedqueries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenanamedqueries"
 
 &dataawsccathenanamedqueries.DataAwsccAthenaNamedQueriesConfig {
 	Connection: interface{},

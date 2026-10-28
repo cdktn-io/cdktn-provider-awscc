@@ -4,12 +4,12 @@
 
 ### DataAwsccQbusinessDataSource <a name="DataAwsccQbusinessDataSource" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_data_source awscc_qbusiness_data_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_data_source awscc_qbusiness_data_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSource(scope Construct, id *string, config DataAwsccQbusinessDataSourceConfig) DataAwsccQbusinessDataSource
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.DataAwsccQbusinessDataSource_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.DataAwsccQbusinessDataSource_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccqbusinessdatasource.DataAwsccQbusinessDataSource_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSource.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.DataAwsccQbusinessDataSource_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccqbusinessdatasource.DataAwsccQbusinessDataSource_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.DataAwsccQbusinessDataSource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQbusinessDataSour
 
 The id of the existing DataAwsccQbusinessDataSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_data_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_data_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceConfig {
 	Connection: interface{},
@@ -883,7 +883,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_data_source#id DataAwsccQbusinessDataSource#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_data_source#id DataAwsccQbusinessDataSource#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -895,7 +895,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration {
 
@@ -908,7 +908,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurations {
 
@@ -921,7 +921,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsCondition {
 
@@ -934,7 +934,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsConditionValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsConditionValue {
 
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTarget {
 
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTargetValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTargetValue {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfiguration {
 
@@ -986,7 +986,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition {
 
@@ -999,7 +999,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionValue {
 
@@ -1012,7 +1012,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfiguration {
 
@@ -1025,7 +1025,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition {
 
@@ -1038,7 +1038,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionValue {
 
@@ -1051,7 +1051,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceMediaExtractionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceMediaExtractionConfiguration {
 
@@ -1064,7 +1064,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceMediaExtractionConfigurationAudioExtractionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceMediaExtractionConfigurationAudioExtractionConfiguration {
 
@@ -1077,7 +1077,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceMediaExtractionConfigurationImageExtractionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceMediaExtractionConfigurationImageExtractionConfiguration {
 
@@ -1090,7 +1090,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceMediaExtractionConfigurationVideoExtractionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceMediaExtractionConfigurationVideoExtractionConfiguration {
 
@@ -1103,7 +1103,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceTags {
 
@@ -1116,7 +1116,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 &dataawsccqbusinessdatasource.DataAwsccQbusinessDataSourceVpcConfiguration {
 
@@ -1131,7 +1131,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsConditionOutputReference
 ```
@@ -1413,7 +1413,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsConditionValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsConditionValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsConditionValueOutputReference
 ```
@@ -1706,7 +1706,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsList
 ```
@@ -1855,7 +1855,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsOutputReference
 ```
@@ -2155,7 +2155,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference
 ```
@@ -2437,7 +2437,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTargetValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTargetValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTargetValueOutputReference
 ```
@@ -2730,7 +2730,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationOutputReference
 ```
@@ -3012,7 +3012,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionOutputReference
 ```
@@ -3294,7 +3294,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionValueOutputReference
 ```
@@ -3587,7 +3587,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHookConfigurationOutputReference
 ```
@@ -3880,7 +3880,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionOutputReference
 ```
@@ -4162,7 +4162,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionValueOutputReference
 ```
@@ -4455,7 +4455,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHookConfigurationOutputReference
 ```
@@ -4748,7 +4748,7 @@ func InternalValue() DataAwsccQbusinessDataSourceDocumentEnrichmentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceMediaExtractionConfigurationAudioExtractionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceMediaExtractionConfigurationAudioExtractionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceMediaExtractionConfigurationAudioExtractionConfigurationOutputReference
 ```
@@ -5008,7 +5008,7 @@ func InternalValue() DataAwsccQbusinessDataSourceMediaExtractionConfigurationAud
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceMediaExtractionConfigurationImageExtractionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceMediaExtractionConfigurationImageExtractionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceMediaExtractionConfigurationImageExtractionConfigurationOutputReference
 ```
@@ -5268,7 +5268,7 @@ func InternalValue() DataAwsccQbusinessDataSourceMediaExtractionConfigurationIma
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceMediaExtractionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceMediaExtractionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceMediaExtractionConfigurationOutputReference
 ```
@@ -5550,7 +5550,7 @@ func InternalValue() DataAwsccQbusinessDataSourceMediaExtractionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceMediaExtractionConfigurationVideoExtractionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceMediaExtractionConfigurationVideoExtractionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceMediaExtractionConfigurationVideoExtractionConfigurationOutputReference
 ```
@@ -5810,7 +5810,7 @@ func InternalValue() DataAwsccQbusinessDataSourceMediaExtractionConfigurationVid
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQbusinessDataSourceTagsList
 ```
@@ -5959,7 +5959,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQbusinessDataSourceTagsOutputReference
 ```
@@ -6248,7 +6248,7 @@ func InternalValue() DataAwsccQbusinessDataSourceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessDataSource.DataAwsccQbusinessDataSourceVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource"
 
 dataawsccqbusinessdatasource.NewDataAwsccQbusinessDataSourceVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessDataSourceVpcConfigurationOutputReference
 ```

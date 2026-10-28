@@ -4,12 +4,12 @@
 
 ### SsoInstance <a name="SsoInstance" id="@cdktn/provider-awscc.ssoInstance.SsoInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance awscc_sso_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance awscc_sso_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoInstance.SsoInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoinstance"
 
 ssoinstance.NewSsoInstance(scope Construct, id *string, config SsoInstanceConfig) SsoInstance
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssoInstance.SsoInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoinstance"
 
 ssoinstance.SsoInstance_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssoInstance.SsoInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoinstance"
 
 ssoinstance.SsoInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ ssoinstance.SsoInstance_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssoInstance.SsoInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoinstance"
 
 ssoinstance.SsoInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ ssoinstance.SsoInstance_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssoInstance.SsoInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoinstance"
 
 ssoinstance.SsoInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the SsoInstance to import.
 
 The id of the existing SsoInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -815,7 +815,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoInstance.SsoInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoinstance"
 
 &ssoinstance.SsoInstanceConfig {
 	Connection: interface{},
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance"
 | <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceConfig.property.name">Name</a></code> | <code>*string</code> | The name you want to assign to this Identity Center (SSO) Instance. |
-| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance#tags SsoInstance#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance#tags SsoInstance#tags}. |
 
 ---
 
@@ -926,7 +926,7 @@ Name *string
 
 The name you want to assign to this Identity Center (SSO) Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance#name SsoInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance#name SsoInstance#name}
 
 ---
 
@@ -938,7 +938,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance#tags SsoInstance#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance#tags SsoInstance#tags}.
 
 ---
 
@@ -947,7 +947,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoInstance.SsoInstanceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoinstance"
 
 &ssoinstance.SsoInstanceTags {
 	Key: *string,
@@ -959,8 +959,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance#key SsoInstance#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance#value SsoInstance#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance#key SsoInstance#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssoInstance.SsoInstanceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance#value SsoInstance#value}. |
 
 ---
 
@@ -972,7 +972,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance#key SsoInstance#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance#key SsoInstance#key}.
 
 ---
 
@@ -984,7 +984,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance#value SsoInstance#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance#value SsoInstance#value}.
 
 ---
 
@@ -995,7 +995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoInstance.SsoInstanceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoinstance"
 
 ssoinstance.NewSsoInstanceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsoInstanceTagsList
 ```
@@ -1155,7 +1155,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoInstance.SsoInstanceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoinstance"
 
 ssoinstance.NewSsoInstanceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsoInstanceTagsOutputReference
 ```

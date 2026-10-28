@@ -4,12 +4,12 @@
 
 ### DataAwsccIotsitewiseAccessPolicy <a name="DataAwsccIotsitewiseAccessPolicy" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_access_policy awscc_iotsitewise_access_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_access_policy awscc_iotsitewise_access_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.NewDataAwsccIotsitewiseAccessPolicy(scope Construct, id *string, config DataAwsccIotsitewiseAccessPolicyConfig) DataAwsccIotsitewiseAccessPolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicy_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicy_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseAccess
 
 The id of the existing DataAwsccIotsitewiseAccessPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_access_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_access_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 &dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentity {
 
@@ -655,7 +655,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 &dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamRole {
 
@@ -668,7 +668,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 &dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamUser {
 
@@ -681,7 +681,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 &dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityUser {
 
@@ -694,7 +694,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 &dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyResource {
 
@@ -707,7 +707,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyResourcePortal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 &dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyResourcePortal {
 
@@ -720,7 +720,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyResourceProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 &dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyResourceProject {
 
@@ -733,7 +733,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 &dataawscciotsitewiseaccesspolicy.DataAwsccIotsitewiseAccessPolicyConfig {
 	Connection: interface{},
@@ -842,7 +842,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_access_policy#id DataAwsccIotsitewiseAccessPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_access_policy#id DataAwsccIotsitewiseAccessPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -856,7 +856,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamRoleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.NewDataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamRoleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamRoleOutputReference
 ```
@@ -1116,7 +1116,7 @@ func InternalValue() DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamRole
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.NewDataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamUserOutputReference
 ```
@@ -1376,7 +1376,7 @@ func InternalValue() DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityIamUser
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.NewDataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityOutputReference
 ```
@@ -1658,7 +1658,7 @@ func InternalValue() DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.NewDataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityUserOutputReference
 ```
@@ -1918,7 +1918,7 @@ func InternalValue() DataAwsccIotsitewiseAccessPolicyAccessPolicyIdentityUser
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.NewDataAwsccIotsitewiseAccessPolicyAccessPolicyResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsitewiseAccessPolicyAccessPolicyResourceOutputReference
 ```
@@ -2189,7 +2189,7 @@ func InternalValue() DataAwsccIotsitewiseAccessPolicyAccessPolicyResource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyResourcePortalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.NewDataAwsccIotsitewiseAccessPolicyAccessPolicyResourcePortalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsitewiseAccessPolicyAccessPolicyResourcePortalOutputReference
 ```
@@ -2449,7 +2449,7 @@ func InternalValue() DataAwsccIotsitewiseAccessPolicyAccessPolicyResourcePortal
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicy.DataAwsccIotsitewiseAccessPolicyAccessPolicyResourceProjectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicy"
 
 dataawscciotsitewiseaccesspolicy.NewDataAwsccIotsitewiseAccessPolicyAccessPolicyResourceProjectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsitewiseAccessPolicyAccessPolicyResourceProjectOutputReference
 ```

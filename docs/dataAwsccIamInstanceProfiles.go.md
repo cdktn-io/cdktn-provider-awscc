@@ -4,12 +4,12 @@
 
 ### DataAwsccIamInstanceProfiles <a name="DataAwsccIamInstanceProfiles" id="@cdktn/provider-awscc.dataAwsccIamInstanceProfiles.DataAwsccIamInstanceProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_instance_profiles awscc_iam_instance_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_instance_profiles awscc_iam_instance_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamInstanceProfiles.DataAwsccIamInstanceProfiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciaminstanceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciaminstanceprofiles"
 
 dataawscciaminstanceprofiles.NewDataAwsccIamInstanceProfiles(scope Construct, id *string, config DataAwsccIamInstanceProfilesConfig) DataAwsccIamInstanceProfiles
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIamInstanceProfiles.DataAwsccIamInstanceProfiles.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciaminstanceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciaminstanceprofiles"
 
 dataawscciaminstanceprofiles.DataAwsccIamInstanceProfiles_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIamInstanceProfiles.DataAwsccIamInstanceProfiles.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciaminstanceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciaminstanceprofiles"
 
 dataawscciaminstanceprofiles.DataAwsccIamInstanceProfiles_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciaminstanceprofiles.DataAwsccIamInstanceProfiles_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIamInstanceProfiles.DataAwsccIamInstanceProfiles.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciaminstanceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciaminstanceprofiles"
 
 dataawscciaminstanceprofiles.DataAwsccIamInstanceProfiles_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciaminstanceprofiles.DataAwsccIamInstanceProfiles_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIamInstanceProfiles.DataAwsccIamInstanceProfiles.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciaminstanceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciaminstanceprofiles"
 
 dataawscciaminstanceprofiles.DataAwsccIamInstanceProfiles_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIamInstanceProfil
 
 The id of the existing DataAwsccIamInstanceProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_instance_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_instance_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamInstanceProfiles.DataAwsccIamInstanceProfilesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciaminstanceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciaminstanceprofiles"
 
 &dataawscciaminstanceprofiles.DataAwsccIamInstanceProfilesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccPcaconnectoradTemplateGroupAccessControlEntry <a name="DataAwsccPcaconnectoradTemplateGroupAccessControlEntry" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplateGroupAccessControlEntry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntry"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplateGroupAccessControlEntry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
 
 dataawsccpcaconnectoradtemplategroupaccesscontrolentry.NewDataAwsccPcaconnectoradTemplateGroupAccessControlEntry(scope Construct, id *string, config DataAwsccPcaconnectoradTemplateGroupAccessControlEntryConfig) DataAwsccPcaconnectoradTemplateGroupAccessControlEntry
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplateGroupAccessControlEntry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntry.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
 
 dataawsccpcaconnectoradtemplategroupaccesscontrolentry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntry_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplateGroupAccessControlEntry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntry.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
 
 dataawsccpcaconnectoradtemplategroupaccesscontrolentry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntry_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpcaconnectoradtemplategroupaccesscontrolentry.DataAwsccPcaconnectoradTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplateGroupAccessControlEntry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntry.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
 
 dataawsccpcaconnectoradtemplategroupaccesscontrolentry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntry_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpcaconnectoradtemplategroupaccesscontrolentry.DataAwsccPcaconnectoradTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplateGroupAccessControlEntry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntry.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
 
 dataawsccpcaconnectoradtemplategroupaccesscontrolentry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntry_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPcaconnectoradTem
 
 The id of the existing DataAwsccPcaconnectoradTemplateGroupAccessControlEntry that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplateGroupAccessControlEntry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntryAccessRights.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
 
 &dataawsccpcaconnectoradtemplategroupaccesscontrolentry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntryAccessRights {
 
@@ -644,7 +644,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplateGroupAccessControlEntry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
 
 &dataawsccpcaconnectoradtemplategroupaccesscontrolentry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntryConfig {
 	Connection: interface{},
@@ -753,7 +753,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry#id DataAwsccPcaconnectoradTemplateGroupAccessControlEntry#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry#id DataAwsccPcaconnectoradTemplateGroupAccessControlEntry#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -767,7 +767,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplateGroupAccessControlEntry.DataAwsccPcaconnectoradTemplateGroupAccessControlEntryAccessRightsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplategroupaccesscontrolentry"
 
 dataawsccpcaconnectoradtemplategroupaccesscontrolentry.NewDataAwsccPcaconnectoradTemplateGroupAccessControlEntryAccessRightsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateGroupAccessControlEntryAccessRightsOutputReference
 ```

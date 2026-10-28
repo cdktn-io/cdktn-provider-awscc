@@ -4,12 +4,12 @@
 
 ### DataexchangeEventAction <a name="DataexchangeEventAction" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action awscc_dataexchange_event_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action awscc_dataexchange_event_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.NewDataexchangeEventAction(scope Construct, id *string, config DataexchangeEventActionConfig) DataexchangeEventAction
 ```
@@ -446,7 +446,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventAction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.DataexchangeEventAction_IsConstruct(x interface{}) *bool
 ```
@@ -478,7 +478,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventAction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.DataexchangeEventAction_IsTerraformElement(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ dataexchangeeventaction.DataexchangeEventAction_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventAction.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.DataexchangeEventAction_IsTerraformResource(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ dataexchangeeventaction.DataexchangeEventAction_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventAction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.DataexchangeEventAction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -535,7 +535,7 @@ The construct id used in the generated config for the DataexchangeEventAction to
 
 The id of the existing DataexchangeEventAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -856,10 +856,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 &dataexchangeeventaction.DataexchangeEventActionAction {
-	ExportRevisionToS3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3,
+	ExportRevisionToS3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3,
 }
 ```
 
@@ -881,7 +881,7 @@ ExportRevisionToS3 DataexchangeEventActionActionExportRevisionToS3
 
 Details of the operation to be performed by the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#export_revision_to_s3 DataexchangeEventAction#export_revision_to_s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#export_revision_to_s3 DataexchangeEventAction#export_revision_to_s3}
 
 ---
 
@@ -890,11 +890,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 &dataexchangeeventaction.DataexchangeEventActionActionExportRevisionToS3 {
-	Encryption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3Encryption,
-	RevisionDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestination,
+	Encryption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3Encryption,
+	RevisionDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestination,
 }
 ```
 
@@ -917,7 +917,7 @@ Encryption DataexchangeEventActionActionExportRevisionToS3Encryption
 
 Encryption configuration of the export job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#encryption DataexchangeEventAction#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#encryption DataexchangeEventAction#encryption}
 
 ---
 
@@ -931,7 +931,7 @@ RevisionDestination DataexchangeEventActionActionExportRevisionToS3RevisionDesti
 
 A revision destination is the Amazon S3 bucket folder destination to where the export will be sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#revision_destination DataexchangeEventAction#revision_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#revision_destination DataexchangeEventAction#revision_destination}
 
 ---
 
@@ -940,7 +940,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3Encryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 &dataexchangeeventaction.DataexchangeEventActionActionExportRevisionToS3Encryption {
 	KmsKeyArn: *string,
@@ -967,7 +967,7 @@ KmsKeyArn *string
 
 The Amazon Resource Name (ARN) of the AWS KMS key you want to use to encrypt the Amazon S3 objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#kms_key_arn DataexchangeEventAction#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#kms_key_arn DataexchangeEventAction#kms_key_arn}
 
 ---
 
@@ -981,7 +981,7 @@ Type *string
 
 The type of server side encryption used for encrypting the objects in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#type DataexchangeEventAction#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#type DataexchangeEventAction#type}
 
 ---
 
@@ -990,7 +990,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 &dataexchangeeventaction.DataexchangeEventActionActionExportRevisionToS3RevisionDestination {
 	Bucket: *string,
@@ -1017,7 +1017,7 @@ Bucket *string
 
 The Amazon S3 bucket that is the destination for the event action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#bucket DataexchangeEventAction#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#bucket DataexchangeEventAction#bucket}
 
 ---
 
@@ -1031,7 +1031,7 @@ KeyPattern *string
 
 A string representing the pattern for generated names of the individual assets in the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#key_pattern DataexchangeEventAction#key_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#key_pattern DataexchangeEventAction#key_pattern}
 
 ---
 
@@ -1040,7 +1040,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 &dataexchangeeventaction.DataexchangeEventActionConfig {
 	Connection: interface{},
@@ -1050,8 +1050,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventactio
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Action: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dataexchangeEventAction.DataexchangeEventActionAction,
-	Event: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dataexchangeEventAction.DataexchangeEventActionEvent,
+	Action: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dataexchangeEventAction.DataexchangeEventActionAction,
+	Event: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dataexchangeEventAction.DataexchangeEventActionEvent,
 	Tags: interface{},
 }
 ```
@@ -1153,7 +1153,7 @@ Action DataexchangeEventActionAction
 
 What occurs after a certain event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#action DataexchangeEventAction#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#action DataexchangeEventAction#action}
 
 ---
 
@@ -1167,7 +1167,7 @@ Event DataexchangeEventActionEvent
 
 What occurs to start an action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#event DataexchangeEventAction#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#event DataexchangeEventAction#event}
 
 ---
 
@@ -1181,7 +1181,7 @@ Tags interface{}
 
 The tags for the event action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#tags DataexchangeEventAction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#tags DataexchangeEventAction#tags}
 
 ---
 
@@ -1190,10 +1190,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionEvent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 &dataexchangeeventaction.DataexchangeEventActionEvent {
-	RevisionPublished: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublished,
+	RevisionPublished: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublished,
 }
 ```
 
@@ -1215,7 +1215,7 @@ RevisionPublished DataexchangeEventActionEventRevisionPublished
 
 Information about the published revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#revision_published DataexchangeEventAction#revision_published}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#revision_published DataexchangeEventAction#revision_published}
 
 ---
 
@@ -1224,7 +1224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublished.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 &dataexchangeeventaction.DataexchangeEventActionEventRevisionPublished {
 	DataSetId: *string,
@@ -1249,7 +1249,7 @@ DataSetId *string
 
 The data set ID of the published revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#data_set_id DataexchangeEventAction#data_set_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#data_set_id DataexchangeEventAction#data_set_id}
 
 ---
 
@@ -1258,7 +1258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 &dataexchangeeventaction.DataexchangeEventActionTags {
 	Key: *string,
@@ -1285,7 +1285,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#key DataexchangeEventAction#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#key DataexchangeEventAction#key}
 
 ---
 
@@ -1299,7 +1299,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_event_action#value DataexchangeEventAction#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_event_action#value DataexchangeEventAction#value}
 
 ---
 
@@ -1310,7 +1310,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.NewDataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference
 ```
@@ -1617,7 +1617,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.NewDataexchangeEventActionActionExportRevisionToS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataexchangeEventActionActionExportRevisionToS3OutputReference
 ```
@@ -1950,7 +1950,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.NewDataexchangeEventActionActionExportRevisionToS3RevisionDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataexchangeEventActionActionExportRevisionToS3RevisionDestinationOutputReference
 ```
@@ -2257,7 +2257,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.NewDataexchangeEventActionActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataexchangeEventActionActionOutputReference
 ```
@@ -2548,7 +2548,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionEventOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.NewDataexchangeEventActionEventOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataexchangeEventActionEventOutputReference
 ```
@@ -2839,7 +2839,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublishedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.NewDataexchangeEventActionEventRevisionPublishedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataexchangeEventActionEventRevisionPublishedOutputReference
 ```
@@ -3117,7 +3117,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.NewDataexchangeEventActionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataexchangeEventActionTagsList
 ```
@@ -3277,7 +3277,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataexchangeEventAction.DataexchangeEventActionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangeeventaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangeeventaction"
 
 dataexchangeeventaction.NewDataexchangeEventActionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataexchangeEventActionTagsOutputReference
 ```

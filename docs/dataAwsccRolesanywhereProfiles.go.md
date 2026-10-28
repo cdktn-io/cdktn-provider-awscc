@@ -4,12 +4,12 @@
 
 ### DataAwsccRolesanywhereProfiles <a name="DataAwsccRolesanywhereProfiles" id="@cdktn/provider-awscc.dataAwsccRolesanywhereProfiles.DataAwsccRolesanywhereProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rolesanywhere_profiles awscc_rolesanywhere_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rolesanywhere_profiles awscc_rolesanywhere_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRolesanywhereProfiles.DataAwsccRolesanywhereProfiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywhereprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywhereprofiles"
 
 dataawsccrolesanywhereprofiles.NewDataAwsccRolesanywhereProfiles(scope Construct, id *string, config DataAwsccRolesanywhereProfilesConfig) DataAwsccRolesanywhereProfiles
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRolesanywhereProfiles.DataAwsccRolesanywhereProfiles.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywhereprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywhereprofiles"
 
 dataawsccrolesanywhereprofiles.DataAwsccRolesanywhereProfiles_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRolesanywhereProfiles.DataAwsccRolesanywhereProfiles.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywhereprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywhereprofiles"
 
 dataawsccrolesanywhereprofiles.DataAwsccRolesanywhereProfiles_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrolesanywhereprofiles.DataAwsccRolesanywhereProfiles_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRolesanywhereProfiles.DataAwsccRolesanywhereProfiles.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywhereprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywhereprofiles"
 
 dataawsccrolesanywhereprofiles.DataAwsccRolesanywhereProfiles_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrolesanywhereprofiles.DataAwsccRolesanywhereProfiles_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRolesanywhereProfiles.DataAwsccRolesanywhereProfiles.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywhereprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywhereprofiles"
 
 dataawsccrolesanywhereprofiles.DataAwsccRolesanywhereProfiles_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRolesanywhereProf
 
 The id of the existing DataAwsccRolesanywhereProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rolesanywhere_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rolesanywhere_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRolesanywhereProfiles.DataAwsccRolesanywhereProfilesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywhereprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywhereprofiles"
 
 &dataawsccrolesanywhereprofiles.DataAwsccRolesanywhereProfilesConfig {
 	Connection: interface{},

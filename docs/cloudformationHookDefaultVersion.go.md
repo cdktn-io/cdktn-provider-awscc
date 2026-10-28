@@ -4,12 +4,12 @@
 
 ### CloudformationHookDefaultVersion <a name="CloudformationHookDefaultVersion" id="@cdktn/provider-awscc.cloudformationHookDefaultVersion.CloudformationHookDefaultVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationHookDefaultVersion.CloudformationHookDefaultVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookdefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookdefaultversion"
 
 cloudformationhookdefaultversion.NewCloudformationHookDefaultVersion(scope Construct, id *string, config CloudformationHookDefaultVersionConfig) CloudformationHookDefaultVersion
 ```
@@ -421,7 +421,7 @@ func ResetVersionId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudformationHookDefaultVersion.CloudformationHookDefaultVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookdefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookdefaultversion"
 
 cloudformationhookdefaultversion.CloudformationHookDefaultVersion_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudformationHookDefaultVersion.CloudformationHookDefaultVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookdefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookdefaultversion"
 
 cloudformationhookdefaultversion.CloudformationHookDefaultVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ cloudformationhookdefaultversion.CloudformationHookDefaultVersion_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudformationHookDefaultVersion.CloudformationHookDefaultVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookdefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookdefaultversion"
 
 cloudformationhookdefaultversion.CloudformationHookDefaultVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ cloudformationhookdefaultversion.CloudformationHookDefaultVersion_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudformationHookDefaultVersion.CloudformationHookDefaultVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookdefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookdefaultversion"
 
 cloudformationhookdefaultversion.CloudformationHookDefaultVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the CloudformationHookDefaultV
 
 The id of the existing CloudformationHookDefaultVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_default_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_default_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -798,7 +798,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationHookDefaultVersion.CloudformationHookDefaultVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookdefaultversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookdefaultversion"
 
 &cloudformationhookdefaultversion.CloudformationHookDefaultVersionConfig {
 	Connection: interface{},
@@ -913,7 +913,7 @@ The name of the type being registered.
 
 We recommend that type names adhere to the following pattern: company_or_organization::service::type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_default_version#type_name CloudformationHookDefaultVersion#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_default_version#type_name CloudformationHookDefaultVersion#type_name}
 
 ---
 
@@ -927,7 +927,7 @@ TypeVersionArn *string
 
 The Amazon Resource Name (ARN) of the type version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_default_version#type_version_arn CloudformationHookDefaultVersion#type_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_default_version#type_version_arn CloudformationHookDefaultVersion#type_version_arn}
 
 ---
 
@@ -941,7 +941,7 @@ VersionId *string
 
 The ID of an existing version of the hook to set as the default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_default_version#version_id CloudformationHookDefaultVersion#version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_default_version#version_id CloudformationHookDefaultVersion#version_id}
 
 ---
 

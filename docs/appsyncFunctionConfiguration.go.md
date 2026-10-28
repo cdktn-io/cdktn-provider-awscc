@@ -4,12 +4,12 @@
 
 ### AppsyncFunctionConfiguration <a name="AppsyncFunctionConfiguration" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 appsyncfunctionconfiguration.NewAppsyncFunctionConfiguration(scope Construct, id *string, config AppsyncFunctionConfigurationConfig) AppsyncFunctionConfiguration
 ```
@@ -503,7 +503,7 @@ func ResetSyncConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 appsyncfunctionconfiguration.AppsyncFunctionConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 appsyncfunctionconfiguration.AppsyncFunctionConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ appsyncfunctionconfiguration.AppsyncFunctionConfiguration_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 appsyncfunctionconfiguration.AppsyncFunctionConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -563,7 +563,7 @@ appsyncfunctionconfiguration.AppsyncFunctionConfiguration_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 appsyncfunctionconfiguration.AppsyncFunctionConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -592,7 +592,7 @@ The construct id used in the generated config for the AppsyncFunctionConfigurati
 
 The id of the existing AppsyncFunctionConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1133,7 +1133,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 &appsyncfunctionconfiguration.AppsyncFunctionConfigurationConfig {
 	Connection: interface{},
@@ -1155,8 +1155,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfigu
 	RequestMappingTemplateS3Location: *string,
 	ResponseMappingTemplate: *string,
 	ResponseMappingTemplateS3Location: *string,
-	Runtime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appsyncFunctionConfiguration.AppsyncFunctionConfigurationRuntime,
-	SyncConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appsyncFunctionConfiguration.AppsyncFunctionConfigurationSyncConfig,
+	Runtime: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appsyncFunctionConfiguration.AppsyncFunctionConfigurationRuntime,
+	SyncConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appsyncFunctionConfiguration.AppsyncFunctionConfigurationSyncConfig,
 }
 ```
 
@@ -1268,7 +1268,7 @@ ApiId *string
 
 The AWS AppSync GraphQL API that you want to attach using this function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#api_id AppsyncFunctionConfiguration#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#api_id AppsyncFunctionConfiguration#api_id}
 
 ---
 
@@ -1282,7 +1282,7 @@ DataSourceName *string
 
 The name of data source this function will attach.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#data_source_name AppsyncFunctionConfiguration#data_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#data_source_name AppsyncFunctionConfiguration#data_source_name}
 
 ---
 
@@ -1296,7 +1296,7 @@ Name *string
 
 The name of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#name AppsyncFunctionConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#name AppsyncFunctionConfiguration#name}
 
 ---
 
@@ -1312,7 +1312,7 @@ The resolver code that contains the request and response functions.
 
 When code is used, the runtime is required. The runtime value must be APPSYNC_JS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#code AppsyncFunctionConfiguration#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#code AppsyncFunctionConfiguration#code}
 
 ---
 
@@ -1326,7 +1326,7 @@ CodeS3Location *string
 
 The Amazon S3 endpoint (where the code is located??).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#code_s3_location AppsyncFunctionConfiguration#code_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#code_s3_location AppsyncFunctionConfiguration#code_s3_location}
 
 ---
 
@@ -1340,7 +1340,7 @@ Description *string
 
 The function description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#description AppsyncFunctionConfiguration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#description AppsyncFunctionConfiguration#description}
 
 ---
 
@@ -1354,7 +1354,7 @@ FunctionVersion *string
 
 The version of the request mapping template. Currently, only the 2018-05-29 version of the template is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#function_version AppsyncFunctionConfiguration#function_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#function_version AppsyncFunctionConfiguration#function_version}
 
 ---
 
@@ -1368,7 +1368,7 @@ MaxBatchSize *f64
 
 The maximum number of resolver request inputs that will be sent to a single AWS Lambda function in a BatchInvoke operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#max_batch_size AppsyncFunctionConfiguration#max_batch_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#max_batch_size AppsyncFunctionConfiguration#max_batch_size}
 
 ---
 
@@ -1382,7 +1382,7 @@ RequestMappingTemplate *string
 
 The Function request mapping template. Functions support only the 2018-05-29 version of the request mapping template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#request_mapping_template AppsyncFunctionConfiguration#request_mapping_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#request_mapping_template AppsyncFunctionConfiguration#request_mapping_template}
 
 ---
 
@@ -1398,7 +1398,7 @@ Describes a Sync configuration for a resolver.
 
 Contains information on which Conflict Detection, as well as Resolution strategy, should be performed when the resolver is invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#request_mapping_template_s3_location AppsyncFunctionConfiguration#request_mapping_template_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#request_mapping_template_s3_location AppsyncFunctionConfiguration#request_mapping_template_s3_location}
 
 ---
 
@@ -1412,7 +1412,7 @@ ResponseMappingTemplate *string
 
 The Function response mapping template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#response_mapping_template AppsyncFunctionConfiguration#response_mapping_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#response_mapping_template AppsyncFunctionConfiguration#response_mapping_template}
 
 ---
 
@@ -1428,7 +1428,7 @@ The location of a response mapping template in an Amazon S3 bucket.
 
 Use this if you want to provision with a template file in Amazon S3 rather than embedding it in your CloudFormation template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#response_mapping_template_s3_location AppsyncFunctionConfiguration#response_mapping_template_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#response_mapping_template_s3_location AppsyncFunctionConfiguration#response_mapping_template_s3_location}
 
 ---
 
@@ -1444,7 +1444,7 @@ Describes a runtime used by an AWS AppSync pipeline resolver or AWS AppSync func
 
 Specifies the name and version of the runtime to use. Note that if a runtime is specified, code must also be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#runtime AppsyncFunctionConfiguration#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#runtime AppsyncFunctionConfiguration#runtime}
 
 ---
 
@@ -1460,7 +1460,7 @@ Describes a Sync configuration for a resolver.
 
 Specifies which Conflict Detection strategy and Resolution strategy to use when the resolver is invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#sync_config AppsyncFunctionConfiguration#sync_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#sync_config AppsyncFunctionConfiguration#sync_config}
 
 ---
 
@@ -1469,7 +1469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfigurationRuntime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 &appsyncfunctionconfiguration.AppsyncFunctionConfigurationRuntime {
 	Name: *string,
@@ -1496,7 +1496,7 @@ Name *string
 
 The name of the runtime to use. Currently, the only allowed value is APPSYNC_JS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#name AppsyncFunctionConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#name AppsyncFunctionConfiguration#name}
 
 ---
 
@@ -1510,7 +1510,7 @@ RuntimeVersion *string
 
 The version of the runtime to use. Currently, the only allowed version is 1.0.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#runtime_version AppsyncFunctionConfiguration#runtime_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#runtime_version AppsyncFunctionConfiguration#runtime_version}
 
 ---
 
@@ -1519,12 +1519,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfigurationSyncConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 &appsyncfunctionconfiguration.AppsyncFunctionConfigurationSyncConfig {
 	ConflictDetection: *string,
 	ConflictHandler: *string,
-	LambdaConflictHandlerConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appsyncFunctionConfiguration.AppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfig,
+	LambdaConflictHandlerConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appsyncFunctionConfiguration.AppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfig,
 }
 ```
 
@@ -1548,7 +1548,7 @@ ConflictDetection *string
 
 The Conflict Detection strategy to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#conflict_detection AppsyncFunctionConfiguration#conflict_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#conflict_detection AppsyncFunctionConfiguration#conflict_detection}
 
 ---
 
@@ -1562,7 +1562,7 @@ ConflictHandler *string
 
 The Conflict Resolution strategy to perform in the event of a conflict.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#conflict_handler AppsyncFunctionConfiguration#conflict_handler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#conflict_handler AppsyncFunctionConfiguration#conflict_handler}
 
 ---
 
@@ -1576,7 +1576,7 @@ LambdaConflictHandlerConfig AppsyncFunctionConfigurationSyncConfigLambdaConflict
 
 The LambdaConflictHandlerConfig when configuring LAMBDA as the Conflict Handler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#lambda_conflict_handler_config AppsyncFunctionConfiguration#lambda_conflict_handler_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#lambda_conflict_handler_config AppsyncFunctionConfiguration#lambda_conflict_handler_config}
 
 ---
 
@@ -1585,7 +1585,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 &appsyncfunctionconfiguration.AppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfig {
 	LambdaConflictHandlerArn: *string,
@@ -1610,7 +1610,7 @@ LambdaConflictHandlerArn *string
 
 The Amazon Resource Name (ARN) for the Lambda function to use as the Conflict Handler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration#lambda_conflict_handler_arn AppsyncFunctionConfiguration#lambda_conflict_handler_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration#lambda_conflict_handler_arn AppsyncFunctionConfiguration#lambda_conflict_handler_arn}
 
 ---
 
@@ -1621,7 +1621,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfigurationRuntimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 appsyncfunctionconfiguration.NewAppsyncFunctionConfigurationRuntimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppsyncFunctionConfigurationRuntimeOutputReference
 ```
@@ -1928,7 +1928,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 appsyncfunctionconfiguration.NewAppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppsyncFunctionConfigurationSyncConfigLambdaConflictHandlerConfigOutputReference
 ```
@@ -2206,7 +2206,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncFunctionConfiguration.AppsyncFunctionConfigurationSyncConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration"
 
 appsyncfunctionconfiguration.NewAppsyncFunctionConfigurationSyncConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppsyncFunctionConfigurationSyncConfigOutputReference
 ```

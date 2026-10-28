@@ -4,12 +4,12 @@
 
 ### DataAwsccChimeSipMediaApplication <a name="DataAwsccChimeSipMediaApplication" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_sip_media_application awscc_chime_sip_media_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_sip_media_application awscc_chime_sip_media_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 dataawsccchimesipmediaapplication.NewDataAwsccChimeSipMediaApplication(scope Construct, id *string, config DataAwsccChimeSipMediaApplicationConfig) DataAwsccChimeSipMediaApplication
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 dataawsccchimesipmediaapplication.DataAwsccChimeSipMediaApplication_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 dataawsccchimesipmediaapplication.DataAwsccChimeSipMediaApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccchimesipmediaapplication.DataAwsccChimeSipMediaApplication_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplication.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 dataawsccchimesipmediaapplication.DataAwsccChimeSipMediaApplication_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccchimesipmediaapplication.DataAwsccChimeSipMediaApplication_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 dataawsccchimesipmediaapplication.DataAwsccChimeSipMediaApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccChimeSipMediaAppl
 
 The id of the existing DataAwsccChimeSipMediaApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_sip_media_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_sip_media_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 &dataawsccchimesipmediaapplication.DataAwsccChimeSipMediaApplicationConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_sip_media_application#id DataAwsccChimeSipMediaApplication#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_sip_media_application#id DataAwsccChimeSipMediaApplication#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplicationEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 &dataawsccchimesipmediaapplication.DataAwsccChimeSipMediaApplicationEndpoints {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmedia
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 &dataawsccchimesipmediaapplication.DataAwsccChimeSipMediaApplicationTags {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmedia
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplicationEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 dataawsccchimesipmediaapplication.NewDataAwsccChimeSipMediaApplicationEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccChimeSipMediaApplicationEndpointsList
 ```
@@ -973,7 +973,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplicationEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 dataawsccchimesipmediaapplication.NewDataAwsccChimeSipMediaApplicationEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccChimeSipMediaApplicationEndpointsOutputReference
 ```
@@ -1251,7 +1251,7 @@ func InternalValue() DataAwsccChimeSipMediaApplicationEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 dataawsccchimesipmediaapplication.NewDataAwsccChimeSipMediaApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccChimeSipMediaApplicationTagsList
 ```
@@ -1400,7 +1400,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplication.DataAwsccChimeSipMediaApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimesipmediaapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimesipmediaapplication"
 
 dataawsccchimesipmediaapplication.NewDataAwsccChimeSipMediaApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccChimeSipMediaApplicationTagsOutputReference
 ```

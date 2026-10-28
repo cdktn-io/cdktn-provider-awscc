@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockDataAutomationProject <a name="DataAwsccBedrockDataAutomationProject" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_data_automation_project awscc_bedrock_data_automation_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_data_automation_project awscc_bedrock_data_automation_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProject(scope Construct, id *string, config DataAwsccBedrockDataAutomationProjectConfig) DataAwsccBedrockDataAutomationProject
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProject.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProject_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProject.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProject_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProject_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProject.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProject_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProject_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProject.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProject_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockDataAutoma
 
 The id of the existing DataAwsccBedrockDataAutomationProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_data_automation_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_data_automation_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_data_automation_project#id DataAwsccBedrockDataAutomationProject#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_data_automation_project#id DataAwsccBedrockDataAutomationProject#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectCustomOutputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectCustomOutputConfiguration {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectCustomOutputConfigurationBlueprints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectCustomOutputConfigurationBlueprints {
 
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfiguration {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudio {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing {
 
@@ -940,7 +940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration {
 
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration {
 
@@ -966,7 +966,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocument.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocument {
 
@@ -979,7 +979,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing {
 
@@ -992,7 +992,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration {
 
@@ -1005,7 +1005,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration {
 
@@ -1018,7 +1018,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSplitter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSplitter {
 
@@ -1031,7 +1031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImage {
 
@@ -1044,7 +1044,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing {
 
@@ -1057,7 +1057,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration {
 
@@ -1070,7 +1070,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration {
 
@@ -1083,7 +1083,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationModalityRouting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationModalityRouting {
 
@@ -1096,7 +1096,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideo {
 
@@ -1109,7 +1109,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing {
 
@@ -1122,7 +1122,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration {
 
@@ -1135,7 +1135,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration {
 
@@ -1148,7 +1148,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfiguration {
 
@@ -1161,7 +1161,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudio.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudio {
 
@@ -1174,7 +1174,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction {
 
@@ -1187,7 +1187,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory {
 
@@ -1200,7 +1200,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration {
 
@@ -1213,7 +1213,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript {
 
@@ -1226,7 +1226,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling {
 
@@ -1239,7 +1239,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling {
 
@@ -1252,7 +1252,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField {
 
@@ -1265,7 +1265,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocument.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocument {
 
@@ -1278,7 +1278,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction {
 
@@ -1291,7 +1291,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox {
 
@@ -1304,7 +1304,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity {
 
@@ -1317,7 +1317,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField {
 
@@ -1330,7 +1330,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat {
 
@@ -1343,7 +1343,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat {
 
@@ -1356,7 +1356,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat {
 
@@ -1369,7 +1369,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImage {
 
@@ -1382,7 +1382,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtraction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtraction {
 
@@ -1395,7 +1395,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox {
 
@@ -1408,7 +1408,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory {
 
@@ -1421,7 +1421,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField {
 
@@ -1434,7 +1434,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideo {
 
@@ -1447,7 +1447,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction {
 
@@ -1460,7 +1460,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox {
 
@@ -1473,7 +1473,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory {
 
@@ -1486,7 +1486,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField {
 
@@ -1499,7 +1499,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 &dataawsccbedrockdataautomationproject.DataAwsccBedrockDataAutomationProjectTags {
 
@@ -1514,7 +1514,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectCustomOutputConfigurationBlueprintsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectCustomOutputConfigurationBlueprintsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockDataAutomationProjectCustomOutputConfigurationBlueprintsList
 ```
@@ -1663,7 +1663,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectCustomOutputConfigurationBlueprintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectCustomOutputConfigurationBlueprintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockDataAutomationProjectCustomOutputConfigurationBlueprintsOutputReference
 ```
@@ -1963,7 +1963,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectCustomOutputConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectCustomOutputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectCustomOutputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectCustomOutputConfigurationOutputReference
 ```
@@ -2223,7 +2223,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectCustomOutputConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfigurationOutputReference
 ```
@@ -2505,7 +2505,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessingOutputReference
 ```
@@ -2765,7 +2765,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioOutputReference
 ```
@@ -3047,7 +3047,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationOutputReference
 ```
@@ -3329,7 +3329,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference
 ```
@@ -3600,7 +3600,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessingOutputReference
 ```
@@ -3860,7 +3860,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentOutputReference
 ```
@@ -4142,7 +4142,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationOutputReference
 ```
@@ -4424,7 +4424,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference
 ```
@@ -4695,7 +4695,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSplitterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSplitterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationDocumentSplitterOutputReference
 ```
@@ -4955,7 +4955,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageModalityProcessingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationImageModalityProcessingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageModalityProcessingOutputReference
 ```
@@ -5215,7 +5215,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationI
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageOutputReference
 ```
@@ -5486,7 +5486,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationI
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationOutputReference
 ```
@@ -5768,7 +5768,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationI
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference
 ```
@@ -6039,7 +6039,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationI
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationModalityRoutingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationModalityRoutingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationModalityRoutingOutputReference
 ```
@@ -6332,7 +6332,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationM
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationOutputReference
 ```
@@ -6636,7 +6636,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessingOutputReference
 ```
@@ -6896,7 +6896,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationV
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoOutputReference
 ```
@@ -7167,7 +7167,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationV
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationOutputReference
 ```
@@ -7449,7 +7449,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationV
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfigurationOutputReference
 ```
@@ -7720,7 +7720,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectOverrideConfigurationV
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryOutputReference
 ```
@@ -8002,7 +8002,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference
 ```
@@ -8262,7 +8262,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabelingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabelingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabelingOutputReference
 ```
@@ -8522,7 +8522,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptOutputReference
 ```
@@ -8793,7 +8793,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabelingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabelingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabelingOutputReference
 ```
@@ -9053,7 +9053,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionOutputReference
 ```
@@ -9313,7 +9313,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeFieldOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeFieldOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeFieldOutputReference
 ```
@@ -9584,7 +9584,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioOutputReference
 ```
@@ -9855,7 +9855,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBoxOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBoxOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBoxOutputReference
 ```
@@ -10115,7 +10115,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference
 ```
@@ -10375,7 +10375,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionOutputReference
 ```
@@ -10646,7 +10646,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeFieldOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeFieldOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeFieldOutputReference
 ```
@@ -10906,7 +10906,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormatOutputReference
 ```
@@ -11166,7 +11166,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatOutputReference
 ```
@@ -11437,7 +11437,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormatOutputReference
 ```
@@ -11697,7 +11697,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputReference
 ```
@@ -11979,7 +11979,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBoxOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBoxOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBoxOutputReference
 ```
@@ -12239,7 +12239,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategoryOutputReference
 ```
@@ -12510,7 +12510,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageExtractionOutputReference
 ```
@@ -12781,7 +12781,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeFieldOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeFieldOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeFieldOutputReference
 ```
@@ -13052,7 +13052,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationImageOutputReference
 ```
@@ -13323,7 +13323,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationOutputReference
 ```
@@ -13616,7 +13616,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBoxOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBoxOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBoxOutputReference
 ```
@@ -13876,7 +13876,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategoryOutputReference
 ```
@@ -14147,7 +14147,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionOutputReference
 ```
@@ -14418,7 +14418,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeFieldOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeFieldOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeFieldOutputReference
 ```
@@ -14689,7 +14689,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationVideoOutputReference
 ```
@@ -14960,7 +14960,7 @@ func InternalValue() DataAwsccBedrockDataAutomationProjectStandardOutputConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockDataAutomationProjectTagsList
 ```
@@ -15109,7 +15109,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationProject.DataAwsccBedrockDataAutomationProjectTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationproject"
 
 dataawsccbedrockdataautomationproject.NewDataAwsccBedrockDataAutomationProjectTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockDataAutomationProjectTagsOutputReference
 ```

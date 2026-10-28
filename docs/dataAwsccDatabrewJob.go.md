@@ -4,12 +4,12 @@
 
 ### DataAwsccDatabrewJob <a name="DataAwsccDatabrewJob" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_job awscc_databrew_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_job awscc_databrew_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJob(scope Construct, id *string, config DataAwsccDatabrewJobConfig) DataAwsccDatabrewJob
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJob.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.DataAwsccDatabrewJob_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJob.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.DataAwsccDatabrewJob_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatabrewjob.DataAwsccDatabrewJob_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJob.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.DataAwsccDatabrewJob_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatabrewjob.DataAwsccDatabrewJob_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJob.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.DataAwsccDatabrewJob_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatabrewJob to im
 
 The id of the existing DataAwsccDatabrewJob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -807,7 +807,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobConfig {
 	Connection: interface{},
@@ -916,7 +916,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_job#id DataAwsccDatabrewJob#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_job#id DataAwsccDatabrewJob#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -928,7 +928,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDatabaseOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobDatabaseOutputs {
 
@@ -941,7 +941,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDatabaseOutputsDatabaseOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobDatabaseOutputsDatabaseOptions {
 
@@ -954,7 +954,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDatabaseOutputsDatabaseOptionsTempDirectory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobDatabaseOutputsDatabaseOptionsTempDirectory {
 
@@ -967,7 +967,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDataCatalogOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobDataCatalogOutputs {
 
@@ -980,7 +980,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDataCatalogOutputsDatabaseOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobDataCatalogOutputsDatabaseOptions {
 
@@ -993,7 +993,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDataCatalogOutputsDatabaseOptionsTempDirectory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobDataCatalogOutputsDatabaseOptionsTempDirectory {
 
@@ -1006,7 +1006,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDataCatalogOutputsS3Options.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobDataCatalogOutputsS3Options {
 
@@ -1019,7 +1019,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDataCatalogOutputsS3OptionsLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobDataCatalogOutputsS3OptionsLocation {
 
@@ -1032,7 +1032,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobJobSample.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobJobSample {
 
@@ -1045,7 +1045,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobOutputLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobOutputLocation {
 
@@ -1058,7 +1058,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobOutputs {
 
@@ -1071,7 +1071,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobOutputsFormatOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobOutputsFormatOptions {
 
@@ -1084,7 +1084,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobOutputsFormatOptionsCsv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobOutputsFormatOptionsCsv {
 
@@ -1097,7 +1097,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobOutputsLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobOutputsLocation {
 
@@ -1110,7 +1110,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobProfileConfiguration {
 
@@ -1123,7 +1123,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurations {
 
@@ -1136,7 +1136,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelectors {
 
@@ -1149,7 +1149,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatistics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatistics {
 
@@ -1162,7 +1162,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOverrides {
 
@@ -1175,7 +1175,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfiguration {
 
@@ -1188,7 +1188,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverrides {
 
@@ -1201,7 +1201,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationEntityDetectorConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobProfileConfigurationEntityDetectorConfiguration {
 
@@ -1214,7 +1214,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationEntityDetectorConfigurationAllowedStatistics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobProfileConfigurationEntityDetectorConfigurationAllowedStatistics {
 
@@ -1227,7 +1227,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationProfileColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobProfileConfigurationProfileColumns {
 
@@ -1240,7 +1240,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobRecipe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobRecipe {
 
@@ -1253,7 +1253,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobTags {
 
@@ -1266,7 +1266,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobValidationConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 &dataawsccdatabrewjob.DataAwsccDatabrewJobValidationConfigurations {
 
@@ -1281,7 +1281,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDatabaseOutputsDatabaseOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobDatabaseOutputsDatabaseOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobDatabaseOutputsDatabaseOptionsOutputReference
 ```
@@ -1552,7 +1552,7 @@ func InternalValue() DataAwsccDatabrewJobDatabaseOutputsDatabaseOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDatabaseOutputsDatabaseOptionsTempDirectoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobDatabaseOutputsDatabaseOptionsTempDirectoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobDatabaseOutputsDatabaseOptionsTempDirectoryOutputReference
 ```
@@ -1834,7 +1834,7 @@ func InternalValue() DataAwsccDatabrewJobDatabaseOutputsDatabaseOptionsTempDirec
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDatabaseOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobDatabaseOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewJobDatabaseOutputsList
 ```
@@ -1983,7 +1983,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDatabaseOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobDatabaseOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewJobDatabaseOutputsOutputReference
 ```
@@ -2283,7 +2283,7 @@ func InternalValue() DataAwsccDatabrewJobDatabaseOutputs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDataCatalogOutputsDatabaseOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobDataCatalogOutputsDatabaseOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobDataCatalogOutputsDatabaseOptionsOutputReference
 ```
@@ -2554,7 +2554,7 @@ func InternalValue() DataAwsccDatabrewJobDataCatalogOutputsDatabaseOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDataCatalogOutputsDatabaseOptionsTempDirectoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobDataCatalogOutputsDatabaseOptionsTempDirectoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobDataCatalogOutputsDatabaseOptionsTempDirectoryOutputReference
 ```
@@ -2836,7 +2836,7 @@ func InternalValue() DataAwsccDatabrewJobDataCatalogOutputsDatabaseOptionsTempDi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDataCatalogOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobDataCatalogOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewJobDataCatalogOutputsList
 ```
@@ -2985,7 +2985,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDataCatalogOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobDataCatalogOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewJobDataCatalogOutputsOutputReference
 ```
@@ -3318,7 +3318,7 @@ func InternalValue() DataAwsccDatabrewJobDataCatalogOutputs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDataCatalogOutputsS3OptionsLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobDataCatalogOutputsS3OptionsLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobDataCatalogOutputsS3OptionsLocationOutputReference
 ```
@@ -3600,7 +3600,7 @@ func InternalValue() DataAwsccDatabrewJobDataCatalogOutputsS3OptionsLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobDataCatalogOutputsS3OptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobDataCatalogOutputsS3OptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobDataCatalogOutputsS3OptionsOutputReference
 ```
@@ -3860,7 +3860,7 @@ func InternalValue() DataAwsccDatabrewJobDataCatalogOutputsS3Options
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobJobSampleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobJobSampleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobJobSampleOutputReference
 ```
@@ -4131,7 +4131,7 @@ func InternalValue() DataAwsccDatabrewJobJobSample
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobOutputLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobOutputLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobOutputLocationOutputReference
 ```
@@ -4413,7 +4413,7 @@ func InternalValue() DataAwsccDatabrewJobOutputLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobOutputsFormatOptionsCsvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobOutputsFormatOptionsCsvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobOutputsFormatOptionsCsvOutputReference
 ```
@@ -4673,7 +4673,7 @@ func InternalValue() DataAwsccDatabrewJobOutputsFormatOptionsCsv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobOutputsFormatOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobOutputsFormatOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobOutputsFormatOptionsOutputReference
 ```
@@ -4933,7 +4933,7 @@ func InternalValue() DataAwsccDatabrewJobOutputsFormatOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewJobOutputsList
 ```
@@ -5082,7 +5082,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobOutputsLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobOutputsLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobOutputsLocationOutputReference
 ```
@@ -5364,7 +5364,7 @@ func InternalValue() DataAwsccDatabrewJobOutputsLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewJobOutputsOutputReference
 ```
@@ -5708,7 +5708,7 @@ func InternalValue() DataAwsccDatabrewJobOutputs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsList
 ```
@@ -5857,7 +5857,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsOutputReference
 ```
@@ -6146,7 +6146,7 @@ func InternalValue() DataAwsccDatabrewJobProfileConfigurationColumnStatisticsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelectorsList
 ```
@@ -6295,7 +6295,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelectorsOutputReference
 ```
@@ -6584,7 +6584,7 @@ func InternalValue() DataAwsccDatabrewJobProfileConfigurationColumnStatisticsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOutputReference
 ```
@@ -6855,7 +6855,7 @@ func InternalValue() DataAwsccDatabrewJobProfileConfigurationColumnStatisticsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOverridesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOverridesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOverridesList
 ```
@@ -7004,7 +7004,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOverridesOutputReference
 ```
@@ -7293,7 +7293,7 @@ func InternalValue() DataAwsccDatabrewJobProfileConfigurationColumnStatisticsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfigurationOutputReference
 ```
@@ -7564,7 +7564,7 @@ func InternalValue() DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverridesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverridesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverridesList
 ```
@@ -7713,7 +7713,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverridesOutputReference
 ```
@@ -8002,7 +8002,7 @@ func InternalValue() DataAwsccDatabrewJobProfileConfigurationDatasetStatisticsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationEntityDetectorConfigurationAllowedStatisticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationEntityDetectorConfigurationAllowedStatisticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobProfileConfigurationEntityDetectorConfigurationAllowedStatisticsOutputReference
 ```
@@ -8262,7 +8262,7 @@ func InternalValue() DataAwsccDatabrewJobProfileConfigurationEntityDetectorConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationEntityDetectorConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationEntityDetectorConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobProfileConfigurationEntityDetectorConfigurationOutputReference
 ```
@@ -8533,7 +8533,7 @@ func InternalValue() DataAwsccDatabrewJobProfileConfigurationEntityDetectorConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobProfileConfigurationOutputReference
 ```
@@ -8826,7 +8826,7 @@ func InternalValue() DataAwsccDatabrewJobProfileConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationProfileColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationProfileColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewJobProfileConfigurationProfileColumnsList
 ```
@@ -8975,7 +8975,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobProfileConfigurationProfileColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobProfileConfigurationProfileColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewJobProfileConfigurationProfileColumnsOutputReference
 ```
@@ -9264,7 +9264,7 @@ func InternalValue() DataAwsccDatabrewJobProfileConfigurationProfileColumns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobRecipeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobRecipeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewJobRecipeOutputReference
 ```
@@ -9535,7 +9535,7 @@ func InternalValue() DataAwsccDatabrewJobRecipe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewJobTagsList
 ```
@@ -9684,7 +9684,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewJobTagsOutputReference
 ```
@@ -9973,7 +9973,7 @@ func InternalValue() DataAwsccDatabrewJobTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobValidationConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobValidationConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewJobValidationConfigurationsList
 ```
@@ -10122,7 +10122,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewJob.DataAwsccDatabrewJobValidationConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjob"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjob"
 
 dataawsccdatabrewjob.NewDataAwsccDatabrewJobValidationConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewJobValidationConfigurationsOutputReference
 ```

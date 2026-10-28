@@ -4,12 +4,12 @@
 
 ### DataAwsccAutoscalingWarmPool <a name="DataAwsccAutoscalingWarmPool" id="@cdktn/provider-awscc.dataAwsccAutoscalingWarmPool.DataAwsccAutoscalingWarmPool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAutoscalingWarmPool.DataAwsccAutoscalingWarmPool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingwarmpool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingwarmpool"
 
 dataawsccautoscalingwarmpool.NewDataAwsccAutoscalingWarmPool(scope Construct, id *string, config DataAwsccAutoscalingWarmPoolConfig) DataAwsccAutoscalingWarmPool
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAutoscalingWarmPool.DataAwsccAutoscalingWarmPool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingwarmpool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingwarmpool"
 
 dataawsccautoscalingwarmpool.DataAwsccAutoscalingWarmPool_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAutoscalingWarmPool.DataAwsccAutoscalingWarmPool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingwarmpool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingwarmpool"
 
 dataawsccautoscalingwarmpool.DataAwsccAutoscalingWarmPool_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccautoscalingwarmpool.DataAwsccAutoscalingWarmPool_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAutoscalingWarmPool.DataAwsccAutoscalingWarmPool.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingwarmpool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingwarmpool"
 
 dataawsccautoscalingwarmpool.DataAwsccAutoscalingWarmPool_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccautoscalingwarmpool.DataAwsccAutoscalingWarmPool_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAutoscalingWarmPool.DataAwsccAutoscalingWarmPool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingwarmpool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingwarmpool"
 
 dataawsccautoscalingwarmpool.DataAwsccAutoscalingWarmPool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAutoscalingWarmPo
 
 The id of the existing DataAwsccAutoscalingWarmPool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_warm_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_warm_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAutoscalingWarmPool.DataAwsccAutoscalingWarmPoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingwarmpool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingwarmpool"
 
 &dataawsccautoscalingwarmpool.DataAwsccAutoscalingWarmPoolConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_warm_pool#id DataAwsccAutoscalingWarmPool#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_warm_pool#id DataAwsccAutoscalingWarmPool#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAutoscalingWarmPool.DataAwsccAutoscalingWarmPoolInstanceReusePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingwarmpool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingwarmpool"
 
 &dataawsccautoscalingwarmpool.DataAwsccAutoscalingWarmPoolInstanceReusePolicy {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingwa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAutoscalingWarmPool.DataAwsccAutoscalingWarmPoolInstanceReusePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingwarmpool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingwarmpool"
 
 dataawsccautoscalingwarmpool.NewDataAwsccAutoscalingWarmPoolInstanceReusePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAutoscalingWarmPoolInstanceReusePolicyOutputReference
 ```

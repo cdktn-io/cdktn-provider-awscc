@@ -4,12 +4,12 @@
 
 ### NeptuneDbSubnetGroup <a name="NeptuneDbSubnetGroup" id="@cdktn/provider-awscc.neptuneDbSubnetGroup.NeptuneDbSubnetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_db_subnet_group awscc_neptune_db_subnet_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_db_subnet_group awscc_neptune_db_subnet_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptuneDbSubnetGroup.NeptuneDbSubnetGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunedbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunedbsubnetgroup"
 
 neptunedbsubnetgroup.NewNeptuneDbSubnetGroup(scope Construct, id *string, config NeptuneDbSubnetGroupConfig) NeptuneDbSubnetGroup
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.neptuneDbSubnetGroup.NeptuneDbSubnetGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunedbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunedbsubnetgroup"
 
 neptunedbsubnetgroup.NeptuneDbSubnetGroup_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.neptuneDbSubnetGroup.NeptuneDbSubnetGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunedbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunedbsubnetgroup"
 
 neptunedbsubnetgroup.NeptuneDbSubnetGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ neptunedbsubnetgroup.NeptuneDbSubnetGroup_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.neptuneDbSubnetGroup.NeptuneDbSubnetGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunedbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunedbsubnetgroup"
 
 neptunedbsubnetgroup.NeptuneDbSubnetGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ neptunedbsubnetgroup.NeptuneDbSubnetGroup_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.neptuneDbSubnetGroup.NeptuneDbSubnetGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunedbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunedbsubnetgroup"
 
 neptunedbsubnetgroup.NeptuneDbSubnetGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the NeptuneDbSubnetGroup to im
 
 The id of the existing NeptuneDbSubnetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_db_subnet_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_db_subnet_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -815,7 +815,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.neptuneDbSubnetGroup.NeptuneDbSubnetGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunedbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunedbsubnetgroup"
 
 &neptunedbsubnetgroup.NeptuneDbSubnetGroupConfig {
 	Connection: interface{},
@@ -930,7 +930,7 @@ DbSubnetGroupDescription *string
 
 The description for the DB subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_db_subnet_group#db_subnet_group_description NeptuneDbSubnetGroup#db_subnet_group_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_db_subnet_group#db_subnet_group_description NeptuneDbSubnetGroup#db_subnet_group_description}
 
 ---
 
@@ -944,7 +944,7 @@ SubnetIds *[]*string
 
 The Amazon EC2 subnet IDs for the DB subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_db_subnet_group#subnet_ids NeptuneDbSubnetGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_db_subnet_group#subnet_ids NeptuneDbSubnetGroup#subnet_ids}
 
 ---
 
@@ -962,7 +962,7 @@ Constraints: Must contain no more than 255 lowercase alphanumeric characters or 
 
 Example: mysubnetgroup
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_db_subnet_group#db_subnet_group_name NeptuneDbSubnetGroup#db_subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_db_subnet_group#db_subnet_group_name NeptuneDbSubnetGroup#db_subnet_group_name}
 
 ---
 
@@ -976,7 +976,7 @@ Tags interface{}
 
 An optional array of key-value pairs to apply to this DB subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_db_subnet_group#tags NeptuneDbSubnetGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_db_subnet_group#tags NeptuneDbSubnetGroup#tags}
 
 ---
 
@@ -985,7 +985,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.neptuneDbSubnetGroup.NeptuneDbSubnetGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunedbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunedbsubnetgroup"
 
 &neptunedbsubnetgroup.NeptuneDbSubnetGroupTags {
 	Key: *string,
@@ -1014,7 +1014,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_db_subnet_group#key NeptuneDbSubnetGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_db_subnet_group#key NeptuneDbSubnetGroup#key}
 
 ---
 
@@ -1030,7 +1030,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_db_subnet_group#value NeptuneDbSubnetGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_db_subnet_group#value NeptuneDbSubnetGroup#value}
 
 ---
 
@@ -1041,7 +1041,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptuneDbSubnetGroup.NeptuneDbSubnetGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunedbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunedbsubnetgroup"
 
 neptunedbsubnetgroup.NewNeptuneDbSubnetGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NeptuneDbSubnetGroupTagsList
 ```
@@ -1201,7 +1201,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptuneDbSubnetGroup.NeptuneDbSubnetGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunedbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunedbsubnetgroup"
 
 neptunedbsubnetgroup.NewNeptuneDbSubnetGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NeptuneDbSubnetGroupTagsOutputReference
 ```

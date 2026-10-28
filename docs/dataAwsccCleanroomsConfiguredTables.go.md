@@ -4,12 +4,12 @@
 
 ### DataAwsccCleanroomsConfiguredTables <a name="DataAwsccCleanroomsConfiguredTables" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTables.DataAwsccCleanroomsConfiguredTables"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_configured_tables awscc_cleanrooms_configured_tables}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_configured_tables awscc_cleanrooms_configured_tables}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTables.DataAwsccCleanroomsConfiguredTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtables"
 
 dataawscccleanroomsconfiguredtables.NewDataAwsccCleanroomsConfiguredTables(scope Construct, id *string, config DataAwsccCleanroomsConfiguredTablesConfig) DataAwsccCleanroomsConfiguredTables
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTables.DataAwsccCleanroomsConfiguredTables.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtables"
 
 dataawscccleanroomsconfiguredtables.DataAwsccCleanroomsConfiguredTables_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTables.DataAwsccCleanroomsConfiguredTables.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtables"
 
 dataawscccleanroomsconfiguredtables.DataAwsccCleanroomsConfiguredTables_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccleanroomsconfiguredtables.DataAwsccCleanroomsConfiguredTables_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTables.DataAwsccCleanroomsConfiguredTables.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtables"
 
 dataawscccleanroomsconfiguredtables.DataAwsccCleanroomsConfiguredTables_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccleanroomsconfiguredtables.DataAwsccCleanroomsConfiguredTables_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTables.DataAwsccCleanroomsConfiguredTables.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtables"
 
 dataawscccleanroomsconfiguredtables.DataAwsccCleanroomsConfiguredTables_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCleanroomsConfigu
 
 The id of the existing DataAwsccCleanroomsConfiguredTables that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_configured_tables#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_configured_tables#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsConfiguredTables.DataAwsccCleanroomsConfiguredTablesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsconfiguredtables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsconfiguredtables"
 
 &dataawscccleanroomsconfiguredtables.DataAwsccCleanroomsConfiguredTablesConfig {
 	Connection: interface{},

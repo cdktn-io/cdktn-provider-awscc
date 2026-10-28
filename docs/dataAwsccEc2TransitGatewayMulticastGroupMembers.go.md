@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2TransitGatewayMulticastGroupMembers <a name="DataAwsccEc2TransitGatewayMulticastGroupMembers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastGroupMembers.DataAwsccEc2TransitGatewayMulticastGroupMembers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_multicast_group_members awscc_ec2_transit_gateway_multicast_group_members}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_multicast_group_members awscc_ec2_transit_gateway_multicast_group_members}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastGroupMembers.DataAwsccEc2TransitGatewayMulticastGroupMembers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastgroupmembers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastgroupmembers"
 
 dataawsccec2transitgatewaymulticastgroupmembers.NewDataAwsccEc2TransitGatewayMulticastGroupMembers(scope Construct, id *string, config DataAwsccEc2TransitGatewayMulticastGroupMembersConfig) DataAwsccEc2TransitGatewayMulticastGroupMembers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastGroupMembers.DataAwsccEc2TransitGatewayMulticastGroupMembers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastgroupmembers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastgroupmembers"
 
 dataawsccec2transitgatewaymulticastgroupmembers.DataAwsccEc2TransitGatewayMulticastGroupMembers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastGroupMembers.DataAwsccEc2TransitGatewayMulticastGroupMembers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastgroupmembers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastgroupmembers"
 
 dataawsccec2transitgatewaymulticastgroupmembers.DataAwsccEc2TransitGatewayMulticastGroupMembers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2transitgatewaymulticastgroupmembers.DataAwsccEc2TransitGatewayMultic
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastGroupMembers.DataAwsccEc2TransitGatewayMulticastGroupMembers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastgroupmembers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastgroupmembers"
 
 dataawsccec2transitgatewaymulticastgroupmembers.DataAwsccEc2TransitGatewayMulticastGroupMembers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2transitgatewaymulticastgroupmembers.DataAwsccEc2TransitGatewayMultic
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastGroupMembers.DataAwsccEc2TransitGatewayMulticastGroupMembers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastgroupmembers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastgroupmembers"
 
 dataawsccec2transitgatewaymulticastgroupmembers.DataAwsccEc2TransitGatewayMulticastGroupMembers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2TransitGateway
 
 The id of the existing DataAwsccEc2TransitGatewayMulticastGroupMembers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_multicast_group_members#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_multicast_group_members#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastGroupMembers.DataAwsccEc2TransitGatewayMulticastGroupMembersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastgroupmembers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastgroupmembers"
 
 &dataawsccec2transitgatewaymulticastgroupmembers.DataAwsccEc2TransitGatewayMulticastGroupMembersConfig {
 	Connection: interface{},

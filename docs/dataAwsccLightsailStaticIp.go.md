@@ -4,12 +4,12 @@
 
 ### DataAwsccLightsailStaticIp <a name="DataAwsccLightsailStaticIp" id="@cdktn/provider-awscc.dataAwsccLightsailStaticIp.DataAwsccLightsailStaticIp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_static_ip awscc_lightsail_static_ip}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_static_ip awscc_lightsail_static_ip}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailStaticIp.DataAwsccLightsailStaticIp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailstaticip"
 
 dataawscclightsailstaticip.NewDataAwsccLightsailStaticIp(scope Construct, id *string, config DataAwsccLightsailStaticIpConfig) DataAwsccLightsailStaticIp
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLightsailStaticIp.DataAwsccLightsailStaticIp.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailstaticip"
 
 dataawscclightsailstaticip.DataAwsccLightsailStaticIp_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLightsailStaticIp.DataAwsccLightsailStaticIp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailstaticip"
 
 dataawscclightsailstaticip.DataAwsccLightsailStaticIp_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclightsailstaticip.DataAwsccLightsailStaticIp_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLightsailStaticIp.DataAwsccLightsailStaticIp.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailstaticip"
 
 dataawscclightsailstaticip.DataAwsccLightsailStaticIp_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclightsailstaticip.DataAwsccLightsailStaticIp_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLightsailStaticIp.DataAwsccLightsailStaticIp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailstaticip"
 
 dataawscclightsailstaticip.DataAwsccLightsailStaticIp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailStaticIp
 
 The id of the existing DataAwsccLightsailStaticIp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_static_ip#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_static_ip#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailStaticIp.DataAwsccLightsailStaticIpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailstaticip"
 
 &dataawscclightsailstaticip.DataAwsccLightsailStaticIpConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_static_ip#id DataAwsccLightsailStaticIp#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_static_ip#id DataAwsccLightsailStaticIp#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaResourcePolicy <a name="DataAwsccLambdaResourcePolicy" id="@cdktn/provider-awscc.dataAwsccLambdaResourcePolicy.DataAwsccLambdaResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_resource_policy awscc_lambda_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_resource_policy awscc_lambda_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaResourcePolicy.DataAwsccLambdaResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaresourcepolicy"
 
 dataawscclambdaresourcepolicy.NewDataAwsccLambdaResourcePolicy(scope Construct, id *string, config DataAwsccLambdaResourcePolicyConfig) DataAwsccLambdaResourcePolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaResourcePolicy.DataAwsccLambdaResourcePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaresourcepolicy"
 
 dataawscclambdaresourcepolicy.DataAwsccLambdaResourcePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaResourcePolicy.DataAwsccLambdaResourcePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaresourcepolicy"
 
 dataawscclambdaresourcepolicy.DataAwsccLambdaResourcePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdaresourcepolicy.DataAwsccLambdaResourcePolicy_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaResourcePolicy.DataAwsccLambdaResourcePolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaresourcepolicy"
 
 dataawscclambdaresourcepolicy.DataAwsccLambdaResourcePolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdaresourcepolicy.DataAwsccLambdaResourcePolicy_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaResourcePolicy.DataAwsccLambdaResourcePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaresourcepolicy"
 
 dataawscclambdaresourcepolicy.DataAwsccLambdaResourcePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaResourcePol
 
 The id of the existing DataAwsccLambdaResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaResourcePolicy.DataAwsccLambdaResourcePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaresourcepolicy"
 
 &dataawscclambdaresourcepolicy.DataAwsccLambdaResourcePolicyConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_resource_policy#id DataAwsccLambdaResourcePolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_resource_policy#id DataAwsccLambdaResourcePolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

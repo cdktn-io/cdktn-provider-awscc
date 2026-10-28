@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityhubFindingAggregators <a name="DataAwsccSecurityhubFindingAggregators" id="@cdktn/provider-awscc.dataAwsccSecurityhubFindingAggregators.DataAwsccSecurityhubFindingAggregators"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_finding_aggregators awscc_securityhub_finding_aggregators}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_finding_aggregators awscc_securityhub_finding_aggregators}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubFindingAggregators.DataAwsccSecurityhubFindingAggregators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubfindingaggregators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubfindingaggregators"
 
 dataawsccsecurityhubfindingaggregators.NewDataAwsccSecurityhubFindingAggregators(scope Construct, id *string, config DataAwsccSecurityhubFindingAggregatorsConfig) DataAwsccSecurityhubFindingAggregators
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityhubFindingAggregators.DataAwsccSecurityhubFindingAggregators.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubfindingaggregators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubfindingaggregators"
 
 dataawsccsecurityhubfindingaggregators.DataAwsccSecurityhubFindingAggregators_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityhubFindingAggregators.DataAwsccSecurityhubFindingAggregators.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubfindingaggregators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubfindingaggregators"
 
 dataawsccsecurityhubfindingaggregators.DataAwsccSecurityhubFindingAggregators_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityhubfindingaggregators.DataAwsccSecurityhubFindingAggregators_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityhubFindingAggregators.DataAwsccSecurityhubFindingAggregators.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubfindingaggregators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubfindingaggregators"
 
 dataawsccsecurityhubfindingaggregators.DataAwsccSecurityhubFindingAggregators_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityhubfindingaggregators.DataAwsccSecurityhubFindingAggregators_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityhubFindingAggregators.DataAwsccSecurityhubFindingAggregators.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubfindingaggregators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubfindingaggregators"
 
 dataawsccsecurityhubfindingaggregators.DataAwsccSecurityhubFindingAggregators_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubFindin
 
 The id of the existing DataAwsccSecurityhubFindingAggregators that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_finding_aggregators#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_finding_aggregators#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubFindingAggregators.DataAwsccSecurityhubFindingAggregatorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubfindingaggregators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubfindingaggregators"
 
 &dataawsccsecurityhubfindingaggregators.DataAwsccSecurityhubFindingAggregatorsConfig {
 	Connection: interface{},

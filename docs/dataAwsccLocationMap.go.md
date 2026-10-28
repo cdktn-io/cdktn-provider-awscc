@@ -4,12 +4,12 @@
 
 ### DataAwsccLocationMap <a name="DataAwsccLocationMap" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_map awscc_location_map}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_map awscc_location_map}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap"
 
 dataawscclocationmap.NewDataAwsccLocationMap(scope Construct, id *string, config DataAwsccLocationMapConfig) DataAwsccLocationMap
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMap.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap"
 
 dataawscclocationmap.DataAwsccLocationMap_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMap.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap"
 
 dataawscclocationmap.DataAwsccLocationMap_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclocationmap.DataAwsccLocationMap_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMap.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap"
 
 dataawscclocationmap.DataAwsccLocationMap_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclocationmap.DataAwsccLocationMap_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMap.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap"
 
 dataawscclocationmap.DataAwsccLocationMap_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLocationMap to im
 
 The id of the existing DataAwsccLocationMap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_map#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_map#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMapConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap"
 
 &dataawscclocationmap.DataAwsccLocationMapConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_map#id DataAwsccLocationMap#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_map#id DataAwsccLocationMap#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMapConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap"
 
 &dataawscclocationmap.DataAwsccLocationMapConfiguration {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMapTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap"
 
 &dataawscclocationmap.DataAwsccLocationMapTags {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMapConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap"
 
 dataawscclocationmap.NewDataAwsccLocationMapConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLocationMapConfigurationOutputReference
 ```
@@ -1117,7 +1117,7 @@ func InternalValue() DataAwsccLocationMapConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMapTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap"
 
 dataawscclocationmap.NewDataAwsccLocationMapTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLocationMapTagsList
 ```
@@ -1266,7 +1266,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationMap.DataAwsccLocationMapTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap"
 
 dataawscclocationmap.NewDataAwsccLocationMapTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLocationMapTagsOutputReference
 ```

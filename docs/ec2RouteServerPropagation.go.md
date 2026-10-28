@@ -4,12 +4,12 @@
 
 ### Ec2RouteServerPropagation <a name="Ec2RouteServerPropagation" id="@cdktn/provider-awscc.ec2RouteServerPropagation.Ec2RouteServerPropagation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteServerPropagation.Ec2RouteServerPropagation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpropagation"
 
 ec2routeserverpropagation.NewEc2RouteServerPropagation(scope Construct, id *string, config Ec2RouteServerPropagationConfig) Ec2RouteServerPropagation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2RouteServerPropagation.Ec2RouteServerPropagation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpropagation"
 
 ec2routeserverpropagation.Ec2RouteServerPropagation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2RouteServerPropagation.Ec2RouteServerPropagation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpropagation"
 
 ec2routeserverpropagation.Ec2RouteServerPropagation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ec2routeserverpropagation.Ec2RouteServerPropagation_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2RouteServerPropagation.Ec2RouteServerPropagation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpropagation"
 
 ec2routeserverpropagation.Ec2RouteServerPropagation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2routeserverpropagation.Ec2RouteServerPropagation_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2RouteServerPropagation.Ec2RouteServerPropagation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpropagation"
 
 ec2routeserverpropagation.Ec2RouteServerPropagation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2RouteServerPropagation 
 
 The id of the existing Ec2RouteServerPropagation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_propagation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_propagation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2RouteServerPropagation.Ec2RouteServerPropagationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpropagation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpropagation"
 
 &ec2routeserverpropagation.Ec2RouteServerPropagationConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ RouteServerId *string
 
 Route Server ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_propagation#route_server_id Ec2RouteServerPropagation#route_server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_propagation#route_server_id Ec2RouteServerPropagation#route_server_id}
 
 ---
 
@@ -869,7 +869,7 @@ RouteTableId *string
 
 Route Table ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_propagation#route_table_id Ec2RouteServerPropagation#route_table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_propagation#route_table_id Ec2RouteServerPropagation#route_table_id}
 
 ---
 

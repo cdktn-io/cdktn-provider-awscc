@@ -4,12 +4,12 @@
 
 ### DataAwsccDirectoryserviceMicrosoftAds <a name="DataAwsccDirectoryserviceMicrosoftAds" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceMicrosoftAds.DataAwsccDirectoryserviceMicrosoftAds"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directoryservice_microsoft_ads awscc_directoryservice_microsoft_ads}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directoryservice_microsoft_ads awscc_directoryservice_microsoft_ads}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceMicrosoftAds.DataAwsccDirectoryserviceMicrosoftAds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicemicrosoftads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicemicrosoftads"
 
 dataawsccdirectoryservicemicrosoftads.NewDataAwsccDirectoryserviceMicrosoftAds(scope Construct, id *string, config DataAwsccDirectoryserviceMicrosoftAdsConfig) DataAwsccDirectoryserviceMicrosoftAds
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceMicrosoftAds.DataAwsccDirectoryserviceMicrosoftAds.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicemicrosoftads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicemicrosoftads"
 
 dataawsccdirectoryservicemicrosoftads.DataAwsccDirectoryserviceMicrosoftAds_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceMicrosoftAds.DataAwsccDirectoryserviceMicrosoftAds.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicemicrosoftads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicemicrosoftads"
 
 dataawsccdirectoryservicemicrosoftads.DataAwsccDirectoryserviceMicrosoftAds_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdirectoryservicemicrosoftads.DataAwsccDirectoryserviceMicrosoftAds_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceMicrosoftAds.DataAwsccDirectoryserviceMicrosoftAds.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicemicrosoftads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicemicrosoftads"
 
 dataawsccdirectoryservicemicrosoftads.DataAwsccDirectoryserviceMicrosoftAds_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdirectoryservicemicrosoftads.DataAwsccDirectoryserviceMicrosoftAds_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceMicrosoftAds.DataAwsccDirectoryserviceMicrosoftAds.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicemicrosoftads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicemicrosoftads"
 
 dataawsccdirectoryservicemicrosoftads.DataAwsccDirectoryserviceMicrosoftAds_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDirectoryserviceM
 
 The id of the existing DataAwsccDirectoryserviceMicrosoftAds that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directoryservice_microsoft_ads#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directoryservice_microsoft_ads#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDirectoryserviceMicrosoftAds.DataAwsccDirectoryserviceMicrosoftAdsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectoryservicemicrosoftads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectoryservicemicrosoftads"
 
 &dataawsccdirectoryservicemicrosoftads.DataAwsccDirectoryserviceMicrosoftAdsConfig {
 	Connection: interface{},

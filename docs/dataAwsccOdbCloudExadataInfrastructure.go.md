@@ -4,12 +4,12 @@
 
 ### DataAwsccOdbCloudExadataInfrastructure <a name="DataAwsccOdbCloudExadataInfrastructure" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructure"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_exadata_infrastructure awscc_odb_cloud_exadata_infrastructure}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_exadata_infrastructure awscc_odb_cloud_exadata_infrastructure}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 dataawsccodbcloudexadatainfrastructure.NewDataAwsccOdbCloudExadataInfrastructure(scope Construct, id *string, config DataAwsccOdbCloudExadataInfrastructureConfig) DataAwsccOdbCloudExadataInfrastructure
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructure.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 dataawsccodbcloudexadatainfrastructure.DataAwsccOdbCloudExadataInfrastructure_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructure.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 dataawsccodbcloudexadatainfrastructure.DataAwsccOdbCloudExadataInfrastructure_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccodbcloudexadatainfrastructure.DataAwsccOdbCloudExadataInfrastructure_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructure.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 dataawsccodbcloudexadatainfrastructure.DataAwsccOdbCloudExadataInfrastructure_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccodbcloudexadatainfrastructure.DataAwsccOdbCloudExadataInfrastructure_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructure.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 dataawsccodbcloudexadatainfrastructure.DataAwsccOdbCloudExadataInfrastructure_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOdbCloudExadataIn
 
 The id of the existing DataAwsccOdbCloudExadataInfrastructure that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_exadata_infrastructure#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_exadata_infrastructure#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -939,7 +939,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructureConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 &dataawsccodbcloudexadatainfrastructure.DataAwsccOdbCloudExadataInfrastructureConfig {
 	Connection: interface{},
@@ -1048,7 +1048,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_exadata_infrastructure#id DataAwsccOdbCloudExadataInfrastructure#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_exadata_infrastructure#id DataAwsccOdbCloudExadataInfrastructure#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1060,7 +1060,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructureCustomerContactsToSendToOci.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 &dataawsccodbcloudexadatainfrastructure.DataAwsccOdbCloudExadataInfrastructureCustomerContactsToSendToOci {
 
@@ -1073,7 +1073,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexada
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructureMaintenanceWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 &dataawsccodbcloudexadatainfrastructure.DataAwsccOdbCloudExadataInfrastructureMaintenanceWindow {
 
@@ -1086,7 +1086,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexada
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructureTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 &dataawsccodbcloudexadatainfrastructure.DataAwsccOdbCloudExadataInfrastructureTags {
 
@@ -1101,7 +1101,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexada
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructureCustomerContactsToSendToOciList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 dataawsccodbcloudexadatainfrastructure.NewDataAwsccOdbCloudExadataInfrastructureCustomerContactsToSendToOciList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOdbCloudExadataInfrastructureCustomerContactsToSendToOciList
 ```
@@ -1250,7 +1250,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 dataawsccodbcloudexadatainfrastructure.NewDataAwsccOdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReference
 ```
@@ -1528,7 +1528,7 @@ func InternalValue() DataAwsccOdbCloudExadataInfrastructureCustomerContactsToSen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructureMaintenanceWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 dataawsccodbcloudexadatainfrastructure.NewDataAwsccOdbCloudExadataInfrastructureMaintenanceWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOdbCloudExadataInfrastructureMaintenanceWindowOutputReference
 ```
@@ -1876,7 +1876,7 @@ func InternalValue() DataAwsccOdbCloudExadataInfrastructureMaintenanceWindow
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructureTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 dataawsccodbcloudexadatainfrastructure.NewDataAwsccOdbCloudExadataInfrastructureTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOdbCloudExadataInfrastructureTagsList
 ```
@@ -2025,7 +2025,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudExadataInfrastructure.DataAwsccOdbCloudExadataInfrastructureTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudexadatainfrastructure"
 
 dataawsccodbcloudexadatainfrastructure.NewDataAwsccOdbCloudExadataInfrastructureTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOdbCloudExadataInfrastructureTagsOutputReference
 ```

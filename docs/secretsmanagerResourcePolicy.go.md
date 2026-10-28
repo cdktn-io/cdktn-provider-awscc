@@ -4,12 +4,12 @@
 
 ### SecretsmanagerResourcePolicy <a name="SecretsmanagerResourcePolicy" id="@cdktn/provider-awscc.secretsmanagerResourcePolicy.SecretsmanagerResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.secretsmanagerResourcePolicy.SecretsmanagerResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/secretsmanagerresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/secretsmanagerresourcepolicy"
 
 secretsmanagerresourcepolicy.NewSecretsmanagerResourcePolicy(scope Construct, id *string, config SecretsmanagerResourcePolicyConfig) SecretsmanagerResourcePolicy
 ```
@@ -407,7 +407,7 @@ func ResetBlockPublicPolicy()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.secretsmanagerResourcePolicy.SecretsmanagerResourcePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/secretsmanagerresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/secretsmanagerresourcepolicy"
 
 secretsmanagerresourcepolicy.SecretsmanagerResourcePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.secretsmanagerResourcePolicy.SecretsmanagerResourcePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/secretsmanagerresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/secretsmanagerresourcepolicy"
 
 secretsmanagerresourcepolicy.SecretsmanagerResourcePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ secretsmanagerresourcepolicy.SecretsmanagerResourcePolicy_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.secretsmanagerResourcePolicy.SecretsmanagerResourcePolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/secretsmanagerresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/secretsmanagerresourcepolicy"
 
 secretsmanagerresourcepolicy.SecretsmanagerResourcePolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ secretsmanagerresourcepolicy.SecretsmanagerResourcePolicy_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.secretsmanagerResourcePolicy.SecretsmanagerResourcePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/secretsmanagerresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/secretsmanagerresourcepolicy"
 
 secretsmanagerresourcepolicy.SecretsmanagerResourcePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the SecretsmanagerResourcePoli
 
 The id of the existing SecretsmanagerResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/secretsmanager_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/secretsmanager_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -784,7 +784,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.secretsmanagerResourcePolicy.SecretsmanagerResourcePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/secretsmanagerresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/secretsmanagerresourcepolicy"
 
 &secretsmanagerresourcepolicy.SecretsmanagerResourcePolicyConfig {
 	Connection: interface{},
@@ -897,7 +897,7 @@ ResourcePolicy *string
 
 A JSON-formatted string for an AWS resource-based policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/secretsmanager_resource_policy#resource_policy SecretsmanagerResourcePolicy#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/secretsmanager_resource_policy#resource_policy SecretsmanagerResourcePolicy#resource_policy}
 
 ---
 
@@ -911,7 +911,7 @@ SecretId *string
 
 The ARN or name of the secret to attach the resource-based policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/secretsmanager_resource_policy#secret_id SecretsmanagerResourcePolicy#secret_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/secretsmanager_resource_policy#secret_id SecretsmanagerResourcePolicy#secret_id}
 
 ---
 
@@ -925,7 +925,7 @@ BlockPublicPolicy interface{}
 
 Specifies whether to block resource-based policies that allow broad access to the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/secretsmanager_resource_policy#block_public_policy SecretsmanagerResourcePolicy#block_public_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/secretsmanager_resource_policy#block_public_policy SecretsmanagerResourcePolicy#block_public_policy}
 
 ---
 

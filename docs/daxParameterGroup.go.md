@@ -4,12 +4,12 @@
 
 ### DaxParameterGroup <a name="DaxParameterGroup" id="@cdktn/provider-awscc.daxParameterGroup.DaxParameterGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_parameter_group awscc_dax_parameter_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_parameter_group awscc_dax_parameter_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.daxParameterGroup.DaxParameterGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxparametergroup"
 
 daxparametergroup.NewDaxParameterGroup(scope Construct, id *string, config DaxParameterGroupConfig) DaxParameterGroup
 ```
@@ -421,7 +421,7 @@ func ResetParameterNameValues()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.daxParameterGroup.DaxParameterGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxparametergroup"
 
 daxparametergroup.DaxParameterGroup_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.daxParameterGroup.DaxParameterGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxparametergroup"
 
 daxparametergroup.DaxParameterGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ daxparametergroup.DaxParameterGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.daxParameterGroup.DaxParameterGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxparametergroup"
 
 daxparametergroup.DaxParameterGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ daxparametergroup.DaxParameterGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.daxParameterGroup.DaxParameterGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxparametergroup"
 
 daxparametergroup.DaxParameterGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the DaxParameterGroup to impor
 
 The id of the existing DaxParameterGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_parameter_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_parameter_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -787,7 +787,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.daxParameterGroup.DaxParameterGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxparametergroup"
 
 &daxparametergroup.DaxParameterGroupConfig {
 	Connection: interface{},
@@ -900,7 +900,7 @@ Description *string
 
 A description of the parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_parameter_group#description DaxParameterGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_parameter_group#description DaxParameterGroup#description}
 
 ---
 
@@ -914,7 +914,7 @@ ParameterGroupName *string
 
 The name of the parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_parameter_group#parameter_group_name DaxParameterGroup#parameter_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_parameter_group#parameter_group_name DaxParameterGroup#parameter_group_name}
 
 ---
 
@@ -930,7 +930,7 @@ An array of name-value pairs for the parameters in the group.
 
 Each element in the array represents a single parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_parameter_group#parameter_name_values DaxParameterGroup#parameter_name_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_parameter_group#parameter_name_values DaxParameterGroup#parameter_name_values}
 
 ---
 

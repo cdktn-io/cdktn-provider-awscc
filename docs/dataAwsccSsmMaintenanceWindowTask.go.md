@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmMaintenanceWindowTask <a name="DataAwsccSsmMaintenanceWindowTask" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTask"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTask.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.NewDataAwsccSsmMaintenanceWindowTask(scope Construct, id *string, config DataAwsccSsmMaintenanceWindowTaskConfig) DataAwsccSsmMaintenanceWindowTask
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTask.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTask_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTask.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTask_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTask_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTask.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTask_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTask_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTask.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTask_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmMaintenanceWin
 
 The id of the existing DataAwsccSsmMaintenanceWindowTask that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_maintenance_window_task#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_maintenance_window_task#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 &dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTaskConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_maintenance_window_task#id DataAwsccSsmMaintenanceWindowTask#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_maintenance_window_task#id DataAwsccSsmMaintenanceWindowTask#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskLoggingInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 &dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTaskLoggingInfo {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenanc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 &dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTaskTargets {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenanc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 &dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParameters {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenanc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowAutomationParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 &dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowAutomationParameters {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenanc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowLambdaParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 &dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowLambdaParameters {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenanc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 &dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParameters {
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenanc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersCloudwatchOutputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 &dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersCloudwatchOutputConfig {
 
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenanc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 &dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersNotificationConfig {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenanc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowStepFunctionsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 &dataawsccssmmaintenancewindowtask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowStepFunctionsParameters {
 
@@ -992,7 +992,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskLoggingInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.NewDataAwsccSsmMaintenanceWindowTaskLoggingInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmMaintenanceWindowTaskLoggingInfoOutputReference
 ```
@@ -1274,7 +1274,7 @@ func InternalValue() DataAwsccSsmMaintenanceWindowTaskLoggingInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.NewDataAwsccSsmMaintenanceWindowTaskTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmMaintenanceWindowTaskTargetsList
 ```
@@ -1423,7 +1423,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.NewDataAwsccSsmMaintenanceWindowTaskTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmMaintenanceWindowTaskTargetsOutputReference
 ```
@@ -1712,7 +1712,7 @@ func InternalValue() DataAwsccSsmMaintenanceWindowTaskTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowAutomationParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.NewDataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowAutomationParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowAutomationParametersOutputReference
 ```
@@ -1983,7 +1983,7 @@ func InternalValue() DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowLambdaParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.NewDataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowLambdaParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowLambdaParametersOutputReference
 ```
@@ -2265,7 +2265,7 @@ func InternalValue() DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersCloudwatchOutputConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.NewDataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersCloudwatchOutputConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersCloudwatchOutputConfigOutputReference
 ```
@@ -2536,7 +2536,7 @@ func InternalValue() DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersNotificationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.NewDataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersNotificationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersNotificationConfigOutputReference
 ```
@@ -2818,7 +2818,7 @@ func InternalValue() DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.NewDataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParametersOutputReference
 ```
@@ -3188,7 +3188,7 @@ func InternalValue() DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowStepFunctionsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.NewDataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowStepFunctionsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowStepFunctionsParametersOutputReference
 ```
@@ -3459,7 +3459,7 @@ func InternalValue() DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindowTask.DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtask"
 
 dataawsccssmmaintenancewindowtask.NewDataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmMaintenanceWindowTaskTaskInvocationParametersOutputReference
 ```

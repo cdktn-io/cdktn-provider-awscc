@@ -4,12 +4,12 @@
 
 ### DataAwsccShieldDrtAccesses <a name="DataAwsccShieldDrtAccesses" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccesses.DataAwsccShieldDrtAccesses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_drt_accesses awscc_shield_drt_accesses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_drt_accesses awscc_shield_drt_accesses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccesses.DataAwsccShieldDrtAccesses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccesses"
 
 dataawsccshielddrtaccesses.NewDataAwsccShieldDrtAccesses(scope Construct, id *string, config DataAwsccShieldDrtAccessesConfig) DataAwsccShieldDrtAccesses
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccesses.DataAwsccShieldDrtAccesses.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccesses"
 
 dataawsccshielddrtaccesses.DataAwsccShieldDrtAccesses_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccesses.DataAwsccShieldDrtAccesses.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccesses"
 
 dataawsccshielddrtaccesses.DataAwsccShieldDrtAccesses_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccshielddrtaccesses.DataAwsccShieldDrtAccesses_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccesses.DataAwsccShieldDrtAccesses.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccesses"
 
 dataawsccshielddrtaccesses.DataAwsccShieldDrtAccesses_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccshielddrtaccesses.DataAwsccShieldDrtAccesses_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccesses.DataAwsccShieldDrtAccesses.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccesses"
 
 dataawsccshielddrtaccesses.DataAwsccShieldDrtAccesses_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccShieldDrtAccesses
 
 The id of the existing DataAwsccShieldDrtAccesses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_drt_accesses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_drt_accesses#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccesses.DataAwsccShieldDrtAccessesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccesses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccesses"
 
 &dataawsccshielddrtaccesses.DataAwsccShieldDrtAccessesConfig {
 	Connection: interface{},

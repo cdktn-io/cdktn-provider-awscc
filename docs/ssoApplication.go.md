@@ -4,12 +4,12 @@
 
 ### SsoApplication <a name="SsoApplication" id="@cdktn/provider-awscc.ssoApplication.SsoApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application awscc_sso_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application awscc_sso_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoApplication.SsoApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 ssoapplication.NewSsoApplication(scope Construct, id *string, config SsoApplicationConfig) SsoApplication
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssoApplication.SsoApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 ssoapplication.SsoApplication_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssoApplication.SsoApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 ssoapplication.SsoApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ ssoapplication.SsoApplication_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssoApplication.SsoApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 ssoapplication.SsoApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ ssoapplication.SsoApplication_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssoApplication.SsoApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 ssoapplication.SsoApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the SsoApplication to import.
 
 The id of the existing SsoApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,7 +930,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 &ssoapplication.SsoApplicationConfig {
 	Connection: interface{},
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
 	InstanceArn: *string,
 	Name: *string,
 	Description: *string,
-	PortalOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssoApplication.SsoApplicationPortalOptions,
+	PortalOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssoApplication.SsoApplicationPortalOptions,
 	Status: *string,
 	Tags: interface{},
 }
@@ -967,7 +967,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.description">Description</a></code> | <code>*string</code> | The description information for the Identity Center (SSO) Application. |
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.portalOptions">PortalOptions</a></code> | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationPortalOptions">SsoApplicationPortalOptions</a></code> | A structure that describes the options for the portal associated with an application. |
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.status">Status</a></code> | <code>*string</code> | Specifies whether the application is enabled or disabled. |
-| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#tags SsoApplication#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#tags SsoApplication#tags}. |
 
 ---
 
@@ -1051,7 +1051,7 @@ ApplicationProviderArn *string
 
 The ARN of the application provider under which the operation will run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#application_provider_arn SsoApplication#application_provider_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#application_provider_arn SsoApplication#application_provider_arn}
 
 ---
 
@@ -1065,7 +1065,7 @@ InstanceArn *string
 
 The ARN of the instance of IAM Identity Center under which the operation will run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#instance_arn SsoApplication#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#instance_arn SsoApplication#instance_arn}
 
 ---
 
@@ -1079,7 +1079,7 @@ Name *string
 
 The name you want to assign to this Identity Center (SSO) Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#name SsoApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#name SsoApplication#name}
 
 ---
 
@@ -1093,7 +1093,7 @@ Description *string
 
 The description information for the Identity Center (SSO) Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#description SsoApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#description SsoApplication#description}
 
 ---
 
@@ -1107,7 +1107,7 @@ PortalOptions SsoApplicationPortalOptions
 
 A structure that describes the options for the portal associated with an application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#portal_options SsoApplication#portal_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#portal_options SsoApplication#portal_options}
 
 ---
 
@@ -1121,7 +1121,7 @@ Status *string
 
 Specifies whether the application is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#status SsoApplication#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#status SsoApplication#status}
 
 ---
 
@@ -1133,7 +1133,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#tags SsoApplication#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#tags SsoApplication#tags}.
 
 ---
 
@@ -1142,10 +1142,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoApplication.SsoApplicationPortalOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 &ssoapplication.SsoApplicationPortalOptions {
-	SignInOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssoApplication.SsoApplicationPortalOptionsSignInOptions,
+	SignInOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssoApplication.SsoApplicationPortalOptionsSignInOptions,
 	Visibility: *string,
 }
 ```
@@ -1169,7 +1169,7 @@ SignInOptions SsoApplicationPortalOptionsSignInOptions
 
 A structure that describes the sign-in options for the access portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#sign_in_options SsoApplication#sign_in_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#sign_in_options SsoApplication#sign_in_options}
 
 ---
 
@@ -1183,7 +1183,7 @@ Visibility *string
 
 Indicates whether this application is visible in the access portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#visibility SsoApplication#visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#visibility SsoApplication#visibility}
 
 ---
 
@@ -1192,7 +1192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoApplication.SsoApplicationPortalOptionsSignInOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 &ssoapplication.SsoApplicationPortalOptionsSignInOptions {
 	ApplicationUrl: *string,
@@ -1219,7 +1219,7 @@ ApplicationUrl *string
 
 The URL that accepts authentication requests for an application, this is a required parameter if the Origin parameter is APPLICATION.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#application_url SsoApplication#application_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#application_url SsoApplication#application_url}
 
 ---
 
@@ -1233,7 +1233,7 @@ Origin *string
 
 This determines how IAM Identity Center navigates the user to the target application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#origin SsoApplication#origin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#origin SsoApplication#origin}
 
 ---
 
@@ -1242,7 +1242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 &ssoapplication.SsoApplicationTags {
 	Key: *string,
@@ -1254,8 +1254,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#key SsoApplication#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#value SsoApplication#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#key SsoApplication#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#value SsoApplication#value}. |
 
 ---
 
@@ -1267,7 +1267,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#key SsoApplication#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#key SsoApplication#key}.
 
 ---
 
@@ -1279,7 +1279,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application#value SsoApplication#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application#value SsoApplication#value}.
 
 ---
 
@@ -1290,7 +1290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoApplication.SsoApplicationPortalOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 ssoapplication.NewSsoApplicationPortalOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsoApplicationPortalOptionsOutputReference
 ```
@@ -1610,7 +1610,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoApplication.SsoApplicationPortalOptionsSignInOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 ssoapplication.NewSsoApplicationPortalOptionsSignInOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsoApplicationPortalOptionsSignInOptionsOutputReference
 ```
@@ -1917,7 +1917,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoApplication.SsoApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 ssoapplication.NewSsoApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsoApplicationTagsList
 ```
@@ -2077,7 +2077,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoApplication.SsoApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplication"
 
 ssoapplication.NewSsoApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsoApplicationTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccPersonalizeSchemas <a name="DataAwsccPersonalizeSchemas" id="@cdktn/provider-awscc.dataAwsccPersonalizeSchemas.DataAwsccPersonalizeSchemas"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_schemas awscc_personalize_schemas}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_schemas awscc_personalize_schemas}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeSchemas.DataAwsccPersonalizeSchemas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizeschemas"
 
 dataawsccpersonalizeschemas.NewDataAwsccPersonalizeSchemas(scope Construct, id *string, config DataAwsccPersonalizeSchemasConfig) DataAwsccPersonalizeSchemas
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPersonalizeSchemas.DataAwsccPersonalizeSchemas.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizeschemas"
 
 dataawsccpersonalizeschemas.DataAwsccPersonalizeSchemas_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPersonalizeSchemas.DataAwsccPersonalizeSchemas.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizeschemas"
 
 dataawsccpersonalizeschemas.DataAwsccPersonalizeSchemas_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpersonalizeschemas.DataAwsccPersonalizeSchemas_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPersonalizeSchemas.DataAwsccPersonalizeSchemas.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizeschemas"
 
 dataawsccpersonalizeschemas.DataAwsccPersonalizeSchemas_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpersonalizeschemas.DataAwsccPersonalizeSchemas_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPersonalizeSchemas.DataAwsccPersonalizeSchemas.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizeschemas"
 
 dataawsccpersonalizeschemas.DataAwsccPersonalizeSchemas_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPersonalizeSchema
 
 The id of the existing DataAwsccPersonalizeSchemas that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_schemas#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_schemas#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeSchemas.DataAwsccPersonalizeSchemasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeschemas"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizeschemas"
 
 &dataawsccpersonalizeschemas.DataAwsccPersonalizeSchemasConfig {
 	Connection: interface{},

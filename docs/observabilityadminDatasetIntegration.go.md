@@ -4,12 +4,12 @@
 
 ### ObservabilityadminDatasetIntegration <a name="ObservabilityadminDatasetIntegration" id="@cdktn/provider-awscc.observabilityadminDatasetIntegration.ObservabilityadminDatasetIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.observabilityadminDatasetIntegration.ObservabilityadminDatasetIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmindatasetintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmindatasetintegration"
 
 observabilityadmindatasetintegration.NewObservabilityadminDatasetIntegration(scope Construct, id *string, config ObservabilityadminDatasetIntegrationConfig) ObservabilityadminDatasetIntegration
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.observabilityadminDatasetIntegration.ObservabilityadminDatasetIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmindatasetintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmindatasetintegration"
 
 observabilityadmindatasetintegration.ObservabilityadminDatasetIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.observabilityadminDatasetIntegration.ObservabilityadminDatasetIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmindatasetintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmindatasetintegration"
 
 observabilityadmindatasetintegration.ObservabilityadminDatasetIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ observabilityadmindatasetintegration.ObservabilityadminDatasetIntegration_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.observabilityadminDatasetIntegration.ObservabilityadminDatasetIntegration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmindatasetintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmindatasetintegration"
 
 observabilityadmindatasetintegration.ObservabilityadminDatasetIntegration_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ observabilityadmindatasetintegration.ObservabilityadminDatasetIntegration_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.observabilityadminDatasetIntegration.ObservabilityadminDatasetIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmindatasetintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmindatasetintegration"
 
 observabilityadmindatasetintegration.ObservabilityadminDatasetIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the ObservabilityadminDatasetI
 
 The id of the existing ObservabilityadminDatasetIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_dataset_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_dataset_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -797,7 +797,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.observabilityadminDatasetIntegration.ObservabilityadminDatasetIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmindatasetintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmindatasetintegration"
 
 &observabilityadmindatasetintegration.ObservabilityadminDatasetIntegrationConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ The ARN of the IAM role that the service assumes to forward telemetry to the cus
 
 The role must live in the caller's account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_dataset_integration#role_arn ObservabilityadminDatasetIntegration#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_dataset_integration#role_arn ObservabilityadminDatasetIntegration#role_arn}
 
 ---
 
@@ -924,7 +924,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_dataset_integration#tags ObservabilityadminDatasetIntegration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_dataset_integration#tags ObservabilityadminDatasetIntegration#tags}
 
 ---
 
@@ -933,7 +933,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.observabilityadminDatasetIntegration.ObservabilityadminDatasetIntegrationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmindatasetintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmindatasetintegration"
 
 &observabilityadmindatasetintegration.ObservabilityadminDatasetIntegrationTags {
 	Key: *string,
@@ -962,7 +962,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_dataset_integration#key ObservabilityadminDatasetIntegration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_dataset_integration#key ObservabilityadminDatasetIntegration#key}
 
 ---
 
@@ -978,7 +978,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_dataset_integration#value ObservabilityadminDatasetIntegration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_dataset_integration#value ObservabilityadminDatasetIntegration#value}
 
 ---
 
@@ -989,7 +989,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.observabilityadminDatasetIntegration.ObservabilityadminDatasetIntegrationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmindatasetintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmindatasetintegration"
 
 observabilityadmindatasetintegration.NewObservabilityadminDatasetIntegrationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ObservabilityadminDatasetIntegrationTagsList
 ```
@@ -1149,7 +1149,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.observabilityadminDatasetIntegration.ObservabilityadminDatasetIntegrationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmindatasetintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmindatasetintegration"
 
 observabilityadmindatasetintegration.NewObservabilityadminDatasetIntegrationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ObservabilityadminDatasetIntegrationTagsOutputReference
 ```

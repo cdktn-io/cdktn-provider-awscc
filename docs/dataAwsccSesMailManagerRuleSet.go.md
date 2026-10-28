@@ -4,12 +4,12 @@
 
 ### DataAwsccSesMailManagerRuleSet <a name="DataAwsccSesMailManagerRuleSet" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_rule_set awscc_ses_mail_manager_rule_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_rule_set awscc_ses_mail_manager_rule_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSet(scope Construct, id *string, config DataAwsccSesMailManagerRuleSetConfig) DataAwsccSesMailManagerRuleSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSet_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSet_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesMailManagerRul
 
 The id of the existing DataAwsccSesMailManagerRuleSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_rule_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_rule_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_rule_set#id DataAwsccSesMailManagerRuleSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_rule_set#id DataAwsccSesMailManagerRuleSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRules {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActions {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsAddHeader.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActionsAddHeader {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsArchive.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActionsArchive {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsBounce.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActionsBounce {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsDeliverToMailbox.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActionsDeliverToMailbox {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsDeliverToQBusiness.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActionsDeliverToQBusiness {
 
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsInvokeLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActionsInvokeLambda {
 
@@ -867,7 +867,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsPublishToSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActionsPublishToSns {
 
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsRelay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActionsRelay {
 
@@ -893,7 +893,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsReplaceRecipient.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActionsReplaceRecipient {
 
@@ -906,7 +906,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsSend.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActionsSend {
 
@@ -919,7 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsWriteToS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesActionsWriteToS3 {
 
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditions {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpression {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate {
 
@@ -971,7 +971,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis {
 
@@ -984,7 +984,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct {
 
@@ -997,7 +997,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsDmarcExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsDmarcExpression {
 
@@ -1010,7 +1010,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsIpExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsIpExpression {
 
@@ -1023,7 +1023,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsIpExpressionEvaluate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsIpExpressionEvaluate {
 
@@ -1036,7 +1036,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsNumberExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsNumberExpression {
 
@@ -1049,7 +1049,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsNumberExpressionEvaluate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsNumberExpressionEvaluate {
 
@@ -1062,7 +1062,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsStringExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsStringExpression {
 
@@ -1075,7 +1075,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionEvaluate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionEvaluate {
 
@@ -1088,7 +1088,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis {
 
@@ -1101,7 +1101,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpression {
 
@@ -1114,7 +1114,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate {
 
@@ -1127,7 +1127,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis {
 
@@ -1140,7 +1140,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnless.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnless {
 
@@ -1153,7 +1153,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpression {
 
@@ -1166,7 +1166,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate {
 
@@ -1179,7 +1179,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis {
 
@@ -1192,7 +1192,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct {
 
@@ -1205,7 +1205,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessDmarcExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessDmarcExpression {
 
@@ -1218,7 +1218,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessIpExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessIpExpression {
 
@@ -1231,7 +1231,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessIpExpressionEvaluate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessIpExpressionEvaluate {
 
@@ -1244,7 +1244,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessNumberExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessNumberExpression {
 
@@ -1257,7 +1257,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate {
 
@@ -1270,7 +1270,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessStringExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessStringExpression {
 
@@ -1283,7 +1283,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEvaluate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEvaluate {
 
@@ -1296,7 +1296,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis {
 
@@ -1309,7 +1309,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpression {
 
@@ -1322,7 +1322,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate {
 
@@ -1335,7 +1335,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis {
 
@@ -1348,7 +1348,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 &dataawsccsesmailmanagerruleset.DataAwsccSesMailManagerRuleSetTags {
 
@@ -1363,7 +1363,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsAddHeaderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsAddHeaderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesActionsAddHeaderOutputReference
 ```
@@ -1634,7 +1634,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActionsAddHeader
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsArchiveOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsArchiveOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesActionsArchiveOutputReference
 ```
@@ -1905,7 +1905,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActionsArchive
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsBounceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsBounceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesActionsBounceOutputReference
 ```
@@ -2231,7 +2231,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActionsBounce
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsDeliverToMailboxOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsDeliverToMailboxOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesActionsDeliverToMailboxOutputReference
 ```
@@ -2513,7 +2513,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActionsDeliverToMailbox
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsDeliverToQBusinessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsDeliverToQBusinessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesActionsDeliverToQBusinessOutputReference
 ```
@@ -2806,7 +2806,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActionsDeliverToQBusines
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsInvokeLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsInvokeLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesActionsInvokeLambdaOutputReference
 ```
@@ -3110,7 +3110,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActionsInvokeLambda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesMailManagerRuleSetRulesActionsList
 ```
@@ -3259,7 +3259,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesMailManagerRuleSetRulesActionsOutputReference
 ```
@@ -3658,7 +3658,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsPublishToSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsPublishToSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesActionsPublishToSnsOutputReference
 ```
@@ -3962,7 +3962,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActionsPublishToSns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsRelayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsRelayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesActionsRelayOutputReference
 ```
@@ -4244,7 +4244,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActionsRelay
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsReplaceRecipientOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsReplaceRecipientOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesActionsReplaceRecipientOutputReference
 ```
@@ -4504,7 +4504,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActionsReplaceRecipient
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsSendOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsSendOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesActionsSendOutputReference
 ```
@@ -4775,7 +4775,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActionsSend
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesActionsWriteToS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesActionsWriteToS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesActionsWriteToS3OutputReference
 ```
@@ -5079,7 +5079,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesActionsWriteToS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysisOutputReference
 ```
@@ -5350,7 +5350,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStructOutputReference
 ```
@@ -5621,7 +5621,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateOutputReference
 ```
@@ -5903,7 +5903,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpressionOutputReference
 ```
@@ -6174,7 +6174,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsBooleanExpress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsDmarcExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsDmarcExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsDmarcExpressionOutputReference
 ```
@@ -6445,7 +6445,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsDmarcExpressio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsIpExpressionEvaluateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsIpExpressionEvaluateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsIpExpressionEvaluateOutputReference
 ```
@@ -6705,7 +6705,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsIpExpressionEv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsIpExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsIpExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsIpExpressionOutputReference
 ```
@@ -6987,7 +6987,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsIpExpression
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesMailManagerRuleSetRulesConditionsList
 ```
@@ -7136,7 +7136,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsNumberExpressionEvaluateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsNumberExpressionEvaluateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsNumberExpressionEvaluateOutputReference
 ```
@@ -7396,7 +7396,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsNumberExpressi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsNumberExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsNumberExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsNumberExpressionOutputReference
 ```
@@ -7678,7 +7678,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsNumberExpressi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesMailManagerRuleSetRulesConditionsOutputReference
 ```
@@ -8011,7 +8011,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysisOutputReference
 ```
@@ -8282,7 +8282,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionEvaluateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionEvaluateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionEvaluateOutputReference
 ```
@@ -8575,7 +8575,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressionOutputReference
 ```
@@ -8857,7 +8857,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsStringExpressi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysisOutputReference
 ```
@@ -9128,7 +9128,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateOutputReference
 ```
@@ -9399,7 +9399,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpressionOutputReference
 ```
@@ -9681,7 +9681,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesConditionsVerdictExpress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesMailManagerRuleSetRulesList
 ```
@@ -9830,7 +9830,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesMailManagerRuleSetRulesOutputReference
 ```
@@ -10141,7 +10141,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysisOutputReference
 ```
@@ -10412,7 +10412,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStructOutputReference
 ```
@@ -10683,7 +10683,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateOutputReference
 ```
@@ -10965,7 +10965,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpressionOutputReference
 ```
@@ -11236,7 +11236,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessBooleanExpression
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessDmarcExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessDmarcExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessDmarcExpressionOutputReference
 ```
@@ -11507,7 +11507,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessDmarcExpression
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessIpExpressionEvaluateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessIpExpressionEvaluateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessIpExpressionEvaluateOutputReference
 ```
@@ -11767,7 +11767,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessIpExpressionEvalua
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessIpExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessIpExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessIpExpressionOutputReference
 ```
@@ -12049,7 +12049,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessIpExpression
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesMailManagerRuleSetRulesUnlessList
 ```
@@ -12198,7 +12198,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessNumberExpressionEvaluateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessNumberExpressionEvaluateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessNumberExpressionEvaluateOutputReference
 ```
@@ -12458,7 +12458,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessNumberExpressionEv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessNumberExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessNumberExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessNumberExpressionOutputReference
 ```
@@ -12740,7 +12740,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessNumberExpression
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesMailManagerRuleSetRulesUnlessOutputReference
 ```
@@ -13073,7 +13073,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnless
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysisOutputReference
 ```
@@ -13344,7 +13344,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEvaluateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEvaluateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEvaluateOutputReference
 ```
@@ -13637,7 +13637,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionEv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessStringExpressionOutputReference
 ```
@@ -13919,7 +13919,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessStringExpression
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysisOutputReference
 ```
@@ -14190,7 +14190,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateOutputReference
 ```
@@ -14461,7 +14461,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpressionOutputReference
 ```
@@ -14743,7 +14743,7 @@ func InternalValue() DataAwsccSesMailManagerRuleSetRulesUnlessVerdictExpression
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesMailManagerRuleSetTagsList
 ```
@@ -14892,7 +14892,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerRuleSet.DataAwsccSesMailManagerRuleSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanagerruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanagerruleset"
 
 dataawsccsesmailmanagerruleset.NewDataAwsccSesMailManagerRuleSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesMailManagerRuleSetTagsOutputReference
 ```

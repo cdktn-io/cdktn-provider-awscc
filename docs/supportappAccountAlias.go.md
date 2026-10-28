@@ -4,12 +4,12 @@
 
 ### SupportappAccountAlias <a name="SupportappAccountAlias" id="@cdktn/provider-awscc.supportappAccountAlias.SupportappAccountAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/supportapp_account_alias awscc_supportapp_account_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/supportapp_account_alias awscc_supportapp_account_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.supportappAccountAlias.SupportappAccountAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/supportappaccountalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/supportappaccountalias"
 
 supportappaccountalias.NewSupportappAccountAlias(scope Construct, id *string, config SupportappAccountAliasConfig) SupportappAccountAlias
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.supportappAccountAlias.SupportappAccountAlias.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/supportappaccountalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/supportappaccountalias"
 
 supportappaccountalias.SupportappAccountAlias_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.supportappAccountAlias.SupportappAccountAlias.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/supportappaccountalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/supportappaccountalias"
 
 supportappaccountalias.SupportappAccountAlias_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ supportappaccountalias.SupportappAccountAlias_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.supportappAccountAlias.SupportappAccountAlias.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/supportappaccountalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/supportappaccountalias"
 
 supportappaccountalias.SupportappAccountAlias_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ supportappaccountalias.SupportappAccountAlias_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.supportappAccountAlias.SupportappAccountAlias.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/supportappaccountalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/supportappaccountalias"
 
 supportappaccountalias.SupportappAccountAlias_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SupportappAccountAlias to 
 
 The id of the existing SupportappAccountAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/supportapp_account_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/supportapp_account_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -733,7 +733,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.supportappAccountAlias.SupportappAccountAliasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/supportappaccountalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/supportappaccountalias"
 
 &supportappaccountalias.SupportappAccountAliasConfig {
 	Connection: interface{},
@@ -842,7 +842,7 @@ AccountAlias *string
 
 An account alias associated with a customer's account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/supportapp_account_alias#account_alias SupportappAccountAlias#account_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/supportapp_account_alias#account_alias SupportappAccountAlias#account_alias}
 
 ---
 

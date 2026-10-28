@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontFunction <a name="DataAwsccCloudfrontFunction" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_function awscc_cloudfront_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_function awscc_cloudfront_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 dataawscccloudfrontfunction.NewDataAwsccCloudfrontFunction(scope Construct, id *string, config DataAwsccCloudfrontFunctionConfig) DataAwsccCloudfrontFunction
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 dataawscccloudfrontfunction.DataAwsccCloudfrontFunction_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 dataawscccloudfrontfunction.DataAwsccCloudfrontFunction_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontfunction.DataAwsccCloudfrontFunction_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunction.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 dataawscccloudfrontfunction.DataAwsccCloudfrontFunction_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontfunction.DataAwsccCloudfrontFunction_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 dataawscccloudfrontfunction.DataAwsccCloudfrontFunction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontFunctio
 
 The id of the existing DataAwsccCloudfrontFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunctionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 &dataawscccloudfrontfunction.DataAwsccCloudfrontFunctionConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_function#id DataAwsccCloudfrontFunction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_function#id DataAwsccCloudfrontFunction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunctionFunctionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 &dataawscccloudfrontfunction.DataAwsccCloudfrontFunctionFunctionConfig {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfun
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunctionFunctionConfigKeyValueStoreAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 &dataawscccloudfrontfunction.DataAwsccCloudfrontFunctionFunctionConfigKeyValueStoreAssociations {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfun
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunctionFunctionMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 &dataawscccloudfrontfunction.DataAwsccCloudfrontFunctionFunctionMetadata {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfun
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunctionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 &dataawscccloudfrontfunction.DataAwsccCloudfrontFunctionTags {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfun
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunctionFunctionConfigKeyValueStoreAssociationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 dataawscccloudfrontfunction.NewDataAwsccCloudfrontFunctionFunctionConfigKeyValueStoreAssociationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudfrontFunctionFunctionConfigKeyValueStoreAssociationsList
 ```
@@ -999,7 +999,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunctionFunctionConfigKeyValueStoreAssociationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 dataawscccloudfrontfunction.NewDataAwsccCloudfrontFunctionFunctionConfigKeyValueStoreAssociationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudfrontFunctionFunctionConfigKeyValueStoreAssociationsOutputReference
 ```
@@ -1277,7 +1277,7 @@ func InternalValue() DataAwsccCloudfrontFunctionFunctionConfigKeyValueStoreAssoc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunctionFunctionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 dataawscccloudfrontfunction.NewDataAwsccCloudfrontFunctionFunctionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontFunctionFunctionConfigOutputReference
 ```
@@ -1559,7 +1559,7 @@ func InternalValue() DataAwsccCloudfrontFunctionFunctionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunctionFunctionMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 dataawscccloudfrontfunction.NewDataAwsccCloudfrontFunctionFunctionMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontFunctionFunctionMetadataOutputReference
 ```
@@ -1819,7 +1819,7 @@ func InternalValue() DataAwsccCloudfrontFunctionFunctionMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunctionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 dataawscccloudfrontfunction.NewDataAwsccCloudfrontFunctionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudfrontFunctionTagsList
 ```
@@ -1968,7 +1968,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunction.DataAwsccCloudfrontFunctionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontfunction"
 
 dataawscccloudfrontfunction.NewDataAwsccCloudfrontFunctionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudfrontFunctionTagsOutputReference
 ```

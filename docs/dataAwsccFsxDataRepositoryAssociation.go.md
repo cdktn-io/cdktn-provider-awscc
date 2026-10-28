@@ -4,12 +4,12 @@
 
 ### DataAwsccFsxDataRepositoryAssociation <a name="DataAwsccFsxDataRepositoryAssociation" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_data_repository_association awscc_fsx_data_repository_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_data_repository_association awscc_fsx_data_repository_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 dataawsccfsxdatarepositoryassociation.NewDataAwsccFsxDataRepositoryAssociation(scope Construct, id *string, config DataAwsccFsxDataRepositoryAssociationConfig) DataAwsccFsxDataRepositoryAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 dataawsccfsxdatarepositoryassociation.DataAwsccFsxDataRepositoryAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 dataawsccfsxdatarepositoryassociation.DataAwsccFsxDataRepositoryAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfsxdatarepositoryassociation.DataAwsccFsxDataRepositoryAssociation_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 dataawsccfsxdatarepositoryassociation.DataAwsccFsxDataRepositoryAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfsxdatarepositoryassociation.DataAwsccFsxDataRepositoryAssociation_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 dataawsccfsxdatarepositoryassociation.DataAwsccFsxDataRepositoryAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFsxDataRepository
 
 The id of the existing DataAwsccFsxDataRepositoryAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_data_repository_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_data_repository_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 &dataawsccfsxdatarepositoryassociation.DataAwsccFsxDataRepositoryAssociationConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_data_repository_association#id DataAwsccFsxDataRepositoryAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_data_repository_association#id DataAwsccFsxDataRepositoryAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 &dataawsccfsxdatarepositoryassociation.DataAwsccFsxDataRepositoryAssociationS3 {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatareposi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociationS3AutoExportPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 &dataawsccfsxdatarepositoryassociation.DataAwsccFsxDataRepositoryAssociationS3AutoExportPolicy {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatareposi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociationS3AutoImportPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 &dataawsccfsxdatarepositoryassociation.DataAwsccFsxDataRepositoryAssociationS3AutoImportPolicy {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatareposi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 &dataawsccfsxdatarepositoryassociation.DataAwsccFsxDataRepositoryAssociationTags {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatareposi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociationS3AutoExportPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 dataawsccfsxdatarepositoryassociation.NewDataAwsccFsxDataRepositoryAssociationS3AutoExportPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxDataRepositoryAssociationS3AutoExportPolicyOutputReference
 ```
@@ -1121,7 +1121,7 @@ func InternalValue() DataAwsccFsxDataRepositoryAssociationS3AutoExportPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociationS3AutoImportPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 dataawsccfsxdatarepositoryassociation.NewDataAwsccFsxDataRepositoryAssociationS3AutoImportPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxDataRepositoryAssociationS3AutoImportPolicyOutputReference
 ```
@@ -1381,7 +1381,7 @@ func InternalValue() DataAwsccFsxDataRepositoryAssociationS3AutoImportPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 dataawsccfsxdatarepositoryassociation.NewDataAwsccFsxDataRepositoryAssociationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFsxDataRepositoryAssociationS3OutputReference
 ```
@@ -1652,7 +1652,7 @@ func InternalValue() DataAwsccFsxDataRepositoryAssociationS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 dataawsccfsxdatarepositoryassociation.NewDataAwsccFsxDataRepositoryAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFsxDataRepositoryAssociationTagsList
 ```
@@ -1801,7 +1801,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociation.DataAwsccFsxDataRepositoryAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation"
 
 dataawsccfsxdatarepositoryassociation.NewDataAwsccFsxDataRepositoryAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFsxDataRepositoryAssociationTagsOutputReference
 ```

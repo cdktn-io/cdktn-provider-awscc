@@ -4,12 +4,12 @@
 
 ### DataAwsccNeptuneDbSubnetGroups <a name="DataAwsccNeptuneDbSubnetGroups" id="@cdktn/provider-awscc.dataAwsccNeptuneDbSubnetGroups.DataAwsccNeptuneDbSubnetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_subnet_groups awscc_neptune_db_subnet_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_subnet_groups awscc_neptune_db_subnet_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNeptuneDbSubnetGroups.DataAwsccNeptuneDbSubnetGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbsubnetgroups"
 
 dataawsccneptunedbsubnetgroups.NewDataAwsccNeptuneDbSubnetGroups(scope Construct, id *string, config DataAwsccNeptuneDbSubnetGroupsConfig) DataAwsccNeptuneDbSubnetGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNeptuneDbSubnetGroups.DataAwsccNeptuneDbSubnetGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbsubnetgroups"
 
 dataawsccneptunedbsubnetgroups.DataAwsccNeptuneDbSubnetGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNeptuneDbSubnetGroups.DataAwsccNeptuneDbSubnetGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbsubnetgroups"
 
 dataawsccneptunedbsubnetgroups.DataAwsccNeptuneDbSubnetGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccneptunedbsubnetgroups.DataAwsccNeptuneDbSubnetGroups_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNeptuneDbSubnetGroups.DataAwsccNeptuneDbSubnetGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbsubnetgroups"
 
 dataawsccneptunedbsubnetgroups.DataAwsccNeptuneDbSubnetGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccneptunedbsubnetgroups.DataAwsccNeptuneDbSubnetGroups_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNeptuneDbSubnetGroups.DataAwsccNeptuneDbSubnetGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbsubnetgroups"
 
 dataawsccneptunedbsubnetgroups.DataAwsccNeptuneDbSubnetGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNeptuneDbSubnetGr
 
 The id of the existing DataAwsccNeptuneDbSubnetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_subnet_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_subnet_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNeptuneDbSubnetGroups.DataAwsccNeptuneDbSubnetGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbsubnetgroups"
 
 &dataawsccneptunedbsubnetgroups.DataAwsccNeptuneDbSubnetGroupsConfig {
 	Connection: interface{},

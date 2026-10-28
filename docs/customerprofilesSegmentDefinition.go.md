@@ -4,12 +4,12 @@
 
 ### CustomerprofilesSegmentDefinition <a name="CustomerprofilesSegmentDefinition" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinition(scope Construct, id *string, config CustomerprofilesSegmentDefinitionConfig) CustomerprofilesSegmentDefinition
 ```
@@ -474,7 +474,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.CustomerprofilesSegmentDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.CustomerprofilesSegmentDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ customerprofilessegmentdefinition.CustomerprofilesSegmentDefinition_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinition.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.CustomerprofilesSegmentDefinition_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ customerprofilessegmentdefinition.CustomerprofilesSegmentDefinition_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.CustomerprofilesSegmentDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the CustomerprofilesSegmentDef
 
 The id of the existing CustomerprofilesSegmentDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -983,7 +983,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionConfig {
 	Connection: interface{},
@@ -997,8 +997,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 	DomainName: *string,
 	SegmentDefinitionName: *string,
 	Description: *string,
-	SegmentGroups: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroups,
-	SegmentSort: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentSort,
+	SegmentGroups: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroups,
+	SegmentSort: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentSort,
 	SegmentSqlQuery: *string,
 	Tags: interface{},
 }
@@ -1106,7 +1106,7 @@ DisplayName *string
 
 The display name of the segment definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#display_name CustomerprofilesSegmentDefinition#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#display_name CustomerprofilesSegmentDefinition#display_name}
 
 ---
 
@@ -1120,7 +1120,7 @@ DomainName *string
 
 The unique name of the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#domain_name CustomerprofilesSegmentDefinition#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#domain_name CustomerprofilesSegmentDefinition#domain_name}
 
 ---
 
@@ -1134,7 +1134,7 @@ SegmentDefinitionName *string
 
 The unique name of the segment definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}
 
 ---
 
@@ -1148,7 +1148,7 @@ Description *string
 
 The description of the segment definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#description CustomerprofilesSegmentDefinition#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#description CustomerprofilesSegmentDefinition#description}
 
 ---
 
@@ -1162,7 +1162,7 @@ SegmentGroups CustomerprofilesSegmentDefinitionSegmentGroups
 
 An array that defines the set of segment criteria to evaluate when handling segment groups for the segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#segment_groups CustomerprofilesSegmentDefinition#segment_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#segment_groups CustomerprofilesSegmentDefinition#segment_groups}
 
 ---
 
@@ -1176,7 +1176,7 @@ SegmentSort CustomerprofilesSegmentDefinitionSegmentSort
 
 The segment sort configuration for ordering segment results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#segment_sort CustomerprofilesSegmentDefinition#segment_sort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#segment_sort CustomerprofilesSegmentDefinition#segment_sort}
 
 ---
 
@@ -1190,7 +1190,7 @@ SegmentSqlQuery *string
 
 The SQL query that defines the segment criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#segment_sql_query CustomerprofilesSegmentDefinition#segment_sql_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#segment_sql_query CustomerprofilesSegmentDefinition#segment_sql_query}
 
 ---
 
@@ -1204,7 +1204,7 @@ Tags interface{}
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#tags CustomerprofilesSegmentDefinition#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#tags CustomerprofilesSegmentDefinition#tags}
 
 ---
 
@@ -1213,7 +1213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroups {
 	Groups: interface{},
@@ -1225,7 +1225,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroups.property.groups">Groups</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#groups CustomerprofilesSegmentDefinition#groups}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroups.property.groups">Groups</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#groups CustomerprofilesSegmentDefinition#groups}. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroups.property.include">Include</a></code> | <code>*string</code> | Specifies the operator on how to handle multiple groups within the same segment. |
 
 ---
@@ -1238,7 +1238,7 @@ Groups interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#groups CustomerprofilesSegmentDefinition#groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#groups CustomerprofilesSegmentDefinition#groups}.
 
 ---
 
@@ -1252,7 +1252,7 @@ Include *string
 
 Specifies the operator on how to handle multiple groups within the same segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#include CustomerprofilesSegmentDefinition#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#include CustomerprofilesSegmentDefinition#include}
 
 ---
 
@@ -1261,7 +1261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroups {
 	Dimensions: interface{},
@@ -1275,8 +1275,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroups.property.dimensions">Dimensions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimensions CustomerprofilesSegmentDefinition#dimensions}. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroups.property.sourceSegments">SourceSegments</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#source_segments CustomerprofilesSegmentDefinition#source_segments}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroups.property.dimensions">Dimensions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimensions CustomerprofilesSegmentDefinition#dimensions}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroups.property.sourceSegments">SourceSegments</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#source_segments CustomerprofilesSegmentDefinition#source_segments}. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroups.property.sourceType">SourceType</a></code> | <code>*string</code> | Specifies the operator on how to handle multiple groups within the same segment. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroups.property.type">Type</a></code> | <code>*string</code> | Specifies the operator on how to handle multiple groups within the same segment. |
 
@@ -1290,7 +1290,7 @@ Dimensions interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimensions CustomerprofilesSegmentDefinition#dimensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimensions CustomerprofilesSegmentDefinition#dimensions}.
 
 ---
 
@@ -1302,7 +1302,7 @@ SourceSegments interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#source_segments CustomerprofilesSegmentDefinition#source_segments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#source_segments CustomerprofilesSegmentDefinition#source_segments}.
 
 ---
 
@@ -1316,7 +1316,7 @@ SourceType *string
 
 Specifies the operator on how to handle multiple groups within the same segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#source_type CustomerprofilesSegmentDefinition#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#source_type CustomerprofilesSegmentDefinition#source_type}
 
 ---
 
@@ -1330,7 +1330,7 @@ Type *string
 
 Specifies the operator on how to handle multiple groups within the same segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#type CustomerprofilesSegmentDefinition#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#type CustomerprofilesSegmentDefinition#type}
 
 ---
 
@@ -1339,11 +1339,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensions {
 	CalculatedAttributes: interface{},
-	ProfileAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributes,
+	ProfileAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributes,
 }
 ```
 
@@ -1366,7 +1366,7 @@ CalculatedAttributes interface{}
 
 One or more calculated attributes to use as criteria for the segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#calculated_attributes CustomerprofilesSegmentDefinition#calculated_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#calculated_attributes CustomerprofilesSegmentDefinition#calculated_attributes}
 
 ---
 
@@ -1380,7 +1380,7 @@ ProfileAttributes CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensions
 
 Specifies the dimension settings within profile attributes for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#profile_attributes CustomerprofilesSegmentDefinition#profile_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#profile_attributes CustomerprofilesSegmentDefinition#profile_attributes}
 
 ---
 
@@ -1389,10 +1389,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributes {
-	ConditionOverrides: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverrides,
+	ConditionOverrides: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverrides,
 	DimensionType: *string,
 	Values: *[]*string,
 }
@@ -1404,7 +1404,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributes.property.conditionOverrides">ConditionOverrides</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverrides">CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverrides</a></code> | Overrides the condition block within the original calculated attribute definition. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributes.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributes.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributes.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -1418,7 +1418,7 @@ ConditionOverrides CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimension
 
 Overrides the condition block within the original calculated attribute definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#condition_overrides CustomerprofilesSegmentDefinition#condition_overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#condition_overrides CustomerprofilesSegmentDefinition#condition_overrides}
 
 ---
 
@@ -1432,7 +1432,7 @@ DimensionType *string
 
 The type of segment dimension to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -1444,7 +1444,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -1453,10 +1453,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverrides {
-	Range: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRange,
+	Range: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRange,
 }
 ```
 
@@ -1478,7 +1478,7 @@ Range CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAt
 
 Defines the range to be applied to the calculated attribute definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#range CustomerprofilesSegmentDefinition#range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#range CustomerprofilesSegmentDefinition#range}
 
 ---
 
@@ -1487,7 +1487,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRange {
 	End: *f64,
@@ -1518,7 +1518,7 @@ The ending point for this overridden range.
 
 Positive numbers indicate how many days in the past data should be included, and negative numbers indicate how many days in the future.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#end CustomerprofilesSegmentDefinition#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#end CustomerprofilesSegmentDefinition#end}
 
 ---
 
@@ -1534,7 +1534,7 @@ The starting point for this overridden range.
 
 Positive numbers indicate how many days in the past data should be included, and negative numbers indicate how many days in the future.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#start CustomerprofilesSegmentDefinition#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#start CustomerprofilesSegmentDefinition#start}
 
 ---
 
@@ -1548,7 +1548,7 @@ Unit *string
 
 The unit to be applied to the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#unit CustomerprofilesSegmentDefinition#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#unit CustomerprofilesSegmentDefinition#unit}
 
 ---
 
@@ -1557,31 +1557,31 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributes {
-	AccountNumber: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumber,
-	AdditionalInformation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformation,
-	Address: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddress,
+	AccountNumber: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumber,
+	AdditionalInformation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformation,
+	Address: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddress,
 	Attributes: interface{},
-	BillingAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddress,
-	BirthDate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDate,
-	BusinessEmailAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddress,
-	BusinessName: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessName,
-	BusinessPhoneNumber: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumber,
-	EmailAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddress,
-	FirstName: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstName,
-	GenderString: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderString,
-	HomePhoneNumber: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumber,
-	LastName: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastName,
-	MailingAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddress,
-	MiddleName: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleName,
-	MobilePhoneNumber: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumber,
-	PartyTypeString: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeString,
-	PersonalEmailAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddress,
-	PhoneNumber: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumber,
-	ProfileType: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileType,
-	ShippingAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddress,
+	BillingAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddress,
+	BirthDate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDate,
+	BusinessEmailAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddress,
+	BusinessName: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessName,
+	BusinessPhoneNumber: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumber,
+	EmailAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddress,
+	FirstName: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstName,
+	GenderString: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderString,
+	HomePhoneNumber: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumber,
+	LastName: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastName,
+	MailingAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddress,
+	MiddleName: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleName,
+	MobilePhoneNumber: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumber,
+	PartyTypeString: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeString,
+	PersonalEmailAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddress,
+	PhoneNumber: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumber,
+	ProfileType: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileType,
+	ShippingAddress: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddress,
 }
 ```
 
@@ -1624,7 +1624,7 @@ AccountNumber CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProf
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#account_number CustomerprofilesSegmentDefinition#account_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#account_number CustomerprofilesSegmentDefinition#account_number}
 
 ---
 
@@ -1638,7 +1638,7 @@ AdditionalInformation CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimens
 
 Specifies criteria for a segment using extended-length string values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#additional_information CustomerprofilesSegmentDefinition#additional_information}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#additional_information CustomerprofilesSegmentDefinition#additional_information}
 
 ---
 
@@ -1652,7 +1652,7 @@ Address CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAtt
 
 The address based criteria for the segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#address CustomerprofilesSegmentDefinition#address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#address CustomerprofilesSegmentDefinition#address}
 
 ---
 
@@ -1666,7 +1666,7 @@ Attributes interface{}
 
 One or more custom attributes to use as criteria for the segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#attributes CustomerprofilesSegmentDefinition#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#attributes CustomerprofilesSegmentDefinition#attributes}
 
 ---
 
@@ -1680,7 +1680,7 @@ BillingAddress CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsPro
 
 The address based criteria for the segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#billing_address CustomerprofilesSegmentDefinition#billing_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#billing_address CustomerprofilesSegmentDefinition#billing_address}
 
 ---
 
@@ -1694,7 +1694,7 @@ BirthDate CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileA
 
 Specifies date based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#birth_date CustomerprofilesSegmentDefinition#birth_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#birth_date CustomerprofilesSegmentDefinition#birth_date}
 
 ---
 
@@ -1708,7 +1708,7 @@ BusinessEmailAddress CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensi
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#business_email_address CustomerprofilesSegmentDefinition#business_email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#business_email_address CustomerprofilesSegmentDefinition#business_email_address}
 
 ---
 
@@ -1722,7 +1722,7 @@ BusinessName CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#business_name CustomerprofilesSegmentDefinition#business_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#business_name CustomerprofilesSegmentDefinition#business_name}
 
 ---
 
@@ -1736,7 +1736,7 @@ BusinessPhoneNumber CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensio
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#business_phone_number CustomerprofilesSegmentDefinition#business_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#business_phone_number CustomerprofilesSegmentDefinition#business_phone_number}
 
 ---
 
@@ -1750,7 +1750,7 @@ EmailAddress CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#email_address CustomerprofilesSegmentDefinition#email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#email_address CustomerprofilesSegmentDefinition#email_address}
 
 ---
 
@@ -1764,7 +1764,7 @@ FirstName CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileA
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#first_name CustomerprofilesSegmentDefinition#first_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#first_name CustomerprofilesSegmentDefinition#first_name}
 
 ---
 
@@ -1778,7 +1778,7 @@ GenderString CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#gender_string CustomerprofilesSegmentDefinition#gender_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#gender_string CustomerprofilesSegmentDefinition#gender_string}
 
 ---
 
@@ -1792,7 +1792,7 @@ HomePhoneNumber CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsPr
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#home_phone_number CustomerprofilesSegmentDefinition#home_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#home_phone_number CustomerprofilesSegmentDefinition#home_phone_number}
 
 ---
 
@@ -1806,7 +1806,7 @@ LastName CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAt
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#last_name CustomerprofilesSegmentDefinition#last_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#last_name CustomerprofilesSegmentDefinition#last_name}
 
 ---
 
@@ -1820,7 +1820,7 @@ MailingAddress CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsPro
 
 The address based criteria for the segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#mailing_address CustomerprofilesSegmentDefinition#mailing_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#mailing_address CustomerprofilesSegmentDefinition#mailing_address}
 
 ---
 
@@ -1834,7 +1834,7 @@ MiddleName CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfile
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#middle_name CustomerprofilesSegmentDefinition#middle_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#middle_name CustomerprofilesSegmentDefinition#middle_name}
 
 ---
 
@@ -1848,7 +1848,7 @@ MobilePhoneNumber CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensions
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#mobile_phone_number CustomerprofilesSegmentDefinition#mobile_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#mobile_phone_number CustomerprofilesSegmentDefinition#mobile_phone_number}
 
 ---
 
@@ -1862,7 +1862,7 @@ PartyTypeString CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsPr
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#party_type_string CustomerprofilesSegmentDefinition#party_type_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#party_type_string CustomerprofilesSegmentDefinition#party_type_string}
 
 ---
 
@@ -1876,7 +1876,7 @@ PersonalEmailAddress CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensi
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#personal_email_address CustomerprofilesSegmentDefinition#personal_email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#personal_email_address CustomerprofilesSegmentDefinition#personal_email_address}
 
 ---
 
@@ -1890,7 +1890,7 @@ PhoneNumber CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfil
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#phone_number CustomerprofilesSegmentDefinition#phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#phone_number CustomerprofilesSegmentDefinition#phone_number}
 
 ---
 
@@ -1904,7 +1904,7 @@ ProfileType CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfil
 
 Specifies profile type based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#profile_type CustomerprofilesSegmentDefinition#profile_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#profile_type CustomerprofilesSegmentDefinition#profile_type}
 
 ---
 
@@ -1918,7 +1918,7 @@ ShippingAddress CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsPr
 
 The address based criteria for the segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#shipping_address CustomerprofilesSegmentDefinition#shipping_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#shipping_address CustomerprofilesSegmentDefinition#shipping_address}
 
 ---
 
@@ -1927,7 +1927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumber {
 	DimensionType: *string,
@@ -1940,7 +1940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumber.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumber.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumber.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -1954,7 +1954,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -1966,7 +1966,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -1975,7 +1975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformation {
 	DimensionType: *string,
@@ -1988,7 +1988,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformation.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformation.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformation.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2002,7 +2002,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2014,7 +2014,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2023,15 +2023,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddress {
-	City: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCity,
-	Country: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountry,
-	County: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCounty,
-	PostalCode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCode,
-	Province: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvince,
-	State: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressState,
+	City: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCity,
+	Country: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountry,
+	County: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCounty,
+	PostalCode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCode,
+	Province: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvince,
+	State: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressState,
 }
 ```
 
@@ -2058,7 +2058,7 @@ City CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttrib
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
 
 ---
 
@@ -2072,7 +2072,7 @@ Country CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAtt
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
 
 ---
 
@@ -2086,7 +2086,7 @@ County CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttr
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
 
 ---
 
@@ -2100,7 +2100,7 @@ PostalCode CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfile
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
 
 ---
 
@@ -2114,7 +2114,7 @@ Province CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAt
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
 
 ---
 
@@ -2128,7 +2128,7 @@ State CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttri
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
 
 ---
 
@@ -2137,7 +2137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCity {
 	DimensionType: *string,
@@ -2150,7 +2150,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCity.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCity.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCity.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2164,7 +2164,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2176,7 +2176,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2185,7 +2185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountry {
 	DimensionType: *string,
@@ -2198,7 +2198,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountry.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountry.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountry.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2212,7 +2212,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2224,7 +2224,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2233,7 +2233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCounty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCounty {
 	DimensionType: *string,
@@ -2246,7 +2246,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCounty.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCounty.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCounty.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2260,7 +2260,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2272,7 +2272,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2281,7 +2281,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCode {
 	DimensionType: *string,
@@ -2294,7 +2294,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCode.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCode.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCode.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2308,7 +2308,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2320,7 +2320,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2329,7 +2329,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvince.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvince {
 	DimensionType: *string,
@@ -2342,7 +2342,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvince.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvince.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvince.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2356,7 +2356,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2368,7 +2368,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2377,7 +2377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressState {
 	DimensionType: *string,
@@ -2390,7 +2390,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressState.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressState.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressState.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2404,7 +2404,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2416,7 +2416,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2425,7 +2425,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributes {
 	DimensionType: *string,
@@ -2438,7 +2438,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributes.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributes.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributes.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2452,7 +2452,7 @@ DimensionType *string
 
 The type of segment dimension to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2464,7 +2464,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2473,15 +2473,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddress {
-	City: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCity,
-	Country: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountry,
-	County: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCounty,
-	PostalCode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCode,
-	Province: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvince,
-	State: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressState,
+	City: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCity,
+	Country: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountry,
+	County: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCounty,
+	PostalCode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCode,
+	Province: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvince,
+	State: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressState,
 }
 ```
 
@@ -2508,7 +2508,7 @@ City CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttrib
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
 
 ---
 
@@ -2522,7 +2522,7 @@ Country CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAtt
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
 
 ---
 
@@ -2536,7 +2536,7 @@ County CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttr
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
 
 ---
 
@@ -2550,7 +2550,7 @@ PostalCode CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfile
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
 
 ---
 
@@ -2564,7 +2564,7 @@ Province CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAt
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
 
 ---
 
@@ -2578,7 +2578,7 @@ State CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttri
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
 
 ---
 
@@ -2587,7 +2587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCity {
 	DimensionType: *string,
@@ -2600,7 +2600,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCity.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCity.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCity.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2614,7 +2614,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2626,7 +2626,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2635,7 +2635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountry {
 	DimensionType: *string,
@@ -2648,7 +2648,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountry.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountry.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountry.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2662,7 +2662,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2674,7 +2674,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2683,7 +2683,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCounty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCounty {
 	DimensionType: *string,
@@ -2696,7 +2696,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCounty.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCounty.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCounty.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2710,7 +2710,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2722,7 +2722,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2731,7 +2731,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCode {
 	DimensionType: *string,
@@ -2744,7 +2744,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCode.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCode.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCode.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2758,7 +2758,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2770,7 +2770,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2779,7 +2779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvince.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvince {
 	DimensionType: *string,
@@ -2792,7 +2792,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvince.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvince.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvince.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2806,7 +2806,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2818,7 +2818,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2827,7 +2827,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressState {
 	DimensionType: *string,
@@ -2840,7 +2840,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressState.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressState.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressState.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2854,7 +2854,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2866,7 +2866,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2875,7 +2875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDate {
 	DimensionType: *string,
@@ -2888,7 +2888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDate.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a date dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDate.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDate.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2902,7 +2902,7 @@ DimensionType *string
 
 The type of segment dimension to use for a date dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2914,7 +2914,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2923,7 +2923,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddress {
 	DimensionType: *string,
@@ -2936,7 +2936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddress.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddress.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddress.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2950,7 +2950,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -2962,7 +2962,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -2971,7 +2971,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessName {
 	DimensionType: *string,
@@ -2984,7 +2984,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessName.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessName.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessName.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -2998,7 +2998,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3010,7 +3010,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3019,7 +3019,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumber {
 	DimensionType: *string,
@@ -3032,7 +3032,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumber.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumber.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumber.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3046,7 +3046,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3058,7 +3058,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3067,7 +3067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddress {
 	DimensionType: *string,
@@ -3080,7 +3080,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddress.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddress.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddress.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3094,7 +3094,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3106,7 +3106,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3115,7 +3115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstName {
 	DimensionType: *string,
@@ -3128,7 +3128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstName.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstName.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstName.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3142,7 +3142,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3154,7 +3154,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3163,7 +3163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderString.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderString {
 	DimensionType: *string,
@@ -3176,7 +3176,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderString.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderString.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderString.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3190,7 +3190,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3202,7 +3202,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3211,7 +3211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumber {
 	DimensionType: *string,
@@ -3224,7 +3224,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumber.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumber.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumber.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3238,7 +3238,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3250,7 +3250,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3259,7 +3259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastName {
 	DimensionType: *string,
@@ -3272,7 +3272,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastName.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastName.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastName.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3286,7 +3286,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3298,7 +3298,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3307,15 +3307,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddress {
-	City: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCity,
-	Country: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountry,
-	County: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCounty,
-	PostalCode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCode,
-	Province: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvince,
-	State: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressState,
+	City: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCity,
+	Country: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountry,
+	County: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCounty,
+	PostalCode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCode,
+	Province: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvince,
+	State: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressState,
 }
 ```
 
@@ -3342,7 +3342,7 @@ City CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttrib
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
 
 ---
 
@@ -3356,7 +3356,7 @@ Country CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAtt
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
 
 ---
 
@@ -3370,7 +3370,7 @@ County CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttr
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
 
 ---
 
@@ -3384,7 +3384,7 @@ PostalCode CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfile
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
 
 ---
 
@@ -3398,7 +3398,7 @@ Province CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAt
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
 
 ---
 
@@ -3412,7 +3412,7 @@ State CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttri
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
 
 ---
 
@@ -3421,7 +3421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCity {
 	DimensionType: *string,
@@ -3434,7 +3434,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCity.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCity.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCity.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3448,7 +3448,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3460,7 +3460,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3469,7 +3469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountry {
 	DimensionType: *string,
@@ -3482,7 +3482,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountry.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountry.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountry.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3496,7 +3496,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3508,7 +3508,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3517,7 +3517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCounty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCounty {
 	DimensionType: *string,
@@ -3530,7 +3530,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCounty.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCounty.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCounty.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3544,7 +3544,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3556,7 +3556,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3565,7 +3565,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCode {
 	DimensionType: *string,
@@ -3578,7 +3578,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCode.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCode.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCode.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3592,7 +3592,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3604,7 +3604,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3613,7 +3613,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvince.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvince {
 	DimensionType: *string,
@@ -3626,7 +3626,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvince.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvince.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvince.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3640,7 +3640,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3652,7 +3652,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3661,7 +3661,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressState {
 	DimensionType: *string,
@@ -3674,7 +3674,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressState.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressState.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressState.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3688,7 +3688,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3700,7 +3700,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3709,7 +3709,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleName {
 	DimensionType: *string,
@@ -3722,7 +3722,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleName.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleName.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleName.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3736,7 +3736,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3748,7 +3748,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3757,7 +3757,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumber {
 	DimensionType: *string,
@@ -3770,7 +3770,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumber.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumber.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumber.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3784,7 +3784,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3796,7 +3796,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3805,7 +3805,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeString.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeString {
 	DimensionType: *string,
@@ -3818,7 +3818,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeString.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeString.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeString.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3832,7 +3832,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3844,7 +3844,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3853,7 +3853,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddress {
 	DimensionType: *string,
@@ -3866,7 +3866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddress.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddress.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddress.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3880,7 +3880,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3892,7 +3892,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3901,7 +3901,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumber {
 	DimensionType: *string,
@@ -3914,7 +3914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumber.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumber.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumber.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3928,7 +3928,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3940,7 +3940,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3949,7 +3949,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileType {
 	DimensionType: *string,
@@ -3962,7 +3962,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileType.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a profile type dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileType.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileType.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -3976,7 +3976,7 @@ DimensionType *string
 
 The type of segment dimension to use for a profile type dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -3988,7 +3988,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -3997,15 +3997,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddress {
-	City: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCity,
-	Country: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountry,
-	County: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCounty,
-	PostalCode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCode,
-	Province: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvince,
-	State: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressState,
+	City: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCity,
+	Country: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountry,
+	County: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCounty,
+	PostalCode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCode,
+	Province: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvince,
+	State: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressState,
 }
 ```
 
@@ -4032,7 +4032,7 @@ City CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttrib
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
 
 ---
 
@@ -4046,7 +4046,7 @@ Country CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAtt
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
 
 ---
 
@@ -4060,7 +4060,7 @@ County CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttr
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
 
 ---
 
@@ -4074,7 +4074,7 @@ PostalCode CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfile
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
 
 ---
 
@@ -4088,7 +4088,7 @@ Province CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAt
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
 
 ---
 
@@ -4102,7 +4102,7 @@ State CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttri
 
 Specifies profile based criteria for a segment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
 
 ---
 
@@ -4111,7 +4111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCity {
 	DimensionType: *string,
@@ -4124,7 +4124,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCity.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCity.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCity.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -4138,7 +4138,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -4150,7 +4150,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -4159,7 +4159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountry {
 	DimensionType: *string,
@@ -4172,7 +4172,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountry.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountry.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountry.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -4186,7 +4186,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -4198,7 +4198,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -4207,7 +4207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCounty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCounty {
 	DimensionType: *string,
@@ -4220,7 +4220,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCounty.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCounty.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCounty.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -4234,7 +4234,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -4246,7 +4246,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -4255,7 +4255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCode {
 	DimensionType: *string,
@@ -4268,7 +4268,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCode.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCode.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCode.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -4282,7 +4282,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -4294,7 +4294,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -4303,7 +4303,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvince.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvince {
 	DimensionType: *string,
@@ -4316,7 +4316,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvince.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvince.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvince.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -4330,7 +4330,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -4342,7 +4342,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -4351,7 +4351,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressState {
 	DimensionType: *string,
@@ -4364,7 +4364,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressState.property.dimensionType">DimensionType</a></code> | <code>*string</code> | The type of segment dimension to use for a string dimension. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressState.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressState.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}. |
 
 ---
 
@@ -4378,7 +4378,7 @@ DimensionType *string
 
 The type of segment dimension to use for a string dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 
 ---
 
@@ -4390,7 +4390,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 
 ---
 
@@ -4399,7 +4399,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegments {
 	SegmentDefinitionName: *string,
@@ -4410,7 +4410,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegments.property.segmentDefinitionName">SegmentDefinitionName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegments.property.segmentDefinitionName">SegmentDefinitionName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}. |
 
 ---
 
@@ -4422,7 +4422,7 @@ SegmentDefinitionName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}.
 
 ---
 
@@ -4431,7 +4431,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentSort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentSort {
 	Attributes: interface{},
@@ -4456,7 +4456,7 @@ Attributes interface{}
 
 A list of attributes used to sort the segments and their ordering preferences.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#attributes CustomerprofilesSegmentDefinition#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#attributes CustomerprofilesSegmentDefinition#attributes}
 
 ---
 
@@ -4465,7 +4465,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentSortAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionSegmentSortAttributes {
 	DataType: *string,
@@ -4496,7 +4496,7 @@ DataType *string
 
 The data type of the sort attribute (e.g., string, number, date).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#data_type CustomerprofilesSegmentDefinition#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#data_type CustomerprofilesSegmentDefinition#data_type}
 
 ---
 
@@ -4510,7 +4510,7 @@ Name *string
 
 The name of the attribute to sort by.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#name CustomerprofilesSegmentDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#name CustomerprofilesSegmentDefinition#name}
 
 ---
 
@@ -4524,7 +4524,7 @@ Order *string
 
 The sort order for the attribute (ascending or descending).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#order CustomerprofilesSegmentDefinition#order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#order CustomerprofilesSegmentDefinition#order}
 
 ---
 
@@ -4538,7 +4538,7 @@ Type *string
 
 The type of attribute (e.g., profile, calculated).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#type CustomerprofilesSegmentDefinition#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#type CustomerprofilesSegmentDefinition#type}
 
 ---
 
@@ -4547,7 +4547,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 &customerprofilessegmentdefinition.CustomerprofilesSegmentDefinitionTags {
 	Key: *string,
@@ -4576,7 +4576,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#key CustomerprofilesSegmentDefinition#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#key CustomerprofilesSegmentDefinition#key}
 
 ---
 
@@ -4592,7 +4592,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_segment_definition#value CustomerprofilesSegmentDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_segment_definition#value CustomerprofilesSegmentDefinition#value}
 
 ---
 
@@ -4603,7 +4603,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesOutputReference
 ```
@@ -4894,7 +4894,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRangeOutputReference
 ```
@@ -5230,7 +5230,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesMap(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesMap
 ```
@@ -5377,7 +5377,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesOutputReference
 ```
@@ -5735,7 +5735,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsList
 ```
@@ -5895,7 +5895,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsOutputReference
 ```
@@ -6246,7 +6246,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumberOutputReference
 ```
@@ -6553,7 +6553,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformationOutputReference
 ```
@@ -6860,7 +6860,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCityOutputReference
 ```
@@ -7167,7 +7167,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountryOutputReference
 ```
@@ -7474,7 +7474,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountyOutputReference
 ```
@@ -7781,7 +7781,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressOutputReference
 ```
@@ -8282,7 +8282,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCodeOutputReference
 ```
@@ -8589,7 +8589,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvinceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvinceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvinceOutputReference
 ```
@@ -8896,7 +8896,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressStateOutputReference
 ```
@@ -9203,7 +9203,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesMap(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesMap
 ```
@@ -9350,7 +9350,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributesOutputReference
 ```
@@ -9666,7 +9666,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCityOutputReference
 ```
@@ -9973,7 +9973,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountryOutputReference
 ```
@@ -10280,7 +10280,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountyOutputReference
 ```
@@ -10587,7 +10587,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressOutputReference
 ```
@@ -11088,7 +11088,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCodeOutputReference
 ```
@@ -11395,7 +11395,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvinceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvinceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvinceOutputReference
 ```
@@ -11702,7 +11702,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressStateOutputReference
 ```
@@ -12009,7 +12009,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDateOutputReference
 ```
@@ -12316,7 +12316,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddressOutputReference
 ```
@@ -12623,7 +12623,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessNameOutputReference
 ```
@@ -12930,7 +12930,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumberOutputReference
 ```
@@ -13237,7 +13237,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddressOutputReference
 ```
@@ -13544,7 +13544,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstNameOutputReference
 ```
@@ -13851,7 +13851,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderStringOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderStringOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderStringOutputReference
 ```
@@ -14158,7 +14158,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumberOutputReference
 ```
@@ -14465,7 +14465,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastNameOutputReference
 ```
@@ -14772,7 +14772,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCityOutputReference
 ```
@@ -15079,7 +15079,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountryOutputReference
 ```
@@ -15386,7 +15386,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountyOutputReference
 ```
@@ -15693,7 +15693,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressOutputReference
 ```
@@ -16194,7 +16194,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCodeOutputReference
 ```
@@ -16501,7 +16501,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvinceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvinceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvinceOutputReference
 ```
@@ -16808,7 +16808,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressStateOutputReference
 ```
@@ -17115,7 +17115,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleNameOutputReference
 ```
@@ -17422,7 +17422,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumberOutputReference
 ```
@@ -17729,7 +17729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesOutputReference
 ```
@@ -18902,7 +18902,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeStringOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeStringOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeStringOutputReference
 ```
@@ -19209,7 +19209,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddressOutputReference
 ```
@@ -19516,7 +19516,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumberOutputReference
 ```
@@ -19823,7 +19823,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileTypeOutputReference
 ```
@@ -20130,7 +20130,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCityOutputReference
 ```
@@ -20437,7 +20437,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountryOutputReference
 ```
@@ -20744,7 +20744,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountyOutputReference
 ```
@@ -21051,7 +21051,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressOutputReference
 ```
@@ -21552,7 +21552,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCodeOutputReference
 ```
@@ -21859,7 +21859,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvinceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvinceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvinceOutputReference
 ```
@@ -22166,7 +22166,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressStateOutputReference
 ```
@@ -22473,7 +22473,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsList
 ```
@@ -22633,7 +22633,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsOutputReference
 ```
@@ -23042,7 +23042,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsList
 ```
@@ -23202,7 +23202,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsOutputReference
 ```
@@ -23498,7 +23498,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentGroupsOutputReference
 ```
@@ -23818,7 +23818,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentSortAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentSortAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CustomerprofilesSegmentDefinitionSegmentSortAttributesList
 ```
@@ -23978,7 +23978,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentSortAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentSortAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CustomerprofilesSegmentDefinitionSegmentSortAttributesOutputReference
 ```
@@ -24361,7 +24361,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionSegmentSortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionSegmentSortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CustomerprofilesSegmentDefinitionSegmentSortOutputReference
 ```
@@ -24652,7 +24652,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CustomerprofilesSegmentDefinitionTagsList
 ```
@@ -24812,7 +24812,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesSegmentDefinition.CustomerprofilesSegmentDefinitionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilessegmentdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilessegmentdefinition"
 
 customerprofilessegmentdefinition.NewCustomerprofilesSegmentDefinitionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CustomerprofilesSegmentDefinitionTagsOutputReference
 ```

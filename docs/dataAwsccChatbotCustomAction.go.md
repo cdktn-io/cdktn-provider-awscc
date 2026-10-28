@@ -4,12 +4,12 @@
 
 ### DataAwsccChatbotCustomAction <a name="DataAwsccChatbotCustomAction" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chatbot_custom_action awscc_chatbot_custom_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chatbot_custom_action awscc_chatbot_custom_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.NewDataAwsccChatbotCustomAction(scope Construct, id *string, config DataAwsccChatbotCustomActionConfig) DataAwsccChatbotCustomAction
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomAction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.DataAwsccChatbotCustomAction_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomAction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.DataAwsccChatbotCustomAction_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccchatbotcustomaction.DataAwsccChatbotCustomAction_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomAction.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.DataAwsccChatbotCustomAction_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccchatbotcustomaction.DataAwsccChatbotCustomAction_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomAction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.DataAwsccChatbotCustomAction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccChatbotCustomActi
 
 The id of the existing DataAwsccChatbotCustomAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chatbot_custom_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chatbot_custom_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionAttachments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 &dataawsccchatbotcustomaction.DataAwsccChatbotCustomActionAttachments {
 
@@ -666,7 +666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustom
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionAttachmentsCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 &dataawsccchatbotcustomaction.DataAwsccChatbotCustomActionAttachmentsCriteria {
 
@@ -679,7 +679,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustom
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 &dataawsccchatbotcustomaction.DataAwsccChatbotCustomActionConfig {
 	Connection: interface{},
@@ -788,7 +788,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chatbot_custom_action#id DataAwsccChatbotCustomAction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chatbot_custom_action#id DataAwsccChatbotCustomAction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -800,7 +800,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 &dataawsccchatbotcustomaction.DataAwsccChatbotCustomActionDefinition {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustom
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 &dataawsccchatbotcustomaction.DataAwsccChatbotCustomActionTags {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustom
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionAttachmentsCriteriaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.NewDataAwsccChatbotCustomActionAttachmentsCriteriaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccChatbotCustomActionAttachmentsCriteriaList
 ```
@@ -977,7 +977,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionAttachmentsCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.NewDataAwsccChatbotCustomActionAttachmentsCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccChatbotCustomActionAttachmentsCriteriaOutputReference
 ```
@@ -1277,7 +1277,7 @@ func InternalValue() DataAwsccChatbotCustomActionAttachmentsCriteria
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionAttachmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.NewDataAwsccChatbotCustomActionAttachmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccChatbotCustomActionAttachmentsList
 ```
@@ -1426,7 +1426,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionAttachmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.NewDataAwsccChatbotCustomActionAttachmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccChatbotCustomActionAttachmentsOutputReference
 ```
@@ -1737,7 +1737,7 @@ func InternalValue() DataAwsccChatbotCustomActionAttachments
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.NewDataAwsccChatbotCustomActionDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccChatbotCustomActionDefinitionOutputReference
 ```
@@ -1997,7 +1997,7 @@ func InternalValue() DataAwsccChatbotCustomActionDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.NewDataAwsccChatbotCustomActionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccChatbotCustomActionTagsList
 ```
@@ -2146,7 +2146,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChatbotCustomAction.DataAwsccChatbotCustomActionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotcustomaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotcustomaction"
 
 dataawsccchatbotcustomaction.NewDataAwsccChatbotCustomActionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccChatbotCustomActionTagsOutputReference
 ```

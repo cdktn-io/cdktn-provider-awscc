@@ -4,12 +4,12 @@
 
 ### S3MultiRegionAccessPoint <a name="S3MultiRegionAccessPoint" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point awscc_s3_multi_region_access_point}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point awscc_s3_multi_region_access_point}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspoint"
 
 s3multiregionaccesspoint.NewS3MultiRegionAccessPoint(scope Construct, id *string, config S3MultiRegionAccessPointConfig) S3MultiRegionAccessPoint
 ```
@@ -440,7 +440,7 @@ func ResetPublicAccessBlockConfiguration()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspoint"
 
 s3multiregionaccesspoint.S3MultiRegionAccessPoint_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspoint"
 
 s3multiregionaccesspoint.S3MultiRegionAccessPoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ s3multiregionaccesspoint.S3MultiRegionAccessPoint_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspoint"
 
 s3multiregionaccesspoint.S3MultiRegionAccessPoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ s3multiregionaccesspoint.S3MultiRegionAccessPoint_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspoint"
 
 s3multiregionaccesspoint.S3MultiRegionAccessPoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the S3MultiRegionAccessPoint t
 
 The id of the existing S3MultiRegionAccessPoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -828,7 +828,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspoint"
 
 &s3multiregionaccesspoint.S3MultiRegionAccessPointConfig {
 	Connection: interface{},
@@ -840,7 +840,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoi
 	Provisioners: *[]interface{},
 	Regions: interface{},
 	Name: *string,
-	PublicAccessBlockConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPointPublicAccessBlockConfiguration,
+	PublicAccessBlockConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3MultiRegionAccessPoint.S3MultiRegionAccessPointPublicAccessBlockConfiguration,
 }
 ```
 
@@ -941,7 +941,7 @@ Regions interface{}
 
 The list of buckets that you want to associate this Multi Region Access Point with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#regions S3MultiRegionAccessPoint#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#regions S3MultiRegionAccessPoint#regions}
 
 ---
 
@@ -955,7 +955,7 @@ Name *string
 
 The name you want to assign to this Multi Region Access Point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#name S3MultiRegionAccessPoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#name S3MultiRegionAccessPoint#name}
 
 ---
 
@@ -971,7 +971,7 @@ The PublicAccessBlock configuration that you want to apply to this Multi Region 
 
 You can enable the configuration options in any combination. For more information about when Amazon S3 considers a bucket or object public, see https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html#access-control-block-public-access-policy-status 'The Meaning of Public' in the Amazon Simple Storage Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#public_access_block_configuration S3MultiRegionAccessPoint#public_access_block_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#public_access_block_configuration S3MultiRegionAccessPoint#public_access_block_configuration}
 
 ---
 
@@ -980,7 +980,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPointPublicAccessBlockConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspoint"
 
 &s3multiregionaccesspoint.S3MultiRegionAccessPointPublicAccessBlockConfiguration {
 	BlockPublicAcls: interface{},
@@ -1018,7 +1018,7 @@ Setting this element to TRUE causes the following behavior:
   . - PUT Bucket calls fail if the request includes a public ACL.
   Enabling this setting doesn't affect existing policies or ACLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#block_public_acls S3MultiRegionAccessPoint#block_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#block_public_acls S3MultiRegionAccessPoint#block_public_acls}
 
 ---
 
@@ -1034,7 +1034,7 @@ Specifies whether Amazon S3 should block public bucket policies for buckets in t
 
 Setting this element to TRUE causes Amazon S3 to reject calls to PUT Bucket policy if the specified bucket policy allows public access. Enabling this setting doesn't affect existing bucket policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#block_public_policy S3MultiRegionAccessPoint#block_public_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#block_public_policy S3MultiRegionAccessPoint#block_public_policy}
 
 ---
 
@@ -1050,7 +1050,7 @@ Specifies whether Amazon S3 should ignore public ACLs for buckets in this accoun
 
 Setting this element to TRUE causes Amazon S3 to ignore all public ACLs on buckets in this account and any objects that they contain. Enabling this setting doesn't affect the persistence of any existing ACLs and doesn't prevent new public ACLs from being set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#ignore_public_acls S3MultiRegionAccessPoint#ignore_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#ignore_public_acls S3MultiRegionAccessPoint#ignore_public_acls}
 
 ---
 
@@ -1067,7 +1067,7 @@ Specifies whether Amazon S3 should restrict public bucket policies for this buck
 Setting this element to TRUE restricts access to this bucket to only AWS services and authorized users within this account if the bucket has a public policy.
 Enabling this setting doesn't affect previously stored bucket policies, except that public and cross-account access within any public bucket policy, including non-public delegation to specific accounts, is blocked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#restrict_public_buckets S3MultiRegionAccessPoint#restrict_public_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#restrict_public_buckets S3MultiRegionAccessPoint#restrict_public_buckets}
 
 ---
 
@@ -1076,7 +1076,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPointRegions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspoint"
 
 &s3multiregionaccesspoint.S3MultiRegionAccessPointRegions {
 	Bucket: *string,
@@ -1088,8 +1088,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPointRegions.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#bucket S3MultiRegionAccessPoint#bucket}. |
-| <code><a href="#@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPointRegions.property.bucketAccountId">BucketAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#bucket_account_id S3MultiRegionAccessPoint#bucket_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPointRegions.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#bucket S3MultiRegionAccessPoint#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPointRegions.property.bucketAccountId">BucketAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#bucket_account_id S3MultiRegionAccessPoint#bucket_account_id}. |
 
 ---
 
@@ -1101,7 +1101,7 @@ Bucket *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#bucket S3MultiRegionAccessPoint#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#bucket S3MultiRegionAccessPoint#bucket}.
 
 ---
 
@@ -1113,7 +1113,7 @@ BucketAccountId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_multi_region_access_point#bucket_account_id S3MultiRegionAccessPoint#bucket_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_multi_region_access_point#bucket_account_id S3MultiRegionAccessPoint#bucket_account_id}.
 
 ---
 
@@ -1124,7 +1124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPointPublicAccessBlockConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspoint"
 
 s3multiregionaccesspoint.NewS3MultiRegionAccessPointPublicAccessBlockConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3MultiRegionAccessPointPublicAccessBlockConfigurationOutputReference
 ```
@@ -1489,7 +1489,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPointRegionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspoint"
 
 s3multiregionaccesspoint.NewS3MultiRegionAccessPointRegionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3MultiRegionAccessPointRegionsList
 ```
@@ -1649,7 +1649,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3MultiRegionAccessPoint.S3MultiRegionAccessPointRegionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3multiregionaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3multiregionaccesspoint"
 
 s3multiregionaccesspoint.NewS3MultiRegionAccessPointRegionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) S3MultiRegionAccessPointRegionsOutputReference
 ```

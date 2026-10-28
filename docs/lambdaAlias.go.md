@@ -4,12 +4,12 @@
 
 ### LambdaAlias <a name="LambdaAlias" id="@cdktn/provider-awscc.lambdaAlias.LambdaAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias awscc_lambda_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias awscc_lambda_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaAlias.LambdaAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 lambdaalias.NewLambdaAlias(scope Construct, id *string, config LambdaAliasConfig) LambdaAlias
 ```
@@ -447,7 +447,7 @@ func ResetRoutingConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lambdaAlias.LambdaAlias.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 lambdaalias.LambdaAlias_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lambdaAlias.LambdaAlias.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 lambdaalias.LambdaAlias_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ lambdaalias.LambdaAlias_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lambdaAlias.LambdaAlias.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 lambdaalias.LambdaAlias_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ lambdaalias.LambdaAlias_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lambdaAlias.LambdaAlias.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 lambdaalias.LambdaAlias_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the LambdaAlias to import.
 
 The id of the existing LambdaAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -890,7 +890,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaAlias.LambdaAliasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 &lambdaalias.LambdaAliasConfig {
 	Connection: interface{},
@@ -904,8 +904,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
 	FunctionVersion: *string,
 	Name: *string,
 	Description: *string,
-	ProvisionedConcurrencyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaAlias.LambdaAliasProvisionedConcurrencyConfig,
-	RoutingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaAlias.LambdaAliasRoutingConfig,
+	ProvisionedConcurrencyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaAlias.LambdaAliasProvisionedConcurrencyConfig,
+	RoutingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaAlias.LambdaAliasRoutingConfig,
 }
 ```
 
@@ -1009,7 +1009,7 @@ FunctionName *string
 
 The name of the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias#function_name LambdaAlias#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias#function_name LambdaAlias#function_name}
 
 ---
 
@@ -1023,7 +1023,7 @@ FunctionVersion *string
 
 The function version that the alias invokes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias#function_version LambdaAlias#function_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias#function_version LambdaAlias#function_version}
 
 ---
 
@@ -1037,7 +1037,7 @@ Name *string
 
 The name of the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias#name LambdaAlias#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias#name LambdaAlias#name}
 
 ---
 
@@ -1051,7 +1051,7 @@ Description *string
 
 A description of the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias#description LambdaAlias#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias#description LambdaAlias#description}
 
 ---
 
@@ -1065,7 +1065,7 @@ ProvisionedConcurrencyConfig LambdaAliasProvisionedConcurrencyConfig
 
 Specifies a provisioned concurrency configuration for a function's alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias#provisioned_concurrency_config LambdaAlias#provisioned_concurrency_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias#provisioned_concurrency_config LambdaAlias#provisioned_concurrency_config}
 
 ---
 
@@ -1079,7 +1079,7 @@ RoutingConfig LambdaAliasRoutingConfig
 
 The routing configuration of the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias#routing_config LambdaAlias#routing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias#routing_config LambdaAlias#routing_config}
 
 ---
 
@@ -1088,7 +1088,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaAlias.LambdaAliasProvisionedConcurrencyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 &lambdaalias.LambdaAliasProvisionedConcurrencyConfig {
 	ProvisionedConcurrentExecutions: *f64,
@@ -1113,7 +1113,7 @@ ProvisionedConcurrentExecutions *f64
 
 The amount of provisioned concurrency to allocate for the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias#provisioned_concurrent_executions LambdaAlias#provisioned_concurrent_executions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias#provisioned_concurrent_executions LambdaAlias#provisioned_concurrent_executions}
 
 ---
 
@@ -1122,7 +1122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaAlias.LambdaAliasRoutingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 &lambdaalias.LambdaAliasRoutingConfig {
 	AdditionalVersionWeights: interface{},
@@ -1147,7 +1147,7 @@ AdditionalVersionWeights interface{}
 
 The second version, and the percentage of traffic that's routed to it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias#additional_version_weights LambdaAlias#additional_version_weights}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias#additional_version_weights LambdaAlias#additional_version_weights}
 
 ---
 
@@ -1156,7 +1156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaAlias.LambdaAliasRoutingConfigAdditionalVersionWeights.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 &lambdaalias.LambdaAliasRoutingConfigAdditionalVersionWeights {
 	FunctionVersion: *string,
@@ -1183,7 +1183,7 @@ FunctionVersion *string
 
 The qualifier of the second version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias#function_version LambdaAlias#function_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias#function_version LambdaAlias#function_version}
 
 ---
 
@@ -1197,7 +1197,7 @@ FunctionWeight *f64
 
 The percentage of traffic that the alias routes to the second version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_alias#function_weight LambdaAlias#function_weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_alias#function_weight LambdaAlias#function_weight}
 
 ---
 
@@ -1208,7 +1208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaAlias.LambdaAliasProvisionedConcurrencyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 lambdaalias.NewLambdaAliasProvisionedConcurrencyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaAliasProvisionedConcurrencyConfigOutputReference
 ```
@@ -1486,7 +1486,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaAlias.LambdaAliasRoutingConfigAdditionalVersionWeightsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 lambdaalias.NewLambdaAliasRoutingConfigAdditionalVersionWeightsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LambdaAliasRoutingConfigAdditionalVersionWeightsList
 ```
@@ -1646,7 +1646,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaAlias.LambdaAliasRoutingConfigAdditionalVersionWeightsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 lambdaalias.NewLambdaAliasRoutingConfigAdditionalVersionWeightsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LambdaAliasRoutingConfigAdditionalVersionWeightsOutputReference
 ```
@@ -1971,7 +1971,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaAlias.LambdaAliasRoutingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaalias"
 
 lambdaalias.NewLambdaAliasRoutingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaAliasRoutingConfigOutputReference
 ```

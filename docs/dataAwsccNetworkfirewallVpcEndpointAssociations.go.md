@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkfirewallVpcEndpointAssociations <a name="DataAwsccNetworkfirewallVpcEndpointAssociations" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallVpcEndpointAssociations.DataAwsccNetworkfirewallVpcEndpointAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_vpc_endpoint_associations awscc_networkfirewall_vpc_endpoint_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_vpc_endpoint_associations awscc_networkfirewall_vpc_endpoint_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallVpcEndpointAssociations.DataAwsccNetworkfirewallVpcEndpointAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallvpcendpointassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallvpcendpointassociations"
 
 dataawsccnetworkfirewallvpcendpointassociations.NewDataAwsccNetworkfirewallVpcEndpointAssociations(scope Construct, id *string, config DataAwsccNetworkfirewallVpcEndpointAssociationsConfig) DataAwsccNetworkfirewallVpcEndpointAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallVpcEndpointAssociations.DataAwsccNetworkfirewallVpcEndpointAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallvpcendpointassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallvpcendpointassociations"
 
 dataawsccnetworkfirewallvpcendpointassociations.DataAwsccNetworkfirewallVpcEndpointAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallVpcEndpointAssociations.DataAwsccNetworkfirewallVpcEndpointAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallvpcendpointassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallvpcendpointassociations"
 
 dataawsccnetworkfirewallvpcendpointassociations.DataAwsccNetworkfirewallVpcEndpointAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkfirewallvpcendpointassociations.DataAwsccNetworkfirewallVpcEndpo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallVpcEndpointAssociations.DataAwsccNetworkfirewallVpcEndpointAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallvpcendpointassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallvpcendpointassociations"
 
 dataawsccnetworkfirewallvpcendpointassociations.DataAwsccNetworkfirewallVpcEndpointAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkfirewallvpcendpointassociations.DataAwsccNetworkfirewallVpcEndpo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallVpcEndpointAssociations.DataAwsccNetworkfirewallVpcEndpointAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallvpcendpointassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallvpcendpointassociations"
 
 dataawsccnetworkfirewallvpcendpointassociations.DataAwsccNetworkfirewallVpcEndpointAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkfirewallVp
 
 The id of the existing DataAwsccNetworkfirewallVpcEndpointAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_vpc_endpoint_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_vpc_endpoint_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallVpcEndpointAssociations.DataAwsccNetworkfirewallVpcEndpointAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallvpcendpointassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallvpcendpointassociations"
 
 &dataawsccnetworkfirewallvpcendpointassociations.DataAwsccNetworkfirewallVpcEndpointAssociationsConfig {
 	Connection: interface{},

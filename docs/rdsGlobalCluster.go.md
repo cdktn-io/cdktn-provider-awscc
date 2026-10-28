@@ -4,12 +4,12 @@
 
 ### RdsGlobalCluster <a name="RdsGlobalCluster" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster awscc_rds_global_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster awscc_rds_global_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsglobalcluster"
 
 rdsglobalcluster.NewRdsGlobalCluster(scope Construct, id *string, config RdsGlobalClusterConfig) RdsGlobalCluster
 ```
@@ -469,7 +469,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsglobalcluster"
 
 rdsglobalcluster.RdsGlobalCluster_IsConstruct(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsglobalcluster"
 
 rdsglobalcluster.RdsGlobalCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ rdsglobalcluster.RdsGlobalCluster_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsglobalcluster"
 
 rdsglobalcluster.RdsGlobalCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -529,7 +529,7 @@ rdsglobalcluster.RdsGlobalCluster_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsglobalcluster"
 
 rdsglobalcluster.RdsGlobalCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -558,7 +558,7 @@ The construct id used in the generated config for the RdsGlobalCluster to import
 
 The id of the existing RdsGlobalCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -956,7 +956,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsglobalcluster"
 
 &rdsglobalcluster.RdsGlobalClusterConfig {
 	Connection: interface{},
@@ -1081,7 +1081,7 @@ The deletion protection setting for the new global database.
 
 The global database can't be deleted when deletion protection is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster#deletion_protection RdsGlobalCluster#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster#deletion_protection RdsGlobalCluster#deletion_protection}
 
 ---
 
@@ -1098,7 +1098,7 @@ The name of the database engine to be used for this DB cluster.
 Valid Values: aurora (for MySQL 5.6-compatible Aurora), aurora-mysql (for MySQL 5.7-compatible Aurora).
 If you specify the SourceDBClusterIdentifier property, don't specify this property. The value is inherited from the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster#engine RdsGlobalCluster#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster#engine RdsGlobalCluster#engine}
 
 ---
 
@@ -1114,7 +1114,7 @@ The life cycle type of the global cluster.
 
 You can use this setting to enroll your global cluster into Amazon RDS Extended Support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster#engine_lifecycle_support RdsGlobalCluster#engine_lifecycle_support}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster#engine_lifecycle_support RdsGlobalCluster#engine_lifecycle_support}
 
 ---
 
@@ -1130,7 +1130,7 @@ The version number of the database engine to use.
 
 If you specify the SourceDBClusterIdentifier property, don't specify this property. The value is inherited from the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster#engine_version RdsGlobalCluster#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster#engine_version RdsGlobalCluster#engine_version}
 
 ---
 
@@ -1144,7 +1144,7 @@ GlobalClusterIdentifier *string
 
 The cluster identifier of the new global database cluster. This parameter is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster#global_cluster_identifier RdsGlobalCluster#global_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster#global_cluster_identifier RdsGlobalCluster#global_cluster_identifier}
 
 ---
 
@@ -1160,7 +1160,7 @@ The Amazon Resource Name (ARN) to use as the primary cluster of the global datab
 
 This parameter is optional. This parameter is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster#source_db_cluster_identifier RdsGlobalCluster#source_db_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster#source_db_cluster_identifier RdsGlobalCluster#source_db_cluster_identifier}
 
 ---
 
@@ -1176,7 +1176,7 @@ The storage encryption setting for the new global database cluster.
 
 If you specify the SourceDBClusterIdentifier property, don't specify this property. The value is inherited from the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster#storage_encrypted RdsGlobalCluster#storage_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster#storage_encrypted RdsGlobalCluster#storage_encrypted}
 
 ---
 
@@ -1190,7 +1190,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster#tags RdsGlobalCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster#tags RdsGlobalCluster#tags}
 
 ---
 
@@ -1199,7 +1199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalClusterGlobalEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsglobalcluster"
 
 &rdsglobalcluster.RdsGlobalClusterGlobalEndpoint {
 
@@ -1212,7 +1212,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalClusterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsglobalcluster"
 
 &rdsglobalcluster.RdsGlobalClusterTags {
 	Key: *string,
@@ -1241,7 +1241,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster#key RdsGlobalCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster#key RdsGlobalCluster#key}
 
 ---
 
@@ -1257,7 +1257,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_global_cluster#value RdsGlobalCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_global_cluster#value RdsGlobalCluster#value}
 
 ---
 
@@ -1268,7 +1268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalClusterGlobalEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsglobalcluster"
 
 rdsglobalcluster.NewRdsGlobalClusterGlobalEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RdsGlobalClusterGlobalEndpointOutputReference
 ```
@@ -1528,7 +1528,7 @@ func InternalValue() RdsGlobalClusterGlobalEndpoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalClusterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsglobalcluster"
 
 rdsglobalcluster.NewRdsGlobalClusterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RdsGlobalClusterTagsList
 ```
@@ -1688,7 +1688,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalClusterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsglobalcluster"
 
 rdsglobalcluster.NewRdsGlobalClusterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RdsGlobalClusterTagsOutputReference
 ```

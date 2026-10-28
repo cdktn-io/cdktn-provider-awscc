@@ -4,12 +4,12 @@
 
 ### DataAwsccGreengrassv2ComponentVersion <a name="DataAwsccGreengrassv2ComponentVersion" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersion(scope Construct, id *string, config DataAwsccGreengrassv2ComponentVersionConfig) DataAwsccGreengrassv2ComponentVersion
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersion_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersion_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersion.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersion_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersion_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGreengrassv2Compo
 
 The id of the existing DataAwsccGreengrassv2ComponentVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/greengrassv2_component_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/greengrassv2_component_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 &dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersionConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/greengrassv2_component_version#id DataAwsccGreengrassv2ComponentVersion#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/greengrassv2_component_version#id DataAwsccGreengrassv2ComponentVersion#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 &dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersionLambdaFunction {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2c
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentDependencies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 &dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentDependencies {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2c
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 &dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2c
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersEventSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 &dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersEventSources {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2c
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 &dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParams {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2c
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 &dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParams {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2c
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsDevices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 &dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsDevices {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2c
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 &dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsVolumes {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2c
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentPlatforms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 &dataawsccgreengrassv2componentversion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentPlatforms {
 
@@ -893,7 +893,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2c
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentDependenciesMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentDependenciesMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentDependenciesMap
 ```
@@ -1029,7 +1029,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentDependenciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentDependenciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentDependenciesOutputReference
 ```
@@ -1309,7 +1309,7 @@ func InternalValue() DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersEventSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersEventSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersEventSourcesList
 ```
@@ -1458,7 +1458,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersEventSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersEventSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersEventSourcesOutputReference
 ```
@@ -1747,7 +1747,7 @@ func InternalValue() DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsDevicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsDevicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsDevicesList
 ```
@@ -1896,7 +1896,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsDevicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsDevicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsDevicesOutputReference
 ```
@@ -2196,7 +2196,7 @@ func InternalValue() DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsOutputReference
 ```
@@ -2489,7 +2489,7 @@ func InternalValue() DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsVolumesList
 ```
@@ -2638,7 +2638,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsContainerParamsVolumesOutputReference
 ```
@@ -2949,7 +2949,7 @@ func InternalValue() DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersLinuxProcessParamsOutputReference
 ```
@@ -3220,7 +3220,7 @@ func InternalValue() DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentLambdaParametersOutputReference
 ```
@@ -3590,7 +3590,7 @@ func InternalValue() DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentPlatformsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentPlatformsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentPlatformsList
 ```
@@ -3739,7 +3739,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentPlatformsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentPlatformsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponentPlatformsOutputReference
 ```
@@ -4028,7 +4028,7 @@ func InternalValue() DataAwsccGreengrassv2ComponentVersionLambdaFunctionComponen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2ComponentVersion.DataAwsccGreengrassv2ComponentVersionLambdaFunctionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2componentversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2componentversion"
 
 dataawsccgreengrassv2componentversion.NewDataAwsccGreengrassv2ComponentVersionLambdaFunctionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2ComponentVersionLambdaFunctionOutputReference
 ```

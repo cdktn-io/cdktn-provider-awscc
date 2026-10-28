@@ -4,12 +4,12 @@
 
 ### KendraQuerySuggestionsBlockList <a name="KendraQuerySuggestionsBlockList" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list awscc_kendra_query_suggestions_block_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list awscc_kendra_query_suggestions_block_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendraquerysuggestionsblocklist"
 
 kendraquerysuggestionsblocklist.NewKendraQuerySuggestionsBlockList(scope Construct, id *string, config KendraQuerySuggestionsBlockListConfig) KendraQuerySuggestionsBlockList
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockList.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendraquerysuggestionsblocklist"
 
 kendraquerysuggestionsblocklist.KendraQuerySuggestionsBlockList_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendraquerysuggestionsblocklist"
 
 kendraquerysuggestionsblocklist.KendraQuerySuggestionsBlockList_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ kendraquerysuggestionsblocklist.KendraQuerySuggestionsBlockList_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockList.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendraquerysuggestionsblocklist"
 
 kendraquerysuggestionsblocklist.KendraQuerySuggestionsBlockList_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ kendraquerysuggestionsblocklist.KendraQuerySuggestionsBlockList_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendraquerysuggestionsblocklist"
 
 kendraquerysuggestionsblocklist.KendraQuerySuggestionsBlockList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the KendraQuerySuggestionsBloc
 
 The id of the existing KendraQuerySuggestionsBlockList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -894,7 +894,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendraquerysuggestionsblocklist"
 
 &kendraquerysuggestionsblocklist.KendraQuerySuggestionsBlockListConfig {
 	Connection: interface{},
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestions
 	IndexId: *string,
 	Name: *string,
 	RoleArn: *string,
-	SourceS3Path: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListSourceS3Path,
+	SourceS3Path: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListSourceS3Path,
 	Description: *string,
 	Tags: interface{},
 }
@@ -1013,7 +1013,7 @@ IndexId *string
 
 The identifier of the index for the block list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list#index_id KendraQuerySuggestionsBlockList#index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list#index_id KendraQuerySuggestionsBlockList#index_id}
 
 ---
 
@@ -1027,7 +1027,7 @@ Name *string
 
 The name of the block list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list#name KendraQuerySuggestionsBlockList#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list#name KendraQuerySuggestionsBlockList#name}
 
 ---
 
@@ -1041,7 +1041,7 @@ RoleArn *string
 
 The Amazon Resource Name (ARN) of an IAM role with permission to access the S3 bucket that contains the block list text file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list#role_arn KendraQuerySuggestionsBlockList#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list#role_arn KendraQuerySuggestionsBlockList#role_arn}
 
 ---
 
@@ -1055,7 +1055,7 @@ SourceS3Path KendraQuerySuggestionsBlockListSourceS3Path
 
 Information required to find a specific file in an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list#source_s3_path KendraQuerySuggestionsBlockList#source_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list#source_s3_path KendraQuerySuggestionsBlockList#source_s3_path}
 
 ---
 
@@ -1069,7 +1069,7 @@ Description *string
 
 A description for the block list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list#description KendraQuerySuggestionsBlockList#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list#description KendraQuerySuggestionsBlockList#description}
 
 ---
 
@@ -1083,7 +1083,7 @@ Tags interface{}
 
 A list of key-value pairs that identify or categorize the block list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list#tags KendraQuerySuggestionsBlockList#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list#tags KendraQuerySuggestionsBlockList#tags}
 
 ---
 
@@ -1092,7 +1092,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListSourceS3Path.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendraquerysuggestionsblocklist"
 
 &kendraquerysuggestionsblocklist.KendraQuerySuggestionsBlockListSourceS3Path {
 	Bucket: *string,
@@ -1119,7 +1119,7 @@ Bucket *string
 
 The name of the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list#bucket KendraQuerySuggestionsBlockList#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list#bucket KendraQuerySuggestionsBlockList#bucket}
 
 ---
 
@@ -1133,7 +1133,7 @@ Key *string
 
 The name of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list#key KendraQuerySuggestionsBlockList#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list#key KendraQuerySuggestionsBlockList#key}
 
 ---
 
@@ -1142,7 +1142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendraquerysuggestionsblocklist"
 
 &kendraquerysuggestionsblocklist.KendraQuerySuggestionsBlockListTags {
 	Key: *string,
@@ -1169,7 +1169,7 @@ Key *string
 
 The key for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list#key KendraQuerySuggestionsBlockList#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list#key KendraQuerySuggestionsBlockList#key}
 
 ---
 
@@ -1183,7 +1183,7 @@ Value *string
 
 The value associated with the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_query_suggestions_block_list#value KendraQuerySuggestionsBlockList#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_query_suggestions_block_list#value KendraQuerySuggestionsBlockList#value}
 
 ---
 
@@ -1194,7 +1194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListSourceS3PathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendraquerysuggestionsblocklist"
 
 kendraquerysuggestionsblocklist.NewKendraQuerySuggestionsBlockListSourceS3PathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KendraQuerySuggestionsBlockListSourceS3PathOutputReference
 ```
@@ -1487,7 +1487,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendraquerysuggestionsblocklist"
 
 kendraquerysuggestionsblocklist.NewKendraQuerySuggestionsBlockListTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KendraQuerySuggestionsBlockListTagsList
 ```
@@ -1647,7 +1647,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendraquerysuggestionsblocklist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendraquerysuggestionsblocklist"
 
 kendraquerysuggestionsblocklist.NewKendraQuerySuggestionsBlockListTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KendraQuerySuggestionsBlockListTagsOutputReference
 ```

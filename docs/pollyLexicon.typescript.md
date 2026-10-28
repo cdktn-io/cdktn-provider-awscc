@@ -4,7 +4,7 @@
 
 ### PollyLexicon <a name="PollyLexicon" id="@cdktn/provider-awscc.pollyLexicon.PollyLexicon"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon awscc_polly_lexicon}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon awscc_polly_lexicon}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pollyLexicon.PollyLexicon.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the PollyLexicon to import.
 
 The id of the existing PollyLexicon that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -911,7 +911,7 @@ public readonly content: string;
 
 The content of the PLS lexicon in string format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon#content PollyLexicon#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon#content PollyLexicon#content}
 
 ---
 
@@ -925,7 +925,7 @@ public readonly name: string;
 
 The name of the lexicon. Must be an alphanumeric string up to 20 characters long.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon#name PollyLexicon#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon#name PollyLexicon#name}
 
 ---
 

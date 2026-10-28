@@ -4,12 +4,12 @@
 
 ### GlueCustomEntityType <a name="GlueCustomEntityType" id="@cdktn/provider-awscc.glueCustomEntityType.GlueCustomEntityType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_custom_entity_type awscc_glue_custom_entity_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_custom_entity_type awscc_glue_custom_entity_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCustomEntityType.GlueCustomEntityType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecustomentitytype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecustomentitytype"
 
 gluecustomentitytype.NewGlueCustomEntityType(scope Construct, id *string, config GlueCustomEntityTypeConfig) GlueCustomEntityType
 ```
@@ -428,7 +428,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueCustomEntityType.GlueCustomEntityType.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecustomentitytype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecustomentitytype"
 
 gluecustomentitytype.GlueCustomEntityType_IsConstruct(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueCustomEntityType.GlueCustomEntityType.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecustomentitytype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecustomentitytype"
 
 gluecustomentitytype.GlueCustomEntityType_IsTerraformElement(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ gluecustomentitytype.GlueCustomEntityType_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueCustomEntityType.GlueCustomEntityType.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecustomentitytype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecustomentitytype"
 
 gluecustomentitytype.GlueCustomEntityType_IsTerraformResource(x interface{}) *bool
 ```
@@ -488,7 +488,7 @@ gluecustomentitytype.GlueCustomEntityType_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueCustomEntityType.GlueCustomEntityType.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecustomentitytype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecustomentitytype"
 
 gluecustomentitytype.GlueCustomEntityType_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -517,7 +517,7 @@ The construct id used in the generated config for the GlueCustomEntityType to im
 
 The id of the existing GlueCustomEntityType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_custom_entity_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_custom_entity_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -816,7 +816,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCustomEntityType.GlueCustomEntityTypeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecustomentitytype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecustomentitytype"
 
 &gluecustomentitytype.GlueCustomEntityTypeConfig {
 	Connection: interface{},
@@ -931,7 +931,7 @@ ContextWords *[]*string
 
 A list of context words.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_custom_entity_type#context_words GlueCustomEntityType#context_words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_custom_entity_type#context_words GlueCustomEntityType#context_words}
 
 ---
 
@@ -945,7 +945,7 @@ Name *string
 
 The name of the custom entity type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_custom_entity_type#name GlueCustomEntityType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_custom_entity_type#name GlueCustomEntityType#name}
 
 ---
 
@@ -959,7 +959,7 @@ RegexString *string
 
 A regular expression string that is used for detecting sensitive data in a custom pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_custom_entity_type#regex_string GlueCustomEntityType#regex_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_custom_entity_type#regex_string GlueCustomEntityType#regex_string}
 
 ---
 
@@ -973,7 +973,7 @@ Tags *string
 
 Tags to associate with the custom entity type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_custom_entity_type#tags GlueCustomEntityType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_custom_entity_type#tags GlueCustomEntityType#tags}
 
 ---
 

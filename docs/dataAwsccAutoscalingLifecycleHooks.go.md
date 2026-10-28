@@ -4,12 +4,12 @@
 
 ### DataAwsccAutoscalingLifecycleHooks <a name="DataAwsccAutoscalingLifecycleHooks" id="@cdktn/provider-awscc.dataAwsccAutoscalingLifecycleHooks.DataAwsccAutoscalingLifecycleHooks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_lifecycle_hooks awscc_autoscaling_lifecycle_hooks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_lifecycle_hooks awscc_autoscaling_lifecycle_hooks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAutoscalingLifecycleHooks.DataAwsccAutoscalingLifecycleHooks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglifecyclehooks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglifecyclehooks"
 
 dataawsccautoscalinglifecyclehooks.NewDataAwsccAutoscalingLifecycleHooks(scope Construct, id *string, config DataAwsccAutoscalingLifecycleHooksConfig) DataAwsccAutoscalingLifecycleHooks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAutoscalingLifecycleHooks.DataAwsccAutoscalingLifecycleHooks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglifecyclehooks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglifecyclehooks"
 
 dataawsccautoscalinglifecyclehooks.DataAwsccAutoscalingLifecycleHooks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAutoscalingLifecycleHooks.DataAwsccAutoscalingLifecycleHooks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglifecyclehooks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglifecyclehooks"
 
 dataawsccautoscalinglifecyclehooks.DataAwsccAutoscalingLifecycleHooks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccautoscalinglifecyclehooks.DataAwsccAutoscalingLifecycleHooks_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAutoscalingLifecycleHooks.DataAwsccAutoscalingLifecycleHooks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglifecyclehooks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglifecyclehooks"
 
 dataawsccautoscalinglifecyclehooks.DataAwsccAutoscalingLifecycleHooks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccautoscalinglifecyclehooks.DataAwsccAutoscalingLifecycleHooks_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAutoscalingLifecycleHooks.DataAwsccAutoscalingLifecycleHooks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglifecyclehooks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglifecyclehooks"
 
 dataawsccautoscalinglifecyclehooks.DataAwsccAutoscalingLifecycleHooks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAutoscalingLifecy
 
 The id of the existing DataAwsccAutoscalingLifecycleHooks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_lifecycle_hooks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_lifecycle_hooks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAutoscalingLifecycleHooks.DataAwsccAutoscalingLifecycleHooksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglifecyclehooks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglifecyclehooks"
 
 &dataawsccautoscalinglifecyclehooks.DataAwsccAutoscalingLifecycleHooksConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### SecuritylakeDataLake <a name="SecuritylakeDataLake" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLake"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake awscc_securitylake_data_lake}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake awscc_securitylake_data_lake}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLake.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.NewSecuritylakeDataLake(scope Construct, id *string, config SecuritylakeDataLakeConfig) SecuritylakeDataLake
 ```
@@ -487,7 +487,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLake.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.SecuritylakeDataLake_IsConstruct(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLake.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.SecuritylakeDataLake_IsTerraformElement(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ securitylakedatalake.SecuritylakeDataLake_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLake.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.SecuritylakeDataLake_IsTerraformResource(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ securitylakedatalake.SecuritylakeDataLake_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLake.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.SecuritylakeDataLake_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -576,7 +576,7 @@ The construct id used in the generated config for the SecuritylakeDataLake to im
 
 The id of the existing SecuritylakeDataLake that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -919,7 +919,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 &securitylakedatalake.SecuritylakeDataLakeConfig {
 	Connection: interface{},
@@ -929,10 +929,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securitylakeDataLake.SecuritylakeDataLakeEncryptionConfiguration,
-	LifecycleConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfiguration,
+	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securitylakeDataLake.SecuritylakeDataLakeEncryptionConfiguration,
+	LifecycleConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfiguration,
 	MetaStoreManagerRoleArn: *string,
-	ReplicationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securitylakeDataLake.SecuritylakeDataLakeReplicationConfiguration,
+	ReplicationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securitylakeDataLake.SecuritylakeDataLakeReplicationConfiguration,
 	Tags: interface{},
 }
 ```
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
 | <code><a href="#@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeConfig.property.lifecycleConfiguration">LifecycleConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfiguration">SecuritylakeDataLakeLifecycleConfiguration</a></code> | Provides lifecycle details of Amazon Security Lake object. |
 | <code><a href="#@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeConfig.property.metaStoreManagerRoleArn">MetaStoreManagerRoleArn</a></code> | <code>*string</code> | The Amazon Resource Name (ARN) used to index AWS Glue table partitions that are generated by the ingestion and normalization of AWS log sources and custom sources. |
 | <code><a href="#@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeConfig.property.replicationConfiguration">ReplicationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeReplicationConfiguration">SecuritylakeDataLakeReplicationConfiguration</a></code> | Provides replication details of Amazon Security Lake object. |
-| <code><a href="#@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#tags SecuritylakeDataLake#tags}. |
+| <code><a href="#@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#tags SecuritylakeDataLake#tags}. |
 
 ---
 
@@ -1036,7 +1036,7 @@ EncryptionConfiguration SecuritylakeDataLakeEncryptionConfiguration
 
 Provides encryption details of Amazon Security Lake object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#encryption_configuration SecuritylakeDataLake#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#encryption_configuration SecuritylakeDataLake#encryption_configuration}
 
 ---
 
@@ -1050,7 +1050,7 @@ LifecycleConfiguration SecuritylakeDataLakeLifecycleConfiguration
 
 Provides lifecycle details of Amazon Security Lake object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#lifecycle_configuration SecuritylakeDataLake#lifecycle_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#lifecycle_configuration SecuritylakeDataLake#lifecycle_configuration}
 
 ---
 
@@ -1064,7 +1064,7 @@ MetaStoreManagerRoleArn *string
 
 The Amazon Resource Name (ARN) used to index AWS Glue table partitions that are generated by the ingestion and normalization of AWS log sources and custom sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#meta_store_manager_role_arn SecuritylakeDataLake#meta_store_manager_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#meta_store_manager_role_arn SecuritylakeDataLake#meta_store_manager_role_arn}
 
 ---
 
@@ -1078,7 +1078,7 @@ ReplicationConfiguration SecuritylakeDataLakeReplicationConfiguration
 
 Provides replication details of Amazon Security Lake object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#replication_configuration SecuritylakeDataLake#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#replication_configuration SecuritylakeDataLake#replication_configuration}
 
 ---
 
@@ -1090,7 +1090,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#tags SecuritylakeDataLake#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#tags SecuritylakeDataLake#tags}.
 
 ---
 
@@ -1099,7 +1099,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 &securitylakedatalake.SecuritylakeDataLakeEncryptionConfiguration {
 	KmsKeyId: *string,
@@ -1124,7 +1124,7 @@ KmsKeyId *string
 
 The id of KMS encryption key used by Amazon Security Lake to encrypt the Security Lake object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#kms_key_id SecuritylakeDataLake#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#kms_key_id SecuritylakeDataLake#kms_key_id}
 
 ---
 
@@ -1133,10 +1133,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 &securitylakedatalake.SecuritylakeDataLakeLifecycleConfiguration {
-	Expiration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfigurationExpiration,
+	Expiration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfigurationExpiration,
 	Transitions: interface{},
 }
 ```
@@ -1160,7 +1160,7 @@ Expiration SecuritylakeDataLakeLifecycleConfigurationExpiration
 
 Provides data expiration details of Amazon Security Lake object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#expiration SecuritylakeDataLake#expiration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#expiration SecuritylakeDataLake#expiration}
 
 ---
 
@@ -1174,7 +1174,7 @@ Transitions interface{}
 
 Provides data storage transition details of Amazon Security Lake object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#transitions SecuritylakeDataLake#transitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#transitions SecuritylakeDataLake#transitions}
 
 ---
 
@@ -1183,7 +1183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfigurationExpiration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 &securitylakedatalake.SecuritylakeDataLakeLifecycleConfigurationExpiration {
 	Days: *f64,
@@ -1208,7 +1208,7 @@ Days *f64
 
 Number of days before data expires in the Amazon Security Lake object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}
 
 ---
 
@@ -1217,7 +1217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfigurationTransitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 &securitylakedatalake.SecuritylakeDataLakeLifecycleConfigurationTransitions {
 	Days: *f64,
@@ -1244,7 +1244,7 @@ Days *f64
 
 Number of days before data transitions to a different S3 Storage Class in the Amazon Security Lake object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#days SecuritylakeDataLake#days}
 
 ---
 
@@ -1258,7 +1258,7 @@ StorageClass *string
 
 The range of storage classes that you can choose from based on the data access, resiliency, and cost requirements of your workloads.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#storage_class SecuritylakeDataLake#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#storage_class SecuritylakeDataLake#storage_class}
 
 ---
 
@@ -1267,7 +1267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeReplicationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 &securitylakedatalake.SecuritylakeDataLakeReplicationConfiguration {
 	Regions: *[]*string,
@@ -1296,7 +1296,7 @@ Replication enables automatic, asynchronous copying of objects across Amazon S3 
 
 Amazon S3 buckets that are configured for object replication can be owned by the same AWS account or by different accounts. You can replicate objects to a single destination bucket or to multiple destination buckets. The destination buckets can be in different AWS Regions or within the same Region as the source bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#regions SecuritylakeDataLake#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#regions SecuritylakeDataLake#regions}
 
 ---
 
@@ -1312,7 +1312,7 @@ Replication settings for the Amazon S3 buckets.
 
 This parameter uses the AWS Identity and Access Management (IAM) role you created that is managed by Security Lake, to ensure the replication setting is correct.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#role_arn SecuritylakeDataLake#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#role_arn SecuritylakeDataLake#role_arn}
 
 ---
 
@@ -1321,7 +1321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 &securitylakedatalake.SecuritylakeDataLakeTags {
 	Key: *string,
@@ -1350,7 +1350,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, `_`, `.`, `/`, `=`, `+`, and `-`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#key SecuritylakeDataLake#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#key SecuritylakeDataLake#key}
 
 ---
 
@@ -1364,7 +1364,7 @@ Value *string
 
 The value for the tag. You can specify a value that is 0 to 256 characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securitylake_data_lake#value SecuritylakeDataLake#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securitylake_data_lake#value SecuritylakeDataLake#value}
 
 ---
 
@@ -1375,7 +1375,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.NewSecuritylakeDataLakeEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecuritylakeDataLakeEncryptionConfigurationOutputReference
 ```
@@ -1653,7 +1653,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfigurationExpirationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.NewSecuritylakeDataLakeLifecycleConfigurationExpirationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecuritylakeDataLakeLifecycleConfigurationExpirationOutputReference
 ```
@@ -1931,7 +1931,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.NewSecuritylakeDataLakeLifecycleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecuritylakeDataLakeLifecycleConfigurationOutputReference
 ```
@@ -2264,7 +2264,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfigurationTransitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.NewSecuritylakeDataLakeLifecycleConfigurationTransitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecuritylakeDataLakeLifecycleConfigurationTransitionsList
 ```
@@ -2424,7 +2424,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeLifecycleConfigurationTransitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.NewSecuritylakeDataLakeLifecycleConfigurationTransitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecuritylakeDataLakeLifecycleConfigurationTransitionsOutputReference
 ```
@@ -2749,7 +2749,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeReplicationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.NewSecuritylakeDataLakeReplicationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecuritylakeDataLakeReplicationConfigurationOutputReference
 ```
@@ -3056,7 +3056,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.NewSecuritylakeDataLakeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecuritylakeDataLakeTagsList
 ```
@@ -3216,7 +3216,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeDataLake.SecuritylakeDataLakeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securitylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securitylakedatalake"
 
 securitylakedatalake.NewSecuritylakeDataLakeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecuritylakeDataLakeTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### Route53RecoveryreadinessReadinessCheck <a name="Route53RecoveryreadinessReadinessCheck" id="@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_readiness_check awscc_route53recoveryreadiness_readiness_check}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_readiness_check awscc_route53recoveryreadiness_readiness_check}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessreadinesscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessreadinesscheck"
 
 route53recoveryreadinessreadinesscheck.NewRoute53RecoveryreadinessReadinessCheck(scope Construct, id *string, config Route53RecoveryreadinessReadinessCheckConfig) Route53RecoveryreadinessReadinessCheck
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessreadinesscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessreadinesscheck"
 
 route53recoveryreadinessreadinesscheck.Route53RecoveryreadinessReadinessCheck_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessreadinesscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessreadinesscheck"
 
 route53recoveryreadinessreadinesscheck.Route53RecoveryreadinessReadinessCheck_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ route53recoveryreadinessreadinesscheck.Route53RecoveryreadinessReadinessCheck_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessreadinesscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessreadinesscheck"
 
 route53recoveryreadinessreadinesscheck.Route53RecoveryreadinessReadinessCheck_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ route53recoveryreadinessreadinesscheck.Route53RecoveryreadinessReadinessCheck_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessreadinesscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessreadinesscheck"
 
 route53recoveryreadinessreadinesscheck.Route53RecoveryreadinessReadinessCheck_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the Route53RecoveryreadinessRe
 
 The id of the existing Route53RecoveryreadinessReadinessCheck that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_readiness_check#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_readiness_check#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -811,7 +811,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessreadinesscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessreadinesscheck"
 
 &route53recoveryreadinessreadinesscheck.Route53RecoveryreadinessReadinessCheckConfig {
 	Connection: interface{},
@@ -924,7 +924,7 @@ ReadinessCheckName *string
 
 Name of the ReadinessCheck to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_readiness_check#readiness_check_name Route53RecoveryreadinessReadinessCheck#readiness_check_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_readiness_check#readiness_check_name Route53RecoveryreadinessReadinessCheck#readiness_check_name}
 
 ---
 
@@ -938,7 +938,7 @@ ResourceSetName *string
 
 The name of the resource set to check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_readiness_check#resource_set_name Route53RecoveryreadinessReadinessCheck#resource_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_readiness_check#resource_set_name Route53RecoveryreadinessReadinessCheck#resource_set_name}
 
 ---
 
@@ -952,7 +952,7 @@ Tags interface{}
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_readiness_check#tags Route53RecoveryreadinessReadinessCheck#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_readiness_check#tags Route53RecoveryreadinessReadinessCheck#tags}
 
 ---
 
@@ -961,7 +961,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessreadinesscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessreadinesscheck"
 
 &route53recoveryreadinessreadinesscheck.Route53RecoveryreadinessReadinessCheckTags {
 	Key: *string,
@@ -973,8 +973,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadine
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_readiness_check#key Route53RecoveryreadinessReadinessCheck#key}. |
-| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_readiness_check#value Route53RecoveryreadinessReadinessCheck#value}. |
+| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_readiness_check#key Route53RecoveryreadinessReadinessCheck#key}. |
+| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_readiness_check#value Route53RecoveryreadinessReadinessCheck#value}. |
 
 ---
 
@@ -986,7 +986,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_readiness_check#key Route53RecoveryreadinessReadinessCheck#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_readiness_check#key Route53RecoveryreadinessReadinessCheck#key}.
 
 ---
 
@@ -998,7 +998,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_readiness_check#value Route53RecoveryreadinessReadinessCheck#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_readiness_check#value Route53RecoveryreadinessReadinessCheck#value}.
 
 ---
 
@@ -1009,7 +1009,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessreadinesscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessreadinesscheck"
 
 route53recoveryreadinessreadinesscheck.NewRoute53RecoveryreadinessReadinessCheckTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Route53RecoveryreadinessReadinessCheckTagsList
 ```
@@ -1169,7 +1169,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessreadinesscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessreadinesscheck"
 
 route53recoveryreadinessreadinesscheck.NewRoute53RecoveryreadinessReadinessCheckTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Route53RecoveryreadinessReadinessCheckTagsOutputReference
 ```

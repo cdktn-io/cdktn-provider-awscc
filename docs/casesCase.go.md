@@ -4,12 +4,12 @@
 
 ### CasesCase <a name="CasesCase" id="@cdktn/provider-awscc.casesCase.CasesCase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case awscc_cases_case}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case awscc_cases_case}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCase.CasesCase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescase"
 
 casescase.NewCasesCase(scope Construct, id *string, config CasesCaseConfig) CasesCase
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.casesCase.CasesCase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescase"
 
 casescase.CasesCase_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.casesCase.CasesCase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescase"
 
 casescase.CasesCase_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ casescase.CasesCase_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.casesCase.CasesCase.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescase"
 
 casescase.CasesCase_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ casescase.CasesCase_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.casesCase.CasesCase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescase"
 
 casescase.CasesCase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the CasesCase to import.
 
 The id of the existing CasesCase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -852,7 +852,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCase.CasesCaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescase"
 
 &casescase.CasesCaseConfig {
 	Connection: interface{},
@@ -969,7 +969,7 @@ CustomerId *string
 
 The full customer profile ARN for the case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case#customer_id CasesCase#customer_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case#customer_id CasesCase#customer_id}
 
 ---
 
@@ -983,7 +983,7 @@ DomainId *string
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case#domain_id CasesCase#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case#domain_id CasesCase#domain_id}
 
 ---
 
@@ -997,7 +997,7 @@ TemplateId *string
 
 A unique identifier of a template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case#template_id CasesCase#template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case#template_id CasesCase#template_id}
 
 ---
 
@@ -1011,7 +1011,7 @@ Title *string
 
 The title of the case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case#title CasesCase#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case#title CasesCase#title}
 
 ---
 
@@ -1025,7 +1025,7 @@ Tags interface{}
 
 A list of tags for the case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case#tags CasesCase#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case#tags CasesCase#tags}
 
 ---
 
@@ -1034,7 +1034,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCase.CasesCaseTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescase"
 
 &casescase.CasesCaseTags {
 	Key: *string,
@@ -1061,7 +1061,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case#key CasesCase#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case#key CasesCase#key}
 
 ---
 
@@ -1075,7 +1075,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case#value CasesCase#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case#value CasesCase#value}
 
 ---
 
@@ -1086,7 +1086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCase.CasesCaseTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescase"
 
 casescase.NewCasesCaseTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CasesCaseTagsList
 ```
@@ -1246,7 +1246,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCase.CasesCaseTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescase"
 
 casescase.NewCasesCaseTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CasesCaseTagsOutputReference
 ```

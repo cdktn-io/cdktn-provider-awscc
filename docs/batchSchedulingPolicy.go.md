@@ -4,12 +4,12 @@
 
 ### BatchSchedulingPolicy <a name="BatchSchedulingPolicy" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy awscc_batch_scheduling_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy awscc_batch_scheduling_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 batchschedulingpolicy.NewBatchSchedulingPolicy(scope Construct, id *string, config BatchSchedulingPolicyConfig) BatchSchedulingPolicy
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 batchschedulingpolicy.BatchSchedulingPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 batchschedulingpolicy.BatchSchedulingPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ batchschedulingpolicy.BatchSchedulingPolicy_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 batchschedulingpolicy.BatchSchedulingPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ batchschedulingpolicy.BatchSchedulingPolicy_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 batchschedulingpolicy.BatchSchedulingPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the BatchSchedulingPolicy to i
 
 The id of the existing BatchSchedulingPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -853,7 +853,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 &batchschedulingpolicy.BatchSchedulingPolicyConfig {
 	Connection: interface{},
@@ -863,9 +863,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	FairsharePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicy,
+	FairsharePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicy,
 	Name: *string,
-	QuotaSharePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.batchSchedulingPolicy.BatchSchedulingPolicyQuotaSharePolicy,
+	QuotaSharePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.batchSchedulingPolicy.BatchSchedulingPolicyQuotaSharePolicy,
 	Tags: *map[string]*string,
 }
 ```
@@ -968,7 +968,7 @@ FairsharePolicy BatchSchedulingPolicyFairsharePolicy
 
 Fair Share Policy for the Job Queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#fairshare_policy BatchSchedulingPolicy#fairshare_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#fairshare_policy BatchSchedulingPolicy#fairshare_policy}
 
 ---
 
@@ -982,7 +982,7 @@ Name *string
 
 Name of Scheduling Policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#name BatchSchedulingPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#name BatchSchedulingPolicy#name}
 
 ---
 
@@ -996,7 +996,7 @@ QuotaSharePolicy BatchSchedulingPolicyQuotaSharePolicy
 
 Quota Share Policy for the Job Queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#quota_share_policy BatchSchedulingPolicy#quota_share_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#quota_share_policy BatchSchedulingPolicy#quota_share_policy}
 
 ---
 
@@ -1010,7 +1010,7 @@ Tags *map[string]*string
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#tags BatchSchedulingPolicy#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#tags BatchSchedulingPolicy#tags}
 
 ---
 
@@ -1019,7 +1019,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 &batchschedulingpolicy.BatchSchedulingPolicyFairsharePolicy {
 	ComputeReservation: *f64,
@@ -1032,8 +1032,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicy.property.computeReservation">ComputeReservation</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#compute_reservation BatchSchedulingPolicy#compute_reservation}. |
-| <code><a href="#@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicy.property.shareDecaySeconds">ShareDecaySeconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#share_decay_seconds BatchSchedulingPolicy#share_decay_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicy.property.computeReservation">ComputeReservation</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#compute_reservation BatchSchedulingPolicy#compute_reservation}. |
+| <code><a href="#@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicy.property.shareDecaySeconds">ShareDecaySeconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#share_decay_seconds BatchSchedulingPolicy#share_decay_seconds}. |
 | <code><a href="#@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicy.property.shareDistribution">ShareDistribution</a></code> | <code>interface{}</code> | List of Share Attributes. |
 
 ---
@@ -1046,7 +1046,7 @@ ComputeReservation *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#compute_reservation BatchSchedulingPolicy#compute_reservation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#compute_reservation BatchSchedulingPolicy#compute_reservation}.
 
 ---
 
@@ -1058,7 +1058,7 @@ ShareDecaySeconds *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#share_decay_seconds BatchSchedulingPolicy#share_decay_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#share_decay_seconds BatchSchedulingPolicy#share_decay_seconds}.
 
 ---
 
@@ -1072,7 +1072,7 @@ ShareDistribution interface{}
 
 List of Share Attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#share_distribution BatchSchedulingPolicy#share_distribution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#share_distribution BatchSchedulingPolicy#share_distribution}
 
 ---
 
@@ -1081,7 +1081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicyShareDistribution.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 &batchschedulingpolicy.BatchSchedulingPolicyFairsharePolicyShareDistribution {
 	ShareIdentifier: *string,
@@ -1093,8 +1093,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicyShareDistribution.property.shareIdentifier">ShareIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#share_identifier BatchSchedulingPolicy#share_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicyShareDistribution.property.weightFactor">WeightFactor</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#weight_factor BatchSchedulingPolicy#weight_factor}. |
+| <code><a href="#@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicyShareDistribution.property.shareIdentifier">ShareIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#share_identifier BatchSchedulingPolicy#share_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicyShareDistribution.property.weightFactor">WeightFactor</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#weight_factor BatchSchedulingPolicy#weight_factor}. |
 
 ---
 
@@ -1106,7 +1106,7 @@ ShareIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#share_identifier BatchSchedulingPolicy#share_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#share_identifier BatchSchedulingPolicy#share_identifier}.
 
 ---
 
@@ -1118,7 +1118,7 @@ WeightFactor *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#weight_factor BatchSchedulingPolicy#weight_factor}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#weight_factor BatchSchedulingPolicy#weight_factor}.
 
 ---
 
@@ -1127,7 +1127,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyQuotaSharePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 &batchschedulingpolicy.BatchSchedulingPolicyQuotaSharePolicy {
 	IdleResourceAssignmentStrategy: *string,
@@ -1138,7 +1138,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyQuotaSharePolicy.property.idleResourceAssignmentStrategy">IdleResourceAssignmentStrategy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#idle_resource_assignment_strategy BatchSchedulingPolicy#idle_resource_assignment_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyQuotaSharePolicy.property.idleResourceAssignmentStrategy">IdleResourceAssignmentStrategy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#idle_resource_assignment_strategy BatchSchedulingPolicy#idle_resource_assignment_strategy}. |
 
 ---
 
@@ -1150,7 +1150,7 @@ IdleResourceAssignmentStrategy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_scheduling_policy#idle_resource_assignment_strategy BatchSchedulingPolicy#idle_resource_assignment_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_scheduling_policy#idle_resource_assignment_strategy BatchSchedulingPolicy#idle_resource_assignment_strategy}.
 
 ---
 
@@ -1161,7 +1161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 batchschedulingpolicy.NewBatchSchedulingPolicyFairsharePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BatchSchedulingPolicyFairsharePolicyOutputReference
 ```
@@ -1510,7 +1510,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicyShareDistributionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 batchschedulingpolicy.NewBatchSchedulingPolicyFairsharePolicyShareDistributionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BatchSchedulingPolicyFairsharePolicyShareDistributionList
 ```
@@ -1670,7 +1670,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyFairsharePolicyShareDistributionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 batchschedulingpolicy.NewBatchSchedulingPolicyFairsharePolicyShareDistributionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BatchSchedulingPolicyFairsharePolicyShareDistributionOutputReference
 ```
@@ -1995,7 +1995,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.batchSchedulingPolicy.BatchSchedulingPolicyQuotaSharePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchschedulingpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchschedulingpolicy"
 
 batchschedulingpolicy.NewBatchSchedulingPolicyQuotaSharePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BatchSchedulingPolicyQuotaSharePolicyOutputReference
 ```

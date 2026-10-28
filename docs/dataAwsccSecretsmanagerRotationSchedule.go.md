@@ -4,12 +4,12 @@
 
 ### DataAwsccSecretsmanagerRotationSchedule <a name="DataAwsccSecretsmanagerRotationSchedule" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 dataawsccsecretsmanagerrotationschedule.NewDataAwsccSecretsmanagerRotationSchedule(scope Construct, id *string, config DataAwsccSecretsmanagerRotationScheduleConfig) DataAwsccSecretsmanagerRotationSchedule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationSchedule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 dataawsccsecretsmanagerrotationschedule.DataAwsccSecretsmanagerRotationSchedule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationSchedule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 dataawsccsecretsmanagerrotationschedule.DataAwsccSecretsmanagerRotationSchedule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecretsmanagerrotationschedule.DataAwsccSecretsmanagerRotationSchedule_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationSchedule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 dataawsccsecretsmanagerrotationschedule.DataAwsccSecretsmanagerRotationSchedule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecretsmanagerrotationschedule.DataAwsccSecretsmanagerRotationSchedule_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationSchedule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 dataawsccsecretsmanagerrotationschedule.DataAwsccSecretsmanagerRotationSchedule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecretsmanagerRot
 
 The id of the existing DataAwsccSecretsmanagerRotationSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_rotation_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_rotation_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 &dataawsccsecretsmanagerrotationschedule.DataAwsccSecretsmanagerRotationScheduleConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_rotation_schedule#id DataAwsccSecretsmanagerRotationSchedule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_rotation_schedule#id DataAwsccSecretsmanagerRotationSchedule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationScheduleExternalSecretRotationMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 &dataawsccsecretsmanagerrotationschedule.DataAwsccSecretsmanagerRotationScheduleExternalSecretRotationMetadata {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationScheduleHostedRotationLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 &dataawsccsecretsmanagerrotationschedule.DataAwsccSecretsmanagerRotationScheduleHostedRotationLambda {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationScheduleRotationRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 &dataawsccsecretsmanagerrotationschedule.DataAwsccSecretsmanagerRotationScheduleRotationRules {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationScheduleExternalSecretRotationMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 dataawsccsecretsmanagerrotationschedule.NewDataAwsccSecretsmanagerRotationScheduleExternalSecretRotationMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecretsmanagerRotationScheduleExternalSecretRotationMetadataList
 ```
@@ -986,7 +986,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationScheduleExternalSecretRotationMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 dataawsccsecretsmanagerrotationschedule.NewDataAwsccSecretsmanagerRotationScheduleExternalSecretRotationMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecretsmanagerRotationScheduleExternalSecretRotationMetadataOutputReference
 ```
@@ -1275,7 +1275,7 @@ func InternalValue() DataAwsccSecretsmanagerRotationScheduleExternalSecretRotati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationScheduleHostedRotationLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 dataawsccsecretsmanagerrotationschedule.NewDataAwsccSecretsmanagerRotationScheduleHostedRotationLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecretsmanagerRotationScheduleHostedRotationLambdaOutputReference
 ```
@@ -1645,7 +1645,7 @@ func InternalValue() DataAwsccSecretsmanagerRotationScheduleHostedRotationLambda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedule.DataAwsccSecretsmanagerRotationScheduleRotationRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerrotationschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerrotationschedule"
 
 dataawsccsecretsmanagerrotationschedule.NewDataAwsccSecretsmanagerRotationScheduleRotationRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecretsmanagerRotationScheduleRotationRulesOutputReference
 ```
